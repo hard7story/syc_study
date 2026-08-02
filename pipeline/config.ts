@@ -47,7 +47,7 @@ export const config = {
   maxSnippetChars: envInt('MAX_SNIPPET_CHARS', 3000),
   /** LLM 설정 */
   llmProvider: process.env.LLM_PROVIDER ?? 'anthropic', // 'anthropic' | 'openai-compat'
-  anthropicModel: process.env.ANTHROPIC_MODEL ?? 'claude-haiku-4-5',
+  anthropicModel: process.env.ANTHROPIC_MODEL?.trim() || 'claude-haiku-4-5',
   /** openai-compat (미니PC Ollama 등 확장용) */
   openaiBaseUrl: process.env.OPENAI_BASE_URL ?? 'http://localhost:11434/v1',
   openaiModel: process.env.OPENAI_MODEL ?? 'llama3',
@@ -59,7 +59,8 @@ export const config = {
    * 관심 키워드 가중치 — 매칭되는 글이 소스 내에서 먼저 선별된다.
    * 형식: "키워드" 또는 "키워드:가중치" 콤마 구분.
    */
-  interestKeywords: parseKeywords(process.env.INTEREST_KEYWORDS ?? DEFAULT_INTEREST_KEYWORDS),
+  // 빈 문자열(변수 미설정 상태로 전달)도 기본값으로 처리
+  interestKeywords: parseKeywords(process.env.INTEREST_KEYWORDS?.trim() || DEFAULT_INTEREST_KEYWORDS),
 } as const;
 
 /** KST 기준 오늘 날짜 YYYY-MM-DD */

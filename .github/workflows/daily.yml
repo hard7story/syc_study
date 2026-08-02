@@ -37,6 +37,10 @@ jobs:
         if: github.event_name != 'push'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # 저장소 Settings → Secrets and variables → Actions → Variables 에서 관리
+          INTEREST_KEYWORDS: ${{ vars.INTEREST_KEYWORDS }}
+          MAX_ARTICLES: ${{ vars.MAX_ARTICLES }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
         run: npx tsx pipeline/run.ts
 
       - name: Commit collected data
