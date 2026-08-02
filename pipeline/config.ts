@@ -12,6 +12,28 @@ function envInt(name: string, def: number): number {
   return v ? Number.parseInt(v, 10) : def;
 }
 
+export interface InterestKeyword {
+  keyword: string;
+  weight: number;
+}
+
+/** "llm,rust:2,자동화" 형식 파싱 — `:숫자`로 키워드별 가중치 지정 */
+export function parseKeywords(raw: string): InterestKeyword[] {
+  return raw
+    .split(',')
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .map((part) => {
+      const m = part.match(/^(.+?):(\d+(?:\.\d+)?)$/);
+      return m
+        ? { keyword: m[1].trim().toLowerCase(), weight: Number(m[2]) }
+        : { keyword: part.toLowerCase(), weight: 1 };
+    });
+}
+
+/** 기본 관심 키워드 — 취향에 맞게 수정하거나 INTEREST_KEYWORDS env로 오버라이드 */
+const DEFAULT_INTEREST_KEYWORDS = 'llm:2,claude,ai,ollama,typescript,astro,자동화';
+
 export const config = {
   /** 하루 처리 건수 상한 — 예산 가드 */
   maxArticles: envInt('MAX_ARTICLES', 20),
@@ -33,6 +55,11 @@ export const config = {
   userAgent: 'syc-study-bot/0.1 (personal tech digest; contact: hard7story@gmail.com)',
   /** seen.json 보관 일수 */
   seenRetentionDays: 30,
+  /**
+   * 관심 키워드 가중치 — 매칭되는 글이 소스 내에서 먼저 선별된다.
+   * 형식: "키워드" 또는 "키워드:가중치" 콤마 구분.
+   */
+  interestKeywords: parseKeywords(process.env.INTEREST_KEYWORDS ?? DEFAULT_INTEREST_KEYWORDS),
 } as const;
 
 /** KST 기준 오늘 날짜 YYYY-MM-DD */

@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { config, kstDateString } from './config.ts';
 import { fetchText, stripHtml } from './fetch-util.ts';
+import { interestScore } from './interest.ts';
 import { getProvider } from './llm/provider.ts';
 import { selectArticles } from './select.ts';
 import { fetchGeekNews } from './sources/geeknews.ts';
@@ -79,7 +80,10 @@ async function main() {
   let selected = selectArticles(all, seenIds);
   if (limit) selected = selected.slice(0, limit);
   console.log(`  ${selected.length}건 선별 (상한 ${limit ?? config.maxArticles})`);
-  for (const a of selected) console.log(`    [${a.source}] ${a.title}`);
+  for (const a of selected) {
+    const score = interestScore(a);
+    console.log(`    ${score > 0 ? `★${score} ` : ''}[${a.source}] ${a.title}`);
+  }
 
   if (dryRun) {
     console.log('--dry-run: 요약 없이 종료');

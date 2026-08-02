@@ -1,4 +1,5 @@
 import { config } from './config.ts';
+import { interestScore } from './interest.ts';
 import type { RawArticle, SourceId } from './types.ts';
 
 /** 제목 정규화 — 교차 소스 중복 판별용 */
@@ -28,16 +29,22 @@ export function selectArticles(all: RawArticle[], seenIds: Set<string>): RawArti
   bySource.hn = bySource.hn.filter((a) => !isDuplicateOfKorean(a, koreanTitles));
   bySource.reddit = bySource.reddit.filter((a) => !isDuplicateOfKorean(a, koreanTitles));
 
-  // HN: 점수 필터 + 점수순
+  // 관심 키워드 점수 — 소스 내 우선순위 1순위 (동점이면 기존 기준 적용)
+  const interest = new Map<string, number>(fresh.map((a) => [a.id, interestScore(a)]));
+  const byInterest = (a: RawArticle, b: RawArticle) =>
+    (interest.get(b.id) ?? 0) - (interest.get(a.id) ?? 0);
+
+  // HN: 점수 필터 + (관심 → 점수순)
   bySource.hn = bySource.hn
     .filter((a) => (a.score ?? 0) >= config.hnMinPoints)
-    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
-  // Reddit: 피드 순서(핫) 유지
-  // GeekNews / 요즘IT: 최신순
+    .sort((a, b) => byInterest(a, b) || (b.score ?? 0) - (a.score ?? 0));
+  // Reddit: 관심 → 피드 순서(핫) 유지 (sort는 stable이라 동점 시 원래 순서 보존)
+  bySource.reddit.sort(byInterest);
+  // GeekNews / 요즘IT: 관심 → 최신순
   const byDateDesc = (a: RawArticle, b: RawArticle) =>
     Date.parse(b.publishedAt) - Date.parse(a.publishedAt);
-  bySource.geeknews.sort(byDateDesc);
-  bySource.yozm.sort(byDateDesc);
+  bySource.geeknews.sort((a, b) => byInterest(a, b) || byDateDesc(a, b));
+  bySource.yozm.sort((a, b) => byInterest(a, b) || byDateDesc(a, b));
 
   // 쿼터 적용
   const quotaed: Record<SourceId, RawArticle[]> = {

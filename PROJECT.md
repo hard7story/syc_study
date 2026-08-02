@@ -51,6 +51,10 @@ npm run dev                          # 사이트 확인 (localhost:4321/syc_stud
 
 ## 운영 노트
 
+- **관심 키워드**: 제목·본문에 키워드가 매칭되면 소스 내 선별 우선순위가 올라간다 (쿼터는 유지).
+  기본값은 `pipeline/config.ts`의 `DEFAULT_INTEREST_KEYWORDS` — 직접 수정하거나
+  `INTEREST_KEYWORDS="llm:2,rust,자동화"` env로 오버라이드 (`:숫자`는 가중치, 기본 1).
+  제목 매칭은 가중치 전액, 본문 매칭은 절반. 실행 로그에서 `★점수`로 확인 가능.
 - **비용 조정**: `MAX_ARTICLES`(기본 20), `pipeline/config.ts`의 쿼터, `ANTHROPIC_MODEL`
   - 품질 우선 시 `claude-sonnet-5` (비용 약 3~4배, 월 $8~ 예상 — $5 예산 초과 가능)
 - **Reddit 429**: 클라우드 IP에서 자주 차단됨. 실패해도 다른 소스는 정상 수집(실패 허용 설계). 지속 실패 시 `config.ts`의 `subreddits`를 비우면 시도 자체를 생략.
@@ -76,6 +80,6 @@ npm run dev                          # 사이트 확인 (localhost:4321/syc_stud
 - [ ] 실제 실행 후 요약 품질 확인 — 미흡하면 프롬프트(`pipeline/llm/provider.ts`의 SYSTEM_PROMPT) 조정 또는 Sonnet 전환 검토
 - [ ] 1주 운영 후 실비용 확인 (Actions 로그의 `[usage]` 라인)
 - [ ] Batch API 전환으로 비용 50% 절감 (배치 완료 폴링 필요 — 현재는 단순 순차 호출)
-- [ ] 관심 키워드 기반 선별 가중치 (예: rust, llm 태그 우선)
+- [x] 관심 키워드 기반 선별 가중치 — 2026-08-02 구현 (`pipeline/interest.ts`, 위 운영 노트 참조)
 - [ ] 주간 다이제스트 페이지, 태그별 보기
 - [ ] 커리어리 수집기 (Playwright 필요)
