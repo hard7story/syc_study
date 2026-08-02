@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { baseUrl as base, formatDateKo, getAllDays } from '../../lib/data.ts';
+
+const days = getAllDays();
+---
+
+<Layout title="아카이브 — 데일리 테크 브리핑">
+  <h1 class="mb-4 text-xl font-bold">아카이브</h1>
+  {
+    days.length > 0 ? (
+      <ul class="divide-y divide-slate-200 rounded-xl border border-slate-200 bg-white">
+        {days.map((day) => (
+          <li>
+            <a
+              href={`${base}archive/${day.date}/`}
+              class="flex items-center justify-between px-4 py-3 hover:bg-slate-50"
+            >
+              <span class="font-medium">{formatDateKo(day.date)}</span>
+              <span class="text-sm text-slate-400">{day.articles.length}건 →</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="py-20 text-center text-slate-500">아직 아카이브가 없습니다.</p>
+    )
+  }
+</Layout>

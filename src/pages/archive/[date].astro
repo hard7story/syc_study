@@ -1,0 +1,24 @@
+---
+import ArticleCard from '../../components/ArticleCard.astro';
+import Layout from '../../layouts/Layout.astro';
+import { baseUrl as base, formatDateKo, getAllDays } from '../../lib/data.ts';
+
+export function getStaticPaths() {
+  return getAllDays().map((day) => ({
+    params: { date: day.date },
+    props: { day },
+  }));
+}
+
+const { day } = Astro.props;
+---
+
+<Layout title={`${formatDateKo(day.date)} — 데일리 테크 브리핑`}>
+  <div class="mb-4 flex items-baseline justify-between">
+    <h1 class="text-xl font-bold">{formatDateKo(day.date)}</h1>
+    <a href={`${base}archive/`} class="text-sm text-slate-500 hover:underline">← 목록</a>
+  </div>
+  <div class="flex flex-col gap-3">
+    {day.articles.map((article) => <ArticleCard article={article} />)}
+  </div>
+</Layout>

@@ -1,0 +1,31 @@
+---
+import ArticleCard from '../components/ArticleCard.astro';
+import Layout from '../layouts/Layout.astro';
+import { formatDateKo, getLatestDay } from '../lib/data.ts';
+
+const latest = getLatestDay();
+---
+
+<Layout>
+  {
+    latest ? (
+      <>
+        <div class="mb-4 flex items-baseline justify-between">
+          <h1 class="text-xl font-bold">{formatDateKo(latest.date)}</h1>
+          <span class="text-xs text-slate-400">{latest.articles.length}건</span>
+        </div>
+        <div class="flex flex-col gap-3">
+          {latest.articles.map((article) => (
+            <ArticleCard article={article} />
+          ))}
+        </div>
+      </>
+    ) : (
+      <div class="py-20 text-center text-slate-500">
+        <p class="text-4xl">📭</p>
+        <p class="mt-4">아직 수집된 브리핑이 없습니다.</p>
+        <p class="mt-1 text-sm">파이프라인이 실행되면 이곳에 표시됩니다.</p>
+      </div>
+    )
+  }
+</Layout>
