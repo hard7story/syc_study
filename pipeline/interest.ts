@@ -11,15 +11,16 @@ function matches(keyword: string, text: string): boolean {
 
 /**
  * 관심 점수: 제목 매칭 = 가중치 전액, 스니펫 매칭 = 절반.
- * 키워드당 한 번만 집계 (반복 언급으로 점수가 부풀지 않도록).
+ * 동의어 그룹(`java|자바`)은 어떤 표기가 몇 개 매칭되든 그룹당 한 번만 집계 —
+ * 한/영 병기 글이 이중 가산되지 않는다.
  */
 export function interestScore(article: RawArticle): number {
   const title = article.title.toLowerCase();
   const snippet = (article.snippet ?? '').toLowerCase();
   let score = 0;
-  for (const { keyword, weight } of config.interestKeywords) {
-    if (matches(keyword, title)) score += weight;
-    else if (matches(keyword, snippet)) score += weight * 0.5;
+  for (const { alternatives, weight } of config.interestKeywords) {
+    if (alternatives.some((alt) => matches(alt, title))) score += weight;
+    else if (alternatives.some((alt) => matches(alt, snippet))) score += weight * 0.5;
   }
   return score;
 }

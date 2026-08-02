@@ -13,11 +13,15 @@ function envInt(name: string, def: number): number {
 }
 
 export interface InterestKeyword {
-  keyword: string;
+  /** 동의어 그룹 — 여러 표기가 매칭돼도 그룹당 한 번만 집계 */
+  alternatives: string[];
   weight: number;
 }
 
-/** "llm,rust:2,자동화" 형식 파싱 — `:숫자`로 키워드별 가중치 지정 */
+/**
+ * "java|자바:2,llm,자동화" 형식 파싱.
+ * `,` = 키워드(그룹) 구분, `|` = 그룹 내 동의어 구분, `:숫자` = 그룹 가중치 (기본 1).
+ */
 export function parseKeywords(raw: string): InterestKeyword[] {
   return raw
     .split(',')
@@ -25,10 +29,15 @@ export function parseKeywords(raw: string): InterestKeyword[] {
     .filter(Boolean)
     .map((part) => {
       const m = part.match(/^(.+?):(\d+(?:\.\d+)?)$/);
-      return m
-        ? { keyword: m[1].trim().toLowerCase(), weight: Number(m[2]) }
-        : { keyword: part.toLowerCase(), weight: 1 };
-    });
+      const body = m ? m[1] : part;
+      const weight = m ? Number(m[2]) : 1;
+      const alternatives = body
+        .split('|')
+        .map((alt) => alt.trim().toLowerCase())
+        .filter(Boolean);
+      return { alternatives, weight };
+    })
+    .filter((g) => g.alternatives.length > 0);
 }
 
 /** 기본 관심 키워드 — 취향에 맞게 수정하거나 INTEREST_KEYWORDS env로 오버라이드 */

@@ -53,7 +53,8 @@ npm run dev                          # 사이트 확인 (localhost:4321/syc_stud
 
 - **관심 키워드**: 제목·본문에 키워드가 매칭되면 소스 내 선별 우선순위가 올라간다 (쿼터는 유지).
   **저장소 Settings → Secrets and variables → Actions → Variables의 `INTEREST_KEYWORDS`에서 관리**
-  (코드 수정·재배포 없이 값만 바꾸면 다음 실행부터 반영). 형식: `llm:2,rust,자동화` — `:숫자`는 가중치(기본 1).
+  (코드 수정·재배포 없이 값만 바꾸면 다음 실행부터 반영).
+  형식: `java|자바:2,llm,자동화` — `,`는 키워드 구분, `|`는 동의어 구분(어떤 표기가 매칭돼도 그룹당 1회만 집계), `:숫자`는 가중치(기본 1).
   제목 매칭은 가중치 전액, 본문 매칭은 절반. 실행 로그에서 `★점수`로 확인 가능.
   변수를 비우거나 삭제하면 `pipeline/config.ts`의 `DEFAULT_INTEREST_KEYWORDS`로 폴백.
   같은 방식으로 `MAX_ARTICLES`, `ANTHROPIC_MODEL` 변수도 워크플로에 연결되어 있음 (미설정 시 코드 기본값).
