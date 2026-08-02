@@ -72,7 +72,7 @@ npm run dev                          # 사이트 확인 (localhost:4321/syc_stud
 
 ## 남은 작업 / 개선 후보
 
-- [ ] GitHub 저장소 생성·푸시, secret 등록, Pages 활성화, 첫 수동 실행 (위 "처음 배포하기")
+- [x] GitHub 저장소 생성·푸시, secret 등록, Pages 활성화, 첫 수동 실행 — **2026-08-02 완료, 라이브: https://hard7story.github.io/syc_study/**
 - [ ] 실제 실행 후 요약 품질 확인 — 미흡하면 프롬프트(`pipeline/llm/provider.ts`의 SYSTEM_PROMPT) 조정 또는 Sonnet 전환 검토
 - [ ] 1주 운영 후 실비용 확인 (Actions 로그의 `[usage]` 라인)
 - [ ] Batch API 전환으로 비용 50% 절감 (배치 완료 폴링 필요 — 현재는 단순 순차 호출)
