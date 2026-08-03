@@ -1,0 +1,246 @@
+{
+  "date": "2026-08-04",
+  "generatedAt": "2026-08-03T22:50:36.040Z",
+  "model": "anthropic/claude-haiku-4-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32087",
+      "title": "LLM 생성 코드를 직접 다시 입력해 인지 부채 막기",
+      "url": "https://news.hada.io/topic?id=32087",
+      "commentsUrl": "https://news.hada.io/topic?id=32087",
+      "publishedAt": "2026-08-03T13:01:54+09:00",
+      "snippet": "LLM 생성 코드를 직접 다시 입력해 인지 부채 막기 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ LLM 생성 코드를 직접 다시 입력해 인지 부채 막기 (ankursethi.com) 2 P by GN⁺ 19시간전 | ★ favorite | 댓글 3개 기능 전체를 코딩 에이전트에 맡기는 대신, 채팅으로 생성된 코드를 직접 입력해 코드 이해와 통제권 을 유지함 에이전트는 명시적 요청 없이는 파일·의존성·저장소 상태를 변경하지 않고, 모든 편집안과 명령을 채팅에만 출력하도록 제한함 직접 입력하는 동안 작동 방식과 기존 코드베이스의 관계를 파악해 정신 모델과 공간적 지도 를 만들고, 모르는 API나 알고리듬은 즉시 확인함 체감 속도 향상은 10배가 아닌 약 2배 지만, 천천히 입력하며 환각과 잘못된 설계를 발견하고 코드 재구성·리팩터링·주석 추가까지 수행할 수 있음 이해하지 못한 코드를 쌓는 인지 부채 는 디지털 인프라의 구조를 파악하지 못하는 상황으로 이어질 수 있어, 생산성보다 배포하는 소프트웨어에 대한 완전한 이해를 우선함 코딩 도우미를 계속 사용하는 이유 개인 프로젝트에서도 코딩 도우미를 계속 사용하지만, 기능 전체를 한 번에 생성하게 하면 불만족과 방향 감각 상실 을 경험함 프로젝트의 지루한 부분을 빠르게 통과하는 용도로는 LLM이 유용함 Django 웹사이트에 태깅을 추가하는 방법처럼 문서를 파고들기 싫은 작업이라도, 해결책의 작동 원리까지 기계에 넘기고 싶지는 않음 문제가 지루하다는 이유로 이해를 포기하면 프로젝트에 막대한 인지 부채 가 쌓임 AI 생성 PR 검토가 해결책이 아닌 이유 LLM이 만든 코드를 한 줄씩 검토할 수도 있으며, 2026년에는 로봇이 PR을 만들고 사람이 검토하는 방식이 개발자에게 기대되고 있음 하지만 수백 줄의 AI 생성 PR에는 지나치게 방어적인 코드, 품질이 낮은 주석, 미묘한 오류가 섞일 수 있어 검토 과정이 즐겁지 않음 고용주를 위해서는 마지못해 검토할 수 있어도 개인 프로젝트에서는 피하고 싶으며, 개인 프로젝트는 무엇보다 재미있어야 함 개인 프로젝트의 즐거움은 결과보다 작업 과정 에서 나옴 채팅으로 제안받고 직접 편집하기 선택한 해법은 효율이 낮고 다소 우스워 보일 수 있지만 단순함 코딩 도우미는 코드를 채팅에서 생성 함 실제 파일 편집은 사람이 모두 직접 수행함 개인 프로젝트의 모든 에이전트 설정 파일에 다음 원칙을 적용함 프로젝트에 들어가는 모든 코드 줄을 이해해야 함 명시적으로 요청하지 않으면 프로젝트 파일을 생성·편집·이동·이름 변경·삭제하지 않음 모든 편집 제안은 채팅에 표시하고 사람이 직접 입력함 명시적 요청 없이는 프로젝트 파일을 바꾸거나 의존성을 설치하거나 저장소 상태를 변경하는 명령을 실행하지 않음 실행할 명령도 채팅에 표시해 사람이 직접 수행함 숙련 개발자를 대상으로 하므로 요청받지 않은 문법·API·프로그래밍 개념·구현 세부 설명은 생략함 속도보다 이해를 택한 절충 LLM을 전혀 사용하지 않을 때보다는 빠르지만, 기계가 대신 생각하도록 허용하는 개발자보다는 느림 체감 속도 향상은 10배가 아니라 약 2배 이며, 대신 코드에 대한 더 깊은 이해를 얻음 생성된 모든 줄을 편집기에 직접 입력하면서 코드의 작동 방식과 기존 코드베이스에 결합되는 과정을 파악함 이해하지 못한 API나 알고리듬을 만나면 작업을 멈추고 자료를 찾거나 LLM에 설명을 요청할 수 있음 느린 입력이 만드는 검증과 개선 직접 입력은 의도적으로 작업 속도를 늦춰 LLM의 환각이나 잘못된 설계 선택 을 발견할 가능성을 높임 입력하는 동안 코드 취향과 기존 코드베이스에 맞게 다듬을 수 있음 구조 재배치 리팩터링 주석 추가 기존 코드 스타일에 맞춘 수정 코드베이스의 공간적 지도 구축 직접 편집하면서 코드베이스의 공간적 지도(spatial map) 를 구축함 각 기능이 어디에 있는지 알기 때문에 변경할 때 수정 위치를 정확히 찾을 수 있음 이 지식은 프로젝트 내부 작업을 빠르게 하고, 이후 LLM에 더 정확한 프롬프트와 지시를 제공하는 데도 도움을 줌 복사·붙여넣기를 피하던 학습법 십 대에 코딩을 배울 때 숙련 프로그래머들은 프로젝트에 코드를 복사해 붙여넣지 말라고 조언했음 책으로 학습할 때는 모든 예제를 직접 컴퓨터에 입력하고 실행되는지 확인하도록 권했음 블로그 글이나 포럼 답변의 코드도 직접 입력하고 자신의 코드베이스에 맞게 바꿔야 완전히 이해할 수 있었음 LLM 생성 코드를 직접 입력하는 방식도 이와 같은 학습 과정 으로 작동함 인지 부채를 피해야 하는 이유 가장 효율적인 LLM 활용법은 아니지만 생산성보다 이해 를 우선함 몇 달 동안 적용해 좋은 결과를 얻었으며, 가능한 한 계속 사용할 계획임 소프트웨어 업계가 대규모 인지 부채를 쌓으면 머지않아 비용을 치르게 되며, 디지털 인프라의 상당 부분이 어떻게 구성됐는지 아무도 이해하지 못하는 시점이 올 수 있음 업계 전체의 흐름을 바꾸지 못하더라도 자신이 세상에 내놓는 소프트웨어만큼은 완전히 이해해야 하며, 그렇지 않은 작업 방식은 직업적 과실 에 해당함 함께 보면 좋은 글 β 기술 부채, 인지 부채, 의도 부채 2026년에 왜 코드를 작성하는가 LLM 번아웃이 온 것 같아요 Train Your Own LLM From Scratch - 처음부터 직접 LLM을 학습하는 실습 워크숍 이해가 새로운 병목이다 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ kaydash 5시간전 [-] 이거 깜지아니여 답변달기 ▲ GN⁺ 7시간전 [-] Hacker News 의견들 LLM 생성 코드를 손으로 옮겨 적는 것 에는 반대하지만, 자기 머리로 만든 코드를 직접 입력하는 것은 적극 찬성함. 그래야 새로운 신경 연결을 만들고 인지 저하를 늦",
+      "oneLineKo": "LLM 코드를 직접 입력해 인지 부채를 줄이는 개발 접근법",
+      "summaryKo": "이 글은 LLM 생성 코드를 전체 자동화 대신 채팅에서 받은 후 직접 입력하는 방식을 제안합니다. 에이전트는 코드만 제시하고 파일 편집은 개발자가 수동으로 수행하여 코드에 대한 완전한 이해와 통제권을 유지합니다. 속도는 약 2배 향상에 그치지만, 직접 입력하는 과정에서 LLM의 환각이나 설계 오류를 발견하고 리팩터링할 수 있습니다. 저자는 개인 프로젝트에서 소프트웨어에 대한 완전한 이해를 우선하는 것이 인지 부채를 줄이는 핵심이라고 강조합니다.",
+      "tags": [
+        "llm",
+        "code-review",
+        "technical-debt"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49154332",
+      "title": "SQLite Critical CVEs or LLM Slop?",
+      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49154332",
+      "publishedAt": "2026-08-03T11:28:54Z",
+      "score": 689,
+      "comments": 340,
+      "snippet": "SQLite Critical CVEs or LLM Slop? - JFrog Security Research JFrog Security Research Model Threats Discover Follow JFrog Security Theme Home Model Threats Discover Follow JFrog Security SQLite Critical CVEs or LLM Slop? Afek Berger, JFrog Security Researcher | 30 Jul, 2026 Over the past few days, a newly created GitHub repo ( programmervuln/cveadvisory- ) published a batch of SQLite vulnerability advisories (as part of other 50+ CVEs which we believe are also LLM slop except from one). NVD quickly flagged these as critical, and CISA's ADP agreed. But when JFrog security researchers dug in to verify, the claims fell apart: The cited code didn't even exist in those versions or referenced unrelated logic. When testing the PoC payloads they didn’t work (not triggering any crash). None of these CVEs are listed on SQLite’s official advisory page (which is a gold standard for tracking actual vulnerabilities). All advisories in this repo seem AI generated when testing them with Gptzero Combining all advisories into one file triggers AI-generated content warnings This made us question the reliability of these CVEs as well as understanding that these CVEs may be LLM slop. While investigating one of the CVEs yesterday, CVE-2026-51302, we saw that Red Hat initially assigned it a 10.0 Critical severity score: Looking at the CVE again today, we noticed that the score has since been downgraded to 7.6 High. Analysis Matrix CVE Reported Flaw CVSS NVD Metadata Audit Finding CVE-2026-51302 UAF in exprComputeOperands() 9.8 CRITICAL Pinned CPE: 3.41.0 The advisory mentions non-existing functions. CVE-2026-51303 UAF in ExprListDelete() back-refs 9.8 CRITICAL Contradictory metadata The advisory said there are non-existent fixes. CVE-2026-51300 UAF in sqlite3ExprDelete() 9.1 CRITICAL n/a placeholders Advisory cited lines that are unrelated to the vulnerability. CVE-2026-51297 UAF via jsonBlobEdit() 8.8 HIGH Pinned CPE: 3.41.0 The advisory mentions non-existing functions. CVE-2026-51296 UAF in jsonRemoveFunc 7.5 HIGH Populated CPE: 3.41.0 Advisory cited lines that do not exist. CVE-2026-51304 UAF via pOrderBy->nExpr post-free 7.5 HIGH Vendor/Product: n/a Advisory showed a real function with a wrong argument number. Investigation Methodology To verify these reports thoroughly, we established an isolated testing workflow: Source Inspection: We cloned the official sqlite/sqlite repository and checked out the target tags (version-3.41.0, version-3.51.2, and version-3.51.3). We compared the reported vulnerability mechanics against the actual source code. Clean Environment Build: Compiled the official SQLite releases directly inside isolated Docker containers to prevent environmental contamination. PoC Execution: Feed each advisory's PoC SQL statements verbatim into the compiled SQLite binaries under AddressSanitizer (ASan) instrumentation to detect memory bugs. NVD &#x26; Metadata Audit: Evaluated the CPE patterns and advisory metadata across NVD and GHSA feeds to cross-check ",
+      "oneLineKo": "SQLite 중요 취약점 보고들이 LLM이 생성한 거짓 정보일 가능성",
+      "summaryKo": "GitHub의 programmervuln/cveadvisory 저장소에 공개된 SQLite 취약점들이 실제로는 존재하지 않는 것으로 확인됐습니다. JFrog 보안 연구팀이 소스 코드를 검증한 결과, 인용된 코드가 해당 버전에 존재하지 않고 PoC 페이로드도 작동하지 않으며, 공식 SQLite 권고 페이지에도 등록되지 않았습니다. Gptzero를 통한 분석에서 모든 권고문이 AI 생성 콘텐츠로 의심되며, CVE-2026-51302는 Red Hat이 처음 10.0 Critical로 할당한 후 7.6 High로 하향 조정했습니다.",
+      "tags": [
+        "cve",
+        "security",
+        "sqlite"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32076",
+      "title": "자동화하지 말고, 완전히 없애버려라",
+      "url": "https://news.hada.io/topic?id=32076",
+      "commentsUrl": "https://news.hada.io/topic?id=32076",
+      "publishedAt": "2026-08-03T08:52:33+09:00",
+      "snippet": "자동화하지 말고, 완전히 없애버려라 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ 자동화하지 말고, 완전히 없애버려라 (blog.usv.com) 10 P by GN⁺ 23시간전 | ★ favorite | 댓글과 토론 기존 시장의 효율을 높이는 소프트웨어보다 시장 구조 자체를 무너뜨리고 재편하는 스타트업 을 더 큰 투자 기회로 평가해 왔으며, AI가 이런 변화의 가능성을 한층 키우고 있다고 봄 인터넷이 유통 비용을 낮춰 미디어 기업의 통제력을 약화시켰듯, AI는 전문 지식의 공급 비용과 접근 장벽 을 낮춰 전문가/기업/기관이 독점하던 권한을 수요자에게 이전함 핵심 변화는 기존 중개자에게 전문성을 빌리는 대신, 누구나 에이전트를 통해 전문가 수준의 지능을 직접 접근하고 배치 할 수 있게 된다는 점임 Doctronic은 AI 의사를 개인에게 제공하고, Isembard는 정밀 제조 운영 전문성을 소프트웨어로 패키징하며, Cofounder는 제품 개발부터 유통까지 사업 전체를 대신 실행 하려 함 이런 기업들이 성공하면 기존 업무를 자동화하는 수준을 넘어 중개자가 가진 시장 권력을 고객에게 이전 하며 소비자/기업 시장 전반의 사업 모델과 경쟁 구도를 다시 짤 수 있음 시장을 자동화하는 것과 없애는 것의 차이 USV의 Fred Wilson은 2015년 Michael Hammer의 1990년 HBR 글 과 같은 제목인 Don't Automate, Obliterate(자동화하지 말고, 완전히 없애버려라) 를 통해 스타트업 투자 관점을 정리함 최고의 투자는 기존 시장의 절차를 소프트웨어로 자동화하는 기업이 아니라, 기존 시장의 구조와 운영 방식을 완전히 대체하는 기업 에서 나온다고 봄 이후 이 원칙은 USV가 스타트업 기회를 판단하는 핵심 기준으로 자리 잡았고, 단순한 효율 개선보다 시장 구조의 전면적 개편 을 추구해 왔음 Duolingo는 기존 교육 기관을 거치지 않는 직접 학습 모델 을 확장함 Coinbase는 프로그래밍 가능한 화폐 를 제공함 Twitter는 출판사를 거치지 않는 출판 을 가능하게 함 공통된 목표는 기존 시장 안에서 비용을 줄이는 것이 아니라, 시장을 구성하는 참여자와 권력 관계를 바꾸는 것이었음 인터넷이 유통을 바꿨다면 AI는 전문성을 바꿈 인터넷은 유통 비용을 급격히 낮추고 , 유통을 통제하던 미디어 기업의 시장 지배력을 약화시킴 AI는 전문 지식에 같은 변화를 일으킴 에이전트를 통해 전문가 수준의 지능이 널리 이용 가능해짐 전문성을 독점하거나 접근을 통제해 권한을 유지하던 사람/기업/기관의 영향력이 줄어듦 사용자는 중개자에게 전문성을 빌리는 대신, 필요한 지능을 직접 접근하고 실제 업무에 배치할 수 있음 이러한 공급자 중심에서 수요자 중심으로의 이동 이 시장 구조를 실질적으로 재편함 Doctronic: 의료 절차가 아닌 의료 접근 구조의 변화 Doctronic 은 의사와 환자 사이의 경험을 단순히 간소화하는게 아니라, 스마트폰 사용자 누구나 이용할 수 있는 AI 의사 를 제공해 의료 전문성에 대한 접근을 확대하려 함 목표는 기존 의료 전달 과정을 자동화하는 것이 아니라, 의료 전문성을 개인의 주머니 안으로 직접 옮기는 것 문제 : 의사의 진료를 받으려면 대기 명단/의뢰 절차를 거쳐야 하며, 제한된 진료 시간을 배분받아야 함 자동화 : 환자 포털과 예약 앱을 구축해 기존 의사에게 접근하는 과정을 더 원활하게 만듦 없애기 : 스마트폰을 가진 누구에게나 AI 의사를 직접 배치 해 기존 의료 접근 구조를 우회. Utah에서는 이 AI 의사가 합법적으로 처방전을 작성할 수 있는 형태로 시작 Isembard: 공장 운영 전문성을 소프트웨어로 이전 Isembard 는 기존 공장에 소프트웨어를 판매하는 데 그치지 않고 공장 자체를 다시 구성 하려 함 문제 : 정밀 제조 역량이 해외 생산 시설이나 노후한 기계 가공 업체에 묶여 있음 자동화 : 기존 업체에 소프트웨어를 판매해 견적 산출과 CNC 작업 흐름을 디지털화함 없애기 : 고정밀 제조 라인 운영 전문성을 AI에 패키징 . 기존 공장에 도구를 추가하는 대신, 그 전문성을 바탕으로 공장 자체를 처음부터 다시 구축 Cofounder: 개별 업무가 아니라 사업 전체를 실행 Cofounder 는 제품 개발/영업/마케팅/유통을 각각 더 쉽게 만드는 도구에 머물지 않고, 고객을 대신해 완전한 사업을 출시하고 운영 하는 것을 목표로 함 문제 : 회사를 만드는 데 필요한 전문 인력은 부족하며 고용 비용도 높음 자동화 : 창업자에게 코파일럿 도구를 판매해 영업/운영/마케팅 업무를 더 빠르게 처리하도록 도움 없애기 : 개별 업무 도구를 제공하는 데 그치지 않고, 창업자와 협력해 사업 전체를 출시하고 운영 . 제품 개발/영업/마케팅/유통을 지원하는 소프트웨어가 아니라 사업 운영 주체의 역할까지 맡으려 함 중개자에서 고객으로 이동하는 권력 세 기업이 의도한 대로 작동한다면 각 시장은 현재와 같은 형태를 오래 유지하기 어려움 AI는 소비자와 기업 시장의 거의 모든 분야에서 기존 사업 모델과 시장 규칙을 새로 설정할 가능성을 가짐 핵심 기회는 전문성과 실행 능력을 통제하던 중개자의 권력 을 고객에게 이전하는 데 있음 USV가 말하는 obliterate 는 기존 업무를 더 빠르게 만드는 것이 아니라, 기존 시장의 중개 구조와 권력 배분을 사라지게 만드는 것을 뜻함 함께 보면 좋은 글 β AI 에이전트가 새로운 SaaS다 [유튜브] 새로운 유통 채널로서의 AI 에이전트 AI는 사고를 대체하지 말고 끌어올려야 함 코딩 에이전트가 내가 사용하던 모든 프레임워크를 대체했다 LLM은 사랑하지만 과대광고는 싫다 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 GeekNews를 계속 ",
+      "oneLineKo": "AI가 중개자 제거하고 전문성을 소비자에게 직접 이전하는 시장 재편 추진",
+      "summaryKo": "기존 시장의 절차를 자동화하는 것이 아니라 시장 구조 자체를 완전히 없애는 스타트업이 더 큰 기회라는 투자 원칙을 소개한다. 인터넷이 유통 비용을 낮춰 미디어 기업의 통제력을 약화시켰듯, AI는 전문 지식의 접근 장벽을 낮춰 의료, 제조, 사업 운영 등 다양한 분야에서 중개자의 역할을 제거하고 있다. Doctronic, Isembard, Cofounder 등의 사례를 통해 AI 에이전트가 전문성을 개인과 기업에게 직접 배치함으로써 기존 권력 구조를 근본적으로 재편하는 방식을 설명한다.",
+      "tags": [
+        "ai-agents",
+        "market-disruption",
+        "startup"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49153374",
+      "title": "Prevent cognitive debt by manually retyping LLM-generated code",
+      "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49153374",
+      "publishedAt": "2026-08-03T09:32:07Z",
+      "score": 351,
+      "comments": 292,
+      "snippet": "Prevent cognitive debt by manually retyping LLM-generated code — Ankur Sethi's Lab Notebook Ankur Sethi's Lab Notebook Home About Blog TILs Work Prevent cognitive debt by manually retyping LLM-generated code 2 Aug 2026 at 2:53PM IST Despite what I said in April , I'm still using coding assistants on my personal projects. Using them to one-shot entire features leaves me unsatisfied and disoriented, but I do enjoy using them to fast-forward through the boring parts of my projects. However, allowing my coding assistant to roam free in my projects leaves me with a colossal amount of cognitive debt. I might hate the idea of poring over the Django documentation to figure out how to add tagging to my website, but I still fundamentally want to understand how it works. Just because a problem is boring doesn't mean I want to fully offload my understanding of the solution to a machine. Of course, I could review every single line of code the LLM produces. That's what most developers are expected to do in this cursed year of 2026. Robots raise PRs, humans review them. It's a brave new world. But I don't enjoy reviewing AI-generated PRs. Poring over hundreds of lines of overly-defensive, badly-commented, subtly incorrect code is not fun. I might grudgingly do it for an employer—while making sure said employer becomes an ex-employer as soon as possible—but I'm sure as hell not doing it for my personal projects. Personal projects must be fun above all else. The joy of working on personal projects comes from the process, not from the outcome . So what's a boy to do? How do I offload the boring work to LLMs without ceding control of my own work and cognition to the slop machine? I've come up with a solution that's grossly inefficient and perhaps slightly comical: I ask my coding assistant to generate code in the chat, then manually make all the edits myself. I have these instructions in all the agents files in my personal projects: I want to understand every line of code that goes into this project. Never create, edit, move, rename, or delete project files unless I explicitly ask you to do so. Instead, show me every proposed edit in the chat so I can type it in manually. Do not run commands that modify project files, install dependencies, or change repository state unless I explicitly request that action. Instead, show me those commands in the chat so I can run them manually. I'm an experienced developer. Do not explain syntax, APIs, programming concepts, or implementation details unless explicitly asked. Using LLMs this way allows me to work faster than not using LLMs at all, but I'm still slower than those who are willing to allow the machine to think for them. Instead of being 10x faster, I'm probably only 2x faster. But what I lose out on in terms of speed, I gain in terms of a deeper understanding of my code. As I manually type every single line of LLM generated code into my editor, I build up a mental model of how it works and fits into my existing codebase.",
+      "oneLineKo": "LLM 생성 코드를 수동으로 재입력하여 인지 부채 방지",
+      "summaryKo": "개발자는 AI 코딩 어시스턴트를 사용하면서도 코드에 대한 이해와 통제력을 유지하기 위해 LLM이 생성한 코드를 직접 수동으로 재입력하는 방식을 제안합니다. 이는 자동 코드 생성보다 느리지만(2배 정도), 매뉴얼 방식을 통해 코드에 대한 깊이 있는 이해와 정신 모델을 구축할 수 있습니다. 개인 프로젝트에서 AI의 생산성 이점을 누리면서도 개발자의 인지적 주체성을 보존하는 실용적인 접근법입니다.",
+      "tags": [
+        "llm",
+        "code-generation",
+        "developer-experience"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32072",
+      "title": "Show GN: 온글 – 브라우저 안에서 작동하는 로컬 AI 번역 및 TTS 크롬 익스텐션",
+      "url": "https://news.hada.io/topic?id=32072",
+      "commentsUrl": "https://news.hada.io/topic?id=32072",
+      "publishedAt": "2026-08-03T08:41:11+09:00",
+      "snippet": "온글 – 브라우저 안에서 작동하는 로컬 AI 번역 및 TTS 크롬 익스텐션 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Show GN: 온글 – 브라우저 안에서 작동하는 로컬 AI 번역 및 TTS 크롬 익스텐션 (github.com/ledzpl) 3 P by watsonpark 23시간전 | ★ favorite | 댓글 1개 안녕하세요. 웹페이지를 한국어로 번역하고 음성으로 읽어주는 Chrome 확장 프로그램을 만들었습니다. 이미 브라우저에서 번역 잘되는데 뭐하러 만들었냐고 물으신다면, 이 것 마저도 보안에 막혀있는 곳이 있습니다. ㅠ 선택한 텍스트, 전체 웹페이지, 유튜브 자막을 번역할 수 있습니다. 번역과 한국어 음성 생성은 WebGPU/WASM을 이용해 브라우저 안에서 처리되며, 사용자의 텍스트를 번역 서버로 전송하지 않습니다 . 처음에는 AI 모델을 내려받아야 하지만, 이후에는 기기에서 직접 실행됩니다. 메모리가 적은 (16gb) 머신에서는 테스트 하지 못 했음을 양해 부탁 드려요, 번역 품질과 성능, 사용성에 관한 의견을 들려주시면 감사하겠습니다! 함께 보면 좋은 글 β NativeMind - 브라우저에서 실행되는 프라이빗 온디바이스 AI 어시스턴트 Gemma Gem - 브라우저에서 Google Gemma 4 모델을 완전 온디바이스로 실행하는 Chrome 확장 AI 웹사이트에서 사용할 수 있는 크롬 확장 프로그램을 만들어 봤어요. agent-device - AI 에이전트가 iOS/Android 기기를 제어하도록 돕는 CLI Clutio – 웹에서 읽으며 외국어를 공부하는 크롬 확장 (서버·로그인 없음) GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ m00nlygreat 15시간전 [-] 16gb가 작다는 건가요. 16gb 이하에서는 테스트를 못하셨다는 건가요 답변달기 GeekNews를 계속 받아보려면 Weekly 뉴스레터나 GeekBots를 이용해보세요. Weekly 구독 · GeekBots · GeekNews 소개 처음 오셨나요 사이트 이용법 FAQ About 후원하기 이용약관 개인정보 처리방침 Releases --> | Blog Lists RSS | Bookmarklet X (Twitter) Facebook | 긱뉴스봇 : Slack 잔디 Discord Teams Dooray! Google Chat Mattermost Swit 시작하기 이용법 FAQ About 후원 약관 개인정보 Lists Blog RSS X 긱뉴스봇 검색 언어 선택: 한국어 한국어 ✓ Indonesia Tiếng Việt Português Español ไทย 日本語 Türkçe Deutsch Français हिन्दी",
+      "oneLineKo": "로컬 AI로 브라우저에서 안전하게 번역과 음성 제공하는 크롬 익스텐션",
+      "summaryKo": "온글은 WebGPU/WASM을 이용해 브라우저 내에서 직접 작동하는 AI 기반 번역 및 TTS 크롬 익스텐션입니다. 선택 텍스트, 전체 웹페이지, 유튜브 자막 번역을 지원하며, 사용자 데이터를 서버로 전송하지 않아 프라이버시를 보호합니다. 초기 모델 다운로드 후 기기에서 직접 실행되며, 보안 제약이 있는 환경에서도 번역 기능을 사용할 수 있습니다.",
+      "tags": [
+        "chrome-extension",
+        "on-device-ai",
+        "webgpu"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49156111",
+      "title": "Devtools must be open source",
+      "url": "https://blog.exe.dev/devtools-must-be-open-source",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49156111",
+      "publishedAt": "2026-08-03T14:15:47Z",
+      "score": 453,
+      "comments": 165,
+      "snippet": "Devtools must be open source - exe.dev blog exe.dev docs blog pricing uses Sandbox Disposable VMs for AI agents, by the second. VPS Persistent Linux VMs with HTTPS and SSH. Devbox Cloud dev environment for you and your agents. Dashboard Devtools must be open source 2026-08-02 David Crawshaw Five years ago, most software engineers I spoke to had no programs they had written for themselves. (I was asking this question a lot as part of trying to understand how Tailscale could fit into engineers’ lives.) All day, every day, engineers use programs written by others to write programs for others. Many of us customized the programs we used, through config files or plugins or extensions, and many of us used the programs we wrote for others, as users. It was always an unusual treat to ask someone what they had written for themselves and learn about the bespoke software behind their blog, or their home automation, or their homelab, instead of an off-the-shelf, almost-the-right-size static site generator or Zigbee appliance. This state of things made a lot of sense to me. Over the years I have written plenty of software for myself, and the return on doing so was always questionable. I could only write so much in a day. There were always more important things to do (Something Was Wrong At Work), and coming back to a project after a year to do maintenance on it was always extraordinarily painful. There were plenty of years in my career where I had thrown out all my custom software and used the most bog-standard environments I could to produce code. In my early years as an engineer at Google I did not even own a personal computer. That was then. Things are different now. How to Personalize Software It is astonishingly easy to personalize software today. There are two general categories of prompts to an agent that make all of this possible: Download the source for <software> and build it for local use. Modify <whatever memory your agent uses> to know that any future changes to this software mean changing the sources and replacing the current version. Record in version control the original motivation behind the change. and, more importantly : Set up a nightly cron job that executes the prompt: fetch upstream changes to the <software> and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version. At the heart of this is the realization that agents can not only hack up some code for a specific use but also automatically manage the process of synchronizing changes with upstream releases. This means agents change the ROI on customizing software on two fronts simultaneously: it is much easier to get started personalizing, and much easier to keep going. Another astonishing thing about the two prompts above for editing software is that you can build them right into an agent. As long as the agent is open source, it does not even require programming. The two prompts can be loaded into a skill (i.e., some text in",
+      "oneLineKo": "개발자 도구는 오픈소스여야 한다는 주장",
+      "summaryKo": "저자는 AI 에이전트의 등장으로 개발 도구를 개인화하는 ROI가 획기적으로 변했다고 주장합니다. 에이전트가 소프트웨어 소스를 다운로드하여 로컬에서 빌드하고, 업스트림 변경사항을 자동으로 리베이스하며 관리할 수 있게 되었습니다. 이를 통해 개발자는 쉽게 도구를 커스터마이징할 수 있고, 오픈소스 에이전트라면 프로그래밍 없이도 이러한 기능을 스킬로 구현할 수 있습니다.",
+      "tags": [
+        "devtools",
+        "open-source",
+        "ai-agents"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32094",
+      "title": "‘고기 프록시’가 되지 마라",
+      "url": "https://news.hada.io/topic?id=32094",
+      "commentsUrl": "https://news.hada.io/topic?id=32094",
+      "publishedAt": "2026-08-03T17:31:22+09:00",
+      "snippet": "‘고기 프록시’가 되지 마라 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ ‘고기 프록시’가 되지 마라 (gruhn.me) 1 P by GN⁺ 14시간전 | ★ favorite | 댓글 1개 Slack 답변이나 코드 리뷰에 Claude 출력을 그대로 복사 하면 맥락 통제권은 줄고 중간 전달자만 늘어남 장황한 AI 답변에는 그럴듯한 오류와 전문용어가 섞일 수 있어, 상대방이 이를 해석하는 데 추가 노력 을 들여야 함 AI를 쓰더라도 결과를 읽고 이해하고 검증한 뒤 자기 언어로 답변 해야 실질적인 가치를 더할 수 있음 티켓과 리뷰 의견을 Claude Code에 반복해서 전달하면 코드를 출하할 수 있지만, 생성된 코드와 응답을 확인하지 않으면 구현 책임을 다했다고 보기 어려움 이런 리뷰 흐름에서는 리뷰어가 Claude Code를 통해 사실상 구현을 맡고, 원래 담당자는 둘 사이의 인간 프록시 로 남게 됨 AI 출력을 그대로 전달할 때의 문제 Slack 질문, 병합·풀 리퀘스트 피드백, WhatsApp 논쟁에 Claude said: [응답 전문] 처럼 답하는 방식은 가치를 더하지 못함 상대방이 Claude와 직접 대화하는 편이 더 빠르고 맥락도 직접 통제 할 수 있음 AI 출력은 장황하고 그럴듯한 허위 정보가 섞일 수 있으며, 갈수록 전문용어도 많아짐 NATS control-plane events: stream leader election / R3 quorum re-form during pod churn. 같은 문장은 거의 모든 용어를 따로 찾아봐야 이해할 수 있었음 AI에 프롬프트를 입력하는 것 자체는 문제가 아니지만, 출력을 읽고 이해하고 검증 한 뒤 자신의 말로 다시 작성해야 함 자기 언어로 답하는 과정은 앞선 검토를 수행했다는 증거이자 사용자가 더할 수 있는 가치임 코드 리뷰에서 생기는 ‘고기 프록시’ Claude Code를 이용하면 거의 노력하지 않고도 일부 코드를 출하하는 흐름이 가능함 티켓 설명을 Claude Code에 복사함 생성된 코드나 Claude의 답변을 확인하지 않음 리뷰 피드백도 다시 Claude Code에 복사하고 필요하면 이 과정을 반복함 이 방식은 작동할 수 있지만, 실제 구현은 리뷰어가 Claude Code를 통해 수행 하게 되고 담당자는 둘 사이의 고기 프록시로 남게 됨 함께 보면 좋은 글 β LLM 번아웃이 온 것 같아요 Claude Code의 수석 디자이너가 AI로 빌드하는 방법 [유튜브] 내 워크플로우를 A/B 테스트하지 말아 주세요 LLM 비판론자들이 옳다. 그래도 나는 LLM을 쓴다 바이브 코딩 숭배는 미쳐있다 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ GN⁺ 14시간전 [-] Hacker News 의견들 직장에서 하루 종일 “Claude에게 물었더니 300줄짜리 답변 이 나왔는데 맞는지 읽어달라”는 요청을 받아 지침 기술을 모르는 바쁜 고위 관리자가 오류를 그대로 AI에 넣고 담당자에게 해석을 부탁하는 건 그나마 이해할 수 있지만, 자기 분야를 맡은 주니어·시니어 엔지니어가 검토 책임까지 남에게 떠넘기는 건 납득하기 어려움 회사의 전사 AI 도입 책임자 가 전체 기술 스택에 걸쳐 수천 줄의 문서를 생성한 뒤, 수백 명의 PO와 BA에게 정확성을 대신 검토하게 하고 있음 개발자라 그 발상에 따른 피해 범위에서 벗어나 있는 게 다행일 정도임 이런 행동이 왜 해고 사유 가 아닌지 이해하기 어려움 처음에는 강하게 경고하더라도 계속 자기 업무를 하지 않는다면 결국 내보내야 하며, 회사가 이를 용인할 이유가 없음 PM이 사용 중인 난수 라이브러리가 안전한지 물어 “프로젝트의 다른 곳에서도 쓰는 Java 표준 암호학적 안전 난수 라이브러리 ”라고 답했더니, “Claude에게 안전한지 물어봤느냐”고 다시 확인함 이런 요청을 받으면 나도 답변을 LLM에 그대로 넣어 검토 하게 함 본인도 다시 읽지 않은 내용을 내가 읽어야 할 이유가 없지만, 이런 방식이 일의 미래에 좋은 징조는 아니어서 팀에는 명시적으로 금지하고 있음 한 고위 임원이 휴대전화에 몇 마디 입력한 뒤, AI가 아직 답변을 생성하는 도중에 화면을 돌려 내 앞에 내밀었음 이제 진지한 활용의 범위를 넘어 부조리한 수준 에 도달함 회사의 Claude 계정이 열리자마자 이런 행동이 나타나기 시작해 AI 행동 강령 과 관련 논의가 필요하다고 제안했음 컴퓨터 업계가 아닌 회사에서 일반 사용자가 Claude를 처음 접하며 보인 반응이었고, 표본은 작지만 기존 업무 역량이 낮을수록 이런 행동과 연관되는 듯했음 문제는 AI 보조 개발 을 해야 하는데 많은 이들이 결과를 맹신하는 “AI 독립 개발”처럼 다룬다는 것임 책임과 비난까지 AI에 떠넘기는 태도는 터무니없음 현재는 AI 보조 단계지만 대중의 인식 때문에 몇 달 안에 AI 독립 방식 으로 향할 가능성이 있어 보임 소셜 미디어에서는 괜찮은 아이디어까지 LLM 문체로 망가지는 일이 특히 답답함 통찰이 담긴 글을 읽다가 Claude 특유의 표현이 나오면 즉시 읽기를 멈추게 됨 원래 생각을 더 매력적으로 다듬으려고 LLM에 맡기는 듯하지만, LLM 생성 글 을 자주 접하는 독자에게는 오히려 매력이 사라짐 아직 대부분은 LLM 문체에 깊이 노출되지 않아 사람의 글과 구분하지 못하므로 소셜 미디어 참여도도 이를 걸러내지 못하며, 이런 대필에 대한 집단 면역이 생기려면 1~2년은 더 필요해 보임 온라인의 AI 찌꺼기를 표시·강조·필터링·회피하는 안티 AI AI 를 제품에 넣는 회사가 나오길 기다리고 있으며, Apple이 가장 유력한 후보로 보임 소셜 미디어와 음악 서비스를 예전처럼 되돌려 주는 기능을 소비자 기기에 내장하면 수익성이 상당할 수 있음 게으름을 위한 기계를 만들면",
+      "oneLineKo": "AI 출력을 무분별하게 전달하는 '고기 프록시'가 되지 말고 검증하여 자기 언어로 답변하라",
+      "summaryKo": "Claude 등 AI의 출력을 그대로 복사해 전달하는 것은 맥락 통제권을 줄이고 중간 전달자만 늘린다. AI 생성 콘텐츠는 그럴듯한 오류와 전문용어가 섞여 있어 수신자에게 추가 해석 부담을 준다. 코드 리뷰에서도 AI 출력을 검증 없이 반복 전달하면 실제 책임자는 고기 프록시로 전락한다. AI를 활용하더라도 결과를 읽고 이해하고 검증한 뒤 자신의 언어로 재작성해야 실질적 가치를 더할 수 있다.",
+      "tags": [
+        "ai",
+        "llm",
+        "code-review"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49157930",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49157930",
+      "publishedAt": "2026-08-03T16:27:12Z",
+      "score": 368,
+      "comments": 655,
+      "oneLineKo": "수학과 이론 컴퓨터과학의 10가지 주요 발전 소개",
+      "summaryKo": "OpenAI에서 수학과 이론 컴퓨터과학 분야의 주목할 만한 10가지 발전을 소개하는 글입니다. 이는 현대 AI 및 컴퓨팅 기술의 기초가 되는 이론적 성과들을 다루고 있습니다. 정확한 내용은 제목만으로는 파악하기 어려우나, 학문 간 교차점에서 이루어진 혁신적 발전들을 조망하고 있을 것으로 예상됩니다.",
+      "tags": [
+        "theoretical computer science",
+        "mathematics",
+        "ai"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32084",
+      "title": "웹앱과 AI",
+      "url": "https://news.hada.io/topic?id=32084",
+      "commentsUrl": "https://news.hada.io/topic?id=32084",
+      "publishedAt": "2026-08-03T11:09:18+09:00",
+      "snippet": "웹앱과 AI | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ 웹앱과 AI (irepublic.tistory.com) 1 P by kkukjin 21시간전 | ★ favorite | 댓글 1개 웹앱은 설치 없이 브라우저만 있으면 PC·스마트폰·태블릿·자동차 등 어떤 기기에서든 주소만으로 쓸 수 있고, 중앙에서 한 번 업데이트하면 모든 기기에 반영되는 애플리케이션이다. AI가 개발 업무를 거의 다 맡아주는 시대에는 AI 사용자가 곧 개발자이므로, 웹앱이 무엇인지 아는 것만으로 AI로 할 수 있는 일의 폭이 크게 달라진다. 원하는 것을 AI에게 말하면 웹앱이라는 형태로 즉시 구현되고, 필요할 때마다 기능을 더해 슈퍼앱으로 키울 수도 있다 — 이것은 일회성 코딩이 아니라 실시간 소통에 가깝다. 이렇게 만든 웹앱은 단순한 채팅 앱이 아니라 내 PC의 자료와 하드웨어로 일하는 AI 에이전트와의 소통 창구이며, 언제 어디서나 내 자원에 접속할 수 있다는 안정감을 준다. 결국 AI의 진짜 가치는 기존 일의 자동화가 아니라 새로운 연결과 소통을 만들어내는 데 있으며, AI로 웹앱을 만들어 쓰는 것이 그 좋은 예다. 함께 보면 좋은 글 β page-agent - 코드 1줄로 웹페이지에 AI 에이전트 추가하기 agent-device - AI 에이전트가 iOS/Android 기기를 제어하도록 돕는 CLI 개인의 AI, 개발자의 AI 가장 빠른 AI-First 기업은 실제로 어떻게 일하는가 Mini Apps - 웹 개발자를 위한 미니앱 개론 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ mse9000 18시간전 [-] 음.... 무슨 의도의 글인가요? 당연한 개념을 설명하는 개인 블로그 링크라... 답변달기 GeekNews를 계속 받아보려면 Weekly 뉴스레터나 GeekBots를 이용해보세요. Weekly 구독 · GeekBots · GeekNews 소개 처음 오셨나요 사이트 이용법 FAQ About 후원하기 이용약관 개인정보 처리방침 Releases --> | Blog Lists RSS | Bookmarklet X (Twitter) Facebook | 긱뉴스봇 : Slack 잔디 Discord Teams Dooray! Google Chat Mattermost Swit 시작하기 이용법 FAQ About 후원 약관 개인정보 Lists Blog RSS X 긱뉴스봇 검색 언어 선택: 한국어 한국어 ✓ Indonesia Tiếng Việt Português Español ไทย 日本語 Türkçe Deutsch Français हिन्दी",
+      "oneLineKo": "AI 시대에 웹앱 개발로 새로운 소통과 연결 창출 가능",
+      "summaryKo": "웹앱은 브라우저만으로 모든 기기에서 접근 가능한 애플리케이션으로, AI가 개발 업무를 담당하는 시대에는 AI 사용자 누구나 개발자가 될 수 있다. AI에게 원하는 기능을 요청하면 즉시 웹앱 형태로 구현되며, 필요에 따라 기능을 추가해 슈퍼앱으로 확장할 수 있다. 이러한 웹앱은 단순 채팅 도구가 아니라 사용자의 PC 자료와 하드웨어로 작업하는 AI 에이전트와의 소통 창구로 기능한다. AI의 진정한 가치는 기존 업무 자동화보다는 새로운 연결과 소통을 만드는 데 있으며, AI를 활용한 웹앱 개발이 그 좋은 예시다.",
+      "tags": [
+        "web-app",
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49152842",
+      "title": "Bonsai: Janestreet's UI Library",
+      "url": "https://github.com/janestreet/bonsai",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49152842",
+      "publishedAt": "2026-08-03T08:29:57Z",
+      "score": 283,
+      "comments": 110,
+      "snippet": "GitHub - janestreet/bonsai: A library for building dynamic webapps, using Js_of_ocaml · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... --> Search Clear Search syntax tips Provide feedback --> We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results more quickly --> Name Query To see all available qualifiers, see our documentation . Cancel Create saved search Sign in Sign up Appearance settings Resetting focus You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} Uh oh! There was an error while loading. Please reload this page . janestreet / bonsai Public Notifications You must be signed in to change notification settings Fork 52 Star 1.2k Code Issues 7 Pull requests 0 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights master Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date",
+      "oneLineKo": "Jane Street의 OCaml 기반 동적 웹앱 UI 라이브러리",
+      "summaryKo": "Jane Street에서 공개한 Bonsai는 Js_of_ocaml을 활용하여 동적 웹 애플리케이션을 구축하기 위한 UI 라이브러리입니다. OCaml 언어로 작성된 웹 UI 개발 도구로, GitHub에서 오픈소스로 공개되었습니다. 현재 1.2k 스타를 기록하며 활발히 유지보수되고 있습니다.",
+      "tags": [
+        "ocaml",
+        "web-ui",
+        "functional-programming"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32078",
+      "title": "agent-device - AI 에이전트가 iOS/Android 기기를 제어하도록 돕는 CLI",
+      "url": "https://news.hada.io/topic?id=32078",
+      "commentsUrl": "https://news.hada.io/topic?id=32078",
+      "publishedAt": "2026-08-03T09:31:01+09:00",
+      "snippet": "agent-device - AI 에이전트가 iOS/Android 기기를 제어하도록 돕는 C | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ agent-device - AI 에이전트가 iOS/Android 기기를 제어하도록 돕는 CLI (github.com/callstack) 14 P by xguru 22시간전 | ★ favorite | 댓글 1개 코딩 에이전트 가 실행 중인 앱을 직접 검사/조작/검증하고 결과를 근거로 저장하도록 지원 iOS, Android, tvOS, Android TV, Amazon Vega OS TV, web, macOS, Linux 등 지원 토큰 효율적인 접근성 스냅샷 을 읽고 ref 또는 selector로 요소를 찾아 기기 동작 실행 Vercel의 agent-browser 에서 가져온 inspect-act-verify 프로세스를 모바일/TV/데스크톱 앱에 적용, 에이전트가 각 명령 결과를 읽고 다음 명령을 스스로 선택 에이전트들이 가능한 동작 앱 상태 검사 : accessibility snapshot, ref, selector, React Native 컴포넌트 트리 확인 화면 UI 조작 : 요소 탭/프레스, 필드 입력, 스크롤, 제스처, 대기, 상태 단언, 알림 처리 실패 진단 : screenshot, video, log, trace, network 데이터, 성능 샘플, crash 상세, React profile 확보 워크플로우 반복 : 정상 동작 단계를 .ad 스크립트 로 저장해 로컬/CI에서 재현하거나 strict Maestro YAML 로 내보내기 대상별 백엔드 사용: iOS/tvOS는 XCTest , Android는 ADB/snapshot helper, VVD는 Vega CLI/VDA, macOS는 로컬 helper, Linux는 AT-SPI native iOS/Android 앱 및 React Native, Expo, Flutter 로 개발된 앱도 지원 Appium/Detox/Maestro 등은 테스트 스위트를 작성/유지하는 방식이지만, agent-device는 런타임에 상태를 읽고 명령을 선택 하며 기존 도구를 보완하는 역할 Cursor, Codex, Claude Code, Windsurf 등 에이전트 터미널에서 실행 가능 MIT 라이선스 함께 보면 좋은 글 β unityctl - AI 에이전트가 유니티 에디터를 직접 제어하게 해주는 CLI 도구 Google Agents CLI — 코딩 에이전트를 에이전트 빌더로 만드는 메타 도구 toris-agent — AI 에이전트 실행 결과에 증거 영수증을 남기는 로컬 CLI agent-skill-cast - 여러 레포의 AI 에이전트 스킬을 동기화하는 CLI 2026년에 왜 코드를 작성하는가 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ kaydash 13시간전 [-] 안드로이드는 아무것도없이 클로드한테 시켜봤더니 이미 제어를 adb 쉘로 잘 하더라구요. 이걸 쓰면 더 잘하게되려나요 답변달기 GeekNews를 계속 받아보려면 Weekly 뉴스레터나 GeekBots를 이용해보세요. Weekly 구독 · GeekBots · GeekNews 소개 처음 오셨나요 사이트 이용법 FAQ About 후원하기 이용약관 개인정보 처리방침 Releases --> | Blog Lists RSS | Bookmarklet X (Twitter) Facebook | 긱뉴스봇 : Slack 잔디 Discord Teams Dooray! Google Chat Mattermost Swit 시작하기 이용법 FAQ About 후원 약관 개인정보 Lists Blog RSS X 긱뉴스봇 검색 언어 선택: 한국어 한국어 ✓ Indonesia Tiếng Việt Português Español ไทย 日本語 Türkçe Deutsch Français हिन्दी",
+      "oneLineKo": "AI 에이전트가 모바일/데스크톱 앱을 자동으로 제어하는 CLI 도구",
+      "summaryKo": "agent-device는 AI 에이전트가 iOS, Android, tvOS 등 다양한 플랫폼의 기기를 직접 제어할 수 있도록 지원하는 CLI 도구입니다. Vercel의 inspect-act-verify 프로세스를 모바일과 데스크톱 환경에 적용하여 에이전트가 앱 상태를 검사하고 결과를 바탕으로 다음 명령을 자율적으로 선택합니다. 접근성 스냅샷, 요소 조작, 제스처 제어, 실패 진단 등 다양한 기능을 제공하며, 기존 테스트 도구들을 보완하는 역할을 합니다.",
+      "tags": [
+        "ai-agent",
+        "mobile-automation",
+        "cli"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49156011",
+      "title": "Andy Pavlo joins ClickHouse to establish ClickHouse Labs",
+      "url": "https://clickhouse.com/blog/andy-pavlo-joins-clickhouse",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49156011",
+      "publishedAt": "2026-08-03T14:09:00Z",
+      "score": 247,
+      "comments": 51,
+      "snippet": ". --> Andy Pavlo joins ClickHouse to establish ClickHouse Labs | ClickHouse Skip to content Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Products ClickHouse Cloud The best way to use ClickHouse. Available on AWS, GCP, and Azure. Bring Your Own Cloud A fully managed ClickHouse service, deployed in your own AWS and GCP account. Postgres managed by ClickHouse Unified data stack for transactions and analytics. Managed ClickStack Managed observability with high-performance queries and long-term retention. Langfuse Cloud LLM observability and evaluations for reliable AI applications and agents. Open source ClickHouse Fast open-source OLAP database for real-time analytics. ClickStack Open-source observability stack for logs, metrics, traces, and session replays. Agentic Data Stack Build AI-powered applications with ClickHouse. chDB In-process SQL Engine powered by ClickHouse, with a Pandas-compatible API Solutions Use cases Real-time analytics Observability Data warehousing Machine learning and GenAI All use cases -> Industries Financial services Cybersecurity Gaming and entertainment E-commerce and retail Automotive Energy All industries -> Docs Resources Company resources User stories Blog Events News Learning and certification Partners Videos Demos Comparisons Benchmark hub CostBench BigQuery PostgreSQL Redshift Snowflake Elastic Observability Splunk OpenSearch For observability Databricks Pricing Contact us Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic 49k Sign in Get Started -> Scroll to top <- Back Blog / Company and culture Copy page Copied! More actions View as Markdown Open this page in Markdown Open in ChatGPT Ask questions about this page Open in Claude Ask questions about this page Open in v0 Ask questions about this page Andy Pavlo joins ClickHouse to establish ClickHouse Labs Andy Pavlo Aug 3, 2026 · 5 minutes read I am excited to announce that I am joining ClickHouse to establish and lead a new research team called ClickHouse Labs . I want to share how it came about and what we plan to do. How It Started # I started as a professor in the Computer Science Department at Carnegie Mellon University in 2013. I have spent my career seeking to understand the science of modern database management system (DBMS) internals. I make it a priority to track every new system that comes along, both in industry and academia, to understand their implementations. I have known about the ClickHouse DBMS since it was first announced as open-source software in June 2016. My initial reaction to this news was that it had to be vaporware because it seemed too good to be true. ClickHouse had features that at the time were only found in a handful of closed-source, commercial analytical DBMSs. For example, ClickHouse was written in C++ and supported vectorized query execution using SIMD in 201",
+      "oneLineKo": "Andy Pavlo, ClickHouse 연구팀 설립 위해 입사",
+      "summaryKo": "CMU 컴퓨터 과학과 교수였던 Andy Pavlo가 ClickHouse에 합류하여 ClickHouse Labs라는 새로운 연구팀을 설립하고 리드하게 되었다. Pavlo는 2013년부터 DBMS 내부 구조를 연구해온 데이터베이스 전문가로, 2016년 ClickHouse 오픈소스 발표 당시부터 이 시스템을 주목해왔다. ClickHouse는 C++ 기반이며 SIMD를 활용한 벡터화 쿼리 실행 등 당시 상용 분석 DBMS에서만 찾을 수 있던 고급 기능들을 지원했다.",
+      "tags": [
+        "clickhouse",
+        "database",
+        "research"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49155629",
+      "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+      "url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49155629",
+      "publishedAt": "2026-08-03T13:34:43Z",
+      "score": 236,
+      "comments": 72,
+      "snippet": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video ComfyUI Newsletter Subscribe Sign in MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video An open-weights omni-modal video model with real stereo sound and 2K output — this powerful model is greatly optimized in ComfyUI and can run locally on a 3060. Rob and Alexis Rolland Aug 03, 2026 5 2 Share MiniMax H3 dropped today with open weights, and it’s natively supported in ComfyUI as of this morning. Day zero. This is a next-generation open-weights video model. Feed it text, images, video, or audio and it generates video with real stereo sound, up to 2K, up to 15 seconds a clip. It is MiniMax’s third-generation video model, following Hailuo 01 and Hailuo 02, and the first the company has released with open weights. Try on Comfy Cloud Model Highlights Text-to-video — prompt only. Image-to-video — bring an image to life. First-and-last-frame — control the opening frame, the closing frame, or both, and let the model fill in the rest. Reference-to-video — supply reference images, video, or audio and carry a subject, a motion, or a voice through the clip. Output runs to 2K and up to 15 seconds. Audio is generated with the video in the same pass, in stereo, not bolted on afterward. Multimodal context understanding This is the capability MiniMax leads with, and it’s what collapses five separate tasks into one model. Real work rarely draws on one modality. H3 takes images, audio, and video together and resolves them against a prompt that explains how they relate. Describe the relationship between your inputs and the shot you want, and the model handles the cross-modal work itself. Native stereo audio Audio is a property of the model, not a post-process. Every audio output is native stereo. Editing and motion transfer Motion transfer is the one that matters most for graph work. A reference video can supply movement — a camera move, a performance, a cutting rhythm — while the subject and style come from elsewhere. Combined with in-place editing, that means iterating on a shot. Example Outputs Bold comic-book ink style, heavy linework, red and blue-black palette, night city. Use <Picture 2> and <Picture 1> as reference frames and <Audio 1> exactly as it is. CUT 1: top-down view of the little boy superhero on the rooftop — red cape fluttering in the wind, hands planted on his hips, freckles and a cocky grin as he looks straight up into the camera. The camera slowly descends toward him as he delivers his line — as he speaks, comic-book graphic overlay text word by word in sync with his voice: \"GET READY TO\" - \"MEET\" — \"YOUR\" — \"MAKER\" — huge jagged comic lettering, white with heavy black outlines and red drop shadows, tilted at scrappy angles, until the three words hang stacked in the air above him between his face and the lens. TRANSITION: a violent WHIP PAN off the rooftop that SMEARS the floating words away with it, motion-streaked — CUT 2: low hero angle on ",
+      "oneLineKo": "MiniMax H3 오픈가중치 비디오 모델, ComfyUI 즉시 지원",
+      "summaryKo": "MiniMax H3는 오픈 가중치 기반의 차세대 영상 생성 모델로 ComfyUI에 당일 지원을 시작했습니다. 텍스트, 이미지, 비디오, 오디오를 입력받아 네이티브 스테레오 사운드와 함께 최대 2K 해상도, 15초 영상을 생성합니다. 멀티모달 컨텍스트 이해 능력으로 여러 작업을 단일 모델로 처리하며, RTX 3060 같은 로컬 GPU에서 실행 가능합니다.",
+      "tags": [
+        "video-generation",
+        "open-weights",
+        "comfyui"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49152023",
+      "title": "Rust project goals: Immobile types and guaranteed destructors",
+      "url": "https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49152023",
+      "publishedAt": "2026-08-03T06:42:00Z",
+      "score": 227,
+      "comments": 87,
+      "snippet": "rust-project-goals/src/2026/move-trait.md at main · rust-lang/rust-project-goals · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... --> Search Clear Search syntax tips Provide feedback --> We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results more quickly --> Name Query To see all available qualifiers, see our documentation . Cancel Create saved search Sign in Sign up Appearance settings Resetting focus You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} Uh oh! There was an error while loading. Please reload this page . rust-lang / rust-project-goals Public Notifications You must be signed in to change notification settings Fork 114 Star 159 Code Issues 87 Pull requests 4 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights Files Expand file tree main Breadcrumbs rust-project-goals / src / 2026 / move-trait.md Copy path Blame More file act",
+      "oneLineKo": "Rust 2026년 목표: 불변 타입과 보장된 소멸자 구현",
+      "summaryKo": "Rust 프로젝트는 2026년 주요 목표로 Immobile 타입과 guaranteed destructor 기능을 추진하고 있습니다. 이는 Move trait 관련 기능으로 Rust의 메모리 안정성과 리소스 관리를 더욱 강화하려는 것입니다. 해당 목표는 Rust 언어의 타입 시스템과 소유권 모델을 발전시키는 중요한 단계입니다.",
+      "tags": [
+        "rust",
+        "type-system",
+        "memory-safety"
+      ]
+    }
+  ]
+}
