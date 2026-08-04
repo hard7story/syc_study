@@ -56,7 +56,7 @@ export const config = {
   maxSnippetChars: envInt('MAX_SNIPPET_CHARS', 3000),
   /** LLM 설정 */
   llmProvider: process.env.LLM_PROVIDER ?? 'anthropic', // 'anthropic' | 'openai-compat'
-  anthropicModel: process.env.ANTHROPIC_MODEL?.trim() || 'claude-haiku-4-5',
+  anthropicModel: process.env.ANTHROPIC_MODEL?.trim() || 'claude-sonnet-5',
   /** openai-compat (미니PC Ollama 등 확장용) */
   openaiBaseUrl: process.env.OPENAI_BASE_URL ?? 'http://localhost:11434/v1',
   openaiModel: process.env.OPENAI_MODEL ?? 'llama3',

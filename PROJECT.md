@@ -3,7 +3,7 @@
 GeekNews · 요즘IT · Hacker News · Reddit의 IT 소식을 매일 아침 수집해 Claude로 한국어 요약·번역하고, 모바일 친화 정적 사이트(GitHub Pages)로 제공하는 개인 학습용 서비스.
 
 - **예산**: 월 $5 이내 (일 20건 상한 + 건당 입력 3,000자 절단으로 코드 레벨 가드)
-- **기본 모델**: `claude-haiku-4-5`, Batch API 사용 (실데이터 3일 기준 추정 월 **$0.7** 안팎) — `ANTHROPIC_MODEL` env로 교체 가능
+- **기본 모델**: `claude-sonnet-5`, Batch API 사용 (실데이터 3일 기준 추정 월 **$3** 안팎) — `ANTHROPIC_MODEL` env로 교체 가능
 - **주기**: 매일 07:00 KST (GitHub Actions cron `0 22 * * *`)
 
 ## 구조
@@ -60,9 +60,15 @@ npm run dev                          # 사이트 확인 (localhost:4321/syc_stud
   변수를 비우거나 삭제하면 `pipeline/config.ts`의 `DEFAULT_INTEREST_KEYWORDS`로 폴백.
   같은 방식으로 `MAX_ARTICLES`, `ANTHROPIC_MODEL` 변수도 워크플로에 연결되어 있음 (미설정 시 코드 기본값).
 - **비용 조정**: `MAX_ARTICLES`(기본 20), `pipeline/config.ts`의 쿼터, `ANTHROPIC_MODEL`
-  - Batch API 기본 적용(2026-08-04, 50% 할인). 실데이터 3일치 기준 추정: 일 입력 ~24k / 출력 ~4.4k 토큰
-    → **월 $0.7 안팎** (일반 호출이었다면 $1.4). 다음 실행 로그의 `[usage]` 라인으로 실측 확인 가능.
-  - 품질 우선 시 `claude-sonnet-5` (비용 약 3~4배, Batch 기준 월 $2~3 예상 — 예산 내 가능해짐)
+  - Batch API 기본 적용(2026-08-04, 50% 할인). `claude-sonnet-5` 전환(2026-08-04, 품질 우선):
+    단가 $3/$15 per MTok(2026-08-31까지 인트로 $2/$10), Batch 실효 $1.5/$7.5.
+    실데이터 3일치 + 신형 토크나이저(약 +30%) 반영 추정 **월 $3 안팎** (인트로 기간엔 ~$2) — $5 예산 내.
+    실측은 실행 로그의 `[usage]` 라인으로 확인.
+  - sonnet-5는 thinking이 기본으로 켜져 요약 품질이 좋아지는 대신 출력 토큰이 다소 늘어남
+    (`max_tokens` 2048로 확보). 비용 절감이 필요하면 `ANTHROPIC_MODEL` 변수를 `claude-haiku-4-5`로
+    되돌리면 됨 (월 ~$0.7).
+  - **주의**: 저장소 Variables의 `ANTHROPIC_MODEL`이 설정돼 있으면 코드 기본값보다 우선함 —
+    비어 있는지 확인 (Settings → Secrets and variables → Actions → Variables).
 - **실패 알림** (2026-08-04): 워크플로 실패 시 "Daily briefing 실패" 이슈를 자동 생성(이미 열려 있으면
   코멘트 추가). GitHub 알림 메일로 수신 — 저장소 Watch 설정이 Participating 이상이어야 함.
 - **Reddit 429**: 클라우드 IP에서 자주 차단됨. 실패해도 다른 소스는 정상 수집(실패 허용 설계). 지속 실패 시 `config.ts`의 `subreddits`를 비우면 시도 자체를 생략.
@@ -92,7 +98,7 @@ npm run dev                          # 사이트 확인 (localhost:4321/syc_stud
 
 - [x] GitHub 저장소 생성·푸시, secret 등록, Pages 활성화, 첫 수동 실행 — **2026-08-02 완료, 라이브: https://hard7story.github.io/syc_study/**
 - [ ] 실제 실행 후 요약 품질 확인 — 미흡하면 프롬프트(`pipeline/llm/provider.ts`의 SYSTEM_PROMPT) 조정 또는 Sonnet 전환 검토
-- [ ] 1주 운영 후 실비용 확인 (Actions 로그의 `[usage]` 라인) — 추정치는 월 $0.7 안팎 (위 비용 조정 참조)
+- [ ] 1주 운영 후 실비용 확인 (Actions 로그의 `[usage]` 라인) — 추정치는 sonnet-5 기준 월 $3 안팎 (위 비용 조정 참조)
 - [x] Batch API 전환으로 비용 50% 절감 — 2026-08-04 구현 (`summarizeAll`, 30초 간격 폴링·60분 타임아웃, `--no-batch`로 우회)
 - [x] 관심 키워드 기반 선별 가중치 — 2026-08-02 구현 (`pipeline/interest.ts`, 위 운영 노트 참조)
 - [x] GeekNews ↔ HN 원문 URL 기반 중복 제거 — 2026-08-04 구현 (위 운영 노트 참조)

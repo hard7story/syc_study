@@ -16,6 +16,13 @@ const SUMMARY_SCHEMA = {
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
+// 모델별 단가 $/MTok [입력, 출력] (2026-08 기준). Batch API는 50% 할인.
+// sonnet-5는 2026-08-31까지 인트로 $2/$10 — 여기서는 정가로 보수적으로 계산.
+const TOKEN_PRICES: Record<string, [number, number]> = {
+  'claude-sonnet-5': [3, 15],
+  'claude-haiku-4-5': [1, 5],
+};
+
 /** Claude API 구현 — structured outputs로 JSON 스키마 보장, 기본은 Batch API (50% 할인) */
 export class AnthropicProvider implements LlmProvider {
   readonly name: string;
@@ -31,7 +38,8 @@ export class AnthropicProvider implements LlmProvider {
   private buildParams(article: RawArticle) {
     return {
       model: config.anthropicModel,
-      max_tokens: 1024,
+      // sonnet-5는 thinking(adaptive)이 기본으로 켜지고 그 토큰도 max_tokens에 포함되므로 여유 필요
+      max_tokens: 2048,
       system: SYSTEM_PROMPT,
       output_config: {
         format: { type: 'json_schema' as const, schema: SUMMARY_SCHEMA },
@@ -99,9 +107,10 @@ export class AnthropicProvider implements LlmProvider {
   }
 
   reportUsage(): void {
-    // Haiku 4.5: $1 / $5 per 1M tokens, Batch API는 50% 할인 (2026-08 기준)
+    const [inPrice, outPrice] = TOKEN_PRICES[config.anthropicModel] ?? TOKEN_PRICES['claude-sonnet-5'];
     const discount = this.batchMode ? 0.5 : 1;
-    const cost = ((this.inputTokens / 1e6) * 1 + (this.outputTokens / 1e6) * 5) * discount;
+    const cost =
+      ((this.inputTokens / 1e6) * inPrice + (this.outputTokens / 1e6) * outPrice) * discount;
     console.log(
       `[usage] ${this.name}${this.batchMode ? ' (batch)' : ''} — 입력 ${this.inputTokens.toLocaleString()} / 출력 ${this.outputTokens.toLocaleString()} 토큰, ` +
         `이번 실행 약 $${cost.toFixed(4)} (월 30회 환산 약 $${(cost * 30).toFixed(2)})`,
