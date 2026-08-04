@@ -4,8 +4,8 @@ import { config, kstDateString } from './config.ts';
 import { fetchText, stripHtml } from './fetch-util.ts';
 import { interestScore } from './interest.ts';
 import { getProvider } from './llm/provider.ts';
-import { selectArticles } from './select.ts';
-import { fetchGeekNews } from './sources/geeknews.ts';
+import { canonicalUrl, selectArticles } from './select.ts';
+import { enrichGeekNewsExternalUrls, fetchGeekNews } from './sources/geeknews.ts';
 import { fetchHackerNews } from './sources/hn.ts';
 import { fetchReddit } from './sources/reddit.ts';
 import { fetchYozm } from './sources/yozm.ts';
@@ -19,12 +19,14 @@ interface SeenEntry {
   date: string; // 처리된 날짜 (보관 기간 관리용)
 }
 
-function parseArgs(): { limit?: number; dryRun: boolean } {
+function parseArgs(): { limit?: number; dryRun: boolean; noBatch: boolean } {
   const args = process.argv.slice(2);
   const limitIdx = args.indexOf('--limit');
   return {
     limit: limitIdx >= 0 ? Number.parseInt(args[limitIdx + 1], 10) : undefined,
     dryRun: args.includes('--dry-run'),
+    // Batch API는 완료까지 수 분 걸리므로 로컬 테스트 시 순차 호출로 전환
+    noBatch: args.includes('--no-batch'),
   };
 }
 
@@ -50,7 +52,7 @@ async function enrichSnippet(article: RawArticle): Promise<RawArticle> {
 }
 
 async function main() {
-  const { limit, dryRun } = parseArgs();
+  const { limit, dryRun, noBatch } = parseArgs();
   const today = kstDateString();
   console.log(`=== syc_study 파이프라인 (${today}) ===`);
 
@@ -77,6 +79,8 @@ async function main() {
   console.log('[2/4] 선별 중...');
   const seen = await loadSeen();
   const seenIds = new Set(seen.map((s) => s.id));
+  // GeekNews 새 글의 원문 URL 확보 — HN/Reddit과의 URL 기준 중복 제거에 사용
+  await enrichGeekNewsExternalUrls(all.filter((a) => !seenIds.has(a.id)));
   let selected = selectArticles(all, seenIds);
   if (limit) selected = selected.slice(0, limit);
   console.log(`  ${selected.length}건 선별 (상한 ${limit ?? config.maxArticles})`);
@@ -99,14 +103,32 @@ async function main() {
   const provider = await getProvider();
   console.log(`  provider: ${provider.name}`);
   const summarized: SummarizedArticle[] = [];
-  for (const article of selected) {
-    try {
-      const enriched = await enrichSnippet(article);
-      const summary = await provider.summarize(enriched);
-      summarized.push({ ...enriched, ...summary });
-      console.log(`  ✓ ${summary.oneLineKo}`);
-    } catch (err) {
-      console.warn(`  ✗ 요약 실패 — 스킵: ${article.title} (${(err as Error).message})`);
+
+  // 본문 확보는 배치 제출 전에 완료해야 하므로 먼저 수행
+  const enriched: RawArticle[] = [];
+  for (const article of selected) enriched.push(await enrichSnippet(article));
+
+  if (provider.summarizeAll && !noBatch) {
+    // Batch API — 비용 50% 할인, 개별 실패는 스킵
+    const results = await provider.summarizeAll(enriched);
+    for (const article of enriched) {
+      const summary = results.get(article.id);
+      if (summary) {
+        summarized.push({ ...article, ...summary });
+        console.log(`  ✓ ${summary.oneLineKo}`);
+      } else {
+        console.warn(`  ✗ 요약 실패 — 스킵: ${article.title}`);
+      }
+    }
+  } else {
+    for (const article of enriched) {
+      try {
+        const summary = await provider.summarize(article);
+        summarized.push({ ...article, ...summary });
+        console.log(`  ✓ ${summary.oneLineKo}`);
+      } catch (err) {
+        console.warn(`  ✗ 요약 실패 — 스킵: ${article.title} (${(err as Error).message})`);
+      }
     }
   }
   provider.reportUsage();
@@ -134,9 +156,15 @@ async function main() {
 
   // seen 갱신 + 보관 기간 초과분 정리
   const cutoff = kstDateString(new Date(Date.now() - config.seenRetentionDays * 86400000));
+  // id와 함께 원문 정규화 URL도 기록 — 며칠 뒤 다른 소스에 같은 글이 떠도 걸러진다
   const nextSeen = [
     ...seen.filter((s) => s.date >= cutoff),
-    ...summarized.map((a) => ({ id: a.id, date: today })),
+    ...summarized.flatMap((a) => {
+      const entries = [{ id: a.id, date: today }];
+      const canon = canonicalUrl(a.externalUrl ?? a.url);
+      if (canon && canon !== a.id) entries.push({ id: canon, date: today });
+      return entries;
+    }),
   ];
   await writeFile(SEEN_PATH, JSON.stringify(nextSeen, null, 2), 'utf8');
 

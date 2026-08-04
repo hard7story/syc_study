@@ -11,6 +11,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write # 실패 알림 이슈 생성용
 
 concurrency:
   group: daily-briefing
@@ -73,3 +74,21 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # 실패하면 그날 브리핑이 조용히 비므로 이슈로 알림 (저장소 watch 설정에 따라 메일 발송).
+      # 같은 제목의 열린 이슈가 있으면 코멘트만 추가해 이슈가 쌓이는 것을 방지.
+      - name: Notify failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          TITLE="Daily briefing 실패"
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          BODY="$(TZ=Asia/Seoul date '+%F %R KST') 실행 실패 — 로그: ${RUN_URL}"
+          EXISTING=$(gh issue list --state open --search "in:title \"$TITLE\"" --json number --jq '.[0].number')
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body "$BODY"
+          else
+            gh issue create --title "$TITLE" --body "$BODY" --label bug || gh issue create --title "$TITLE" --body "$BODY"
+          fi

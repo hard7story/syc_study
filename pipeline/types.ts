@@ -9,6 +9,8 @@ export interface RawArticle {
   url: string;
   /** 토론/댓글 페이지 (HN, GeekNews, Reddit) */
   commentsUrl?: string;
+  /** 큐레이션 소스가 다루는 원문 URL (GeekNews) — 교차 소스 URL 중복 제거용 */
+  externalUrl?: string;
   /** ISO 8601 */
   publishedAt: string;
   score?: number;

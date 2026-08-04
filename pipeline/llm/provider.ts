@@ -9,6 +9,11 @@ import type { RawArticle, SummaryResult } from '../types.ts';
 export interface LlmProvider {
   readonly name: string;
   summarize(article: RawArticle): Promise<SummaryResult>;
+  /**
+   * 전체 기사를 한 번에 요약 (Batch API 등). 지원하는 provider만 구현.
+   * 반환 Map에 없는 id는 개별 실패로 간주하고 스킵한다.
+   */
+  summarizeAll?(articles: RawArticle[]): Promise<Map<string, SummaryResult>>;
   /** 실행 종료 시 사용량/비용 로그 출력 */
   reportUsage(): void;
 }

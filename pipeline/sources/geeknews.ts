@@ -42,3 +42,36 @@ export async function fetchGeekNews(): Promise<RawArticle[]> {
     })
     .filter((a): a is NonNullable<typeof a> => a !== null);
 }
+
+/** 토픽 페이지 상단 제목 링크에서 원문 URL 추출 (자체 글이면 없음) */
+function parseExternalUrl(html: string): string | undefined {
+  const m = html.match(/topictitle[^>]*>[\s\S]{0,300}?href=['"]([^'"]+)['"]/);
+  const href = m?.[1];
+  if (!href || !/^https?:\/\//.test(href) || href.includes('news.hada.io')) return undefined;
+  return href;
+}
+
+/**
+ * GeekNews 글의 원문 URL을 토픽 페이지에서 확보해 externalUrl에 채운다.
+ * 피드에는 원문 링크가 없어 페이지를 직접 받아야 함 — seen 제외 후 새 글만 넘길 것.
+ * 실패해도 무시 (제목 휴리스틱으로 폴백).
+ */
+export async function enrichGeekNewsExternalUrls(
+  articles: RawArticle[],
+  concurrency = 2,
+): Promise<void> {
+  const targets = articles.filter((a) => a.source === 'geeknews' && !a.externalUrl);
+  const queue = [...targets];
+  const worker = async () => {
+    for (let a = queue.shift(); a; a = queue.shift()) {
+      try {
+        const html = await fetchText(a.url, { retries: 1, timeoutMs: 10000 });
+        a.externalUrl = parseExternalUrl(html);
+      } catch {
+        /* 원문 URL 없이 진행 */
+      }
+      await new Promise((r) => setTimeout(r, 500)); // 429 방지
+    }
+  };
+  await Promise.all(Array.from({ length: concurrency }, worker));
+}

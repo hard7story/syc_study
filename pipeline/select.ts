@@ -7,6 +7,31 @@ function normalizeTitle(title: string): string {
   return title.toLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
 }
 
+/**
+ * URL 정규화 — 프로토콜/www/트래킹 파라미터/말미 슬래시 차이를 무시하고 같은 글로 판별.
+ * 파싱 불가하면 null.
+ */
+export function canonicalUrl(raw: string | undefined): string | null {
+  if (!raw) return null;
+  try {
+    const u = new URL(raw);
+    for (const key of [...u.searchParams.keys()]) {
+      if (/^(utm_|ref$|source$|fbclid|gclid)/.test(key)) u.searchParams.delete(key);
+    }
+    const host = u.hostname.toLowerCase().replace(/^(www|m)\./, '');
+    const path = u.pathname.replace(/\/+$/, '');
+    const qs = u.searchParams.toString();
+    return `${host}${path}${qs ? `?${qs}` : ''}`;
+  } catch {
+    return null;
+  }
+}
+
+/** 이 글이 가리키는 원문의 정규화 URL (GeekNews는 externalUrl 우선) */
+function articleCanonicalUrl(a: RawArticle): string | null {
+  return canonicalUrl(a.externalUrl ?? a.url);
+}
+
 /** GeekNews가 HN 인기 글을 한국어로 다루는 경우가 많아, 제목이 겹치는 해외 글은 제외 */
 function isDuplicateOfKorean(article: RawArticle, koreanTitles: string[]): boolean {
   const norm = normalizeTitle(article.title);
@@ -19,15 +44,36 @@ function isDuplicateOfKorean(article: RawArticle, koreanTitles: string[]): boole
  * 순서는 소스 다양성 유지를 위해 라운드로빈으로 섞는다.
  */
 export function selectArticles(all: RawArticle[], seenIds: Set<string>): RawArticle[] {
-  const fresh = all.filter((a) => !seenIds.has(a.id));
+  // seen에는 id와 원문 정규화 URL이 함께 저장됨 — 어제 GeekNews로 다룬 글이 오늘 HN에 떠도 걸러진다
+  const fresh = all.filter((a) => {
+    if (seenIds.has(a.id)) return false;
+    const canon = articleCanonicalUrl(a);
+    return !(canon && seenIds.has(canon));
+  });
 
   const bySource: Record<SourceId, RawArticle[]> = { hn: [], geeknews: [], yozm: [], reddit: [] };
   for (const a of fresh) bySource[a.source].push(a);
 
-  // 한국어 소스(GeekNews/요즘IT)와 제목이 겹치는 HN/Reddit 글 제외
-  const koreanTitles = [...bySource.geeknews, ...bySource.yozm].map((a) => normalizeTitle(a.title));
-  bySource.hn = bySource.hn.filter((a) => !isDuplicateOfKorean(a, koreanTitles));
-  bySource.reddit = bySource.reddit.filter((a) => !isDuplicateOfKorean(a, koreanTitles));
+  // 한국어 소스(GeekNews/요즘IT)와 같은 원문을 다루는 HN/Reddit 글 제외.
+  // 1순위는 원문 URL 일치(GeekNews externalUrl), 제목 포함 관계는 폴백 휴리스틱.
+  const koreanArticles = [...bySource.geeknews, ...bySource.yozm];
+  const koreanUrls = new Set(
+    koreanArticles
+      .flatMap((a) => [canonicalUrl(a.externalUrl), canonicalUrl(a.url)])
+      .filter((u): u is string => u !== null),
+  );
+  const koreanTitles = koreanArticles.map((a) => normalizeTitle(a.title));
+  const isDuplicate = (a: RawArticle): boolean => {
+    const canon = articleCanonicalUrl(a);
+    if (canon && koreanUrls.has(canon)) return true;
+    return isDuplicateOfKorean(a, koreanTitles);
+  };
+  for (const src of ['hn', 'reddit'] as const) {
+    for (const a of bySource[src].filter(isDuplicate)) {
+      console.log(`  [중복 제외] [${a.source}] ${a.title} — 한국어 소스와 원문이 같음`);
+    }
+    bySource[src] = bySource[src].filter((a) => !isDuplicate(a));
+  }
 
   // 관심 키워드 점수 — 소스 내 우선순위 1순위 (동점이면 기존 기준 적용)
   const interest = new Map<string, number>(fresh.map((a) => [a.id, interestScore(a)]));
