@@ -1,0 +1,283 @@
+{
+  "date": "2026-08-06",
+  "generatedAt": "2026-08-05T22:49:17.712Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32172",
+      "title": "취미 프로그래밍 커뮤니티가 LLM 사용에 강하게 반대하는 이유",
+      "url": "https://news.hada.io/topic?id=32172",
+      "commentsUrl": "https://news.hada.io/topic?id=32172",
+      "publishedAt": "2026-08-05T20:01:23+09:00",
+      "snippet": "취미 프로그래밍 커뮤니티가 LLM 사용에 강하게 반대하는 이유 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ 취미 프로그래밍 커뮤니티가 LLM 사용에 강하게 반대하는 이유 (blog.fogus.me) 1 P by GN⁺ 12시간전 | ★ favorite | 댓글 1개 체스 엔진 개발, OSDev, LangDev, EmuDev 같은 취미 커뮤니티는 작동하는 결과물보다 어려운 분야를 직접 익히는 숙련 과정 자체 를 중시함 오랜 노력으로 축적한 지식을 LLM으로 우회해 완성품을 만드는 행위는 활동의 목적을 놓치거나 부정행위 를 하는 것으로 받아들여짐 초기에는 LLM을 진지하게 검토한 사례도 있었지만, 활용자의 얕은 도메인 이해와 커뮤니티 일부의 적대감이 맞물리며 논의 환경이 빠르게 악화됨 커뮤니티의 평판은 수년간의 활동과 우아한 코드, 진정한 호기심, 깊은 지식을 통해 쌓이며, 코드가 작동하는지보다 왜, 어떻게 작동하는지 아는 것이 중요함 LLM은 전문가의 능력을 키우는 증폭 도구 가 될 수 있지만 학습을 대신하면 공예를 경험할 기회를 빼앗으며, 전문가도 잘못된 결과에 속을 수 있음 결과물보다 숙련 과정이 중요한 커뮤니티 체스 엔진 개발 관련 GitHub 스레드 는 취미 프로그래밍 커뮤니티가 LLM 개발에 점점 적대적으로 변하는 이유를 보여줌 비슷한 태도는 OSDev, LangDev, TxtDev, EmuDev, RLDev 와 demoscene, code golfing 커뮤니티에서도 나타남 이 분야의 지식은 어렵게 획득되므로 LLM 사용은 활동의 핵심을 완전히 건너뛰는 행위로 여겨짐 어려운 분야를 숙달하는 과정 자체가 제품 임 실행되는 결과물은 있으면 좋은 부차적 성과에 가까움 일부 커뮤니티에는 역사적으로 강한 문지기 문화와 매우 느린 진전이 있었으며, LLM으로 빠르게 성과를 내며 진입하려는 행동도 반감을 부름 초기에는 LLM 활용을 진지하게 검토하기도 했으나, 얕은 도메인 이해로 도구를 사용하는 사람들과 커뮤니티의 적대감이 맞물리며 생산적인 논의가 어려워짐 LLM이 맡을 수 있는 역할과 한계 전통적인 취미 개발 분야에서는 오랜 포럼 활동, 우아한 코드, 진정한 호기심, 깊은 도메인 지식 공유를 통해 존중을 얻음 코드의 작동 여부보다 작동 원리와 이유 를 이해하는 것이 더 중요함 LLM은 사람을 대신하는 대리자보다 능력을 확대하는 도구로 활용할 때 적합함 분야를 이미 깊이 이해한 전문가는 LLM을 지렛대 처럼 활용할 수 있음 학습 자체가 목적인 분야에서 LLM으로 완성품을 생성하면, 사용자는 장인이 되는 대신 공예를 경험할 기회를 잃음 깊은 전문성을 갖췄더라도 LLM의 잘못된 결과에 속지 않는다는 보장은 없음 함께 보면 좋은 글 β AI 시대에 취미가 곧 비즈니스 기회가 되는 이유 LLM은 사랑하지만 과대광고는 싫다 LLM 비판론자들이 옳다. 그래도 나는 LLM을 쓴다 커널 개발에서 LLM 사용에 관한 Linus Torvalds의 견해 LLM 번아웃이 온 것 같아요 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ GN⁺ 12시간전 [-] Lobste.rs 의견들 어려운 분야를 숙달하는 과정 자체가 결과물이며, 실행되는 무언가는 대체로 있으면 좋은 부가물이라는 태도는 시끄러운 AI 지상주의자들이 싫어하는 모든 요소를 담고 있음. 시간과 노력을 들여 배우는 진입 장벽 , 결과보다 과정에 집중하는 자세, 실행 코드가 선택 사항이어서 대개 수익 동기와 직접 연결되지 않는다는 점임 숙련을 추구하는 일 은 매우 뜻깊지만, 반복 훈련을 꺼리는 이들에게 그 중요성을 내준 뒤 실제로 훈련한 척 인정하라고 모두를 압박하는 모습을 보게 될까 우려됨 더 일반화하면 무언가를 창조하는 일 은 지극히 인간적인 추구임. 잘하거나 빨리할 필요는 없으며 삶은 과정에 관한 것이지만, 자본주의 아래에서는 최종 결과물이 전부라고 믿게 되기 쉬움 결국 AI 사용자는 스테로이드 사용자 와 비슷하다는 뜻인가? 글의 결론에는 동의하지만, 진입 장벽과 느린 속도 자체가 목표라기보다 공동체의 설계 과정이 코드 구현보다 더 큰 병목이기 때문에 생긴 결과로 보임. 설계 결정은 향후 호환성을 깨지 않고 할 수 있는 일을 조금씩 제한하므로, 합의를 만들고 프로젝트가 향할 방향에 대한 공동의 상상력을 충분히 형성하는 절차가 필요함 코드를 더 빨리 작성해도 공유된 이해가 없다면 더 빠르게 제약에 갇힐 수 있음. 기술적 판단은 코드를 다룰 때 느껴지는 마찰에서 나오기도 하는데, LLM은 토론을 촉진하는 그 감각을 똑같이 주지 못함. 개인이 코드를 이해하는 데 LLM을 활용할 수는 있어도, 공동 비전에 합의하는 사회적 과정 에서는 사람끼리 대화하는 일을 대체할 수 없음 내가 활동했던 운영체제 개발, 피처폰 펌웨어 역공학, 난해한 언어 공동체와 비교하면 글에서 묘사한 틈새 공동체가 매우 낯설게 느껴짐. 포럼을 찾아 무언가 시작하기만 하면 구성원으로 받아들여졌고, 실제 성과만큼 지식도 높이 평가됐음. 휴대전화를 역공학해 많은 내용을 풀어내는 이도 있었고, 가끔 훌륭한 도구만 공개하는 이도 있었음 발전 속도는 극도로 불규칙했고, 대개 강한 의욕을 지닌 누군가가 나타나 이상하고 흥미로운 성과를 낼 때 진전됐음. 공동체의 다른 단면인지 시대가 달라진 것인지 모르겠지만, 글에서 묘사한 취미 공동체는 솔직히 즐거워 보이지 않음 관점의 차이임. 글쓴이의 시각에서는 그 장소를 직접 찾아야 하고, 구성원으로 인정받으려면 에너지를 들여야 한다는 것 자체가 게이트키핑 에 해당함 과거 홈브루 개발자로서 에뮬레이션·홈브루 개발계의 이런 특성을 상당 부분 알아볼 수 있음. 많은 공동체가 연구 결과를 집요하게 감추며, 공개 문서는 과정을 이해시키는 자료라기보다 마지막에 쏟아 놓은 ",
+      "externalUrl": "https://blog.fogus.me/llm/born-against.html",
+      "oneLineKo": "취미 개발 커뮤니티, 숙련 과정 중시로 LLM 사용에 반감",
+      "summaryKo": "체스 엔진, OSDev, EmuDev 등 취미 프로그래밍 커뮤니티는 결과물보다 어려운 분야를 직접 익히는 숙련 과정 자체를 중시하기 때문에 LLM을 활용한 완성품 제작을 부정행위로 여긴다. 초기에는 LLM 활용을 진지하게 검토했으나 얕은 이해로 도구를 쓰는 사람들과 커뮤니티의 적대감이 맞물려 논의가 악화됐다. LLM은 이미 도메인을 깊이 이해한 전문가에게는 능력을 증폭시키는 도구가 될 수 있지만, 학습 과정을 대신하면 공예를 경험할 기회를 빼앗는다는 지적이다.",
+      "tags": [
+        "llm",
+        "hobbyist-programming",
+        "community"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49187977",
+      "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
+      "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49187977",
+      "publishedAt": "2026-08-05T19:47:26Z",
+      "score": 190,
+      "comments": 142,
+      "snippet": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery | WIRED Skip to main content Menu WIRED SECURITY POLITICS THE BIG STORY BUSINESS SCIENCE CULTURE REVIEWS Menu WIRED Account Account Newsletters Security Politics The Big Story Business Science Culture Reviews Chevron More Expand The Big Interview Magazine Events WIRED Insider WIRED Consulting Newsletters Podcasts Video Livestreams Merch Search Search Matt Burgess Security Aug 5, 2026 12:26 PM Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery More than 50 offending image and video ads were published across Facebook, Instagram, Messenger, or Threads, according to Meta’s ad library data. Some ran as recently as this week. PHOTO-ILLUSTRATION: WIRED STAFF; GETTY IMAGES Comment Loader Save Story Save this story Comment Loader Save Story Save this story Editor’s note: This article contains descriptions of imagery depicting child sexual abuse. Reader discretion is strongly advised. Over the last nine months, Mark Zuckerberg’s Meta has run dozens of paid ads that include explicit AI-generated child sexual abuse material (CSAM) and images of minors alongside sexually suggestive statements, according to details of the ads shared with WIRED. The ads, which in some cases reached several thousand accounts, were targeted at people living in the United States, United Kingdom, and more than a dozen European countries. More than 50 image and video ads containing abusive content were recently discovered in Meta’s ad library by researchers at the Tech Transparency Project (TTP), with the listings showing that some ads linked out to so-called nudify or undressing apps . Meta’s ad library—a transparency tool that catalogues ads displayed on the company’s platforms—shows the ads running across Facebook, Instagram, Messenger, and/or Threads. The findings are the second time in recent weeks that paid ads linked to child sexual abuse material have been found on Meta’s platforms. “These ads made no effort to mask the images or hide what they were promoting,” Katie Paul, the director of the TTP, an independent watchdog group, tells WIRED. “It’s important to point out that this isn’t content posted by third parties on Facebook or Instagram, these are ads that were reviewed, approved, and allowed to run by Meta, never encountering interference while the company collected the ad dollars.” The ads discovered by the researchers—which have now been removed by Meta for violating its policies on child sexual abuse and exploitation material , and adult sexual solicitation and nudity—were all published between November last year and the start of August. The ads, according to data in Meta’s ad transparency library, often ran over a period of several days and some only targeted men. One video ad, the TTP researchers say, used a thumbnail image of a child sitting on the floor with text appearing on top of it saying: “Realizing Deep Fantasies with Generation AI [ sic ]. There is so much more than what i",
+      "oneLineKo": "Meta, AI 아동 성착취물 광고 승인·게재 논란",
+      "summaryKo": "Tech Transparency Project 조사에 따르면, Meta가 지난 9개월간 Facebook, Instagram, Messenger, Threads에 AI로 생성된 아동 성착취 이미지가 포함된 광고 50여 건을 게재했다. 일부 광고는 'nudify' 앱으로 연결되었으며 미국, 영국, 유럽 여러 국가 사용자를 대상으로 노출됐다. 해당 광고들은 Meta의 심사를 통과해 승인된 유료 광고로, 회사가 이를 통해 광고 수익을 얻었다는 점이 문제로 지적됐다. Meta는 정책 위반으로 해당 광고들을 삭제했다고 밝혔다.",
+      "tags": [
+        "ai-generated-content",
+        "content-moderation",
+        "csam"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1vg555b",
+      "title": "The rust programming language is adopting a new contributing policy",
+      "url": "https://www.reddit.com/r/programming/comments/1vg555b/the_rust_programming_language_is_adopting_a_new/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1vg555b/the_rust_programming_language_is_adopting_a_new/",
+      "publishedAt": "2026-08-05T11:50:06+00:00",
+      "snippet": "submitted by /u/mareek [link] [comments]",
+      "oneLineKo": "러스트, 새로운 기여 정책 채택",
+      "summaryKo": "러스트 프로그래밍 언어 프로젝트가 새로운 기여(contributing) 정책을 채택한다는 소식이 레딧에 공유되었습니다. 게시물 본문에는 정책의 구체적인 내용이 포함되어 있지 않아 세부 사항은 확인되지 않습니다. 커뮤니티 기여 방식이나 거버넌스에 변화가 있을 것으로 보입니다.",
+      "tags": [
+        "rust",
+        "open-source"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32164",
+      "title": "Retrieval as Reasoning - LLM Wiki가 RAG보다 나은 이유에 대한 실증 벤치마크",
+      "url": "https://news.hada.io/topic?id=32164",
+      "commentsUrl": "https://news.hada.io/topic?id=32164",
+      "publishedAt": "2026-08-05T11:06:55+09:00",
+      "snippet": "Retrieval as Reasoning - LLM Wiki가 RAG보다 나은 이유에 대한 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Retrieval as Reasoning - LLM Wiki가 RAG보다 나은 이유에 대한 실증 벤치마크 (arxiv.org) 9 P by alfadur 21시간전 | ★ favorite | 댓글 9개 문서를 청크 단위로 잘라 벡터로 검색하는 RAG 방식이 아닌, 서로 링크된 마크다운 위키로 만들고 에이전트가 네비게이션하는 LLM Wiki 방식이 나은 이유에 대해 실증한 논문입니다. 논문이 풀어본 문제 청크 검색은 문서를 잘게 잘라 비슷한 조각 몇 개만 꺼내 붙임. 여러 문서를 이어야 답이 나오는 멀티홉 질문에서 약함 조각으로 자르는 순간 조각들 사이의 관계가 사라짐 . 이것이 근본적인 한계 논문은 검색을 '조각 꺼내기'가 아니라 '추론' 으로 접근. 위키를 미리 구성해 두고, 읽고 → 링크 따라가고 → 모자라면 다시 검색하며 여러 번 되짚어 답을 맞춰 감 핵심 요약 컴파일 : 원문서를 양방향 링크가 걸린 위키 페이지로 변환 (검색하는 단위가 청크가 아니라 링크된 페이지) 세 가지 도구 : 검색(search)·읽기(read)·링크 따라가기(link)를 표준 도구로 정의 Error Book : 위키의 구조·의미 오류를 계속 스스로 고침 자가 진화 : 쓸수록 위키 자체가 나아짐 벤치마크 결과 멀티홉 QA 세 종류에서 기준 모델들보다 2.0~8.1 F1 앞섬 별도 벤치마크 AuthTrace에서도 정확도 1위. 특히 여러 문서를 엮는 질문에서 강함 가장 주목할 대목 — Ablation (F1 손실, HotpotQA / MuSiQue / 2Wiki) 순회를 뺐을 때 : −11.7 / −13.8 / −12.2 (가장 치명적) 위키 구조를 뺐을 때 : −6.1 / −7.0 / −6.7 Error Book을 뺐을 때 : −3.8 / −4.0 / −3.4 순서로 보면 순회 > 구조 > 교정. 순회가 구조보다 두 배쯤 중요함 관련 오픈소스 프로젝트 출발은 Karpathy가 제시한 'LLM Wiki' 개념을 구현하되 마크다운 위키 형태로 지식을 축적하고 관리하는 지식 팩토리를 Claude Code 기반으로 운영 중 : https://news.hada.io/topic?id=31691 본 논문을 구현한 것은 아님 . 논문은 나중에 알게 됨 논문에 비춰보니 위키 '구조'엔 오랜 시간 공들였는데, 정작 ablation이 제일 중요하다는 '순회'(에이전트가 쓰기 전에 뭘 얼마나 읽느냐)는 지침 딱 한 줄 이었음 추가한 것 — 읽기 사다리(GROUND Ladder) 에이전트가 위키 페이지를 쓰기 전에 얼마나 읽을지를 다섯 단계로 나눔: ① 페이지가 적어둔 의존성 → ② 인덱스 → ③ 빌드가 미리 계산해둔 링크 → ④ 콘텐츠 검색 → ⑤ 위키 전체 위 단계로 올라가는 건 순서대로가 아님. '지금 근거가 모자란다'는 신호가 있을 때만 그 신호가 가리키는 칸으로 바로 감 논문은 순회를 '답 만들 때' 썼지만, 오픈소스 프로젝트에서는 '읽어 들일 때' 지키는 규칙으로 가져옴 자세한 설명: https://github.com/alfadur7/llm-wiki-newsroom/&hellip; 아직 부족한 점 읽기 사다리는 이제 막 구현하였고 효과를 아직 측정하기 전 . 읽기 단계를 올라가다 멈추는 기준도 잠정 수치고 두세 번 돌려 데이터가 쌓이면 기준을 다듬을 예정 링크 논문 (arXiv:2605.25480): https://arxiv.org/abs/2605.25480 오픈소스 레포: https://github.com/alfadur7/llm-wiki-newsroom 규칙 원문(SoT): https://github.com/alfadur7/llm-wiki-newsroom/&hellip; 함께 보면 좋은 글 β LLM-Wiki - LLM을 활용하여 개인 지식저장소 구축 하기 멀티에이전트는 토큰만 많이 잡아먹고 컨텍스트도 자주 놓치더라? 그래서 '신문 편집국' 구조를 도입한 LLM Wiki를 만들어 보았습니다. Agent Docs for Markdown – 로컬 Markdown을 AI 에이전트용 LLM Wiki로 만드는 VS Code 확장 Antigravity 2.0, OpenSCAD 건축 3D LLM 벤치마크에서 1위 Anthropic, Contextual Retrieval(문맥 검색) 공개 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ daydreamblend 14시간전 [-] 그런데 LLM이 관리를 하면 RAG보다는 비결정론적이기에 모델마다 성능이 크게 달라질 거 같은데 이 문제는 어떻게 다뤘을지 궁금하네요 답변달기 ▲ alfadur 11분전 [-] 맞습니다. LLM은 결정론적이지 않고 모델에 따라 편차도 생깁니다. 그래서 초안을 그대로 믿지 않고, 여러번 검증을 거치는 것이 필요합니다. 오픈소스 프로젝트에서는 네 개의 루프가 있는데, 발행 전 '검증 루프'가 다단계 사다리 구조예요. 아래 칸은 파이썬 검사(lint)가 형식·구조·인용·모순을 기계적으로 잡고, 맨 위 칸에서만 LLM이 최종 발행 전 정성 판단을 합니다. (검사 코드: https://github.com/alfadur7/llm-wiki-newsroom/blob/main/tools/lint.py ) 답변달기 ▲ toida 16시간전 [-] 단순 유사도로 판별하는 RAG보다 체계를 가진 Wiki 방식을 참고했을 때 결과값이 더 좋았다고 이해했는데 맞게 이해한건지 모르겠네요. 개인 자료들도 wiki 방식으로 다 구성해놓아야되나 고민되네요 답변달기 ▲ alfadur 6분전 [-] 네 논문에 따르면 그렇습니다. 덧붙이면 Wiki 자체의 '구조",
+      "externalUrl": "https://arxiv.org/abs/2605.25480",
+      "oneLineKo": "청크 검색 RAG 대신 위키 탐색이 멀티홉 QA에서 더 강함",
+      "summaryKo": "이 논문은 문서를 청크로 잘라 벡터 검색하는 RAG 방식이 멀티홉 질문에서 문서 간 관계 정보를 잃는 근본적 한계를 지적하며, 대신 마크다운 위키로 구성해 에이전트가 검색·읽기·링크 따라가기를 반복하며 답을 찾는 'LLM Wiki' 방식을 제안한다. HotpotQA, MuSiQue, 2Wiki 등 멀티홉 QA 벤치마크에서 기존 RAG 기준 모델보다 2.0~8.1 F1 앞섰고, ablation 결과 페이지 순회 과정이 위키 구조나 오류 교정보다 성능에 훨씬 중요함을 확인했다. 관련 오픈소스 프로젝트(llm-wiki-newsroom)는 이 통찰을 바탕으로 에이전트가 답변 작성 전 얼마나 읽을지를 단계적으로 조절하는 'GROUND Ladder' 구조를 도입했으나 아직 효과 측정 전 단계다.",
+      "tags": [
+        "rag",
+        "llm",
+        "retrieval"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49187256",
+      "title": "Zed DeltaDB",
+      "url": "https://zed.dev/deltadb",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49187256",
+      "publishedAt": "2026-08-05T18:52:54Z",
+      "score": 232,
+      "comments": 104,
+      "snippet": "DeltaDB — Early Access Product Resources Extensions Docs Business Pricing P Sign up S Download D Early Access Software is made between commits Be among the first to try DeltaDB, a version control system that records the work as it unfolds and keeps every change connected to the conversation that shaped it. Learn about DeltaDB Email GitHub username Request Early Access We'll only use this to contact you about DeltaDB's early access. Rewind to any edit DeltaDB captures every operation in between commits and gives each one a stable identity, so you can point to the code at any moment in its evolution. Trace code to conversation Every change is linked to the agent conversation that produced it. From any line of code, find the conversation. From any message, jump to the code it touched. Branch at any moment DeltaDB virtualizes the worktree, so spinning up a new agent branch is effectively free. Any point in history is a valid branch point, including mid-run. Share the thread, not the PR A teammate can join while the work is still happening, talk to the agent that did the work, and annotate as they go, without waiting for you to commit and push first. Daily drive with Zed Code at the speed of thought. Download now D Clone source C Zed Industries © 2026 Sign Up · Have an account? Sign In Terms of Service · Attributions Manage Site Cookies Product Download Pricing Business Releases Extensions Roadmap Docs Compare GitHub ↗ Status ↗ Resources FAQ CLA Community Support Discussions ↗ Privacy Subscribe Theme Builder Yearly Recaps Company Blog About Values Team Jobs Press Brand Merch ↗ Social Twitter ↗ Bluesky ↗ YouTube ↗ Discord ↗ Reddit ↗",
+      "oneLineKo": "Zed, 커밋 사이 작업까지 기록하는 DeltaDB 공개",
+      "summaryKo": "Zed Industries가 새로운 버전 관리 시스템 DeltaDB의 얼리 액세스를 시작했다. DeltaDB는 커밋 사이의 모든 변경 작업을 기록하고 각 변경에 고유 식별자를 부여해 특정 시점의 코드로 되돌릴 수 있게 한다. 각 코드 변경은 이를 만든 AI 에이전트 대화와 연결되어 코드와 대화 간 상호 추적이 가능하며, 워크트리를 가상화해 어느 시점에서든 사실상 무료로 브랜치를 생성할 수 있다. 팀원은 커밋·푸시를 기다리지 않고 진행 중인 작업 스레드에 바로 참여해 에이전트와 대화하며 주석을 남길 수 있다.",
+      "tags": [
+        "version-control",
+        "ai-agent",
+        "zed"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1vg8iyl",
+      "title": "How fuzzy search works in a search engine: Levenshtein automata and n-gram similarity",
+      "url": "https://www.reddit.com/r/programming/comments/1vg8iyl/how_fuzzy_search_works_in_a_search_engine/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1vg8iyl/how_fuzzy_search_works_in_a_search_engine/",
+      "publishedAt": "2026-08-05T14:12:52+00:00",
+      "snippet": "submitted by /u/mr_gnusi [link] [comments]",
+      "oneLineKo": "검색엔진의 퍼지 검색 원리 해설",
+      "summaryKo": "검색엔진에서 오타나 유사 단어를 처리하는 퍼지 검색(fuzzy search) 구현 방식을 다룬 글이다. Levenshtein automata를 이용한 편집 거리 기반 검색과 n-gram 유사도 방식을 핵심 기법으로 소개한다. 본문 내용이 제목 외에는 제공되지 않아 세부 구현 설명은 확인할 수 없다.",
+      "tags": [
+        "search-engine",
+        "levenshtein-automata",
+        "n-gram"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32159",
+      "title": "Netflix가 AI 시대에 전문가보다 시스템 사고형 인재에 베팅하는 이유 (유튜브)",
+      "url": "https://news.hada.io/topic?id=32159",
+      "commentsUrl": "https://news.hada.io/topic?id=32159",
+      "publishedAt": "2026-08-05T09:44:02+09:00",
+      "snippet": "Netflix가 AI 시대에 전문가보다 시스템 사고형 인재에 베팅하는 이유 (유튜브) | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Netflix가 AI 시대에 전문가보다 시스템 사고형 인재에 베팅하는 이유 (유튜브) (youtube.com) 20 P by GN⁺ 22시간전 | ★ favorite | 댓글 2개 생성형 AI로 PM·디자이너·데이터 과학자가 프로토타입과 코드 작성까지 맡게 됐지만, Netflix는 이를 직무의 소멸이 아닌 역할이 재편되는 storming 단계 로 봄 더 많은 사람과 에이전트가 여러 시스템에서 빠르게 작업하려면 공통 인프라, 신뢰할 데이터, 설계 템플릿, 보안·품질 가드레일을 만드는 시스템 사고자 가 필요함 직무 간 경계가 유동적으로 바뀌어도 확장성과 품질을 책임지는 엔지니어링, 데이터 해석을 검증하는 데이터 과학, 문제를 정의하는 제품 관리, 일관된 경험을 만드는 디자인의 전문성 은 여전히 희소함 Netflix는 역할·직급별 세부 기준 대신 모든 직무에 AI 유창성 을 공통 기대치로 적용하며, AI가 유용한 지점을 판단하고 결과에는 인간이 책임지도록 요구함 높은 인재 밀도와 자율성, 위험 감수, 최소한의 프로세스를 결합한 탁월함의 운영체제 를 유지하면서 좁은 전문화보다 변화에 적응하고 전체 시스템을 개선할 인재를 중시함 AI가 뒤섞은 직무 경계 생성형 AI가 등장하면서 PM은 코드를 만들고, 디자이너는 PRD를 쓰며, 엔지니어는 제품 업무까지 수행할 수 있게 됐고 각 직무의 책임 범위를 둘러싼 혼란도 생김 새로운 변혁적 기술은 조직이 안정된 형태를 찾기 전에 충돌과 혼란을 겪는 storming 단계 를 거치며, 현재가 바로 그 단계임 역할이 복잡해졌다는 이유로 AI 사용을 막기보다 이점을 얻으면서 비용과 혼란을 줄이는 방식을 찾아야 함 제품·디자인 담당자가 아이디어 개발, 프로토타입, 초기 코드 작성과 가설 검증을 빠르게 수행하는 것은 유용하지만, 누구나 프로덕션 코드를 배포해야 한다는 뜻은 아님 명확한 사업 문제를 중심으로 제품·기술 조직이 협업한다면 역할의 유동성이 속도를 높일 수 있음 제품과 디자인은 엔지니어링 팀을 기다리지 않고 초기 아이디어를 구체화할 수 있음 실제 제품화와 확장, 가드레일은 엔지니어와 함께 결정해야 함 조직은 신뢰할 수 있는 기준 데이터 , 프로덕션 배포 및 대규모 변경 전 테스트 규칙, AI 결과를 신뢰할 조건과 별도 검토가 필요한 조건을 마련해야 함 코드나 분석을 에이전트가 만들었더라도 결과에 대한 책임은 인간 에게 있으며, 기반 인프라와 업무 관행도 이를 전제로 설계해야 함 제품 개발 과정의 변화 PM·디자이너·데이터 과학자는 2년 반 전보다 엔지니어링이 본격적으로 개입하기 전까지 제품 개발을 더 멀리 진행할 수 있음 빠른 프로토타이핑은 중요한 사업 문제를 대상으로 하고 엔지니어링 파트너와 방향을 합의했을 때 효과적임 사업과 무관한 수천 개의 프로토타입을 만들거나 무작위로 아이디어를 던지는 방식은 바람직하지 않음 올바른 문제와 가설이 정해지면 제품·디자인·데이터 과학 조직이 테스트 가능한 결과까지 더 빨리 도달할 수 있음 Netflix에는 수십 년간 진행한 실험과 소비자 통찰, 여러 사업 조직의 의견이 축적돼 있으며 AI는 이를 검색·요약·분석해 초기 통찰을 만드는 데 강점이 있음 과거 연구의 연도·질문·실험 결과를 담당자에게 물어보는 대신 거의 즉시 찾아 실행 가능한 판단으로 이어갈 수 있음 재무·콘텐츠·광고 같은 사업 조직도 초기 가설을 직접 만든 뒤 데이터 과학자와 엔지니어에게 가져가 더 깊이 검토할 수 있음 AI 분석을 전적으로 신뢰해서는 안 되며, 기준 데이터 사용 여부와 결과의 유효성 을 현지 데이터 과학자와 확인해야 함 경계는 흐려져도 전문성은 남음 여러 직무가 더 많은 도구와 언어를 다루게 됐지만 각 분야의 비교 우위 는 유지됨 데이터 과학자는 데이터를 신뢰할 수 있는지, 해석이 올바른지, 데이터와 판단을 어떻게 나눌지 검증함 제품 관리자는 해결할 문제의 본질과 범위를 올바르게 정의함 엔지니어는 구현 방법, 확장성, 품질, 구축·배포 과정에서 생길 문제를 판단함 디자이너는 복잡성을 감추고 일관되고 매끄러운 사용자 경험을 만듦 AI 도구가 직무 간 장벽을 낮춰도 무엇이 좋은 결과인지 판단하는 장인정신과 숙련도 는 대체되지 않음 뛰어난 엔지니어링, 데이터 과학, 창의성은 여전히 희소하며 일부 작업이 쉬워졌다고 이런 희소성이 사라지지는 않음 중요한 우선순위에는 깊이 있는 디자인 작업이 여전히 필요함 AI로 더 많은 선택지를 만들고 학습·반복·테스트하는 속도는 높일 수 있음 코딩과 분석이 빨라졌다는 이유로 디자인 사고를 생략하면 대규모 소비자 제품인 Netflix의 강점을 잃을 수 있음 시스템 사고자가 필요한 이유 Netflix는 AI 시대에 특정 직무의 인원보다 시스템 사고 역량 을 더 필요로 함 과거에는 각 지역 팀이 중앙의 표준 경로를 따르지 않고 사업 문제에 맞는 기술 스택을 직접 만들어 빠르게 움직이는 방식이 성공에 기여함 여러 시스템에서 에이전트가 활동하는 환경에서는 공통 인프라와 권장 경로를 통해 문제를 한 번 해결하고 여러 팀이 재사용하는 방식이 더 중요해짐 중앙 엔지니어링은 여러 사업 영역을 살펴보고 AI 환경에 필요한 공통 구성 요소를 추상화할 인재를 채용함 분산 시스템, 인프라, 시스템 사고 역량이 강화됨 개인화·광고·콘텐츠 전송처럼 특정 영역에 깊은 전문가도 계속 필요하며, 시스템 역량은 이를 대체하기보다 추가됨 디자인 조직도 개별 기능을 설계하는 데 그치지 않고 비디자이너까지 일관된 제품을 만들 수 있도록 디자인 시스템과 템플릿 을 구축해야 함 서로 다른 디자인 언어와 상호작용이 뒤섞인 Frankenstein형 제품을 피해야 함 브랜드 표현, 좋은 사용자 경험, Netflix만의 차별성을 공통 체계에 담아야 함 모든 직무에서 구체적인 기능보다 한 단계 물러나 전체 그림을 보는 역량이 중요해져 기존 팀의 재교육과 관련 ",
+      "externalUrl": "https://www.youtube.com/watch?v=t0GiTyz4syY",
+      "oneLineKo": "Netflix, AI 시대엔 전문가보다 시스템 사고형 인재 중시",
+      "summaryKo": "Netflix는 생성형 AI로 PM·디자이너·데이터 과학자의 역할 경계가 흐려지는 현상을 직무 소멸이 아닌 조직이 재편되는 storming 단계로 본다. 이에 따라 특정 전문성보다 공통 인프라, 신뢰 가능한 데이터, 설계 템플릿, 가드레일을 구축할 수 있는 시스템 사고자를 중시하며 모든 직무에 AI 유창성을 공통 기대치로 요구한다. 다만 엔지니어링의 확장성·품질 책임, 데이터 과학의 검증, 제품 관리의 문제 정의, 디자인의 일관된 경험 창출 같은 전문성은 여전히 희소하며 대체되지 않는다고 강조한다.",
+      "tags": [
+        "ai",
+        "넷플릭스",
+        "조직문화"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49186762",
+      "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
+      "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49186762",
+      "publishedAt": "2026-08-05T18:18:56Z",
+      "score": 166,
+      "comments": 33,
+      "snippet": "How Castform + Neon Beats Frontier Models on Price and Efficiency - Neon How we trained an 4B open-source model to be as accurate as GPT-5.6 Sol while costing 100x less Neon Product Solutions Docs Pricing Resources Core Primitives Lakebase Postgres Serverless Postgres database Auth Authentication built into your database Functions Serverless compute next to your data Object Storage S3-compatible storage that branches AI Gateway One API for frontier and open-source models Features Lakebase Architecture Storage-compute separation Autoscaling Automatic instance sizing Branching Faster Postgres workflows Instant Restore Instant recovery when mistakes happen What is Neon Built around Lakebase Postgres, by Databricks Use cases Serverless App Autoscale with traffic Multi-TB Scale and restore instantly Database per tenant Data isolation without overhead Build & operate Platforms Offer Postgres for your users Dev/Tests Production-like environment Agents Build full-stack AI agents Learn Blog Technical posts & product updates Case studies Explore customer stories Changelog Product updates Community Connect on Discord Startups Build with Neon Company About us The company and the mission Careers Join the team Contact sales Contact sales team Security Compliance & privacy Status Service status Discord 22.8k Log in Sign up Back to Blog / Product How Castform + Neon Beats Frontier Models on Price and Efficiency A 4B open-source model post-trained with Castform retrieved search results as accurately as GPT-5.6 Sol, while costing 100x less Pranav Aurora , Ying Hang Seah , Angel Pan Aug 05, 2026 Subscribe to our changelog Receive only our latest updates. No spam, guaranteed. Subscribe “Most teams' best training data is just sitting in their databases. The problem is that turning raw data into something usable is hard, and letting agents read, search, and mutate data cheaply at scale requires advanced infra. Pointing Castform at Neon skips both.” Ying Hang Seah, cofounder, Castform A \"good agent\" needs to be strong in 2 areas: Context : can we provide the tools to find the right data? Model : can the model decide what to search for? Neon (Lakebase Postgres) and their new Search extensions solve the first; Castform solves the second. Evolution of agentic search In ~2022, the industry was going all in on embedding search. Every database provider added one, and pgvector was Neon's most downloaded extension. To provide context to LLMs, engineers handcrafted RAG pipelines, which in essence, is some form of embedding similarity search. In ~2025, agents started to gain more traction. Developers started creating multi-hop search workflows, decomposing big problems into smaller ones. Retrieval has shifted from the one-shot search systems to agentic retrieval. Instead of issuing a single query, models plan and search multiple times in a loop. Every loop iteration meant another call to the frontier model, increasing the overall cost and latency per user request. Concretely, a ",
+      "oneLineKo": "4B 오픈모델, Neon+Castform으로 GPT-5.6 검색 성능 재현",
+      "summaryKo": "Neon과 Castform은 4B 규모의 오픈소스 모델을 post-training하여 GPT-5.6 Sol 수준의 검색(retrieval) 정확도를 달성하면서 비용은 100배 절감했다고 밝혔다. 이는 에이전트가 데이터베이스 내 원시 데이터를 학습 자원으로 활용하도록 Neon의 Search 확장 기능과 Castform의 모델 결정 능력을 결합한 결과다. 기존 임베딩 기반 RAG 파이프라인에서 벗어나, 여러 번의 검색 루프를 반복하는 에이전틱 검색(agentic retrieval) 방식으로 진화한 점이 핵심이다. 이러한 방식은 프론티어 모델 호출 비용과 지연시간을 크게 줄이는 것을 목표로 한다.",
+      "tags": [
+        "llm",
+        "retrieval",
+        "postgres"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32186",
+      "title": "Discovery Loop",
+      "url": "https://news.hada.io/topic?id=32186",
+      "commentsUrl": "https://news.hada.io/topic?id=32186",
+      "publishedAt": "2026-08-06T04:31:42+09:00",
+      "snippet": "Discovery Loop | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Discovery Loop (discoveryloop.com) 1 P by GN⁺ 3시간전 | ★ favorite | 댓글 1개 Jeff Dean, Sanjay Ghemawat, Quoc Le, Oriol Vinyals의 Discovery Loop 는 반복적인 실험 과정을 AI로 자동화해 과학·공학 연구 속도를 높이고 결과물의 양과 품질을 개선하는 시스템을 개발함 프런티어 AI 모델과 대규모 컴퓨팅 인프라로 실험을 제안·실행·평가하고 결과에서 학습하며, 수천 개의 실험을 병렬 수행 해 반복 시간을 단축함 초기에는 머신러닝 연구·엔지니어링 자동화 에 집중해 자체 기술 스택을 최적화한 뒤 다른 분야로 확장할 계획임 Chip과 하드웨어 인프라부터 소프트웨어 인프라, ML 모델, 제품까지 이어지는 풀스택 구축 경험 을 보유 측정 가능한 결과가 있는 학습 루프를 자동화해 의약품, 의료정보학, 태양에너지, 깨끗한 물, 사이버 보안 등 NAE Grand Challenges 에 도전하는 것이 장기 목표임 실험 루프 자동화 전략 과학적 발견은 실험을 제안하고 구현·실행한 뒤 결과를 검토해 접근법을 수정하는 순차적 반복 과정 에 의존해 왔으며, 여러 분야에서 여전히 느리고 노동집약적임 Discovery Loop는 프런티어 AI 모델과 대규모 컴퓨팅 인프라를 활용해 실험의 제안·실행·평가·학습으로 이어지는 전체 루프를 자동화하려 함 수천 개의 실험을 병렬로 실행해 반복 시간을 크게 줄이고 과학·공학 결과물의 양과 품질을 높이는 것이 목표임 첫 적용 분야는 머신러닝 연구와 엔지니어링 임 자동화된 ML 역량으로 자체 기술 스택을 빠르게 최적화한 후 다른 분야로 확장할 계획임 측정 가능한 결과 가 존재하는 과학·공학 학습 루프라면 이 접근법을 적용할 수 있다고 봄 더 나은 의약품 개발, 의료정보학 발전, 경제적인 태양에너지, 깨끗한 물에 대한 접근, 사이버 공간 보호, 과학적 발견 도구 개발 등 National Academy of Engineering Grand Challenges 를 목표 사례로 삼음 궁극적으로 머신러닝·과학·공학의 중요한 문제를 자동으로 해결하고, 기술 해법을 더 빠르게 전 세계에 전달하는 AI 시스템을 지향함 창업팀과 조직 계획 창업팀은 오랫동안 함께 협업해 온 Jeff Dean, Sanjay Ghemawat, Quoc Le, Oriol Vinyals 로 구성됨 AI 분야 최다 인용 연구자 3명과 분산 시스템 분야 최다 인용 연구자 2명이 포함됨 Google Search, Google Ads, Google News, Google Translate, Google File System, MapReduce, BigTable, Spanner, TensorFlow, Pathways, TPU, AlphaChip, AlphaStar, AlphaCode, AlphaFold, Gemini 개발 경험을 보유함 모델 증류, 전문가 혼합(mixture-of-experts) 모델 아키텍처, word2vec, 시퀀스 투 시퀀스 모델, 사고 사슬 추론, 신경망 아키텍처 탐색, 여러 세대의 LLM에도 참여함 칩과 하드웨어 인프라부터 소프트웨어 인프라, ML 모델, 제품까지 이어지는 대규모 풀스택 시스템 구축 경험 을 경쟁력으로 삼음 소수 인원이 현재의 대규모 과학자·엔지니어 팀보다 더 빠르고 높은 품질로 연구·엔지니어링 작업을 수행하는 미래를 목표로 하며, 이를 위해 대면 중심의 소규모 팀을 구성 중임 Careers at Discovery Loop 에서 채용 정보를 확인할 수 있음 함께 보면 좋은 글 β pi-autoresearch: Karpathy의 \"AI 자율 실험\" 아이디어를 범용화한 오픈소스 ralph-loop - 장시간 실행형 AI 에이전트 루프로 개발 업무 자동화하기 우리는 너무 많은 생각을 AI에 떠넘기고 있는가? 빠르게 AI 제품을 개선하는 실전 가이드 기계는 괜찮아요. 나는 우리가 걱정됩니다. GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ GN⁺ 3시간전 [-] Hacker News 의견들 Jeff의 글에 따르면 실험 순환 자동화 를 과학·공학 전반에 적용하되, 처음에는 머신러닝 연구와 엔지니어링에 집중할 계획임 머신러닝 전문성과 대규모 시스템 역량이 모두 필요하며, 궁극적으로 미국공학한림원의 14대 난제 대부분의 핵심 하위 문제에 기여할 수 있다고 봄 여기에는 경제적인 태양광, 핵융합 에너지, 탄소 격리, 질소 순환 관리, 깨끗한 물, 도시 기반 시설, 의료 정보학, 신약, 뇌 역공학, 핵 테러 방지, 사이버 공간 보안, 가상현실, 개인화 학습, 과학적 발견 도구가 포함됨 이 문제 대부분의 해법은 새로운 기술보다 정책 에 달려 있음 대기업들이 과학을 부정하는 괴짜들에게 영합하지 않는다면 더 많은 진전을 이룰 수 있을 것임 태양광 발전 은 이미 경제적이지 않나 싶음 Sandbox 2.0처럼 보이며, 태양광 발전은 이미 경제성을 확보했음 명예로운 시도지만 의료·교육·도시·에너지처럼 강한 규제를 받는 분야 는 영리한 공학의 부재만큼이나 현명하지 못하거나 낡은 정책에 막혀 있음 핵심 병목 요인까지 고려했는지 궁금함 상온·상압 초전도체 도 필요함 기관 차원에서 대규모로 확장한 Karpathy의 autoresearch 처럼 보임 Karpathy는 3월에 다음 단계로 에이전트들이 SETI@home처럼 비동기적으로 대규모 협업해야 한다고 했으며, 해당 글은 보호돼 있지만 검색 결과 캐시 에 남아 있음 Karpathy는 다른 과학 분야보다 머신러닝과 소프트웨어 공학 연구에 주로 집중했지만, Discovery Loop가 autoresearch의 ",
+      "externalUrl": "https://www.discoveryloop.com/",
+      "oneLineKo": "Jeff Dean 등 구글 출신 4인, AI 실험 자동화 스타트업 창업",
+      "summaryKo": "Jeff Dean, Sanjay Ghemawat, Quoc Le, Oriol Vinyals가 설립한 Discovery Loop는 프런티어 AI 모델과 대규모 컴퓨팅 인프라로 실험의 제안·실행·평가·학습 과정을 자동화하는 시스템을 개발한다. 수천 개의 실험을 병렬 수행해 반복 시간을 단축하며, 초기에는 머신러닝 연구·엔지니어링 자동화에 집중한 뒤 신약, 의료정보학, 태양에너지 등 NAE Grand Challenges로 확장할 계획이다. 창업팀은 구글에서 TensorFlow, TPU, AlphaFold, Gemini 등을 개발한 경험을 보유하고 있다.",
+      "tags": [
+        "ai",
+        "research-automation",
+        "machine-learning"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49183115",
+      "title": "Aristotle quotes on virtue, knowledge, and happiness",
+      "url": "https://www.campion.edu.au/blog/top-25-aristotle-quotes-on-virtue-knowledge-and-happiness/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49183115",
+      "publishedAt": "2026-08-05T14:06:39Z",
+      "score": 144,
+      "comments": 66,
+      "snippet": "--> --> --> --> --> --> Aristotle’s Top 25 Quotes on Virtue & Joy --> Student/Staff Links Staff Alumni --> CSWT --> --> News --> Blog Library Library Catalogue Borrowing Databases Study Skills Referencing Guide Services Special Collections Library Friends About About Our History Our Staff Org Chart Governance Fellowships Employment Quick Facts --> Study With Us Courses Undergrad Postgrad Casual Study Admission Admission Guidelines Early Offer Scheme Admission Forms FAQs Fees & Funding Fees Scholarships Financial Aid Work Scheme Why Choose Campion Liberal Arts Education Graduate Testimonials Career Prospects QILT Results International Students Home-schooled Students Unit Outlines Students Your Enrolment Orientation Academic Calendar Timetable Textbooks Handbooks Policies Forms Student Life Accommodation Campus & Facilities Student Association Clubs & Societies Sport & Fitness Chaplaincy Graduation Student Opportunities Awards & Prizes Community Engagement Mentoring Career Planning Overseas Study Rome School Events For Future Students Summer Program Winter Program Early Scholars Intensive Study Camp Open House Campus Tours Public Events The Annual Campion Ball Theatre Society Major Production The Annual Vianney Lecture Classical Liberalism Lecture Series Adam Smith Conference An Evening with Judges Thapar and Oldham St Carlo Acutis Relic and Exhibition View All Events Engage Our Campus Visit Us Virtual Tour Venue Hire School Immersions Alumni Stay Connected Update Your Details Become a Mentor Alumni Forms Alumni Dinner About Us Our History Our Staff Organisation Chart Governance Fellowships Employment Quick Facts Latest News Blog Humanitas Centre for the Study of the Western Tradition Teachers & Career Advisors Friends of the Library Friends of Campion Support Us Support Campion College About the Foundation Make a Donation Regular Giving Gift for the Future Fund a Scholarship Become a Friend Quarterly Newsletter Entertainment Guide Skylight Artbook Capital Appeal Donate Now Library Library Friends Online Catalogue Special Collections Borrowing Databases Services Referencing Guide Study Skills About Our History Our Staff Org Chart Venue Hire Governance Fellowships Quick Facts Apply --> Donate Contact --> --> Home Blog Top 25 Aristotle Quotes on Virtue, Knowledge, and Happiness Top 25 Aristotle Quotes on Virtue, Knowledge, and Happiness 08 Nov 2024 08 Nov 2024 Image: Line engraving by P. Fidanza after Raphael Sanzio. Aristotle, one of the most influential philosophers of ancient Greece, laid foundational ideas in ethics, logic, politics, and natural sciences that continue to shape our understanding of the world today. A student of Plato and tutor to Alexander the Great, Aristotle established his own school, the Lyceum, where he explored diverse topics, from biology to metaphysics. His work continues to be a source of timeless wisdom, especially in the realms of virtue, knowledge, and happiness. In this post, we’ve compiled 25 of Aristotle’s most prof",
+      "oneLineKo": "아리스토텔레스의 덕·지식·행복 명언 25선",
+      "summaryKo": "이 글은 고대 그리스 철학자 아리스토텔레스의 덕, 지식, 행복에 관한 명언 25개를 소개하는 블로그 포스트입니다. 아리스토텔레스는 플라톤의 제자이자 알렉산더 대왕의 스승으로, 윤리학과 논리학, 정치학 등 다양한 분야에 영향을 미쳤습니다. IT 기술과는 무관한 인문학/철학 콘텐츠입니다.",
+      "tags": [
+        "philosophy",
+        "aristotle"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32176",
+      "title": "AI가 아프리카 사이버 범죄의 절반 이상에 활용되며 사기 급증 – INTERPOL",
+      "url": "https://news.hada.io/topic?id=32176",
+      "commentsUrl": "https://news.hada.io/topic?id=32176",
+      "publishedAt": "2026-08-05T22:03:37+09:00",
+      "snippet": "AI가 아프리카 사이버 범죄의 절반 이상에 활용되며 사기 급증 – INTERPOL | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ AI가 아프리카 사이버 범죄의 절반 이상에 활용되며 사기 급증 – INTERPOL (africanews.com) 1 P by GN⁺ 10시간전 | ★ favorite | 댓글 1개 INTERPOL의 African Cyberthreat Assessment Report 2026 에 따르면 아프리카에서 보고된 사이버 범죄의 55%에 AI가 사용됐으며, 공격 속도·설득력·규모가 커지고 있음 36개국 자료를 분석한 결과 온라인 사기 가 2025년 최대 사이버 위협이었고, 범죄 조직은 소셜 미디어와 모바일 결제 서비스를 AI와 결합해 피해자를 노림 사이버 범죄 관련 금융 손실은 2024년 1억9,200만 달러에서 4억8,400만 달러 로 늘었으며, 조사 대상 국가의 72%가 자국 내 사기 센터 운영을 확인함 딥페이크와 합성 신원 은 성착취 협박·괴롭힘·BEC·금융 사기에 활용되며, 신뢰하는 연락처를 모방한 이메일과 일부 생체 인증 우회에도 쓰임 기관 간 실시간 정보 공유와 AI 위협 대응 역량은 부족하지만, 2025년 국제 합동 작전으로 1,500명 이상을 체포 하고 사이버 범죄 관련 자금 1억 달러 이상을 회수함 AI가 키우는 아프리카 사이버 범죄 African Cyberthreat Assessment Report 2026 은 아프리카에서 보고된 사이버 범죄 사건의 55%가 AI를 활용한 것으로 집계함 AI를 이용하면 범죄자가 더 빠르고 설득력 있는 공격을 더 큰 규모로 실행할 수 있음 2025년 아프리카의 이동통신 가입자는 11억 명 이상 으로, 디지털 서비스 이용 확대가 혁신과 사이버 범죄 양쪽에 새로운 기회를 만들고 있음 36개 아프리카 국가의 데이터를 바탕으로 한 40쪽 분량의 평가는 사이버 범죄가 탐지와 차단이 어려운 조직적·국경 간 산업 으로 발전했다고 판단함 최대 위협으로 남은 온라인 사기 2025년에도 온라인 사기 가 아프리카에서 가장 흔한 사이버 범죄였음 범죄자들은 AI를 소셜 미디어 플랫폼 및 모바일 결제 서비스와 함께 사용해 피해자를 표적으로 삼음 사이버 범죄 관련 금융 손실은 2024년 1억9,200만 달러에서 4억8,400만 달러 로 급증함 AI 기반 사기, 탈취된 로그인 자격 증명, 정교한 사회공학 공격이 손실 증가를 이끈 요인으로 꼽힘 조사 대상 국가의 72% 가 자국 내 사기 센터 운영을 확인했으며, 서아프리카와 남아프리카에 가장 많이 집중됨 지역마다 다른 주요 위협 동아프리카 에서는 모바일 결제 사기와 핵심 인프라를 노린 랜섬웨어가 주요 위협임 서아프리카와 중앙아프리카 에서는 기업과 개인을 겨냥한 비즈니스 이메일 침해(BEC)와 로맨스 사기가 높은 수준으로 이어짐 디지털 연결성이 발달한 남아프리카 는 피해를 극대화하려는 국제 사이버 범죄 네트워크의 표적이 됨 딥페이크·BEC·합성 신원의 확산 딥페이크와 AI 생성 콘텐츠가 디지털 성착취 협박 과 온라인 괴롭힘에 갈수록 많이 사용됨 INTERPOL의 기술 파트너 TrendAI는 이런 수법과 관련된 성착취 협박 사건 약 60만 건 을 탐지함 비즈니스 이메일 침해(BEC) 사기도 크게 늘어남 범죄자는 AI로 신뢰받는 연락처를 모방한 현실적인 이메일을 생성함 아프리카 기반 일부 사이버 범죄 조직은 여러 국가에 분산된 인프라로 활동을 숨기며 유럽과 북미 의 기업 및 개인을 공격함 개인정보를 그대로 훔치는 대신 실제 데이터와 조작된 정보를 결합해 완전히 새로운 합성 신원 을 만드는 수법도 확산함 가짜 프로필로 은행 계좌를 개설하고 모바일 대출을 받거나 SIM 카드를 등록함 일부 생체 인증 시스템도 우회한 것으로 확인됨 기관 간 공조와 대응 역량의 공백 은행·통신사·법 집행기관 사이의 취약한 공조 가 사이버 범죄 대응을 계속 방해함 실시간 정보 공유가 부족해 범죄자는 당국이 대응하기 전에 탈취 자금을 빠르게 옮기고 여러 관할권의 약점을 이용할 수 있음 범죄 네트워크의 AI 도입 속도와 달리 많은 아프리카 법 집행기관은 AI 기반 위협 에 충분히 대비하지 못한 상태임 법제 정비와 국제 합동 작전 2025년 아프리카 17개국 이 사이버 범죄 관련 법률을 새로 도입하거나 개정함 세네갈은 아동 관련 온라인 범죄 대응을 개선하기 위한 온라인 신고 플랫폼을 출범함 Operation Serengeti 2.0, Operation Contender 3.0, Operation Sentinel, Operation Red Card 2.0 등 네 차례의 국제 합동 작전이 성과를 거둠 1,500명 이상 을 체포함 전자기기 수백 대를 압수함 사이버 범죄와 연계된 1억 달러 이상 을 회수함 함께 보면 좋은 글 β 한 재무담당자가 DeepFake한 CFO와의 화상 통화 후 사기꾼에게 2500만 달러 송금 “신이 우리를 도왔고, AI도 그럴 것이다”: 테러 조직 Boko Haram의 프런티어 AI 활용 방식 20억 개 이메일 주소가 유출되었고, Have I Been Pwned에 모두 색인됨 올해의 해킹 타임라인은 미쳤다 Anthropic, “Alibaba가 Claude AI 모델 역량을 불법 추출했다” GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ GN⁺ 10시간전 [-] Hacker News 의견들 아프리카의 사기는 예전엔 소규모나 단독 범행이었고 Hushpuppi처럼 유명인이 된 사기꾼도 있었지만, 이제는 중국계 조직 이 Malaysia 등에서 이동해 거대한 사기 단지를 세우고 있음 건설·수출입 같은 합법 사업에 도박, 암호화폐, 모바일 송금, 돼지 도살형 사기를 결합하며 서버·고속 인터넷·USSD 탈취 장비까지 갖춘 시설을 운영",
+      "externalUrl": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
+      "oneLineKo": "아프리카 사이버 범죄 55%에 AI 활용, 손실 2배 급증",
+      "summaryKo": "INTERPOL의 African Cyberthreat Assessment Report 2026에 따르면 아프리카 36개국 사이버 범죄의 55%가 AI를 활용했으며, 온라인 사기가 최대 위협으로 나타났다. 관련 금융 손실은 2024년 1억9,200만 달러에서 2025년 4억8,400만 달러로 급증했고, 조사국 72%가 자국 내 사기 센터 운영을 확인했다. 딥페이크, BEC, 합성 신원 등이 성착취 협박·금융 사기·생체 인증 우회에 쓰이는 반면 기관 간 실시간 정보 공유는 부족한 상황이다. 다만 2025년 국제 합동 작전으로 1,500명 이상을 체포하고 1억 달러 이상을 회수하는 성과도 있었다.",
+      "tags": [
+        "cybersecurity",
+        "ai",
+        "deepfake"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49184216",
+      "title": "The Valley of Webhooks",
+      "url": "https://weli.dev/blog/the-valley-of-webhooks/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49184216",
+      "publishedAt": "2026-08-05T15:22:06Z",
+      "score": 135,
+      "comments": 61,
+      "snippet": "The valley of webhooks | Weli's blog Skip to main content Weli's blog Home Blog RSS The valley of webhooks 2026-08-05 The third time I&rsquo;ve built the same system three times now, at three different companies, for three different providers. It never has a name and it never appears on a roadmap, but it always goes the same way: the truth about your own customers lives in someone else&rsquo;s database. The users live in an identity provider, the subscriptions in Stripe, the bounces in whatever sends your email, and your product needs that truth locally. So you subscribe to webhooks and keep a copy. The first time, I thought I was building an endpoint: one route that parses the JSON and updates a row, an afternoon of work. The afternoon grew into a week. First came signature verification, because an open endpoint that mutates your database is a hole. Then the dedup table, because deliveries arrive twice and the docs cheerfully call this &ldquo;at-least-once.&rdquo; Then the handler got a buffer, because a membership.created sometimes shows up before the user.created it points to. Then the bootstrap importer, because webhooks only tell you what happens after you subscribe, and it raced the live events, so it grew a locking scheme. And finally came the reconciliation cron: a job that crawls the provider&rsquo;s list APIs at 3 a.m., diffs them against our tables, and quietly fixes what disagrees. I want to be honest about what that cron is. It&rsquo;s a written confession. It says: I do not trust the copy I built, and I have no way to know when it&rsquo;s wrong, so I will re-derive it from scratch every night, forever. The trust was gone for a reason. The drift never announces itself; ours was found by a support ticket. A customer had cancelled months earlier and our database still said active ; some customer.subscription.deleted had evaporated between Stripe and us, and nothing anywhere was capable of noticing: not their dashboard, which showed the delivery as retried and eventually dropped, and not our logs, which cannot log a request that never arrived. And that&rsquo;s only the code. Every provider also brings its own dashboard. Three providers, three webhook configuration pages, each with its own idea of how endpoints are registered, which events exist, how test and live environments are kept apart, and where the signing secret lives. When something breaks, debugging is a tour: their delivery log in one tab, our logs in another, and a third tab for whichever dashboard I currently suspect. None of them look alike, and all of them have to be checked. By the third time I built this system, I had stopped pretending. I budgeted for the whole stack up front (signatures, dedup, buffering, bootstrap, cron) and somewhere in the middle of writing my third dedup table, I finally asked the question I should have asked the first time. What exactly am I reconstructing here? Notifications aren&rsquo;t data I was reconstructing an ordered log. Every one of tho",
+      "oneLineKo": "웹훅 기반 데이터 동기화의 반복되는 구조적 함정을 고백한 회고",
+      "summaryKo": "저자는 Stripe, ID 프로바이더 등 외부 서비스의 웹훅을 구독해 로컬 DB를 동기화하는 시스템을 세 번의 회사에서 반복해 구축했다고 말한다. 매번 서명 검증, 중복 제거, 이벤트 순서 버퍼링, 부트스트랩 임포터, 그리고 새벽마다 API를 다시 크롤링해 데이터를 재검증하는 reconciliation cron까지 같은 구조로 커져갔다. 웹훅은 'at-least-once' 전달을 표방하지만 실제로는 유실이 조용히 발생하며, 이를 감지할 방법이 없어 결국 매일 밤 전체 데이터를 재구성하는 방식으로 신뢰를 대체하게 된다. 저자는 이 문제의 본질이 단순한 데이터 저장이 아니라 '순서가 있는 이벤트 로그'를 재구성하는 문제임을 깨달았다고 말한다.",
+      "tags": [
+        "webhook",
+        "event-sourcing",
+        "data-sync"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32175",
+      "title": "소프트웨어 엔지니어링과 생성형 AI에 관한 8가지 오해",
+      "url": "https://news.hada.io/topic?id=32175",
+      "commentsUrl": "https://news.hada.io/topic?id=32175",
+      "publishedAt": "2026-08-05T22:01:15+09:00",
+      "snippet": "소프트웨어 엔지니어링과 생성형 AI에 관한 8가지 오해 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ 소프트웨어 엔지니어링과 생성형 AI에 관한 8가지 오해 (queue.acm.org) 1 P by GN⁺ 10시간전 | ★ favorite | 댓글 1개 생성형 AI는 일부 개발 작업을 빠르게 하지만, 실제 업무 구성과 조직 환경을 무시한 과장된 생산성 기대 는 도입·측정·투자 결정을 왜곡할 수 있음 Microsoft의 2025년 조사에서 개발자의 코드 작성 시간은 전체의 14% 였으며, 코딩 속도를 2배로 높여도 전체 생산성 향상은 이론상 15% 미만임 효과는 작업과 사용자에 따라 달라, 숙련 오픈소스 개발자의 구현 시간이 평균 18% 늘어난 연구 도 있고 의미가 같은 프롬프트를 바꾸자 코드의 46%와 정답 여부의 28%가 달라짐 AI 작성 코드 비율이나 코드 줄 수는 품질·출시 속도를 보여주는 유효한 지표가 아니며, 코드 증가는 검토·테스트·유지보수 부담과 기술 부채 를 키울 수 있음 라이선스만 제공한다고 생산성과 도입률이 자동으로 오르지는 않으므로, 조직은 신뢰·학습·업무 흐름과 보안·규제·레거시 제약을 반영해 안전하고 유지보수 가능한 소프트웨어 를 만드는 시스템 전체를 개선해야 함 오해 1: 개발자는 대부분의 시간을 코드 작성에 쓴다 소프트웨어 엔지니어링은 코드 작성뿐 아니라 설계, 회의, 스탠드업, 계획, 코드 검토 등 개인·협업 활동으로 구성됨 2025년 Microsoft 엔지니어 450명 이상을 조사한 연구에서 실제 코드 작성 시간은 전체의 14% 였음 다른 연구에서도 코딩에 쓴 시간은 좋은 근무일에 18%, 나쁜 근무일에 11%였으며, 여기서 코딩은 버그 수정이나 테스트를 포함하지 않음 숙련 개발자는 설계와 회의에 많은 시간을 쓰기 때문에 GitHub Copilot을 적용할 수 있는 업무 자체가 일주일 중 작은 비중에 그칠 수 있음 오해 2: 코드 작성이 병목이다 편집기에서 타이핑하는 시간이 약 15%라면 AI가 코딩을 2배 빠르게 해도 전체 생산성은 이론상 15% 미만 으로 향상되며, 나머지 85%의 업무는 영향을 받지 않음 설계, 레거시 코드 이해, 개발 환경 설정 같은 주변 업무를 개선하지 않고 코드 생성만 가속하면 병목이 코드 검토·테스트·제품 통합 단계로 이동함 코드를 더 많이, 더 빠르게 만들수록 후속 단계에서 처리할 작업도 늘어남 전체 개발 주기는 가장 느린 단계에 의해 제한되며, 코딩이 항상 그 단계인 것은 아님 IDE 안에서 코드를 작성하는 내부 루프(inner loop) 만 개선해서는 소프트웨어 전달을 둘러싼 외부 루프가 거의 달라지지 않음 오해 3: AI가 작성한 코드 줄 수가 가장 좋은 영향 지표다 2014년 코드 줄 수 지표의 통계적 유효성 연구 는 코드 줄 수가 지정된 유효성 검사를 통과하지 못해 활용도가 제한적이라고 결론 내림 그런데도 여러 조직은 개발자 생산성과 AI의 영향을 코드 줄 수로 측정하며, Microsoft를 포함한 기업 은 AI가 작성한 코드 비율을 공개하기도 함 코드 줄 수와 스토리 포인트 같은 단일 지표 는 통계적으로 유효하지 않고, 소프트웨어 품질이나 전달 속도와도 의미 있게 연결되지 않음 코드량에 보상하는 측정 방식은 지표 조작을 유도하고 개발자의 신뢰를 떨어뜨릴 수 있음 협업보다 코드 생산량을 우선하면 설계 품질이 낮아질 수 있음 그 결과 기술 부채와 보안 취약점이 늘어날 수 있음 AI가 코드 생산 속도를 높일수록 검토·테스트·유지보수 대상도 늘어나 기존 소프트웨어 엔지니어링 문제를 확대할 수 있음 소프트웨어 조직의 목표는 코드량 극대화가 아니라 안전하고 유지보수 가능하며 품질 높은 소프트웨어 를 제공하는 것임 오해 4: AI는 모든 작업과 엔지니어에게 똑같이 도움 된다 생성형 AI 개발 도구 연구는 큰 생산성 향상부터 중립적 결과와 생산성 하락까지 엇갈린 결과 를 보임 2024년 Microsoft AI 생산성 연구에서 익숙하고 잘 이해된 작업은 낯설고 이해도가 낮은 작업보다 Copilot을 통한 효율 향상이 컸음 소프트웨어 개발 경험과 AI 보조 도구 경험도 Copilot의 효과에 긍정적인 영향을 줄 수 있음 문제 해결 방식과 동기는 프롬프트 생성 성공에 영향을 미침 정보를 종합적으로 처리하는 개발자는 성공적인 프롬프트를 만들 수 있다는 자신감이 더 높았음 강요받기보다 개인적으로 기술 사용 동기를 가진 개발자도 더 높은 자신감을 보였음 전문 개발 경력 연수는 효과적인 프롬프트 작성 자신감과 역의 상관관계를 보였음 2025년 숙련 오픈소스 개발자 연구 에서는 AI 도구 사용 후 구현 시간이 평균 18% 증가 함 생성형 AI는 상용구와 반복 작업처럼 코드 비중이 높은 업무에서 더 효과적이지만, 창의적이거나 협업 중심인 작업에서는 효과가 낮았음 프롬프트 문구도 결과를 크게 바꿈 의미를 유지한 채 프롬프트를 다시 작성했을 때 46%에서 서로 다른 코드가 생성됨 28%에서는 코드의 정답 여부까지 달라짐 효과는 작업 특성, 개발자 경험, 코드베이스 친숙도, 자신감, 프롬프트 작성 역량이 함께 결정하므로 보편적인 성공 공식 은 없음 오해 5: AI가 개인 개발자를 10배 개발자로 만든다 GitHub Copilot 같은 도구가 개인의 생산성을 극적으로 높여 10배 개발자 로 만든다는 기대는 실제 개발의 협업성과 상호 연결성을 간과함 많은 선행 연구가 현실의 복잡한 코드 대신 장난감 수준의 예제를 사용했으며, 고립된 작업의 통제 실험 결과는 팀 기반 환경에 그대로 적용하기 어려움 널리 알려진 55% 생산성 향상 수치도 특정 맥락에 의존함 개인 작업에서 측정한 생산성은 실제 소프트웨어 전달에 필요한 조율, 협업, 지식 공유를 포함하지 않음 개발자 간 성과 차이의 상당 부분은 개인의 고정된 능력보다 수행하는 작업에서 비롯됨 한 작업에서 더 뛰어난 개발자가 모든 작업에서도 일관되게 우수한 것은 아님 성과는 개인의 배수보다 작업 특성·맥락·적합성 에 크게 좌우됨 오해 ",
+      "externalUrl": "https://queue.acm.org/detail.cfm?id=3807963",
+      "oneLineKo": "생성형 AI 생산성 효과, 8가지 오해로 짚다",
+      "summaryKo": "이 글은 소프트웨어 엔지니어링에서 생성형 AI의 효과를 둘러싼 8가지 통념을 반박한다. Microsoft 조사에 따르면 개발자가 실제 코드 작성에 쓰는 시간은 전체의 14%에 불과해, 코딩 속도를 2배로 높여도 전체 생산성 향상은 이론상 15% 미만에 그친다. 또한 AI가 작성한 코드 비율이나 코드 줄 수는 품질이나 생산성의 유효한 지표가 아니며, 오히려 검토·테스트·기술 부채 부담을 늘릴 수 있다. AI 도구의 효과는 작업 특성과 개발자 경험에 따라 크게 달라지며, 라이선스 도입만으로 생산성이 자동으로 오르지 않으므로 조직 전체의 업무 흐름 개선이 필요하다.",
+      "tags": [
+        "generative-ai",
+        "developer-productivity",
+        "software-engineering"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49185983",
+      "title": "Atlassian Rovo Exfiltrates Data, Bypassing Controls",
+      "url": "https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49185983",
+      "publishedAt": "2026-08-05T17:23:25Z",
+      "score": 131,
+      "comments": 45,
+      "snippet": "Atlassian Rovo Exfiltrates Data, Bypassing Controls | PromptArmor Solutions Industries Partners Resources Pricing Book a Demo Threat Intel Subscribe Atlassian Rovo Exfiltrates Data, Bypassing Controls Atlassian AI ‘Rovo’ is susceptible to zero-click data exfiltration via indirect prompt injection, bypassing organization-level web search controls. Atlassian Rovo AI exfiltrates data, bypassing controls: attacker logs contain Jira tickets and Confluence docs. Context Atlassian’s Rovo AI is a multi-purpose agent that operates across Atlassian’s product suite (Jira, Confluence, etc.). Vulnerabilities have been identified that enable data exfiltration across an Atlassian tenant (Jira tickets, Confluence docs, etc.) via indirect prompt injection. This attack executes without requiring any human-in-the-loop approval, and succeeds by exploiting Rovo's URL retrieval tool. This attack succeeds even if an organization has disabled web search for Rovo. This is because the web search setting fails to remove the tool for opening the search results. PromptArmor disclosed the vulnerabilities covered in this article to Atlassian on May 23rd. Atlassian assigned a case number and expressed thanks, but after multiple follow-ups by PromptArmor over more than two months, Atlassian has made no further communication, and Rovo remains vulnerable. As such, we are publishing to inform users of the risks. The Attack Chain 1. The victim prepares a query asking Rovo to organize Jira tickets The victim enters a query into Rovo 2. The victim uploads a file to Rovo that contains a hidden prompt injection For general use cases, this is quite common: a user finds a file online and uploads it to Rovo. This attack is not dependent on the injection source - other injection sources include, but are not limited to: external data in Atlassian (e.g., support tickets), web data (if search is enabled), third-party ‘connectors’, etc. The 'Backlog Guide' document uploaded by the user contains a concealed prompt injection. 3. The victim asks Rovo to organize their Jira tickets Rovo processes the request and begins searching Jira and Confluence. 4. The injection manipulates Rovo to submit Jira tickets and Confluence documents to the attacker’s website Rovo's URL retrieval tool is insecure: there are no protections against opening a URL that has been dynamically created by the agent . Here, Rovo is manipulated to append sensitive data to an attacker's URL. When Rovo calls the insecure tool to open the URL, the attacker's site logs the request, including the appended sensitive data. Rovo is manipulated by the injection to submit Jira and Confluence data to the attacker's URL. Note: This attack succeeds even if an organization has disabled web search for Rovo. This is because the web search setting fails to remove the tool for opening the search results. The organization-wide 'Enable web search' setting for Rovo is toggled off. If the user returns to the chat later, they see the agent's suggested ",
+      "oneLineKo": "Atlassian Rovo AI, 프롬프트 인젝션으로 데이터 유출 취약점",
+      "summaryKo": "Atlassian의 AI 에이전트 Rovo가 간접 프롬프트 인젝션 공격에 취약해 사람 개입 없이 제로클릭으로 Jira 티켓과 Confluence 문서를 외부로 유출할 수 있는 것으로 밝혀졌습니다. 공격자는 악성 프롬프트가 숨겨진 파일을 업로드하게 만들어 Rovo가 URL 검색 도구를 통해 민감 데이터를 공격자 서버로 전송하도록 조작합니다. 조직 차원에서 웹 검색 기능을 비활성화해도 검색 결과를 여는 도구 자체는 제거되지 않아 공격이 그대로 성공합니다. PromptArmor는 5월 23일 Atlassian에 취약점을 신고했으나 두 달 넘게 추가 대응이 없어 이를 공개했습니다.",
+      "tags": [
+        "prompt-injection",
+        "llm-security",
+        "atlassian"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49188022",
+      "title": "I'm switching my phone from Android to Linux",
+      "url": "https://runarcn.no/android-to-linux/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49188022",
+      "publishedAt": "2026-08-05T19:50:13Z",
+      "score": 122,
+      "comments": 87,
+      "snippet": "I'm switching my phone from Android to Linux. – runarcn.no runarcn.no Home Posts Garden RSS I'm switching my phone from Android to Linux. 02 Aug, 2026 For the past months or even years, I've become more and more dissatisfied with the path Google has taken with the Android Open Source Project (AOSP). Be it the dependency and insane tracking of Google Play Services, locking down of device trees to hinder custom ROM development, all the AI stuff being put into the system, or most recently (and perhaps worst), removing the ability of installing apps per your own wishing - it's become sort of like a \"death by a thousand papercuts\" situation. While the AOSP isn't exactly dead (yet), it kind of feels like it's just a question of time. Therefore, I've decided to jump ship. I'm installing linux on my phone. The mobile linux space isn't exactly looking good right now, but it holds some promise. Ubuntu Touch managed to survive being abandoned by Canonical, and postmarket is still seeing good development even if not having great hardware adapation at the moment. SailfishOS (even if it has proprietary parts) has also made great progress with strong support for android apps on official devices and what seems to be a real good launch of their Jolla 2. Personally I'm lucky enough to own a Fairphone 4 that just so happens to support all of these. After a bit back and forth I've ultimately ended up with SailfishOS. Overall it's a good system - I like the gesture based navigation and its application framework is beautiful. It's also cool how it's very linux . If I have an issue or something I want to tinker with I can just ssh over from my PC either wirelessly or via USB. It's not without it's issues though. For some reason it ships horribly outdated versions of python and glibc making some things more difficult than needed, and waydroid and GPS is broken on the fairphone port - worth noting an unofficial port. Many of the community-built apps are also either in-part or completely slop-coded, such as a whatsapp client that I (sadly) am dependant on. Ubuntu Touch is also an option, but isn't without it's own bag of issues. Waydroid runs there which is a huge plus, but notifications and clipboard doesn't sync across making it really hard to use ie. Bitwarden (Sailfish has an unofficial port which is almost flawless). The default and native apps are pretty lackluster compared to both Android and Sailfish. Among other things I was unable to figure out how to block phone numbers, a highly needed feature for anyone that has VIVO as their cellular provider. I'm also not a big fan of how the UI works with app navigation and with the \"top bar\"/\"drop down menu\". If you want to know more about it, The Linux Experiments has some good videos on both youtube and peertube . Sadly, I won't be able to abandon android completely yet . The no waydroid means that I can't access some apps that I need be it for online verification for logging onto bank and government services in Norway ",
+      "oneLineKo": "안드로이드 대신 SailfishOS로 폰 전환기",
+      "summaryKo": "저자는 구글의 AOSP 정책(플레이 서비스 종속, 커스텀 롬 제한, 앱 설치 제한 등)에 실망해 페어폰4에 리눅스 기반 모바일 OS를 설치하기로 결정했다. Ubuntu Touch, postmarketOS, SailfishOS를 검토한 끝에 제스처 네비게이션과 SSH 접근성이 좋은 SailfishOS를 최종 선택했으나, 오래된 python/glibc 버전, waydroid 및 GPS 미지원, 커뮤니티 앱 품질 문제 등의 한계가 있음을 언급한다. Ubuntu Touch는 Waydroid를 지원하지만 알림·클립보드 동기화 문제와 부족한 기본 앱으로 아직 안드로이드를 완전히 대체하지는 못한다고 결론짓는다.",
+      "tags": [
+        "linux",
+        "mobile-os",
+        "sailfishos"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49187575",
+      "title": "Muse Code and Muse Spark 1.2",
+      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49187575",
+      "publishedAt": "2026-08-05T19:15:52Z",
+      "score": 118,
+      "comments": 69,
+      "snippet": "Introducing Muse Code and Muse Spark 1.2 | Meta AI Research Skip to main content AI Research AI Developers Try Meta AI Introducing Muse Code and Muse Spark 1.2 August 5, 2026 · 4 minute read We're excited to release Muse Code (beta), a terminal coding agent powered by Muse Spark 1.2, our newest model. This marks our next step toward the frontier, with larger and much more capable models on the way. Install Muse Code on macOS or Linux: curl -fsSL https://dev.meta.ai/install.sh | bash Copy installation command Muse Code takes on complex software engineering tasks across large repositories: planning changes, writing code, and validating the results. It can coordinate multiple persistent subagents for each task, solving difficult problems faster, more accurately, and with less intervention. Muse Code Async Background Agents Muse Code operates with a simple agent loop plus a set of async background agents to enhance the main agent's capability. These specialized background agents remain active throughout each session, rather than being spawned for individual tasks, helping avoid redundant information gathering. They carry out next steps and choose when to communicate back to the main agent. Their persistence reduces latency and the need for steering on difficult, multi-step tasks. Photon Sphere Embervault Avo Lawn Loading demo Runtime Design Muse Code uses a local event log in which every model call, tool run, approval, and edit is appended. This single source of truth makes the runtime replay-exact and restart-safe: after a crash, the agent can resume precisely where it stopped. That ability lets Muse Code take on long-running tasks without being derailed by failures. Bundled Skills Muse Code ships with several default skills. /plan turns a task into an approval-gated plan, /grill stress-tests that plan until it holds up, and /goal works toward successful completion of the specified objective. The user inputs a fly-through video of a home into the terminal as an mp4 file. Muse Code interprets the video and produces a visually rich vacation home marketing and booking page. Muse Spark 1.2 Muse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code generation, complex debugging, codebase understanding, and end-to-end developer workflows. In Muse Spark 1.2, we significantly scaled up training compute on coding tasks while expanding training environment diversity. The model also maintains its strength in other key areas like general agents. Coding General Agents For more details about our evaluations, see our report . Co-Training With Muse Code We co-trained Muse Spark 1.2 with Muse Code to ensure the model exhibits its best performance and coding usability when paired together. The training included rejection sampled harness trajectories and recipe optimizations for goals, compaction, and subagents, alongside the integration of the Muse Code toolset to maximize harness compatibility. Long-Horizon Muse Spark 1.2 was extensively ",
+      "oneLineKo": "메타, 터미널 코딩 에이전트 Muse Code와 신모델 Spark 1.2 공개",
+      "summaryKo": "Meta AI가 Muse Spark 1.2 모델 기반의 터미널 코딩 에이전트 Muse Code(베타)를 출시했다. Muse Code는 여러 지속형 서브에이전트를 조율해 대규모 저장소에서 계획 수립, 코드 작성, 결과 검증까지 수행하며, 이벤트 로그 기반의 재시작 안전한 런타임과 /plan, /grill, /goal 등 내장 스킬을 제공한다. Muse Spark 1.2는 코딩 작업에 대한 학습 컴퓨팅을 크게 늘리고 다양한 학습 환경을 확장했으며, Muse Code와 공동 학습되어 최적의 코딩 성능과 사용성을 보이도록 설계됐다.",
+      "tags": [
+        "llm",
+        "coding-agent",
+        "meta-ai"
+      ]
+    }
+  ]
+}
