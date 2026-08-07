@@ -1,0 +1,285 @@
+{
+  "date": "2026-08-08",
+  "generatedAt": "2026-08-07T22:25:40.637Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32231",
+      "title": "AI한테 시험을 냈는데 출제자가 5번 틀렸다 - LLM 파이프라인 검증기",
+      "url": "https://news.hada.io/topic?id=32231",
+      "commentsUrl": "https://news.hada.io/topic?id=32231",
+      "publishedAt": "2026-08-07T15:05:38+09:00",
+      "snippet": "AI한테 시험을 냈는데 출제자가 5번 틀렸다 - LLM 파이프라인 검증기 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ AI한테 시험을 냈는데 출제자가 5번 틀렸다 - LLM 파이프라인 검증기 (velog.io/@ramses203) 3 P by ramses203 16시간전 | ★ favorite | 댓글과 토론 카톡 주문 메시지를 상품 코드로 바꿔주는 LLM 파이프라인을 만들기 전에, 테스트 29개(정답지·채점기 포함)부터 만들었습니다. 결과는 두 모델 모두 치명 오류 0건 통과. 그런데 그 과정에서 제가 쓴 정답지가 3번, 채점기가 2번 틀렸습니다. 헷갈리게 심어둔 함정에 출제자인 제가 빠졌고, 모델이 \"확인 필요\"라고 되물은 게 정답이었습니다. 애매한 문제의 정답은 확정이 아니라 \"확인 필요\"로 두는 규칙 데이터에 함정 심는 법 (같은 이름 상품 2종, 비슷한 규격 5종) 잘린 JSON 복구, 판정 필드 우선 채점 같은 채점기 버그 2건 싼 모델(Haiku 4.5)과 3배 비싼 모델(Sonnet 5)의 차이는 딱 1문제 직접 만들며 겪은 기록이라 자작글로 올립니다. AI 검증을 하려다 검증당한 이야기입니다. 함께 보면 좋은 글 β AI 에이전트 180개로 하루 만에 iOS 앱 버그 55개를 잡은 검증 파이프라인 AI MVP를 넘어서: 실제로 필요한 것 LLM 번아웃이 온 것 같아요 Mac GPU(MPS) 한 줄로 3.5배, Local LLM 파이프라인을 8분에서 4분으로 AI가 형식 검증을 주류로 만들 것이다 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 GeekNews를 계속 받아보려면 Weekly 뉴스레터나 GeekBots를 이용해보세요. Weekly 구독 · GeekBots · GeekNews 소개 처음 오셨나요 사이트 이용법 FAQ About 후원하기 이용약관 개인정보 처리방침 Releases --> | Blog Lists RSS | Bookmarklet X (Twitter) Facebook | 긱뉴스봇 : Slack 잔디 Discord Teams Dooray! Google Chat Mattermost Swit 시작하기 이용법 FAQ About 후원 약관 개인정보 Lists Blog RSS X 긱뉴스봇 검색 언어 선택: 한국어 한국어 ✓ Indonesia Tiếng Việt Português Español ไทย 日本語 Türkçe Deutsch Français हिन्दी",
+      "externalUrl": "https://velog.io/@ramses203/ai-exam-author-wrong-5-times",
+      "oneLineKo": "LLM 테스트 만들다 정답지·채점기 오류 발견한 후기",
+      "summaryKo": "카톡 주문 메시지를 상품 코드로 변환하는 LLM 파이프라인을 검증하기 위해 테스트 29개(정답지·채점기 포함)를 만들었으나, 정작 저자가 만든 정답지가 3번, 채점기가 2번 틀린 것으로 드러났습니다. 반면 두 LLM 모델은 애매한 문제에 '확인 필요'라고 답해 오히려 정확한 판단을 내렸습니다. 이 경험을 통해 애매한 문제의 정답은 확정이 아닌 '확인 필요'로 두는 규칙, 데이터 함정 설계법, 채점기 버그 사례를 공유했습니다. 저렴한 모델(Haiku 4.5)과 고가 모델(Sonnet 5)의 성능 차이는 단 1문제에 불과했습니다.",
+      "tags": [
+        "llm",
+        "testing",
+        "validation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49214468",
+      "title": "Databricks drove down AI coding spend 70%",
+      "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49214468",
+      "publishedAt": "2026-08-07T18:25:17Z",
+      "score": 135,
+      "comments": 122,
+      "snippet": "Managing AI Coding Costs at Scale | Databricks Blog Skip to main content Login Why Databricks Discover For App Developers For Executives For Startups Lakehouse Architecture Databricks AI Research Customers Customer Stories Partners Partner Overview Explore the Databricks partner ecosystem Partner Spotlight Featured partner announcements Partner Program Explore benefits, tiers and how to become a partner Cloud Providers Databricks on AWS, Azure and GCP Find a Partner Discover Databricks partners for your needs Partner Solutions Find custom industry and migration solutions Product Databricks Platform Platform Overview A unified platform for data, analytics and AI Data Engineering ETL and orchestration for batch and streaming data AI Assistant Agentic coworker for business users Data Warehousing Serverless data warehouse for SQL analytics Application Development Quickly build secure data and AI apps Database Postgres for data apps and AI agents Artificial Intelligence Build and deploy ML and GenAI applications Governance Unified governance for all data, analytics and AI assets Business Intelligence Intelligent analytics for real-world data Security Open agentic SIEM built for the AI era Customer Data Platform Agentic CDP embedded in Databricks Sharing Open data sharing for data, analytics and AI Integrations and Data Marketplace Open marketplace for data, analytics and AI IDE Integrations Build on the Lakehouse in your favorite IDE Partner Connect Discover and integrate with the Databricks ecosystem Pricing Databricks Pricing Explore product pricing, DBUs and more Cost Calculator Estimate your compute costs on any cloud Open Source Open Source Technologies Learn more about the innovations behind the platform Solutions Databricks for Industries Telecommunications Media and Entertainment Financial Services Public Sector Healthcare & Life Sciences Retail Manufacturing See All Industries Cross Industry Solutions AI Agents AI Governance Cybersecurity Marketing Migration & Deployment Data Migration Forward Deployed Engineering Solution Accelerators Explore Accelerators Move faster toward outcomes that matter Resources Learning Training Discover curriculum tailored to your needs Databricks Academy Sign in to the Databricks learning platform Certification Gain recognition and differentiation Free Edition Learn professional Data and AI tools for free University Alliance Want to teach Databricks? See how. Events Data + AI Summit Data + AI World Tour AI Days Event Calendar Blog and Podcasts Databricks Blog Explore news, product announcements, and more AI Blog Explore our AI research and engineering work Data Brew Podcast Let’s talk data! Champions of Data + AI Podcast Insights from data leaders powering innovation Get Help Customer Support Documentation Community Dive Deep Resource Center Demo Center Architecture Center About Company Who We Are Our Team Databricks Ventures Contact Us Careers Working at Databricks Open Jobs Press Awards and Recognition Newsroom",
+      "oneLineKo": "Databricks, AI 코딩 비용 70% 절감 사례 공유",
+      "summaryKo": "Databricks가 자사 블로그를 통해 AI 코딩 도구 사용에 따른 비용을 70% 절감한 사례를 소개했다. 대규모로 AI 코딩 어시스턴트를 운영하며 비용 관리 전략을 적용한 결과로 보인다. 본문에는 구체적인 방법론보다 회사 제품 소개 위주의 내용이 포함되어 있어 세부 기술적 접근은 명확히 드러나지 않는다.",
+      "tags": [
+        "ai-coding",
+        "cost-optimization",
+        "databricks"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1vhxjpv",
+      "title": "From constraint models to playable puzzle games",
+      "url": "https://www.reddit.com/r/programming/comments/1vhxjpv/from_constraint_models_to_playable_puzzle_games/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1vhxjpv/from_constraint_models_to_playable_puzzle_games/",
+      "publishedAt": "2026-08-07T11:05:10+00:00",
+      "snippet": "submitted by /u/mzl [link] [comments]",
+      "oneLineKo": "제약 모델을 활용한 퍼즐 게임 제작기",
+      "summaryKo": "제약 충족 모델(constraint model)을 기반으로 실제 플레이 가능한 퍼즐 게임을 만드는 과정을 다룬 Reddit 게시글입니다. 본문 내용이 제공되지 않아 구체적인 구현 방법이나 사용된 도구는 알 수 없습니다. 제목을 통해 알고리즘적 제약 모델링이 게임 디자인에 응용된 사례임을 추측할 수 있습니다.",
+      "tags": [
+        "constraint-programming",
+        "puzzle-game",
+        "game-dev"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32246",
+      "title": "Oracle, OpenJDK에 AI 생성 코드 기여 금지",
+      "url": "https://news.hada.io/topic?id=32246",
+      "commentsUrl": "https://news.hada.io/topic?id=32246",
+      "publishedAt": "2026-08-08T06:33:30+09:00",
+      "snippet": "Oracle, OpenJDK에 AI 생성 코드 기여 금지 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Oracle, OpenJDK에 AI 생성 코드 기여 금지 (app.dealroom.co) 1 P by GN⁺ 49분전 | ★ favorite | 댓글 1개 OpenJDK를 관리하는 Oracle은 안전·보안·지식재산권 위험 을 이유로 AI 생성 코드의 기여를 금지함 개발자는 LLM을 비공개로 활용해 디버깅과 코드 검토 를 할 수 있지만, 생성물을 저장소·풀 리퀘스트·프로젝트 채널에 제출할 수 없음 이 정책은 AI 모델이 Oracle 코드를 작성한다는 공동 창업자 Larry Ellison의 발언과 대조 됨 공동 CEO Mike Sicilia는 AI 도구를 통해 더 작은 엔지니어링 팀 으로 더 빠르게 결과물을 제공할 수 있다고 밝힘 Oracle은 올해 데이터센터 확장에 700억 달러 를 투자하며, S&P는 투자수익의 불확실성을 이유로 신용등급을 정크 등급보다 한 단계 높은 BBB-로 낮춤 OpenJDK의 AI 코드 정책 AI 생성 자료는 OpenJDK 저장소 , 풀 리퀘스트 및 기타 프로젝트 채널에 제출할 수 없음 금지 근거는 안전성·보안·지식재산권 위험 임 LLM의 비공개 사용까지 제한하지는 않음 코드 디버깅에 활용할 수 있음 코드 검토에도 사용할 수 있음 Oracle 내부의 AI 활용과 투자 Larry Ellison은 AI 모델이 Oracle 코드를 작성한다 고 밝힘 Mike Sicilia는 AI 도구 덕분에 더 적은 인원의 엔지니어링 팀으로 더 빠른 개발이 가능해졌다고 평가함 Oracle은 올해 데이터센터 확장에 700억 달러 를 투자함 S&P는 투자수익의 불확실성을 이유로 Oracle의 신용등급을 BBB-로 강등 함 BBB-는 정크 등급보다 한 단계 높음 함께 보면 좋은 글 β S&P Global, Oracle 신용등급을 투자적격 최하단 BBB-로 하향 Redox OS, 기여자 서명 정책과 LLM 금지 정책 도입 GCC 운영위원회, AI 정책 발표 AI 시대의 프로그래머: 코드 생성에서 비결정성 통제로의 역할 전환 LLM의 L은 \"거짓말(Lying)\"을 의미한다 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ GN⁺ 49분전 [-] Hacker News 의견들 기술 사업이 딸린 로펌인 Oracle 은 자사 코드를 AI로 세탁한 이들을 고소할 선택지를 남겨두려는 듯함 출처가 불분명한 AI 생성 코드를 공개적으로 받아들이면 그런 소송 논리가 성립하기 어려움. 기술 부문은 양립하기 어렵다고 하겠지만 운전대는 법무 부문이 잡고 있음 음모론도 아니고 가장 그럴듯한 설명임 이유가 무엇이든 반AI 입장 을 취한 건 긍정적으로 봄 법무 부서는 역설적으로 거대 언어 모델(LLM) 과 매우 비슷함. 좁은 데이터로 훈련되어 현실을 제대로 이해하지 못하고, 감독 없이 풀어두면 회사를 엉망으로 만듦 누군가는 “고객을 전부 고소해 화나게 하는 게 정말 최선인가?”라고 제동을 걸어야 함. 보통 CEO가 맡아야 하지만, 대기업 CEO들은 브라질 주짓수나 자기 소셜 미디어에서의 막말, 국제정치 개입, 가족 비영리단체 운영으로 너무 바쁨 법무를 CEO 직속에서 내려놓고, 홍보와 법무를 함께 감독하는 새 직책 아래 둬야 함. 모든 보도자료가 법무 검토를 받듯 모든 법적 조치도 홍보 검토 를 거치는 게 논리적임. 다만 대기업 홍보 조직이 기업집단 중심 세계에서 쇠퇴한 문제는 별개임 링크된 글은 The Register의 더 나은 기사를 형편없이 요약한 것임 https://www.theregister.com/ai-and-ml/2026/08/03/as-larry-el... The Register 기사는 다음 OpenJDK 정책 문서 를 다룸: https://openjdk.org/legal/ai 속보: 관리자와 기업의 무능한 이들이 천재 행세하는 시대를 맞아 Oracle도 기술 기업인 척함 해당 글은 https://openjdk.org/legal/ai 이며, OpenJDK 생성형 AI 임시 정책 임. 이 페이지에 따르면 법무팀이 최종안을 작성 중임 Java와 저작권을 둘러싼 과거의 상처, 오래된 대기업이라는 특성을 고려하면 합리적인 조치로 들리지만 최종안이 더 나아질 거라고 기대하지는 않음 Java와 저작권을 둘러싼 상처 중 얼마나 많은 부분이 자초한 결과 였을까? Oracle이 AI에 전력투구한다는 점은 아이러니하지만 취지는 어느 정도 이해함. 신중하게 작성되지 않은 기여가 쏟아지면 이미 부족한 사람 검토자의 시간 을 더 잡아먹음 수많은 주요 기업이 의존하는 프로젝트에서는 엄청난 위험이 될 수 있음 누군가 AI로 만든 쓰레기 더미를 건네며 “네가 알아서 검토해”라고 하면 정말 무례하고 짜증 남. 이제 누구나 프롬프트를 입력할 수 있고, 어려운 부분은 결과가 타당한지 판별하는 것임 AI 생성 코드를 전면 금지하는 것보다 나은 방법이 있겠지만, Oracle은 남의 불편보다 자기 검토 부담 을 훨씬 더 걱정하는 듯함 약간 비꼬자면 Oracle은 원래부터 변호사에 전력투구 했고, 소프트웨어가 최우선이었던 적은 없지 않나? “AI에 전력투구하지만 결과가 눈에 보이는 곳 에서는 제외한다”는 아이러니를 잠시 음미해 볼 만함 여기서 AI가 작성한 홍보문을 괴롭히는 문제가 내 직장의 AI 작성 홍보문에도 똑같이 나타남. 언젠가는 나아질지 모르지만 파레토 법칙이 떠오름 Oracle은 본질적으로 변호사가 고객에게서 돈을 뜯어낼 수 있도록 소프트웨어 라이선스 를 판매하는 법무 부서임 Google에서 Oracle org chart meme 을 이미지 검색해 보면 밈으로만 치부하기 어려움 품질보다는 저작권과 라이선스 우려 때문일 가능성이 큼 최근 발",
+      "externalUrl": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "oneLineKo": "Oracle, 안전·보안·IP 우려로 OpenJDK AI 코드 기여 금지",
+      "summaryKo": "Oracle이 OpenJDK 프로젝트에 대한 AI 생성 코드 기여를 금지했다. 안전성, 보안, 지식재산권 위험을 근거로 들었으며, 개발자는 LLM을 비공개로 디버깅·코드 검토에 활용할 수는 있지만 저장소나 풀 리퀘스트에 AI 생성물을 제출할 수 없다. 이는 Larry Ellison이 AI가 Oracle 코드를 작성한다고 밝힌 것과 대조되며, Oracle은 700억 달러 규모 데이터센터 투자와 신용등급 강등 이슈도 함께 논란이 되고 있다.",
+      "tags": [
+        "openjdk",
+        "java",
+        "ai-policy"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49138446",
+      "title": "São Paulo resident transforms degraded area into urban forest",
+      "url": "https://saopaulosecreto.com/en/tiquatira-linear-park-en/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49138446",
+      "publishedAt": "2026-08-01T21:02:26Z",
+      "score": 313,
+      "comments": 117,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;thursd.com&#x2F;articles&#x2F;helio-da-silva-sao-paulo-tiquatira-linear-park\" rel=\"nofollow\">https:&#x2F;&#x2F;thursd.com&#x2F;articles&#x2F;helio-da-silva-sao-paulo-tiquati...</a>",
+      "oneLineKo": "상파울루 주민, 방치된 땅을 도심 숲으로 조성",
+      "summaryKo": "브라질 상파울루의 한 주민이 방치되어 있던 훼손 지역을 개인적으로 도심 숲으로 탈바꿈시킨 사례를 다룹니다. 해당 프로젝트는 티쿠아치라 선형 공원(Tiquatira Linear Park)과 관련된 것으로, 지역 환경 개선 활동의 일환으로 소개되고 있습니다. IT 기술과는 직접 관련이 없는 도시 환경 재생 사례입니다.",
+      "tags": [
+        "urban-greening",
+        "environment",
+        "sao-paulo"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1vgzqd3",
+      "title": "The LuaJIT NYI That Silently Poisoned an Unrelated Hot Loop",
+      "url": "https://www.reddit.com/r/programming/comments/1vgzqd3/the_luajit_nyi_that_silently_poisoned_an/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1vgzqd3/the_luajit_nyi_that_silently_poisoned_an/",
+      "publishedAt": "2026-08-06T09:50:58+00:00",
+      "snippet": "I was optimizing the Lua transpiler for my modding language grug and ran into a really weird LuaJIT performance bug. The same benchmark could randomly run 20× slower, and it turned out a LuaJIT NYI (Not Yet Implemented) could silently blacklist an unrelated hot loop. I wrote up the investigation here. It goes from the benchmark mystery through LuaJIT's trace recorder internals, and ends with a PR to get unpack off LuaJIT's NYI list. Feedback is very welcome! :) submitted by /u/MyNameIsTrez [link] [comments]",
+      "oneLineKo": "LuaJIT NYI가 무관한 핫루프를 오염시킨 사례 분석",
+      "summaryKo": "작성자는 Lua 트랜스파일러 grug를 최적화하다가 동일 벤치마크가 무작위로 20배 느려지는 LuaJIT 성능 버그를 발견했다. 원인은 LuaJIT의 NYI(Not Yet Implemented) 함수인 unpack이 트레이스 레코더에 의해 무관한 핫루프를 블랙리스트로 만들어버리는 현상이었다. 글에서는 벤치마크 미스터리부터 LuaJIT 트레이스 레코더 내부 동작까지 상세히 다루며, 최종적으로 unpack을 NYI 목록에서 제거하는 PR로 마무리된다.",
+      "tags": [
+        "luajit",
+        "performance",
+        "jit"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32239",
+      "title": "Show GN: 만화 이미지의 대사와 말풍선을 번역하는 AI Manga Translate를 만들었습니다",
+      "url": "https://news.hada.io/topic?id=32239",
+      "commentsUrl": "https://news.hada.io/topic?id=32239",
+      "publishedAt": "2026-08-08T00:26:49+09:00",
+      "snippet": "만화 이미지의 대사와 말풍선을 번역하는 AI Manga Translate를 만들었습니다 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Show GN: 만화 이미지의 대사와 말풍선을 번역하는 AI Manga Translate를 만들었습니다 (aimangatranslate.com) 1 P by ethanfeng 7시간전 | ★ favorite | 댓글과 토론 안녕하세요. 이미지 기반 만화를 좀 더 쉽게 번역할 수 있도록 AI Manga Translate를 만들고 있습니다. 일반 번역기는 텍스트를 복사해서 입력하는 방식이 대부분인데, 만화는 텍스트가 이미지 안에 있고 말풍선, 세로쓰기, 배경 위의 글자, 작은 폰트 등 때문에 단순 OCR + 번역만으로는 꽤 불편했습니다. 그래서 만화 페이지 자체를 입력으로 받아서 텍스트 영역을 찾고, 번역하고, 결과를 다시 확인하거나 수정할 수 있는 흐름을 만들었습니다. 주요 기능 만화 / 코믹 이미지 업로드 이미지 안의 텍스트 영역과 말풍선 감지 일본어 세로쓰기 포함 OCR 처리 여러 언어로 번역 번역 결과를 이미지 위에서 바로 확인 필요할 경우 번역 문구를 직접 수정 여러 페이지를 연속으로 처리하는 워크플로우 브라우저에서 바로 사용할 수 있는 인터페이스 만들면서 어려웠던 부분 만화 번역은 일반 문서 OCR보다 생각보다 까다로웠습니다. 특히 아래 부분에서 문제가 많이 생겼습니다. 세로로 배치된 일본어 텍스트 손글씨나 장식이 강한 폰트 배경과 글자 색이 비슷한 경우 말풍선이 겹치거나 모양이 불규칙한 경우 한 페이지에 여러 대화가 섞여 있을 때 읽는 순서 번역 후 글자가 말풍선보다 길어지는 문제 단순히 텍스트를 추출하는 것보다 어떤 문장이 어느 영역에 속하는지 유지하는 것이 더 중요했습니다. 빠른 번역과 편집 워크플로우 사용 목적에 따라 필요한 기능도 꽤 다르다고 느꼈습니다. 몇 장의 만화를 빠르게 이해하고 싶은 사용자는 복잡한 편집 기능보다 빠른 결과를 원합니다. 반대로 여러 페이지를 계속 작업하거나 결과를 다듬어야 하는 경우에는 번역된 문장을 직접 검토하고 수정할 수 있는 편집 기능이 중요합니다. 그래서 현재는 빠르게 결과를 확인하는 방식과, 번역 결과를 좀 더 세밀하게 검토하고 수정할 수 있는 방식으로 나누어 개발하고 있습니다. AI 번역의 한계 AI 번역이 많이 좋아졌지만 만화에서는 여전히 문맥 문제가 있습니다. 캐릭터의 말투, 존댓말, 농담, 고유명사, 앞뒤 장면의 맥락은 자동 번역만으로 완벽하게 처리하기 어렵습니다. 그래서 현재 목표는 사람의 검수를 완전히 없애는 것보다는 OCR, 초벌 번역, 이미지 처리처럼 반복적인 작업을 줄여주는 쪽에 가깝습니다. 직접 사용해 보기 현재 개발 중인 Manga Translator 를 브라우저에서 바로 테스트할 수 있습니다. 특히 아래 부분에 대한 피드백을 받고 싶습니다. 일본어 세로쓰기 인식 품질 작은 글자나 효과음 처리 말풍선 검출 정확도 번역 결과를 수정하는 흐름 여러 페이지를 처리할 때 불편한 점 모바일에서의 사용성 만화 번역이나 OCR, 이미지 번역 도구를 사용해 보신 분들의 의견이나 개선 아이디어가 있다면 듣고 싶습니다. 함께 보면 좋은 글 β 미연시하려고 만든 화면/음성 번역 앱 간단한 ChatGPT 사진 번역기 AI 대화에서 마음에 드는 문장만 드래그로 모아두는 확장을 만들었습니다 헤드라인만 쌓이는 AI 뉴스가 답답해서, 매일 원문까지 읽고 '왜 중요한가'를 쓰는 파이프라인을 만들었습니다 (15일째 무인 운영) Shortbread - AI를 이용해 만화 만들기 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 GeekNews를 계속 받아보려면 Weekly 뉴스레터나 GeekBots를 이용해보세요. Weekly 구독 · GeekBots · GeekNews 소개 처음 오셨나요 사이트 이용법 FAQ About 후원하기 이용약관 개인정보 처리방침 Releases --> | Blog Lists RSS | Bookmarklet X (Twitter) Facebook | 긱뉴스봇 : Slack 잔디 Discord Teams Dooray! Google Chat Mattermost Swit 시작하기 이용법 FAQ About 후원 약관 개인정보 Lists Blog RSS X 긱뉴스봇 검색 언어 선택: 한국어 한국어 ✓ Indonesia Tiếng Việt Português Español ไทย 日本語 Türkçe Deutsch Français हिन्दी",
+      "externalUrl": "https://aimangatranslate.com/",
+      "oneLineKo": "만화 말풍선 번역하는 AI Manga Translate 출시",
+      "summaryKo": "만화 이미지 속 대사와 말풍선을 자동으로 인식해 번역해주는 AI Manga Translate가 공개됐다. 세로쓰기 일본어 OCR, 말풍선 검출, 번역 결과 수정 등의 기능을 제공하며 여러 페이지를 연속 처리할 수 있는 워크플로우를 지원한다. 개발자는 손글씨 폰트, 겹친 말풍선, 읽기 순서 등 만화 특유의 어려움을 언급하며, 완전 자동화보다는 반복 작업을 줄이는 데 초점을 맞췄다고 설명했다.",
+      "tags": [
+        "ocr",
+        "ai-translation",
+        "manga"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49209539",
+      "title": "What happens if an entire class of workers loses faith in their careers",
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49209539",
+      "publishedAt": "2026-08-07T12:42:27Z",
+      "score": 269,
+      "comments": 407,
+      "snippet": "The Future Of Knowledge Workers In An AI-Driven World Skip to the content Subscribe Published by the Berggruen Institute Topics Technology & the Human Future of Capitalism Philosophy & Culture Climate Crisis Geopolitics & Deglobalization Future of Democracy Digital Society Read Noema In Print Search Go Why Is Everyone In Tech So Sad? A lot of people seem to be realizing that knowledge work is mostly pointless. AI might give us the pleasure of finding out what happens if an entire class of workers loses faith in their careers. Leonie Bos for Noema Magazine Essay Future of Capitalism By Aaron Horwath August 6, 2026 Credits Aaron Horwath is the director of AI operations at a creative technology company where he is focused on implementing AI in a way that supports both humans and business. On a recent morning commute, I sat on a train in one of those awkward four-person configurations with a shared table. Across from me sat a typical commuter: early 30s, slacks, dress shirt, dirty white sneakers, hair a little disheveled, AirPods in, basking in the glow of an open MacBook. For over half an hour, I listened to this young man as he was on a call explaining, in painfully monotone detail, EBITDAs, margin expansion opportunities, cost structures, ARR, etc. On and on he went until the screeching of the train’s brakes signaled our arrival at the final station. But as everyone else around us began shuffling to disembark, I watched the man begin digging frantically through a leather bag at his side. Intriguing! I wondered what he’d pull out. A copy of “ Atomic Habits ”? A framed portrait of Gary V? A Mac mini running OpenClaw? None of the above. Instead, he took out two long knitting needles. Between them dangled a mound of pink yarn. He explained to me that he was making a winter hat for a niece. And for the first time that morning, I noticed a glint of pride and excitement in his eyes. The hat was a project born from a desire, as he put it, to do something. Among my Knowledge Worker peers, I am hearing this more and more often: people who want to pick up pottery, painting, crochet or other old-timey analog hobbies. In coffee shops and in the low-lit corners of bars, professionals are sharing dreams of “disappearing” or “living on a farm somewhere” or “going off the grid.” These aren’t fantastical daydreams; they are visions of escape shared in a tone that betrays an underlying existential angst, a fundamental doubt about work and careerism inspired by a seemingly increasingly common experience: waking up one morning at an existential precipice, struck with a sudden sense that knowledge work is, and perhaps always has been, pointless. Perhaps you too have felt such a feeling, a rising tide of overwhelming, indescribable melancholy, slowly threatening to envelop you in your Ikea office chair. “Among my Knowledge Worker peers, I am hearing this more and more often: people who want to pick up pottery, painting, crochet or other old-timey analog hobbies.” This d",
+      "oneLineKo": "AI 시대, 지식노동자들의 직업적 회의감과 무력감",
+      "summaryKo": "이 에세이는 AI가 지식노동의 가치와 의미에 대한 근본적 회의를 불러일으키고 있다고 지적한다. 저자는 화이트칼라 직장인들이 EBITDA, ARR 같은 업무 용어에 몰두하다가도 뜨개질, 도자기 같은 아날로그 취미나 '탈도시', '농장 생활'을 꿈꾸는 현상을 관찰한다. 이는 AI 발전으로 지식노동이 원래부터 공허했을지 모른다는 실존적 불안이 커지고 있음을 보여준다. 저자는 AI가 한 세대의 노동자 계층 전체가 자신의 커리어에 대한 믿음을 잃을 때 어떤 일이 벌어지는지 목격하게 할 수도 있다고 경고한다.",
+      "tags": [
+        "ai",
+        "future-of-work",
+        "knowledge-work"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32223",
+      "title": "프롬프트로 프로토타입은 만들 수 있어도, 안목까지 만들 수는 없다",
+      "url": "https://news.hada.io/topic?id=32223",
+      "commentsUrl": "https://news.hada.io/topic?id=32223",
+      "publishedAt": "2026-08-07T09:33:02+09:00",
+      "snippet": "프롬프트로 프로토타입은 만들 수 있어도, 안목까지 만들 수는 없다 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ 프롬프트로 프로토타입은 만들 수 있어도, 안목까지 만들 수는 없다 (mirakl.tech) 13 P by GN⁺ 22시간전 | ★ favorite | 댓글 1개 생성형 AI로 누구나 빠르게 완성품처럼 보이는 결과물을 만들 수 있게 됐지만, 무엇을 만들고 무엇을 버릴지 결정하는 안목과 판단력 은 오랜 비평과 반복적인 교정을 통해 형성됨 AI도 피드백을 통해 개선되지만, 점수를 높이는 방향으로 학습하는 것과 낯선 문제에서도 판단 근거를 찾는 내적 감각 을 갖추는 것은 서로 다름 44명이 AI와 인간의 그림 20점을 구분한 실험에서는 정답률이 동전 던지기보다 조금 높은 수준이었고, 같은 AI 그림도 인간의 작품이라고 알려주면 복잡성·새로움·모호성 평가가 유의하게 높아졌음 AI 프로토타이핑은 아이디어를 작동하는 결과물로 바꾸는 장벽을 크게 낮췄지만, 그룹화·정보 계층·간격·빈 상태·엣지 케이스처럼 작동하는 것과 제대로 된 것의 차이 까지 판단하지는 못함 생성 능력이 보편화될수록 실행보다 큐레이션이 희소해지며, 안목은 수많은 그럴듯한 결과 가운데 대부분을 거부하고 언제 탐색을 멈출지 결정하는 기준 으로 작동함 AI 시대의 차별점으로 떠오른 안목 지난 1년간 안목(taste) 이 창업자와 경영진 사이에서 주요 화두가 됨 성장 최적화에 10년을 보낸 창업자들이 이제 미적 판단에 관한 글을 쓰고 있음 Paul Graham 은 누구나 무엇이든 만들 수 있게 되면 무엇을 만들기로 선택하는지가 차별점이 된다고 봄 Sam Altman 은 AI가 나머지 일을 수행할 수 있게 된 뒤에도 안목이 사람의 고용 가능성을 지켜줄 수 있다고 봄 자주 인용되는 기준점은 기술적인 음악 능력이 없어도 자신이 무엇을 좋아하는지 알고 확신 있게 말하는 프로듀서 Rick Rubin 임 이 사례는 안목을 가리키는 관용적인 예시가 됐지만, 안목의 실체가 무엇인지는 충분히 보여주지 못함 안목을 새로운 채용 기준으로 이야기하는 사람들은 대부분 창업자나 경영진이며, 자신의 결과물이 아직 충분히 좋지 않다는 평가를 수년간 받아 본 경험은 논의에서 빠져 있음 비평과 반복 교정으로 형성되는 판단력 12세부터 받은 미술 교육에서는 수십 년 더 많은 경험을 가진 사람이 작업이 아직 제대로 되지 않은 이유를 매번 구체적으로 짚어줬음 수백 번의 작은 교정이 반복되면서 결국 지적을 소리 내어 들을 필요가 없어졌음 건축학교에서는 자신의 작업을 다른 사람들의 결과물 옆에 걸고, 혼자서는 발견하지 못했던 문제를 직접 확인해야 했음 프로젝트를 처음 본 비평가가 “ 왜 ”라는 단순한 질문을 반복하면 설계 전체가 흔들리기도 했음 UX 디자인·인간 인지·통계를 함께 공부한 Digital Cultures 석사 과정까지 10년 넘게 다음을 알아차리는 법을 익힘 구성이 하나의 전체로 맞물리는 이유 작은 비율 변화가 작품의 느낌을 바꾸는 이유 “마음에 든다”는 말이 판단의 끝이 아니라 분석의 시작인 이유 안목은 성공을 충분히 거두면 갑자기 생기는 능력이 아니라, 틀렸다는 교정을 거듭하면서 맞는 판단을 내리는 빈도가 높아지는 과정 에서 천천히 형성됨 B2B 제품 디자인에서 작동하는 안목 기술 중심 B2B 소프트웨어에서 안목은 시각적인 아름다움보다 다음과 같은 작은 결정을 내리는 능력에 가까움 무엇을 보여주고 무엇을 숨길지 어떤 순서로 일이 진행되게 할지 이런 결정은 제대로 내렸을 때는 아무도 알아차리지 못하지만, 잘못됐을 때는 곧바로 드러남 같은 실수를 충분히 많이 교정받으면 누군가 지적하지 않아도 스스로 감지할 수 있게 됨 다만 이런 경험이 단순한 본능보다 신뢰할 만한 능력을 만들었는지는 통계처럼 입증하기 어려움 오랫동안 유지되는 능력인지, 개인의 일관된 편향에 불과한지는 개인적 경험만으로 완전히 답할 수 없음 점수 최적화와 이유를 아는 감각의 차이 AI도 피드백을 통해 학습하지만, 점수를 높이는 방향으로 교정되는 것 과 이유를 파악하는 내적 감각을 형성하는 것은 같지 않음 전자는 더 나은 근사치를 만듦 후자는 기존 피드백이 다루지 않은 문제에서도 자신의 직관이 타당한지 판단하게 함 둘의 차이는 결과가 얼마나 그럴듯한지가 아니라, 학습에서 접하지 못한 상황에서도 판단이 통하는지에 있음 AI와 인간의 그림을 구분한 실험 생성형 AI가 일상적인 화제가 되기 전 수행한 석사 연구에서는 두 가지 질문을 실험함 이름이 표시되지 않은 그림만 보고 AI와 인간의 작품을 구분할 수 있는가 작품에 붙은 출처 표시가 사람들이 보는 것을 바꾸는가 참가자 44명에게 그림 20점을 보여줬으며, 절반은 AI 생성 작품이고 나머지는 덜 알려진 인간 화가의 작품이었음 참가자들은 거의 절반을 틀려 동전 던지기보다 조금 나은 수준에 머물렀음 인터뷰에서는 붓 자국을 찾으려 했고, 세밀하고 사실적인 그림은 AI가 만들었을 것이라고 판단하는 경우가 많았음 이런 추정은 맞는 경우만큼 틀리는 경우도 많았음 출처 표시가 미적 평가를 바꾼 결과 AI 생성 그림 10점을 두 집단에 똑같이 보여주되, 한 집단에는 AI 작품이라고 사실대로 알리고 다른 집단에는 가상의 이름을 붙인 인간 화가의 작품이라고 알림 심리학자 Berlyne이 미적 몰입을 일으키는 요인으로 분류한 복잡성·새로움·모호성·놀라움·흥미 를 7점 척도로 평가하게 함 인간의 작품이라고 믿은 집단은 똑같은 그림의 복잡성·새로움·모호성을 눈에 띄게 높이 평가했으며, 그 차이는 통계적으로도 확인됨 세 항목의 차이는 p < .05 였음 놀라움과 흥미에서는 같은 패턴이 나타나지 않았음 그림 자체는 전혀 달라지지 않았지만, 사람이 만들었다고 믿자 참가자들이 그림에서 읽어낸 특성이 달라졌음 실험 결과가 입증하지 못하는 것 실험에 사용한 그림은 생성기와 판별기가 경쟁하는 구세대 도구에서 나왔음 이후 생성 기술은 Stable Diffusion 같은 확산 모델 을 거쳐, 언어 이해와 생성",
+      "externalUrl": "https://mirakl.tech/you-can-prompt-a-prototype-you-cant-prompt-taste-eef2aa77b5a5",
+      "oneLineKo": "AI 프로토타이핑은 쉬워졌지만 안목은 학습되지 않는다",
+      "summaryKo": "생성형 AI로 누구나 완성품처럼 보이는 결과물을 빠르게 만들 수 있게 됐지만, 무엇을 만들고 버릴지 판단하는 안목은 오랜 비평과 반복 교정을 통해서만 형성된다는 점을 지적한 글이다. 44명이 AI와 인간의 그림을 구분한 실험에서 정답률은 동전 던지기 수준에 불과했지만, 같은 그림도 인간 작품이라 알려주면 복잡성·새로움·모호성 평가가 유의하게 높아졌다. AI는 점수를 높이는 방향으로 학습하지만, 낯선 문제에서도 판단 근거를 찾는 내적 감각은 인간의 오랜 비평 경험에서 형성되는 것으로, 생성 능력이 보편화될수록 실행보다 큐레이션과 안목이 희소한 차별점이 된다.",
+      "tags": [
+        "generative-ai",
+        "design",
+        "ux"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49208535",
+      "title": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
+      "url": "https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49208535",
+      "publishedAt": "2026-08-07T11:00:35Z",
+      "score": 216,
+      "comments": 96,
+      "snippet": "Rebuilding Postgres for 300x faster analytics: batching, operator fusion, and SIMD - malisper.me Primary Menu malisper.me malisper.me General About Me Twitter Table of Contents for Postgres Posts RSS Subscribe to Blog via Email Enter your email address to subscribe to this blog and receive notifications of new posts by email. Email Address Subscribe Skip to content malisper.me Home » pgrust » Rebuilding Postgres for 300x faster analytics: batching, operator fusion, and SIMD Rebuilding Postgres for 300x faster analytics: batching, operator fusion, and SIMD Last week we released version 0.2 of pgrust . This release was all about performance. It’s 10x faster than the previous version of pgrust. On OLTP benchmarks, pgrust is 30% faster than Postgres, and on Clickbench, Clickhouse’s benchmark for analytical databases, pgrust is 300x faster than Postgres. It’s even ahead of Clickhouse! The query engine is one of the biggest changes we made to achieve much better performance. On its own, the query engine drove ~10x of the 300x. We’ll start with a miniature version of the Postgres query engine and we’ll one by one add the same optimizations we made to make the pgrust query engine so fast. To give some background on why there’s so much room for improvement vs Postgres, Postgres was created in a different era. The original Postgres project dates back to the 80s. It was built at a time when the main bottleneck to database performance was disk I/O. Three trends have made that no longer the case: Many datasets now fit in RAM, eliminating most disk I/O For datasets that don’t fit in RAM, the workloads differ. Data analytics scans data in bulk. The bottleneck is often no longer your disk throughput and is often either your CPU throughput or memory throughput Disks have gotten much faster in recent years. NVMe is hundreds of times faster than a hard drive. All three trends have made CPU and memory speeds more important than they were historically. Many of the optimizations we’ve made target this. The query engine is the main user of CPU in a database. We optimized the pgrust query engine to use less CPU and less memory bandwidth than Postgres when processing the same queries. To give you a sense of just how slow the Postgres query engine is, let’s take a simple query that sums the first 500 million numbers: CREATE TABLE my_table AS select col::float8 from generate_series(1.0, 500000000.0) g(col); SELECT SUM(col) FROM my_table; When I run this in Postgres, it takes ~20 seconds. This was done on a c8g.4xl with parallel queries disabled. For comparison, when I time the equivalent in Rust: let table: Vec<f64> = (1..=500_000_000usize).map(|i| i as f64).collect(); let mut sum = 0.0; for &value in &table { sum += value; } The query takes 358ms. That’s around 55x faster, and believe it or not, we can do even faster than 358ms. Now this example isn’t an apples-to-apples comparison. There’s a lot more going on under the hood in Postgres. At the same time, optimizing a dat",
+      "oneLineKo": "pgrust, Postgres 쿼리 엔진 재설계로 분석 성능 300배 향상",
+      "summaryKo": "pgrust 0.2 버전은 배칭, 연산자 융합, SIMD 최적화를 통해 Postgres 대비 OLTP에서 30%, ClickBench 분석 벤치마크에서는 최대 300배 빠른 성능을 달성했다. Postgres는 디스크 I/O가 병목이던 1980년대에 설계되어 CPU·메모리 대역폭 최적화가 부족한데, pgrust는 쿼리 엔진을 새로 만들어 이를 해결했다. 5억 개 숫자를 합산하는 간단한 쿼리에서 Postgres는 20초가 걸리지만 Rust로 직접 구현하면 358ms로 약 55배 빠르다. pgrust는 이런 격차를 줄이기 위해 쿼리 엔진 전반의 CPU·메모리 효율을 개선했다.",
+      "tags": [
+        "postgres",
+        "rust",
+        "query-engine"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32222",
+      "title": "Shitty - 이상한 이름이지만 진지한 터미널 에뮬레이터",
+      "url": "https://news.hada.io/topic?id=32222",
+      "commentsUrl": "https://news.hada.io/topic?id=32222",
+      "publishedAt": "2026-08-07T09:31:02+09:00",
+      "snippet": "Shitty - 이상한 이름이지만 진지한 터미널 에뮬레이터 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Shitty - 이상한 이름이지만 진지한 터미널 에뮬레이터 (github.com/pg83) 5 P by xguru 22시간전 | ★ favorite | 댓글 3개 C++23 으로 작성. 낮은 지연 시간 , 빠른 시작, 예측 가능한 자원 사용을 목표로 만든 터미널 에뮬레이터 터미널 상태를 CPU에 유지하고 셀을 네이티브 컴퓨트 백엔드 (Linux는 Vulkan, macOS는 Metal)로 렌더링 Apple 실리콘 MacBook에서 100MB를 GUI로 출력하는 벤치마크(모든 터미널을 동일 조건으로 정렬)에서 가장 빠른 처리량 기록 출력 가능한 ASCII 스크롤 경로에서 wall time 0.81s / 처리량 약 118 MiB/s로, alacritty(0.96s), kitty(1.28s), ghostty(1.49s)보다 앞섬 랜덤 바이트(파서 최악 상황, 전체가 잘못된 UTF-8)에서도 1.88s / 약 51 MiB/s로 alacritty(3.07s), ghostty(4.63s)보다 빠름 5,000개 이상의 테스트 를 kitty, esctest, xterm vttests, vttest, tack, libvterm, libtsm, alacritty, ghostty, contour, konsole, mosh 등 여러 스위트에서 수집해 실제 PTY를 통한 블랙박스 방식으로 검증 프레임 리사이즈를 경계 변경과 같은 트랜잭션 내에서 렌더링하는 깜빡임 없는(flicker-free) 처리와, 손상 기반(damage-driven) 갱신 지원 파서 상태 머신이 완전(total)하고 커밋된 코퍼스로 퍼징되어, cat /dev/urandom 이 크래시가 아닌 벤치마크 로 취급될 정도의 견고성 확보 셀을 코드포인트가 아닌 그래핌 클러스터 로 다뤄 이모지 시퀀스, 변형 선택자, 결합 문자, 넓은 CJK 문자를 올바르게 처리 윈도잉 툴킷 없이 폰트를 내장한 단일 소형 바이너리 로, 폰트가 전혀 설치되지 않은 머신에서도 실행됨 기본적으로 애플리케이션이 명시적 허용 없이는 선택 영역을 읽거나 호스트 창을 제어할 수 없는 기본 잠금(locked down) 정책 적용 제공 기능들 VT52부터 VT5xx 까지의 제어 시퀀스와 널리 쓰이는 xterm 확장 지원 주 화면·대체 화면, 주 화면 스크롤백, 여백(margins), 탭, 사각형 연산(rectangular operations), 보호 셀(protected cells), 동기화 출력(synchronized output) 지원 터미널 너비가 바뀔 때 주 화면 스크롤백을 다시 흐르게 하는 reflow 처리 유니코드 그래핌 클러스터 , 결합 문자, 이모지 시퀀스, 두 배 너비 문자 처리 DEC 규격의 단일 너비, 두 배 너비, 두 배 높이 라인 지원 16색·256색·24비트 색상 지원, 밑줄 색상 및 확장 밑줄 스타일 포함 Legacy, modifyOtherKeys, Kitty 키보드 프로토콜 지원 X10, VT200, UTF-8, SGR, SGR-pixel, urxvt 마우스 프로토콜 지원 선형·사각형 선택, 주 선택(primary selection), 클립보드 통합, OSC 52 정책 , OSC 8 하이퍼링크 지원 셸 통합, 알림, 진행 보고(progress reports), 대역 내 리사이즈 보고(in-band resize reporting) 지원 지연 글리프 래스터화, 영구 GPU 글리프 캐시 , 손상 기반(damage-driven) 컴퓨트 렌더링 지원 내부적으로 UTF-8을 사용하고 자식 프로세스에 TERM=xterm-256color 를 export (호스트에 해당 terminfo 항목 필요) 현재 양방향 텍스트 레이아웃과 sixel 같은 인라인 그래픽 프로토콜은 미구현 Zutty (원작자 Tom Szilagyi)의 하드 포크이자 완전 재작성이며, GPL 기반에서 MIT 전용 코드베이스로 전환 중 함께 보면 좋은 글 β Ghostling - Minimum Viable 터미널 에뮬레이터 Alacritty - GPU 가속되는 터미널 에뮬레이터 느린 터미널에 쓰기엔 인생은 너무 짧다 Ghostty – 터미널 에뮬레이터 Ghostty 1.0 출시 - 고속, 크로스플랫폼 터미널 에뮬레이터 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ skageektp 9시간전 [-] 어우 리포지토리 들어가봤는데, 저렇게 루트에 너무 많은 파일 있는건 진짜 스크롤 내리기가 짜증나는 것 같아요 ㅋㅋㅋ 답변달기 ▲ unsure4000 15시간전 [-] 인터넷의 무작위 ‘GPL 광신자’(random \"GPL zealot)보다 이 문제로 실제 자문한 변호사의 견해를 따르겠음 pg83 of HN 아이디가 겹치는걸로 미루어보아 개발자 본인이 맞는걸로 보이는데, 프로젝트 이름부터 태도까지 전혀 와닿지 않네요. 사용할 일은 없을 것 같습니다. 답변달기 ▲ GN⁺ 22시간전 [-] Hacker News 의견들 Gutenberg의 Moby Dick은 1.2MB 임[0]. 가장 느린 터미널도 초당 약 53권, shitty는 약 98권을 표시할 수 있다는 뜻임 초당 몇 권이 필요한지는 모르겠지만 선택지가 많아서 좋음 [0] https://www.gutenberg.org/ebooks/2701 불과 25~30년 전에는 출력이 아주 많은 Java 빌드 에서 터미널 창을 가리거나 최소화하면 더 빨라지기도 했음. 느린 콘솔 출력이 컴파일러를 지연시켰기 때문임 프로그램 속도를 떨어뜨리지 않으면서 콘솔에 대량의 디버그 출력 을 쏟아내고 싶을 때가 있음. 실수로 1TB 파일에 cat 을 실행할 수도 있음 대부분의 화면은 초당",
+      "externalUrl": "https://github.com/pg83/shitty",
+      "oneLineKo": "C++23 기반 초고속 터미널 에뮬레이터 Shitty 공개",
+      "summaryKo": "Shitty는 낮은 지연 시간과 예측 가능한 자원 사용을 목표로 C++23으로 작성된 터미널 에뮬레이터로, Vulkan/Metal 기반 네이티브 렌더링을 사용한다. 벤치마크에서 alacritty, kitty, ghostty보다 빠른 처리량을 기록했으며, 5,000개 이상의 테스트로 검증된 견고한 파서와 그래핌 클러스터 처리, flicker-free 렌더링 등을 지원한다. Zutty의 하드 포크로 GPL에서 MIT 라이선스로 전환 중이며, sixel과 양방향 텍스트는 아직 미구현 상태다.",
+      "tags": [
+        "terminal-emulator",
+        "cpp",
+        "vulkan"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49214863",
+      "title": "App Store Rejection of the Week: Dark Hours",
+      "url": "https://daringfireball.net/2026/08/app_store_rejection_of_the_week_dark_hours",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49214863",
+      "publishedAt": "2026-08-07T18:59:08Z",
+      "score": 199,
+      "comments": 93,
+      "snippet": "Daring Fireball: App Store Rejection of the Week: Dark Hours By John Gruber Archive The Talk Show Dithering Projects Contact Colophon Feeds / Social Twitter --> Sponsorship WorkOS — MCP vs. REST : the right way to connect agents to your API. App Store Rejection of the Week: Dark Hours Friday, 7 August 2026 Terry Godier, “ Browsers Have Standards, the App Store Has Judgment ”: A while ago I tried to submit an iOS app for Dark Hours , my astronomy website for normal people. It was rejected on the grounds that it was astrology. It has no tarot function, no horoscopes, and nothing that I, or anyone else I’ve asked, would associate with astrology. I penned a nice little rant two years ago expressing my fury over the way that kooks promoting astrology often try to insinuate that their voodoo pseudoscience is even vaguely related to the hard science of astronomy. And it really is an unfortunate fluke of the English language that two subjects with a contentious relationship are differentiated as words by two letters. Even if you know the difference between the two, and care, if you’re reading quickly your eyes might conflate one word with the other. But if you actually look at Godier’s Dark Hours , for even just a few seconds, it is instantly obvious that it pertains to the science of astronomy and has absolutely nothing — zero, zilch, nada — to do with astrology. So even if Apple’s App Store reviewer misread the submission’s description, and wrongly assumed it was yet another quack astrology app, if they launched it and spent just a few seconds poking around, they should have instantly recognized their incorrect assumption. But that’s not what happened. They rejected the app on the utterly incorrect grounds that it pertained to astrology. If this was an honest mistake from a reasonable judicial board, you’d expect the interaction with Godier, the developer, to have gone something like this: App Review: REJECTED : Astrology. Developer: No, it’s astroNoMy not astroLoGy. App Review: Oh, sorry! Carry on, APPROVED . But that’s not what happened at all. Godier proceeded through a series of escalations up to the App Review Board and the Review Board responded that they determined the original rejection was valid because, I shit you not, “We understand that the app includes a live tarot reading feature.” Which isn’t even about astrology. It’s straight out of Kafka. Dark Hours is not just merely un related to astrology (let alone tarot-card reading). It’s actually exquisitely well-designed and painstaking crafted. It’s exactly the sort of app that the App Store ought to celebrate and highlight. It doesn’t just belong in the category of astronomy apps in the App Store, it will raise the quality bar for astronomy apps in the App Store. iOS-exclusive, native Liquid Glass UI, smooth scrolling, beautiful typography and layout, and way more useful as a native mobile app than as a website. Go check out the website and I’m sure you’ll agree that it’s the sort of thing t",
+      "oneLineKo": "애플, 천문학 앱을 점성술로 오인해 반복 거부",
+      "summaryKo": "astronomy(천문학) 앱 Dark Hours가 Apple 심사에서 astrology(점성술)로 오인되어 반려되었다. 개발자가 명백한 오해임을 항의했음에도 App Review Board는 존재하지도 않는 '타로 기능'을 근거로 재차 거부를 확정했다. 저자 John Gruber는 이 사례를 App Store 심사 시스템의 비합리성과 불투명성을 보여주는 대표 사례로 비판한다.",
+      "tags": [
+        "app-store",
+        "ios",
+        "app-review"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32219",
+      "title": "tl;dv(Too Lazy; Didn't Validate): 회의 181,874건이 무방비로 노출",
+      "url": "https://news.hada.io/topic?id=32219",
+      "commentsUrl": "https://news.hada.io/topic?id=32219",
+      "publishedAt": "2026-08-07T09:05:13+09:00",
+      "snippet": "tl;dv(Too Lazy; Didn't Validate): 회의 181,874건이 무방비 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ tl;dv(Too Lazy; Didn't Validate): 회의 181,874건이 무방비로 노출 (bobdahacker.com) 1 P by GN⁺ 22시간전 | ★ favorite | 댓글 1개 AI 회의 기록 플랫폼 tl;dv 의 Firestore meetings 컬렉션에서 테넌트 격리가 빠져, 무료 계정으로 다른 사용자의 회의 메타데이터와 실시간 통화 ID를 조회할 수 있었음 레코드에는 생성자 이메일, Google Meet·Teams 회의 ID, 제공자, 녹화 상태, 시간이 담겼으며, 한 시점에 약 1,000건의 진행 중인 회의 에 무단 입장할 수 있었음 노출 범위는 회의 181,874건 , 사용자 84,312명, 이메일 도메인 35,003개에 달했고 23개국 정부기관과 대학, HubSpot·Confluent 등의 기업도 포함됨 영상과 대화록은 기본적으로 비공개였지만, 검사한 회의 ID 27,334개 중 1,000개 이상이 공개 상태 였으며 초대자 이메일 715개와 228개 도메인도 확인됨 취약점은 2026년 1월 28일 전달됐지만 CTO의 답변 없이 7월까지 남아 있었으며, Firestore 보안 규칙 적용과 별도 사내 앱의 무인증 API 차단이 필요함 tl;dv가 저장하는 데이터 tl;dv(Too Long; Didn't View) 는 Google Meet, Zoom, Teams 통화에 봇을 참여시켜 녹화·전사하고 AI 요약을 생성하는 플랫폼으로, 사용자가 200만 명 이상임 영업 통화, 채용 면접, 성과 평가, 내부 전략 회의처럼 민감한 업무 정보가 저장될 수 있음 Firestore 테넌트 격리 누락 로그인한 사용자의 JWT는 gw.tldv.io/v1/users/firebase/token 에서 Firebase 토큰으로 교환되며, 이 토큰으로 projects/lmi-store/databases/(default) 의 Firestore 를 조회할 수 있음 meetings 컬렉션에는 테넌트 격리 가 없어 인증된 사용자가 플랫폼 전체 계정의 회의를 조회할 수 있었음 각 레코드에서 다음 정보가 노출됨 회의 생성자의 이메일 주소 참여 가능한 Google Meet 또는 Teams 회의 ID 회의 제공자와 녹화 상태 관련 타임스탬프 상태가 recording 인 레코드의 회의 ID는 진행 중인 통화로 연결됐으며, 컬렉션을 실시간 감시하면 녹화 시작 직후 입장할 수 있었음 한 시점에 약 1,000개 회의 가 recording 상태였고, 자동화된 봇이라면 여러 통화에 동시에 참여할 수 있는 구조였음 실시간 회의 입장 검증 노출된 ID만으로 말레이시아 교육부 의 Google Meet에 입장했으며, 발표자와 157명 이상의 참가자, tl;dv 봇이 통화에 참여하고 있었음 미국 주요 대학 학생 21명이 스타트업 앱을 개발하는 회의에도 접근할 수 있었음 참가자들은 프로젝트 전체를 화면으로 공유하며 프로토타입을 논의함 .edu 이메일의 클라이언트 측 검증과 Supabase 설정 작업도 화면에 나타남 두 사례 모두 별도 초대 없이 Firestore에서 얻은 회의 ID만으로 입장한 개념 증명이었음 노출 규모와 포함 조직 meetings 컬렉션에는 회의 레코드 181,874개 , 고유 사용자 84,312명, 이메일 도메인 35,003개가 있었음 .gov 도메인을 기준으로 23개국 정부 회의가 포함됨 브라질, 콜롬비아, 페루, 우크라이나, 엘살바도르, 필리핀, 칠레, 인도네시아, 멕시코, 미국, 카타르, 말레이시아, 우즈베키스탄, 스리랑카, 아이티, 남아프리카공화국, 자메이카, 온두라스, 아르헨티나, 태국, 일본, 이스라엘, 벨리즈 대학 관련 도메인에는 Berkeley, University of Tokyo, De La Salle, Universidad Nacional de Colombia와 여러 .edu · .ac 기관이 포함됨 기업 도메인에서는 Mitsui-Soko 의 4개 지역 사무소 회의 484건을 비롯해 Mitsui Fudosan, HubSpot, Confluent, Mekari, AnyMind Group 등이 확인됨 회의가 가장 많았던 달은 2025년 7월 43,209건 이었고, 가장 붐빈 시간대는 수요일 오후 2시 UTC로 7,804건을 기록함 공개된 회의 콘텐츠와 이메일 tl;dv 회의의 영상과 대화록은 기본적으로 비공개지만, 수집한 회의 ID 27,334개를 검사한 결과 1,000개 이상이 공개 상태 였음 공개 데이터에서는 초대자 이메일 715개와 228개 도메인이 확인됨 접근 가능한 사례는 다음과 같음 WWF, The Nature Conservancy, Conservation International, WRI, São Paulo 주정부 관계자가 참여한 브라질 정부의 PACTO Mata Atlântica 보전 회의 우크라이나 디지털전환부 관련 회의 HubSpot 영업 통화 Universidad Nacional de Colombia 및 칠레 Cámara Verde 관련 세션 파스타 이름을 붙인 인프라 tl;dv의 서브도메인에는 파스타 이름을 딴 마이크로서비스 가 다수 있었음 cappellini , carbonara , fusilli , pasta , penne , puttanesca-v0 , ravioli 모두 tldv.io 아래에서 동작하는 Express 서버였음 World Cup Pick'em의 무인증 API 서브도메인 조사 과정에서 worldcup.tldv.io 의 tl;dv 직원용 FIFA World Cup 2026 예측 게임 World Cup Pick'em 이 발견됨 Base44로 제작된 앱의 내부 팀 이름은 Too Long; Didn't Score 였음 GET /api/entities/Player 는 세션 쿠키 없이 모든 선수 레코드를 반환했음 전체 선수 43명 이름과 회사 이",
+      "externalUrl": "https://bobdahacker.com/blog/tldv-hack",
+      "oneLineKo": "tl;dv 보안 취약점으로 회의 18만건 무단 노출",
+      "summaryKo": "AI 회의 기록 플랫폼 tl;dv의 Firestore meetings 컬렉션에 테넌트 격리가 없어 인증된 사용자라면 누구나 다른 계정의 회의 메타데이터와 실시간 회의 ID를 조회할 수 있었다. 노출 규모는 회의 181,874건, 사용자 84,312명, 이메일 도메인 35,003개에 달했으며 23개국 정부기관과 대학, HubSpot·Confluent 등 기업도 포함됐다. 공개된 회의 ID 중 1,000건 이상은 대화록·영상까지 노출됐고, 취약점은 2026년 1월 신고 후 7월까지 방치되었다.",
+      "tags": [
+        "security",
+        "data-breach",
+        "firestore"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49214098",
+      "title": "Assembly Hall of Shame",
+      "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49214098",
+      "publishedAt": "2026-08-07T18:01:30Z",
+      "score": 178,
+      "comments": 37,
+      "snippet": "GitHub - xoreaxeaxeax/asm-hall-of-shame: Racing to the bottom of CPU performance · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Type / to search Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} xoreaxeaxeax / asm-hall-of-shame Public Notifications You must be signed in to change notification settings Fork 2 Star 206 Code Issues 0 Pull requests 0 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights main Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit History 1 Commit 1 Commit artifacts artifacts clflush clflush cpuid cpuid denormal denormal enter enter fdiv fdiv fldl fldl fsin fsin fxrstor64 fxrstor64 fyl2x fyl2x idiv idiv in in lock_hammer_fxrstor64 lock_hammer_fxrstor64 lock_hammer_mmio lock_hammer_mmio mfence mfence mov mov mov_cr3 mov_cr3 mov_rax mov_rax nop nop nop16 nop16 out out rdmsr rdmsr rdrand rdrand rdseed rdseed rdtsc rdtsc split_lock split_lock split_lock_hammer split_lock_hammer tools tools vmovdqu32_zmm vmovdqu32_zmm vmovdqu_xmm vmovdq",
+      "oneLineKo": "CPU 성능 저하시키는 x86 명령어 모음 저장소",
+      "summaryKo": "xoreaxeaxeax의 GitHub 저장소 'asm-hall-of-shame'는 CPU 성능을 극도로 느리게 만드는 x86 어셈블리 명령어들을 모아놓은 프로젝트다. cpuid, rdtsc, mov_cr3, fxrstor64, split_lock, denormal 등 다양한 저성능 명령어 예제 코드를 폴더별로 정리해 제공한다. 각 폴더는 특정 명령어나 기법(예: split_lock_hammer, lock_hammer_mmio)의 성능 저하 사례를 담고 있는 것으로 보인다.",
+      "tags": [
+        "x86",
+        "assembly",
+        "cpu-performance"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49207236",
+      "title": "2027 memory capacity is reportedly sold out",
+      "url": "https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49207236",
+      "publishedAt": "2026-08-07T07:58:24Z",
+      "score": 170,
+      "comments": 148,
+      "snippet": "RAM Companies Have Already Sold Through Their Entire 2027 Manufacturing Capacity Focus Reset Skip to content IGN Daily Games Play today's daily game and challenge your knowledge Play now Home Search Reviews News Guides Interactive Maps IGN Daily Games Playlist Discover Store Rewards Videos Privacy Policy Terms of Use More Back To Top Home News All News Columns PlayStation Xbox Nintendo PC Mobile Movies Television Comics Tech Home Reviews All Reviews Editor's Choice Game Reviews Movie Reviews TV Show Reviews Tech Reviews Home Discover Battlefield 6 Season 4 Audible 2026 METRO 2039 Planet Pokemon Upcoming Games Upcoming Movies Upcoming TV Shows Preorders Kingdom Come Deliverance II Video Game Trailers Movie Trailers TV Trailers Best Tech for Gaming Universal Studios Hollywood Hub Discover Universal Orlando Resort Home Videos Original Shows Popular Trailers Gameplay All Videos Home Account Profile Login Settings Subscription Newsletters If you buy through our links, IGN may earn an affiliate commission. Learn more . Home › News › Steam Machine RAMageddon Continues Another Year as 2027 Memory Capacity Is Reportedly Sold Out 2028 isn't looking that much better, either. By Jacqueline Thomas Updated : Aug 5, 2026 9:08pm UTC 58 comments It feels like no matter where I look recently, there's more evidence that the RAM crisis isn't ending any time soon. Now, a new report suggests that all three memory manufacturers — Samsung, SK Hynix, and Micron — have collectively sold through their 2027 memory manufacturing capacity to, you guessed it, AI companies. According to a report from Digitimes and spotted by TweakTown , all DRAM and HBM capacity has been sold through for 2027, with no further supply planned. (The companies themselves have not yet confirmed this to be the case.) Of course, that only means that retail prices are going to go up even further in the near future. Has the RAM crisis stopped you from upgrading or buying a PC? Yes No, I just bought new RAM I wasn't planning on buying new memory anyways, I can wait. Answer See Results Selling through all the capacity for next year would be bad enough for consumers, but the problem is that most of the companies buying up this capacity have done so through long-term purchasing agreements, essentially pre-ordering memory that hasn't even been manufactured yet over a five-year term. Unless more capacity opens up somewhere in the next few years, it's hard to imagine that RAM will become more affordable and less scarce any time soon. It's not just memory that's affected. According to that Digitimes report, NAND storage is growing in demand too. Luckily, NAND capacity hasn't been completely absorbed, because there are more companies supplying the stuff. But it's not exactly hard to see that SSDs have been growing steadily more expensive over the last six months or so. Just look at the Western Digital SN7100, a pretty bog-standard PCIe 4 drive. According to Camelcamelcamel, it was about $110 in January for 1TB o",
+      "oneLineKo": "2027년 D램·HBM 생산량 이미 AI 기업들에 완판",
+      "summaryKo": "Digitimes 보도에 따르면 삼성전자, SK하이닉스, 마이크론의 2027년 DRAM 및 HBM 생산 capacity가 이미 AI 기업들과의 장기 구매 계약으로 모두 소진됐다. 이는 5년 단위 선구매 계약 형태로 이루어져, 추가 생산능력이 확보되지 않는 한 RAM 가격 상승과 공급 부족이 당분간 지속될 전망이다. NAND는 아직 완전히 소진되지 않았지만 수요 증가로 SSD 가격도 최근 꾸준히 오르고 있다.",
+      "tags": [
+        "dram",
+        "memory-shortage",
+        "hbm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49209385",
+      "title": "Show HN: Wyzer Programming Language",
+      "url": "https://github.com/Wyzer-Lang/wyzer",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49209385",
+      "publishedAt": "2026-08-07T12:28:55Z",
+      "score": 163,
+      "comments": 93,
+      "snippet": "So i&#x27;ve been working on this project since a few days (or months i should say), it&#x27;s called wyzer (meaning wiser) it&#x27;s a statically typed, compiled, resource-oriented programming language with integrated distributed safety via choreographic programming and perceus memory model, The reason why i began this project is out of frustration from Rust, you see it does provide safety for your memory by the strict type checking but what it does not gurantee safety against are distributed deadlocks which is basically a few independent nodes or services wait permanently for resources or messages held by each other, forming a circular wait, the rest are cross-service correctness and protocol mismatch as well. If we are specific over here Wyzer works on mainly generalizing the concept of choreographic programming in a high level programming language because its the very few attempts of actually solving these gaps of safety. Instead of borrow checkers and lifetimes wyzer has linear&#x2F;affine types and a perceus reference counting which is computationally much simpler for an LSP to understand as well<p>after 5 months of research and a few weeks of development i am soon going to release version 0.1.0 of it, if you would like to contribute to it you&#x27;re most welcome!",
+      "oneLineKo": "분산 안전성 갖춘 새 프로그래밍 언어 Wyzer 공개",
+      "summaryKo": "Wyzer는 정적 타입, 컴파일 방식의 리소스 지향 프로그래밍 언어로, choreographic programming과 Perceus 메모리 모델을 통합해 분산 데드락 문제까지 해결하려 한다. Rust의 borrow checker 대신 linear/affine 타입과 Perceus 참조 카운팅을 사용해 LSP 구현이 더 단순하다는 점을 강조한다. 5개월의 연구와 몇 주간의 개발을 거쳐 곧 v0.1.0을 출시할 예정이며, 기여자를 모집 중이다.",
+      "tags": [
+        "programming-language",
+        "rust",
+        "choreographic-programming"
+      ]
+    }
+  ]
+}
