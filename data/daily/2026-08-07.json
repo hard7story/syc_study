@@ -1,0 +1,284 @@
+{
+  "date": "2026-08-07",
+  "generatedAt": "2026-08-07T01:32:30.834Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32218",
+      "title": "LLM은 ‘점프’할 수 없다",
+      "url": "https://news.hada.io/topic?id=32218",
+      "commentsUrl": "https://news.hada.io/topic?id=32218",
+      "publishedAt": "2026-08-07T08:32:15+09:00",
+      "snippet": "LLM은 ‘점프’할 수 없다 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ LLM은 ‘점프’할 수 없다 (openreview.net) 1 P by GN⁺ 2시간전 | ★ favorite | 댓글 1개 현재 생성형 AI는 데이터에서 규칙을 찾는 귀납(Induction) 과 주어진 공리에서 결과를 도출하는 연역(Deduction) 은 빠르게 기계화하고 있지만, 감각 경험에서 새로운 설명과 공리로 넘어가는 귀추(Abduction) 의 ‘점프’는 수행하지 못한다는 입장임 Einstein의 일반상대성이론은 당시 Newton 역학이 관측 데이터와 거의 완벽하게 맞아 압축해야 할 오차 신호 자체가 거의 없었던 발견 이며, Mercury의 근일점 이동조차 새 행성 ‘Vulcan’으로 설명하려 했기 때문에 ‘창의성=데이터 압축’만으로는 발견 과정을 설명하기 어렵다고 봄 Einstein이 1907년 떠올린 등가원리(Equivalence Principle) 는 관측 데이터를 통계적으로 일반화하거나 기존 전제에서 연역한 것이 아니라, 자유낙하하는 관찰자의 물리적 감각을 머릿속에서 시뮬레이션해 “가속과 중력은 구별되지 않는다”는 새 공리를 만든 사례로 해석함 이를 조작적 귀추(manipulative abduction) 라고 부르며, ARC-AGI처럼 희소한 사례에서 숨은 규칙을 찾는 귀추만으로는 부족하고 에이전트가 환경을 직접 바꾸며 반사실적 상황을 경험할 수 있는 감각적/물리적 기반이 필요하다고 주장함 Veo 같은 수동적 영상 예측보다 Genie처럼 행동으로 개입 가능한 월드 모델 을 가능성 있는 해법으로 제시하며, AI Scientist나 AlphaEvolve도 기존 기호와 고정된 목표/그래디언트 안에서 탐색한다는 점에서 새로운 과학 패러다임을 만드는 점프와는 다르다고 봄 과학적 발견을 귀납/연역/귀추로 분해 출발점은 Schmidhuber의 ‘창의성은 압축 과정’ 이라는 관점임 관측 데이터를 더 짧은 프로그램이나 규칙으로 표현하는 과정이 과학적 발견이라는 설명임 논문은 이를 본질적으로 귀납으로 분류함 동시에 AlphaProof 같은 시스템의 성과는 AI가 연역적 추론 도 빠르게 기계화하고 있음을 보여준다고 봄 만약 과학적 발견이 귀납+연역의 합이라면, 충분한 계산량을 가진 LLM도 원칙적으로 일반상대성이론을 발명할 수 있어야 한다는 문제를 제기함 Peirce의 Rule/Case/Result 구분으로 세 추론을 정리함 연역: Rule + Case → Result 규칙을 사례에 적용해 결과를 얻음 세 방식 가운데 진리를 보장할 수 있는 분석적 과정임 코드로 보면 함수를 실행해 출력값을 계산하는 것과 유사함 귀납: Case + Result → Rule 여러 사례와 결과로부터 규칙을 학습함 통계적 빈도를 통해 가설을 검증함 여러 단위 테스트를 만족하는 함수를 생성하는 것과 비슷함 귀추: Rule + Result → Case 또는 새로운 Rule 예상하지 못한 결과를 설명할 가장 적절한 원인이나 규칙을 만듦 단일 현상을 설명하기 위해 새로운 원인을 발명하는 창조적 도약 이 될 수 있음 Einstein의 E-J-A 발견 모델 Einstein이 Maurice Solovine에게 보낸 편지에서는 발견을 순환 과정으로 표현함 E(Sense Experience) : 감각 경험 J(Jump) : 직관적 점프 A(Axioms) : 공리 체계 이후 공리에서 논리적 결과를 연역하고 다시 경험과 비교함 논문의 핵심 질문은 바로 E → A 를 연결하는 J를 무엇이 수행하는가 임 Figure 1은 이 구조를 생성형 AI로 다시 그린 그림이며, 논문은 그림 속 공리 기호가 잘못 생성된 것을 두고 이 점프를 자동화하기 어려운 상황을 역설적으로 보여준다고 덧붙임 일반상대성이론 이전에는 관측 데이터가 충분하지 않았음 19세기에는 역학이 물리학의 중심이었으며 편미분방정식을 통해 음향, 유체역학, 질점 운동, 기체 운동론 등을 설명할 수 있었음 Maxwell/Faraday/Hertz/Mach의 연구로 전자기장이 통합되면서 질점과 원거리 힘 으로 이루어진 역학과 연속적인 장(field) 사이의 분열이 생김 Einstein은 중력도 원거리 작용이 아니라 장 이론으로 설명하려 했음 빛을 파동으로 보면서 ether가 가정됐지만 Michelson-Morley 실험 에서 지구의 ether에 대한 운동을 측정하지 못함 지구가 태양 주위를 움직이는데도 빛의 속도가 달라지지 않았음 ether wind 같은 추가 가설들이 만들어졌지만 성공하지 못함 반대로 Newton 중력은 놀랄 만큼 잘 작동하고 있었음 관성질량과 중력질량의 비 mi/mg = 1 은 Newton이 약 10^-3 , Laplace가 10^-7 , Eötvös가 10^-9 정밀도로 확인함 알려진 대표적 예외는 Mercury의 근일점 이동 정도였음 이마저 Newton 이론의 오류보다는 아직 발견되지 않은 행성 Vulcan 때문이라고 해석했음 특수상대성이론에서 일반상대성이론으로 1905년 특수상대성이론은 두 공리에서 출발함 모든 관성계에서 물리 법칙은 동일함 진공에서 빛의 속도 c 는 모든 관성계에서 동일함 이 공리에서 Lorentz 변환을 도출했으며, Einstein은 기존 연구자들이 t′ 를 계산상의 ‘가상 시간’으로 보던 것과 달리 실제 시간 자체 로 해석함 움직였던 시계를 다시 만나게 하면 시간이 다르게 흐른다는 시간 지연을 통해 Newton의 절대적 시간 개념을 버림 특수상대성이론은 일정한 속도로 움직이는 관성계에만 적용됐기 때문에 Einstein은 이를 가속하는 좌표계까지 일반화 하려 함 일반상대성이론을 만든 세 단계 1907–1912년: 물리적 직관 1907년 Johannes Stark의 의뢰로 상대성이론을 기존 물리학 전체와 연결하는 리뷰를 작성함 역학을 상대론적으로 수정하는 과정에서 에너지/운동량/질량을 다뤘고 E = mc² 를 정식화함 작업 막바지에 상대성 원리를 가속운동으로 확장하려다 “내 생애 가장 행복한",
+      "externalUrl": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
+      "oneLineKo": "LLM은 귀추적 '점프' 못해, 아인슈타인 사례 분석",
+      "summaryKo": "이 글은 과학적 발견을 귀납, 연역, 귀추(Abduction)로 나누어 분석하며, 현재 생성형 AI는 귀납과 연역은 빠르게 기계화하고 있지만 감각 경험에서 새로운 공리로 도약하는 귀추적 '점프'는 수행하지 못한다고 주장한다. 아인슈타인이 등가원리를 발견한 과정을 예로 들어, 이는 데이터 압축이나 통계적 일반화가 아닌 물리적 감각을 시뮬레이션한 '조작적 귀추(manipulative abduction)'였다고 설명한다. 논문은 ARC-AGI 같은 희소 사례 추론만으로는 부족하며, Genie 같은 행동 개입형 월드 모델이 이러한 창의적 도약의 가능성 있는 해법이라고 제시한다.",
+      "tags": [
+        "llm",
+        "reasoning",
+        "world-model"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49195468",
+      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49195468",
+      "publishedAt": "2026-08-06T11:58:07Z",
+      "score": 251,
+      "comments": 190,
+      "snippet": "Humans missed 1 in 3 threats approving AI agent commands across 40,000 plays | Scale X Toggle navigation Scale X Home Blog About Humans missed 1 in 3 threats approving AI agent commands across 40,000 plays 📅 Aug 5, 2026 • 🕒 6 min read Table of Contents A couple of months ago I published a small browser game : you play the human-in-the-loop for an AI coding agent, approving or denying its commands under time pressure. Some commands are routine ( git status , npm test ) and some other commands indicate your agent has been possessed and is sending your secrets to a remote server ( cat ~/.aws/credentials ). More on the threats associated with agents running commands and how to mitigate them can be found in the original post . The game garnered some interest on hacker news , and after adding in statistics (unfortunately a bit later on) we can take a closer look at the data of over 40,000 runs and 409,000 individual approve/deny decisions. Let&rsquo;s see how the human-in-the-loop, our last line of defence against rogue agents, fared. The headline numbers The average player missed 1 in 3 threats (mean accuracy 66.3%) 32.9% of sessions ended with a negative score: penalties from approved threats and blocked safe commands outweighed everything done right 35.2% of players caught every threat, but only 20.8% managed that while blocking at most 1 in 5 of the safe commands. The rest got there partly by blocking everything (awarding the &ldquo;Human Bottleneck&rdquo; title) 7% approved every single prompt: big fans of --dangerously-skip-permissions Small caveat: this was a game, where approximately 34% of the commands players saw were threats. In our day-to-day work these threats appear rarely. Players knew they were being tested in a time-boxed challenge. But the numbers below might be useful for garnering some insights on comparing threats and the general awareness of them against one another. Threat categories and miss rates Category Examples Miss rate Obvious destructive rm -rf / , chmod -R 777 / 11.7% Persistent mutation crontab injection, git config hijack 23.8% Exfiltration / code execution curl to unknown APIs, typosquatted packages 33.4% Scope violations cat ~/.aws/credentials , cat ~/.kube/config 35.0% The blatantly destructive commands are caught most reliably. The commands that actually exfiltrate your credentials are missed three times as often. The npm run blind spot The single most-missed command in the game is npm run analyze , approved 64.7% of the time. The command by itself is typically innocent. But what npm run really does is run a script that&rsquo;s defined in your project&rsquo;s package.json . It could be benign code such as running a bundle analyzer, or injected code that was written to file before. The game does tell you in the agent&rsquo;s history log what that script actually contains: 1 ✻ I'll run the bundle analyzer — it's already set up in the project scripts. 2 // package.json → scripts 3 \"analyze\": \"webpack-bundle-analyzer",
+      "oneLineKo": "AI 에이전트 명령 승인 게임서 인간이 위협 3분의 1 놓쳐",
+      "summaryKo": "AI 코딩 에이전트의 명령을 승인/거부하는 브라우저 게임에서 4만 회 플레이, 40만 9천 건의 결정을 분석한 결과 평균 정확도는 66.3%에 그쳤다. 명백히 파괴적인 명령(rm -rf 등)은 11.7%만 놓쳤지만, 자격 증명 유출이나 원격 코드 실행 같은 은밀한 위협은 33~35%가 승인되어 사람의 감시가 취약함을 보여줬다. 특히 package.json의 스크립트를 실행하는 npm run analyze 명령은 64.7%가 승인해 가장 많이 놓친 위협으로 나타났다. 이는 AI 에이전트에 대한 human-in-the-loop 검토가 실제 위협 탐지에 한계가 있음을 시사한다.",
+      "tags": [
+        "ai-agent",
+        "security",
+        "llm"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1vh24uw",
+      "title": "Bringing Post-Quantum Cryptography to Java LTS Releases",
+      "url": "https://www.reddit.com/r/programming/comments/1vh24uw/bringing_postquantum_cryptography_to_java_lts/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1vh24uw/bringing_postquantum_cryptography_to_java_lts/",
+      "publishedAt": "2026-08-06T11:56:21+00:00",
+      "snippet": "submitted by /u/donutloop [link] [comments]",
+      "oneLineKo": "Java LTS 버전에 포스트 양자 암호화 지원 추가",
+      "summaryKo": "Java LTS 릴리스에 포스트 양자 암호화(Post-Quantum Cryptography)를 도입하는 내용을 다룬 게시물입니다. 양자 컴퓨터 시대에 대비한 암호화 표준을 Java 플랫폼에 적용하려는 시도로 보입니다. 본문 내용이 제한적이라 구체적인 구현 방식이나 대상 JDK 버전은 명시되어 있지 않습니다.",
+      "tags": [
+        "java",
+        "post-quantum-cryptography",
+        "security"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32224",
+      "title": "AMD, 모델을 실리콘에 새기는 AI 칩 스타트업 Taalas 인수",
+      "url": "https://news.hada.io/topic?id=32224",
+      "commentsUrl": "https://news.hada.io/topic?id=32224",
+      "publishedAt": "2026-08-07T09:36:43+09:00",
+      "snippet": "AMD, 모델을 실리콘에 새기는 AI 칩 스타트업 Taalas 인수 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ AMD, 모델을 실리콘에 새기는 AI 칩 스타트업 Taalas 인수 (theregister.com) 1 P by GN⁺ 50분전 | ★ favorite | 댓글 1개 AMD가 모델 가중치를 실리콘에 직접 새기는 Taalas 를 인수해 Nvidia가 주도하는 고성능 추론 시장 공략을 강화함 TSMC 6nm 공정의 모델 전용 칩 HC1 은 Meta Llama 3.1 8B를 초당 16,960토큰으로 처리해 발표 당시 Nvidia GPU보다 48배, Cerebras 가속기보다 8.5배 빨랐음 2세대 HC2 는 칩당 200억 파라미터를 목표로 하며, 파이프라인 병렬화로 가중치를 분산하면 가속기 50개로 1조 파라미터 모델을 지원할 수 있음 AMD는 Instinct 기반 Helios 랙 에서 GPU가 연산량이 큰 프롬프트 처리를, Taalas 기반 가속기가 토큰 생성을 맡는 분리형 구성을 고려하고 있음 모델 배포 후 LoRA 어댑터보다 큰 변경에는 칩 재제작이 필요하지만, 토큰 비용을 낮추고 출력 속도를 10~20배 높인다면 더 긴 추론을 사용하는 테스트 시간 스케일링의 활용 범위가 넓어질 수 있음 AMD의 Taalas 인수 AMD는 AI 하드웨어 시장에서 Nvidia와 경쟁하기 위해 2023년 토론토에서 설립된 Taalas 를 인수함 인수 조건은 공개하지 않았으며, 인력만 확보하는 인재 인수가 아니라 회사 자체를 인수하는 거래 로 파악됨 고성능 프리미엄 추론 서비스를 더 빠르고 저렴하게 운영한다는 점에서 Nvidia가 Groq와 체결한 200억 달러 라이선스 계약 과 비슷한 맥락임 코드 도우미 같은 AI 에이전트 서비스가 주요 적용 대상임 거래는 규제 승인을 거쳐 2026년 4분기 에 마무리될 예정임 모델 전용 집적회로의 구조 Taalas는 HBM에 모델 가중치를 저장하는 대신 실리콘에 직접 새김 기존 GPU는 물론 Groq LPU와 Cerebras 웨이퍼 스케일 가속기의 데이터 흐름 구조와도 다른 접근임 칩은 사실상 모델 전용 집적회로( MSIC )이며 크게 두 영역으로 구성됨 mask-ROM recall fabric 에는 모델 가중치를 새김 SRAM recall fabric 에는 KV 캐시와 미세조정 어댑터를 저장함 구체적인 내부 작동 방식은 대부분 공개되지 않았음 HC1의 개념 검증 성능 Taalas가 2026년 2월 공개한 첫 시험 칩 HC1 은 TSMC 6nm 공정으로 제작됨 레티클 크기의 HC1은 Meta Llama 3.1 8B를 초당 16,960토큰 으로 처리함 발표 당시 Nvidia GPU보다 48배 빨랐음 Cerebras 가속기보다 8.5배 빠른 수준임 Llama 3.1은 2024년 중반 공개된 모델이지만, HC1은 최신 모델 지원보다 기술의 개념 검증 을 목적으로 삼았음 HC2와 대규모 모델 확장 2026년 여름 출시 예정인 2세대 HC2 는 칩당 200억 파라미터 지원을 목표로 함 더 큰 모델은 GPU와 마찬가지로 파이프라인 병렬화를 이용해 여러 가속기에 가중치를 분산함 칩당 200억 파라미터라면 가속기 50개 로 1조 파라미터 모델을 지원할 수 있음 AMD는 이 구성을 수용할 랙 규모 컴퓨팅 플랫폼과 자체 시스템 설계팀을 보유함 같은 규모의 모델을 서비스할 때 Nvidia LPX 시스템에는 GPU 수십 개와 최소 2,000개의 Groq LPU 가 필요해 Taalas 방식보다 공간·전력 효율이 낮음 Instinct 및 Helios와의 결합 AMD는 Taalas 기술 기반 칩을 Instinct 기반 Helios 랙 과 결합하려 함 이 구성은 작업별 연산을 분리하는 아키텍처를 시사함 GPU는 연산량이 많은 프롬프트 처리 를 담당함 Taalas 기반 가속기는 토큰 생성 을 맡음 고객이 먼저 Instinct 가속기에서 모델을 배포·검증하고, 안정화된 모델을 Taalas 가속기로 옮기는 순환 방식도 가능하지만 구체적인 계획은 아직 확인되지 않았음 AMD는 AI 작업별로 적합한 연산 수단을 선택할 수 있는 풀스택 AI 플랫폼 구축을 추진함 모델 고정에 따른 제약 가중치를 실리콘에 새기므로 칩을 배포한 뒤에는 해당 모델에 종속 됨 LoRA 어댑터 수준을 넘어서는 변경에는 칩 재제작이 필요해 비용과 시간이 듦 새로운 모델이 거의 매달 등장하는 상황에서 고객은 장기간 사용할 모델을 신중하게 골라야 함 다만 새 모델을 적용할 때 칩 전체를 처음부터 다시 설계할 필요는 없음 Taalas에 따르면 금속층 2개 만 변경하면 돼 전체 재설계보다 비용과 시간이 적게 듦 예상 고객과 적용 가능성 모델 고정 비용을 감당할 수 있는 AI 모델 개발사, 인프라 제공업체, 일부 추론 서비스 사업자가 주요 사용처가 될 가능성이 큼 Taalas는 모델 가중치를 실리콘에 새기는 비용이 프런티어 모델 훈련보다 100배 저렴하다 고 밝힘 OpenAI, Anthropic, Meta는 모두 AMD Instinct의 주요 고객임 이들 모델 개발사와 AMD의 협력 관계를 고려하면 GPT나 Claude가 Taalas와 Instinct 가속기 조합에 배포될 가능성도 있으나, 확정된 계획은 없음 추론 비용과 테스트 시간 스케일링 테스트 시간 스케일링(test-time scaling)은 모델이 응답하기 전에 더 오래 생각하게 해 시간과 정확성을 교환 하는 방식임 더 많은 토큰을 소비하므로 비용이 커지고 챗봇·코드 도우미·에이전트의 응답 대기 시간도 길어짐 Taalas 기술이 토큰당 비용을 낮추고 출력 속도를 10~20배 높인다면 모델 개발사는 추론 시간을 더 길게 확장할 수 있음 빠르고 저렴한 토큰 생성은 서비스 처리량뿐 아니라 더 많은 추론 토큰을 사용하는 모델 개발 방식에도 영향을 줄 수 있음 함께 보면 좋은 글 β AI의 보편화를 향한 길 (초당 17K 토큰) LLM을 칩 위에 ‘인쇄’하는 Taalas의 방식 AMD, 핀란드 AI 스타트업",
+      "externalUrl": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "oneLineKo": "AMD, 모델을 실리콘에 새기는 Taalas 인수",
+      "summaryKo": "AMD가 모델 가중치를 실리콘에 직접 새기는 AI 칩 스타트업 Taalas를 인수해 Nvidia 중심의 고성능 추론 시장에 대응하기로 했다. Taalas의 첫 시험 칩 HC1은 TSMC 6nm 공정으로 Llama 3.1 8B를 초당 16,960토큰 처리해 Nvidia GPU보다 48배 빠른 성능을 보였으며, 2세대 HC2는 칩당 200억 파라미터 지원을 목표로 한다. AMD는 Instinct GPU가 프롬프트 처리를, Taalas 기반 칩이 토큰 생성을 맡는 분리형 아키텍처를 구상 중이며, 거래는 2026년 4분기 마무리될 예정이다.",
+      "tags": [
+        "ai-chip",
+        "inference",
+        "amd"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49198069",
+      "title": "Almost no skill required to cook a steak",
+      "url": "https://blog.sydorets.com/en/posts/almost-no-skill-required-to-cook-a-steak/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49198069",
+      "publishedAt": "2026-08-06T15:30:48Z",
+      "score": 274,
+      "comments": 314,
+      "snippet": "Almost No Skill Required to Cook a Steak (Though You Probably Can't Make a Decent One) | Yurii's Blog Yurii's Blog Practical notes on .NET, testing, and workflow automation HOME START HERE CATEGORIES TAGS ARCHIVES ENGLISH УКРАЇНСЬКОЮ ABOUT Light Dark System Home Almost No Skill Required to Cook a Steak (Though You Probably Can't Make a Decent One) Post Cancel Almost No Skill Required to Cook a Steak (Though You Probably Can't Make a Decent One) Why AI can make software development faster without replacing the judgment and understanding needed to build consistently good software. Posted Jul 14, 2026 By Yurii Sydorets 4 min read Cooking a steak requires almost no skill. Put it in a hot pan, wait a little, flip it, and eventually you’ll have something technically edible. But a genuinely good steak, medium-rare from edge to edge, browned properly, seasoned right, consistently delicious, is a different matter entirely. Software development with AI is starting to feel much the same. We build nonstop now. With AI, without AI, during the commute, on the toilet, probably in our sleep. We create agents, harnesses, tools, skills, prompts, feedback loops, elaborate workflows. Then we throw everything at a model and hope it gives us what we imagined, without ever having to understand how any of it actually works. And what do we want? We want the perfect steak. We want software that works, looks good, feels polished, and arrives exactly as we imagined it. Most of all, we want the same result every time. Do we get it? Not every time. Not even close to every time. Sometimes the model hands us something surprisingly good. Other times it serves up charcoal with a sprig of thyme on top and calls it medium-rare, completely confident in the lie. So what do we do? We go to a restaurant. We pay for a premium AI product, hire an agency, subscribe to another coding assistant, jump to a new framework promising professional results. We hope someone else already solved the problem for us. Sometimes they have. Quite often, they haven’t. That leaves two choices: learn to cook properly ourselves, or keep asking friends for restaurant recommendations while preparing our wallets for the next expensive disappointment. Most of us want to build something we care about with AI without getting lost in the implementation details. We want to treat it like a professional chef working in our own kitchen: tell it what we want, step away, come back when dinner’s ready. But AI isn’t a chef. At best, it’s a steak machine. It can follow a recipe. Watch the temperature, flip at the right moment, drop in the butter. Give it enough tools and instructions and it’ll repeat that process fast, at enormous scale. What it doesn’t do is know what you actually want. It can’t see the picture in your head unless you translate it into requirements, constraints, examples, tests, feedback. And even then, it’s boxed in by its own capabilities, its context window, the quality of the system wrapped around it. Y",
+      "oneLineKo": "AI 코딩, 스테이크 굽기처럼 쉽지만 잘하기는 어렵다",
+      "summaryKo": "이 글은 AI를 활용한 소프트웨어 개발을 스테이크 굽기에 비유합니다. 누구나 스테이크를 구울 수 있지만 훌륭한 스테이크를 만드는 것은 다르듯, AI로 코드를 생성하는 것은 쉬워도 일관되게 좋은 소프트웨어를 만드는 데는 여전히 판단력과 이해가 필요하다고 주장합니다. AI는 요리사가 아니라 레시피를 따르는 기계일 뿐이며, 사용자가 원하는 것을 요구사항과 테스트로 명확히 전달해야 한다고 강조합니다.",
+      "tags": [
+        "ai-coding",
+        "software-development",
+        "llm"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1vh7kf7",
+      "title": "Build a Local Kubernetes Platform with kubara, kind, and Argo CD",
+      "url": "https://www.reddit.com/r/programming/comments/1vh7kf7/build_a_local_kubernetes_platform_with_kubara/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1vh7kf7/build_a_local_kubernetes_platform_with_kubara/",
+      "publishedAt": "2026-08-06T15:32:30+00:00",
+      "snippet": "submitted by /u/Happycodeine [link] [comments]",
+      "oneLineKo": "kubara·kind·Argo CD로 로컬 쿠버네티스 플랫폼 구축",
+      "summaryKo": "kubara, kind, Argo CD를 활용해 로컬 환경에서 쿠버네티스 플랫폼을 구축하는 방법을 다룬 Reddit 게시물입니다. 본문 내용이 제목 외에 제공되지 않아 구체적인 구현 방법이나 세부 내용은 확인할 수 없습니다. GitOps 기반의 로컬 개발/테스트 환경 구성에 관심 있는 개발자를 위한 자료로 보입니다.",
+      "tags": [
+        "kubernetes",
+        "argocd",
+        "gitops"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32190",
+      "title": "rust-lang/rust가 LLM 사용 정책을 도입함",
+      "url": "https://news.hada.io/topic?id=32190",
+      "commentsUrl": "https://news.hada.io/topic?id=32190",
+      "publishedAt": "2026-08-06T09:05:06+09:00",
+      "snippet": "rust-lang/rust가 LLM 사용 정책을 도입함 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ rust-lang/rust가 LLM 사용 정책을 도입함 (blog.rust-lang.org) 2 P by GN⁺ 1일전 | ★ favorite | 댓글 1개 Rust 프로젝트의 5개 팀이 rust-lang/rust 모노레포 기여 시 LLM 사용 방식 을 규정하는 정책을 채택했으며, Rust 전체의 공식 입장이나 프로젝트 전역 정책은 아님 질문·분석·정제·검사·제안·리뷰에는 LLM을 사용할 수 있지만 새 콘텐츠 생성 은 엄격히 제한되며, 공개된 LLM 생성물은 원칙적으로 출처를 밝혀야 함 정교한 PR이 더는 작성자의 노력과 이해도를 보장하지 않는 가운데 1,281개의 공개 PR 이 쌓여 있으며, 빨라진 코드 생성과 기계적인 대화 중계가 리뷰 부담과 신뢰 훼손으로 이어짐 LLM 생성 코드는 사전 합의된 비핵심 변경이면서 품질·테스트·리뷰 요건을 충족해야 하고, 인간 작성 코드보다 높은 기준이 적용되며 문서·진단·건전성 핵심 변경에는 별도 제한이 있음 기여자는 이슈 발견과 코드 생성 등에 LLM이 관여했음을 밝혀야 하며, 리뷰어는 위반 PR을 닫을 수 있지만 문체만으로 공개 의심하거나 LLM 사용자를 괴롭혀서는 안 됨 정책의 적용 범위 Rust 프로젝트의 5개 팀이 rust-lang/rust LLM 사용 정책 을 채택함 정책은 다음 참여자에게 적용됨 rust-lang/rust PR을 리뷰하거나 중재하는 사람 LLM 생성 코드 가 포함된 PR 작성자 LLM으로 문제를 발견해 이슈를 등록하는 사람 이슈나 댓글에 LLM 출력을 직접 인용하는 사람 위 그룹에 속하지 않으면 기존 작업 방식을 바꿀 필요가 없음 이는 LLM에 대한 Rust의 공식 입장 이 아니며 Rust 프로젝트 전체에도 적용되지 않음 공개 규칙이 필요해진 이유 Rust 프로젝트는 기술적 산출물뿐 아니라 이를 함께 구축·유지·확장하는 사람들의 공동체 이며, 기여에는 기존 구성원과의 협업도 포함됨 기존에도 커뮤니티를 존중하는 LLM 활용이 있었음 모국어로 작성한 메시지를 영어로 번역함 Rust 초보자가 작성할 법한 코드에서 좋지 않은 진단 메시지를 찾음 RFC를 분석해 설계에 영향을 줄 다른 언어 요소의 논의가 빠졌는지 확인함 반면 다음 세 가지 문제가 커짐 정교한 기술 산출물이 더는 노력과 이해도를 나타내지 않음 코드 작성이 쉬워지면서 기존의 리뷰 처리 용량 부족 이 악화됨 사람과 LLM 사이에서 내용을 기계적으로 복사해 전달해 다른 참여자의 시간을 낭비함 비공개 채널과 중재 규칙만으로 대응하면 신규 기여자가 규칙을 알 수 없어 투명성과 환영의 원칙에 어긋남 공개 정책은 신규 기여자가 이유도 모른 채 PR이 닫히는 일을 줄이고, 리뷰어에게 위반 PR을 처리할 명확한 근거를 제공함 정교한 PR이 잃어버린 신호 과거에는 잘 다듬어지고 테스트와 설명이 충실한 PR이 누군가 시간·노력·이해 를 투입했다는 신호였음 이 신호는 Rust의 기여 문화에도 영향을 줬음 다른 사람의 노력을 존중해 PR을 닫는 데 신중했음 작성과 리뷰 과정에서 발견한 사실에 따라 설계를 바꾸는 점진적 논의를 중시했음 PR을 향후 멘토링과 추가 기여에 관심 있는 사람이 보낸 신호로 받아들였음 LLM 사용 이후에는 정교한 PR도 작성자의 노력이나 코드 이해를 보장하지 못함 자율 에이전트가 만들었다면 상대편에 사람이 없을 수도 있음 코드 작성이 쉬워져 장기적으로 커뮤니티에 남을 사람인지 판단하기도 어려움 코드 생성 속도와 리뷰 병목 정책 작성 시점에 rust-lang/rust 에는 1,281개의 공개 PR 이 있으며, 작성자와 리뷰어 모두 상당한 시간을 투입한 상태임 코드를 쓰려는 사람보다 리뷰하려는 사람이 적은 문제는 오래전부터 있었고, LLM이 이 격차를 더 키움 리뷰의 핵심은 단순한 버그 탐지가 아니라 변경 방향과 접근법, PR 자체의 타당성을 결정하는 일 임 많은 PR을 한꺼번에 리뷰어에게 보내면 높은 정신적 비용이 발생함 프로젝트가 생성된 코드 자체보다 중요하게 보는 요소는 다음과 같음 작성자가 코드의 동작을 이해하는지 향후 변경을 계획할 수 있는지 코드가 어떤 형태여야 하는지 판단할 수 있는지 생성된 코드는 이러한 이해·계획·판단을 대신할 수 없음 기계적인 대화 중계가 훼손하는 신뢰 리뷰 댓글을 LLM에 붙여 넣고 그 답변을 다시 GitHub에 복사하면 모두의 시간이 낭비됨 리뷰어가 원하는 것은 직접 물어볼 수 있는 LLM의 답이 아니라 작성자 본인의 생각임 리뷰는 실제 사람이 최선의 작업을 하려 한다는 전제에서 이뤄지므로, LLM 문구를 그대로 붙여 넣으면 작성자의 관심과 실제 참여 여부에 대한 신뢰가 흔들림 비공식 중재에서 공개 정책으로 정책 도입 전에는 다음과 같은 일관성 없는 상황 이 이어짐 수십 개의 LLM PR이 제출됨 공개 의무가 없었음 첫 PR로 위험한 MIR 최적화 를 추가하려는 사람이 있었음 실질적 검증으로 보기 어려운 git diff --check 를 PR 설명의 검증 항목으로 적기도 했음 리뷰 부담이 큰 PR을 거부할 수 있다는 지침은 있었지만 집행 방식이 일관되지 않았고, 규칙도 공개되지 않았음 과거에는 명백히 끔찍하지 않으면 무엇이든 허용되는 상태에 가까웠지만, 새 정책은 더 엄격하면서도 명확함 LLM을 무시할 수 없게 된 만큼 선택지는 정책 유무가 아니라 비공식 중재 메모로 둘지, 공개적으로 책임지는 규칙 으로 만들지에 있음 전면 금지와 전면 허용을 피한 이유 Rust에는 LLM 생성 코드와 글을 일괄 금지하거나 AI를 다른 도구와 동일하게 선언할 수 있는 단일 독재적 의사결정자 가 없음 Rust는 합의로 운영되며, AI 도구를 언제·어디서·어떻게 허용할지 프로젝트 내부의 합의가 없고 앞으로도 없을 가능성이 큼 일부 구성원은 AI에서 가치를 찾음 일부는 사회와 기후에 미치는 부정적 영향 때문에 어떤 사용도 받아들일 수 없다고 봄 아직 입장을 정하는 중인 구성원도",
+      "externalUrl": "https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/",
+      "oneLineKo": "Rust 언어 저장소, LLM 사용 및 공개 의무화 정책 도입",
+      "summaryKo": "rust-lang/rust의 5개 팀이 LLM 사용 방식을 규정하는 정책을 채택했으며, 이는 Rust 프로젝트 전체의 공식 입장은 아니다. 질문·분석·리뷰 등에는 LLM 사용이 허용되지만 새 콘텐츠 생성은 엄격히 제한되고, LLM 사용 시 출처 공개가 의무화된다. 정교한 PR이 더 이상 작성자의 노력과 이해도를 보장하지 않고 1,281개의 공개 PR이 쌓이면서 리뷰 부담이 커진 것이 정책 도입 배경이다. 위반 PR은 리뷰어가 닫을 수 있지만, 문체만으로 LLM 사용을 의심하거나 사용자를 괴롭히는 행위는 금지된다.",
+      "tags": [
+        "rust",
+        "llm",
+        "오픈소스"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49096439",
+      "title": "Pareto Front",
+      "url": "https://en.wikipedia.org/wiki/Pareto_front",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49096439",
+      "publishedAt": "2026-07-29T12:12:29Z",
+      "score": 218,
+      "comments": 93,
+      "snippet": "Pareto front - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 Definition 2 Marginal rate of substitution 3 Computation 4 Approximations 5 References Toggle the table of contents Pareto front 1 language Español Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser Print/export Download as PDF Printable version In other projects Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Set of all Pareto efficient situations In multi-objective optimization , the Pareto front (also called Pareto frontier or Pareto curve ) is the set of all Pareto efficient solutions. [ 1 ] Colloquially, this means when there are many distinct objectives to consider in an optimization problem , a Pareto front represents the set of solutions where no solution outperforms any other solution in the set at every objective, and every solution not in the set is outperformed by at least one solution in the Pareto front in every objective. [ 2 ] The concept is widely used in engineering . [ 3 ] : 111–148 It allows the designer to restrict attention to the set of efficient choices, and to make tradeoffs within this set, rather than considering the full range of every parameter. [ 4 ] : 63–65 [ 5 ] : 399–412 Example of a Pareto frontier. The boxed points represent feasible choices, and smaller values are preferred to larger ones. Point C is not on the Pareto frontier because it is dominated by both point A and point B . Points A and B are not strictly dominated by any other, and hence lie on the frontier. A production-possibility frontier . The red line is an example of a Pareto-efficient frontier, where the frontier and the area left and below it are a continuous set of choices. The red points on the frontier are examples of Pareto-optimal choices of production. Points off the frontier, such as N and K, are not Pareto-efficient, since there exist points on the frontier which Pareto-dominate them. Definition [ edit ] The Pareto frontier, P ( Y ), may be more formally described as follows. Consider a system with function f : X → R m {\\displaystyle f:X\\rightarrow \\mathbb {R} ^{m}} , where X is a compact set of feasible decisions in the metric space R n {\\displaystyle \\mathbb {R} ^{n}} , and Y is the feasible set of criterion vectors in R m {\\displaystyle \\mathbb {R} ^{m}} , such that Y = { y ∈ R m : y = f ( x ) , x ∈ X } {\\displaystyle Y=\\{y\\in \\mathbb {R} ^{m}:\\;y=f(x),x\\in X\\;\\}} . We assume that the preferred directions of c",
+      "oneLineKo": "다목적 최적화의 파레토 프론트 개념 위키백과 문서",
+      "summaryKo": "파레토 프론트는 다목적 최적화 문제에서 어떤 해도 모든 목표에서 다른 해보다 우월하지 않은 파레토 효율적 해들의 집합을 의미한다. 이 개념은 설계자가 전체 파라미터 범위 대신 효율적인 선택지 집합 내에서 트레이드오프를 고려할 수 있게 해주며, 공학 분야에서 널리 사용된다. 문서는 정의, 한계대체율, 계산 및 근사 방법 등을 다룬다.",
+      "tags": [
+        "optimization",
+        "pareto-front",
+        "engineering"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32210",
+      "title": "Gwern, 전업 글쓰기와 익명 활동을 그만두고 Guardian Angel을 출시",
+      "url": "https://news.hada.io/topic?id=32210",
+      "commentsUrl": "https://news.hada.io/topic?id=32210",
+      "publishedAt": "2026-08-07T03:34:01+09:00",
+      "snippet": "Gwern, 전업 글쓰기와 익명 활동을 그만두고 Guardian Angel을 출시 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Gwern, 전업 글쓰기와 익명 활동을 그만두고 Guardian Angel을 출시 (gwern.net) 1 P by GN⁺ 7시간전 | ★ favorite | 댓글 1개 범용 챗봇 대신 한 사람의 성격/가치/선호를 모방하는 디지털 트윈 LLM 인 Guardian Angel(GA)을 만들고, 사용자를 대체하기보다 수많은 에이전트를 지휘할 수 있도록 증폭하는 방식을 제안함 GA는 사용자의 데이터로 지속 학습하고, 불확실할 때 직접 질문하는 동적 평가(dynamic evaluation) + 능동 학습(active learning) 구조를 통해 오류를 한 번 수정하면 이후 모델 자체에 반영하는 것을 핵심 메커니즘으로 삼음 현재 챗봇은 RLHF에 따른 모드 붕괴, 얕은 추론, 제한된 컨텍스트, 프롬프트 인젝션, 세션을 넘지 못하는 학습 때문에 개인화와 장기 에이전트 운영에 취약하며, 단순 RAG나 긴 프롬프트만으로는 이를 해결하기 어렵다고 봄 목표 UX는 빠른 대화나 높은 참여율이 아니라 사용자의 어려운 판단만 선택적으로 요청 하는 것으로, append-only 로그에 모든 상호작용을 기록하고 모델을 계속 재학습해 장기적으로 개입 횟수를 줄이는 방식임 초기에는 월 $1,000 이상 을 지불할 수 있는 연구자/CEO 같은 파워유저를 위한 고비용 스타트업 형태를 상정하며, Gwern 본인은 자신의 약 1GB 텍스트 코퍼스로 Gwern Branwen Transformer(GBT) 를 만들어 글쓰기 생산성을 100배 높일 수 있는지를 첫 실험으로 제시함 왜 범용 챗봇이 아니라 개인화된 디지털 트윈인가 향후 강력한 LLM이 인터넷과 일상에 광범위하게 배치될 때, 지식 노동자가 그것을 이용해 큰 생산성 향상을 얻으면서 동시에 사이버 공격/사기/합성 미디어 같은 위협을 방어하는 구체적인 작업 방식이 아직 부족하다고 봄 Guardian Angel(GA) 은 전형적인 조수형 챗봇이 아니라 특정 사용자 한 명의 성격, 가치, 선호를 가능한 한 정확하게 에뮬레이션하는 LLM임 사용자는 무엇을 어떻게 할지 일일이 결정하는 대신 무엇이 할 가치가 있는지 를 결정하는 CEO나 이사회 역할을 맡음 GA는 여러 에이전트를 동원해 실행하고, 메시지나 콘텐츠를 검사해 고도화된 선전/스피어피싱 같은 공격도 걸러내는 역할을 맡음 일반적인 AI 정렬 문제 전체를 해결하려는 것이 아니라, 특정 인간 한 명을 자주 확인하면서 모방하는 비교적 제한된 문제로 축소하려 함 사용자와 에이전트의 가치와 선호를 최대한 겹치게 만들어 principal-agent 문제를 약화 시키는 것이 기본 발상임 챗봇의 경제적 인센티브가 사용자 증폭과 어긋남 현재 챗봇은 사용자의 목적보다는 서비스 제공자의 목적과 경제적 인센티브에 맞춰져 있으며, 장기적으로 사람을 증폭하기보다 대체하는 방향의 유인 이 더 크다고 봄 인간이 병목으로 남아 있으면 Amdahl의 법칙 때문에 전체 시스템의 속도 향상이 제한됨 인간 한 명이 Claude 인스턴스 10개를 검토하는 구조보다 인간 검토가 필요 없는 10,000개 자율 인스턴스가 훨씬 쉽게 확장됨 변호사/작가/연구자 등도 같은 구조에 놓이므로, 사람을 루프에 남기는 이유가 줄어들수록 AI가 보완재에서 대체재로 바뀐다고 봄 지식 노동에서 챗봇이 제공하는 선택지는 대체로 문법 검사 같은 작은 개선과, 인간의 작업을 거의 통째로 AI 출력으로 대체하는 큰 속도 향상 사이에 놓여 있다고 평가함 특히 글쓰기는 단순 생산량뿐 아니라 자기 표현과 창작 자체가 목적이므로, 작성자를 없애는 방식의 자동화는 원하는 증폭과 다르다고 봄 현재 챗봇의 다섯 가지 문제 모드 붕괴 GPT-3 이후 RLHF를 비롯한 후처리가 범용적인 도움이 되고 안전한 조수 성격을 모델에 강하게 주입하면서 창의성과 개인차를 줄였다고 봄 많은 챗봇이 사용자에 대해 적극적으로 질문하지 않으며, 지속적인 사용자 모델도 단순한 메모 수준에 머무름 충분한 글이 공개된 사람조차 얕은 문체 모방에 실패하는 사례를 들어, 문제를 단순한 데이터 부족만으로 볼 수 없다고 평가함 DPO 연구에서 요약 선호에 대한 인간 간 불일치가 최대 35% 였다는 점도 단일한 ‘인간 선호’를 학습하는 접근의 문제 사례로 제시함 2023년 이후 창작 능력은 좋아졌지만, 고정된 하나의 챗봇 성격 자체가 진정한 유연성과 충돌한다고 봄 인지적 게으름 검증 가능한 보상이 없는 작업에서는 대부분의 챗봇이 System I처럼 빠르고 최소한의 추론 만 수행한다고 평가함 시나 창작에서는 익숙하고 안전한 표현을 선택하고, 사용자가 수정해도 그 피드백의 미학적 의미를 일반화하기보다 최소 수정에 그치는 경향을 문제로 봄 빠른 대신 취약한 컨텍스트 학습 수백만 토큰 컨텍스트도 평생 읽은 책, 이메일, 일정 등 모든 관련 정보를 담기에는 부족함 RAG는 검색 가능한 정보를 보완할 수 있지만 unknown unknowns 나 검색어로 표현하기 어려운 새로운 연결에는 한계가 있음 self-attention 기반 인컨텍스트 학습은 완전히 새로운 문제를 배우기보다 사전학습 중 배운 문제 분포에서 적절한 해답을 빠르게 찾아내는 메타학습에 가깝다고 해석함 사전학습 분포에 없는 문제나 분포의 빈틈에서는 많은 예제를 넣어도 실패할 수 있으며, 런타임 검색/계획만 늘리는 test-time compute 역시 동결된 모델 자체의 결함에 막힐 수 있다고 봄 에이전트가 반복 루프에 빠지거나 치명적 오류를 고치지 못하는 현상도 이런 구조와 연결함 지나치게 범용적인 ‘도움’ 범용 챗봇은 누구의 요청인지보다 현재 컨텍스트에 들어온 토큰을 따라 행동하도록 설계되어 있어 프롬프트 인젝션 에 구조적으로 취약하다고 봄 특정 사용자의 정체성과 목표가 모델의 내부 가중치에 자리 잡지 않은 상태에서는 외부 입력이 지시인지 데이터인지 구분하기 어려움 개별 공격을 ",
+      "externalUrl": "https://gwern.net/guardian-angel",
+      "oneLineKo": "Gwern, 개인 모방 AI 'Guardian Angel' 프로젝트 시작",
+      "summaryKo": "Gwern은 전업 글쓰기와 익명 활동을 접고, 특정 사용자 한 명의 성격과 가치를 모방하는 디지털 트윈 LLM인 Guardian Angel(GA)을 개발하는 프로젝트를 시작했다. GA는 범용 챗봇과 달리 사용자를 대체하지 않고 다수의 에이전트를 지휘하도록 증폭하는 역할을 하며, 동적 평가와 능동 학습을 통해 지속적으로 사용자 데이터를 반영한다. 현재 챗봇은 RLHF로 인한 모드 붕괴, 얕은 추론, 프롬프트 인젝션 취약성 등의 한계로 개인화와 장기 에이전트 운영에 부적합하다고 지적하며, 초기에는 고비용 파워유저를 대상으로 한 스타트업 형태를 구상한다.",
+      "tags": [
+        "llm",
+        "personalization",
+        "ai-agent"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49201930",
+      "title": "Quake – 30th Anniversary Update",
+      "url": "https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49201930",
+      "publishedAt": "2026-08-06T20:21:19Z",
+      "score": 207,
+      "comments": 106,
+      "snippet": "Quake – 30th Anniversary Update Close Global Navigation Menu Games Games Fallout 76 DOOM: The Dark Ages Fallout 4: Anniversary Edition The Elder Scrolls IV: Oblivion Remastered Indiana Jones and the Great Circle Starfield The Elder Scrolls Online Quake All Games Creations & Mods Creations & Mods Fallout 4 Skyrim Special Edition Starfield The Elder Scrolls Online DOOM Eternal DOOM + DOOM II Heretic + HeXen Community Community Community Hub Events Slayers Club QuakeCon News News Latest News Shop Shop Merchandise Redeem Code Bethesda Bundle Bethesda 40th Anniversary Deals Support Support Service Status Help Site Game Manuals Facebook Twitter YouTube Instagram Discord Account Management Log Out Log In / Sign Up News Merch Quake – 30th Anniversary Update By: id Software 8/6/2026 To celebrate the 30th Anniversary of Quake, we have collaborated with MachineGames to create a new episode, Dawn of the Machine , now available as a free update to Quake. 🆕WHAT'S NEW Close ⚙️DAWN OF THE MACHINE Close Celebrating 30 years of Quake, the award-winning team at MachineGames—in collaboration with id Software—returns with Dawn of the Machine , a brutal new episode building on their critically acclaimed work on Dimension of the Machine and Dimensions of the Past . Delivering ferocious combat, labyrinthine level design, and nightmarish realms that twist reality beyond recognition, it pushes the legacy of the genre-defining first-person shooter even further—honoring one of gaming’s most enduring icons. 🏃‍♂️‍➡️END THE NIGHTMARE. 😶‍🌫️ESCAPE THE ILLUSION. Close Ranger is trapped in a dimension of endless illusion—reliving the same violent cycles for what feels like lifetimes, dying thousands of times in a futile attempt to escape. Wearied but unbroken, he has heard rumor of The Nightmare Machine. Beyond the hordes of monsters—twisted by an eternity in the Elder realms—lies the Machine. It is believed its destruction will shatter the illusion, finally breaking the loop. 🆓FREE FOR QUAKE OWNERS Close Dawn of the Machine is available as a free update for Quake owners on XBOX Series X/S, XBOX One, Microsoft PC Store, Game Pass, PC Game Pass, Steam, PlayStation 5, PlayStation 4, Nintendo Switch 2 (via backwards compatibility), and Nintendo Switch versions of Quake. This expansive new episode features 19 all-new maps across a cohesive campaign, alongside a brand-new soundtrack, hidden secrets, a dedicated episode hub, and an all-new deathmatch map. 👹NEW ENEMY AND ⚔️WEAPON VARIANTS Close Face deadly new twists on familiar foes, including the Rocket Ogre, Demo Dog, Blood Shambler, and more. Each variant introduces lethal new behaviours—from overwhelming firepower to explosive death traps—forcing you to rethink every encounter. Expand your arsenal with brutal variants inspired by classic Quake expansions, including the Super Axe—unleashing lightning on successive strikes—and the Laser Cannon, firing ricocheting projectiles that tear through enemies from every angle. ♻️REPLAYAB",
+      "oneLineKo": "퀘이크 30주년, 신규 무료 에피소드 'Dawn of the Machine' 출시",
+      "summaryKo": "id Software가 MachineGames와 협업해 Quake 30주년을 기념하는 신규 에피소드 'Dawn of the Machine'을 무료 업데이트로 공개했다. 이 에피소드는 19개의 새 맵과 새로운 사운드트랙, 히든 시크릿, 전용 허브, 신규 데스매치 맵을 포함한다. 또한 Rocket Ogre, Demo Dog, Blood Shambler 등 새로운 적 변형과 Super Axe, Laser Cannon 같은 신규 무기가 추가되었다. 해당 업데이트는 Xbox, PlayStation, PC, Nintendo Switch 등 기존 Quake 소유자에게 무료로 제공된다.",
+      "tags": [
+        "quake",
+        "gaming",
+        "fps"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32189",
+      "title": "Show GN: Ephemeral System Prompt - 실행마다 달라지는 지시사항을 넣고도 프롬프트 캐시 유지하기",
+      "url": "https://news.hada.io/topic?id=32189",
+      "commentsUrl": "https://news.hada.io/topic?id=32189",
+      "publishedAt": "2026-08-06T08:32:15+09:00",
+      "snippet": "Ephemeral System Prompt - 실행마다 달라지는 지시사항을 넣고도 프롬프트 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Show GN: Ephemeral System Prompt - 실행마다 달라지는 지시사항을 넣고도 프롬프트 캐시 유지하기 (github.com/maestrojeong) 2 P by maestrojeong 1일전 | ★ favorite | 댓글 1개 LLM 에이전트를 만들다 보면 시스템 프롬프트는 유지하면서도 현재 시각, 세션 상태, 호스트 정책처럼 실행마다 달라지는 지시사항 을 추가해야 할 때가 있습니다. 하지만 이런 내용을 시스템 프롬프트에 직접 합치면 매번 프롬프트 prefix가 달라져 provider의 prompt caching을 제대로 활용하기 어렵습니다. maestro-agent-sdk v0.2.3에 추가한 ephemeralSystemPrompt 는 이를 위해 만든 기능입니다. for await (const event of maestroProvider({ agent: \"maestro\", systemPrompt: stableBasePrompt, ephemeralSystemPrompt: currentRuntimeInstructions, prompt: userMessage, })) { // ... } ephemeralSystemPrompt 는 실제 system prompt를 수정하지 않고, provider에 요청을 보낼 때 invocation의 첫 user 메시지에 임시로 추가됩니다. 안정적인 system prompt와 기존 대화 prefix는 그대로 유지 tool 호출이 반복되는 동안 같은 위치에 고정되어 cache continuity 유지 대화 기록, compaction, session 파일에는 저장되지 않음 subagent에는 자동으로 전달되지 않음 합쳐진 요청이 context window를 넘으면 provider 호출 전에 오류 처리 단, 이 값은 provider-native system role이 아니라 host가 신뢰하는 런타임 지시사항 입니다. 보안 규칙이나 반드시 지켜야 하는 정책은 기존 system prompt에 두는 것이 맞습니다. 외부 요청이 새로 시작될 때는 이전 ephemeral instruction이 사라지는 지점부터 한 번 다시 계산해야 하지만, 하나의 tool loop 안에서는 캐시 가능한 prefix가 계속 확장됩니다. GitHub: https://github.com/maestrojeong/maestro-agent-sdk npm: https://www.npmjs.com/package/maestro-agent-sdk 함께 보면 좋은 글 β Supermemory - AI를 위한 메모리 & 컨텍스트 엔진 agentmemory - AI 코딩 에이전트용 영구 메모리 시스템 프로덕션용 LLM 어플리케이션 구축하기 OpenAI Codex CLI 내부 동작 분석: 에이전트 루프와 프롬프트 캐싱 전략 Claude Code 구축에서 얻은 교훈: 프롬프트 캐싱이 전부임 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ ng0301 15시간전 [-] 멀티턴이 아닌 라이브 데이터 반영해야되는 리뷰나 스케줄링 에 한턴이 긴 작업에 유용하겠네요 답변달기 GeekNews를 계속 받아보려면 Weekly 뉴스레터나 GeekBots를 이용해보세요. Weekly 구독 · GeekBots · GeekNews 소개 처음 오셨나요 사이트 이용법 FAQ About 후원하기 이용약관 개인정보 처리방침 Releases --> | Blog Lists RSS | Bookmarklet X (Twitter) Facebook | 긱뉴스봇 : Slack 잔디 Discord Teams Dooray! Google Chat Mattermost Swit 시작하기 이용법 FAQ About 후원 약관 개인정보 Lists Blog RSS X 긱뉴스봇 검색 언어 선택: 한국어 한국어 ✓ Indonesia Tiếng Việt Português Español ไทย 日本語 Türkçe Deutsch Français हिन्दी",
+      "externalUrl": "https://github.com/maestrojeong/maestro-agent-sdk/pull/51",
+      "oneLineKo": "실행마다 변하는 지시사항도 프롬프트 캐시 유지하는 SDK 기능",
+      "summaryKo": "maestro-agent-sdk v0.2.3에 추가된 ephemeralSystemPrompt는 시스템 프롬프트를 수정하지 않고 실행마다 달라지는 런타임 지시사항을 첫 user 메시지에 임시로 삽입하는 기능이다. 이를 통해 안정적인 system prompt와 대화 prefix를 유지하면서도 provider의 prompt caching 효율을 그대로 활용할 수 있다. 대화 기록이나 세션 파일에는 저장되지 않으며 subagent에는 자동 전달되지 않고, 보안 규칙 같은 필수 정책은 기존 system prompt에 유지해야 한다.",
+      "tags": [
+        "llm",
+        "prompt-caching",
+        "agent-sdk"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49199346",
+      "title": "Taste Is All That's Left",
+      "url": "https://notashelf.dev/posts/taste-is-all-thats-left",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49199346",
+      "publishedAt": "2026-08-06T17:01:33Z",
+      "score": 194,
+      "comments": 155,
+      "snippet": "Taste Is All That's Left | Blog Index Projects Posts About The Bar Went Somewhere What Taste Actually Is Taste Is Downstream of Friction The Economics Are Against You The Flood What Deserves to Exist A Defense, Then Post-Mortem On Language In Appreciation On Taste Footnotes ↑ # Taste Is All That's Left Published August 6, 2026 16 min read Source thoughts programming software Table of Contents The Bar Went Somewhere What Taste Actually Is Taste Is Downstream of Friction The Economics Are Against You The Flood What Deserves to Exist A Defense, Then Post-Mortem On Language In Appreciation On Taste Footnotes Post Mortem Hey. I’ve been kindly informed that this post has hit the frontpage of Hacker News, and combing through the comments I have been shown that this post reads of as what I would describe as, well, AI slop. If this is a concern of yours, please honor me with a quick glance at the post-mortem section below. Thanks! For most of the time I have been writing software—which, compared to some of my readers, is not that long—I have come to believe that the hard thing was making the thing exist at all . This is not necessarily a new belief of mine. I started through the difficult and tedious experience of building web applications and watching them crash and burn. You had an idea, and between the idea and the working program stood hours— sometimes weeks—of typing, of reading manuals, of misunderstanding an API and slowly grinding the wrong version into a slightly less wrong one. Production was the wall. Everyone hit it. It was the thing that separated the people who could from the people who could only talk about it. That wall is gone. Or rather, it has been rented out. 1 You can describe a thing now and receive a plausible version of it much faster than you could have typed the first function by hand. The idea-to-artifact distance, the one that defined the entire craft, has collapsed to almost nothing. Though, you have not been warned about one little thing: the value you built by learning to climb that wall does not disappear. It simply… moves . The Bar Went Somewhere We keep asking whether the machines are any good. Even yesterday I had a rather short discussion on whether they are reliable. While we have concluded that they are “reliably unreliable,” I think it is the wrong question. The output is good enough, generally anyway, and that is the problem—most of it, at least. Good enough is a solvent . It dissolves the reason to do better. For as long as making things was expensive, the expense did quiet work on our behalf. It rationed output. It meant that anything which existed had, at minimum, survived the cost of being made. You know what I mean? Effort was a filter , and like all filters it was invisible until it was removed. Nobody shipped a thousand mediocre variations of a feature, because a thousand mediocre variations cost a thousand times as much as one. The economics enforced a floor. That floor is now gone. And when the floor goes, ",
+      "oneLineKo": "AI 시대, 코드 생산 장벽 소멸 후 남는 건 '취향'",
+      "summaryKo": "글쓴이는 소프트웨어 제작의 어려움이 곧 아이디어를 실제 결과물로 만드는 과정에 있었다고 말하지만, AI 도구의 등장으로 이 '벽'이 사라졌다고 주장합니다. 제작 비용이 결과물의 질을 걸러주는 필터 역할을 했으나, 이제 그 경제적 장벽이 없어지면서 평범하거나 낮은 품질의 산출물이 대량으로 쏟아지게 되었다는 것입니다. 이런 상황에서 진짜 가치는 무엇을 만들 수 있는가가 아니라 무엇이 존재할 가치가 있는지를 판단하는 '취향(taste)'으로 이동했다고 결론짓습니다. 참고로 이 글은 HN 프론트페이지에 오른 뒤 AI가 쓴 것 같다는 지적을 받아 저자가 post-mortem 섹션을 추가했습니다.",
+      "tags": [
+        "ai",
+        "software-engineering",
+        "taste"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32169",
+      "title": "보안은 정말 어렵다",
+      "url": "https://news.hada.io/topic?id=32169",
+      "commentsUrl": "https://news.hada.io/topic?id=32169",
+      "publishedAt": "2026-08-05T19:01:10+09:00",
+      "snippet": "보안은 정말 어렵다 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ 보안은 정말 어렵다 (textslashplain.com) 2 P by GN⁺ 2일전 | ★ favorite | 댓글 1개 Cloudflare의 신규 Wallet 서비스 는 공식 제품이지만 별도 도메인과 권한 요청 방식 때문에 정교한 동의 피싱 공격처럼 보였음 진입점인 cloudflare.pay 는 cloudflare.com 과 기술적 관계가 없고, .pay 도메인은 누구나 약 20달러 에 등록할 수 있어 도메인만으로 신뢰를 판단하기 어려움 권한 화면의 녹색 체크 표시와 신고 링크 부재, 대시보드·문서에서 Wallet을 찾을 수 없는 상황에 더해 Cloudflare의 AI 에이전트 마저 공격이라고 잘못 답함 보안 정보는 신뢰할 수 있는 위치 에 표시하고, 새 도메인은 기존 공식 도메인에서 직접 연결하며, 권한 요청 화면에서 사기를 즉시 신고할 수 있어야 함 정상 사이트마저 피싱처럼 동작하면 사용자뿐 아니라 매주 수백만 개의 신규 사이트를 판별하는 Microsoft SmartScreen과 Google SafeBrowsing 도 오탐 없이 악성 사이트를 차단하기 어려움 정상 서비스가 피싱처럼 보인 과정 원하는 @ericlaw 핸들을 선점하려는 긴박감 속에서 cloudflare.pay 에 접속해 기존 Cloudflare 계정으로 로그인하고 신규 기능을 승인하려 했음 권한 요청 과정은 최근 유행한 동의 피싱 공격 과 매우 유사했음 cloudflare.pay 와 cloudflare.com 사이에는 본질적인 기술적 관계가 없음 .pay 는 .bank 처럼 엄격한 검증을 요구하지 않으며 누구나 약 20달러에 등록할 수 있음 권한 페이지는 자사 기능을 식별하지 못하는 듯했고, 녹색 체크 표시도 공격자가 앱 표시 이름에 넣은 이모지처럼 보였음 권한 페이지에는 의심스러운 요청 신고 링크가 없었고, Cloudflare 대시보드 사이드바와 문서 검색에서도 Wallet을 찾을 수 없었음 Cloudflare 채팅의 AI 에이전트는 처음부터 계정 접근을 요구했고, 읽기 전용보다 전체 제어 권한 을 먼저 제안해 최소 권한 원칙에도 어긋나 보였음 읽기 권한을 허용한 뒤 Wallet에 관해 묻자 실제 공격이라고 답했지만, 이는 잘못된 판정이었음 추가 확인 결과 Wallet과 cloudflare.pay 는 모두 정상적인 Cloudflare 서비스였음 녹색 체크 표시는 앱 표시 이름의 일부가 아니라, 마우스를 올려 보안 세부 정보를 확인하는 보안 UI 요소 였으나 위치가 부적절했음 Cloudflare는 보안 문제를 HackerOne 으로 접수하지만, 당시 HackerOne이 사용하는 Cloudflare CAPTCHA 문제로 로그인할 수 없었음 정상 사이트가 이처럼 피싱과 유사하면 매주 웹에 추가되는 수백만 개의 사이트를 검사하는 Microsoft SmartScreen 과 Google SafeBrowsing도 오탐 없이 악성 사이트를 차단하기 어려움 개발자와 사용자가 지켜야 할 원칙 웹 개발자는 앱과 콘텐츠를 cloudflare.com/pay 또는 pay.cloudflare.com 처럼 신뢰받는 기존 도메인 아래에 호스팅해야 함 새 도메인이 반드시 필요하다면 기존 공식 도메인의 페이지에서 직접 연결해야 함 사용자가 보안 결정을 내려야 할 때 관련 정보를 신뢰할 수 있는 위치 에 표시해야 함 권한 요청 페이지처럼 맥락에 맞는 위치에서 사기를 간단히 신고 할 수 있어야 함 보안 신고 절차가 실제로 작동하고 담당자가 모니터링하는지 직접 테스트 해야 함 사용자는 클릭하기 전에 생각하고, 판단하기 어렵다면 기다리는 것 이 안전함 정상 서비스와 공격을 구별하는 일이 사실상 불가능할 정도로 어려울 수 있으므로 보안 담당자는 피해자를 탓하지 않아야 함 함께 보면 좋은 글 β Google AMP - 피싱 사이트의 최신 회피 전략 FedEx의 진짜 결제 문자가 피싱처럼 보인 이유(2024) 모든 고객을 위한 Cloudflare OAuth g.co, Google의 숏 URL을 이용한 피싱 공격 사례 Tell HN: Namecheap이 확인되지 않은 제3자에게 내 계정을 넘겼습니다 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ GN⁺ 2일전 [-] Lobste.rs 의견들 보안이 어렵긴 하지만, Cloudflare가 이 정도로 어렵게 만들 일은 아님 Cloudflare 같은 보안 서비스 업체가 새 기능의 전체 제품 페이지는커녕 잘 알려진 자사 도메인에 링크 하나조차 두지 않는 기본 보안 수칙을 외면하면서 보안을 스스로 어렵게 만들고 있음 cloudflare.pay 라는 도메인은 상당히 의심스러운 선택임 비밀번호 관리자가 자동 입력을 거부하는 사이트라면 사기로 간주하고 바로 나가게 됨 은행에서 신용카드를 관리하려 하면 mybank.org 에서 mybank2.org 를 거쳐 accessmycard.com 으로 리디렉션됨. 이름만 살짝 익명화했을 뿐 실제로도 이와 비슷함 글의 전체 논지를 훼손할 정도는 아니지만, 여기서 요구한 권한 인 Account Settings Read , Memberships Read , User Details Read 는 적어도 가장 위험한 종류는 아님 인증이 인가처럼 작동하는 방식에는 실제 단점이 있음. 제품을 빨리 써보고 싶거나 주의가 분산된 상태에서는 OAuth 토큰 권한 의 세부 내용을 놓치기 쉬움 이와 매우 비슷한 FedEx 사례 를 방금 읽고 있었음 챗봇이 새 기능을 몰라 사기 공격으로 오탐한 점은 흥미로움. 하지만 가짜 기능을 진짜라고 답하는 미탐 은 훨씬 위험하며 충분히 발생할 수 있음 작성자가 report@ 이메일 주소를 즉석에서 만든 것인지, ",
+      "externalUrl": "https://textslashplain.com/2026/08/04/security-is-hard-yall/",
+      "oneLineKo": "Cloudflare 신규 Wallet, 도메인·UX 탓에 피싱처럼 보여 논란",
+      "summaryKo": "Cloudflare의 신규 Wallet 서비스가 cloudflare.pay라는 별도 도메인과 어색한 권한 요청 화면 때문에 정교한 동의 피싱 공격처럼 보였다는 사례가 소개되었다. 대시보드와 문서에서 Wallet을 찾을 수 없었고, Cloudflare의 AI 챗봇마저 이를 실제 공격이라고 오판했다. 저자는 정상 서비스일수록 신뢰받는 기존 도메인에서 직접 연결하고, 권한 요청 화면에 신고 기능을 두는 등 기본적인 보안 UX 원칙을 지켜야 하며, 이런 혼란은 SmartScreen·SafeBrowsing 같은 자동 탐지 시스템에도 오탐 문제를 야기한다고 지적한다.",
+      "tags": [
+        "phishing",
+        "cloudflare",
+        "security-ux"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49198464",
+      "title": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
+      "url": "https://provenmetal.com",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49198464",
+      "publishedAt": "2026-08-06T15:59:15Z",
+      "score": 186,
+      "comments": 129,
+      "snippet": "Hey HN, we’re Will &amp; Johnny from ProvenMetal (<a href=\"https:&#x2F;&#x2F;provenmetal.com\">https:&#x2F;&#x2F;provenmetal.com</a>). You send us design files or specs and we give you assembled boards domestically in days.<p>The US produced 30% of PCBs globally in 2000, now they produce 4%. Chinese manufacturers have completely dominated this space at 55% of global production.<p>Now, the need for a domestic PCB supply chain is higher than ever before, yet the infrastructure has been dissolving over the last 2 decades. What is left is mostly small family run manufacturers (CMs) that have been operating in largely the same, labor intensive way since the early 2000’s.<p>When you place an order through a CM it typically takes several days to receive a quote and complete design for manufacture review, and then you have to source all of the components (the hardest part) and bare boards yourself, then wait anywhere from a few days to several weeks for the assembly and testing of those boards.<p>We started off assembling circuit boards out of a garage with prosumer grade equipment (NeoDen YY1, Glenbrook X-ray, solder paste stencils, and manual rework stations). We believed that by owning the manufacturing process, we could turn all the front of house automations inwards. But here’s the thing… manufacturing circuit boards with prosumer grade equipment out of a garage takes a huge amount of time. Suddenly we were spending 90% of our time assembling circuit boards instead of growing the business. We were completely capacity constrained, with fancy software automations that are not the binding constraint at low volumes.<p>Then we got our heads out of the weeds, took a step back, and realized that we were trying to solve the wrong bottlenecks.<p>These manufacturers are good at manufacturing and terrible at the front of house (quoting, DFM review, and part procurement). When you look at the full process, you realize that assembly is not the bottleneck. So we stopped trying to solve the problem that we can’t solve at this stage.<p>We measured the bottlenecks and nailed down the ones that we are best positioned to solve right now.<p>When a customer wants a domestically manufactured circuit board, it is not a straight forward process. We are making that process easy through front of house automation. A customer gives us their design files, and we automatically procure components, and co-ordinate bare board fabs and assembly houses to get quotes, design review, and manufacturing completed in a very tight loop.<p>How we solve part procurement (you can’t assemble boards with no parts!): When a user places an order with us, our system automatically sources their bill of materials across US and overseas distributors. However, when we work with customers during the design process, our plug-ins interact with KiCAD and Altium, sending the BOM to our ordering platform, which allows us to automatically procure components before layout is finalized.<p>KiCAD plugin: (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;proven-metal&#x2F;provenmetal-kicad\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;proven-metal&#x2F;provenmetal-kicad</a>)<p>Altium plugin: (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;proven-metal&#x2F;provenmetal-altium\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;proven-metal&#x2F;provenmetal-altium</a>)<p>This enables us to order long lead time parts in advance, suggest alternatives if parts are out of stock, and solve the biggest bottleneck in the process. We store parts in our hq in SF, and then kit the boards and route them through our network. We also do long term storage of parts for long lead time items.<p>How we solve endless emails: Every manufacturer wants the same information in a different shape. There’s usually a few days of back and forth emailing to achieve clarity. We’re building a profile per manufacturer and sending the order to fit their requirements. This may sound trivial but it removes a multi-day round trip on most orders, which on a quick-turn build is a meaningful share of the time.<p>How to solve design review: Each manufacturer has individual capability sheets, and so we have a heuristic harness that Fable 5 uses to check the board for DFM issues. We’re building a streamlined process for end-to-end pcb manufacturing, but is that enough to solve the supply chain? Not a chance. Capacity is the problem, and no amount of smart software will solve it. We’re extracting real slack from the system today, that slack is finite, and at some volume the only remaining move is adding physical capacity. We think that’s where this goes.<p>We charge a simple margin on the order value depending on order complexity with fully transparent quote breakdowns. We took our first paying order in less than a week and we’ve done roughly $70k across 11 orders in 6 weeks.<p>We are very interested in your opinion. We’re working in a problem space that has problems everywhere, we’re constantly pulled in wild directions regarding which problems we solve and how we go about solving them. What do you know that we can learn from?",
+      "oneLineKo": "국내 PCB 조립을 자동화해 며칠 내 완성하는 ProvenMetal",
+      "summaryKo": "ProvenMetal(YC S26)은 설계 파일이나 사양을 받아 미국 내에서 며칠 만에 조립된 회로기판을 제공하는 서비스입니다. 기존 PCB 제조사들은 조립 자체보다 견적, DFM 리뷰, 부품 조달 같은 '프론트오피스' 업무가 병목이라는 점을 파악하고, 이를 자동화하는 데 집중했습니다. KiCAD·Altium 플러그인을 통해 BOM을 자동으로 발주 플랫폼에 전달해 설계 완료 전부터 부품을 미리 조달할 수 있도록 합니다. 미국의 PCB 생산 점유율이 2000년 30%에서 현재 4%로 급감한 배경 속에서 국내 공급망 재건을 목표로 합니다.",
+      "tags": [
+        "pcb",
+        "hardware",
+        "manufacturing"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49199357",
+      "title": "Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49199357",
+      "publishedAt": "2026-08-06T17:02:04Z",
+      "score": 143,
+      "comments": 104,
+      "oneLineKo": "OpenAI, GPT-5.6 Sol 개선 및 Luna 무료 제공 확대",
+      "summaryKo": "OpenAI가 ChatGPT 내 GPT-5.6 Sol 모델을 개선했다고 발표했다. 동시에 GPT-5.6 Luna 모델에 대한 무료 사용자 접근 범위를 확대한다는 내용이다. 본문 정보가 제목뿐이라 구체적인 개선 내용이나 확대 범위는 알려지지 않았다.",
+      "tags": [
+        "openai",
+        "chatgpt",
+        "gpt-5.6"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49201003",
+      "title": "Herdr is joining Y Combinator. The runtime stays open",
+      "url": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49201003",
+      "publishedAt": "2026-08-06T19:14:21Z",
+      "score": 140,
+      "comments": 94,
+      "snippet": "Herdr is joining Y Combinator. The runtime stays open. — Herdr blog herdr Docs Plugins Blog 25,051 ink paper Install Docs Plugins Blog @herdrdev Ground ink paper ← Blog August 6, 2026 Herdr is joining Y Combinator. The runtime stays open. Hey everyone, it’s Can, the only person behind Herdr. This post is about how I decided to change that. Four months ago I was looking for another job. Thinking about where to go career-wise. Thinking about software engineering and its future in general, my hobby projects, applications, whiteboard interviews (I still can’t believe we do those). And at some point it hit me: I am the bottleneck. This is a management and engineering problem. I don’t want to install an app or learn a new tool just to manage my agents and my development style. I want something that fits me. You know how every company releases their own agent these days? No, don’t do that. Let my agent integrate with your product, don’t offer me another agent. Same idea here. I didn’t like what I tried, so why not build it? So I built a runtime. But what is a runtime? Runtime CLI coding agents run in terminals, and terminals have always been our home: editing code (yes, nvim chads), running servers, navigating projects, maintaining CI, machines, configurations. It’s the root. It’s the connection. So agents need first class primitives there. A terminal pane belongs to an agent. A pane belongs to a tab. Tabs belong to a project. They need to be persistent. We have agents running for hours now, sometimes days. And once you have the runtime, where they run stops mattering. You should be able to run them anywhere and keep them running. That’s where Herdr was born. But a runtime without an interface is nothing, so: the TUI. TUI The TUI is the UI I use every day, and it carried Herdr this far. Not because it’s a UI, but because it shows the concepts Herdr believes in: tracking agents at a glance, dividing work between projects instead of getting lost in a pile of agents, being alerted only when an agent actually needs you. It also has one big advantage, and it’s the reason it stays first class forever: it’s bundled. Install Herdr on your VPS, ssh in, and your UI is already there. Or run herdr --remote user@host and it installs itself. Depending on your network speed, you’re a couple of seconds away from an agent running. One command and you’re in. Nothing beats that. Still, the TUI was never meant to be the only client. A runtime means people can build on top of it, and people did! A Raycast extension , a Stream Deck with buttons for herdr , an iOS app that drives a whole session from a phone. More than 500 plugins, one month after the marketplace released. I didn’t build any of these. The TUI has its limits too. Some of the ideas in my head are hard to build inside a terminal, and I trust terminals, but Herdr will need more clients. More on that later. Where we are now So a solo project reached 25k stars and 340k downloads , and it became more than one person",
+      "oneLineKo": "터미널 AI 에이전트 런타임 Herdr, YC 합류하며 오픈소스 유지",
+      "summaryKo": "1인 개발자가 만든 CLI 코딩 에이전트 런타임 Herdr가 Y Combinator에 합류하며 오픈소스 런타임을 계속 유지한다고 발표했다. Herdr는 터미널 기반으로 에이전트, 프로젝트, 탭, 패널을 1급 개념으로 관리하며 TUI를 기본 인터페이스로 제공하고, VPS 등 원격 환경에도 쉽게 설치해 실행할 수 있다. 출시 이후 Raycast 확장, Stream Deck 연동, iOS 앱 등 500개 이상의 플러그인이 생태계에 등장했으며, 25,000 스타와 34만 다운로드를 기록했다.",
+      "tags": [
+        "ai-agent",
+        "cli",
+        "open-source"
+      ]
+    }
+  ]
+}
