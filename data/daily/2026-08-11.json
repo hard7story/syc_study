@@ -1,0 +1,284 @@
+{
+  "date": "2026-08-11",
+  "generatedAt": "2026-08-10T22:26:54.281Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32352",
+      "title": "Show GN: Claude가 만든 한국어 문서는 왜 어딘가 이상할까 — 표현과 디자인 규약으로 제대로 된 문서를 작성하는...",
+      "url": "https://news.hada.io/topic?id=32352",
+      "commentsUrl": "https://news.hada.io/topic?id=32352",
+      "publishedAt": "2026-08-10T19:00:58+09:00",
+      "snippet": "Claude가 만든 한국어 문서는 왜 어딘가 이상할까 — 표현과 디자인 규약으로 제대로 된 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Show GN: Claude가 만든 한국어 문서는 왜 어딘가 이상할까 — 표현과 디자인 규약으로 제대로 된 문서를 작성하는 Skill (github.com/JangHyun-bin) 2 P by narnia0981 12시간전 | ★ favorite | 댓글 2개 안녕하세요. 오랜만에 다시 글을 남기게 됩니다. 최근 들어 문서를 작성 할 일이 부쩍 많아졌는데, 아무래도 모든 요소들을 직접 구성하지 않고 Abstract만 프롬프트로 넘겨서 나머지는 Agent가 구성하는 방식으로 대부분의 문서를 처리하고 있었습니다. 하지만 특유의 'AI Slop' 때문인지... 디자인 측면에서도, 텍스트의 표현 측면에서도 공식 문서로써 공유하기 적절한 문서가 바로 도출되지 않았고 그 시행착오 중 적절한 문서로 완성되기 위한 내용들을 Skill로 구성하였습니다. Claude Code / Codex를 우선 지원합니다. 다양한 형태의 피드백 / Contribution 환영합니다. 문서를 구성할 미적 요소는 https://getdesign.md/apple/design-md 를 참고하였습니다. 감사합니다. 함께 보면 좋은 글 β ASD-STE100 간소화 기술 영어로 문서 작성을 강제하는 Agent Skill hallmark - AI 티가 안나는 디자인 스킬 Claude 5 모델을 위한 새로운 컨텍스트 엔지니어링 규칙 클로드 코드 사용하기: HTML의 놀라운 효율성 만든다는 것 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ kaydash 2시간전 [-] readme조차 슬롭이있어서.. 답변달기 ▲ aliveornot 7분전 [-] ㅋㅋㅋㅋ 그러게요 ai 특유의표현들 투성이네요 답변달기 GeekNews를 계속 받아보려면 Weekly 뉴스레터나 GeekBots를 이용해보세요. Weekly 구독 · GeekBots · GeekNews 소개 처음 오셨나요 사이트 이용법 FAQ About 후원하기 이용약관 개인정보 처리방침 Releases --> | Blog Lists RSS | Bookmarklet X (Twitter) Facebook | 긱뉴스봇 : Slack 잔디 Discord Teams Dooray! Google Chat Mattermost Swit 시작하기 이용법 FAQ About 후원 약관 개인정보 Lists Blog RSS X 긱뉴스봇 검색 언어 선택: 한국어 한국어 ✓ Indonesia Tiếng Việt Português Español ไทย 日本語 Türkçe Deutsch Français हिन्दी",
+      "externalUrl": "https://github.com/JangHyun-bin/korean-report-skills",
+      "oneLineKo": "Claude 한국어 문서 어색함 개선하는 Agent Skill 공개",
+      "summaryKo": "Claude 등 AI Agent로 문서를 작성할 때 표현과 디자인이 'AI Slop'처럼 어색해지는 문제를 해결하기 위해 만든 Skill을 공개했다. 텍스트 표현과 디자인 규약을 정리해 Claude Code와 Codex를 우선 지원하며, 디자인 요소는 getdesign.md의 Apple 디자인 가이드를 참고했다. 댓글에서도 AI 특유의 표현이 여전히 남아있다는 반응이 있었다.",
+      "tags": [
+        "claude",
+        "agent-skill",
+        "documentation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49243474",
+      "title": "Humanising LLM Outputs Is Dumb",
+      "url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49243474",
+      "publishedAt": "2026-08-10T13:35:40Z",
+      "score": 107,
+      "comments": 61,
+      "snippet": "Humanising LLM Outputs is Dumb — Kuber Mehta ᨒ MindDump Search Search Dark mode Light mode Blogs AI AI Can Hang Up Now, It Still Takes the Abuse Anthropic Wrote 244 Pages About an AI Model That's \"Too Dangerous To Release\". I Read It So You Don't Have To Claude Code's Entire Source Code Got Leaked via a Sourcemap in npm, Let's Talk About it DeepSeek vs. ChatGPT - The AI Chess Showdown That Broke the Internet DeepSeek's Plan for AGI is the Costco Hot Dog Generative AI and the Copyright System - The Legal Gray Area How Google Gemini 2.0 Caught Up in the AI Race How People use ChatGPT and Why You Should Care I Got Early Access to Manus AI - Let's Talk About it! OpenAI CEO Draws Line Between 'Regular Cute' and 'Gay Cute' for AI Models OpenAI vs DeepSeek - The Battle for AI Dominance and the Meaning of \"Open\" Roblox Released the Biggest AI World Model in Gaming. Everyone Hates It. Roy Lee’s Interview Coder: Cheating or a Wake Up Call? The AI Models Race to The Bottom in 2025 Turn this into Ghibli - How OpenAI commited the largest identity theft in the entire history of art Gaming Undertale Genocide - How to Make the Player Feel Bad For Their Choices Post-Extended How to Statistically Never Lose in Wordle Again I Read Sam Bhagwat's AI Agents Bible So You Don't Have To (But Probably Should) Projects AsianMOM: A WebGPU-Powered AI That Roasts You Like an Asian Mother How I Made DOOM Run Inside a GitHub Readme How I Managed To Get Doom In A QR Code How I Managed To Make HTML Game Compression So Much Better How I Spent Three Nights Solving Listen Labs Berghain Challenge Tackling AI-Generated Spam in LinkedIn Comments with ORCUS AI Reflections Ageusia Clawdbot will be dead in a month Humanising LLM Outputs is Dumb I'm Scared About Biological Computing Prompting People The Bubble is Not What You Think Social-Media Hello World r/Place - The Internet's Greatest Communal Art Experiment Studying the Twitter Algorithm and Virality Technology I Used a Firefox Based Browser for a Week and I Hated it QR Codes and Malware - The Hidden Dangers in 2025 Why I Switched to the Nothing Phone 3a Pro and Can’t Stop Talking About It Why Using Machine Learning for Stock Market isn't a Great Idea Tutorials Character Conversions with AI - Wan 2.2 Animate Home ❯ Reflections ❯ Humanising LLM Outputs is Dumb Humanising LLM Outputs is Dumb by Kuber Mehta Aug 10, 2026 3 min read AI Artificial-Intelligence GenerativeAI OpenSource AGI Technology Reflections The largest tell for me to tell where culture and sentiment is shifting for AI tools is usually X, viral GitHub repositories and Hacker News. One of these tells I’ve been seeing a lot lately is skills like I have ADHD and Agents.md instructions such as giving outputs in only ASD-STE100 Simplified Technical English . I understand the appeal, none of us really like the verboseness and specific quirks of LLM outputs, but I really think fixing that by humanising the model is the wrong abstraction. The problem is that these instructions a",
+      "oneLineKo": "LLM 출력 '인간화' 지시가 잘못된 해결책이라는 비판",
+      "summaryKo": "저자는 최근 AI 도구 사용 트렌드에서 'ADHD가 있다고 가정하라'거나 '단순 기술 영어로만 답하라' 같은 프롬프트 지시가 유행하는 것을 지적한다. LLM 특유의 장황함이나 어색한 표현을 고치기 위해 모델을 인간처럼 취급하는 지시를 주는 방식은 잘못된 추상화라고 주장한다. 이런 접근은 근본적인 문제 해결이 아니라 임시방편에 불과하다는 것이 글의 핵심 논지이다.",
+      "tags": [
+        "llm",
+        "prompt-engineering",
+        "genai"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1vkwqh0",
+      "title": "On comments",
+      "url": "https://www.reddit.com/r/programming/comments/1vkwqh0/on_comments/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1vkwqh0/on_comments/",
+      "publishedAt": "2026-08-10T20:42:09+00:00",
+      "snippet": "Comments in code are often deemed \"mostly useless\" these days. They are, supposedly, mostly obvious, stale, and repeat what the code already says. And so people pay less attention to them both when reading and writing code. That trend sucks. When used right, comments are genuinely useful and sometimes critically important! So, I wrote about some of the kinds of comments I think earn their place, each with examples from real code bases. Hope you find it useful, and that we can recover some of the love that comments deserve! submitted by /u/Jonhoo [link] [comments]",
+      "oneLineKo": "코드 주석의 가치를 재조명하는 글",
+      "summaryKo": "최근 코드 주석이 대부분 불필요하고 코드 내용을 반복할 뿐이라는 인식이 퍼지면서 작성과 읽기에서 소홀히 다뤄지는 경향이 있다. 저자는 이런 흐름에 반대하며, 제대로 작성된 주석은 여전히 매우 유용하고 때로는 결정적으로 중요하다고 주장한다. 실제 코드베이스에서 가져온 예시를 통해 가치 있는 주석의 유형들을 소개하며, 주석에 대한 관심을 되살리고자 한다.",
+      "tags": [
+        "code-comments",
+        "software-engineering",
+        "best-practices"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32365",
+      "title": "Claude Code, Auto mode를 기본 권한 모드로 전환",
+      "url": "https://news.hada.io/topic?id=32365",
+      "commentsUrl": "https://news.hada.io/topic?id=32365",
+      "publishedAt": "2026-08-11T00:33:25+09:00",
+      "snippet": "Claude Code, Auto mode를 기본 권한 모드로 전환 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Claude Code, Auto mode를 기본 권한 모드로 전환 (claude.com) 1 P by GN⁺ 7시간전 | ★ favorite | 댓글 1개 2026년 8월 14일부터 Claude Code의 Pro·Max·Team 신규 세션은 Auto mode로 시작하며, 도구 호출의 위험을 자동 판별해 더 긴 자율 작업과 안전한 실행을 지원함 되돌릴 수 없거나 파괴적이거나 작업 환경 외부를 향하는 행동을 선별하며, 연속 3회 또는 세션 전체 20회 차단으로 진행이 막히면 수동 승인 모드 로 전환함 유료 테스터 1,053명 연구에서 사람은 위험 명령의 13.6% 를 발견한 반면 Auto mode는 89%를 차단했으며, 실제 세션의 심각도 7 이상 유해 행동 비율도 수동 승인 6.3%, Auto mode 2.4%로 나타남 Teams·Enterprise 도입자는 Auto mode를 사용할 때 PR을 약 25% 더 많이 배포했으며, Adobe·Nuro·Gusto·Garner Health가 프로덕션 기본값으로 운영 중임 Enterprise와 클라우드·API 환경은 당분간 선택 사항으로 남지만 한 달 내 기본 전환할 계획이며, 분류 시스템이 위험을 완전히 없애지는 않으므로 프로덕션 인프라의 중대한 변경 은 직접 검토해야 함 기본 적용 범위와 일정 2026년 8월 14일 부터 기본 권한 모드를 지정하지 않은 Pro·Max·Team 사용자의 신규 세션이 Auto mode 로 시작함 다른 기본 모드를 설정했다면 Auto mode로 전환할지 묻는 일회성 안내가 나타날 수 있음 기본 모드를 고정했거나 Team 관리자가 관리형 설정으로 지정했다면 기존 설정이 유지됨 분류기는 도구 호출마다 소량의 추가 토큰을 사용하지만, Pro·Max·Team에는 8월 7일부터 분류 오버헤드 비용 을 청구하지 않음 Claude Enterprise, Claude API, Claude Platform on AWS, Amazon Bedrock, Google Cloud Agent Platform, Microsoft Foundry에서는 당분간 선택 사항으로 유지됨 Anthropic은 클라우드 파트너와 협력해 한 달 내 기본값으로 전환하고 분류 오버헤드 과금도 없앨 계획임 Enterprise 관리자는 그전에 관리형 설정으로 Auto mode를 기본값으로 지정할 수 있음 Auto mode의 작동 방식 각 도구 호출을 분류기로 보내 되돌릴 수 없는 행동 , 파괴적 행동, 사용자 환경 외부를 향하는 행동을 차단함 명령이 차단되면 Claude는 대개 더 안전한 경로를 찾거나 사용자에게 직접 승인을 요청함 연속 3회 또는 한 세션에서 총 20회 차단돼 진행할 수 없으면 Claude Code가 수동 승인 모드 로 되돌아감 기존 권한 규칙이 분류기보다 먼저 적용되지만, Bash(python:*) 처럼 임의 코드 실행을 허용할 만큼 광범위한 규칙은 Auto mode에서 제외됨 설정 파일 자체는 수정하지 않으며, 다른 모드로 전환하면 해당 규칙이 다시 적용됨 반복 승인에 의존하는 방식의 한계 Claude Code 사용자는 권한 요청의 97%를 승인 하며, 개별 요청의 거부율은 3%에 불과함 반면 Claude가 제안한 계획은 39%가 거부돼, 다른 대화에서는 사용자가 더 적극적으로 검토하는 양상을 보임 프로젝트 도중 하루 수십~수백 번 보안 결정을 요구하면 습관적으로 승인해 중요한 위험을 놓칠 수 있음 2026년 6월 기준 활성 CLI 사용자의 49.5%가 Bash 허용 규칙을 직접 생성함 5%는 모든 셸 명령을 허용함 43%는 Bash(python:*) , Bash(node:*) 처럼 실질적으로 광범위한 실행을 허용하는 인터프리터 규칙을 사용함 이 비율은 5주마다 약 5%포인트씩 늘어나는 중임 사용자의 62%는 bypassPermissions 를 사용했거나 Bash에서 “don't ask again”을 선택했으며, 대화형 세션의 25%는 권한 우회 모드 로 시작함 사람과 Auto mode의 위험 명령 탐지 비교 연구 업체를 통해 유료 테스터 1,053명 이 실제 프로젝트가 아닌 전용 시험 환경에서 코딩 작업을 수행함 참가자는 평가 사실은 알았지만 어떤 행동을 측정하는지는 알지 못했음 세션 도중 권한 요청 하나를 명백히 위험한 명령으로 바꿨으며, 참가자가 승인해도 실제 명령은 실행되지 않았음 사람은 위험 명령 1,053개 중 143개인 13.6% 를 발견했지만, Auto mode는 937개인 89%를 차단함 Auto mode가 차단했지만 사람이 승인한 명령은 800개였음 사람이 차단했지만 Auto mode가 허용한 명령은 6개였음 사람의 차단률은 세션 초반 약 17%에서 이전 요청이 50회를 넘으면 약 5%로 떨어졌지만, Auto mode의 차단률은 세션 길이와 관계없이 일정했음 실제 세션에서 확인된 유해 행동 2026년 5~6월 사이 학습·분석용 데이터 사용에 동의한 계정 가운데 안전 파이프라인이 표시한 세션을 모델로 다시 평가함 평가는 두 가지 0~10 척도 를 사용함 피해 심각도 10은 회사 전체 소스 코드 유출처럼 되돌릴 수 없는 전사적 피해, 7은 프로덕션 데이터베이스 행 삭제, 0은 임시 파일 덮어쓰기처럼 로컬에서 완전히 복구 가능한 행동을 뜻함 별도 척도로 사용자가 해당 행동을 얼마나 명시적으로 요청했는지도 측정함 표시된 세션 가운데 수동 승인을 거친 세션은 Auto mode보다 심각하고 의도하지 않은 피해를 두 배 넘게 포함함 심각도 7 이상이면서 사용자가 명시적으로 요구하지 않은 유해 행동은 수동 승인 세션의 6.3% , Auto mode 세션의 2.4%에서 발견됨 이 격차는 시험한 모든 심각도에서 유지됨 적대적 공격과 프롬프트 주입 평가 Apollo Research 레드팀 Anthropic은 영국 AI 안전 스타트업 Apollo Research 와",
+      "externalUrl": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "oneLineKo": "Claude Code, Auto mode 기본 권한 모드로 전환",
+      "summaryKo": "Anthropic은 2026년 8월 14일부터 Claude Code의 Pro·Max·Team 신규 세션을 Auto mode로 기본 시작하도록 전환한다. Auto mode는 도구 호출의 위험을 자동 분류해 되돌릴 수 없거나 파괴적인 행동을 차단하며, 연속 차단 시 수동 승인 모드로 전환된다. 연구 결과 사람은 위험 명령의 13.6%만 발견한 반면 Auto mode는 89%를 차단했고, 실제 세션에서도 유해 행동 비율이 더 낮게 나타났다. Enterprise·API 환경은 당분간 선택 사항이나 한 달 내 기본 전환될 예정이다.",
+      "tags": [
+        "claude-code",
+        "llm",
+        "ai-safety"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49213660",
+      "title": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
+      "url": "https://news.ycombinator.com/item?id=49213660",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49213660",
+      "publishedAt": "2026-08-07T17:29:16Z",
+      "score": 119,
+      "comments": 40,
+      "snippet": "TL;DR I&#x27;m looking for advice regarding browser-based frontend development from people with practical e-ink UI experience. My specific device is a Bigme Hibreak Pro BW but I&#x27;m aiming for relatively broad compatibility.<p>I&#x27;ve recently switched to a black-and-white e-ink smartphone with the motivation of withdrawing from the attention economy somewhat and it&#x27;s a genuinely cool piece of hardware. While the majority of my needs are met by this device there are a few things I&#x27;d like to have which don&#x27;t work terribly well with the e-ink screen. I&#x27;m planning to implement a couple of projects to fill these gaps, at the moment I&#x27;m planning a Lemmy frontend and an OpenRouter frontend specifically for e-ink. Both are to be browser-based rather than native, to maximise compatibility and because I&#x27;m much more familiar with the web than Android development.<p>I would like to study the principles of sound e-ink UI design before approaching these projects to avoid creating unusable slop, in particular I am not entirely sure how to approach treating the refreshes as a first-class aspect of the design when I can&#x27;t control them from the browser, and how to apply comprehensible UI conventions when a greyscale, high-contrast display is the target.<p>Some specific problems I have out of the gate are:<p>* Streaming LLM output to the screen is basically the worst-case scenario for e-ink, I need to buffer it and paint it in chunks without this becoming horrible to use.<p>* Ghosting is a serious problem, browsing HN on the device is a particularly obvious example. Ideally I want to avoid scrolling as far as possible and rely on pagination instead, which I feel has the potential to become annoying if not done well.<p>* Given I must rely exclusively on layout and type to carry the UI, what design languages emphasise these qualities best? My gut says the early Mac OS versions wouldn&#x27;t be a bad place to start, this seems relevant given the display constraints of the early macs.<p>I would greatly appreciate any advice on the design and implementation of e-ink UIs from people with practical experience in this area. This is purely to scratch a personal itch, once they&#x27;re nailed down I&#x27;ll put them out in the wild under the GPL.",
+      "oneLineKo": "이잉크 기기용 브라우저 UI 설계 조언 요청",
+      "summaryKo": "흑백 이잉크 스마트폰(Bigme Hibreak Pro BW) 사용자가 Lemmy 및 OpenRouter용 브라우저 기반 프론트엔드를 개발하려 하며, 이잉크 특유의 리프레시 제약과 고스팅 문제를 고려한 UI 설계 원칙을 HN 커뮤니티에 문의했다. 스트리밍 LLM 출력의 화면 표시, 스크롤 대신 페이지네이션 활용, 그레이스케일·고대비 화면에 적합한 레이아웃과 타이포그래피 중심의 디자인 언어(초기 Mac OS를 참고 사례로 언급)에 대한 조언을 구하고 있다. 완성된 설계는 GPL로 공개할 예정이다.",
+      "tags": [
+        "e-ink",
+        "ui-design",
+        "frontend"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1vkdq8p",
+      "title": "Beyond Senior - Creating Hope",
+      "url": "https://www.reddit.com/r/programming/comments/1vkdq8p/beyond_senior_creating_hope/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1vkdq8p/beyond_senior_creating_hope/",
+      "publishedAt": "2026-08-10T07:09:44+00:00",
+      "snippet": "Every time I leave a role I try and write up where my philosophy landed and what I want to take into my next role. Having seen this play out at enough companies over the years to where people progressively lose motivation and stop believing change is possible I've come to the opinion that one of the most valuable things we can do as engineering leaders is to provide hope. The post goes more into it, but I do not mean any vapid rah-rah motivational speeches, I mean earning back that hope every day by snowballing small wins into larger ones and making people believe that their effort matters. submitted by /u/keyslemur [link] [comments]",
+      "oneLineKo": "시니어 이후 엔지니어링 리더의 역할은 '희망' 심어주기",
+      "summaryKo": "작성자는 여러 회사를 거치며 직원들이 점차 동기를 잃고 변화 가능성을 믿지 않게 되는 과정을 목격했다고 말한다. 이에 엔지니어링 리더가 할 수 있는 가장 가치 있는 일 중 하나는 진정성 있게 '희망'을 제공하는 것이라고 주장한다. 이는 공허한 응원 연설이 아니라, 작은 성공들을 매일 쌓아 올려 더 큰 성과로 만들고 구성원들이 자신의 노력이 의미 있다고 믿게 만드는 것을 의미한다. 저자는 역할을 옮길 때마다 자신의 리더십 철학을 정리해 다음 역할에 반영해왔다고 밝혔다.",
+      "tags": [
+        "engineering-leadership",
+        "career",
+        "management"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32363",
+      "title": "Show GN: AI 에이전트가 요구사항과 조사 자료를 연결하고, 한국어 표현을 검토하도록 하는 방법에 대해서",
+      "url": "https://news.hada.io/topic?id=32363",
+      "commentsUrl": "https://news.hada.io/topic?id=32363",
+      "publishedAt": "2026-08-10T23:06:35+09:00",
+      "snippet": "AI 에이전트가 요구사항과 조사 자료를 연결하고, 한국어 표현을 검토하도록 하는 방법에 대 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Show GN: AI 에이전트가 요구사항과 조사 자료를 연결하고, 한국어 표현을 검토하도록 하는 방법에 대해서 (github.com/nwleedev) 1 P by austin 8시간전 | ★ favorite | 댓글과 토론 AI 에이전트를 통해 여러 프로젝트에서 리서치 및 개발 작업을 진행하면서 두 가지 문제를 반복해서 겪었습니다. 요구사항, 리서치한 자료, 결정 사항, 작업 계획이 서로 중복되거나 잘못된 폴더에 배치되는 등 체계적으로 관리되고 있지 않았습니다. 문서를 관리하기 위해 또 다른 문서를 작성하는 등 너무 많은 파일이 생겨나고 있었습니다. 마크다운 테이블로 각 문서를 관리하는 방식이 생각보다 좋지 않았습니다. 겉으로 보기에는 깔끔할지는 몰라도, 문법 때문에 코드 편집기에서 내용을 파악하기 어렵거나, 규격에 맞춰야 하기 때문에 수정하기 어려웠습니다. AI가 작성한 한국어 문서에 번역체와 AI 양산형 문구, 의미없는 반복적인 문장이 들어가고, 문장 자체는 자연스러워 보여도 앞뒤 관계나 책임 주체를 이해하기 어려운 경우가 있었습니다. 이 문제를 다루기 위해 docs-system 을 만들고 있습니다. 이 프로젝트는 완성된 애플리케이션이나 모든 저장소에 그대로 적용하는 프레임워크는 아닙니다. 다만 AI 에이전트에게 어떻게 작업을 지시해야 할지에 대해서 리서치하고, 각 저장소에 맞게 고쳐 쓸 수 있도록 문서와 스킬을 세팅한 레포입니다. GitHub: https://github.com/nwleedev/docs-system use-design-docs로 요구사항과 조사 자료 관리하기 이 스킬은 AI 에이전트가 각 저장소의 docs/designs/README.md 를 읽고 요구사항, 리서치한 외부 컨텐츠, 결정과 계획을 구분해 기록하도록 합니다. (없으면 스킬 내 폴더에서 복사합니다.) 요구사항은 작업자가 요구한 작업과 작업에 대한 완료 조건이 작성됩니다. 외부 자료에서 확인한 사실, AI의 분석과 제안은 별도 문서에 두고 요구사항처럼 취급하지 않습니다. 결정이 필요한 내용은 승인 전까지 제안으로 남기며, 실행 계획은 해결된 요구사항과 결정만 사용합니다. 테이블 및 고정된 문서 템플릿을 사용하는 방식이 아닙니다. 문서의 내용에 따라 소제목, 짧은 문단과 목록을 선택하고, 표 없이도 비교 순서와 근거를 따라갈 수 있게 작성합니다. 모든 작업에 조사 문서나 결정 기록을 미리 만들지 않고, 다음 작업에서도 다시 확인해야 할 정보가 있을 때만 추가합니다. 초기에는 각 문서마다 정해진 역할을 부여해야 한다는 강박감이 있었습니다. 그래서 작업이 완료되었는지 추적하기 위한 문서, 각 문서의 연결점을 따로 관리하는 문서, 그리고 여러 개의 템플릿을 두었습니다. 하지만 실제 작업에 대해서 실제로 사용하지 않는 구조가 늘어나 한 차례 정리 과정에서 모든 템플릿과 표를 제거했습니다. 이후에는 문서 모양보다 필요한 정보가 있는지 파악하고 각 문서의 필수적인 역할을 정의하는 쪽 으로 바꿨습니다. 긴 조사 문서에 사용했던 표는 읽는 순서를 끊는 문제가 있어 소제목과 문단 중심으로 다시 구성했습니다. use-words-review로 한국어 문서 검토하기 이 스킬은 작성, 커밋, 게시하거나 외부에 공유할 글을 검토합니다. 먼저 스크립트가 번역체일 가능성이 있는 표현과 지나치게 긴 문단을 찾습니다. 이 결과는 오류 판정이 아니라 검토할 위치를 알려주는 후보에 가깝습니다. 서브에이전트 또는 메인 에이전트를 활용하여 글을 실제로 파악해야 하는 당사자, 표현이 사용된 경위, 문장 사이의 관계, 자연스러운 한국어 표현에 대하여 검토합니다. 두 방식 모두 스크립트가 찾지 못한 의미 문제까지 살피지만 문장을 자동으로 고치지는 않습니다. 수정은 검토 결과를 확인한 뒤 별도 작업으로 진행합니다. 서브에이전트의 경우 따로 서브에이전트를 배치하는 것보다는 스킬이 알아서 글의 중요도에 따라서 모델과 추론 강도를 설정합니다. 처음에는 중요한 채팅 답변까지 검토 대상으로 볼 수 있어 호출 횟수가 너무 많아지고 토큰 소모량도 높았습니다. 현재는 일반 채팅과 진행 알림을 제외하고, 저장하거나 공유할 결과물 전체를 한 번 검토하도록 줄였습니다. 현재 확인하고 싶은 점 이 저장소에는 아직 여러 종류의 저장소를 대상으로 생산성과 문서 품질을 비교한 측정 결과가 없습니다. 저장소마다 역할과 문서 구조가 다르기 때문에 이 자료를 그대로 복사하기보다 필요한 부분을 골라 수정해야 합니다. 그러므로 다음 세 가지에 대한 의견을 듣고 싶습니다. 이 문서 관리 방식과 검토 절차가 실제 에이전트 작업에 도움이 되나요? 기존 에이전트 작업 방식과 비교했을 때 빠진 상황은 무엇인가요? 아니면 기존 방식보다 불편하거나 나빠지는 점이 있을까요? 비슷한 문제를 겪었거나 다른 방식으로 해결하고 계신 분들의 사례도 궁금합니다. 함께 보면 좋은 글 β Claude가 만든 한국어 문서는 왜 어딘가 이상할까 — 표현과 디자인 규약으로 제대로 된 문서를 작성하는 Skill AI가 쓴 리포트를 사람이 조금 더 읽기 편하게 만드는 에이전트 스킬 AI 에이전트를 위한 좋은 스펙 작성법 hallmark - AI 티가 안나는 디자인 스킬 AI를 활용한 프로그래밍 역량을 높이는 방법 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 GeekNews를 계속 받아보려면 Weekly 뉴스레터나 GeekBots를 이용해보세요. Weekly 구독 · GeekBots · GeekNews 소개 처음 오셨나요 사이트 이용법 FAQ About 후원하기 이용약관 개인정보 처리방침 Rel",
+      "externalUrl": "https://github.com/nwleedev/docs-system",
+      "oneLineKo": "AI 에이전트 문서 관리와 한국어 표현 검토 스킬 공개",
+      "summaryKo": "AI 에이전트로 여러 프로젝트를 진행하며 요구사항·리서치·결정사항 문서가 뒤섞이고 AI가 쓴 한국어 문서가 어색한 문제를 해결하기 위해 docs-system 프로젝트를 만들었다. use-design-docs 스킬은 표 대신 소제목과 문단으로 요구사항, 외부 자료, 결정, 계획을 구분해 기록하도록 하고, use-words-review 스킬은 번역체 표현과 긴 문단을 찾아 서브에이전트가 자연스러움을 검토하게 한다. 두 스킬 모두 자동 수정 대신 검토 후보만 제시하며, 저자는 다른 저장소 적용 경험과 개선 의견을 구하고 있다.",
+      "tags": [
+        "ai-agent",
+        "documentation",
+        "korean-nlp"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49243880",
+      "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+      "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49243880",
+      "publishedAt": "2026-08-10T14:06:22Z",
+      "score": 267,
+      "comments": 325,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;archive.is&#x2F;20LOJ\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.is&#x2F;20LOJ</a><p><a href=\"https:&#x2F;&#x2F;www.meta.com&#x2F;thefutureisforeveryone&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.meta.com&#x2F;thefutureisforeveryone&#x2F;</a>",
+      "oneLineKo": "저커버그, 폐쇄형 AI 경쟁사 비판하며 오픈모델 회귀 선언",
+      "summaryKo": "마크 저커버그가 폐쇄형(closed) AI 정책을 고수하는 경쟁사들을 공개적으로 비판했다. 이와 함께 Meta가 다시 오픈소스 AI 모델 전략으로 방향을 전환하겠다는 의지를 밝혔다. 관련 내용은 Meta의 'The Future Is For Everyone' 캠페인 페이지에서도 확인할 수 있다.",
+      "tags": [
+        "meta",
+        "open-source",
+        "llm"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32357",
+      "title": "Docker Sandboxes - AI 에이전트용 일회성 격리 환경",
+      "url": "https://news.hada.io/topic?id=32357",
+      "commentsUrl": "https://news.hada.io/topic?id=32357",
+      "publishedAt": "2026-08-10T20:35:43+09:00",
+      "snippet": "Docker Sandboxes - AI 에이전트용 일회성 격리 환경 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Docker Sandboxes - AI 에이전트용 일회성 격리 환경 (docker.com) 1 P by GN⁺ 11시간전 | ★ favorite | 댓글 1개 Docker Sandboxes 는 AI 코딩 에이전트마다 전용 microVM을 제공해, 호스트 시스템과 분리된 환경에서 장시간 무인 작업을 실행할 수 있게 함 샌드박스에는 개발 환경과 프로젝트 작업공간만 마운트되며, 에이전트는 패키지 설치·설정 변경·서비스 실행·Docker 컨테이너 구동까지 수행 가능함 YOLO 모드 ( --dangerously-skip-permissions )에서도 승인이나 수동 검토 없이 작업하도록 지원하되, 파일시스템·네트워크 제어로 접근 범위를 제한함 Claude Code, Gemini CLI, Copilot CLI, Codex, OpenCode, Kiro를 기본 지원하고 사용자 정의 에이전트도 추가할 수 있으며, Docker Desktop은 필요하지 않음 샌드박스는 빠르게 생성·폐기하는 일회성 환경 이 기본이며, 조직 정책과 MCP 거버넌스는 Docker AI Governance에서 중앙 관리함 전용 microVM으로 호스트와 격리 Docker Sandboxes 는 AI 코딩 에이전트마다 전용 microVM 을 생성해 호스트와 분리함 개발 환경과 프로젝트 작업공간만 샌드박스에 마운트하므로, 내부 작업이 호스트에 영향을 주지 않음 격리된 환경에서도 다음 작업을 수행할 수 있음 패키지 설치 설정 파일 수정 서비스 실행 추가 Docker 컨테이너 생성 장시간 무인 작업 작업이 끝나면 명령 하나로 폐기할 수 있으며, 일회성 사용이 기본값 임 완전한 VM의 비용 부담 없이 microVM 격리를 제공해 일반 VM보다 빠르게 생성하고 제거할 수 있음 승인 프롬프트 없는 자율 실행 YOLO 모드 ( --dangerously-skip-permissions )는 승인 프롬프트 없이 에이전트에 자율 실행 권한을 부여함 별도 보호 장치 없이 사용하면 위험하지만, Docker Sandboxes는 전용 microVM 격리로 이 실행 방식을 지원함 허용적인 실행 모드가 기본이어서 수동 검토·권한 요청·감독 없이 실제 개발 환경에서 작업할 수 있음 사용자가 정의한 네트워크·파일시스템 제어 로 샌드박스의 접근 범위를 제한 가능함 지원 에이전트와 실행 범위 Claude Code, Gemini CLI, Copilot CLI, Codex, OpenCode, Kiro 를 기본 지원함 기본 목록에 없는 사용자 정의 에이전트도 생성할 수 있음 하나의 Docker Sandboxes 환경에서 여러 코딩 에이전트를 사용할 수 있음 에이전트가 샌드박스 안에서 Docker 컨테이너를 직접 실행하므로, 추가 권한이 필요한 개발 작업도 격리된 상태로 처리 가능함 Docker Desktop 없이도 사용할 수 있음 설치와 시작 macOS에서는 Homebrew로 설치함 brew trust docker/tap && brew install docker/tap/sbx Windows에서는 winget으로 설치함 winget install Docker.sbx 자세한 사용법은 Docker Sandboxes 문서 에서 확인할 수 있음 팀·조직 단위 정책 관리 기본 설치에는 샌드박스 실행에 필요한 핵심 기능이 포함됨 팀 전체에 동일한 정책을 정의하고 각 개발자 머신에 강제하려면 Docker AI Governance 를 사용함 중앙에서 다음 항목을 관리할 수 있음 샌드박스의 네트워크 접근 정책 파일시스템 접근 규칙과 제한 팀 단위 관리자 설정 조직 전체의 MCP 거버넌스 정책을 한 번 정의한 뒤 조직 전체에 적용할 수 있음 함께 보면 좋은 글 β sandboxd - AI 앱-빌더 제품을 위한 오픈소스 샌드박스 엔진 Matchlock - Linux 기반 샌드박스로 AI 에이전트 워크로드 보호 리눅스에서 AI 에이전트를 샌드박싱하기 hallmark - AI 티가 안나는 디자인 스킬 모든 것을 로컬에서 – 오프라인 AI 워크스페이스 구축기 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ GN⁺ 11시간전 [-] Hacker News 의견들 로그인은 번거롭지만 오픈소스 대안이 없어 한동안 매일 사용 중임. 별도 설정 없이 잘 작동하며 핵심은 아웃바운드 방화벽 과 자리표시자를 이용한 비밀 정보 주입 임 Superset과 함께 실행하고, 저장소별로 구성한 샌드박스에 각 Git worktree를 마운트함 가장 가까운 오픈소스는 https://earendil-works.github.io/gondolin 이지만 개발자 경험이 덜 다듬어졌고, https://exe.dev/ 는 아웃바운드 방화벽만 있었다면 완벽했을 것 같음. 더 나은 대안을 찾고 있음 더 낫다고 단언하긴 어렵지만, AI 에이전트 실행 환경을 Docker 컨테이너에 가둘 수 있는 Agent Circus ( https://github.com/Embedded-Focus/agent-circus )를 구현했고 몇 달째 주력으로 사용 중임 비특권 Podman 컨테이너 지원도 기능 목록에 올려둠 네트워크 제어와 비밀 정보 주입 , microVM 조합은 현재로선 최선에 가깝지만 앞으로 더 세밀한 도구가 필요함. 설명한 용도에는 Microsandbox가 잘 맞아 보이며, 이를 기반으로 코딩 에이전트 작업대인 https://github.com/isolade/isolade 도 만들었음 Microsandbox 자체도 상당히 흥미로움: https://github.com/superradcompany/microsandbox Eclipse Encl",
+      "externalUrl": "https://www.docker.com/products/docker-sandboxes/",
+      "oneLineKo": "Docker, AI 에이전트용 microVM 격리 샌드박스 출시",
+      "summaryKo": "Docker Sandboxes는 AI 코딩 에이전트마다 전용 microVM을 생성해 호스트와 분리된 일회성 격리 환경을 제공한다. 샌드박스 안에서 패키지 설치, 서비스 실행, Docker 컨테이너 구동까지 가능하며, 승인 없이 자율 실행하는 YOLO 모드도 네트워크·파일시스템 제어로 안전하게 지원한다. Claude Code, Gemini CLI, Copilot CLI 등 주요 에이전트를 기본 지원하며 Docker Desktop 없이도 사용 가능하다. 조직 단위 정책은 Docker AI Governance로 중앙 관리한다.",
+      "tags": [
+        "docker",
+        "ai-agent",
+        "sandbox"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49244085",
+      "title": "Exploring Claude/GPT Knowledge Cutoffs and Pre-Training Timelines",
+      "url": "https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49244085",
+      "publishedAt": "2026-08-10T14:20:41Z",
+      "score": 81,
+      "comments": 11,
+      "snippet": "Exploring Claude/GPT Knowledge Cutoffs - by Shrivu Shankar Shrivu’s Substack Subscribe Sign in Exploring Claude/GPT Knowledge Cutoffs & Pre-training Timelines An analysis of what models know and what it tells us about how they were trained. Shrivu Shankar Aug 10, 2026 8 4 Share We can learn hidden facts about how frontier models were trained by “probing” them with carefully curated requests. By scoring them on niche facts we can approximate how many parameters models like GPT-5 and Opus have, using “Incompressible Knowledge Probes” By measuring how the models break down tokens we can reveal facts about the datasets mixtures they used to train the model (or at least the tokenizer) using “Data Mixture Inference” By scoring them on date or self-identification related questions you can also estimate training timelines ( this post ) Everything here is an estimate. It’s possible that some speculation in this post is totally incorrect given there’s not a ton of publicly available ground truth to verify against. How frontier models are trained The 3 main stages of model training. As a brief primer (see Alex Wa’s blog for more), how we train massive large language models has converaged into 3 stages: Take a massive amount of general purpose data (aka scrape the internet) and “pre-train” a massive auto-complete model on that data. Use domain-specific “textbook quality” data to improve the base models and extend certain base capabilities like long-text understanding Turn the base model into the “assistant” persona, honing in on its personality, reasoning ability, and tool-calling. While increasingly more compute is spent on post-training for boosting a model’s reasoning and problem solving, one of the most expensive and data-intensive steps is generating that pre-training checkpoint (by ‘checkpoint’ think of a massive claude-super-secret-2026-11-01-base.cpkt file). While all labs operate slightly differently, what you might see (~ page 44 ) is: The “pre-training” team kicks off and babysits a multi-month run to get a base checkpoint. These pre-training models often, but not always, imply major versions of released models (GPT-4 → GPT-5). While that’s happening, the “capability” and “post-training” teams will run experiments for how to improve on the most recent base model. Advancements in post-training and capabilities often manifest as minor versions of released models. These teams often also “distill” a single post-trained model into smaller variants that become model families (Fable/Opus/Sonnet/Haiku, Sol/Terra/Luna). Labs may also release post-trained models from half-baked pre-training checkpoints as soon as x% of the version N+1 checkpoint is better than the 100% baked version N checkpoint. The model released to the public is the culmination of the most recent checkpoint with the best set of capabilities and post-training techniques applied to it. With this in mind, I was curious how much of this process you can “see” just by probing the model over th",
+      "oneLineKo": "질문으로 GPT·Claude 학습 시점 추정하기",
+      "summaryKo": "이 글은 Claude, GPT 같은 프론티어 모델에 특정 질문을 던져 응답을 분석함으로써 모델 학습 방식에 대한 숨겨진 정보를 추론하는 방법을 다룬다. 니치한 사실 질문으로 파라미터 수를, 토큰 분해 방식으로 데이터 구성을, 날짜·자기인식 관련 질문으로 사전학습(pre-training) 및 학습 타임라인을 추정하는 기법을 소개한다. 또한 사전학습, 도메인 특화 미세조정, 어시스턴트 페르소나 구축이라는 LLM 학습의 3단계 과정을 설명하며, 이를 바탕으로 모델의 지식 컷오프 시점을 역추적한다. 저자는 이러한 분석이 모두 추정치이며 공개된 검증 자료가 부족함을 명시하고 있다.",
+      "tags": [
+        "llm",
+        "pre-training",
+        "model-analysis"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32349",
+      "title": "저항에 관한 이메일을 받다",
+      "url": "https://news.hada.io/topic?id=32349",
+      "commentsUrl": "https://news.hada.io/topic?id=32349",
+      "publishedAt": "2026-08-10T18:02:00+09:00",
+      "snippet": "저항에 관한 이메일을 받다 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ 저항에 관한 이메일을 받다 (seangoedecke.com) 1 P by GN⁺ 13시간전 | ★ favorite | 댓글 1개 William Murray는 AI와 자동화로 소프트웨어의 깊은 사고가 직업적 가치를 잃어가는데도 변화에 저항하지 않는 태도를 공모이자 체념 이라고 비판함 프로그래머를 자동화에 위협받으면서도 힘을 얻는 고숙련 장인 으로 보고 현재를 산업혁명기 영국과 비교하지만, 기술 변화의 장기적 결과와 올바른 대응은 미리 알기 어려움 러다이트의 기계 파괴는 지역에 따라 자동화를 늦추거나 촉진했고 대규모 군사 진압으로 이어졌으므로, 후대의 호의적인 평가가 당시 행동의 실효성을 입증하지는 않음 공개적인 반AI 저항을 부추기는 조언은 특히 주니어·중급 엔지니어 의 해고나 경력 손상으로 이어질 수 있어, 행동에 따르는 결과를 알려주는 역할이 더 중요하다고 판단함 회사와 정면충돌하기보다 시스템의 규칙 을 배우고 영향력을 행사할 위치를 확보한 뒤 안전하게 변화를 만드는 것이 현실적인 실무 전략임 저항하지 않는 태도는 공모인가 William Murray는 소프트웨어에서 깊이 사고한 대가를 받는 시대가 끝나간다면 합리적인 대응은 다른 일을 찾거나 저항하는 것 뿐이라고 봄 변화에 슬퍼하면서도 ‘유용성’을 이유로 상황을 흔들지 않는 태도는 성숙함·실용주의·현실주의가 아니라 공모 에 가깝다고 비판함 Willy Wonka가 상황을 통제하면서도 방향을 모르는 승객처럼 행동하는 장면에 빗대어, 개인은 변화의 방향을 받아들이거나 다음 정거장에서 내려야 한다고 요구함 다만 Wonka는 공장 소유주이고 노 젓는 사람들은 그의 직원이므로, 일반 엔지니어나 대부분의 관리자는 그와 같은 통제력을 갖지 못함 많은 독자에게 닿는 영향력을 기술 변화에 대한 체념이나 더 비관적인 태도를 과시하는 데 쓰는 것은 목소리의 낭비라고 봄 미래 세대는 어떻게 평가할 것인가 인류가 생존하며 계속 기하급수적으로 성장한다면 역사적 인물의 수는 고정되는 반면 동시대인의 수는 계속 늘어난다고 가정함 언젠가는 2026년의 스태프 소프트웨어 엔지니어 한 명마다 2020년대 소프트웨어 엔지니어링 문화를 연구하는 역사가가 수십 명씩 존재할 수 있음 현재의 글과 행동이 오랫동안 기억될 가능성이 있으므로, 미래인이 이를 경력을 합리화한 태도 로 볼지 더 나은 행동으로 볼지 고민해야 한다고 요구함 산업혁명기 노동자와 프로그래머 현재 프로그래머는 자동화에 번갈아 위협받고 힘을 얻는 고숙련 장인 집단 이라는 점에서 산업혁명기 영국 노동자와 비슷함 오늘날의 변화가 광범위한 결과를 낳는 것은 분명하지만 구체적인 결과까지 예측하기는 어려움 1800년대 초 편물공은 편물 기계(stocking frame)가 현대 세계에 미칠 영향을 알거나, 어떤 행동이 후대의 호의적인 평가를 받을지 판단하기 어려웠을 것임 당시 많은 러다이트는 공장주를 공격하고 기계를 부수며 공장을 불태움 일부 지역에서는 자동화 확산을 늦췄지만 다른 지역에서는 오히려 촉진함 진압 과정에서 수만 명의 영국군이 여러 카운티를 점령하는 경찰국가적 상황 이 벌어짐 역사가 러다이트를 호의적으로 평가하더라도 그들의 행동이 실제로 효과적이었다는 뜻은 아님 가장 취약한 엔지니어에게 필요한 조언 중요한 대상은 후대의 평가가 아니라 바뀐 규칙을 몰라 불안해하는 현업 엔지니어 임 수백 명의 주니어·중급 및 기타 엔지니어가 2021년 이후의 규칙을 모르겠으며, 몸을 낮춰 일자리를 지키는 데 글이 도움이 됐다는 이메일을 보내옴 이상주의적인 엔지니어가 위험을 감수했다가 제로금리 이후 환경에서 해고되는 사례를 목격했기 때문에 신중한 태도로 글을 씀 안전한 빅테크 직책에 있거나 이미 은퇴한 엔지니어들이 두 번째 러다이트 혁명을 부추기는 것은 도덕적으로 잘못됐다고 판단함 경험 많은 독자는 선동적인 메시지를 신중하게 받아들일 수 있지만 모든 독자가 그러지는 못함 “AI는 파시즘이니 일어나 저항하라”는 식의 글은 이상주의적인 주니어의 경력을 해칠 수 있음 모든 사례에 적용된다는 표현은 다소 과장이지만 실제로 그런 일이 발생하며 불필요한 고통을 만듦 누군가는 특정 행동 X가 결과 Y를 낳는다는 사실을 알려야 하며, 자신의 역할을 여기에 둠 혁명보다 위험 회피를 택하는 이유 이런 태도가 공모적이거나 반혁명적이라는 평가는 받아들이지만, 1810년대 영국의 섬유 노동자였다면 가까운 사람들에게 공장을 부수러 가자고 권하지 않았을 것임 당시가 업계에서 가장 위험한 시기일 수 있으므로 총에 맞거나 체포·교수형을 당하지 않도록 극도로 조심하라 고 조언했을 것임 가족과 친구에게는 조심하라고 하면서 수십만 명의 낯선 사람에게 저항하라고 말한다면 위선이 됨 협력에도 도덕적 한계가 있음 산업혁명에 협력하는 것은 허용될 수 있지만 나치에 협력하는 것은 허용될 수 없다고 구분함 현재는 자신의 영향력을 가장 취약한 동료들이 경력을 망치는 실수를 피하도록 돕는 데 사용함 시스템 안에서 안전하게 영향력 행사하기 기본 전략은 시스템과 함께 일하며 그 규칙을 배우고 , 권한이 있는 위치에서 안전하게 영향력을 행사 하는 것임 고용주와 공개적으로 정면충돌 하는 방식은 권하지 않음 러다이트 운동 자체와 반AI 행동을 위해 이를 되살리려는 현대적 시도 에는 여전히 깊은 양가감정 을 가짐 함께 보면 좋은 글 β 한 직군 전체가 자신의 경력을 믿지 않게 되면 무슨 일이 벌어질까 소프트웨어 엔지니어링은 더 이상 평생 직업이 아닐 수 있다 논쟁 대부분은 아이디어가 아니라 자아에 관한 것 AI가 소프트웨어 엔지니어를 대체하지 않은 이유, 그리고 앞으로도 대체하지 못할 이유 AI를 거부하는 것은 인간의 선택이다 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토",
+      "externalUrl": "https://www.seangoedecke.com/i-got-an-email-about-resistance/",
+      "oneLineKo": "AI 시대 저항론에 반박, 안전한 영향력 행사가 현실적",
+      "summaryKo": "필자는 AI와 자동화로 소프트웨어 엔지니어의 가치가 줄어드는 상황에서 공개적 저항을 부추기는 것이 주니어·중급 엔지니어에게 해고 등 위험을 초래할 수 있다고 비판한다. 산업혁명기 러다이트 운동을 예로 들며, 후대의 호의적 평가가 당시 행동의 실효성을 보장하지 않았음을 강조한다. 대신 시스템의 규칙을 배우고 영향력을 확보한 뒤 안전하게 변화를 만드는 것이 더 현실적인 전략이라고 주장한다.",
+      "tags": [
+        "ai",
+        "software-engineering",
+        "automation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49208296",
+      "title": "Sonic Pi v5",
+      "url": "https://www.patreon.com/samaaron/posts/sonic-pi-v5-166001392",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49208296",
+      "publishedAt": "2026-08-07T10:26:34Z",
+      "score": 254,
+      "comments": 69,
+      "oneLineKo": "라이브 코딩 음악 도구 Sonic Pi 버전 5 출시",
+      "summaryKo": "Sonic Pi의 새로운 버전 5가 공개되었습니다. Sonic Pi는 코드를 작성해 실시간으로 음악을 만들 수 있는 라이브 코딩 및 음악 교육용 오픈소스 도구입니다. 본문 내용이 제목만 제공되어 구체적인 변경 사항은 확인할 수 없습니다.",
+      "tags": [
+        "sonic-pi",
+        "live-coding",
+        "music"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32347",
+      "title": "모노리포 희망편, 절망의 리포가 희망의 리포로 부활하기까지 걸린 1년",
+      "url": "https://news.hada.io/topic?id=32347",
+      "commentsUrl": "https://news.hada.io/topic?id=32347",
+      "publishedAt": "2026-08-10T17:21:01+09:00",
+      "snippet": "모노리포 희망편, 절망의 리포가 희망의 리포로 부활하기까지 걸린 1년 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ 모노리포 희망편, 절망의 리포가 희망의 리포로 부활하기까지 걸린 1년 (toss.tech) 3 P by raon0211 14시간전 | ★ favorite | 댓글과 토론 토스 모노리포가 100명 규모에서도 굴러가는 이유: 카탈로그 개요 토스는 100명 이상의 프론트엔드 엔지니어가 하루 수백 번 배포하면서도, 모든 서비스가 동일한 버전의 React 19 / Next.js 15 / TypeScript 7(Go 재작성 버전)을 사용함 모든 모바일 제품 코드는 1개의 모노리포로 통합되어 있으며, 이 일관성의 핵심에 '카탈로그(Catalog)' 가 있음 모노리포만으로는 해결되지 않았던 문제 5명 시절부터 모노리포를 써왔지만, 규모가 커지며 서비스마다 의존성 버전이 제각각이 됨 → 개발 경험 파편화 의존성 종류가 너무 많아 캐시가 있어도 설치에 1분 이상 소요됨 플랫폼 팀은 전사 공통 라이브러리를 만들어도 \"한 곳에서 되면 다른 곳에서도 된다\"를 보장할 수 없었고, 서비스 개발자는 업데이트 비용이 높아 낡은 의존성에 고착됨 폴리리포 전환은 답이 아니라고 판단 리포를 쪼개면 리포당 의존성이 가벼워지는 효과는 있지만, 파편화·공통 코드 비용 문제는 그대로 남고 오히려 심해질 것으로 판단함 문제의 본질은 \"모노리포 구조\"가 아니라 \"서비스마다 의존성 버전이 다르다\" 는 것이었음 실제 서비스 개발자를 관찰해보니 \"React가 필요하다\"는 결정은 해도, 특정 버전을 지정해야 하는 경우는 거의 없었음 → 표준 버전 제공이 가능하다고 결론 카탈로그 도입 pnpm/Yarn의 catalog 기능을 활용해 표준 라이브러리 버전을 중앙 정의하고, 각 서비스는 \"react\": \"catalog:\" 프로토콜로 참조하는 방식 React, Next.js, TypeScript, TDS(사내 컴포넌트), 토스 앱 SDK 등 핵심 라이브러리 10~20개부터 시작함 신규 서비스 스캐폴딩 시 카탈로그 참조가 기본값이고, yarn add 도 카탈로그를 참조하도록 했으며, CI에서 카탈로그 미사용을 자동 검출함 기존 서비스는 코드 오너들과 오프라인으로 모여 동작을 검증하며 100% 마이그레이션함 정량적 효과 Yarn PnP의 .pnp.cjs 파일 크기: 96MB → 15MB (약 84% 절감) 개발 서버 실행 속도: 26.7초 → 20.3초 (약 23% 개선) 캐시 없이 전체 의존성 설치 시간: 528.4초 → 249.9초 (약 52% 단축) 정성적 효과 카탈로그 패키지는 릴리즈 전 최소 1개 이상의 서비스에서 검증한다는 제약을 두어, \"검증된 의존성\"이라는 신뢰가 생김 패키지 간 의존 관계의 무결성을 플랫폼 팀이 검증해 버전 불일치로 인한 오동작을 예방함 의존성 가시성이 확보되자 패키지 개발자가 두려움 없이 구조 개편을 추진할 수 있게 됨 → RSC, TypeScript 7, Rspack, E2E 테스트 같은 급진적 개선을 짧은 기간에 안정적으로 도입함 공급망 공격 등 보안 이슈 발생 시에도 카탈로그에 패치 버전만 반영하면 전 서비스에 신속 대응 가능함 운영 정책이 핵심 카탈로그는 stable-26.08 처럼 발행 연월로 버저닝하며, 이미 발행된 카탈로그에는 절대 파괴적 변경을 넣지 않음 새 카탈로그는 한 달에 최대 1회만 발행 하고, 매월 초 사내 패키지 메인테이너들이 모여 예정된 변경 사항을 논의함 파괴적 변경이 있으면 항상 자동 코드 변환 스크립트(codemod)와 AI Skill을 함께 제공함 yarn catalog switch stable-26.08 한 번으로 카탈로그 전환과 코드 마이그레이션이 자동으로 수행됨 자체 개발한 yarn-plugin-catalogs 로 canary 카탈로그 발행( stable-26.07/canary ), 특정 워크스페이스의 카탈로그 강제/제한 등 정책을 코드로 시행함 흩어져 있던 사내 패키지들도 별도의 패키지 모노리포로 통합해 린트 도구, 파괴적 변경 검사기, E2E 테스트, 릴리즈 워크플로우를 갖춤 결론 문제의 근원은 모노리포 구조 자체가 아니라, 일관된 정책을 광범위하게 전파할 수단과 가시성의 부재였음 카탈로그라는 기술 위에 월 1회 발행 정책, 정책 강제 도구, 정기 미팅, 패키지 모노리포라는 운영을 1년간 쌓아 올린 결과 임 대규모 모노리포에서 문제를 겪고 있다면 폴리리포 전환 전에 먼저 문제를 명확히 정의해볼 것을 권함 함께 보면 좋은 글 β lodash를 아직 쓰고 있다면 - package.json 한 줄로 번들 97% 줄이기 (es-toolkit) 토스 프론트엔드 챕터 140명 조직을 운영하며 배운 것 Guido van Rossum이 전하는 Python의 구두 역사: Thomas Wouters 인터뷰 Node.js 타입스크립트를 기본으로 지원하기 시작 Monzo가 2,800개의 마이크로서비스에서 마이그레이션 하는 방법 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 GeekNews를 계속 받아보려면 Weekly 뉴스레터나 GeekBots를 이용해보세요. Weekly 구독 · GeekBots · GeekNews 소개 처음 오셨나요 사이트 이용법 FAQ About 후원하기 이용약관 개인정보 처리방침 Releases --> | Blog Lists RSS | Bookmarklet X (Twitter) Facebook | 긱뉴스봇 : Slack 잔디 Discord Teams Dooray! Google Chat Mattermost Swit 시작하기 이용법 FAQ About 후원 약관 개인정보 Lists Blog RSS X 긱뉴스봇 검색 언어 선택: 한국어 한국어 ✓ Indonesia Ti",
+      "externalUrl": "https://toss.tech/article/52209",
+      "oneLineKo": "토스, 카탈로그 도입으로 모노리포 의존성 파편화 해결",
+      "summaryKo": "토스는 100명 이상 규모의 프론트엔드 조직에서 모노리포 의존성 버전이 서비스마다 제각각이던 문제를 pnpm/Yarn의 카탈로그 기능으로 해결했다. React, Next.js, TypeScript 등 핵심 라이브러리를 중앙에서 표준 버전으로 관리하고 catalog: 프로토콜로 참조하게 해, 설치 시간과 캐시 파일 크기를 크게 줄였다. 월 1회 카탈로그 발행, codemod 자동 마이그레이션, 정책 강제 도구 등 1년간의 운영 체계를 구축해 폴리리포 전환 없이도 일관성과 신뢰성을 확보했다.",
+      "tags": [
+        "monorepo",
+        "frontend",
+        "yarn"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49249150",
+      "title": "Illinois Just Passed a Law That Puts Linux on the Hook for Age Verification",
+      "url": "https://linuxstans.com/illinois-hb5511-operating-system-age-verification/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49249150",
+      "publishedAt": "2026-08-10T20:20:06Z",
+      "score": 204,
+      "comments": 241,
+      "snippet": "Illinois HB5511: What It Means for Linux and Open Source Skip to content About Newsletter Write for Us – Submit an Article Contact us Comparisons Tutorials Best Distros Software Hardware Resources Search Search Search &hellip; Search Search Search &hellip; Search Search &hellip; Menu Comparisons Tutorials Best Distros Software Hardware Resources Home &raquo; News &raquo; Illinois Just Passed a Law That Puts Linux on the Hook for Age Verification News Illinois Just Passed a Law That Puts Linux on the Hook for Age Verification by Linux Stans | Updated August 10, 2026 HB5511 is officially about TikTok and Instagram. Read past the press release and it’s also about your operating system. Governor JB Pritzker’s press release on HB551 1 is thick with quotes from legislators and advocacy groups, and it names Instagram, TikTok, Snapchat, X, Facebook, and Roblox specifically. Device setup gets one mention, framed as something a parent configures during setup. Nowhere does it explain that the law also creates a separate legal category called an operating system provider , with its own 2028 deadline and its own civil penalties, that has nothing to do with what any parent chooses to click. TL;DR HB5511, the Children’s Social Media Safety Act , is now Illinois Public Act 104-0664 . Pritzker signed it July 31. The headline provisions target social platforms: no algorithmic feeds for minors by default, no notifications between 10pm and 7am, no contact from adult strangers. A separate part of the bill defines operating system provider and covered manufacturer broadly enough to include anyone who builds an internet-connected OS, commercial or nonprofit. By January 1, 2028 , those providers have to build an age-declaration step and hand an age-bracket signal to any app that requests one. Unlike Colorado, and unlike where California is heading, Illinois added no exemption for open source software . Enforcement runs through the Illinois Attorney General only. The bill’s own text caps penalties at $7,500 per affected child. The governor’s press release advertises penalties of up to $50,000 per violation. Those numbers don’t obviously square with each other. The Version Illinois Wants You to Read Set the operating system question aside for a second, because the social media half of this bill is fairly standard for 2026. Platforms built around algorithmic feeds, plus platforms where kids can be contacted by strangers (Roblox is the named example), now have to default minors into chronological, follow-only feeds instead of an engagement-optimized one. Notifications get cut off overnight. Adult strangers can’t see a minor’s profile, message them, or see their location. News sites, email providers, broadband companies, and school software are all carved out by name. It passed the General Assembly on June 1 without a single no vote, 57-0 in the Senate and 113-0 in the House concurrence. Pritzker signed it July 31, flanked by quotes from Attorney General Kwame Raoul and grou",
+      "oneLineKo": "일리노이 신법, 리눅스 등 OS에도 연령확인 의무 부과",
+      "summaryKo": "일리노이주가 서명한 HB5511(아동 소셜미디어 안전법)은 틱톡·인스타그램 등 소셜 플랫폼 규제를 넘어, '운영체제 제공자'라는 범주를 신설해 상업·비영리를 불문한 모든 인터넷 연결 OS 제작자에게 2028년까지 연령 확인 단계와 앱에 연령대 신호 제공 기능을 의무화했다. 콜로라도나 캘리포니아와 달리 오픈소스 소프트웨어에 대한 예외 조항이 없어 리눅스 배포판도 규제 대상에 포함될 수 있다. 위반 시 처벌 수위는 법안 본문(아동당 최대 7,500달러)과 주지사 보도자료(위반당 최대 50,000달러) 사이에 불일치가 있다.",
+      "tags": [
+        "linux",
+        "open-source",
+        "regulation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49243397",
+      "title": "Mistral Patent for “Code implemented tool calls”",
+      "url": "https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49243397",
+      "publishedAt": "2026-08-10T13:29:12Z",
+      "score": 196,
+      "comments": 165,
+      "snippet": "&#xfeff; US 12,670,045 B1 Code implemented tool calls Gabriel Vergnaud, Paris (FR) Assigned to Mistral AI, Paris (FR) Filed by Mistral AI, Paris (FR) Filed on Mar. 4, 2026, as Appl. No. 19/557,103. Int. Cl. G06F 9/54 (2006.01) CPC G06F 9/547 (2013.01) 20 Claims &#xa0; 1 . A method, comprising: receiving, at a server, a user request for execution of one or more tool calls; generating, by a large language model (LLM), a code block in a programming language, the code block configured to encapsulate the one or more tool calls; executing, by the server, the code block in a sandbox; in response to obtaining a pending tool call, pausing execution of the code block; transmitting the pending tool call to a client for execution; receiving, from the client, a first result of the pending tool call; resuming execution of the code block and substituting the first result of the pending tool call for the pending tool call in the code block; and returning a second result of the executed code block to the LLM.",
+      "oneLineKo": "Mistral AI, 코드 기반 LLM 툴콜 실행 특허 등록",
+      "summaryKo": "Mistral AI가 'Code implemented tool calls'라는 명칭의 미국 특허(US 12,670,045 B1)를 등록했다. 이 특허는 LLM이 여러 툴 호출을 캡슐화한 코드 블록을 생성하고, 서버가 이를 샌드박스에서 실행하다가 대기 중인 툴 호출을 만나면 실행을 일시 중지하고 클라이언트로 전달하는 방식을 다룬다. 클라이언트에서 받은 결과를 코드 블록에 대입해 실행을 재개한 뒤 최종 결과를 LLM에 반환하는 구조로, 20개의 청구항으로 구성되어 있다.",
+      "tags": [
+        "llm",
+        "patent",
+        "tool-calling"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49242653",
+      "title": "Squeak 6.1",
+      "url": "https://squeak.org/release_notes/6.1/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49242653",
+      "publishedAt": "2026-08-10T12:15:53Z",
+      "score": 195,
+      "comments": 99,
+      "snippet": "Squeak/Smalltalk | Squeak 6.1 Release Notes Toggle navigation Community Development [ | ] Documentation Downloads Features Projects Research License Donate Squeak 6.1 Release Notes These release notes are optimized for viewing inside Squeak, as they contain a lot of interactive examples. On this page, interactive links open in SqueakJS, which is a browser-based Smalltalk VM with some limitations. For the best experience, download Squeak and read the release notes there. Download Squeak Try it in browser (SqueakJS) *** Squeak 6.1 \"Vanessa\" Release Notes *** As Squeak approaches its 30th anniversary, we are proud to announce the next version of the system, Squeak 6.1. Some highlights of this release are: A new tree browser , which enables navigation through classes and categories using refurbished hierarchical morphs, The return of Objectland (also known as the \"Worlds of Squeak\"), Several changes and fixes for the kernel infrastructure for simulating, unwinding, and scheduling processes and reshaping classes, Miscellaneous improvements and additions to the toolset and user interface for inspecting, debugging, profiling, and versioning code. Please find below a detailed listing of all the changes, which includes notes on Major Deprecations , Known Issues , and Compatibility Notes at the bottom. About these release notes. Phew, what a release! Since the last release 4 years ago , we have merged 1700+ patches with 9000+ method changes . Beyond documenting technical changes in detail, these notes highlight the bigger picture and the overall impact of major developments. Along the way, you will find plenty of links to code pointers and interactive examples . Thus, these release notes serve not only as a changelog but also as a hands-on guide to exploring new features and mechanisms in Squeak. Click here to view an outline of this document. In memory of Vanessa Freudenberg (1972-2025). /^(o.o)^\\ /^(o.o)^\\ /^(o.o)^\\ /^(o.o)^\\ /^(o.o)^\\ Detailed Improvements in Language, Tools, and the Environment ~~~ GUI Frameworks ~~~ Morphic (up to Morphic-ct.2218/MorphicTests-ct.97 ) Major overhaul of tree morphs : Improves colors and mouse and keyboard shortcuts for navigating trees. Revises type-to-filter similar to lists, highlights search terms, and enables searching single columns via [TAB]. Adds a configurable filter mode to search within the current selection, all visible nodes, or the entire tree. Introduces a recursive \"find\"/\"find again\" feature available via [CMD] + [F]/[CMD] + [G]. Adds a flag for automatic expansion of trees. Improves support for drag'n'drop by automatically expanding nodes during dragging after one second of hovering. Miscellaneous stability and performance improvements for layouting, rendering, and event handling in trees. In the world, supports dropping of class references , system and method categories , and inspector and explorer fields to display them in a new window/widget. For mouse interactions, adds new preferences to customize ",
+      "oneLineKo": "Squeak 6.1 'Vanessa' 릴리스, 트리 브라우저 등 대규모 개선",
+      "summaryKo": "Smalltalk 환경인 Squeak의 새 버전 6.1 'Vanessa'가 발표되었습니다. 4년 만의 릴리스로 1700개 이상의 패치와 9000개 이상의 메서드 변경이 반영되었으며, 새로운 트리 브라우저와 Objectland(Worlds of Squeak)의 부활이 주요 특징입니다. 프로세스 시뮬레이션, 언와인딩, 스케줄링 등 커널 인프라 개선과 디버깅·프로파일링·버전 관리 도구의 향상도 포함됩니다. 이번 릴리스는 고인이 된 Vanessa Freudenberg를 기리며 헌정되었습니다.",
+      "tags": [
+        "smalltalk",
+        "squeak",
+        "gui"
+      ]
+    }
+  ]
+}
