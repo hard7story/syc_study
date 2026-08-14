@@ -1,0 +1,253 @@
+{
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-14T22:13:14.068Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32485",
+      "title": "Wails v3 Beta - Go 데스크톱 앱을 위한 새로운 기반",
+      "url": "https://news.hada.io/topic?id=32485",
+      "commentsUrl": "https://news.hada.io/topic?id=32485",
+      "publishedAt": "2026-08-14T09:45:02+09:00",
+      "snippet": "Wails v3 Beta - Go 데스크톱 앱을 위한 새로운 기반 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Wails v3 Beta - Go 데스크톱 앱을 위한 새로운 기반 (v3.wails.io) 15 P by xguru 21시간전 | ★ favorite | 댓글과 토론 초기엔 Go 백엔드 + HTML/CSS/JS·React·Vue 프론트엔드 로 맥/윈/리눅스용 단일 바이너리 앱을 만드는 가벼운 Electron 대체제였음 이후 v2를 거쳐 이번 v3 Beta 에서는 단순 GUI 래퍼보다 복잡한 데스크톱 앱을 만들기 위한 애플리케이션 구조 자체를 크게 재설계 wails.Run(...) 과 암묵적인 컨텍스트 중심 구조를 버리고 Application / Window / Service를 명시적인 객체와 수명주기 로 다루도록 변경 특히 멀티윈도우를 기본 기능으로 지원 해 에디터/Inspector/Preferences/Tool Window처럼 여러 창을 사용하는 앱을 별도 우회 방식 없이 구현 가능 기존 binding 대신 Go Service 를 도입해 백엔드 기능과 프론트엔드에 노출되는 API의 경계를 명확하게 만듦 Go 소스를 정적 분석해 TypeScript 바인딩을 만들기 때문에 주석과 실제 파라미터 이름까지 보존 하며, 런타임 reflection 기반 방식보다 프론트엔드 API가 풍부해짐 Service가 Go API뿐 아니라 프론트엔드 asset/script까지 함께 제공할 수 있어, 향후 설치형 플러그인 구조 를 만들 수 있는 기반도 추가됨 범용 플러그인 시스템 자체는 아직 포함되지 않음 빌드 과정도 프레임워크 내부에 숨기지 않고 Taskfile 기반으로 공개 해 직접 확인/확장/디버깅할 수 있게 바뀜 같은 Application/Service를 네이티브 창 없이 실행하는 Server Build 도 지원해 데스크톱 UI와 백엔드 로직을 분리해 활용할 수 있음 맥/윈/리눅스의 amd64/arm64를 지원하고, Linux 기본 스택은 GTK4 + WebKitGTK 6.0 으로 변경됨. iOS/Android도 실험적으로 지원 v3는 2023년 1월 첫 Alpha 이후 3년 넘게 개발돼 이번에 Beta 단계에 진입함 단, 아직 3.0 정식 릴리스가 아닌 Beta 이며 v2가 현재 안정 버전. 데스크톱 API는 안정화됐지만 운영 배포 전 충분한 테스트를 권장함 v2→v3는 단순 버전 업이 아니라 Application/Window 수명주기, Service, v2 Runtime API, 프론트엔드 바인딩을 다시 옮겨야 하는 실질적인 포팅 작업 으로 봐야 함 함께 보면 좋은 글 β Wails - Go 사용 데스크톱 응용 프로그램 개발 프레임 워크 Go Micro - Go를 위한 에이전트 하네스 의존성 관리의 피로함: React를 버리고 Go+HTMX+Templ 를 선택한 이유 Deno Desktop: Deno 프로젝트를 데스크톱 앱으로 패키징 GoScript - Go 코드를 TypeScript로 변환하는 트랜스파일러 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 GeekNews를 계속 받아보려면 Weekly 뉴스레터나 GeekBots를 이용해보세요. Weekly 구독 · GeekBots · GeekNews 소개 처음 오셨나요 사이트 이용법 FAQ About 후원하기 이용약관 개인정보 처리방침 Releases --> | Blog Lists RSS | Bookmarklet X (Twitter) Facebook | 긱뉴스봇 : Slack 잔디 Discord Teams Dooray! Google Chat Mattermost Swit 시작하기 이용법 FAQ About 후원 약관 개인정보 Lists Blog RSS X 긱뉴스봇 검색 언어 선택: 한국어 한국어 ✓ Indonesia Tiếng Việt Português Español ไทย 日本語 Türkçe Deutsch Français हिन्दी",
+      "externalUrl": "https://v3.wails.io/blog/wails-v3-beta/",
+      "oneLineKo": "Wails v3 Beta, Go 데스크톱 앱 구조 대개편",
+      "summaryKo": "Go 백엔드로 데스크톱 앱을 만드는 Electron 대체 프레임워크 Wails가 v3 Beta를 출시했다. Application/Window/Service를 명시적 객체와 수명주기로 다루도록 재설계했으며, 멀티윈도우 기본 지원과 Go Service 기반의 정적 분석 TypeScript 바인딩을 도입했다. 빌드 과정을 Taskfile로 공개하고 네이티브 창 없이 실행하는 Server Build도 지원하며, macOS/Windows/Linux의 amd64/arm64와 iOS/Android 실험적 지원을 포함한다. v2에서 v3로의 전환은 단순 업그레이드가 아닌 실질적인 포팅 작업으로 간주된다.",
+      "tags": [
+        "wails",
+        "go",
+        "desktop-app"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49300314",
+      "title": "Google is making private AI practical with homomorphic encryption",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49300314",
+      "publishedAt": "2026-08-14T15:43:10Z",
+      "score": 210,
+      "comments": 133,
+      "snippet": "How Google is Making Private AI Practical with Homomorphic Encryption Skip to main content Security How Google is Making Private AI Practical with Homomorphic Encryption [] Preferences Global (English) Africa (English) Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Links Images RSS feed x.com Facebook LinkedIn Mail Copy link Security How Google is Making Private AI Practical with Homomorphic Encryption Aug 14, 2026 | x.com Facebook LinkedIn Mail Copy link Jeremy Kun Staff Software Engineer Share x.com Facebook LinkedIn Mail Copy link Today we're excited to showcase HEIR , the latest powerful tool added to our Private Computing Toolkit. HEIR is an open source compiler that unlocks cryptographically-secure private AI inference. Homomorphic encryption As new benefits emerge with the growth of AI, balancing privacy and security is top of mind. Standard protections like end-to-end encryption present a trade-off: user-data can be protected from data breaches, but then the service provider cannot provide features that depend on the data, such as spam or virus detection. Critical sectors like healthcare and finance are even more averse to these risks, and strict regulations limit data sharing across institutions. Alternative mechanisms to provide the same features, like local processing, are limited by the capabilities of the local device and the sensitivity of the service provider's IP. Shipping proprietary AI to a device risks leaking the model. A solution to these issues is homomorphic encryption , a rapidly maturing technology that fundamentally alters this trade-off by allowing computations to be performed directly on encrypted data. Servers can process ciphertexts and return encrypted results without exposing any underlying information. For example, a cloud service can provide content recommendations without being able to see the user's features. This is no exaggeration: one of the demos featured in this post does exactly this. But while homomorphic encryption has a nontrivial cost overhead, it shifts the capability/privacy trade-off to a question of cost. And the cost of homomorphic encryption is rapidly decreasing. Google’s history of innovations in privacy technology—from differential privacy and private set membership to private information retrieval and secure enclaves on Google Cloud —has always focused on securing user data. Homomorphic encryption is another powerful tool we're adding to our private computing toolkit. Like private information retrieval, and in contrast to hardware-based solu",
+      "oneLineKo": "구글, HEIR로 동형암호 기반 프라이빗 AI 추론 공개",
+      "summaryKo": "구글이 프라이버시 컴퓨팅 툴킷에 HEIR라는 오픈소스 컴파일러를 추가했다고 발표했다. HEIR는 동형암호(homomorphic encryption)를 활용해 암호화된 데이터 상태에서 직접 AI 추론 연산을 수행할 수 있게 해준다. 이를 통해 서버가 사용자 데이터를 노출하지 않고도 추천 등 AI 기반 서비스를 제공할 수 있으며, 기존의 종단간 암호화나 로컬 처리 방식의 한계를 보완한다. 구글은 이 기술이 의료·금융 등 규제가 엄격한 분야에서도 데이터 공유 없이 AI 기능을 활용할 수 있게 할 것이라고 설명했다.",
+      "tags": [
+        "homomorphic-encryption",
+        "privacy",
+        "ai"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32484",
+      "title": "palmier-pro - AI를 위해 만든 macOS 영상 편집기",
+      "url": "https://news.hada.io/topic?id=32484",
+      "commentsUrl": "https://news.hada.io/topic?id=32484",
+      "publishedAt": "2026-08-14T09:30:03+09:00",
+      "snippet": "palmier-pro - AI를 위해 만든 macOS 영상 편집기 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ palmier-pro - AI를 위해 만든 macOS 영상 편집기 (github.com/palmier-io) 9 P by xguru 22시간전 | ★ favorite | 댓글 3개 타임라인 안에서 사용자와 에이전트가 함께 영상을 생성·편집할 수 있는 오픈소스 macOS 영상 편집기 Swift로 처음부터 새로 개발했으며, Premiere Pro를 지향점으로 삼아 AI를 워크플로에 통합 하는 방향으로 설계 타임라인 편집기 안에서 Seedance, Kling, Nano Banana Pro 같은 SOTA 모델로 영상·이미지 생성 지원 MCP를 통해 Claude/Codex/Cursor 등 외부 에이전트와 연동 하거나, 앱 내장 에이전트로 같은 프로젝트를 함께 작업 가능 앱이 열려 있으면 http://127.0.0.1:19789/mcp 에 HTTP 방식 MCP 서버 노출 Claude Code, Codex, Cursor, Claude Desktop 각각에 연결 가능하며, Claude Desktop은 mcpb 번들로 원클릭 설치 지원 오픈소스 범위 : 생성형 AI 기능을 제외한 영상 편집기 본체, MCP 서버, 에이전트 챗은 모두 오픈소스이며, 생성형 AI 처리 부분만 클로즈드소스 요금 : 편집기는 무료이고 로그인 없이 다운로드해 CapCut/Adobe Premiere처럼 사용 가능, MCP 서버도 무료로 이용 가능하나 생성형 AI 기능은 로그인/구독 필요 macOS 26(Tahoe), Apple Silicon 전용 함께 보면 좋은 글 β Chat2DB - AI 기반 데이터베이스 클라이언트 & SQL 워크스페이스 Show GN: mcp-baepsae – iOS 시뮬레이터를 AI가 직접 조작하는 MCP 서버 macOS Sequoia 출시 cmux4justn - cmux workspace를 active project 기준으로 관리하는 macOS CLI 애플, 지시 기반 이미지 편집을 위한 혁신적인 AI 모델 \"MGIE\" 출시 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ dane1 9시간전 [-] 와 드디어 나왔네요 이걸 기다렸어요 캡컷 자동화 테스트 하며 버티다가 파이널컷 사야하나 버티고 있었는데 드디어 나오나 테스트해봐야지 답변달기 ▲ dane1 6시간전 [-] 뭐랄까 아직 영상편집의 기본 기능이 너무 부족하네요 ㅎㅡㅎ 진짜 텍스트 기능 하나밖에 없네 답변달기 ▲ hshim 19시간전 [-] 딱 필요하던 도구네요 한번 써봐야겠습니다 답변달기 GeekNews를 계속 받아보려면 Weekly 뉴스레터나 GeekBots를 이용해보세요. Weekly 구독 · GeekBots · GeekNews 소개 처음 오셨나요 사이트 이용법 FAQ About 후원하기 이용약관 개인정보 처리방침 Releases --> | Blog Lists RSS | Bookmarklet X (Twitter) Facebook | 긱뉴스봇 : Slack 잔디 Discord Teams Dooray! Google Chat Mattermost Swit 시작하기 이용법 FAQ About 후원 약관 개인정보 Lists Blog RSS X 긱뉴스봇 검색 언어 선택: 한국어 한국어 ✓ Indonesia Tiếng Việt Português Español ไทย 日本語 Türkçe Deutsch Français हिन्दी",
+      "externalUrl": "https://github.com/palmier-io/palmier-pro",
+      "oneLineKo": "AI 에이전트 통합 macOS 오픈소스 영상 편집기 출시",
+      "summaryKo": "palmier-pro는 Swift로 새로 개발된 macOS 전용 오픈소스 영상 편집기로, 타임라인 안에서 Seedance, Kling, Nano Banana Pro 등 SOTA 모델을 이용해 영상·이미지를 생성할 수 있다. MCP를 통해 Claude, Codex, Cursor 등 외부 에이전트와 연동하거나 내장 에이전트로 협업 편집이 가능하다. 편집기 본체와 MCP 서버, 에이전트 챗은 오픈소스이며 생성형 AI 기능만 클로즈드소스로 로그인·구독이 필요하다. macOS 26(Tahoe), Apple Silicon 전용으로 무료 다운로드가 가능하다.",
+      "tags": [
+        "macos",
+        "mcp",
+        "video-editor"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49300568",
+      "title": "AI by Hand",
+      "url": "https://www.byhand.ai/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49300568",
+      "publishedAt": "2026-08-14T15:58:59Z",
+      "score": 143,
+      "comments": 12,
+      "snippet": "AI by Hand ✍️ | Prof. Tom Yeh | Substack AI by Hand ✍️ Math, Algorithms, Architectures, by hand By Prof. Tom Yeh · Over 73,000 subscribers Subscribe By subscribing, you agree Substack's Terms of Use , and acknowledge its Information Collection Notice and Privacy Policy . Later This site requires JavaScript to run correctly. Please turn on JavaScript or unblock scripts",
+      "oneLineKo": "손으로 배우는 AI 수학과 알고리즘 뉴스레터",
+      "summaryKo": "Tom Yeh 교수가 운영하는 Substack 뉴스레터 'AI by Hand'를 소개하는 페이지입니다. AI의 수학, 알고리즘, 아키텍처를 손으로 직접 계산하며 배우는 콘텐츠를 다룹니다. 7만 3천 명 이상의 구독자를 보유하고 있습니다.",
+      "tags": [
+        "ai",
+        "education",
+        "math"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32462",
+      "title": "Show GN: SSH Image Drop – 스크린샷을 원격 Claude Code 세션에 넘기는 Raycast 익스텐션",
+      "url": "https://news.hada.io/topic?id=32462",
+      "commentsUrl": "https://news.hada.io/topic?id=32462",
+      "publishedAt": "2026-08-13T18:38:05+09:00",
+      "snippet": "SSH Image Drop – 스크린샷을 원격 Claude Code 세션에 넘기는 Rayc | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Show GN: SSH Image Drop – 스크린샷을 원격 Claude Code 세션에 넘기는 Raycast 익스텐션 (raycast.com) 1 P by free4416 2일전 | ★ favorite | 댓글과 토론 안녕하세요. 원격 Mac에 SSH로 붙어 Claude Code를 돌리는데, 스크린샷을 넘길 방법이 없어서 만들어 보았습니다. 요즘은 노트북을 클라이언트로만 쓰고 원격 서버에서 에이전트를 여러 개 굴리는데, 이미지 전송이 안 되는 게 너무 불편했습니다. 터미널·SSH 세션은 이미지 붙여넣기를 못 받고, 이미지는 로컬 클립보드에만 존재합니다. 그래서 매번 파일로 저장하고 scp를 치고 경로를 확인해서 프롬프트에 타이핑하고 있었습니다. 이 익스텐션은 클립보드에 있는 이미지를 단축키 한 번으로 원격 서버(맥미니나 리눅스)에 올리고, 원격 경로를 클립보드에 돌려줍니다. 그 경로를 프롬프트에 붙여넣으면 에이전트가 파일로 읽습니다. Auto-Paste에 앱을 지정해두면, 전송이 끝날 때 그 앱이 앞에 있는 경우 Cmd+V도 없이 경로가 바로 들어갑니다. 이미지 말고도, Finder에서 고른 파일과 폴더를 그대로 보내거나, 클립보드에 있는 원격 경로만으로 파일을 받아 Finder에 띄우는 것도 같은 방식입니다. 서버별로 Quicklink에 핫키를 걸면 서버 고르는 단계까지 없어집니다. 보내든 받아오든 경로가 항상 클립보드에 남으니, 에이전트에 파일을 넘기는 일이 붙여넣기 한 번으로 끝납니다. 이 부분이 직접 써보니 제일 편했습니다. 비밀번호는 macOS Keychain(윈도우는 DPAPI)으로 암호화하고, 전송 대상은 등록해둔 서버와 ~/.ssh/config에 있는 서버로만 제한했습니다. SSH 키 방식도 고를 수 있습니다. macOS 13+ / Windows 11에서 쓸 수 있고 원격 서버는 macOS·Linux여야 합니다. 사용해 보시고 피드백 주시면 감사하겠습니다. 설치: https://www.raycast.com/wjsong/ssh-image-drop 소스: https://github.com/raycast/extensions/&hellip; 함께 보면 좋은 글 β 안드로이드에서 원격 서버의 Claude Code / Codex CLI에 이미지 보내기 불편해서 redTerm을 만들었습니다 imgssh - SSH 안에서 로컬 클립보드 이미지를 붙여넣기 Claude Code Remote Control — 로컬 세션을 어디서든 이어받는 공식 기능 출시 Claude Code, Auto mode를 기본 권한 모드로 전환 Podman, Registry 없이 컨테이너 이미지 전송 가능 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 GeekNews를 계속 받아보려면 Weekly 뉴스레터나 GeekBots를 이용해보세요. Weekly 구독 · GeekBots · GeekNews 소개 처음 오셨나요 사이트 이용법 FAQ About 후원하기 이용약관 개인정보 처리방침 Releases --> | Blog Lists RSS | Bookmarklet X (Twitter) Facebook | 긱뉴스봇 : Slack 잔디 Discord Teams Dooray! Google Chat Mattermost Swit 시작하기 이용법 FAQ About 후원 약관 개인정보 Lists Blog RSS X 긱뉴스봇 검색 언어 선택: 한국어 한국어 ✓ Indonesia Tiếng Việt Português Español ไทย 日本語 Türkçe Deutsch Français हिन्दी",
+      "externalUrl": "https://www.raycast.com/wjsong/ssh-image-drop",
+      "oneLineKo": "스크린샷을 원격 Claude Code로 전송하는 Raycast 확장",
+      "summaryKo": "SSH로 원격 Mac이나 Linux 서버에서 Claude Code를 실행할 때 클립보드 이미지를 붙여넣을 수 없는 불편을 해결하기 위해 만든 Raycast 익스텐션입니다. 단축키 한 번으로 클립보드 이미지를 원격 서버에 업로드하고 원격 경로를 클립보드에 반환해 프롬프트에 바로 붙여넣을 수 있습니다. Finder 파일·폴더 전송과 원격 경로로 파일 받아오기도 지원하며, 비밀번호는 macOS Keychain·Windows DPAPI로 암호화하고 등록된 서버 또는 SSH config로 전송 대상을 제한합니다.",
+      "tags": [
+        "raycast",
+        "ssh",
+        "claude-code"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49300800",
+      "title": "Maximizing the value of your Claude Code sessions",
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49300800",
+      "publishedAt": "2026-08-14T16:15:21Z",
+      "score": 102,
+      "comments": 70,
+      "snippet": "Maximizing the value of your Claude Code sessions | Claude by Anthropic Meet Claude Products Claude Claude Code Claude Cowork @Claude Features Claude in Chrome Claude for Microsoft 365 Skills Claude apps built for Design Science Security Models Mythos Fable Opus Sonnet Haiku Platform Build on Claude Overview Pricing Developer docs Console login Works with Claude Ecosystem Marketplace Connectors Plugins Solutions Use cases AI agents Coding Company size Enterprise Startups Departments Cybersecurity Legal Industries Customer support Financial services Government Healthcare Higher education K-12 teachers Life sciences Nonprofits Pricing Overview API Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Meet Claude Products Claude Claude Code Claude Cowork @Claude Features Claude in Chrome Claude for Microsoft 365 Skills Claude apps built for Design Science Security Models Mythos Fable Opus Sonnet Haiku Platform Build on Claude Overview Pricing Developer docs Console login Works with Claude Ecosystem Marketplace Connectors Plugins Solutions Use cases AI agents Coding Company size Enterprise Startups Departments Cybersecurity Legal Industries Customer support Financial services Government Healthcare Higher education K-12 teachers Life sciences Nonprofits Pricing Overview API Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Blog Blog / Maximizing the value of your Claude Code sessions Explore here Ask questions about this page Copy as markdown Maximizing the value of your Claude Code sessions How to run efficient sessions that get the most value from every token. Category Claude Code Enterprise AI Product Claude Code Date August 14, 2026 Reading time 5 min Share Copy link https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions Author(s) Lydia Hallie TL;DR Run /clear between tasks. This prevents prior irrelevant context from being sent back to the model, which can reduce token usage. Set your model and effort level before you start. Changing either one mid-conversation can bust your prompt cache, which can increase token cost. @-mention files instead of naming them. The file gets attached to your message directly, which saves a Read call, or a search if Claude has to go find it. Add quiet flags to noisy commands, or run them in a subagent. Command output is added to the conversation just like a file, and stays there for the",
+      "oneLineKo": "Claude Code 세션 토큰 절약 실전 팁",
+      "summaryKo": "Anthropic이 Claude Code 사용 시 토큰 비용을 줄이고 세션 효율을 높이는 방법을 공유했다. 작업 간 /clear로 불필요한 이전 컨텍스트 전송을 막고, 모델과 effort 레벨은 대화 중간에 바꾸지 말아야 프롬프트 캐시가 깨지지 않는다고 설명한다. 파일은 이름 대신 @-멘션으로 직접 첨부해 Read 호출을 줄이고, 출력이 많은 명령어는 quiet 플래그를 쓰거나 서브에이전트에서 실행하라고 권장한다.",
+      "tags": [
+        "claude-code",
+        "llm",
+        "developer-productivity"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32459",
+      "title": "Show GN: 흩어진 AI 소식을 실시간 한국어 요약으로 모아 보기",
+      "url": "https://news.hada.io/topic?id=32459",
+      "commentsUrl": "https://news.hada.io/topic?id=32459",
+      "publishedAt": "2026-08-13T12:45:12+09:00",
+      "snippet": "흩어진 AI 소식을 실시간 한국어 요약으로 모아 보기 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Show GN: 흩어진 AI 소식을 실시간 한국어 요약으로 모아 보기 (aitrends.kr) 1 P by aitrends 2일전 | ★ favorite | 댓글과 토론 안녕하세요. 5개월 전에 여기에 aitrends.kr을 올렸었습니다. https://news.hada.io/topic?id=27202 처음 보시는 분들을 위한 서비스 소개 AI 소식이 공식 기술 블로그, YouTube, Reddit, X, GitHub, HuggingFace 논문 등 여러 곳에 흩어져 있어서, 한곳에 모아 한국어로 요약하는 서비스입니다. 콘텐츠 종류에 맞춰 요약 형식을 다르게 만들었습니다. 관심 있는 주제만 골라 볼 수 있습니다. GitHub 트렌딩 저장소와 HuggingFace 신규 모델은 별도 탭에서 요약과 함께 볼 수 있습니다. 새롭게 추가된 것 SNS 실시간 Digest - 실시간 소식을 모아 하루 몇 차례 하나의 글로 묶어 피드에 올립니다. 인용한 원문은 글 안에서 그대로 펼쳐볼 수 있습니다. Slack 구독 - 워크스페이스로 받아볼 수 있고, 소스와 주제를 구독별로 필터링할 수 있습니다. 개인 프로젝트로 진행한 것이며, 피드백 환영합니다. 감사합니다. 함께 보면 좋은 글 β 전세계 AI 소식 실시간 한국어 요약 서비스 매일 아침 도착하는 AI 인사이트 - 논문에서 커뮤니티까지 AIKIT – AI 뉴스·도구·용어를 한곳에서, AI 정보 플랫폼 AI 에이전트가 요구사항과 조사 자료를 연결하고, 한국어 표현을 검토하도록 하는 방법에 대해서 Endigest - 글로벌 테크 블로그를 AI로 자동 수집·요약해주는 서비스 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 GeekNews를 계속 받아보려면 Weekly 뉴스레터나 GeekBots를 이용해보세요. Weekly 구독 · GeekBots · GeekNews 소개 처음 오셨나요 사이트 이용법 FAQ About 후원하기 이용약관 개인정보 처리방침 Releases --> | Blog Lists RSS | Bookmarklet X (Twitter) Facebook | 긱뉴스봇 : Slack 잔디 Discord Teams Dooray! Google Chat Mattermost Swit 시작하기 이용법 FAQ About 후원 약관 개인정보 Lists Blog RSS X 긱뉴스봇 검색 언어 선택: 한국어 한국어 ✓ Indonesia Tiếng Việt Português Español ไทย 日本語 Türkçe Deutsch Français हिन्दी",
+      "externalUrl": "https://aitrends.kr/",
+      "oneLineKo": "흩어진 AI 소식을 실시간 한국어 요약으로 모아주는 서비스",
+      "summaryKo": "aitrends.kr은 공식 기술 블로그, YouTube, Reddit, X, GitHub, HuggingFace 등 여러 출처에 흩어진 AI 소식을 한곳에 모아 한국어로 요약해주는 개인 프로젝트 서비스입니다. 콘텐츠 종류별로 요약 형식을 다르게 제공하며 관심 주제만 선택해 볼 수 있고, GitHub 트렌딩 저장소와 HuggingFace 신규 모델도 별도 탭에서 확인 가능합니다. 새롭게 SNS 실시간 Digest 기능과 Slack 구독 기능이 추가되어 소스와 주제별 필터링을 지원합니다.",
+      "tags": [
+        "ai",
+        "curation",
+        "slack"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49299675",
+      "title": "Seven books I keep close because I love them",
+      "url": "https://blog.plover.com/2026/08/02/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49299675",
+      "publishedAt": "2026-08-14T15:03:26Z",
+      "score": 276,
+      "comments": 116,
+      "snippet": "The Universe of Discourse : Seven books I keep close because I love them The Universe of Discourse Mark Dominus (陶敏修) mjd@pobox.com About me RSS Atom 12 recent entries The road to epsilon-zero: Productive programs and well-founded orders There are two kinds of theorems The road to epsilon-zero: Coin-moving games with no coins Seven books I keep close because I love them The road to epsilon-zero: Infinite Nim as a coin-moving game “Steph Curry: fluke or breakthrough” ten years later The road to epsilon-zero: Nim always ends, even with infinite ordinals The road to epsilon-zero: ordinals as nim-heaps Starting to understand epsilon-zero It's our language now! I owe my life to a 1913 road rage incident Deciphering basmala Archive: 2026 : J F M AM J J A 2025 : J F M A M J JA S OND 2024 : J F M A M J J A SO N D 2023 : J F M A M J J A S O N D 2022 : J F M A M J J A S O N D 2021 : J F M A M J J A S O N D 2020 : J F M A M J J A S O N D 2019 : J F M A M J J A S O N D 2018 : J F M A M J J A S O N D 2017 : J F M A M J J A S O N D 2016 : J F M A M J J ASO N D 2015 : JF M A M J J A S O N D 2014 : J F M A MJ J ASO N D 2013 : JFMAMJ J A S O N D 2012 : J F M AMJ J A SON D 2011 : JFMA M J JASO N D 2010 : J FMAMJ J A S O N D 2009 : J F M A M J J A S ON D 2008 : J F M A M J J A S O N D 2007 : J F M A M J J A S O N D 2006 : J F M A M J J A S O N D 2005 : O N D Subtopics: Mathematics 252 Programming 102 Language 98 Miscellaneous 75 Book 51 Tech 49 Etymology 36 Haskell 33 Oops 30 Unix 27 Cosmic Call 25 Math SE 25 Law 23 Physics 21 Perl 17 Biology 16 Brain 15 Calendar 15 Food 15 --> --> Technorati Profile --> Comments disabled Sun, 02 Aug 2026 Seven books I keep close because I love them The bookshelf by my elbow, the one that I can reach without getting up, has seven books on it, not necessarily the ones I look in the most, but the ones whose emanations I most hope will infuse me as I write. Roget's Thesaurus (4th edition) The one I actually refer to most often is the Harper and Row Roget's Thesaurus . I thought I had acquired this in my teens, but the note on the flyleaf says 1989. This is the fourth edition. I was very excited to get the eighth edition, which I thought I might like better, and for some time I kept them next to each other so that I could look up the same things in both, and compare. my conclusion was that while the eighth edition had more stuff in it, it wasn't stuff I needed. And it is really fat. So I have retired it to a farther shelf and will eventually get rid of it. The thesaurus is a book that is widely misunderstood. It is not, as many people mockingly imagine, just a compendium of synonyms, and its correct and intended use is not to replace common words with more impressive-sounding ones. just as the correct use of a screwdriver is not to scrape the veneer off of an expensive cabinet. “Thesaurus” means “storehouse\" or “treasure room”. Roget's idea, similar to that of John Wilkins before him, was to classify everything in the world into a hier",
+      "oneLineKo": "저자가 아끼는 책상 위 7권의 책 소개",
+      "summaryKo": "저자는 손이 닿는 책장에 놓아둔 7권의 책을 소개하며, 이 책들이 글쓰기에 영감을 준다고 말한다. 가장 많이 참고하는 책은 Roget's Thesaurus 4판으로, 8판과 비교했으나 4판이 더 실용적이라고 평가했다. 시소러스는 단순한 동의어 사전이 아니라 세상의 개념을 계층적으로 분류하려 한 Roget의 아이디어에서 출발했다고 설명한다.",
+      "tags": [
+        "writing",
+        "reference-book",
+        "language"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32507",
+      "title": "넓게 만들고, 좁게 출시하기",
+      "url": "https://news.hada.io/topic?id=32507",
+      "commentsUrl": "https://news.hada.io/topic?id=32507",
+      "publishedAt": "2026-08-15T01:36:56+09:00",
+      "snippet": "넓게 만들고, 좁게 출시하기 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ 넓게 만들고, 좁게 출시하기 (adapt.com) 1 P by GN⁺ 6시간전 | ★ favorite | 댓글 1개 AI가 구현과 브랜치 분해 비용을 낮추면서, 작업 경계를 처음부터 확정하는 대신 전체 기능을 먼저 구현 하고 실제 코드에 드러난 경계에 따라 작은 PR로 나눌 수 있게 됨 설계를 생략하는 방식은 아니며, 계획을 충분히 검증하고 새로운 설계라면 명세를 코드보다 먼저 커밋 하되 PR 분할 방식은 구현 이후에 결정함 하나의 작업 브랜치에서 종단 간 기능을 완성한 뒤, 코드 리뷰 전에 영상이나 미리보기 배포로 제품을 먼저 검증 해 잘못된 UI나 API 형태를 일찍 수정함 완성된 작업은 독립적으로 병합 가능한 최소 PR로 다시 나누며, 실제 의존성이 있을 때만 쌓고 기존 코드 삭제는 마지막 별도 PR 로 출시함 작은 PR은 리뷰·에이전트 피드백·롤백을 쉽게 하지만 리베이스 비용 이 생기며, 모든 PR을 한꺼번에 병합하면 점진적 제공 효과를 얻지 못함 구현 전에 경계를 나누는 방식의 한계 전통적인 개발 흐름은 RFC를 작성하고 기능을 작은 이슈로 나눈 뒤, 선행 이슈가 끝나야 다음 이슈를 진행하는 방식이었음 코드 리뷰를 관리 가능한 크기로 유지하고 대규모 일괄 병합을 피할 수 있지만, 문제를 가장 적게 이해하는 시점에 핵심 구조와 경계 를 결정해야 함 구현 전에는 각 부분을 분리할 수 있는지, 복잡도가 어느 정도인지, 이후 단계가 앞선 결정을 뒤집을지 추측할 수밖에 없음 과거에는 일주일 동안 얽힌 작업을 수동으로 해체하는 비용이 컸기 때문에, 구현 편의보다 리뷰 가능성 을 확보하려고 경계를 미리 정해야 했음 AI가 낮춘 비용과 여전히 비싼 판단 세 가지 작업의 비용이 크게 낮아짐 구현 : AI 어시스턴트가 명확한 문제를 몇 시간, 때로는 몇 분 안에 작동하는 코드로 바꿀 수 있음 설계 : 대화 속도로 계획을 질문하고 재구성할 수 있음 완성된 브랜치 분해 : 일주일 분량의 얽힌 작업을 작은 PR의 연속으로 나누는 일이 프롬프트로 가능해짐 반면 코드 리뷰에 필요한 판단은 여전히 저렴해지지 않았음 에이전트는 일관성, 사소한 문제, 명백한 버그 같은 기계적 검사를 자동화함 미묘한 정확성, 코드가 놓일 적절한 위치, 6개월 뒤 API 형태가 일으킬 문제까지 결정하지는 못함 직접 작성하지 않은 코드를 소유하려면 읽고 이해해야 하며, 좁은 PR 이 이를 가능하게 함 제품 검증에도 여전히 시간이 필요함 실제로 실행해 올바른 제품인지 판단해야 함 달라진 점은 코드를 읽기 전에 다른 사람에게 전체 기능을 보여줄 만큼 구현이 빨라졌다는 데 있음 전체 개발 흐름 작업은 다음 순서로 진행함 계획에 실질적인 결정이 생길 때까지 검증함 새로운 설계라면 코드 전에 명세를 커밋함 넓게 구현하면서 중간 저장점으로 커밋함 코드 리뷰 전에 데모하고 반복 개선함 코드가 드러낸 경계에 따라 PR로 분할함 순서대로 병합하고 순수 삭제 작업은 마지막 PR로 처리함 설계는 구현보다 먼저 이 방식은 계획을 생략하고 바로 코딩하는 접근이 아님 편집기를 열기 전에 계획을 만들고 모든 기능을 질문으로 검증함 grill-me 는 아이디어를 적대적인 질문 라운드로 검토해 실질적인 결정을 끌어냄 API 호출 실패 시 대체 동작처럼 놓치기 쉬운 공백을 작은 변경에서도 찾아냄 새로운 설계라면 계획을 명세 문서 로 만들어 코드보다 먼저 커밋함 한 프로젝트에서는 기능의 목적, 작동 방식, 신뢰 경계를 담은 문서가 첫 PR이었음 구현 며칠 전에 문서를 병합해 팀이 먼저 이의를 제기할 수 있게 했음 무엇을 만들지는 구현 전에 정하지만, PR 분할 구조 는 구현 후에 정함 하나의 브랜치에서 넓게 구현하기 설계가 정리되면 여러 파일과 영역을 가로질러 기능이 종단 간으로 작동할 때까지 하나의 브랜치에서 개발함 단계별로 작업하더라도 각 단계마다 PR을 열고 리뷰를 기다리지는 않음 중간 커밋은 리뷰어를 위한 이력이 아니라 작업자를 위한 저장점 임 개념이 검증됐거나 위험한 시도 전에 되돌아갈 지점을 만들 때 커밋함 한 리팩터링은 하루 동안 수십 개 파일과 12개 이상의 운영용 메시지 커밋으로 진행됐음 작업 브랜치의 이력은 최종 기록으로 남지 않음 최종 PR은 main 에서 새로 분기함 구현 브랜치는 버리는 초안처럼 사용함 작업자와 리뷰어라는 서로 다른 대상을 분리해 각각에 맞게 최적화함 코드 리뷰 전에 제품 검증하기 구현이 충분히 진행되면 PR 대신 Slack의 짧은 영상이나 직접 클릭할 수 있는 미리보기 배포 로 먼저 공유함 실제 사용자가 작동하는 소프트웨어에 피드백하도록 하며, 이 과정은 코드 리뷰보다 앞섬 자동화하기 어려운 판단이 남으면서 리뷰 비용은 상대적으로 커졌음 혼란스러운 UI 패턴이나 프런트엔드 사용 방식과 맞지 않는 엔드포인트를 리뷰 단계에서 발견하면 개발자와 리뷰어의 시간을 함께 소모함 데모는 변경 비용이 낮을 때 이런 문제를 찾아냄 피드백 때문에 재설계가 필요하면 즉흥적으로 수정하지 않고, 먼저 grill-me 로 피드백을 검증함 완성된 코드를 좁은 PR로 분할하기 구현 순서는 최종 PR 구조의 초안일 뿐이며, 완성된 코드에 따라 단계를 다시 묶고 나눔 기존 코드 삭제 PR은 새 경로가 완성된 뒤에만 존재할 수 있는 대표적인 후행 작업 단위 임 분할 프롬프트에는 다음 조건을 지정함 독립적으로 리뷰할 수 있는 최소한의 PR 집합으로 나눔 각 PR은 단독으로 안전하게 병합할 수 있어야 함 가능하면 각 PR이 사용자 가치를 제공해야 함 PR마다 main 에서 Git worktree와 브랜치를 생성함 실제 의존성이 있을 때만 PR을 쌓음 교체 대상 코드의 삭제는 별도 최종 PR에 둠 실행 전에 제안된 분할 구조를 먼저 보여줌 작업의 얽힘 정도에 따라 몇 분 또는 여러 차례의 대화가 필요하지만, 수동 cherry-pick 은 하지 않음 다섯 개 PR로 나눈 리팩터링 사례 리팩터링 결과는 5개 PR ",
+      "externalUrl": "https://adapt.com/blog/build-wide-ship-narrow",
+      "oneLineKo": "AI 시대 개발 워크플로우: 넓게 구현 후 좁게 PR 분할",
+      "summaryKo": "AI가 구현과 브랜치 분해 비용을 크게 낮추면서, 사전에 작업 경계를 정하기보다 전체 기능을 하나의 브랜치에서 종단 간 구현한 뒤 코드에 드러난 경계에 따라 작은 PR로 나누는 방식이 가능해졌다. 설계는 여전히 구현 전에 검증하며 새로운 설계는 명세 문서를 먼저 커밋하지만, PR 분할 구조는 구현 이후 결정한다. 완성된 기능은 코드 리뷰 전에 영상이나 미리보기 배포로 먼저 검증해 UI·API 문제를 조기에 발견하고, 이후 독립적으로 병합 가능한 최소 PR로 재구성하며 기존 코드 삭제는 별도 최종 PR로 처리한다.",
+      "tags": [
+        "ai-coding",
+        "code-review",
+        "git-workflow"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49249523",
+      "title": "Don't classify, hallucinate",
+      "url": "https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49249523",
+      "publishedAt": "2026-08-10T20:50:36Z",
+      "score": 204,
+      "comments": 82,
+      "snippet": "Don't classify. Hallucinate! --> Don't fill this out if you're human: Doug's search blog and newsletter Subscribe Learn more Check your email to confirm your subscription Doug Turnbull Consulting &middot; Training Home back home Don't classify. Hallucinate! August 10th, 2026 Using LLMs to classify products, search queries, etc is by now boring. Yet it can still be difficult to constrains the LLM’s output to the legal vocabulary of brands, colors, categories, etc your system allows. In the Wayfair WANDS e-commerce dataset, for example, you want to classify a query like “wood coffee table” into its most appropriate category. Of which there are hundreds: Furniture / Office Furniture / Desks Furniture / Living Room Furniture / Coffee Tables & End Tables / Coffee Tables Furniture / Living Room Furniture / Coffee Tables & End Tables / End & Side Tables Décor & Pillows / Decorative Pillows & Blankets / Throw Pillows Furniture / Bedroom Furniture / Dressers & Chests The classic way to implement this would be with structured outputs. You tell your provide it must constrain its outputs to a list of legal values. In Pydantic, you create a giant literal of legal output values: from typing import Literal from pydantic import BaseModel, Field FullyQualifiedClassifications = Literal[ 'Furniture / Bedroom Furniture / Beds & Headboards / Beds', 'Furniture / Living Room Furniture / Chairs & Seating / Accent Chairs', 'Rugs / Area Rugs', ... # times 500 ] class QueryClassification(BaseModel): \"\"\" Structured representation of a search query for furniture e-commerce. Inherits keywords from the base Query model and adds category and sub-category. \"\"\" classifications: list[FullyQualifiedClassifications] = Field( description=\"A possible classification for the product.\" ) response = client.responses.parse( model=\"gpt-5.4-mini\", input=\"Classify the query: brown coffee table\", text_format=QueryClassification, ) print(response.output_parsed.message) # Outputs: Furniture / Living Room Furniture / Coffee Tables & End Tables / Coffee Tables This works. But there’s a way to do this a lot cheaper with small / dumb models at scale. Not to mention, there’s an upper limit you can send Luckily, there’s an easy pattern that makes LLM classification pretty seamless. Just ask a dumb LLM to invent plausible, fake classifications for your query: hallucination_prompt = f\"\"\" Your task is to create novel, never seen before, furniture, home goods, or hardware classification that best fit a search query. Product classifications might look like: Furniture / Living Room Furniture / Coffee Tables & End Tables / Coffee Tables Décor & Pillows / Decorative Pillows & Blankets / Throw Pillows Furniture / Bedroom Furniture / Dressers & Chests Kitchen & Tabletop / Kitchen Organization / Food Storage & Canisters School Furniture and Supplies / School Furniture / School Chairs & Seating / Stackable Chairs Baby & Kids / Toddler & Kids Bedroom Furniture / Kids Beds Here's the query to generate classificatio",
+      "oneLineKo": "LLM 분류 대신 유사 카테고리 '환각' 생성 기법 소개",
+      "summaryKo": "이 글은 검색 쿼리나 상품을 수백 개의 카테고리로 분류할 때, Pydantic Literal 등으로 출력을 강제하는 구조화된 출력 방식 대신 다른 접근을 제안한다. LLM에게 실제 카테고리 목록을 주지 않고 그럴듯한 가짜 분류명을 자유롭게 '환각'해서 생성하도록 요청한 뒤, 이를 실제 taxonomy와 매칭하는 방식이다. 이 방법은 작고 저렴한 모델로도 대규모 분류 작업을 가능하게 하며, 수백 개 카테고리를 모두 프롬프트에 나열해야 하는 구조화된 출력 방식의 한계를 회피한다는 것이 핵심 아이디어다.",
+      "tags": [
+        "llm",
+        "classification",
+        "structured-output"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32497",
+      "title": "이해가 새로운 병목이다",
+      "url": "https://news.hada.io/topic?id=32497",
+      "commentsUrl": "https://news.hada.io/topic?id=32497",
+      "publishedAt": "2026-08-14T20:32:35+09:00",
+      "snippet": "이해가 새로운 병목이다 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ 이해가 새로운 병목이다 (geoffreylitt.com) 2 P by GN⁺ 11시간전 | ★ favorite | 댓글 1개 AI 에이전트가 사람이 흡수하는 속도보다 빠르게 코드를 작성하면서, 인간이 시스템을 이해하고 창작에 참여하는 능력 이 새로운 병목이 됨 이해는 결과를 승인하거나 거부하는 검증 에 그치지 않고, 다음 아이디어를 만들고 프로젝트를 발전시킬 개념과 유창성을 확보하는 과정임 구조화된 설명 문서와 이해도 퀴즈 는 배경·직관·코드 변경을 효율적으로 학습하게 하고, AI 작업 루프가 인간의 이해를 앞지르지 않도록 속도를 조절함 디버거나 마이그레이션 명령 센터 같은 마이크로월드에서 시스템을 직접 조작하고 변화를 관찰하면, 수작업과 비슷한 이해를 더 빠르게 얻을 수 있음 공유 공간 에서 인간과 에이전트가 같은 정신 모델과 어휘를 구축하면 팀의 창의적 대화가 가능해지며, AI는 인간을 루프에서 제거하는 자동화를 넘어 더 깊이 참여시키는 증강 도구가 됨 검증을 넘어 창작에 참여하기 에이전트가 작성하는 코드가 늘면서 사람이 변경 사항을 따라가기 어려워졌지만, 코드를 한 줄씩 읽는 것만이 이해를 얻는 방법은 아님 이해의 한 가지 목적은 에이전트의 작업이 명세와 일치하고 아키텍처가 적절한지 판단하는 검증 임 검증은 근본적으로 작업을 승인하거나 거부하는 문제임 에이전트가 자체 작업을 검증하는 능력도 계속 향상되고 있음 더 중요한 목적은 인간이 창작 과정에 능동적으로 참여 하는 데 있음 프로젝트는 에이전트와의 한 번의 작업 루프가 아니라 수많은 반복으로 구성됨 시스템에 대한 이해는 다음 개선 아이디어를 떠올리는 능력의 일부임 풍부한 개념과 유창성이 없으면 프로젝트의 발전 과정에 참여하기 어려움 이 문제는 Margaret Storey와 Simon Willison이 널리 알린 인지 부채(cognitive debt) 와 연결됨 기술 부채처럼 단기적으로는 이해하지 않고 넘어갈 수 있지만 결국 문제가 됨 AI와 빠르게 작업하면서도 인간의 이해를 쌓으려면 교육 분야에서 발전한 방법을 활용할 수 있음 기법 1: 변경 사항을 가르치는 설명 문서 에이전트가 작업을 마칠 때마다 변경 사항의 이해를 돕는 설명 산출물 을 만들 수 있음 원시 코드 차이(diff)를 바로 보여주는 대신, 전달 방식까지 다듬은 설명 문서를 먼저 제공하는 방식임 /explain-diff 는 HTML·Markdown·Notion 문서 형태로 구조화된 코드 설명을 생성함 Notion에서는 팀이 설명 문서를 공동으로 검토하고 토론할 수 있음 HTML과 Notion 페이지를 출력하는 두 가지 변형이 제공됨 배경과 직관부터 전달하기 좋은 설명은 변경 내용에 앞서 기존 시스템과 관련된 배경 지식 을 가르쳐야 함 게임의 원근법을 수정한 사례에서도 변경된 코드보다 게임 엔진을 먼저 소개함 코드 세부 사항에 들어가기 전 직관 을 제공함 목표는 “2D 드로잉 기법으로 정원을 입체적으로 보이게 만들기”로 정의함 등축 투영법(isometric projection) 같은 관련 개념도 먼저 다룸 인터랙티브 도형으로 돌을 정원 안에서 움직이고 좌표 변화를 관찰하면 등축 원근법을 직접 탐색할 수 있음 Notion은 페이지 안에 인터랙티브 HTML을 임베드할 수 있음 산문형 코드 차이로 맥락 구성하기 일반적인 코드 차이는 수정된 파일을 알파벳순으로 나열할 뿐 변경 맥락을 제공하지 않음 산문형 코드 차이(literate diff) 는 변경 사항을 이해하기 좋은 순서로 서술하고, 주변 설명과 코드 조각을 함께 배치함 원시 코드 차이보다 빠르게 검토할 수 있어, 실제 코드 차이를 읽기 전에 설명 패킷을 먼저 읽는 방식으로 활용함 설명 문서를 인쇄해 카페에서 읽으면 방해 요소를 줄이고 깊이 집중할 수 있음 퀴즈로 이해의 속도 조절하기 읽기만 하면 내용을 실제로 이해하고 기억했다고 착각하기 쉬움 Andy Matuschak의 “books don't work” 와 Andy Matuschak·Michael Nielsen의 간격 반복 퀴즈를 에세이에 삽입하는 작업 에서 아이디어를 얻음 코드 설명 문서 하단에 변경 사항을 묻는 대화형 퀴즈 5문항 을 추가하고 직접 답함 퀴즈를 통과하기 전에는 코드를 다른 사람에게 보내지 않으며, 다른 사람의 코드를 검토할 때도 같은 규칙을 적용함 퀴즈는 AI 작업 루프가 인간의 이해 속도를 앞지르지 않게 하는 속도 조절 장치 임 실제로 이해했는지 기계적으로 확인해 인간이 창작 과정의 완전한 참여자로 남도록 도움 기법 2: 시스템 안에서 배우는 마이크로월드 교육자 Seymour Papert의 Mathland 는 프랑스어를 배우려면 프랑스에서 생활하듯, 아이가 호기심을 따라 자연스럽게 수학을 배우는 환경을 만들자는 발상임 이를 코드에 적용한 마이크로월드는 사람이 시스템 안에서 직접 활동하며 작동 방식과 변화에 대한 직관을 얻도록 함 Prolog 인터프리터 디버거 Prolog 인터프리터의 내부 동작을 이해하기 어려워 에이전트와 함께 전용 디버거 를 제작함 논리 언어 실행을 단계별로 진행하고 시간을 앞뒤로 이동하면서, 스택 상태와 각 단계에서 평가되는 규칙을 확인할 수 있음 “해당 규칙을 올바르게 적용했다” 같은 개인 메모도 남길 수 있음 에이전트가 대신 디버깅하는 것과 사람이 사용할 도구를 만들어 직접 디버깅하는 것은 다름 직접 수행하는 과정에서 시스템에 대한 이해가 형성됨 웹사이트 마이그레이션 명령 센터 개인 웹사이트를 다른 프레임워크로 이전할 때 Claude가 스크립트를 작성했지만, 새 프레임워크에 익숙하지 않아 코드를 제대로 검토하기 어려웠음 Claude에 이전 작업을 단계별로 직접 수행할 수 있는 비디오 게임 형태의 명령 센터 를 요청함 버튼을 눌러 이전 단계를 하나씩 실행하고, 화면에서 결과와 파일 트리의 변화를 관찰함 기존 사이트와 새 사이트를 나란히 실행함 새 사이트가 점진적으로 완성되는 과정을 ",
+      "externalUrl": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
+      "oneLineKo": "AI 시대, 코드 검증 넘어 이해가 새로운 병목",
+      "summaryKo": "AI 에이전트가 인간보다 빠르게 코드를 작성하면서, 이제는 인간이 시스템을 이해하고 창작에 참여하는 능력이 새로운 병목이 되었다. 저자는 이해를 검증에 그치지 않고 다음 아이디어를 만들어내는 창작 참여의 조건으로 정의하며, 구조화된 설명 문서와 이해도 퀴즈, 디버거나 마이그레이션 명령 센터 같은 마이크로월드를 통해 AI 작업 속도를 인간 이해 속도에 맞추는 방법을 제안한다. 이를 통해 AI가 인간을 루프에서 배제하는 자동화가 아니라 더 깊이 참여시키는 증강 도구가 될 수 있다고 주장한다.",
+      "tags": [
+        "ai-agent",
+        "cognitive-debt",
+        "developer-tools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49300759",
+      "title": "RustDesk now supports true unattended remote access on Wayland",
+      "url": "https://rustdesk.com/blog/unattended-remote-access-wayland/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49300759",
+      "publishedAt": "2026-08-14T16:12:52Z",
+      "score": 177,
+      "comments": 83,
+      "snippet": "Unattended Remote Access on Wayland with RustDesk — RustDesk New Unattended Remote Access on Wayland with RustDesk » rustdesk Toggle Menu Resources About us Support Web Client Pro License Portal FAQ Pricing Docs Blog English Deutsch Español Français Italiano 日本語 한국어 Português 简体中文 繁體中文 العربية Download Aug 14, 2026 · RustDesk Team · Release · 2 min read Unattended Remote Access on Wayland with RustDesk RustDesk now provides true unattended remote access on Wayland, including multi-monitor setups. Try the preview build for x86_64 Debian/Ubuntu-based systems. Wayland support has been one of the harder parts of Linux remote desktop. RustDesk can now provide true unattended access on Wayland , without requiring someone at the remote machine to approve every session. Multi-monitor setups are supported as well. After the initial setup, you can connect even when no one is at the remote machine — including from the login screen after a reboot. Watch the demo video on X For now, we are releasing this as a separate preview build for x86_64 Debian/Ubuntu-based systems : Download the Wayland unattended access build Wayland support is still limited in several major remote desktop products. AnyDesk currently requires Xorg for incoming Linux sessions, while TeamViewer still describes Wayland support as experimental for common desktop environments. We would like to get more real-world testing before making this the default. Once the implementation is stable, we plan to bring unattended Wayland access to more Linux distributions, including Fedora and Arch Linux , and eventually include it in the standard RustDesk releases. If you use Wayland, especially with multiple monitors, please give the preview build a try and let us know what works—and what doesn’t. RustDesk Wayland Linux unattended-access Share: Back to Blog Related Posts View All Posts » Enhanced ACL in RustDesk Server Pro 1.5.0 RustDesk Server Pro now supports user-level ACL and device groups in addition of user groups. How to make Flutter 3.24 run on Windows 7? Since Flutter 3.22 starts to drop support for Windows 7 / 8, we need to modify Flutter engine to restore support for Windows 7. RustDesk web client V2 Preview V2 offers better codecs, international keyboard support, clipboard support, file transfer etc. RustDesk for Linux: The Open-Source Remote Desktop Install and run RustDesk on Linux: .deb, .rpm, Flatpak and AppImage, X11 vs Wayland, headless and unattended access, and self-hosting the server. RustDesk Terms · Privacy Policy Resources About us Support Web Client Pro License Portal FAQ Community X Discord Reddit YouTube GitHub Download RustDesk Client RustDesk Server OSS RustDesk Server Pro © 2026 Purslane Tech Pte. Ltd.",
+      "oneLineKo": "RustDesk, Wayland 무인 원격 접속 지원 시작",
+      "summaryKo": "RustDesk가 Wayland 환경에서 멀티 모니터를 포함한 진정한 무인(unattended) 원격 접속 기능을 지원하기 시작했습니다. 재부팅 후 로그인 화면에서도 사람이 승인하지 않고 접속할 수 있으며, 현재는 x86_64 Debian/Ubuntu 계열용 프리뷰 빌드로 제공됩니다. AnyDesk나 TeamViewer가 아직 Wayland 지원이 제한적인 것과 비교해 앞선 행보이며, 추후 Fedora, Arch Linux 등으로 확대하고 표준 릴리스에 포함할 계획입니다.",
+      "tags": [
+        "rustdesk",
+        "wayland",
+        "remote-desktop"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49299746",
+      "title": "Introducing Toast 1",
+      "url": "https://www.mixedbread.com/blog/toast-1",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49299746",
+      "publishedAt": "2026-08-14T15:07:57Z",
+      "score": 152,
+      "comments": 54,
+      "snippet": "Introducing Toast 1 Mixedbread Docs Pricing Evals Blog Contact Search Ctrl K Dashboard Search Open menu Table of Contents On this page Pareto Optimal Search Financial Analysis: OfficeQA Pro V2 Legal Agentic Benchmark - Firm Knowledge Demo: Dig Deep Into Dwarkesh's Podcast Frontier Class Retrieval Availability and Pricing With Your Existing Retrieval Stack With Coding Agents With Your Mixedbread Stores All posts Introducing Toast 1 Research Product MB Mixedbread Team · August 13, 2026 · 6 min read Copy to clipboard Toast 1 , our first specialised search agent, is available today. It provides frontier search quality, matching or outperforming Claude Opus 5 and GPT-5.6 Sol while being up to 10× cheaper and 12× faster. It performs best with Mixedbread Search, but it can work with any search backend. Today, frontier models are now able to perform real knowledge work. They can reason, analyse, and find information in complex document collections. But they are also the most expensive models in the stack. As intelligence is increasingly metered, the need for specialised agents able to match their capabilities at a fraction of the cost is greater than ever. Toast 1 can run as a standalone specialized retrieval agent, or as one of many subagents your frontier model already knows how to rely on. It fully takes over the search loop: given an initial query, it decomposes it into subqueries, gathers evidence, inspects sources, and curates the relevant context before returning it. This lets your agent spend its context and compute on the task that requires a generalist, frontier-level model: reasoning, acting, and producing the final answers. Waterfall trace of a Toast 1 agentic search: 16 tool calls across 3 rounds answering an employment-rate comparison query in just over 5 seconds. Expand the trace, then select a step to see the sub-query, grep pattern, or plan the agent produced at that point. “ How did the employment rate change in retail compares to the healthcare sector? ” 16 tool calls · 3 rounds · 5.33s · view trace Pareto Optimal Search Link to section This specialisation of agentic labor results in considerably cheaper search, but also in better end-to-end results on many realistic tasks. We found that Toast 1 establishes a new Pareto frontier across agentic workloads across cost per task and speed per task. Financial Analysis: OfficeQA Pro V2 Link to section OfficeQA Pro V2, released by Databricks , evaluates answer correctness across 90 questions in realistic, complex enterprise financial situations. GPT‑5.6 Sol with Toast 1 made available as a sub-agent within Codex reaches 70% answer correctness at approximately $1.15 per task: that is the highest score among the systems evaluated by Databricks in the OfficeQA v2 release, establishing new state-of-the-art performance in both quality and efficiency. Scatter plot of answer correctness versus cost per rollout on OfficeQA Pro V2, log-scale cost. GPT-5.6 Sol running in Codex with Toast 1 as a sub-agen",
+      "oneLineKo": "믹스드브레드, 저비용·고속 특화 검색 에이전트 'Toast 1' 공개",
+      "summaryKo": "Mixedbread가 첫 특화 검색 에이전트 'Toast 1'을 출시했다. Claude Opus 5, GPT-5.6 Sol과 동등하거나 더 나은 검색 품질을 제공하면서도 최대 10배 저렴하고 12배 빠르다. Toast 1은 쿼리를 서브쿼리로 분해하고 근거를 수집·검토해 관련 컨텍스트를 정리하는 검색 루프 전체를 처리하며, 프론티어 모델의 서브에이전트로도 활용 가능하다. Databricks의 OfficeQA Pro V2 벤치마크에서 GPT-5.6 Sol과 결합 시 태스크당 약 1.15달러로 70% 정답률을 기록해 품질과 효율성 모두에서 최고 성능을 달성했다.",
+      "tags": [
+        "ai-agent",
+        "search",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49297637",
+      "title": "The TEMU-Fication of Software, Digital Goods and Services",
+      "url": "https://xn--gckvb8fzb.com/the-temu-fication-of-software-digital-goods-services/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49297637",
+      "publishedAt": "2026-08-14T12:00:51Z",
+      "score": 127,
+      "comments": 87,
+      "snippet": "マリウス . The TEMU-fication of Software, Digital Goods & Services Journal Updates Guides Reviews Make Now Projects Desk Computer Keyboard Command Line Infrastructure EDC Phone Camera Audio Workout Coffee Travel Luggage Belongings Locations Library Bookmarks Contact Odysee YouTube Source Code GitHub FAQ Support RSS The TEMU-fication of Software, Digital Goods & Services A hypothesis on the not-so-distant future of software, books, music, and movies, in which most of what we consume gets cheaper, more abundant, and noticeably worse, while the human-made variant moves into a luxury segment of its own. Disclaimer: This is an opinion piece and most of it is speculation about a future that has not arrived (yet?), based on a few data points that have. As usual, summary at the end. A few years ago I would have laughed at anyone telling me that there is a serious market for ten-dollar drills, two-dollar dresses, and one-dollar pairs of shoes shipped from a warehouse on the other side of the planet. Today, however, that market exists and it has a name, and it is even publicly traded (sort of, through holdings). TEMU , Shein and a few others have built frankly mind-boggling businesses around the idea that if you make production cheap enough, fast enough, and just barely good enough to look right on a phone screen, an enormous part of the population will buy it, even when the product breaks within a week, when the materials it is made of contain worrying levels of toxic substances , and when the carbon footprint of one delivery exceeds that of an equivalent local purchase by orders of magnitude. The key to this sort of business model is not innovation, but instead the externalization and compression of cost. Somewhere upstream, people work seventy-five hours a week , in conditions most readers of this website would refuse to even visit, so that the rest of us can have a cheap plastic spatula at our doorstep within five business days. While the visible price collapses, the invisible costs get distributed onto landfills, lungs, and ultimately people that we will never meet. What follows is a hypothesis I cannot prove but have been turning over in my head for a while, as we are watching the same thing happen to software, books, music, (film-)scripts, and most of the digital goods and services we consume. The cheap labor in this case is not human, it is a Large Language Model ( LLM ), or what many people these days call &ldquo;AI&rdquo; , and the externalized cost is, among other things, quality , which requires craftsmanship to produce, and attention to perceive. And just like with physical goods, we will probably end up with a two-tier market, in which we have a large and massively profitable lower tier of generated slop , and a smaller, more expensive upper tier of work that is still recognizably human. I&rsquo;d like to call this the TEMU-fication of software, digital goods and services , and describe what it might look like. Cheap labor For decades, the global",
+      "oneLineKo": "AI가 만드는 저가·저품질 디지털 상품의 양극화 전망",
+      "summaryKo": "이 글은 TEMU, Shein 같은 초저가 실물 상품 시장의 논리가 소프트웨어, 책, 음악, 영화 등 디지털 재화·서비스에도 그대로 적용될 것이라는 가설을 제시한다. 저렴한 인간 노동력 대신 LLM(대형 언어 모델)이 저비용 생산 수단이 되며, 그 과정에서 품질이라는 비용이 외부화된다는 것이다. 저자는 이로 인해 대량의 저품질 'AI 슬롭'이 지배하는 하위 시장과, 인간이 만든 고품질 결과물이 럭셔리 영역으로 이동하는 상위 시장으로 양극화될 것이라 전망한다. 이는 아직 도래하지 않은 미래에 대한 저자의 의견이자 추측임을 명시하고 있다.",
+      "tags": [
+        "llm",
+        "ai",
+        "software-quality"
+      ]
+    }
+  ]
+}
