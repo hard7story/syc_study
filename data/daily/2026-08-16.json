@@ -1,0 +1,252 @@
+{
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-15T22:11:43.223Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32518",
+      "title": "AI 텍스트 워터마킹의 작동 원리",
+      "url": "https://news.hada.io/topic?id=32518",
+      "commentsUrl": "https://news.hada.io/topic?id=32518",
+      "publishedAt": "2026-08-15T09:43:26+09:00",
+      "snippet": "AI 텍스트 워터마킹의 작동 원리 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ AI 텍스트 워터마킹의 작동 원리 (declaude.org) 3 P by GN⁺ 21시간전 | ★ favorite | 댓글 1개 AI 텍스트 워터마크는 문자나 메타데이터가 아니라 다음 단어를 고르는 확률적 선택 에 비밀 패턴을 심으며, Google은 2024년부터 Gemini 앱·웹에 적용했고 Claude 신형 모델도 2026년 8월부터 모델 수준에서 적용함 비밀 키로 문맥마다 후보 단어를 임의로 구분한 뒤 특정 후보의 선택 확률을 조금 높이면, 자연스러운 문장을 유지하면서 긴 텍스트에 통계적 편향 을 누적할 수 있음 키 보유자는 같은 분류를 재현해 편향을 측정하며, 예시의 50:50 모델에서는 1,500단어 문서가 약 55%의 편향 만 보여도 탐지할 수 있지만 짧거나 선택지가 적은 텍스트는 판별하기 어려움 가벼운 교정이나 한 차례의 바꿔쓰기는 원문 구간을 남겨 워터마크를 희석할 뿐이지만, 의미부터 문장을 재구성하면 KGW·EXP 실험의 탐지 정확도가 동전 던지기 수준 으로 떨어짐 검출 결과는 AI가 작성했다는 증거가 아니라 해당 제공자의 모델로 처리됐다는 확률적 신호 이며, 실제 검사는 비밀 키나 제공자의 검사 서비스가 필요하고 워터마크 부재도 인간 작성 여부를 입증하지 못함 단어 선택에 숨기는 통계적 패턴 텍스트에는 픽셀이나 복사 후에도 남는 메타데이터가 없지만, 언어 모델은 매 순간 여러 자연스러운 후보 가운데 하나를 가중 확률 에 따라 선택함 한 페이지에는 단어마다 수백 번의 선택 지점이 생기며, 여러 후보가 모두 문맥상 적절한 지점의 여유가 워터마크를 넣을 공간이 됨 선택 확률을 미세하게 조정하면 의미를 바꾸지 않으면서 반복되는 통계적 패턴 을 만들 수 있음 Google은 2024년부터 Gemini 앱과 웹 경험의 텍스트에 워터마크를 적용했으며, 작성 시점의 Gemini API는 문서화된 예외임 2026년 8월부터 새 Claude 모델은 모델 수준에서 텍스트를 표시하며, 이전 모델에도 뒤이어 적용할 예정임 비밀 키로 후보 확률을 조정하는 방식 Kirchenbauer 등의 2023년 방식 은 비밀 키로 각 선택 지점의 후보를 임의의 green·red 그룹 으로 나눈 뒤 green 쪽 확률을 조금 높임 red 후보도 계속 선택될 수 있어 문장이 부자연스럽게 고정되지 않음 단어의 색은 고정 속성이 아니라 바로 앞의 짧은 단어 구간으로 계산되므로, 같은 후보도 문맥에 따라 green 또는 red가 됨 키는 전체 텍스트의 위치가 아니라 직전 문맥만 보며, 어느 위치에서 어떤 단어가 green이었는지는 키 보유자만 재현할 수 있음 Google의 SynthID 는 단순한 확률 가중 대신 작은 비밀 토너먼트를 사용함 모델의 원래 확률에서 후보 몇 개를 뽑아 키로 점수를 매김 키 추출 전체의 평균에서 각 단어의 확률이 모델이 의도한 값과 정확히 같아지도록 대진을 구성함 OpenAI에서 개발된 Aaronson 방식 은 키로 주사위 추첨 자체를 유도함 수학적 구현은 달라도 세 방식 모두 워터마크를 실제 문자가 아닌 단어 사이의 선택 에 저장함 비밀 키를 이용한 탐지 탐지기는 글의 의미나 문체를 판단하지 않고, 비밀 키로 각 단어의 분류를 재현해 green이 나온 횟수를 셈 워터마크가 없거나 틀린 키를 사용하면 green 비율은 약 절반으로 수렴해 동전 던지기 와 같아짐 올바른 키로 표시된 긴 텍스트에서는 green이 우연으로 보기 어려울 만큼 자주 나타남 시각 예시는 원리를 보여주기 위해 실제보다 강한 편향을 사용함 프로덕션 워터마크는 훨씬 약하게 기울이므로 탐지에 더 긴 텍스트가 필요함 예시의 50:50 모델에서는 1,500단어 문서가 약 55% green 만 되어도 판정 기준에 도달함 작은 편향은 충분한 길이가 있어야 설득력 있는 통계가 되므로, 짧은 텍스트는 본질적으로 판별하기 어려움 편집과 재작성에 따른 변화 단어 분류는 보통 바로 앞의 한 단어에서 몇 단어까지를 이용하므로, 탐지 증거가 되려면 대상 단어와 이웃 단어로 이뤄진 짧은 원문 구간 이 그대로 남아야 함 오타 수정, 가벼운 교정, 문장 압축, 강한 편집으로 갈수록 온전한 구간이 줄어들며 새로 작성된 부분은 동전 던지기 수준의 잡음만 더함 가벼운 편집이나 한 차례의 바꿔쓰기는 워터마크를 지우지 않고 희석 함 Kirchenbauer 등의 실험에서는 텍스트가 충분히 길면 다시 탐지할 수 있었음 사람이 바꿔 쓴 경우도 약 800토큰, 즉 약 600단어가 되면 다시 탐지할 수 있었음 MarkLLM의 KGW·EXP 방식과 오픈 모델을 declaude의 전체 재작성 경로로 처리한 실험에서는 원문 구간이 약 0.5% 만 살아남았고, 탐지 정확도는 사실상 확실한 수준에서 동전 던지기 수준으로 하락함 워터마크를 제거하려면 표현만 손보는 대신 의미를 바탕으로 문장을 다시 구성해 원문과 같은 구간을 없애야 함 declaude 의 전체 재작성 경로는 의미부터 글을 재구성하지만, 대부분의 표현을 유지하는 가벼운 처리는 이 계열의 워터마크를 제거하지 못함 이 수치는 측정 가능한 공개 구현에서 나온 결과이며, Anthropic의 프로덕션 방식은 공개되지 않아 외부에서 Claude 워터마크를 같은 방식으로 시험할 수 없음 실제 판정의 제약 키 보유자만 검사 할 수 있으므로 교사, 편집자, 일반 AI 탐지 웹사이트는 실제 워터마크 검사를 직접 수행할 수 없음 제공자의 비밀 키나 제공자가 운영하는 검사 서비스가 필요함 Google은 SynthID용 조기 접근 탐지 포털을 운영함 Anthropic은 탐지 도구를 제공할 예정임 GPTZero 같은 도구는 문체로 AI 생성을 추정하지만, 워터마크 검사는 의도적으로 심은 패턴을 비밀 키로 확인하는 통계적 검사 이므로 서로 다른 방식임 워터마크가 발견돼도 해당 텍스트를 AI가 작성했다는 뜻이 아니라 모델이 처리했다는 뜻 임 Anthropic 문서에 따르면 사람이 쓴 ",
+      "externalUrl": "https://declaude.org/watermarking/",
+      "oneLineKo": "AI 텍스트 워터마킹, 단어 선택 확률에 비밀 패턴 심는 원리",
+      "summaryKo": "AI 텍스트 워터마킹은 문자나 메타데이터가 아니라 다음 단어를 고를 때의 확률적 선택에 비밀 패턴을 심는 방식으로, Google은 2024년부터 Gemini에, Anthropic은 2026년 8월부터 Claude 모델 수준에서 적용한다. 비밀 키로 후보 단어를 green·red 등으로 나눠 특정 그룹의 선택 확률을 미세하게 높이면 긴 텍스트에 통계적 편향이 누적되어 키 보유자만 탐지할 수 있다. 가벼운 교정이나 한 차례 바꿔쓰기는 워터마크를 희석할 뿐이지만, 의미부터 문장을 재구성하면 탐지 정확도가 동전 던지기 수준으로 떨어진다. 워터마크 검출은 AI 작성의 증거가 아니라 해당 제공자 모델이 처리했다는 확률적 신호일 뿐이며, 검사에는 비밀 키나 제공자의 서비스가 필요하다.",
+      "tags": [
+        "watermarking",
+        "llm",
+        "ai-detection"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49309451",
+      "title": "Working with AI Feels More Like Leadership Than Coding",
+      "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49309451",
+      "publishedAt": "2026-08-15T10:39:41Z",
+      "score": 228,
+      "comments": 162,
+      "snippet": "Working With AI Feels More Like Leadership Than Coding — Allen Bargi skip to note tty://allen.bargi.org/notes/001 published allen@bargi :~/notes$ cat working-with-ai.md Working With AI Feels More Like Leadership Than Coding Working with AI is less predictable than traditional software. That makes context, clarity, and feedback more valuable. Allen Bargi 15 August 2026 2 min read For most of my career, code gave me certainty. A program did what its instructions told it to do. If the same input produced a different result, we called it a bug. People were never like that. As a leader, I can explain a task and get exactly what I asked for. I can also get something better because a colleague understood the intent behind the request. Sometimes the result shows that I was not as clear as I thought. Working with AI feels closer to the second experience. AI runs on software, but working with it is not fully predictable. The same request can produce a different answer. It can make a useful connection, miss an obvious point, or surprise me with an approach I had not considered. This is frustrating when I treat AI like a compiler. It becomes more useful when I treat the interaction as a form of collaboration. That does not make AI a person. It has no lived experience, accountability, or human judgment. The comparison is about how we work. Good leaders do more than issue instructions. They share context, explain the desired outcome, set boundaries, and respond to what comes back. The same habits improve my work with AI. A good prompt helps, but a shared working context helps more. Examples, corrections, and reusable instructions reduce misunderstandings. Over time, the system becomes better aligned with how I think and what I need from it. The investment is not in pretending that AI is human. It is in becoming better at expressing intent. We spent years learning how to tell computers exactly what to do. Now we also need to explain why the work matters, what a good result looks like, and where judgment is needed. For me, that is the shift. AI is making software work less like issuing commands to a machine and more like leading through a conversation. The technology is new. The leadership skills are not. This note led to a thoughtful discussion on Hacker News . I recommend reading through all the comments; the agreement, criticism, and different experiences add more to the idea than I could fit here. ← all notes rss feed note 001 · plain text · human edited published 2026.08.15",
+      "oneLineKo": "AI 협업, 코딩보다 리더십에 가깝다는 통찰",
+      "summaryKo": "저자는 AI와 작업하는 경험이 예측 가능한 전통적 코딩보다 사람을 이끄는 리더십에 더 가깝다고 말한다. AI는 같은 요청에도 다른 결과를 낼 수 있어 컴파일러처럼 대할 때 좌절감을 주지만, 협업 대상으로 대하면 더 유용해진다는 것이다. 좋은 리더가 맥락과 목표, 피드백을 공유하듯, AI에게도 예시와 수정, 재사용 가능한 지침을 통해 공유된 작업 맥락을 만들면 정렬도가 높아진다. 결국 핵심은 AI를 사람처럼 취급하는 것이 아니라, 의도를 더 잘 표현하는 능력을 기르는 것이라고 강조한다.",
+      "tags": [
+        "ai",
+        "llm",
+        "prompt-engineering"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32539",
+      "title": "AI는 수학자보다 더 잘 생각하는 게 아니라 더 많이 기억함",
+      "url": "https://news.hada.io/topic?id=32539",
+      "commentsUrl": "https://news.hada.io/topic?id=32539",
+      "publishedAt": "2026-08-16T06:33:40+09:00",
+      "snippet": "AI는 수학자보다 더 잘 생각하는 게 아니라 더 많이 기억함 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ AI는 수학자보다 더 잘 생각하는 게 아니라 더 많이 기억함 (davidepiffer.com) 1 P by GN⁺ 34분전 | ★ favorite | 댓글 1개 AI의 수학 성능은 뛰어난 추론뿐 아니라 문제와 중간 계산·제약·실패한 접근을 함께 유지하는 거대한 상징적 작업 공간 에서 나올 수 있음 인간은 제한된 작업 기억을 청킹과 종이로 보완하지만, AI는 긴 컨텍스트를 노트처럼 활용해 수십·수백 개 조건과 긴 추론 사슬 을 명시적으로 보존함 수학은 가정과 변환을 기호로 기록하고 대입·코드·형식 증명으로 결과를 검증할 수 있어, 큰 컨텍스트와 명시적 중간 상태 의 이점이 특히 큼 컨텍스트는 능동적인 인간 작업 기억과 다르고 검색 실패나 주의 분산도 겪지만, 여러 제약·긴 계산·경우 분석·정확한 기호 관리가 필요한 문제에서는 성능 차이를 만들 수 있음 현재 AI는 문제의 틀을 근본적으로 바꾸는 Einstein식 깊이보다 von Neumann식 속도와 폭에 무제한 노트를 결합한 모습에 가까우며, 다음 단계는 잘못 설정된 문제를 재구성 하는 능력임 수학 성능을 제한하는 작업 기억 작업 기억 은 방정식의 변수, 이미 수행한 연산, 현재 목표와 함께 증명의 가정·보조정리·예외·경우를 잠시 유지하고 조작하는 체계임 인간의 작업 기억 용량은 매우 제한적임 세 자릿수 두 수의 암산은 연산 자체보다 부분 결과를 보존하며 다음 계산을 이어가야 해서 어려움 숫자를 종이에 적으면 지능이 높아지는 것이 아니라 유효 작업 기억 이 확장됨 수학자는 표기법, 메모지, 도표, 앞서 작성한 보조정리를 의사소통뿐 아니라 추론을 인지적으로 가능하게 하는 도구로 사용함 전문가는 여러 기호를 익숙한 구조 하나로 묶는 청킹(chunking) 으로 같은 생물학적 용량에 더 많은 정보를 담음 청킹은 정보를 압축할 뿐 작업 기억의 한계를 없애지는 못함 IQ와 별개로 나타나는 수학 성과 예측력 작업 기억은 일반지능과 강하게 연관되지만, 여러 연구에서 전통적인 지능 측정만으로 환원되지 않는 수학 성과 예측력이 나타남 Alloway와 Passolunghi(2011)는 아동의 작업 기억, 언어 능력, 수학 능력을 조사해 작업 기억이 일반 언어 능력과 수학의 연관성을 반복하는 데 그치지 않고 수학 성과에 독자적으로 기여 한다고 분석함 Alloway와 Alloway(2010)의 6년 종단 연구에서는 5세 때 측정한 작업 기억이 IQ를 통제한 뒤에도 6년 후 문해력과 수리력을 예측함 해당 연구에서는 작업 기억이 사용된 IQ 측정보다 이후 학업 성과를 더 강하게 예측함 Blankenship 등(2015)은 IQ와 연령을 통계적으로 통제한 뒤에도 작업 기억이 수학 유창성과 계산 능력의 고유한 차이를 설명한다고 분석함 Friso-van den Bos 등(2013)의 대규모 메타분석은 초등학생 연구 전반에서 작업 기억과 수학 사이의 일관된 관계를 확인함 관계의 강도는 측정한 작업 기억과 수학 과제의 유형에 따라 달라짐 이 결과에는 명확한 한계가 있음 작업 기억과 지능은 상당 부분 겹치며, 통계적 통제로 두 심리 기제를 완벽히 분리할 수 없음 상업적인 작업 기억 훈련이 지능이나 수학 능력을 크게 높인다는 뜻도 아님 제한적으로는 비슷한 측정 지능을 지닌 아동 사이에서도 정보를 유지·갱신·조작하는 능력이 수학 성과 차이를 예측함 인간의 수학 능력이 작업 기억 병목에 일부 제한된다면, 거대한 상징적 공간을 가진 기계와의 비교는 인지적 제약 자체가 다른 경쟁 이 됨 거대한 노트로 작동하는 컨텍스트 현대 언어 모델의 컨텍스트 윈도우 에는 원래 질문, 정의, 예제, 중간 계산과 모델이 앞서 생성한 추론을 함께 담을 수 있음 컨텍스트는 인간 작업 기억과 동일하지 않으며, 기록된 내용을 불완전하게 검색하고 활용하는 거대한 외부 노트에 가까움 인간은 숫자를 속으로 유지하고 변환한 뒤 새 값으로 바꾸는 능동적인 내부 상태를 가짐 표준 언어 모델은 이처럼 비공개로 계속 갱신되는 내부 상태를 유지하는 데 상대적으로 약하며, 가장 안정적인 기억은 이미 생성한 토큰 기록 임 앞에서 x=6 , 뒤에서 x+3=9 를 생성하면 두 문장은 컨텍스트에 남아 다음 단계에서 다시 참조할 수 있음 모델이 생성하는 텍스트는 완성된 사고의 보고서만이 아니라 추론이 진행되는 메커니즘의 일부임 인간도 메모지를 사용하지만 규모가 다름 사람은 생소한 조건 5개를 동시에 유지하는 데도 어려움을 겪을 수 있음 AI는 수십 또는 수백 개 조건을 명시적인 형태로 보존할 수 있음 긴 컨텍스트의 모든 항목을 완벽히 검색할 수 있는 것은 아님 모델은 관련 정보를 놓치거나 산만해지고 세부 사항을 잃을 수 있음 광고된 컨텍스트 길이는 완전히 활용 가능한 기억 용량 과 같지 않음 수학에서 기억의 이점이 커지는 이유 수학은 관련 요소 대부분을 명시적인 기호로 옮길 수 있음 가정과 정의 알려진 방정식과 현재 목표 이미 증명한 결과 배제된 경우 각 단계가 유효한 조건 기록된 수학 정보는 안정적으로 유지됨 증명 초기에 정수로 정의한 x 는 정의가 명시적으로 바뀌지 않는 한 정수임 엄격 부등식은 분위기나 해석 변화 때문에 비엄격 부등식으로 바뀌지 않음 수학 기호는 모호성을 줄이도록 설계됐기 때문에 큰 텍스트 작업 공간을 활용하는 지능에 잘 맞음 n 은 홀수, p 는 소수, x≠0 이며 한 분기에서 이미 모순이 발생했다는 조건을 계속 추적해야 하는 문제가 사례가 됨 인간은 전략을 이해하고도 x≠0 을 확립하기 전에 x 로 나누는 장부 관리 오류 를 범할 수 있음 AI는 각 단계에서 활성 가정을 다시 적어 컨텍스트를 추론 상태의 장부로 활용할 수 있음 어려운 문제는 초기의 깊은 통찰 뒤에도 식 전개, 경우 확인, 변환 과정의 조건 유지, 최종 결론과 이전 가정의 호환성 검사가 필요함 AI는 인간보다 깊은 통찰이 없어도 전체 문제 상태를 보존하며 긴 ",
+      "externalUrl": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+      "oneLineKo": "AI 수학 능력은 추론보다 방대한 컨텍스트 기억력 덕분",
+      "summaryKo": "이 글은 AI가 수학 문제를 잘 푸는 이유가 인간보다 뛰어난 추론력이 아니라, 컨텍스트 윈도우를 거대한 작업 기억(노트)처럼 활용해 수십·수백 개의 조건과 중간 계산을 명시적으로 유지할 수 있기 때문이라고 주장한다. 인간은 제한된 작업 기억을 청킹이나 종이로 보완하지만, AI는 긴 컨텍스트에 가정·정의·경우 분석 등을 기호로 기록해 안정적으로 참조할 수 있어 수학처럼 명시적 상태 관리가 중요한 영역에서 유리하다. 다만 컨텍스트는 인간의 능동적 작업 기억과 달리 불완전한 검색과 주의 분산 문제를 겪으며, 현재 AI는 근본적 문제 재구성(Einstein식 통찰)보다는 속도와 폭(von Neumann식)에 강점을 보인다.",
+      "tags": [
+        "llm",
+        "reasoning",
+        "context-window"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49246366",
+      "title": "Show HN: Eigendrum - Draw any shape and hear what it sounds like as a drum",
+      "url": "https://baselashraf81.github.io/eigendrum/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49246366",
+      "publishedAt": "2026-08-10T16:53:31Z",
+      "score": 181,
+      "comments": 86,
+      "snippet": "Hi HN, I built Eigendrum, a web tool that solves the 2D wave equation for arbitrary shapes so you can hear what they sound like as drums.<p>How it works:\n* Solves -∇²u = λu using finite element analysis (Kφ = λMφ) on a triangle mesh.\n* Validated to &lt;0.1% error against closed-form solutions for circles (Bessel zeros) and rectangles.\n* Sound model factors in strike location, Rayleigh damping, and mallet width.\n* Includes Kac drums I &amp; II to demonstrate identical sound spectra from different geometries.\n* No frameworks, build steps, or dependencies.<p>Repo and tests: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;BaselAshraf81&#x2F;eigendrum\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;BaselAshraf81&#x2F;eigendrum</a><p>Happy to answer any questions about the FEM solver or Web Audio setup!<p><a href=\"https:&#x2F;&#x2F;eigendrum.com&#x2F;#p=circle\" rel=\"nofollow\">https:&#x2F;&#x2F;eigendrum.com&#x2F;#p=circle</a>",
+      "oneLineKo": "임의 도형을 드럼 소리로 변환하는 웹 도구 공개",
+      "summaryKo": "Eigendrum은 사용자가 그린 임의의 2D 도형에 대해 파동방정식(-∇²u = λu)을 유한요소법(FEM)으로 풀어 드럼 소리를 시뮬레이션하는 웹 도구입니다. 원과 사각형 같은 닫힌 형태 해와 비교해 0.1% 미만의 오차로 검증되었으며, 타격 위치, 레일리 감쇠, 말렛 너비 등을 반영한 사운드 모델을 포함합니다. 서로 다른 모양이 동일한 소리 스펙트럼을 내는 Kac 드럼 예제도 제공하며, 프레임워크나 빌드 단계 없이 순수 웹 기술로 구현되었습니다.",
+      "tags": [
+        "fem",
+        "web-audio",
+        "physics-simulation"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32524",
+      "title": "Going Dark와 법 집행기관 해킹의 시대",
+      "url": "https://news.hada.io/topic?id=32524",
+      "commentsUrl": "https://news.hada.io/topic?id=32524",
+      "publishedAt": "2026-08-15T19:33:12+09:00",
+      "snippet": "Going Dark와 법 집행기관 해킹의 시대 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Going Dark와 법 집행기관 해킹의 시대 (blog.cryptographyengineering.com) 1 P by GN⁺ 12시간전 | ★ favorite | 댓글 1개 AI 취약점 탐지가 소프트웨어 보안을 크게 높이면, 표적 해킹 도구에 의존해 온 미국 정보·법 집행기관이 수사 역량을 잃는 진정한 Going Dark 상황에 놓일 수 있음 스마트폰 저장소와 메시지가 암호화된 뒤 FBI는 예외적 접근을 요구했지만, GrayKey와 Pegasus 같은 상용 해킹 도구 가 대안으로 자리 잡으면서 지난 10년간 백도어 논쟁의 긴급성이 낮아짐 Anthropic Mythos에 이어 OpenAI, Z.ai, Moonshot 모델도 취약점 탐지 능력을 보였으며, AI 검사가 CI 도구 체인에 통합되면 향후 2년 안에 주요 소프트웨어의 원격 악용 취약점 이 크게 고갈될 가능성이 있음 자연적으로 존재하는 취약점이 줄어들면 정부가 예외적 접근 백도어 를 다시 요구하고, 이를 지원하도록 업계에 시스템 구조 변경을 압박할 수 있음 특정 국가가 요구한 백도어는 그 국가의 시스템을 약화해 외국 공격자에게 새로운 침투 경로를 제공하고, 미국 소프트웨어에 대한 해외 의존도 낮출 수 있음 암호화가 바꾼 전자 감시 2002년의 《The Wire》는 공중전화와 일회용 휴대전화를 도청하던 전자 감시 환경을 보여주며, 기술적으로는 1989년의 경찰에게도 낯설지 않은 모습이었음 2000년대 후반 스마트폰과 문자 메시지가 확산되면서 데이터를 저장하는 휴대전화 자체가 법 집행기관의 새로운 정보원이 됨 Apple은 2010년 사용자 암호에서 파생한 키로 iPhone 저장소를 암호화 하기 시작했고, Android도 곧 뒤따름 2011년에는 iPhone 문자 메시지에 종단간 암호화를 적용함 WhatsApp은 2014년 전 세계 사용자 6억 명을 확보했고, 2016년에는 거의 10억 명이 기본 설정으로 종단간 암호화 메시지와 통화 를 사용함 통화에서 문자로, 다시 암호화된 데이터로 빠르게 전환되면서 기존 감시 방식의 효용이 줄어듦 FBI의 Going Dark와 Apple 분쟁 FBI 국장 James Comey는 2014년 Going Dark 계획을 발표하고, 새로운 통신 매체를 법 집행·방첩기관이 읽을 수 있도록 사업자가 무엇을 할 수 있거나 강제받아야 하는지에 관한 국가적 논의를 추진함 2016년 테러 공격 이후 FBI는 범인의 잠긴 iPhone에 접근 권한을 제공하라고 Apple에 요구 했으나, Apple은 이를 거부 함 외부 업체가 Apple의 도움 없이 휴대전화를 해킹할 수 있다고 나서면서 교착 상태가 해소됐고, 초기 Going Dark 논쟁도 상당 부분 동력을 잃음 상용 해킹 도구가 만든 지난 10년 법 집행·정보기관은 이후에도 예외적 접근 백도어를 요구했지만, 필요하면 표적 해킹 도구를 구매할 수 있었기 때문에 긴급성이 낮아짐 GrayKey는 휴대전화 잠금 해제에 사용됨 NSO Group의 Pegasus는 원격 침투 기능을 제공함 Apple과 Google이 발견된 취약점을 빠르게 막는 동안에도 공격용 취약점을 찾는 측은 계속 우위를 유지함 이 균형 덕분에 암호화를 구조적으로 약화하지 않고도 수사기관이 일부 장치에 접근할 수 있었으나, AI 취약점 탐지가 이 시대를 끝낼 가능성이 생김 AI 취약점 탐지의 확산 Anthropic은 2026년 4월 소프트웨어 취약점 탐지에 뛰어난 새 모델 Mythos 를 발표함 미국 정부는 Mythos 수출을 일시적으로 막고 미국 기관과 신뢰할 수 있는 공급업체로 접근을 제한했지만, 한 연구소가 이 능력을 독점하기는 어려운 것으로 나타남 OpenAI , 중국의 오픈 웨이트 모델 연구소 Z.ai , Moonshot 도 취약점 탐지 능력을 보임 이 모델들이 찾아내는 심각한 취약점은 계속 늘어나고 있음 공격보다 방어에 유리해질 가능성 AI 취약점 탐지는 처음에는 공격자와 해커에게 유리해 보이지만, 장기적으로 방어 측이 발견된 버그를 대규모로 수정하면서 양상이 달라질 수 있음 수십 년간 쌓인 취약점으로 처리할 작업은 많지만, 소프트웨어가 사람에게 도달하기 전에 AI 검사를 수행하도록 CI 도구 체인 전체가 재구축되고 있음 모든 버그를 찾을 수 있다는 뜻은 아니며, 코드에 존재하는 버그 수를 계산하는 일 자체도 계산 불가능할 수 있음 현실적으로 악용 가치가 있는 버그의 수에는 한계가 있으며, 그 한계에 곧 도달할 가능성이 있음 향후 2년 동안 주요 소프트웨어에서 원격으로 악용할 수 있는 취약점 이 고갈될 수 있음 잘 유지되는 고급 장치와 소프트웨어 전반에서 법 집행기관은 2010년 이후 처음으로 실질적인 Going Dark를 경험할 수 있음 예외적 접근 요구의 귀환 예외적 접근 논쟁은 사라지지 않았으며, 영국에서는 더 강한 형태로 확대 된 반면 미국에서는 대체로 잠복 상태에 머묾 학계와 업계 엔지니어들은 백도어가 정부가 방어해야 할 적대 세력에 악용될 수 있다고 경고해 왔으며, Salt Typhoon 이 그 위험과 연결됨 미국에서 논쟁이 잦아든 이유는 원칙적인 중단보다 시장에서 구매 가능한 취약점의 공급이 수요를 충족했기 때문일 수 있음 쉽게 찾을 수 있는 취약점이 사라지면 법 집행·정보기관의 필요가 더 절박해지고, 의도적으로 구축한 백도어 요구가 본격적으로 재개될 수 있음 정부는 예외적 접근을 지원하도록 시스템 구조를 다시 설계하라고 업계에 강한 압력을 가할 수 있음 의도적 백도어가 부르는 역효과 일부 정부는 다른 국가를 감시하는 데 활용하려고 예외적 접근 기능을 요구할 수 있음 이런 전략은 AI 이전에는 탐지되지 않았을 수 있지만, AI 기반 취약점 탐지가 확산된 환경에서는 효과가 낮아질 가능성이 있음 비미국 정부가 미국 소프트웨어에 대한 의존을 완전히 제거하는 결과로도 이어질 수 있음 새 백도어는 이를 요구한 국가에 주로 적용",
+      "externalUrl": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
+      "oneLineKo": "AI가 취약점 다 찾으면 해킹 어려워져 백도어 논쟁 재점화 전망",
+      "summaryKo": "AI 기반 취약점 탐지 모델(Anthropic Mythos, OpenAI, Z.ai, Moonshot 등)이 발전하면서 법 집행기관이 의존해온 GrayKey, Pegasus 같은 상용 해킹 도구의 효용이 크게 줄어들 수 있다는 분석이다. AI 검사가 CI 도구 체인에 통합되면 향후 2년 내 주요 소프트웨어의 원격 악용 취약점이 고갈되어 정부기관이 진정한 'Going Dark' 상황에 처할 가능성이 있다. 이에 따라 정부가 예외적 접근(백도어)을 다시 강하게 요구할 수 있으나, 이는 시스템을 약화시켜 외국 공격자에게 새로운 침투 경로를 제공하고 미국 소프트웨어에 대한 해외 의존도를 낮추는 역효과를 낳을 수 있다.",
+      "tags": [
+        "security",
+        "ai",
+        "encryption"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49310682",
+      "title": "At-home test for infected ticks could improve Lyme Disease diagnosis",
+      "url": "https://www.smithsonianmag.com/innovation/the-first-at-home-test-for-infected-ticks-could-improve-lyme-disease-diagnosis-180989235/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49310682",
+      "publishedAt": "2026-08-15T14:04:49Z",
+      "score": 181,
+      "comments": 62,
+      "snippet": "The First At-Home Test for Infected Ticks Could Improve Lyme Disease Diagnosis Skip to main content Search Shop Newsletters Renew Give a Gift Subscribe Membership i Subscribe Give a Gift Renew Sections Smart News History Science Innovation Arts & Culture Travel At the Smithsonian More from Smithsonian magazine Newsletters Photo Contest Podcast Videos Our Partners Smithsonian Store Smithsonian Journeys Subscribe to Smithsonian magazine and get a FREE tote. The First At-Home Test for Infected Ticks Could Improve Lyme Disease Diagnosis LymeAlert will hit the market in August. The latest tool against the tick-borne illness could become a medicine cabinet staple Kristen A. Schmitt | Freelance writer July 31, 2026 Share Copy link Email SMS Facebook X Reddit LinkedIn Bluesky Print Add as preferred source Of the estimated 899 species of ticks worldwide, about 90 are found in the continental U.S.; however, only four species are responsible for most of the infections found in the U.S. today. Tomasz Klejdysz/Getty Images Research shows that more than 31 million Americans —or nearly one in ten people—experience a tick bite every year. While some tick bites can be harmless, these parasitic arachnids that feed on both animals and people can transmit dozens of diseases in as little as 36 to 48 hours, including anaplasmosis , babesiosis , Rocky Mountain spotted fever , alpha-gal syndrome and Lyme disease . This spring, the Centers for Disease Control and Prevention (CDC) reported a spike in tick-borne-illness-related emergency room visits, with Lyme disease being the most common diagnosis. An estimated 476,000 patients are treated each year for Lyme disease, concentrated in the Northeast, Mid-Atlantic and Upper Midwest, thanks to the prevalence of its carrier: blacklegged ticks. Erin Dawicki is no stranger to the increase in tick-borne illnesses, especially in New England where she resides. For the past few years, the pediatric physician associate in Boston has experienced a steady uptick in kids showing up in her office with “huge swollen joints and zero trauma,” she says—symptoms that signal Lyme arthritis , a condition that develops anywhere from one to a few months after an untreated tick bite. Lyme disease is easiest to treat during its early, or acute, stage, which makes quick tick identification critical for treatment. Most experience a “bull’s-eye” rash at the site of the bite, along with other symptoms, including fever, chills, headache, fatigue, muscle and joint aches, swollen lymph nodes, and neck stiffness. While the most common treatment is a 10- to 14-day course of antibiotics, the CDC also recommends a single 200-milligram dose of doxycycline within a 72-hour prophylactic window, if the tick had been attached for 36 hours, in areas where Lyme disease reports are high. Unfortunately, even treated, some people experience post-treatment Lyme disease syndrome, previously known as “chronic Lyme disease.” This diagnosis comes with persistent fatigue, mu",
+      "oneLineKo": "진드기 라임병 감염 여부 확인용 가정용 검사키트 8월 출시",
+      "summaryKo": "라임병을 옮기는 진드기에 물렸을 때 감염 여부를 집에서 바로 확인할 수 있는 검사키트 'LymeAlert'가 오는 8월 출시될 예정이다. 미국에서는 매년 3100만 명 이상이 진드기에 물리며, 이 중 약 47만 6000명이 라임병 진단을 받는다. 라임병은 조기 발견 시 항생제로 치료가 용이하지만, 진단이 늦어지면 관절염 등 만성 후유증으로 이어질 수 있어 신속한 진드기 감염 확인이 중요하다.",
+      "tags": [
+        "healthtech",
+        "medical-device",
+        "lyme-disease"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32520",
+      "title": "Suno Studio 2.0 - MIDI와 AI Chat을 결합한 본격적인 음악 제작 도구",
+      "url": "https://news.hada.io/topic?id=32520",
+      "commentsUrl": "https://news.hada.io/topic?id=32520",
+      "publishedAt": "2026-08-15T10:15:02+09:00",
+      "snippet": "Suno Studio 2.0 - MIDI와 AI Chat을 결합한 본격적인 음악 제작 도구 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Suno Studio 2.0 - MIDI와 AI Chat을 결합한 본격적인 음악 제작 도구 (help.suno.com) 4 P by GN⁺ 21시간전 | ★ favorite | 댓글 1개 Suno가 Studio 2.0 을 공개하며 MIDI 편집, 음량/효과 자동 조절, 신시사이저, 음원 분리 등을 추가해 단순한 AI 음악 생성기에서 일반적인 음악 제작 프로그램(DAW) 에 가까운 형태로 확장함 MIDI 건반으로 직접 연주 하거나 화면에서 음표를 편집할 수 있으며, 이렇게 만든 멜로디나 코드 진행을 AI에 입력 해 다른 악기나 스타일의 오디오로 바꾸는 것도 가능함 프로젝트 전체를 이해하는 Studio Chat 이 새로운 파트 생성, MIDI/오디오 편집, 믹싱, 트랙 정리까지 수행하며, 자연어 설명만으로 새로운 오디오 효과를 만들어 적용할 수도 있음 기존 곡에서 보컬/드럼/베이스/기타 등을 최대 12개 파트로 분리 하거나, 약 100종의 악기 중 원하는 부분만 골라 추출해 다시 편곡할 수 있음 Suno는 모든 작업을 프롬프트로 대체하기보다 직접 연주하고 소리를 조절하는 기존 음악 제작 방식과 AI를 결합 하는 것을 Studio 2.0의 설계 원칙으로 삼음 AI 음악 생성기에서 음악 제작 프로그램으로 Studio 2.0은 MIDI, 오디오 효과, 신시사이저, 자동 조절 기능을 추가해 일반적인 음악 제작 프로그램인 디지털 오디오 워크스테이션(DAW) 에 가까워짐 재생/녹음, 박자와 템포 설정, 여러 트랙을 시간축에 배치하는 기본적인 음악 제작 작업을 브라우저 안에서 처리할 수 있음 기존에 AI 생성 명령을 입력하던 영역은 Studio Chat 으로 확장돼 생성뿐 아니라 현재 프로젝트 자체를 조작하는 인터페이스가 됨 직접 연주한 MIDI를 AI의 입력으로 사용 MIDI는 전자 악기에서 어떤 음을 언제, 얼마나 세게 연주했는지 기록하는 데이터 로, 실제 녹음된 소리와는 다름 Studio 2.0에서는 MIDI 건반으로 연주하거나 화면의 피아노 롤에서 음표를 직접 그리고 수정할 수 있음 음의 위치와 길이 수정 박자에 맞춰 자동 정렬 음의 세기 조정 음높이 변화와 변조 편집 등이 가능함 별도 MIDI 건반이 없어도 컴퓨터 키보드를 간단한 건반처럼 사용할 수 있음 가장 큰 차이는 MIDI를 단순히 악기를 연주하는 용도가 아니라 AI 생성의 조건으로 사용할 수 있다는 점 임 직접 연주한 코드나 멜로디를 입력한 뒤 다른 악기로 바꾸도록 요청할 수 있음 원래 멜로디/리듬/연주 강도는 유지하면서 원하는 악기나 음색, 스타일로 오디오를 생성할 수 있음 반대로 Chat에 멜로디, 코드 진행, 드럼 패턴을 요청해 MIDI 데이터를 만드는 것도 가능함 오디오를 MIDI로 바꾸고 다시 생성 녹음된 오디오를 MIDI 트랙으로 옮기면 멜로디를 음표 데이터로 변환 할 수 있음 변환된 음표를 직접 고친 뒤 다시 Suno에 넣어 다른 악기나 스타일의 소리로 생성하는 흐름이 가능함 Studio 안에는 MIDI를 바로 연주할 수 있는 내장 신시사이저 도 추가됨 여러 파형과 필터를 조합해 음색을 만들고 시간에 따른 소리의 변화와 흔들림 등을 직접 조절할 수 있음 미리 만들어진 음색도 제공함 Studio Chat이 프로젝트 자체를 편집 Studio Chat은 단순히 \"노래 하나 만들어줘\"라고 요청하는 생성 창이 아니라 현재 작업 중인 프로젝트의 맥락을 이해하고 수정하는 도구 임 새로운 악기나 보컬 파트 생성 MIDI와 오디오 수정 곡의 새로운 구간 생성 음량과 음색 조정 트랙 이름 변경과 프로젝트 정리 등을 요청할 수 있음 예를 들어 \" 이 보컬을 더 좋게 만들어줘 \"라고 요청하면 잔향, 음량 압축, 주파수 조정 같은 효과를 조합해 적용할 수 있음 사람이 직접 어떤 효과를 선택하고 값을 조절하지 않아도 목표를 자연어로 설명하면 Chat이 작업을 수행 하는 방식임 자연어로 새로운 오디오 효과 만들기 Studio 2.0에는 잔향, 딜레이, 왜곡, 음량 압축, EQ, 노이즈 게이트 같은 기본적인 오디오 효과 가 포함됨 여기에 더해 Chat에 원하는 효과를 설명하면 새로운 효과 플러그인 자체를 생성 할 수 있음 예를 들어 \"오래된 테이프처럼 따뜻하고 약간 흔들리는 소리\"라고 입력해 효과를 만들 수 있음 결과가 마음에 들지 않으면 \"흔들림을 더 느리게\"처럼 대화로 수정할 수 있음 만든 효과는 계정에 저장해 이후 다른 곡에서도 다시 사용할 수 있음 출시 시점에는 이런 커스텀 효과 생성에 별도 크레딧이 들지 않지만, Suno는 향후 과금 방식이 바뀔 수 있다고 밝힘 시간에 따라 음량과 효과를 자동으로 변화 기존 음악 제작 프로그램처럼 곡이 진행되는 동안 음량이나 좌우 위치를 자동으로 변화 시키는 기능이 추가됨 오디오 효과의 설정값도 시간에 따라 자동으로 바꿀 수 있음 특정 구간에서 잔향을 키우거나 곡 후반부에서 특정 효과를 강하게 만드는 식의 편집이 가능함 MIDI 장비의 노브와 슬라이더를 화면의 각 설정값에 연결해 물리적으로 조절할 수도 있음 완성된 곡에서 악기별로 다시 분리 Suno에서 생성한 곡뿐 아니라 외부에서 가져온 오디오도 악기별 트랙으로 다시 분리 할 수 있음 자동 분리는 보컬, 드럼, 베이스, 기타, 키보드 등 최대 12개 부분 으로 나눠줌 특정 악기 하나만 분리하고, 해당 악기를 제외한 나머지 소리를 별도로 얻는 것도 가능함 Premier 사용자는 약 100종의 악기 목록에서 원하는 대상을 지정해 필요한 소리만 선택적으로 추출 할 수 있음 분리된 파트는 Studio에서 수정하거나 새로운 연주로 대체해 곡을 다시 구성할 수 있음 기존 전문 음악 프로그램을 완전히 대체하지는 않음 Studio 안에 기본적인 신시사이저와 오디오 효과는 들어갔지만, 아직 외부 VST/Audio Units 플러그인을 설치해 사용하는 기능은 지원",
+      "externalUrl": "https://help.suno.com/en/articles/13670529",
+      "oneLineKo": "Suno Studio 2.0, MIDI·AI Chat 결합한 음악 제작 도구 공개",
+      "summaryKo": "Suno가 MIDI 편집, 신시사이저, 음원 분리, AI Chat 기반 프로젝트 편집 기능을 추가한 Studio 2.0을 공개했다. 사용자는 MIDI로 직접 연주하거나 코드를 입력해 AI로 다른 악기/스타일 오디오를 생성할 수 있고, Studio Chat은 자연어로 트랙 수정, 효과 생성, 믹싱까지 수행한다. 완성곡에서 보컬·드럼 등 최대 12개 파트로 분리하거나 100여 종 악기를 선택 추출하는 기능도 지원한다. 다만 아직 외부 VST/Audio Units 플러그인은 지원하지 않아 전문 DAW를 완전히 대체하지는 못한다.",
+      "tags": [
+        "ai-music",
+        "daw",
+        "midi"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49237183",
+      "title": "The mathematical beauty of hyperbezier curves",
+      "url": "https://linebender.org/blog/hyperbezier/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49237183",
+      "publishedAt": "2026-08-09T23:09:04Z",
+      "score": 166,
+      "comments": 27,
+      "snippet": "The mathematical beauty of hyperbezier curves - Linebender Linebender About Blog Wiki The mathematical beauty of hyperbezier curves Raph Levien, August 8, 2026 I have for many decades been fascinated by the prospect of a curve family better suited for interactive design than cubic Béziers. In that search, I have come to a new-found respect for those Béziers. In particular, though other curves like Euler spirals are better at representing smooth curves, they fall short at representing regions large curvature variation, where cubic Béziers excel. The great strength of Béziers is their versatility. So, to find a strictly better curve family, one requirement is clear: the family should contain both smooth curvature variation and higher-tension regions where curvature peaks. Polynomial spirals, or Spiro curves, the subject of my PhD thesis , fail to achieve this goal. After considerable search and rejecting a number of candidates, I now bring a proposal for a curve family which I think is a very strong candidate for supplanting cubic Béziers in 2D vector graphic design. Without further ado, the curve family is represented by the Cesàro equation, specifying curvature as a function of arc length: $$\\kappa(s) = \\frac{as+b}{(cs^2+ds+1)^{1.5}}$$ This curve behaves surprisingly similarly to a cubic Bézier, especially at smaller angles, but when pushed has very different behavior. Overall it has smoother curvature variation and is more likely to have monotonic curvature. It contains within it a few valuable analytic curves, and is also good at approximating a wide range of others. The remainder of this blog post is devoted to showing its behavior in a wide range of contexts. Approximation of cubic Béziers The hyperbezier closely approximates cubic Béziers at low deflection angles at the endpoints. I will show rather than try to present mathematic reasoning. Below is an interactive tester that maps cubic Bézier control points to a corresponding hyperbezier. The Bézier is shown in gray for comparison. options cubic Bézier curvature comb status --> At larger angles, and also when the \"arm lengths\" of the control handles get larger, the fit with the cubic Bézier is not particularly close, but the control scheme is still a useful way of setting the parameters for the hyperbezier curve (setting the polynomial coefficients directly is not at all intuitive). Note that this parameter mapping is a first usable draft, and may not be the final version. That said, in an interactive editing context, a perfect mapping is not required, as it's always possible to tweak the control points to reach any desired curve shape. The details of the mapping can be found in the JavaScript source for this page, but the basic principle is that the arm lengths set the denominator, then the numerator is solved to make the endpoint tangents match. Exact analytical curves The most obvious analytical curve contained in the family is the Euler spiral, which is clearly attained when $c == d == ",
+      "oneLineKo": "큐빅 베지어 대체할 새 곡선군 '하이퍼베지어' 제안",
+      "summaryKo": "Linebender의 Raph Levien이 2D 벡터 그래픽 디자인에서 큐빅 베지어 곡선을 대체할 수 있는 새로운 곡선군 '하이퍼베지어(hyperbezier)'를 제안했다. 이 곡선은 곡률을 호의 길이에 대한 함수로 나타내는 체사로 방정식으로 정의되며, 낮은 편향각에서는 큐빅 베지어와 유사하게 동작하지만 큰 각도에서는 더 매끄러운 곡률 변화와 단조로운 곡률 특성을 보인다. 오일러 나선 등 기존의 분석적 곡선들을 포함하면서도 다양한 곡선을 근사할 수 있어, 인터랙티브 디자인 도구에 적합한 곡선 계열의 유력 후보로 제시된다.",
+      "tags": [
+        "computer-graphics",
+        "bezier-curves",
+        "vector-design"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32519",
+      "title": "실전 루프 엔지니어링",
+      "url": "https://news.hada.io/topic?id=32519",
+      "commentsUrl": "https://news.hada.io/topic?id=32519",
+      "publishedAt": "2026-08-15T10:01:02+09:00",
+      "snippet": "실전 루프 엔지니어링 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ 실전 루프 엔지니어링 (substack.com/addyo) 12 P by GN⁺ 21시간전 | ★ favorite | 댓글과 토론 AI 에이전트에 작업을 반복 실행시키는 핵심은 자율성을 높이는 것보다 완료 조건과 제약을 명확히 정의 하고, 어떤 판단은 사람이 계속 맡을지 결정하는 데 있음 Claude Code의 /goal 은 측정 가능한 목표가 충족될 때까지 한 작업을 반복하고, /loop 는 일정 간격으로 같은 작업을 다시 실행해 외부 상태 확인이나 반복 업무를 처리함 루프는 테스트 통과 수, Lighthouse 점수, LCP 같은 결정론적 기준 이 있을 때 효과적이며, \"UI가 좋아질 때까지\"처럼 인간의 취향이나 주관적 평가가 필요한 작업에는 적합하지 않음 작업을 수행한 에이전트와 검증하는 에이전트를 분리 하고, 보안/인증/금융처럼 민감하거나 복잡한 작업은 사람이 직접 코드와 결과를 확인해야 함 /loop 와 /goal , 스킬, 워크플로우, auto mode 등을 조합하면 PR/이슈 분류와 버그 수정 같은 장기 자동화를 만들 수 있지만, 작업 자체는 위임해도 취향과 판단까지 위임해서는 안 됨 루프 엔지니어링의 기본 개념 루프(loop)는 AI 에이전트가 특정 목표를 달성할 때까지 행동 → 결과 테스트 → 접근 방식 수정 을 반복하는 자율적이고 자기 교정적인 피드백 사이클임 Addy Osmani는 보통 하루에 5~10개의 에이전트 를 사용하며, 동시에 실행하는 수는 대체로 최대 5개 정도임 완료 조건과 제약이 분명한 작업은 거의 전적으로 위임함 복잡하거나 결과가 잘못될 가능성이 있는 작업은 에이전트가 만드는 코드를 직접 검토함 Claude Code에서 실용적으로 사용할 수 있는 두 가지 기본 요소를 구분함 /goal : 하나의 제한된 작업을 측정 가능한 완료 조건 이 충족될 때까지 진행함 /loop : 정해진 시간이나 주기로 프롬프트를 다시 실행함 Bash 루프에서 내장 기능으로 Claude Code와 Codex에 관련 기능이 들어가기 전에는 직접 Bash 루프를 만들거나 Geoff Huntley의 Ralph loop 같은 방식을 실험했음 당시에는 개인 프로젝트가 주요 실험장이어서 루프가 실패하거나 막혀도 비용이 크지 않았음 지금은 Claude Code와 Codex가 제공하는 기능을 상당 부분 신뢰할 수 있게 됐지만, 목표와 제약을 충분히 정의하지 않은 채 방치하는 것은 여전히 위험함 사용자와 역사적 복잡성이 거의 없는 신규 코드베이스와 오래된 은행 시스템 같은 brownfield 코드베이스에는 같은 방식으로 적용하기 어려움 Claude Code 팀이 구분하는 루프 Claude Code 팀은 루프를 에이전트가 중단 조건이 충족될 때까지 작업 사이클을 반복하는 것 으로 정의하며, 트리거/중단 방식/사용 기능/적합한 작업에 따라 몇 가지 형태로 나눔 가장 기본적인 agentic loop 는 사람이 매번 프롬프트를 보내는 방식임 Claude가 코드와 문맥을 읽고 변경하고 테스트한 뒤 결과를 반환함 사람이 결과를 검토하고 다음 프롬프트를 보냄 목표 기반 루프 는 한 번의 응답으로 끝내기 어려운 작업에 /goal 을 사용함 사람이 \"완료\"의 기준을 정의하면 에이전트가 임의로 \"충분히 좋다\"고 판단해 일찍 멈추지 않아도 됨 에이전트가 종료하려 할 때마다 별도 evaluator 모델이 조건 충족 여부를 확인하고, 충족되지 않았으면 다시 작업하게 함 테스트 통과 개수나 점수 임계값 같은 결정론적 기준 이 특히 효과적임 예: 홈페이지 Lighthouse 점수를 90 이상으로 만들되 최대 5회까지만 시도함 시간 기반 루프 는 입력만 달라지는 반복 업무나 외부 시스템 상태 확인에 /loop 를 사용함 매일 Slack 메시지를 요약하거나 PR 리뷰/CI 상태를 일정 간격으로 확인하는 용도임 /loop 5m check my PR, address review comments, and fix failing CI 같은 형태로 사용할 수 있음 /loop 는 로컬 컴퓨터에서 실행되므로 컴퓨터가 꺼지면 중단되며, 클라우드에서 계속 실행하려면 /schedule 을 사용할 수 있음 최상위의 proactive loop 는 사람이 실시간으로 개입하지 않고 이벤트나 스케줄에 따라 실행됨 각 작업은 목표가 충족되면 종료되지만 routine 자체는 사용자가 끌 때까지 지속됨 버그 리포트, 이슈 분류, 마이그레이션, 의존성 업그레이드 같은 잘 정의된 반복 업무 흐름 에 적합함 반복적인 처리는 작고 빠른 모델에 맡기고 판단이 필요한 부분만 더 강력한 모델로 라우팅하는 방식도 가능함 \"수정했다\"가 아니라 \"검증했다\"까지 자동화하기 Claude Code 팀은 UI 변경처럼 검증 과정이 중요한 작업을 스킬로 명문화 할 수 있다고 제안함 개발 서버를 실행하고 실제 페이지를 브라우저에서 엶 새 버튼이나 입력 요소를 직접 조작해 상태 변화를 확인하고 변경 전후를 캡처함 브라우저 콘솔에 새로운 오류나 경고가 없는지 확인함 Chrome DevTools MCP로 성능 추적과 Core Web Vitals 감사를 실행함 어느 단계든 실패하면 수정 후 처음부터 다시 검증하며, 부분적으로만 검증된 상태를 완료로 반환하지 않음 이렇게 하면 사람이 매번 수동으로 확인해야 했던 절차 일부를 에이전트 자체의 반복 과정으로 옮길 수 있음 /goal : 측정 가능한 완료 조건까지 반복 /goal 은 특정 작업이 증명 가능한 완료 상태 에 도달할 때까지 진행하는 데 사용함 \"이 경험이 5초 이내에 로드되도록 만들기\" \"최근 GitHub 이슈 10개를 검토하고 종료하거나 진전시키기\" \"페이지를 50% 더 빠르게 만들기\" 단순히 목표만 적기보다 어떤 도구와 수치로 검증할 것인지 구체적으로 지정하는 편이 좋음 예를 들어 다음과 같이 여러 제약을 함께 정의할 수 있음 Dashboard.tsx 의 데이터 가져오기 계층 리팩터링 Li",
+      "externalUrl": "https://addyo.substack.com/p/practical-loop-engineering",
+      "oneLineKo": "AI 에이전트 반복작업, 완료조건 정의가 핵심",
+      "summaryKo": "AI 에이전트에게 작업을 반복 실행시키는 '루프 엔지니어링'은 자율성 확대보다 측정 가능한 완료 조건과 제약을 명확히 정의하는 것이 핵심이다. Claude Code의 /goal은 목표 충족까지 작업을 반복하고, /loop는 일정 주기로 같은 작업을 재실행해 상태 확인이나 반복 업무를 처리한다. 테스트 통과 수나 Lighthouse 점수처럼 결정론적 기준이 있는 작업에 효과적이며, 주관적 판단이 필요한 작업에는 적합하지 않다. 작업 수행 에이전트와 검증 에이전트를 분리하고, 민감한 작업은 사람이 직접 검토해야 하며 취향과 판단까지 위임해서는 안 된다.",
+      "tags": [
+        "ai-agent",
+        "claude-code",
+        "automation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49310926",
+      "title": "A Spectre Is Haunting Unicode",
+      "url": "https://www.dampfkraft.com/ghost-characters.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49310926",
+      "publishedAt": "2026-08-15T14:34:04Z",
+      "score": 131,
+      "comments": 38,
+      "snippet": "A Spectre is Haunting Unicode A Spectre is Haunting Unicode This post is part of collections on Code and Computers and Japanese Language Technology . In 1978 Japan's Ministry of Economy, Trade and Industry established the encoding that would later be known as JIS X 0208, which still serves as an important reference for all Japanese encodings. However, after the JIS standard was released people noticed something strange - several of the added characters had no obvious sources, and nobody could tell what they meant or how they should be pronounced. Nobody was sure where they came from. These are what came to be known as the ghost characters ( 幽霊文字 ). Be careful what you write. via the NDL For a long time the ghost characters remained an unexplained and mostly forgotten curiosity, but in 1997 an investigation was launched to discover where they had come from. While all characters in the JIS standard were supposed to have a record of their sources, even when it existed it wasn't very specific, typically just listing the document it was sourced from. You'd think that listing the source would make tracking down the origins of the characters easy, but it's important to clarify what counts as a \"source\" - one of the more common sources for the ghost characters was the \"Overview of National Administrative Districts\" (国土行政区画総覧), a comprehensive list of place names in Japan. You might, as I initially did, imagine this to be a kind of atlas, an oversize book with at most a few hundred pages. It turns out the latest edition is a seven volume set with each volume having roughly nine hundred pages. Imagine tracking down a single character without a page reference. Despite the difficulty, the investigation into the ghost characters was successful in discovering their origins - mostly. By interviewing the catalogers involved in the creation of the standard, the investigators established that some characters were inadvertently invented as mistakes in the cataloging process. For example, 妛 was an error introduced while trying to record \"山 over 女\". \"山 over 女\" occurs in the name of a particular place and was thus suitable for inclusion in the JIS standard, but because they couldn't print it as one character yet, 山 and 女 were printed separately, cut out, and pasted onto a sheet of paper, and then copied. When reading the copy, the line where the two little pieces of paper met looked like a stroke and was added to the character by mistake. The original character ( 𡚴 ) was not added to JIS or Unicode until much later and doesn't display on most sites for me. The core ghost characters: 妛挧暃椦槞蟐袮閠駲墸壥彁 In the end only one character had neither a clear source nor any historical precedent: 彁. The most likely explanation is that it was created as a misreading of the 彊 character, but no specific incident was uncovered. Following the general adoption of the JIS standards these characters all made their way into Unicode, which has its own separate set of ghost characters introduc",
+      "oneLineKo": "일본 JIS 인코딩 표준 속 출처불명 '유령 문자'의 기원 탐구",
+      "summaryKo": "1978년 제정된 일본 JIS X 0208 인코딩 표준에는 출처와 발음을 알 수 없는 '유령 문자(幽霊文字)'들이 포함되어 있었다. 1997년 조사를 통해 대부분의 유령 문자가 지명 목록 등을 정리하는 과정에서 발생한 오탈자나 필사 오류로 만들어졌음이 밝혀졌으며, 예를 들어 두 글자를 오려 붙여 복사하는 과정에서 이음새가 획으로 오인되어 새로운 글자가 생기기도 했다. 다만 彁 한 글자는 끝내 명확한 출처를 찾지 못했다. 이 유령 문자들은 이후 JIS 표준을 거쳐 Unicode에도 그대로 편입되었다.",
+      "tags": [
+        "unicode",
+        "encoding",
+        "japanese"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32538",
+      "title": "Semaglutide, 5년 예측 치매 위험 26% 감소와 연관",
+      "url": "https://news.hada.io/topic?id=32538",
+      "commentsUrl": "https://news.hada.io/topic?id=32538",
+      "publishedAt": "2026-08-16T05:34:59+09:00",
+      "snippet": "Semaglutide, 5년 예측 치매 위험 26% 감소와 연관 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Semaglutide, 5년 예측 치매 위험 26% 감소와 연관 (alz-journals.onlinelibrary.wiley.com) 1 P by GN⁺ 2시간전 | ★ favorite | 댓글 1개 함께 보면 좋은 글 β 대기오염이 치매 위험 증가와 직접적으로 연관됨 장기간의 야외 대기오염 노출, 치매 위험 증가와 연관 심층 수면 개선이 치매 예방에 도움이 될 수 있다는 연구 결과 중년기에 혈단백질 불균형과 연관된 치매 위험 대상포진 백신, 치매 위험을 낮출 가능성 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ GN⁺ 2시간전 [-] Hacker News 의견들 이 연구는 Novo Nordisk가 자금을 댄 예측 생체표지자 연구 이지 실제 치매 발병을 측정한 연구가 아님. Novo Nordisk가 별도로 진행한 Alzheimer 임상시험에서는 semaglutide가 인지 저하를 막는다는 결과를 내지 못했음 예측 생체표지자는 자동차의 엔진 경고등과 같아서 미래 위험을 알릴 뿐이며, 여기서는 환자의 기억력과 뇌 기능 대신 혈중 단백질로 경고등이 꺼졌는지만 확인함 Gemini로 조사해 보니 SELECT 임상시험 자료를 사후 분석해 65세 이상 2,970명의 5년·20년 치매 위험을 추정했고, 104주 후 예측 위험 증가가 위약군보다 낮았음. 하지만 연구비 출처와 연구진의 고용·지분 관계를 고려하면 시장 확대에 유리한 결과를 찾을 동기가 큼 이런 사실은 기사 제목과 저자 목록만 봐도 드러나므로 숨겨진 정보처럼 취급할 필요는 없음. EVOKE 임상시험 은 이미 Alzheimer 진단을 받은 환자에게 보험 적용 가능한 치료제를 판매하려는 연구였고, 질환이 진행된 집단을 대상으로 삼은 것이 실패 원인이라는 견해가 널리 받아들여짐 Novo와 무관한 연구들에서는 당뇨병 환자의 semaglutide 사용이 치매 발생률 감소와 연관됐음. 미진단 일반 인구를 대상으로 예방 효과를 검증해도 보험사가 모두의 투약비를 부담하지 않을 것이므로 Novo에는 상업적 이익이 적음 첨가당과 고혈당지수 탄수화물 을 많이 섭취하면 인슐린 저항성, 만성 염증, 혈관 손상이 촉진돼 인지 저하와 치매 위험이 커짐. 식단이 주요 요인인데도 의료계와 제약업계는 Kellogg's가 미국에서 확산시킨 현대식 고당분 식단의 위험을 외면하는 경향이 있음 인과관계를 입증할 수 없으면 상관관계라도 입증하려는 방식임. 상관관계를 비전문 독자에게 홍보하면서 인과관계인 듯 암시할 수 있기 때문임 semaglutide 자체 효과와 체중 감량 효과 를 분리한 연구가 있는지 궁금함. 효과가 체중 감소에서 비롯됐다면 공중보건이 더 빨리 대응하지 못한 것이 아쉬우며, 100년 전에 조치했다면 수천만 명의 치매를 막았을 수도 있음 개인적으로 내약성 문제 때문에 약 1년간 아주 적은 용량의 GLP 계열 약물을 복용했고, 체중과 체성분 변화 없이도 믿기 어려울 정도로 검사 수치가 좋아져 재검사까지 했음 체중이 그대로여도 지방간이 줄고 GLP 작용으로 전신 염증이 직접 감소했을 가능성이 있음. 표본 1명에 교란 요인이 많지만, 이후 용량을 천천히 늘려 체중을 감량하자 수치가 더 좋아졌고 추가 개선은 주로 체질량 감소 덕분으로 봄 일반적인 GLP-1 효과와 체중 감량 효과는 분리할 수 있지만, 이 연구가 다루는 치매 효과는 인간에게 유의미한지조차 아직 입증되지 않음 . 공중보건은 수십 년간 비만을 경고했지만, 인간이 값싸고 열량이 높으며 지나치게 맛있는 음식을 계속 거부하기는 어려움 아내는 Zepbound로 체중이 거의 줄지 않았지만, 수백 피트만 걸어도 심한 허리 경련이 오던 상태에서 Disney World를 일주일간 걸어 다닐 정도 로 좋아졌음. 전에는 전동 스쿠터를 빌려야 했으므로 삶이 완전히 달라짐 연구에서는 104주간 BMI 변화를 보정하자 치료 효과 계수가 β -0.092에서 β -0.066으로 줄어 추정 효과의 28%가 감소했음. 즉 20년 치매 위험 차이의 72% 는 BMI 변화를 고려한 뒤에도 남아, 체중 감량 이외의 기제가 단백질 위험 신호에 영향을 줬을 가능성을 시사함 과체중과 치매 사이에 단순하고 강한 연관성이 있었다면 방대한 치매 연구 자료에서 이미 뚜렷하게 드러났을 것 같음. 다만 과체중이 여러 나쁜 결과와 연결된다는 사실이 잘 알려졌는데도 비만은 여전히 흔함 1년간 복용한 뒤 semaglutide를 지지 하게 됐고, 염증과 관절염 등에 체중 감량과 별개로 도움이 된다는 연구도 알고 있음 50세에 1년 동안 230파운드에서 190파운드로 줄었지만, 운동하던 비만 상태에서 거의 기력이 없는 상태가 됐고 여러 관절에 관절염도 생겼음. 밤마다 여러 번 소변을 보고 저혈당처럼 힘이 빠지고 멍해지는 증상도 나타남 체중이 다시 늘면 관절이 버티지 못할까 봐 중단하기 두렵고, BMI가 정상이니 격주 투여하라는 의사의 권고도 연구 근거를 찾기 어려움. 효과가 강력한 만큼 부작용도 분명한 약물 임 더 젊고 약 25파운드만 감량했지만, 유지 용량 으로 낮춘 뒤 기력이 상당히 회복됐음. 일주일 중단했을 때 기력이 더 좋아진 듯하지만 확실히 판단하기는 어려움 지지한다고 하지만 결과만 보면 오히려 건강이 악화된 것처럼 보임 이점이 부작용보다 큰 경우인지 궁금함. 긍정적인 연구가 압도적일수록 알려지지 않은 위험이 두렵고, 이렇게 강력한 약물에 임상적으로 확인되는 부작용이 없다고 믿기는 어려움 나도 활동적인 비만이지만 체중 감량보다 활동성을 더 중시함. 건강한 BMI를 얻는 대신 주말마다 하는 2,000kcal 장거리 자전거 주행 을 포기하고 싶지는 않음 친",
+      "externalUrl": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
+      "oneLineKo": "세마글루타이드, 5년내 치매 예측 위험 26% 감소 연관성 발견",
+      "summaryKo": "Novo Nordisk가 자금을 지원한 연구에서 세마글루타이드 투여군의 5년·20년 치매 위험 생체표지자가 위약군보다 낮게 나타났다는 결과가 발표됐다. 이는 실제 치매 발병을 측정한 것이 아니라 예측 생체표지자 기반 연구이며, Novo가 진행한 별도의 알츠하이머 임상시험(EVOKE)에서는 인지 저하 억제 효과가 확인되지 않았다는 점이 논쟁의 핵심이다. Hacker News 댓글에서는 연구 자금 출처에 따른 이해관계 편향, 체중 감량 효과와 약물 자체 효과의 분리 필요성, BMI 보정 후에도 위험 감소 효과의 72%가 남는다는 점 등이 활발히 논의됐다.",
+      "tags": [
+        "semaglutide",
+        "glp-1",
+        "dementia-research"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49312008",
+      "title": "A controversial Alzheimer's surgery is said to reverse symptoms",
+      "url": "https://www.nature.com/articles/d41586-026-02448-x",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49312008",
+      "publishedAt": "2026-08-15T16:38:34Z",
+      "score": 129,
+      "comments": 57,
+      "snippet": "Client Challenge JavaScript is disabled in your browser. Please enable JavaScript to proceed. A required part of this site couldn’t load. This may be due to a browser extension, network issues, or browser settings. Please check your connection, disable any ad blockers, or try using a different browser.",
+      "oneLineKo": "논란의 알츠하이머 수술, 증상 역전 주장 제기",
+      "summaryKo": "한 논쟁적인 외과적 시술이 알츠하이머병 증상을 역전시킬 수 있다는 주장이 제기되어 관심을 모으고 있다. 해당 기사는 Nature에 게재되었으나 본문 접근이 차단되어 구체적인 시술 방식이나 임상 근거는 확인되지 않는다. 제목만으로는 어떤 수술인지, 어떤 메커니즘으로 효과를 낸다고 주장하는지 알 수 없다.",
+      "tags": [
+        "alzheimers",
+        "medicine"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49312165",
+      "title": "The Dutch Community Where People Live on Strips of Land in a Lake",
+      "url": "https://www.core77.com/posts/144869",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49312165",
+      "publishedAt": "2026-08-15T16:53:47Z",
+      "score": 93,
+      "comments": 45,
+      "snippet": "The Dutch Community Where People Live on Strips of Land in a Lake - Core77 Company Directory ID Jobs Awards Blog Guides Discussion About Contact Us Terms of Use Privacy Policy Advertise Sign In / Join Now Core77 Company Directory ID Jobs Awards Blog Guides Discussion e Sign In / Join Now e The Dutch Community Where People Live on Strips of Land in a Lake By Rain Noe - July 27 in Architecture In much of the world, owning a lakeside home is desirable. But in the Dutch town of Loosdrecht, residents live within the lake itself, with houses on their own impossibly skinny islands: The unique geography is of course manmade, the result of peat mining. In centuries past, boats were used to dredge what was once swampland, in order to mine peat for fuel. Thin strips of land were left behind, for a practical purpose: That's where the peat was unloaded and laid out in the sun to dry. The area remained a geographical curiosity until the 20th century, when developers realized they could build houses on the leftover strips of land. Today, hundreds of residents live in these boat-access-only homes. You can learn more here: Enter a caption (optional) o 3 Favorite This Q Comment Share your thoughts Join over 240,000 designers who stay up-to-date with the Core77 newsletter. Subscribe Test it out; it only takes a single click to unsubscribe Directory Company Profiles Core77 Industrial Design Resources Core77 Directory Find the Best Industrial Design Companies Go Delve We are a multidisciplinary product innovation and development firm that brings bold ideas to market.... Copenhagen Institute of Interaction Design Copenhagen Institute of Interaction Design (CIID) is an international hub of creative minds. We shar... Artefact Artefact is a strategy + design firm. Design is powerful. It determines how we experience life, and ... PENSA PENSA is an award-winning product design and invention studio that integrates strategy, design, engi... DesignThink, Inc. DesignThink is a full service product development group focused on defining, developing and deliveri... Olivialand Studio Olivialand Studio, founded by Olivia Blechschmidt, is a boutique industrial design consultancy that ... Ideology Ideology is a product design and technology development consultancy based in Seattle, WA. Our team c... K { Welcome m Sign In with Twitter U Sign In with Linkedin OR j Sign In with Core77 Account Email or Username Password Forgot password? Keep me signed in Cancel Don't have an account? Join Now K { Welcome Create a Core77 Account Join Now with Google Y Join Now with Facebook m Join Now with Twitter U Join Now with Linkedin OR j Join Now with Email Email Not Public Username Password Confirm Password Please complete the captcha. Cancel Already have an account? Sign In By creating a Core77 account you confirm that you accept the Terms of Use K Reset Password Please enter your email and we will send an email to reset your password. Email Please complete the captcha. Cancel Our Network Coroflot",
+      "oneLineKo": "네덜란드 로스드레흐트, 호수 위 좁은 땅에 사는 마을",
+      "summaryKo": "네덜란드 로스드레흐트 지역은 과거 이탄(peat) 채굴로 형성된 좁고 긴 땅 조각들이 호수 안에 남아 있는 독특한 지형을 갖고 있다. 이 땅은 원래 준설된 이탄을 말리기 위한 용도로 쓰였으나, 20세기 들어 개발자들이 이를 주거지로 활용하기 시작했다. 현재는 보트로만 접근 가능한 이 좁은 섬들에 수백 명의 주민이 거주하고 있다.",
+      "tags": [
+        "architecture",
+        "urban-design",
+        "netherlands"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49260582",
+      "title": "The Color of White Light",
+      "url": "https://ludens.cl/photo/spectra/spectra.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49260582",
+      "publishedAt": "2026-08-11T16:18:53Z",
+      "score": 86,
+      "comments": 44,
+      "snippet": "The Color of White Light The Color of White Ligh t The biggest lie in color photography is that you can accurately represent the colors of objects by simply recording the amount of red, green and blue in them. This technique - the only one in current mainstream use - gives good results only when the spectral sensitivity curves of the camera precisely match those of the human eye, and when the spectrum of the light used to make the photo is perfectly smooth, and no different kind of light will ever be used! It's clear that the first of these requirements is hard enough to meet, and that the second one is, simply and plainly, never true. And that's why photographers are always battling to get the right colors - and never do get them! Not only in photography is this matter an important one. In daily life it is, too. Lots of electronic technicians hate that stupid problem of not being able to correctly read resistors. It happens that old-style resistors, and some other parts too, are labelled with color bands or dots, instead of numbers. Under some lighting conditions it can be hard to tell a red from an orange, or a green from a blue. This leads to the wrong resistors being installed in equipment, and thus more troubleshooting work. Housewifes know the same kind of trouble, for example when trying to color-match a button to a shirt. Indoors under the electrical light they find the exact right button, that matches the others, sew it on, and when the dear hubby goes outdoors next day, !BANG!, that button sticks out like a sore thumb! Well, I have to admit that many housewifes these days don't know how to sew a button to a shirt, but they tend to have the same kind of trouble when getting their make-up just right, only that outdoors it doesn't look right any longer! And that's a big problem... To get a better grip on the problems of light color, I built myself a spectrograph a few days ago. It has been a lot of fun so far, so I'm making this colorful web page, both to bring my results into an orderly shape, and to let other people learn from them. The spectrograph is a simple attachment for my DSLR camera. Using my lathe, I made a two-part piece of plastic tubing, that assembles in an angle of 146.6 degrees. At the junction of the two parts, a diffraction grating is installed. It's an inexpensive foil-type grating that has 1000 lines per mm, which I bought on eBay. Each end of the angled tube screws into the filter thread of a lens. I used 50mm lenses on both sides, but other arrangements are workable too. The camera's lens stays focused at infinity, while the additional lens, uses as a collimator, has a narrow slit installed in the center of its focal plane. I made that slit by hot-gluing two pieces of hobby knife blade over a central hole in the cap, on its inside. The blue pipe is simply PVC water pipe, machined on the lathe to press-fit the lense's bayonet, and to have 42mm length. This allows using the lense's focusing ring to bring the slit into ",
+      "oneLineKo": "DIY 분광기로 조명별 색 스펙트럼 실측 분석",
+      "summaryKo": "저자는 RGB 카메라 기반 색 재현이 사람 눈과 다양한 광원 스펙트럼 차이 때문에 근본적으로 부정확하다고 설명한다. 이를 직접 확인하기 위해 DSLR 카메라에 부착하는 간단한 분광기를 직접 제작했는데, 회절격자와 두 개의 50mm 렌즈, PVC 파이프 등을 이용해 저렴하게 구성했다. 이 장치를 통해 저항 색띠 오인이나 조명에 따라 색이 다르게 보이는 일상적 문제들의 원인을 스펙트럼 관찰로 규명하려 한다.",
+      "tags": [
+        "photography",
+        "color-science",
+        "diy"
+      ]
+    }
+  ]
+}
