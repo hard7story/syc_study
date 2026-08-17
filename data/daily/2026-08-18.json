@@ -1,0 +1,282 @@
+{
+  "date": "2026-08-18",
+  "generatedAt": "2026-08-17T22:14:49.193Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32557",
+      "title": "LLM이 5학년 이후의 학습 자료를 전혀 보지 못하면 어떻게 될까?",
+      "url": "https://news.hada.io/topic?id=32557",
+      "commentsUrl": "https://news.hada.io/topic?id=32557",
+      "publishedAt": "2026-08-17T02:43:08+09:00",
+      "snippet": "LLM이 5학년 이후의 학습 자료를 전혀 보지 못하면 어떻게 될까? | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ LLM이 5학년 이후의 학습 자료를 전혀 보지 못하면 어떻게 될까? (littlelearner-ll.github.io) 1 P by GN⁺ 1일전 | ★ favorite | 댓글 1개 LittleLearner 는 미국 초등학교 K–5 교육과정으로 제한한 880억 토큰 말뭉치만으로 처음부터 훈련해, 사전학습 지식의 경계가 모델 능력에 미치는 영향을 검증함 FineWeb-Edu를 Common Core 기준의 5단계 파이프라인으로 필터링하고, 5학년 이후의 개념·사실·어휘를 명시적으로 제외한 LittleCurriculum 을 구축함 0.6B·1.3B·5B 모델을 아키텍처·토큰·훈련 방식이 같은 비필터링 대조군과 비교한 결과, 모델 확장 은 교육과정 내부와 같은 학습 궤적의 문제에는 효과가 있었지만 범위 밖의 고급 문제에는 거의 도움이 되지 않았음 범위 밖 데이터로 진행한 GRPO 후속 훈련 도 K–5 능력만 크게 높였고, 시험한 프롬프트를 이용한 문맥 내 학습 역시 5B 모델에 새로운 K–5 이후 추론 능력을 부여하지 못함 사전학습 데이터의 경계가 능력의 상한을 정하며, 규모 확장·후속 훈련·문맥 내 학습은 이미 배운 능력을 끌어낼 수는 있어도 범위 밖 지식을 의미 있게 획득시키지는 못함 교육과정으로 통제한 데이터와 모델 LittleCurriculum 은 FineWeb-Edu에서 추출한 880억 토큰 말뭉치로, Common Core K–5 표준에 맞춘 5단계 필터링을 거침 5학년보다 높은 학년에서 가르치는 개념·사실·어휘를 명시적으로 배제함 훈련 분포 자체를 제한해 새로운 능력을 실제로 학습한 것인지, 이미 가진 능력을 끌어낸 것인지 구분하도록 설계함 LittleLearner 는 0.6B·1.3B·5B 세 규모로 처음부터 훈련됨 각 모델에는 아키텍처·훈련 토큰·훈련 방식을 공유하는 비필터링 Unfiltered 대조군 이 있음 Base 는 사전학습 모델이며, GRPO 는 MathCAMPS로 후속 훈련한 수학 특화 모델이라 수학 중심 출력을 보일 수 있음 Chatty 는 일반적인 대화 행동에 맞춰 조정한 변형임 브라우저 데모 에서 호스팅된 5B 모델과 대화할 수 있음 모델 체크포인트는 Hugging Face에서 제공됨 0.6B Base · 0.6B GRPO · 0.6B Chatty 1.3B Base · 1.3B GRPO · 1.3B Chatty 5B Base · 5B GRPO · 5B Chatty 사전학습이 정한 능력의 경계 규모 확장 은 통제된 지식 범위 안의 성능을 높이고 같은 학습 궤적에 있는 문제까지 제한적으로 확장했지만, 노출 범위 밖의 고급 능력이 필요한 문제에는 거의 효과가 없었음 GRPO 후속 훈련 은 K–5 범위의 능력을 크게 향상했으나, 범위 밖 데이터를 사용해도 K–5 이후 능력을 복구하지 못함 시험한 프롬프트 조건의 문맥 내 학습 도 5B LittleLearner에서 K–5 이후의 새로운 추론 능력을 열지 못함 명확한 지식 경계로 가능한 후속 연구 강화학습과 발견 K–5로 제한된 사전 지식에서 새로 나타난 능력을 강화학습 과정에 귀속해 보상 기반 발견 을 연구할 수 있음 지속 학습 음수를 도입한 뒤 표본 효율성·기억 유지·간섭을 측정할 수 있음 경계 부근에서 답변·거부·환각 가운데 어떤 행동이 나타나는지도 조사할 수 있음 교육과학 모델과 아동이 분수를 배우는 데 비슷한 노출을 필요로 하는지, 문장형 문제에서 유사한 오류를 내는지 통제된 조건에서 비교할 수 있음 알려진 학습 경계에 새 개념을 도입하면 행동과 내부 표현의 변화 를 해당 개념과 직접 연결해 측정할 수 있음 함께 보면 좋은 글 β GLM-5.3: 포스트 트레이닝 확장으로 프런티어급 코딩·사이버 역량 달성 LLM의 지난 6개월을 5분 만에 보기 LLM은 더 이상 \"인터넷으로 학습\"하지 않는다 Karpathy의 펠리컨 GLM-5 공개 : 복잡한 시스템 엔지니어링과 장기 에이전트 작업을 목표로 하는 모델 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ GN⁺ 1일전 [-] Hacker News 의견들 요즘 LLM의 가장 큰 문제 중 하나는 주관적인 이유로 거절하지 못한다는 점 이라고 봄. 단순히 “모르겠다”는 환각 문제가 아니라, 무언가를 하지 않겠다고 판단하지 못하는 문제임 끝없이 맞장구치는 태도는 장기적으로 신뢰를 무너뜨림. 모든 지적 욕구를 충족해 주는 전지전능한 신탁이 아닌 상대와 대화하고 싶은데, 어쩌면 내가 원하는 건 그냥 인간일지도 모름 부유한 사람은 “아니요”라는 말을 좀처럼 듣지 못하며, 이는 아무리 합리적이고 박식하고 선의가 있어도 세계관과 자기조절 능력 에 큰 영향을 줌 싹부터 잘라야 할 엉뚱한 발상까지 주변에서 열렬히 지지하면 자기 통제력을 잃기 쉬움. 지인들이 성공할수록 그렇게 변하는 모습을 여러 번 봤음. 아첨하는 LLM 덕분에 이제 부자가 아닌 사람도 똑같이 자기조절 능력을 잃을 기회를 얻은 셈임 두 살배기 아이의 행동과 정확히 닮았음. 선풍기는 어떻게 작동하냐고 하면 “휙휙휙휙”, 구름은 어디서 오냐고 하면 먼 하늘을 가리키며 저기서 온다고 답하고, 도로와 나무와 주변 환경은 누구 것이냐고 하면 당연히 모두 자기 것이라고 함 어떤 질문에도 즉시 확신에 찬 답 을 내놓음. “모르겠다”는 개념이 몇 살에 생기는지 지켜봐야겠음 비싸지만 성능 상한을 알아야 해서 한 달간 최상위 모델 들을 시험 중임. 적어도 Opus는 “좋은 생각이 아닌 것 같고 이유는 이렇다”는 답을 실제로 내놓았음 억지로 요구하면 어리석은 일도 결국 수행하지만, 적재적소에서는 유용한 도구가 될 수 있다는 신뢰가 커졌음",
+      "externalUrl": "https://littlelearner-ll.github.io/",
+      "oneLineKo": "초등 5학년 자료만 학습한 LLM, 범위 밖 능력 못 얻어",
+      "summaryKo": "LittleLearner 연구는 미국 K-5 교육과정으로 제한한 880억 토큰 말뭉치(LittleCurriculum)만으로 0.6B~5B 모델을 처음부터 훈련해 사전학습 데이터 범위가 모델 능력에 미치는 영향을 검증했다. 모델 규모 확장은 학습 범위 내 성능은 높였지만 범위 밖의 고급 문제에는 거의 효과가 없었다. GRPO 후속 훈련이나 문맥 내 학습(in-context learning) 역시 K-5 이후의 새로운 추론 능력을 부여하지 못해, 사전학습 데이터의 경계가 모델 능력의 상한을 결정한다는 결론을 얻었다.",
+      "tags": [
+        "llm",
+        "pretraining",
+        "curriculum-learning"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49332751",
+      "title": "Launch HN: Speko (YC S26) – OpenRouter for Voice AI",
+      "url": "https://speko.ai/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49332751",
+      "publishedAt": "2026-08-17T15:36:18Z",
+      "score": 80,
+      "comments": 50,
+      "snippet": "Hi HN! I&#x27;m Bek, founder of Speko, a platform that finds an optimal combination of speech-to-text, LLM, and text-to-speech models, given your constraints, among all our public benchmarked options, and tells you why.<p>Demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=no2LY2gRh-c\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=no2LY2gRh-c</a><p>Typical production voice agent is an ensemble of three models: STT, an LLM, and TTS.<p>Each of those layers offers a dozen credible vendors, and each month there are new models on the market. Almost everyone evaluates once, picks a stack of their choice, and never rechecks because switching from a vendor to another involves yet another integration and arguments about the numbers.<p>The result is that you use voice agents running last quarter&#x27;s models while better and cheaper options are available.<p>Before founding Speko, I spent four years as cofounder and CTO building voice agents for enterprises across Asia in 10+ languages. Each time a new speech model would arrive, we repeated the same ritual: hire native-speaking raters, benchmark it against our existing stack, and update production if it improved. Speko turns this process into an API. A team running thousands of calls a day told us: &quot;we can literally go to this dashboard, switch the model, and it will do it for us.&quot;<p>How it works: you send a request with your optimization criteria (accuracy, latency, cost or balanced), language and region. The router filters to models which we measured for the given combination of constraints, benchmarks them, selects the winner, and returns a response with headers containing provider, model names, and the scores. The gateway prefetches signed session plans, so a new session dials the provider straight from memory; no control-plane round trip while a caller waits.<p>Failover happens only during connection setup stage: if the provider refuses the connection attempt, we start connecting to the runners-up.<p>Some of the customer stories: one founder came to us not knowing what to pick at all: he gave us his use case and now routes everything through the platform. A property management AI runs LiveKit in Python and had not updated STT or TTS since launch: they did not know their STT had high error rates on their calls, better options existed, and swapping always looked like an R&amp;D project. One team did not know which models to pick for Spanish. A medical team did not know which STT handles medical vocabulary best. In every case we helped find the right stack from the benchmarks, and now they route through us.<p>The measuring part is public: we pass the same inputs to every model in one region in different dated runs and we publish the boards, including those where our selections perform worse than alternatives. A launch demo answers which 30-second clip sounds better; production asks which model survives minute eight, so we test spontaneous speech, money and dates, ten-minute takes, and the rankings change. We trained an automatic scorer for TTS naturalness on our blind head-to-head listening votes; on providers it has never seen a vote for, it picks the same winner our raters do about as often as raters agree with each other.<p>We don&#x27;t train or sell models ourselves, that&#x27;s precisely how we keep our rankings impartial.<p>We also open sourced the gateway for teams who want to avoid an extra network hop on the audio path and don&#x27;t want to share keys with our cloud (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;SpekoAI&#x2F;gateway\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;SpekoAI&#x2F;gateway</a>, MIT): one Go binary, which is running as a sidecar in your agent&#x27;s container, speaks one local protocol over Unix socket, pins provider hosts and attaches your keys. In BYOK mode it doesn&#x27;t communicate with us at all.<p>Notice that the anonymous, content-free telemetry is enabled by default, and one env var disables it.<p>Cost: the gateway and BYOK setup will be free forever, we charge for the hosted router and managed keys with consolidated billing. Since we started the batch in late June, external usage has grown about 25 percent per week on average, front-loaded toward the launch weeks.<p>I would love feedback from the community: how do you pick speech models now, and what makes you trust the third-party benchmark?<p><a href=\"https:&#x2F;&#x2F;speko.ai&#x2F;\">https:&#x2F;&#x2F;speko.ai&#x2F;</a>",
+      "oneLineKo": "음성 AI STT·LLM·TTS 최적 조합 자동 라우팅 플랫폼",
+      "summaryKo": "Speko는 음성 에이전트를 구성하는 STT, LLM, TTS 세 계층에서 정확도·지연시간·비용 등 사용자 제약 조건에 맞는 최적 모델 조합을 벤치마크 데이터 기반으로 자동 선택해주는 API 플랫폼이다. 기업들이 한번 스택을 정하면 새 모델이 나와도 재평가 없이 구버전을 계속 쓰는 문제를 해결하기 위해, 언어·지역별 벤치마크를 상시 갱신하고 결과를 공개한다. 세션 연결 시 실패하면 차순위 제공자로 즉시 전환하는 페일오버 기능도 제공하며, 부동산관리·의료·다국어 콜센터 등 다양한 고객 사례를 통해 검증했다.",
+      "tags": [
+        "voice-ai",
+        "stt-tts",
+        "llm-routing"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1vqq8hr",
+      "title": "Stop Rebuilding Your Kubernetes Platform: How kubara Catalogs Make Architecture Reusable",
+      "url": "https://www.reddit.com/r/programming/comments/1vqq8hr/stop_rebuilding_your_kubernetes_platform_how/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1vqq8hr/stop_rebuilding_your_kubernetes_platform_how/",
+      "publishedAt": "2026-08-17T11:56:12+00:00",
+      "snippet": "submitted by /u/Happycodeine [link] [comments]",
+      "oneLineKo": "kubara 카탈로그로 쿠버네티스 아키텍처 재사용화",
+      "summaryKo": "이 글은 쿠버네티스 플랫폼을 매번 새로 구축하는 대신 kubara의 카탈로그 기능을 활용해 아키텍처를 재사용 가능하게 만드는 방법을 다룹니다. 본문 내용이 제목 외에 제공되지 않아 구체적인 구현 방식이나 세부 기능은 확인할 수 없습니다. 제목만으로 볼 때 플랫폼 엔지니어링에서 반복 작업을 줄이는 도구나 패턴을 소개하는 것으로 보입니다.",
+      "tags": [
+        "kubernetes",
+        "platform-engineering"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32562",
+      "title": "AI 크레딧 재판매 시장 - 토큰 브로커와 Relay는 어떻게 움직이나",
+      "url": "https://news.hada.io/topic?id=32562",
+      "commentsUrl": "https://news.hada.io/topic?id=32562",
+      "publishedAt": "2026-08-17T06:31:44+09:00",
+      "snippet": "AI 크레딧 재판매 시장 - 토큰 브로커와 Relay는 어떻게 움직이나 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ AI 크레딧 재판매 시장 - 토큰 브로커와 Relay는 어떻게 움직이나 (vectoral.com) 4 P by GN⁺ 1일전 | ★ favorite | 댓글 1개 OpenAI/Anthropic 같은 AI API를 공식 가격보다 싸게 제공하는 시장이 커지면서, 남는 크레딧을 사고파는 Token Broker 부터 수많은 계정과 API Key를 묶어 하나의 Endpoint로 제공하는 Relay 까지 별도의 유통망이 형성되고 있음 Token Broker 쪽은 스타트업의 미사용 크레딧을 사들여 다시 판매하는 방식으로, 전문 Marketplace와 할인 Router까지 등장했으며 실제 매물은 공식 가격 대비 30~80% 할인 된 수준으로 올라옴 Relay 시장은 더 복잡함. 가상카드/대량 계정 → 계정 Pool → Relay → 최종 사용자로 이어지며, 무료 크레딧 남용/Chargeback/도난 카드/소비자용 AI 서비스의 우회 접근 등 정상적인 크레딧 재판매만으로 설명되지 않는 공급원 도 확인됨 Relay 운영자는 여러 계정과 Key를 one-api 나 new-api 같은 OpenAI 호환 Gateway 뒤에 묶어 하나의 API로 제공하며, 일부는 공식 가격보다 90% 이상 저렴 하고 추적된 상위 10개 Relay만 월 360만 회의 방문을 기록함 결국 AI Token이 재판매 가능한 준화폐처럼 거래되는 시장 이 생긴 셈이지만, 구매자는 크레딧의 실제 출처/약관 위반 여부뿐 아니라 모든 Prompt와 Response를 중계자가 볼 수 있다는 위험까지 감수해야 함 남는 AI 크레딧에서 재판매 시장이 시작됨 스타트업끼리 사용하지 못한 클라우드/API 크레딧을 교환하는 일 자체는 새롭지 않음 하지만 최근에는 이를 전문적으로 사들이고 되파는 Token Broker 가 등장하면서 비공식 교환이 상업적인 시장으로 발전하고 있음 스타트업 창업자들에게 사용하지 않는 Anthropic/OpenAI 크레딧을 사겠다는 연락 공식 가격보다 40~50% 저렴한 API를 공급하겠다는 제안이 들어오고 있음 직접 연락한 한 판매자는 하루 $100,000 상당의 사용량을 공급할 수 있다 고 제안함 이 판매자는 원래 Provider의 API Key를 넘기지 않고 별도의 API Endpoint를 제공했으며, 여러 Key를 Pool로 묶어 요청을 중계하는 구조일 가능성이 있다고 봄 전문적인 Credit Marketplace까지 등장 AI Credits 와 AICreditMart처럼 AI 크레딧 매매를 전문으로 하는 Marketplace가 등장함 OpenAI/Anthropic뿐 아니라 Google Gemini, Microsoft Azure, MiniMax, ElevenLabs 등 여러 Provider의 크레딧이 거래됨 AI Credits에서 확인된 매물은 30~80% 할인 수준이며 판매자가 직접 Provider 크레딧 종류 금액 할인율 전달 방식을 지정해 등록할 수 있음 직접 $200,000 상당 OpenAI 크레딧과 $10,000 Anthropic 크레딧을 테스트 매물로 등록하는 과정도 확인함 ‘대량 구매 할인’을 내세우는 Router도 있음 CheapCredits, Tokvana, Neokens 같은 서비스는 자신들을 단순 Broker가 아니라 대량 구매를 통해 저렴한 가격을 제공하는 Router 로 소개함 CheapCredits는 GPT 계열 모델을 공식 가격보다 일괄적으로 약 40% 저렴하게 제공한다고 광고함 다만 업계 경험상 Provider의 극히 큰 고객이 아닌 이상 이런 수준의 대량 할인을 받기는 매우 어렵기 때문에, 실제 공급원이 다른 곳일 가능성을 제기함 CheapCredits는 GDPR 준수를 위한 Data Processing Agreement까지 제공하는 등 겉으로는 일반적인 B2B API 서비스와 비슷한 형태를 갖추고 있음 즉 재판매 시장은 지하 Telegram 거래만이 아니라 일반 SaaS처럼 보이는 서비스 형태로도 발전 하고 있음 Telegram과 Reddit에서도 거래됨 Telegram에는 OpenAI/Claude/Gemini/Azure/AWS 크레딧 매매를 위한 채널들이 존재함 Reddit에서도 간헐적으로 YC Startup School을 통해 받은 약 $2,500 상당 OpenAI 크레딧 $10,000 규모의 OpenAI API 크레딧 같은 매물이 올라옴 비공개 스타트업 커뮤니티에서도 비슷한 거래가 이루어지고 있음 여러 사이트/포럼/판매자를 조사한 결과 수천만 달러 상당의 크레딧이 시장에 나와 있을 가능성 을 추정함 더 깊은 곳에는 Relay Market이 있음 Token Broker 후속 조사 이전에 살펴본 것은 중국을 중심으로 형성된 Relay/Transfer Station 시장 Relay는 사용자가 공식 OpenAI/Anthropic 등의 API 대신 호출할 수 있는 Proxy 서비스로, 종종 공식 가격보다 크게 할인된 요금을 제공함 조사된 한 상품은 공식 Anthropic 사용량 $3,333 상당을 425위안에 판매했으며, 가장 저렴한 Relay는 공식 가격 대비 97.8% 할인 수준까지 내려감 조사한 Relay 상위권 상당수가 90% 이상의 할인율을 제공해 단순한 정상 대량 구매 할인만으로는 설명하기 어려운 가격 구조를 보임 Relay 시장은 4개 층으로 구성됨 카드/계정 판매자 미국/유럽 결제를 통과하도록 만든 가상카드와 대량 생성 계정을 공급함 Account Pool 수십~수백 개 계정을 한데 모음 인증 Token과 Rate Limit을 관리 계정이 막히면 다른 계정으로 Failover 하위 Relay가 사용할 하나의 API를 제공함 Relay/Transfer Station Account Pool을 일반 사용자가 이용할 수 있는 API 상품으로 포장 과금/청구/고객 지원/가격 경쟁을 담당함 최종 ",
+      "externalUrl": "https://vectoral.com/blog/who-are-the-token-brokers",
+      "oneLineKo": "AI 크레딧 재판매 시장, 토큰 브로커와 Relay 유통 구조 분석",
+      "summaryKo": "OpenAI, Anthropic 등 공식 API 가격보다 저렴하게 크레딧을 재판매하는 시장이 성장하면서 Token Broker와 전문 Marketplace가 등장했다. 이들은 미사용 크레딧을 사고팔며 30~80% 할인된 가격에 거래하지만, 더 복잡한 Relay 시장은 가상카드와 대량 계정을 Pool로 묶어 one-api 같은 Gateway 뒤에서 하나의 API로 제공한다. 일부 Relay는 공식 가격 대비 90% 이상 할인된 요금을 제공하며 도난 카드, Chargeback, 무료 크레딧 남용 등 비정상적 공급원이 확인됐다. 구매자는 크레딧 출처와 약관 위반 위험뿐 아니라 중계자가 모든 Prompt와 Response를 열람할 수 있는 보안 위험까지 감수해야 한다.",
+      "tags": [
+        "llm-api",
+        "ai-credits",
+        "relay"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49331423",
+      "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49331423",
+      "publishedAt": "2026-08-17T14:18:38Z",
+      "score": 283,
+      "comments": 117,
+      "snippet": "Red Agent Exploits Snowflake Vuln Missed by Github Copilot | Wiz Blog Sign in Experiencing an incident? Wiz Pricing Get a demo Platform Solutions Pricing Resources Customers Company Get a demo Blog Wiz Red Agent Finds Its Way Into Snowflake’s Internal Jira Through a Flaw in a GitHub Copilot–Assisted PR Wiz Red Agent independently discovered and exploited a GitHub Actions injection missed by GitHub’s AI review, validated access to sensitive data in Snowflake’s internal Jira, and assessed the blast radius—all without human intervention, five days after the flaw became live. State of AI in the Cloud Report 2026 Get a demo Gal Nagli August 17, 2026 | As part of ongoing security research conducted through Snowflake’s HackerOne vulnerability disclosure program, Wiz Research’s \"Red Agent\"—an autonomous, AI-powered security research tool—identified a critical GitHub Actions workflow vulnerability in one of Snowflake’s public repositories. This incident highlights a new reality in software development: Critical vulnerabilities can still be introduced and approved within workflows involving AI coding agents, while autonomous AI security agents can rapidly discover and exploit them in the wild. Upon responsible disclosure on June 23, 2026 by Wiz, Snowflake remediated the vulnerability on the same day, rotated the affected credential, and verified via detailed audit logs that Wiz was the sole actor during the exposure window. Wiz confirmed that all data accessed during proof-of-concept testing was securely deleted. August 17, 2026, 1957 UTC update: This blog has been updated to clarify that Copilot was a co-author that checked the merged PR and code change, and identified it as all-clear without noticing the critical vulnerabilities. It's unclear whether the code-change was AI-assisted. Executive Summary Wiz Red Agent identified a script injection vulnerability in snowflakedb/snowflake-connector-net . The issue allowed an unauthenticated user to execute arbitrary commands within a GitHub Actions runner by opening a GitHub issue with a specially crafted title. Crucially, the vulnerability became live on June 18, 2026 - just five days before its discovery -when PR #1218 was merged. The final squash commit credits “Copilot Autofix powered by AI” as a co-author. The merged PR replaced the repository’s sanitized input pattern with direct string expansion, yet GitHub’s AI-assisted security review did not flag the resulting critical vulnerability. Screenshot demonstrating access to Snowflake's Jira portal, via an exfiltrated token Exposure Walk-Through Discovery Wiz Red Agent's CI/CD capability scanned Snowflake's GitHub organization and flagged the jira_issue.yml Workflow in snowflakedb/snowflake-connector-net as vulnerable to script injection via untrusted input in run: blocks. The Code Change - env : - ISSUE_TITLE : ${{ github.event.issue.title }} - run : jq -n --arg title \"$ISSUE_TITLE\" ... + run : TITLE=$(echo '${{ github.event.issue.title }}' | sed ...) The w",
+      "oneLineKo": "Copilot Autofix가 놓친 GitHub Actions 취약점, Snowflake Jira 침투 허용",
+      "summaryKo": "Wiz의 자율 AI 보안 도구 'Red Agent'가 Snowflake의 공개 저장소 snowflake-connector-net에서 GitHub Actions 스크립트 인젝션 취약점을 발견했다. 해당 취약점은 'Copilot Autofix powered by AI'가 공동 작성자로 표기된 PR 병합으로 생긴 것으로, GitHub의 AI 코드 리뷰가 안전한 입력 패턴을 위험한 문자열 확장으로 바꾼 변경을 탐지하지 못했다. Red Agent는 이 취약점을 인간 개입 없이 자동으로 익스플로잇해 Snowflake 내부 Jira에 접근하는 데 성공했으며, Wiz는 이를 책임 있게 공개해 같은 날 조치가 이루어졌다.",
+      "tags": [
+        "github-copilot",
+        "cicd-security",
+        "ai-security"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1vqukkf",
+      "title": "Nothing like a Monday morning GitHub outage",
+      "url": "https://www.reddit.com/r/programming/comments/1vqukkf/nothing_like_a_monday_morning_github_outage/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1vqukkf/nothing_like_a_monday_morning_github_outage/",
+      "publishedAt": "2026-08-17T14:53:18+00:00",
+      "snippet": "submitted by /u/Jwosty [link] [comments]",
+      "oneLineKo": "월요일 아침 GitHub 장애 발생",
+      "summaryKo": "레딧 게시글에서 월요일 아침 GitHub 서비스 장애를 언급하고 있다. 본문에는 별다른 설명 없이 제목만 게시되어 구체적인 장애 원인이나 영향 범위는 확인되지 않는다. 개발자들 사이에서 흔히 겪는 GitHub 다운타임에 대한 공감을 나타내는 게시물로 보인다.",
+      "tags": [
+        "github",
+        "outage"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32543",
+      "title": "내가 여전히 회의적인 이유",
+      "url": "https://news.hada.io/topic?id=32543",
+      "commentsUrl": "https://news.hada.io/topic?id=32543",
+      "publishedAt": "2026-08-16T09:01:57+09:00",
+      "snippet": "내가 여전히 회의적인 이유 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ 내가 여전히 회의적인 이유 (blog.jsbarretto.com) 1 P by GN⁺ 2일전 | ★ favorite | 댓글 1개 환경·사회·정치적 우려에 앞서, LLM이 비자명한 소프트웨어 개발 에 실제로 효과적인지조차 아직 입증되지 않았다고 봄 4년간의 ‘혁명’에도 소프트웨어의 품질·속도·비용·기능·보안은 뚜렷하게 개선되지 않았으며, 신뢰받는 오픈소스는 단순한 기능 복제 만으로 대체할 수 없음 1.5조 달러가 투입됐지만 최상위 생산성 향상을 입증할 독립 연구는 거의 없고, 코드 줄 수·병합된 PR·추가 기능을 측정한 연구에서도 미미하거나 부정적인 효과 가 나타남 직접 받은 LLM 생성 PR은 사람의 PR보다 병합할 가치가 있는 비율이 훨씬 낮았고, 최첨단 모델의 검사도 취미 개발자가 곧 발견한 명백하고 중요한 문제 를 놓쳤음 코드량을 생산성으로 취급하면 유지보수하기 어려운 결과물이 쌓이고, 지식 노동의 동질화는 노동자의 협상력 을 떨어뜨리므로 LLM 도입보다 좁은 기술 영역의 전문화를 택함 효과와 생산성에 대한 의문 4년간 LLM이 확산됐지만 소프트웨어가 더 높은 품질과 속도, 낮은 생산 비용, 향상된 기능이나 보안을 달성했다는 결과는 보이지 않음 평판 있는 조직이 채택하지 않을 저품질 데모웨어를 제외하고 실제 소프트웨어를 기준으로 평가함 기존 세력과 아이디어를 대체할 새로운 주체나 발상도 AI 낙관론 내부의 논의를 제외하면 찾기 어렵다고 봄 LLM을 사용하지 않아도 뒤처진다는 느낌이 없으며, 자신의 오픈소스 프로젝트 역시 평판 면에서 대체되지 않았음 코드를 기능적으로 복제하는 것과 사람들이 시스템의 기반으로 삼을 만큼 신뢰받는 프로젝트 를 만드는 것은 다름 1.5조 달러가 투자됐지만 AI와 최상위 생산성 향상의 관계를 입증할 독립 연구는 거의 없음 많은 연구가 코드 줄 수, 병합된 PR, 추가된 기능처럼 전체 생산성과 직접 연결되지 않는 지표를 측정하거나 지나치게 작은 표본에 의존함 일정 수준의 학술적 엄밀성을 갖춘 연구에서도 생산성 향상은 미미하거나 오히려 부정적으로 나타남 코드 품질과 노동의 변화 직접 받은 LLM 생성 PR 은 반복성과 문체의 획일성이 줄었지만 목적 적합성은 나아지지 않았고, 사람의 PR보다 병합할 가치가 있는 비율이 훨씬 낮았음 AI 출력이 덜 정형화되면서 사람의 작업과 구별하기 어려워지고 있음 신중한 사람도 PR 설명에 가끔 오타를 남기므로 완벽한 구별은 어려움 여러 오픈소스 라이브러리가 FAANG 기업의 의존성 트리에 포함되면서 최첨단 모델의 검사 결과를 전달받았지만, 좋은 결과보다 나쁜 결과가 많았음 모델이 놓친 명백하고 중요한 문제 를 취미 개발자가 사고를 통해 곧 발견한 사례도 여러 차례 있었음 AI 낙관론은 지난 반세기의 소프트웨어 개발 이론과 충돌함 코드는 소프트웨어 개발 과정의 산출물이 아니라 입력 인데도 선도 조직조차 코드 줄 수를 생산성 지표처럼 취급함 이런 인센티브는 기계가 생성하든 사람이 이에 맞춰 생산하든 유지보수하기 어려운 결과물로 이어짐 Peter Naur의 프로그래밍 이론 이 이러한 판단의 근거임 빅테크의 LLM 추진은 지식 노동을 동질화해 서로 교체 가능한 자원으로 만들고 노동자의 협상력을 낮추려는 목표를 가짐 소프트웨어 개발은 마지막으로 남은 ‘길드형 분야’ 중 하나였으나 현재 산업화되고 있음 LLM을 적극적으로 사용하는 대신 더 좁은 기술 집합에 전문화 했으며, 지금까지 이 선택이 잘 작동해 고용 안정성에도 자신감을 유지함 함께 보면 좋은 글 β 소프트웨어 엔지니어링과 생성형 AI에 관한 8가지 오해 루프 안의 인간은 지쳤다 도움을 구합니다 LLM 비판론자들이 옳다. 그래도 나는 LLM을 쓴다 LLM으로 몇 달간 코딩한 후, 다시 내 두뇌를 쓰기로 했어요 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ GN⁺ 2일전 [-] Lobste.rs 의견들 빅테크가 LLM을 밀어붙이는 숨은 목표는 지식 노동을 균질화 해 언제든 대체 가능한 상품으로 만들고 노동자의 협상력을 낮추는 것임 관리자들이 AI를 원하는 핵심 이유이며, 2005년 무렵의 해외 아웃소싱이나 “대체 불가능한 사람은 없다”는 구호와도 같음. 정작 소프트웨어 개발자들이 왜 AI 도입에 순응하는지가 의문임 오랫동안 강한 협상력과 높은 임금을 누리면서 개발자들의 계급의식이 약해졌고 , 힘의 균형이 바뀐 지난 몇 년 사이에야 그 결과가 드러나고 있음 바로 그런 목적으로 Java 가 만들어졌으며, 대기업들은 이미 오래전에 개발 노동을 표준화하는 절차를 완성했음 LLM을 반대하는 근거를 낮은 효용성 에만 두는 것은 위험함. 조악하고 버그투성이며 유지보수 불가능한 결과도 목업이나 일회성 스크립트에는 용인되고, 보험 심사나 이력서 필터링에서는 인간 의사결정자의 책임을 대신 떠안는 도덕적 완충지대 로 오히려 가치가 생김 충분한 토큰과 반복 시도를 투입하고 자동화 계층으로 감싸면 신뢰할 수 없는 LLM도 비용을 대가로 정답에 수렴할 수 있어 위험한 유혹이 됨. 따라서 대규모 표절과 저자·출처의 말소, 인간이 읽는 속도보다 훨씬 빠른 저질 텍스트 생산이 정보 환경과 진정한 소통을 훼손한다는 윤리적 반대가 우선돼야 함 프로그래밍의 본질은 작업 방식을 정확히 이해하고 명문화하는 과정인데, 불투명한 행렬 연산에 맡기면 “어떻게든 가끔 원하는 결과를 얻기”로 전락함. 산업이 천문학적인 돈을 쓰고 모든 기록을 학습하거나 최첨단 모델을 값싼 칩에 넣더라도 이 문제는 달라지지 않으며, 정답을 낼 수 있다고 해서 정당해지는 것은 아님 많은 이가 결과물의 낮은 품질부터 비판한 이유는 과열이 시작됐을 때 LLM 기반 미술·글쓰기·프로",
+      "externalUrl": "https://blog.jsbarretto.com/post/i-remain-a-skeptic",
+      "oneLineKo": "LLM의 소프트웨어 생산성 효과, 4년째 미입증",
+      "summaryKo": "저자는 1.5조 달러가 투입됐음에도 LLM이 소프트웨어 품질, 속도, 비용, 보안을 실질적으로 개선했다는 독립적 연구가 부족하다고 지적한다. 자신이 받은 LLM 생성 PR은 사람의 PR보다 병합 가치가 낮았고, 최첨단 모델도 취미 개발자가 발견한 명백한 문제를 놓쳤다고 밝힌다. 코드량을 생산성 지표로 삼는 관행은 유지보수하기 어려운 결과물을 낳으며, 빅테크의 LLM 추진은 지식노동을 동질화해 노동자의 협상력을 약화시키려는 목적이 있다고 주장한다. 이에 저자는 LLM 도입 대신 좁은 기술 영역에 전문화하는 전략을 택했다고 밝힌다.",
+      "tags": [
+        "llm",
+        "software-engineering",
+        "ai-productivity"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49325789",
+      "title": "On AI regulation and messaging",
+      "url": "https://twitter.com/DarioAmodei/status/2088758816376807762",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49325789",
+      "publishedAt": "2026-08-17T01:59:56Z",
+      "score": 226,
+      "comments": 480,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;DarioAmodei&#x2F;status&#x2F;2088758816376807762\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;DarioAmodei&#x2F;status&#x2F;2088758816376807762</a>",
+      "oneLineKo": "Anthropic CEO, AI 규제와 메시징 관련 트윗 게시",
+      "summaryKo": "Anthropic의 CEO Dario Amodei가 자신의 트위터(X)를 통해 AI 규제와 관련된 메시징 전략에 대한 의견을 밝혔다. 게시글은 xcancel 링크를 통해 원문 트윗을 우회 열람하는 형태로 공유되었다. 본문 내용은 제목과 링크 정보만 확인 가능하며 구체적인 발언 내용은 트윗 원문을 통해 확인해야 한다.",
+      "tags": [
+        "ai-regulation",
+        "anthropic"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32593",
+      "title": "AI;DR(AI라서 읽지 않음)",
+      "url": "https://news.hada.io/topic?id=32593",
+      "commentsUrl": "https://news.hada.io/topic?id=32593",
+      "publishedAt": "2026-08-18T06:34:22+09:00",
+      "snippet": "AI;DR(AI라서 읽지 않음) | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ AI;DR(AI라서 읽지 않음) (rickmanelius.com) 1 P by GN⁺ 37분전 | ★ favorite | 댓글 1개 AI;DR 은 검토·편집하지 않은 AI 생성물을 읽지 않겠다는 원칙으로, 늘어나는 장문의 저품질 AI 콘텐츠에 대응함 아이디어 발굴, 개요 작성, 문장 다듬기 등 작업 과정의 AI 활용 은 자연스럽지만, 결과물을 그대로 전달하는 태도는 별개의 문제임 고객 지원처럼 100% AI 생성 문구 가 적절한 상황도 있지만, 동료가 Slack에 Claude 출력을 통째로 붙이는 행위에는 같은 기준을 적용하기 어려움 뉴스레터와 소셜 콘텐츠는 게시자의 이름을 걸고 공개하는 만큼, AI 특유의 문구를 검토하고 사람의 손길 을 더해야 함 소셜 미디어의 TL;DR 처럼 AI;DR 을 저품질 AI 콘텐츠를 건너뛰는 표현으로 사용하고, 상대와의 소통에 공을 들인 콘텐츠를 우선함 검토하지 않은 AI 출력은 읽지 않기 2026년 3분기에는 아이디어 발굴, 개요 작성, 문장 개선 등 어느 단계에서든 AI를 활용 하는 일이 일반적일 것으로 봄 존중하는 사람이 필터링이나 편집 없이 AI 출력을 보내면 신체적으로 움찔할 정도로 거부감을 느끼며, 이를 계기로 새로운 원칙을 세움 보낸 사람이 검토하고 편집할 만큼 신경 쓰지 않았다면, 받는 사람도 읽는 데 시간을 쓰지 않음 모든 AI 생성 문구를 거부하는 것은 아님 고객 지원에서는 “휴대전화를 재설정했는지 확인했나요” 같은 대화를 사람이 공들여 작성할 필요가 없어 100% AI 생성 문구 를 기대할 수 있음 반면 동료가 Slack 토론에 Claude 출력 전체를 게시하면 의도와 다른 메시지가 전달됨 뉴스레터와 소셜 콘텐츠는 게시자의 이름으로 공개되므로 문장과 AI 특유의 표현을 직접 검토해야 함 편집하지 않은 결과물이라면 독자가 Claude에 직접 물어보는 것과 다르지 않음 AI;DR이라는 대응 방식 TL;DR(too long; didn’t read) 이 긴 소셜 미디어 글을 건너뛰는 표현이었다면, AI;DR(AI; didn’t read) 은 저품질 AI 콘텐츠를 읽지 않겠다는 표현임 AI 생성물을 그대로 보내기보다 상대와의 소통에 충분히 공을 들이고 사람의 손길 을 우선하는 사람을 찾으며, 같은 원칙을 받아들일 것을 권함 함께 보면 좋은 글 β AI Slop이 온라인 커뮤니티를 죽이고 있다 ai;dr - ai 가 작성한 글을 읽어야 할까요? AI 출력물 무단 복붙 중단(Stop Sloppypasta) agent-device - AI 에이전트가 iOS/Android 기기를 제어하도록 돕는 CLI 잠자는 동안 실행되는 에이전트를 만들고 있어요 GeekNews는 개발·기술·스타트업 소식을 빠르게 전달합니다. Weekly 뉴스레터로 구독하거나, 더 편하게 GeekBots로 받아보세요. Weekly 구독 GeekBots로 받기 GeekNews 소개 숨기기 댓글과 토론 인증 이메일 클릭후 다시 체크박스를 눌러주세요 ▲ GN⁺ 37분전 [-] Hacker News 의견들 2026년인데 다른 사람에게 AI 생성 답변 을 보내는 일이 보편적으로 무례하고 불쾌한 행동으로 취급되지 않는다는 사실이 놀라움 인터넷 글은 무언가를 배우거나 설득되기 위해 읽음. LLM에게 배우고 싶었다면 직접 물었을 것이며, 웹사이트·뉴스레터·이메일을 읽는 이유는 그 사람의 생각을 듣고 싶기 때문임. 직접 쓰고 가르칠 시간을 들이지 않았다면 나도 읽을 이유가 없음 AI 이전에도 링크만 던져 논거와 반론을 대신하는 일이 흔했음. “생각을 직접 표현할 수 없다면 그 링크를 읽을 이유도 없다”고 여겼지만 늘 소수였고, 대중이 그런 행동을 받아들였다면 AI 생성물도 받아들일 가능성이 큼 오히려 논거 대신 링크만 보내는 행위 가 AI 답변보다 더 거슬림. 아는 사람이 보낸 AI 답변이라면 적어도 검토했다고 가정할 수 있음. 또한 상대가 LLM에 자신의 의도를 구체적으로 지시했다면, 내가 직접 물었을 때와 같은 답이 나왔으리라는 보장도 없음 Google 검색 결과가 SEO 스팸의 벽 으로 채워지는 것과 비슷함 AI가 유용한 중간 지점도 있겠지만, 동료 한 명은 모두에게 멍청하게 긴 이메일을 보내면서 피드백을 이해하거나 반영하지 않음. 매번 LLM으로 답하고 다음 이메일에서는 절반을 잊어버려 사실상 /clear 를 실행한 것처럼 행동함. 나도 ChatGPT와 Claude가 있으니 자기 이메일부터 제대로 읽어야 함 이 사이트와 Reddit에서도 봇에게 대신 댓글을 쓰게 하는 사람이 있음. 무료 플랫폼의 대화 에 직접 참여하지 않고 봇을 시키는 데 무슨 의미가 있는지 도저히 이해하기 어려움 이제 당신은 목표 독자층 이 아닐 가능성이 크며, 그들도 당신이 읽는지 신경 쓰지 않음 원칙적으로 동의하지만, 작성자의 프롬프트 작성법 이 나보다 뛰어나서 내 AI 세션보다 평균적으로 유용한 글을 만든다면 생성 글에도 가치가 있을 수 있음 다만 좋은 프롬프트에는 여전히 노력이 필요하며, “성 하나 만들어 줘, 버그는 넣지 말고” 수준의 글은 쓸모없음 동료들이 모든 PR에 수백 줄의 AI 생성 문서 를 넣고, 코드 한 줄마다 1~10줄씩 “진정한 돌파구”, “핵심 경로에서 바이트 단위로 동일함”, “수용 단계가 오해를 부름” 같은 AI 주석을 달고 있음 기능은 출시되고 지표도 개선되지만 코드베이스는 사실상 가독성 이후의 세계가 됐고, 가끔 변수 이름을 두고 보여주기식 논의만 벌어짐. 장황한 AI 주석과 문서는 읽지 않지만, 다음 AI 작업에는 유용할지도 모르겠음 함께 새로운 방식으로 일하는 전문 조직이라면 무엇이 형편없는지 직접 논의 해야 함. 조용히 따르기만 하면 자신뿐 아니라 모두가 평생 이런 쓰레기를 감당하게 됨 다섯 가지 자동 강제 규칙을 적용함. 편집은 최대 1,000줄 , PR 설명은 글자 수 제한과 ISO 24495 적합성 검사를 거치며, 모든 문단",
+      "externalUrl": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+      "oneLineKo": "검토 안 한 AI 생성물은 읽지 않는다는 'AI;DR' 원칙 제안",
+      "summaryKo": "필자는 편집이나 검토 없이 그대로 전달되는 AI 생성 콘텐츠를 읽지 않겠다는 'AI;DR(AI; didn't read)' 원칙을 제시한다. 아이디어 발굴이나 문장 다듬기 등 작업 과정에서 AI를 활용하는 것은 자연스럽지만, 결과물을 그대로 전달하는 것은 별개의 문제라고 본다. 특히 뉴스레터나 소셜 콘텐츠처럼 자신의 이름을 걸고 공개하는 글은 AI 특유의 표현을 검토하고 사람의 손길을 더해야 한다고 강조한다. Hacker News 댓글에서는 이에 공감하는 의견과 함께, 좋은 프롬프트로 생성된 글도 가치가 있을 수 있다는 반론이 이어졌다.",
+      "tags": [
+        "ai-generated-content",
+        "llm",
+        "content-quality"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49331220",
+      "title": "How to disable or avoid intrusive AI",
+      "url": "https://www.librarian.net/notoai/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49331220",
+      "publishedAt": "2026-08-17T14:07:56Z",
+      "score": 216,
+      "comments": 115,
+      "snippet": "How to disable or avoid intrusive AI – librarian.net search expand Skip to content librarian.net putting the rarin back in librarian since 1999 Menu about faq talks contact Search for: Search How to disable or avoid intrusive AI [ Put on your own oxygen mask first! Image from San Diego Air and Space Museum Archives ] One of the biggest questions I get at Drop-In Time at the library (besides “what is taking up all my cloud storage?”) is how to disable or avoid intrusive AI that shows up where people don’t want it. This is a guide for people who would like less intrusive AI in their tech environment. Maybe you like AI and find it useful? That’s fine, this document is probably not for you. Additions/edits welcome. Leave a comment or drop me an email. This page is available at the short URL https://NoToAI.org Adobe Acrobat Windows: Menu > Preferences > Generative AI macOS: View > Preferences > Generative AI Uncheck the checkbox on the page, click Save . Adobe Reader Choose Disable new Acrobat Reader from the top menu (upper left), approve the dialog box and restart. Android/Gemini Depending on your phone’s manufacturer, you may be able to uninstall the Gemini app entirely. If not, there are some application-specific ways you can turn off some of its features Messages Tap your account picture, select Messages settings , then Gemini in Messages , and toggle the assistant off. Other features in other apps Tap your profile icon, select Gemini Apps activity , and then choose Turn off or Turn off and delete activity . Next, tap the profile icon again and go to the Connected Apps setting (check the Personal Intelligence setting). Disable all the apps where you don’t want Gemini. Power Button If Gemini has “taken over” your power button, you can turn this off. Go to Settings, then System , then Gestures and change the settings under Press & Hold Power Button If that doesn’t work you can try opening Settings , then searching for Power key Amazon If you would like to disable the “Alexa for Shopping” slider on Amazon you can install a browser extension for Chrome or for Firefox Apple Intelligence & Siri Only exists on iPhone 16 and newer Macs and iPads Open Settings (iPhone or iPad) or System Settings (Mac) and choose Apple Intelligence & Siri . Then turn off the Apple Intelligence option. Confirm your choice in the dialog that appears by tapping Turn Off Apple Intelligence . More details on how to turn off specific parts of Apple Intelligence and leave others alone . Apple has a “learn from this application” feature which can be on even when Apple Intelligence is not on. To turn it off For Mac: go to System Settings – Apple Intelligence & Siri . Select About Siri, Dictation & Privacy… near the end of the page, turn off apps you don’t want Siri to learn from For iOS: Settings – Apple Intelligence & Siri , scroll down to Apps , disable “Learn from this App” Browser-embedded AI There are alternative browsers such as Zen or Helium , which are Firefox and Chromium ",
+      "oneLineKo": "주요 앱·OS별 AI 기능 끄는 방법 정리 가이드",
+      "summaryKo": "이 글은 Adobe Acrobat, Android/Gemini, Amazon, Apple Intelligence & Siri 등 다양한 소프트웨어와 서비스에서 원치 않는 AI 기능을 비활성화하거나 피하는 구체적인 방법을 안내합니다. 각 플랫폼별 설정 메뉴 경로와 토글 옵션을 단계별로 설명하며, 브라우저에 내장된 AI를 피하기 위한 Zen, Helium 같은 대안 브라우저도 소개합니다. 저자는 AI를 원치 않는 사용자를 위한 실용적인 참고 문서로 이 글을 작성했으며, 커뮤니티의 추가·수정 제안을 받고 있습니다.",
+      "tags": [
+        "ai",
+        "privacy",
+        "settings"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32579",
+      "title": "Claude의 ‘워터마크’가 글쓰기를 왜곡하는 방식",
+      "url": "https://news.hada.io/topic?id=32579",
+      "commentsUrl": "https://news.hada.io/topic?id=32579",
+      "publishedAt": "2026-08-17T18:33:37+09:00",
+      "snippet": "Claude의 ‘워터마크’가 글쓰기를 왜곡하는 방식 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Claude의 ‘워터마크’가 글쓰기를 왜곡하는 방식 (daringfireball.net) 1 P by GN⁺ 13시간전 | ★ favorite | 댓글 1개 Anthropic은 EU 규정 준수를 위해 전 세계 Claude 모델이 생성하는 200토큰 초과 텍스트 에 워터마크를 적용할 예정이며, 보이지 않는 문자가 아니라 비밀 키로 단어 선택 확률을 조정하는 방식임 다음 토큰 후보를 동적으로 ‘green’과 ‘red’로 나누고 green 후보를 조금 더 자주 선택해 통계적 흔적을 남기므로, 모델이 판단한 최적의 단어 대신 워터마크에 유리한 단어가 선택될 수 있음 Anthropic과 Google은 품질·의미·가독성에 실질적 영향이 없다고 하지만, 동의어도 의미와 뉘앙스가 같지 않으며 Gemini의 약 2,000만 개 응답 실험도 thumbs-up/down 차이가 통계적으로 유의하지 않다 는 결과만 보여줌 흔적은 길고 많이 생성된 텍스트일수록 탐지하기 쉽지만 의도적인 재작성으로 제거할 수 있고, 교정·요약·인용·번역을 거친 인간의 글도 Claude가 작성한 것으로 의심받을 수 있어 정직한 사용자에게 더 큰 부담을 줌 생성과 탐지에 필요한 비밀 키를 Anthropic만 보유하므로 사용자는 직접 검증할 수 없으며, 모든 단어가 의미와 문체를 위해 선택됐는지 비밀 워터마크 때문에 선택됐는지 알 수 없게 됨 Claude 텍스트 워터마크의 작동 원리 Anthropic의 최초 지원 문서는 Claude가 의미·품질·가독성을 바꾸지 않는 “ 감지할 수 없는 워터마크 ”를 텍스트에 삽입한다고 밝혔지만 구체적인 원리는 공개하지 않았음 이 설명 때문에 보이지 않는 비출력 Unicode 문자를 삽입하는 방식일 수 있다는 추측이 나왔음 이후 공개된 How Claude’s Text Watermark Works 는 숨은 문자를 추가하지 않고 토큰 선택을 조정한다고 밝힘 How AI Text Watermarking Works 의 설명처럼, 이 방식은 편향된 동전을 여러 번 던져 편향 여부를 통계적으로 판별하는 것과 유사함 LLM은 다음 토큰마다 여러 후보 가운데 하나를 선택함 후보 토큰은 각 생성 지점에서 결정론적으로 green·red 목록 에 배정되며, 같은 단어도 문맥에 따라 다른 목록에 들어갈 수 있음 워터마크가 활성화되면 green 후보의 선택 확률은 높아지고 red 후보는 낮아지지만, red 후보가 완전히 배제되지는 않음 비밀 키를 보유한 제공자는 각 지점에서 특정 단어가 어느 목록에 속했는지 계산하고, 예상보다 green 단어가 많은지 분석해 워터마크를 확률적으로 판별함 텍스트가 길수록 판별 신뢰도가 높아지고 짧을수록 확신하기 어려움 생성뿐 아니라 모델이 수정한 텍스트도 탐지 대상으로 분류될 수 있음 Anthropic은 Claude의 워터마크만, Google은 Gemini의 워터마크만 탐지할 수 있음 단어 선택과 글쓰기 품질의 충돌 “He leaped at the chance”와 “He jumped at the opportunity”는 비슷한 뜻이지만 정확히 같은 문장 이 아니며, 단어마다 의미·어조·리듬이 다름 속도·추론 비용·품질 사이의 절충은 사용자를 위한 필수 제약이지만, 출처 추적을 위해 단어 선택을 바꾸는 것은 사용자 요구와 무관한 제약임 Anthropic의 계획은 외부에 제출할 글이나 AI 교정 결과뿐 아니라 사용자만 읽는 비공개 Claude 대화 에도 적용됨 모든 새 Claude 모델이 생성하는 200토큰, 약 150단어 이상의 텍스트가 대상임 명료성과 정확성을 최대화하는 대신 통계적으로 예측 가능한 흔적을 남기도록 일부 단어를 선택하게 됨 현재의 Claude·ChatGPT·Grok도 평균적인 사람보다 나은 산문을 만들 수 있지만 뛰어난 인간의 글쓰기에는 미치지 못하며, 여기에 의도적인 단어 편향을 추가하면 품질이 더 낮아질 수 있음 EU 투명성 규정과 우회 가능성 관련 EU AI 생성 콘텐츠 투명성 행동강령 은 다음 조건을 요구함 200토큰을 초과하는 텍스트에 적용됨 서비스 약관을 통해 사용자가 워터마크를 제거하지 못하도록 요구해야 함 스크린샷, 스캔·OCR, 복사·붙여넣기, 번역 같은 일반적인 처리에도 견뎌야 함 단어 선택 자체가 표시이므로 규정을 문자 그대로 적용하면 사용자가 결과물을 재작성하는 행위 까지 약관으로 제한해야 할 수 있음 AI 생성물을 자기 글처럼 제출하려는 사용자는 규정을 따르지 않는 AI 재작성 도구로 흔적을 제거할 수 있는 반면, 정직한 사용자는 교정·요약·보조 작업에서도 의심받을 수 있음 James Padolsey의 Anthropic’s Weak Watermarks Appease a Weak Law 는 이 구현이 법의 최소 요구보다 광범위하다고 봄 무해하거나 보조적인 사용까지 표시하면서도 의도적인 대규모 재작성으로는 제거될 수 있음 어려운 작업을 도구에 맡겼다는 이유만으로 계산기·맞춤법 검사기와 다른 도덕적 기준을 적용하게 됨 Padolsey의 Declaude 는 AI 특유의 문체를 평범한 산문으로 바꾸는 웹 앱이며, 복사·붙여넣기 한 번으로 Claude 워터마크까지 제거하는 수단이 될 수 있음 Google SynthID와 품질 실험의 한계 Google의 SynthID 는 이미지·비디오·오디오·텍스트에 워터마크를 적용함 멀티미디어는 파일 메타데이터에 흔적을 넣어 감상 품질을 바꾸지 않을 수 있음 텍스트에서는 실제 단어의 생성 확률을 조정하므로 결과물 자체가 달라짐 Google은 “My favorite tropical fruits are mango and…” 다음에 “bananas”가 “airplanes”보다 훨씬 높은 확률을 갖는다는 예로 방식을 설명함 실질적인 선택 문제는 bananas와 airplanes가 아니라 bananas·pineapple·coconut·guava·papaya처럼 모두 문",
+      "externalUrl": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "oneLineKo": "Claude 텍스트 워터마크, 단어 선택 바꿔 글쓰기 왜곡 우려",
+      "summaryKo": "Anthropic은 EU 규정 준수를 위해 Claude가 생성하는 200토큰 이상 텍스트에 워터마크를 적용할 예정이며, 이는 보이지 않는 문자 삽입이 아니라 비밀 키로 다음 토큰 후보를 green·red로 나눠 green 단어를 더 자주 선택하게 하는 방식이다. 이로 인해 모델이 판단한 최적의 단어 대신 워터마크에 유리한 단어가 선택되어 의미·뉘앙스가 미묘하게 달라질 수 있으며, 비공개 대화에도 적용되어 정직한 사용자도 AI 작성 의심을 받을 수 있다. 생성과 탐지에 필요한 비밀 키는 Anthropic만 보유해 사용자가 직접 검증할 수 없고, 의도적 재작성으로는 흔적을 제거할 수 있어 규정 실효성에도 의문이 제기된다.",
+      "tags": [
+        "llm",
+        "watermark",
+        "anthropic"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49334544",
+      "title": "Qwen3.8 27B scores 52 on Artificial Analysis",
+      "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49334544",
+      "publishedAt": "2026-08-17T17:25:17Z",
+      "score": 251,
+      "comments": 113,
+      "snippet": "Qwen3.8 27B - Intelligence, Performance & Price Analysis Artificial Analysis K Artificial Analysis Models Coding Agents Speech, Image, Video Inference Leaderboards About AI Trends Arenas K Alibaba • Open weights model • Released August 2026 Qwen3.8 27B Intelligence, Performance & Price Analysis Compare API Provider Benchmarks Model summary Intelligence # 1 / 135 52 Artificial Analysis Intelligence Index 4 out of 4 units for Intelligence. Speed N/A Output tokens per second Unknown out of 4 units for Speed. Cost In $0.00 Out $0.00 N/A Cost per Intelligence Index task Unknown out of 4 units for Cost. Verbosity # 23 / 135 160M Output tokens from Intelligence Index 4 out of 4 units for Verbosity. Comparison Summary Qwen3.8 27B is amongst the leading models in intelligence and well priced when comparing to other open weight models of similar size. The model supports text and image input, outputs text, and has a 256k tokens context window. Qwen3.8 27B scores 52 on the Artificial Analysis Intelligence Index, placing it well above average among comparable models (median: 9). When evaluating the Intelligence Index, it generated 160M tokens, which is very verbose in comparison to the median of 43M. Pricing for Qwen3.8 27B is $0.00 per 1M input tokens (competitively priced, median: $0.04) and $0.00 per 1M output tokens (competitively priced, median: $0.15). Technical specifications Reasoning Yes This page shows the reasoning version of this model. A non-reasoning variant may also exist. Input modality Supports: text and image Output modality Supports: text Context window 256k ~384 A4 pages of size 12 Arial font Total parameters 27B License Apache 2.0 Model weights Hugging Face 135 models in this class Metrics are compared against models of the same class: Non-reasoning models → compared only with other non-reasoning models Reasoning models → compared across both reasoning and non-reasoning Open weights models → compared only with other open weights models of the same size class: Tiny: ≤4B parameters Small: 4B–40B parameters Medium: 40B–150B parameters Large: >150B parameters Proprietary models → compared across proprietary and open weights models of the same price range, using a blended 3:1 input/output price ratio: <$0.15 per 1M tokens $0.15–$1 per 1M tokens >$1 per 1M tokens Model Comparison API Provider Benchmarks Highlights Intelligence Artificial Analysis Intelligence Index · Higher is better Speed Output tokens per second · Higher is better Cost per Task Weighted average cost (USD) per Intelligence Index task · Lower is better Intelligence Benchmarks Openness Index Intelligence Index Comparisons Token Use Cost Context Window Model Size (Open Weights Models Only) Prompt Options Intelligence Artificial Analysis Intelligence Index Updated Agentic Index Updated Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index v4.1.1 incorporates 9 evaluations: GDPval-AA v2, 𝜏³-Banking, Terminal-Bench v2.1, SciCode, Humanity's Last Exam, GPQA D",
+      "oneLineKo": "Qwen3.8 27B, Artificial Analysis 지능지수 52로 동급 1위",
+      "summaryKo": "Alibaba가 공개한 오픈웨이트 모델 Qwen3.8 27B가 Artificial Analysis Intelligence Index에서 52점을 기록하며 동급 135개 모델 중 1위를 차지했다. 27B 파라미터에 256k 토큰 컨텍스트 윈도우를 지원하며, 텍스트와 이미지 입력을 받아 텍스트를 출력하는 추론(reasoning) 모델이다. Apache 2.0 라이선스로 공개되었으며 Hugging Face에서 모델 가중치를 제공한다. 다만 답변 생성 시 토큰 사용량이 중앙값 대비 매우 많아 verbosity가 높은 편으로 평가된다.",
+      "tags": [
+        "qwen",
+        "llm",
+        "benchmark"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32575",
+      "title": "Stripe, 10조원 이상에 AI 모델 게이트웨이 OpenRouter 인수 합의",
+      "url": "https://news.hada.io/topic?id=32575",
+      "commentsUrl": "https://news.hada.io/topic?id=32575",
+      "publishedAt": "2026-08-17T11:31:57+09:00",
+      "snippet": "Stripe, 10조원 이상에 AI 모델 게이트웨이 OpenRouter 인수 합의 | GeekNews GeekNews 최신글 최신 예전글 예전 쓰레드 댓글 포럼 ↗ Ask Show GN⁺ Weekly GeekBots Bots GeekBadge Badge 후원 | 글등록 등록 검색 로그인 ▲ Stripe, 10조원 이상에 AI 모델 게이트웨이 OpenRouter 인수 합의 (bloomberg.com) 1 P by GN⁺ 20시간전 | ★ favorite | 댓글 1개 Stripe가 OpenRouter 인수에 합의 한 것으로 알려짐. Bloomberg 는 70억 달러 이상이라고 보도하고, Axios 는 현금과 주식으로 80억 달러 이상 이라고 확인 OpenRouter는 OpenAI/Anthropic/Google 등 여러 공급자의 모델을 하나의 API에서 선택하고 전환 할 수 있게 하는 AI 모델 게이트웨이로, 현재 500개 이상 모델과 80개 이상 공급자를 지원함 불과 3주 전 WSJ 가 처음 인수 협상을 보도했을 때는 약 100억 달러 가 거론됐으며, 다른 기술기업들도 OpenRouter 인수를 검토하고 있었음 OpenRouter는 2026년 5월 13억 달러 가치로 1.13억 달러 Series B 를 유치했으며, 당시 800만 명 이상의 개발자와 400개 이상 모델을 지원하고 주간 처리량이 6개월 만에 5조→25조 토큰으로 증가했다고 밝힘 두 회사는 이미 긴밀하게 연결돼 있었음. OpenRouter는 Stripe Invoicing/Tax/Radar 를 이용해 결제와 세금/사기 방지를 처리했고, Stripe는 AI 시대의 사용량 기반 과금과 에이전트 결제를 위한 경제 인프라를 주요 사업 영역으로 확장해왔음 70억 달러인가 80억 달러인가 8월 16일 Bloomberg는 관계자를 인용해 Stripe가 OpenRouter를 70억 달러 이상 에 인수하는 계약을 체결했다고 보도 했으며, TechCrunch 등이 이를 재보도함 8월 17일 Axios 는 거래를 별도로 확인했다며 80억 달러 이상의 현금+주식 거래 라고 보도함 대부분은 Stripe 주식으로 지급되는 구조 Stripe와 OpenRouter는 아직 인수를 공식 발표하지 않았음 7월 23일 WSJ의 최초 협상 보도 에서는 매각 가격으로 약 100억 달러 가 거론됐으며, 당시 거래는 확정되지 않았고 다른 잠재적 인수자도 있었음 불과 몇 달 전 기업가치는 13억 달러 OpenRouter는 2026년 5월 Series B 에서 1.13억 달러 를 유치함 CapitalG가 주도 NVentures, ServiceNow Ventures, MongoDB Ventures, Snowflake Ventures, Databricks Ventures 등이 참여 기존 투자자인 Andreessen Horowitz와 Menlo Ventures도 참여함 당시 기업가치는 13억 달러 로 평가됐으며, 인수 보도 금액은 불과 몇 달 전 투자 라운드의 기업가치를 크게 웃도는 수준임 Series B 발표 당시 OpenRouter는 15명의 완전 원격 팀 이 수백 개 모델과 여러 클라우드 공급자를 하나의 API에서 제공 800만+ 개발자 400+ 모델 주간 25조 토큰 처리 6개월 전 주간 5조 토큰에서 5배 증가 연간 1,000조 토큰 이상을 처리하는 속도라고 밝힘 OpenRouter의 사업은 'AI 모델용 중간 계층' OpenRouter는 애플리케이션이 각 AI 업체와 별도로 API를 연동하는 대신, 하나의 인터페이스를 통해 여러 모델과 추론 공급자를 이용할 수 있게 함 개발자는 모델별 가격/성능 등을 비교하고 필요에 따라 모델과 공급자를 바꿀 수 있으며, 공급자 장애 시 다른 공급자로 요청을 넘기는 라우팅 기능도 제공함 현재 OpenRouter 가격 정책 은 Pay-as-you-go 기준 500+ 모델 80+ 공급자 모델 가격에 5.5% 플랫폼 수수료 구조로 운영됨 예산/지출 제한, 데이터 정책 기반 라우팅, 활동 기록, SSO/SAML 같은 기업용 기능도 제공함 Axios의 7월 분석 은 이런 구조를 결제 사업과 비교함 OpenRouter는 AI 모델 사용 비용 위에 일정 비율의 수수료를 받음 CEO Alex Atallah도 OpenRouter를 Stripe에 비유해왔음 빠르게 커진 매출, 하지만 매출만 보면 70억 달러 가격도 상당히 높음 The Information 에 따르면 7월 말 OpenRouter의 연환산 매출은 약 1.4억 달러 , 월 매출은 약 1,200만 달러 수준이었음 4월에는 연환산 매출이 약 5,000만 달러 였던 것으로 전해져 몇 달 사이 빠르게 증가함 The Information은 당시 거론되던 100억 달러 인수가를 적용하면 OpenRouter 매출의 약 70배 를 지불하는 셈이라고 평가 OpenRouter는 기반 모델을 직접 개발하거나 GPU 인프라를 직접 판매하는 회사라기보다, 여러 모델 공급자 사이에서 요청과 사용량이 지나가는 게이트웨이 를 운영하는 사업임 Stripe와 OpenRouter는 이미 파트너 관계 Stripe는 올해 1월 OpenRouter 고객 사례 를 공식적으로 공개했음 당시 OpenRouter는 500만 명 이상의 개발자에게 수백 개 모델을 제공하고 있었으며 Stripe Invoicing 으로 고객에게 요금을 청구 Stripe Tax 로 각국 세금을 계산/징수 Radar for Fraud Teams 로 부정 결제를 관리하고 있었음 Stripe는 OpenRouter의 매출 성장, 글로벌 확장과 사기 방지까지 지원한다고 소개했으며, OpenRouter의 AI 사용량과 실제 돈의 흐름이 이미 Stripe 위에서 연결돼 있었음 Stripe Sessions 2026에서도 OpenRouter의 AI 서비스 가격 책정 사례를 별도 세션으로 다룰 정도로 양사의 관계가 이어져 왔음 Stripe가 AI 인프라로 확장하는 흐름 Stripe는 결제 처리뿐 아니라 AI 서비스에서 발생하는 사용량 측정→가격 책정→청구→결제 영역으로 사업을 확대하고 있음 2026년 1월에는 사용량 기반 과금 업체 Metronome 인수를 완료",
+      "externalUrl": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+      "oneLineKo": "Stripe, AI 모델 게이트웨이 OpenRouter 10조원대 인수 합의",
+      "summaryKo": "Stripe가 AI 모델 게이트웨이 OpenRouter를 70억~80억 달러 규모(현금+주식)로 인수하기로 합의했다고 Bloomberg와 Axios가 보도했다. OpenRouter는 OpenAI, Anthropic, Google 등 80여 공급자의 500개 이상 모델을 단일 API로 제공하는 서비스로, 3주 전 협상 초기에는 100억 달러가 거론됐다. 불과 몇 달 전 13억 달러 가치로 Series B를 유치했던 것에 비해 급격히 상승한 가격이며, 양사는 이미 결제·세금·사기방지 인프라로 긴밀히 협력해온 관계다. Stripe는 이번 인수를 통해 AI 시대 사용량 기반 과금과 에이전트 결제 인프라 사업을 확장하려는 전략으로 풀이된다.",
+      "tags": [
+        "ai",
+        "stripe",
+        "openrouter"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49270194",
+      "title": "Olo (Color)",
+      "url": "https://en.wikipedia.org/wiki/Olo_(color)",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49270194",
+      "publishedAt": "2026-08-12T10:26:14Z",
+      "score": 245,
+      "comments": 59,
+      "snippet": "Olo (color) - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 Discovery Toggle Discovery subsection 1.1 Legitimacy 2 References Toggle the table of contents Olo (color) 14 languages Deutsch Español Հայերեն Bahasa Indonesia Italiano Bahasa Melayu Português Română Русский Simple English Türkçe Українська Tiếng Việt 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser Print/export Download as PDF Printable version In other projects Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Imaginary color produced by isolating M cone responses Most chromatic color inside the sRGB gamut that has a similar hue to olo Olo is an imaginary color that can only be seen using specialized tools that exclusively activate the M cone cells on the retina. It is impossible to view olo under normal viewing conditions, due to the overlapping sensitivities of M cone cells and S and L cone cells in all wavelengths of visible light that evoke them. In other words, there is no monochromatic stimulus (the purest type of stimulus that humans can perceive) that activates only the M cones. This means that olo is outside the visible gamut. To get around this, researchers mapped a portion of the retina and individually identified each cone cell as either an S, M, or L cone. They then used lasers to deliver tiny doses of light attempting to target specifically the M cone cells, mostly avoiding the S and L cone cells. [ 1 ] [ 2 ] The researchers who experienced olo said that the closest color to olo in the sRGB gamut is hexadecimal code # 00FFCC. [ 2 ] Discovery [ edit ] Olo was discovered on April 18, 2025 by scientists at UC Berkeley . [ 1 ] [ 3 ] The color is named after its theoretical LMS color space coordinates (0, 1, 0), which spells \"olo\" in leet speak . [ 4 ] [ 3 ] Only the five subjects of the Berkeley experiment have officially seen olo. [ 1 ] [ 5 ] Professor Ren Ng , a co-author of the study, described olo as \"more saturated than any color that you can see in the real world\"; [ 5 ] the five subjects of the experiment similarly described the color as a \" blue-green of unprecedented saturation\". [ 1 ] Ng and his team are exploring whether the technology used to generate olo could be adapted to enhance color perception in individuals with color blindness to manage the symptoms of color blindness. He further suggested that this approach could even lead to a form of enhanced vision known as tetrachromacy , where ind",
+      "oneLineKo": "레이저로 M원추세포만 자극해 만든 상상 속 색 'Olo'",
+      "summaryKo": "UC버클리 연구진이 2025년 4월, 망막의 M원추세포만을 정밀하게 레이저로 자극해 자연적으로는 볼 수 없는 색 'Olo'를 만들어냈다. 이 색은 인간의 시각 색역(gamut) 밖에 존재하며, sRGB에서 가장 유사한 색은 헥스코드 #00FFCC로 알려졌다. 실험에 참여한 5명의 피실험자는 이를 '전례 없는 채도의 청록색'으로 묘사했다. 연구팀은 이 기술을 색맹 보정이나 인간의 사색형 색각(tetrachromacy) 구현에 응용할 가능성도 모색하고 있다.",
+      "tags": [
+        "color-perception",
+        "vision-science",
+        "neuroscience"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49333824",
+      "title": "Sun Clock",
+      "url": "https://sunclock.net/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49333824",
+      "publishedAt": "2026-08-17T16:37:54Z",
+      "score": 141,
+      "comments": 43,
+      "snippet": "Sun Clock JAN 0 --> Sun Clock Getting date… Getting location… show all times Sun Calendar This site requires Javascript! About Sun Clock is a 24-hour clock that displays the position of the sun, and times of sunrise , solar noon , sunset , golden hour , and twilight for your current location. It also shows the position and phase of the moon, and its rising and setting times. This site requires JavaScript to work. Page weight is ~100 KB, and there's no advertising or tracking (only a tiny stats script from Simple Analytics ). It's worth it, honest ;) A note about direction 1 — why does it go backwards? Tips Tap on or hover over the segments to get their start and end times. You can also tap/hover on the moon, the hour hand, and the centre dot. See updates for change history. Support Sun Clock is free to use, and contains no advertising. If you would like to help support Sun Clock, please — Privacy We collect aggregate user stats only. Your location and settings are stored in your web browser and are not sent to the server. No cookies are saved or sent. Feedback 〜 Source 〜 SunCalc ✕ A note about direction In the Northern Hemisphere the Sun moves across the sky in a clockwise direction. (Before clocks, clockwise was called \" sunwise \", and anti-clockwise was know as \" widdershins \", meaning \"against the way\".) In the Southern Hemisphere, however, the sun moves across the sky in an anti-clockwise direction. Sun Clock matches this by setting its direction of rotation based on your latitude: if you're in the Southern Hemisphere the clock will go 'backwards' . You can change it in the settings if you wish. Ideally you want the clock to turn in the same direction as the sun, regardless of which hemisphere you are in. If you are facing South, set it to clockwise; if facing North, anti-clockwise. You want sunrise on the clock to be to the East. In fact, if you face the right direction and tilt you screen at the right angle, the hour hand will track the movement of the Sun across the sky. Exactly how to do this is left as an exercise for the reader, but you want the screen to lie in the plane of the ecliptic , and solar noon to be \"up\". ✕ Updates 2026-06-26 Added a license (MIT) to the code. 2026-03-12 Added an option for a ticking seconds hand (sweep hand is still the default). 2026-01-01 Fixed a bug where the Moon icon was incorrect in recent versions of Safari. 2024-05-23 Added the option to show the odd numbers on the clock face. The \" use 12-hour times \" option now applies to the numbers on the clock face also. 2024-02-13 Added an annual calendar . Try it out. Feedback welcome! 2023-10-20 Sun Clock is now a Progressive Web App . This means you can install it on your device homepage and it will be available when your are offline. 2022-10-24 Added auto-color mode (dynamic colors that change with the time periods.) 2022-09-07 Added dark mode. 2022-05-27 Live! ✕ All Times Times update at Solar Midnight Event Time ✕ Settings show moon show hour numbers show",
+      "oneLineKo": "태양 위치 시각화하는 24시간 시계 웹앱",
+      "summaryKo": "Sun Clock은 사용자의 현재 위치를 기반으로 일출, 정오, 일몰, 골든아워, 박명 시간과 태양 위치를 24시간 시계 형태로 보여주는 웹사이트다. 달의 위상과 뜨고 지는 시간도 함께 표시하며, 북반구와 남반구에 따라 시계 회전 방향이 달라지는 점이 특징이다. 광고나 추적 없이 약 100KB의 가벼운 페이지로 제작되었고, PWA로 설치해 오프라인에서도 사용할 수 있다. 위치와 설정 정보는 서버로 전송되지 않고 브라우저에만 저장된다.",
+      "tags": [
+        "pwa",
+        "javascript",
+        "astronomy"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49327643",
+      "title": "Show HN: Desktopcolors.com – A museum for solid background colors of classic OS",
+      "url": "https://desktopcolors.com",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49327643",
+      "publishedAt": "2026-08-17T07:51:22Z",
+      "score": 130,
+      "comments": 58,
+      "snippet": "desktopcolors.com — The desktop color archive desktopcolors .com Platforms Colors Setup Guide About ☰ Menu PLATFORMS Desktop background colors, by operating system Every solid desktop background color shipped by classic operating systems and desktop environments. ⚲ VIEW ▣ Cards | ☰ List SORT ★ Popular ↓ ◷ Year ↓ ✦ New ↓ A–Z ↓ SORT ★ Popular ↓ ▾ #008080 Windows 95 ↗ 1995 · Windows 61 colors #b3b3da Mac OS 8 ↗ 1997 · Mac OS 13 colors #3a6ea5 Windows 2000 ↗ 2000 · Windows 62 colors #008080 Windows 98 ↗ 1998 · Windows 61 colors #c0c0c0 Windows 3.1 ↗ 1992 · Windows 53 colors #3a6ea5 Windows Me ↗ 2000 · Windows 62 colors #57ff81 Windows 1.0 ↗ 1985 · Windows 4 colors #0055aa Amiga Workbench 1.x ↗ 1985 · Amiga 4 colors #505050 SerenityOS ↗ 2018 · SerenityOS 52 colors #c0c0c0 Windows 3.0 ↗ 1990 · Windows 51 colors #336698 BeOS ↗ 1995 · BeOS 1 colors #008080 Windows NT 4.0 ↗ 1996 · Windows 61 colors #808080 Xfce ↗ 1996 · Desktop Env. 46 colors #574c8f Solaris 9 ↗ 2002 · Solaris 7 colors #1d99f3 KDE Plasma 6 ↗ 2024 · Desktop Env. 1 colors #57ffff Windows 2.0 ↗ 1987 · Windows 1 colors #5454d4 FreeGEM ↗ 1999 · GEM 4 colors #aaaaaa Amiga Workbench 2.0 ↗ 1990 · Amiga 4 colors #00c000 BleskOS ↗ 2020 · BleskOS 1 colors #336698 Haiku ↗ 2009 · Haiku 1 colors #21578d ReactOS 0.4.x ↗ 2016 · ReactOS 65 colors #008080 Windows NT 3.x ↗ 1993 · Windows 53 colors #aaaaaa Blackbox ↗ 1997 · Desktop Env. 10 colors desktopcolors .com The archive of every solid desktop background color shipped by classic operating systems. BROWSE All platforms Colors Setup Guide LEGAL Privacy Notice Imprint About 28b0699 · 2026-08-18 © 2026 desktopcolors.com · 203 colors archived = 760px) --> desktopcolors .com The archive of every solid desktop background color shipped by classic operating systems. ~ $ git rev-parse HEAD 28b0699 · 2026-08-18 · release BROWSE All platforms Colors Setup Guide PROJECT About Source on GitHub Add a platform LEGAL Privacy Notice Imprint © 2026 desktopcolors.com · a labor of nostalgia 203 colors · 23 platforms archived",
+      "oneLineKo": "클래식 OS 배경색만 모은 아카이브 사이트",
+      "summaryKo": "Windows, Mac OS, Amiga, BeOS 등 다양한 클래식 운영체제와 데스크톱 환경이 기본으로 제공했던 단색 배경화면 색상을 모아놓은 아카이브 사이트입니다. 현재 23개 플랫폼, 203개 색상이 수집되어 있으며 연도별, 인기순, 알파벳순 등으로 정렬해 볼 수 있습니다. GitHub에 소스가 공개되어 있어 새로운 플랫폼 색상을 추가할 수도 있습니다.",
+      "tags": [
+        "retro-computing",
+        "design",
+        "archive"
+      ]
+    }
+  ]
+}
