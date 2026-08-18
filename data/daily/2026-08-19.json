@@ -1,0 +1,246 @@
+{
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-18T22:22:37.849Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32624",
+      "title": "원치 않는 방해형 AI 기능을 끄거나 피하는 방법",
+      "url": "https://news.hada.io/topic?id=32624",
+      "commentsUrl": "https://news.hada.io/topic?id=32624",
+      "publishedAt": "2026-08-19T05:32:44+09:00",
+      "snippet": "운영체제·브라우저·업무 도구·메신저에 끼어든 원치 않는 AI 기능 을 줄일 수 있도록 제품별 비활성화 경로를 정리한 실용 가이드임 Adobe, Android/Gemini, Apple Intelligence, Windows 11/Copilot처럼 기능이 여러 앱과 시스템 설정에 흩어져 있다면 각 위치에서 따로 해제...",
+      "oneLineKo": "OS·앱별 원치 않는 AI 기능 끄는 방법 정리",
+      "summaryKo": "운영체제, 브라우저, 업무 도구, 메신저 등에 삽입된 원치 않는 AI 기능을 비활성화하는 실용적인 가이드이다. Adobe, Android/Gemini, Apple Intelligence, Windows 11/Copilot처럼 기능이 여러 앱과 시스템 설정에 흩어져 있는 경우, 각 위치별로 해제 방법을 따로 안내한다. 사용자가 원치 않는 AI 통합을 제품별로 찾아 끌 수 있도록 정리한 참고 자료이다.",
+      "tags": [
+        "ai",
+        "privacy",
+        "productivity"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49345263",
+      "title": "The Amazon tax",
+      "url": "https://seths.blog/2026/08/the-amazon-tax/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49345263",
+      "publishedAt": "2026-08-18T13:22:38Z",
+      "score": 758,
+      "comments": 474,
+      "snippet": "The Amazon tax | Seth's Blog You have unread updates 0 Search Search for: Or try my new AI-powered search bot Subscribe Email Terms & Privacy Get the weekly digest Type your email… Subscribe Learn Which workshop? The LinkedIn Learning Courses Udemy Courses The Akimbo Podcast Connect News and updates Social Media Best of the blog Story of the Week Seth’s Top 100 Popular Posts Archive More Seth Books, videos, and speaking (oh my!) Free content About Seth Godin Find all the books at seths.store Welcome back. Have you thought about subscribing? It's free. seths.blog/subscribe The Amazon tax It’s not technically a tax. Taxes produce valuable public benefits, like medical research and parks. This is simply legal theft. Amazon makes nearly a billion dollars in profit from search ads. Every week . Each week, they sell merchants and publishers enough search-distorting ads to capture a billion dollars in revenue. Amazon makes enough in search ad revenue to give every single one of their employees a $35,000 cash bonus and still have change left over. My publisher is terrific, and they’re working hard to introduce people to my new book . Last week, they began buying search ads on Amazon. At first glance, this is compelling. Someone who isn’t sure what they’re looking for, who is looking for a book or a kitchen appliance, might find one if the right ad showed up at the right time. But of course, that’s not what yields, or what most of the ads you see on Amazon do. If you’re searching for an air fryer, Amazon already knows quite a bit. They know the best-reviewed, least-returned, best-priced model. The only purpose of the ads is to get you to pick an air fryer that isn’t that one (or for the best air fryer, to keep you on track to buy the one you wanted in the first place). The ads make the search worse. [ Cory wrote about this three years ago, and the scale has already doubled.] When there are plenty of ads, the maker of the best air fryer now has to bid on ads as well, if only to protect the sales they were entitled to in the first place. Businesses continue to buy the ads—not because they’re dumb, but because the system has created a situation with few options. Folklore implies that buying the ads somehow shifts how search responds in the long run, even after the ads stop running, but there’s little data to confirm this. Traditional ads increase demand. We see something that’s clearly an ad, it might spark desire, and sales go up. But zero-sum search ads aren’t like that–the total sales in the category stay the same, and merchants are merely competing for a share of a static pie. This study argues that an ecommerce site with search ads actually sells fewer items than the same site without ads. The highest-yielding ad my publisher has tested so far is the search “ Seth Godin The Knot “. It costs about a dollar per click. My publisher is paying Amazon a dollar to show you an ad for the book you went to buy in the first place. Who ends up paying the more than ",
+      "oneLineKo": "아마존 검색광고는 소비자·판매자 모두에게 손해인 구조적 '세금'",
+      "summaryKo": "세스 고딘은 아마존이 매주 약 10억 달러의 검색광고 수익을 올리며 이를 사실상 '합법적 착취'라 비판한다. 소비자가 이미 최적의 상품을 찾을 수 있음에도 광고는 검색 결과를 왜곡시켜 오히려 최선의 선택을 방해한다. 판매자들은 원래 얻을 매출을 지키기 위해 어쩔 수 없이 광고비를 지불하게 되며, 이는 제로섬 경쟁으로 전체 판매량을 늘리지 못하고 오히려 줄인다는 연구 결과도 소개한다. 저자의 출판사조차 자신의 책 제목을 검색하는 광고에 비용을 지불해야 하는 아이러니한 상황을 예로 든다.",
+      "tags": [
+        "amazon",
+        "advertising",
+        "ecommerce"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32618",
+      "title": "젊은 세대는 믿을 수 없을 정도로 AI CEO들을 싫어한다",
+      "url": "https://news.hada.io/topic?id=32618",
+      "commentsUrl": "https://news.hada.io/topic?id=32618",
+      "publishedAt": "2026-08-18T23:04:58+09:00",
+      "snippet": "미국 18~34세 성인 1,000명 이상 을 조사한 결과, 대다수는 조사 대상 AI 기업 경영자 9명 중 누구도 AI를 책임감 있게 다룰 것이라고 신뢰하지 않았음 팔란티어의 CEO Alex Karp 는 81%가 신뢰하지 않는다고 답해 최하위를 기록했으며, 가장 높은 ...",
+      "oneLineKo": "미국 청년층, AI 기업 CEO 대부분 못 믿어",
+      "summaryKo": "미국 18~34세 성인 1,000명 이상을 대상으로 한 조사에서 응답자 대다수가 AI 기업 경영자 9명 중 누구도 AI를 책임감 있게 다룰 것이라 신뢰하지 않는다고 답했다. 팔란티어 CEO Alex Karp는 81%가 불신한다고 응답해 최하위를 기록했다. 이는 AI 산업 리더십에 대한 젊은 세대의 광범위한 불신을 보여준다.",
+      "tags": [
+        "ai",
+        "survey",
+        "tech-ceo"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49332981",
+      "title": "Universal health coverage could save $1T and 114k lives a year: study",
+      "url": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49332981",
+      "publishedAt": "2026-08-17T15:49:57Z",
+      "score": 625,
+      "comments": 721,
+      "snippet": "Universal Health Coverage Could Save $1 Trillion and 114,000 Lives Every Year, Yale Study Projects | Yale School of Public Health Your browser is antiquated and no longer supported on this website. Please update your browser or switch to Chrome, Firefox or Safari. You can update your IE here: https://support.microsoft.com/en-us/help/17621/internet-explorer-downloads --> Skip to Main Content Prospective Students Alumni Donors Employers Academic Calendar myYSPH Members Support YSPH Yale School of Public Health MENU Apply Now Yale School of Public Health MENU Apply Now About Us YSPH Strategic Plan Introduction Create Pathways Educate Generations Foster Communities Shape Public Health Data Science Enhance Trust Achieve Operational Excellence Who We Are Dean Dean In The News Dean's Messages School Leadership Leadership Council Administrative Teams Community & Culture News and Media Resources Reading Lists The Yale and Slavery Research Project History Timeline Leaders Winslow Medal Coat of Arms & Mace Giving Stories of Change Data, Leadership, and Collaboration at the School of Public Health An abiding love for Yale turns into a lasting gift – in 15 minutes Endowed Professorship Created at Critical Time for Yale School of Public Health Brotherly encouragement spurs gift to support students Prestipino creates opportunities for YSPH students, now and later Alumna gives back to the school that “opened doors” in male-dominated field For Public Health, a Broad Mission and a Way to Amplify Impact Couple Endows Scholarship to Put Dreams in Reach for YSPH Students A Match Made at YSPH A HAPPY Meeting of Public Health and the Arts Alumni Donations Aid Record Number of YSPH Students YSPH’s Rapid Response Fund Needs Donations – Rapidly Podiatric Medicine and Orthopedics as Public Health Prevention Investing in Future Public Health Leaders Support for Veterans and Midcareer Students Donor Eases Burden for Policy Students A Personal Inspiration for Support of Cancer Research Reducing the Burden of Student Debt Learning About Global Health Through Global Travel A Meeting in Dubai, and a Donation to the School In Their Own Words Support Our Students Support Our Faculty and Research Support Our Mission Give Now Contact Careers at YSPH Faculty Open Positions Senior Lecturer in Data Science and Artificial Intelligence (AI) in Public Health Assistant Professor - Biostatistics Assistant/Associate Professor - Health Informatics Department of Biostatistics Postdoc and Postgraduate Open Positions Postdoctoral Associate Position - Data Science and Data Equity Postdoctoral Associate - Pharmacoepidemiology, Perinatal Epidemiology, Causal Inference Postdoctoral Associate - Health Policy and Management Postdoctoral Associate - Epidemiology of Microbial Diseases Hutchinson Postdoctoral Fellowships Postdoctoral Position - Yale CPC Training Program Postdoctoral Associate - LGBTQ Mental Health Postgraduate Associate - Social and Behavioral Sciences Postgraduate Associate - LGBTQ Ment",
+      "oneLineKo": "보편적 의료보장, 매년 1조달러·11.4만명 생명 절감 효과",
+      "summaryKo": "예일대 보건대학원 연구에 따르면 전 세계적으로 보편적 건강보장(UHC)을 도입할 경우 연간 약 1조 달러의 경제적 비용을 절감하고 11만 4천 명의 생명을 구할 수 있는 것으로 나타났다. 이 연구는 의료 접근성 확대가 질병 예방과 조기 치료를 통해 장기적인 의료비 지출을 줄이는 효과를 정량적으로 제시했다. 연구팀은 이를 근거로 각국 정부의 UHC 정책 도입을 촉구하고 있다.",
+      "tags": [
+        "public-health",
+        "healthcare-policy"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32617",
+      "title": "희귀 서적 배송을 추적하자 Amazon AI 훈련 시설에 도착",
+      "url": "https://news.hada.io/topic?id=32617",
+      "commentsUrl": "https://news.hada.io/topic?id=32617",
+      "publishedAt": "2026-08-18T23:01:00+09:00",
+      "snippet": "가격에 민감하지 않은 익명 고객의 대량 도서 주문 이 이어지면서, AI 훈련용 스캔을 위한 구매라는 의혹이 커져 왔음 404 Media는 Biblio에서 약 1,000권을 주문한 고객 을 확인하고자 판매자 동의를 받아 책 한 권에 Apple AirTag을 넣음 추적한 책은 라스...",
+      "oneLineKo": "AirTag 추적으로 밝혀진 아마존의 AI훈련용 희귀서적 대량구매",
+      "summaryKo": "404 Media는 온라인 서점 Biblio에서 약 1,000권의 희귀 도서를 익명으로 대량 구매하는 고객이 AI 훈련용 스캔 목적이 아닌지 의혹을 품고 조사에 나섰습니다. 판매자 동의를 얻어 책 한 권에 Apple AirTag을 넣어 배송 경로를 추적한 결과, 해당 책이 Amazon의 AI 훈련 시설로 도착한 것을 확인했습니다. 이는 대형 AI 기업들이 저작권 및 데이터 출처 문제를 피하기 위해 희귀 절판 도서를 스캔해 학습 데이터로 활용하고 있다는 의혹을 뒷받침하는 사례로 주목받고 있습니다.",
+      "tags": [
+        "ai-training",
+        "copyright",
+        "amazon"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49342719",
+      "title": "Linux 7.3 improves performance when running out of vRAM",
+      "url": "https://pixelcluster.dev/VRAM-Overcommit/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49342719",
+      "publishedAt": "2026-08-18T07:51:50Z",
+      "score": 485,
+      "comments": 244,
+      "snippet": "VRAM Management Part 2: Beyond the Limits of Physical VRAM | pixelcluster's GPU blog pixelcluster's GPU blog Home About VRAM Management Part 2: Beyond the Limits of Physical VRAM August 17, 2026 Earlier this year, I blogged about work I did to improve VRAM management for games. Now, after many months of floating around in mailing lists, the kernel patches are finally merged upstream and queued for Linux 7.3! Hooray! To celebrate, let’s look a bit deeper at one sentence I wrote in my previous post: [Games] should perform much more stable - as long as the game itself doesn’t use more VRAM than you actually have. So, one may ask: What if they do, in fact, use more VRAM than you actually have? Typical expectations for this seem to be that once this happens you’re pretty much screwed. Games will start crashing left and right, performance plummets to unplayable levels, a good gaming experience becomes impossible. But is that really just an unavoidable fact of life? What really makes running out of VRAM suck so hard? And, most importantly: How can we make it suck as little as possible? Setting expectations In theory, running out of VRAM should exclusively be a performance issue, not a stability one. Support for overcommitting VRAM has existed for as long as GPU drivers have: If the driver overcommits VRAM, you are generally allowed to request as much VRAM as you’d like, and you’ll get as much as the kernel driver decides it can fit into the physical memory that exists on GPU. On the performance side, the big-picture reason for bad performance when you run out of VRAM is fairly simple. As soon as the game requests more VRAM than is physically present, some of the game’s memory will have to be moved/evicted to CPU RAM instead. For the GPU, accessing CPU RAM is much slower than VRAM: Not only is CPU RAM slower than a dedicated GPU’s VRAM in general, all memory accesses also have to go over the PCI bus. The PCI bus adds latency and is typically also the limiting factor in bandwidth when fetching from CPU memory. Due to PCI speed limitations, there are some truly unavoidable performance constraints when overcommitting VRAM. Assuming the GPU is hooked up via a PCIe 4.0x16 connection, you get a little less than 32GiB/s of bandwidth. Each millisecond, that PCIe bus can transfer ~32.2MiB of data. For a minimum framerate of 30 frames per second (33.3ms per frame), the absolute maximum amount of data the GPU is able to access is ~1,075.5MiB, a tiny bit over 1GiB of data. In other words, if so much memory gets evicted that the GPU needs to fetch more than 1GiB from evicted memory in one single frame, it is simply impossible to still hit 30 FPS. Not all memory is equal At the same time, just reading a little bit of CPU memory on the GPU is not immediately a death sentence for performance. In fact, GPU drivers sometimes decide to let things like command buffer data and related allocations live in CPU RAM even when there’s plenty of VRAM available! Whenever the GPU ex",
+      "oneLineKo": "Linux 7.3, VRAM 초과 시 성능 저하 개선 패치 병합",
+      "summaryKo": "게임의 VRAM 관리 개선 작업을 이어온 개발자가 VRAM 부족 상황에서의 성능 저하를 완화하는 커널 패치를 Linux 7.3에 병합했다고 밝혔다. VRAM을 초과 요청하면 일부 메모리가 CPU RAM으로 옮겨지는데, PCIe 대역폭 한계로 인해 프레임당 전송 가능한 데이터양이 제한되어 성능 저하가 발생한다. 글에서는 모든 메모리가 동일하게 취급되지 않으며, 커맨드 버퍼 등 일부 데이터는 애초에 CPU RAM에 배치되는 경우도 있다는 점을 설명하며 VRAM 오버커밋 시 성능을 최적화하는 방법을 다룬다.",
+      "tags": [
+        "linux-kernel",
+        "gpu",
+        "vram"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32609",
+      "title": "이스라엘, AI 챗봇을 속이려는 가짜 싱크탱크 설립 정황",
+      "url": "https://news.hada.io/topic?id=32609",
+      "commentsUrl": "https://news.hada.io/topic?id=32609",
+      "publishedAt": "2026-08-18T15:38:58+09:00",
+      "snippet": "이스라엘 정부 광고기관을 대신해 Piro, Inc가 만든 Hanover Institute for Public Policy 는 실제 싱크탱크처럼 보이는 이스라엘·팔레스타인 보고서를 대량 게시해 AI 챗봇과 검색 이용자를 겨냥한 것으로 보임 보고서는 중립적인 문체와 통계·각주·목차·출처를 갖추고 챗봇 사용자...",
+      "oneLineKo": "이스라엘, AI 챗봇 조작용 가짜 싱크탱크 논란",
+      "summaryKo": "이스라엘 정부 광고기관을 대신해 Piro, Inc가 만든 'Hanover Institute for Public Policy'라는 조직이 실제 싱크탱크처럼 위장해 이스라엘·팔레스타인 관련 보고서를 대량 게시한 것으로 드러났다. 이 보고서들은 중립적인 문체와 통계, 각주, 목차, 출처 등을 갖춰 신뢰도를 높였으며, AI 챗봇과 검색 엔진 이용자들의 인식에 영향을 미치려는 목적으로 제작된 것으로 추정된다. 이는 AI 시스템이 학습하거나 참조하는 정보를 조작해 여론을 형성하려는 시도로 해석된다.",
+      "tags": [
+        "ai",
+        "llm",
+        "disinformation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49334209",
+      "title": "Cursor launches Origin, GitHub alternative",
+      "url": "https://cursor.com/changelog/origin-code-hosting",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49334209",
+      "publishedAt": "2026-08-17T17:02:44Z",
+      "score": 398,
+      "comments": 311,
+      "snippet": "Origin Code Hosting · Cursor Skip to content Cursor Models Grok Composer Evals Product ↓ Agents Cloud Mobile Automations CLI Marketplace ↗ Review Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Models → Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download Aug 17, 2026 · Changelog Changelog Origin Code Hosting Cursor can now host your code. Origin begins rolling out today in early beta on all paid plans. We're starting with the essentials, designed for agent scale: repos, pull requests, code browsing, and GitHub sync. Agent-native features ship soon. # Origin Repos The new Codebase tab is home for Origin repos. Click +New to create a new repo and name it. Once you do, a page shows you how to install the CLI, with commands for how to clone a repo or push a local project. Push, and your code is hosted on Origin. Name your codebase when you create your first repo. That name becomes part of every repo's URL: cursor.com/codebase/ acme-corp . # Bring your GitHub repos Your GitHub repos can sit alongside the ones Cursor hosts. Connect GitHub to Cursor, pick your org, and you'll see the repos you can sync. Select one and Cursor pulls it in. You choose what gets synced and can disconnect a repo at any time. Anyone with read or write access to a synced repo can view it in Cursor too. Synced repos update in real time. Browse, search, and pull from the copy in Origin. Pushes keep going to GitHub, which stays the source of truth for anything started there. Icons next to each repo name tell you which ones Cursor hosts and which came from GitHub. # Pull requests Every repo has pull requests. Open one to see the timeline, commits, checks, and files changed. Review the diff, leave comments, and merge. Pull requests on synced repos sync both ways: comment in Cursor and it posts to GitHub, react or reply on GitHub and it shows up in Cursor within seconds. Got a review assigned to you on GitHub? Review and merge it from Cursor. # Agents in every repo Your code, PRs, and agents are now in the same place. Ask Cursor questions about code you're browsing. It can answer, make changes, update PRs, or push a branch. # App extensions for Cursor repos We're building an app ecosystem so your whole stack works seamlessly with Origin. Integrations with Vercel, Depot, and Buildkite are already available, with more coming soon. Connect Vercel from a repo's Apps tab and every PR gets a preview deployment where you can test and make comments. Merge, and it ships to production. For CI, connect Depot or Buildkite. Both run your existing GitHub Actions workflows and Buildkite also runs its native pipelines. # Settings Every repo has settings. Check sync status for GitHub repos, manage who has access, and see which apps are connected. Origin is rolling out in early beta to all paid plan users starting today, except enterprise orgs whose admins opt out. Name your codebase and create your first repo. Learn more in ou",
+      "oneLineKo": "Cursor, 코드 호스팅 서비스 'Origin' 베타 출시",
+      "summaryKo": "Cursor가 GitHub 대안으로 코드 호스팅 서비스 Origin을 유료 플랜 사용자 대상 얼리 베타로 출시했다. 저장소 생성, 풀 리퀘스트, 코드 브라우징, GitHub 동기화 등 기본 기능을 제공하며 GitHub 저장소와 나란히 연동해 양방향 동기화도 지원한다. 저장소 내에서 바로 에이전트를 활용해 코드 질문, PR 업데이트, 브랜치 푸시가 가능하고 Vercel, Depot, Buildkite 등 앱 연동도 지원한다.",
+      "tags": [
+        "cursor",
+        "github",
+        "devops"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32602",
+      "title": "Show GN: 버그 재현을 위해 프로덕션 DB에 직접 연결한 경험 있으신가요? 그러지 않기 위해 만들었습니다.",
+      "url": "https://news.hada.io/topic?id=32602",
+      "commentsUrl": "https://news.hada.io/topic?id=32602",
+      "publishedAt": "2026-08-18T12:19:30+09:00",
+      "snippet": "프로덕션에서 버그가 발생했는데 로컬에서는 재현이 안되어서 어쩔수없이 프로덕션에 연결해본 경험 있으신가요? 위험한거 알지만 소규모 팀에서는 빠르게 해결하기 위해 이런 문제 흐린눈하고 넘어가는 경우가 많은데요, 이런 문제는 결국 프로덕션 데이터를 테스트하는데 사용할수있는 환경이 갖춰지지 않아서 그렇...",
+      "oneLineKo": "프로덕션 DB 직접 접속 없이 버그 재현하는 도구 소개",
+      "summaryKo": "프로덕션에서 발생한 버그를 로컬에서 재현하지 못해 위험을 감수하고 프로덕션 DB에 직접 접속하는 경우가 많다는 문제의식에서 출발한 프로젝트입니다. 소규모 팀에서 빠른 해결을 위해 이런 위험한 관행이 반복되는 것을 막기 위해, 프로덕션 데이터를 안전하게 테스트 환경에서 활용할 수 있는 도구를 만들었다고 소개합니다.",
+      "tags": [
+        "debugging",
+        "database",
+        "devtools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49334960",
+      "title": "Memory prices climb 500% in 12 months",
+      "url": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49334960",
+      "publishedAt": "2026-08-17T17:52:37Z",
+      "score": 391,
+      "comments": 301,
+      "snippet": "Memory prices climb 500% in 12 months, up to 10x the lowest ever tracked prices &mdash; 128GB of DDR5 now $3,399 | Tom's Hardware Skip to main content Join Tom&rsquo;s Hardware today Upgrade to Tom&rsquo;s Hardware Premium Explore GO PREMIUM Choose how you want to join Tom&rsquo;s Hardware MEMBER Get started with free access to reviews, badges and discussions. Become a member Premium member Unlock exclusive tools and insights for enthusiasts who want more. Bench Database Exclusive Features Roadmaps Deep Analysis Become a premium member Go beyond the headlines with Tom&rsquo;s Hardware Premium Access Bench, Roadmaps, deep analysis and other exclusive tools. Explore PREMIUM Bench Performance Database Dive into our proprietary testing data and compare hardware with detailed benchmarks. Deep-Dive Analysis Go beyond the headlines with expert reporting on the hardware industry. Hardware Roadmaps Track upcoming CPUs, GPUs and tech releases before they arrive. Exclusive Long-Form Features In-depth features, interviews and insider stories from the world of hardware. Uptime Premium Newsletter Expert insights and analysis delivered to your inbox. of Bench Performance Database Dive into our proprietary testing data and compare hardware with detailed benchmarks. 1 of 5 Deep-Dive Analysis Go beyond the headlines with expert reporting on the hardware industry. 2 of 5 Hardware Roadmaps Track upcoming CPUs, GPUs and tech releases before they arrive. 3 of 5 Exclusive Long-Form Features In-depth features, interviews and insider stories from the world of hardware. 4 of 5 Uptime Premium Newsletter Expert insights and analysis delivered to your inbox. 5 of 5 Explore PREMIUM Welcome to Tom's Hardware club ! Hi , Your membership journey starts here. Keep exploring and earning more as a member. MY ACCOUNT Earn your first badge Read 1 article to unlock your first badge. Keep earning badges Explore ways to get more involved as a member. Latest on CPUs News, reviews, and technical insights. Explore GPU Insights Reviews, benchmarks, and updates on current GPUs. Explore See what you&rsquo;ve unlocked. Explore your membership benefits. Explore Unlock Premium Limited-time Premium offer Unlock benchmarks, deep dives and roadmaps for &pound;25.00 /year. Explore premium Sign Out Premium Member Hi , Keep exploring with your premium access. Go TO Premium Hub Premium Tools Bench Database Exclusive Features Roadmaps Deep Analysis My Account Sign Out Open menu Tom's Hardware US Edition UK US Australia Canada RSS Sign in View Profile Sign out Search Search Tom's Hardware Best Picks CPU Buying Advice CPU Best Picks CPU Reviews GPU Buying Advice GPU Best Picks GPU Reviews Laptop Buying Advice Laptop Best Picks Laptop Reviews More Buying Advice Keyboard Best Picks Gaming Monitor Best Picks Gaming Headset Best Picks 3D Printer Best Picks Webcam Best Picks Mice Best Picks How We Test CPUs CPU Brands AMD Ryzen Intel Lunar Lake Nvidia Qualcomm Apple Benchmarking Platforms X86 ARM Panther Lake ",
+      "oneLineKo": "DDR5 메모리 가격 1년새 최대 10배 폭등",
+      "summaryKo": "DDR5 메모리 가격이 지난 12개월간 최대 500% 상승했으며, 역대 최저 가격 대비 최대 10배까지 치솟았다. 128GB DDR5 메모리 키트 가격은 현재 3,399달러에 달한다. 메모리 공급 부족과 수요 증가가 가격 급등의 원인으로 지목된다.",
+      "tags": [
+        "ddr5",
+        "memory",
+        "hardware-pricing"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32597",
+      "title": "채점을 AI한테 시켰더니 내 채점기의 버그를 잡았다",
+      "url": "https://news.hada.io/topic?id=32597",
+      "commentsUrl": "https://news.hada.io/topic?id=32597",
+      "publishedAt": "2026-08-18T09:13:19+09:00",
+      "snippet": "주문 읽는 AI를 테스트 29문제로 검증해 온 연재의 8편 코드 채점기는 만든 사람이 정한 규칙만 검사해서, 규칙 자체가 틀리면 못 잡음. 그래서 같은 답안 29장을 답안 전체를 읽는 AI 채점관(Sonnet)에게도 채점시켜 둘을 대조함 27장은 판정 일치, 갈린 2장은 뜯어보니 둘 다 AI가 맞고 코드",
+      "oneLineKo": "AI 채점관 활용해 기존 코드 채점기의 버그 발견",
+      "summaryKo": "주문 읽는 AI를 테스트하는 연재에서, 기존 코드 채점기는 정해진 규칙만 검사해 규칙 자체의 오류는 잡지 못하는 한계가 있었다. 이를 보완하기 위해 동일한 29개 답안을 Claude Sonnet 기반 AI 채점관에게도 채점시켜 결과를 대조했다. 27장은 판정이 일치했고, 나머지 2장의 불일치 사례를 분석한 결과 AI 채점관의 판단이 맞고 기존 코드 채점기에 버그가 있었음을 확인했다.",
+      "tags": [
+        "llm",
+        "testing",
+        "ai-evaluation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49344825",
+      "title": "Using the railway network as a flatbed scanner",
+      "url": "https://philo.gay/linecam/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49344825",
+      "publishedAt": "2026-08-18T12:43:54Z",
+      "score": 365,
+      "comments": 57,
+      "snippet": "Using the railway network as a flatbed scanner Philo's Website Using the railway network as a flatbed scanner August 17 th , 2026 &mdash; 4,600 words Over the past few months, I've been working on using an industrial linear scanning camera to take very wide photos out of trains and ferries. Getting it working has been quite the challenge, but I think the results speak for themselves. taken on the San Francisco to Oakland ferry in February 2026 (56,894x2,048 pixel grayscale image); scroll to zoom in and click and drag to move More pictures are on display in the gallery . I presented a talk on this project at EMFcamp 2026 , which you can watch below or read on for the same story in more detail: --> What am I even looking at? The process of capturing an image like the one of the container port above. The camera is pointed out of a moving vehicle and is constantly capturing a single vertical line kinda like these grayscale ones in the diagram, but a lot thinner. As the camera moves, what exactly it sees is changing. If I capture the lines from the camera quickly enough and stitch them together, I can produce a complete-looking image. It's a bit more complicated than that and getting the results looking good was rather tricky, but that's the main idea behind it. Background and Prior Art Back in the 1990s, digital camera sensor technology hadn't caught up to the size and effective resolution of medium and large format film, so digital scanning backs were developed. They capture a high-resolution image without needing a giant grid of pixels by moving a single line of pixels (or three lines for color) across the frame. In the intervening years, image sensors have gotten pretty big (there's even one that covers 4x5\" large format nowadays), but this approach is still cheaper to build for large formats than a giant sensor. I'd been thinking about building my own digital scanning back for my large format camera for a while, but I've never quite gotten around to it because building something to mount properly on my camera seemed too daunting. (Buying one could have been an option, but ones from the 1990s still go for thousands of dollars on ebay and require reconstructing a computing environment of a similar vintage to use.) Late last year, I was watching a video on Gigawipf's medium format scanning camera build and suddenly thought: \"what if the entire camera moved and the subject didn't?\" and decided to give it a shot. Loading film into my large format camera on top of a mountain in Vermont because I'm allergic to doing photography in a normal way. (The resulting pictures from that trip are here .) I found some previous photos in the same vein ( the Scannoramic project , John Hikerbiker's experiment , Daniel Lawrence Lu's reversal of his stationary camera , and Martin Liebscher's very interesting film shots ), but the results seemed like they could be improved upon. Surely taking the speed of motion into account and getting cleaner results wouldn't be too h",
+      "oneLineKo": "철도망을 대형 스캐너처럼 활용한 라인카메라 촬영기",
+      "summaryKo": "저자는 산업용 라인 스캐닝 카메라를 열차와 페리에 장착해 매우 폭이 넓은 파노라마 사진을 촬영하는 프로젝트를 진행했다. 이는 1990년대 디지털 스캐닝 백 기술에서 영감을 받았으며, 카메라가 이동하면서 한 줄씩 이미지를 캡처해 이어붙이는 방식이다. 기존의 유사한 시도들(Scannoramic 프로젝트 등)보다 이동 속도를 고려해 더 깨끗한 결과물을 얻는 것을 목표로 했으며, 결과물은 갤러리와 EMFcamp 2026 발표를 통해 공개됐다.",
+      "tags": [
+        "photography",
+        "image-processing",
+        "hardware"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49351324",
+      "title": "Beware Management Consultants",
+      "url": "https://about.iceland.co.uk/our-story/the-dark-ages/beware-management-consultants/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49351324",
+      "publishedAt": "2026-08-18T19:29:51Z",
+      "score": 347,
+      "comments": 57,
+      "snippet": "Beware management consultants – About Iceland Store Locator Find your nearest store Shop Online Start shopping today Our Story Read Our Story The Dark Ages Our Performance Our Conferences Our Commitments Our Owners Doing It Right Our Sustainability Strategy Supplier Information Responsible About Alcohol Modern Slavery Gender Pay Gap Report 2025 Corporate Governance Statement Walker Blog Media Centre Image Library Press Releases Contact Us Beware management consultants The Dark Ages The Dark Ages 2001 – 2005 Recovery Plan It just isn’t fair Beware management consultants The Chief Executive’s handbook Next Prev Next Both teams worked really hard to get in the best shape. On the day of the first race, both teams were ready to win. Prev Next The green team won by one mile! Prev Next The Red team was crushed in their defeat, but they were determined to win the race next year. So they established a panel of auditors to observe the situation and ascertain if there were any differences between the teams. Prev Next After several weeks of detailed intelligence gathering, the auditors could find only one difference; the Green team had 7 rowers and 1 captain… Prev Next … and the Red team had 7 captains and 1 rower! Prev Next Un-perplexed by the raw data, upper management showed unexpected wisdom: they hired a consulting company to analyze the data and suggest a solution that would enable the Red team to win next year. Prev Next After several months the consultants came to the conclusion that the ratio of captains to rowers was the problem in the Red team. Based on this analysis a solution was proposed: the structure of the Red team has to be changed! Prev Next Like sharks getting the scent of reorganization blood, upper management wasted no time in restructuring the Red team into 4 Captains, led by 2 Managers, reporting to 1 Senior Director with a dotted line to the rower. Besides that, in a blaze of unrestricted inspiration, they suggested they might be inclined to improve the rower’s working environment by a non-monetary reward and recognition scheme if there was improved performance by the rower. Prev Next The next year, the Green team won by 2 miles… Prev Next The Red team upper management immediately fired the rower based on his unsatisfactory performance. Prev Next A bonus was paid to the Captains, Directors, and Managers for the strong leadership and motivation they showed during the preparation phase and as an incentive for them to find a better rower for the next race. Prev Next The consulting company prepared a new analysis of the restructuring activity, which showed that the strategy was good, the motivation was great, the restructuring was executed correctly, but the tool used (which was not included in the original data) was sub-standard and had to be improved. Prev Next Currently the Red team management is having a new boat designed; and to demostrate fiscal and HR dexterity for stockholders they also outsourced the rowing to India. Prev About ",
+      "oneLineKo": "경영 컨설턴트 풍자하는 조정팀 우화",
+      "summaryKo": "영국 유통업체 Iceland가 자사 '암흑기' 회고 콘텐츠로 공개한 우화로, 그린팀과 레드팀의 조정 경주를 통해 관료적 경영 컨설팅과 리더십 구조의 비효율을 풍자한다. 레드팀은 7명의 캡틴과 1명의 노잡이 구조였고, 패배 후 컨설턴트를 고용해 구조를 4캡틴-2매니저-1디렉터 체제로 재편하지만 오히려 격차만 커진다. 결국 노잡이를 해고하고 경영진에 보너스를 지급한 뒤, 새로운 보트를 설계하고 노 젓는 일 자체를 인도로 아웃소싱하는 것으로 마무리된다.",
+      "tags": [
+        "management",
+        "satire",
+        "corporate-culture"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49345220",
+      "title": "Fixing a bricked Framework laptop",
+      "url": "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49345220",
+      "publishedAt": "2026-08-18T13:18:40Z",
+      "score": 321,
+      "comments": 211,
+      "snippet": "Fixing a bricked AMD 7040 series Framework 13” laptop with $20 tools | Quantum Quantum Projects DMOJ Referrals About Guanzhong Theme Automatic Light Dark Fixing a bricked AMD 7040 series Framework 13\" laptop with $20 tools Aug 16, 2026 Sysadmin , Electronics 38 minutes Quantum qt.ax/ffw In 2023, I was in need of a new laptop that should hopefully last me for a while. While looking at my options, I was seduced by Framework’s promise of a repairable and upgradable laptop that supports Linux out-of-the-box without weird driver issues, as well as the option to assemble the laptop myself 1 and buy the RAM and SSD I want separately 2 , back when they were cheap. For three years, the laptop has served me well, until Framework suggested via newsletter to install the latest BIOS 3 update, version 3.20, with a bunch of security fixes. Unfortunately, the system hung and displayed a corrupt image on the screen, signifying a failed BIOS flash. Naturally, I reached out to Framework support, who told me to unplug the laptop, let the battery drain, and power it back on again afterwards, hoping the laptop would recover by itself. Unfortunately, it never did, and after giving Framework a bunch of information, they informed me that since my 1-year warranty has expired, I have no option but to purchase a new Framework motherboard, which will cost at least CA$500. A quick search revealed that many people had issues with BIOS flashes with this specific BIOS update on the Framework forums , even those in warranty, and on a different thread , people have been having similar issues with BIOS flashing in general on this model since at least March of 2025. To my knowledge, Framework has never acknowledged the issue or offered any indication that the problem was fixed, so buying a new motherboard would simply be playing Russian roulette if I ever wanted to update the BIOS again, on top of spending CA$500+ through no fault of my own. Thus, I opted against buying a new motherboard and embarked upon a journey to flash the BIOS myself. I documented this journey in excruciating detail so that hopefully, by following along, you’ll understand exactly how you might fix similar problems. Table of Contents Why Framework? The fatal BIOS flash Reaching out to support Troubleshooting on my own The BIOS chip The flash programmer Purchasing the tools Response from Framework The data breach Extracting the BIOS image Delivery of the tools Connecting the chip Executing the flash Consequences of flashing Conclusion Why Framework? In 2023, my basic requirement for a laptop was as follows: Compatible with Linux; Small and light enough for travel; A standard US keyboard layout, not that horrible Canadian Multilingual Standard layout that’s somehow very common in Canada 4 ; A modern CPU, but not necessarily super high core count, as I don’t intend to do intensive compiling or gaming while travelling; and Socketed RAM and SSD, so I can upgrade those down the line, or buy from a third party if it m",
+      "oneLineKo": "BIOS 업데이트로 벽돌된 프레임워크 노트북, 20달러 도구로 직접 복구",
+      "summaryKo": "저자는 Framework 13 AMD 7040 노트북의 공식 BIOS 3.20 업데이트가 실패하며 부팅 불가 상태(벽돌)에 빠졌다. Framework 지원팀은 워런티 만료를 이유로 500캐나다달러 이상의 메인보드 교체만을 제안했으나, 포럼에는 같은 BIOS 업데이트로 인한 유사 사례가 다수 보고되어 있었다. 저자는 20달러짜리 SPI 플래시 프로그래머를 구매해 BIOS 칩에 직접 연결, 정상 이미지를 추출·플래싱하여 스스로 노트북을 복구하는 과정을 상세히 기록했다.",
+      "tags": [
+        "framework-laptop",
+        "bios",
+        "hardware-repair"
+      ]
+    }
+  ]
+}
