@@ -1,0 +1,246 @@
+{
+  "date": "2026-08-20",
+  "generatedAt": "2026-08-19T22:16:50.703Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32655",
+      "title": "나는 더 이상 인터넷을 즐기지 않는다",
+      "url": "https://news.hada.io/topic?id=32655",
+      "commentsUrl": "https://news.hada.io/topic?id=32655",
+      "publishedAt": "2026-08-19T20:42:26+09:00",
+      "snippet": "인터넷에서 친구와 일자리를 얻고 신념을 다듬어 왔지만, 수익화와 LLM 생성 콘텐츠 가 사려 깊은 지식 공유를 저품질 관심 끌기 콘텐츠로 밀어내면서 즐거움이 사라짐 Disco Elysium 에서 정보를 훼손하며 세계를 잠식하는 pale 처럼, AI 생성 콘텐츠가 인터...",
+      "oneLineKo": "AI 콘텐츠 범람에 인터넷 즐거움을 잃은 이야기",
+      "summaryKo": "저자는 인터넷에서 친구와 일자리를 얻고 신념을 다듬어왔지만, 수익화와 LLM이 생성한 콘텐츠가 사려 깊은 지식 공유를 저품질 관심 끌기용 콘텐츠로 밀어내면서 즐거움이 사라졌다고 말한다. 이를 게임 Disco Elysium에서 세계를 잠식하는 'pale'에 비유하며, AI 생성 콘텐츠가 인터넷의 정보와 신뢰를 훼손하고 있다고 지적한다. 결국 저자는 더 이상 예전처럼 인터넷을 즐기지 못하게 된 개인적 경험을 회고한다.",
+      "tags": [
+        "llm",
+        "ai-generated-content",
+        "internet-culture"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49363665",
+      "title": "How Kubernetes Probes Work",
+      "url": "https://ngrok.com/blog/probes",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49363665",
+      "publishedAt": "2026-08-19T16:25:37Z",
+      "score": 94,
+      "comments": 21,
+      "snippet": "How Kubernetes probes work | ngrok blog Skip to main content ngrok home / ngrok blog home blog Products Problems We Solve Resources Docs Pricing Log in Sign up Products Gateway AI Gateway Share localhost Build & test Share a local app Test webhooks locally Connect local MCP servers Play Host a Minecraft server Deploy & run Route traffic to self-hosted models Run preview and CI workloads Deliver & connect Deliver and secure APIs Reach customer networks Receive webhooks on-prem Connect privately across networks Connect device fleets Open SSH and RDP sessions Developers Download Docs Quickstart Videos API Integrations GitHub Status Resources Support Security Case studies Careers Contact Blog Blog home How Kubernetes probes work Compression is prediction The new ngrok.ai Search… Control ⌃ K Newsletter RSS Aug 19, 2026 Latest Post How Kubernetes probes work Sam Rose • 4,197 words • Topics: Kubernetes This post requires JavaScript The demos in this article need JavaScript to function. I know this isn’t what you want to hear, and I’m sorry. If you don’t want to read on because of that, no hard feelings. The demos are pretty cool, though. I’m going to show you, really show you , how probes work in Kubernetes. How they can make your application more resilient, and how they can help you prevent avoidable mistakes. Like restart loops that take hours to recover from, and dropping requests during rollouts. Every interactive demo in this post uses webernetes , my partial port of Kubernetes to TypeScript. It contains more than 100,000 lines of ported Kubernetes Go code to run a simulated cluster right here in your browser . I verified the behaviour of these demos against k3s and managed to find a bug in Kubernetes! More on that later. What you will learn The 3 types of probe and what they’re for. How to configure and combine them. How common misconfigurations fail. How probes affect Deployment speed. A pod without probes I want to run a pod with a single container. Here’s its manifest, pod-a.yaml : pod-a.yaml 1 apiVersion : \"v1\" 2 kind : \"Pod\" 3 metadata : ⋯ 4 name : \"pod-a\" 5 spec : ⋯ 6 containers : ⋯ 7 - name : \"app\" ⋯ 8 image : \"my-app:latest\" This image, my-app:latest , spends a few seconds initialising before listening on port 8080. You will see this below when you click restart to send the container a signal, causing it to crash and get started back up by Kubernetes. You can pause or reset any demo at any time. node-1 0 / 2 Restart container Not yet complete. Restart container After the first crash, the container restarts straight away. After the second, Kubernetes imposes a CrashLoopBackOff on it before starting it again. By default this delay is 10 seconds, doubling with each crash up to a maximum wait of 5 minutes. I shortened it to 3 seconds for this demo. In both cases, Kubernetes considers the container Ready as soon as it starts, even though we know it’s not. It’s still doing startup work and not listening on port 8080. Next I’ll add pod-b , which ",
+      "oneLineKo": "Kubernetes 프로브 동작 원리 인터랙티브 해설",
+      "summaryKo": "ngrok 블로그가 Kubernetes의 startup, readiness, liveness 프로브가 실제로 어떻게 동작하는지 브라우저에서 실행되는 webernetes(TypeScript로 포팅된 10만 줄 이상의 Kubernetes 코드) 데모로 설명한다. 프로브가 없을 경우 컨테이너가 아직 초기화 중이어도 Ready로 간주되는 문제, CrashLoopBackOff의 지연 증가 방식 등을 시각적으로 보여준다. 세 가지 프로브 타입의 설정법, 잘못된 설정이 실패하는 방식, 프로브가 배포 속도에 미치는 영향을 다루며, k3s와 비교 검증 중 실제 Kubernetes의 버그도 발견했다고 언급한다.",
+      "tags": [
+        "kubernetes",
+        "probes",
+        "devops"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32662",
+      "title": "AI 시대, 개발자는 면사무소가 아니라 목욕탕을 만들어야 한다",
+      "url": "https://news.hada.io/topic?id=32662",
+      "commentsUrl": "https://news.hada.io/topic?id=32662",
+      "publishedAt": "2026-08-19T21:49:43+09:00",
+      "snippet": "다큐멘터리 〈말하는 건축가〉에서 건축가 정기용은 면사무소를 설계하기 전 주민들에게 무엇이 필요한지 묻는다. 주민들은 새 면사무소를 짓지 말라고 답하다가, 꼭 짓겠다면 목욕탕을 만들어 달라고 한다. 집에서는 물이 졸졸 나와 제대로 씻기 어렵고, 목욕을 하려면 1년에 몇 번 봉고차를 빌려 대전까지 가...",
+      "oneLineKo": "AI 시대 개발자는 사용자 진짜 니즈를 파악해야",
+      "summaryKo": "건축가 정기용이 면사무소 설계 전 주민들에게 필요를 물었을 때, 정작 필요한 건 면사무소가 아니라 목욕탕이었다는 일화를 소개한다. 이를 통해 겉으로 드러난 요구사항이 아니라 사용자의 진짜 문제와 니즈를 파악하는 것이 중요하다는 메시지를 전달한다. AI 시대에 개발자도 표면적인 기능 구현이 아니라 사용자의 본질적인 필요를 이해하고 해결하는 역할을 해야 한다는 주장을 담고 있다.",
+      "tags": [
+        "ai",
+        "ux",
+        "software-development"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49362728",
+      "title": "Mathematics in the age of AI",
+      "url": "https://arxiv.org/abs/2608.16753",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49362728",
+      "publishedAt": "2026-08-19T15:14:25Z",
+      "score": 92,
+      "comments": 74,
+      "snippet": "[2608.16753] Mathematics in the age of AI Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search &middot; Advanced search --> Mathematics > History and Overview arXiv:2608.16753 (math) [Submitted on 17 Aug 2026] Title: Mathematics in the age of AI Authors: Terence Tao View a PDF of the paper titled Mathematics in the age of AI, by Terence Tao View PDF HTML (experimental) Abstract: An essay, based on a public lecture delivered at the 2026 International Congress of Mathematicians, on how the mathematical community might respond to the arrival of artificial intelligence tools that are capable of performing research-level mathematical tasks. Rather than debating the capabilities of such tools, we condition on the hypothesis that these capabilities will arrive, and examine instead a question that is orthogonal to it: what the goals and values of mathematical research actually are. The problem-solving component of mathematics is used as a case study. Comments: 12 pages, four figures. Submitted to the Proceedings of the ICM 2026 Subjects: History and Overview (math.HO) MSC classes: Primary 00A30, Secondary 01A80, 68T01, 68V20, 68V35 Cite as: arXiv:2608.16753 [math.HO] (or arXiv:2608.16753v1 [math.HO] for this version) https://doi.org/10.48550/arXiv.2608.16753 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Terence C. Tao [ view email ] [v1] Mon, 17 Aug 2026 15:59:47 UTC (3,396 KB) Full-text links: Access Paper: View a PDF of the paper titled Mathematics in the age of AI, by Terence Tao View PDF HTML (experimental) TeX Source view license Current browse context: math.HO < prev | next > new | recent | 2026-08 Change to browse by: math References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs a",
+      "oneLineKo": "테렌스 타오, AI 시대 수학 연구의 목표와 가치 논함",
+      "summaryKo": "필즈상 수상자 테렌스 타오가 2026 국제수학자대회(ICM) 강연을 바탕으로 작성한 에세이로, AI가 연구 수준의 수학 문제를 풀 수 있게 될 미래에 수학계가 어떻게 대응해야 할지를 다룬다. AI의 현재 능력을 논쟁하기보다는 그런 능력이 도래할 것이라는 전제 하에, 수학 연구의 목표와 가치가 실제로 무엇인지 되짚는다. 문제 해결이라는 수학의 한 요소를 사례 연구로 삼아 논의를 전개한다.",
+      "tags": [
+        "ai",
+        "mathematics",
+        "terence-tao"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32661",
+      "title": "소프트웨어 팀의 AI 사용 패턴",
+      "url": "https://news.hada.io/topic?id=32661",
+      "commentsUrl": "https://news.hada.io/topic?id=32661",
+      "publishedAt": "2026-08-19T21:31:31+09:00",
+      "snippet": "Linear 유료 고객의 제품 개발 흐름을 분석한 결과, 2026년 상반기 AI 기능 사용률 이 모든 직군에서 2배 이상 증가했으며 기업 규모와 관계없이 확산됨 AI는 기존 업무를 줄이기보다 그 위에 더해짐. 이슈 작성·분류·댓글 시간은 대체로 늘고 기획 시간은 유지된 가운데 AI ...",
+      "oneLineKo": "소프트웨어 팀의 AI 기능 사용률 2배 이상 증가",
+      "summaryKo": "Linear의 유료 고객 데이터를 분석한 결과, 2026년 상반기 AI 기능 사용률이 모든 직군과 기업 규모에서 2배 이상 증가한 것으로 나타났다. AI는 기존 업무를 대체하기보다 그 위에 추가되는 방식으로 활용되고 있으며, 이슈 작성·분류·댓글 작성 시간은 늘어난 반면 기획 시간은 유지되는 패턴을 보였다. 이는 AI 도입이 업무 효율화보다는 업무량 증가로 이어지고 있음을 시사한다.",
+      "tags": [
+        "ai",
+        "productivity",
+        "linear"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49360015",
+      "title": "A joke domain purchase turned in geopolitical warfare",
+      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49360015",
+      "publishedAt": "2026-08-19T11:21:50Z",
+      "score": 669,
+      "comments": 94,
+      "snippet": "How a joke domain purchase turned into geopolitical warfare How a joke domain purchase turned into geopolitical warfare Aug 19, 2026 Strap in, this story involves a cheese fortune teller, the department of war, and nearly every other government department in between. In 2017 (I think?) I was introduced to weather balloon hunting by Mark VK5QI. At the time the Australian balloon chasing community was small. Only Melbourne and Adelaide radiosondes (the transmitter on weather balloons) were being tracked on a website called Habhub - high altitude ballooning hub. This site was designed for amateur balloons and not meteorological weather balloons. Over time more and more radiosondes were tracked on Habhub and eventually Habhub admins introduced a default filter that removed weather balloons by default. A query parameter could be added to the URL to remove the filter and on 12th of May 2018 sondehub.org registered with a single purpose - a URL redirect to Habhub with a radiosonde specific filter. To be clear - this was more of a joke than a decision to run a radiosonde tracking service. You&rsquo;d go to sondehub.org and it would redirect you to habhub.org. That was it. However Habhub was never designed for so many unique balloons each day. By July we decided to start proxying radiosonde ingestion data through SondeHub. This allowed us to capture more data as well (no longer rate limiting our selves). This went to a seperate OpenSearch cluster, however at this stage we didn&rsquo;t use or expose this data. I was using this more as a toy - to play around with different Amazon Web Services (AWS) services and analytics platforms. By 2019 the Habhub servers were really struggling - aprs.fi as well. We realised that we needed to run our own service and our initial plan was that we would build new APIs, and eventually new frontend. We then started getting information requests from government agencies regarding radiosonde data. For example we received a request regarding an insurance claim about a radiosondes hitting a horse, causing it to bolt through a fence. One of the reasons for this is because unlike official software at the time, our system tracked the radiosondes all the way to the ground. Also in 2019 we detected a drop in radiosonde launches. This lined up with the GPS rollover date - we thought our software was broken however it turned out to be issues with Vaisala&rsquo;s equipment which prevented launches from occuring. Funnily enough our software handled the rollover ok. In 2020/2021 we ended up doing was building backwards compatible APIs for the Habhub frontend and started testing the Habhub frontend pointed at our backend. It mostly worked. We started receiving all the data rather than just partial data and providing open access to our data via S3. We even started running our own predictor - which is used by my entities today. With our own predictor running Mark developed a system we call reverse predictions. This is where we take data from a",
+      "oneLineKo": "장난 도메인 SondeHub, 기상 풍선 추적 서비스로 성장",
+      "summaryKo": "2018년 장난삼아 등록한 sondehub.org 도메인이 아마추어 기상 풍선 추적 커뮤니티의 핵심 인프라로 발전한 과정을 다룬 글이다. 기존 Habhub 사이트의 한계를 보완하기 위해 데이터 수집과 자체 API, 예측 시스템을 구축했고, 이후 정부 기관들의 정보 요청까지 받게 되었다. 결국 이 소규모 취미 프로젝트는 지정학적 이슈에까지 얽히는 예상치 못한 전개를 맞이한다.",
+      "tags": [
+        "radiosonde",
+        "opensource",
+        "aws"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32656",
+      "title": "Cerebras CS-4, 랙 규모 AI 추론 시스템",
+      "url": "https://news.hada.io/topic?id=32656",
+      "commentsUrl": "https://news.hada.io/topic?id=32656",
+      "publishedAt": "2026-08-19T21:21:47+09:00",
+      "snippet": "Cerebras가 3개의 WSE-3 Turbo를 탑재한 랙 규모 AI 시스템 CS-4 를 공개했으며, 프로덕션 GPU 시스템보다 추론 속도를 최대 30배 높임 WSE-Turbo를 기반으로 CS-3 대비 와트당 처리량을 최대 10배 높여 처리량과 상호작용성을 함께 확보함 ...",
+      "oneLineKo": "Cerebras, GPU보다 30배 빠른 AI 추론 시스템 CS-4 공개",
+      "summaryKo": "Cerebras가 3개의 WSE-3 Turbo 칩을 탑재한 랙 규모 AI 추론 시스템 CS-4를 공개했다. 이 시스템은 프로덕션 GPU 시스템 대비 최대 30배 빠른 추론 속도를 제공한다. WSE-Turbo 아키텍처를 기반으로 이전 세대 CS-3 대비 와트당 처리량을 최대 10배 향상시켜 처리량과 상호작용성을 동시에 확보했다.",
+      "tags": [
+        "cerebras",
+        "ai-inference",
+        "hardware"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49360242",
+      "title": "Devices with GrapheneOS support should be available in 2027",
+      "url": "https://grapheneos.social/@GrapheneOS/117078064184215730",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49360242",
+      "publishedAt": "2026-08-19T11:46:58Z",
+      "score": 560,
+      "comments": 352,
+      "snippet": "GrapheneOS: \"@Revan_9766@mastodon.social The initial devices w…\" - GrapheneOS Mastodon To use the Mastodon web application, please enable JavaScript. Alternatively, try one of the native apps for Mastodon for your platform.",
+      "oneLineKo": "GrapheneOS 지원 기기, 2027년경 출시 예정",
+      "summaryKo": "GrapheneOS 공식 마스토돈 계정이 새로운 초기 지원 기기들이 2027년경에나 출시될 것이라고 답변했다. 이는 GrapheneOS 프로젝트가 Pixel 외의 새로운 하드웨어 파트너십을 준비 중임을 시사하는 내용이다. 구체적인 기기명이나 사양은 본문에 언급되지 않았다.",
+      "tags": [
+        "grapheneos",
+        "android",
+        "privacy"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32631",
+      "title": "Anthropic, 주간 Claude Code 한도 50% 상향을 8월 31일까지 연장",
+      "url": "https://news.hada.io/topic?id=32631",
+      "commentsUrl": "https://news.hada.io/topic?id=32631",
+      "publishedAt": "2026-08-19T09:15:02+09:00",
+      "snippet": "클로드 코드의 Weekly Limit 50% 상향 조치를 기존 8월 19일 종료 예정에서 8월 31일까지 추가 연장 , 7월 이후 이어진 한시적 상향 조치의 재연장 영구적인 요금제 반영 을 희망하지만, 모델 수요 급증 으로 향후 몇 주간",
+      "oneLineKo": "Claude Code 주간 한도 50% 상향, 8월 31일까지 연장",
+      "summaryKo": "Anthropic이 Claude Code의 주간 사용 한도 50% 상향 조치를 기존 8월 19일 종료 예정에서 8월 31일까지 추가 연장했다. 이는 7월부터 이어진 한시적 조치의 재연장으로, 모델 수요 급증이 주된 배경이다. Anthropic은 이를 영구적인 요금제에 반영하길 희망하지만, 당분간은 한시적 조치로 유지될 전망이다.",
+      "tags": [
+        "claude",
+        "anthropic",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49361395",
+      "title": "Moderna reports first positive Phase 3 for mRNA neoantigen therapy in melanoma",
+      "url": "https://twitter.com/NoubarAfeyan/status/2090050162441752787",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49361395",
+      "publishedAt": "2026-08-19T13:33:35Z",
+      "score": 487,
+      "comments": 224,
+      "oneLineKo": "모더나, 흑색종 mRNA 신생항원 치료제 3상 첫 긍정적 결과",
+      "summaryKo": "모더나가 흑색종 치료를 위한 mRNA 기반 신생항원(neoantigen) 치료제의 3상 임상시험에서 첫 긍정적 결과를 발표했다는 소식이 트위터를 통해 전해졌다. 이는 개인 맞춤형 mRNA 암 치료제 개발에서 중요한 이정표로 언급된다. 구체적인 임상 데이터나 세부 내용은 제공되지 않았다.",
+      "tags": [
+        "mrna",
+        "biotech",
+        "cancer-therapy"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32674",
+      "title": "OpenRouter가 Stripe에 합류함",
+      "url": "https://news.hada.io/topic?id=32674",
+      "commentsUrl": "https://news.hada.io/topic?id=32674",
+      "publishedAt": "2026-08-20T06:34:45+09:00",
+      "snippet": "AI 모델 마켓플레이스·게이트웨이 OpenRouter가 Stripe에 합류 하지만, 사명·이름·제품·로드맵과 기존 연동 방식은 그대로 유지함 400개 이상의 AI 모델에서 하루 10조 개 이상의 토큰 을 처리하며, 1,000만 명 이상의 개발자·기업을 기반으로 추론량이 매년 최소 1...",
+      "oneLineKo": "OpenRouter, Stripe에 인수되며 독립 운영 유지",
+      "summaryKo": "AI 모델 마켓플레이스이자 게이트웨이인 OpenRouter가 Stripe에 합류했습니다. 다만 사명, 제품, 로드맵, 기존 연동 방식은 그대로 유지됩니다. OpenRouter는 400개 이상의 AI 모델을 통해 하루 10조 개 이상의 토큰을 처리하며, 1,000만 명 이상의 개발자와 기업을 기반으로 빠르게 성장해왔습니다.",
+      "tags": [
+        "openrouter",
+        "stripe",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49364559",
+      "title": "OpenRouter is joining Stripe",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49364559",
+      "publishedAt": "2026-08-19T17:32:38Z",
+      "score": 465,
+      "comments": 259,
+      "snippet": "OpenRouter is Joining Stripe — OpenRouter Blog Models Fusion Chat Rankings Apps Enterprise Pricing Docs Models Fusion Chat Rankings Apps Enterprise Pricing Docs Light mode Blog / Announcements / OpenRouter is Joining Stripe On this page What this means for our users Our mission Why Stripe? What’s next OpenRouter is Joining Stripe OpenRouter &middot; 8/19/2026 What this means for our users What this means for our users Our mission Why Stripe? What’s next Today, we are excited to announce that we are joining forces with Stripe , to power the next wave of GDP growth globally. OpenRouter is the first and largest model marketplace and gateway. We are the best way to discover and use any AI model, with one interface, broad provider choice, model-agnostic observability, cost management, and routing that improves price, performance, and uptime. We now process 10+ trillion tokens per day from 400+ AI models for a community of over 10 million developers and companies. Since our founding, we have seen at least 10x growth in inference volume every year. We want to explain why we made the decision to join forces with Stripe and what it means for the millions of developers and companies that build on us. What this means for our users OpenRouter will continue to operate as it is: same mission, same name, same product, same roadmap. If you build on OpenRouter today, nothing about your integration changes. OpenRouter exists to give users every model on equal footing, provide open signals about how they’re used in the market, help developers orchestrate them together, and make them observable and manageable at scale. That commitment is core to how we operate, and it doesn’t bend to any model, any provider, or any parent company. It also extends to a growing ecosystem of inference-adjacent services, including AI-native web search, context management, and more to come. Routing decisions will remain driven by one thing: what’s best for you, the user. Our mission We started OpenRouter in early 2023 on a simple belief: intelligence will be multi-model. No single model will win every task, and the frontier will move rapidly. That freedom is critical infrastructure for the industry. AI is too important for its future to be decided by whichever single model gets embedded first. AI has become the single largest driver of economic growth in the US, and inference is quickly becoming the largest line item for every company. We envision a healthy AI ecosystem where many models thrive, where AI neurodiversity is a strength, where a lab or an inference provider with a breakthrough can reach millions of developers, and where no single model becomes the default by inertia. Our mission is to realize this future, and it’s more important than anything else. The opportunity with Stripe allows us to accelerate it together. Why Stripe? There are few companies on earth we would have considered selling to; our mission, our neutrality, and our lead in the market make the story for independ",
+      "oneLineKo": "AI 모델 마켓플레이스 OpenRouter, Stripe에 합류",
+      "summaryKo": "AI 모델 마켓플레이스이자 게이트웨이인 OpenRouter가 Stripe에 합류한다고 발표했다. OpenRouter는 하루 10조 개 이상의 토큰을 400개 이상의 AI 모델을 통해 처리하며 1000만 명이 넘는 개발자 커뮤니티를 보유하고 있다. 회사 측은 기존 제품, 이름, 로드맵, 미션이 그대로 유지되며 라우팅 결정은 여전히 사용자 이익을 최우선으로 한다고 강조했다. 다중 모델 생태계의 중립성을 지키겠다는 창업 철학도 계속 이어간다는 방침이다.",
+      "tags": [
+        "openrouter",
+        "stripe",
+        "ai-infrastructure"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49362934",
+      "title": "Remote workers report the highest well-being in study of 7,700 employees",
+      "url": "https://www.colorado.edu/today/2026/08/12/remote-workers-report-highest-well-being-study-7700-employees",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49362934",
+      "publishedAt": "2026-08-19T15:32:08Z",
+      "score": 418,
+      "comments": 195,
+      "snippet": "Remote workers report the highest well-being in study of 7,700 employees | CU Boulder Today | University of Colorado Boulder Skip to main content CU Boulder Today Home News Headlines Campus Community Events & Exhibits Translate English Spanish Chinese French German Korean Lao Nepali Japanese Tibetan Search Enter the terms you wish to search for. This site All of Colorado.edu Other ways to search: Events Calendar Campus Map CU Boulder Today Home News Headlines Campus Community Events & Exhibits Find a Story Submit a Story For Media Remote workers report the highest well-being in study of 7,700 employees Published:8/12/2026 8/12/2026 • By Katy Marquardt Hill For years, many employers have worried that work-from-home arrangements leave employees isolated, disconnected from coworkers and more likely to leave their jobs. But according to a new study, remote workers are doing better than many employers realize. Researchers analyzed survey data from 7,704 employees at a large healthcare organization. One pattern stood out: Employees who worked fully remotely reported the highest levels of well-being, while those who worked entirely onsite reported the lowest. The study also found little evidence that remote workers felt less connected to colleagues or workplace culture. \"This suggests you let people work remotely if they want to work remotely,\" said Stefanie Johnson , professor of organizational leadership and information analytics at the Leeds School of Business and co-author of the study, published in July 2026 in the journal Frontiers in Psychology . \"Taking away people's choice of how they work is probably not going to help them in terms of their well-being.\" Stefanie Johnson As companies continue to debate remote work, many leaders worry that employees need to be in the office to stay connected, work well together and remain committed to their organization. Johnson said the research doesn't always support those concerns. \"The data from our study and others suggest remote and hybrid work result in better outcomes than return-to-office mandates,\" she said. \"Leaders are not making decisions based on data. I think they are just returning to what they are used to.\" Rethinking remote work Johnson, who co-authored the study with Alyssa Lezcano, Stephanie Zajac and Courtney Holladay of the MD Anderson Leadership Institute in Houston, said the results surprised her. She thought employees who split their time between home and the office might have the best of both worlds. \"I actually thought you would be happiest if you were part time out of the office,\" she said. \"Then every once in a while you get to see people, get that human connection.\" Instead, the data pointed in a different direction. Among employees in the study, well-being was highest for fully remote workers, followed by hybrid employees and then onsite workers. The findings also cast doubt on one of the main arguments for bringing employees back to the office: that people need to be together in p",
+      "oneLineKo": "완전 재택근무자, 웰빙 수준 가장 높아",
+      "summaryKo": "7,704명의 헬스케어 기업 직원을 대상으로 한 연구에서 완전 재택근무자가 가장 높은 웰빙 수준을 보였고, 사무실 근무자가 가장 낮았다. 재택근무자가 동료나 조직 문화와 덜 연결되어 있다는 증거는 거의 발견되지 않았다. 연구진은 하이브리드 근무가 재택과 사무실의 장점을 결합해 최고의 결과를 낼 것으로 예상했지만, 실제로는 완전 재택, 하이브리드, 사무실 근무 순으로 웰빙이 높게 나타났다. 연구 저자는 리더들이 데이터가 아닌 익숙함에 근거해 사무실 복귀 정책을 결정하고 있다고 지적했다.",
+      "tags": [
+        "remote-work",
+        "workplace",
+        "well-being"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49360545",
+      "title": "Geolocating a random island using geometry and CUDA programming",
+      "url": "https://yassa9.github.io/osint/gralhix-004/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49360545",
+      "publishedAt": "2026-08-19T12:19:52Z",
+      "score": 374,
+      "comments": 67,
+      "snippet": "gralhix #004 yassa9 home projects OSINT writeups contact me gralhix004 | Geolocating Random Islet Image Using Geometry & CUDA GPU Programming 16-08-2026 NOTE: this is a genuine human work, didnt use LLM generation. I'm writing this page as a writeup for this challenge gralhix 004 made by Sofia Santos | Gralhix . You can view, clone and locally try all code files and the final report with all instructions here at github. Task briefing: This is a photo of a resort located on an island. a) What is the name of the resort? b) What are the coordinates of the island? c) In which cardinal direction was the camera facing when the photo was taken? In my opinion, solving this challenge with google lens is wasting a fun opportunity, so decided to solve it with math and programming. a] Metadata Of course, first thing u look for is the metadata . Ran that on my linux void : > exiftool main . png File Type : WEBP ( lossless ) MIME Type : image / webp Image Width : 736 Image Height : 515 As expected, nothing useful here. No EXIF, no GPS, no camera make or model. b] Building the fingerprint U can see from the img, there are 3 landmasses: P0: the islet itself, P1: the right island, P2: the left front island ( having mountain peak ) I couldnt make a correct perspective model of birdview of this image, as clearly the image is taken by a drone and cant estimate the elevation at all (and not found in the metadata). So I had to estimate that by intuition, I just want the relative distances between the 3 islands and angles of that triangle. I built a small click GUI 01_triangle_gui.py that records pixel coordinates for each point in order and computes the triangle's geometry. Since clicking exact centers by eye isn't perfectly precise, I added a ±20% tolerance band around both values when searching. c] SEARCH With the fingerprint locked in, the next step is checking every real landmass on Earth against it ! I used OpenStreetMap's split land polygon set as the dataset land-polygons-split-4326 , full global coastline vectors in WGS84 which has size of 882 MB . I created heuristic filters (all by just intuition and non tangible proofs), spent days (yea full days) tweaking values and tons of trial and error 😭 untill I got this working filters recipe. 01] Tropical latitude bounding box $$ -30° \\le latitude \\le 30° $$ the islet in the photo reads as tropical, so I decided that anything outside the tropics is thrown out immediately, before doing any expensive geometry work. Exactly 141,131 land polygons survive that band filter. 02] Local density filter $$ N_{5\\text{km}}(p) \\le 10 $$ $ N_{5\\text{km}}(p) $ counts how many other centroids fall within 5km of point (p). Cap is 10 : if an islet has more than 10 neighbors that close, it's sitting in a dense reef field, a crowded coastline or a archipelago clutter, not a small isolated 3-4 island group like the photo shows. This dropped candidates down to 51,576 . 03] Clustering For every surviving point, find every other point with",
+      "oneLineKo": "기하학과 CUDA로 위성사진 없이 섬 위치 추적한 OSINT 풀이기",
+      "summaryKo": "작성자는 리조트 섬 사진의 메타데이터가 비어 있어, 이미지 속 3개 섬의 상대적 거리와 각도로 삼각형 지문을 만들어 위치를 추정했다. OpenStreetMap의 전 세계 해안선 벡터 데이터(882MB)를 대상으로 열대 위도 범위, 밀도 필터, 클러스터링 등 휴리스틱 필터를 적용해 후보 지역을 좁혀갔다. Google Lens 대신 수학과 프로그래밍으로 지리 위치를 추적한 OSINT 챌린지 풀이 과정을 정리했다.",
+      "tags": [
+        "osint",
+        "cuda",
+        "geolocation"
+      ]
+    }
+  ]
+}
