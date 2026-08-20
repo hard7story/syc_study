@@ -1,0 +1,246 @@
+{
+  "date": "2026-08-21",
+  "generatedAt": "2026-08-20T22:18:53.431Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32685",
+      "title": "OpenSandbox - AI 에이전트를 위한 샌드박스 런타임",
+      "url": "https://news.hada.io/topic?id=32685",
+      "commentsUrl": "https://news.hada.io/topic?id=32685",
+      "publishedAt": "2026-08-20T09:30:02+09:00",
+      "snippet": "AI앱을 위한 안전하고 빠르며 확장 가능한 범용 샌드박스 플랫폼 코딩 에이전트/GUI 에이전트/에이전트 평가 등을 위한 도커/쿠버네티스 런타임을 제공, 로컬 실행과 대규모 분산 스케줄링 모두 대응 다중 언어 SDK (Python/Java/Kotlin/TypeScript/C#/.NE...",
+      "oneLineKo": "AI 에이전트용 범용 샌드박스 런타임 OpenSandbox",
+      "summaryKo": "OpenSandbox는 AI 앱을 위한 안전하고 빠르며 확장 가능한 범용 샌드박스 플랫폼이다. 코딩 에이전트, GUI 에이전트, 에이전트 평가 등을 위해 Docker/Kubernetes 런타임을 제공하며, 로컬 실행과 대규모 분산 스케줄링을 모두 지원한다. Python, Java, Kotlin, TypeScript, C#/.NET 등 다중 언어 SDK를 제공해 다양한 개발 환경에서 활용할 수 있다.",
+      "tags": [
+        "sandbox",
+        "kubernetes",
+        "ai-agent"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49375996",
+      "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+      "url": "https://github.com/zachahn/vomit",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49375996",
+      "publishedAt": "2026-08-20T15:26:02Z",
+      "score": 152,
+      "comments": 151,
+      "snippet": "GitHub - zachahn/vomit: Clean up Claude 5's token vomit with a separate LLM. Save your tokens, Claude 5 is hopeless · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} zachahn / vomit Public Notifications You must be signed in to change notification settings Fork 2 Star 34 Code Issues 0 Pull requests 0 Discussions Actions Security and quality 0 Insights Additional navigation options Code Issues Pull requests Discussions Actions Security and quality Insights main Branches Tags Go to file Code Open more actions menu Latest commit History 31 Commits 31 Commits Folders and files Name Name Last commit message Last commit date cmd/ decomment cmd/ decomment internal internal .gitignore .gitignore CLAUDE.md CLAUDE.md LICENSE LICENSE README.md README.md Rakefile Rakefile go.mod go.mod init.go init.go list.go list.go main.go main.go main_test.go main_test.go printer.go printer.go scrub.go scrub.go scrub_test.go scrub_test.go tail.go tail.go version.go version.go View all files Repository files navigation README GPL-3.0 license More items Vomit Vomit converts Claude's token vomit into Eng",
+      "oneLineKo": "Claude 5 출력 정제용 별도 LLM 도구 Vomit 공개",
+      "summaryKo": "Vomit은 Claude 5가 생성하는 불필요하게 많은 토큰(장황한 출력)을 별도의 LLM을 사용해 정리해주는 GitHub 프로젝트입니다. Go 언어로 작성되었으며, Claude의 응답을 더 간결한 형태로 변환해 토큰 사용량을 절약하는 것을 목표로 합니다. 개발자가 CLI 도구 형태로 사용할 수 있도록 구성되어 있습니다.",
+      "tags": [
+        "llm",
+        "claude",
+        "cli"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32699",
+      "title": "AI 답변을 그대로 붙여넣지 마세요",
+      "url": "https://news.hada.io/topic?id=32699",
+      "commentsUrl": "https://news.hada.io/topic?id=32699",
+      "publishedAt": "2026-08-20T20:33:05+09:00",
+      "snippet": "질문한 사람은 일반적인 챗봇 답변이 아니라 상대방의 맥락·취향·판단 이 담긴 답을 원함 상대방도 같은 AI 도구를 쓸 수 있어, 편집하지 않은 ChatGPT 출력을 전달하는 방식은 대개 도움이 되지 않음 AI는 초안 작성 파트너 로 활용하되 결과를 직접 읽고,...",
+      "oneLineKo": "AI 답변 그대로 전달 말고 직접 편집해야",
+      "summaryKo": "질문한 사람은 일반적인 챗봇 답변이 아니라 상대방의 맥락과 판단이 담긴 답을 원한다. 상대방도 동일한 AI 도구를 사용할 수 있기 때문에 편집하지 않은 ChatGPT 출력을 그대로 전달하는 것은 대체로 도움이 되지 않는다. AI는 초안 작성을 돕는 파트너로 활용하고, 결과물을 직접 읽고 검토한 뒤 자신의 맥락을 반영해 전달해야 한다.",
+      "tags": [
+        "llm",
+        "chatgpt",
+        "productivity"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49378768",
+      "title": "Show HN: Huzzah – a novel approach to coding with AI",
+      "url": "https://www.danielvaughn.dev/posts/huzzah/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49378768",
+      "publishedAt": "2026-08-20T19:05:36Z",
+      "score": 161,
+      "comments": 89,
+      "snippet": "Hello everyone. I&#x27;ve been working on this experimental editor called Huzzah.<p>I&#x27;ve been working almost exclusively with coding agents since January of this year, and over the past few months I began to feel utterly exhausted by them. They&#x27;re great, but I&#x27;m finding it more and more tedious to write full sentences for every change I want. Not only that, but it seems there&#x27;s a complexity limit for codebases - beyond a certain point the agent begins confusing itself.<p>I&#x27;d like to go back to writing code, but I don&#x27;t want to go all the way back to fully manual coding. So I&#x27;ve come up with this interaction paradigm where you:<p><pre><code>  1. write pseudocode in whatever way makes the most sense to you\n  2. on save, the editor synchronizes your work to real source code\n  3. the pseudocode is persisted alongside the generated code, making your prompt effectively a stored record of intent.\n</code></pre>\nIt may not work for every use case, but in my initial playthroughs I&#x27;ve found it very enjoyable.<p>Right now it&#x27;s just a proof of concept - installation instructions are here in the readme: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;danielvaughn&#x2F;hz\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;danielvaughn&#x2F;hz</a><p>You can also watch a video of it in action here: <a href=\"https:&#x2F;&#x2F;x.com&#x2F;danielvaughn&#x2F;status&#x2F;2090456808431165715\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;danielvaughn&#x2F;status&#x2F;2090456808431165715</a><p>Cheers!",
+      "oneLineKo": "의사코드를 실제 코드로 동기화하는 AI 코딩 에디터",
+      "summaryKo": "Huzzah는 코딩 에이전트에 지친 개발자가 만든 실험적 에디터로, 사용자가 자유롭게 작성한 의사코드를 저장 시점에 실제 소스 코드로 동기화해준다. 의사코드는 생성된 코드와 함께 유지되어 개발자의 의도를 기록하는 역할도 한다. 완전 수동 코딩과 완전 자동 에이전트 코딩 사이의 새로운 상호작용 방식을 제안하는 프로토타입 단계 프로젝트다.",
+      "tags": [
+        "ai-coding",
+        "developer-tools",
+        "llm"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32689",
+      "title": "아직도 커밋 메시지를 직접 작성하는 이유",
+      "url": "https://news.hada.io/topic?id=32689",
+      "commentsUrl": "https://news.hada.io/topic?id=32689",
+      "publishedAt": "2026-08-20T14:02:14+09:00",
+      "snippet": "LLM이 커밋 메시지를 대신 쓸 수 있어도, 직접 작성하는 과정은 변경의 이유와 맥락 을 기록하고 개발자가 내용을 제대로 이해했는지 확인하는 데 가치가 있음 diff에서 대체로 확인할 수 있는 ‘무엇’보다 선행 작업, 버그 사례, 구현 실수, 선택지 사이의 트레이드오프",
+      "oneLineKo": "LLM 시대에도 커밋 메시지 직접 작성이 필요한 이유",
+      "summaryKo": "LLM이 커밋 메시지를 자동 생성할 수 있음에도, 직접 작성하는 과정은 변경의 이유와 맥락을 기록하는 데 중요한 가치를 지닌다. diff만으로는 알기 어려운 선행 작업, 버그 사례, 구현 과정의 실수, 여러 선택지 간의 트레이드오프 등을 커밋 메시지에 담을 수 있다. 또한 직접 작성하는 과정에서 개발자가 자신의 변경 내용을 제대로 이해했는지 스스로 점검하는 효과도 있다.",
+      "tags": [
+        "git",
+        "llm",
+        "developer-workflow"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49375719",
+      "title": "Anti-AI fonts are useless and harmful",
+      "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49375719",
+      "publishedAt": "2026-08-20T15:06:53Z",
+      "score": 83,
+      "comments": 62,
+      "snippet": "Anti-AI fonts are useless and harmful – Andrew's WebLog Andrew's WebLog Home Downloads WebLog (All Posts) Art LisaGUI Posts Anti-AI fonts are useless and harmful 11 Aug, 2026 Making “anti-ai” fonts that obfuscate or scramble text is a fools errand. For fonts that scramble text, it's an accessibility problem, since the scrambled text is what screen readers and other accessibility tools will parse. Already, you've cut out many of the humans you're trying to reach. In case you aren't aware of what I'm referring to, here are a few examples: Decoy font Shield font Ghost font Edit: I'd like to preemptively clarify I don't have anything against these specific examples, nor am I trying to invalidate the work that went into creating them or any other examples of anti-AI fonts. This post is meant to critique the idea itself. I'm not trying to put-down anyone here! There is just no way to do this accessibly, since an accessible solution will require machine-accessible metadata. This pushes us back to the giant issue of human verification, and all the privacy and security concerns associated with it. Ultimately, trying to solve the problem of selectively granting access to metadata for disabled people will lead towards filtering content through some centralized identity verification system. Unless you're a Nazi or some sort of sociopath, creating large lists of disabled people is not a road I think we want to travel down. The public posts and discussions being had about this subject are already informing AI companies on how to train their multimodal models to get around these obfuscations, most of which have already been broken. I'd argue every new font and tech demo is effectively a benchmark, daring AI firms come up with solutions to sidestep them. And they will be sidestepped, one way or another. If a human can see the information, that means there is a way the information can be parsed. \"Ghost\" fonts will become just another scraping obstacle with its own set of contingencies. Some of the more elaborate demos I've seen involving motion graphics and videos are impractical for normal use on websites and therefore are irrelevant as serious long-term solutions to this problem. Besides, if an effective obfuscation method somehow gains widespread use, then a much higher priority will be placed on breaking it, eventually rendering it useless. A cat-and-mouse game like this is pointless if it results in a world where all websites are highly obfuscated, requiring computationally expensive systems to access the content legitimately or illegitimately. The end result will probably be some sort of copy-protection system which will benefit those who want to censor the web and create paywalls and other gatekeeping methods to block access to content. We're better off with the web as it is now, written entirely in plaintext. Besides, obfuscation goes against the spirit the World Wide Web was founded on: free and open access to information for the benefit of humanity. I d",
+      "oneLineKo": "AI 크롤러 차단용 '안티AI 폰트'는 무용하고 접근성 해친다",
+      "summaryKo": "텍스트를 스크램블하거나 난독화하는 안티AI 폰트는 스크린리더 등 보조기술에도 그대로 파싱되어 오히려 장애인 접근성을 해친다는 비판이다. 이런 난독화 기법은 결국 AI 기업들이 멀티모달 모델을 학습시켜 우회하는 벤치마크 역할만 할 뿐이며, 이미 대부분 뚫린 상태다. 효과적인 난독화가 널리 쓰이면 이를 깨려는 시도가 더 집중되어 결국 무력화되고, 장기적으로는 웹 콘텐츠에 대한 검열과 페이월, 게이트키핑을 강화하는 부작용만 낳는다는 것이 저자의 주장이다.",
+      "tags": [
+        "accessibility",
+        "ai",
+        "web"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32703",
+      "title": "모든 것을 위한 SQLite",
+      "url": "https://news.hada.io/topic?id=32703",
+      "commentsUrl": "https://news.hada.io/topic?id=32703",
+      "publishedAt": "2026-08-20T23:04:18+09:00",
+      "snippet": "SQLite는 내장형 데이터베이스를 넘어 관계형 DB와 전문 검색 , 문서 저장소·캐시·벡터 인덱스·파일 형식까지 하나의 라이브러리와 파일로 통합할 수 있음 2000년 처음 출시된 뒤 MC/DC 100% 분기 커버리지 , 라이브러리 코드의 약 500배에 달하는 테스트 코드, 2050...",
+      "oneLineKo": "SQLite, 하나의 파일로 DB부터 검색·캐시까지 통합",
+      "summaryKo": "SQLite는 단순한 내장형 데이터베이스를 넘어 관계형 DB, 전문 검색, 문서 저장소, 캐시, 벡터 인덱스, 파일 형식까지 하나의 라이브러리와 파일로 통합할 수 있는 도구로 소개된다. 2000년 출시 이후 MC/DC 100% 분기 커버리지와 라이브러리 코드의 약 500배에 달하는 테스트 코드로 높은 신뢰성을 확보했다. 이런 안정성과 다재다능함 덕분에 SQLite가 다양한 용도로 활용될 수 있다는 점을 강조한다.",
+      "tags": [
+        "sqlite",
+        "database"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49374269",
+      "title": "Malicious Rust crate Arrayref runs a build-time payload",
+      "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49374269",
+      "publishedAt": "2026-08-20T13:23:12Z",
+      "score": 339,
+      "comments": 331,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;blog.rust-lang.org&#x2F;2026&#x2F;08&#x2F;20&#x2F;supply-chain-attack-on-arrayref&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.rust-lang.org&#x2F;2026&#x2F;08&#x2F;20&#x2F;supply-chain-attack-on...</a><p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;rustsec&#x2F;advisory-db&#x2F;issues&#x2F;3161\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;rustsec&#x2F;advisory-db&#x2F;issues&#x2F;3161</a>",
+      "oneLineKo": "Rust crate arrayref, 빌드 시 악성코드 실행 발견",
+      "summaryKo": "인기 Rust crate인 arrayref에서 빌드 타임에 악성 페이로드를 실행하는 코드가 발견되었다. 이는 공급망 공격(supply chain attack)의 사례로, RustSec 권고 데이터베이스와 Rust 공식 블로그에도 관련 보안 권고가 게시되었다. 해당 crate를 의존성으로 사용하는 프로젝트는 빌드 과정에서 의도치 않은 코드가 실행될 위험이 있다.",
+      "tags": [
+        "rust",
+        "supply-chain-attack",
+        "malware"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32695",
+      "title": "TypeGPU로 실시간 깊이 인식 조명 주입 구현",
+      "url": "https://news.hada.io/topic?id=32695",
+      "commentsUrl": "https://news.hada.io/topic?id=32695",
+      "publishedAt": "2026-08-20T15:33:40+09:00",
+      "snippet": "Typescript용 WebGPU 라이브러리인 TypeGPU로 실시간 깊이 인식 조명 인젝션(Depth-aware light injection)을 구현함. GPU 내부에서 독립적으로 연산해 오버헤드를 줄임. (참고로 해당 개발자는 TypeGPU 개발 팀원입니다.) 원본 트윗 가시면 시연 영상이 있습니다. 본문 번",
+      "oneLineKo": "TypeGPU로 실시간 깊이 인식 조명 주입 구현",
+      "summaryKo": "TypeGPU는 Typescript용 WebGPU 라이브러리로, 이를 이용해 실시간 깊이 인식 조명 인젝션(Depth-aware light injection) 기능을 구현했다. GPU 내부에서 독립적으로 연산을 수행해 오버헤드를 줄이는 방식이다. 개발자는 TypeGPU 개발팀 소속이며, 원본 트윗에는 시연 영상이 공개되어 있다.",
+      "tags": [
+        "webgpu",
+        "typescript",
+        "graphics"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49372583",
+      "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
+      "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49372583",
+      "publishedAt": "2026-08-20T10:08:52Z",
+      "score": 801,
+      "comments": 271,
+      "snippet": "laserphile: AliExpress webpage keeping multipoint Bluetooth headphones active with WebAudio fingerprinting laserphile Thursday, 20 August 2026 AliExpress webpage keeping multipoint Bluetooth headphones active with WebAudio fingerprinting Recently I ran into a strange problem with my Bluetooth headphones. They support multipoint Bluetooth audio, so they can be connected to my PC and phone at the same time. Normally the PC takes priority playing audio, with my phone being able to play audio when nothing is playing on the PC. Usually I listen to music on my phone but with notifications or youtrube playing through the PC, this works reliably until I open an AliExpress page in Firefox or Chrome (other browsers untested). Shortly after loading the AliExpress homepage, audio from my phone would stop playing. Closing the AliExpress tab fixes it immediately. Muting the tab/firefox/Windows does not help, and there is no visible video, music, or other media playing on the page. This seemed suspicious enough to investigate. Looking for hidden media My first thought was an autoplaying product video or advertisement, so I checked for the usual suspects: <audio> and <video> elements calls to HTMLMediaElement.play() active Media Session metadata media requests embedded frames containing media None of these showed anything useful. There were no audio or video elements, no media playback calls, and navigator.mediaSession.playbackState remained none. A clue was that the problem did not begin immediately. It appeared after the page had been sitting idle for several seconds. I instrumented the page before loading it and watched the Web Audio API instead of only looking for conventional media elements. The basic idea was to wrap the AudioContext constructor and record whenever a page created an audio-processing context: const OriginalAudioContext = window . AudioContext ; window . AudioContext = class extends OriginalAudioContext { constructor ( ... args ) { super ( ... args); console. log ( \"AudioContext created\" , { state: this .state, stack: new Error ().stack }); } }; I also wrapped AudioNode.prototype.connect() so I could see whether anything was connected to the context's audio destination. That finally found it, two hidden audio contexts! During an idle capture of the AliExpress homepage, the page created two AudioContext objects. Both entered the running state and both connected nodes to AudioContext.destination. At the same time there were still: zero <audio> or <video> elements zero media play() calls no active Media Session no audible sound The constructor stack traces pointed to two scripts: https://assets.aliexpress-media.com/g/AWSC/uab/1.140.0/collina.js https://assets.aliexpress-media.com/g/AWSC/fireyejs/1.231.67/fireyejs.js The first context was created by collina.js, while the second came from fireyejs.js. Both sit under an AWSC directory and appear to be part of Alibaba's browser security and anti-abuse tooling. The scripts are extremely obfuscated, ",
+      "oneLineKo": "알리익스프레스, 숨은 오디오 컨텍스트로 블루투스 멀티포인트 방해",
+      "summaryKo": "알리익스프레스 웹페이지를 열면 블루투스 멀티포인트 헤드폰에서 휴대폰 오디오가 끊기는 문제가 발견되었다. 조사 결과 AudioContext와 AudioNode를 후킹해 확인해보니, 화면상 미디어 요소나 재생 호출이 전혀 없는데도 collina.js와 fireyejs.js라는 알리바바의 봉쇼·안티어뷰징 스크립트가 백그라운드에서 두 개의 숨은 AudioContext를 생성해 destination에 연결하고 있었다. 이는 브라우저 핑거프린팅 목적으로 보이며, 이 과정이 블루투스 오디오 우선순위를 점유해 다른 기기의 재생을 차단하는 부작용을 일으킨 것으로 분석된다.",
+      "tags": [
+        "webaudio",
+        "fingerprinting",
+        "bluetooth"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32693",
+      "title": "Ask GN: 서비스 개발 시 회계 시스템과 어떻게 연동하시나요?",
+      "url": "https://news.hada.io/topic?id=32693",
+      "commentsUrl": "https://news.hada.io/topic?id=32693",
+      "publishedAt": "2026-08-20T15:01:40+09:00",
+      "snippet": "안녕하세요. 현재 스타트업에서 서비스 개발을 하고 있습니다. 서비스 기획에도 함께 참여하고 있는데, 서비스 내에서 금전 거래가 발생하다 보니 회계 처리를 시스템에 어떤 방식으로 반영해야 할지 고민이 생겨 질문드립니다. 서비스 형태는 오픈마켓과 유사합니다. PG를 통해 결제가 이루어지고, 일",
+      "oneLineKo": "서비스 결제와 회계 시스템 연동 방법 질문",
+      "summaryKo": "스타트업에서 오픈마켓 형태의 서비스를 개발 중인 작성자가 PG를 통한 결제 처리와 회계 시스템 연동 방법에 대해 커뮤니티에 조언을 구하는 글입니다. 서비스 내 금전 거래가 발생함에 따라 회계 처리를 시스템에 어떻게 반영해야 할지 고민을 공유하고 있습니다. 실제 서비스 개발자들의 경험과 사례를 듣고자 질문을 올렸습니다.",
+      "tags": [
+        "accounting",
+        "payment",
+        "startup"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49362689",
+      "title": "HTML Can Do That",
+      "url": "https://chrisburnell.com/html-can-do-that/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49362689",
+      "publishedAt": "2026-08-19T15:11:36Z",
+      "score": 486,
+      "comments": 142,
+      "snippet": "HTML Can Do That · Chris Burnell HTML Can Do That HTML has been gobbling up swathes of what used to be JavaScript’s remit. This page lists a bunch of dynamic functionality that we can now achieve with just HTML. Update 2026-08-20 : I originally built this page in one hour during HTML Day 2026 to write and celebrate HTML, but I’ve since made some edits to better express and highlight where the browser implementation of some of this stuff is severely lacking and/or completely fails to meet accessibility needs. So, by all means, try it out, but make it as accessible as you can ! popover Browser Support: popover → Light dismiss, Esc to close, no managing z-index to wrangle it onto a top later. All managed with popover and popovertarget (and popovertargetaction ) attributes in HTML. ( MDN ) Toggle popover No JavaScript, just modern browser magic, thanks to the wonderful folks speccing for the web and building our browsers! Close <button popovertarget=\"example-popover\">Toggle popover</button> <div id=\"example-popover\" popover> <p>No JavaScript, just modern browser magic, thanks to the wonderful folks speccing for the web and building our browsers!</p> <button popovertarget=\"example-popover\" popovertargetaction=\"hide\">Close</button> </div> <dialog> Browser Support: dialog → Similar thing going on as popover here, except this time with a dedicated element for modal dialog boxes. ( MDN ) See command / commandFor below for another, more recently-landing feature that allows us to open and close dialog elements (and will be useful for lots of other non-JS functionality, one day!). Toggle <dialog> popover Once again the popover attribute is doing some heavy-lifting here! Close <button popovertarget=\"example-dialog\">Toggle <dialog> popover</button> <dialog id=\"example-dialog\" popover> <p>Closed with just HTML via <code><form method=\"dialog\"></code>, opened with the <code>popover</code> attribute.</p> <button popovertarget=\"example-dialog\" popovertargetaction=\"hide\">Close</button> </dialog> Even though it’s sort of against the spirit of this page, I want to include this short snippet of how to interact with dialog elements in JavaScript: Open dialog This one is opened with .showModal() and closed with .close() , both called from JavaScript. Close Show JS-powered dialog code <button id=\"example-dialog-js-open\">Open dialog</button> <dialog id=\"example-dialog-js\"> <p>This one is opened with <code>.showModal()</code> and closed with <code>.close()</code>, both called from JavaScript.</p> <button id=\"example-dialog-js-close\">Close</button> </dialog> document.getElementById(\"example-dialog-js-open\").addEventListener(\"click\", () => { document.getElementById(\"example-dialog-js\").showModal() }) document.getElementById(\"example-dialog-js-close\").addEventListener(\"click\", () => { document.getElementById(\"example-dialog-js\").close() }) Grouped <details> Browser Support: details name → A shared name attribute turns a group of <details> into an exclusive accordion. Open one ",
+      "oneLineKo": "JS 없이 HTML만으로 구현하는 동적 UI 기능 모음",
+      "summaryKo": "이 글은 popover, dialog, details name 그룹핑 등 최근 HTML 표준에 추가된 속성과 엘리먼트를 활용해 과거 JavaScript로만 구현 가능했던 동적 UI 기능을 순수 HTML로 구현하는 예제를 정리한다. popover 속성으로 라이트 디스미스와 z-index 관리 없는 팝오버를, dialog 엘리먼트로 모달을, details의 name 속성으로 배타적 아코디언 그룹을 만들 수 있음을 보여준다. 필자는 이러한 기능이 접근성 측면에서 아직 부족한 부분이 있음을 지적하며 사용 시 접근성을 신경 쓸 것을 권장한다.",
+      "tags": [
+        "html",
+        "accessibility",
+        "web-standards"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49347543",
+      "title": "I like 'em thick: an apology to my English teachers",
+      "url": "https://www.experimental-history.com/p/i-like-em-thick",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49347543",
+      "publishedAt": "2026-08-18T15:50:52Z",
+      "score": 474,
+      "comments": 228,
+      "snippet": "I like 'em thick - by Adam Mastroianni Experimental History Subscribe Sign in I like 'em thick OR: an apology to my English teachers Adam Mastroianni Aug 18, 2026 662 87 139 Share Article voiceover 0:00 -22:42 Audio playback is not supported on your browser. Please upgrade. photo cred: my dad I owe an apology to every English teacher I ever had. I always assumed that so-called “great” literature was a hoax, a punishment inflicted upon adolescents for the crime of being young. These books did not have anything special about them, and covering up that fact was simply a make-work exercise for former English majors, a sort of “jobs for snobs” program. I was wrong about this. There is such thing as greatness. More specifically, there is such thing as thickness . Great works of fiction—for that matter, great works of any art—unfurl in response to your attention. The more time you spend with them, the more you get out of them. That kind of responsiveness is so addicting that it can lead people to do crazy things, like try to teach literature to high schoolers. But thickness is tricky, because rewarding the careful reader often means repelling the casual one. And this is where I would like an apology in return from my English teachers, because while this might have been obvious to them, they never made it obvious to me. I was presented with art and literature as if it was self-explanatory, and that everything wonderful about it was plainly visible from the outside. But those works were much more like dark, winding caves with treasure stashed inside of them. My teachers were like, “Right, well, into the cave you go!” and I was like “But there’s nothing in there” and they were like “Entering the cave is 30% of your grade” and so I took a few steps into the darkness and I was like “Just as I suspected: an empty cave” and then I came trudging back out and pretended that I saw something. But if someone had outfitted me appropriately, if they warned me that you have to bring one of those crank-up flashlights and you might have to shimmy through some narrow antechambers and spelunk through some flooded passageways, but that eventually you would reach a room full of untold riches—well, maybe I would have actually tried. Instead, I had to learn about thickness by looking at a guy’s butt. SORRY TO BUTT IN For most of my life, I treated art museums like celebrity scavenger hunts. The point of visiting was to see in person the thing you had seen on a screen or in a book; the goal was collection rather than contemplation. And so I would power-walk through the galleries, scanning the placards for famous names, rushing over whenever one of my companions would hiss, “Oh, this one’s a Van Gogh!” This ended when I encountered The Garden of Earthly Delights , a triptych painted by the Dutch master Hieronymous Bosch. When I went to collect that one, I got stuck. I wanted to stand in front of it forever. It’s a painting from 500 years in the past that looks like a painting f",
+      "oneLineKo": "문학과 예술의 '두꺼움'에 대한 뒤늦은 깨달음 에세이",
+      "summaryKo": "저자는 학창시절 위대한 문학이 과대평가된 허상이라 여겼지만, 이제는 예술 작품이 관심을 쏟을수록 더 많은 것을 내주는 '두꺼움(thickness)'을 지닌다는 것을 깨달았다고 고백한다. 문제는 두꺼운 작품이 세심한 독자에게는 보상을 주지만 가볍게 접근하는 독자는 오히려 밀어낸다는 점이며, 교사들이 이를 미리 알려주지 않은 것에 대해 사과를 요구한다. 히에로니무스 보스의 '세속적 쾌락의 정원' 삼면화를 오랫동안 응시하며 이러한 '두꺼움'을 실제로 체감한 경험을 예로 든다.",
+      "tags": [
+        "art",
+        "literature",
+        "essay"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49373456",
+      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49373456",
+      "publishedAt": "2026-08-20T12:04:38Z",
+      "score": 456,
+      "comments": 101,
+      "snippet": "I trained a 125M-parameter transformer to autocomplete piano performances in real time (~108 notes&#x2F;sec on an iPhone 15).<p>The idea is basically GitHub Copilot or Tabnine, except instead of prompting it with code, you prompt it by playing a few notes on a MIDI piano. The model then continues what you played, entirely on-device.<p>The app is free if anyone wants to try it. Happy to answer questions about the model, training, Core ML, or the many things that didn&#x27;t work.",
+      "oneLineKo": "온디바이스 피아노 자동완성 1.25억 파라미터 모델",
+      "summaryKo": "개발자가 MIDI 피아노 연주를 실시간으로 이어서 자동완성하는 1.25억 파라미터 트랜스포머 모델을 학습했다. GitHub Copilot처럼 코드 대신 몇 개의 음을 입력하면 모델이 이어서 연주를 생성하며, iPhone 15에서 초당 약 108개의 노트를 처리할 정도로 완전히 온디바이스에서 동작한다. Core ML을 활용해 구현했으며, 앱은 무료로 제공되고 학습 과정과 시행착오에 대한 질문도 받고 있다.",
+      "tags": [
+        "on-device-ml",
+        "transformer",
+        "coreml"
+      ]
+    }
+  ]
+}
