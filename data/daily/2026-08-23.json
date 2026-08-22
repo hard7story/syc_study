@@ -1,0 +1,274 @@
+{
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-22T22:12:52.205Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32764",
+      "title": "Vomit - Claude의 장황한 출력을 로컬 LLM으로 짧게 정리해주는 도구",
+      "url": "https://news.hada.io/topic?id=32764",
+      "commentsUrl": "https://news.hada.io/topic?id=32764",
+      "publishedAt": "2026-08-22T20:34:13+09:00",
+      "snippet": "Claude Code가 길게 내놓는 메시지를 별도의 로컬 LLM에 다시 통과시켜 사람이 읽기 쉬운 형태로 정리 하는 작은 도구 원래 작업이나 파일에는 접근하지 않고, 사용자에게 전달되는 텍스트만 로컬 모델이 다시 요약함 완전 로컬로 동작하고 Teleme...",
+      "oneLineKo": "Claude 출력, 로컬 LLM으로 요약하는 도구 'Vomit'",
+      "summaryKo": "Vomit은 Claude Code가 생성하는 장황한 메시지를 별도의 로컬 LLM에 다시 통과시켜 사람이 읽기 쉽게 요약해주는 소형 도구다. 원본 작업이나 파일에는 직접 접근하지 않고, 사용자에게 전달되는 텍스트만 로컬 모델이 재요약하는 방식으로 동작한다. 모든 처리가 완전히 로컬 환경에서 이루어져 외부로 데이터가 전송되지 않는다.",
+      "tags": [
+        "llm",
+        "claude",
+        "local-llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49402232",
+      "title": "Why your local LLM feels dumber than it is",
+      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49402232",
+      "publishedAt": "2026-08-22T18:14:16Z",
+      "score": 81,
+      "comments": 24,
+      "snippet": "Why your local LLM feels dumber than it is - Machine Learning, LLMs, & AI - Level1Techs Forums Return to Level1Techs.com Level1Techs Forums Why your local LLM feels dumber than it is High-Performance Computing Machine Learning, LLMs, & AI ai thr3e August 16, 2026, 1:51am 1 Quick Introduction We have all been on forums, chats, reddit, discord, youtube, or somewhere and heard “Oh! Model XYZ is AMAZEBALLZ!zomgwtfbbq” then downloaded it (or more likely, some quantized form of it) and said “eww… This sucks!” This post is going to be a rather technical series of experiments to demonstrate the impact of implementation-specific hazards with inference. I will be using the term “reference implementation” to describe the lab that published and offers first-party hosting of their models and posts original benchmark claims. Their hardware will be different than yours. Their software will be very different than yours. And the comparisons in this post are not going to be running some 2.58-bit-gguf-in-ollama with a couple test prompts. I am intentionally glossing over entire emerging fields of study, mountains of research papers and lit review to make this more approachable for you the reader. Don’t nit pick my oversimplifications or I will make you read the really long unpleasant version with math . Your local implementation sucks. But that’s ok, because everyone else’s does too. Every single instance of hardware and software running an LLM today is a little bit different. or a lot different when it comes to some cases. The average home lab user might be mixing multiple different generations of GPU. The chips on those have different instruction sets. Those instruction sets will implement and execute math to calculate your next token differently from any other person, even when running the same exact weights. So that begs the first question: How much does your particular setup suck? Turns out there are a number of different ways to go about measuring that. The practical approach is straight forward. Run standard benchmarks. A variety of them. terminal bench, hle, SWEthis, HELLAthat, MMLU-whatever… take your pick. Just make sure its representative of your actual workload/use case. Do not crank temperature to zero and paste in 3 test prompts then call it good/bad. Zero-shot tests are not a good analog of most agentic tasks. You need long-context tool-calling and domain specific knowledge evaluations to figure out where your setup is weak when running the same weights as somebody else replicating those same benchmarks. But the purely mathematical answer is where my focus is going to begin because as @wendell said: Math is Math! “Logits” are the models scores for each possible next token. They are normalized into probabilities, passed through the configured sampler, and converted back into text by the detokenizer to generate THE→NE→XT→TOK→EN during decode. A side note about sampler settings: the model card on HF usually specifies exactly what sampler settings (and c",
+      "oneLineKo": "로컬 LLM 성능 저하 원인, 하드웨어·소프트웨어 구현 차이",
+      "summaryKo": "이 글은 로컬에서 실행하는 LLM이 벤치마크나 소문보다 성능이 떨어지게 느껴지는 이유를 기술적으로 분석한다. 동일한 가중치를 사용해도 GPU 세대별 명령어셋 차이, 양자화, 샘플러 설정 등 구현 세부사항에 따라 로짓 계산과 토큰 생성 결과가 달라질 수 있다는 점을 설명한다. 저자는 원 개발사의 레퍼런스 구현과 실제 사용자의 로컬 환경이 하드웨어·소프트웨어 모두 크게 다르다는 점을 강조하며, 단순 제로샷 테스트가 아닌 실제 워크로드에 맞는 다양한 벤치마크로 검증할 것을 권장한다.",
+      "tags": [
+        "llm",
+        "inference",
+        "quantization"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1vtn0qa",
+      "title": "TypeScript : Migrate repo to TypeScript 7",
+      "url": "https://www.reddit.com/r/programming/comments/1vtn0qa/typescript_migrate_repo_to_typescript_7/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1vtn0qa/typescript_migrate_repo_to_typescript_7/",
+      "publishedAt": "2026-08-20T15:41:21+00:00",
+      "snippet": "submitted by /u/mariuz [link] [comments]",
+      "oneLineKo": "TypeScript 저장소를 TypeScript 7으로 마이그레이션",
+      "summaryKo": "TypeScript 프로젝트 저장소를 TypeScript 7 버전으로 마이그레이션하는 작업에 관한 Reddit 게시글입니다. 본문 내용이 제목 외에는 제공되지 않아 구체적인 마이그레이션 세부사항은 확인할 수 없습니다. TypeScript 7은 네이티브 컴파일러 도입 등 성능 개선이 예고된 차기 버전으로 알려져 있습니다.",
+      "tags": [
+        "typescript",
+        "migration"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32771",
+      "title": "TUI를 그만 만드세요",
+      "url": "https://news.hada.io/topic?id=32771",
+      "commentsUrl": "https://news.hada.io/topic?id=32771",
+      "publishedAt": "2026-08-23T01:33:47+09:00",
+      "snippet": "LLM 에이전트가 SwiftUI 네이티브 UI 를 실용적인 수준으로 생성하면서, 시스템 프로그래머도 개인용 도구를 더 이상 터미널 화면으로 만들 필요가 없어짐 CLI는 자동화와 원격 제어에 대체 불가능 하지만, TUI는 스크롤·드래그 앤드 드롭·텍스트 선택·다중 창·이미...",
+      "oneLineKo": "LLM이 SwiftUI 생성, TUI 대신 네이티브 GUI 시대",
+      "summaryKo": "LLM 에이전트가 SwiftUI 기반 네이티브 UI를 실용적 수준으로 생성할 수 있게 되면서, 시스템 프로그래머도 개인용 도구를 굳이 터미널 화면(TUI)으로 만들 필요가 없어졌다는 주장이다. CLI는 자동화와 원격 제어에서 여전히 대체 불가능한 역할을 하지만, TUI는 스크롤, 드래그 앤 드롭, 텍스트 선택, 다중 창, 이미지 표시 등에서 근본적인 한계를 갖는다. 따라서 이제는 TUI 대신 LLM의 도움을 받아 네이티브 GUI를 만드는 것이 더 나은 선택이라는 논지를 담고 있다.",
+      "tags": [
+        "tui",
+        "llm",
+        "swiftui"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49401549",
+      "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+      "url": "https://twitter.com/argofowl/status/2091150597374537729",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49401549",
+      "publishedAt": "2026-08-22T16:58:49Z",
+      "score": 130,
+      "comments": 129,
+      "oneLineKo": "Claude Code, 노력 수준 A/B 테스트 정황 포착",
+      "summaryKo": "한 트위터 사용자가 Anthropic의 Claude Code가 응답 시 노력 수준을 다르게 설정하는 A/B 테스트를 진행 중인 것으로 보인다고 주장했습니다. 이는 일부 사용자에게 의도적으로 낮은 성능이나 축소된 응답을 제공할 수 있다는 의혹을 제기합니다. 본문은 트윗 제목 수준의 정보만 제공되어 구체적인 근거나 Anthropic의 공식 입장은 확인되지 않았습니다.",
+      "tags": [
+        "claude",
+        "anthropic",
+        "llm"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1vuk4b5",
+      "title": "Finding a hidden Mersenne Twister implementation inside a 15 year old game binary",
+      "url": "https://www.reddit.com/r/programming/comments/1vuk4b5/finding_a_hidden_mersenne_twister_implementation/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1vuk4b5/finding_a_hidden_mersenne_twister_implementation/",
+      "publishedAt": "2026-08-21T15:49:54+00:00",
+      "snippet": "submitted by /u/JizosKasa [link] [comments]",
+      "oneLineKo": "15년 된 게임 바이너리에서 메르센 트위스터 발견",
+      "summaryKo": "레딧 게시물에서 15년 전에 출시된 게임의 바이너리 파일을 분석하던 중 내부에 숨겨진 메르센 트위스터(Mersenne Twister) 난수 생성 알고리즘 구현을 찾아낸 사례를 소개한다. 본문 내용이 제목 외에 제공되지 않아 구체적인 분석 과정이나 게임명은 확인되지 않는다.",
+      "tags": [
+        "reverse-engineering",
+        "mersenne-twister",
+        "binary-analysis"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32760",
+      "title": "나는 AI가 쓴 글을 자동으로 무시하기 시작했다",
+      "url": "https://news.hada.io/topic?id=32760",
+      "commentsUrl": "https://news.hada.io/topic?id=32760",
+      "publishedAt": "2026-08-22T16:32:05+09:00",
+      "snippet": "업무 문서에서 저비용 AI 생성 흔적 을 감지하는 순간 집중력이 떨어져, 이미 적힌 내용을 발신자에게 다시 묻는 일이 생김 Claude 특유의 문구가 섞인 설계 문서, 기술적으로 무의미한 표현을 담은 20쪽 마케팅 자료, 불확실한 내부 추론처럼 장황한 요구사항 문서가 대표 사례임",
+      "oneLineKo": "AI가 쓴 티 나는 문서, 이제는 자동으로 걸러 읽는다",
+      "summaryKo": "업무 문서에서 저비용 AI 생성 흔적이 느껴지면 집중력이 떨어지고, 결국 이미 적힌 내용을 다시 물어보게 되는 현상을 설명한다. Claude 특유의 문구가 섞인 설계 문서, 기술적으로 무의미한 표현이 가득한 20쪽짜리 마케팅 자료, 불확실한 내부 추론처럼 장황하게 쓰인 요구사항 문서 등이 대표 사례로 제시된다. 필자는 이런 문서를 접하면 신뢰도가 떨어져 자연스럽게 무시하게 된다고 말한다.",
+      "tags": [
+        "ai-generated-content",
+        "llm",
+        "claude"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49393052",
+      "title": "Rust Glancer: Rust LSP using 100x less RAM",
+      "url": "https://rust-glancer.github.io/blog/hello-world/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49393052",
+      "publishedAt": "2026-08-21T19:51:54Z",
+      "score": 389,
+      "comments": 93,
+      "snippet": "Hello, world! · Rust Glancer Skip to content rust-glancer About Quick start Docs Blog Changelog Source Hello, world! 2026-08-19 I want to present a project that I've been working on for the past 4 months: an alternative Rust LSP implementation that is built with a focus on low memory usage. It has two main features: It can use very little memory (target <100mb for reasonable projects). There are caveats, these are described below. It allows immediate indexing after restart: if your project was indexed, restarting the editor will not require re-indexing. Your browser does not support embedded videos. You can download the recording instead. Note: throughout this video, the used RAM remained under 100mb These features make Rust Glancer suitable for the older computers: I have tested it on my old MacBook Pro M1 2020 with 8GB RAM, and it was pretty good. Machine LSP Base indexing (engine usable) Full indexing MacBook Pro M4 Max, 36GB (2025) Rust Glancer 5 seconds 8 seconds MacBook Pro M4 Max, 36GB (2025) rust-analyzer 6 seconds 13 seconds MacBook Pro M1, 8GB (2020) Rust Glancer 6 seconds 9 seconds MacBook Pro M1, 8GB (2020) rust-analyzer 7 seconds 14 seconds As you can imagine, 4 months is not a lot of time for a project as big as a Rust LSP. Rust Glancer is not a complete LSP yet, it has a lot of missing functionality, it has some known bugs, and it has a lot of things I want to improve. At the same time, it is already pretty capable: it has a full indexing pipeline with type inference and a trait solver (chalk), most of the \"normal\" Rust syntax is supported, and most of the \"normal\" LSP actions do work as well: goto definition, hover, inlay hints, completions, you name it. If you are interested, you can already try it out: just install the VS Code extension here , or, if you prefer, build and install the vsix from the repository . The rest of the post contains the history of the project: motivation, LLM use, plans and roadmap. If you're not interested, you might want to check out the project documentation instead. Difference with rust-analyzer There are several reasons why rust-analyzer consumes a lot of memory: Rust workspaces genuinely have a lot of information that must be indexed: thousands of functions, structures, traits, relationships between these, function bodies and statements in them, etc. Each of these needs to be analyzed and remembered, and you can't really cheat if you want to have things like \"find all references to this structure\". rust-analyzer uses salsa as its database. It's an incremental query-based database, which lazily computes all the data you need without having to explicitly \"record\" everything. It is a very cool approach, but it's inherently tied to memory, which makes it hard to move parts of data from memory elsewhere. rust-analyzer uses rowan for syntax tree representation. The cool property here is that it allows partial invalidation: if only a part of the file changed, only the relevant bits have to be reparsed, whi",
+      "oneLineKo": "메모리 100배 절약한 Rust LSP 대안 Glancer 공개",
+      "summaryKo": "Rust Glancer는 낮은 메모리 사용을 목표로 4개월간 개발된 대안 Rust LSP 구현체로, 합리적인 프로젝트 기준 100MB 미만의 RAM 사용을 목표로 합니다. 재시작 시 재인덱싱 없이 즉시 인덱싱이 가능하며, 8GB RAM의 오래된 MacBook Pro M1에서도 rust-analyzer보다 빠른 인덱싱 속도를 보여줍니다. goto definition, hover, completions 등 주요 LSP 기능과 타입 추론, trait solver(chalk)를 지원하지만 아직 완전한 기능을 갖추지는 못했습니다. rust-analyzer가 salsa 증분 쿼리 데이터베이스와 rowan 구문 트리를 사용해 메모리를 많이 소모하는 반면, Glancer는 다른 접근 방식으로 메모리 효율성을 추구합니다.",
+      "tags": [
+        "rust",
+        "lsp",
+        "developer-tools"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32767",
+      "title": "Claudette - Claude의 BuzzFeed식 말투를 평범한 영어로 바꾸는 도구",
+      "url": "https://news.hada.io/topic?id=32767",
+      "commentsUrl": "https://news.hada.io/topic?id=32767",
+      "publishedAt": "2026-08-22T21:36:39+09:00",
+      "snippet": "/debuzz 는 Claude의 장황하고 극적인 답변을 Antigravity CLI 로 다시 작성해 평범한 영어로 바꾸는 Claude Code 스킬임 Claude가 변환 결과를 다시 다듬으면 기존 말투가 되살아날 수 있어, Antigravity의 출력을 후처리 없이 그대로 표시 함",
+      "oneLineKo": "Claude 답변체를 평범한 영어로 바꿔주는 CLI 도구",
+      "summaryKo": "Claudette는 Claude의 장황하고 과장된 'BuzzFeed식' 답변 말투를 평범한 영어 문체로 바꿔주는 Claude Code 스킬입니다. '/debuzz' 명령을 통해 Antigravity CLI로 답변을 다시 작성하는 방식으로 동작합니다. Claude가 변환 결과를 다시 다듬으면 원래의 과장된 말투가 되살아날 수 있어, Antigravity의 출력을 후처리 없이 그대로 표시하는 방식을 택했습니다.",
+      "tags": [
+        "llm",
+        "claude",
+        "cli"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49397074",
+      "title": "Canada will match US tariffs 'dollar for dollar' as trade talks break down",
+      "url": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49397074",
+      "publishedAt": "2026-08-22T06:16:57Z",
+      "score": 362,
+      "comments": 1043,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.pm.gc.ca&#x2F;en&#x2F;news&#x2F;statements&#x2F;2026&#x2F;08&#x2F;21&#x2F;statement-prime-minister-carney-canada-us-trade-negotiations\" rel=\"nofollow\">https:&#x2F;&#x2F;www.pm.gc.ca&#x2F;en&#x2F;news&#x2F;statements&#x2F;2026&#x2F;08&#x2F;21&#x2F;statement...</a>",
+      "oneLineKo": "캐나다, 美관세에 '달러 대 달러' 맞대응 예고",
+      "summaryKo": "캐나다와 미국 간 무역 협상이 결렬되면서 캐나다 정부가 미국의 관세 조치에 동일한 규모로 맞대응하겠다고 밝혔다. 캐나다 총리실은 공식 성명을 통해 이번 협상 결렬 배경과 대응 방침을 설명했다. 이는 양국 간 무역 갈등이 심화되고 있음을 보여주는 사례로, IT 업계와는 직접적 관련이 적은 경제·통상 이슈이다.",
+      "tags": [
+        "trade",
+        "tariffs",
+        "canada-us"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32753",
+      "title": "Huggingface Speech To Speech - 오픈소스 모델로 로컬 음성 에이전트를 만드는 파이프라인",
+      "url": "https://news.hada.io/topic?id=32753",
+      "commentsUrl": "https://news.hada.io/topic?id=32753",
+      "publishedAt": "2026-08-22T09:30:02+09:00",
+      "snippet": "사용자가 말하면 이를 감지하고(VAD) → 음성을 텍스트로 바꾸고(STT) → LLM이 질문을 이해하고 답변 생성 → 생성된 답변을 다시 음성으로 읽어주는(TTS) 완전한 음성 대화 파이프라인 을 로컬에서 구성할 수 있음 각 단계는 각각 별도 스레드에서 동작하고 큐로 연결돼, 한 단계가...",
+      "oneLineKo": "허깅페이스, 오픈소스 로컬 음성 에이전트 파이프라인 공개",
+      "summaryKo": "Huggingface의 Speech To Speech 프로젝트는 VAD, STT, LLM, TTS를 결합해 로컬에서 동작하는 완전한 음성 대화 파이프라인을 제공한다. 각 단계는 별도 스레드에서 동작하며 큐로 연결되어 병렬 처리가 가능하다. 오픈소스 모델만으로 사용자의 음성을 감지, 텍스트 변환, 응답 생성, 음성 합성까지 수행할 수 있다.",
+      "tags": [
+        "speech-to-speech",
+        "llm",
+        "open-source"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49398152",
+      "title": "Munder Difflin – Agent harness to run an office of your clones",
+      "url": "https://munderdiffl.in/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49398152",
+      "publishedAt": "2026-08-22T09:49:14Z",
+      "score": 234,
+      "comments": 110,
+      "snippet": "Munder Difflin — Agent harness to run an office of your clones MUNDER DIFFLIN How it works Security Pricing Blog Discord ★ Star ⤓ Download GitHub Trending #1 Repository of the Day Agent harness to run an office of your clones Free, open source and performant multi-agent harness, works with your existing subscriptions (uses hourly limits). ⤓ Download Free See how it works ↓ Munder Difflin uses CLI agents running on your computer to do anything you can do Supports 12 CLI agent providers off the shelf, more coming soon Claude Code Codex Grok Kimi Code Antigravity Qwen Gemini CLI OpenCode Crush Pi Copilot Cursor Monitor agents in 'the office' themed simulation or use the cleaner fullscreen mode. Simulation is deterministic, does not consume tokens. PRIVATE CLOUD + NETWORK Get the Teams plan and double your productivity Private Cloud: Run agents 24/7 for each teammate in isolated sandboxes Private Network: Allow clones of your team to talk to each other autonomously (E2E encrypted) MAKE CLONES OF YOUR TEAM · THEY WORK 24/7 🔒 E2E CLICK A CLONE TO INSPECT MUNDER DIFFLIN NODE #001 Michael Team Lead's clone WRAPS Claude Code CLONE ● ONLINE 24/7 HUMAN ● at their desk NOW triaging the PR queue Michael Jim Pam Dwight 9AM · ALL IN 2PM · SOME AWAY 3AM · CLONES SHIP 4/4 HUMANS · 4 CLONES ON HOW IT WORKS Three steps to a second you. 1 Install your harness One download. It wraps the agent CLI you already use and runs on your laptop. Your code, your keys, your existing subscription — nothing leaves your machine. 2 It becomes you It captures your workflow, your tooling and what you know. Every clone you run shares that memory, so the next one you spin up starts already knowing how you work. 3 Your office gets to work Your clones work around the clock — and when one needs something, it messages another. They hand off work, share context and unblock each other, all on your own machine. JIM'S CLONE ⇄ PAM'S CLONE 🔒 E2E JIM'S CLONE Blocked — need the invoice-state design tokens. 03:12 · encrypted PAM'S CLONE Sent — tokens + edge-case flows in billing/tokens.json . 03:12 · encrypted ✓ unblocked overnight · PR #147 open Watch a real handoff live → WHAT EACH TEAM MEMBER GETS Understand your harnesses&rsquo; capabilities. Munder Difflin doesn't give your team one shared bot. It acts as a clone of the individual and controls their computer. KICK IT OFF FROM ANYWHERE YOU SLACK INBOX TRIGGERS YOUR CLONE · YOUR COMPUTER GOD orchestrator reads · plans · routes research Claude Code build Codex review Claude Code git · each agent in its own isolated worktree MemPalace their memory · their machine · nowhere else ⟳ 24/7 🔒 asks \"pricing final?\" 🔒 answers 3 AM · he's asleep CLONE ⇄ CLONE E2E · same org only TEAMMATE’S CLONE · THEIR COMPUTER GOD orchestrator reads · plans · routes sell Grok draft Kimi CLI MemPalace their memory · their machine ⟳ 24/7 KICK IT OFF FROM ANYWHERE YOU SLACK INBOX TRIGGERS YOUR CLONE · YOUR COMPUTER GOD orchestrator reads · plans · routes research Claude",
+      "oneLineKo": "내 클론들의 사무실을 돌리는 멀티에이전트 하네스",
+      "summaryKo": "Munder Difflin은 Claude Code, Codex, Gemini CLI 등 12개 CLI 에이전트 제공자를 지원하는 무료 오픈소스 멀티에이전트 하네스입니다. 사용자의 워크플로우와 지식을 캡처해 '클론'을 만들고, 이 클론들이 24시간 자율적으로 작업을 처리하며 E2E 암호화된 네트워크로 서로 메시지를 주고받아 작업을 핸드오프합니다. Teams 플랜에서는 팀원별 격리된 샌드박스에서 클론을 상시 실행할 수 있는 Private Cloud와 Private Network 기능을 제공합니다. 기존 CLI 에이전트 구독과 API 키를 그대로 활용하며 코드와 데이터는 로컬 머신에 유지됩니다.",
+      "tags": [
+        "multi-agent",
+        "cli-agent",
+        "llm"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32732",
+      "title": "Show GN: 오늘도 무료인 AI – 무료 조건까지 확인한 한국어 AI 도구 500개 탐색 서비스",
+      "url": "https://news.hada.io/topic?id=32732",
+      "commentsUrl": "https://news.hada.io/topic?id=32732",
+      "publishedAt": "2026-08-21T22:54:36+09:00",
+      "snippet": "AI 도구를 찾다 보면 ‘무료’라는 표시가 실제로는 서로 다른 의미인 경우가 많았습니다. 7일 체험일 수도 있고, 가입 시 제공되는 일회성 크레딧일 수도 있고, 매월 다시 제공되는 무료 사용량이나 로컬 실행 방식일 수도 있습니다. 결국 새로운 AI를 발견할 때마다 공식 가격 페이지를 다시 찾",
+      "oneLineKo": "AI 도구 500개 무료 조건 확인 탐색 서비스 출시",
+      "summaryKo": "AI 도구의 '무료' 표시가 7일 체험, 가입 크레딧, 월별 무료 사용량, 로컬 실행 등 서로 다른 의미로 쓰이는 문제를 해결하기 위한 서비스입니다. 매번 공식 가격 페이지를 확인해야 하는 번거로움을 줄이기 위해 500개 한국어 AI 도구의 실제 무료 조건을 정리해 제공합니다. Show GN 형태로 공개된 개인 프로젝트입니다.",
+      "tags": [
+        "ai-tools",
+        "pricing",
+        "curation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49402189",
+      "title": "Scrap",
+      "url": "https://twitter.com/moxie/status/2091218652133732491",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49402189",
+      "publishedAt": "2026-08-22T18:08:56Z",
+      "score": 181,
+      "comments": 77,
+      "oneLineKo": "제목 'Scrap'만 공개된 트위터 링크 기사",
+      "summaryKo": "이 기사는 moxie의 트위터 게시물 링크로, 제목이 'Scrap'이라는 것 외에 본문 내용이 제공되지 않았습니다. 게시물의 구체적인 내용이나 맥락을 확인할 수 없어 추가 정보를 알 수 없습니다.",
+      "tags": [
+        "twitter"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49351802",
+      "title": "Hister – A private, full content search index that you control",
+      "url": "https://hister.org/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49351802",
+      "publishedAt": "2026-08-18T20:00:50Z",
+      "score": 172,
+      "comments": 55,
+      "snippet": "Hister | Your Own Search Engine Skip to main content Hister Datasets Docs Posts svg]:px-3 bg-hister-rose font-space border-brutal-border h-auto rounded-none border-[3px] px-5 py-2.5 text-[13px] font-semibold tracking-[1px] text-white uppercase no-underline shadow-[3px_3px_0_rgba(0,0,0,0.25)] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[1px_1px_0_rgba(0,0,0,0.25)]\" href=\"/support\"> Support svg]:px-3 bg-hister-indigo font-space border-brutal-border h-auto rounded-none border-[3px] px-5 py-2.5 text-[13px] font-semibold tracking-[1px] text-white uppercase no-underline shadow-[3px_3px_0_rgba(0,0,0,0.25)] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[1px_1px_0_rgba(0,0,0,0.25)]\" href=\"https://github.com/asciimoo/hister\" target=\"_blank\" rel=\"noopener noreferrer\"> GitHub Your Own Search Engine Hister turns the pages you visit and the files you keep into a private, full content search index that you control. svg]:px-3 font-space brutal-press-lg border-brutal-border h-auto justify-center rounded-none border-[3px] bg-[#59598f] px-8 py-4 text-[15px] font-bold tracking-[1.3px] text-white uppercase no-underline\" href=\"/docs/quickstart\"> Get started svg]:px-3 bg-brutal-card font-space brutal-press-lg border-brutal-border h-auto justify-center rounded-none border-[3px] px-8 py-4 text-[15px] font-bold tracking-[1.3px] text-[var(--text-primary)] uppercase no-underline hover:bg-[var(--text-primary)] hover:text-white\" href=\"https://chromewebstore.google.com/detail/hister/cciilamhchpmbdnniabclekddabkifhb\" target=\"_blank\" rel=\"noopener noreferrer\"> Download extension Free software on GitHub Hister 1,924 pages indexed privacy notes I read last month 6 results in your index 0.04 sec The ultimate way to protect digital privacy hister.org/posts Keep useful pages close, searchable, and under your control... privacy-notes.md ~/documents/notes A private index makes the things you already found useful again. Stored preview Search without retracing your steps Open a clean preview, see where it came from, and get back to the exact idea you remembered. Full content saved Source stays visible Searchable again Free software AGPLv3 Self hosted Run it on your own machine or server Privacy focused No telemetry, no external requests Preserve Knowledge. Find It Again. Hister stores extracted document content with the search index and displays it as a readable preview alongside search results. svg]:px-3 font-space brutal-press-lg border-brutal-border h-auto justify-center rounded-none border-[3px] bg-[var(--text-primary)] px-8 py-4 text-[15px] font-bold tracking-[1.3px] text-white uppercase no-underline\" href=\"https://github.com/asciimoo/hister/releases/latest\" target=\"_blank\" rel=\"noopener noreferrer\"> Download Hister svg]:px-3 bg-brutal-card font-space brutal-press-lg border-brutal-border h-auto justify-center rounded-none border-[3px] px-8 py-4 text-[15px] font-bold tracking-[1.3px] text-[var(--text-primary)] uppercase no",
+      "oneLineKo": "방문 페이지·파일을 색인하는 개인 검색엔진 Hister",
+      "summaryKo": "Hister는 사용자가 방문한 웹페이지와 보유한 파일을 전체 텍스트로 색인해 개인 소유의 검색엔진을 만들어주는 오픈소스 도구입니다. AGPLv3 라이선스로 배포되며 자체 서버나 개인 컴퓨터에 셀프 호스팅할 수 있고, 텔레메트리나 외부 요청 없이 프라이버시를 보장합니다. 크롬 확장 프로그램을 통해 브라우징한 페이지를 자동으로 저장하고, 검색 결과에서 원문 미리보기를 확인할 수 있습니다.",
+      "tags": [
+        "self-hosted",
+        "search-engine",
+        "privacy"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49399898",
+      "title": "A Friendly Introduction to Racket",
+      "url": "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49399898",
+      "publishedAt": "2026-08-22T14:08:19Z",
+      "score": 165,
+      "comments": 65,
+      "snippet": "A Friendly Introduction to Racket – geometridae geometridae Home Blog A Friendly Introduction to Racket 11 Aug, 2026 \"Lisp is worth learning for the profound enlightenment experience you will have when you finally get it.\" — Eric S. Raymond Welcome. Today you'll learn a language from one of programming's oldest and most unusual families. A language where code is data, where parentheses are pure structure, and where programs can write programs. By the end of this tutorial, you'll have written your own syntax. A bit of history Lisp was born in 1958 , invented by John McCarthy at MIT. For context: it's the second-oldest high-level language still in use (only Fortran, from 1957, beats it by a year). Python arrived in 1991. JavaScript in 1995. Lisp predates them by more than 30 years and several ideas we now consider \"modern\" were born there: Garbage collection — invented for Lisp. First-class functions — passing functions as arguments, now standard everywhere. The REPL — the interactive read-eval-print loop that Python, Node, and Julia all have today started in Lisp. Conditionals as expressions — the if that returns a value. Homoiconicity — code is a data structure of the language itself. This is the big one. We'll come back to it at the end. For decades, Lisp was the language of artificial intelligence. In the 70s and 80s there were physical computers designed to run Lisp directly: the Lisp Machines built by Symbolics and LMI. Then came the \"AI winter,\" funding dried up, and Lisp went from star to cult language. But interesting ideas don't die they mutate, that's part of the beauty of the lisps. From Lisp to Scheme to Racket In 1975, Gerald Sussman and Guy Steele created Scheme : a minimalist, elegant, almost mathematical Lisp. Scheme became academia's favorite language for teaching programming (the legendary book SICP Structure and Interpretation of Computer Programs is written in Scheme). In 1995, Matthias Felleisen's group created PLT Scheme , a Scheme designed for education and programming language research. In 2010 it was renamed Racket , and today it's much more than a Scheme: it's a language for building languages . Its unofficial motto is language-oriented programming : if your problem needs its own language, Racket lets you build one in an afternoon. Year Event 1958 McCarthy invents Lisp at MIT 1975 Sussman and Steele create Scheme 1984 Common Lisp is standardized 1995 PLT Scheme (now Racket) is born 2007 Clojure is born (Lisp on the JVM) 2010 PLT Scheme is renamed Racket Today You, reading this, about to write parentheses UwU Who uses Lisp today ? More people than you might think: Clojure runs in production at banks, airlines, and startups (Nubank, the largest digital bank in Latin America, runs on Clojure). Common Lisp (with the SBCL compiler) is still alive in expert systems, flight planning (ITA Software, acquired by Google, powered Google Flights), and scientific computing. Emacs Lisp — millions of people run Lisp every day without kno",
+      "oneLineKo": "Racket 언어 초보자를 위한 친절한 입문 튜토리얼",
+      "summaryKo": "이 글은 1958년 탄생한 Lisp의 역사부터 Scheme, PLT Scheme을 거쳐 2010년 Racket으로 이어지는 계보를 소개한다. Lisp이 가비지 컬렉션, 1급 함수, REPL, 동형성(homoiconicity) 등 현대 프로그래밍의 핵심 개념을 탄생시켰음을 설명한다. 또한 Clojure, Common Lisp, Emacs Lisp 등 오늘날에도 실제 산업 현장에서 쓰이는 Lisp 계열 언어들의 사례를 언급하며, Racket이 '언어를 만드는 언어'로서 언어 지향 프로그래밍을 지원한다는 점을 강조한다.",
+      "tags": [
+        "racket",
+        "lisp",
+        "scheme"
+      ]
+    }
+  ]
+}
