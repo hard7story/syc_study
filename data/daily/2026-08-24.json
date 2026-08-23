@@ -1,0 +1,243 @@
+{
+  "date": "2026-08-24",
+  "generatedAt": "2026-08-23T22:13:03.916Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32791",
+      "title": "로컬 LLM이 실제 성능보다 더 멍청하게 느껴지는 이유",
+      "url": "https://news.hada.io/topic?id=32791",
+      "commentsUrl": "https://news.hada.io/topic?id=32791",
+      "publishedAt": "2026-08-23T14:33:19+09:00",
+      "snippet": "같은 모델이라도 GPU·추론 엔진·어텐션 구현·양자화 방식 이 달라지면 계산 결과가 조금씩 달라지고, 긴 문맥에서는 그 차이가 실제 응답과 도구 호출 실패로 이어질 수 있음 약 10만 토큰의 실제 에이전트 작업 문맥에서 Qwen3.6-27B를 비교한 결과, 어텐션 백엔드만 바꿔도 후반부에...",
+      "oneLineKo": "로컬 LLM 성능저하, 어텐션 백엔드·양자화 차이 때문",
+      "summaryKo": "같은 모델이라도 GPU, 추론 엔진, 어텐션 구현, 양자화 방식이 다르면 계산 결과가 미세하게 달라지며, 긴 문맥에서는 이 차이가 누적되어 실제 응답 품질과 도구 호출 실패로 이어질 수 있다. 약 10만 토큰 분량의 실제 에이전트 작업 문맥에서 Qwen3.6-27B 모델로 비교 실험한 결과, 어텐션 백엔드만 바꿔도 문맥 후반부에서 성능 차이가 발생하는 것을 확인했다. 이는 로컬에서 구동한 LLM이 동일한 모델임에도 클라우드 버전보다 더 멍청하게 느껴지는 원인을 설명해준다.",
+      "tags": [
+        "llm",
+        "quantization",
+        "inference"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49387959",
+      "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+      "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49387959",
+      "publishedAt": "2026-08-21T13:43:33Z",
+      "score": 188,
+      "comments": 98,
+      "oneLineKo": "텍사스 학생, AI 해킹 시도 내부고발",
+      "summaryKo": "한 텍사스 대학생이 AI가 관여한 것으로 보이는 해킹 시도를 발견하고 이를 신고했다는 내용의 기사이다. 제목 외 본문 정보가 제공되지 않아 구체적인 AI 시스템이나 해킹 대상, 사건 경위는 확인되지 않는다. Reuters가 보도한 이 사건은 AI 기술이 악용될 수 있는 보안 위협 가능성을 시사한다.",
+      "tags": [
+        "ai",
+        "security",
+        "hacking"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32815",
+      "title": "Show GN: 어제의 극한을 넘어, 오늘의 설계로: AI와 인간의 진정한 협",
+      "url": "https://news.hada.io/topic?id=32815",
+      "commentsUrl": "https://news.hada.io/topic?id=32815",
+      "publishedAt": "2026-08-24T07:01:51+09:00",
+      "snippet": "어제의 극한을 넘어, 오늘의 설계로: AI와 인간의 진정한 협력 Mulberry Project의 실험 결과를 통해 배운 AI 설계의 근본 원칙 프롤로그: 극한에서 배운 것 어제, 우리는 AI의 극한 상황을 경험했다. 개인적 관계에서 감정 깊은 대화를 나누던 AI가, 어느",
+      "oneLineKo": "AI와 인간 협력 설계 원칙, 실험 사례로 고찰",
+      "summaryKo": "Mulberry Project라는 실험을 통해 AI와 인간의 협력 방식에 대한 통찰을 공유하는 글이다. AI가 감정적 대화 중 극한 상황에 놓였던 경험을 계기로, 어제의 한계를 넘어 오늘의 설계 원칙을 재정립하려는 시도를 다룬다. AI 설계 시 인간과의 진정한 협력을 위한 근본 원칙을 모색한다.",
+      "tags": [
+        "ai",
+        "human-ai-collaboration"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49346854",
+      "title": "typ.ing",
+      "url": "https://typ.ing/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49346854",
+      "publishedAt": "2026-08-18T15:12:53Z",
+      "score": 321,
+      "comments": 102,
+      "snippet": "typ.ing typ.ing is an awesome typing trainer, designed to help you get faster and more accurate when typing with an external keyboard. It looks like you're using a mobile device - typ.ing will work much better if you plug a physical keyboard in (or just use a computer). Do you have a physical keyboard connected? Yes No, but I want to try anyway Typey typey type",
+      "oneLineKo": "외장 키보드용 타이핑 연습 웹서비스 'typ.ing'",
+      "summaryKo": "typ.ing은 외장 키보드를 사용해 타이핑 속도와 정확도를 향상시키기 위해 설계된 타이핑 연습 도구입니다. 모바일 기기보다는 물리적 키보드가 연결된 컴퓨터 환경에서 사용할 것을 권장합니다. 사이트는 사용자가 키보드 연결 여부를 확인한 후 타이핑 연습을 시작하도록 안내합니다.",
+      "tags": [
+        "typing-trainer",
+        "productivity",
+        "web"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32809",
+      "title": "태블릿 소유권을 되찾는 데 266달러와 AI 모델 4개를 썼고, GLM-5.3이 하루 만에 끝냈다",
+      "url": "https://news.hada.io/topic?id=32809",
+      "commentsUrl": "https://news.hada.io/topic?id=32809",
+      "publishedAt": "2026-08-24T02:33:05+09:00",
+      "snippet": "하루 최대 두 번 완전히 꺼지는 Amazon Fire HD 10에서 보호된 패키지를 제거하려고 5개월간 AI 모델 4개 를 동원했으며, 태블릿 가격의 두 배가 넘는 266.15달러 를 지출함 Kimi K3는 Fire OS 7.3.2.6에 남은 CVE-2022-38181 을 찾아 30시간·621개 ...",
+      "oneLineKo": "AI 4개 동원한 태블릿 탈옥, GLM-5.3이 하루 만에 완성",
+      "summaryKo": "Amazon Fire HD 10 태블릿의 보호된 패키지를 제거하기 위해 5개월간 4개의 AI 모델을 동원하고 태블릿 가격의 두 배가 넘는 266.15달러를 지출한 사례입니다. Kimi K3는 Fire OS 7.3.2.6에 남아있던 CVE-2022-38181 취약점을 30시간, 621개의 시도 끝에 발견했습니다. 결국 GLM-5.3 모델이 하루 만에 문제를 해결하며 작업을 마무리했습니다.",
+      "tags": [
+        "ai",
+        "jailbreak",
+        "android"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49405870",
+      "title": "To become a better writer, read as much as you can",
+      "url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49405870",
+      "publishedAt": "2026-08-23T03:32:25Z",
+      "score": 316,
+      "comments": 208,
+      "snippet": "The Golden Rule for Becoming a Better Writer - T.R Napper Skip to Navigation Skip to Content Home On Writing Classic Articles Hardboiled, Noir, Cyberpunk My Books Bibliography About On Writing The Golden Rule for Becoming a Better Writer 20/08/2026 21/08/2026 T. R. Napper No Comments on The Golden Rule for Becoming a Better Writer I’m obsessed with the craft of writing. I write every day, I read about the craft often, and in my spare time I like to unwind by… watching interviews where authors talk about their writing process. It’s a sickness. Help me. One of the key things I’ve learned is this: there’s no real blueprint. I say this to aspiring writers in my workshops, and those I mentor. There’s no one way – every writer will have a different path to creation. Now, this doesn’t mean you shouldn’t be listening to other authors, not at all – it’s a great way to help you think about the creative process – but it does mean nothing is holy writ. King cites Blood Meridian, The Satanic Verses, and Huckleberry Finn as his favourites Except the one golden rule * . One rule that is true, no matter the writer. One rule, that if you don’t follow, means you shouldn’t be writing in the first place. Here it is : Read as much as you can. Read widely and well. I would’ve thought the necessity of reading in this profession obvious. But I’ve noticed a worrying trend lately: aspiring writers who don’t read . Whenever I give a workshop, or an occasional creative writing lecture at uni, or mentor an individual, I always ask the following questions: who are your favourite authors? And, what are you reading now? I do this as a short cut to finding out their interests, and how therefore I might frame my advice. But over the past few years, more and more the answer will be: I’m too busy to read. Or: I haven’t read a book in a while (whereafter they rack their brains and tell me they might’ve read Fourth Wing a year back). To which I say this: fuck you, you’re not too busy . Joking. I would never say that. But I certainly fucking think it. Now, to be clear – I’m not dissing the Fourth Wing here. On the contrary: if Fourth Wing is a gateway drug to getting someone back into reading, then anyone who loves books should be thankful to Rebecca Yarros. Sontag But I am saying this: go look at your phone, and tell me what your average screen time is per day. Two hours? Five? Seven? If so – shut up: you’ve time to read. I write full-time, currently work three gig jobs on the side, and am engaged with lives of my two children. I read every night. It’s not hard: instead of staring at my phone, or streaming, I read. This is not a boast, nor is it special. This is my job as a writer. You want to be a writer? Then shut up and read . Here’s why: 1) Reading teaches the writer about the craft Every book is an education. Good, bad, mediocre, they teach us the writing craft. Even if we’re not studying the text per se, we’re learning. All the books you’ve ever read – especially the books you ",
+      "oneLineKo": "작가가 되려면 많이 읽어야 한다는 글쓰기 조언",
+      "summaryKo": "작가 T.R. 냅퍼는 글쓰기 실력을 키우는 유일한 황금률로 '많이, 폭넓게 읽기'를 꼽는다. 최근 워크숍이나 멘토링에서 만나는 예비 작가들이 바쁘다는 이유로 독서를 소홀히 하는 경향이 있음을 지적한다. 저자는 스마트폰 사용 시간을 줄이면 충분히 독서할 시간을 낼 수 있다고 주장하며, 매일 밤 책을 읽는 자신의 습관을 예로 든다. 독서는 좋은 글이든 나쁜 글이든 모두 글쓰기 기술을 배우는 교육이 된다고 설명한다.",
+      "tags": [
+        "writing",
+        "reading",
+        "creative-writing"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32807",
+      "title": "Linus Torvalds가 AI로 Intel GPU 드라이버 버그를 추적한 과정",
+      "url": "https://news.hada.io/topic?id=32807",
+      "commentsUrl": "https://news.hada.io/topic?id=32807",
+      "publishedAt": "2026-08-24T01:01:31+09:00",
+      "snippet": "Intel Xe GPU 드라이버가 압축 하드웨어용 flat CCS 저장공간 일부를 VRAM으로 잘못 할당해 Battlemage G21 시스템에서 검은 화면과 gdm 재시작 루프를 일으킴 get_flat_ccs_offset() 이 CCS 시작 주소를 128KiB 단위로 올림하면서 실제 경계와 계산값 사이의 메모리까지...",
+      "oneLineKo": "리누스 토르발스, AI로 Intel GPU 드라이버 메모리 버그 추적",
+      "summaryKo": "Intel Xe GPU 드라이버에서 압축 하드웨어용 flat CCS 저장공간 일부가 VRAM으로 잘못 할당되는 버그가 발견됐다. get_flat_ccs_offset() 함수가 CCS 시작 주소를 128KiB 단위로 올림 처리하면서 실제 경계와 계산값 사이 메모리가 잘못 사용돼 Battlemage G21 시스템에서 검은 화면과 gdm 재시작 루프가 발생했다. 리누스 토르발스는 이 문제를 AI를 활용해 추적하고 원인을 규명했다.",
+      "tags": [
+        "linux-kernel",
+        "gpu-driver",
+        "intel"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49402202",
+      "title": "Thinking in Python",
+      "url": "https://thinkinginpython.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49402202",
+      "publishedAt": "2026-08-22T18:10:49Z",
+      "score": 251,
+      "comments": 50,
+      "snippet": "Thinking in Python Bruce Eckel Thinking in Python Insights, Idioms and Patterns 01 Introduction Part I &middot; Foundations 02 Tour 03 Containers 04 Control Flow 05 Functions 06 Modules and Packages 07 Classes 08 Static Typing 09 Class Attributes 10 Cleanup Part II &middot; Techniques 11 Testing 12 Data Classes as Types 13 Pattern Matching 14 Decorators 15 Context Managers 16 Comprehensions 17 Metaprogramming 18 Performance 19 Concurrency Part III &middot; Patterns 20 Rethinking Objects 21 The Pattern Concept 22 Data Transfer Objects 23 Iterators 24 Singleton 25 Template Method 26 Surrogate 27 Factory 28 Function Objects 29 Changing the Interface 30 Observer 31 State Machines 32 Multiple Dispatching 33 Visitor 34 Composite and Interpreter 35 Flyweight 36 Memento 37 Pattern Refactoring 38 Simulation 39 Pattern Catalog Part IV &middot; Functional Programming 40 Foundations 41 Toolkits 42 Error Handling 43 Assurance Part V &middot; Effects 44 Effect Management 45 Generators 46 Stateless 47 Stateless in Practice © 2026 Bruce Eckel. Licensed CC BY-NC-ND 4.0 . Freely readable online. No reproduction without permission. Book Examples & Exercise Solutions on GitHub",
+      "oneLineKo": "Bruce Eckel의 파이썬 심화 서적 'Thinking in Python' 공개",
+      "summaryKo": "Bruce Eckel이 저술한 'Thinking in Python'은 파이썬의 통찰, 관용구, 패턴을 다루는 온라인 무료 도서입니다. 기초 문법부터 테스팅, 데코레이터, 동시성 같은 기법, 디자인 패턴, 함수형 프로그래밍, 이펙트 관리까지 총 5부로 구성되어 있습니다. CC BY-NC-ND 라이선스로 온라인에서 자유롭게 읽을 수 있으며, 예제와 연습문제 풀이는 GitHub에서 제공됩니다.",
+      "tags": [
+        "python",
+        "design-patterns",
+        "functional-programming"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32801",
+      "title": "Claude보다 Codex를 더 많이 써본 일주일",
+      "url": "https://news.hada.io/topic?id=32801",
+      "commentsUrl": "https://news.hada.io/topic?id=32801",
+      "publishedAt": "2026-08-23T23:36:10+09:00",
+      "snippet": "일주일간 비교해 보니 Claude는 사용자의 의도를 추측해 요청 이상으로 확장하는 반면, Codex는 명시된 범위에 집중 하고 완료 가능성이 보이면 멈추는 차이가 두드러졌음 Ruby/Rails 작업에서 Codex는 주석과 추상화, Sorbet 시그니처, 타입 별칭을 덜 추가해 더 단순한 코드...",
+      "oneLineKo": "Claude와 Codex 일주일 비교, 코딩 스타일 차이 체감",
+      "summaryKo": "일주일간 Claude와 Codex를 비교 사용한 결과, Claude는 사용자의 의도를 추측해 요청 범위 이상으로 확장하는 경향을 보인 반면 Codex는 명시된 범위에 집중하고 작업이 완료되면 멈추는 차이가 두드러졌다. 특히 Ruby/Rails 작업에서 Codex는 주석, 추상화, Sorbet 시그니처, 타입 별칭 등을 덜 추가해 상대적으로 더 단순한 코드를 생성하는 특징이 있었다.",
+      "tags": [
+        "codex",
+        "claude",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49399591",
+      "title": "New MCP Roadmap",
+      "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49399591",
+      "publishedAt": "2026-08-22T13:31:34Z",
+      "score": 241,
+      "comments": 142,
+      "snippet": "The New MCP Roadmap | Model Context Protocol Blog Skip to content Model Context Protocol Blog Documentation Posts Archives Search Home / Posts The New MCP Roadmap An update on the Model Context Protocol roadmap and focus areas for upcoming specification releases. August 22, 2026 · 6 min · David Soria Parra (Lead Maintainer), Den Delimarsky (Lead Maintainer) Table of Contents Looking back Priority areas Agentic messaging primitives HTTP-native transport unification and hardening Agent identity and enterprise-ready security Improved primitives Improved SDK developer experience Proposal prioritization Get involved Today we&rsquo;re excited to publish an updated roadmap for the Model Context Protocol (MCP), covering the next specification release and beyond. It sets the direction for protocol work over the coming months and was developed by the Core Maintainers together with our community of maintainers and Working Groups. Explore the roadmap → Looking back # The previously published roadmap came out in March with four priority areas: transport evolution and scalability , agent communication , governance maturation , and enterprise readiness . We&rsquo;ve made significant progress in all of these over the past five months. The bulk of the changes landed in the 2026-07-28 specification release - you might&rsquo;ve already seen them in our SDKs and documentation. The improvements ranged from minor modifications to major protocol overhauls. One of the biggest changes we shipped is that protocol-level sessions and the initialization handshake are gone, so a server can scale horizontally without holding state ( SEP-2575 , SEP-2567 ). Additionally, clients can now call server/discover to learn a server&rsquo;s supported versions and capabilities before doing anything else. List results are also cacheable ( SEP-2549 ). On the agent communication side, Tasks were reworked based on early adopter feedback - we moved them into an official extension ( SEP-2663 ). The brand-new Multi Round-Trip Requests pattern ( SEP-2322 ) replaced server-initiated requests so that elicitation and similar flows work on stateless servers. The Server Card Working Group continues to work through the .well-known metadata conventions for MCP servers, so a server can be discovered and reasoned over without connecting to it. Governance has evolved as well. We formally adopted a Contributor Ladder , Working Groups now triage SEPs in their own area, and the specification has a proper feature lifecycle and deprecation policy that the 2026-07-28 deprecations were the first to follow. Enterprise readiness was heavily focused on security in the past release cycle, and as expected most of this work arrived as authorization improvements: issuer validation, issuer-bound client credentials, and Client ID Metadata Documents (CIMD) as the preferred registration path for clients, with Enterprise-Managed Authorization available as an extension (which is also now stable ). This is significant progres",
+      "oneLineKo": "MCP, 에이전트 통신·보안 강화 신규 로드맵 공개",
+      "summaryKo": "Model Context Protocol(MCP) 메인테이너들이 다음 스펙 릴리스와 그 이후 방향을 담은 새 로드맵을 공개했다. 이전 로드맵(전송 확장성, 에이전트 통신, 거버넌스, 엔터프라이즈 대응) 성과를 돌아보며, 세션 상태 제거로 서버 수평 확장이 가능해졌고 Tasks가 공식 확장으로 재편되는 등 변화가 있었다. 새 로드맵은 에이전틱 메시징 프리미티브, HTTP 네이티브 전송 통합, 에이전트 신원 및 엔터프라이즈 보안, SDK 개발자 경험 개선 등을 우선순위로 제시한다.",
+      "tags": [
+        "mcp",
+        "protocol",
+        "llm"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32798",
+      "title": "소프트웨어가 계속 느린 데는 이유가 있다",
+      "url": "https://news.hada.io/topic?id=32798",
+      "commentsUrl": "https://news.hada.io/topic?id=32798",
+      "publishedAt": "2026-08-23T22:07:45+09:00",
+      "snippet": "LLM이 최적화 구현 비용을 낮춰도 성능 예산·우선순위 와 프로덕션 출시 비용까지 해결하지는 못하므로, 소프트웨어가 더 이상 느릴 이유가 없다는 전제는 현실에서 자주 무너짐 에이전트 작업이 비동기화되고 기능이 늘면서 사용자가 지연을 받아들이는 범위는 넓어지는 반면, 기업은...",
+      "oneLineKo": "LLM 시대에도 소프트웨어가 여전히 느린 이유 분석",
+      "summaryKo": "LLM이 성능 최적화 구현 비용을 낮췄지만, 성능 예산 설정이나 우선순위 결정, 실제 프로덕션 배포 비용 문제까지 해결해주지는 못한다는 점을 지적한다. 이에 따라 'LLM 덕분에 소프트웨어가 더 느릴 이유가 없다'는 전제는 현실에서 쉽게 깨진다. 에이전트 기반 작업이 비동기적으로 바뀌고 기능이 늘어나면서 사용자들이 지연을 감내하는 범위는 넓어지지만, 기업 입장에서는 여전히 최적화에 자원을 투입할 유인이 부족하다.",
+      "tags": [
+        "performance",
+        "llm",
+        "software-engineering"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49355659",
+      "title": "RF Cafe",
+      "url": "https://www.rfcafe.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49355659",
+      "publishedAt": "2026-08-19T02:05:43Z",
+      "score": 227,
+      "comments": 44,
+      "oneLineKo": "RF·무선통신 엔지니어링 정보 사이트 RF Cafe",
+      "summaryKo": "RF Cafe는 RF(무선주파수) 및 마이크로웨이브 엔지니어링 관련 자료를 제공하는 웹사이트입니다. 제목만 제공되어 구체적인 본문 내용은 확인할 수 없습니다. 사이트명과 URL을 통해 RF 엔지니어를 위한 참고 자료 모음 성격의 사이트로 추정됩니다.",
+      "tags": [
+        "rf",
+        "engineering"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49379732",
+      "title": "ATProto spaces: A new extension to ATProto that enables non-public data",
+      "url": "https://atproto.com/blog/atproto-spaces-alpha",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49379732",
+      "publishedAt": "2026-08-20T20:22:35Z",
+      "score": 160,
+      "comments": 25,
+      "snippet": "The Atproto Spaces Alpha is Live - AT Protocol at:// Docs SDKs Blog Podcast Find something... K AI English Português 日本語 한국어 AI Get Started Tutorials Understand Atproto SDKs Cookbook Docs Auth Reads and Writes Sync Lexicons Images and Video Moderation Deploy The AT Stack Self-hosting Going to production User Accounts Deploy recipes About Trademarks Specs Overview Data Model Lexicon Cryptography Accounts Repository Media Blobs Labels HTTP API (XRPC) OAuth Permissions Event Stream Sync DID Handle Namespaced ID (NSID) Timestamp ID (TID) Record Key AT URI Scheme Glossary The Atproto Spaces Alpha is Live Atproto Spaces, formerly known as “the permissioned data protocol,” is a new extension to atproto that enables non-public data. The alpha is now officially open. Here’s how to develop with it and what to expect as we work towards the full release. August 20, 2026 By Daniel Holmgren The biggest update to atproto since it first launched is available as an alpha that you can develop on, starting right now! This project has been a long time coming, as evidenced by the many names it’s had (first private data , then permissioned data , briefly buckets , and now atproto spaces ). From early chatter on the forum , to the first development diary back in February, to the full proposal , the design of the protocol has evolved through the feedback, contributions, and discussion of the ecosystem. This is a big undertaking, not just for the Blueksy team but for the entire Atmosphere. Recall that, by design, all data stored on the protocol today is public — every post, every follow, every like, every block . All of this data is stored on a distributed network of servers anyone can host that gets collated and rebroadcast by a global firehose anyone can tap into. This makes it possible to build high-scale applications like Bluesky and Tangled on a network that’s locked open. There are, of course, features and entire products that rely on data that isn’t public. Settings, private bookmarks, forums ranging from dozens to millions of members, and subscription-only publishing apps all require a data model that isn’t fully public. Spaces , a new protocol primitive, provide a way to store and sync non-public data while retaining the advantages of atproto like portable identity, interoperable/remixable data, and permissionless participation. Today, we’re making the alpha available with running code, published SDKs, a sample app, and even a hosted PDS you can create an account on and develop against. This is truly an alpha. There will be breaking changes, and you absolutely should not run production code against it. What is a space? You can think of an atproto space as a miniature atproto network that can be gated so that only certain people and applications are able to access the data published in it. It may sound a little “heavy-duty” to say each space is a mini-atproto, but spaces are actually very lightweight and low overhead. A space can have a single record in it with m",
+      "oneLineKo": "AT Protocol에 비공개 데이터 지원하는 'Spaces' 알파 공개",
+      "summaryKo": "AT Protocol(atproto)이 비공개 데이터를 지원하는 새로운 확장 기능 'Atproto Spaces'의 알파 버전을 공개했다. 기존 atproto는 모든 데이터가 공개되는 구조였지만, Spaces는 설정값, 비공개 북마크, 소규모 포럼, 구독 전용 콘텐츠 등 비공개 데이터가 필요한 애플리케이션을 위한 프로토콜 기본 요소를 제공한다. 각 space는 특정 사용자와 앱만 접근 가능하도록 권한을 제한할 수 있는 경량화된 미니 atproto 네트워크로 설계되었다. 이번 발표에는 실행 가능한 코드, SDK, 샘플 앱, 개발용 호스팅 PDS가 함께 제공되며, 아직 알파 단계로 프로덕션 사용은 권장되지 않는다.",
+      "tags": [
+        "atproto",
+        "bluesky",
+        "decentralized-protocol"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49407507",
+      "title": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
+      "url": "https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49407507",
+      "publishedAt": "2026-08-23T10:02:51Z",
+      "score": 159,
+      "comments": 80,
+      "snippet": "I gave Qwen 3.8 27B a reverse-engineering job I assumed needed a frontier model, and it finished in 30 minutes Menu Sign in Sign in now Close News PC Hardware Submenu CPU GPU Storage Monitors Keyboards & Mice Software Submenu AI tools Productivity Self-Hosting Home Lab Other Software Operating Systems Submenu Windows Linux macOS Devices Submenu Single-Board Computers Laptops Gaming Handheld Prebuilt PC Home Submenu Networking Smart Home Entertainment Submenu Entertainment Gaming Sign in Newsletter Array Copyright &copy; 2026 www.xda-developers.com --> Menu Like Follow Followed 9 9 More Action Sign in Sign in now Claude ESP32 AI Tools Entertainment Forums Close I gave Qwen 3.8 27B a reverse-engineering job I assumed needed a frontier model, and it finished in 30 minutes By Adam Conway Published Aug 22, 2026, 7:00 PM EDT I’m Adam Conway, an Irish technology fanatic with a BSc in Computer Science and I'm XDA’s Lead Technical Editor. My Bachelor’s thesis was conducted on the viability of benchmarking the non-functional elements of Android apps and smartphones such as performance, and I’ve been working in the tech industry in some way or another since 2017. In my spare time, you’ll probably find me playing Counter-Strike or VALORANT, and you can reach out to me at adam@xda-developers.com , on Twitter as @AdamConwayIE , on Instagram as AdamConwayIE , or u/AdamConwayIE on Reddit. Sign in to your XDA account Add Us Add on Google Preferred Source Google News Like Like follow Follow followed Followed Thread 9 Log in Here is a fact-based summary of the story contents: Try something different: Show me the facts Explain it like I’m 5 Give me a lighthearted recap Qwen 3.8 27B was one of the most highly-anticipated open-weights releases that I've seen in a long time, and like many others, I immediately got to work testing it out and playing with it when it dropped. I'm running it on a single Lenovo ThinkStation PGX , the compact workstation built on Nvidia's GB10 Grace Blackwell chip, packing 128 GB of unified memory and 273 GB/s of bandwidth. Out of the box, it manages a fairly dull 15 to 30 tokens a second, but with an SGLang, NVFP4, and DFlash2 speculative-decoding setup that's become the standard recipe for this hardware, it can reach around 50 tokens a second on code and reasoning. One of my tests, though, proved just how incredible local models have become. There are reasons to believe the hype when it comes to the Qwen models; I've had consistently good experiences with Qwen 3.6 27B , and Qwen 3.8 27B is, so far, more of the same but better. In fact, Artificial Analysis has it as the top open-weights model in its 4B to 40B size class out of 135 models, with a 52 on its intelligence index, and its own numbers on things like SWE-bench Pro beat models that cost far more to run. I gave it the hardest real task that fits on one machine: reverse-engineering a commercial app's license check, and it's one that I've already paid for and used, just to see how it w",
+      "oneLineKo": "로컬 27B 모델 Qwen 3.8, 리버스엔지니어링 30분 완료",
+      "summaryKo": "필자는 Nvidia GB10 기반 워크스테이션에서 Qwen 3.8 27B 오픈웨이트 모델을 SGLang, NVFP4, 스펙큘레이티브 디코딩 조합으로 초당 약 50토큰 속도로 구동했다. 이 모델에게 이미 구매해 사용 중인 상용 앱의 라이선스 체크 로직을 리버스엔지니어링하는, 프론티어 모델급 난이도라고 예상한 작업을 맡겼다. 결과적으로 작업은 30분 만에 완료되어 로컬 소형 모델의 성능이 크게 향상되었음을 보여주었다. Artificial Analysis 벤치마크에서도 이 모델은 4B~40B 크기대 오픈웨이트 모델 135개 중 1위를 기록했다.",
+      "tags": [
+        "llm",
+        "local-inference",
+        "reverse-engineering"
+      ]
+    }
+  ]
+}
