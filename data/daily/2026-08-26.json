@@ -1,0 +1,277 @@
+{
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-25T22:29:42.876Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32868",
+      "title": "Show GN: forge-harness — AI가 쓴 코드를 커밋 전에 막는 Claude Code 게이트 하네스 (오픈소스)",
+      "url": "https://news.hada.io/topic?id=32868",
+      "commentsUrl": "https://news.hada.io/topic?id=32868",
+      "publishedAt": "2026-08-25T13:11:34+09:00",
+      "snippet": "AI 에이전트에게 코드를 맡기면서 「이거 믿어도 되나」를 매번 손으로 확인하는 게 싫어서, 검증을 기계로 굳혀 두는 하네스를 만들고 있습니다. git 훅으로 커밋 직전에 도는 검사들이고, 통과 못 하면 커밋이 멈춥니다. 언어나 프레임워크를 가리지 않고 변경된 내용 자체를 봅니다. 설치 없이 npx @chrono-meta/f...",
+      "oneLineKo": "AI 코드 커밋 전 검증하는 오픈소스 Claude Code 게이트 하네스",
+      "summaryKo": "forge-harness는 AI 에이전트가 작성한 코드를 신뢰할 수 있는지 매번 수동 확인하는 불편을 해소하기 위해 만들어진 오픈소스 도구입니다. git 훅을 이용해 커밋 직전에 자동 검사를 수행하며, 검사를 통과하지 못하면 커밋 자체를 막습니다. 특정 언어나 프레임워크에 종속되지 않고 변경된 코드 내용 자체를 분석하며, 설치 없이 npx로 바로 사용할 수 있습니다.",
+      "tags": [
+        "git-hooks",
+        "claude-code",
+        "ci-cd"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49438052",
+      "title": "Dolly Parton has died",
+      "url": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49438052",
+      "publishedAt": "2026-08-25T18:02:22Z",
+      "score": 967,
+      "comments": 145,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;entertainment&#x2F;dolly-parton-death\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;entertainment&#x2F;dolly-parton-de...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;arts&#x2F;music&#x2F;dolly-parton-dead.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;arts&#x2F;music&#x2F;dolly-parton-d...</a>, <a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;w4vsE\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;w4vsE</a><p><a href=\"https:&#x2F;&#x2F;www.hollywoodreporter.com&#x2F;music&#x2F;music-news&#x2F;dolly-parton-dead-country-music-1236680877&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.hollywoodreporter.com&#x2F;music&#x2F;music-news&#x2F;dolly-par...</a>",
+      "oneLineKo": "컨트리 가수 돌리 파튼 별세 소식",
+      "summaryKo": "가디언, CNN, 뉴욕타임스 등 주요 매체가 컨트리 음악 가수 돌리 파튼의 사망 소식을 보도했다. 본문에는 관련 기사 링크만 제공되어 있어 구체적인 사망 원인이나 경위는 확인되지 않는다. 이는 IT/기술과 무관한 연예·문화 뉴스로, Hacker News에 링크가 공유된 사례다.",
+      "tags": [
+        "news",
+        "entertainment"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1vxl0w4",
+      "title": "Running a Java Spring Boot app on a 512 MB VPS with lightweight monitoring",
+      "url": "https://www.reddit.com/r/programming/comments/1vxl0w4/running_a_java_spring_boot_app_on_a_512_mb_vps/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1vxl0w4/running_a_java_spring_boot_app_on_a_512_mb_vps/",
+      "publishedAt": "2026-08-25T00:49:17+00:00",
+      "snippet": "I wanted to see how a fairly representative Java Spring Boot application behaves on a very small VPS, especially the difference between configured heap and actual JVM process memory. The test app uses Spring Boot 3.5.x, Spring MVC, JPA/Hibernate, H2, embedded Tomcat, Actuator, scheduled work, and outbound HTTP. I also kept lightweight monitoring on the same machine. The original 256 MB configuration was too tight. With 512 MB RAM + 256 MB swap , the application completed the test reliably. Full setup and measurements are in the linked article. Since then I’ve also managed to get the same application working on a 256 MB VPS with swap using JDK 25 Compact Object Headers and tighter JVM settings . I’m preparing that as a separate follow-up experiment. submitted by /u/fykup [link] [comments]",
+      "oneLineKo": "512MB VPS에서 Spring Boot 앱 구동 실험",
+      "summaryKo": "Spring Boot 3.5.x 기반 애플리케이션(Spring MVC, JPA/Hibernate, H2, 임베디드 Tomcat, Actuator 등)을 512MB RAM VPS에서 구동하며 힙 설정과 실제 JVM 프로세스 메모리 차이를 테스트했다. 256MB 구성은 너무 타이트했고, 512MB RAM에 256MB swap을 추가한 구성에서는 안정적으로 테스트를 완료했다. 이후 JDK 25의 Compact Object Headers와 더 타이트한 JVM 설정을 활용해 256MB VPS에서도 swap과 함께 구동에 성공했으며, 이를 별도 후속 실험으로 준비 중이다.",
+      "tags": [
+        "spring-boot",
+        "jvm",
+        "vps"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32879",
+      "title": "Apple, 성능과 AI 연산을 크게 높인 M6·M5 Ultra 공개",
+      "url": "https://news.hada.io/topic?id=32879",
+      "commentsUrl": "https://news.hada.io/topic?id=32879",
+      "publishedAt": "2026-08-26T00:32:50+09:00",
+      "snippet": "M6 는 Apple 최초의 2나노미터 칩 이며, M5 Ultra 는 Apple Silicon 최초의 쿼드 다이 아키텍처 를 적용. 온디바이스 AI부터 전문 3D·영상·과학 작업까지 데스크톱 연산 범위를 넓힘 M6는 12코어 CPU/12코어 GPU/듀얼 16코어 Neural...",
+      "oneLineKo": "Apple, 2나노 M6·쿼드다이 M5 Ultra 공개",
+      "summaryKo": "Apple이 최초의 2나노미터 공정 칩인 M6와 Apple Silicon 최초의 쿼드 다이 아키텍처를 적용한 M5 Ultra를 공개했다. M6는 12코어 CPU, 12코어 GPU, 듀얼 16코어 Neural Engine을 탑재해 온디바이스 AI 연산 성능을 강화했다. M5 Ultra는 데스크톱급 연산 범위를 넓혀 전문 3D·영상·과학 작업까지 지원한다.",
+      "tags": [
+        "apple",
+        "chip",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49433292",
+      "title": "Apple introduces M6 and M5 Ultra",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49433292",
+      "publishedAt": "2026-08-25T13:01:22Z",
+      "score": 867,
+      "comments": 795,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;apple-debuts-its-most-powe...</a><p><a href=\"https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;m6-mac-mini-vs-m4-mac-mini-here-are-all-the-new-features&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;m6-mac-mini-vs-m4-mac-mini-he...</a>",
+      "oneLineKo": "애플, M6·M5 Ultra 칩 공개",
+      "summaryKo": "애플이 성능과 AI 연산 능력을 크게 향상시킨 신형 칩 M6와 M5 Ultra를 발표했다. 이번 칩들은 애플 역대 최강 성능을 표방하며 맥 라인업에 탑재될 예정이다. 관련하여 M6 맥 미니와 기존 M4 맥 미니의 기능 비교 등도 함께 보도되었다.",
+      "tags": [
+        "apple",
+        "chip",
+        "m6"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1vxz0z4",
+      "title": "EVE Online: The Move to Python 3 Begins!",
+      "url": "https://www.reddit.com/r/programming/comments/1vxz0z4/eve_online_the_move_to_python_3_begins/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1vxz0z4/eve_online_the_move_to_python_3_begins/",
+      "publishedAt": "2026-08-25T12:53:38+00:00",
+      "snippet": "submitted by /u/output_broadcast [link] [comments]",
+      "oneLineKo": "EVE 온라인, 파이썬3 전환 착수",
+      "summaryKo": "온라인 게임 EVE Online 개발사가 게임 서버 및 관련 시스템을 Python 2에서 Python 3로 전환하는 작업을 시작했다고 발표했다. 이는 오래된 레거시 코드베이스를 최신 언어 버전으로 마이그레이션하는 대규모 작업의 시작을 알리는 소식이다. 구체적인 기술적 세부사항은 본문에 포함되어 있지 않다.",
+      "tags": [
+        "python",
+        "legacy-migration",
+        "eve-online"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32878",
+      "title": "Show GN: homebutler - 홈서버 관리에 필요한 걸 한 바이너리에 담고 AI까지 붙였습니다",
+      "url": "https://news.hada.io/topic?id=32878",
+      "commentsUrl": "https://news.hada.io/topic?id=32878",
+      "publishedAt": "2026-08-25T23:30:57+09:00",
+      "snippet": "홈서버 몇 대를 관리하면서 필요한 걸 하나씩 붙이다 보니 CLI, TUI, 웹 UI, MCP 서버가 한 바이너리에 다 들어갔습니다. Go 단일 바이너리라 런타임 의존성은 없습니다. 컨테이너 상태 확인, 재시작 감지, 백업 복원 검증, 포트 스캔, WoL 정도를 하고 MCP를 붙이면 AI가 같은 기능을 도구",
+      "oneLineKo": "홈서버 관리 올인원 Go 바이너리, MCP로 AI 연동까지",
+      "summaryKo": "홈서버 여러 대를 관리하며 필요한 기능을 하나씩 추가하다 보니 CLI, TUI, 웹 UI, MCP 서버가 모두 포함된 단일 Go 바이너리가 완성되었습니다. 런타임 의존성 없이 컨테이너 상태 확인, 재시작 감지, 백업 복원 검증, 포트 스캔, WoL(Wake on LAN) 기능을 제공합니다. MCP 서버를 통해 AI가 동일한 기능을 도구로 활용할 수 있도록 연동했습니다.",
+      "tags": [
+        "go",
+        "homelab",
+        "mcp"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49433316",
+      "title": "New Mac Studio with M5 Max and M5 Ultra",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49433316",
+      "publishedAt": "2026-08-25T13:03:17Z",
+      "score": 662,
+      "comments": 403,
+      "snippet": "Apple introduces new Mac Studio with M5 Max and M5 Ultra - Apple Apple Store Mac iPad iPhone Watch Vision AirPods TV & Home Entertainment Accessories Support 0 + Newsroom Open Newsroom navigation Close Newsroom navigation Apple Services Apple Stories Search Newsroom Close opens in new window PRESS RELEASE August 25, 2026 Apple introduces new Mac Studio with M5 Max and M5 Ultra — the ultimate desktop for on‑device AI and the most extreme pro workflows Apple’s most powerful Mac raises the bar for local AI with up to 4.3x faster performance, more advanced graphics, up to 512GB of unified memory, and extensive connectivity Apple unveils the new Mac Studio, the most powerful Mac ever, featuring M5 Max and M5 Ultra. CUPERTINO, CALIFORNIA Apple today announced the new Mac Studio , featuring M5 Max and the all-new M5 Ultra, delivering a monumental leap in AI performance and even faster graphics for the most demanding pro workflows, all in its signature compact design that lives right on a user’s desk. Now featuring up to 4.3x faster AI performance, 1 up to 2x faster storage, 2 up to 1.8x faster graphics, 1 and up to 1.3x faster CPU speed, 1 along with higher memory bandwidth, Mac Studio empowers creatives, developers, AI researchers, data scientists, and more to push the boundaries of what they can do. Mac Studio with M5 Max features an 18-core CPU, an up-to-40-core GPU with Neural Accelerators built into each core, and up to 128GB of unified memory, accelerating complex pro and AI workloads. With the powerful M5 Ultra, Mac Studio scales up to a 36-core CPU, up to an 80-core GPU, and a staggering 512GB of unified memory, enabling users to run enormous LLMs entirely on device. Wi-Fi 7 and Bluetooth 6 come to Mac Studio for the first time, while Thunderbolt 5 rounds out its extensive connectivity, so users can take advantage of blazing-fast external storage, PCIe expansion chassis, and powerful hub solutions for the most intense workloads. Thunderbolt 5 also enables multiple Mac Studio systems to be clustered, bringing up to 3x faster performance for distributed AI inference when compared to a single system. 1 Together with Studio Display and Studio Display XDR, along with the power of macOS 27 and the next generation of Apple Intelligence, 3 including Siri AI, 4 it is the ultimate pro desktop. The new Mac Studio is available for pre-order starting today, with availability beginning September 22. “Mac Studio is the ultimate desktop for on-device AI and the world’s most demanding pro workflows, relied on by users for its tremendous performance and extensive pro connectivity, all in a quiet, compact design that sits right on your desk — and today, we’re pushing the boundaries even further,” said Johny Srouji, Apple’s chief hardware officer. “With the powerful M5 Max and the incredible capabilities of M5 Ultra, Mac Studio ushers in a new era of desktop computing, delivering huge performance gains for pro workloads and AI inference with frontier-class models. ",
+      "oneLineKo": "애플, M5 맥스·울트라 탑재 새 맥 스튜디오 발표",
+      "summaryKo": "애플이 M5 Max와 M5 Ultra를 탑재한 새로운 Mac Studio를 발표했다. AI 성능 최대 4.3배, 그래픽 최대 1.8배 향상되었으며 M5 Ultra 모델은 최대 512GB 통합 메모리를 지원해 대형 LLM을 온디바이스로 실행할 수 있다. Thunderbolt 5, Wi-Fi 7, Bluetooth 6를 새로 지원하며 여러 대를 클러스터링해 분산 AI 추론 성능을 최대 3배까지 높일 수 있다. 사전주문은 오늘부터 시작되며 9월 22일 출시된다.",
+      "tags": [
+        "apple",
+        "mac-studio",
+        "on-device-ai"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32874",
+      "title": "Show GN: Macchiato - 내 에이전트를 아이폰으로 원격 조종하는 앱",
+      "url": "https://news.hada.io/topic?id=32874",
+      "commentsUrl": "https://news.hada.io/topic?id=32874",
+      "publishedAt": "2026-08-25T16:07:52+09:00",
+      "snippet": "Claude Code 긴 작업을 걸어두고 책상 앞에 앉아있는 게 반복돼서 만들었습니다. 에이전트는 내 컴퓨터에서 돌아가고, 나는 아이폰으로 원격 조종합니다. 공식 원격 제어는 터미널을 폰에 옮겨 놓은 느낌이었습니다. 이건 에이전트랑 대화하려고 만든 AI 네이티브 원격 조종입니다. 텔레그램 봇도 썼습",
+      "oneLineKo": "Claude Code 에이전트를 아이폰으로 원격 조종하는 앱 출시",
+      "summaryKo": "개발자가 Claude Code 등 AI 코딩 에이전트의 긴 작업을 컴퓨터 앞에서 계속 지켜봐야 하는 불편함을 해소하기 위해 Macchiato라는 앱을 만들었습니다. 기존 공식 원격 제어가 터미널을 폰으로 옮긴 수준이었다면, 이 앱은 에이전트와 대화하듯 상호작용할 수 있는 AI 네이티브 방식의 원격 조종을 지향합니다. 에이전트는 로컬 컴퓨터에서 실행되고 사용자는 아이폰으로 원격 제어하며, 텔레그램 봇 연동 기능도 포함되어 있습니다.",
+      "tags": [
+        "ai-agent",
+        "claude-code",
+        "ios"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49437283",
+      "title": "Nitter project received cease and desist",
+      "url": "https://github.com/zedeus/nitter/issues/1442",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49437283",
+      "publishedAt": "2026-08-25T17:08:21Z",
+      "score": 436,
+      "comments": 298,
+      "snippet": "All public nitter instances do not work. · Issue #1442 · zedeus/nitter · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} This repository was archived by the owner on Aug 25, 2026. It is now read-only. zedeus / nitter Public archive Uh oh! There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Fork 783 Star 13.5k Code Issues 133 Pull requests 23 Discussions Actions Wiki Security and quality 0 Insights Additional navigation options Code Issues Pull requests Discussions Actions Wiki Security and quality Insights This repository was archived by the owner on Aug 25, 2026. It is now read-only. All public nitter instances do not work. #1442 Copy link Copy link Open Open All public nitter instances do not work. #1442 Copy link Description AlexandrPutenikhin opened on Aug 25, 2026 Issue body actions https://web.archive.org/web/20260825143445/https://twiiit.com/ Every instance has the same Instance has been rate limited. error. Reactions are currently unavailable Metadata Metadata Assignees No one assigned Labels ",
+      "oneLineKo": "트위터 대체 서비스 Nitter, C&D로 프로젝트 아카이브",
+      "summaryKo": "오픈소스 트위터 프론트엔드인 Nitter 프로젝트가 cease and desist를 받은 것으로 알려졌으며, 저장소는 소유자에 의해 archive 처리되어 읽기 전용으로 전환되었다. 이에 따라 모든 공개 Nitter 인스턴스가 rate limited 오류로 작동하지 않는 상황이다. 이슈에는 인스턴스 접속 불가 문제가 보고되었다.",
+      "tags": [
+        "nitter",
+        "open-source",
+        "twitter"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32854",
+      "title": "AI 의존이 코딩 전문성의 성장 경로를 무너뜨릴 수 있음",
+      "url": "https://news.hada.io/topic?id=32854",
+      "commentsUrl": "https://news.hada.io/topic?id=32854",
+      "publishedAt": "2026-08-25T06:33:40+09:00",
+      "snippet": "AI 코딩 도구는 숙련자가 조정·검토할 때 가장 유용하지만, 초보자가 전문성을 쌓는 데 필요한 시행착오와 마찰 을 우회해 차세대 개발자의 성장 경로를 약화할 수 있음 강한 AI 지원을 받은 초보자는 계획 단계를 건너뛰고 실력에 대한 착각 에 빠진 반면, 제안을 제...",
+      "oneLineKo": "AI 코딩 도구, 초보자 성장 저해 우려",
+      "summaryKo": "AI 코딩 도구는 숙련자가 결과물을 조정하고 검토할 때 가장 유용하지만, 초보자에게는 전문성 형성에 필요한 시행착오와 마찰을 건너뛰게 만들 수 있음이 지적된다. 강한 AI 지원을 받은 초보자는 계획 단계를 생략하고 자신의 실력을 과대평가하는 착각에 빠지는 경향을 보였다. 이는 차세대 개발자들의 정상적인 성장 경로를 약화시킬 수 있다는 우려로 이어진다.",
+      "tags": [
+        "ai-coding",
+        "developer-education",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49433450",
+      "title": "New Mac mini, featuring M6 and M5 Pro",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49433450",
+      "publishedAt": "2026-08-25T13:13:00Z",
+      "score": 390,
+      "comments": 216,
+      "snippet": "Apple unveils a more powerful Mac mini featuring the all-new M6 and M5 Pro - Apple Apple Store Mac iPad iPhone Watch Vision AirPods TV & Home Entertainment Accessories Support 0 + Newsroom Open Newsroom navigation Close Newsroom navigation Apple Services Apple Stories Search Newsroom Close opens in new window PRESS RELEASE August 25, 2026 Apple’s new Mac mini, featuring M6 and M5 Pro, delivers a massive leap in AI performance, supercharging the leading desktop for always-on agentic computing Mac mini delivers up to 4x faster AI performance, up to 2x faster graphics and storage, along with enhanced connectivity — all in its ultracompact footprint Users can do it all with the ultracompact Mac mini featuring the all-new M6 or powerful M5 Pro — from advanced productivity to running AI models on device, and more. CUPERTINO, CALIFORNIA Apple today announced the new Mac mini with the all-new M6 and powerful M5 Pro, delivering a dramatic boost in performance and even more versatility in its supersmall desktop design. With M6, Mac mini now delivers up to 4x faster AI performance, 1 2x faster storage 2 and graphics, 1 and 40 percent faster CPU performance. 1 Everything on Mac mini with M6 feels incredibly fast, from everyday productivity tasks to agentic AI workflows. Mac mini with M5 Pro delivers even more pro-level performance to breeze through demanding projects, from video production to game development. And this new level of performance takes on business workflows with ease whether Mac mini is being used as a primary desktop or for always-on, deskside agentic computing. Both Mac mini models include Wi-Fi 7 and Bluetooth 6, as well as upgraded 2.5Gb Ethernet, with a 10Gb option available. Combined with the power of macOS 27 and the next generation of Apple Intelligence, 3 including Siri AI, 4 the new Mac mini is a tremendous upgrade for existing and new-to-Mac users. The new Mac mini is available for pre-order starting today, with availability beginning September 22. “Mac mini has always been our most versatile Mac. Whether it’s being used as a home computer, powering a professional studio, or as an always-on agentic device, it’s the little Mac that can do it all,” said Johny Srouji, Apple’s chief hardware officer. “Today, we’re taking this versatility even further. With a more powerful CPU and graphics, Neural Accelerators in the GPU, and higher memory bandwidth, Mac mini with M6 delivers a whole new level of AI performance. And with up to an 18-core CPU and 20-core GPU, Mac mini with M5 Pro is an ultracompact powerhouse for complex pro workflows. We can’t wait to see all the incredible ways people will use it next.” Mac mini is more versatile than ever, whether it’s powering a home setup, driving professional studio workflows, or serving as a capable desktop solution for agentic AI workloads in the enterprise. Mac mini with the All-New M6 A Pint-Sized AI Powerhouse Mac mini with M6 can power through everything from productivity tasks to creative proj",
+      "oneLineKo": "애플, M6·M5 Pro 탑재 신형 Mac mini 발표",
+      "summaryKo": "애플이 M6과 M5 Pro 칩을 탑재한 새로운 Mac mini를 공개했다. M6 모델은 최대 4배 빠른 AI 성능, 2배 빠른 그래픽·저장장치 성능, 40% 향상된 CPU 성능을 제공하며, M5 Pro는 최대 18코어 CPU와 20코어 GPU로 영상 제작·게임 개발 등 프로급 작업을 지원한다. 두 모델 모두 Wi-Fi 7, Bluetooth 6, 2.5Gb 이더넷(10Gb 옵션)을 지원하며 macOS 27과 차세대 Apple Intelligence, Siri AI와 결합된다. 사전 주문은 오늘부터 시작되며 9월 22일 출시된다.",
+      "tags": [
+        "apple",
+        "mac-mini",
+        "apple-silicon"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32853",
+      "title": "Varkos - 대화를 넘어 Skyrim 세계를 인식하고 행동하는 AI 동료",
+      "url": "https://news.hada.io/topic?id=32853",
+      "commentsUrl": "https://news.hada.io/topic?id=32853",
+      "publishedAt": "2026-08-25T04:39:44+09:00",
+      "snippet": "Varkos는 대화만 생성하는 NPC를 넘어 Skyrim의 실제 세계 상태를 인식 해 전투·수색·전리품 수집·운반·아이템 전달과 복합 명령을 수행하는 실시간 AI 동료 조건부 명령과 숨바꼭질 같은 작업을 지속 계획 으로 관리하며, 미래 사건을 기다리고 대상과 진행 상태를...",
+      "oneLineKo": "Skyrim 세계를 인식하고 행동하는 AI 동료 Varkos",
+      "summaryKo": "Varkos는 단순 대화 생성 NPC를 넘어 Skyrim의 실제 게임 세계 상태를 인식하는 실시간 AI 동료다. 전투, 수색, 전리품 수집, 운반, 아이템 전달 등 복합 명령을 수행할 수 있다. 조건부 명령이나 숨바꼭질 같은 작업을 지속적인 계획으로 관리하며, 미래 사건을 기다리고 대상 및 진행 상태를 추적하는 기능을 갖췄다.",
+      "tags": [
+        "game-ai",
+        "npc",
+        "skyrim"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49437069",
+      "title": "My Friend Aaron",
+      "url": "https://rorz.io/writing/my-friend-aaron",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49437069",
+      "publishedAt": "2026-08-25T16:53:33Z",
+      "score": 369,
+      "comments": 91,
+      "snippet": "My Friend Aaron — Rory McMeekin Rory McMeekin Writing Work Images Music Lists About Posts My Friend Aaron 21st August 2026 The following is a short story. * * * * * This one is about my friend, Aaron. I met him at school, and in our first year when we were eleven years old I told him I wanted to be his best friend but he said he already had a best friend. He was probably the smartest person in our year, but he didn't apply himself academically at all. Instead he was always becoming obsessed with things that weren't anything to do with studying. By the time we were seventeen he was spending all of his evenings playing World of Warcraft , which he was ranked top-sixth in the world at. I remember it was top-sixth because we'd made a bet that if he got into the top five I would let him copy my coursework for our final year Physics exam. This wasn't long after he had tried to convince everyone that he was going to be a professional football player despite being considerably overweight. He had an addictive personality. When he invariably didn't get the grades he needed to finish school and everyone from our friendship group went off to university, Aaron stayed behind and sort of just faded into the background of our collective consciousness. He was the person we would speak about at the pub reunions that nobody invited him to. 'What do you think happened to Aaron?' someone would ask. 'Do you remember the time he told us that he was going to become Prime Minister?’ 'How about when he said he wanted to become a professional quiz show contestant?’ someone else would add. One afternoon during Christmas break we ventured into a pub in the town where we all grew up and Aaron was working behind the bar. He pretended not to see us and we turned around and left in a sheepish hurry. I still cringe about that, especially because I was one of the few people who kept in occasional contact with Aaron. I had a soft spot for him because he had stuck up for me through a period of bullying much earlier on at school. He had slapped one of my bullies so hard that they had to have emergency surgery to reattach their right retina. Aaron got suspended for two weeks for that. For a long time I felt that I owed him. Many of my friends studied subjects like Maths, Physics, or Economics and went on to become financial analysts and traders working in the City of London. Ironically it was the sort of thing that Aaron was built for as stock trading is a good fit for someone with an addictive personality: every day is a high-octane day of risk and reward. So naturally, when the unregulated prediction markets came along Aaron was one of the first in line to sign up for an account. Prediction markets were websites where anyone could bet on anything. You could put money on mundane things like the price of oil going up or much more esoteric outcomes like when a video game would get released, or how many \"likes\" a pop star's social media post would garner. Aaron had spent several years d",
+      "oneLineKo": "친구 아론의 삶과 예측시장 중독을 그린 단편소설",
+      "summaryKo": "이 글은 학창 시절부터 이어진 화자와 친구 아론의 관계를 다룬 짧은 소설이다. 아론은 뛰어난 재능에도 학업에 소홀했고, 게임과 여러 엉뚱한 목표에 몰두하는 중독적 성향을 지닌 인물로 묘사된다. 졸업 후 친구들과 멀어진 아론은 훗날 규제되지 않은 예측시장(prediction market)에 빠지게 되며 이야기가 전개된다. 기술적 내용보다는 인간관계와 중독을 다룬 감성적 에세이 형식의 글이다.",
+      "tags": [
+        "prediction-market",
+        "essay"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49432319",
+      "title": "Don't Wordle",
+      "url": "https://dontwordle.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49432319",
+      "publishedAt": "2026-08-25T11:49:48Z",
+      "score": 279,
+      "comments": 110,
+      "snippet": "Don't Wordle Don't Wordle Don't Wordle is a free daily word game. Like Wordle, you get six tries—but here the goal is to avoid guessing the hidden word. Use the clues from each guess (green for correct letter and position, yellow for correct letter wrong place, gray for letters not in the word) to eliminate possibilities. Your job is to keep as many valid words in play as you can without accidentally guessing the answer. Each day has one puzzle. You can use a limited number of undos to take back a guess if you get too close. Track your stats and share your results with friends. Play Don't Wordle · How to Play · Tips · FAQ · Privacy Policy · About Enable JavaScript to play Don't Wordle. How to Play · FAQ · Privacy · About .",
+      "oneLineKo": "정답 피하기가 목표인 워들 변형 게임",
+      "summaryKo": "Don't Wordle는 기존 Wordle과 반대로 정답 단어를 맞히지 않는 것이 목표인 무료 일일 단어 게임입니다. 여섯 번의 기회 동안 초록·노랑·회색 힌트를 활용해 가능한 단어를 좁혀가되, 실수로 정답을 맞히지 않도록 주의해야 합니다. 제한된 횟수의 되돌리기 기능을 제공하며, 매일 하나의 퍼즐과 결과 공유·통계 기능을 지원합니다.",
+      "tags": [
+        "wordle",
+        "word-game",
+        "puzzle"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49434820",
+      "title": "Bomb fishing is wreaking havoc on Indonesia's coral reefs",
+      "url": "https://e360.yale.edu/digest/bomb-fishing-coral-reefs",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49434820",
+      "publishedAt": "2026-08-25T14:29:32Z",
+      "score": 231,
+      "comments": 127,
+      "snippet": "Bomb Fishing Is Wreaking Havoc on Indonesia's Coral Reefs - Yale E360 Close / ← → Search Search Yale Environment 360 Published at the Yale School of the Environment Explore Search About E360 E360 Digest August 25, 2026 Bomb Fishing Is Wreaking Havoc on Indonesia’s Coral Reefs This article was originally published by Inside Climate News and is reproduced here as part of the Climate Desk collaboration. A bomb-fished coral reef in Sulawesi, Indonesia. The Ocean Agency Fishers operating off the coast of Sulawesi, Indonesia, are detonating more than 8,000 underwater explosives each year, researchers estimate. The practice is turning picturesque coral reefs to “rubble.” Nicknamed the “Amazon of the Seas,” the Coral Triangle is the world’s most biologically diverse marine ecosystem. Sink below the surface and you’ll encounter the sound of a vibrant symphony of snapping shrimp, crunching crustaceans, and feeding fish. But then the rhythmic music of life will dissolve into eerie silence, punctured only by the plosive boom of detonating bombs. Off the coast of Indonesia’s Spermonde Archipelago, underwater microphones captured over 3,500 explosions in just 3,600 hours of recording, according to researchers from the Zoological Society of London. The source? Blast fishing — a globally banned technique that uses plastic bottles packed with explosives to stun and kill everything in a 90-foot radius. The highly destructive practice has been documented in at least 34 countries, from Lebanon and Libya to Brazil and Ecuador. While fishers predominantly use the method to catch fish for sale at local markets — identifiable by their ruptured internal organs and burst swim bladders — it’s also a grave threat to colorful coral reef habitats. “Bomb fishing is quite likely the leading cause of reef loss in this area,” said Ben Williams, the paper’s lead author, noting that a single bomb can wreak 200 square feet of destruction. “These picturesque reefs get converted into a landscape that looks like the moon. It’s just rubble and dead coral with very little sign of life.” In 2023, researchers from Britain and Indonesia snorkeled down and anchored $150 audio recorders to short stakes in the seafloor. Using A.I. software — which the team has now made open-source — they scoured 16 months of audio in just a few hours to identify possible detonations. While the A.I. filtered suspected cases, each suggested sound wave was then manually verified to assess if it stemmed from a bomb or a misfiring boat engine. With sound traveling over four times faster through water than air, the team of marine scientists were able to detect detonations from over 10 miles away. “When [the bombs] are close, it’s so loud that it can shake you out of your skin,” said Williams. “But if you put your head up on the surface, you probably can’t even see the boat that did it.” Accounting for stormy-season setbacks and spearfishermen who tampered with the recorders, the team calculated that there were likel",
+      "oneLineKo": "인도네시아 폭발물 어업, 산호초 파괴 가속",
+      "summaryKo": "인도네시아 술라웨시 인근 해역에서 매년 8,000건 이상의 수중 폭발이 발생해 산호초가 잔해로 변하고 있다. 런던동물학회 연구진은 수중 마이크로 3,600시간 녹음 중 3,500건 이상의 폭발음을 포착했으며, AI로 폭발 의심 소리를 걸러낸 뒤 수작업으로 검증하는 방식을 사용했다. 이 불법 폭탄 어업은 90피트 반경의 생물을 죽이고 산호 서식지를 초토화하는 주요 원인으로 지목됐다. 연구팀은 이 AI 탐지 소프트웨어를 오픈소스로 공개했다.",
+      "tags": [
+        "environment",
+        "ai",
+        "marine-conservation"
+      ]
+    }
+  ]
+}
