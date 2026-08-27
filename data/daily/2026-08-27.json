@@ -1,0 +1,246 @@
+{
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T02:25:51.485Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32892",
+      "title": "OpenAI Jalapeño: Nvidia Blackwell을 앞선 LLM 추론 칩",
+      "url": "https://news.hada.io/topic?id=32892",
+      "commentsUrl": "https://news.hada.io/topic?id=32892",
+      "publishedAt": "2026-08-26T09:18:45+09:00",
+      "snippet": "OpenAI가 Broadcom과 공동 설계한 범용 LLM 추론 ASIC Jalapeño 는 초기 A0 실리콘만으로 여러 오픈 모델에서 Nvidia Blackwell보다 높은 전력당 처리량을 기록했으며, Rubin의 공개 결과도 앞섬 HBM4와 단순화한 메모리·네트워크 구조 , 작은 행렬에서도 효율적인 코...",
+      "oneLineKo": "OpenAI, Broadcom과 LLM 추론 전용 칩 Jalapeño 공개",
+      "summaryKo": "OpenAI가 Broadcom과 공동 설계한 범용 LLM 추론 ASIC 'Jalapeño'가 초기 A0 실리콘 단계에서 여러 오픈 모델 대상 전력당 처리량 테스트에서 Nvidia Blackwell을 앞섰다. 공개된 Rubin의 결과와 비교해도 우위를 보였다. HBM4와 단순화된 메모리·네트워크 구조를 채택했으며, 작은 행렬 연산에서도 효율적인 것이 특징이다.",
+      "tags": [
+        "llm",
+        "asic",
+        "nvidia"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49454419",
+      "title": "Actinide is first startup to produce high-assay low-enriched uranium (HALEU)",
+      "url": "https://www.actinideinc.com/press/actinide-becomes-first-startup-to-ever-enrich-natural-uranium-to-produce-haleu",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49454419",
+      "publishedAt": "2026-08-26T19:23:01Z",
+      "score": 137,
+      "comments": 68,
+      "snippet": "Actinide becomes first startup to ever enrich uranium, producing HALEU - Actinide ')\"> Home Problem Solution Market Contact ')\"> ')\"> Home Problem Solution Market Contact Actinide becomes first startup to ever enrich uranium, producing HALEU Currently producing enriched isotopes for pharmaceuticals, Actinide has now demonstrated an ability to produce HALEU fuel for next-generation reactors. Eric Olszewski Aug 26, 2026 CTO Robert Mendelsohn (left) and CEO Eric Olszewski (right) stand before Fortitude, Actinide's second-generation calutron, estimated to deliver roughly half the throughput of the entire U.S. federal calutron fleet in a single machine. Dallas, TX, August 26 — Actinide , an advanced materials company that designs, builds, and operates its own isotope separation machines, has become the first startup in history to produce high-assay low-enriched uranium (HALEU). The enrichment was performed on the company's first-generation calutron, which, weeks earlier, was producing Actinide’s flagship commercial product: enriched ytterbium-176, delivered to Oklo Isotopes. There is no end-to-end domestic supply chain for HALEU-based fuel: the Department of Energy says that most advanced reactor designs require HALEU, yet there is currently zero available from domestic suppliers . While conventional centrifuge enrichment is able to produce enriched uranium hexafluoride gas, this still must be converted into solid form before fuel fabrication - a process for which the United States has zero commercial capacity . The Department of Energy contracted six companies in 2024 to build out that deconversion capacity , but Actinide’s technology bypasses the bottleneck entirely by producing solid HALEU directly. The HALEU was produced in research quantities under the laboratory-scale exclusion in NRC regulations, which carves out facilities used for experimental purposes only . U.S. law defines HALEU as uranium containing more than 5 percent but less than 20 percent uranium-235. An independent ISO/IEC 17025-accredited laboratory assayed the produced material at 15.38% enrichment. This material would still need to be fabricated into rods, pellets, or particles before a reactor could use it. “This demonstration is a testament to the power and flexibility of our technology. A centrifuge plant does one thing, costs billions, and takes years to stand up. Our machines cost a few hundred thousand dollars, produce material within months, deploy anywhere, and are able to be reconfigured in a matter of days to separate various isotopes as they are needed,” said Robert Mendelsohn, co-founder and CTO of Actinide. Actinide’s first-generation calutron is a modern electromagnetic isotope separator that sorts atoms by mass inside a magnetic field. It builds on the same core principle used in the Manhattan Project calutrons at Oak Ridge’s Y-12, but the resemblance ends there. Modern magnets, vacuum systems, power electronics, and controls, refined by proprietary trade-secret ad",
+      "oneLineKo": "스타트업 Actinide, 칼루트론으로 HALEU 생산 첫 성공",
+      "summaryKo": "미국 스타트업 Actinide가 자체 개발한 2세대 칼루트론(전자기 동위원소 분리기)을 이용해 차세대 원자로용 고순도 저농축우라늄(HALEU)을 세계 최초로 스타트업 단위에서 생산했다. 독립 인증기관 분석 결과 15.38% 농축도로 확인되었으며, 이는 미국 법상 HALEU 기준(5~20%)을 충족한다. 기존 원심분리 방식은 우라늄 육불화가스를 고체로 전환하는 별도 공정이 필요해 병목이 있었지만, Actinide의 기술은 이를 우회해 고체 HALEU를 직접 생산할 수 있다는 점이 특징이다. 이번 생산은 NRC 규정상 실험용 소규모 설비 예외 조항 하에 연구용 수량으로 이루어졌다.",
+      "tags": [
+        "nuclear-energy",
+        "haleu",
+        "isotope-separation"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32891",
+      "title": "AI로 만든 웹사이트마다 전용 DB를 하나씩 제공하는 이유",
+      "url": "https://news.hada.io/topic?id=32891",
+      "commentsUrl": "https://news.hada.io/topic?id=32891",
+      "publishedAt": "2026-08-26T09:15:01+09:00",
+      "snippet": "iMessage 기반 개인 비서 Poke는 사용자가 문자로 요청한 웹사이트를 만들어 Vercel에 배포하고, 생성된 사이트마다 별도의 Turso 데이터베이스(DB) 를 자동으로 제공함 Turso는 SQLite 호환 DB 를 클라우드에서 생성하고 원격으로 사용할 수 있게 만든 플랫폼으로,...",
+      "oneLineKo": "AI 생성 웹사이트마다 Turso DB 자동 할당하는 이유",
+      "summaryKo": "iMessage 기반 개인 비서 Poke는 사용자가 문자로 요청한 웹사이트를 자동 생성해 Vercel에 배포한다. 이때 생성된 사이트마다 SQLite 호환 클라우드 DB인 Turso 인스턴스를 별도로 하나씩 제공한다. 이는 각 AI 생성 사이트가 독립적인 데이터 저장소를 가지도록 하여 확장성과 격리성을 확보하기 위한 설계다.",
+      "tags": [
+        "turso",
+        "sqlite",
+        "vercel"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49454764",
+      "title": "Serve Markdown to AI Agents with Accept Headers",
+      "url": "https://acceptmarkdown.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49454764",
+      "publishedAt": "2026-08-26T19:45:59Z",
+      "score": 94,
+      "comments": 52,
+      "snippet": "Serve Markdown to AI Agents with Accept Headers Skip to content Accept: text/markdown Get Started Guides Recipes Status Reference Search the site No matches. Serve Markdown to AI agents with content negotiation Accept: text/markdown Your site already has the content. Serving a Markdown variant lets agent AI clients skip nav/scripts/layout markup and read the content directly. Quick start Test a URL Share this page Share on X (opens in new tab) Share on LinkedIn (opens in new tab) Share on Bluesky (opens in new tab) Share on Reddit (opens in new tab) Share on Mastodon (opens in new tab) Other… Copy link 01 — Tokens A fraction of the bytes. Markdown drops nav, styles, scripts, and layout wrappers. Agents spend context on your prose, not your DOM. 02 — Retrieval Higher signal-to-noise. No ads, related-content rails, or modal overlays muddying the text a RAG pipeline has to embed. 03 — Latency Faster first token. Less to fetch, less to parse, less to stuff into the context window before the model starts thinking. How AI-ready is your URL? Serves Markdown for Accept: text/markdown Sets Vary: Accept Rejects unsupported types with 406 Honors q -values URL Run check Share results Download scorecard image Copy scorecard image Other… Hit a URL with Accept: text/markdown . We make the request from our edge. See what the origin actually returns. URL Accept Negotiate Run this yourself Inspect headers curl -sI -H \"Accept: text/markdown\" <URL> Fetch the Markdown body curl -s -H \"Accept: text/markdown\" <URL> Where to next. Quick start The smallest working setup Three steps. One server, two responses. Guides Fundamentals & correctness Vary , q-values, 406 , caching, and the Cloudflare zero-config shortcut. Recipes Copy-paste configs Nginx, Caddy, WordPress, Discourse, Laravel, Rails, Cloudflare Workers, Next.js, Astro, Apache, SvelteKit, Nuxt/Nitro, Express, Go, Django. Status AI agent support matrix Which AI agents send Accept: text/markdown when their browse or fetch tools hit a URL. Reference Standards & sources RFC 9110, RFC 7763, the text/markdown media type, and adjacent specs. Markdown content negotiation: serve clean Markdown to AI agents from the same URL that serves HTML to browsers. Built by Ben Word ( @retlehs ) · About RFC 7763 · RFC 8288 · RFC 9110",
+      "oneLineKo": "Accept 헤더로 AI 에이전트에 Markdown 제공하는 기법 소개",
+      "summaryKo": "이 사이트는 HTTP Accept 헤더를 이용한 콘텐츠 협상(content negotiation)으로 동일 URL에서 브라우저에는 HTML을, AI 에이전트에는 Markdown을 제공하는 방법을 설명한다. Markdown 응답은 내비게이션, 스타일, 스크립트 등을 제거해 토큰 수를 줄이고 RAG 파이프라인의 신호 대 잡음비를 높이며 응답 지연을 줄인다. Nginx, Caddy, Next.js, Django 등 다양한 서버·프레임워크별 설정 레시피와, 실제 AI 에이전트들이 text/markdown Accept 헤더를 보내는지 확인하는 상태표 및 URL 검사 도구도 제공한다. RFC 9110, RFC 7763 등 관련 표준 문서도 참고 자료로 링크되어 있다.",
+      "tags": [
+        "content-negotiation",
+        "markdown",
+        "ai-agents"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32927",
+      "title": "Corsair - AI 에이전트의 외부 서비스 연결과 권한을 관리하는 통합 레이어",
+      "url": "https://news.hada.io/topic?id=32927",
+      "commentsUrl": "https://news.hada.io/topic?id=32927",
+      "publishedAt": "2026-08-27T09:30:02+09:00",
+      "snippet": "AI 에이전트가 Gmail/Slack/GitHub/Notion/Stripe 같은 외부 서비스를 호출할 때 필요한 도구, 인증 정보, 실행 권한 을 한곳에서 관리하는 TypeScript 라이브러리 Corsair MCP를 에이전트에 연결하거나 SDK를 애플리케이션에 직접 넣어 사용할 수 있음 모든 서비스를 자동으...",
+      "oneLineKo": "AI 에이전트용 외부 서비스 연결·권한 통합 관리 라이브러리",
+      "summaryKo": "Corsair는 AI 에이전트가 Gmail, Slack, GitHub, Notion, Stripe 등 외부 서비스를 호출할 때 필요한 도구, 인증 정보, 실행 권한을 한곳에서 관리하는 TypeScript 라이브러리입니다. MCP를 통해 에이전트에 연결하거나 SDK 형태로 애플리케이션에 직접 통합할 수 있습니다. 여러 외부 서비스 연동을 자동화하고 권한 관리를 단순화하는 것이 핵심 목표입니다.",
+      "tags": [
+        "ai-agent",
+        "typescript",
+        "mcp"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49448321",
+      "title": "AWS Acquires DuckLabs",
+      "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49448321",
+      "publishedAt": "2026-08-26T12:59:26Z",
+      "score": 975,
+      "comments": 292,
+      "snippet": "DuckLabs – DuckLabs to Join AWS, Projects to Remain Open Source Services About Blog Newsroom Jobs DuckDB Jobs DuckDB DuckLabs to Join AWS, Projects to Remain Open Source Mark Raasveldt and Hannes Mühleisen 2026-08-26 | 10 min Today, we’re announcing that DuckLabs will join Amazon Web Services (AWS) , which is expected to be effective in early September. Our team will remain together in Amsterdam, continuing our work on DuckDB , DuckLake , Quack , and the broader community. Joining AWS gives us the resources and reach to bring this technology to many more developers and organizations, and to pursue ideas at a scale that would have been difficult for us to reach alone. Most importantly, the foundations of the project will remain firmly in place. DuckDB and the other open-source components of the “Duck Stack” will remain free and open source under the MIT license, with the nonprofit DuckDB Foundation continuing its stewardship of the projects. This is a significant moment for all of us at DuckLabs. It marks the end of one chapter that we are immensely proud of, and the beginning of another that we believe can take DuckDB much further. Our Journey to This Point We founded DuckLabs a little over five years ago to give the team behind DuckDB a stable, long-term home. At the time, DuckDB was beginning to gain real momentum. The first commercial contracts to prioritize features were materializing, and venture capital firms were calling. We chose a different path: a bootstrapped company, fully owned by its founders and development team. That decision shaped DuckLabs in ways we value deeply. It gave us the freedom to build patiently, to put the technology first, and to grow without losing sight of why we started. From a small group gathered around an ambitious open-source project, we grew into a team of more than 30 people in Amsterdam, all while continuing to invest in DuckDB and the community taking shape around it. During those years, DuckDB traveled much further than we imagined when the project began. Today, we see more than one million downloads every day. Developers around the world use it to explore data, power products, teach new ideas, conduct research, and build systems we could never have anticipated ourselves. Watching that happen has been one of the great privileges of our professional lives. But the limits of our existing model also became increasingly clear. As founders, we worried that DuckDB’s growth would eventually outpace our ability to support it. That our small company could become a bottleneck for the project, the team, and the people building businesses on top of it. We also worried that scaling DuckLabs into a much larger sales, support, and operations organization would pull our attention away from the technical work and open-source community that made DuckDB successful in the first place. Our partnerships work best with highly technical organizations – often companies with substantial database expertise of their own. Reaching a ",
+      "oneLineKo": "DuckLabs, AWS에 합류…DuckDB는 오픈소스 유지",
+      "summaryKo": "DuckDB 개발사 DuckLabs가 2026년 9월 초 AWS에 합류한다고 발표했다. 암스테르담 팀은 그대로 유지되며 DuckDB, DuckLake, Quack 등 프로젝트는 MIT 라이선스 기반 오픈소스로 계속 유지되고 비영리 DuckDB Foundation이 관리를 이어간다. 부트스트랩 방식으로 5년간 30명 이상 규모로 성장했지만, 하루 100만 다운로드를 넘는 성장 속도를 감당하기 위해 AWS 합류를 결정했다고 밝혔다.",
+      "tags": [
+        "duckdb",
+        "aws",
+        "open-source"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32930",
+      "title": "AI 하네스 기업의 ARR 배수",
+      "url": "https://news.hada.io/topic?id=32930",
+      "commentsUrl": "https://news.hada.io/topic?id=32930",
+      "publishedAt": "2026-08-27T10:36:02+09:00",
+      "snippet": "Harvey와 Legora는 법률 업무용 AI 플랫폼 , Sierra는 기업의 고객 경험을 처리하는 AI 에이전트 플랫폼 으로, 모두 기반 AI 모델 위에 특정 업무를 수행하는 제품/워크플로우 계층을 구축하는 이른바 AI 하네스 기업 Harvey, Legora, Sierra는 각각...",
+      "oneLineKo": "Harvey·Legora·Sierra 등 AI 하네스 기업의 ARR 배수 분석",
+      "summaryKo": "이 글은 기반 AI 모델 위에 특정 업무용 제품/워크플로우 계층을 구축하는 'AI 하네스' 기업들의 ARR(연간반복수익) 배수를 다룬다. 법률 업무 AI 플랫폼인 Harvey와 Legora, 고객 경험 처리 AI 에이전트 플랫폼인 Sierra를 사례로 들며 이들 기업의 매출 대비 가치평가 배수를 분석한다. AI 애플리케이션 레이어 스타트업들이 어떻게 시장에서 평가받고 있는지를 조명하는 내용이다.",
+      "tags": [
+        "ai",
+        "saas",
+        "valuation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49452990",
+      "title": "Tailcat – Like netcat, but over Tailscale’s data plane",
+      "url": "https://github.com/tailscale/tailcat",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49452990",
+      "publishedAt": "2026-08-26T17:42:22Z",
+      "score": 485,
+      "comments": 91,
+      "snippet": "GitHub - tailscale/tailcat: like netcat, but over Tailscale's data plane, without Tailscale's control plane · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} Uh oh! There was an error while loading. Please reload this page . tailscale / tailcat Public Notifications You must be signed in to change notification settings Fork 7 Star 736 Code Issues 3 Pull requests 1 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights main Branches Tags Go to file Code Open more actions menu Latest commit History 10,396 Commits 10,396 Commits Folders and files Name Name Last commit message Last commit date .github .github cmd cmd internal/ wasmbuild internal/ wasmbuild web web webdemo webdemo .gitattributes .gitattributes .gitignore .gitignore LICENSE LICENSE README.md README.md disco.go disco.go export_test.go export_test.go flake.lock flake.lock flake.nix flake.nix go.mod go.mod go.sum go.sum pickregion.go pickregion.go pickregion_js.go pickregion_js.go readme.go readme.go tailcat.go tailcat.go t",
+      "oneLineKo": "Tailscale 데이터 플레인 기반 netcat 대체 도구 공개",
+      "summaryKo": "Tailscale이 공개한 오픈소스 도구 'tailcat'은 netcat과 유사하지만 Tailscale의 컨트롤 플레인 없이 데이터 플레인만을 활용해 통신하는 CLI 유틸리티입니다. Go로 작성되었으며 WASM 빌드와 웹 데모도 함께 제공됩니다. 별도의 계정이나 인증 설정 없이 Tailscale의 P2P 연결 기술을 가볍게 테스트해볼 수 있는 점이 특징입니다.",
+      "tags": [
+        "tailscale",
+        "networking",
+        "cli"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32912",
+      "title": "GLM-5.3-Flash: 프런티어급 지능, Flash급 비용",
+      "url": "https://news.hada.io/topic?id=32912",
+      "commentsUrl": "https://news.hada.io/topic?id=32912",
+      "publishedAt": "2026-08-27T01:39:47+09:00",
+      "snippet": "Z.ai가 GLM-5 시리즈 최초의 네이티브 멀티모달 모델 GLM-5.3-Flash를 공개. 총 320B 파라미터 중 18B만 활성화, GLM-5.2보다 뛰어나지만 가격은 10분의 1 수준이고 코딩/에이전트에서는 Claude Opus 4.8에 근접 출시 전 ox-alpha 로 OpenCode/OpenRouter에서 익명 테스...",
+      "oneLineKo": "Z.ai, 저비용 고성능 GLM-5.3-Flash 모델 공개",
+      "summaryKo": "Z.ai가 GLM-5 시리즈 최초의 네이티브 멀티모달 모델 GLM-5.3-Flash를 발표했다. 총 320B 파라미터 중 18B만 활성화하는 MoE 구조로, GLM-5.2보다 성능이 뛰어나면서도 가격은 10분의 1 수준이다. 코딩 및 에이전트 작업에서는 Claude Opus 4.8에 근접한 성능을 보이며, 출시 전 ox-alpha라는 이름으로 OpenCode와 OpenRouter에서 익명 테스트를 진행했다.",
+      "tags": [
+        "llm",
+        "moe",
+        "glm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49449576",
+      "title": "Twitter Viewer – View Twitter Without Account",
+      "url": "https://twitterwebviewer.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49449576",
+      "publishedAt": "2026-08-26T14:11:39Z",
+      "score": 326,
+      "comments": 162,
+      "snippet": "Twitter Viewer Home Video Downloader Search Tweets Loading... English EN English EN Twitter Viewer Browse public Twitter profiles and tweets without login. Anonymous, fast, and easy. Product Twitter Viewer Search Tweets Video Downloader Blog & Guides Legal About Privacy Policy Terms of Service Contact Email: hello@twitterwebviewer.com Follow us: © 2026 Twitter Viewer. All rights reserved. Not affiliated with Twitter/X. All trademarks belong to their respective owners. Product by Peter's Lab | Support | Discord Home Search Download You Twitter Viewer - View Twitter Without Account View public Twitter profiles, tweets, photos, and videos anonymously No Account Required • Lightning Fast • Privacy-First View Now Search @users, #hashtags, topics, or paste links. No account needed. Clean bots and inactive followers & Grow your X with Circleboom, Official X Partner Sponsored Trending Worldwide Popular Users 1 Elon Musk @ elonmusk · 237.8M followers 2 Barack Obama @ barackobama · 119.2M followers 3 Donald J. Trump @ realdonaldtrump · 111.2M followers 4 Cristiano Ronaldo @ cristiano · 106.6M followers 5 Narendra Modi @ narendramodi · 106.6M followers Show all 20 Ad-Free Browsing No ads, better experience Ad-Free Browsing Enjoy browsing without ads and a more enjoyable experience. More content, zero ads Subscribe now All-in-One Platform 3 Tools in 1 Platform Browse profiles, search content, and download videos - all in one place, without login. Browse Profiles View any public Twitter profile and their tweets instantly Try Now Search Content Find tweets and users by keywords - no account needed Try Now Download Videos Save Twitter videos in MP4 format with one click Try Now Unlike single-purpose tools, we combine all features in one place. Why Choose Twitter Viewer? The only platform that combines all Twitter tools in one place Browse Profiles & Tweets Twitter Viewer ✓ Other Tools ✓ Twitter/X Platform Login Required Search Tweets & Users Twitter Viewer ✓ Other Tools ✗ Twitter/X Platform Login Required Download Videos (MP4) Twitter Viewer ✓ Other Tools ✗ Twitter/X Platform ✗ No Login Required Twitter Viewer ✓ Other Tools ✓ Twitter/X Platform ✗ All-in-One Platform Twitter Viewer ✓ 3-in-1 Other Tools ✗ Twitter/X Platform ✗ Free to Start Twitter Viewer ✓ Other Tools Varies Twitter/X Platform ✓ Feature Twitter Viewer (This Platform) Other Tools (Single Purpose) Twitter/X Platform (Direct Access) Browse Profiles & Tweets ✓ ✓ Login Required Search Tweets & Users ✓ ✗ Login Required Download Videos (MP4) ✓ ✗ ✗ No Login Required ✓ ✓ ✗ All-in-One Platform ✓ 3-in-1 ✗ 1 tool only ✗ Must login Free to Start ✓ Varies ✓ Save time with 3 tools in one place. Who Uses Twitter Viewer? Trusted by researchers, journalists, marketers, and everyday users worldwide Researchers Analyze public tweets and trends without account restrictions Journalists Quickly verify sources and download content for reporting Marketers Monitor brand mentions and competitor activity anonymously Student",
+      "oneLineKo": "로그인 없이 트위터 프로필·검색·영상 다운로드 서비스",
+      "summaryKo": "Twitter Viewer는 계정 로그인 없이 공개 트위터 프로필과 트윗을 열람할 수 있는 웹 서비스이다. 프로필 브라우징, 키워드/해시태그 검색, 트위터 영상 MP4 다운로드 기능을 하나의 플랫폼에서 제공한다. 연구자, 기자, 마케터 등이 익명으로 콘텐츠를 확인하고 저장하는 용도로 사용할 수 있다고 소개한다.",
+      "tags": [
+        "twitter",
+        "web-scraping",
+        "anonymous-browsing"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32910",
+      "title": "Z.ai, Ox Alpha가 새 GLM 시리즈 모델임을 확인하고 가중치 공개 예정",
+      "url": "https://news.hada.io/topic?id=32910",
+      "commentsUrl": "https://news.hada.io/topic?id=32910",
+      "publishedAt": "2026-08-27T00:31:23+09:00",
+      "snippet": "중국 Z.AI(Zhipu)가 익명으로 공개했던 Ox Alpha 가 자사 GLM 계열의 새 모델임을 확인했으며, 모델 가중치를 공개할 예정임 Ox Alpha는 무료 제공을 앞세워 OpenRouter 사용량 1위 에 올랐고 DeepSeek 사용량의 두 배 이상을 기록했으며, OpenRouter 역사상 최대 규...",
+      "oneLineKo": "Z.ai, Ox Alpha가 GLM 신모델임을 확인·가중치 공개 예정",
+      "summaryKo": "중국 Z.AI(Zhipu)는 익명으로 공개했던 Ox Alpha 모델이 자사 GLM 계열의 새 모델임을 공식 확인했다. Ox Alpha는 무료 제공을 앞세워 OpenRouter 사용량 1위에 올랐으며, DeepSeek 사용량의 두 배 이상을 기록해 OpenRouter 역사상 최대 규모의 트래픽을 기록했다. Z.AI는 해당 모델의 가중치를 공개할 예정이다.",
+      "tags": [
+        "llm",
+        "glm",
+        "openrouter"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49452980",
+      "title": "An ongoing 3D-printer AGPL violation",
+      "url": "https://lwn.net/SubscriberLink/1089390/46116614cc74b814/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49452980",
+      "publishedAt": "2026-08-26T17:41:40Z",
+      "score": 311,
+      "comments": 139,
+      "snippet": "An ongoing 3D-printer AGPL violation [LWN.net] LWN .net News from the source Content Weekly Edition Archives Search Kernel Security Events calendar Unread comments LWN FAQ Write for us Edition Return to the Front page User: Password: | | Log in / Subscribe / Register An ongoing 3D-printer AGPL violation [LWN subscriber-only content] Welcome to LWN.net The following subscription-only content has been made available to you by an LWN subscriber. Thousands of subscribers depend on LWN for the best news from the Linux and free software communities. If you enjoy this article, please consider subscribing to LWN . Thank you for visiting LWN.net! By Jake Edge August 26, 2026 FOSSY At FOSSY 2026 , several people from the Software Freedom Conservancy (SFC), which organizes the conference, gave a presentation about an ongoing violation of the Affero General Public License version 3 (AGPLv3). Bradley Kühn, Karen Sandler, and Denver Gingerich spoke about different aspects of the violation, which is in regard to 3D-printer software from Bambu Lab, and what is being done to try to provide users with alternatives. One aspect that is particularly interesting is that the circumvention that the company is employing is precisely what the AGPL was written to prevent. Kühn began the session by noting that he has been an activist in the free and open-source software (FOSS) communities for over 30 years and that \" this moment in history [...] has more activism opportunities than I have seen in my career \". In the past, he and his colleagues have been triaging disasters of various sorts but over the past six to eight months they have been triaging opportunities instead. Sandler added that the opportunities being offered are difficult; \" it's not like people are saying 'would you like this money or that money?' \". The opportunities he is describing are not really about money, Kühn said, but provide ways \" for activists to get stuff done and to engage people \". Over the past six months or so, SFC has successfully engaged with \" an entire community of enthusiasts \", which only had a passing familiarity with FOSS, on a multitude of freedom-centric topics: \" free software, free culture, free creation \". That is exciting, but he was getting ahead of himself because that is where the story ends, so he wanted to go back to the beginning. Backstory Some time ago, 3D printing was invented, which is something that he watched from afar; a breadboard fire when he was an undergraduate convinced him that he should be a software-only person. He is a fan of the 3D-printing culture, and enjoys the talks that come from it, but he does not participate. As part of the license-violation investigation, he and Gingerich did a crash course in the history of 3D-printing, though Gingerich already had much of the background. Kühn related some of what he learned, including that the hobbyist 3D-printing field started out as a curiosity. People who wanted a 3D printer had to build one themselves, since",
+      "oneLineKo": "3D프린터 업체 Bambu Lab의 AGPLv3 위반 지속 논란",
+      "summaryKo": "Software Freedom Conservancy(SFC)는 FOSSY 2026 발표에서 3D프린터 제조사 Bambu Lab의 AGPLv3 라이선스 위반 사례를 다뤘다. SFC의 Bradley Kühn, Karen Sandler, Denver Gingerich는 이 회사가 AGPL이 막고자 했던 방식 그대로 라이선스를 우회하고 있다고 지적했다. SFC는 지난 6개월간 FOSS에 익숙하지 않던 3D프린팅 커뮤니티와 협력하며 자유 소프트웨어 대안 마련을 위한 활동을 벌여왔다.",
+      "tags": [
+        "agpl",
+        "open-source",
+        "3d-printing"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49452709",
+      "title": "U.S. State Department pauses immigrant visa applications",
+      "url": "https://www.wsj.com/politics/policy/u-s-state-department-pauses-immigrant-visa-applications-25b31b23",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49452709",
+      "publishedAt": "2026-08-26T17:22:16Z",
+      "score": 287,
+      "comments": 389,
+      "oneLineKo": "美 국무부, 이민 비자 신청 절차 일시 중단",
+      "summaryKo": "미국 국무부가 이민 비자 신청 처리를 일시 중단했다고 월스트리트저널이 보도했다. 기사 본문이 제공되지 않아 중단 사유나 대상 범위, 기간 등 구체적인 내용은 확인할 수 없다. 제목만으로는 정책 변경의 배경이나 파급 효과를 알 수 없다.",
+      "tags": [
+        "immigration",
+        "visa",
+        "policy"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49452671",
+      "title": "CoMaps: The Offline App That Guided Rescuers Without a Signal in Venezuela",
+      "url": "https://hotosm.org/en/news/comaps-the-offline-app-that-guided-rescuers-without-a-signal-in-the-venezuela-response/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49452671",
+      "publishedAt": "2026-08-26T17:20:12Z",
+      "score": 202,
+      "comments": 46,
+      "snippet": "CoMaps: The Offline App That Guided Rescuers Without a Signal in the Venezuela Response - HOT Website English Français Español News Contact Us Donate --> .show-at-large]:hidden [&:hover>.show-at-large]:block p-2 [&>p]:hover:text-hot-red [&_p:hover]:text-hot-red text-left\"> Who We Are .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Our Approach .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Our People Voting Members Board Members Staff .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> News .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Events .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Contact Us .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Work for HOT .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Our bylaws .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Financial reports .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Annual reports .show-at-large]:hidden [&:hover>.show-at-large]:block p-2 [&>p]:hover:text-hot-red [&_p:hover]:text-hot-red text-left\"> Our Work .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Programs .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Projects .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Impact Areas Disaster Response Climate Resilience & Sustainability Public Health Displacement & Safe Migration Gender Equality .show-at-large]:hidden [&:hover>.show-at-large]:block p-2 [&>p]:hover:text-hot-red [&_p:hover]:text-hot-red text-left\"> Open Mapping Hubs .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Asia-Pacific .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Eastern & Southern Africa .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> West & Northern Africa .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Latin America and the Caribbean .show-at-large]:hidden [&:hover>.show-at-large]:block p-2 [&>p]:hover:text-hot-red [&_p:hover]:text-hot-red text-left\"> Tools & Resources .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Open Mapping Solutions .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Data Principles .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Tech Product Suite Tasking Manager ChatMap fAIr HOT Export Tool Open Aerial Map Field Tasking Manager Drone Tasking Manager uMap .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Resource and Learning Center .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Multimedia .show-at-large]:hidden [&:hover>.show-at-large]:block p-2 [&>p]:hover:text-hot-red [&_p:hover]:text-hot-red text-left\"> Get Involved .show-at-large]:hidden [&:hover>.show-at-large]:block px-6 py-2\"> Partner With Us Corporate Volunteering NGO & IGO Partners Government Partners Community Partners Tech & Corporate Partners .show-at-large]:",
+      "oneLineKo": "오프라인 지도 앱 CoMaps, 베네수엘라 구조 활동 지원",
+      "summaryKo": "CoMaps는 인터넷 신호 없이도 작동하는 오프라인 지도 앱으로, 베네수엘라 재난 대응 과정에서 구조대원들의 길찾기를 지원했다. HOT(Humanitarian OpenStreetMap Team)이 이 사례를 소개하며 오픈매핑 기술이 재난 상황에서 통신 인프라가 마비된 지역에서도 실질적인 도움을 줄 수 있음을 강조했다. 이 앱은 OpenStreetMap 데이터를 기반으로 사전에 다운로드된 지도를 활용해 네트워크 연결 없이도 위치 확인과 경로 안내가 가능하다.",
+      "tags": [
+        "offline-maps",
+        "openstreetmap",
+        "disaster-response"
+      ]
+    }
+  ]
+}
