@@ -1,0 +1,244 @@
+{
+  "date": "2026-08-28",
+  "generatedAt": "2026-08-28T05:55:19.592Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32956",
+      "title": "SourceHut, LLM·생성형 AI 콘텐츠 금지로 서비스 약관 변경",
+      "url": "https://news.hada.io/topic?id=32956",
+      "commentsUrl": "https://news.hada.io/topic?id=32956",
+      "publishedAt": "2026-08-28T09:04:16+09:00",
+      "snippet": "커뮤니티 논의와 내부 검토를 거쳐 LLM·생성형 AI로 작성하거나 사용을 지원하는 원본 콘텐츠 를 금지하기로 결정함 새 약관은 2주 공지 후 9월 10일 부터 신규 프로젝트에 적용되며, 소스 코드·에셋·티켓·이메일 등의 생성이나 작성 보조에 LLM을 사용할 수 없음...",
+      "oneLineKo": "SourceHut, LLM·생성형 AI 콘텐츠 사용 전면 금지",
+      "summaryKo": "SourceHut이 커뮤니티 논의와 내부 검토를 거쳐 LLM 및 생성형 AI로 작성되거나 이를 활용해 작성을 지원한 원본 콘텐츠를 금지하는 방향으로 서비스 약관을 변경했다. 새 약관은 2주간의 공지 기간을 거쳐 9월 10일부터 신규 프로젝트에 적용된다. 소스 코드, 에셋, 티켓, 이메일 등 다양한 콘텐츠 생성이나 작성 보조에 LLM을 사용하는 것이 금지된다.",
+      "tags": [
+        "llm",
+        "generative-ai",
+        "sourcehut"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49461817",
+      "title": "Show HN: The load-bearing vocabulary of Claude",
+      "url": "https://louisabraham.github.io/load-bearing/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49461817",
+      "publishedAt": "2026-08-27T08:59:49Z",
+      "score": 425,
+      "comments": 198,
+      "oneLineKo": "Claude 응답을 지탱하는 핵심 어휘 분석",
+      "summaryKo": "Show HN에 소개된 프로젝트로, Claude가 응답을 생성할 때 자주 의존하는 '핵심 어휘(load-bearing vocabulary)'를 분석한 것으로 보입니다. 제목만 제공되어 구체적인 분석 방법이나 결과는 알 수 없습니다. LLM의 언어 사용 패턴을 살펴보는 시도로 추정됩니다.",
+      "tags": [
+        "llm",
+        "claude",
+        "nlp"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32957",
+      "title": "이력서를 꾸미려 오픈소스 프로젝트를 AI 쓰레기로 뒤덮지 말아 주세요",
+      "url": "https://news.hada.io/topic?id=32957",
+      "commentsUrl": "https://news.hada.io/topic?id=32957",
+      "publishedAt": "2026-08-28T09:07:17+09:00",
+      "snippet": "GitHub 기여 기록이 채용에서 평판 자산 처럼 쓰이자, LLM으로 PR과 보안 보고서를 손쉽게 만들어 활동을 부풀리는 사례가 늘고 있음 최근 외부 기여는 이슈보다 PR로 들어오는 경우가 많아졌으며, 이슈와 취약점 보고서에도 AI 생성 분석·수정안 이 자주 첨부됨",
+      "oneLineKo": "이력서용 AI 생성 PR·보안보고서, 오픈소스 오염 우려",
+      "summaryKo": "GitHub 기여 기록이 채용 시장에서 평판 자산으로 여겨지면서, LLM을 이용해 PR이나 보안 취약점 보고서를 손쉽게 만들어 활동 이력을 부풀리는 사례가 늘고 있다. 최근 외부 기여는 이슈 제기보다 PR 형태로 들어오는 경우가 많아졌고, 이슈나 취약점 보고서에도 AI가 생성한 분석 및 수정안이 자주 첨부되고 있다. 이는 오픈소스 프로젝트 메인테이너들에게 검토 부담을 가중시키고 품질 저하를 초래한다는 우려를 낳고 있다.",
+      "tags": [
+        "opensource",
+        "llm",
+        "github"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49447057",
+      "title": "The turbulent AI era is here",
+      "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49447057",
+      "publishedAt": "2026-08-26T11:23:54Z",
+      "score": 255,
+      "comments": 511,
+      "oneLineKo": "AI 대전환기, 우리가 내려야 할 선택들",
+      "summaryKo": "제목만으로 확인 가능한 정보에 따르면, 이 글은 AI가 급격히 발전하는 격동의 시기가 도래했음을 다루고 있다. Gates Notes에 게재된 이 글은 AI 시대에 직면하게 될 중요한 선택들에 대한 논의를 담고 있는 것으로 보인다. 구체적인 본문 내용은 제공되지 않아 상세 내용은 확인할 수 없다.",
+      "tags": [
+        "ai",
+        "technology-trends"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32959",
+      "title": "Omarchy의 개발 관행이 예측 가능한 보안 문제로 이어짐",
+      "url": "https://news.hada.io/topic?id=32959",
+      "commentsUrl": "https://news.hada.io/topic?id=32959",
+      "publishedAt": "2026-08-28T09:19:58+09:00",
+      "snippet": "Omarchy 4.0은 신뢰할 수 없는 입력을 안전하게 처리하지 못해 임의 Bash 명령 실행 으로 이어질 수 있는 여러 취약점을 포함함 동영상 제목과 알림을 통한 Bash 주입은 알려진 입력 검증 원칙을 따르지 않고 AI 생성 Bash 스크립트 를 충분히 검토하지 않은 개발 관...",
+      "oneLineKo": "Omarchy 4.0, 입력 검증 부실로 Bash 주입 취약점 발생",
+      "summaryKo": "Omarchy 4.0에서 신뢰할 수 없는 입력을 제대로 처리하지 않아 임의 Bash 명령 실행이 가능한 여러 취약점이 발견되었다. 동영상 제목이나 알림 문자열을 통한 Bash 주입은 잘 알려진 입력 검증 원칙을 지키지 않은 결과로 지적된다. 특히 AI가 생성한 Bash 스크립트를 충분히 검토하지 않고 사용한 개발 관행이 이러한 문제를 예측 가능하게 만들었다는 분석이다.",
+      "tags": [
+        "bash-injection",
+        "security",
+        "input-validation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49471407",
+      "title": "Show HN: We built open OpenRouter that turns usage into a better model",
+      "url": "https://github.com/experientiallabs/experiential",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49471407",
+      "publishedAt": "2026-08-27T21:18:35Z",
+      "score": 148,
+      "comments": 25,
+      "snippet": "Hi HN, we built an open source model gateway. It&#x27;s a single place to manage our own self hosted, frontier, and open source models in one place.<p>It’s is rust native, built for concurrency, and implements all the config quirks across models and providers (streaming formats, tool calls, model parameters, rate limits, and different error behavior).<p>The gateway adds under 1 ms for BYOK requests and under 2 ms when Experiential supplies the provider key. It has every major inference provider, and 1000+ models refreshed daily via a codex agent that opens a PR.<p>Compared to other similar projects we’re open source, take no markup, allow you to mix local models with a marketplace, and use your traffic to (opt in) train you a model. Simple routing doesn’t warrant a 10% token markup.<p>The way we do this is given standardized OTel traces, we mine representative real tasks, use text world models to simulate rollouts for various models, apply an LLM judge, and fit a nearest neighbor classifier on top of an embedding of a prompt to decide the optimal model for each request. Usually this can map out a better pareto curve on cost&#x2F;quality than just calling single models but it’s not perfect.<p>Using these simulations we can also do things like suggesting cache hit optimizations, new model suggestions, and training models.<p>It’s open source, so you can deploy it on your own infrastructure, use our hosted version with 0 markup, or read how we design for maximum availability on our website.",
+      "oneLineKo": "오픈소스 LLM 게이트웨이, 트래픽으로 모델 최적화 제안",
+      "summaryKo": "Experiential이 공개한 오픈소스 모델 게이트웨이는 자체 호스팅, 프론티어, 오픈소스 모델을 한 곳에서 관리할 수 있는 Rust 기반 도구다. 스트리밍 포맷, 툴콜, 요금 제한 등 프로바이더별 차이를 흡수하며 BYOK 기준 1ms 미만의 지연만 추가하고 1000개 이상의 모델을 매일 갱신한다. 마크업 없이 오픈소스로 제공되며, OTel 트레이스를 분석해 대표 작업을 추출하고 LLM 심사와 임베딩 기반 최근접 이웃 분류기로 요청별 최적 모델을 추천한다. 이를 통해 캐시 히트 최적화, 신규 모델 추천, 모델 학습까지 지원한다.",
+      "tags": [
+        "llm",
+        "rust",
+        "model-gateway"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32939",
+      "title": "CEO가 AI를 위해 개발팀을 해고하자, 개발자들은 오픈소스 AI CEO를 만들었다",
+      "url": "https://news.hada.io/topic?id=32939",
+      "commentsUrl": "https://news.hada.io/topic?id=32939",
+      "publishedAt": "2026-08-27T16:32:03+09:00",
+      "snippet": "AI 도입 과정에서 해고된 개발팀이 스타트업을 시작하고, “ AI가 개발을 바꾼다면 경영도 바꿀 수 있다 ” 며 Open Executive 를 오픈소스로 공개함 실제로 한 명의 CEO를 구현한 것은 아니며, 전략·재무·인사·법무·운영·마케팅·제품·이사회 업무를 나눠 맡는",
+      "oneLineKo": "해고된 개발팀, 오픈소스 AI CEO 'Open Executive' 공개",
+      "summaryKo": "CEO가 AI 도입을 이유로 개발팀을 해고하자, 해고된 개발자들이 스타트업을 창업해 'Open Executive'라는 오픈소스 AI 경영 시스템을 공개했다. 이는 하나의 AI CEO를 구현한 것이 아니라 전략, 재무, 인사, 법무, 운영, 마케팅, 제품, 이사회 업무를 각각 나눠 처리하는 다중 AI 에이전트 구조다. 'AI가 개발을 바꾼다면 경영도 바꿀 수 있다'는 문제의식에서 출발한 프로젝트다.",
+      "tags": [
+        "ai-agent",
+        "open-source",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49474143",
+      "title": "Please stop flooding our projects with AI slop to furnish your CV",
+      "url": "https://neilalexander.dev/2026/06/30/flooding-contributions",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49474143",
+      "publishedAt": "2026-08-28T03:49:33Z",
+      "score": 81,
+      "comments": 26,
+      "snippet": "Please stop flooding our projects with AI slop to furnish your CV | neilalexander.dev Neil Home Blog GitHub Please stop flooding our projects with AI slop to furnish your CV 30 June 2026 by Neil Successful contributions to open source projects are a kind of currency. GitHub in particular encourages this in a number of ways: by showing avatars of contributors on repository pages, by showing your contributions to your followers via the activity feed and by signalling contributions per day on the activity graph of your profile. Potential hiring managers often take note of this. Recruiters often find and screen candidates this way. If you are a software developer (either existing or aspiring) looking for work, tuning these signals can often work to your advantage. As an open source maintainer, it’s quite noticeable how the pattern of external contributions has changed in the last year. We’re far more likely to receive pull requests instead of issues. If we do receive issues, they often come with an AI-generated analysis attached. We’re receiving far more security vulnerability reports than ever before and often they even come with AI-generated fix proposals attached too. I don’t doubt that some of these contributions are from people who are genuinely interested in what we do, but the cynical part of me believes that a substantial amount of this is that people are realising that AI can be used to game GitHub to their own benefit. It’s now easy to ask Claude to generate a list of interesting open source projects, then ask Claude to find some problems in them, and then ask Claude to raise some PRs to fix them. You don’t even have to use the projects or care about them, but you can easily create the illusion to outsiders that you care, or that you found a problem, or that you put the time into fixing it. On the internet, nobody knows you’re a dog, but with the help of LLMs, you can effortlessly overstate your human abilities on your GitHub profile. Recently, a contributor with virtually no GitHub-wide contributions from late 2018 up until a couple weeks ago, with no prior engagement with our project that we know of, raised three separate PRs to correct spelling and grammar mistakes in comments. Claude made the fixes, presumably wrote the PR descriptions, even signed off the commits on behalf of the user and then helpfully inserted its co-authorship into the commit message trailers. Maybe it even opened the PRs itself, who knows. I’d be fascinated to know whether the prompt was to “go and find issues” or whether to focus on spelling and grammar issues in particular for whatever reason. The changes were harmless and correct, but that did not make me feel better about accepting or merging them. Instead I couldn’t help but ask myself: why this, why now? Why, out of all of the issues and TODO s and FIXME s in our codebase are they submitting this ? And then it dawned on me that these contributions weren’t about our project at all. I closed all three PRs witho",
+      "oneLineKo": "오픈소스에 AI 생성 PR 남발, 이력서용 어뷰징 우려",
+      "summaryKo": "오픈소스 메인테이너 Neil은 최근 1년간 프로젝트에 AI로 생성된 이슈와 PR이 급증했다고 지적한다. GitHub 프로필의 기여 그래프와 활동 피드가 채용 담당자에게 노출되는 점을 악용해, 실제 관심 없이 Claude 등 LLM으로 문제를 찾고 PR을 만들어 이력서를 부풀리는 사례가 늘고 있다는 것이다. 실제로 몇 년간 기여가 없던 계정이 갑자기 맞춤법 수정 PR 3건을 올렸는데, Claude가 커밋 서술과 co-author 서명까지 자동으로 처리한 정황이 드러났다. 저자는 이런 PR들이 프로젝트 개선이 아니라 GitHub 활동 지표를 조작하기 위한 것이라며 문제를 제기한다.",
+      "tags": [
+        "opensource",
+        "github",
+        "ai-generated-content"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32970",
+      "title": "GitHub PR에 급증한 ‘Claude 같은’ 문체 - 46만 건의 어휘 변화 분석",
+      "url": "https://news.hada.io/topic?id=32970",
+      "commentsUrl": "https://news.hada.io/topic?id=32970",
+      "publishedAt": "2026-08-28T11:45:02+09:00",
+      "snippet": "GitHub 풀리퀘스트 46만 건을 어휘만으로 분류했더니, 2025년 초 0.7%에 불과했던 새로운 문체 집단이 2026년 중반 약 39%까지 증가 함 이 집단에는 load-bearing , plainly , quietly , seam , byte-identical ,",
+      "oneLineKo": "GitHub PR 46만건, 'Claude 문체' 39%까지 급증",
+      "summaryKo": "GitHub 풀리퀘스트 46만 건의 어휘를 분석한 결과, 2025년 초 0.7%에 불과했던 특정 문체 집단이 2026년 중반 약 39%까지 급증한 것으로 나타났다. 이 문체 집단에는 load-bearing, plainly, quietly, seam, byte-identical 같은 단어들이 특징적으로 포함되어 있다. 이는 AI 코딩 어시스턴트인 Claude를 사용한 PR 작성이 크게 늘어난 것으로 추정되는 현상을 보여준다.",
+      "tags": [
+        "llm",
+        "github",
+        "claude"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49458161",
+      "title": "Nvidia agrees to acquire Hugging Face for $13B",
+      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49458161",
+      "publishedAt": "2026-08-27T01:12:55Z",
+      "score": 1868,
+      "comments": 866,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.theinformation.com&#x2F;articles&#x2F;nvidia-agrees-buy-open-source-model-repository-hugging-face-12-9-billion?utm_campaign=article_email&amp;utm_content=article-17723\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theinformation.com&#x2F;articles&#x2F;nvidia-agrees-buy-op...</a> (paywalled)<p><a href=\"https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;24&#x2F;hugging-face-reportedly-in-talks-to-be-acquired-for-13b&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;24&#x2F;hugging-face-reportedly-in...</a>",
+      "oneLineKo": "Nvidia, Hugging Face 130억 달러에 인수 합의",
+      "summaryKo": "Nvidia가 오픈소스 모델 저장소 플랫폼인 Hugging Face를 약 130억 달러(일부 보도는 129억 달러)에 인수하기로 합의했다고 알려졌다. The Information과 TechCrunch 등의 보도를 통해 이 소식이 전해졌으며, 관련 기사는 유료 구독이 필요한 부분도 있다. 이번 인수가 성사되면 Nvidia는 AI 모델 생태계의 핵심 허브를 확보하게 된다.",
+      "tags": [
+        "nvidia",
+        "huggingface",
+        "ai"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32969",
+      "title": "Google Antigravity Teamwork - 여러 AI 에이전트가 장기 연구·개발을 함께 수행하는 기능",
+      "url": "https://news.hada.io/topic?id=32969",
+      "commentsUrl": "https://news.hada.io/topic?id=32969",
+      "publishedAt": "2026-08-28T10:26:00+09:00",
+      "snippet": "여러 AI 에이전트가 수시간에서 수일 동안 해법을 제안하고 서로 비판·검증·개선하며 장기 연구와 엔지니어링 문제를 해결 하는 Antigravity의 다중 에이전트 기능 과제에 맞춰 코딩·증명·자체 검증·문서 검토 패턴을 선택하고, 실행 중에도 에이전트 수와 팀 구조를 조정하며 사람은...",
+      "oneLineKo": "Google Antigravity, 다중 AI 에이전트 협업 연구·개발 기능 공개",
+      "summaryKo": "Google Antigravity는 여러 AI 에이전트가 수시간에서 수일에 걸쳐 장기 연구와 엔지니어링 문제를 함께 해결하는 다중 에이전트 팀워크 기능을 제공한다. 각 에이전트는 코딩, 증명, 자체 검증, 문서 검토 등의 패턴을 과제에 맞게 선택하고 서로의 결과물을 비판·검증·개선한다. 실행 도중에도 에이전트 수와 팀 구조를 동적으로 조정할 수 있으며, 사람은 전체 과정을 감독하는 역할을 맡는다.",
+      "tags": [
+        "ai-agent",
+        "multi-agent",
+        "google"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49468083",
+      "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
+      "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49468083",
+      "publishedAt": "2026-08-27T17:17:57Z",
+      "score": 640,
+      "comments": 197,
+      "snippet": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache | Cloudflare Blog Skip to content All Categories AI Developers Radar Product News Security Policy & Legal Zero Trust Speed & Reliability Life at Cloudflare Partners Switch Site Language English Deutsch Español Español (Latinoamérica) Français Italiano 日本語 한국어 繁體中文 简体中文 Português Русский Bahasa Indonesia ภาษาไทย Tiếng Việt Polski العربية עברית Svenska Nederlands Türkçe Login Dashboard Contact Sales Blog 1.1.1.1 Deep Dive DNS +4 Show 4 more tags 7 Tags Show 7 tags Selected Tags 1.1.1.1 Deep Dive DNS Engineering Optimization Performance Rust All tags Matching tags No tags found 1.1.1.1 2FA Abuse Access Access Control Lists (ACLs) Accessibility Account Takeover Acquisitions Addressing Advanced Certificate Manager Advanced DDoS Advertising Aegis AEO Africa Afroflare Agent Cloud Agent Development Lifecycle Agent Readiness Agents Agents Week Agents Week 2026 AI AI Bots AI Gateway AI Search AI WAF AI Week AI-SPM Alertmanager Always Online AMD AMP Analytics Anonymous Anti Malware Anycast API API Gateway API Security API Shield APJC Apple Application Security Application Services Area 1 Security Argo Smart Routing ASCII Asia Athenian Project Atlassian Attacks Audit Logs Austin Australia Authentication Authy Auto Rag Automatic HTTPS Automatic Platform Optimization Automation AutoMinify Awards AWS Baidu Bandwidth Alliance Bandwidth Costs Best Practices Beta Better Internet BGP Billing Birthday Week Black Friday Blackbird Bot Fight Mode Bot Management Botnet Bots BPF Brand Brand Protection Brazil Browser Insights Browser Rendering Browser Run Bug Bounty Bugs BYOIP Cache Cache Purge Cache Reserve Cache Rules California Canada Cap'n Proto CAPTCHA Careers CASB Categories CDN CDNJS Certificate Authority Certificate Pinning Certificate Transparency Certification CFSSL Challenge Page ChatGPT China China Network Christmas Chrome CIO Week CISA Claire CLI ClickHouse Clientless Clientless Web Isolation Cloud Connector Cloud Email Security Cloudflare Access Cloudflare Apps Cloudflare Area 1 Cloudflare Calls Cloudflare Email Service Cloudflare for Campaigns Cloudflare for SaaS Cloudflare for Startups Cloudflare Gateway Cloudflare History Cloudflare Images Cloudflare Media Platform Cloudflare Meetups Cloudflare Network Cloudflare One Cloudflare One Client Cloudflare One User Risk Score Cloudflare One Week Cloudflare OS Cloudflare Pages Cloudflare Polish Cloudflare Queues Cloudflare Realtime Cloudflare Stream Cloudflare Tunnel Cloudflare TV Cloudflare Workers Cloudflare Workers (PT) Cloudflare Workers KV Cloudflare Workers KV (ES) Cloudflare Zero Trust Cloudforce One Cloudy Code Orange Coinbase Colombia Community Compliance Compression Config Rules Configuration Management Congestion Control Connectivity Connectivity Cloud Consumer Services Containers Content Independence Day Content Scanning Context Core COVID-19 Crawler Hints CrowdStrike Crypto Week Cryptography CSAM Reporting Customer Success Custome",
+      "oneLineKo": "Cloudflare, DNS 캐시 최적화로 메모리 100테라바이트 절감",
+      "summaryKo": "Cloudflare가 1.1.1.1 DNS 리졸버의 캐시 구조를 최적화하여 전체 인프라에서 약 100테라바이트의 메모리를 절약한 과정을 다룬 기술 블로그 글입니다. Rust로 작성된 DNS 캐시 시스템의 메모리 사용 패턴을 분석하고, 데이터 구조 및 저장 방식을 개선해 대규모 절감을 달성했습니다. 이는 대규모 분산 시스템에서의 메모리 효율화 엔지니어링 사례를 보여줍니다.",
+      "tags": [
+        "dns",
+        "rust",
+        "performance-optimization"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49466917",
+      "title": "Small Models Have Arrived",
+      "url": "https://calv.info/small-models-have-arrived",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49466917",
+      "publishedAt": "2026-08-27T15:56:58Z",
+      "score": 571,
+      "comments": 256,
+      "snippet": "Small Models Have Arrived Calvin French-Owen / Writing Calvin French-Owen About Writing Bookshelf Small Models Have Arrived AUG 26, 2026 For the past few weeks, I've been playing with gpt-5.6-luna . It is shockingly capable, fast, and smart. I regularly see it do ~100 tps, and rip around my codebase, email, and knowledge base. Of course, the biggest thing with luna is the cost . I've tried running some fairly complicated research threads, and it's pretty tough to run up a large bill. Even having it search across thousands of emails, I end up with an API cost in the tens of cents. Courtesy of artificialanalysis.ai With GLM 5.3, we even have a new option at the Pareto frontier. When doing coding work, I almost always reach for the most expensive and capable models (Fable 5, 5.6 Sol). So it's been easy to miss the progress the small fast models have made. One thing a few investors I've talked with have mentioned: \"It's weird we're not seeing more consumer AI companies. Why is that?\" There's a straightforward answer: token costs. In the times before AI, the playbook for big consumer apps looked like this... create some sort of compelling website which is fairly cheap to run attract a bunch of users (typically with some virality) raise money, scale to more users create an ads marketplace This roughly describes most of the big consumer companies (Google, Facebook, Snapchat, etc.). 1 But what if you want to add AI to your product? Well, now you have some real inference costs on every request! Suddenly the amount of capital required increases dramatically. A pet eval of mine is to build a daily news site, personalized to me: research @calvinfo on the internet. figure out what news they might like. build a micro-site with today's top stories, personalized for them. search hn, reddit, twitter, etc. With the previous generation of models (Sonnet class), you'd spend ~$1 to get anywhere. Charging $30/mo is untenable for a consumer app. There's obviously a lot we can optimize here, but if you're charging what the WSJ or The Economist charges, you'd better be delivering similar value. But looking at luna, the results are pretty decent, and the average cost is ~$0.10. Now we're talking! Where I think this gets even more interesting is in the world of business. My Segment co-founder Peter and I were recently comparing notes on a hike. Across his various startups, Peter has seen two kinds of work: the \"IQ 180\" work. some mad scientist genius type comes up with some crazy solution you've never thought of. the \"token spewer\" work. being ultra responsive, pushing the ball forward across dozens of different fronts. Peter runs multiple companies. Beyond Segment, he's raised $100m+ for Charm Industrial , and just recently closed a Series A for Revoy . He's incredibly organized and efficient with his time. And yet, Peter mentioned that ~95% of the work he does falls into bucket 2. It's hopping on calls. Nudging people. Blocking and tackling. To be clear, Peter says his c",
+      "oneLineKo": "저비용 소형 AI 모델이 여는 새로운 가능성",
+      "summaryKo": "저자는 gpt-5.6-luna와 GLM 5.3 같은 소형·고속 AI 모델을 사용하며 매우 낮은 API 비용으로도 뛰어난 성능을 경험했다고 소개한다. 기존 Sonnet급 모델에서는 요청당 비용이 높아 소비자용 AI 서비스가 성립하기 어려웠지만, 최근 소형 모델의 토큰 비용 하락으로 개인화 뉴스 사이트 같은 서비스가 저렴하게 가능해졌다. 또한 비즈니스 업무 중 '반복적이고 대응적인' 유형의 작업(전화, 조율 등)에 이런 저비용 고속 모델이 특히 유용할 것이라는 통찰을 공유한다.",
+      "tags": [
+        "llm",
+        "ai-cost",
+        "consumer-ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49465169",
+      "title": "507 Mechanical Movements",
+      "url": "https://507movements.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49465169",
+      "publishedAt": "2026-08-27T14:08:18Z",
+      "score": 539,
+      "comments": 70,
+      "snippet": "507 Mechanical Movements FIVE HUNDRED AND SEVEN Mechanical Movements Index Now Animated for the Internet! &laquo; prev next &raquo; Wait... you said they were animated! Ah, yes… well, unfortunately we do not have all the animations working yet, but we do have quite a few. Look for the color thumbnails. They identify the completed animations. Use the prev and next links (above right) to browse the thumbnail pages. As time goes on, we’ll be adding more until all 507 are complete. Click the Facebook “Subscribe” or Twitter “Follow” button below to be notified of our progress. Meanwhile, we hope you enjoy the animations we have completed, along with Henry T. Brown’s original illustrations in this classic technical reference. See the About page for more. Close About Follow @507movements",
+      "oneLineKo": "507가지 기계 운동 원리, 애니메이션으로 재현한 고전 자료",
+      "summaryKo": "이 사이트는 Henry T. Brown의 고전 기술 참고서 '507 Mechanical Movements'에 수록된 507가지 기계 운동 원리를 애니메이션으로 시각화하는 프로젝트입니다. 아직 모든 항목이 완성되지는 않았으며, 완료된 항목은 컬러 썸네일로 표시됩니다. 원본 삽화와 함께 점진적으로 애니메이션을 추가해 나가고 있으며, SNS를 통해 진행 상황을 확인할 수 있습니다.",
+      "tags": [
+        "mechanical-engineering",
+        "animation",
+        "reference"
+      ]
+    }
+  ]
+}
