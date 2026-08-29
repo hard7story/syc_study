@@ -1,0 +1,279 @@
+{
+  "date": "2026-08-30",
+  "generatedAt": "2026-08-29T23:44:09.310Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33015",
+      "title": "LLM 메모리를 만들다 우연히 프로그램 분석 엔진이 된 이야기",
+      "url": "https://news.hada.io/topic?id=33015",
+      "commentsUrl": "https://news.hada.io/topic?id=33015",
+      "publishedAt": "2026-08-30T04:39:01+09:00",
+      "snippet": "장시간 취약점 조사에서 LLM이 이미 폐기된 가설을 다시 제안하거나, 틀린 전제에서 나온 결론을 계속 믿는 문제를 해결하려다 Datalog 기반 상태 관리 엔진 Lemmalog 를 개발함 과거 대화를 검색하는 대신 현재 무엇이 참인지 를 사실과 규칙으로 관리하고, 전제가 ...",
+      "oneLineKo": "LLM 메모리 문제 해결하려다 탄생한 프로그램 분석 엔진",
+      "summaryKo": "장시간 취약점 조사 과정에서 LLM이 이미 폐기된 가설을 재제안하거나 틀린 전제의 결론을 계속 신뢰하는 문제가 발생했다. 이를 해결하기 위해 과거 대화를 단순 검색하는 대신 현재 참인 사실과 규칙을 관리하는 Datalog 기반 상태 관리 엔진 Lemmalog를 개발했다. 이 과정에서 우연히 프로그램 분석 엔진으로 발전하게 되었다.",
+      "tags": [
+        "llm",
+        "datalog",
+        "program-analysis"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49447178",
+      "title": "Show HN: Typebase – A single-folder back end you write in TypeScript",
+      "url": "https://typebase.io",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49447178",
+      "publishedAt": "2026-08-26T11:33:31Z",
+      "score": 92,
+      "comments": 23,
+      "snippet": "Hey HN!<p>I built Typebase, a library that gives you Convex&#x27;s DX with Supabase&#x27;s openness.<p>After trying Supabase I liked how fast it is to spin up a DB and auth, but really didn&#x27;t like using RLS and SQL for authorization. With Convex I loved how your server &quot;lives&quot; in your code, but disliked the DB model and the realtime-first defaults.<p>With Typebase you just write TS files inside a typebase&#x2F; folder in your existing repo. You can define your DB tables inside a schema.ts file and export server functions that your frontend calls like local functions, fully typed. Auth is built in.<p>Then one CLI command uploads your server to any of the available providers (Vercel, Cloudflare Workers or Deno Deploy for the servera and Neon for the DB), or generates the code so you can deploy it wherever you want.<p>Built on top of oRPC, Drizzle, and better-auth.<p>Happy to answer any questions or feedback!",
+      "oneLineKo": "TypeScript로 백엔드 작성하는 오픈소스 라이브러리 Typebase",
+      "summaryKo": "Typebase는 Convex의 개발 경험과 Supabase의 개방성을 결합한 라이브러리로, 기존 저장소 안에 typebase/ 폴더를 만들고 TS 파일로 DB 스키마와 서버 함수를 정의하면 프론트엔드에서 로컬 함수처럼 완전히 타입 안전하게 호출할 수 있다. 인증 기능이 내장되어 있으며, CLI 명령 하나로 Vercel, Cloudflare Workers, Deno Deploy 등 원하는 프로바이더에 배포하거나 코드를 생성할 수 있다. oRPC, Drizzle, better-auth를 기반으로 구축되었다.",
+      "tags": [
+        "typescript",
+        "backend",
+        "oss"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1w1y2m3",
+      "title": "Inside the TypeScript Checker: From Text to Types",
+      "url": "https://www.reddit.com/r/programming/comments/1w1y2m3/inside_the_typescript_checker_from_text_to_types/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1w1y2m3/inside_the_typescript_checker_from_text_to_types/",
+      "publishedAt": "2026-08-29T21:06:41+00:00",
+      "snippet": "submitted by /u/Happycodeine [link] [comments]",
+      "oneLineKo": "TypeScript 체커의 텍스트→타입 변환 내부 분석",
+      "summaryKo": "이 글은 TypeScript 컴파일러의 타입 체커가 소스 텍스트를 어떻게 타입으로 변환하는지 내부 동작을 다룬다. Reddit에 공유된 게시물로 본문 내용은 제목 외에 구체적으로 제공되지 않았다. TypeScript 체커의 파싱, 바인딩, 타입 추론 과정에 관심 있는 개발자를 위한 자료로 보인다.",
+      "tags": [
+        "typescript",
+        "compiler",
+        "type-checker"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33010",
+      "title": "Debian, 생성형 AI 사용을 허용하고 결과물은 기여자가 책임지기로 결정",
+      "url": "https://news.hada.io/topic?id=33010",
+      "commentsUrl": "https://news.hada.io/topic?id=33010",
+      "publishedAt": "2026-08-30T02:33:49+09:00",
+      "snippet": "Debian의 LLM 사용에 관한 일반결의 투표에서 ‘생성형 AI의 책임 있는 사용’ 안이 8개 제안 중 최종 채택됨 생성형 AI를 공식적으로 권장하거나 금지하지 않으며, AI 기여물에 별도의 특례나 규제도 두지 않는 방침임 사용한 도구와 관계없이 모든 기여...",
+      "oneLineKo": "Debian, 생성형 AI 사용 허용… 책임은 기여자에게",
+      "summaryKo": "Debian의 LLM 사용에 관한 일반결의 투표에서 '생성형 AI의 책임 있는 사용' 안이 8개 제안 중 최종 채택되었습니다. 이 방침은 생성형 AI 사용을 공식적으로 권장하거나 금지하지 않으며, AI로 만든 기여물에 별도의 특례나 추가 규제를 두지 않습니다. 대신 사용한 도구와 관계없이 모든 기여자가 자신이 제출한 코드와 결과물에 대한 책임을 지도록 명시했습니다.",
+      "tags": [
+        "debian",
+        "generative-ai",
+        "open-source"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49491568",
+      "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
+      "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49491568",
+      "publishedAt": "2026-08-29T17:19:47Z",
+      "score": 214,
+      "comments": 45,
+      "snippet": "Good Culture is the Biggest Productivity Hack, Not AI Engineering Leadership Subscribe Sign in Good Culture is the Biggest Productivity Hack, Not AI AI definitely helps with productivity, but only when you have the right culture in place first! Gregor Ojstersek Aug 24, 2026 78 6 18 Share This newsletter is sponsored by Unblocked . [Webinar] How to stop babysitting your agents Agents can generate code. Getting it right for your system, team conventions, and past decisions is the hard part. You end up wasting time and tokens in the correction loops. More MCPs, rules, and bigger context windows give agents access to information, but not understanding. The teams pulling ahead have a context layer to give agents exactly what they need for the task at hand. Join live on Sep 2 (FREE) to see: Where teams get stuck on the AI maturity curve and why common fixes fall short How a context layer solves for quality, efficiency, and cost Live demo: the same coding task with and without a context layer Register now Thanks to Unblocked for sponsoring this newsletter. Let’s get back to today’s thought! Intro This is something that has been on my mind for quite a while now. It seems like everything these days revolves around “AI”, “AI tools”, “AI productivity”. “You need to use this AI tool” “You need to be using this AI workflow” “Your engineers should be 2x, 5x, or even 10x more productive with AI” And I get it. AI is changing how we build software, and I use AI tools myself every day as well. But we’re focusing too much on AI tools alone and not enough on the environment in which the tools are being used. Because there’s something a LOT more important than AI tools, and that’s a great culture. Throughout my 13+ year career in the engineering industry, I’ve seen both the negative effects of bad culture and the positive effects of a good one. I even felt it myself as an engineer and an engineering manager, when departments spent whole days blaming each other for problems. So, I am a big believer that everything starts with a good culture, and I’ll tell you all about it in this article. Let’s start! \"This is very easy to build now that we have AI, and we don't need as many people\" This is a sentence that breaks a good culture and makes people believe that their job is not important. Especially if it comes from an executive, e.g., a CEO, CPO, or even worse, a CTO. The problem with it is that it totally decreases psychological safety, and everyone starts wondering whether they'll still be needed or not. But here is an important thing that many people forget: There is no better productivity hack than a great culture. No AI tools will provide bigger productivity gains. I’ve unfortunately seen and heard this sentence quite a few times, either directly or from an engineer or engineering leader who has reported that to me. I think things have gotten a bit better this year, but in 2025 and in early 2026, I heard this many times. Let’s go more into why this is really problem",
+      "oneLineKo": "AI보다 중요한 생산성의 핵심은 좋은 조직 문화",
+      "summaryKo": "저자는 13년 이상의 엔지니어링 경력을 바탕으로 AI 도구보다 조직 문화가 생산성에 더 큰 영향을 미친다고 주장한다. 'AI 덕분에 인력이 덜 필요하다'는 발언이 심리적 안전감을 해치고 팀 사기를 떨어뜨린다는 사례를 소개한다. AI는 유용하지만 올바른 문화적 기반이 먼저 갖춰져야 진정한 생산성 향상으로 이어진다는 점을 강조한다.",
+      "tags": [
+        "engineering-culture",
+        "productivity",
+        "ai"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1w0y9dk",
+      "title": "Architecting the Next Generation of Asynchronous, Distributed GPUs for the AI Era",
+      "url": "https://www.reddit.com/r/programming/comments/1w0y9dk/architecting_the_next_generation_of_asynchronous/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1w0y9dk/architecting_the_next_generation_of_asynchronous/",
+      "publishedAt": "2026-08-28T18:14:30+00:00",
+      "snippet": "submitted by /u/mttd [link] [comments]",
+      "oneLineKo": "AI 시대 위한 차세대 비동기 분산 GPU 아키텍처 논의",
+      "summaryKo": "AI 워크로드에 최적화된 차세대 비동기 분산 GPU 아키텍처 설계에 관한 글이 Reddit에 공유되었습니다. 본문 내용은 확인되지 않으며 제목만으로 GPU 하드웨어 아키텍처와 분산 컴퓨팅을 다루는 것으로 추정됩니다. 구체적인 기술 세부사항은 원문 링크를 통해 확인이 필요합니다.",
+      "tags": [
+        "gpu",
+        "distributed-computing",
+        "ai-hardware"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33005",
+      "title": "버그 소문만으로 익스플로잇이 만들어지는 시대",
+      "url": "https://news.hada.io/topic?id=33005",
+      "commentsUrl": "https://news.hada.io/topic?id=33005",
+      "publishedAt": "2026-08-29T16:33:08+09:00",
+      "snippet": "OCaml cohttp 6.3.0 의 경로 순회 취약점 수정 PR을 공개하자 약 10분 만에 실제 서버로 같은 패턴의 탐색 요청이 들어왔으며, AI 에이전트는 대략적인 취약점 유형만으로 1분 안에 공격 코드를 생성함 에이전트가 상세 패치 없이도 취약점을 조사할 수 있어 기존 보안 엠바고...",
+      "oneLineKo": "AI 에이전트, 버그 소문만으로 10분 만에 익스플로잇 생성",
+      "summaryKo": "OCaml cohttp 6.3.0의 경로 순회 취약점 수정 PR이 공개된 지 약 10분 만에 동일 패턴의 탐색 요청이 실제 서버에 들어왔다. AI 에이전트는 상세한 패치 내용 없이 대략적인 취약점 유형 정보만으로도 1분 안에 공격 코드를 생성할 수 있었다. 이는 상세 패치가 공개되기 전에도 취약점을 조사·악용할 수 있음을 보여주며, 기존의 보안 엠바고 관행이 무력화될 수 있음을 시사한다.",
+      "tags": [
+        "security",
+        "exploit",
+        "ai-agent"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49486081",
+      "title": "StemDeck, a free, open-source and local AI stem separator",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49486081",
+      "publishedAt": "2026-08-29T01:24:13Z",
+      "score": 196,
+      "comments": 58,
+      "snippet": "GitHub - stemdeckapp/stemdeck: Stemdeck is an modern stem extraction platform for musicians,producers and hobbyists, designed to isolate vocals, drums, bass, piano and guitar for practice, transcription, remixing, and creative audio workflows through a modern and interactive interface · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} Uh oh! There was an error while loading. Please reload this page . stemdeckapp / stemdeck Public Notifications You must be signed in to change notification settings Fork 258 Star 3.1k Code Issues 3 Pull requests 0 Discussions Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Discussions Actions Projects Security and quality Insights main Branches Tags Go to file Code Open more actions menu Latest commit History 301 Commits 301 Commits Folders and files Name Name Last commit message Last commit date .github .github app app build build desktop desktop docs docs imgs imgs packaging packaging scripts scripts static static templates templates tests tests .dockerignore .dockerignore .gitattributes .gitattribut",
+      "oneLineKo": "보컬·드럼 등 분리하는 오픈소스 로컬 AI 툴 공개",
+      "summaryKo": "StemDeck은 음악에서 보컬, 드럼, 베이스, 피아노, 기타 등을 분리해주는 무료 오픈소스 스템 추출 플랫폼입니다. 로컬에서 동작하는 AI 기반 도구로, 연습·전사·리믹스 등 다양한 오디오 작업을 위한 인터랙티브 인터페이스를 제공합니다. GitHub에 공개되어 있으며 뮤지션과 프로듀서, 취미 사용자를 대상으로 합니다.",
+      "tags": [
+        "ai",
+        "audio-processing",
+        "open-source"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32972",
+      "title": "Show GN: cc-gemini-rewrite - Claude Code의 장황한 설명을 TUI 안에서 Gemini로 재작성해서 보기",
+      "url": "https://news.hada.io/topic?id=32972",
+      "commentsUrl": "https://news.hada.io/topic?id=32972",
+      "publishedAt": "2026-08-28T15:21:17+09:00",
+      "snippet": "요즘 Claude Code의 말하기 능력에 화가 날 때가 많습니다. 코드는 잘 짜는데, 설명은 장황하고 웅장한 말투를 써가면서 해서 Claude Code의 설명을 읽을 때마다 번아웃이 올 것만 같습니다. 주변 개발자들이나 커뮤니티에서도 같은 문제로 고통을 많이 받는 것 같습니다. 최근에 <a href=\"https://new",
+      "oneLineKo": "Claude Code 장황한 설명을 Gemini로 재작성하는 TUI 도구",
+      "summaryKo": "Claude Code가 코드는 잘 짜지만 설명이 장황하고 과장된 말투라는 불만에서 나온 프로젝트입니다. cc-gemini-rewrite는 TUI 환경에서 Claude Code의 응답을 Gemini를 이용해 간결하게 재작성해서 보여줍니다. 같은 문제를 겪는 개발자 커뮤니티의 공감대에서 만들어진 도구입니다.",
+      "tags": [
+        "claude-code",
+        "gemini",
+        "tui"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49485267",
+      "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+      "url": "https://github.com/Lakr233/vphone-cli",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49485267",
+      "publishedAt": "2026-08-28T23:02:21Z",
+      "score": 374,
+      "comments": 100,
+      "snippet": "GitHub - Lakr233/vphone-cli · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} Lakr233 / vphone-cli Public Notifications You must be signed in to change notification settings Fork 1.3k Star 9.2k Code Issues 18 Pull requests 4 Discussions Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Discussions Actions Projects Security and quality Insights main Branches Tags Go to file Code Open more actions menu Latest commit History 369 Commits 369 Commits Folders and files Name Name Last commit message Last commit date .github/ workflows .github/ workflows docs docs research research scripts scripts skills/ kernel-analysis-vphone600 skills/ kernel-analysis-vphone600 sources sources tests tests tools tools vendor vendor .gitignore .gitignore .gitmodules .gitmodules AGENTS.md AGENTS.md CLAUDE.md CLAUDE.md LICENSE LICENSE Makefile Makefile Package.swift Package.swift README.md README.md debs.list debs.list requirements.txt requirements.txt View all files Repository files navigation README MIT license More items 🇰🇷한국어 | 🇯🇵日本語 | 🇨🇳中文 | 🇬🇧En",
+      "oneLineKo": "macOS Virtualization.framework로 가상 iPhone 부팅",
+      "summaryKo": "vphone-cli는 Apple의 Virtualization.framework를 활용해 macOS 상에서 가상 iPhone을 부팅할 수 있게 해주는 오픈소스 프로젝트입니다. GitHub 저장소로 공개되어 있으며 9.2k 스타, 1.3k 포크를 기록하며 개발자들의 관심을 받고 있습니다. Swift 기반으로 작성되었고 커널 분석 등 관련 리서치 자료와 스크립트, 테스트 코드가 함께 제공됩니다.",
+      "tags": [
+        "ios",
+        "virtualization",
+        "macos"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32966",
+      "title": "Show GN: 출퇴근길AI – 출퇴근길에 한 장씩 익히는 AI 기초 학습",
+      "url": "https://news.hada.io/topic?id=32966",
+      "commentsUrl": "https://news.hada.io/topic?id=32966",
+      "publishedAt": "2026-08-28T10:10:34+09:00",
+      "snippet": "토스 미니앱으로 출퇴근길에 부담 없이 AI 기초를 공부할 수 있는 ‘퇴근이’를 만들었습니다. AI를 공부해 보려고 해도 긴 강의나 교재는 시작하기 부담스러운 경우가 많았습니다. 그래서 출퇴근길처럼 짧게 남는 시간에 한 장씩 이어서 볼 수 있으면 좋겠다는 생각으로 만들기 시작했습니다. 홈에서",
+      "oneLineKo": "토스 미니앱으로 배우는 출퇴근길 AI 학습 서비스",
+      "summaryKo": "토스 미니앱 형태로 출시된 '퇴근이'는 출퇴근길 같은 짧은 시간에 한 장씩 AI 기초 지식을 학습할 수 있도록 만든 서비스입니다. 긴 강의나 교재를 시작하기 부담스러운 사람들을 위해 짧고 이어보기 쉬운 형식으로 설계되었습니다. 홈 화면에서 바로 접근해 짧은 콘텐츠로 AI 기초를 익힐 수 있습니다.",
+      "tags": [
+        "ai",
+        "edtech",
+        "토스"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49415386",
+      "title": "Tether: iMessage, SMS, etc. on Linux",
+      "url": "https://zackbartel.com/blog/2026/08/tether/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49415386",
+      "publishedAt": "2026-08-24T05:09:23Z",
+      "score": 292,
+      "comments": 123,
+      "snippet": "Tether: Linux + iPhone - Zack Bartel /home blog github rss cat content/blog/2026/08/2026-08-23-tether.md Tether: Linux + iPhone // Aug 23, 2026 I didn't miss macOS, but... When I went to Linux full time I was surprised to not miss much from macOS. tldr; I made Tether to do all the things I did miss. No AirPlay kinda sucked, but the one thing I kept wishing I had was what Apple calls \"Continuity\" : the ability to send and receive iMessages and SMS, share files, sync clipboard, and see notifications from my iPhone on my computer. In particular, that thing where OTP codes sent to Mail or Messages autofill into the login form I'm waiting for on the Mac. It sounds small, but that was the one thing I really missed! It is impossible to fully implement all of Continuity on Linux, but Tether's goal is to do all of it that is technically possible. Before you ask, I know KDE Connect exists. It's great! If you're on Android you should definitely use it. The problem is that it didn't do what I wanted and it's roadmap indicated it never would. Origins Tether started its life filling the major holes. Clipboard sync was first, I wanted the OTP flow and I knew this was going to be required, and it was also the easiest. This let me copy / paste between macOS and Linux (Wayland) and forced the project to build out all the foundation I knew it would need later. I knew the App Store was going to be a hurdle so I shipped the iOS app first with only support for clipboard sync. There was a very basic tetherd daemon for the linux side but that was it. Security was a first class citizen from day one. I never skipped out on safety. The networking between iOS and Linux has been mTLS from the start, and both sides must agree before anything can communicate. Since then I've done Opus and then Fable bug / security sweeps regularly. After that, file transfer was the obvious next step and that went in quick and easy. Wat As for mail and browser stuff, I'm not very creative. To be honest I've kinda cheated here. I use Zen Browser (Firefox) and Betterbird (Thunderbird) and both support WebExtensions very well. So, I just made a browser and mail extension to deal with OTP stuff. The mail extension looks for OTP codes and sends them to the browser extension which looks for OTP input elements and autofills OTP codes as they arrive from mail. It actually works great! The problem is broad support: if you use a different mail client you're kinda out of luck for now. I'd LOVE if someone wants to help with that stuff, but it's so far out of my comfort that I'll stick with the backend side for now. Bluetooth Breakthrough My understanding to this point was that there was no interface to iMessage / SMS directly. You could always run a proxy on a Mac and send and receive texts through that, but in my opinion that is not a solution. I tried it. Even with Tailscale it was an unpleasant experience. Then I ran across ancs4linux and later BlueFerry and I was completely shocked. In particular, erik",
+      "oneLineKo": "리눅스에서 아이메시지·SMS 연동하는 Tether 프로젝트",
+      "summaryKo": "개발자가 macOS에서 리눅스로 완전히 이전하면서 유일하게 아쉬웠던 애플 Continuity 기능(아이메시지/SMS, 클립보드 동기화, 파일 공유, OTP 자동완성 등)을 리눅스에서 구현하기 위해 Tether를 만들었다. mTLS 기반 보안 통신을 기본으로 클립보드 동기화, 파일 전송 기능을 먼저 구현했고, OTP 자동완성은 Zen Browser와 Betterbird용 WebExtension으로 처리했다. 이후 ancs4linux와 BlueFerry라는 블루투스 기반 프로젝트를 발견하며 프록시 Mac 없이도 아이메시지/SMS에 직접 접근할 가능성을 확인했다.",
+      "tags": [
+        "linux",
+        "ios",
+        "continuity"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32962",
+      "title": "Agent Behavior - AI 에이전트의 반복 행동을 문서화해 평가 기준으로 삼는 표준",
+      "url": "https://news.hada.io/topic?id=32962",
+      "commentsUrl": "https://news.hada.io/topic?id=32962",
+      "publishedAt": "2026-08-28T09:30:02+09:00",
+      "snippet": "장시간 동작하며 수백 번 판단하는 AI 에이전트를 최종 결과 하나로만 평가하기 어려워, 작업 과정에서 반복적으로 보여야 할 행동 을 문서화하는 개방형 포맷 에이전트가 어떤 정보를 확인하고, 무엇을 판단하며, 어떻게 실행하고, 정보가 부족하거나 실패했을 때 어떻게 복구해야 하...",
+      "oneLineKo": "AI 에이전트 반복 행동을 문서화하는 개방형 평가 표준",
+      "summaryKo": "장시간 동작하며 수백 번 판단을 내리는 AI 에이전트는 최종 결과만으로 평가하기 어렵다는 문제에서 출발한 개방형 포맷이다. 이 표준은 에이전트가 작업 중 반복적으로 보여야 할 행동, 즉 정보를 확인하고 판단하며 실행하는 과정을 문서화한다. 특히 정보가 부족하거나 작업이 실패했을 때 어떻게 복구해야 하는지에 대한 행동 기준도 포함해, 에이전트의 신뢰성을 과정 중심으로 평가할 수 있게 한다.",
+      "tags": [
+        "ai-agent",
+        "evaluation",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49433328",
+      "title": "EVE Online moves to Python 3",
+      "url": "https://www.eveonline.com/news/view/the-move-to-python-3-begins",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49433328",
+      "publishedAt": "2026-08-25T13:04:55Z",
+      "score": 284,
+      "comments": 150,
+      "snippet": "The Move to Python 3 Begins! | EVE Online You need to enable JavaScript to run this app. The Move to Python 3 Begins! 2026-08-25 - By EVE Online Team Link copied Capsuleers, EVE continues to evolve, as a part of the EVE Evolved initiative, and it is time to cast the spotlight on the code itself! Underneath every gate jump, market order, and fleet fight in EVE Online, there is a very large amount of Python. It has run New Eden for more than two decades and now begins its transition to Python 3. For you, that means better tools to fix bugs sooner, room for new features, and a faster EVE over time. The definition of success for this migration is simple: it should be completely unnoticeable, aside from the occasional moment when something runs more smoothly. Many of you have already tested our first steps on Singularity, and those changes were deployed today . This is only the beginning of a long road ahead. A Codebase Older Than Some of You EVE launched in 2003, built on Stackless Python, a version of Python whose lightweight \"tasklets\" let a single server node juggle thousands of pilots at once. Fenris Creations did not just adopt Stackless; it became one of its most significant contributors. Some of you may remember upgrading to Stackless Python 2.5 in 2007 , then to Stackless Python 2.7 in 2010 . That was the last time EVE changed its Python version. Python 2.7 reached official end of life back in 2020, the rest of the software world moved on, and a whole generation of capsuleers has been born, gone to school, and started flying frigates while EVE stayed on the same language version. It was reliable enough that a large, potentially risky migration never justified itself, until now. Sixteen years on the same version says a lot about how well it worked. The Carbon engine helped massively, but it, too, has moved forward now ! Why Python 3? Why Now? The short version: staying on Python 2 increasingly holds EVE back, and moving to Python 3 means a healthier, better-supported game for you. One reason is performance. Recent Python 3 releases have delivered some of the largest speedups in the history of this language. Over time, that opens the door to a faster EVE, though it is too early to say exactly what that will mean. Another reason is the ecosystem. Modern libraries, debuggers, and profilers are all built for Python 3. Every year we remain on Python 2, more of them slip out of reach, and the more we must maintain ourselves instead of improving the game. Better tools mean we can find and fix problems faster. Python 3 simplifies many of the language's core building blocks. Text is handled through a single, consistent string type, making localization more reliable. Integers no longer have arbitrary size limits, growing automatically when needed. Even Python's class system has been unified, removing legacy behavior and making object-oriented code more consistent. Every character, every skill point, every asset in every hangar, every ISK in every wallet",
+      "oneLineKo": "EVE Online, 16년 만에 Python 2에서 3으로 이전 시작",
+      "summaryKo": "2003년 출시된 EVE Online은 Stackless Python 2.7을 16년간 유지해왔으나, 이번에 Python 3로의 전환을 공식 시작했다. Python 2는 2020년 공식 지원이 종료되었고, 최신 라이브러리와 디버깅 도구, 성능 개선 혜택을 누리기 위해 마이그레이션이 필요해졌다. 첫 변경 사항은 테스트 서버 Singularity를 통해 검증된 후 배포되었으며, 목표는 플레이어가 체감하지 못할 정도로 매끄러운 전환이다. 문자열 처리 통합, 무제한 정수, 클래스 시스템 정리 등 Python 3의 구조적 개선도 함께 언급되었다.",
+      "tags": [
+        "python",
+        "game-development",
+        "migration"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49492219",
+      "title": "DHS is using obscure law to snoop on journalists, non-profits, unions",
+      "url": "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49492219",
+      "publishedAt": "2026-08-29T18:44:37Z",
+      "score": 258,
+      "comments": 38,
+      "snippet": "Trump’s DHS is using an obscure law to secretly snoop on journalists, non-profits and unions: ‘It’s outrageous’ | Trump administration | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us US news US politics Midterms 2026 World Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Federal agents in Newark, New Jersey, on 30 May. Photograph: Julius Constantine Motal/The Guardian View image in fullscreen Federal agents in Newark, New Jersey, on 30 May. Photograph: Julius Constantine Motal/The Guardian Trump administration Trump’s DHS is using an obscure law to secretly snoop on journalists, non-profits and unions: ‘It’s outrageous’ Even after judges rejected the same ploy, the Trump administration is going directly to social media and telecommunications companies Sam Levine in New York City Sat 29 Aug 2026 08.00 EDT Last modified on Sat 29 Aug 2026 09.30 EDT Share Prefer the Guardian on Google T he Trump administration has been deploying an obscure legal maneuver to try to obtain private information on journalists, non-profits and unions, raising alarm over a power the government has asserted without judicial oversight. In one instance, the government obtained six months of telephone records for Georgia Fort , a Minneapolis journalist. Fort was not notified of the request for her information, nor was she given a chance to contest the government’s effort to obtain them, her lawyers said in court papers . In February of this year, federal prosecutors twice sought search warrants for account information for the YouTube channel of Fort and the journalist Don Lemon, both of whom have pleaded not guilty to criminal charges in connection to a protest at a Minn",
+      "oneLineKo": "DHS, 모호한 법 이용해 언론인·비영리단체 사찰",
+      "summaryKo": "트럼프 행정부의 국토안보부(DHS)가 잘 알려지지 않은 법적 수단을 동원해 법원의 승인 없이 기자, 비영리단체, 노동조합의 개인정보를 비밀리에 수집하고 있다는 사실이 드러났다. 미네소타 기자 조지아 포트의 경우 통신사로부터 6개월치 전화기록을 넘겨받았으나, 당사자는 통보나 이의제기 기회를 받지 못했다. 법원이 유사한 시도를 이미 거부했음에도 정부는 소셜미디어 및 통신회사에 직접 요청하는 방식으로 우회하고 있다.",
+      "tags": [
+        "surveillance",
+        "privacy",
+        "press-freedom"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49424320",
+      "title": "Glacier Mice",
+      "url": "https://en.wikipedia.org/wiki/Glacier_mice",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49424320",
+      "publishedAt": "2026-08-24T18:58:13Z",
+      "score": 243,
+      "comments": 48,
+      "snippet": "Glacier mice - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 Mechanism 2 References 3 External links Toggle the table of contents Glacier mice 6 languages Català Español Italiano Norsk bokmål Polski Русский Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser Print/export Download as PDF Printable version In other projects Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Free-moving globular moss colonies found on and near glaciers Glacier mice on Île de la Possession . Glacier mice are colonies of mosses found on some glaciers and adjacent ecosystems. They are composed of multiple species of moss [ 1 ] and can also host other species, such as nematode worms , springtails , and water bears . [ 2 ] Although what preconditions are necessary for glacier mice to form has yet to be determined, they have been observed in Alaska, Chile, Greenland, Iceland, Svalbard, Uganda and Venezuela, as well as several Subantarctic islands . [ 3 ] [ 4 ] [ 5 ] In at least some cases, glacier mice apparently reproduce asexually due to the effect of the harsh glacier environment on traditional moss reproduction strategies. [ 6 ] Glacier mice are notable for their movement across the ice, which appears to be non-random, taking the form of herd-like behavior. This movement is as yet unexplained, [ 1 ] and does not appear to be solely the product of wind or the direction of a slope. Mechanism [ edit ] Gilbert and Bartholomaus's evidence [ 1 ] shows a southern migration in Alaska which suggests a mechanism: the dark coloured moss absorbs sun energy on the south side, and casts a shadow on the north side. This causes the ice to melt only on the sunny side, creating a small depression, the moss then rolls into the depression and the process continues creating gradual southern motion (N. Hemisphere) and northern motion (S. Hemisphere). [ citation needed ] On average, they move about 2.5 cm (0.98 in) per day. [ 7 ] The use of accelerometers has demonstrated that glacier mice do in fact rotate and roll, rather than simply sliding across the ice, over time exposing all of their surfaces. [ 7 ] Measurements of glacier mice show that they retain heat and moisture, creating a suitable ecosystem for microorganisms that otherwise could not live on a glacier. [ 8 ] [ 9 ] Glacier mice are believed to persist for six years or longer. [ 7 ] Glacier mice were first described in 1950 by Icelandic meteorologist Jón Eyþórsson , ",
+      "oneLineKo": "빙하 위 이끼 군집 '글레이셔 마우스'의 신비한 이동 현상",
+      "summaryKo": "글레이셔 마우스는 빙하 및 인근 생태계에서 발견되는 이끼 군집으로, 선충류·톡토기·완보동물 등 다양한 생물의 서식처가 된다. 알래스카, 칠레, 그린란드 등 여러 지역에서 관찰되며, 특정 방향으로 이동하는 무리 행동을 보이지만 그 원인은 아직 명확히 밝혀지지 않았다. 가속도계 측정 결과 이들은 단순히 미끄러지는 것이 아니라 하루 평균 2.5cm씩 회전하며 굴러가는 것으로 확인되었으며, 이 과정에서 열과 수분을 유지해 빙하 위 미생물 생태계를 형성한다. 이끼 군집은 6년 이상 지속되는 것으로 추정되며, 1950년 아이슬란드 기상학자 욘 에이쏘르손이 처음 기술했다.",
+      "tags": [
+        "glaciology",
+        "ecology",
+        "moss"
+      ]
+    }
+  ]
+}
