@@ -1,0 +1,278 @@
+{
+  "date": "2026-08-29",
+  "generatedAt": "2026-08-29T03:28:26.490Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32999",
+      "title": "Yap - LLM이 코드에 남기는 ‘주석 슬롭’",
+      "url": "https://news.hada.io/topic?id=32999",
+      "commentsUrl": "https://news.hada.io/topic?id=32999",
+      "publishedAt": "2026-08-29T09:19:04+09:00",
+      "snippet": "LLM이 산더미 같은 코드를 만들면서, 누군가는 결국 그 코드를 읽고 검토해야 하는 시대가 됨 AI가 만든 코드에는 말은 많지만 이해에 도움이 되는 정보는 없는 주석 이라는 특정 형태의 Slop이 있으며, 이를 Yap 이라고 이름 붙임 Yapping 은 누군...",
+      "oneLineKo": "LLM이 남기는 무의미한 주석 '슬롭', Yap이라 명명",
+      "summaryKo": "LLM이 대량으로 생성하는 코드에는 결국 사람이 읽고 검토해야 하는 문제가 발생한다. 이 코드에는 말은 많지만 실제 이해에 도움이 되지 않는 특정 형태의 주석이 존재하며, 이를 'Yap'이라 부른다. 이는 AI가 만든 코드의 품질과 검토 부담을 다시 생각하게 하는 사례로 소개된다.",
+      "tags": [
+        "llm",
+        "code-review",
+        "ai-generated-code"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49475079",
+      "title": "Luanti removed from Google Play due to baseless AI copyright notice",
+      "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49475079",
+      "publishedAt": "2026-08-28T06:33:57Z",
+      "score": 467,
+      "comments": 141,
+      "snippet": "Luanti removed from Google Play due to baseless AI copyright notice - Luanti Blog --> Luanti Blog About Luanti removed from Google Play due to baseless AI copyright notice Written by the Luanti team Luanti’s Android app is currently not available on the Google Play Store due to a baseless DMCA notice filed on behalf of Microsoft by Tracer.AI, alleging that Luanti infringes Minecraft’s copyright. The Luanti app does not contain any proprietary code or assets, from Minecraft or otherwise. We received a similar notice from the same company in 2023 and successfully appealed against it. This company also filed a similar notice this year against an indie game with similar voxel art style by the name of Allumeria . Table of Contents What is Luanti? What is the DMCA notice? Which assets? Cubes are for everyone What is Tracer.AI? This is not the first time this has happened This can’t keep happening What next? What is Luanti? Luanti is a voxel game-creation platform where anyone can make, share, discover, and play blocky games. It does not ship with any games or game assets by default. Instead, players can browse a catalog of games created by the community, or simply join multiplayer servers. Asuna by EmptyStar , a sandbox game with a focus on biomes and exploration Extra Ordinance by Sumi , a top-down shooter Lazarr! by Wuzzy , a puzzle game with lasers Klots by Warr1024 , a 3D sliding block puzzle game We are a non-profit project developed by a community of passionate individuals expressing their creativity. Luanti is open source, which means anyone can view the source code, modify it, learn from it, redistribute it, and even sell games made with it on platforms like Steam. While Luanti is popular as an open-source alternative to Minecraft (as its roots are in blocky sandbox games), it also lowers barriers to bringing creative ideas to life. The freedom and customization Luanti affords has made it an excellent tool in education , finding its way into many schools across Europe. What is the DMCA notice? The Digital Millennium Copyright Act (DMCA) is United States law which lays out a notice-and-takedown process which platforms like Google Play follow to avoid liability for damages resulting from copyright-infringing packages which they distribute. These platforms are not responsible for the actions of their users, but they are responsible for taking corrective action when user-generated content is reported. The DMCA notice we received through Google claims that: These products use copyrighted assets as outlined directly from the Minecraft game (available at www.minecraft.net) without authorization and should be removed. Specifically, US Reg. #TX 8-192-097 “US Reg. #TX 8-192-097” is the registration of Minecraft Java Edition 1.9 with the US Copyright Office . It does not provide any information aside from this and does not outline which assets Luanti allegedly uses. Which assets? Engine Luanti is a game-creation platform and does not ship with any games, ",
+      "oneLineKo": "Luanti, AI 오탐 DMCA로 구글플레이에서 강제 삭제",
+      "summaryKo": "오픈소스 복셀 게임 플랫폼 Luanti의 안드로이드 앱이 마이크로소프트를 대리한 Tracer.AI의 근거 없는 DMCA 저작권 신고로 구글플레이에서 내려갔다. 해당 신고는 Luanti가 Minecraft의 저작권을 침해한다고 주장하지만, Luanti 앱은 Minecraft를 포함한 어떤 독점 코드나 자산도 포함하지 않는다. 같은 회사가 2023년에도 유사한 신고를 했었고 당시 항소로 해결됐으며, 올해는 비슷한 복셀 아트 스타일의 인디 게임 Allumeria에도 같은 신고를 제기했다. Luanti 팀은 이번에도 항소를 진행할 예정이다.",
+      "tags": [
+        "dmca",
+        "open-source",
+        "gaming"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1vz715a",
+      "title": "How to drive your frontend from the backend",
+      "url": "https://www.reddit.com/r/programming/comments/1vz715a/how_to_drive_your_frontend_from_the_backend/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1vz715a/how_to_drive_your_frontend_from_the_backend/",
+      "publishedAt": "2026-08-26T19:26:11+00:00",
+      "snippet": "submitted by /u/der_gopher [link] [comments]",
+      "oneLineKo": "백엔드 주도형 프론트엔드 구성 방법 소개",
+      "summaryKo": "Reddit r/programming에 게시된 글로, 백엔드에서 프론트엔드 동작을 제어하는 방식에 대한 내용을 다룬다. 본문 내용이 제목 외에 제공되지 않아 구체적인 구현 방법이나 기술 스택은 확인할 수 없다. 제목상 백엔드 중심의 UI/로직 제어 패턴을 소개하는 글로 보인다.",
+      "tags": [
+        "frontend",
+        "backend",
+        "architecture"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32977",
+      "title": "블랙박스 LLM의 크기를 재는 법",
+      "url": "https://news.hada.io/topic?id=32977",
+      "commentsUrl": "https://news.hada.io/topic?id=32977",
+      "publishedAt": "2026-08-28T23:16:39+09:00",
+      "snippet": "모델이 기억하는 희귀한 사실을 바탕으로 비공개 LLM의 대략적인 크기를 추정하는 방법.",
+      "oneLineKo": "희귀 사실 기억량으로 비공개 LLM 크기 추정",
+      "summaryKo": "이 글은 API로만 접근 가능한 블랙박스 LLM의 파라미터 크기를 직접 알 수 없을 때, 모델이 기억하고 있는 희귀한 사실들을 이용해 대략적인 크기를 추정하는 방법을 소개한다. 모델의 지식 저장 능력과 파라미터 수 사이의 관계를 활용하여 비공개 모델의 규모를 간접적으로 유추하는 접근법이다.",
+      "tags": [
+        "llm",
+        "model-size-estimation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49479878",
+      "title": "GLM-5.3 is now open-weight",
+      "url": "https://huggingface.co/zai-org/GLM-5.3",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49479878",
+      "publishedAt": "2026-08-28T15:20:13Z",
+      "score": 612,
+      "comments": 214,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Zai_org&#x2F;status&#x2F;2093354097122455713\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Zai_org&#x2F;status&#x2F;2093354097122455713</a><p><a href=\"https:&#x2F;&#x2F;z.ai&#x2F;blog&#x2F;glm-5.3\" rel=\"nofollow\">https:&#x2F;&#x2F;z.ai&#x2F;blog&#x2F;glm-5.3</a>",
+      "oneLineKo": "GLM-5.3 모델 오픈 웨이트로 공개",
+      "summaryKo": "Zai(구 Zhipu AI)가 대형 언어 모델 GLM-5.3을 오픈 웨이트로 Hugging Face에 공개했습니다. 관련 발표는 Zai의 공식 트위터와 블로그를 통해 공유되었습니다. 본문에는 모델의 구체적인 성능이나 아키텍처에 대한 상세 설명은 포함되어 있지 않습니다.",
+      "tags": [
+        "llm",
+        "open-weight",
+        "glm"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1w190pi",
+      "title": "Lean explained with TypeScript",
+      "url": "https://www.reddit.com/r/programming/comments/1w190pi/lean_explained_with_typescript/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1w190pi/lean_explained_with_typescript/",
+      "publishedAt": "2026-08-29T01:30:41+00:00",
+      "snippet": "submitted by /u/ngruhn [link] [comments]",
+      "oneLineKo": "TypeScript로 설명하는 Lean 증명 언어 개념",
+      "summaryKo": "이 게시물은 정리 증명 언어인 Lean의 개념을 개발자에게 친숙한 TypeScript를 이용해 설명하는 자료를 소개한다. 타입 시스템과 관련된 개념적 유사성을 활용해 Lean의 핵심 아이디어를 접근하기 쉽게 풀어내는 것으로 보인다. Reddit r/programming에 공유된 링크로, 본문 내용은 제목 외에 구체적으로 제공되지 않았다.",
+      "tags": [
+        "typescript",
+        "lean",
+        "type-theory"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32974",
+      "title": "Show GN: Mycelium - AI 코딩 에이전트 세션을 정리하고 재사용하는 TUI",
+      "url": "https://news.hada.io/topic?id=32974",
+      "commentsUrl": "https://news.hada.io/topic?id=32974",
+      "publishedAt": "2026-08-28T20:13:34+09:00",
+      "snippet": "안녕하세요. 저는 업무나 일상에서 매일 Claude Code를 사용하고, 특히 과거 세션을 계속 참고하면서 작업하고 있는데요. AI 코딩 에이전트를 사용하다 보면 프로젝트별로 세션이 점점 많이 쌓이고, 나중에는 /rename 을 해두더라도 이전 세션의 컨텍스트를 다시 찾거나 이어가기 어려운 경우가 많아 불편...",
+      "oneLineKo": "AI 코딩 에이전트 세션 관리용 TUI 도구 Mycelium 공개",
+      "summaryKo": "개발자가 Claude Code 등 AI 코딩 에이전트를 매일 사용하며 겪은 불편함에서 출발한 프로젝트로, 프로젝트별로 쌓이는 세션들을 정리하고 이전 세션의 컨텍스트를 쉽게 찾아 재사용할 수 있도록 돕는 TUI(Terminal UI) 도구입니다. /rename 기능만으로는 과거 세션을 이어가기 어려웠던 문제를 해결하기 위해 만들어졌습니다.",
+      "tags": [
+        "ai-agent",
+        "tui",
+        "claude-code"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49479837",
+      "title": "GUIs should be fully keyboard-driven",
+      "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49479837",
+      "publishedAt": "2026-08-28T15:17:09Z",
+      "score": 652,
+      "comments": 322,
+      "snippet": "GUIs should be fully keyboard-driven | Charalampos Kardaris GUIs should be fully keyboard-driven 2026-08-28 on Charalampos Kardaris' blog , view comments This post has made it to the Hacker News front page. See the discussion . Last week I came across a post on Hacker News that encouraged application developers to stop making terminal user interfaces 1 (a.k.a. TUIs) and instead focus on graphical user interfaces (a.k.a. GUIs). The post reached the HN front page and sparked a lively debate in the comments section. I think there is merit in both sides of the debate. On one hand, I understand the GUI-positive arguments of the post author. In theory, the capabilities of GUI application frameworks are a superset of the capabilities of their TUI counterparts, so they should be preferred. On the other hand, as a heavy terminal user , I also greatly appreciate all TUIs that allow me to “stay” in the terminal and fulfill all my needs. But I want to oppose a recurring argument in favor of TUIs that in my opinion does not have a solid foundation 2 . To paraphrase various commenters: TUIs should be preferred because they are keyboard-driven. While it’s true that if you randomly pick a GUI and a TUI application, the latter is more probable to be fully keyboard-driven, this does not tip the scale in favor of developing TUIs over GUIs 3 . What it does is highlight the inadequacies of keyboard navigation in many GUI applications. There is nothing preventing a GUI from being fully keyboard-driven 4 just like — or even better than — a TUI. In fact, many GUI framework application guidelines explicitly encourage GUI application developers to provide support for keyboard-driven navigation that covers the whole functionality of the application. For example, the GNOME Human Interface Guidelines state that just as it should be possible to perform every action with a pointing device, every action should also be possible with the keyboard and that it should be possible to move around and interact with every part of your user interface using the keyboard . This resonates with me as a user. Being able to intuitively — and predictably — navigate around a GUI application with only my keyboard gives me more incentive to choose it compared to its alternatives. Knowing that, and when wearing my developer hat, I have to make sure that my applications are keyboard-friendly. For my first ever GUI application, Klisi , I invested some time to implement keyboard shortcuts targeting the whole range of available actions. Keyboard navigation is not that hard to achieve in most cases and results in an overall better user experience. It is not a matter of feasibility, but a matter of will on the application developer’s part. The takeaway is simple. Do not compromise on the user experience you provide with your application. Strive to make it as intuitive as possible. To that end, enabling full keyboard navigation should not be ignored. Or alternatively text-based user interfaces . ↩ The ori",
+      "oneLineKo": "GUI도 TUI처럼 완전한 키보드 조작 지원해야",
+      "summaryKo": "HN에서 벌어진 TUI vs GUI 논쟁을 다루며, 저자는 TUI가 키보드 중심이라는 이유만으로 우월하다는 주장에 반박한다. GUI 프레임워크도 GNOME HIG처럼 모든 기능을 키보드로 접근 가능하게 설계할 수 있으며, 이는 기술적 한계가 아니라 개발자의 의지 문제라고 강조한다. 저자는 자신의 GUI 앱 Klisi에서 전체 기능에 키보드 단축키를 구현한 경험을 예로 들며, 완전한 키보드 내비게이션이 더 나은 사용자 경험으로 이어진다고 주장한다.",
+      "tags": [
+        "gui",
+        "tui",
+        "ux"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32990",
+      "title": "근거 없는 AI 저작권 통지로 Google Play에서 삭제된 Luanti",
+      "url": "https://news.hada.io/topic?id=32990",
+      "commentsUrl": "https://news.hada.io/topic?id=32990",
+      "publishedAt": "2026-08-29T04:40:26+09:00",
+      "snippet": "오픈소스 복셀 게임 제작 플랫폼 Luanti의 Android 앱 이 Tracer.AI가 Microsoft를 대신해 제출한 DMCA 통지로 Google Play에서 내려갔지만, 통지에는 Minecraft 저작권을 침해한 구체적인 자산이나 증거가 없음 Luanti는 기본 게임 없이 자체 코드와 적법하게 라이선스된 자산만 제공...",
+      "oneLineKo": "근거 없는 AI DMCA 신고로 Luanti 앱 구글플레이 삭제",
+      "summaryKo": "오픈소스 복셀 게임 플랫폼 Luanti의 Android 앱이 Tracer.AI가 Microsoft를 대신해 제출한 DMCA 통지로 Google Play에서 내려갔다. 해당 통지에는 Minecraft 저작권을 침해했다는 구체적인 자산이나 증거가 제시되지 않았다. Luanti는 기본 게임 없이 자체 코드와 적법하게 라이선스된 자산만 제공한다고 밝히며 반박하고 있다.",
+      "tags": [
+        "dmca",
+        "open-source",
+        "google-play"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49473522",
+      "title": "Judge rules Trump administration’s blacklisting of Anthropic was illegal",
+      "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49473522",
+      "publishedAt": "2026-08-28T02:03:38Z",
+      "score": 550,
+      "comments": 407,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;ni6I3\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;ni6I3</a><p><a href=\"https:&#x2F;&#x2F;storage.courtlistener.com&#x2F;recap&#x2F;gov.uscourts.cand.465515&#x2F;gov.uscourts.cand.465515.250.0.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;storage.courtlistener.com&#x2F;recap&#x2F;gov.uscourts.cand.46...</a>",
+      "oneLineKo": "법원, 트럼프 행정부의 Anthropic 블랙리스트 지정 위법 판결",
+      "summaryKo": "미국 법원이 트럼프 행정부가 AI 기업 Anthropic을 정부 블랙리스트에 올린 조치가 불법이라고 판결했다. 관련 판결문과 소송 자료는 CourtListener 등을 통해 공개되었다. 기사는 뉴욕타임스 보도를 바탕으로 하며, 세부 배경이나 블랙리스트 지정 이유에 대한 추가 설명은 본문에 포함되어 있지 않다.",
+      "tags": [
+        "anthropic",
+        "ai-policy",
+        "legal"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32982",
+      "title": "Model Hardware Standard - AI가 로봇과 실험 장비를 함께 다루게 하는 공통 표준",
+      "url": "https://news.hada.io/topic?id=32982",
+      "commentsUrl": "https://news.hada.io/topic?id=32982",
+      "publishedAt": "2026-08-29T00:19:03+09:00",
+      "snippet": "Anthropic과 HHMI Janelia가 AI 에이전트와 실제 장비를 연결하는 MHS 의 제한된 연구 프리뷰를 시작함 제조사마다 다른 장비의 제어 방식과 상태 정보를 통일해, 현미경·로봇 팔·액체 처리기를 연결할 때마다 맞춤 코드를 만드는 부담을 줄임 에이전트가 명령을 보내는 데서...",
+      "oneLineKo": "Anthropic, AI-하드웨어 연결 표준 MHS 프리뷰 공개",
+      "summaryKo": "Anthropic과 HHMI Janelia가 AI 에이전트와 실제 장비를 연결하는 Model Hardware Standard(MHS)의 제한된 연구 프리뷰를 시작했다. 제조사마다 다른 장비의 제어 방식과 상태 정보를 통일해 현미경, 로봇 팔, 액체 처리기 등을 연결할 때마다 맞춤 코드를 작성해야 하는 부담을 줄이는 것이 목표다. 이를 통해 AI 에이전트가 명령 전송뿐 아니라 장비 상태 파악까지 표준화된 방식으로 처리할 수 있게 된다.",
+      "tags": [
+        "ai-agent",
+        "robotics",
+        "hardware-standard"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49477854",
+      "title": "U.S. sanctions against the A/I Collective",
+      "url": "https://www.inventati.org/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49477854",
+      "publishedAt": "2026-08-28T12:58:53Z",
+      "score": 504,
+      "comments": 488,
+      "snippet": "Earlier:<p><i>US Government designates host of noblogs.org a &quot;global terrorist&quot;</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49464391\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49464391</a> -  (131 comments)<p><i>US sanctions Italian hosting provider Autistici Inventati</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49451343\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49451343</a> - (219 comments)",
+      "oneLineKo": "미국, 이탈리아 호스팅업체 A/I Collective에 제재 부과",
+      "summaryKo": "미국 정부가 이탈리아의 익명성 중심 호스팅 서비스인 Autistici/Inventati(A/I Collective)를 제재 대상으로 지정했다. 이 업체는 활동가 블로그 플랫폼 noblogs.org도 운영하고 있으며, 관련 호스트가 '글로벌 테러리스트'로 지정된 바 있다. 이번 조치는 프라이버시 및 익명 호스팅 서비스에 대한 미국의 제재 확대 움직임으로 해석되며, 온라인 커뮤니티에서 큰 논란을 낳고 있다.",
+      "tags": [
+        "hosting",
+        "sanctions",
+        "privacy"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=32975",
+      "title": "백만 마리의 카카포",
+      "url": "https://news.hada.io/topic?id=32975",
+      "commentsUrl": "https://news.hada.io/topic?id=32975",
+      "publishedAt": "2026-08-28T23:02:58+09:00",
+      "snippet": "LLM 코딩 에이전트가 코드 작성의 희소성을 낮추면서, 개발자들이 공동 기반을 유지하던 오픈소스 생태계 가 개인·기업별 소프트웨어가 난립하는 환경으로 이동할 수 있음 판다와 카카포처럼 특정 환경에 최적화된 생물은 변화에 취약하지만, 바퀴벌레와 상어는 비효율적으로 보이는 ...",
+      "oneLineKo": "LLM 코딩 시대, 오픈소스 생태계의 종 다양성 위기",
+      "summaryKo": "LLM 코딩 에이전트가 코드 작성 비용을 크게 낮추면서, 개발자들이 공유하던 오픈소스 공동 기반이 개인·기업별로 파편화된 소프트웨어 환경으로 바뀔 수 있다는 우려를 제기한다. 판다나 카카포처럼 특정 환경에 고도로 최적화된 생물이 환경 변화에 취약한 반면, 바퀴벌레나 상어처럼 비효율적으로 보이지만 범용적인 생물이 오래 생존한다는 비유를 든다. 이를 통해 특화된 소프트웨어 생태계보다 범용적이고 적응력 있는 구조가 장기적으로 더 견고할 수 있음을 시사한다.",
+      "tags": [
+        "llm",
+        "opensource",
+        "software-ecosystem"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49477564",
+      "title": "Inception-style curved map for turn-by-turn directions",
+      "url": "https://www.orbify.eu/demo/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49477564",
+      "publishedAt": "2026-08-28T12:29:05Z",
+      "score": 441,
+      "comments": 146,
+      "snippet": "Orbify Demo 2 - v72 Minimize Orbify info − Orbify web demo Demo 2 - v72 Controls Move W A S D Pan Left drag Rotate Right drag Get in touch Pilot, collaboration or investment? We are open to pilot projects, technology collaborations, industry partnerships and conversations with investors. ORBIFY.EU karsten@orbify.eu Demo versions Demo 2 - v72 current Previous demo 1 - v38 Orbify AS Org. nr. 934606442 Phone: +47 91349314 © 2026 Orbify. All rights reserved. Warping technology: Patent Pending · PCT/EP2026/058725 3D rendering powered by PlayCanvas Engine . Model: Hamilton Stadium, Hamilton Ontario (Sun Down) by Justin Eastman , licensed under CC BY 4.0 . Start navigation Patent pending · PCT/EP2026/058725 Navigation Reimagined. Preparing Demo 2 - v72… 0% Loading Orbify scene Loading… Demo 2 - v72 · © 2026 Orbify · Patent Pending · PCT/EP2026/058725",
+      "oneLineKo": "영화 인셉션풍 곡면 지도로 턴바이턴 내비게이션 데모",
+      "summaryKo": "Orbify가 영화 인셉션에 나온 것처럼 지형을 구부려 보여주는 곡면 지도 기반 턴바이턴 내비게이션 웹 데모를 공개했다. PlayCanvas 엔진으로 3D 렌더링되며, 관련 워핑(warping) 기술은 특허 출원 중이다. 회사는 파일럿 프로젝트, 기술 협력, 투자 관련 협의를 모색하고 있다.",
+      "tags": [
+        "navigation",
+        "3d-rendering",
+        "playcanvas"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49480466",
+      "title": "Just the rumour of a bug is enough to find an exploit these days",
+      "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49480466",
+      "publishedAt": "2026-08-28T15:58:46Z",
+      "score": 272,
+      "comments": 97,
+      "snippet": "Just a rumour of a bug is enough to find a security exploit these days | Anil Madhavapeddy >_ Anil Madhavapeddy @avsm / About Projects Ideas Papers Notes Talks Network Links Subscribe Atom full JSON Feed full Atom perma JSON Feed perma >_ Anil Madhavapeddy About Projects Ideas Papers Notes Talks Network Links Just a rumour of a bug is enough to find a security exploit these days #security #ai #ocaml #policy #llms [cite] · 22 Aug 2026 22 August 2026 Thinking through how the conventional OSS security embargoes no longer buy us time, and what open source maintainers might do instead to respond Anil Madhavapeddy I released a security fix for OCaml's cohttp 6.3.0 today, fixing a path traversal issue . The patch itself was straightforward and in normal times, the security procedure would have been to fix it privately, inform affected users, and then issue a public advisory. This time around though, I noticed probes in my live webserver logs with the exact bug pattern just minutes after opening the PR to fix the issue . What's worse, I found I could use my own agents to find the exploit just by knowing roughly what it was about and so could have been exploiting it well before the public patch was available! Given that just the rumour of a security issue seems enough to give attackers enough info to find new exploits, we're going to need to change the way we deal with security responses in open source. 1 The rumour of a bug is all new agentic exploit systems need This particular report arrived privately on a Slack channel via Jane Street last week, and was itself found via Claude Fable. That compresses all timelines considerably... 1.1 The timeline of a modern security report Before examining the patch in detail, I pointed my own Claude at the affected code to see what else was lurking (asking it to investigate path normalisation issues). Fable frustratingly refused outright due to its security block since I don't have access to Glasswing , but DeepSeek V4 Pro obliged me and independently turned up several related issues. My agent also trivially created an exploit to probe a local live server in under a minute. After some back and forth with the bug reporter about possible fixes, I quietly opened cohttp#1145 publicly to get more eyes on it. This normally takes a few days and a release within a week or two is reasonable. Within about ten minutes (!) this website was fielding probes for percent-encoded traversal sequences, indicating that automated watchers are keeping an eye on public repositories. If it took me just a minute to create my own exploit locally, then ten minutes actually seems quite long for an automated attack window to start! A determined attacker who is monitoring package repositories could easily be exploiting them within seconds. 1.2 Security embargoes are no longer effective Conventional security process involves embargoing the bug, and assumes that secrecy of the details protects users. However, all an agent needs today is a broad dir",
+      "oneLineKo": "AI로 취약점 소문만으로 익스플로잇 자동 생성",
+      "summaryKo": "OCaml cohttp 라이브러리의 path traversal 취약점을 수정한 저자가, PR을 올린 지 몇 분 만에 정확한 패턴의 공격 시도가 웹서버 로그에 나타난 경험을 공유했다. 저자는 자신의 AI 에이전트(Claude, DeepSeek 등)에게 대략적인 버그 내용만 알려줘도 1분 만에 익스플로잇을 생성할 수 있었다고 밝혔다. 이는 기존 오픈소스 보안 임베고(비공개 유지 후 패치) 방식이 더 이상 시간을 벌어주지 못함을 의미하며, 공개 저장소를 감시하는 자동화된 공격 시스템이 이미 존재함을 시사한다.",
+      "tags": [
+        "security",
+        "llm",
+        "ocaml"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49472216",
+      "title": "The Twelve-Factor App (2025)",
+      "url": "https://12factor.net/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49472216",
+      "publishedAt": "2026-08-27T22:41:11Z",
+      "score": 239,
+      "comments": 125,
+      "snippet": "The Twelve-Factor App The Twelve-Factor App Blog Community GitHub Introduction In the modern era, software is commonly delivered as a service: called web apps , or software-as-a-service . The twelve-factor app is a methodology for building software-as-a-service apps that: Use declarative formats for setup automation, to minimize time and cost for new developers joining the project; Have a clean contract with the underlying operating system, offering maximum portability between execution environments; Are suitable for deployment on modern cloud platforms , obviating the need for servers and systems administration; Minimize divergence between development and production, enabling continuous deployment for maximum agility; And can scale up without significant changes to tooling, architecture, or development practices. The twelve-factor methodology can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc). Background The contributors to this document have been directly involved in the development and deployment of hundreds of apps, and indirectly witnessed the development, operation, and scaling of hundreds of thousands of apps via our work on the Heroku platform. This document synthesizes all of our experience and observations on a wide variety of software-as-a-service apps in the wild. It is a triangulation on ideal practices for app development, paying particular attention to the dynamics of the organic growth of an app over time, the dynamics of collaboration between developers working on the app’s codebase, and avoiding the cost of software erosion . Our motivation is to raise awareness of some systemic problems we’ve seen in modern application development, to provide a shared vocabulary for discussing those problems, and to offer a set of broad conceptual solutions to those problems with accompanying terminology. The format is inspired by Martin Fowler’s books Patterns of Enterprise Application Architecture and Refactoring . Who should read this document? Any developer building applications which run as a service. Ops engineers who deploy or manage such applications. The Twelve Factors I. Codebase One codebase tracked in revision control, many deploys II. Dependencies Explicitly declare and isolate dependencies III. Config Store config in the environment IV. Backing services Treat backing services as attached resources V. Build, release, run Strictly separate build and run stages VI. Processes Execute the app as one or more stateless processes VII. Port binding Export services via port binding VIII. Concurrency Scale out via the process model IX. Disposability Maximize robustness with fast startup and graceful shutdown X. Dev/prod parity Keep development, staging, and production as similar as possible XI. Logs Treat logs as event streams XII. Admin processes Run admin/management tasks as one-off processes Česky (cs) | Deutsch (de) | Ελληνικά (el) | English (",
+      "oneLineKo": "클라우드 SaaS 앱 개발 방법론 '12요소 앱' 소개",
+      "summaryKo": "12-Factor App은 Heroku 팀의 경험을 바탕으로 정리된 SaaS 애플리케이션 개발 방법론입니다. 코드베이스 관리, 의존성 명시, 환경설정 분리, 백엔드 서비스 취급, 빌드/릴리즈/실행 단계 분리 등 12가지 원칙을 제시합니다. 이를 통해 개발-운영 환경 간 격차를 최소화하고, 클라우드 플랫폼에서의 확장성과 이동성을 극대화할 수 있습니다. 프로그래밍 언어나 백엔드 서비스 종류에 관계없이 적용 가능한 범용 가이드라인입니다.",
+      "tags": [
+        "12factor",
+        "cloud-native",
+        "devops"
+      ]
+    }
+  ]
+}
