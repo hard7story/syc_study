@@ -1,0 +1,274 @@
+{
+  "date": "2026-09-01",
+  "generatedAt": "2026-09-01T00:56:52.688Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33090",
+      "title": "OpenClaw 2.0 출시, 설치부터 메모리와 브라우저 제어까지 전면 개편",
+      "url": "https://news.hada.io/topic?id=33090",
+      "commentsUrl": "https://news.hada.io/topic?id=33090",
+      "publishedAt": "2026-09-01T09:17:35+09:00",
+      "snippet": "OpenClaw 역사상 가장 큰 업데이트로, 933명의 기여자가 만든 16,000개 이상의 PR을 반영해 설치, 메시징, 메모리, 스킬, 자동화, 앱, 플러그인, 보안 전반을 개편 함 기존 ChatGPT 또는 Claude 구독, API 키, 로컬 모델을 재사용하는 간소화된 설치 과정과 대화 중심으로 다...",
+      "oneLineKo": "OpenClaw 2.0, 설치부터 메모리·보안까지 대규모 개편",
+      "summaryKo": "OpenClaw 2.0은 933명의 기여자가 만든 16,000개 이상의 PR을 반영한 역대 최대 업데이트다. 설치, 메시징, 메모리, 스킬, 자동화, 앱, 플러그인, 보안 전반이 개편되었다. 기존 ChatGPT나 Claude 구독, API 키, 로컬 모델을 그대로 재사용할 수 있도록 설치 과정이 간소화되었고, 대화 중심의 인터페이스로 사용성이 개선되었다.",
+      "tags": [
+        "openclaw",
+        "llm",
+        "automation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49511856",
+      "title": "I turned my security cameras into an automatic bird identification system",
+      "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49511856",
+      "publishedAt": "2026-08-31T16:47:11Z",
+      "score": 352,
+      "comments": 91,
+      "snippet": "How I Turned My Security Cameras Into an Automatic Bird Identification System with BirdNet-Go Jason Tucker H Home A About C Categories A Archive S Series W Watch N Now J Join B Bluesky I Instagram M Mastodon L Linkedin T Threads Y YouTube T TikTok Sign In Sign In Jason Tucker Sign In Jason Tucker Jun 4, 2026 7 min read Featured homelab selfhosting docker AI diy How I Turned My Security Cameras Into an Automatic Bird Identification System with BirdNet-Go I turned three security cameras into an automatic bird identification system using BirdNet-Go. Now my wife and I can track every bird species that visits our yard in real-time. My wife loves listening to the birds and identifying them using an app on her phone. I thought I'd take this a step further and see if there was something that can identify the birds based on their song. Looking around I found BirdNet and BirdNet-Go , then discovered you can run this on Docker and use the security cameras you already have outside to identify the birds. Awesome! So I took 3 of the cameras around my house and used their microphones to identify the birds. It was magic. Real-Time Bird and Bat Audio Detection BirdNet-Go runs 24/7. It listens constantly. The moment a bird starts singing, it analyzes the audio and gives you an identification. No waiting, no manual recording. It works for bats too, which is pretty cool if you've got them flying around at dusk. The system just keeps running in the background, cataloging everything it hears. It also started detecting frogs which is interesting. Multi-Model Local AI Inference Engine The whole thing runs locally on your hardware. No cloud services. No API calls. The AI models live right on your server or Raspberry Pi. This means it's fast, private, and doesn't cost you anything per month. You can even run multiple models if you want different detection strategies or regional bird databases. They recently added Google Perch v2 to the model gallery allowing for 14,795 species to be detected vs the 6,000 that BirdNET 2.4 provided. Alert Rules with Species List Matching You can set up rules for specific birds. Want to know the instant a cardinal shows up? Done. Looking for a rare species in your area? Set an alert. The system matches against species lists and sends you notifications based on whatever criteria you set. It's like having a birding buddy who never sleeps. I even have it connected to a channel in my homes Discord server. Wait, your house doesn't have a dedicated Discord? Setting up notifications and alerts for bird sightings into the house discord channel #birdnet Species Novelty Tracking for New Detections This feature tracks which birds are new to your yard. First time a blue jay visits? BirdNet-Go flags it. It maintains a running list of every species it's detected, so you can see your yard's biodiversity grow over time. Honestly, this turned into a fun game for us. RTSP Stream Support for IP Cameras If your cameras support RTSP, you're good to go. Most mode",
+      "oneLineKo": "보안 카메라+BirdNet-Go로 실시간 새 소리 식별 홈랩 구축",
+      "summaryKo": "저자는 집에 있는 보안 카메라 3대의 마이크를 활용해 BirdNet-Go를 통해 새 울음소리를 실시간으로 인식하는 시스템을 만들었다. Docker로 로컬에서 24시간 구동되며 클라우드 없이 새, 박쥐, 개구리 소리까지 감지한다. 최근 추가된 Google Perch v2 모델은 기존 BirdNET 2.4의 6,000종 대비 14,795종을 인식할 수 있다. 특정 종 알림, 신규 종 감지 추적, RTSP 스트림 지원 등의 기능을 홈 Discord 채널과 연동해 활용하고 있다.",
+      "tags": [
+        "birdnet-go",
+        "homelab",
+        "docker"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1w39te8",
+      "title": "The Hugging Face incident from a security engineering perspective",
+      "url": "https://www.reddit.com/r/programming/comments/1w39te8/the_hugging_face_incident_from_a_security/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1w39te8/the_hugging_face_incident_from_a_security/",
+      "publishedAt": "2026-08-31T10:29:41+00:00",
+      "snippet": "submitted by /u/No_Zookeepergame7552 [link] [comments]",
+      "oneLineKo": "Hugging Face 보안 사고, 엔지니어링 관점 분석",
+      "summaryKo": "Reddit에 게시된 글로, Hugging Face에서 발생한 보안 사고를 보안 엔지니어링 관점에서 분석한 내용을 다룬다. 본문 정보가 제목뿐이라 구체적인 사고 내용이나 원인은 알 수 없다. 해당 링크는 보안 사고의 기술적 세부사항을 다루는 외부 자료로 보인다.",
+      "tags": [
+        "security",
+        "huggingface"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33084",
+      "title": "보안 카메라를 자동 조류 식별 시스템으로 바꾼 방법",
+      "url": "https://news.hada.io/topic?id=33084",
+      "commentsUrl": "https://news.hada.io/topic?id=33084",
+      "publishedAt": "2026-09-01T06:33:17+09:00",
+      "snippet": "기존 보안 카메라 3대의 마이크를 BirdNet-Go 에 연결해 새소리를 24시간 분석하고 방문 종을 자동 식별함 Docker와 RTSP 스트림으로 서버나 Raspberry Pi에서 로컬 AI 추론 을 실행해 클라우드 API와 구독료가 필요 없으며, 직접 공유하지 않는 한 오디오도 외부로 ...",
+      "oneLineKo": "보안 카메라 마이크로 새소리 24시간 자동 식별",
+      "summaryKo": "기존 보안 카메라 3대의 마이크를 BirdNet-Go에 연결해 새소리를 24시간 분석하고 방문한 조류 종을 자동으로 식별하는 시스템을 구축했다. Docker와 RTSP 스트림을 활용해 서버나 Raspberry Pi에서 로컬 AI 추론을 실행함으로써 클라우드 API 사용이나 구독료 없이 동작한다. 오디오 데이터를 직접 공유하지 않는 한 외부로 전송되지 않아 프라이버시도 유지된다.",
+      "tags": [
+        "birdnet-go",
+        "raspberry-pi",
+        "local-inference"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49508982",
+      "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
+      "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49508982",
+      "publishedAt": "2026-08-31T12:41:22Z",
+      "score": 283,
+      "comments": 320,
+      "snippet": "Apple Caught Off Guard by AI Demand for Mac Mini and Mac Studio - MacRumors Skip to Content Got a tip for us? Let us know a. Send us an email b. Anonymous form close Open Menu Front Page Roundups Show Roundups Guides How Tos Reviews Buyer's Guide Forums Forums Show Forums menu Login Register New Posts Visit Forums Visit Forums New Posts Login Register Visit Forums Alerts Direct messages Watched New Posts Visit Forums Open Sidebar Mac mini Mac Studio iPhone 18 Pro iPhone Fold iOS 27 iPadOS 27 macOS Golden Gate MacBook Neo iPhone 17e AirTag iPhone 18 iOS 26 iPhone 17 macOS Tahoe iPhone 17 Pro MacBook Pro iPadOS 26 iMac HomePod Apple TV iPad Pro iPhone Air Apple Vision Pro iPhone 16 AirPods 4 Apple Watch Ultra 3 HomePod mini MacBook Air iPad AirPods Max 2 AirPods Pro 3 Apple Deals Apple Watch 11 Apple Watch SE 3 Studio Display iPad Air iPad mini watchOS 27 CarPlay Apple Pay watchOS 26 All > Front Page Roundups Guides How Tos Reviews Buyer's Guide Upcoming Products Forums Archives Tips / Contact Us Apple Caught Off Guard by AI Demand for Mac Mini and Mac Studio Sunday August 30, 2026 8:52 am PDT by Hartley Charlton Apple's unusually timed announcement of new Mac mini and Mac Studio models this week was driven by unexpectedly strong enterprise appetite for AI hardware, according to The Information . Apple normally releases new Mac models in the autumn, closer to October or November, making this week's announcement unusually early, falling just before the anticipated arrival of new iPhone models. The Information says that the AI-driven boom in &zwnj;Mac Studio&zwnj; and &zwnj;Mac mini&zwnj; sales is behind the early launch. Apple noticeably promoted the ability to link multiple Mac Studios together into a single, more capable system for running large frontier AI models, a feature aimed at business and developer customers rather than everyday consumers. Apple highlighted the &zwnj;Mac mini&zwnj; and &zwnj;Mac Studio&zwnj;'s shift toward business buyers in June, with a \"Business at the Park\" event involving executives from major companies Ford, Disney, and Anthropic. The &zwnj;Mac mini&zwnj; was said to be the \"darling\" of the event. Even so, enterprise's rush toward powerful desktop Macs more broadly took Apple by surprise. The company reportedly did not possess an engineering team dedicated to business customers or staff focused on developer relations, and lacked an enterprise AI strategy. Businesses that approached Apple asking to buy access to the company's Private Cloud Compute infrastructure were reportedly turned down. Apple is instead leaning on partners such as WebAI and Mount Thor, which provide AI tools and execution environments built on Apple hardware. A surge in demand for Mac hardware to run AI models has coincided with the global memory shortage, leaving many &zwnj;Mac mini&zwnj; and &zwnj;Mac Studio&zwnj; configurations out of stock for months. Some enterprise customers are reportedly turning to other hardware such as Nvidia's DGX Spark,",
+      "oneLineKo": "AI 수요 폭증에 애플 맥 미니·스튜디오 조기 출시",
+      "summaryKo": "애플이 이번 주 맥 미니와 맥 스튜디오 신모델을 예년보다 이른 시기에 발표한 것은 기업의 AI 하드웨어 수요가 예상을 뛰어넘었기 때문이라고 The Information이 보도했다. 애플은 여러 대의 맥 스튜디오를 연결해 대형 AI 모델을 구동하는 기능을 강조하며 기업·개발자 고객을 겨냥했지만, 정작 기업 대상 엔지니어링 팀이나 엔터프라이즈 AI 전략은 부재했던 것으로 알려졌다. 이에 따라 Private Cloud Compute 접근을 요청한 기업들은 거절당했고, 애플은 WebAI, Mount Thor 같은 파트너사에 의존하고 있다. 글로벌 메모리 부족과 겹쳐 맥 미니·스튜디오 다수 구성이 품절되면서 일부 기업은 Nvidia DGX Spark 등 대체 하드웨어로 눈을 돌리고 있다.",
+      "tags": [
+        "apple",
+        "mac-studio",
+        "ai-hardware"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1w3nct8",
+      "title": "35 years later, Torvalds' hobby project remains developed worldwide.",
+      "url": "https://www.reddit.com/r/programming/comments/1w3nct8/35_years_later_torvalds_hobby_project_remains/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1w3nct8/35_years_later_torvalds_hobby_project_remains/",
+      "publishedAt": "2026-08-31T19:01:04+00:00",
+      "snippet": "submitted by /u/masiroo [link] [comments]",
+      "oneLineKo": "리눅스, 35년째 전세계 협업 개발 지속",
+      "summaryKo": "리누스 토르발즈가 취미로 시작한 프로젝트인 리눅스가 35년이 지난 지금도 전 세계 개발자들에 의해 활발히 개발되고 있다는 내용의 게시물입니다. 본문 내용은 제목 외에 추가 정보가 제공되지 않았습니다.",
+      "tags": [
+        "linux",
+        "open-source"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33089",
+      "title": "VibeCoded AI-Slop License v1.0 - 만든 사람도 읽지 않은 코드를 위해",
+      "url": "https://news.hada.io/topic?id=33089",
+      "commentsUrl": "https://news.hada.io/topic?id=33089",
+      "publishedAt": "2026-09-01T09:16:59+09:00",
+      "snippet": "AI가 만들었고 사람은 제대로 읽지도 않았을 법한 코드를 위한 풍자적 라이선스 로, 사용과 수정, 판매, 재배포, AI 학습을 포함해 무엇이든 허용함 허가와 저작자 표시, 수정본 공개, 사용 이유 설명은 모두 필요 없으며 그 이유는 간단히 “아무도 신경 쓰지 않기 때문”...",
+      "oneLineKo": "AI 생성 코드 위한 풍자적 오픈소스 라이선스 등장",
+      "summaryKo": "AI가 작성했고 사람이 제대로 검토하지 않았을 법한 코드를 위한 풍자적 라이선스인 'VibeCoded AI-Slop License v1.0'이 공개되었습니다. 이 라이선스는 사용, 수정, 판매, 재배포, AI 학습 등 모든 행위를 제한 없이 허용합니다. 저작자 표시나 수정본 공개, 사용 이유 설명 등의 의무 조항도 전혀 없으며, 그 이유는 단순히 '아무도 신경 쓰지 않기 때문'이라고 밝히고 있습니다.",
+      "tags": [
+        "license",
+        "ai-generated-code",
+        "opensource"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49496292",
+      "title": "Smartphone LED detects hidden cameras with AI",
+      "url": "https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49496292",
+      "publishedAt": "2026-08-30T06:52:04Z",
+      "score": 138,
+      "comments": 36,
+      "oneLineKo": "AI로 숨은 카메라 찾는 스마트폰 LED 기술 개발",
+      "summaryKo": "스마트폰의 LED와 AI를 활용해 몰래 설치된 숨은 카메라를 탐지하는 기술이 개발됐다. 이 기술은 별도의 전용 장비 없이 스마트폰만으로 불법 촬영 카메라를 찾아낼 수 있게 해준다. 제목 정보만 제공되어 구체적인 작동 원리나 개발 주체는 확인되지 않았다.",
+      "tags": [
+        "ai",
+        "smartphone",
+        "security"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33087",
+      "title": "학회에서 목격한 터무니없는 AI 사용: 질의응답까지 AI에 맡긴 발표자들",
+      "url": "https://news.hada.io/topic?id=33087",
+      "commentsUrl": "https://news.hada.io/topic?id=33087",
+      "publishedAt": "2026-09-01T09:10:59+09:00",
+      "snippet": "한 학회의 발표 후 질의응답에서 함께 무대에 오른 패널 가운데 한 명을 제외한 전원이 질문을 녹음하고 AI로 답변을 만드는 모습 이 목격됨 논평을 맡은 교수는 2시간 동안 발표를 들으며 메모하고 깊이 있는 질문을 준비했지만, 패널들은 자신의 전문 분야에 관한 답변까지 AI에 의...",
+      "oneLineKo": "학회 질의응답까지 AI에 맡긴 패널들 논란",
+      "summaryKo": "한 학회에서 발표 후 질의응답 시간에 패널 대부분이 질문을 녹음해 AI로 답변을 생성하는 모습이 목격됐다. 논평 교수는 2시간 동안 발표를 경청하며 깊이 있는 질문을 준비했지만, 패널들은 자신의 전문 분야 질문에도 직접 답하지 않고 AI에 의존했다. 이는 학술 발표의 진정성과 전문성에 대한 우려를 낳고 있다.",
+      "tags": [
+        "ai",
+        "academia",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49512856",
+      "title": "The safest job from AI may be writing",
+      "url": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49512856",
+      "publishedAt": "2026-08-31T18:12:20Z",
+      "score": 91,
+      "comments": 132,
+      "snippet": "The Safest Job from AI may be Writing Skip to main content Search This Blog Metadata On distributed systems broadly defined and other curiosities. The opinions on this site are my own. The Safest Job from AI may be Writing Get link Facebook X Pinterest Email Other Apps - August 31, 2026 Today, tech folk are scrambling to change their workflows to meet newly inflated 5X productivity quotas, while getting pummeled under the cognitive debt of agent-generated code. With every new model release, the gap is widening and humans are becoming more of a bottleneck in the loop, approaching closer to obsolescence as \"coders\". While the programmer's job description is getting completely refactored, writing remains surprisingly unaffected. LLMs have gotten very good at generating code, but I am appalled at the absolute shit they spew as prose. They always follow the same robotic cadence and cliches, and sprinkle the same tired vocabulary all around. They take my broken yet soulful writing and transform it into a plastic soulless word slop in the name of improving prose. Their writing communicates no actual understanding and insight. I think we are all developing a visceral ick reaction to AI writing. It is trapped in the uncanny valley, and it may be stuck there for a long time. I am increasingly convinced LLMs will not threaten decent writers anytime soon. My prediction rests on the three observations below. Tell me where my logic breaks. The plateau on prose The stuck-in-slop state of LLM writing is not from lack of trying. AI labs already tried hard on improving prose and hit a wall. LLM giants would have loved to ship better writing capability to conquer marketing, copywriting, and publishing at zero marginal cost. Look at image, voice, and heck video models. They got good quickly, because they can be scaled with more parameters and compute. Compared to their rapid progress, text models plateaued hard on expression, depth, and authenticity. I think it is wicked hard to bride the final 20% (also applies for image, voice, video models). Writing is a wicked problem In systems theory, a wicked problem is a problem that lacks a definitive formulation, a clear stopping rule, and an objectively correct solution. Writing is the ultimate wicked problem, because the context is constantly shifting, a piece is never truly finished editing, and the true metric for success is fundamentally subjective. Mapping domains along this wickedness spectrum explains why AI dominates certain fields but produces utter slop in others: Math sits on the left of the spectrum. Specifications are concise, and verification is binary and automated. Since the feedback loop is perfectly closed, AI models can rapidly solve math problems and prove results automatically. Code relies on formal logic and test-driven feedback. An LLM can generate functional code because compilers, unit tests, and model checkers can instantly catch errors. Verification is largely mechanical. Structured domains like",
+      "oneLineKo": "AI 시대에도 글쓰기는 여전히 안전한 직업이라는 분석",
+      "summaryKo": "저자는 코딩은 LLM이 빠르게 정복했지만, 글쓰기는 여전히 '언캐니 밸리'에 갇혀 있다고 주장한다. 이미지·음성·영상 모델은 파라미터와 연산량 증가로 빠르게 발전했지만, 텍스트 생성 모델은 표현력·깊이·진정성 면에서 정체 상태에 있다는 것이다. 그 이유로 글쓰기는 명확한 명세나 검증 기준이 없는 'wicked problem'이며, 수학이나 코드처럼 기계적 피드백 루프로 검증할 수 없다는 점을 든다. 결론적으로 저자는 실력 있는 작가의 일자리는 AI로부터 상대적으로 안전할 것이라고 예측한다.",
+      "tags": [
+        "llm",
+        "ai-writing",
+        "software-engineering"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33085",
+      "title": "Apple, 맥 미니·맥 스튜디오의 예상 밖 AI 수요에 허를 찔림",
+      "url": "https://news.hada.io/topic?id=33085",
+      "commentsUrl": "https://news.hada.io/topic?id=33085",
+      "publishedAt": "2026-09-01T07:33:19+09:00",
+      "snippet": "Apple이 통상적인 10월이나 11월보다 일찍 Mac mini와 Mac Studio를 발표한 배경에는 예상을 넘어선 기업용 AI 하드웨어 수요 가 있었음 여러 Mac Studio를 연결해 하나의 시스템처럼 사용하고 대형 프런티어 AI 모델을 실행하는 기능을 앞세워, 일반 소비자보다 기업과 개발자 고객을...",
+      "oneLineKo": "Apple, 기업용 AI 수요로 맥 스튜디오·미니 조기 출시",
+      "summaryKo": "Apple이 예년보다 이른 시기에 Mac mini와 Mac Studio를 발표했는데, 이는 예상치 못한 기업용 AI 하드웨어 수요 급증에 대응하기 위한 것으로 나타났습니다. 특히 여러 대의 Mac Studio를 연결해 하나의 시스템처럼 사용하며 대형 프런티어 AI 모델을 로컬에서 실행할 수 있는 기능이 기업과 개발자 고객의 관심을 끌었습니다. 이는 일반 소비자 시장보다 기업·개발자向 AI 워크로드 시장을 겨냥한 전략적 조기 출시로 해석됩니다.",
+      "tags": [
+        "apple",
+        "ai-hardware",
+        "mac-studio"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49514878",
+      "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
+      "url": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49514878",
+      "publishedAt": "2026-08-31T21:10:58Z",
+      "score": 429,
+      "comments": 348,
+      "snippet": "Google Has Removed Manifest V2 Extensions From the Chrome Web Store, Including uBlock Origin Skip to content Web Iterate Menu Menu Home Google Has Removed Manifest V2 Extensions From the Chrome Web Store, Including uBlock Origin September 1, 2026 Google today reached the final milestone in a browser-extension transition that has been years in the making, all remaining Manifest V2 extensions were removed from the Chrome Web Store. Among them is uBlock Origin, one of the most capable and widely respected content blockers ever built for the web. Google also noted that, “Manifest V2 extensions installed on Chrome 138 or earlier will remain installed, but will be unable to receive any updates and cannot be reinstalled from the Chrome Web Store once removed from Chrome.”. Moreover, Chrome Web Store (CWS) team has informed the affected extension developers regarding this removal action. Removal Affects More Than Google Chrome It is important to note that the Chrome Web Store is the dominant extension marketplace for Chromium-based browsers. Users of non-Chrome Chromium browsers, including Brave, also rely on the CWS to discover and install extensions. As a result, the removal has consequences beyond Google Chrome. Users can no longer find or install these Manifest V2 extensions through the Chrome Web Store, even if the Chromium-based browser they use continues to support Manifest V2. Brave Keeps Select Manifest V2 Extensions Alive Brave browser team has decided to host four popular MV2 extensions on its own backend, and let users easily enable them in their browser installation. These extensions are AdGuard, uBlock Origin, uMatrix, and NoScript. Google’s argument for Manifest V3 is straightforward. The company says the newer extension platform, MV3, provides stronger security, privacy, performance, and tighter control over what extensions are allowed to do. Considering how much access browser extensions can have to a user’s browsing activity, those are legitimate problems to solve. Related Discover more from Web Iterate Subscribe to get the latest posts sent to your email. Type your email… Subscribe Categories News Global Privacy Control Appears in Latest Chrome Canary Build Leave a Reply Cancel reply Links Global Privacy Control (GPC) Test Auto GPC Chrome Extension Home Subscribe Newsletter Type your email… Subscribe &copy; 2026 - Web Iterate Discover more from Web Iterate Subscribe now to keep reading and get access to the full archive. Type your email… Subscribe Continue reading",
+      "oneLineKo": "구글, 크롬 웹스토어서 uBO 등 MV2 확장 제거",
+      "summaryKo": "구글이 Manifest V2 확장 프로그램을 크롬 웹스토어에서 완전히 제거하며, 여기에 uBlock Origin도 포함됐다. 크롬 138 이하에 이미 설치된 MV2 확장은 유지되지만 업데이트나 재설치는 불가능하다. 크롬 웹스토어는 Brave 등 다른 Chromium 기반 브라우저의 확장 마켓으로도 쓰여 영향이 확산되며, Brave는 uBlock Origin, AdGuard, uMatrix, NoScript 등 4개 확장을 자체 백엔드에서 호스팅해 계속 지원하기로 했다. 구글은 보안과 성능 강화를 이유로 MV3 전환을 정당화하고 있다.",
+      "tags": [
+        "chrome",
+        "manifest-v3",
+        "ublock-origin"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33081",
+      "title": "그렇다면 안목은 어디에서 오는가?",
+      "url": "https://news.hada.io/topic?id=33081",
+      "commentsUrl": "https://news.hada.io/topic?id=33081",
+      "publishedAt": "2026-09-01T04:02:38+09:00",
+      "snippet": "안목은 좋은 결과물을 알아보는 능력 에 그치지 않고, 직접 만들고 실패하며 우연과 자신의 한계를 겪으며 스타일을 형성하는 과정에서 길러짐 Rick Rubin과 Steve Jobs는 평균에서 벗어난 뛰어난 실무자를 선별할 수 있었지만, LLM을 실무자로 쓰는 사람은 결국 평균에 기반...",
+      "oneLineKo": "안목은 결과 감식이 아닌 직접 만들고 실패하며 형성된다",
+      "summaryKo": "안목은 단순히 좋은 결과물을 알아보는 능력이 아니라, 직접 만들고 실패하며 우연과 한계를 경험하는 과정에서 형성된 스타일에서 나온다는 주장이다. Rick Rubin과 Steve Jobs는 평균 이상의 뛰어난 실무자를 알아보고 선별할 수 있는 안목을 가졌다. 반면 LLM을 실무자로 활용하는 경우, 결과물은 결국 평균적인 데이터에 기반하게 되어 진정한 안목이 발휘되기 어렵다는 점을 지적한다.",
+      "tags": [
+        "llm",
+        "creativity",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49467636",
+      "title": "Dwarf Fortress is getting the mother of all magic updates",
+      "url": "https://www.rockpapershotgun.com/dwarf-fortress-is-getting-the-mother-of-all-magic-updates-extending-to-the-fundamental-cosmological-makeup-of-the-universe",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49467636",
+      "publishedAt": "2026-08-27T16:45:22Z",
+      "score": 282,
+      "comments": 104,
+      "snippet": "Dwarf Fortress is getting the mother of all magic updates, extending to \"the fundamental cosmological makeup of the universe\" | Rock Paper Shotgun Skip to main content Mortal Shell 2 walkthrough All Elden Ring bosses Best Minecraft seeds 26.1 Hollow Knight Silksong walkthrough Past Wordle answers Bank Holiday Mawnday Rock Paper Shotgun Latest News Reviews Hardware Features Videos Guides Bestest Bests Free games Discord Deals Podcasts RSS Supporters Go Get our newsletter Support us Sign in / Create account If you click on a link and make a purchase we may receive a small commission. Read our editorial policy . Home News Dwarf Fortress is getting the mother of all magic updates, extending to \"the fundamental cosmological makeup of the universe\" \"Pursue magical research that really feels like discovery\" Image credit: Kitfox / Rock Paper Shotgun News by Edwin Evans-Thirlwell News Editor Published on Aug. 27, 2026, 4:20 p.m. 5 comments Infamously simulation-heavy colony builder Dwarf Fortress is getting a Myth and Magic update that, at the possible risk of being maybe a touch hyperbolic, threatens to make all other fantasy game spellcraft look like a sleepy bout of Got Your Nose. It's summarised by Bay12 co-founder Tarn Adams as a set of procedural systems \"that go beyond combining spell effects... straight to the fundamental cosmological makeup of the universe\", allowing for \"magical situations that you cannot get any other way.\" So many dwarves are going to die, aren't they, Tarn? And in such exotic and unexpected ways. Here's a brief video announcing the update, which is coming later this year. Dwarf Fortress Myth and Magic Update Preview - Official Trailer Watch on YouTube If I'm reading the tea leaves correctly, the update will generate a variety of approaches to sorcery in the course of regular world generation. Distinct species of wizardry and witchcraft will arise with tectonic abandon in the course of laying down rivers and mountains, and charting the fates of creatures, populations and settlements. It certainly sounds like a big bounce beyond the existing relatively threadbare magic system . As Adams goes on, this will allow \"your fortresses to pursue magical research that really feels like discovery\", encompassing \"magic materials, enchantments, rituals, and ruins\" together with spells that just \"blow things up\". You can see a few examples in the video, including a goblin-shredding hex that doubles as a means of shifting stone. All of it tied into \"how that particular universe works down to its bones\", Adams promises. They've been working on the feature for many years. I probably don't need to remind you Rock Paper Magma Shotgunners that Dwarf Fortress is pretty intense and elaborate even without any procgen thaumaturgy. If you do need reminding, here's Nate's old Basement of Curiosity series . Please bear in mind that the first entry was written in 2019, long before the launch of the Steam edition with its more approachable artstyle &ndash",
+      "oneLineKo": "드워프 포트리스, 우주 근본원리까지 아우르는 마법 업데이트 예정",
+      "summaryKo": "콜로니 시뮬레이션 게임 Dwarf Fortress가 'Myth and Magic' 업데이트를 통해 대규모 마법 시스템을 추가한다. Bay12 공동창립자 Tarn Adams에 따르면 이 시스템은 단순한 스펠 효과 조합을 넘어 우주의 근본적인 우주론적 구조까지 절차적으로 생성한다. 세계 생성 과정에서 다양한 마법 계통이 지형, 생물, 정착지의 역사와 함께 유기적으로 발생하며, 마법 재료, 마법 부여, 의식, 유적 등을 연구할 수 있게 된다. 업데이트는 올해 후반 출시 예정이다.",
+      "tags": [
+        "dwarf-fortress",
+        "procedural-generation",
+        "game-update"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49508506",
+      "title": "I think the military commissary's freezers were hacked",
+      "url": "https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49508506",
+      "publishedAt": "2026-08-31T11:45:48Z",
+      "score": 238,
+      "comments": 138,
+      "oneLineKo": "군 매점 냉동고 해킹 의심 사례 제기",
+      "summaryKo": "작성자는 군 매점(commissary)의 냉동고 시스템이 해킹당했을 가능성을 제기하는 글을 게시했다. 본문 내용은 제공되지 않아 구체적인 정황이나 근거는 확인할 수 없다. 제목만으로는 IoT 기기나 냉동 설비 제어 시스템의 보안 문제를 다룬 것으로 추정된다.",
+      "tags": [
+        "iot-security",
+        "hacking"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49512975",
+      "title": "A walkable ASCII cyberpunk city in one HTML file [video]",
+      "url": "https://www.youtube.com/watch?v=3YtygAx_C6A",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49512975",
+      "publishedAt": "2026-08-31T18:21:33Z",
+      "score": 191,
+      "comments": 28,
+      "snippet": "<i>ASCII City: Traffic and Detail Update</i> - <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=DSRooHo_HSI\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=DSRooHo_HSI</a><p><i>ASCII City Update: Interiors, Elevation and Skyscrapers</i> - <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=UCKEDWowc0o\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=UCKEDWowc0o</a>",
+      "oneLineKo": "HTML 한 파일로 만든 ASCII 사이버펑크 도시 데모",
+      "summaryKo": "단일 HTML 파일로 구현된 걸어다닐 수 있는 ASCII 아트 스타일의 사이버펑크 도시를 소개하는 영상입니다. 트래픽과 디테일, 인테리어, 고도 및 고층 빌딩 등의 업데이트를 다룬 후속 영상들도 함께 링크되어 있습니다. 웹 기술만으로 3D 스타일의 도시 탐험 경험을 구현한 점이 특징입니다.",
+      "tags": [
+        "ascii-art",
+        "html",
+        "creative-coding"
+      ]
+    }
+  ]
+}
