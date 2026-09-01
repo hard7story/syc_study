@@ -1,61 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=32056",
-    "date": "2026-08-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49136821",
-    "date": "2026-08-02"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32055",
-    "date": "2026-08-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49138188",
-    "date": "2026-08-02"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32054",
-    "date": "2026-08-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49139102",
-    "date": "2026-08-02"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32053",
-    "date": "2026-08-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49140218",
-    "date": "2026-08-02"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32052",
-    "date": "2026-08-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49140396",
-    "date": "2026-08-02"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32051",
-    "date": "2026-08-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49137060",
-    "date": "2026-08-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49135426",
-    "date": "2026-08-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49141073",
-    "date": "2026-08-02"
-  },
-  {
     "id": "https://news.hada.io/topic?id=32043",
     "date": "2026-08-03"
   },
@@ -3422,5 +3366,117 @@
   {
     "id": "youtube.com/watch?v=3YtygAx_C6A",
     "date": "2026-09-01"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33103",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "news.hada.io/topic?id=33103",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49525378",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "anthropic.com/claude-fable-and-mythos-5-1",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33126",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "news.hada.io/topic?id=33126",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49526069",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "danluu.com/zitron",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33119",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "news.hada.io/topic?id=33119",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49522897",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "news.ycombinator.com/item?id=49522897",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33129",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "news.hada.io/topic?id=33129",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49520022",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "github.com/ankidroid/Anki-Android/issues/21656",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33121",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "news.hada.io/topic?id=33121",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49519939",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "mvakde.github.io/blog/44-on-arc-1",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33110",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "news.hada.io/topic?id=33110",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49523754",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "gitlab.com/AuroraOSS/AuroraStore/-/work_items/1566",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49493468",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "simpleflying.com/american-airlines-mechanic-passes-away-100-record-80-years",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49521973",
+    "date": "2026-09-02"
+  },
+  {
+    "id": "blog.mozilla.org/en/firefox/ad-blocker-on-ios",
+    "date": "2026-09-02"
   }
 ]

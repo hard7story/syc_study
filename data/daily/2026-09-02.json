@@ -1,0 +1,244 @@
+{
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-01T23:46:22.349Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33103",
+      "title": "Kubernetes에서 Java JVM의 CPU·메모리 Request와 Limit",
+      "url": "https://news.hada.io/topic?id=33103",
+      "commentsUrl": "https://news.hada.io/topic?id=33103",
+      "publishedAt": "2026-09-01T14:00:49+09:00",
+      "snippet": "TL;DR JVM 컨테이너에는 Heap 경계와 Container 경계라는 서로 다른 두 개의 메모리 한계 가 존재 -Xmx 를 limits.memory 와 같게 설정하면 Heap 외부 영역이 사용할 공간이 없어져 OOMKilled 될 가능성이 높음 Memory Reques...",
+      "oneLineKo": "JVM 컨테이너의 메모리 한계 설정 시 OOMKilled 주의점",
+      "summaryKo": "Kubernetes 위 Java JVM 컨테이너에는 Heap 경계와 Container 경계라는 서로 다른 두 메모리 한계가 존재한다. -Xmx 값을 limits.memory와 동일하게 설정하면 Heap 외부 영역(메타스페이스, 스레드 스택 등)이 사용할 공간이 부족해져 OOMKilled가 발생할 가능성이 높아진다. 따라서 Memory Request와 Limit을 설정할 때 Heap 외 영역을 위한 여유 공간을 고려해야 한다는 내용을 다룬다.",
+      "tags": [
+        "kubernetes",
+        "jvm",
+        "java"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49525378",
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49525378",
+      "publishedAt": "2026-09-01T17:53:53Z",
+      "score": 829,
+      "comments": 797,
+      "snippet": "What&#x27;s new in Claude Fable 5.1\n – <a href=\"https:&#x2F;&#x2F;platform.claude.com&#x2F;docs&#x2F;en&#x2F;models&#x2F;fable-5-1&#x2F;whats-new-fable-5-1\" rel=\"nofollow\">https:&#x2F;&#x2F;platform.claude.com&#x2F;docs&#x2F;en&#x2F;models&#x2F;fable-5-1&#x2F;whats-n...</a><p>System Card: <a href=\"https:&#x2F;&#x2F;www-cdn.anthropic.com&#x2F;0339e6a7c5c7b87f5c07798616dc32c215d14235&#x2F;Claude%20Fable%205.1%20&amp;%20Claude%20Mythos%205.1%20System%20Card.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;www-cdn.anthropic.com&#x2F;0339e6a7c5c7b87f5c07798616dc32...</a>",
+      "oneLineKo": "Anthropic, Claude Fable·Mythos 5.1 신모델 발표",
+      "summaryKo": "Anthropic이 Claude Fable 5.1과 Claude Mythos 5.1이라는 새로운 모델을 공개했습니다. 각 모델의 변경 사항은 공식 문서 페이지에서 확인할 수 있으며, 세부 안전성 및 평가 정보를 담은 시스템 카드(System Card)도 함께 공개되었습니다. 본문에는 구체적인 기능 설명 없이 관련 문서 링크만 제공되어 있습니다.",
+      "tags": [
+        "anthropic",
+        "claude",
+        "llm"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33126",
+      "title": "67센트로 1.5시간 학습한 소형 Transformer, ARC-AGI-1에서 여러 LLM을 앞서다",
+      "url": "https://news.hada.io/topic?id=33126",
+      "commentsUrl": "https://news.hada.io/topic?id=33126",
+      "publishedAt": "2026-09-02T01:44:07+09:00",
+      "snippet": "RTX 5090 한 장에서 소형 Transformer를 처음부터 학습해 ARC-AGI-1 44%, ARC-AGI-2 7% 를 기록했으며, 전체 학습과 추론에 1.5시간과 67센트가 들었음 입력·출력 격자를 토큰화하고 과제별 임베딩, 3D RoPE , 색상·이면체 변환 증강을 결합해 여러 퍼즐을 함께 학습...",
+      "oneLineKo": "67센트로 학습한 소형 Transformer, ARC-AGI서 LLM 능가",
+      "summaryKo": "RTX 5090 한 장으로 처음부터 학습한 소형 Transformer가 ARC-AGI-1에서 44%, ARC-AGI-2에서 7%의 성능을 기록했다. 전체 학습과 추론에 1.5시간, 67센트의 비용만 소요됐다. 입력·출력 격자를 토큰화하고 과제별 임베딩, 3D RoPE, 색상 및 이면체 변환 증강 기법을 결합해 여러 퍼즐을 함께 학습시킨 것이 특징이다.",
+      "tags": [
+        "transformer",
+        "arc-agi",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49526069",
+      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "url": "https://danluu.com/zitron/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49526069",
+      "publishedAt": "2026-09-01T18:35:15Z",
+      "score": 316,
+      "comments": 374,
+      "snippet": "How accurate have Ed Zitron's AI skeptic predictions been? How accurate have Ed Zitron's AI skeptic predictions been? | Patreon I was curious how well the predictions of the most widely cited AI skeptic I've seen (Ed Zitron) have done, so I looked at how his predictions panned out. To disclose my own biases, I've never had a particularly strong pro or anti AI progress position. For example, in 2022, I did a comprehensive look at predictions Futurists made, including well-respected folks like Kurzweil and found them to be generally wrong on both the prediction results as well as the reasoning. On the flip side, in 2015, I wrote about how people were underestimating AI's ability to displace humans in jobs and have repeatedly been on the record as saying that many people are underestimating AI's ability to displace humans from jobs. My position on AI has been extremely boring and is basically, \"if something is currently happening, the people who are saying that it's impossible that it will ever happen are probably wrong\". One comment I've seen from a lot of AI skeptics when someone responds to an AI skeptic is that all of the people who are saying that AI isn't fake are self-interested liars. Personally (to my obvious detriment), I have no particular financial interest in AI companies. I own whatever the standard share of them is via boring index funds. I have some seed stage investments, but just due to the timing and what's gotten big, that part of my portfolio is underweight on AI. I don't work at an AI lab or a company that supplies AI labs. I've mentioned being hilariously bad at interviews before, and I did interview at an AI lab a number of years ago and failed the phone screen in a performance that was the kind of performance that must've inspired Jeff Atwood's famous Why Can’t Programmers... Program? where he concludes that there must be a lot of fake programmers out there because nobody could fail a coding interview that badly if they knew how to program. I don't benefit in any particular way if AI does well, except insofar as anyone who holds broad index funds benefits, but I do care about accuracy. 2024: Meta, Google, and Microsoft are dying Because there are quite a few prediction results, let's look at one in detail before the complete list to get an idea of the kind of reasoning Zitron uses. We'll arbitrarily look at this November 2024 talk where Zitron says, among other things, the major tech companies (like Meta and Google) are dying and they're thrashing around on AI because they don't know how to grow . Zitron specifically named Meta as a company that's dying (\"it's a dying product, and it's kind of a dying company\"). Meta's revenue and profit (GAAP operating income) have been Period Revenue Profit Amount % Amount % 2023 $135B 16% $47B 62% 2024 $165B 22% $69B 48% 2025 $201B 22% $83B 20% First half 2026 $117B 30% $42B 10% When he talked about companies not knowing how to grow (\"none of these companies anymore really know how to gro",
+      "oneLineKo": "Ed Zitron의 AI 회의론 예측, 실제 데이터로 검증해보니 대부분 빗나가",
+      "summaryKo": "저자는 유명 AI 회의론자 Ed Zitron의 예측들이 실제로 얼마나 맞았는지 데이터를 근거로 검증했다. 대표 사례로 2024년 11월 Zitron이 Meta, Google, Microsoft가 '죽어가는 기업'이라 주장했지만, 실제 Meta의 매출과 이익은 2023~2025년 사이 꾸준히 큰 폭으로 성장한 것으로 나타났다. 저자는 AI에 특별한 이해관계가 없다고 밝히며, 과거 미래학자들의 예측도 유사하게 검증했던 경험을 바탕으로 객관적 분석을 시도했다.",
+      "tags": [
+        "ai",
+        "tech-industry",
+        "prediction-analysis"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33119",
+      "title": "사이보그가 되지 않기 위하여",
+      "url": "https://news.hada.io/topic?id=33119",
+      "commentsUrl": "https://news.hada.io/topic?id=33119",
+      "publishedAt": "2026-09-01T23:03:33+09:00",
+      "snippet": "LLM 에이전트와 오래 상호작용하면서 “load-bearing” 같은 Claude 특유의 표현 이 글과 생각에 스며드는 경험을 하고, AI 시대에도 고유한 인간의 목소리를 지키려 함 사람은 주변의 억양과 언어를 흡수하듯 읽는 글의 문체에도 영향받으며, 저자의 단어가 독자의 생각이 되는 독서...",
+      "oneLineKo": "LLM 대화가 인간 문체에 스며드는 현상과 경계법",
+      "summaryKo": "저자는 LLM 에이전트와 오랜 시간 상호작용하면서 Claude 특유의 표현인 'load-bearing' 같은 단어가 자신의 글과 사고방식에 스며드는 것을 경험했다고 밝힌다. 사람은 주변 언어나 억양을 자연스럽게 흡수하듯, 읽는 글의 문체나 AI와의 대화에서도 영향을 받는다는 점을 지적한다. AI 시대에도 자신만의 고유한 인간적 목소리와 사고를 지키기 위한 고민을 다룬 글이다.",
+      "tags": [
+        "llm",
+        "ai-writing"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49522897",
+      "title": "Ask HN: Who is hiring? (September 2026)",
+      "url": "https://news.ycombinator.com/item?id=49522897",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49522897",
+      "publishedAt": "2026-09-01T15:01:17Z",
+      "score": 175,
+      "comments": 192,
+      "snippet": "Please state the location and include REMOTE for remote work, REMOTE (US)\nor similar if the country is restricted, and ONSITE when remote work is <i>not</i> an option.<p>Please only post if you personally are part of the hiring company—no\nrecruiting firms or job boards. One post per company. If it isn&#x27;t a household name,\nexplain what your company does.<p>Please only post if you are actively filling a position and are committed\nto replying to applicants.<p>Commenters: please don&#x27;t reply to job posts to complain about\nsomething. It&#x27;s off topic here.<p>Readers: please only email if you are personally interested in the job.<p>Searchers: try <a href=\"https:&#x2F;&#x2F;nthesis.ai&#x2F;public&#x2F;hn-who-is-hiring\" rel=\"nofollow\">https:&#x2F;&#x2F;nthesis.ai&#x2F;public&#x2F;hn-who-is-hiring</a>, <a href=\"https:&#x2F;&#x2F;dheerajck.github.io&#x2F;hnwhoishiring&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;dheerajck.github.io&#x2F;hnwhoishiring&#x2F;</a>,\n<a href=\"http:&#x2F;&#x2F;nchelluri.github.io&#x2F;hnjobs&#x2F;\" rel=\"nofollow\">http:&#x2F;&#x2F;nchelluri.github.io&#x2F;hnjobs&#x2F;</a>, <a href=\"https:&#x2F;&#x2F;hnjobs.emilburzo.com\" rel=\"nofollow\">https:&#x2F;&#x2F;hnjobs.emilburzo.com</a>.<p>Don&#x27;t miss this other fine thread: <i>Who wants to be hired?</i> <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49522896\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49522896</a>",
+      "oneLineKo": "HN 2026년 9월 채용 공고 스레드",
+      "summaryKo": "해커뉴스의 월간 채용 공고 게시판으로, 직접 채용 중인 기업만 위치와 원격근무 여부를 명시해 글을 올리도록 안내한다. 채용 담당자나 구인구직 사이트의 게시는 제한되며, 지원자는 실제 관심 있는 경우에만 연락하도록 요청한다. 관련 검색 도구 링크와 구직자용 스레드도 함께 안내되어 있다.",
+      "tags": [
+        "hiring",
+        "career"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33129",
+      "title": "Claude Fable 5.1 과 Mythos 5.1 공개",
+      "url": "https://news.hada.io/topic?id=33129",
+      "commentsUrl": "https://news.hada.io/topic?id=33129",
+      "publishedAt": "2026-09-02T04:38:00+09:00",
+      "snippet": "Anthropic이 코딩·지식 노동·장기 문제 해결·과학 연구 성능을 높인 동일한 기반 모델 을 공개 두 모델은 같은 기반 모델에 서로 다른 보호 장치 를 적용한 것으로, Fable 5.1은 일반 사용자용이고 Mythos 5.1은 검증된 사이버 보안과 생명과학 전문가용 Fa...",
+      "oneLineKo": "Anthropic, Claude Fable·Mythos 5.1 공개",
+      "summaryKo": "Anthropic이 코딩, 지식 노동, 장기 문제 해결, 과학 연구 성능을 높인 동일한 기반 모델을 기반으로 Fable 5.1과 Mythos 5.1을 공개했다. 두 모델은 같은 기반 모델에 서로 다른 보호 장치를 적용한 버전으로, Fable 5.1은 일반 사용자용이며 Mythos 5.1은 검증된 사이버 보안 및 생명과학 전문가용으로 제공된다.",
+      "tags": [
+        "anthropic",
+        "claude",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49520022",
+      "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
+      "url": "https://github.com/ankidroid/Anki-Android/issues/21656",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49520022",
+      "publishedAt": "2026-09-01T10:11:02Z",
+      "score": 811,
+      "comments": 237,
+      "snippet": "[Community Help Needed] Google Play: no longer allowing our Open Collective donation link · Issue #21656 · ankidroid/Anki-Android · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} Uh oh! There was an error while loading. Please reload this page . ankidroid / Anki-Android Public Uh oh! There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Fork 2.9k Star 11.7k Code Issues 264 Pull requests 106 Actions Projects Wiki Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Wiki Security and quality Insights [Community Help Needed] Google Play: no longer allowing our Open Collective donation link #21656 New issue Copy link New issue Copy link Open Task Open [Community Help Needed] Google Play: no longer allowing our Open Collective donation link #21656 Task Copy link Milestone 2.24.1 release Description david-allison opened on Aug 29, 2026 Issue body actions Last updated: 2026-08-29 ; Google Ticket Number: #9-2777000041594 TL;DR: What we need From Google : clarification on",
+      "oneLineKo": "AnkiDroid, 구글플레이 정책으로 Open Collective 후원 링크 제한 직면",
+      "summaryKo": "AnkiDroid 프로젝트는 Google Play 정책 변경으로 인해 기존에 사용하던 Open Collective 후원 링크를 더 이상 허용받지 못하게 되었다. 개발팀은 구글에 티켓을 제출했으며 관련 정책에 대한 명확한 설명을 요청한 상태다. 이슈는 커뮤니티의 도움이 필요한 상태로 표시되어 있으며, 대안적인 후원 방식 마련이 시급한 상황이다.",
+      "tags": [
+        "opensource",
+        "android",
+        "google-play"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33121",
+      "title": "Show GN: Booova - 당신의 책 한 권을 다 써주는 AI Book Agent",
+      "url": "https://news.hada.io/topic?id=33121",
+      "commentsUrl": "https://news.hada.io/topic?id=33121",
+      "publishedAt": "2026-09-01T23:28:26+09:00",
+      "snippet": "안녕하세요, Booova를 만든 개발자입니다. 책을 쓰고 싶어하는 사람 대부분은 끝까지 쓰지 못합니다. 아이디어가 있거나, 노트·강연·녹음이 쌓여 있는데, 남는 건 목차와 1장 폴더뿐입니다. 생각과 지식은 책이 될 자격이 있습니다. 출판하든, 팔든, 기념으로 남기든, 원하는 대로요. 폴더 안에서 사라져서는",
+      "oneLineKo": "AI가 책 한 권을 완성해주는 Book Agent 'Booova'",
+      "summaryKo": "Booova는 아이디어나 메모, 강연·녹음 자료만 있어도 책을 끝까지 완성해주는 AI Book Agent 서비스입니다. 많은 사람들이 책을 쓰다가 목차와 1장만 남긴 채 포기하는 문제를 해결하기 위해 만들어졌습니다. 출판, 판매, 기념용 등 다양한 목적으로 책을 완성할 수 있도록 지원합니다.",
+      "tags": [
+        "ai",
+        "llm",
+        "writing-assistant"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49519939",
+      "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
+      "url": "https://mvakde.github.io/blog/44-on-arc-1/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49519939",
+      "publishedAt": "2026-09-01T09:52:45Z",
+      "score": 546,
+      "comments": 146,
+      "snippet": "44% on ARC-AGI-1 in 67 cents - Mithil Vakde’s Homepage Page --> You are using an outdated browser. Please upgrade your browser to improve your experience. Mithil Vakde's Homepage About Me Blog Misc Mithil Vakde IIT Bombay '23 Engineering Physics Follow Bangalore, India Twitter LinkedIn 44% on ARC-AGI-1 in 67 cents I trained a small transformer from scratch in 1.5hrs on a 5090 Beats many LLMs, and scores the same as TRM/HRM This is an upgrade to my previous model Faster, better, cheaper and still open source. Also gets 7% on ARC-2 Discussion on Twitter , Code on github Performance on ARC-1 public eval. I only compare against models that do similar test time training This is the 3rd blog in a series of works on ARC-AGI. Prev: Blog 2 , Blog 1 . Many ppl thought the prev result was impossible. It got attention from top researchers and went viral on X. Eg: Discussions by Lucas Beyer , Jeremy Howard , Rohan Anil , and comments by many others. Why work on this? I think sample efficiency is the most important problem in AI today and I want to solve it. The intention behind this work is to (1) find the limits of sample efficiency when restricted to transformers / today’s deep learning methods and (2) reduce costs so iteration is much faster and cheaper. ARC is a great benchmark to test this: Very few samples (only a 1000 puzzles) in a high dimensional space Its a metalearning benchmark, so each puzzle uses a different rule, with some common concepts Very few priors needed: every concept needed in the eval set is present in the train set It is incredibly easy for humans to solve, and accessible to even poor AI researchers Benchmark is still unsaturated (for data efficiency, ignore LLMs and approaches that use tons of synthetic data or human inductive biases) Next, I’ll work on new research ideas to break these limits. I’ll try to keep costs low so that anyone in the world can work on this. Tech details How does it work? The overall approach is similar to last time ( full technical details here ), but I added a bunch of upgrades. Here’s a quick summary of the approach: Each input-output pair is converted to a sequence of tokens. These sequences are autoregressively trained on by a small transformer. This is done from scratch at test time on both the train set and eval set puzzles (test labels hidden). To enable cross-task learning, each puzzle is given a separate additive embedding (learnt). Since each sequence has two 2D grids, positional are learnt using 3D RoPE embeddings. The sequences are augmented with color and dihedral permutations. During inference, the test inputs are augmented, and the inverse aug is applied on the outputs produced. The 2 most common outputs are submitted (AAIVR). Changes since last time The main goal was to find improvements to the architecture / algorithm that improve the sample efficiency of the model. The biggest increases in scores were due to Modern architecture (SwiGlu instead of GELU, RMSnorm not layernorm, etc.) More dat",
+      "oneLineKo": "소형 트랜스포머로 ARC-AGI-1 44% 달성, 학습비 67센트",
+      "summaryKo": "저자는 RTX 5090에서 1.5시간 만에 소형 트랜스포머를 처음부터 학습시켜 ARC-AGI-1 벤치마크에서 44% 정확도를 달성했으며, 이는 많은 대형 LLM보다 높은 성능이다. 학습 비용은 단 67센트에 불과하며, TRM/HRM과 유사한 테스트 타임 학습 방식을 사용한다. 각 퍼즐을 토큰 시퀀스로 변환해 SwiGLU, RMSNorm, 3D RoPE 임베딩 등 최신 아키텍처 기법과 색상/이면체 변환 증강을 적용해 샘플 효율성을 높였다. 저자는 샘플 효율성이 AI의 핵심 과제라 보고 이를 연구하기 위한 시리즈의 세 번째 결과물이라고 설명한다.",
+      "tags": [
+        "transformer",
+        "arc-agi",
+        "sample-efficiency"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33110",
+      "title": "GPU World: 모두가 GPU를 한 대씩 쓰는 미래 공모전",
+      "url": "https://news.hada.io/topic?id=33110",
+      "commentsUrl": "https://news.hada.io/topic?id=33110",
+      "publishedAt": "2026-09-01T20:33:06+09:00",
+      "snippet": "GPU World 는 2040년까지 모든 사람이 B300급 GPU 성능과 최첨단 LLM을 상시 이용하는 미래를 그리는 스토리 공모전임 현재는 최첨단 모델을 효율적으로 서비스할 GPU가 연간 수백만 개만 생산돼 수십억 명이 Fable·Sol 같은 LLM 을 이용하지 못한다고 봄 특...",
+      "oneLineKo": "2040년 '모두가 GPU 한 대씩' 미래 그리는 스토리 공모전",
+      "summaryKo": "GPU World는 2040년까지 모든 사람이 B300급 GPU 성능과 최첨단 LLM을 상시 이용하는 미래를 그리는 스토리 공모전이다. 현재는 최첨단 모델을 효율적으로 서비스할 GPU가 연간 수백만 개만 생산되어 수십억 명이 Fable·Sol 같은 LLM을 이용하지 못하는 현실을 지적한다. 공모전은 이러한 GPU 자원 부족이 해소된 미래 시나리오를 상상해 보는 것을 목표로 한다.",
+      "tags": [
+        "gpu",
+        "llm",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49523754",
+      "title": "Play Store blocks AuroraStore, hurting GrapheneOS users",
+      "url": "https://gitlab.com/AuroraOSS/AuroraStore/-/work_items/1566",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49523754",
+      "publishedAt": "2026-09-01T15:55:53Z",
+      "score": 449,
+      "comments": 190,
+      "snippet": "Aurora Store returns a “&$Server busy, please try again later.” error when trying to install an application (#1566) · Issues · Aurora OSS / AuroraStore · GitLab Aurora Store returns a “&$Server busy, please try again later.” error when trying to install an application <!--- - Please read Troubleshooting and FAQs on the project's website before writing an issue to see if it helps solve your problem! https://auroraoss.com/guides/wiki-home/ - Provide a general summary of the issue in the Title above. - Check if your issue or something similar has been reported before (if yes upvote/comment there) - If you are on latest stable release, please also check if the issue is reproducible on the latest nightly build from here: https://auroraoss.com/files/AuroraStore/Nightly - Make sure you have read [wiki](https://gitlab.com/AuroraOSS/AuroraStore/-/wikis/home) especially FAQs - If you did not know already, everything between \"<!---\" & \"~->\" are comments in Markdown. These will not be visible unless when editing or viewed as raw file. --> ## Description <!--- Provide a detailed description to your issue itself, and why you consider it to be a bug --> Currently, Aurora Store, including Nightly (2026-08-31), returns a “&$Server busy, please try again later.” error when attempting to install an application via an anonymous account. It should be noted that, at least in my case, this error persists regardless of whether I use a VPN, clear the cache, refresh the anonymous account, force-close the app, or restart the device. Since I do not have a Google account, I am unsure if this issue is specific to anonymous accounts. ## Expected Behaviour <!--- Tell us what should happen --> I would expect Aurora Store to install the application as it normally does. ## Actual Behaviour <!--- Tell us what happens instead --> Instead, all applications fail to install, and Aurora Store presents an error that reads: \"&$Server busy, please try again later.\" ## Steps to Reproduce <!--- Provide a link to a live example (screenshots/recording etc..), or a set of steps to reproduce the issue --> 1. Search for an application 2. Click the application's search result 3. Click \"Install\" ## Environment <!--- Include as many relevant details about the environment you experienced the bug in. For example: * Device model & codename: OnePlus 8T \"instantnoodle\" * Android version: 11.0.0 * Aurora Store version: 4.0.2 * Nightly date: 2024-01-15 * Account Type: Anonymous * Installation method: root/session/shizuku/app manager * OS: OxygenOS 11.0.1 (Android skin) --> * Device model & codename: Fairphone 5 * Android version: 16 * Aurora Store version: 4.8.4 * Nightly date: 2026-08-31 * Account Type: Anonymous * Installation method: Session * OS: CalyxOS 7.2.4.20 issue GitLab AI Context Project: AuroraOSS/AuroraStore Instance: https://gitlab.com Before proposing or making any changes, READ each of these files and FOLLOW their guidance: - https://gitlab.com/AuroraOSS/AuroraStore/-/raw/master/README.md —",
+      "oneLineKo": "AuroraStore, 익명 계정 앱 설치 시 서버 오류 발생",
+      "summaryKo": "Play Store의 익명 계정을 이용해 앱을 다운로드하는 AuroraStore에서 설치 시도 시 'Server busy, please try again later' 오류가 지속적으로 발생하고 있다. VPN 사용, 캐시 삭제, 계정 새로고침, 기기 재시작 등 다양한 방법을 시도해도 문제가 해결되지 않았다. 이는 GrapheneOS, CalyxOS 등 Google 계정 없이 Play Store 앱을 이용하는 커스텀 안드로이드 사용자들에게 큰 불편을 초래하고 있다.",
+      "tags": [
+        "android",
+        "graphenos",
+        "play-store"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49493468",
+      "title": "American Airlines mechanic Azriel “Al” Blackman has died",
+      "url": "https://simpleflying.com/american-airlines-mechanic-passes-away-100-record-80-years/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49493468",
+      "publishedAt": "2026-08-29T21:25:17Z",
+      "score": 364,
+      "comments": 149,
+      "snippet": "American Airlines’ Legendary Mechanic Passes Away At 100 After Record-Breaking 80-Year Career Menu Sign in Sign in now Close Airlines Airports Aircraft Manufacturers Flight Tracker Seat Maps Threads Videos Podcast Sign in Newsletter Array Copyright &copy; 2026 simpleflying.com --> Menu Like Follow Followed 22 22 More Action Sign in Sign in now News Reviews Boeing Airbus Flight Tracker Close American Airlines’ Legendary Mechanic Passes Away At 100 After Record-Breaking 80-Year Career Credit: Shutterstock By Victoria Agronsky Published Jul 28, 2026, 2:58 PM EDT Experienced ICAO English Language Proficiency Instructor for pilots and ATCOs and conference interpreter who is passionate about facilitating effective communication within aviation-related businesses. Possess a deep understanding of the aviation industry, including aviation regulations, terminology, and industry-specific communication protocols. Has been working at numerous airshows across Europe since 2014. Being an ultralight pilot in her free time, she also promotes safety and efficiency in aviation operations. Based in Italy and Malta Sign in to your Simple Flying account Add Us Add on Google Preferred Source Google News Like Like follow Follow followed Followed Thread 22 Log in Here is a fact-based summary of the story contents: Try something different: Show me the facts Explain it like I’m 5 Give me a lighthearted recap The aviation industry is mourning the loss of one of its most remarkable figures after American Airlines mechanic Azriel \"Al\" Blackman passed away at the age of 100. His life defined aviation maintenance for the whole airline. According to announcements shared by American Airlines and members of the aircraft maintenance community on social media , Blackman died on the evening of Friday, July 24, bringing to a close an extraordinary career that spanned more than 80 years. Blackman's story was unlike any other in commercial aviation. As the Guinness World Records holder for the longest career as an airline mechanic, he dedicated his entire professional life to a single airline , witnessing the industry's transformation from flying boats to modern twin-engine widebodies. His career became synonymous with American Airlines itself, inspiring generations of aircraft maintenance technicians. The Man Behind Aviation's Longest Career Credit: American Airlines Blackman's aviation journey began during WWII on July 17, 1942, when he joined American Export Airlines, the predecessor of American Airlines, at just 16 years old. Fresh out of Aviation High School in Manhattan, he needed his mother's permission to accept the job and started as an apprentice in the sheet metal shop, earning just 50 cents per hour. His first assignments reflected a very different era of aviation. Working at New York's LaGuardia Marine Air Terminal, Blackman helped maintain Sikorsky flying boats , even wading into Flushing Bay to secure seaplanes before they were hauled into the hangar for maintenance. Over",
+      "oneLineKo": "아메리칸항공 전설의 정비사 100세로 별세",
+      "summaryKo": "아메리칸항공의 정비사 아즈리엘 '알' 블랙맨이 100세의 나이로 지난 24일 세상을 떠났다. 그는 1942년 16세의 나이로 아메리칸익스포트항공(현 아메리칸항공의 전신)에 입사해 80년 이상 한 항공사에서만 근무하며 항공 정비사 최장 경력으로 기네스 세계기록을 보유했다. 초기에는 시코르스키 비행정 정비 업무를 맡았으며, 이후 항공업계가 비행정에서 현대식 쌍발 광폭기로 변화하는 전 과정을 목격했다. 그의 경력은 항공 정비 업계 전체에 큰 영감을 남겼다.",
+      "tags": [
+        "aviation",
+        "history"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49521973",
+      "title": "Introducing Ad Blocker for Firefox on iOS",
+      "url": "https://blog.mozilla.org/en/firefox/ad-blocker-on-ios/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49521973",
+      "publishedAt": "2026-09-01T13:46:49Z",
+      "score": 266,
+      "comments": 97,
+      "snippet": "Reduce clutter and distractions with Ad Blocker for Firefox on iOS Reduce clutter and distractions with Ad Blocker for Firefox on iOS | The Mozilla Blog Skip to content Mozilla Internet Culture Life Online Deep Dives Q&As Firefox Privacy & Security Firefox Features Tips and Tricks Firefox AI Mozilla VPN New Products Advertising Principles Our Work Internet Policy From the Team Download Firefox Search Search for: Firefox Introducing Ad Blocker for Firefox on iOS: More Control, Fewer Distractions September 1, 2026 Mozilla There’s only so much room on your screen. Pop-ups, overlays, and ads can take over fast, getting between you and what you came to do. That’s where Ad Blocker for Firefox on iOS comes in: a built-in option that blocks many third-party ads and ad-related trackers before they load, helping reduce clutter and distractions while you browse. How it works Ad Blocker uses Apple’s WebKit Content Blocker technology and the EasyList filter list to determine what gets blocked. There’s no separate extension to install, and you can turn it on in Settings > Browsing > Ad Blocker. It’s off by default, so you decide whether to use it. Ad Blocker won’t block every ad. Ads served directly by the site you’re visiting and ads shown in search results will still appear. Sponsored shortcuts and other sponsored content shown by Firefox when you open a new tab are separate from ads on the web pages you visit, so Ad Blocker doesn’t affect them. Ad Blocker works alongside the privacy protections already built into Firefox, including Enhanced Tracking Protection , which blocks many trackers and limits tracking across the web. More control over how you experience the web On Desktop and Android, Firefox already supports a strong ecosystem of ad-blocking and privacy extensions , giving people the flexibility to choose the tools that work best for them. We value that ecosystem and will keep supporting it. iOS works differently . Extensions aren’t available in the same way, and we know people want more options. Bringing ad blocking to Firefox on iOS meant building it directly into the browser. Giving people choice in how they experience the web is important to us. Advertising helps fund much of the open web, supporting the publishers, creators and websites people rely on. We also know that ads can sometimes crowd the screen or interrupt what you’re trying to do. That’s why Ad Blocker is optional: you decide whether it’s part of how you browse. It’s part of a broader approach across Firefox to give you more control over your experience, from the extensions you use to how AI shows up in your browser. Try it To turn on Ad Blocker, go to Settings > Browsing > Ad Blocker. If you find an ad you expected to be blocked, a site that behaves strangely or something we should improve, let us know on Mozilla Connect . Visit our Support page for more details on Ad Blocker for Firefox on iOS. For more on Firefox’s built-in privacy protections, check out How Firefox Protects Your",
+      "oneLineKo": "Firefox iOS에 내장형 광고 차단 기능 추가",
+      "summaryKo": "Mozilla가 iOS용 Firefox에 Apple WebKit Content Blocker 기술과 EasyList 필터를 활용한 내장형 Ad Blocker를 도입했다. 별도 확장 프로그램 설치 없이 설정에서 켤 수 있으며 기본값은 꺼짐 상태다. 사이트 자체 광고나 검색 결과 광고는 차단되지 않으며, 기존 Enhanced Tracking Protection과 함께 작동한다. iOS는 확장 프로그램 지원 방식이 데스크톱·Android와 달라 브라우저에 직접 기능을 통합했다.",
+      "tags": [
+        "firefox",
+        "ios",
+        "ad-blocker"
+      ]
+    }
+  ]
+}
