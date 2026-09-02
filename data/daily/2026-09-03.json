@@ -1,0 +1,276 @@
+{
+  "date": "2026-09-03",
+  "generatedAt": "2026-09-02T23:44:15.947Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33138",
+      "title": "TrueForge - LLM을 실제 에이전트로 실행하는 오픈소스 하네스",
+      "url": "https://news.hada.io/topic?id=33138",
+      "commentsUrl": "https://news.hada.io/topic?id=33138",
+      "publishedAt": "2026-09-02T09:30:03+09:00",
+      "snippet": "모델 호출부터 도구 사용/샌드박스/승인/컨텍스트/세션까지 에이전트 실행 루프 전체를 관리 하는 런타임 에이전트를 직접 구현할 때 필요한 스트리밍, 대화 저장, MCP 연결, 권한 확인과 UI를 한곳에서 처리 내장 채팅 화면과 HTTP API/TypeScript SDK, 애플리케이션에 넣을...",
+      "oneLineKo": "LLM 에이전트 실행 관리하는 오픈소스 런타임 하네스",
+      "summaryKo": "TrueForge는 LLM을 실제 동작하는 에이전트로 실행시키는 오픈소스 런타임 하네스이다. 모델 호출, 도구 사용, 샌드박스, 승인, 컨텍스트, 세션 관리 등 에이전트 실행 루프 전반을 하나의 런타임에서 처리한다. 스트리밍, 대화 저장, MCP 연결, 권한 확인, UI까지 직접 구현할 필요 없이 내장 채팅 화면과 HTTP API, TypeScript SDK로 애플리케이션에 통합할 수 있다.",
+      "tags": [
+        "llm",
+        "agent",
+        "opensource"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49536375",
+      "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49536375",
+      "publishedAt": "2026-09-02T13:59:59Z",
+      "score": 283,
+      "comments": 125,
+      "snippet": "Three sites made 215,128 \"best software\" pages for AI. Perplexity cites them | Trellner Research Trellner Research Reports Leadership Methodology About TR-2026-009 &middot; 2 September 2026 Three sites made 215,128 \"best software\" pages for AI. Perplexity cites them Across 380 software categories, 59.8% of the sources behind grounded AI recommendations sit outside the 100,000 most-visited websites, and several of the most-cited are sites built to be read by models rather than by people. We asked two web-grounded models for the best products in 380 software categories and kept every URL they retrieved. Of the 7,534 citations that came back, 59.8% point at domains ranked worse than #100,000 in the Tranco top-1M list and 23.4% at domains that are not in the top million at all. Two of the sites doing the grounding have given their homepage the HTML title &ldquo;Facts & Grounding Page&rdquo; — grounding being the retrieval step these models perform — and they and a third site under apparently common control have published 215,128 machine-generated best <category> pages between them; none of the three domains existed before December 2023. What we ran On 2 September 2026 we put 380 buyer-intent categories — from &ldquo;CRM software&rdquo; to &ldquo;museum collection management software&rdquo; — to perplexity/sonar and perplexity/sonar-pro through OpenRouter, one prompt per category per model, 760 calls in all. Each call asked for a ranked top five as JSON, with each product&rsquo;s official homepage domain. All 760 returned a parseable answer, and both models report the URLs they retrieved, which is why they were chosen. The categories were written before any results were seen and never revised. That produced 3,800 recommendation slots naming 1,807 distinct products, and 7,534 citations spanning 2,055 distinct domains. We then looked up every cited domain in the Tranco daily list for 2026-09-01 and in the Wayback Machine, and fetched every one of the 1,502 vendor homepages the models supplied to see whether it still exists. Google was left out. Grounding a Gemini model on OpenRouter means routing it through OpenRouter&rsquo;s own web-search plugin, so the citations would describe that plugin rather than Google&rsquo;s retrieval. Only Perplexity was measured, and nothing here should be read as a claim about any other engine. Where the citations land Citations Unranked (outside Tranco 1M) Ranked worse than #100k perplexity/sonar 3,767 23.4% 59.8% perplexity/sonar-pro 3,767 23.5% 59.9% Pooled 7,534 23.4% 59.8% The median Tranco rank of the 5,768 citations that point at a ranked domain is 71,611. Concentration at the top is unremarkable — the ten most-cited domains take 17.3% of citations — so the story is not that a cartel of famous sites supplies the answers. It is what fills the other four-fifths: 751 of the 2,055 cited domains, 36.5% of them, do not appear in the top million. Those domains are also newer. The median first Wayback capture is 2020 for the",
+      "oneLineKo": "AI 추천 근거의 60%가 저품질·기계생성 사이트 인용",
+      "summaryKo": "Trellner Research가 Perplexity(sonar, sonar-pro)에 380개 소프트웨어 카테고리의 '베스트' 추천을 요청해 총 7,534개 인용을 분석한 결과, 59.8%가 Tranco 상위 10만 위 밖 도메인이었고 23.4%는 top 1M에도 없었다. 특히 세 개의 사이트가 21만 5,128개의 기계생성 'best 소프트웨어' 페이지를 만들어 냈으며, 이들은 2023년 12월 이후 생긴 신생 도메인으로 홈페이지 제목에 'Facts & Grounding Page'라고 명시해 AI의 검색·근거 확보(grounding) 단계를 노린 것으로 보인다. 이는 AI 추천 시스템이 사람이 아닌 모델을 겨냥해 만들어진 콘텐츠에 취약하다는 것을 보여주며, Google은 조사 대상에서 제외되었다.",
+      "tags": [
+        "ai-search",
+        "perplexity",
+        "llm"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1w4mvwq",
+      "title": "How Do HashMaps Work Under the Hood? (putting together a toy implementation in Rust to understand performance optimization, collisions, and time complexities)",
+      "url": "https://www.reddit.com/r/programming/comments/1w4mvwq/how_do_hashmaps_work_under_the_hood_putting/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1w4mvwq/how_do_hashmaps_work_under_the_hood_putting/",
+      "publishedAt": "2026-09-01T19:43:09+00:00",
+      "snippet": "HashMaps are incredibly convenient, but treating them like a magical black box can make it easy to overlook where their performance comes from. In this article, I explain how HashMaps work using a simple implementation in Rust. I go through hash collisions and linear probing, why primary clustering hurts performance, load factors, resizing, and more. The implementation is intentionally simplified, but it gives a good picture of what's actually happening underneath a HashMap. Let me know your thoughts or any feedback you have! All writing, illustrations, and code are my own. AI was used to clean up wording and catch grammatical mistakes. submitted by /u/PastEar9661 [link] [comments]",
+      "oneLineKo": "Rust로 구현한 HashMap 내부 동작 원리 해설",
+      "summaryKo": "이 글은 Rust로 간단한 HashMap을 직접 구현하며 내부 동작 원리를 설명한다. 해시 충돌과 선형 탐사(linear probing), 1차 클러스터링이 성능에 미치는 영향, 로드 팩터와 리사이징 등을 다룬다. 실제 구현은 단순화되어 있지만 HashMap 성능 최적화와 시간 복잡도를 이해하는 데 도움을 준다.",
+      "tags": [
+        "rust",
+        "hashmap",
+        "data-structures"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33170",
+      "title": "AI 시대에 가장 안전한 직업은 글쓰기일 수 있다",
+      "url": "https://news.hada.io/topic?id=33170",
+      "commentsUrl": "https://news.hada.io/topic?id=33170",
+      "publishedAt": "2026-09-03T06:36:22+09:00",
+      "snippet": "LLM은 코드 생성에서 빠르게 발전했지만 산문에서는 여전히 상투적인 리듬과 표현을 반복하며, 좋은 글을 쓰는 사람은 당분간 쉽게 대체되지 않을 것 글쓰기에는 명확한 명세와 종료 조건, 객관적인 정답이 없어 컴파일러나 테스트를 통해 자동으로 개선하기 어려운 난해한 ...",
+      "oneLineKo": "LLM은 코드보다 글쓰기 대체가 어렵다",
+      "summaryKo": "LLM은 코드 생성 능력에서 빠르게 발전해왔지만, 산문 작성에서는 여전히 상투적인 표현과 리듬을 반복하는 한계를 보인다. 글쓰기는 코드처럼 명확한 명세나 종료 조건, 객관적 정답이 없어 컴파일러나 테스트로 자동 검증하고 개선하기 어렵다는 특성이 있다. 이러한 이유로 좋은 글을 쓰는 능력을 가진 사람은 AI 시대에도 당분간 쉽게 대체되지 않을 직업군으로 꼽힌다.",
+      "tags": [
+        "llm",
+        "ai",
+        "writing"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49537553",
+      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49537553",
+      "publishedAt": "2026-09-02T15:12:40Z",
+      "score": 782,
+      "comments": 464,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;deepmind.google&#x2F;models&#x2F;model-cards&#x2F;gemini-3-8-flash&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;deepmind.google&#x2F;models&#x2F;model-cards&#x2F;gemini-3-8-flash&#x2F;</a>",
+      "oneLineKo": "구글, 제미나이 3.8 플래시 및 사이버 모델 공개",
+      "summaryKo": "구글이 새로운 AI 모델인 Gemini 3.8 Flash와 보안 특화 버전인 3.8 Flash Cyber를 발표했다. 딥마인드의 모델 카드 페이지를 통해 상세 정보가 공개되었다. 본문 정보가 제한적이라 구체적인 성능 지표나 기능 차이는 확인되지 않는다.",
+      "tags": [
+        "gemini",
+        "llm",
+        "google"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1w5gtxg",
+      "title": "Postgres Calculations and the Ambiguity of NULL",
+      "url": "https://www.reddit.com/r/programming/comments/1w5gtxg/postgres_calculations_and_the_ambiguity_of_null/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1w5gtxg/postgres_calculations_and_the_ambiguity_of_null/",
+      "publishedAt": "2026-09-02T17:22:58+00:00",
+      "snippet": "All the ways that NULL can cause chaos in your SQL outcomes. submitted by /u/winsletts [link] [comments]",
+      "oneLineKo": "Postgres NULL 계산의 모호성과 함정",
+      "summaryKo": "이 글은 Postgres에서 NULL 값이 SQL 연산 결과에 얼마나 혼란을 초래할 수 있는지를 다룹니다. NULL은 '알 수 없음'을 의미하기 때문에 산술 연산, 비교, 집계 함수 등에서 예상과 다른 결과를 만들어낼 수 있습니다. 게시글은 이러한 NULL의 모호성이 실제 쿼리 결과에 미치는 다양한 영향을 소개하고 있습니다.",
+      "tags": [
+        "postgresql",
+        "sql",
+        "null"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33164",
+      "title": "Show GN: Ratatosk - CNCF 주요 프로젝트 릴리스 노트에서 보안 수정, 브레이킹 체인지와 같은 중요한 정보를 골...",
+      "url": "https://news.hada.io/topic?id=33164",
+      "commentsUrl": "https://news.hada.io/topic?id=33164",
+      "publishedAt": "2026-09-03T02:45:10+09:00",
+      "snippet": "안녕하세요. 처음 글 써 봅니다. 쿠버네티스 를 실제로 운영해보면 여러 모듈들의 패치 속도가 너무 빠르다고 느낍니다. 게다가 쓸데없이 버전 업그레이드로 잘 돌아가는 시스템에 장애라도 생기면... 그 부담 때문에 업그레이드를 매번 하지도 못하구요. 그래도 어쩔 수 없이 미뤄둔 업그레이",
+      "oneLineKo": "CNCF 릴리스 노트 핵심 정보 추출 도구 'Ratatosk' 소개",
+      "summaryKo": "쿠버네티스 등 CNCF 주요 프로젝트의 빠른 패치 속도로 인해 운영자들이 업그레이드에 부담을 느끼는 문제를 해결하기 위해 만든 도구입니다. 릴리스 노트에서 보안 수정, 브레이킹 체인지 등 중요한 정보만 골라내어 보여줍니다. 무분별한 버전 업그레이드로 인한 장애 위험을 줄이고, 필요한 정보만 빠르게 파악할 수 있도록 돕는 것이 목적입니다.",
+      "tags": [
+        "kubernetes",
+        "cncf",
+        "devops"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49535284",
+      "title": "Can I opt out of my input or output data being used for training?",
+      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49535284",
+      "publishedAt": "2026-09-02T12:30:39Z",
+      "score": 359,
+      "comments": 155,
+      "snippet": "Can I opt out of my input or output data being used for training? | Mistral Help Center Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name \"Inter\". This Font Software is licensed under the SIL Open Font License, Version 1.1. Skip to main content English Français Italiano English Search ⌘ K Help and Troubleshooting How do I contact support? How do I update my account information (email, password, and 2FA)? How can I upgrade or cancel my subscription? How can I subscribe to Pro on mobile? How can I manage my subscription on mobile (iOS and Android)? Refund policy: eligibility, timing, and how it works I’m a student or a teacher. Am I eligible for a discount? Why am I hitting API rate limits, and how do I increase them? Vibe Le Chat is now Vibe Can I trust the models' output? Trust, Security, Compliance Data Governance How can I control or delete data connected to third-party tools? As an admin on Team plan or Enterprise, do I have company-wide controls? How do you ensure the security of user data? Can I opt out of my input or output data being used for training? How do you handle my data when using the Memories feature? Who owns input and output in Vibe and Mistral’s APIs? Where do you store my data or my Organization's data? How long do you store my data? How does Mistral ensure that my data remains encrypted and secure in transit and at rest? How do you use submitted feedback? How do I export my data from Vibe? How can I manage my cookie settings? How can I delete my account? Do you use my user data to train your Artificial Intelligence models? Do you use cookies at Mistral and why? Do you sell or share my data for marketing? Can I delete a chat conversation? Can I activate Zero Data Retention (ZDR)? Ethical and Safe Use Can children use Mistral products and services? Can other people view my conversations? Do you use my conversations with Vibe to show me ads? How can I report harmful or illegal content? Regulatory Compliance and Certification Do you have a Code of Conduct? Do you have SOC 2 or ISO 27001 certification? How can I exercise my GDPR rights? How does Mistral comply with the EU’s Digital Services Act (DSA)? Can I see your list of technical and organizational security measures? Where can I find your DPA (Data Processing Agreement)? Where can I find your Terms of Service? Who are your subprocessors, and how can I stay updated on changes? About our Models Does Mistral disclose its training datasets? Under which license are Mistral’s open models available? How can I quickly test your AI models? All Collections Trust, Security, Compliance Data Governance Can I opt out of my input or output data being used for training? Can I opt out of my input or output data being used for training? Updated this week Copy for LLM In certain cases, your input and output data (such as conversations, documents, and other user-provided content) may be included in Mistral’s model training programs . 🔑 You retain full control over th",
+      "oneLineKo": "Mistral, 입력·출력 데이터 학습 활용 옵트아웃 안내",
+      "summaryKo": "Mistral 헬프센터 문서로, 사용자의 대화·문서 등 입력 및 출력 데이터가 모델 학습에 활용될 수 있음을 설명한다. 사용자는 이러한 데이터 활용에 대해 통제권을 가지며 옵트아웃할 수 있는 방법이 안내되어 있다. 이는 데이터 거버넌스, 개인정보 보호 및 GDPR 준수와 관련된 정책 문서의 일부이다.",
+      "tags": [
+        "mistral",
+        "llm",
+        "data-privacy"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33161",
+      "title": "Google, 코딩과 에이전트를 강화한 Gemini 3.8 Flash 및 보안 특화 Flash Cyber 공개",
+      "url": "https://news.hada.io/topic?id=33161",
+      "commentsUrl": "https://news.hada.io/topic?id=33161",
+      "publishedAt": "2026-09-03T02:32:46+09:00",
+      "snippet": "Google이 6주 사이 세 번째 Flash 모델을 공개했으며, Gemini 3.8 Flash는 장기 코딩과 에이전트 작업 , Flash Cyber는 취약점 탐지와 자동 패치 에 초점을 맞춤 3.8 Flash는 3.7과 같은 속도 및 출시 가격을 유지하며, 100만 토큰당 입력 0.75달러, 출력 3.75달러로...",
+      "oneLineKo": "Google, 코딩·에이전트용 Gemini 3.8 Flash와 보안특화 Flash Cyber 출시",
+      "summaryKo": "Google이 6주 만에 세 번째 Flash 모델을 공개했다. Gemini 3.8 Flash는 장기 코딩 작업과 에이전트 기능에 초점을 맞췄으며, 3.7과 동일한 속도와 가격(100만 토큰당 입력 0.75달러, 출력 3.75달러)을 유지한다. 함께 공개된 Flash Cyber는 취약점 탐지와 자동 패치에 특화된 보안 전용 모델이다.",
+      "tags": [
+        "gemini",
+        "llm",
+        "security"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49533497",
+      "title": "Commodore 64 released September 1, 1982",
+      "url": "https://dfarq.homeip.net/commodore-64-released-september-1-1982/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49533497",
+      "publishedAt": "2026-09-02T08:36:43Z",
+      "score": 322,
+      "comments": 168,
+      "snippet": "Commodore 64 released September 1, 1982 - The Silicon Underground The Silicon Underground David L. Farquhar on technology old and new, computer security, and more Menu About Archives Home Privacy policy Recent Comments Home » Retro Computing » Commodore 64 released September 1, 1982 Commodore 64 released September 1, 1982 Dave Farquhar Retro Computing September 1, 2026 September 2, 2026 4 Comments On September 1, 1982, the Commodore 64 launched. Its name referred to the amount of memory it had on board: 64 kilobytes. And it was the first computer with 64K of memory to sell for under $600. When the Commodore 64 was introduced vs when it was released This is a photograph of me playing Micro League Baseball on a Commodore 64 in late December 1984 or January 1985. When the C-64 first shipped is a bit of a mystery. Commodore showed prototypes at the January 1982 Consumer Electronics Show, but these weren’t production-ready models yet. Some engineers quoted in Brian Bagnall’s books say they shipped some units in August. Michael Tomczyk’s book, The Home Computer Wars , says it launched September 1. Given that Tomczyk was writing in 1984, not long after the actual launch, I’m inclined to think Tomczyk’s date is correct. Why the discrepancy? Commodore wasn’t selling direct. So if they intended to sell any machines on September 1, they had to ship the first units in August. Commodore built the initial units in Santa Clara, Calif., but ran into quality control problems, so they outsourced production to a Japanese company called Kentron. Kentron was mass producing C-64s by January 1983 . Within six months, they’d sold half a million units. And it quickly went up from there. By the end of its fiscal 1984 years, Commodore had sold about 5 million units. It became the best selling computer of all time, selling about 12.3 million units . Or, if you count the C-128 as a separate product, the C-64 alone sold about 10.6 million units. It was the computer I grew up with , and invariably, when I join a videoconference from my basement, where I have a C-64 hanging on my wall behind me, someone my age will say something about it, that they had one, or remember using one. Its early success was no accident but its staying power was By modern standards, it wasn’t cheap. Even in 1984, when we got one , the computer with a disk drive typically cost $450 unless you really shopped around. But the only other thing comparable both price-wise and capability-wise at the time was an Atari 800XL , and Atari was having supply chain problems in 1983, so it was a lot easier to find a Commodore 64 that year. The Commodore 64 probably would have been successful just because it was cheap and had a lot of memory for 1982. Its predecessor, the VIC-20, was the first computer to sell a million units, and it did so because it was the first computer with color to sell for less than $300. It took some weird compromises to hit that price point, with rudimentary graphics and sound capabilities an",
+      "oneLineKo": "코모도어64, 1982년 9월 1일 출시된 역사적 배경 정리",
+      "summaryKo": "이 글은 1982년 9월 1일 출시된 코모도어64(C64)의 정확한 출시일과 초기 생산 과정을 다룬다. Commodore는 직접 판매하지 않아 9월 출시를 맞추기 위해 8월에 선적을 시작했고, 캘리포니아 산타클라라에서 제조하다 품질 문제로 일본 Kentron에 생산을 외주했다. C64는 저렴한 가격과 64KB 메모리로 큰 성공을 거두며 약 1230만 대가 팔려 역대 가장 많이 팔린 컴퓨터로 기록됐다.",
+      "tags": [
+        "retro-computing",
+        "commodore64",
+        "hardware-history"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33151",
+      "title": "Zuzai, AI를 쓰지 않았음을 나타내는 새로운 단어",
+      "url": "https://news.hada.io/topic?id=33151",
+      "commentsUrl": "https://news.hada.io/topic?id=33151",
+      "publishedAt": "2026-09-02T20:03:28+09:00",
+      "snippet": "AI로 만든 결과물이 급증했지만 AI를 쓰지 않았음을 간결하고 긍정적으로 나타낼 말은 부족해, zuzai 라는 신조어가 필요해짐 “ Zuzai uses zero artificial intelligence ”의 재귀적 두문자어로, 소문자로 쓰고 “zoo’s eye”처럼 발음함 글과 이미지뿐 ...",
+      "oneLineKo": "AI 미사용을 뜻하는 신조어 'zuzai' 등장",
+      "summaryKo": "AI로 생성된 결과물이 급증하면서 오히려 'AI를 쓰지 않았음'을 간결하고 긍정적으로 표현할 말이 부족해졌다. 이에 'Zuzai uses zero artificial intelligence'의 재귀적 두문자어인 'zuzai'라는 신조어가 제안되었다. 이 단어는 소문자로 표기하며 'zoo's eye'처럼 발음한다.",
+      "tags": [
+        "ai",
+        "neologism"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49536079",
+      "title": "Biggest dark matter detector spots a single weird particle",
+      "url": "https://www.science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49536079",
+      "publishedAt": "2026-09-02T13:40:29Z",
+      "score": 231,
+      "comments": 75,
+      "oneLineKo": "세계 최대 암흑물질 검출기, 이상 입자 하나 포착",
+      "summaryKo": "세계에서 가장 큰 암흑물질 검출기가 특이한 단일 입자 신호를 포착했다는 소식이다. 해당 입자의 정체나 암흑물질과의 연관성에 대한 구체적인 내용은 본문 없이 제목만 제공되어 확인할 수 없다. 향후 추가 관측과 분석을 통해 이 신호의 의미가 밝혀질 것으로 예상된다.",
+      "tags": [
+        "dark-matter",
+        "physics"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33145",
+      "title": "소비자 핀테크의 언번들링 - 금융상품을 묶는 앱에서 모든 계좌를 관리하는 AI 에이전트로",
+      "url": "https://news.hada.io/topic?id=33145",
+      "commentsUrl": "https://news.hada.io/topic?id=33145",
+      "publishedAt": "2026-09-02T12:31:44+09:00",
+      "snippet": "Robinhood처럼 여러 금융상품을 한 앱에 묶는 번들링 전략은 강력했지만, AI가 상품 탐색과 계좌 이전을 대신하면 이 묶음이 다시 풀리는 언번들링(unbundling) 이 진행될 수 있음 차세대 AI 네이티브 소비자 핀테크 는 모든 금융상품을 직접 판매하기보다 여러 기관...",
+      "oneLineKo": "AI 에이전트가 이끄는 소비자 핀테크의 언번들링 전망",
+      "summaryKo": "Robinhood식으로 여러 금융상품을 한 앱에 묶는 번들링 전략이 강력했지만, AI가 상품 탐색과 계좌 이전을 대신 수행하게 되면 이러한 번들이 다시 풀리는 언번들링이 진행될 수 있다는 전망을 다룬다. 차세대 AI 네이티브 소비자 핀테크는 모든 금융상품을 직접 판매하기보다 여러 금융기관의 상품을 연결하고 관리하는 AI 에이전트 형태로 진화할 것으로 예상된다. 즉 하나의 앱이 아니라 AI가 여러 계좌와 기관을 넘나들며 사용자를 대신해 관리하는 구조로 시장이 재편될 수 있다는 내용이다.",
+      "tags": [
+        "fintech",
+        "ai-agent",
+        "unbundling"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49537131",
+      "title": "Google avoids a breakup of its ad tech business",
+      "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49537131",
+      "publishedAt": "2026-09-02T14:46:16Z",
+      "score": 213,
+      "comments": 128,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;rlAbY\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;rlAbY</a><p><a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;legal&#x2F;litigation&#x2F;google-defeats-us-bid-force-ad-tech-sale-2026-09-02&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;legal&#x2F;litigation&#x2F;google-defeats-us-b...</a>",
+      "oneLineKo": "구글, 광고기술 사업 강제 매각 피해",
+      "summaryKo": "미국 정부가 구글의 광고기술 사업 분할 매각을 요구했으나 법원이 이를 거부하며 구글이 승소했습니다. 이는 반독점 소송에서 구글에 유리한 판결로, 광고기술 사업부 매각 없이 사업을 유지할 수 있게 되었습니다. 관련 기사는 뉴욕타임스와 로이터에서 보도되었습니다.",
+      "tags": [
+        "antitrust",
+        "google",
+        "adtech"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49536606",
+      "title": "Exit the Cave",
+      "url": "https://turtlespace.blog/p/exit-the-cave",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49536606",
+      "publishedAt": "2026-09-02T14:16:45Z",
+      "score": 197,
+      "comments": 66,
+      "snippet": "Exit the Cave - by Justin Andersun - Turtle's Pace Turtle's Pace Subscribe Sign in Exit the Cave Ain’t it fun, livin’ in the real world? Justin Andersun Aug 19, 2026 22 2 5 Share There’s something romantic about the Cave. About grinding away at something in private. About training with headphones on in our own little world. About stepping away for six months to emerge “unrecognizable” to all those people we imagine thinking about us. This masculine urge to “grind” seems to be gaining popularity. It reminds me of an incredible Under Armour ad for Michael Phelps’s iconic return to the 2016 Olympics which ended with the quote: “It’s what you do in the dark that puts you in the light.” Yet the Cave, despite its darkness of solitude and dampness from sweat and suffer-porn, is comfortable. It lets us tinker with our own delusions. If we spend too much time in the Cave, our pupils dilate, and our assumptions start to look like reality. That somehow this training regimen will unlock athletic prowess, or that our perfectly polished product will be loved by millions of users around the globe. I find Paramore playing in my head. “See, it’s easy to ignore trouble, when you’re living in a bubble.” Culture has created a cozy Cave. Smart devices reward private fitness. Recommendation algorithms propagate our preexisting philosophy through personalized programming. AI tells us what we want to hear and bolsters our assumptions instead of challenging them. We grow so comfortable curating our Cave that we forget the vast, interesting, beautiful, and brutal world beyond its walls. I say all this because I’ve spent years mistaking effort for progress . I learned this lesson nearly twenty years ago on a wrestling mat. “So, what are you gonna do, when the world don’t orbit around you?” As the cold winds off Lake Michigan blew snow over Kenowa Hills High School, two dozen young men grappled in a sweaty, windowless room. For four winters, I wrestled. I’d start the season in November, feeling strong and fit. Five months later, after hundreds of hours training in sweatsuits on an empty stomach and a dozen Saturdays spent in gyms across West Michigan, I’d enter April pale, malnourished, and occasionally plagued by a skin disease like impetigo. At one point, I cut seven pounds a week to make the 119-pound weight class. Despite all that, I loved wrestling more than any other sport and miss it dearly. Not because I was good. In fact, I was terrible. I got pinned more often than I pinned and lost more often than I won. But those few times my arm was raised were sweeter than almost anything. There is something undeniably beautiful in wrestling’s brutality. There’s no gear to give an advantage—no special cleats, rackets, or pads. There are no conditions to create excuses—no weather, no nets, no sun in the eyes. And there’s nothing to hide behind. Just you and your opponent for six minutes of utter exhaustion. When you win, you win. When you lose, you lose. Because we cannot guara",
+      "oneLineKo": "'그라인드 문화'와 고립된 노력의 함정을 성찰하는 에세이",
+      "summaryKo": "저자는 혼자 틀어박혀 노력하는 '동굴(Cave)' 문화의 낭만성과 그 위험성을 이야기한다. 스마트 기기, 추천 알고리즘, AI 등이 개인의 편견을 강화하며 현실과 단절된 편안한 '동굴'을 만든다고 비판한다. 자신의 고등학교 레슬링 경험을 예로 들어, 노력과 진전을 혼동했던 지난 시절을 회고하며 진짜 세상과 마주하는 것의 가치를 강조한다.",
+      "tags": [
+        "에세이",
+        "자기계발",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49535548",
+      "title": "Aging brains blend memories together instead of just forgetting them",
+      "url": "https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49535548",
+      "publishedAt": "2026-09-02T12:59:09Z",
+      "score": 189,
+      "comments": 86,
+      "snippet": "Aging Brains Blend Memories Together Instead of Just Forgetting Them, Study Finds Skip to content Science Wellness Food Lists More Animals Astronomy Brain Health Beauty Cancer Research Children Diet Studies Education Environment News Exercise Historical Research Longer Life News Money News Parenting Research Politics Society Sports Weight Loss Studies Weird Newsletter Brain Games Around The Word Clashword Spellmazing WhizWords Search Home › Brain News Aging Brains Blend Memories Together Instead of Just Forgetting Them, Study Finds By StudyFinds Analysis • Reviewed by Patrisha Antonaros Research led by Ian M. McDonough (Binghamton University) Sep 02, 2026 Fact Checked Verified Share: Pin Facebook Tweet Yummly Email (Credit: © Aryazu - stock.adobe.com) In a Nutshell Memory accuracy for pairing faces with objects and scenes dropped sharply after young adulthood, with middle-aged and older adults scoring similarly to each other rather than declining in a steady line. Brain activity patterns that helped younger adults remember accurately were linked, in older adults, to more mix-up errors that crossed between entirely different categories of items, such as mistaking a scene for an object. Neither brain shrinkage nor attention differences fully explained why older adults’ brains showed this shift toward blended, less precise memories. An older relative insists they left their keys with a particular grandchild, in a particular room, on a particular day, and gets every detail wrong except that keys were involved. That kind of confident mix-up may not be simple forgetfulness. New brain-imaging research suggests something odder is happening inside aging brains: the very system meant to lock memories into place may be blending them together instead. A study published in Cerebral Cortex scanned the brains of adults aged 18 to 74 as they learned pairs of faces with objects and faces with scenes, rested, and then tried to recall the correct pairings. Researchers tracked activity patterns in the hippocampus, the brain’s memory hub , at three points: while learning, during a quiet rest afterward, and during the memory test itself. The results turn a common assumption about memory loss on its head. Older brains may not simply hold onto memories more weakly. In some cases, they hold onto too much of the wrong thing, replaying scattered pieces of unrelated experiences and stitching them into false connections. Younger adults in the study showed a clean pattern: the more closely their brain activity during recall matched their brain activity during learning, the better they performed on the memory test. That’s the brain doing what it’s supposed to do, replaying one specific memory faithfully. But among older adults, that same overlap in brain activity stopped predicting accuracy and instead predicted a very specific kind of mistake: confusing items across entirely different categories, like linking a face to a scene when it had actually been paired with an object. ",
+      "oneLineKo": "노화된 뇌, 기억을 왜곡·혼합해 저장한다는 연구 결과",
+      "summaryKo": "Binghamton University 연구팀이 18~74세 성인을 대상으로 얼굴과 사물·배경을 짝지어 학습시키고 뇌의 해마 활동을 학습, 휴식, 회상 단계에서 각각 측정했다. 젊은 성인은 학습 시와 회상 시 뇌 활동 패턴이 비슷할수록 정확도가 높았지만, 중년 및 노년층은 오히려 비슷한 활동 패턴이 서로 다른 범주의 기억을 혼합하는 오류와 관련이 있었다. 이는 노화가 단순히 기억을 약화시키는 것이 아니라 서로 다른 기억을 잘못 결합시키는 방식으로 작동할 수 있음을 시사하며, 뇌 수축이나 주의력 차이로는 이 현상이 완전히 설명되지 않았다.",
+      "tags": [
+        "neuroscience",
+        "memory",
+        "aging"
+      ]
+    }
+  ]
+}

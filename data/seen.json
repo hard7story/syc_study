@@ -1,69 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=32043",
-    "date": "2026-08-03"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49140998",
-    "date": "2026-08-03"
-  },
-  {
-    "id": "t3_1tlh5aj",
-    "date": "2026-08-03"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32019",
-    "date": "2026-08-03"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49145590",
-    "date": "2026-08-03"
-  },
-  {
-    "id": "t3_1vbmxpb",
-    "date": "2026-08-03"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32018",
-    "date": "2026-08-03"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49143479",
-    "date": "2026-08-03"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32044",
-    "date": "2026-08-03"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49142569",
-    "date": "2026-08-03"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32070",
-    "date": "2026-08-03"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49145937",
-    "date": "2026-08-03"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32067",
-    "date": "2026-08-03"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49143967",
-    "date": "2026-08-03"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49143925",
-    "date": "2026-08-03"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49093845",
-    "date": "2026-08-03"
-  },
-  {
     "id": "https://news.hada.io/topic?id=32087",
     "date": "2026-08-04"
   },
@@ -3478,5 +3414,133 @@
   {
     "id": "blog.mozilla.org/en/firefox/ad-blocker-on-ios",
     "date": "2026-09-02"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33138",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "news.hada.io/topic?id=33138",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49536375",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "trellner.com/reports/manufactured-sources-behind-ai-recommendations",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "t3_1w4mvwq",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1w4mvwq/how_do_hashmaps_work_under_the_hood_putting",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33170",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "news.hada.io/topic?id=33170",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49537553",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "t3_1w5gtxg",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1w5gtxg/postgres_calculations_and_the_ambiguity_of_null",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33164",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "news.hada.io/topic?id=33164",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49535284",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33161",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "news.hada.io/topic?id=33161",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49533497",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "dfarq.homeip.net/commodore-64-released-september-1-1982",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33151",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "news.hada.io/topic?id=33151",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49536079",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33145",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "news.hada.io/topic?id=33145",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49537131",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49536606",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "turtlespace.blog/p/exit-the-cave",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49535548",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds",
+    "date": "2026-09-03"
   }
 ]
