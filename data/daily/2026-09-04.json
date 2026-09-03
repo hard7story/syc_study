@@ -1,0 +1,278 @@
+{
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-03T23:43:51.369Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33182",
+      "title": "M4 Pro Mac mini로 구축한 로컬 LLM 환경",
+      "url": "https://news.hada.io/topic?id=33182",
+      "commentsUrl": "https://news.hada.io/topic?id=33182",
+      "publishedAt": "2026-09-03T13:33:02+09:00",
+      "snippet": "48GB RAM의 M4 Pro Mac mini 를 상시 LLM 서버로 운영하며, 추론·에이전트 작업에는 Qwen3.6-35B-A3B, 간단한 대화에는 Gemma-4-E4B를 사용해 약 30분 만에 전체 환경을 구성함 로컬 실행으로 클라우드 API의 가격 변경, 사용량 제한, 예고 없는 모델 교체를 피하고, 민감한 ...",
+      "oneLineKo": "M4 Pro Mac mini로 로컬 LLM 서버 구축 사례",
+      "summaryKo": "48GB RAM M4 Pro Mac mini를 상시 로컬 LLM 서버로 운영하며 약 30분 만에 환경을 구성한 사례이다. 추론 및 에이전트 작업에는 Qwen3.6-35B-A3B를, 간단한 대화에는 Gemma-4-E4B 모델을 사용한다. 로컬 실행을 통해 클라우드 API의 가격 변동, 사용량 제한, 예고 없는 모델 교체 문제를 피하고 민감한 데이터를 안전하게 다룰 수 있다는 장점을 강조한다.",
+      "tags": [
+        "llm",
+        "local-inference",
+        "mac-mini"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49550375",
+      "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+      "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49550375",
+      "publishedAt": "2026-09-03T14:28:18Z",
+      "score": 162,
+      "comments": 56,
+      "snippet": "These are my notes from porting my Amiga game, which I originally built in Baghdad in 1993 in MC68000 assembly, to Godot, using Claude Fable 5 during last July holiday.  It took an evening! Getting the feel right and shipping it took a few more weekends and evenings.<p>I spent the last few weeks analyzing what Claude did, feeding it my 33 years of memory of how I built the game, my notes and the git repos. It wrote the first draft of the article, and I edited line by line over a week. The screenshots of my 1993 map editor is the first I have run it since then. The one thing I never verified myself is the 108-byte explanation.<p>&quot;Before starting everything, the model assembled the code using vasm on my Mac, and kept going till the binary is byte-identical to the binaries I had in my original game. Even after that, the there was mismatch of about 108 bytes. I originally used AsmOne  which assembles into memory, and the game saved into the disk by saving that memory after running the game. So the original shipped files are a snapshot of the game that had already been running, not clean asm-one output.&quot;<p>Please post any questions. I am also releasing the original game for free.",
+      "oneLineKo": "1993년 아뮤가 게임을 LLM으로 Godot에 포팅",
+      "summaryKo": "1993년 바그다드에서 MC68000 어셈블리로 만든 아미가 게임을 Claude를 이용해 Godot으로 포팅한 경험담이다. 작업은 하루 저녁 만에 초안이 나왔고, 느낌을 다듬는 데 몇 주가 더 걸렸다. Claude는 vasm으로 코드를 어셈블해 원본 바이너리와 바이트 단위로 비교했으며, AsmOne의 메모리 스냅샷 특성으로 인한 108바이트 차이를 분석해 설명했다. 저자는 원본 게임도 무료로 공개한다.",
+      "tags": [
+        "llm",
+        "godot",
+        "retro-computing"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1tlh5aj",
+      "title": "Announcement: We've Updated The Rules, and April Is Finally Over",
+      "url": "https://www.reddit.com/r/programming/comments/1tlh5aj/announcement_weve_updated_the_rules_and_april_is/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1tlh5aj/announcement_weve_updated_the_rules_and_april_is/",
+      "publishedAt": "2026-05-23T13:54:37+00:00",
+      "snippet": "After temporarily banning LLM-related content over April , and asking you for feedback on that ban , we've decided to bring about an end of the temporary, I-can't-believe-it's-still-April ban on AI-related posts. Replacing the trial rule is a new shiny rule that refers to our new shiny AI policy . In short: Content about AI and LLMs are considered off-topic with the sole exclusion of deeply technical content about implementation. And if you want more detail than that, go read the policy, that's what it's there for. In addition, when writing that rule, I realized the rules weren't listed on the old.reddit.com sidebar, so that's been updated. For those of you who are seeing those rules for the first time, everything there is not new. We've been enforcing those rules as best we can for ages. You can click the link above those to get to the old.reddit rules page, with plenty of info that doesn't exactly read well when crammed into a sidebar. submitted by /u/ChemicalRascal [link] [comments]",
+      "oneLineKo": "r/programming, AI 게시물 금지 해제 및 새 정책 발표",
+      "summaryKo": "r/programming 서브레딧이 4월부터 시행했던 LLM 관련 게시물 임시 금지 조치를 종료했다. 대신 AI 및 LLM 관련 콘텐츠는 기본적으로 주제 이탈(off-topic)로 간주하되, 구현에 관한 깊이 있는 기술적 콘텐츠만 예외로 허용하는 새로운 정책을 도입했다. 아울러 old.reddit.com 사이드바에 없던 규칙 목록도 새로 추가해 정리했다.",
+      "tags": [
+        "reddit",
+        "llm",
+        "moderation"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33203",
+      "title": "Ask HN: OpenAI, Claude, Grok은 왜 동시에 중단됐나요?",
+      "url": "https://news.hada.io/topic?id=33203",
+      "commentsUrl": "https://news.hada.io/topic?id=33203",
+      "publishedAt": "2026-09-04T08:32:01+09:00",
+      "snippet": "OpenAI , Claude , xAI 의 상태 페이지와 각 서비스 장애에 관한 Hacker News 게시물을 근거로 동시 중단 원인이 궁금함 ChatGPT와 Claude 장애는 해결됨 으로 표시...",
+      "oneLineKo": "OpenAI·Claude·Grok 동시 장애 원인 질문",
+      "summaryKo": "Hacker News 이용자가 OpenAI, Claude, xAI의 서비스가 동시에 중단된 원인을 각 서비스의 상태 페이지와 관련 게시물을 근거로 질문했습니다. 글 작성 시점에 ChatGPT와 Claude의 장애는 해결됨으로 표시된 상태였습니다. 세 서비스가 비슷한 시점에 함께 장애를 겪은 이유에 대한 공통 원인이나 인프라 연관성이 있는지에 대한 궁금증을 다루고 있습니다.",
+      "tags": [
+        "openai",
+        "claude",
+        "outage"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49551096",
+      "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
+      "url": "https://news.ycombinator.com/item?id=49551096",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49551096",
+      "publishedAt": "2026-09-03T15:07:01Z",
+      "score": 317,
+      "comments": 514,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;status.openai.com\" rel=\"nofollow\">https:&#x2F;&#x2F;status.openai.com</a><p><a href=\"https:&#x2F;&#x2F;status.claude.com\" rel=\"nofollow\">https:&#x2F;&#x2F;status.claude.com</a><p><a href=\"https:&#x2F;&#x2F;status.x.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;status.x.ai</a><p><i>ChatGPT outage – Resolved</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49550614\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49550614</a> (315 comments)<p><i>Claude outage – Resolved</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49549676\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49549676</a> (146 comments)<p><i>Grok outage</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49551589\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49551589</a> (142 comments)",
+      "oneLineKo": "OpenAI·Claude·Grok 동시 장애, 원인 의문 제기",
+      "summaryKo": "ChatGPT, Claude, Grok이 비슷한 시간대에 동시에 장애를 겪어 HN 사용자들이 원인을 궁금해하며 질문을 올렸다. 각 서비스의 상태 페이지 링크와 관련 장애 보고 스레드들이 함께 공유되었으며, 세 서비스 모두 이후 장애가 해결(Resolved)된 것으로 표시되었다. 동시 장애의 정확한 원인은 게시글 내용만으로는 확인되지 않는다.",
+      "tags": [
+        "openai",
+        "claude",
+        "outage"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1w67dpg",
+      "title": "Maybe you don't need GraphQL",
+      "url": "https://www.reddit.com/r/programming/comments/1w67dpg/maybe_you_dont_need_graphql/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1w67dpg/maybe_you_dont_need_graphql/",
+      "publishedAt": "2026-09-03T13:26:30+00:00",
+      "snippet": "submitted by /u/macrohard_certified [link] [comments]",
+      "oneLineKo": "GraphQL이 항상 필요한 것은 아니다는 주장",
+      "summaryKo": "이 Reddit 게시물은 GraphQL이 모든 프로젝트에 필수적인 선택은 아니라는 관점을 다루고 있습니다. 제목 외 본문 내용이 제공되지 않아 구체적인 근거나 대안은 확인할 수 없습니다. REST 등 기존 방식이 충분한 경우가 있다는 취지로 추정되는 논의로 보입니다.",
+      "tags": [
+        "graphql",
+        "api",
+        "rest"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33193",
+      "title": "Show GN: First Mind - 정보보안에 있어서 진입장벽을 없애보자",
+      "url": "https://news.hada.io/topic?id=33193",
+      "commentsUrl": "https://news.hada.io/topic?id=33193",
+      "publishedAt": "2026-09-03T23:12:22+09:00",
+      "snippet": "배경 나는 고1이며 초4때 프로그래밍을 접해 지금까지 보안과 개발을 독학중임. 정보보안을 어릴 때 부터 공부해온 입장에서 가장 힘들었던 것은 난해한 설명과 추상성이었음. 지금은 나에게 너무나도 당연한 개념이나 혼자 dreamhack 강의만을 통해 공부하기는 무리를 느낀 용어들도 있음....",
+      "oneLineKo": "고등학생이 만든 정보보안 학습 진입장벽 낮추기 프로젝트",
+      "summaryKo": "고1 개발자가 초4 때부터 보안과 개발을 독학하며 겪은 어려움을 바탕으로 'First Mind'라는 서비스를 소개한다. 기존 보안 강의(dreamhack 등)의 난해한 설명과 추상적 개념이 학습 진입장벽이었다는 문제의식에서 출발했다. 초보자도 이해하기 쉬운 방식으로 정보보안 개념을 설명하는 것을 목표로 한다.",
+      "tags": [
+        "security",
+        "education"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49544762",
+      "title": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
+      "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49544762",
+      "publishedAt": "2026-09-03T01:11:22Z",
+      "score": 161,
+      "comments": 43,
+      "snippet": "Go grandmaster Shin defeats AI KataGo in historic human victory - KED Global Go grandmaster Shin defeats AI KataGo in historic human victory The world’s top Go player notches a 2-1 comeback win against the most powerful Go engine, raising hope for human intellect in the AI era Shin Jin-seo, the world's top-ranked Go player, reviews the game board following his victory over AI engine KataGo in the final game of a three-match series at The Korea Economic Daily headquarters in Seoul on July 21, 2026 (Photo by Hyuk Choi) 5 2026-07-21 15:02:25 Artificial intelligence Shin Jin-seo, the world's top-ranked Go player, on Tuesday completed a dramatic comeback against the world’s premier artificial intelligence Go engine, KataGo, claiming a historic human victory over AI. Shin, who holds the game's highest achievable rank of nine-dan, dealt KataGo a decisive 11.5-point defeat playing black in 221 moves in the series finale, which took three hours and five minutes. The 26-year-old South Korean grandmaster became the first human to win an official series against a state-of-the-art Go engine under a two-stone handicap, a margin considered the absolute boundary for human competition against modern AI. “I believe this series holds immense significance because it clearly demonstrated that humans can still hold their own against AI,” Shin told reporters after the match. “Early on, I simply copied AI moves, which led to heavy fighting and frequent, easy losses. This series taught me that rather than trying to imitate AI, it is far more important to build the board according to my own style.” In the three-game series , Shin suffered a resounding defeat to KataGo in the opening match on July 17 , but rebounded to beat the Go engine in the second game on Sunday. Shin Jin-seo poses for a photo after defeating AI engine KataGo in the final game of a three-match series at The Korea Economic Daily headquarters in Seoul on July 21, 2026 (Photo by Hyuk Choi) DECISIVE ATTACK ON MOVE 80 AFTER FOCUSING ON DEFENSE Unlike earlier matches filled with sharp tactical clashes, the third game developed into a territory-focused contest with little fighting through the middle stages. Shin focused on defense and territory preservation rather than pursuing risky counterattacks, maintaining an initial 18.5-point advantage. But he launched a measured attack against KataGo on move 80, building a massive framework that spanned from the upper board to the center. By converting this framework into solid territory, Shin maintained a 99% win probability from mid-game through to the final move. “I noticed KataGo tends to match moves if I open on the opposite komoku, but I didn't want to win that way,” Shin said. Komoku is the Japanese term for the three-to-four point on a Go board. “I knew even a one-space difference could be significant, so I started on the opposite side from KataGo. Even so, I was satisfied with how the opening developed.” Shin won 250 million won ($170,000) in match fees and p",
+      "oneLineKo": "신진서, 2점 접바둑서 AI 카타고 상대 시리즈 역전승",
+      "summaryKo": "세계랭킹 1위 바둑기사 신진서가 2점 접바둑 조건에서 AI 바둑엔진 카타고와의 3연전 시리즈에서 역전승을 거뒀다. 1국 패배 후 2국을 이기며 균형을 맞췄고, 3국에서는 흑을 잡고 221수 만에 11.5집 차 승리를 확정했다. 신진서는 AI를 모방하기보다 자신만의 스타일로 판을 짜는 것이 중요했다고 밝혔으며, 이는 최신 AI 바둑엔진을 상대로 2점 접바둑 조건에서 인간이 공식 시리즈를 승리한 최초의 사례로 평가된다.",
+      "tags": [
+        "ai",
+        "go",
+        "katago"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33177",
+      "title": "마케팅 인텔리전스 레이어 - 흩어진 경험을 AI의 재사용 가능한 컨텍스트로 만들기",
+      "url": "https://news.hada.io/topic?id=33177",
+      "commentsUrl": "https://news.hada.io/topic?id=33177",
+      "publishedAt": "2026-09-03T10:10:09+09:00",
+      "snippet": "문서·회의록·Slack 등에 흩어진 15년 이상의 경험을 구조화해, 다양한 AI 도구가 활용할 수 있는 마케팅 인텔리전스 레이어 로 구축하는 법 /raw 에 원본 자료를 넣고 /build 를 실행하면 Extractor 가 문서 요약이 아니라 다른 상황...",
+      "oneLineKo": "흩어진 마케팅 경험을 AI 재사용 컨텍스트로 구조화",
+      "summaryKo": "문서, 회의록, Slack 등에 15년 이상 쌓인 마케팅 경험을 구조화해 다양한 AI 도구가 활용할 수 있는 '마케팅 인텔리전스 레이어'로 구축하는 방법을 소개한다. /raw 폴더에 원본 자료를 넣고 /build를 실행하면 Extractor가 단순 문서 요약이 아니라 다른 상황에서도 재사용 가능한 형태로 정보를 추출한다. 이를 통해 흩어진 경험 지식을 AI가 참조할 수 있는 재사용 가능한 컨텍스트로 변환하는 워크플로우를 제시한다.",
+      "tags": [
+        "ai",
+        "knowledge-management",
+        "marketing"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49550772",
+      "title": ".name Termination",
+      "url": "https://neil.fraser.name/news/2026/09/03/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49550772",
+      "publishedAt": "2026-09-03T14:54:39Z",
+      "score": 1230,
+      "comments": 351,
+      "snippet": "Neil Fraser: News: .name Termination Neil's News 2026 .name Termination Blockly AGC 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 2015 2014 2013 2012 2011 2010 2009 2008 2007 2006 2005 2004 2003 2002 .name Termination 3 September 2026 Nearly twenty-five years ago I registered neil.fraser.name to provide a stable presence on the Internet. It has been the home of this website, my email address, and a server for APIs. It predates YouTube, Facebook, and smart phones. Minutes after my daughter was born, I also registered beverly.fraser.name . On 15 April 2026 Verisign proposed the destruction of the entire 3rd level of the '.name' hierarchy in order to simplify their administration. Astonishingly, on 28 July 2026 ICANN approved this action . I found out about this a few days ago when my registrar emailed me. Now, it's worth pausing for a moment to discuss what '3rd-level domains' are. Many people will be familiar with shady operators selling domains like *.uk.co . In that case it's some random guy who bought the 'uk' domain from the country of Colombia, then resells third-levels. If that operator disappears, then so do all the domains he sold. As a result, 3rd-level domains have gotten a dubious reputation. However, '.name' is completely different. It was setup exclusively as a 3rd-level operation. One registers xxx.yyy.name from any registrar and there is a full whois record. Exactly like *.ny.us , or *.co.uk . One of my original reasons for choosing '.name' was that it was run by Global Name Registry -- more specifically, it was not run by Verisign. I had history with Verisign and did not trust them. Unfortunately, Verisign acquired Global Name Registry a few years later. This mistrust was validated by the numerous lies Verisign included in their above proposal to ICANN. So what does this mean? First, this website vanishes in February. Despite the fact that it's registered and paid for until 2040. Second, my email address also disappears. Third, all the IoT devices that use services on this domain become bricks. Basically, I disappear from the Internet. But it gets much worse. Once the 3rd-level domains are terminated, it is assumed that the now vacant 2nd-level domains will become available for registration. Should someone (other than me) scoop up fraser.name they would be able to recreate and control neil.fraser.name . They'd be able to hijack hundreds of accounts that are linked to that address. They could commit code with my authentication. They could seize control of IoT devices. There is no way to enumerate all accounts (online and offline) which have been opened using this email address over the past quarter century. I'm just one of 22,000 people who will lose their domains. This is going to be fun. Time to lawyer up... < Previous | Next > Legal yada yada: My views do not necessarily represent those of my employer or my goldfish. Neil Fraser : News : .name Termination",
+      "oneLineKo": "Verisign, .name 3단계 도메인 강제 종료 결정",
+      "summaryKo": "Verisign이 ICANN 승인을 받아 .name 도메인의 3단계 계층(예: neil.fraser.name)을 전면 폐지하기로 했다. 이는 2026년 2월부터 시행되며, 22,000명의 사용자가 등록·비용 지불 여부와 관계없이 도메인, 이메일, 연동된 IoT 서비스를 잃게 된다. 더 심각한 문제는 폐지 후 2단계 도메인(예: fraser.name)이 재등록 가능해져, 제3자가 이를 선점해 기존 이메일 계정과 인증을 탈취할 위험이 있다는 점이다.",
+      "tags": [
+        "domain",
+        "security",
+        "icann"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33176",
+      "title": "Claude로 커머스 에이전트 구축하기",
+      "url": "https://news.hada.io/topic?id=33176",
+      "commentsUrl": "https://news.hada.io/topic?id=33176",
+      "publishedAt": "2026-09-03T10:03:14+09:00",
+      "snippet": "Anthropic이 소매, 여행, 통신, 티켓 플랫폼에서 쇼핑 에이전트와 판매자 에이전트 를 며칠 안에 구축할 수 있는 블루프린트와 Claude Code 플러그인을 공개함 쇼핑 에이전트는 여러 상품이 포함된 자연어 요청을 이해해 카탈로그 검색과 비교, 개인화 추천, 장바구니 구성, 결제와 주...",
+      "oneLineKo": "Anthropic, Claude 커머스 에이전트 구축 블루프린트 공개",
+      "summaryKo": "Anthropic이 소매, 여행, 통신, 티켓 플랫폼에서 쇼핑 에이전트와 판매자 에이전트를 빠르게 구축할 수 있는 블루프린트와 Claude Code 플러그인을 공개했다. 쇼핑 에이전트는 자연어 요청을 이해해 카탈로그 검색, 상품 비교, 개인화 추천, 장바구니 구성, 결제까지 처리할 수 있다. 이를 통해 개발자는 며칠 안에 커머스 도메인에 특화된 AI 에이전트를 구축할 수 있다.",
+      "tags": [
+        "claude",
+        "ai-agent",
+        "commerce"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49550698",
+      "title": "Any Human Ever – One life, drawn at random from all who have ever lived",
+      "url": "https://anyhumanever.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49550698",
+      "publishedAt": "2026-09-03T14:51:10Z",
+      "score": 431,
+      "comments": 213,
+      "snippet": "Any Human Ever: one life from over 100 billion 🧑🏽 \"> ANY HUMAN EVER ABOUT When Where Life Story Over 100,000,000,000 people have ever lived. Choose one. Draw a random life You'll draw, step by step: a year, a place, a life, each taken at random from real data . When were they born? Almost everyone who ever lived was born recently, because population grew exponentially, so a random birth is far more likely to fall near the present. log linear years before present · (log scale) Draw a birth year ↻ Redraw year Select a year Continue &rarr; Where in the world? Brighter clusters held more people. Draw a location ↻ Redraw location Select a location Continue &rarr; A life then and there Draw this life ↻ Redraw this life Read their story &rarr; Full Sources for this Story All Project Sources Draw another life",
+      "oneLineKo": "인류사 1000억명 중 무작위 한 삶을 뽑는 웹사이트",
+      "summaryKo": "이 웹사이트는 지금까지 지구상에 존재했던 약 1000억명의 사람들 중 무작위로 한 명의 삶을 생성해준다. 실제 인구 데이터를 기반으로 출생 연도와 장소를 단계별로 무작위 추출하며, 인구가 기하급수적으로 증가했기 때문에 대부분의 무작위 삶은 현재에 가까운 시기에 태어난 것으로 나온다. 사용자는 각 단계에서 다시 뽑기를 하거나 선택을 확정해 최종적으로 가상의 인물 이야기를 읽을 수 있다.",
+      "tags": [
+        "data-visualization",
+        "random-generator",
+        "web"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33175",
+      "title": "Claude Fable 5.1 프롬프팅 가이드",
+      "url": "https://news.hada.io/topic?id=33175",
+      "commentsUrl": "https://news.hada.io/topic?id=33175",
+      "publishedAt": "2026-09-03T10:01:50+09:00",
+      "snippet": "기존 Claude Fable 5 프롬프트는 대부분 작동하지만, 5.1은 effort, 진행 업데이트, 도구 호출, 대화 이력, 출력 형식이 달라 기존 설정을 그대로 교체하기보다 다시 평가 해야 함 기본값 high 에서 시작해 low , medium , xhigh , ...",
+      "oneLineKo": "Claude 5.1 프롬프팅 가이드 변경점 정리",
+      "summaryKo": "기존 Claude 5용 프롬프트는 대부분 작동하지만 5.1에서는 effort 설정, 진행 업데이트, 도구 호출, 대화 이력, 출력 형식이 달라져 재평가가 필요하다. 기본값은 high이며 상황에 따라 low, medium, xhigh 등으로 조정할 수 있다. 기존 설정을 그대로 유지하기보다 새로운 동작 방식에 맞춰 프롬프트를 다시 점검해야 한다.",
+      "tags": [
+        "llm",
+        "prompt-engineering",
+        "claude"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49554520",
+      "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+      "url": "https://inference-docs.cerebras.ai/models/overview",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49554520",
+      "publishedAt": "2026-09-03T18:32:13Z",
+      "score": 401,
+      "comments": 122,
+      "snippet": "Model Catalog - Cerebras Inference Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Cerebras Inference home page Docs API Reference Integrations Cookbook Community Blog Cloud Console Cloud Console Search... Navigation Model Catalog Model Catalog Search... ⌘ K Python SDK Node.js SDK Get Started Quickstart Pricing Rate Limits Models Model Catalog Qwen 3.8 27B OpenAI GPT OSS Choose a Model Capabilities Reasoning Streaming Responses Structured Outputs Tool Calling Prompt Caching Image Inputs Preview Payload Optimization Dedicated Endpoints Overview Features Compatibility OpenAI Compatibility Cloud Console Overview Projects API Keys Playground Usage & Monitoring Account & Billing Resources Designing for Cerebras Support Service Status Error Codes Change Log Deprecations Policies Preview Releases On this page Available Models Model Compression Frequently Asked Questions Copy page Copy MCP Server View as Markdown Models Model Catalog Model Catalog Browse all models available on Cerebras public endpoints. Models on Cerebras public endpoints are available on the free trial and pay-as-you-go tiers, subject to rate limits and pricing . For additional model families, reserved capacity, higher throughput, and production SLAs, see Dedicated Endpoints . New here? Follow the Quickstart to make your first API call. To pick a model by use case, see the model selection guide . Select any model name below for full specs, capabilities, and per-tier limits. ​ Available Models Model Name Model ID Parameters Context (free / paid) Speed (tokens/s) OpenAI GPT OSS gpt-oss-120b 120 billion 65k / 131k ~3000 Qwen 3.8 27B qwen-3.8-27b 27 billion 64k / 128k ~1500 Looking for more models? Many additional model families are available through Dedicated Endpoints . ​ Model Compression This section provides transparency about the compression state of each model available on our platform. We host a variety of open-source models from the community. We do not currently host pruned models on our public endpoints. All models served through our public endpoints are the original, unpruned versions. While we conduct research on pruning techniques like REAP (Router-weighted Expert Activation Pruning), these pruned models are shared with the research community on Hugging Face but are not available through our shared API. You can read more about REAP in our research blog . All of our public models are unpruned. Cerebras uses selective weight-only quantization only during storage to preserve maximal quality. This means that the weights are stored in partial 16-bit / 8-bit / 4-bit, in-line with industry standards. For quality, sensitive layers are stored at full precision with dequantization on the fly, so operations are done in high precision. The activations, attention, and kv cache remain in full precision and unquantized. ​ Frequently Asked Questions Will you change a model's ",
+      "oneLineKo": "Cerebras, Qwen 3.8 27B 모델 초당 1500토큰 추론 지원",
+      "summaryKo": "Cerebras Inference 플랫폼의 모델 카탈로그에 Qwen 3.8 27B 모델이 추가되어 초당 약 1500 토큰의 처리 속도를 제공한다. 이 모델은 270억 파라미터 규모로 무료/유료 티어에서 각각 64k/128k 컨텍스트를 지원한다. Cerebras는 공개 엔드포인트의 모든 모델이 원본 그대로이며, 저장 시에만 선택적 weight-only quantization을 적용하고 활성화·어텐션·KV 캐시는 완전 정밀도로 유지한다고 설명한다.",
+      "tags": [
+        "llm",
+        "inference",
+        "qwen"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49548452",
+      "title": "Google Antigravity TOS: 3rd party usage can get Google account suspended",
+      "url": "https://twitter.com/GergelyOrosz/status/2095453567955968398",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49548452",
+      "publishedAt": "2026-09-03T11:01:04Z",
+      "score": 263,
+      "comments": 180,
+      "snippet": "Gergely Orosz on X: \"Antigravity's terms of services make it crystal clear that if they determine you use Antigravity in a way they suspect is eg third-party usage (eg use OpenClaw), they can suspend your Google account. One reason to NOT use Antigravity. I'm not taking this risk, sorry.\" / X Post Log in Sign up Post Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Relevant people Gergely Orosz @ GergelyOrosz Follow Trending now Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp.",
+      "oneLineKo": "구글 Antigravity 이용약관, 서드파티 사용시 계정 정지 가능",
+      "summaryKo": "Gergely Orosz는 X 게시물에서 구글의 Antigravity 서비스 이용약관이 서드파티 방식(예: OpenClaw)으로 사용하는 것으로 의심될 경우 구글 계정을 정지할 수 있다는 점을 명확히 하고 있다고 지적했다. 그는 이러한 위험 때문에 Antigravity 사용을 하지 않겠다고 밝혔다. 이는 구글 계정과 연동된 서비스 이용 시 약관 위반으로 인한 계정 정지 리스크를 경고하는 내용이다.",
+      "tags": [
+        "google",
+        "terms-of-service",
+        "antigravity"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49551760",
+      "title": "K2 Horizon: A connected fleet of six open models",
+      "url": "https://ifm.ai/blog/k2/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49551760",
+      "publishedAt": "2026-09-03T15:36:43Z",
+      "score": 237,
+      "comments": 78,
+      "snippet": "Introducing K2 Horizon: Frontier Performance, Radically Open Skip to article Introducing K2 Horizon: Frontier Performance, Radically Open September 3, 2026 · Institute of Foundation Models Artifacts Socials Overview Performance The fleet Designing Horizon Open science Get started Full results Today IFM is releasing K2 Horizon, a connected fleet of six models: 375B-A23B, 36B-A4B, 32B, 7B, 3.7B, and 0.9B. Across reasoning, mathematics, coding, agentic tasks, and general capabilities, K2 Horizon delivers top-tier performance in every size class—with the 0.9B, 3.7B, and 7B models setting new state of the art at their respective scales. K2 Horizon is also our most comprehensive open release to date. For every model, we are opening the training lifecycle from pretraining through reasoning and agentic post-training. We are releasing intermediate checkpoints, training data or detailed data-construction recipes, open architecture, mixture compositions, training code, configurations, fine-grained logs, evaluation results, and final weights. The models and code are released under the Apache 2.0 license. Datasets are released under their applicable licenses, such as ODC-BY; We disclose how the data was constructed and mixed when redistribution is not possible. Together, K2 Horizon represents the most comprehensive open model release to date: A new performance frontier across scales. The 0.9B, 3.7B, and 7B models achieve world-leading performance in their size classes across widely used evaluations. The 36B-A4B model, equipped with our new Mixture-of-Value-Attention (MoVA) mechanism, delivers exceptional capability per active parameter, outperforming some much larger models. The 32B and 375B-A23B models rank among the top models in their respective classes. Together, the six models provide competitive performance across deployment environments ranging from edge devices to the enterprise. The first fully open model fleet for agents. K2 Horizon is the first open model family to expose the complete development process through agentic post-training. By releasing checkpoints, data (or data recipe), code, configurations, and training logs across every stage, K2 Horizon makes it possible to study how reasoning, tool use, planning, and agentic capabilities emerge; reproduce the methods that create them; and adapt those methods to new tools, environments, and domains. Six models spanning edge to enterprise. The 0.9B model is designed for highly constrained environments such as watches and glasses, while the 3.7B and 7B models bring advanced capabilities to phones and other on-device applications. The dense 32B model and sparse 36B-A4B model provide powerful options for local workstations and efficient serving. The 375B-A23B model brings the fleet’s strongest capabilities to demanding enterprise deployments. All six models include quantization support. One connected fleet. The six models share core architecture, vocabulary, training methodology, interfaces, evaluation ",
+      "oneLineKo": "IFM, 완전 공개형 6종 오픈 모델 'K2 Horizon' 출시",
+      "summaryKo": "IFM이 375B부터 0.9B까지 6개 크기로 구성된 오픈 모델 패밀리 K2 Horizon을 공개했다. 사전학습부터 추론·에이전트 후처리까지 전체 학습 파이프라인을 체크포인트, 데이터(또는 구축 레시피), 코드, 로그와 함께 Apache 2.0 라이선스로 공개한 점이 특징이다. 0.9B, 3.7B, 7B 모델은 각 크기급에서 최고 성능을 기록했으며, 36B-A4B 모델은 새로운 Mixture-of-Value-Attention(MoVA) 구조를 적용해 활성 파라미터당 효율을 높였다. 엣지 기기부터 엔터프라이즈 서빙까지 다양한 배포 환경을 겨냥한 6개 모델 모두 양자화를 지원한다.",
+      "tags": [
+        "llm",
+        "open-source",
+        "moe"
+      ]
+    }
+  ]
+}

@@ -1,61 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=32087",
-    "date": "2026-08-04"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49154332",
-    "date": "2026-08-04"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32076",
-    "date": "2026-08-04"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49153374",
-    "date": "2026-08-04"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32072",
-    "date": "2026-08-04"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49156111",
-    "date": "2026-08-04"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32094",
-    "date": "2026-08-04"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49157930",
-    "date": "2026-08-04"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32084",
-    "date": "2026-08-04"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49152842",
-    "date": "2026-08-04"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32078",
-    "date": "2026-08-04"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49156011",
-    "date": "2026-08-04"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49155629",
-    "date": "2026-08-04"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49152023",
-    "date": "2026-08-04"
-  },
-  {
     "id": "https://news.hada.io/topic?id=32119",
     "date": "2026-08-05"
   },
@@ -3542,5 +3486,133 @@
   {
     "id": "studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds",
     "date": "2026-09-03"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33182",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "news.hada.io/topic?id=33182",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49550375",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "t3_1tlh5aj",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1tlh5aj/announcement_weve_updated_the_rules_and_april_is",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33203",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "news.hada.io/topic?id=33203",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49551096",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "news.ycombinator.com/item?id=49551096",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "t3_1w67dpg",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1w67dpg/maybe_you_dont_need_graphql",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33193",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "news.hada.io/topic?id=33193",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49544762",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33177",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "news.hada.io/topic?id=33177",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49550772",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "neil.fraser.name/news/2026/09/03",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33176",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "news.hada.io/topic?id=33176",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49550698",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "anyhumanever.com",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33175",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "news.hada.io/topic?id=33175",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49554520",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "inference-docs.cerebras.ai/models/overview",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49548452",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "twitter.com/GergelyOrosz/status/2095453567955968398",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49551760",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "ifm.ai/blog/k2",
+    "date": "2026-09-04"
   }
 ]
