@@ -1,0 +1,277 @@
+{
+  "date": "2026-09-06",
+  "generatedAt": "2026-09-05T23:29:25.549Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33263",
+      "title": "AI가 장애를 처리할수록 엔지니어는 시스템 감각을 잃는다",
+      "url": "https://news.hada.io/topic?id=33263",
+      "commentsUrl": "https://news.hada.io/topic?id=33263",
+      "publishedAt": "2026-09-06T02:37:53+09:00",
+      "snippet": "AI SRE 가 경보 분석부터 가설 수립, 텔레메트리 조회, 배포 내역 연계, 수정까지 맡으면 평균 복구 시간은 줄어들지만, 엔지니어가 시스템의 동작과 장애 방식을 체득할 기회도 감소 함 결국 AI가 풀지 못하는 낯설고 심각한 장애만 사람이 넘겨받게 되므로, 자동화...",
+      "oneLineKo": "AI SRE 확산에 엔지니어 시스템 감각 저하 우려",
+      "summaryKo": "AI SRE가 경보 분석, 가설 수립, 텔레메트리 조회, 배포 내역 연계, 수정까지 자동으로 처리하면서 평균 복구 시간(MTTR)은 줄어드는 효과가 있다. 하지만 엔지니어가 직접 장애를 다루며 시스템의 동작 방식을 체득할 기회가 줄어드는 부작용이 발생한다. 결국 AI가 해결하지 못하는 낯설고 심각한 장애만 사람에게 넘겨지게 되어, 오히려 가장 어려운 상황에서 필요한 시스템 이해도가 부족해질 위험이 있다.",
+      "tags": [
+        "sre",
+        "ai",
+        "observability"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49570669",
+      "title": "Actively exploited sandbox RCE in all Chromium versions",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49570669",
+      "publishedAt": "2026-09-04T21:52:01Z",
+      "score": 732,
+      "comments": 432,
+      "oneLineKo": "크로미움 전버전 샌드박스 RCE 취약점 실제 악용",
+      "summaryKo": "모든 버전의 Chromium 브라우저에서 샌드박스를 우회하는 원격 코드 실행(RCE) 취약점이 발견되었으며, 이미 실제 공격에 악용되고 있는 것으로 나타났다. 해당 취약점은 NVD에 CVE-2026-85046으로 등록되어 있다. 본문 내용이 제공되지 않아 구체적인 공격 방식이나 패치 여부는 확인되지 않는다.",
+      "tags": [
+        "chromium",
+        "rce",
+        "security"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1w7rkbm",
+      "title": "Principles of Memory Management in Java",
+      "url": "https://www.reddit.com/r/programming/comments/1w7rkbm/principles_of_memory_management_in_java/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1w7rkbm/principles_of_memory_management_in_java/",
+      "publishedAt": "2026-09-05T05:18:39+00:00",
+      "snippet": "submitted by /u/davidalayachew [link] [comments]",
+      "oneLineKo": "자바 메모리 관리 원칙 소개",
+      "summaryKo": "Java의 메모리 관리 원칙을 다루는 글이 Reddit에 공유되었습니다. 본문 내용은 제공되지 않아 제목에서 유추되는 범위, 즉 Java의 메모리 관리 관련 원칙을 설명하는 자료로 추정됩니다. 자세한 기술적 세부사항은 원문 링크를 통해 확인할 수 있습니다.",
+      "tags": [
+        "java",
+        "memory-management"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33261",
+      "title": "AI는 이제 회로 기판도 설계할 수 있을까?",
+      "url": "https://news.hada.io/topic?id=33261",
+      "commentsUrl": "https://news.hada.io/topic?id=33261",
+      "publishedAt": "2026-09-06T01:37:16+09:00",
+      "snippet": "AI는 일부 회로 설계 문제를 풀 수 있지만, 실제 부품의 오차와 비용까지 고려해 요구사항을 만족하는지 는 시뮬레이션으로 검증해야 함 EEBench는 회로를 코드로 작성하고 SPICE로 시험하는 벤치마크로, CAD 화면을 조작하는 능력보다 부품 선택과 연결, 전기적 동작을 설계...",
+      "oneLineKo": "AI 회로 설계 능력, SPICE 벤치마크로 검증",
+      "summaryKo": "AI가 일부 회로 설계 문제를 풀 수는 있지만, 실제 부품의 오차와 비용까지 고려해 요구사항을 충족하는지는 시뮬레이션 검증이 필요하다. EEBench는 CAD 조작 능력이 아니라 부품 선택, 연결, 전기적 동작 설계 능력을 평가하기 위해 회로를 코드로 작성하고 SPICE로 시험하는 벤치마크다. 이를 통해 AI의 실제 회로 설계 역량을 보다 객관적으로 측정할 수 있다.",
+      "tags": [
+        "ai",
+        "circuit-design",
+        "spice"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49571634",
+      "title": "Nitter has more working instances than before the takedowns",
+      "url": "https://codeberg.org/mv12star/shitter/wiki/Instances",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49571634",
+      "publishedAt": "2026-09-05T00:04:16Z",
+      "score": 601,
+      "comments": 283,
+      "snippet": "Instances - mv12star/shitter - Codeberg.org Codeberg has changed its Terms of Use. View complete changes . LLM-generated content is being restricted. View change or read the blog post Cryptocurrency projects are no longer allowed. View change Dismiss This website requires JavaScript. Explore About FAQ Help Donate Register Sign in mv12star / shitter Watch 1 Star 53 Fork You've already forked shitter 1 Code Wiki Activity Page: Instances Pages Apache Caddy Cloudflare Tunnel Creating session tokens Embeds guide Evading DMCA reports — Templates and Gluetun Extensions Forks of the Nitter code repository Home Instances Nginx Rate Limiting ‐ Caddy Rate Limiting ‐ Nginx Self-hosting a Nitter instance Unraid HTTPS No results 976 Instances mv12star edited this page 2026-09-05 18:53:41 +02:00 Table of contents Working instances Redirectors Active but rate limited Formerly active / Taken down Run a public instance read this post about how to obtain many session tokens, and read this one about how to escape DMCA and other legal complaints. Improve public instances performance (optional & advanced) Working instances https://shitter.thepixora.com https://nitter.kareem.one https://nitter.miningtcup.me https://nitter.meowing.monster https://nitter.xitter.cc https://nitter.jaydenha.uk https://nitter.click https://x.n0g.xyz https://tw.eir-nya.gay http://nitter.dog5267ah4m4f4677r33b2pzq667lwhsqupojioqz4rg6e2q74p3xtyd.onion (requires Tor browser) http://nitter.lesboswza6waq3itqo46rvf5a7dibxih32f2umwg6fpssxj66spmclyd.onion (Tor) http://dhgjnhkxtgesvcddfwzqm4d4zmyz2x2jud6huweu5iywuvoo7qaqpjid.onion (Tor) Redirectors https://nitt.tr https://twit.0r.cx https://xxcancel.com Active but rate limited https://nt.vern.cc https://nitter.fullex.fr https://nitter.anoxinon.de https://nitter6.kabii.moe https://nitter.zebes.info https://nitter.wisq.net https://nitter.teamqq.de https://nitter.freedit.eu Formerly active / Taken down https://xcancel.com https://nitter.poast.org https://nitter.privacyredirect.com https://nitter.tiekoetter.com https://nuku.trabun.org https://nitter.catsarch.com Run a public instance If you'd like to run a public instance, make sure to read this post about how to obtain many session tokens, and read this one about how to escape DMCA and other legal complaints. Improve public instances performance (optional & advanced) A repository where you can pick configurations to improve performance: https://codeberg.org/mv12star/shitter-public-instances-customizations nitter Delete page Deleting the wiki page \"Instances\" cannot be undone. Continue? No Yes Powered by with modifications Codeberg Blog Documentation Community issues Contributing Report abuse Association Who are we? Bylaws / Satzung Donate Join / Support Contact Services Codeberg Pages Codeberg Translate Woodpecker CI Forgejo API Status page Legal Imprint / Impressum Privacy Policy Licenses Terms of Use Mastodon | Matrix Space (Web link) Powered by Forgejo English Bahasa Indonesia Dansk Deutsch English Esp",
+      "oneLineKo": "Nitter 대체 인스턴스, 단속 이전보다 늘어나",
+      "summaryKo": "트위터 프론트엔드인 Nitter의 공개 인스턴스 목록을 관리하는 Codeberg 위키에 따르면, 과거 DMCA 등으로 여러 인스턴스가 단속되어 폐쇄됐음에도 현재 정상 작동 중인 인스턴스 수가 오히려 이전보다 많아졌다. 목록에는 정상 작동, 리다이렉터, 속도 제한 중, 그리고 이전에 활동했으나 중단된 인스턴스들이 분류되어 있으며 Tor onion 주소도 포함되어 있다. 위키는 공개 인스턴스 운영자를 위해 세션 토큰 획득 방법과 법적 문제 회피 방법에 대한 가이드도 제공한다.",
+      "tags": [
+        "nitter",
+        "twitter",
+        "self-hosting"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1w7vcf3",
+      "title": "The NX bit is not just about security",
+      "url": "https://www.reddit.com/r/programming/comments/1w7vcf3/the_nx_bit_is_not_just_about_security/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1w7vcf3/the_nx_bit_is_not_just_about_security/",
+      "publishedAt": "2026-09-05T08:50:06+00:00",
+      "snippet": "submitted by /u/soap94 [link] [comments]",
+      "oneLineKo": "NX 비트, 보안 목적 그 이상의 역할",
+      "summaryKo": "NX 비트(No-eXecute bit)가 단순히 보안을 위한 기능이 아니라는 점을 다루는 게시글입니다. 본문 내용은 제공되지 않아 구체적인 기술적 논거는 확인할 수 없으며, 제목에서 유추 가능한 주제만 전달됩니다. CPU의 메모리 실행 방지 기능에 대한 추가적인 관점을 제시하는 것으로 보입니다.",
+      "tags": [
+        "nx-bit",
+        "cpu",
+        "security"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33260",
+      "title": "미국 기업들이 오픈소스 AI에 빠져들고 있다",
+      "url": "https://news.hada.io/topic?id=33260",
+      "commentsUrl": "https://news.hada.io/topic?id=33260",
+      "publishedAt": "2026-09-06T01:34:16+09:00",
+      "snippet": "AT&T, Airbnb, Deloitte 등 미국 기업들이 비용 절감과 맞춤화를 위해 공개형 AI 모델 도입을 늘리고 있으며, AT&T는 연초 대비 AI 비용을 최대 80% 절감함 공개형 모델은 비용 지불이나 승인 없이 내려받아 수정할 수 있으며, 일부 중국 모델은 OpenAI/An...",
+      "oneLineKo": "美 기업들, 비용절감 위해 오픈소스 AI 도입 확산",
+      "summaryKo": "AT&T, Airbnb, Deloitte 등 미국 기업들이 비용 절감과 맞춤화를 위해 오픈소스(공개형) AI 모델 도입을 늘리고 있다. AT&T는 이를 통해 연초 대비 AI 비용을 최대 80%까지 절감한 것으로 알려졌다. 공개형 모델은 별도의 비용 지불이나 승인 없이 다운로드하여 수정할 수 있으며, 일부 중국산 모델도 OpenAI나 Anthropic 등 폐쇄형 모델의 대안으로 활용되고 있다.",
+      "tags": [
+        "open-source",
+        "llm",
+        "cost-optimization"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49569896",
+      "title": "Statichost.eu – European static site hosting",
+      "url": "https://www.statichost.eu/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49569896",
+      "publishedAt": "2026-09-04T20:34:49Z",
+      "score": 436,
+      "comments": 198,
+      "snippet": "statichost.eu - 100% European static site hosting Features Docs Pricing Blog Status Contact Login Sign up 100% European static website hosting Not just servers in Europe. A European company, European infrastructure, and European values — from deploy to CDN. Deploy now Explore the docs Trusted by Design studio for global brands including Braun and Oral-B. Strategic concept development with digital precision. Information and research hub seeking to hold large technology companies accountable. Open source bespoke sewing patterns for hundreds of thousands of registered users. Read more Possibly the most well-known testing framework in the world. Everything you expect from modern static site hosting Deploy directly from your git repository We&rsquo;ll build your site using any static site generator, and publish it for the world to see. Update your site based on webhooks Re-build after a git push, after an update to your CMS, or whenever you like. Custom domains with free SSL certificates Use your own domain (naturally!), complete with an automatically provisioned SSL certificate. Preview links for branches and pull requests coming soon Want to see how your new update looks or share it with your team before releasing it to production? No problem, we have a preview for you. Instant rollbacks Roll back to a previous version of your site, effective immediately. World-wide CDN private beta Ensure user privacy and GDPR compliance while always serving your users from a location close to them, wherever that may be. Read the documentation Your tools, your workflow Every git provider. Every static site generator. If it builds to static files, it works on statichost.eu. ... and all others! Hi, fellow web developer! My name is Eric, and I believe the internet got too complicated. Too many layers, too many vendors, too much trust quietly handed to American companies behind the scenes. And it matters who&rsquo;s behind your infrastructure — and where it lives. I got tired of &ldquo;European&rdquo; hosting that runs on American clouds. So I built an alternative — static hosting where every layer of the stack, from git deploy to CDN, runs on European infrastructure owned by European companies. No AWS, no Cloudflare, no exceptions. Greetings from Stockholm, Eric Selin, Founder, statichost.eu Get started for free! Deploy your first site for free. European infrastructure, your domain, 2 minutes. Deploy now Sign up Docs FAQ Roadmap System status Company Privacy policy Terms and conditions DPA Report abuse Mastodon c/o Knackeriet , Sankt Paulsgatan 25, Stockholm, Sweden",
+      "oneLineKo": "완전 유럽산 인프라 기반 정적 사이트 호스팅 서비스",
+      "summaryKo": "statichost.eu는 git 저장소 배포부터 CDN까지 모든 계층이 유럽 인프라와 유럽 기업으로 구성된 정적 사이트 호스팅 서비스이다. AWS나 Cloudflare 같은 미국 클라우드를 전혀 사용하지 않는 것이 특징이며, 자동 SSL 인증서, 커스텀 도메인, 인스턴트 롤백, 웹훅 기반 재빌드 등의 기능을 제공한다. 스웨덴 스톡홀름의 개발자 Eric Selin이 만들었으며, GDPR 준수와 데이터 주권을 중시하는 사용자를 대상으로 한다.",
+      "tags": [
+        "static-site-hosting",
+        "gdpr",
+        "europe"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33250",
+      "title": "NX 비트는 보안만을 위한 것이 아니다",
+      "url": "https://news.hada.io/topic?id=33250",
+      "commentsUrl": "https://news.hada.io/topic?id=33250",
+      "publishedAt": "2026-09-05T15:02:11+09:00",
+      "snippet": "ARM64 베어메탈 하이퍼바이저에서 CTR_EL0 인터셉트를 켤 때 기기가 멈춘 원인은 분기 예측에 따른 추측적 명령어 인출 이 실행 가능하게 매핑된 MMIO 영역에 접근했기 때문이었음 직접 호출인 bl 은 작동하고 간접 호출인 blr 은 실패했으며, ...",
+      "oneLineKo": "ARM64 하이퍼바이저, 추측적 실행이 MMIO 접근 유발해 멈춤",
+      "summaryKo": "ARM64 베어메탈 하이퍼바이저에서 CTR_EL0 인터셉트 활성화 시 기기가 멈추는 문제를 분석한 글입니다. 원인은 분기 예측에 의한 추측적 명령어 인출이 실행 가능하게 매핑된 MMIO 영역에 접근했기 때문으로 밝혀졌습니다. 직접 호출(bl)은 정상 작동했지만 간접 호출(blr)은 실패했으며, 이는 NX 비트가 단순 보안 목적을 넘어 추측적 실행으로부터 하드웨어를 보호하는 역할도 한다는 점을 보여줍니다.",
+      "tags": [
+        "arm64",
+        "hypervisor",
+        "speculative-execution"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49576386",
+      "title": "The \"$60 Gaming PC\" – AMD BC-250 (2025)",
+      "url": "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49576386",
+      "publishedAt": "2026-09-05T13:36:38Z",
+      "score": 252,
+      "comments": 76,
+      "snippet": "The “$60 Gaming PC” – AMD BC-250 – DevQuasar Skip to content No results MCP Clipboard MCP server Claude Code token saver – MCP server Models dq-gpt2-instruct-exp1 Analytical Reasoning Llama HermesNova Brainstorm 3.1 Brainstorm (Llama3) Brainstorm Plus (Llama3) Brainstorm-v2.1 (Llama3) Brainstorm (Falcon2) Software DGX Spark monitor quasar-deck Deep-TOON LLmaaS LLMForwarder LLM Predictive Router No More Typo aiHub Mobile iOS app aiHub Misc GPU GGUF inference comparison Blog Contact MCP Clipboard MCP server Claude Code token saver – MCP server Models dq-gpt2-instruct-exp1 Analytical Reasoning Llama HermesNova Brainstorm 3.1 Brainstorm (Llama3) Brainstorm Plus (Llama3) Brainstorm-v2.1 (Llama3) Brainstorm (Falcon2) Software DGX Spark monitor quasar-deck Deep-TOON LLmaaS LLMForwarder LLM Predictive Router No More Typo aiHub Mobile iOS app aiHub Misc GPU GGUF inference comparison Blog Contact Search Menu The “$60 Gaming PC” – AMD BC-250 Csaba Kecskemeti November 27, 2025 Gaming , Hardware Ok it’s not exactly $60 but you can get the board itself for that amount of money on eBay if you’re lucky, but on average the price is around $70-$100 (as of November 2025) which is still very cheap considering you can play Cyberpunk 2077 on this. What is this? The BC-250 began life not as a gaming board, but as part of a crypto-mining rig. The “trick” behind it: the BC-250 uses a cut-down version of the APU from a PlayStation 5 (PS5) — a repurposed SoC (system-on-chip). Specifically: many PS5 APUs that didn’t meet console spec (“binned” or “defective” for console use) got repurposed. Instead of being discarded, these chips were re-used for mining/higher-density hardware. The original deployment: there was a rack-mount mining “server” build from ASRock that used 12 BC-250 cards , targeted at miners — sold as a “barebone” 4U server chassis. As mainstream GPU mining lost favor, many BC-250 units started circulating second-hand — offering hardware enthusiasts an opportunity to experiment. “BC-250 is basically a Playstation 5 chip that didn’t make the cut, and was released as a crypto-mining board.” Key Specs & Hardware Details From public teardowns, benchmarks, and community experiments, BC-250 hardware specs are roughly: CPU: 6 × Zen 2 cores (12 threads) — a cut-down PS5 APU. GPU / iGPU: RDNA 2 architecture, 24 Compute Units (CUs) — reduced from the 36 CUs of a full PS5 APU. Memory: 16 GB GDDR6 memory shared between CPU and GPU — there are no DDR4/DDR5 slots in a typical BC-250 board. I/O & connectivity: Even though it looks like a “GPU card,” it works as a single-board PC — includes DisplayPort, USB (2.0/3.0), Ethernet, M.2 NVMe slot (for storage), power header (8-pin PCIe), CMOS battery, and backplate I/O shield. Performance benchmarks & real-world behavior Earlier reports suggested some instability with drivers, but recent community patches and updated drivers have improved support. Community tests showed surprising results: e.g. one test rig running BC-250 reportedl",
+      "oneLineKo": "PS5 폐기 칩 재활용한 AMD BC-250, 초저가 게이밍 PC로 화제",
+      "summaryKo": "AMD BC-250은 콘솔 규격에 미달해 폐기 예정이던 PS5 APU를 재활용해 만든 크립토 마이닝용 보드로, 현재 이베이에서 70~100달러 수준에 거래되고 있다. 6코어 Zen2 CPU와 RDNA2 기반 24CU GPU, 16GB GDDR6 통합 메모리를 갖춘 단일 보드 PC 형태로, DisplayPort·USB·이더넷·M.2 NVMe 슬롯 등을 지원한다. 마이닝 붐이 끝나면서 중고 시장에 대량 유통되었고, 최근 커뮤니티 드라이버 개선으로 Cyberpunk 2077 같은 게임도 구동 가능한 수준의 성능을 보여준다.",
+      "tags": [
+        "hardware",
+        "gpu",
+        "retro-computing"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33248",
+      "title": "AI가 내 두뇌를 망치고 있을까?",
+      "url": "https://news.hada.io/topic?id=33248",
+      "commentsUrl": "https://news.hada.io/topic?id=33248",
+      "publishedAt": "2026-09-05T12:01:26+09:00",
+      "snippet": "AI의 윤리·환경 문제와 직접 코딩하는 즐거움 때문에 사용을 꺼렸지만, 복잡한 프로젝트에서 Cursor에 의존 하면서 문제 해결 습관이 달라지기 시작함 Cursor의 답을 기다리며 뜨개질하다 잘못된 무늬를 발견했을 때, 자신도 모르게 AI부터 찾으려 했다는 사실 에 충...",
+      "oneLineKo": "AI 코딩 도구 의존이 사고 습관에 미치는 영향 고찰",
+      "summaryKo": "저자는 윤리·환경 문제와 직접 코딩의 즐거움 때문에 AI 사용을 꺼렸으나, 복잡한 프로젝트에서 Cursor에 의존하게 되면서 문제 해결 습관이 달라졌다고 말한다. 뜨개질 중 잘못된 무늬를 발견했을 때도 무의식적으로 AI에게 답을 구하려 했던 경험을 통해 AI 의존이 사고 과정 전반에 영향을 미치고 있음을 깨닫는다. 이는 AI 도구가 단순 코딩 보조를 넘어 일상적 문제 해결 방식까지 변화시킬 수 있다는 우려를 제기한다.",
+      "tags": [
+        "ai",
+        "cursor",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49580369",
+      "title": "Private German rocket makes history, reaches orbit from European soil",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49580369",
+      "publishedAt": "2026-09-05T20:31:38Z",
+      "score": 250,
+      "comments": 116,
+      "snippet": "Private German rocket makes history, reaches orbit from European soil | Space Skip to main content Join - Join our community JOIN NOW 5 Premium benefits 24/7 Access available 23K+ Active Members Expert insights In-depth guides and features Curated newsletters Handpicked inspiration Early Access Preview new releases first Achievements Earn badges as you explore Join the conversation Comment and connect Tailored for you Personalised recommendations Get Space+ Access Quick For the quickest way to join, enter your email below. We&rsquo;ll send a confirmation email and sign you up to Space.com newsletters with the latest inspiration, expert advice and exclusive offers. Contact me with news and offers from other Future brands By submitting your information you agree to the Terms & Conditions and Privacy Policy and are aged 16 or over. FIND OUT ABOUT OUR MAGAZINE Want to subscribe to the magazine? Click the button below to find out more information. Find out more Get Space+ Access Quick Join The Club for quick access. Enter your email below and we'll send confirmation, and sign you up to our newsletter. Contact me with news and offers from other Future brands Sign Up By submitting your information, you confirm you are aged 16 or over, have read our Privacy Policy and agree to the Terms & Conditions . Geographical rules apply. Welcome to Space+ ! Hi , Your membership journey starts here. Keep exploring and earning more as a member. MY ACCOUNT Earn your first badge Start reading to unlock your first badge Keep earning badges Explore ways to get more involved as a member. Space Exploration Latest space missions, discoveries and exploration updates. Explore Astronomy Stargazing tips, cosmic events and expert insights on the universe Explore Your membership perks Start exploring exclusive deals, expert advice and more Explore now Never Miss a Discovery Space news, cosmic updates and expert insights straight to your inbox. Choose your newsletters Sign Out Open menu Space Sign in View Profile Sign out Feed Search Search Space Space Exploration Launches & Spacecraft Private spaceflight Human spaceflight SpaceX Blue Origin Virgin Galactic United Launch Alliance Search for Life Exoplanets SETI Aliens Missions International Space Station Space Shuttle Apollo Artemis Voyager Asteroid & Comet Missions Mars rovers New Horizons Parker Solar Probe Satellites Astronomy Solar System The Sun Asteroids Mars Comets Mercury Jupiter Saturn Pluto Venus Dwarf Planets Neptune Uranus The Moon Moon Phases The Earth Live 4K video from space Climate Change Weather The Universe Stars Black Holes Dark Universe Galaxies Deep Space James Webb Space Telescope Hubble Space Telescope Stargazing Skywatching Kit Telescopes Cameras Astrophotography Eclipses Lunar Eclipses Solar Eclipses Entertainment Space Movies & Shows Star Trek Star Wars Space Games Space Toys & Lego Space Books Tech & Science Technology Drones Aerospace Science Particle Physics Astrophysics Videos More Subscribe to our Ne",
+      "oneLineKo": "독일 민간 로켓, 유럽 본토에서 최초로 궤도 도달",
+      "summaryKo": "독일 민간 우주기업 Isar Aerospace의 Spectrum 로켓이 노르웨이 안도야 우주센터에서 두 번째 발사를 시도해 궤도에 도달했다. 이는 유럽 본토에서 발사된 민간 로켓이 궤도에 진입한 최초의 사례로 평가된다. 유럽의 독자적인 민간 우주발사 역량 확보 측면에서 상징적인 성과로 주목받고 있다.",
+      "tags": [
+        "aerospace",
+        "rocket",
+        "europe"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33247",
+      "title": "Claude Code,Codex,Cursor는 어떤 도구를 선택할까? 1만7천 회 실행 분석",
+      "url": "https://news.hada.io/topic?id=33247",
+      "commentsUrl": "https://news.hada.io/topic?id=33247",
+      "publishedAt": "2026-09-05T11:32:48+09:00",
+      "snippet": "75개 저장소와 1,163개 프롬프트 변형으로 진행한 16,893회 실험 가운데, 51개 코드베이스·18개 분야의 유효 세션 5,292개를 1차 분석함 정보 탐색 방식이 달라 세 에이전트가 같은 제품을 선택한 비율은 42% 에 그쳤으며, Claude Code의 자체 구현 비율은 19%로 C...",
+      "oneLineKo": "AI 코딩 에이전트 3종 1.7만회 실행 비교 분석",
+      "summaryKo": "Claude Code, Codex, Cursor 세 AI 코딩 에이전트를 75개 저장소, 1,163개 프롬프트 변형으로 총 16,893회 실행해 비교한 실험 결과다. 51개 코드베이스와 18개 분야에서 유효한 5,292개 세션을 1차 분석한 결과, 세 에이전트가 동일한 라이브러리나 도구를 선택한 비율은 42%에 불과했다. 각 에이전트의 정보 탐색 방식이 서로 달랐으며, Claude Code는 자체 구현을 선택하는 비율이 19%로 나타났다.",
+      "tags": [
+        "llm",
+        "ai-agent",
+        "coding-tools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49576258",
+      "title": ".gitignore Everything by Default",
+      "url": "https://packagemain.tech/p/gitignore-everything-by-default",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49576258",
+      "publishedAt": "2026-09-05T13:19:42Z",
+      "score": 142,
+      "comments": 146,
+      "snippet": ".gitignore everything by default - by Alex Pliutau Subscribe Sign in .gitignore everything by default An opposite view on .gitignore files. Alex Pliutau Sep 05, 2026 5 2 Share I think we’ve all been there. You’re working on a project, making commits, and then suddenly realize you’ve been committing .DS_Store files, node_modules, IDE configuration files, or other junk (CLAUDE.md for example) that shouldn’t be in your repository. Or even worse - environment variables. Then comes the embarrassing cleanup: adding these files to .gitignore, removing them from the repository history, and hoping that no one has noticed. What if we flipped this approach entirely? Instead of allowing everything by default and selectively ignoring files, what if we ignored everything by default and only allowed specific files? Here’s what this could look like in practice for a simple Go project: * !.gitignore !*.go !README.md !go.mod !go.sum This .gitignore file does exactly that: * - Ignore everything But not these files... !.gitignore - the gitignore file itself !*.go - Go source files !go.mod - Go module file !go.sum - Go dependencies file anything else you wish to include With this setup, only the files you explicitly allow will be tracked by Git. No more accidental commits of unintended local files. The technique isn’t necessarily the right choice for every repository or developer, but is an alternative to explore. Nowadays, I see that projects have so much crap locally, like various agentic docs or subfolders, so it may seem easier to just ignore everything at first. Just look at this 207-lines .gitignore from typescript-go. p.s. if you want to check if the path is ignored by git, you can run this command: git check-ignore -v internal/server/server.go This can save a lot of head-scratching when a file you expected to track doesn’t appear in Git. p.s. have you heard of lazygit ? The best Git TUI out there, check it out. Discuss this post on Hacker News. 5 2 Share Previous Discussion about this post Comments Restacks Top Latest Discussions No posts Ready for more? Subscribe © 2026 Aliaksandr Pliutau · Privacy ∙ Terms ∙ Collection notice Start your Substack Get the app Substack is the home for great culture This site requires JavaScript to run correctly. Please turn on JavaScript or unblock scripts",
+      "oneLineKo": ".gitignore를 전체 차단 후 화이트리스트 방식으로 뒤집는 제안",
+      "summaryKo": "기존의 .gitignore 방식은 기본적으로 모든 파일을 추적하고 불필요한 파일을 개별적으로 제외하는데, 이로 인해 node_modules나 환경변수 파일이 실수로 커밋되는 문제가 발생한다. 이 글은 반대로 '*'로 모든 파일을 무시한 뒤 '!' 문법으로 필요한 파일만 명시적으로 허용하는 방식을 제안한다. 이 방법은 실수로 불필요한 파일이 커밋되는 것을 방지할 수 있으며, git check-ignore 명령어로 특정 파일이 무시되는지 확인할 수 있다는 팁도 소개한다.",
+      "tags": [
+        "git",
+        "gitignore",
+        "devtools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49578280",
+      "title": "Learn Programming with OCaml",
+      "url": "https://usr.lmf.cnrs.fr/lpo/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49578280",
+      "publishedAt": "2026-09-05T16:45:02Z",
+      "score": 142,
+      "comments": 65,
+      "snippet": "Learn Programming with OCaml Learn Programming with OCaml by Sylvain Conchon and Jean-Christophe Filliâtre This book on OCaml is an English translation (by Urmila Nair ) of this book in French . The translation was funded by The OCaml Software Foundation . The book is openly licensed via CC BY SA 4.0 . Get the book (1.9Mb PDF file) Get the book (2.3Mb EPUB file) Get the code Typos and errors can be reported here . Legal Notice",
+      "oneLineKo": "OCaml로 배우는 프로그래밍, 무료 영문 번역서 공개",
+      "summaryKo": "Sylvain Conchon과 Jean-Christophe Filliâtre가 쓴 OCaml 프로그래밍 학습서가 Urmila Nair에 의해 영어로 번역되어 공개되었습니다. 이 번역은 OCaml Software Foundation의 지원을 받았으며, CC BY SA 4.0 라이선스로 개방되어 있습니다. PDF와 EPUB 형식의 책과 예제 코드를 무료로 내려받을 수 있습니다.",
+      "tags": [
+        "ocaml",
+        "programming-book",
+        "functional-programming"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49580164",
+      "title": "LLMs as a Cognitive Virus",
+      "url": "https://arxiv.org/abs/2609.03344",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49580164",
+      "publishedAt": "2026-09-05T20:02:35Z",
+      "score": 135,
+      "comments": 107,
+      "snippet": "[2609.03344] Large-Language Models as a Cognitive Virus Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search &middot; Advanced search --> Physics > Physics and Society arXiv:2609.03344 (physics) [Submitted on 3 Sep 2026] Title: Large-Language Models as a Cognitive Virus Authors: Ricard Solé , Giulio Ruffini , Francesca Castaldo , Marco Tuccio , Luis F. Seoane , Manlio de Domenico , Santiago F. Elena , David C. Krakauer , Michael Levin View a PDF of the paper titled Large-Language Models as a Cognitive Virus, by Ricard Sol\\'e and 8 other authors View PDF HTML (experimental) Abstract: Large-language models (LLMs) are rapidly becoming part of human culture, reshaping how information is produced, transmitted, and used. Here we propose that their diffusion can be understood through a viral analogy, with LLM use spreading through populations, becoming embedded in cognitive and cultural practices. We model transitions among uncoupled, coupled, and persistently dependent users, and show that the interplay between social transmission, recovery, and collective reinforcement can generate tipping points and technological lock-in. A central consequence is the possibility of runaway dynamics: once a critical threshold is crossed, small increases in adoption can trigger rapid population-level shifts toward persistent dependence, with abrupt losses in cognitive competence. The same framework, however, identifies conditions for cognitive immunization, based on reducing transmission and facilitating reversibility. Our results highlight how LLM adoption may involve nonlinear collective transitions with important consequences for cognitive autonomy. Comments: 12 pages, 3 figures Subjects: Physics and Society (physics.soc-ph) ; Computers and Society (cs.CY); Adaptation and Self-Organizing Systems (nlin.AO); Populations and Evolution (q-bio.PE) Cite as: arXiv:2609.03344 [physics.soc-ph] (or arXiv:2609.03344v1 [physics.soc-ph] for this version) https://doi.org/10.48550/arXiv.2609.03344 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Luis F Seoane PhD [ view email ] [v1] Thu, 3 Sep 2026 04:03:49 UTC (2,776 KB) Full-text links: Access Paper: View a PDF of the paper titled Large-Language Models as a Cognitive Virus, by Ricard Sol\\'e and 8 other authors View PDF HTML (experimental) TeX Source view license Current browse context: physics.soc-ph < prev | next > new | recent | 2026-09 Change to browse by: cs cs.CY nlin nlin.AO physics q-bio q-bio.PE References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ",
+      "oneLineKo": "LLM 확산을 전염병 모델로 해석한 연구",
+      "summaryKo": "이 논문은 LLM의 사회적 확산을 바이러스 전파 모델로 분석하여, 사용자들이 비결합, 결합, 지속적 의존 상태로 전이되는 과정을 설명한다. 사회적 전파, 회복, 집단 강화 요인의 상호작용이 임계점을 넘으면 급격한 기술 고착화(lock-in)와 인지 능력 저하를 초래할 수 있음을 보였다. 동시에 전파를 줄이고 가역성을 높이면 '인지적 면역화'가 가능한 조건도 제시한다. 이는 LLM 채택이 인지적 자율성에 미치는 비선형적 집단 전이 효과를 시사한다.",
+      "tags": [
+        "llm",
+        "cognitive-science",
+        "complex-systems"
+      ]
+    }
+  ]
+}

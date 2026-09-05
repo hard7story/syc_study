@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=32172",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "blog.fogus.me/llm/born-against.html",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49187977",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "t3_1vg555b",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1vg555b/the_rust_programming_language_is_adopting_a_new",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32164",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "arxiv.org/abs/2605.25480",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49187256",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "zed.dev/deltadb",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "t3_1vg8iyl",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1vg8iyl/how_fuzzy_search_works_in_a_search_engine",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32159",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "youtube.com/watch?v=t0GiTyz4syY",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49186762",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32186",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "discoveryloop.com",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49183115",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "campion.edu.au/blog/top-25-aristotle-quotes-on-virtue-knowledge-and-happiness",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32176",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49184216",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "weli.dev/blog/the-valley-of-webhooks",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32175",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "queue.acm.org/detail.cfm?id=3807963",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49185983",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "promptarmor.com/resources/atlassian-rovo-exfiltrates-data",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49188022",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "runarcn.no/android-to-linux",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49187575",
-    "date": "2026-08-06"
-  },
-  {
-    "id": "research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
-    "date": "2026-08-06"
-  },
-  {
     "id": "https://news.hada.io/topic?id=32218",
     "date": "2026-08-07"
   },
@@ -3614,5 +3486,133 @@
   {
     "id": "mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead",
     "date": "2026-09-05"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33263",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "news.hada.io/topic?id=33263",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49570669",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "nvd.nist.gov/vuln/detail/cve-2026-85046",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "t3_1w7rkbm",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1w7rkbm/principles_of_memory_management_in_java",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33261",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "news.hada.io/topic?id=33261",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49571634",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "codeberg.org/mv12star/shitter/wiki/Instances",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "t3_1w7vcf3",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1w7vcf3/the_nx_bit_is_not_just_about_security",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33260",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "news.hada.io/topic?id=33260",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49569896",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "statichost.eu",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33250",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "news.hada.io/topic?id=33250",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49576386",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "devquasar.com/hardware/the-60-gaming-pc-amd-bc-250",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33248",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "news.hada.io/topic?id=33248",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49580369",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33247",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "news.hada.io/topic?id=33247",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49576258",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "packagemain.tech/p/gitignore-everything-by-default",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49578280",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "usr.lmf.cnrs.fr/lpo",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49580164",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "arxiv.org/abs/2609.03344",
+    "date": "2026-09-06"
   }
 ]
