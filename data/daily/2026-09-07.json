@@ -1,0 +1,276 @@
+{
+  "date": "2026-09-07",
+  "generatedAt": "2026-09-06T23:41:02.438Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33286",
+      "title": "인지 바이러스로서의 LLM",
+      "url": "https://news.hada.io/topic?id=33286",
+      "commentsUrl": "https://news.hada.io/topic?id=33286",
+      "publishedAt": "2026-09-07T03:37:06+09:00",
+      "snippet": "LLM 확산을 전염병 동역학과 문화적 전파 로 모델링한 이론 연구로, 개인의 점진적 도입도 사회적 강화와 결합하면 집단 수준의 지속적 의존으로 급격히 전환될 수 있음을 보임 사용자를 비결합·자율성을 유지하는 결합·지속적 의존의 세 상태로 나누며, 도입 압력과 독립적 ...",
+      "oneLineKo": "LLM 확산을 전염병 모델로 분석, 집단 의존 전환 위험 제시",
+      "summaryKo": "이 연구는 LLM의 확산 과정을 전염병 동역학과 문화적 전파 이론으로 모델링했다. 개인의 점진적인 LLM 도입이 사회적 강화와 맞물릴 경우 집단 수준의 지속적 의존 상태로 급격히 전환될 수 있음을 보였다. 사용자를 비결합, 자율성을 유지하는 결합, 지속적 의존의 세 단계로 구분하고 도입 압력 등의 요인을 분석한다.",
+      "tags": [
+        "llm",
+        "cognitive-science",
+        "diffusion-model"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49584083",
+      "title": "Isar Aerospace reaches orbit and deploys payloads on second flight",
+      "url": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49584083",
+      "publishedAt": "2026-09-06T07:21:06Z",
+      "score": 540,
+      "comments": 176,
+      "snippet": "History for European spaceflight: Isar Aerospace reaches orbit and deploys payloads on second flight - Isar Aerospace Isar Aerospace Open menu Our Vision Spectrum Technology Missions About Us Career Shop Investor Relations Launch Isar Aerospace Close menu Our Vision Spectrum Technology Missions About Us Career Shop Investor Relations Launch 05 Sep, 2026 History for European spaceflight: Isar Aerospace reaches orbit and deploys payloads on second flight And&oslash;ya, 5 September 2026 &ndash; Today, Isar Aerospace became the first commercial space company from Europe to successfully deliver satellites into orbit, on what was only its second flight. Mission &lsquo;Onward and Upward&rsquo; lifted off from Isar Aerospace&rsquo;s dedicated launch complex at And&oslash;ya Space in Norway at 10:12 pm CEST, deploying payloads in orbit. &ldquo;Today, Isar Aerospace opened space from Continental Europe. Launch continues to be the largest bottleneck for the global space industry and from today on, there is a true alternative for commercial and institutional customers&rdquo;, said Daniel Metzler, CEO and Co-Founder of Isar Aerospace. Isar Aerospace is working with the customers to confirm the satellite status. Daniel Metzler, CEO and Co-Founder of Isar Aerospace, said: &ldquo;We achieved within a few years what had taken the European space industry decades before. Europe now has sovereign access to space. We have entered into a new chapter for European spaceflight. I am incredibly proud of our team, that has made this success story from Europe possible. We will now focus on rapidly scaling launch vehicle production, deliver on our order pipeline, and meet surging global demand.&rdquo; Isar Aerospace&rsquo;s qualification flight broke several records in European commercial spaceflight: The vehicle successfully transited MaxQ, completed MECO and stage separation, and then ignited second stage as planned. It crossed the K&aacute;rm&aacute;n line at an altitude of 100 kilometers and jettisoned the payload fairing before reaching orbital velocity. After completing circularization burn, spacecraft separation was completed successfully. The mission&rsquo;s payloads were selected through the Microlauncher Competition of the German Space Agency at DLR that provides educational institutions and start-ups with low-cost access to space. The Microlauncher Competition is funded through ESA Boost! Today&rsquo;s mission &lsquo;Onward and Upward&rsquo; proved Isar Aerospace&rsquo;s orbital launch capability. In parallel, the company has advanced its global network of available launch sites and is nearing completion of Europe&rsquo;s largest integrated production facility for launch vehicles. In addition to its current launch site in And&oslash;ya, Norway, Isar Aerospace is constructing a launch complex in Nova Scotia, Canada, covering mid- to high-inclination orbits critical for Earth observation and communications. A historic turning point for Europe Today marks a new era f",
+      "oneLineKo": "Isar Aerospace, 2번째 발사서 유럽 최초 민간 궤도 진입 성공",
+      "summaryKo": "독일 스타트업 Isar Aerospace가 노르웨이 안도야 발사장에서 진행한 두 번째 발사 미션 'Onward and Upward'를 통해 유럽 상업 우주기업 최초로 궤도에 위성 화물을 성공적으로 배치했다. 로켓은 MaxQ, MECO, 단분리, 2단 점화, 카르만 라인 통과, 페어링 분리, 궤도 진입 및 위성 분리까지 모든 비행 단계를 성공적으로 마쳤다. 탑재된 위성은 독일 항공우주센터(DLR) 산하 마이크로런처 경진대회를 통해 선정된 교육기관 및 스타트업의 위성들이었다. 회사는 캐나다 노바스코샤에 추가 발사장을 건설 중이며 발사체 생산 확대에 나설 계획이다.",
+      "tags": [
+        "aerospace",
+        "rocket-launch",
+        "satellite"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1w946n2",
+      "title": "Which programming “best practice” do you think is actually wrong?",
+      "url": "https://www.reddit.com/r/programming/comments/1w946n2/which_programming_best_practice_do_you_think_is/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1w946n2/which_programming_best_practice_do_you_think_is/",
+      "publishedAt": "2026-09-06T18:34:16+00:00",
+      "snippet": "submitted by /u/stagas [link] [comments]",
+      "oneLineKo": "프로그래밍 '모범 사례' 중 틀린 것은 무엇인가 토론",
+      "summaryKo": "레딧 r/programming에 올라온 토론 글로, 흔히 통용되는 프로그래밍 '베스트 프랙티스' 중 실제로는 잘못되었거나 과대평가되었다고 생각하는 것이 무엇인지 커뮤니티에 묻는 내용이다. 본문 내용이 짧아 구체적인 사례나 답변은 제목에서 유추할 수 없다. 개발자들의 경험과 의견을 나누는 오픈 디스커션 형태의 게시물이다.",
+      "tags": [
+        "programming",
+        "best-practices"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33293",
+      "title": "AI로 도구를 만드는 것과 기업을 바꾸는 것은 다른 일이다",
+      "url": "https://news.hada.io/topic?id=33293",
+      "commentsUrl": "https://news.hada.io/topic?id=33293",
+      "publishedAt": "2026-09-07T06:46:00+09:00",
+      "snippet": "AI로 도구를 쉽게 만들거나 업무를 직접 처리할 수 있어도, 어떤 도구가 필요한지 발견하고 조직 전체가 쓰게 만드는 일 은 별개임 기업 소프트웨어는 표준화한 전용 시스템과 Excel·이메일을 활용한 즉흥적 업무 처리 사이를 오가며 발전하고, AI는 이 구도를 없애...",
+      "oneLineKo": "AI 도구 제작과 기업 전체 도입은 별개의 문제",
+      "summaryKo": "AI를 활용하면 도구를 쉽게 만들거나 업무를 직접 처리할 수 있지만, 어떤 도구가 필요한지 발견하고 조직 전체가 이를 실제로 사용하게 만드는 것은 전혀 다른 문제라고 지적한다. 기업 소프트웨어는 표준화된 전용 시스템과 Excel, 이메일 등을 활용한 즉흥적 업무 처리 사이를 오가며 발전해왔으며, AI는 이러한 기존 구도를 바꾸고 있다는 관점을 제시한다. 즉, 기술적 구현 능력만으로는 조직 차원의 실질적 변화를 이끌어내기 어렵다는 점을 강조한다.",
+      "tags": [
+        "ai",
+        "enterprise-software",
+        "organizational-change"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49586898",
+      "title": "A/I shuts down – Stay human",
+      "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49586898",
+      "publishedAt": "2026-09-06T14:34:34Z",
+      "score": 481,
+      "comments": 338,
+      "snippet": "A/I Shuts Down Stay Human · Keep the Internet free Keep the Internet free We are not terrorists. Autistici.org is an infrastructure of dissent Announcements Technical Updates Press coverage Solidarity Events English Italiano A/I shuts down - Stay human Sep 6, 2026 The day we discovered we had been designated a global terrorist organization, we promised that we would try to resist as long as this was possible, that we would not back down as long as we could see options to stand our ground. For years, we have proudly maintained and defended a free, privacy-friendly, autonomous and politically committed infrastructure. &ldquo;Stay human&rdquo; is not an empty phrase to us. It means, above all, that we have a responsibility to protect our users, those who build the human networks we rely, and for the communities who flooded us with messages of support and solidarity. We cannot engage in a fight or expose ourselves to manipulations that threaten the lives of these people and their loved ones, leaving them at the mercy of autocrats, fascists and agencies that take extra-legal courses of action. The possibility that our work may cause legal and financial consequences to those who are close to us - or even only have something to do with us - leaves us no choice. A/I is shutting down. The Autistici/Inventati collective is shutting down and will soon discontinue all of the services we provide. There is no easy way to announce or explain this Every day we stayed online after August 26, 2026, has been a victory, but now we are forced to stop. None of us holds eroic gestures and martyrs in high esteem, therefore we will demand no sacrifices. Not from us, not from anyone else. In this political climate, continuing to offer our services endangers our users and anyone who is part of our communities. In a world where allegations are disconnected from reality, we can only expect repression to be increasingly disproportionate. Under these circumstances, we are no longer able to maintain our original mission - offering secure and non-commercial digital tools. These 25 years have been amazing. It&rsquo;s been an &ldquo;incredible ride&rdquo;. Now turn off your PCs, get out of your homes, struggle, hug each other and keep on smiling. We are stopping, but the Resistance and ideas do not stop. Stay human. We will soon send instructions on how to back up the content of your blogs, mailboxes and websites, along with more technical recommendations. But keep in mind that, just as the autistici.org domain was made unreachable without previous notice, in the next few days we might suffer similar issues that we may not be able to predict. Autistici/Inventati Collective +KAOS — Collettivo Autistici/Inventati https://inventati.org — ai-press@squat.net — RSS",
+      "oneLineKo": "프라이버시 서비스 A/I, 테러조직 지정 압박에 25년만에 폐쇄",
+      "summaryKo": "프라이버시 친화적 비영리 인프라를 운영하던 Autistici/Inventati(A/I) 콜렉티브가 '글로벌 테러조직'으로 지정된 후 25년간의 서비스를 종료한다고 발표했다. 도메인이 사전 통보 없이 차단되는 등 압박이 커지면서, 사용자와 커뮤니티의 법적·신체적 안전을 보호하기 위해 더 이상 서비스를 유지할 수 없다고 밝혔다. 이들은 블로그, 메일박스, 웹사이트 백업 방법을 곧 안내할 예정이며, 도메인 등 서비스가 예고 없이 추가로 차단될 수 있음을 경고했다.",
+      "tags": [
+        "privacy",
+        "internet-freedom",
+        "activism"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1w96yd1",
+      "title": "From a Chocolate Wrapper to Concurrent InnoDB Page Splits",
+      "url": "https://www.reddit.com/r/programming/comments/1w96yd1/from_a_chocolate_wrapper_to_concurrent_innodb/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1w96yd1/from_a_chocolate_wrapper_to_concurrent_innodb/",
+      "publishedAt": "2026-09-06T20:16:19+00:00",
+      "snippet": "Here is a story [1] about the first version of B-link optimization for Innodb that is the most used B-tree engine in MariaDB. It started from a sketch on a chocolate wrapper and after some attempts ended up with significant p95 improvement for certain B-tree operations. Thx Zhao Song for his work in this area for MySQL. 1. https://mariadb.org/from-a-chocolate-wrapper-to-concurrent-innodb-page-splits/ submitted by /u/drrtuy-b [link] [comments]",
+      "oneLineKo": "초콜릿 포장지 스케치가 InnoDB B-tree 동시성 개선으로",
+      "summaryKo": "MariaDB의 InnoDB B-tree 엔진에 B-link 최적화를 적용한 과정을 소개하는 글이다. 초콜릿 포장지에 그린 스케치에서 시작된 아이디어가 여러 시도를 거쳐 InnoDB의 페이지 분할(page split) 동시성을 개선하는 결과로 발전했다. 이 작업으로 특정 B-tree 연산의 p95 지연 시간이 크게 개선되었으며, MySQL에서 관련 작업을 진행한 Zhao Song에게 감사를 전하는 내용이다.",
+      "tags": [
+        "mariadb",
+        "innodb",
+        "b-tree"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33289",
+      "title": "당신의 지적 바지 지퍼가 열려 있습니다 (2025)",
+      "url": "https://news.hada.io/topic?id=33289",
+      "commentsUrl": "https://news.hada.io/topic?id=33289",
+      "publishedAt": "2026-09-07T05:33:14+09:00",
+      "snippet": "LinkedIn에서 LLM에 게시물 작성을 맡기면 글쓴이 고유의 목소리가 사라지고, 독자가 내용의 진정성까지 의심하게 될 수 있음 이모지, 한 문장짜리 문단, 반복적인 대조 구문, 긴 대시 는 LLM 생성 글에 익숙한 독자에게 쉽게 눈에 띄어, 그럴듯한 글을 기대한 것과...",
+      "oneLineKo": "LLM으로 쓴 글, 티가 나서 신뢰도 떨어진다",
+      "summaryKo": "LinkedIn 등에서 LLM에 게시물 작성을 맡기면 글쓴이만의 목소리가 사라지고 독자가 내용의 진정성마저 의심하게 될 수 있다는 주장이다. 이모지, 한 문장짜리 문단, 반복적인 대조 구문, 긴 대시 등은 LLM 생성 글의 전형적 특징으로 독자에게 쉽게 눈에 띈다. 이런 패턴은 마치 지퍼가 열린 것처럼 티가 나며, 글에 대한 신뢰와 몰입을 방해한다는 것이 글의 핵심 논지다.",
+      "tags": [
+        "llm",
+        "writing",
+        "ai-generated-content"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49585644",
+      "title": "Your intellectual fly is open (2025)",
+      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49585644",
+      "publishedAt": "2026-09-06T11:56:43Z",
+      "score": 468,
+      "comments": 300,
+      "snippet": "Your intellectual fly is open | The Observation Deck Home Menu About | LIGHT DARK Your intellectual fly is open Dec 5, 2025 Note: This was originally published as a LinkedIn post on November 11, 2025. I need to make a painful confession: somehow, LinkedIn has become an important social network to me. This isn’t necessarily due to LinkedIn’s sparkling competence, of course. To the contrary, LinkedIn is the Gerald Ford of social networks: the normal one that was left standing as the Richard Nixons and the Spiro Agnews of social media imploded around them. As with Gerald Ford, with LinkedIn we know that we’re getting something a bit clumsy and boring, but (as with post-Watergate America!), we’re also getting something that isn’t totally crooked — and that’s actually a bit of a relief. But because I am finding I am spending more time here, we need to have some real talk: too many of you are using LLMs to generate content. Now, this isn’t entirely your fault: as if LLMs weren’t tempting enough, LinkedIn itself is cheerfully (insistently!) offering to help you \"rewrite it with AI.\" It seems so excited to help you out, why not let it chip in and ease your own burden? Because holy hell, the writing sucks. It’s not that it’s mediocre (though certainly that!), it’s that it is so stylistically grating, riddled with emojis and single-sentence paragraphs and \"it’s not just…​ but also\" constructions and (yes!) em-dashes that some of us use naturally — but most don’t (or shouldn’t). When you use an LLM to author a post, you may think you are generating plausible writing, but you aren’t: to anyone who has seen even a modicum of LLM-generated content (a rapidly expanding demographic!), the LLM tells are impossible to ignore. Bluntly, your intellectual fly is open: lots of people notice — but no one is pointing it out. And the problem isn’t merely embarrassment: when you — person whose perspective I want to hear! — are obviously using an LLM to write posts for you, I don’t know what’s real and what is in fact generated fanfic. You definitely don’t sound like you, so…​ is the actual content real? I mean, maybe? But also maybe not. Regardless, I stop reading — and so do lots of others. To be clear, I think LLMs are incredibly useful: they are helpful for brainstorming, invaluable for comprehending text, and they make for astonishingly good editors. (And, unlike most good editors, you can freely ignore their well-meaning suggestions without fear of igniting a civil war over the Oxford comma or whatever.) But LLMs are also lousy writers and (most importantly!) they are not you. At best, they will wrap your otherwise real content in constructs that cause people to skim or otherwise stop reading; at worst, they will cause people who see it for what it is to question your authenticity entirely. So please, if not for the sanity of all of us than just to give your own message the credit it deserves: have some confidence in your own voice — and write your own content.",
+      "oneLineKo": "LinkedIn 글쓰기에 LLM 남용 경고, 자기 목소리로 써야",
+      "summaryKo": "저자는 LinkedIn에서 LLM으로 작성된 글이 급증하고 있으며, 이런 글은 이모지와 반복적인 문장 구조 등 특유의 'LLM 흔적'이 눈에 띄게 드러난다고 지적한다. 이런 글을 읽으면 내용의 진위를 의심하게 되어 신뢰도가 떨어지고 결국 독자들이 글을 읽지 않게 된다고 비판한다. LLM은 브레인스토밍이나 편집 도구로는 유용하지만 글쓰기 자체를 대체해서는 안 되며, 자신만의 목소리로 콘텐츠를 작성해야 한다고 조언한다.",
+      "tags": [
+        "llm",
+        "writing",
+        "linkedin"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33279",
+      "title": "독자의 반란",
+      "url": "https://news.hada.io/topic?id=33279",
+      "commentsUrl": "https://news.hada.io/topic?id=33279",
+      "publishedAt": "2026-09-06T18:34:59+09:00",
+      "snippet": "LLM이 대신 쓴 공개 글 은 독자가 기대하는 진정성과 신뢰를 훼손해, 글로 독자를 모으려는 목적 자체를 무너뜨릴 수 있음 글쓰기는 생각을 전달하면서 검증하고 정제하는 과정 이며, 글쓴이가 직접 만들지 않은 문장을 독자만 애써 이해해야 한다면 작가와 독자 사이...",
+      "oneLineKo": "LLM 대필 글이 독자 신뢰와 소통을 해친다는 비판",
+      "summaryKo": "LLM이 대신 작성한 공개 글은 독자가 기대하는 진정성과 신뢰를 훼손해 글쓰기의 본래 목적을 무너뜨릴 수 있다는 지적이다. 글쓰기는 생각을 전달하고 검증·정제하는 과정인데, 글쓴이가 직접 만들지 않은 문장을 독자만 애써 이해해야 한다면 작가와 독자 사이의 소통이 단절된다. 이는 독자들의 반발, 즉 'AI 대필 글'에 대한 신뢰 저하로 이어질 수 있다는 문제를 다룬다.",
+      "tags": [
+        "llm",
+        "writing",
+        "trust"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49588988",
+      "title": "Nitter and XCancel resume service after legal advice",
+      "url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49588988",
+      "publishedAt": "2026-09-06T17:49:47Z",
+      "score": 373,
+      "comments": 210,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter</a><p><a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;cdclegal\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;cdclegal</a><p><a href=\"https:&#x2F;&#x2F;nitter.net&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;nitter.net&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;</a>",
+      "oneLineKo": "Nitter·XCancel, 법률 자문 받은 후 서비스 재개",
+      "summaryKo": "트위터(X)의 대체 프론트엔드인 Nitter와 XCancel이 중단되었던 서비스를 법률 자문을 받은 후 재개했다. 관련 GitHub 커밋과 함께 각 서비스의 공지 및 링크가 공유되었다. 구체적인 법적 자문 내용이나 중단 이유에 대한 상세 설명은 본문에 포함되어 있지 않다.",
+      "tags": [
+        "nitter",
+        "twitter",
+        "open-source"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33269",
+      "title": "unbash - Bash 명령의 구조를 실행 없이 분석하는 TypeScript 파서",
+      "url": "https://news.hada.io/topic?id=33269",
+      "commentsUrl": "https://news.hada.io/topic?id=33269",
+      "publishedAt": "2026-09-06T09:30:02+09:00",
+      "snippet": "Bash 명령과 스크립트를 실행하지 않고 분석 해, 명령어와 인자, 조건문, 파이프와 리다이렉트 등의 구조를 추상 구문 트리(AST)로 반환 셸 명령의 실행 권한을 확인 하거나, CI와 패키지 스크립트가 어떤 프로그램과 파일을 사용하는지 조사 하는 도...",
+      "oneLineKo": "Bash 명령 구조를 실행 없이 분석하는 TS 파서",
+      "summaryKo": "unbash는 Bash 명령과 스크립트를 실제로 실행하지 않고 정적으로 분석하여 명령어, 인자, 조건문, 파이프, 리다이렉트 등의 구조를 추상 구문 트리(AST)로 반환하는 TypeScript 파서입니다. 이를 통해 셸 명령의 실행 권한을 사전에 확인하거나 CI 및 패키지 스크립트가 어떤 프로그램과 파일을 사용하는지 안전하게 조사할 수 있습니다. 보안 검증이나 스크립트 정적 분석 도구 개발에 유용하게 활용될 수 있습니다.",
+      "tags": [
+        "typescript",
+        "bash",
+        "ast"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49585627",
+      "title": "Doomscrolling Ourselves to Death",
+      "url": "https://www.edwest.co.uk/p/doomscrolling-ourselves-to-death",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49585627",
+      "publishedAt": "2026-09-06T11:53:40Z",
+      "score": 349,
+      "comments": 242,
+      "snippet": "Doomscrolling ourselves to death - by Ed West Wrong Side of History Subscribe Sign in Doomscrolling ourselves to death James Marriott’s The New Dark Ages Ed West Sep 05, 2026 288 67 54 Share I’m not the only parent who feels increasingly anxious about their children’s media diet. For teenage boys in particular, entertainment often comes in the form of YouTube, which for any adult briefly glancing at the screen seems to feature an array of thumbnailed gawping imbeciles, besides an invitation to watch the latest work of creativity: ‘I took a bath full of Diet Coke and Mentos’ or ‘I cemented a microwave to my head’. In comparison to this, the mindless television I watched in the 1990s seems as narratively complex as Dostoevsky. Most of all, it’s notable that many children aren’t reading anymore, and it ’s steadily become a topic of interest among fellow parents, then worry, and now panic. It’s impossible to ignore the fact that something quite bad is happening. Wrong Side of History is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. Subscribe Every catastrophe needs its Jeremiah, and for this we have Times columnist James Marriott, whose increasing anxiety about the decline of literacy was articulated in a hugely popular substack post last year. Having written extensively about how no one reads books anymore, he decided to turn the subject into a book, The New Dark Ages , published this week. I wouldn’t call the book ‘urgent’ because I usually take that to mean ‘worthy scolding by an ideological ally’; it’s entertaining, informative, often amusing and makes a coherent case in 50,000 or so words, which many of us can still manage. But the implications he lays out are disturbing, and influence everything around us. James and I have become friends over the past couple of years, drawn together by a mutual sense of despair, and he’s probably the only person in journalism even more pessimistic than I am. If you believe the media to be a circle-jerk of people helping their mates (which it is, obviously), bear that in mind, but reading his prose one gets a sense of how likeable as well as articulate he is, even if born in the wrong decade. His upbringing will seem as alien to those raised in the coming years as the world of Boethius would have been to Alfred the Great. ‘Literature was our religion: the way we explained and interpreted our lives. As a child I quickly learned that every possible event — from a major bereavement to a minor playground contretemps — could be cross-referenced against a novel by Thomas Hardy or a poem by Philip Larkin. There was a quote for everything. I was dragged off to Shakespeare plays at what now strikes me as a rather cruelly young age (“if you’re not enjoying it”, I remember my dad telling me, “you can just read your book instead”). We worshipped pretty much all the canonical English poets but in our pantheon of literary saints, Shakespeare was Jesus or",
+      "oneLineKo": "디지털 미디어와 문해력 붕괴를 다룬 신간 서평",
+      "summaryKo": "이 글은 Ed West가 James Marriott의 신간 'The New Dark Ages'를 소개하는 서평이다. 유튜브 등 디지털 미디어 소비로 인해 청소년들의 독서량과 문해력이 급격히 감소하고 있다는 우려를 다룬다. Marriott는 문학이 자신의 성장기에 삶을 해석하는 종교와 같았다고 회고하며, 이러한 문화적 경험이 다음 세대에게는 낯선 것이 될 것이라고 진단한다. 저자는 이를 유쾌하면서도 설득력 있게 서술하지만 그 함의는 우려스럽다고 평한다.",
+      "tags": [
+        "media",
+        "literacy",
+        "culture"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33246",
+      "title": "wigolo - AI 에이전트를 위한 로컬 우선 웹 검색/수집 도구",
+      "url": "https://news.hada.io/topic?id=33246",
+      "commentsUrl": "https://news.hada.io/topic?id=33246",
+      "publishedAt": "2026-09-05T09:30:02+09:00",
+      "snippet": "AI 에이전트에 검색/페이지 읽기/크롤링/데이터 추출/캐시/유사 문서 검색/리서치 기능을 하나의 MCP 인터페이스로 제공함 검색은 18개 엔진 을 함께 조회한 뒤 결과를 합치고 로컬 모델로 재정렬 하며, 각 결과에 원문 발췌와 출처 위치/인용 ID/평...",
+      "oneLineKo": "AI 에이전트용 로컬 우선 웹 검색·수집 MCP 도구 wigolo",
+      "summaryKo": "wigolo는 AI 에이전트를 위해 검색, 페이지 읽기, 크롤링, 데이터 추출, 캐시, 유사 문서 검색, 리서치 기능을 하나의 MCP 인터페이스로 제공하는 도구입니다. 검색 시 18개 검색 엔진을 동시에 조회한 뒤 결과를 합쳐 로컬 모델로 재정렬합니다. 각 검색 결과에는 원문 발췌, 출처 위치, 인용 ID, 평점 등의 메타데이터가 함께 제공됩니다.",
+      "tags": [
+        "mcp",
+        "ai-agent",
+        "web-search"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49586698",
+      "title": "Asahi Linux on M3",
+      "url": "https://asahilinux.org/2026/09/m2-episode-1/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49586698",
+      "publishedAt": "2026-09-06T14:08:59Z",
+      "score": 304,
+      "comments": 175,
+      "snippet": "M2: Episode 1 (or, Asahi Linux on M3) - Asahi Linux About Community Contribute Governance Documentation GitHub Blog Merch Donate / Blog / M2: Episode 1 (or, Asahi Linux on M3) M2: Episode 1 (or, Asahi Linux on M3) Previous It&rsquo;s been a while since we did a blog post outside of the progress reports, and today&rsquo;s as good an occasion for one as any; support for M3 series machines has now been merged into the installer. In other words, Asahi Linux now officially supports Macs with an M3 series SoC! Linux support for M3 series SoCs and the machines powered by them is now in a state where almost everything supported on the M1 and M2 series machines just works. This includes the webcam, internal microphones, USB (up to the hardware limit of USB 3 10 Gb/s), hardware accelerated video decoding including support for AV1 , WiFi, Bluetooth, and much more! The only major exceptions remain full DCP support and the GPU, which we will have more news on in the coming months . Do not expect performant or power-efficient 3D acceleration right now. Given that a lot of this work is fresh, support is gated behind the installer&rsquo;s Expert mode. Users who wish to give Asahi Linux a try on an M3 series machine can do so by running curl -L https://alx.sh/ | EXPERT = 1 sh in a macOS terminal and following the prompts. Please remember to do a system upgrade ( dnf upgrade --refresh ) after you have finished installing. We are aiming to drop the Expert requirement in time for the release of the Fedora Linux 45 beta in a couple of weeks, barring any major regressions or other showstopping issues. There are some known limitations to be aware of, however: Sleep currently does not work due to limitations with the firmware-provided framebuffer. This will be addressed once full DCP support is wired up for M3. Similarly, the lack of DCP support means that the HDMI port on equipped MacBooks is currently disabled. Although MacBooks and iMacs are supported (M3, M3 Pro and M3 Max), the Mac Studio (M3 Ultra) is not yet supported. As always, we would like to thank our generous supporters on both OpenCollective and GitHub Sponsors . Support for M3 is the culmination of years of hard work from multiple people, many of whom have only been able to access M3 hardware because of your support. We are looking forward to hearing all your feedback, and hope you enjoy using Asahi Linux on your M3 devices just as much as we have enjoyed bringing it to you. Stay tuned for more updates and happy computing! James Calligeros · 2026-09-06 Licensed under CC BY-SA 4.0 Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. All other product names, logos, and brands are property of their respective owners. Kawaii Asahi Linux logo by SAWARATSUKI (see link for license). About Code of Conduct Copyright policy",
+      "oneLineKo": "Asahi Linux, Apple M3 시리즈 공식 지원 시작",
+      "summaryKo": "Asahi Linux 설치 프로그램에 M3 시리즈 지원이 병합되어, 웹캠·마이크·USB 3·AV1 하드웨어 가속·WiFi·Bluetooth 등 M1/M2와 유사한 대부분의 기능이 동작합니다. 다만 GPU 3D 가속과 전체 DCP 지원은 아직 미완성이며, 이에 따라 절전 모드와 HDMI 포트도 현재 비활성화되어 있습니다. M3 지원은 아직 설치 프로그램의 Expert 모드에서만 사용 가능하며, Fedora Linux 45 베타 출시 시점에 맞춰 이 제한을 없앨 계획입니다. Mac Studio(M3 Ultra)는 아직 지원되지 않습니다.",
+      "tags": [
+        "asahi-linux",
+        "apple-silicon",
+        "linux"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49588080",
+      "title": "An Alien Mind",
+      "url": "https://openai.com/index/an-alien-mind/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49588080",
+      "publishedAt": "2026-09-06T16:27:05Z",
+      "score": 289,
+      "comments": 239,
+      "oneLineKo": "OpenAI, 'An Alien Mind' 관련 글 게시",
+      "summaryKo": "OpenAI 공식 사이트에 'An Alien Mind'라는 제목의 글이 게시되었습니다. 본문 내용은 제공되지 않아 구체적인 주제는 제목만으로 확인할 수 없습니다. 제목상 AI의 사고방식이나 특성에 관한 논의로 추정됩니다.",
+      "tags": [
+        "openai",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49531619",
+      "title": "M-DISC – DVD/Blu-ray compatible discs that may last up to 1000 years",
+      "url": "https://en.wikipedia.org/wiki/M-DISC",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49531619",
+      "publishedAt": "2026-09-02T04:10:21Z",
+      "score": 177,
+      "comments": 80,
+      "snippet": "M-DISC - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 Overview 2 History 3 Durability claims 4 Durability testing 5 Commercial support 6 Adoption 7 Alternative technologies Toggle Alternative technologies subsection 7.1 Optical 7.2 Magnetic 8 Gallery 9 Notes 10 References 11 External links Toggle the table of contents M-DISC 10 languages Deutsch Español Français Italiano 日本語 한국어 Nederlands Português Русский 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser Print/export Download as PDF Printable version In other projects Wikimedia Commons Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Write-once optical disc technology M-DISC Media type Write-once optical disc Encoding Universal Disk Format (UDF) Standard DVD , Blu-ray , Blu-ray BDXL Developed by Millenniata, Inc. Manufactured by Millenniata, Verbatim, Ritek Dimensions Diameter: 120 mm (4.7 in) Usage Archival storage Extended from DVD+R , BD-R , BD-R DL , BDXL-R TL Released 2009 Optical discs General Optical disc Optical disc drive Optical disc authoring Authoring software Recording technologies Recording modes Packet writing Burst cutting area Optical media types Compact disc ( CD ): CD-DA , CD-ROM , CD-R , CD-RW , 5.1 Music Disc , Super Audio CD ( SACD ), Photo CD , CD Video ( CDV ), Video CD ( VCD ), Super Video CD ( SVCD ), CD+G , CD-Text , CD-ROM XA , CD-i , MIL-CD , Mini CD Digital Versatile Disc ( DVD ): DVD-R , DVD+R , DVD-R DL , DVD+R DL , DVD-R DS , DVD+R DS , DVD-RW , DVD+RW , DVD-RAM , DVD-D , DVD-A , DVD-Video , HVD , Flexplay , EcoDisc , MiniDVD Blu-ray Disc ( BD ): BD-R & BD-RE , Blu-ray 3D , Mini Blu-ray Disc , 4K Blu-ray ( Ultra HD Blu-ray ) M-DISC Universal Media Disc (UMD) Enhanced Versatile Disc (EVD) Forward Versatile Disc (FVD) Holographic Versatile Disc (HVD) China Blue High-definition Disc (CBHD) HD DVD : HD DVD-R , HD DVD-RW , HD DVD-RAM High-Definition Versatile Multilayer Disc (HD VMD) VCDHD GD-ROM Personal Video Disc (PVD) MiniDisc ( MD ): MD Data, MD Data2 Hi-MD LaserDisc ( LD ): LD-ROM , LV-ROM Video Single Disc (VSD) Magneto-optical discs Ultra Density Optical (UDO) 3D optical data storage Stacked Volumetric Optical Disk (SVOD) Fluorescent Multilayer Disc Hyper CD-ROM Nintendo optical disc (NOD) Archival Disc (AD) Professional Disc DataPlay Standards SFF ATAPI / MMC Mount Rainier (packet writing) Mount Fuji (layer jump recording) Rainbow Books File systems ISO 9660 Joliet Romeo Rock Ridge / SUSP",
+      "oneLineKo": "1000년 보존 가능한 광학디스크, M-DISC",
+      "summaryKo": "M-DISC는 Millenniata가 개발한 write-once 광학디스크 기술로, DVD·Blu-ray·BDXL 규격과 호환되면서 최대 1000년까지 데이터를 보존할 수 있다고 주장한다. 2009년 출시되었으며 기존 DVD+R, BD-R 등의 규격을 확장한 형태로 만들어졌다. Verbatim, Ritek 등이 제조에 참여했으며 주로 아카이브 저장 용도로 사용된다.",
+      "tags": [
+        "optical-disc",
+        "data-storage",
+        "archival"
+      ]
+    }
+  ]
+}
