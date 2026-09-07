@@ -1,0 +1,278 @@
+{
+  "date": "2026-09-08",
+  "generatedAt": "2026-09-07T23:53:27.663Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33306",
+      "title": "기존 강자들이 몰려온다: 특화 AI 스타트업은 어디서 이길 수 있을까",
+      "url": "https://news.hada.io/topic?id=33306",
+      "commentsUrl": "https://news.hada.io/topic?id=33306",
+      "publishedAt": "2026-09-07T09:55:02+09:00",
+      "snippet": "Salesforce와 Docusign 같은 기존 소프트웨어 기업이 데이터를 보관하는 데서 업무를 직접 수행하는 AI로 확장 하면서, 일부 업무는 기존 시스템과 범용 에이전트의 결합만으로 충분해질 수 있음 그러나 계약서를 관리하는 것과 법률 사안을 해결하는 것은 다르며, 특화 AI 스타트업에...",
+      "oneLineKo": "특화 AI 스타트업의 생존 전략 분석",
+      "summaryKo": "Salesforce, Docusign 등 기존 소프트웨어 기업들이 데이터 관리를 넘어 업무를 직접 수행하는 AI로 영역을 확장하고 있다. 이에 따라 일부 업무는 기존 시스템과 범용 에이전트의 결합만으로 대체될 수 있는 상황이다. 그러나 계약서 관리와 법률 문제 해결처럼 도메인 전문성이 필요한 영역에서는 특화 AI 스타트업이 차별화된 우위를 가질 수 있다는 점을 짚는다.",
+      "tags": [
+        "ai-agent",
+        "startup",
+        "enterprise-software"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49593563",
+      "title": "Keep Our Servers Running",
+      "url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49593563",
+      "publishedAt": "2026-09-07T03:29:51Z",
+      "score": 936,
+      "comments": 244,
+      "snippet": "Keep Our Servers Running: Your Recurring Donation Goes 3X This September | Internet Archive Blogs Internet Archive Blogs Updates from the Internet Archive Menu Skip to content archive.org Blog Announcements About Events Developers Donate Keep Our Servers Running: Your Recurring Donation Goes 3X This September Posted on September 1, 2026 by Tom Mayer “Universal access to all human knowledge is within our grasp. Our job is to put the best our world has to offer within the reach of our children.” —Brewster Kahle, Internet Archive Digital Librarian Every time you search the Wayback Machine or explore a collection at the Internet Archive, you are accessing a global library built to put knowledge within reach of curious learners around the world. The mission of “Universal Access to All Knowledge” is a commitment that goes beyond book scanners and web crawlers. It requires servers, storage, power, cooling, and the people who build and maintain our systems. Our infrastructure is the backbone of our digital library. The Internet Archive has always been completely free for everyone, everywhere. We don’t charge for access, sell user data, or run ads. Rather than contracting out our core technology to corporations, we build and maintain our own systems. That independence helps us preserve and provide public access to 210 petabytes of knowledge. However, it also means we are responsible for keeping that infrastructure running—and our needs are growing rapidly. This September, you can help us meet that challenge and make your support go three times as far. When you start a recurring donation of $25 or more in September, your initial gift will be matched 2:1. That means your $25 monthly donation unlocks an additional $50 in matching support, resulting in $75 of giving on your behalf. A $50 monthly gift becomes $150. A $100 monthly gift becomes $300. Recurring gifts provide the dependable support we need to keep our infrastructure running year after year. In fact, the Internet Archive is powered by donations averaging about $25. When you join the Monthly Giving Circle, you aren’t simply maintaining servers. You ensure that books are readable and websites are accessible. You are preserving the best we have to offer for generations to come. Join the Internet Archive Monthly Giving Circle this September with a recurring gift of $25 or more, and your initial gift will be tripled through the 2:1 match. Posted in News | Tagged donor , philanthropy | Leave a reply Post navigation &larr; National Summit on Local News Preservation Report Leave a Reply Cancel reply Your email address will not be published. Required fields are marked * Comment * Name * Email * Website Δ Search for: Latest Posts Keep Our Servers Running: Your Recurring Donation Goes 3X This September National Summit on Local News Preservation Report A Computer History Time Capsule Book Scanning Goes Viral…Again Preserving a Creative Legacy: How CARTA is Safeguarding Artists’ Websites Upcoming Events Sep 10 ",
+      "oneLineKo": "인터넷 아카이브, 9월 정기후원 3배 매칭 캠페인",
+      "summaryKo": "인터넷 아카이브가 210페타바이트 규모의 디지털 도서관을 운영하기 위한 서버·저장소 인프라 유지 비용 마련을 위해 9월 정기후원 캠페인을 진행한다. 25달러 이상의 월간 정기후원을 시작하면 초기 후원금이 2:1로 매칭되어 최대 3배의 지원 효과를 얻을 수 있다. 이 단체는 광고나 사용자 데이터 판매 없이 무료로 운영되며, 핵심 기술을 외부 업체에 위탁하지 않고 자체 시스템을 구축·유지하고 있다.",
+      "tags": [
+        "infrastructure",
+        "nonprofit",
+        "digital-preservation"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1w9pelh",
+      "title": "A faster way to convert a timestamp ➜ Hour, Min, Sec",
+      "url": "https://www.reddit.com/r/programming/comments/1w9pelh/a_faster_way_to_convert_a_timestamp_hour_min_sec/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1w9pelh/a_faster_way_to_convert_a_timestamp_hour_min_sec/",
+      "publishedAt": "2026-09-07T11:20:07+00:00",
+      "snippet": "submitted by /u/benjoffe [link] [comments]",
+      "oneLineKo": "타임스탬프를 시·분·초로 변환하는 더 빠른 방법 소개",
+      "summaryKo": "Reddit 프로그래밍 커뮤니티에 타임스탬프를 시, 분, 초 단위로 변환하는 더 빠른 방법을 소개하는 게시글이 올라왔다. 본문 내용은 제목 외에 구체적으로 공개되지 않았다. 성능 최적화 관점에서 시간 변환 로직을 다룬 것으로 보인다.",
+      "tags": [
+        "performance",
+        "algorithm"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33326",
+      "title": "Terence Tao: “AI만으로 수학 문제를 성급하게 푸는 것”의 위험",
+      "url": "https://news.hada.io/topic?id=33326",
+      "commentsUrl": "https://news.hada.io/topic?id=33326",
+      "publishedAt": "2026-09-08T01:02:30+09:00",
+      "snippet": "순수수학의 난제 는 정답뿐 아니라 해결 과정에서 새로운 통찰과 이론을 만드는 데 가치가 있으며, 과정을 공개하지 않는 AI 단독 해결은 이 역할을 훼손할 수 있음 Navier-Stokes 전역 정칙성 문제 를 인간 수학자가 AI와 함께 시행착오를 분석하며 풀면 유체역학을...",
+      "oneLineKo": "테렌스 타오, AI 단독 수학 난제 풀이의 위험성 경고",
+      "summaryKo": "필즈상 수상자 테렌스 타오는 순수수학의 난제 해결에서 정답 자체보다 해결 과정에서 얻는 통찰과 이론이 중요하다고 지적한다. AI가 과정을 공개하지 않고 단독으로 문제를 풀 경우 이러한 학문적 가치가 훼손될 수 있다고 우려한다. 예로 Navier-Stokes 전역 정칙성 문제는 인간 수학자가 AI와 협업하며 시행착오를 분석하는 방식이 유체역학 발전에 더 기여할 수 있다고 설명한다.",
+      "tags": [
+        "ai",
+        "mathematics",
+        "research"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49592375",
+      "title": "216M Spy TVs – The LG Smart TV Problem [video]",
+      "url": "https://www.youtube.com/watch?v=6IFVTcM28KA",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49592375",
+      "publishedAt": "2026-09-07T00:22:04Z",
+      "score": 440,
+      "comments": 697,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.notebookcheck.net&#x2F;LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.notebookcheck.net&#x2F;LG-smart-TVs-caught-logging-au...</a>",
+      "oneLineKo": "LG 스마트TV, 2억1600만대 사생활 감시 논란",
+      "summaryKo": "LG 스마트TV가 화면이 꺼진 상태에서도 오디오를 기록하고 로컬 네트워크 장치를 스누핑한 것으로 드러나 논란이 되고 있다. 전 세계 약 2억1600만대에 달하는 LG 스마트TV가 이러한 감시 행위에 연관된 것으로 지적된다. 관련 영상은 이 문제를 다룬 뉴스 기사를 인용하며 스마트TV의 사생활 침해 위험성을 경고한다.",
+      "tags": [
+        "smart-tv",
+        "privacy",
+        "iot"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wa0ja2",
+      "title": "Implementing the Karatsuba multiplication algorithm on an 8-bit computer",
+      "url": "https://www.reddit.com/r/programming/comments/1wa0ja2/implementing_the_karatsuba_multiplication/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wa0ja2/implementing_the_karatsuba_multiplication/",
+      "publishedAt": "2026-09-07T18:40:16+00:00",
+      "snippet": "I recently implemented the Karatsuba multiplication algorithm on a 8-bit TTL computer I hack on. In this video I explain the algorithm, and explore the speed benefits of using it. submitted by /u/MichaelKamprath [link] [comments]",
+      "oneLineKo": "8비트 컴퓨터에 카라추바 곱셈 알고리즘 구현",
+      "summaryKo": "작성자가 직접 만든 8비트 TTL 컴퓨터에 카라추바 곱셈 알고리즘을 구현한 내용을 다룬다. 영상에서는 알고리즘의 동작 원리를 설명하고, 이를 적용했을 때 얻는 속도상의 이점을 분석한다. 저수준 하드웨어에서 고전적인 분할정복 곱셈 알고리즘을 실제로 구현해본 사례를 소개한다.",
+      "tags": [
+        "algorithm",
+        "8-bit",
+        "hardware"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33325",
+      "title": "GrapheneOS, 기본 앱과 보안 클립보드 전면 개편",
+      "url": "https://news.hada.io/topic?id=33325",
+      "commentsUrl": "https://news.hada.io/topic?id=33325",
+      "publishedAt": "2026-09-07T22:32:28+09:00",
+      "snippet": "기본 Messaging 앱 의 낡은 인터페이스를 Android Compose 로 전면 재작성하고 있으며, 여러 개선과 버그 수정을 담은 새 버전을 게시 당일 늦게 출시할 예정임 장기적으로 RCS 와 Messaging Layer Security(MLS) 기반 종단간 암호화",
+      "oneLineKo": "GrapheneOS, 기본 앱·보안 클립보드 대개편",
+      "summaryKo": "GrapheneOS가 기본 Messaging 앱의 낡은 인터페이스를 Android Compose로 전면 재작성하며 개선 및 버그 수정을 담은 새 버전을 출시할 예정이다. 장기적으로는 RCS와 Messaging Layer Security(MLS) 기반 종단간 암호화 지원을 목표로 하고 있다. 이와 함께 보안 클립보드 기능도 전면 개편되는 것으로 보인다.",
+      "tags": [
+        "grapheneos",
+        "android",
+        "e2ee"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49598291",
+      "title": "bzip3",
+      "url": "https://github.com/iczelia/bzip3",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49598291",
+      "publishedAt": "2026-09-07T13:35:13Z",
+      "score": 364,
+      "comments": 104,
+      "snippet": "GitHub - iczelia/bzip3: A better and stronger spiritual successor to BZip2. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} iczelia / bzip3 Public Notifications You must be signed in to change notification settings Fork 62 Star 1.4k Code Issues 9 Pull requests 1 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights master Branches Tags Go to file Code Open more actions menu Latest commit History 456 Commits 456 Commits Folders and files Name Name Last commit message Last commit date .github/ workflows .github/ workflows 3rdparty 3rdparty build-aux build-aux doc doc etc etc examples examples include include src src .clang-format .clang-format .gitattributes .gitattributes .gitignore .gitignore CMakeLists.txt CMakeLists.txt LICENSE LICENSE Makefile.am Makefile.am NEWS NEWS PORTING.md PORTING.md README.md README.md bootstrap.sh bootstrap.sh bunzip3 bunzip3 bunzip3.1 bunzip3.1 bz3cat bz3cat bz3cat.1 bz3cat.1 bz3grep bz3grep bz3grep.1.in bz3grep.1.in bz3less bz3less bz3less.1.in bz3less.1.in bz",
+      "oneLineKo": "BZip2 계승 압축 알고리즘 bzip3 공개",
+      "summaryKo": "bzip3는 BZip2의 정신적 후속작을 자처하는 오픈소스 압축 라이브러리 및 도구 모음입니다. GitHub 저장소에는 소스코드, CMake 빌드 시스템, bunzip3·bz3cat·bz3grep·bz3less 등 명령줄 유틸리티가 포함되어 있습니다. BZip2보다 더 강력하고 나은 압축 성능을 목표로 개발되었습니다.",
+      "tags": [
+        "compression",
+        "bzip2",
+        "open-source"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33311",
+      "title": "Show GN: VIBE-GAME ( AI 에게 일 시키고 기다리면서 하기에 좋은 게임 )",
+      "url": "https://news.hada.io/topic?id=33311",
+      "commentsUrl": "https://news.hada.io/topic?id=33311",
+      "publishedAt": "2026-09-07T11:26:56+09:00",
+      "snippet": "요즘 AI 로 개발을 진행하다 보니 작업 시켜두고 기다리기에 지루한 시간들이 자주 생기더라구요. 앱을 다운로드 해서 하자니 뭔가 번거롭기도 하고 광고에 시달리기도 귀찮고 구형 폰이라서 최신 게임도 잘 안 돌아가고 해서 심심풀이로 Codex Sol Max 로 그냥 개발해보라고 했는데 퀄리티가 나름 괜찮아서 틈...",
+      "oneLineKo": "AI 작업 대기시간에 즐기는 웹게임 VIBE-GAME 공개",
+      "summaryKo": "AI에게 코드 작업을 시켜두고 기다리는 지루한 시간을 위해 만든 웹 게임 'VIBE-GAME'을 소개하는 글입니다. 앱 설치나 광고 없이 가볍게 즐길 수 있도록 Codex 등을 활용해 개발했으며, 구형 폰에서도 잘 동작하는 것을 목표로 했습니다. 작성자는 AI 코딩 도구로 개발 중 생기는 대기 시간을 활용해 심심풀이용 게임을 만들어 공유했습니다.",
+      "tags": [
+        "ai-coding",
+        "web-game",
+        "side-project"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49596055",
+      "title": "Caltech Mathathon – first hackathon ever devoted to research level mathematics",
+      "url": "https://mathathonchallenge.com/index.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49596055",
+      "publishedAt": "2026-09-07T09:26:53Z",
+      "score": 215,
+      "comments": 74,
+      "snippet": "Caltech Mathathon 40 hours, $2M+ AI credits, solve an open problem. AI has made groundbreaking progress in pure math in the past few months: May 20, 2026: Erdos's planar unit-distance conjecture was disproved (open 80 years) [1] . August 1, 2026: The first explicit non-sofic group was constructed (open 27 years) [2] . August 23, 2026: The six-sphere was shown to admit a complex structure (open 78 years; unverified) [3] . This AI advancement raises the following questions: (a) How much can AI speed up the process from ideation to peer-reviewed publication? (b) What is the role of a mathematician when AI can solve conjectures faster? We are assembling the top math talent worldwide to answer these questions. On October 30th, a hundred teams will be given frontier models to solve open conjectures and build new mathematical theories. Then, they will defend their results before leading mathematicians, who will assess their understanding of the results. We will award prizes to the most promising and well-explained results at the event. Then, after the math community has had time to verify these results, we will provide a second round of prizes. It will be the first hackathon ever devoted to research level mathematics. Where: California Institute of Technology When: October 30th to November 1st Apply Contact Read about our commitments to responsible AI use. Supported by",
+      "oneLineKo": "칼텍, AI 활용 연구수학 해커톤 최초 개최",
+      "summaryKo": "칼텍(Caltech)이 40시간 동안 200만 달러 이상의 AI 크레딧을 지원하며 미해결 수학 난제를 푸는 해커톤 'Mathathon'을 10월 30일부터 11월 1일까지 개최한다. 최근 AI가 평면 단위거리 추측 반증, 비소픽군 구성, 육차원 구의 복소구조 존재 증명 등 수십 년간 미해결이던 순수수학 문제를 해결한 사례에 자극받아 기획됐다. 전 세계 상위 수학 인재 100개 팀이 최신 AI 모델을 활용해 미해결 정리를 풀고 새로운 이론을 구축한 뒤 저명 수학자들 앞에서 결과를 방어하며, 이후 커뮤니티 검증을 거쳐 2차 시상도 진행한다. 이는 연구 수준 수학을 다루는 최초의 해커톤으로 소개된다.",
+      "tags": [
+        "ai",
+        "mathematics",
+        "hackathon"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33307",
+      "title": "GPT-6 Astra, 수능 벤치마크 첫 전 영역 만점",
+      "url": "https://news.hada.io/topic?id=33307",
+      "commentsUrl": "https://news.hada.io/topic?id=33307",
+      "publishedAt": "2026-09-07T10:05:02+09:00",
+      "snippet": "개인 개발자가 운영하는 2026학년도 수능 LLM 평가에서 GPT-6 Astra가 처음으로 종합 450점 만점 을 기록함 국어와 수학의 모든 선택과목, 영어, 한국사와 평가 대상 탐구 4과목을 모두 맞혔으며 , 기존 모델들이 어려워했던 사회문화 8번도 해결함 일반 모...",
+      "oneLineKo": "GPT-6 Astra, 수능 벤치마크 전 영역 만점 최초 달성",
+      "summaryKo": "개인 개발자가 운영하는 2026학년도 수능 LLM 평가에서 GPT-6 Astra가 종합 450점 만점을 기록했다. 국어, 수학 전 선택과목, 영어, 한국사, 탐구 4과목을 모두 맞혔으며, 기존 모델들이 어려워했던 사회문화 8번 문제도 해결했다. 이는 해당 벤치마크에서 처음으로 전 영역 만점을 달성한 사례다.",
+      "tags": [
+        "llm",
+        "benchmark",
+        "gpt-6"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49552299",
+      "title": "WeatherNext 3",
+      "url": "https://deepmind.google/science/weathernext/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49552299",
+      "publishedAt": "2026-09-03T16:06:08Z",
+      "score": 196,
+      "comments": 37,
+      "snippet": "Paper [pdf]: <a href=\"https:&#x2F;&#x2F;storage.googleapis.com&#x2F;deepmind-media&#x2F;papers&#x2F;weathernext_3.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;storage.googleapis.com&#x2F;deepmind-media&#x2F;papers&#x2F;weather...</a>",
+      "oneLineKo": "구글 딥마인드, 차세대 AI 기상예측 모델 WeatherNext 3 공개",
+      "summaryKo": "구글 딥마인드가 WeatherNext 3라는 새로운 AI 기반 날씨 예측 모델을 발표했다. 관련 논문(PDF)이 함께 공개되었으며, 기존 버전을 개선한 후속 모델로 소개된다. 본문에는 논문 링크 외 구체적인 기술적 세부사항은 포함되어 있지 않다.",
+      "tags": [
+        "deepmind",
+        "ai",
+        "weather-forecasting"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33304",
+      "title": "브라운필드의 코끼리: AI로 개인은 빨라졌는데, 조직은 왜 그대로인가",
+      "url": "https://news.hada.io/topic?id=33304",
+      "commentsUrl": "https://news.hada.io/topic?id=33304",
+      "publishedAt": "2026-09-07T09:35:02+09:00",
+      "snippet": "기존 시스템과 조직 구조가 자리 잡은 브라운필드 기업 의 AI 전환에는 기술뿐 아니라, 자신의 역할과 팀의 권한을 정체성으로 여기는 문제 가 걸려 있음 AI로 담당 업무를 빠르게 처리해도 다른 팀의 승인과 백로그를 기다려야 한다면 조직 경계를 넘는 순간...",
+      "oneLineKo": "AI로 개인 생산성은 향상됐지만 조직 구조는 변화 못해",
+      "summaryKo": "기존 시스템과 조직 구조가 자리 잡은 브라운필드 기업에서는 AI 전환이 기술적 문제를 넘어 조직 정체성 문제와 연결됨을 다룬다. 개인이 AI로 업무 처리 속도를 높여도 다른 팀의 승인과 백로그를 기다려야 하는 조직 경계 문제가 여전히 존재한다. 이는 각 팀이 자신의 역할과 권한을 정체성으로 여기는 것에서 비롯된 근본적인 한계로 지적된다.",
+      "tags": [
+        "ai",
+        "organization",
+        "digital-transformation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49601655",
+      "title": "Watch Los Angeles get built, one building at a time (1880–2026)",
+      "url": "https://lax-skyline.parcelscope.net/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49601655",
+      "publishedAt": "2026-09-07T18:52:06Z",
+      "score": 182,
+      "comments": 87,
+      "snippet": "Every building in Los Angeles Parcelscope Los Angeles Decade built Height 1 story median 16 ft tallest drag to pan · right-drag or ⌃-drag to tilt Every building in Los Angeles One box per building standing today, appearing in the year it was built. What was torn down along the way isn't here, so this is the surviving city, not the city as it was. 1880 0 of today's buildings already built Decade Height Dim Bright LARIAC 2020 building outlines · LA County Assessor roll heights exaggerated when zoomed out heights exaggerated when zoomed out Building Built Height Footprint Type Copied",
+      "oneLineKo": "1880~2026년 LA 건물 신축 과정 3D 시각화",
+      "summaryKo": "이 사이트는 로스앤젤레스에 현존하는 건물들을 건축 연대별로 하나씩 쌓아가며 도시가 형성되는 과정을 3D로 시각화한다. LARIAC 건물 외곽선과 LA County Assessor의 높이 데이터를 기반으로 하며, 철거된 건물은 포함되지 않아 '현재 남아있는 도시'만을 보여준다. 사용자는 드래그로 시점을 이동하거나 회전하며 연도별 건축 밀도를 탐색할 수 있다.",
+      "tags": [
+        "data-visualization",
+        "urban-data",
+        "3d"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49595865",
+      "title": "Live map of public transport in Belgium",
+      "url": "https://openbaarvervoerbelgie.be/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49595865",
+      "publishedAt": "2026-09-07T09:02:47Z",
+      "score": 182,
+      "comments": 74,
+      "snippet": "ovlive — live kaart van het openbaar vervoer in België Openbaar vervoer in België, live op de kaart Elke bus, tram, metro en trein van De Lijn, STIB-MIVB, TEC en NMBS op één kaart, met realtime vertragingen, haltes en vertrektijden. Brussels Hoofdstedelijk Gewest Antwerpen Oost-Vlaanderen West-Vlaanderen Vlaams-Brabant Limburg Waals-Brabant Henegouwen Namen Luik Luxemburg Over ovlive Veelgestelde vragen Bronnen en attributie Privacybeleid Politique de confidentialité Gebruiksvoorwaarden Contact De kaart wordt geladen… · La carte se charge… · Loading the map… ovlive bus · tram · metro · trein",
+      "oneLineKo": "벨기에 대중교통 실시간 지도 서비스 'ovlive'",
+      "summaryKo": "ovlive는 벨기에 전역의 버스, 트램, 지하철, 열차를 하나의 지도에서 실시간으로 볼 수 있는 서비스입니다. De Lijn, STIB-MIVB, TEC, NMBS 등 벨기에 주요 대중교통 운영사의 데이터를 통합해 실시간 지연 정보, 정류장, 출발 시간을 제공합니다. 브뤼셀을 비롯한 벨기에 각 지역별로 지도를 확인할 수 있습니다.",
+      "tags": [
+        "public-transit",
+        "map",
+        "realtime"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49558685",
+      "title": "Simple Is Not Small",
+      "url": "https://jyn.dev/simple-is-not-the-same-as-small/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49558685",
+      "publishedAt": "2026-09-03T23:47:28Z",
+      "score": 176,
+      "comments": 57,
+      "snippet": "simple is not small the website of jyn menu about computers should be liberating talks the computer of the next 200 years four posts about build systems --> simple is not small 2026-08-27 • audience—programmers • ideas • software-architecture Table of contents Do we need simplicity? Unix pipelines are not simple What is simplicity? Large is not the same as coupled Decoupling When is it useful to be small? How do we make simple programs? What next? @notjack.space : UIs with too many buttons confuse and alarm me @ sixfold-origami.com : ah, this is the unix thing! @notjack.space : no, because I want cross device sync to actually work Do we need simplicity? Recently, I gave a talk titled \"Precise, consistent, and reliable code coverage\" . It's about a truly gnarly bug that took my company 9 months to debug. At the end, my friend Predrag asks: How would you recommend that we think about building tools such that these epic debugging stories aren't as necessary? and I answer him: We need to prioritize simplicity. If you go back to my coverage pipeline, there are a lot of nodes in this diagram. [...] The tooling's complicated. We need to rethink how our computing works. I'm not satisfied with that answer. Unix pipelines are not simple Consider two programs to calculate the frequency of words of a file. First, a small unix pipeline: cat README.md \\ | tr -- complement -- squeeze-repeats ' [:alpha:] ' ' \\n ' \\ | tr A-Z a-z \\ | sort \\ | uniq -- count \\ | sort -- reverse -- numeric-sort This says \"read README.md, translate each word boundary into a newline, collapsing multiple newlines, convert uppercase to lowercase, count the number of occurrences of each word, then show them in frequency order\". I think this is what most people think of when they think of \"simple\": each program is small, they're designed to be joined together ad-hoc in this way, it's concise and somewhat easy to read. Next, consider a Clojure program: ( ->> ( slurp \" README.md \" ) ( re-seq # \" [ a -z A -Z ] + \" ) ( map str/lower-case ) frequencies ( sort-by val > ) ; for every (word, count) pair in the sequence, call an anonymous function that prints it. ( run! ( fn [ [ word count ] ] ( println count word ) ) ) ) This does the same thing, with a few more names and higher-order functions thrown in. Now, let's say we want to make a small change: show the output in the original file order. In Clojure, this is fairly straightforward: store an ordered sequence of the words in word_seq , store a map from each word to its frequency in freq_map , iterate over the sequence, and look up each word in the map: ( let [ word_seq ( ->> ( slurp \" README.md \" ) ( re-seq # \" [ a -z A -Z ] + \" ) ( map str/lower-case ) ) freq_map ( frequencies word_seq ) ] ( ->> ( distinct word_seq ) ; for every distinct word, in original order, print its frequency (from our `freq` map) and the word itself ( run! ( fn [ w ] ( println ( freq_map w ) w ) ) ) ) ) In Bash you need a bunch of temp files and ugly opaque regexes, so",
+      "oneLineKo": "단순함과 작음의 차이, 유닉스 파이프라인 예시로 분석",
+      "summaryKo": "이 글은 '단순함(simple)'과 '작음(small)'을 동일시하는 오해를 지적하며, 유닉스 파이프라인과 Clojure 코드를 비교해 설명한다. 유닉스 파이프라인은 각 프로그램이 작고 조합 가능하지만, 요구사항 변경 시 오히려 복잡해질 수 있음을 보여준다. 저자는 코드 커버리지 디버깅 경험을 계기로 단순함의 본질과 결합도(coupling)의 관계를 탐구한다. 결론적으로 진정한 단순함은 규모가 아니라 구성 요소 간의 결합도와 관련이 있다고 주장한다.",
+      "tags": [
+        "software-architecture",
+        "unix",
+        "functional-programming"
+      ]
+    }
+  ]
+}
