@@ -1,0 +1,276 @@
+{
+  "date": "2026-09-09",
+  "generatedAt": "2026-09-08T23:47:53.312Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33346",
+      "title": "Build vs Buy - AI로 개발은 싸졌지만, 3년 뒤 유지보수는 누가 맡을까?",
+      "url": "https://news.hada.io/topic?id=33346",
+      "commentsUrl": "https://news.hada.io/topic?id=33346",
+      "publishedAt": "2026-09-08T10:35:35+09:00",
+      "snippet": "AI는 소프트웨어의 초기 개발 비용 을 크게 낮췄지만, 수년간 유지보수와 보안, 장애 대응을 책임지는 운영 비용 까지 없애지는 못함 직접 만들지는 가격뿐 아니라 장애나 침해의 피해 범위, 장기 운영 책임자, 사업 차별화, 교체할 경로 를 기준으로...",
+      "oneLineKo": "AI로 개발비 절감돼도 장기 유지보수 부담은 여전",
+      "summaryKo": "AI는 소프트웨어 초기 개발 비용을 크게 낮췄지만, 이후 수년간 이어지는 유지보수, 보안 패치, 장애 대응 등 운영 비용까지 없애주지는 못한다는 점을 지적한다. 직접 개발(Build)과 외부 솔루션 도입(Buy)을 결정할 때는 단순 가격 외에도 장애나 보안 침해 발생 시 피해 범위, 장기 운영 책임자가 누구인지, 사업 차별화 요소인지, 향후 다른 솔루션으로 교체할 경로가 있는지를 종합적으로 고려해야 한다고 강조한다. 결국 AI 시대에도 Build vs Buy 판단 기준은 초기 비용이 아니라 장기적 책임과 리스크 관리에 있다는 결론을 제시한다.",
+      "tags": [
+        "ai",
+        "devops",
+        "software-maintenance"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49613068",
+      "title": "Show HN: LLM Attention Visualization",
+      "url": "https://ishamf.dev/p/llm-attention-visualizer/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49613068",
+      "publishedAt": "2026-09-08T16:59:41Z",
+      "score": 106,
+      "comments": 19,
+      "snippet": "LLM Attention Visualization ishamf.dev Home Tools About Sign in Subscribe Experiments LLM Attention Visualization A visualization of the attention mechanism in LLMs. Isham Faizal Sep 7, 2026 &bull; 3 min read One interesting thing about transformer-based large language models are that, during the generation phase, it is able to draw information from any of its previous tokens. But it needs to be selective; if every token affects the generation equally, it won't be very effective. This process needs a mechanism to decide how much a token affects the next token. Turns out, we can visualize this mechanism! You can tap or hover over any of the generated tokens to see the past tokens that affected* the generation. Loading... (JavaScript required) * \"Affected\" might not be fully accurate, as this visualization is highly simplified. It's calculating the attention weight, scaled by the magnitude of the value vector, aggregated across all attention heads, and summed across all layers. This is then used to control the opacity of the previous tokens. The largest values always have an opacity of 1 and the rest are interpolated. A lot of information had to be thrown away to limit the visualization to just one numeric value per past token. Because of that, when I started implementing this, I actually thought it might not be comprehensible. But it actually can produce some interesting patterns! For example, in the default \"Office Move Summary\" prompt, you can hover over the text that are copied verbatim like the address and dates. You can then see the original data stand out quite a bit, because the generated token takes up a lot of the information from the source data. This addresses one thing that I've previously found unintuitive about LLMs. If they work by predicting the next tokens probabilistically, why are they somehow so good at copy-pasting stuff? Won't they eventually make a mistake just by random chance? But with this mechanism, you can see that it doesn't predict the entire sequence from some limited internal states. Since it has access to all past tokens, it can just decide which past tokens to draw from when copying, and so the probability of errors can be very low. In the \"Debugging an Average Function\" example, you can see that this quite small model (600 million parameters) can easily reproduce an entire JS function except for the intended modification. (Although it's not actually capable of finding the issue by itself, so it needed some hints.) Another interesting part is when you hover over the \"remain\" in \"Existing access cards and phone numbers remain \" in the \"Office Move Summary\" prompt. You can see that it draws from \"work\" in \"Existing employee access cards will work \" and \"stay the same\" in \"company phone numbers will stay the same \". So it's kind of combining the information from the words in both phrases, which I find quite cool. Implementation The visualization itself is a pretty basic React app using Transformers.js to generate the",
+      "oneLineKo": "LLM 어텐션 메커니즘 시각화 도구 공개",
+      "summaryKo": "트랜스포머 기반 LLM의 생성 과정에서 이전 토큰들이 얼마나 영향을 미치는지 시각화하는 도구를 소개한다. 어텐션 가중치와 값 벡터 크기를 모든 헤드와 레이어에서 집계해 하나의 수치로 단순화하고, 이를 투명도로 표현해 토큰 간 관계를 직관적으로 보여준다. 예시로 텍스트 복사, 코드 디버깅, 여러 문구 정보 결합 등의 패턴을 확인할 수 있으며, 구현은 Transformers.js 기반 React 앱으로 이루어졌다.",
+      "tags": [
+        "llm",
+        "attention-mechanism",
+        "transformers.js"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1was1gb",
+      "title": "video on improving performance of arctan for Nintendo 64 by Kaze Emanuar \"spent weeks to save 100 Microseconds\"",
+      "url": "https://www.reddit.com/r/programming/comments/1was1gb/video_on_improving_performance_of_arctan_for/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1was1gb/video_on_improving_performance_of_arctan_for/",
+      "publishedAt": "2026-09-08T15:44:51+00:00",
+      "snippet": "submitted by /u/danielcw189 [link] [comments]",
+      "oneLineKo": "N64용 arctan 성능 최적화, 100마이크로초 절약",
+      "summaryKo": "Kaze Emanuar가 닌텐도 64 플랫폼에서 arctan 함수의 성능을 개선하는 과정을 다룬 영상을 소개하는 게시물입니다. 단 100마이크로초를 절약하기 위해 수 주간의 최적화 작업을 진행한 내용을 담고 있습니다. Reddit r/programming에 공유된 링크로, 본문에는 별도의 상세 설명 없이 영상 소개만 포함되어 있습니다.",
+      "tags": [
+        "performance-optimization",
+        "nintendo64",
+        "low-level-programming"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33379",
+      "title": "나비에-스토크스 해법 발표의 이면: 수학자가 공개한 OpenAI와의 협의 과정",
+      "url": "https://news.hada.io/topic?id=33379",
+      "commentsUrl": "https://news.hada.io/topic?id=33379",
+      "publishedAt": "2026-09-09T07:56:58+09:00",
+      "snippet": "수학자 Tristan Buckmaster가 Levent Alpöge와 진행한 유체 방정식 연구를 공개하면서, OpenAI의 나비에-스토크스 해법 발표에 앞서 진행된 협의 과정 을 성명으로 밝힘 두 사람의 연구는 기존 수학자들의 접근법을 LLM의 도움으로 발전시킨 개인 공동연구 이며, Ant...",
+      "oneLineKo": "수학자, OpenAI 나비에-스토크스 발표 이면 협의 과정 공개",
+      "summaryKo": "수학자 Tristan Buckmaster가 Levent Alpöge와 함께 진행한 유체 방정식 연구 관련하여, OpenAI의 나비에-스토크스 해법 발표에 앞서 이루어진 협의 과정을 성명으로 공개했습니다. 두 사람의 연구는 기존 수학자들의 접근법을 LLM의 도움으로 발전시킨 개인 공동연구로 소개되었습니다. 이는 OpenAI가 해당 성과를 자사 AI의 성과로 발표하는 과정에서 연구자와의 협의 및 커뮤니케이션 방식에 대한 논란을 드러낸 사례로 주목받고 있습니다.",
+      "tags": [
+        "llm",
+        "openai",
+        "mathematics"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49615537",
+      "title": "Muse: Meta's personal AI agent, features and capabilities",
+      "url": "https://ai.meta.com/muse/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49615537",
+      "publishedAt": "2026-09-08T19:25:00Z",
+      "score": 211,
+      "comments": 205,
+      "oneLineKo": "메타, 개인용 AI 에이전트 'Muse' 공개",
+      "summaryKo": "메타가 'Muse'라는 이름의 개인용 AI 에이전트를 공개했다. 해당 페이지는 Muse의 기능과 특징을 소개하는 내용으로 보인다. 본문 내용이 제공되지 않아 구체적인 기능이나 활용 사례는 확인할 수 없다.",
+      "tags": [
+        "meta",
+        "ai-agent",
+        "llm"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1waw4mb",
+      "title": "What every compiler writer should know about programmers or “Optimization” based on undefined behaviour hurts performance",
+      "url": "https://www.reddit.com/r/programming/comments/1waw4mb/what_every_compiler_writer_should_know_about/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1waw4mb/what_every_compiler_writer_should_know_about/",
+      "publishedAt": "2026-09-08T18:08:40+00:00",
+      "snippet": "submitted by /u/lelanthran [link] [comments]",
+      "oneLineKo": "미정의 동작 기반 최적화가 성능을 해친다는 주장",
+      "summaryKo": "이 글은 컴파일러 개발자가 알아야 할 프로그래머 관점을 다루며, 미정의 동작(undefined behaviour)에 기반한 컴파일러 최적화가 실제로는 성능을 해칠 수 있다고 주장한다. Reddit r/programming에 공유된 글로, 제목 외 본문 내용은 확인되지 않는다.",
+      "tags": [
+        "compiler",
+        "undefined-behaviour",
+        "optimization"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33376",
+      "title": "DaVinci Resolve 21.1",
+      "url": "https://news.hada.io/topic?id=33376",
+      "commentsUrl": "https://news.hada.io/topic?id=33376",
+      "publishedAt": "2026-09-09T07:39:50+09:00",
+      "snippet": "편집·색보정용 새 도구와 제어 기능 100개 이상 을 담은 DaVinci Resolve 21.1이 출시됐으며, AI 어시스턴트 연동과 사진 포맷·멀티캠 지원을 확대하고 공식 웹사이트에서 무료 다운로드를 제공함 Claude, Claude Code, ChatGPT Codex 에 자연어로 프로젝트 분석, 미...",
+      "oneLineKo": "다빈치 리졸브 21.1, AI 연동·신규 도구 100개 이상 추가",
+      "summaryKo": "DaVinci Resolve 21.1이 출시되며 편집과 색보정을 위한 새로운 도구와 제어 기능이 100개 이상 추가됐다. Claude, Claude Code, ChatGPT Codex와 연동해 자연어로 프로젝트 분석 및 작업이 가능해졌다. 사진 포맷과 멀티캠 지원도 확대됐으며, 공식 웹사이트에서 무료로 다운로드할 수 있다.",
+      "tags": [
+        "davinci-resolve",
+        "video-editing",
+        "ai-assistant"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49605915",
+      "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
+      "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49605915",
+      "publishedAt": "2026-09-08T05:42:28Z",
+      "score": 1130,
+      "comments": 494,
+      "snippet": "%PDF-1.5 %���� 11 0 obj > endobj 12 0 obj > /W [ 1 2 1 ] /Index [ 11 25 ] /Info 9 0 R /Root 13 0 R /Size 36 /Prev 53175 /ID [ ] >> stream x�cbd�g`b`8 $�ނX�@�q\u0006��\u0007$x5�\u0004�\u0015��m\u0002\u00121�@�Y����`\u000fH \u0003#%\u0004\u0000@z\u0006S endstream endobj 13 0 obj > endobj 14 0 obj > stream x�c```\u0002�\u001f � ,� \u0002 P\u0000f3�D\u0019X\u00162t�f_�����oC��^0��\u0004ء��!����A�\\�E︄��� \u0000{e\u000f� endstream endobj 15 0 obj > endobj 16 0 obj > stream x��YK���\u0011��W�-`����\u0000\u0001�$+�kS�㊷*U�s�%fI�@��\u0001��\\����_\u000f\u0000��r.DOOϳ_�4��M|��7�������,��n�\"-n�\u001fo�]y�Oқ\"�ߦY~s_��\u0012�o�,�7۴��M\u0012�M���7�.z���,�`�P��l��cj ~�D���7y\u001cG�тc�\u001a�\u001d��$s���q6�R��m\u000e�����v֏���n��2�~��]� v;4g�����n�������V����y������]�� 'P�7}����\u001e� 9r��۹[3г\u000e�#�+ �E5��\u0019�Zg�i z�:.T��lt 1c��/\u0011\u00133\u001e\u0003\\b)��Y\\\u001d��f0�]۬\"�2E�\u0007i\u001b%Ӳ[�U����\u001c�6 X\u0001���'\u0018=шjLQ\u001a�Y�{�k�\u0001j��v\b�~�\u0000�\u0012!�Q :�ʖ���t�\u0011���-K�#EZ��\u000f\u0010?[�Nf̭Kkȷ���0u��u�c�7�..�O�C�\u0012x:�֯E\u000f�:KHێ2tN\u0006;ط\b`��\u0019�=AF.��z��\u0017��\u0004��T��J\u0001��)�\u001d�#�\u0010)�Aj`�\u000f� B5�\u0018��Iq���mk�!\u001fmm�ף�G�|�/�0��]DIx�/�\u0013�\u0000��|�]�i𹌎�\u001dhH8�w��b�\u0004����������\u001f;,\"7�\u0013v\u0000\u001c\u001aJT�0�$2��,�\\� l�G�,�\u0000N�\u0004��C\u0003�L��\\g��V�@�\u0007�ô�+\u0011��)���F��R\u001a��>�q���I��+�\u001a\u0005\u001c��\u0010�J�)�]8\u0014���\u001c �q �̪\"z\u00075\u0010��\u001c��R�[3֌�S2��w��п��s�@��g�#�z\u0015��h�׶���2�~��~��\b=��ų���r�+n�a?�-\b�� \u0000\u001d\"�^V ��\u0013°��\u001f�>\u00012�V�~��X\u0003\u001e��r���9���۵=�#)\u0010p��Y��ۛ\u0003IӢ\u0019\"�8h\u001bCνz4���K֠��I�j��E �?�\u001a�\u0013P���~$y���w�q�\u0003��|8�Y��05�\u0014�\u001f\u0001jix �\u0003b�\u0000�D\u0003ԜU�ѳC/����R//-���\u0004�8b?\\K}+\u0011j�$�K�`�.vԕK�'�Y9�V�W�ZA�7!lS\u0003\u0007�`pNn��\u0014bA\u001cm��/Ǯ�2��G�{ �y�9EP�l�u�\\T����O�s��a�z�/�o� �\u0001-�z�\u0017&\u0013� �Ѳ Z��Z��!�`��@�i?y\u0015#�|Y�\b\u0015'\u0014�*�-&\u0016ak'��`�\u001e�e��Z\u001a�N*�0b��\u0004fjZf����m%p�J�h��\u0005 ���bh�\u0004�/\"�hJEF@�> �Z !\u000e+ƂI'�\u001d�=:���B��g�ϰ�nR1�k��\u001e\u0001��직~\u0015a� q�/�����\u0017�Zj�Ex%N\u0000({-kq\u0017JI\u0016\u001e� r��0�ƭ>�$��1�p���R����B4�l��$���\u00163��Լ�C����(d���̙��uC \u001d8I\u00169����ѩ'\u000fz x\u000f\u0002f����%(�\u0013+��!��3��\u0005�DŃ$BU��(�\u0017���K=Yܡv\u0000 $�>\u0010���u�Az>�F�V��Y�u���^2\u0016�? 2}З\bb�]=��g��o\u0018ϒ7ܢ\u001c��`xl�\u0015�u��Y�2lK�>o?���\u0013�a:��[\u0015\u001dx��3�\u0012C\u0004\u001c�\u000e�n�\u0007Z�B�oj��Gs�\u0014\u00146\u0007挨Ґfy �w��(�v谟\u000f�[�W�\u0000��/�\u0012�>��|�x�\u001b(+Ž�Ԅ:$�R�tY����=b �)9�v\u0004)\u000eZ\u0018����jY�(�����XY-�� \u0010$bf\"u\u000f+w2O�R\u0004:v�\u001f\u001d0\\���Q�j���\u001b���Ј^�\"�� (�\b`�(\u00161\u0005�C��`�h�_y > stream x��Vmo�6\u0010��_q\u001f7 ��\u0014P\u0014�˼\u0006m�Ա�mE>(6\u001dk�-G�Ӥ�~GR�e'�2l�u9�ǻ�ǼX\b` $\u0018\u0003B�`\u000e�\u0006�ì�\u0012�\u0005e,\b\u0007Zi\u0010\u0019\u0018�@2�ҁ�`\u0015�\u0011�1\u0003R\u0002ג\u000e+��\u0012�+��߽y\u0003�/� D���\u001a�A�u�\u0019��o\u0001/�r|�\u001b�L�I\u001fp�\u001f\u001a�����(�}̂'\u001fG����g\u0003�(IQ���,���T����X5e\u0015��J\u001f�M ����M��T�,\u001d\u001a��e1.'\u001e\u0004O�ø��]\u0015�fV\u0007� �\u001e������ �9;݅��S8r\u000f\u000e���а���.��rM{��}1��\\��\u0014�j�h�7�.�[_o�?'�? �9��ף��?�{�ۧ�Q����\u0019u�^;C���4/w�u�����\u0019��z\u001a��\u0013��\\km�����%�e\u0010�Վ�X�z\u0016��aU��\u0000�d�.�3= Nr�Jf=\u0003Z+�w*�\u0015�\u0018�d�Q�c2�1�*\u0018%�fa��\u0018�%e�N�TD���U�u�\u0017��2� 6��,�\u0006�{O@�T�\u0015߄��[f\u0019 \b8��Y��mF\bIe�^7J:G�ݶ����{\u000e�K�x�\"eU6@O6�DA� �\u0012-\u0013X�6\u001b\u001d�Y\u0017����pj���4433n��v-�m�K\u0013NĆ��uj'g���\u0018\u001eRo��{�\u0016�d�\u001a\u001d��^\\��Tls�R���\u0014!3NTd\u0016�%A:��@��~'8�S�:^��z��R��f�q�z��\u0019�:I�tqí�\u001e\u00078ĕ��r�\u0003 y��\u001c�p�?�o�0��� ����\u0014��\u0007 �⛹�6\u001b� �q��r^.�.\u00169NpR���E�����@�~9��\u0019Nq\u001a>\u0005�Ͻ��\u001c���[���q5�K,�\u000f��s\\�\u0012K,�\u001eW��+������&]�\u000e�־n Bp�.\u001b?�����K �oɭ���/�����T�.\u001e��fVy���\u0012�x�_�\u0001\u001f�\u001b~�U�:�\u0015ۨϲ��g����h��6қ���>r|\u001d\u001d�]��p!����lv�G>Kƾ�̟0� > stream x��w\u0007T���6� \u0004�\"\"H��C\u0011Hh�{�%\u0014EJ�\u0000�$!��P\u0004�M�)Uzo\"�TiJU�*E�\bҋ�\u0017˹����k}�z�ʻg��3{��� �-\u0003c\u0001E{�-L �� �\u0005AR@e]]M0\b\b\u0002�\b�@�\u0000..\b\u001c� �[\u000f�2��1p$B�?\u0010�h\u0018\u0014�ש@�x�.\u0012\u0001�z� \u0004�\u0000��R�;R \u0010P\u0018\u0004��\u001b�DK\u0001U�\u001ep{�� P ��a\u0000\\�H�7\u001a������\u0012�c� \u0004KJ޹��\u001d��\u0006C���\b�.\u0014�\u0004s��h\u0007u\u0005\u001a#��0��?B��8a�()!!OOOA�\u001bF\u0010�v�� �c��F0",
+      "oneLineKo": "Navier-Stokes 방정식 연구 자료(PDF)",
+      "summaryKo": "수학자 Tristan Buckmaster가 작성한 Navier-Stokes 방정식 관련 연구 자료(PDF)입니다. 본문 내용은 바이너리 PDF 데이터로 텍스트 추출이 불가능해 구체적인 연구 결과는 확인할 수 없습니다. 제목으로 볼 때 유체역학의 핵심 난제인 Navier-Stokes 방정식의 해의 존재성 및 매끄러움 문제와 관련된 수학적 서술서로 추정됩니다.",
+      "tags": [
+        "mathematics",
+        "navier-stokes",
+        "research"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33373",
+      "title": "Muse: Meta의 개인 AI 에이전트와 주요 기능",
+      "url": "https://news.hada.io/topic?id=33373",
+      "commentsUrl": "https://news.hada.io/topic?id=33373",
+      "publishedAt": "2026-09-09T07:25:14+09:00",
+      "snippet": "Muse 는 질문에 답하는 데 그치지 않고 웹과 연결된 앱에서 예약·구매·문서 작성 등 여러 단계의 작업을 대신 수행하는 Meta의 개인 AI 에이전트임 Muse Secure VM 은 브라우저를 갖춘 지속형 전용 가상 머신에서 웹 작업을 처리하며, Muse 앱이나 WhatsApp 대화로 작...",
+      "oneLineKo": "메타, 웹 작업 대행하는 개인 AI 에이전트 Muse 공개",
+      "summaryKo": "Muse는 단순 질의응답을 넘어 웹과 연동된 앱에서 예약, 구매, 문서 작성 등 여러 단계의 작업을 대신 수행하는 Meta의 개인 AI 에이전트이다. Muse Secure VM은 브라우저가 탑재된 지속형 전용 가상 머신에서 웹 작업을 처리하며, 사용자는 Muse 앱이나 WhatsApp 대화를 통해 작업을 요청할 수 있다.",
+      "tags": [
+        "ai-agent",
+        "meta",
+        "automation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49613262",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49613262",
+      "publishedAt": "2026-09-08T17:13:21Z",
+      "score": 1046,
+      "comments": 873,
+      "oneLineKo": "OpenAI, 나비에-스토크스 밀레니엄 문제 관련 연구 발표",
+      "summaryKo": "OpenAI가 밀레니엄 난제 중 하나인 나비에-스토크스 방정식 문제와 관련된 연구 결과를 공개한 것으로 보인다. 제목 외 본문 정보가 제공되지 않아 구체적인 연구 내용이나 해결 여부는 확인할 수 없다. 해당 링크는 OpenAI 공식 페이지로 연결된다.",
+      "tags": [
+        "mathematics",
+        "openai"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33370",
+      "title": "OpenAI, AI로 찾은 밀레니엄 난제 ‘나비에-스토크스’ 해법 공개",
+      "url": "https://news.hada.io/topic?id=33370",
+      "commentsUrl": "https://news.hada.io/topic?id=33370",
+      "publishedAt": "2026-09-09T03:40:32+09:00",
+      "snippet": "약 90년간 미해결이던 3차원 유체 운동의 매끄러움 문제 에 대해, 내부 AI 시스템이 찾아낸 해석적 증명과 컴퓨터로 검증할 수 있는 Lean 형식화를 공개함 매끄러운 외력이 작용하는 정지 상태의 유체에서도 유한 시간 안에 속도가 무한히 커지는 특이점이 생길 수 있음",
+      "oneLineKo": "OpenAI, AI로 나비에-스토크스 특이점 해법 공개",
+      "summaryKo": "OpenAI가 내부 AI 시스템을 활용해 약 90년간 미해결이던 3차원 유체 운동의 매끄러움 문제에 대한 해석적 증명을 찾아냈다고 밝혔다. 이 증명은 Lean으로 형식화되어 컴퓨터로 검증 가능한 형태로 공개되었다. 연구에 따르면 매끄러운 외력이 작용하는 정지 상태의 유체에서도 유한 시간 안에 속도가 무한히 커지는 특이점이 발생할 수 있음을 보였다.",
+      "tags": [
+        "ai",
+        "mathematics",
+        "lean"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49611251",
+      "title": "Google DeepMind Releases AlphaGenome Atlas",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49611251",
+      "publishedAt": "2026-09-08T14:55:45Z",
+      "score": 474,
+      "comments": 114,
+      "snippet": "Introducing AlphaGenome Atlas Skip to main content AlphaGenome Atlas: a high-resolution map of human DNA Innovation & AI Products & platforms Company news Feed Newsletter Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Back Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebooks See all Learn more: Google Ads & Commerce blog Waze blog Back Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Innovation & AI Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Products & platforms Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebooks See all Learn more: Google Ads & Commerce blog Waze blog Company news Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Feed AlphaGenome Atlas: a high-resolution map of human DNA Share x.com Facebook LinkedIn Mail Copy link [] Preferences Global (English) Africa (English) Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) Malaysia (Melayu) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Links Images RSS feed x.com Facebook LinkedIn Mail Copy link Newsletter Breadcrumb Home Innovation & ",
+      "oneLineKo": "구글 딥마인드, 인간 DNA 고해상도 지도 '알파지놈 아틀라스' 공개",
+      "summaryKo": "구글 딥마인드가 인간 DNA를 고해상도로 매핑한 'AlphaGenome Atlas'를 공개했다고 발표했습니다. 이는 유전자 서열과 기능을 예측하는 AlphaGenome 모델을 기반으로 만들어진 지도로 소개되고 있습니다. 본문에서 구체적인 기술적 세부사항이나 활용 사례는 확인되지 않았습니다.",
+      "tags": [
+        "deepmind",
+        "genomics",
+        "ai"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33368",
+      "title": "AI를 대면으로 쓰려면 사무실로 복귀해야 한다",
+      "url": "https://news.hada.io/topic?id=33368",
+      "commentsUrl": "https://news.hada.io/topic?id=33368",
+      "publishedAt": "2026-09-09T02:37:35+09:00",
+      "snippet": "AI 도구의 생성·승인 버튼을 하루 수천 번 누르는 직원이 사무실 복귀(RTO) 를 강요받는 풍자극으로, 고용을 유지하려면 사무실 근무를 사랑한다는 각서까지 써야 함 Mondo Mayo에서는 상사에 대한 복종 과 지도자의 수가 핵심 원칙이며, 일반 직원 15명을 수천 명의...",
+      "oneLineKo": "AI 도구 사용 위해 사무실 복귀를 강요하는 상황 풍자",
+      "summaryKo": "AI 도구의 생성·승인 버튼을 하루 수천 번 눌러야 하는 직원이 사무실 복귀(RTO)를 강요받는 상황을 풍자한 글이다. 고용을 유지하려면 사무실 근무를 사랑한다는 각서까지 써야 하는 부조리한 조직 문화를 다룬다. 'Mondo Mayo'라는 가상의 회사에서는 상사에 대한 복종과 지도자의 수를 핵심 원칙으로 삼으며, 소수의 일반 직원과 다수의 관리자 구조를 풍자적으로 묘사한다.",
+      "tags": [
+        "ai",
+        "rto",
+        "workplace-culture"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49610631",
+      "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49610631",
+      "publishedAt": "2026-09-08T14:13:26Z",
+      "score": 286,
+      "comments": 222,
+      "snippet": "GitHub - ayghri/i-have-adhd: A skill to stop your coding agent from burying the answer. ADHD-friendly output. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} ayghri / i-have-adhd Public Notifications You must be signed in to change notification settings Fork 1.9k Star 30.3k Code Issues 14 Pull requests 17 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights main Branches Tags Go to file Code Open more actions menu Latest commit History 194 Commits 194 Commits Folders and files Name Name Last commit message Last commit date .agents/ plugins .agents/ plugins .claude-plugin .claude-plugin .codex-plugin .codex-plugin .cursor/ skills/ i-have-adhd .cursor/ skills/ i-have-adhd .github .github .opencode .opencode evals evals extensions extensions hooks hooks scripts scripts skills/ i-have-adhd skills/ i-have-adhd tests tests .gitignore .gitignore AGENTS.md AGENTS.md CONTRIBUTING.md CONTRIBUTING.md GEMINI.md GEMINI.md INSTALL.md INSTALL.md LICENSE LICENSE README.md README.md gemini-extension.json ",
+      "oneLineKo": "코딩 에이전트 답변 누락 방지하는 오픈소스 스킬",
+      "summaryKo": "i-have-adhd는 AI 코딩 에이전트가 답변을 장문의 출력 속에 묻어버리지 않도록 돕는 스킬입니다. Claude, Codex, Cursor, Gemini 등 다양한 에이전트 플러그인 형태로 제공되어 핵심 답변을 명확하게 드러내는 것을 목표로 합니다. GitHub에서 3만 개 이상의 스타를 받으며 개발자들의 관심을 끌고 있습니다.",
+      "tags": [
+        "ai-agent",
+        "coding-assistant",
+        "developer-tools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49611051",
+      "title": "The two Christian saints who are the Buddha",
+      "url": "https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49611051",
+      "publishedAt": "2026-09-08T14:44:25Z",
+      "score": 205,
+      "comments": 144,
+      "snippet": "The two Christian saints who are secretly the Buddha – Signore Galilei Skip to content Signore Galilei Let's Explore! Blog Videos More New? Start here! All posts About Books Other works Subscribe The two Christian saints who are secretly the Buddha Let me tell you the story of saints Barlaam and Josaphat of India. A king named Abenner, who persecutes Christians, hears from his court astrologers that his son will attain great power and rule over India. But one astrologer predicts that the prince will instead become a great holy man – a Christian. Alarmed, Abenner has the young prince Josaphat isolated from external contact and sees that Josaphat is pampered, with servants attending to his every need. But Josaphat becomes curious about the outside world, and eventually is allowed to leave the palace. On these trips, he encounters men ravaged by illness, old age, and death. He is in the middle of a crisis of faith when he meets a Christian hermit named Barlaam, converts, and continues to profess the Christian faith despite his father’s best efforts. Eventually, Abenner chooses to share the throne with Josaphat. Later Abenner himself converts, and after many years as a wise ruler, Josaphat retreats to the desert to meet his old teacher and live out his days as a monk. 1 This might sound familiar to students of world religions: it’s a close parallel of the story of the Gautama Buddha, the founder of the Buddhist tradition. This is no coincidence. The story of Barlaam and Josaphat first shows up in the Christian tradition in the 10 th century, in Georgia as the Balavariani . It seems to have been derived from an Arabic version, the Book of Bilawhar and Budhasaf . The name “Budhasaf” in turn comes from the Persian version “Bodisav”, and thence from the Sanskrit “Bodhisattva”. Somewhere over the successive retellings, the Buddha’s story morphed into a Christian one. And the story was fully embraced by Christian churches. The Roman Catholic Church included the two saints in older versions of its martyrology, and various Orthodox churches still mention them today. 2 Translations of their story reached as far as Iceland, and were even brought by Christian missionaries back to Asia, as seen in a 1591 Japanese translation by Jesuit missionaries. 3 Individual Western historians have noted the similarities between the story of Barlaam and Josaphat and the story of the Buddha for centuries – for example, it’s mentioned in an early printed edition of Marco Polo’s travels from 1446. 4 But it was only in the mid-19 th century that the saints’ tale was generally acknowledged as being derived from the Buddha’s. World religions have influenced each other for as long as they’ve been in contact. Many of the world’s religious monuments have remained holy sites to their local people even as specific religions came and went – the Hagia Sophia, the Parthenon, the Mosque–Cathedral of Córdoba, and Angkor Wat, just to name a few. Christianity in particular has a history of abs",
+      "oneLineKo": "바를람과 요사팟, 사실은 붓다 이야기였다",
+      "summaryKo": "기독교 성인 바를람과 요사팟의 전설은 실제로 석가모니 부처의 생애 설화가 여러 언어와 문화를 거쳐 변형된 것이다. '요사팟'이라는 이름은 산스크리트어 '보디사트바'가 페르시아어, 아랍어를 거쳐 조지아어로 전해지며 변형된 결과다. 이 이야기는 로마 가톨릭과 동방정교회 전통에 정식으로 편입되었고, 심지어 16세기 일본에 예수회 선교사들이 다시 전파하기도 했다. 19세기 중반에야 서양 학자들이 이 성인 설화가 붓다 이야기에서 유래했음을 공식적으로 인정했다.",
+      "tags": [
+        "religion",
+        "history",
+        "culture"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49611128",
+      "title": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses",
+      "url": "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49611128",
+      "publishedAt": "2026-09-08T14:49:19Z",
+      "score": 202,
+      "comments": 98,
+      "snippet": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses - Quesma Blog Skip to main content How it works Benchmarks Blog About us Token economics Talk to the founder How it works Benchmarks Blog About us Token economics Talk to the founder Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses Piotr Migdał · 26 August 2026 Share / QR code Open on another device. Download PNG Hacker News front page · 8 September 2026 How much GPU RAM do you actually need to run Qwen3.8 27B without sacrificing quality? The full BF16 model weighs 55 GB, putting it beyond most consumer hardware. Yet the 17 GB Q4_K_M matches the full model on a popular agentic coding benchmark, Terminal-Bench 2.1. It fits on a 24 GB card such as RTX 4090, still leaving room for about 64k tokens of context. Compression eventually hits a cliff. At 1 bit, the model performs around random chance on GPQA Diamond, and longer reasoning makes it worse. Background Qwen3.8 27B GGUF quantizations available from Unsloth on Hugging Face . So much to choose from! I will check 8-bit Q8_0 (29 GB), 4-bit Q4_K_M (17 GB), 2-bit UD-Q2_K_XL (10.7 GB), and the smallest one possible, 1-bit UD-IQ1_S (6.2 GB). Previously, I investigated the Qwen3.6 27B model, which was good at generating SVG pelicans even at 12GB , and maintained most of its knowledge up to 16GB . At the same time, in Reddit threads, many complain that all quantizations, even the 8-bit ones, give worse results - with people asking why your local LLM feels dumber than it is . Are these complaints grounded? Measuring token prediction differences (KL-divergence, top-1 predictions) is easy, but it does not tell us whether the model gets worse at solving tasks. Some noise might be irrelevant for solving tasks, as (say) a quantized model generates an answer of precisely the same quality, paraphrased a bit. In other cases, a single different token might be a logical error, or even abruptly end the output. Download as PNG 70% 80% 90% 100% 6 10 20 30 50 GB model size on disk same top-1 token as BF16 UD-IQ1_S UD-IQ1_M UD-Q2_K_XL Q4_K_M Q8_0 BF16 So, I focus on directly measuring results on popular benchmarks - GPQA Diamond , instruction-following IFBench , programming Terminal-Bench 2.1 . First, to replicate official results of the full model BF16 , and then to see how quantization affects results. I burned around $3,000 on Modal GPUs when I ran models with llama.cpp using a build from 16 August 2026 as earlier builds do not work for this model . I could have run it on my own laptop, in principle, but (unlike pelican-generation), these are time-consuming benchmarks. Note that I use F16 KV-cache regardless of model quantization, weighing around 2.3 GB per 32k tokens. I used Unsloth quantizations : v2 for the 2-, 4-, and 8-bit models, and v3 for the 1-bit models. Unsloth replaced the v2 files on 19 August 2026 , so the exact files used for most tests are no longer available. In short, if you go with a 4-bit quantization Q4",
+      "oneLineKo": "Qwen3.8 27B 양자화 벤치마크: 4비트 안정, 1비트 붕괴",
+      "summaryKo": "Qwen3.8 27B 모델의 GGUF 양자화 버전들을 GPQA Diamond, IFBench, Terminal-Bench 2.1 등의 벤치마크로 테스트한 결과, 17GB 크기의 4비트(Q4_K_M) 양자화는 RTX 4090 같은 24GB GPU에서도 원본 BF16 모델과 거의 동일한 성능을 보였다. 반면 6.2GB의 1비트(UD-IQ1_S) 양자화는 GPQA Diamond에서 거의 무작위 수준으로 성능이 붕괴했으며, 긴 추론에서 오히려 더 나빠지는 결과를 보였다. 저자는 약 $3,000의 GPU 비용을 들여 llama.cpp로 여러 양자화 버전을 직접 벤치마크했다.",
+      "tags": [
+        "llm",
+        "quantization",
+        "benchmark"
+      ]
+    }
+  ]
+}
