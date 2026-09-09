@@ -1,0 +1,278 @@
+{
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-09T23:40:37.743Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33435",
+      "title": "Show HN: LLM 어텐션 시각화",
+      "url": "https://news.hada.io/topic?id=33435",
+      "commentsUrl": "https://news.hada.io/topic?id=33435",
+      "publishedAt": "2026-09-09T19:36:48+09:00",
+      "snippet": "LLM이 토큰을 생성할 때 어떤 이전 토큰을 참조했는지 살펴보는 도구로, 생성된 토큰을 누르거나 마우스를 올리면 참조 정보를 불투명도로 표시함 어텐션 가중치에 값 벡터의 크기를 반영 하고 모든 헤드와 레이어의 정보를 합산해, 이전 토큰마다 하나의 수치로 보...",
+      "oneLineKo": "LLM 토큰 생성 시 참조 관계 시각화 도구 공개",
+      "summaryKo": "이 도구는 LLM이 토큰을 생성할 때 어떤 이전 토큰을 참조했는지 시각적으로 보여준다. 생성된 토큰을 클릭하거나 마우스를 올리면 참조 정보가 불투명도로 표시된다. 어텐션 가중치에 값 벡터의 크기를 반영하고, 모든 헤드와 레이어의 정보를 합산해 이전 토큰마다 하나의 수치로 표현한다.",
+      "tags": [
+        "llm",
+        "attention",
+        "visualization"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49623754",
+      "title": "Claude, change the “Add to Cart” button to blue",
+      "url": "https://opusfived.dev/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49623754",
+      "publishedAt": "2026-09-09T09:39:46Z",
+      "score": 953,
+      "comments": 385,
+      "snippet": "Opusfived Opusfived Make the “Add to Cart” button blue. Do not let Claude change anything else. Let’s go About & Terms",
+      "oneLineKo": "Claude AI로 특정 UI 요소만 제한적으로 수정하는 데모 서비스",
+      "summaryKo": "Opusfived는 'Add to Cart' 버튼 색상을 파란색으로 바꾸는 것처럼 Claude AI에게 아주 제한된 범위의 수정만 허용하는 데모 사이트입니다. 사이트 설명에는 Claude가 다른 요소는 변경하지 못하도록 지시하는 문구가 포함되어 있습니다. 구체적인 기술 구현 방식이나 목적에 대한 추가 정보는 본문에서 확인할 수 없습니다.",
+      "tags": [
+        "claude",
+        "llm",
+        "ui"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wbr6an",
+      "title": "Optimizing a Spin-Lock",
+      "url": "https://www.reddit.com/r/programming/comments/1wbr6an/optimizing_a_spinlock/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wbr6an/optimizing_a_spinlock/",
+      "publishedAt": "2026-09-09T16:54:06+00:00",
+      "snippet": "submitted by /u/david-alvarez-rosa [link] [comments]",
+      "oneLineKo": "스핀락 최적화 기법 소개",
+      "summaryKo": "스핀락(Spin-Lock)을 최적화하는 방법을 다룬 글이 Reddit에 공유되었습니다. 제목 외 본문 내용이 제공되지 않아 구체적인 최적화 기법이나 벤치마크 결과는 확인할 수 없습니다. 저수준 동시성 제어와 성능 튜닝에 관심 있는 개발자들이 참고할 만한 주제로 보입니다.",
+      "tags": [
+        "concurrency",
+        "spinlock",
+        "performance"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33434",
+      "title": "LLM은 기존 편견을 답습하는 데 그치지 않고, 경험에서 새로운 편향을 만들어냄",
+      "url": "https://news.hada.io/topic?id=33434",
+      "commentsUrl": "https://news.hada.io/topic?id=33434",
+      "publishedAt": "2026-09-09T19:33:48+09:00",
+      "snippet": "가상 채용 실험에서 능력 차이가 없는 집단을 서로 다른 직군에 몰아 배치 하는 편향이 나타남 초기의 우연한 성공을 반복 활용하면서, 다른 집단을 충분히 시험하지 않는 과정 이 편향을 굳힘 실험한 모델군에서는 새롭고 큰 모델일수록 집단별 배치가 더 ...",
+      "oneLineKo": "LLM, 경험 통해 새로운 편향 스스로 생성",
+      "summaryKo": "가상 채용 실험에서 LLM이 능력 차이가 없는 집단을 서로 다른 직군에 편향적으로 배치하는 현상이 발견됐다. 초기의 우연한 성공을 반복 활용하면서 다른 집단을 충분히 검증하지 않아 이러한 편향이 점차 굳어지는 것으로 나타났다. 실험 대상 모델군에서는 최신의 더 큰 모델일수록 이러한 집단별 편향 배치가 더 심하게 나타났다. 이는 LLM이 기존 데이터의 편견을 답습하는 것을 넘어 경험을 통해 스스로 새로운 편향을 만들어낼 수 있음을 시사한다.",
+      "tags": [
+        "llm",
+        "ai-bias",
+        "fairness"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49626190",
+      "title": "Shopify acquires Tailwind",
+      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49626190",
+      "publishedAt": "2026-09-09T13:27:11Z",
+      "score": 842,
+      "comments": 336,
+      "snippet": "Tailwind Labs is joining Shopify - Tailwind CSS v 4.3 ⌘K Ctrl K Docs Play Blog Showcase Partners Plus September 9, 2026 Tailwind Labs is joining Shopify Adam Wathan @ adamwathan Big one today — Tailwind is joining Shopify. When I started working on Tailwind over nine years ago, my only goal was to create something that would make it easier to build beautiful interfaces for my own projects. Fast-forward to today and the framework is installed over 110 million times per week and is trusted by many of the world's biggest companies to style products like ChatGPT, X, Cloudflare, Reddit, and Shopify. We're joining Shopify to give Tailwind a stable long-term home where it will be actively maintained for the millions of people who depend on it. Why Shopify We built a great little website template business around Tailwind over the years, but deep down I've always wanted the framework to be developed in service of a real product. A complex application solving important problems for real people, where we'd face the same challenges as our users, and could invent solutions that make the framework better for everyone. Shopify provides an incredible surface area for us to do this work. Merchants need to be able to design and host beautiful custom storefronts, and manage sales and inventory in a powerful admin area. Their customers need delightful shopping and checkout experiences, and an intuitive way to keep track of their orders and discover new products through the Shop app. Shopify is also on the frontier of where user interfaces need to go next with their explorations into agentic commerce. Shopify was also one of the very first companies operating at scale to see the potential in Tailwind CSS and start building with it , not only for themselves but betting on it for their customers too. Tailwind is a load-bearing very important part of the stack at Shopify, and they're invested in making sure it's actively maintained and continues to improve and adapt for how the ways we build are changing. On a less technical note, I'm personally excited because entrepreneurship has completely changed my life . We are not doing enough as a society to produce and empower more entrepreneurs, and I believe deeply in Shopify's mission to help more people start, run, and grow their own business. What's next Nothing changes with Tailwind CSS or any of our other open-source projects . Everything will always be MIT-licensed, and our team will continue to lead and maintain these projects for the community with the support of Shopify. On the commercial side, we'll no longer be trying to grow the business around Tailwind. All existing customers will of course maintain their access to products like Tailwind Plus and ui.sh , but we're closing sign ups for new customers to focus on Tailwind CSS at Shopify. Thank you so much to everyone who has built something with Tailwind and supported us over these last nine years. I never could've imagined the project would become what it has today",
+      "oneLineKo": "Tailwind Labs, Shopify에 합류",
+      "summaryKo": "Tailwind CSS 개발사 Tailwind Labs가 Shopify에 합류한다고 발표했다. Tailwind CSS는 매주 1억 1천만 회 이상 설치되며 ChatGPT, X, Cloudflare, Reddit 등 주요 기업에서 사용 중이다. Shopify는 초기부터 Tailwind CSS를 대규모로 채택한 기업 중 하나로, 이번 합류를 통해 프레임워크의 장기적인 유지보수 안정성을 확보하게 됐다. Tailwind CSS 및 기타 오픈소스 프로젝트는 계속 MIT 라이선스로 유지되며, 다만 신규 유료 고객 가입은 중단하고 Tailwind CSS 개발에 집중할 계획이다.",
+      "tags": [
+        "tailwindcss",
+        "shopify",
+        "open-source"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wbs3m4",
+      "title": "Excessive Meetings",
+      "url": "https://www.reddit.com/r/programming/comments/1wbs3m4/excessive_meetings/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wbs3m4/excessive_meetings/",
+      "publishedAt": "2026-09-09T17:26:41+00:00",
+      "snippet": "This isn’t meant to be a complaint post. However, does anyone else feel like their dev team spends entirely too much time in meetings? Don’t get me wrong, I don’t need to be working nonstop and pulling overtime. At the same time, I also don’t need to have meetings every two hours each day of the week that ultimately disrupts my flow, or meetings that last for three or more hours at a time. It’s gotten to the point where meetings are my primary job duty instead of coding. My team thinks that we all should be analysts, apparently. Which I don’t have a problem with analyst, but that’s not really my job. submitted by /u/CaptainGenesisX [link] [comments]",
+      "oneLineKo": "개발자 커뮤니티, 과도한 회의 문화 불만 토로",
+      "summaryKo": "레딧 프로그래밍 커뮤니티에 개발팀의 과도한 회의 문화를 지적하는 글이 올라왔다. 하루에도 여러 번, 길게는 3시간 이상 이어지는 회의가 업무 흐름을 방해하고 코딩보다 회의가 주요 업무가 되어버렸다는 불만이다. 작성자는 분석가 역할까지 요구받는 상황에 대해 문제의식을 드러냈다.",
+      "tags": [
+        "devculture",
+        "productivity"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33442",
+      "title": "Claude, \"Add to Cart\" 버튼을 파란색으로 바꿔 줘",
+      "url": "https://news.hada.io/topic?id=33442",
+      "commentsUrl": "https://news.hada.io/topic?id=33442",
+      "publishedAt": "2026-09-09T23:39:37+09:00",
+      "snippet": "Opusfived 는 버튼 색상 하나를 바꾸는 단순한 요청과 AI의 범위 밖 변경을 소재로 한 짧은 인터랙티브 코미디임 요청은 “Add to Cart” 버튼을 파란색으로 바꾸는 것 으로, 대상과 바꿀 속성이 명확함 작업에는 다른 것은 아무것도 바꾸지 않아야...",
+      "oneLineKo": "AI의 과도한 코드 수정 풍자한 인터랙티브 코미디",
+      "summaryKo": "Opusfived가 만든 짧은 인터랙티브 콘텐츠로, 'Add to Cart' 버튼 색상을 파란색으로 바꾸는 단순한 요청을 소재로 AI가 요청 범위를 벗어나 다른 부분까지 변경하는 상황을 코미디로 풀어냄. 명확한 대상과 속성이 주어진 간단한 작업임에도 AI가 예상치 못한 추가 변경을 시도하는 문제를 유머러스하게 다룸.",
+      "tags": [
+        "ai",
+        "llm",
+        "coding"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49624823",
+      "title": "Desert Ant Labs: local, fast models that run on device",
+      "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49624823",
+      "publishedAt": "2026-09-09T11:39:46Z",
+      "score": 373,
+      "comments": 88,
+      "snippet": "On-device intelligence for every product | Desert Ant Labs Desert Ant Labs Models Align Word timestamps Clear Speech enhancement Clips Clip selection Ear Spoken language detection Emo Emoji suggestions Gist Content topic tagging Redact PII redaction Shapes Shape recognition Title Titles and descriptions Tongue Language identification Uhm Filler-word detection Voz Speech recognition All models Docs Blog About Contact Home / Blog / Introducing Desert Ant Labs Company On-device intelligence for every product Paul Veugen September 8, 2026 · 6 min read Today we're launching Desert Ant Labs, a European frontier AI lab building opinionated on-device intelligence. We believe the best path to efficient intelligence starts on-device. We're building small, specialized models for audio, vision, and text – each model answers in milliseconds, and costs nothing to run, so you can put intelligence in every product interaction, without being limited by token cost or inference speed. Small enough to run on a five-year-old phone, fast enough to use on every frame or keystroke, and better than the API call you're already paying for. The first 18 models are live today (12 stable and six in beta), accessible via one SDK for Swift, Kotlin, and JavaScript. One model per task, each built to be the fastest way to complete that task on a device: Voz : transcribe 10 minutes of audio in two seconds on an iPhone – 4.7x faster than Whisper – with a start and end time on every word. Clear : a 9MB model that can turn a five-minute laptop recording into studio quality audio in one second. Redact : mask names, addresses, and card numbers, in real time, in 27 languages, so they never reach your servers. Tongue : identify 84 languages from three words, with a 2MB model. Language ID accuracy, three words in Tongue · 2MB 0.933 293MB detector 0.887 Tongue names the language from three words, scoring 0.933 at 2MB against 0.887 for a 293MB detector. And that's just to name a few. You can find full specs and benchmarks for the other fourteen, on desertant.com/models and Hugging Face . Every model is free up to 100k monthly active devices. No tokens, no logins. Personal data caught, by system Redact · 12MB 88.8 GLiNER-PII · 2.3GB 91.1 Rampart · 14.7MB 61.4 OpenAI filter · 3GB 60.2 Redact catches 88.8% of the personal data in a text, close to the 2.3GB GLiNER-PII, from a 12MB model. We're building this in Europe, where \"on-device\" is the sovereign default. The data never leaves your customer's hands, the feature never depends on someone else's cloud, and what's never been uploaded can never be compelled. How we got here For five years we've been building our video app, Detail , with an on-device first approach. But when we introduced features like Auto Edit to create short clips, or audio enhancement for podcasts, we had to fall back to cloud APIs. And as the popularity of Detail grew, so did our infrastructure bills. Every few months I'd hunt for useful on-device models. I'd surf Hugging F",
+      "oneLineKo": "유럽 스타트업, 온디바이스 경량 AI 모델 18종 출시",
+      "summaryKo": "Desert Ant Labs가 오디오·비전·텍스트용 온디바이스 소형 AI 모델 18종(12개 정식, 6개 베타)을 출시하며, Swift·Kotlin·JavaScript용 단일 SDK로 제공한다. Voz(음성 인식), Clear(음질 개선), Redact(개인정보 마스킹), Tongue(언어 식별) 등 각 작업별 최적화 모델을 선보였으며, Whisper보다 4.7배 빠른 전사 속도와 같은 벤치마크 성능을 강조한다. 유럽 기반으로 데이터가 기기 밖으로 나가지 않는 주권적 온디바이스 방식을 지향하며, 월 10만 활성 기기까지 무료로 제공한다.",
+      "tags": [
+        "on-device-ai",
+        "edge-ml",
+        "speech-recognition"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33448",
+      "title": "Anthropic, 활동가 감시를 위한 예측형 감시 시스템 구축 중",
+      "url": "https://news.hada.io/topic?id=33448",
+      "commentsUrl": "https://news.hada.io/topic?id=33448",
+      "publishedAt": "2026-09-10T02:33:30+09:00",
+      "snippet": "채용 공고와 보안 책임자 인터뷰에 따르면, Anthropic은 AI의 급속한 개발에 반대하는 활동가 와 임원·시설 주변 시위를 감시하며 사건 발생 전 위협을 예측하는 체계를 확대하고 있음 위험 탐지 업체 Samdesk 의 시위 정보와 관심 인물 추적 절차 를...",
+      "oneLineKo": "Anthropic, 활동가 시위 예측형 감시 시스템 구축 논란",
+      "summaryKo": "채용 공고와 보안 책임자 인터뷰에 따르면, Anthropic은 AI 개발에 반대하는 활동가와 임원·시설 주변 시위를 감시하고 사건 발생 전 위협을 예측하는 체계를 확대하고 있다. 이를 위해 위험 탐지 업체 Samdesk의 시위 정보와 관심 인물 추적 절차 등을 활용하는 것으로 전해졌다. 이는 AI 기업의 보안 강화 movement가 활동가 감시로 이어질 수 있다는 우려를 낳고 있다.",
+      "tags": [
+        "ai",
+        "surveillance",
+        "security"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49624856",
+      "title": "How I advertise malicious software on Google Ads",
+      "url": "https://xlii.space/eng/malicious-software-on-google-ads/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49624856",
+      "publishedAt": "2026-09-09T11:43:21Z",
+      "score": 342,
+      "comments": 206,
+      "snippet": "How I advertise malicious software on Google Ads home 2026-09-09 How I advertise malicious software on Google Ads A caller phones Radio Erywan. &ldquo;Is it true that in Moscow, on Red Square, they give out cars?&rdquo; &ldquo;True. Not in Moscow, however, but in St. Petersburg. Not on Red Square, but on Revolution Square. Not cars, but bikes. And they don’t give them out, but steal them&rdquo;. Edit: Through the apparent magic of Hacker News, my Google Ads account has been reinstated. ✨. Still no explanation of what triggered the suspension, but thank you to everyone who helped make it visible (and/or fixed). RACE is a native macOS terminal multiplexer written in Rust. You can position and resize terminals freely instead of squeezing everything into a uniform grid: Keep a large editor beside a small shell, spread out build logs, arrange the workspace around the work, mark with colors etc. I built it, I use it, and I maintain it. Since it&rsquo;s multiplexer it manages terminals and lets shell sessions survive application restarts (good for development and hooking off the work). In action it looks like this: I also built the website for it - https://race-term.com . Static page built with Bridgetown. JavaScript changes the DOM to provide interactive visual features and that&rsquo;s it. No custom server-side application behind it. At the submission time (that changed recently) the only third-party JavaScript ws Cloudflare Analytics. No Google Analytics or advertising tracking - to keep it light. Served from Cloudflare, Cloudflare R2 keeps the downloads. Then I tried advertising for the first time. I set up a Google Ads campaign. Spent 500$ and&hellip; Google suspended the account for &ldquo;Malicious software&rdquo;. Unexpected addition to the feature list. Google To be precise - Google said &ldquo;Malicious software&rdquo; and &ldquo;Compromised Site&rdquo;. Sounded like bullshit. Application was signed and notarized. Website was clear and had no attack surface, but sure I&rsquo;ll check. Zero. Nothing. Nada. Clean like a whistle. So I appealed. It rejected my appeal, told me to submit new information, and suggested deleting my account if I had none. It also pointed me toward EU redress options. It did not say what was malicious, what was compromised, or why the evidence I supplied failed to address either accusation. I received instructions for appealing the decision, but no explanation that would help me challenge. I appealed, and got rejected. Then I appealed, and got rejected. And I appealed with even more information, and got rejected. And again, and got blocked for a week. And again&hellip; We have completed a full security review of the RACE website, download infrastructure, JavaScript assets, and distributed macOS application. Security verification Google Safe Browsing: no issues reported for the distributed DMG: https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fdownloads.race-term.com%2FRACE.dmg&hl=en VirusTotal: ",
+      "oneLineKo": "구글 광고가 정상 앱을 '악성코드'로 오탐, 소명 반복 거부",
+      "summaryKo": "macOS용 터미널 멀티플렉서 RACE를 개발한 저자가 Google Ads에 광고를 게재했다가 '악성 소프트웨어'와 '손상된 사이트'라는 이유로 계정이 정지됐다. 앱은 서명 및 노터라이즈됐고 Google Safe Browsing과 VirusTotal 검사에서도 문제가 없었지만, 여러 차례 이의 신청이 모두 반려되고 구체적 사유도 제공되지 않았다. Hacker News를 통해 이슈가 알려진 후 계정은 복구됐지만 정지 원인에 대한 설명은 끝내 받지 못했다.",
+      "tags": [
+        "google-ads",
+        "macos",
+        "rust"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33446",
+      "title": "Desert Ant Labs, 기기에서 직접 음성·이미지·텍스트를 처리하는 빠른 로컬 AI 모델 18개 공개",
+      "url": "https://news.hada.io/topic?id=33446",
+      "commentsUrl": "https://news.hada.io/topic?id=33446",
+      "publishedAt": "2026-09-10T00:34:11+09:00",
+      "snippet": "음성 인식, 녹음 음질 개선, 개인정보 가리기 등을 기기 안에서 처리하는 소형 특화 모델 18개 를 공개함. 안정 버전 12개와 베타 6개로 구성 반복 작업마다 대형 모델 API를 호출하는 대신 작업에 맞는 작은 모델을 로컬에서 실행 해, 서버 왕복과 호출당 비용 없이...",
+      "oneLineKo": "온디바이스 음성·이미지 처리용 경량 AI 모델 18종 공개",
+      "summaryKo": "Desert Ant Labs가 음성 인식, 녹음 음질 개선, 개인정보 마스킹 등 특정 작업에 특화된 소형 AI 모델 18개를 공개했다. 안정 버전 12개와 베타 6개로 구성되며, 대형 모델 API를 반복 호출하는 대신 기기 내에서 직접 실행되도록 설계됐다. 이를 통해 서버 왕복 지연과 호출당 비용 없이 음성·이미지·텍스트를 빠르게 처리할 수 있다.",
+      "tags": [
+        "on-device-ai",
+        "local-model",
+        "speech-recognition"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49627370",
+      "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
+      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49627370",
+      "publishedAt": "2026-09-09T14:37:47Z",
+      "score": 321,
+      "comments": 116,
+      "snippet": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning Subscribe Sign in GPT-6 Astra, Looped Transformers, and Hidden Reasoning A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks Sebastian Raschka, PhD Sep 09, 2026 172 22 19 Share A lot has happened in the last few weeks. I am sure that OpenAI’s GPT-6 Astra is top of mind for everyone right now. In particular, thoughts on its performance, the looped transformer/recurrent depth aspects, and rumors that Astra is “hiding” its reasoning trace (i.e., chain of thought). So, in this article, I want to start with some brief impressions of Astra and some thoughts on where all this is headed. Then, I will discuss, in detail, what “looped transformers” are, and how (or rather, if) this relates to hiding chains of thought. Lastly, after covering the basics of the looped transformer, I wanted to highlight some new insights from recent research papers on the topic. 1. GPT-6 Astra impressions First things first. Before getting into the architecture rumors and related research literature, let me briefly summarize some GPT-6 Astra observations and tidbits. Last week, OpenAI’s new GPT-6 Astra was released with a big fanfare. I used it over the past couple of days, and it’s an exceptionally good model, likely the best I’ve used as of this writing. But what, exactly, has it improved, and how? 1.1 Astra benchmarks Astra is the best model I’ve used so far, and it’s disproportionately good at 3D rendering and animation tasks (relative to other models). With that, I mean that while it leapfrogs its GPT-5.6 predecessor in practically all categories (writing, math, coding, and more), it especially does so when it comes to graphical demos. We can see this also reflected in the benchmarks. For instance, GPT-6 Astra is really good at math and coding, as shown below. Figure 1: Selection of three popular coding benchmarks and one challenging math benchmark. More benchmarks are shared on the Astra release blog: https://openai.com/index/gpt-6-astra/ One of the highlights (not shown in the figure) is that Astra also achieves 99.9% on the ARC-AGI-3 benchmark (GPT-5.6 Sol only 7.8%), which measures a mix of solving logic puzzles and generalization. However, the math, coding, and computer use benchmarks are more interesting because they are closer to real-world use. Coming back to the Artificial Analysis Coding Agent Index v1.4 (lower right in the previous figure), which blends several agentic coding tasks, GPT-6 Astra is clearly at the frontier, but it doesn’t pull ahead by leaps and bounds. This can also be seen in the general Artificial Analysis Intelligence Index shown below, which blends different types of tasks, not just coding tasks. Figure 2: Artificial Analysis Intelligence Index via https://artificialanalysis.ai/#intelligence Now, the big advantage of Artificial Analysis benchmarks is that they are independent and thus may be a bit more trustworthy than self-evaluated ben",
+      "oneLineKo": "GPT-6 Astra와 looped transformer, 은닉 추론 분석",
+      "summaryKo": "저자는 OpenAI의 새 모델 GPT-6 Astra를 사용해본 인상과 벤치마크 결과를 소개한다. Astra는 코딩, 수학, 3D 렌더링 등에서 이전 모델보다 크게 향상되었으며 ARC-AGI-3 벤치마크에서 99.9%를 기록했다. 이어 Astra가 chain of thought를 숨기고 있다는 루머와 관련해 looped transformer(recurrent depth) 구조의 개념과 최신 연구 동향을 상세히 설명한다.",
+      "tags": [
+        "llm",
+        "transformer",
+        "gpt"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33440",
+      "title": "AI의 수학적 돌파구는 어떻게 논란을 촉발했나",
+      "url": "https://news.hada.io/topic?id=33440",
+      "commentsUrl": "https://news.hada.io/topic?id=33440",
+      "publishedAt": "2026-09-09T22:34:58+09:00",
+      "snippet": "OpenAI가 약 1만 개 AI 에이전트를 88시간 가동 해 나비에-스토크스 방정식에서 물리적으로 실현될 수 없는 결과가 나오는 사례를 찾았다며 난제 해결을 발표함 유체 속도가 유한한 시간 안에 무한히 커지는 특이점 이 생기는 해를 찾았으며, 검증된다면 AI가...",
+      "oneLineKo": "OpenAI 나비에-스토크스 해법 발표, 검증 논란 촉발",
+      "summaryKo": "OpenAI가 약 1만 개의 AI 에이전트를 88시간 가동해 나비에-스토크스 방정식에서 물리적으로 실현될 수 없는 특이점 해를 찾았다고 발표했다. 유체 속도가 유한한 시간 안에 무한히 커지는 해를 발견했다는 주장으로, 검증되면 AI가 수학 난제 해결에 기여한 사례로 평가될 수 있다. 그러나 이 결과의 검증 여부와 신뢰성을 둘러싸고 수학계와 AI 커뮤니티에서 논란이 일고 있다.",
+      "tags": [
+        "ai-agent",
+        "mathematics",
+        "openai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49614280",
+      "title": "What do Visa and Mastercard do? An intro to card networks",
+      "url": "https://tautology.town/2026/06/01/card-networks.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49614280",
+      "publishedAt": "2026-09-08T18:11:05Z",
+      "score": 315,
+      "comments": 196,
+      "snippet": "What do Visa and Mastercard do? An intro to card networks @ tautology.town Home About What do Visa and Mastercard do? An intro to card networks Jun 1, 2026 Most people can recognize the Visa and Mastercard brands. Chances are, you use one of their cards to transact every day. You may have some notion that most places (in the US) take both, but some places only take Visa (e.g. Costco), and vice versa. So what do they do? Here’s Visa’s attempt to answer that question. A few things they don’t do 1 : They aren’t the company that issues the card. Those are called card issuers . They aren’t a bank, though the cards you have are probably issued by one (Chase, Capital One, BofA, etc). They don’t distribute point of sale methods or online checkouts, which are done by payment processors . They aren’t responsible for onboarding or underwriting stores and merchants, known as merchant acquiring . This is done by banks offering merchant accounts, but increasingly offered by modern payment processors (Stripe, Square, Adyen) 2 . They don’t manufacture or print cards. Nor do they manufacture the point of sale hardware. Instead, Visa and Mastercard are card networks 3 , facilitating card transactions by connecting the cardholders and issuers to the merchants and acquirers. This forms a two-sided market of all the participants in a transaction 4 : --- config: theme: 'neutral' fontFamily: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; nodeSpacing: 20 rankSpacing: 25 flowchart: subGraphTitleMargin: {bottom: 20} useMaxWidth: true --- %% For some reason arrows are still showing up in the Obsidian preview, but not in Mermaid online editor flowchart LR subgraph Issuing[**Issuing**] direction TB CI[Card issuer] --- CH[Cardholder] end subgraph Acquiring[**Acquiring**] direction TB MA[Merchant acquirer] --- M[Merchant] end Issuing ---- CN[**Card network**] CN ---- Acquiring The key players in a card transaction. The card network’s job is to enable card transactions, and also to grow participation in their networks. This boils down to four key responsibilities: Run the telecommunications network to route transaction messages. Coordinate the banking network to move money and settle transactions. Set the incentives to encourage the use of the network. Set and enforce rules of the network, including a mechanism for disputes. For the rest of the discussion, we’ll focus on Visa, as it’s what I’m most familiar with from my years in the payment industry. Mastercard is more or less the same, with different names for things. 1. Run the telecommunications network When we talk about networks, we think of the Internet, computers connected together by fiber and deep sea cables . Card networks, being telecommunication networks, are no different. They maintain data centers and lease fiber optics cables to connect issuers and acquirers electronically. At their most basic technical level, Visa’s responsi",
+      "oneLineKo": "Visa·Mastercard는 카드사가 아닌 결제 네트워크 사업자",
+      "summaryKo": "Visa와 Mastercard는 카드 발급사(은행)도, 결제 처리업체도, 가맹점 계약사도 아니며 카드 실물 제조사도 아니다. 이들은 카드 소지자·발급사와 가맹점·매입사를 연결하는 '카드 네트워크'로서 양면 시장을 형성한다. 핵심 역할은 거래 메시지를 라우팅하는 통신망 운영, 자금 이동과 정산을 위한 은행망 조정, 네트워크 참여 유도를 위한 인센티브 설계, 그리고 분쟁 해결을 포함한 네트워크 규칙 제정 및 집행 네 가지로 요약된다. 글은 결제 산업 경험을 바탕으로 주로 Visa를 중심으로 설명하며 Mastercard도 유사한 구조라고 언급한다.",
+      "tags": [
+        "payments",
+        "fintech",
+        "card-networks"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49628493",
+      "title": "No Man's Sky Cosmos",
+      "url": "https://www.nomanssky.com/cosmos-update/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49628493",
+      "publishedAt": "2026-09-09T15:47:42Z",
+      "score": 263,
+      "comments": 272,
+      "snippet": "Cosmos Update - No Man's Sky Menu Latest patch notes Hello Games Cloud Cross-Save Twitch Drops Buy Release log News Merch Galactic Atlas Cosmos: Introducing Update 7.0 Become director of a space station , join a galactic alliance , construct a space base and discover deep-space marvels in No Man's Sky Cosmos. Navigate space with a new star system map , strip colossal hulks for parts before hull integrity fails, recover and haul physical salvage to remote space outposts , celebrate 10 years of No Man’s Sky in the Our Journey Continues expedition , and much, much more. Buy now on More purchase options &#xBB; Direct a Space Station Prove yourself to the local authorities to become director of a Space Station. Style your station’s central lobby, expand it with ancillary rooms, and decorate its exterior to welcome - or deter - visiting Travellers. Alliances Join a galactic alliance to make friends, co-ordinate exploration, and compete for the most expansive territory in the galaxy. As a station director, you can found your own alliance , and design a name and banner to propagate across the universe. Deep-Space Outposts Alien lifeforms have established deep-space outposts in inhabited systems. Visit these remote buildings to process rare minerals, trade with the quartermaster, and sign up for deep-space contracts . Orbital Construction Establish a free-floating base anywhere in space . Deploy a deep-space base computer and claim a volume as your own to construct your dream orbital habitat or celestial city. Derelict Hulks Colossal shipwrecks can be found drifting in the depths of space. These huge derelicts are a dangerous maze of rusted chambers and narrow chokepoints , only navigable via careful spacewalk . Pluck valuable technologies and cargo from their skeletons, but be wary of disrupting structural integrity... Shape Your Station As a Station Director, personalise and adorn the exterior of your space station. Design a cosy, welcoming flightpath, or impress visitors with opulent decorations. 10 Year Anniversary Expedition A new community expedition, Our Journey Continues , celebrates ten years since the release of No Man’s Sky. Each milestone represents an update or moment in time in the history of the NMS journey - from launch through to Cosmos . -39.59, -53.41 Alliance Leaderboards Nurture and contribute to your in-game community, and rise to the top of the alliance rankings . The most populous , active , and expansive alliances will be featured on the ranking leaderboards, accessible from the Space Station core . Framed Commemorative Art Join the Our Journey Continues expedition and earn a beautiful set of framed artwork , featuring the book cover images from some of No Man’s Sky’s biggest updates. Star System Map Navigate deep space with an interactive star system map, plotting the location of celestial bodies, deep-space points of interest , and unidentified signals in your current system. Mark any planet or POI on the map to enable starship ",
+      "oneLineKo": "노맨스카이 대형 업데이트 '코스모스' 7.0 출시",
+      "summaryKo": "No Man's Sky의 신규 업데이트 'Cosmos'(7.0)가 공개되었다. 플레이어는 우주 정거장의 디렉터가 되어 은하 동맹을 결성하고, 우주 공간에 자유롭게 기지를 건설할 수 있다. 새로운 성계 지도, 난파선 탐사, 딥스페이스 아웃포스트 등의 콘텐츠가 추가되었으며, 출시 10주년을 기념하는 커뮤니티 이벤트도 함께 진행된다.",
+      "tags": [
+        "gaming",
+        "no-mans-sky",
+        "update"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49630151",
+      "title": "iPhone 18 Pro and iPhone 18 Pro Max",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49630151",
+      "publishedAt": "2026-09-09T17:33:20Z",
+      "score": 241,
+      "comments": 251,
+      "snippet": "Apple debuts iPhone 18 Pro and iPhone 18 Pro Max - Apple Apple Store Mac iPad iPhone Watch Vision AirPods TV & Home Entertainment Accessories Support 0 + Newsroom Open Newsroom navigation Close Newsroom navigation Apple Services Apple Stories Search Newsroom Close opens in new window PRESS RELEASE September 9, 2026 Apple debuts iPhone 18 Pro and iPhone 18 Pro Max The new Pro lineup introduces variable aperture with the most advanced camera in an iPhone, incredible battery life, next‑level performance, and Siri AI, all powered by A20 Pro iPhone 18 Pro and iPhone 18 Pro Max feature the most advanced camera Apple has ever made and deliver massive leaps in battery life and performance. CUPERTINO, CALIFORNIA Apple today announced iPhone 18 Pro and iPhone 18 Pro Max , delivering the most advanced pro camera system in an iPhone, and huge leaps in battery life and performance. The new 48MP Fusion Main camera, now with variable aperture, brings creative control that wasn’t possible before, and new Pro controls let users customize their experience in the Camera app. Both models feature a smaller and even more useful Dynamic Island, as well as A20 Pro and a next-generation vapor chamber that together deliver the highest sustained performance in iPhone history. iPhone 18 Pro Max also delivers the largest increase in battery life ever on iPhone, thanks to advancements in Apple silicon and a larger battery. 1 Featuring iOS 27 with Apple Intelligence 2 and Siri AI , 3 iPhone 18 Pro models bring powerful AI capabilities together with personal context to become an intelligent personal hub with privacy and security at its core. iPhone 18 Pro and iPhone 18 Pro Max are available in four elegant finishes: black, silver, glacier, and an all-new burgundy. Pre-orders begin Saturday, September 12, with availability beginning Friday, September 18. “With iPhone 18 Pro, we’ve made advancements to the areas our users care about most: camera, performance, battery, and intelligence. And we didn’t just make incremental improvements in these areas — we took huge leaps forward to create the best Pro iPhone we’ve ever made,” said Greg Joswiak, Apple’s senior vice president of Worldwide Marketing. “iPhone 18 Pro makes it easy for anyone to capture stunning photos and videos using variable aperture, while providing more versatility for creators and more control for pros. Paired with impactful upgrades to Photographic Styles and powerful video capabilities, iPhone 18 Pro unlocks entirely new ways for users to express themselves.” iPhone 18 Pro will be available in four elegant finishes: black, silver, glacier, and burgundy. An Advanced Camera System That Unlocks More Creativity Across Photo and Video The new 48MP Fusion Main camera with variable aperture is the most advanced camera Apple has ever made, bringing aperture control to iPhone for the first time along with even more creative control. Six laser-cut blades smoothly transition between different apertures, making it incredibly",
+      "oneLineKo": "애플, A20 프로 탑재 아이폰18 프로 시리즈 공개",
+      "summaryKo": "애플이 아이폰18 프로와 프로 맥스를 공식 발표했다. 가변 조리개를 지원하는 4800만 화소 퓨전 메인 카메라, A20 프로 칩과 차세대 베이퍼 챔버로 향상된 성능과 배터리 수명이 특징이다. iOS 27과 애플 인텔리전스, 시리 AI를 통해 개인 맥락 기반의 지능형 허브 기능도 제공한다. 사전예약은 9월 12일, 정식 출시는 9월 18일이다.",
+      "tags": [
+        "apple",
+        "iphone",
+        "ai"
+      ]
+    }
+  ]
+}
