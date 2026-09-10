@@ -1,0 +1,279 @@
+{
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-10T23:33:21.471Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33487",
+      "title": "Rust, Microsoft의 Tier-1 언어로 자리 잡음",
+      "url": "https://news.hada.io/topic?id=33487",
+      "commentsUrl": "https://news.hada.io/topic?id=33487",
+      "publishedAt": "2026-09-11T01:46:51+09:00",
+      "snippet": "Microsoft는 Rust를 C++, C#, TypeScript와 함께 내부 개발에서 가장 잘 지원하는 Tier-1 언어 로 운영하며, 로컬 개발부터 프로덕션까지 보안 도구 체인·개발 도구·품질 검증·플랫폼 통합·SDL 요구사항 준수를 지원함 대체 코드 생성 백엔드 rustc_codegen_utc ...",
+      "oneLineKo": "Microsoft, Rust를 내부 Tier-1 언어로 공식 지정",
+      "summaryKo": "Microsoft가 Rust를 C++, C#, TypeScript와 함께 내부 개발에서 최우선으로 지원하는 Tier-1 언어로 운영한다고 밝혔다. 이에 따라 로컬 개발부터 프로덕션까지 보안 도구 체인, 개발 도구, 품질 검증, 플랫폼 통합, SDL 요구사항 준수 등을 폭넓게 지원한다. 대체 코드 생성 백엔드인 rustc_codegen_utc 등도 함께 언급되어 내부 생태계 지원 범위가 넓음을 시사한다.",
+      "tags": [
+        "rust",
+        "microsoft",
+        "devtools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49643982",
+      "title": "Shopify is moving from React Native back to Swift and Kotlin",
+      "url": "https://shopify.engineering/back-to-native",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49643982",
+      "publishedAt": "2026-09-10T14:09:31Z",
+      "score": 672,
+      "comments": 448,
+      "snippet": "Native is now the future of mobile at Shopify (2026) - Shopify Skip to Content Solutions Start Start your business . Build your brand Create your website . Online store editor Customize your store . Store themes Find business apps . Shopify app store Own your site domain . Domains & hosting Explore free business tools . Tools to run your business Sell Sell your products . Sell online or in person Check out customers . World-class checkout Sell online . Grow your business online Sell across channels . Reach millions of shoppers and boost sales Sell globally . International sales Sell wholesale & direct . Business-to-business (B2B) Market Market your business . Reach & retain customers Market across social . Social media integrations Chat with customers . Shopify Inbox Nurture customers . Shopify Messaging Know your audience . Gain customer insights Manage Manage your business . Track sales, orders & analytics Measure your performance . Analytics and Reporting Manage your stock & orders . Inventory & order management Automate your business . Shopify Flow Shopify Developers . Build with Shopify's powerful APIs Plus . A commerce solution for growing digital brands All Products . Explore all Shopify products & features Pricing Resources Help and support Help and support . Get 24/7 support Business courses . Learn from proven experts Popular topics What is Shopify? . How our commerce platform works Essential tools Business name generator . Logo maker . Stock photography . QR code generator . What’s new Changelog . Your source for recent updates Newsroom . All company news and press releases Engineering Blog AI & Machine Learning Mobile Infrastructure Culture Latest More topics Security Developer Tooling Data Science Engineering Search Type something you're looking for Log in Start for free blog | Mobile Native is now the future of mobile at Shopify Coding agents changed what it costs to build mobile apps twice. Here’s why Shopify is moving from React Native back to Swift and Kotlin. Published on Sep 10, 2026 Engineering at Shopify We’re hiring See open roles We decided to go all-in on React Native back in 2020, and that bet has been extremely successful. We saved a ton of time building features just once, enabled developers with no mobile background to contribute to our apps, and freed ourselves from constantly chasing feature parity. In January 2025, I wrote that the future of React Native was bright and that Shopify planned to keep investing in it. That was true based on what we knew then. React Native was working well for us, and it remains an excellent framework. But since then, coding models have gotten dramatically better, and for our apps and our team, building the same feature in Swift and Kotlin no longer carries the cost it used to. We don’t hold on to a decision just because it was successful at the time. When a core assumption changes, we’re willing to go back and ask whether it’s still the right call. LLMs changed one of the core assumptio",
+      "oneLineKo": "쇼피파이, React Native에서 Swift·Kotlin으로 회귀",
+      "summaryKo": "쇼피파이는 2020년부터 React Native를 도입해 코드 재사용과 개발 효율성에서 큰 성공을 거뒀다. 하지만 코딩 AI 모델의 급격한 발전으로 Swift와 Kotlin으로 동일 기능을 구현하는 비용이 예전만큼 크지 않아졌다고 판단했다. 이에 따라 쇼피파이는 모바일 앱 개발의 미래로 다시 네이티브 개발 방식을 택하기로 결정했다. 이는 핵심 전제가 바뀌면 기존 성공적인 결정도 재검토할 수 있다는 조직의 원칙을 보여준다.",
+      "tags": [
+        "react-native",
+        "swift",
+        "kotlin"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wcotkh",
+      "title": "Native is now the future of mobile at Shopify",
+      "url": "https://www.reddit.com/r/programming/comments/1wcotkh/native_is_now_the_future_of_mobile_at_shopify/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wcotkh/native_is_now_the_future_of_mobile_at_shopify/",
+      "publishedAt": "2026-09-10T16:55:30+00:00",
+      "snippet": "submitted by /u/Sampo [link] [comments]",
+      "oneLineKo": "Shopify, 모바일 개발에 네이티브 방식 채택",
+      "summaryKo": "Shopify가 모바일 앱 개발 전략으로 네이티브 방식을 미래 방향으로 채택했다는 소식입니다. 본문 내용이 제공되지 않아 구체적인 배경이나 기존 기술 스택 전환 사유는 확인되지 않습니다. 제목만으로 볼 때 크로스플랫폼에서 네이티브로의 전환이 핵심 내용으로 추정됩니다.",
+      "tags": [
+        "mobile",
+        "native",
+        "shopify"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33471",
+      "title": "AI는 우리의 경제적 미래를 어떻게 바꿀까?",
+      "url": "https://news.hada.io/topic?id=33471",
+      "commentsUrl": "https://news.hada.io/topic?id=33471",
+      "publishedAt": "2026-09-10T13:36:03+09:00",
+      "snippet": "Anthropic이 AI의 발전과 도입 속도에 관한 예상을 입력하면 2030년 미국의 경제와 일자리 변화를 보여주는 경제 시나리오 탐색기를 공개함 직업 전체가 사라지는지만 보는 대신, 직업을 구성하는 업무가 AI로 보조되거나 자동화되고 새로운 업무가 생기는 과정 을 ...",
+      "oneLineKo": "Anthropic, AI가 바꿀 2030년 미국 경제 시나리오 도구 공개",
+      "summaryKo": "Anthropic이 AI의 발전과 도입 속도를 입력하면 2030년 미국 경제와 일자리 변화를 예측하는 경제 시나리오 탐색기를 공개했다. 이 도구는 직업 전체의 소멸 여부만 보는 대신, 각 직업을 구성하는 세부 업무가 AI로 보조되거나 자동화되고 새로운 업무가 생겨나는 과정을 세밀하게 보여준다. 이를 통해 AI가 노동시장에 미칠 영향을 더 정교하게 시뮬레이션할 수 있다.",
+      "tags": [
+        "ai",
+        "anthropic",
+        "future-of-work"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49639408",
+      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49639408",
+      "publishedAt": "2026-09-10T06:49:43Z",
+      "score": 578,
+      "comments": 580,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240536885387540\" rel=\"nofollow\">https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240536885387540</a><p><a href=\"https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240537520615623\" rel=\"nofollow\">https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240537520615623</a><p><a href=\"https:&#x2F;&#x2F;x.com&#x2F;ValerioCapraro&#x2F;status&#x2F;2097791836269977996\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;ValerioCapraro&#x2F;status&#x2F;2097791836269977996</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;ValerioCapraro&#x2F;status&#x2F;2097791836269977996\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;ValerioCapraro&#x2F;status&#x2F;209779183626997799...</a><p><a href=\"https:&#x2F;&#x2F;bsky.app&#x2F;profile&#x2F;did:plc:ckaz32jwl6t2cno6fmuw2nhn&#x2F;post&#x2F;3mv4mt4ikss2d\" rel=\"nofollow\">https:&#x2F;&#x2F;bsky.app&#x2F;profile&#x2F;did:plc:ckaz32jwl6t2cno6fmuw2nhn&#x2F;po...</a>",
+      "oneLineKo": "OpenAI에 미공개 수학 연구 맡길 수 있나 의문 제기",
+      "summaryKo": "수학자들이 OpenAI에 미공개 수학 연구 자료를 신뢰하고 맡길 수 있는지에 대한 의문을 제기하는 소셜 미디어 게시글들을 모은 글입니다. Mathstodon, X(트위터), Bluesky 등 여러 플랫폼의 관련 게시물 링크로 구성되어 있으며, 구체적인 본문 내용은 제공되지 않았습니다. 연구자들의 지적 재산 보호와 AI 기업에 대한 신뢰 문제를 다루는 것으로 보입니다.",
+      "tags": [
+        "openai",
+        "research-ethics",
+        "ai-trust"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wch6vw",
+      "title": "The Physics of Database Speed: from 300 to 1M transactions per second",
+      "url": "https://www.reddit.com/r/programming/comments/1wch6vw/the_physics_of_database_speed_from_300_to_1m/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wch6vw/the_physics_of_database_speed_from_300_to_1m/",
+      "publishedAt": "2026-09-10T12:01:31+00:00",
+      "snippet": "A 19 minute animated explainer video on database speed. I explain low-level database concepts, identify bottlenecks, run benchmarks and optimize write throughput to hit 1 million TPS. submitted by /u/tanayvk [link] [comments]",
+      "oneLineKo": "DB 쓰기 처리량을 300에서 100만 TPS로 끌어올린 과정 설명",
+      "summaryKo": "19분짜리 애니메이션 설명 영상으로, 데이터베이스의 저수준 개념과 성능 병목 지점을 다룬다. 여러 벤치마크를 실행하며 쓰기 처리량(write throughput)을 단계적으로 최적화해 초당 100만 트랜잭션(TPS)까지 달성하는 과정을 보여준다. 데이터베이스 성능 튜닝에 관심 있는 개발자를 위한 콘텐츠다.",
+      "tags": [
+        "database",
+        "performance",
+        "benchmark"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33463",
+      "title": "Proliferate - 여러 코딩 에이전트를 병렬로 실행하는 오픈소스 AI IDE",
+      "url": "https://news.hada.io/topic?id=33463",
+      "commentsUrl": "https://news.hada.io/topic?id=33463",
+      "publishedAt": "2026-09-10T09:30:03+09:00",
+      "snippet": "Claude Code/Codex/OpenCode/Cursor/Grok에 서로 다른 작업을 맡기고, 진행 상황과 코드 변경을 한곳에서 확인 하는 데스크톱 IDE 작업마다 별도의 Git 브랜치와 작업 디렉터리(worktree)를 만들어, 에이전트들이 서로의 파일을 덮어쓰지 않고 동시에 작업 할 수 있음...",
+      "oneLineKo": "여러 AI 코딩 에이전트 병렬 실행 오픈소스 IDE",
+      "summaryKo": "Proliferate는 Claude Code, Codex, OpenCode, Cursor, Grok 등 다양한 코딩 에이전트에 서로 다른 작업을 할당하고 진행 상황과 코드 변경을 한 화면에서 확인할 수 있는 데스크톱 IDE입니다. 작업마다 별도의 Git 브랜치와 작업 디렉터리(worktree)를 생성해 여러 에이전트가 동시에 작업해도 파일이 충돌하지 않도록 설계되었습니다. 오픈소스로 공개되어 병렬 AI 코딩 워크플로우를 관리하는 데 활용할 수 있습니다.",
+      "tags": [
+        "ai-agent",
+        "ide",
+        "git"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49643546",
+      "title": "Rust is tier-1 language at Microsoft",
+      "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49643546",
+      "publishedAt": "2026-09-10T13:39:16Z",
+      "score": 577,
+      "comments": 315,
+      "snippet": "Guest Post: Rust Is Tier-1 Language at Microsoft By visiting our site, you agree to our privacy policy regarding cookies, tracking statistics, etc. Under GDPR, necessary cookies are exempt from consent as they are essential for a site to function. We’d like to set additional cookies to understand site usage and make improvements. By clicking Accept, you consent to allow this. By clicking Decline, you decline to give this consent and will only allow necessary cookies. Accept Decline Skip to content >> Help Fund the Maintainers Behind Rust Close Announcement About Get Involved Main Menu About Mission & Strategy Our Members Team Policies & Resources Careers Initiatives All Initiatives Rust Innovation Lab Security Initiative Interop Initiative Infrastructure Support Rust Foundation Trusted Training Rust Community Commitments Rust Project Support Rust Commercial Network Events Media News Blog Press Publications Get Involved Contact >> Rust Language Repository Guest Post: Rust Is Tier-1 Language at Microsoft September 10, 2026 / Victor Ciura By now it’s no surprise that Rust is of strategic importance to Microsoft. From bold mission statements when Azure CTO Mark Russinovich outlined our future strategy for native code, to millions of dollars invested by Microsoft into supporting the Rust Project, over the following years. Watch Mark’s keynote from last year’s RustConf to get a glimpse of some of our core projects powered by Rust. Today, Rust sits among C++, C#, and TypeScript as one of the best-supported languages for internal development at Microsoft. This “Tier-1 language” engineering status for Rust means giving internal teams a paved path from local development to production: secure toolchain builds, productive developer tooling, quality workflows, deep platform integration, and compliance with the SDL requirements Microsoft software must meet. The Windows platform and MSVC have co-evolved for decades, as C and C++ have been the building blocks of our dev platform. As MSVC and Windows develop innovations, we need to ensure that these features and functionality are available across both C++ and Rust, and that we have seamless interoperability between them. MSVC is the native platform compiler for Windows, and Rust needs to participate fully in that ecosystem as its usage grows across Microsoft: from firmware and drivers, kernel and hypervisors, to microservices and apps. This is extremely important in hybrid Rust/C++ projects. One of our most important investments towards this goal is rustc_codegen_utc . Introducing rustc_codegen_utc rustc_codegen_utc is an alternative code generation backend for rustc, in the same architectural family as rustc_codegen_llvm , rustc_codegen_gcc and rustc_codegen_cranelift . It plugs into the same backend interface and connects rustc’s shared compiler machinery to the MSVC backend (aka “ UTC “). It participates in a broader platform ecosystem strategy to support: High compatibility with the Windows tooling eco-system",
+      "oneLineKo": "Rust, 마이크로소프트 내부 개발 Tier-1 언어로 지위 격상",
+      "summaryKo": "마이크로소프트가 Rust를 C++, C#, TypeScript와 함께 내부 개발용 Tier-1 언어로 공식 지정했다. 이는 보안 툴체인, 개발자 도구, SDL 컴플라이언스 등 프로덕션까지 이어지는 완전한 지원 경로를 제공한다는 의미다. 특히 MSVC와 Rust 간의 상호운용성을 위해 rustc_codegen_utc라는 새로운 코드 생성 백엔드를 도입해 Windows 네이티브 생태계와의 통합을 강화하고 있다. 이는 펌웨어, 드라이버, 커널, 하이퍼바이저부터 마이크로서비스까지 Rust 사용이 확대되는 하이브리드 Rust/C++ 프로젝트를 지원하기 위한 전략이다.",
+      "tags": [
+        "rust",
+        "microsoft",
+        "msvc"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33461",
+      "title": "인간을 위한 소프트웨어",
+      "url": "https://news.hada.io/topic?id=33461",
+      "commentsUrl": "https://news.hada.io/topic?id=33461",
+      "publishedAt": "2026-09-10T09:13:38+09:00",
+      "snippet": "clankerfree 는 생성형 AI나 LLM 기술을 포함하거나 활용하지 않는다고 제작자가 자체 확인한 프로젝트를 모아, 인간이 작성한 소프트웨어를 찾을 수 있게 한 목록임 제작자의 AI 비사용 선언 이 등재의 바탕이며, 사이트가 오픈소스로 인정하는 라이선스를 사용하고...",
+      "oneLineKo": "AI 미사용 선언 소프트웨어 목록 'clankerfree'",
+      "summaryKo": "clankerfree는 생성형 AI나 LLM 기술을 사용하지 않았다고 제작자가 자체 선언한 프로젝트들을 모아놓은 목록이다. 인간이 직접 작성한 소프트웨어를 찾고자 하는 사용자를 위해 만들어졌다. 등재 기준은 제작자의 AI 비사용 선언과 오픈소스 라이선스 사용 여부에 기반한다.",
+      "tags": [
+        "opensource",
+        "llm",
+        "software"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49642531",
+      "title": "List of references on Sony websites to players \"owning\" their digital games",
+      "url": "https://consumerrights.wiki/w/Sony_PlayStation_digital_game_ownership_lawsuit",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49642531",
+      "publishedAt": "2026-09-10T12:18:06Z",
+      "score": 347,
+      "comments": 115,
+      "snippet": "Sony PlayStation digital game ownership lawsuit - Consumer Rights Wiki Jump to content Main menu Consumer Rights Wiki Search Search Appearance Create account Log in Personal tools Create account Log in Main menu move to sidebar hide Navigation Main page Categories Random page Top Contributors Contribute Create a page How to help Wiki policy Article suggestion list Articles in need of work Projects hub Community Join the Zulip! Join the Discord! Help Frequently asked questions Moderators' noticeboard Report a bug Changelog Staff Browser Extension Install on Chrome Install on Firefox Contents move to sidebar hide Beginning 1 Background 2 Class action complaint 3 Sony's response 4 Add-on content requires a game Sony argues buyers do not own 5 List of references on Sony websites to players \"owning\" their digital games 6 California AB 2426 7 Regulatory and legal context 8 Additional evidence for review 9 See also 10 References Toggle the table of contents Sony PlayStation digital game ownership lawsuit Page Discussion English Read Edit Edit source View history Give feedback Tools Tools move to sidebar hide Actions Read Edit Edit source View history Give feedback General What links here Related changes Printable version Permanent link Page information Cargo data Appearance move to sidebar hide From Consumer Rights Wiki Four California PlayStation buyers who each spent hundreds of dollars on digital goods over the past few years say they received only a limited, revocable license rather than ownership, and paid more than they otherwise would have. [ 1 ] The complaint alleges the PlayStation Store advertises digital games with ownership language such as \"Buy Now\" & \"Confirm Purchase,\" and that the brief license disclosure above the \"Confirm Purchase\" button appears in comparatively small, unhighlighted text, short of the clear and conspicuous disclosure California law requires. [ 1 ] On June 18, 2026, Andrew Garcia, Edward Heycock, Jason Mendoza & John Salinas sued Sony Interactive Entertainment, LLC in the U.S. District Court for the Northern District of California, Case No. 3:26-cv-06016, alleging the storefront's checkout language violates California's digital-goods transparency law. [ 1 ] [ 2 ] On August 21, 2026, Sony moved to compel individual arbitration under the PlayStation Terms of Service and, in the alternative, to dismiss the complaint with prejudice. [ 3 ] [ 4 ] Under a heading reading \"Reasonable Consumers Would Not Be Misled,\" Sony argued that it is not plausible that reasonable consumers believed they were obtaining ownership of a digital game. [ 3 ] The case remains active, with a hearing scheduled for October 1, 2026. [ 5 ] [ 3 ] Background [ edit | edit source ] The complaint alleges the PlayStation Store markets digital games to shoppers with ownership language. [ 1 ] When a consumer proceeds to checkout, the store displays a confirmation screen with a button labeled \"Confirm Purchase,\" and selecting it finalizes the transaction & ch",
+      "oneLineKo": "소니, 디지털 게임 '소유권' 표기 관련 집단소송 피소",
+      "summaryKo": "캘리포니아 소비자 4명이 소니 인터랙티브 엔터테인먼트를 상대로 소송을 제기했다. PlayStation 스토어가 'Buy Now', 'Confirm Purchase' 등 소유권을 암시하는 문구를 사용하면서도, 실제로는 취소 가능한 제한적 라이선스만 부여한다는 사실을 작게 표기해 캘리포니아 디지털 상품 투명성법을 위반했다는 주장이다. 소니는 개별 중재를 강제하고 소송 기각을 요청하며, 합리적 소비자라면 디지털 게임의 소유권을 얻는다고 믿지 않았을 것이라 반박했다. 재판은 2026년 10월 1일로 예정되어 있으며 사건은 진행 중이다.",
+      "tags": [
+        "playstation",
+        "digital-rights",
+        "consumer-law"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33499",
+      "title": "록 밴드 Muse, Meta의 새 AI 도구에 소셜 미디어 계정명 빼앗겨",
+      "url": "https://news.hada.io/topic?id=33499",
+      "commentsUrl": "https://news.hada.io/topic?id=33499",
+      "publishedAt": "2026-09-11T06:49:13+09:00",
+      "snippet": "기술 지배의 미래를 경고해 온 록 밴드 Muse 가 X와 Instagram의 계정명을 이번 주 출시된 Meta의 동명 개인용 AI 도구 에 넘긴 것으로 보여 팬들이 반발함 밴드의 계정명은 X에서 @Musetheband , Instagram에서 @museband 로 바뀌었...",
+      "oneLineKo": "Muse 밴드, Meta AI 도구에 SNS 계정명 넘겨줘 논란",
+      "summaryKo": "록 밴드 Muse의 X, Instagram 계정명이 이번 주 출시된 Meta의 동명 개인용 AI 도구 계정으로 넘어간 것으로 나타났다. 밴드 계정은 각각 @Musetheband, @museband로 변경되었으며, 팬들은 이에 강하게 반발하고 있다. Muse는 평소 기술 지배의 위험성을 경고해온 밴드로 알려져 있어 아이러니하다는 반응이 나온다.",
+      "tags": [
+        "meta",
+        "ai",
+        "social-media"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49645443",
+      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+      "url": "https://cognition.com/blog/swe-2",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49645443",
+      "publishedAt": "2026-09-10T15:29:47Z",
+      "score": 337,
+      "comments": 139,
+      "snippet": "Introducing SWE-2: Pushing the Pareto Frontier | Cognition Menu Close Home Careers Research Blog Get a Demo Devin Home Careers Research Blog Get a Demo Devin Introducing SWE-2: Pushing the Pareto Frontier By The Cognition Team 09.10.26 Today we’re introducing SWE-2, our most advanced coding model yet. It pushes the Pareto frontier of capability and cost, achieving 50.0% on FrontierCode 1.1 Main 1 , within one point of Fable 5.1 while being 64% cheaper. With SWE-2, we scaled RL to the multi-trillion-parameter regime for the first time, building on the SWE-1.7 2 training infrastructure and recipe. The key addition is an RL algorithm that trains all reasoning-effort levels in a single run, advancing the whole cost–performance frontier. base model end of training The result is our closest model yet to the frontier. On FrontierCode 1.1 Main and DeepSWE 1.1, SWE-2 beats SWE-1.7 and Grok 4.6 on both score and cost, matches GPT-5.6 Sol and Fable 5/5.1 at a fraction of their price, and comes within a few points of GPT-6 Astra at a quarter of the cost. See how models rank on the FrontierCode leaderboard → SWE-2 is post-trained from Kimi K3 3 , a 2.8T-parameter model that had already undergone extensive RL for agentic coding. As with SWE-1.7, our RL still finds substantial headroom, adding 5–6 points on many benchmarks and shifting K3’s entire cost–performance frontier. Coding benchmark results Benchmark SWE-2 Kimi K3 Grok 4.6 Fable 5.1 GPT-5.6 Sol GPT-6 Astra SWE-1.7 FrontierCode 1.1 Main 50.0 % 44.2 % 48.0 % 50.9 % 47.5 % 53.3 % 42.0 % DeepSWE 1.1 73.0 % 68.5 % 67.5 % 67.4 % 72.7 % 74.1 % 37.7 % Terminal-Bench 2.1 92.8 % 88.3 % 88.4 % 91.4 % 88.8 % 89.9 % 81.5 % Terminal-Bench 4 27.3 % 21.5 % 20.3 % 55.8 % 37.3 % 57.9 % 7.6 % The rest of this post covers what SWE-2 does differently and how we trained it. We begin with SWE-2’s behavior, focusing on the characteristics that make it more efficient and intelligent compared to our previous models. Then, we detail the post-training advances behind SWE-2: Cost penalties. We apply a linear cost penalty per effort level in a single RL run, with each penalty tuned to the local slope of the base model’s Pareto frontier. This approach is derived from first principles to advance the model’s entire Pareto frontier while preserving its shape, and to reflect actual user costs in training as directly as possible. Reward baselines. We derive the length-weighted reward baseline we have used since SWE-1.6 and show how it significantly stabilizes training. RL rollout serving. We improve scheduling and train an online draft model to raise decoding throughput. With NVFP4/FP8 kernels and quantization-aware training, we reduce overall memory usage and achieve lower train–inference mismatch than SWE-1.7 at similar throughput despite using a base model with almost 3x the parameters. Training data. We triple the number of our RL environments, add instruction-following overlays, and build a flywheel powered by previous checkpoints of",
+      "oneLineKo": "Cognition, 신규 코딩 모델 SWE-2 공개",
+      "summaryKo": "Cognition이 코딩 특화 모델 SWE-2를 발표했다. FrontierCode 1.1 Main 벤치마크에서 50.0%를 기록해 Fable 5.1과 1점 차이지만 비용은 64% 더 저렴하다고 밝혔다. Kimi K3(2.8T 파라미터) 기반으로 강화학습(RL)을 멀티 트릴리언 파라미터 규모까지 확장했으며, 단일 학습 과정에서 여러 reasoning-effort 수준을 동시에 훈련하는 RL 알고리즘을 도입했다고 설명했다. 또한 비용 페널티, 보상 baseline 개선, RL rollout 서빙 최적화, 학습 데이터 확장 등의 기술적 세부사항을 다뤘다.",
+      "tags": [
+        "llm",
+        "reinforcement-learning",
+        "coding-model"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33490",
+      "title": "밴드 Muse, Meta의 새 AI 에이전트 Muse에 소셜 미디어 계정명을 빼앗김",
+      "url": "https://news.hada.io/topic?id=33490",
+      "commentsUrl": "https://news.hada.io/topic?id=33490",
+      "publishedAt": "2026-09-11T01:55:52+09:00",
+      "snippet": "영국 록 밴드 Muse 가 Instagram과 X에서 수년간 쓰던 계정명을 Meta의 새 AI 에이전트 Muse 가 사용하게 됐지만, 이전 경위는 공개되지 않음 밴드는 두 플랫폼 모두 @museband 로 계정명을 바꿨으며, Instagram 변경 시점은 보도와 팬들의 목격담이...",
+      "oneLineKo": "Meta AI 에이전트 'Muse', 밴드 계정명 강탈 논란",
+      "summaryKo": "영국 록 밴드 Muse가 Instagram과 X에서 수년간 사용해온 계정명을 Meta의 새 AI 에이전트 'Muse'에게 빼앗겼다. 계정명 변경의 정확한 경위는 공개되지 않았으며, 밴드는 두 플랫폼 모두 계정명을 @museband로 변경했다. Instagram에서의 변경 시점은 언론 보도와 팬들의 목격담을 통해 추정되고 있다.",
+      "tags": [
+        "meta",
+        "ai-agent",
+        "social-media"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49640646",
+      "title": "What algorithm did Windows XP use to choose your initial user picture?",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260909-00/?p=112683",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49640646",
+      "publishedAt": "2026-09-10T09:04:14Z",
+      "score": 335,
+      "comments": 164,
+      "snippet": "Skip to main content Dev Blogs AI All .NET posts .NET MAUI ASP.NET Core Blazor Entity Framework C&#x2B;&#x2B; C# F# TypeScript NuGet Servicing .NET Blog in Chinese Microsoft for Developers Agent Framework Develop from the cloud Xcode ISE Developer TypeScript PowerShell Python Java Java Blog in Chinese Go Microsoft Edge Dev Microsoft 365 Developer Microsoft Entra Identity Developer Microsoft Entra PowerShell Visual Studio Visual Studio Code Aspire All things Azure Azure SDK Azure VM Runtime Team Microsoft Azure Azure Cosmos DB Azure DocumentDB Azure Data Studio Azure SQL DevOps DirectX Microsoft Foundry Power Platform OData Unified Data Model (IDEAs) Windows Command Line #ifdef Windows Inside MSIX MIDI and music React Native The Old New Thing Windows Developer Dev Blogs The Old New Thing What algorithm did Windows XP use to choose your initial user picture? September 9th, 2026 6 reactions What algorithm did Windows XP use to choose your initial user picture? Raymond Chen Show more I noted some time ago that Windows XP chose your initial picture at random from among the pictures in the %ALLUSERSPROFILE%\\ Application Data\\ Microsoft\\ User Account Pictures\\ Default Pictures directory. But it seems people want to know more. Has anyone attempted to figure out the RNG for how Windows XP determines what profile picture is used on first account creation? — Xeno (@XenoPanther) December 11, 2025 The random number generator is our friend RtlRandomEx , using the current value of GetTickCount() as the initial seed. The function uses a one-pass random selection algorithm. I can immediately think of two benefits of this decision. First, compared to the naïve two-pass algorithm of counting up all the items, then randomly picking a number from 1 to n , and then iterating a second time to find the item at that index, it’s more efficient because it reduces the amount of calls into the file system, which is where the bottleneck is. Furthermore, the one-pass algorithm avoids complications if the number of files in the directory changes while the code is running. The one-pass algorithm is a special case of reservoir sampling , where k is 1. This special case permits a tailored algorithm that is much simpler. selectRandomFromIterator(iterator) { var count = 0; var winner = null; while (iterator.moveNext()) { ++count; if (uniform_random(min: 1, max: count) == count) { winner = iterator.current(); } } return winner; } The way this algorithm works is by observing that in a collection of n items, the last item has a 1/ n chance of being randomly selected. If it isn’t selected, then you need to select randomly from the first n − 1 items, which you can solve recursively. Playing the recursion forward, you start with the base case which is that if you have a list of 1 item, then your only choice is to chose that item. Otherwise, if you have a list of n items, first choose an item randomly from the first n − 1, and then switch to the n th item with a 1/ n probability. As a fina",
+      "oneLineKo": "윈도우 XP 초기 사용자 사진 선택 알고리즘 분석",
+      "summaryKo": "Raymond Chen이 윈도우 XP가 첫 계정 생성 시 사용자 프로필 사진을 무작위로 선택하는 방식을 설명합니다. RtlRandomEx 함수를 GetTickCount()로 시드하여 사용하며, 파일 개수를 미리 세지 않는 원패스(one-pass) 랜덤 선택 알고리즘을 씁니다. 이는 reservoir sampling의 k=1 특수 사례로, 파일 시스템 호출을 줄이고 디렉터리 내 파일 수 변경에도 안정적으로 동작하는 장점이 있습니다.",
+      "tags": [
+        "windows",
+        "algorithm",
+        "reservoir-sampling"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49627634",
+      "title": "Hitachi launches CO2 heat pump water heaters with solar-friendly tariff controls",
+      "url": "https://www.pv-magazine.com/2026/09/07/hitachi-launches-co2-heat-pump-water-heaters-with-solar-friendly-tariff-controls/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49627634",
+      "publishedAt": "2026-09-09T14:54:12Z",
+      "score": 278,
+      "comments": 214,
+      "snippet": "Hitachi launches CO2 heat pump water heaters with solar-friendly tariff controls - pv magazine Global Advertisement Login Search News & Analysis Markets & Policy Europe Americas Asia-Pacific Africa Technology & Products Energy Storage Hydrogen Raw Materials Silicon Cells Modules Inverters BoS Software Finance Applications & Installations Utility-scale Commercial & industrial Residential Offgrid Research & Development Cells Power Electronics Energy Storage System Integration Technology & Products Energy Storage Hydrogen Raw Materials Silicon Cells Modules Inverters BoS Software Finance Magazine Subscriptions Latest issue 2026 2025 Special Editions Magazine Archive Advertise Technology & Products Energy Storage Hydrogen Raw Materials Silicon Cells Modules Inverters BoS Software Finance Events Solar Manufacturing USA 2026 Overview Events Webinars Webinar+ On-Demand Partner Events Events Calendar Technology & Products Energy Storage Hydrogen Raw Materials Silicon Cells Modules Inverters BoS Software Finance More pv magazine Awards Sponsored Content Press Releases Opinions pv magazine test About Us Advertise Technology & Products Energy Storage Hydrogen Raw Materials Silicon Cells Modules Inverters BoS Software Finance pv magazine Global pv pv magazine Shop pv magazine Deutschland pv magazine España pv magazine France pv magazine Italia pv magazine USA pv magazine México pv magazine Latinoamérica pv magazine Brasil pv magazine Australia pv magazine India pv magazine China ESS News Terms & Conditions Privacy Policy Legal Notice &copy; pv magazine 2026 Search Search Newsletter Login Subscribe News & Analysis Markets & Policy Europe Americas Asia-Pacific Africa Technology & Products Energy Storage Hydrogen Raw Materials Silicon Cells Modules Inverters BoS Software Finance Applications & Installations Utility-scale Commercial & industrial Residential Offgrid Research & Development Cells Power Electronics Energy Storage System Integration Technology & Products Energy Storage Hydrogen Raw Materials Silicon Cells Modules Inverters BoS Software Finance Magazine Subscriptions Latest issue 2026 2025 Special Editions Magazine Archive Advertise Technology & Products Energy Storage Hydrogen Raw Materials Silicon Cells Modules Inverters BoS Software Finance Events Solar Manufacturing USA 2026 Overview Events Webinars Webinar+ On-Demand Partner Events Events Calendar Technology & Products Energy Storage Hydrogen Raw Materials Silicon Cells Modules Inverters BoS Software Finance More pv magazine Awards Sponsored Content Press Releases Opinions pv magazine test About Us Advertise Technology & Products Energy Storage Hydrogen Raw Materials Silicon Cells Modules Inverters BoS Software Finance pv magazine Global pv pv magazine Shop pv magazine Deutschland pv magazine España pv magazine France pv magazine Italia pv magazine USA pv magazine México pv magazine Latinoamérica pv magazine Brasil pv magazine Australia pv magazine India pv magazine China ESS News Advertisement A",
+      "oneLineKo": "히타치, 태양광 연동 CO2 히트펌프 온수기 출시",
+      "summaryKo": "히타치가 CO2를 냉매로 사용하는 히트펌프 온수기를 새롭게 출시했다. 이 제품은 태양광 발전에 친화적인 요금제 제어 기능을 탑재해 태양광 발전량이 많은 시간대에 맞춰 운전을 최적화할 수 있다. 본문에서는 제품의 구체적인 사양이나 출시 지역에 대한 세부 정보는 확인되지 않는다.",
+      "tags": [
+        "heat-pump",
+        "solar-energy",
+        "co2-refrigerant"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49645393",
+      "title": "Don't let anyone take away your big box of cables",
+      "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49645393",
+      "publishedAt": "2026-09-10T15:27:22Z",
+      "score": 262,
+      "comments": 214,
+      "snippet": "Don’t Let Anyone Take Away Your Big Box of Cables - Jim Nielsen’s Blog content where applicable --> Jim’s Blog Don’t Let Anyone Take Away Your Big Box of Cables 2026-09-09 Speaking of being on the internet and finding things that make you go, “Hey! It’s not just me!” I scrolled across this skeet from Tyler Gaw : I just dug to the bottom of my Big Box of Cables to find two cables that I needed for something. They've been in the bottom for 10+ years. So, \"when are you ever gonna use these?\" was today. Don't ever let anyone take your Big Box of Cables away. I laughed. I cried. I felt inspired. So inspired, in fact, that I decided I was gonna do something about it. Something that would make me forever remember the value of that advice. I screenshotted that skeet. I printed it (in black and white with the ole’ trusty Brother). I cut it out. I pulled out my big box of cables (the one my wife lovingly labeled “FAMILY TECHNO BOX”). I cut some clear packing tape. And I plastered that thing on the front on my box. Now every time I pull that box out to add YAC (yet another cable), instead of asking myself, “Why do I keep this box?” I’ll see that skeet and I’ll be reminded why I do what I do. I’ll feel a spark of joy, motivation, and purpose rekindled. (Not to mention the fact that it will serve as a warning to anyone in the family who thinks “I should just throw this away…”) One day my kids will find that box in the attic amongst my other belongings. I hope they will pay heed to the timeless advice lovingly taped on the outside. Reply via: Email · Mastodon · Bluesky",
+      "oneLineKo": "오래된 케이블 상자를 버리지 말라는 유쾌한 에세이",
+      "summaryKo": "이 글은 저자가 10년 넘게 보관해온 '케이블 박스'에서 필요한 케이블을 발견한 경험을 다룬 짧은 블로그 글이다. 트위터(스카이)에서 본 비슷한 경험담에 감동받아, 그 글을 인쇄해 자신의 케이블 상자에 붙였다는 내용이다. 언제 쓸지 몰라도 오래된 케이블을 버리지 말라는 교훈을 유머러스하게 전달한다.",
+      "tags": [
+        "hardware",
+        "lifestyle",
+        "blog"
+      ]
+    }
+  ]
+}
