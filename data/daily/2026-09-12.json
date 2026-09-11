@@ -1,0 +1,278 @@
+{
+  "date": "2026-09-12",
+  "generatedAt": "2026-09-11T23:41:39.449Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33536",
+      "title": "Waymo 효과: AI가 조용히 연구 협업을 줄이는 방식",
+      "url": "https://news.hada.io/topic?id=33536",
+      "commentsUrl": "https://news.hada.io/topic?id=33536",
+      "publishedAt": "2026-09-11T23:41:13+09:00",
+      "snippet": "사람과 소통하는 불편을 없애는 기술은 즉각적인 편익을 주지만, 그 불편 속에 있던 예상 밖의 관점과 공동 사고 의 가치는 가리며 연구에서도 같은 변화가 진행되고 있음 LLM 은 언제든 응답하고 설득이나 공로 배분을 요구하지 않지만, 동료가 독립적인 문제의식으...",
+      "oneLineKo": "AI 도구가 연구자 간 협업과 공동사고를 은근히 줄인다",
+      "summaryKo": "Waymo와 같은 자율주행처럼, LLM 등 AI 도구는 언제든 응답하며 설득이나 공로 배분 같은 사회적 비용 없이 편리함을 제공한다. 하지만 이 편리함이 동료와의 논쟁이나 예상치 못한 관점 교환에서 오는 연구적 가치를 가리고 있다는 지적이다. 결과적으로 연구자들이 AI에 의존하면서 인간 간 협업이 조용히 줄어드는 현상이 나타나고 있다.",
+      "tags": [
+        "llm",
+        "research",
+        "collaboration"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49656225",
+      "title": "Claude is only available to people over 18 years",
+      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49656225",
+      "publishedAt": "2026-09-11T10:48:00Z",
+      "score": 549,
+      "comments": 583,
+      "snippet": "Age assurance on Claude | Claude Help Center Skip to main content API docs Release notes How to get support English Français Deutsch Bahasa Indonesia Italiano 日本語 한국어 Português Pусский 简体中文 Español 繁體中文 English Search ⌘ K Claude Release notes Get started with Claude Get started with Claude What are some things I can use Claude for? Where can I access Claude? How up-to-date is Claude's training data? What interfaces can I use to access Claude? Choose a Claude plan Verify your phone number How to gift a Claude subscription How to redeem a Claude gift subscription Account management Log in to your Claude account How to get support How do I change the email address associated with my account? I would like to input sensitive data into my chats with Claude. Who can view my conversations? How do I log out of all active sessions? Export your Claude data Delete your Claude account Why is a coupon or promotion not available for my account? Managing your active sessions Understanding your billing address and tax calculation Notice regarding consumption tax (JCT) for Japanese customers Configuring session security settings How to get support for Claude for Government Public Sector FAQs Claude 4 Invite Contest Conversation management Delete or rename a conversation Share and unshare chats Use incognito chats Use Claude’s chat search and memory to build on previous context Why Claude switched models in your conversation with Fable 5 or Fable 5.1 Why Claude switched models in your conversation with Opus 5 Public links for shared chats Share a chat with specific people Features and capabilities What are artifacts and how do I use them? Publish and share artifacts When should I use web search, extended thinking, and research? Enable and use web search Use research on Claude Can Claude produce images? Upload files to Claude Create and edit files with Claude How does Claude handle mathematical equations and calculations? What are projects? Retrieval augmented generation (RAG) for projects What are skills? Use skills in Claude How to create custom skills Browse skills, connectors, and plugins in one directory Use Claude for Excel Use Claude in Xcode Use Claude in Microsoft Foundry Use Claude for PowerPoint Visual and interactive content Import and export your memory from Claude Work across Microsoft 365 apps Use Claude for Microsoft 365 with third-party platforms Custom visuals in chat and Cowork Use dictation in Office agents Use Claude for Word Available beta and research preview features Use Claude Security Get started with Claude Design Set up your design system in Claude Design Use Claude for Outlook Use plugins in Claude See your monthly recap Get started with Claude Science Personalization and settings Understanding Claude's personalization features Customizing your appearance settings How to use Claude in your preferred language Change the model, effort, and thinking settings Set break reminders and quiet hours Troubleshooting Troubleshoot Claude error messa",
+      "oneLineKo": "Claude, 만 18세 이상만 이용 가능하도록 연령 확인 도입",
+      "summaryKo": "Anthropic의 Claude 헬프센터 문서에 따르면 Claude 서비스는 만 18세 이상 사용자만 이용할 수 있도록 연령 확인(age assurance) 정책을 적용하고 있다. 이는 미성년자의 AI 챗봇 이용을 제한하는 조치로, 계정 가입 및 이용 과정에서 연령 확인 절차가 포함될 것으로 보인다. 구체적인 확인 방식이나 시행 시점 등 세부 내용은 본문에 명시되어 있지 않다.",
+      "tags": [
+        "claude",
+        "age-verification",
+        "ai-safety"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wdklfz",
+      "title": "Inside Claude's Android app: Finding the Internal Settings",
+      "url": "https://www.reddit.com/r/programming/comments/1wdklfz/inside_claudes_android_app_finding_the_internal/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wdklfz/inside_claudes_android_app_finding_the_internal/",
+      "publishedAt": "2026-09-11T16:09:55+00:00",
+      "snippet": "submitted by /u/InsertFunnyUser-name [link] [comments]",
+      "oneLineKo": "Claude 안드로이드 앱 내부 설정 탐색기",
+      "summaryKo": "Claude 안드로이드 앱의 내부에 숨겨진 설정 항목을 찾아본 내용을 다루는 게시물입니다. 본문 내용이 제목 외에 제공되지 않아 구체적인 설정 항목이나 분석 방법은 확인되지 않습니다. Reddit r/programming에 공유된 글로, 앱 리버스 엔지니어링 관련 관심을 끌 것으로 보입니다.",
+      "tags": [
+        "android",
+        "claude",
+        "reverse-engineering"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33530",
+      "title": "Show GN: korean-llm-v4 출시",
+      "url": "https://news.hada.io/topic?id=33530",
+      "commentsUrl": "https://news.hada.io/topic?id=33530",
+      "publishedAt": "2026-09-11T20:22:00+09:00",
+      "snippet": "이번에 v3보다 학습을 크게 업그레이드된 Korean-llm-v4를 공개합니다 v4를 만들면서 가장 크게 바꾼 건 모델 구조보다 학습 방식입니다. 이전에는 명령어 데이터셋을 중심으로 바로 학습해서, 대화 형식은 어느 정도 따라가더라도 기본적인 한국어 문장력이나 다양한 표현을 배우기에는 한계가 있었고",
+      "oneLineKo": "학습 방식 개선한 한국어 LLM v4 공개",
+      "summaryKo": "Korean-llm-v4가 이전 v3보다 학습 방식을 크게 개선하여 공개되었습니다. 기존에는 명령어 데이터셋 중심으로 바로 학습하여 대화 형식은 따라가지만 한국어 문장력과 표현의 다양성에 한계가 있었습니다. v4는 이러한 문제를 개선하기 위해 학습 방식 자체를 새롭게 설계했습니다.",
+      "tags": [
+        "llm",
+        "한국어",
+        "show-gn"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49662371",
+      "title": "A misalignment of AI in mathematics",
+      "url": "https://mathandai.org/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49662371",
+      "publishedAt": "2026-09-11T17:45:12Z",
+      "score": 540,
+      "comments": 605,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;terrytao.wordpress.com&#x2F;2026&#x2F;09&#x2F;11&#x2F;a-severe-misalignment-of-ai-in-mathematics&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;terrytao.wordpress.com&#x2F;2026&#x2F;09&#x2F;11&#x2F;a-severe-misalignm...</a><p><a href=\"https:&#x2F;&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;2026&#x2F;09&#x2F;11&#x2F;top-mathematicians-are-outraged-by-openais-methods\" rel=\"nofollow\">https:&#x2F;&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;2026&#x2F;09&#x2F;11&#x2F;...</a>, <a href=\"https:&#x2F;&#x2F;unwall.app&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;2026&#x2F;09&#x2F;11&#x2F;top-mathematicians-are-outraged-by-openais-methods\" rel=\"nofollow\">https:&#x2F;&#x2F;unwall.app&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;...</a>",
+      "oneLineKo": "수학계, OpenAI의 AI 활용 방식에 반발",
+      "summaryKo": "Terry Tao의 블로그 글과 이코노미스트 기사를 통해 알려진 내용으로, 유수의 수학자들이 OpenAI가 수학 연구에 AI를 적용하는 방식에 심각한 문제를 제기하고 있다는 내용이다. 제목에서 언급된 'severe misalignment'는 AI와 수학 커뮤니티 간의 방법론적 불일치를 의미하는 것으로 보인다. 구체적인 논쟁의 세부 내용은 본문에서 확인할 수 없다.",
+      "tags": [
+        "ai",
+        "mathematics",
+        "openai"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wds2fy",
+      "title": "EU Cyber Resilience Act reporting obligations started today. Is your company even thinking about it?",
+      "url": "https://www.reddit.com/r/programming/comments/1wds2fy/eu_cyber_resilience_act_reporting_obligations/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wds2fy/eu_cyber_resilience_act_reporting_obligations/",
+      "publishedAt": "2026-09-11T20:39:08+00:00",
+      "snippet": "As of today, a manufacturer who puts software or hardware on the EU market under its own name is obliged to report actively exploited vulnerabilities and severe security incidents. Here is a quick explainer if you want the details: https://youtu.be/IQkzg7quc58 There is quite a lot of ambiguity over CRA and how it's going to apply to open source. Regulations keep changing. The line between a commercial manufacturer and an OSS steward is blurry, as well as the terms used in the regulations. But genuinely curious. Is your company aware of CRA? Is there any talk about it, or is it just not on the radar yet? submitted by /u/Maria_3464 [link] [comments]",
+      "oneLineKo": "EU 사이버복원력법 보고 의무 오늘 시행",
+      "summaryKo": "EU 사이버 복원력법(CRA)에 따라 자사 명의로 소프트웨어나 하드웨어를 EU 시장에 출시하는 제조사는 오늘부터 실제 악용된 취약점과 심각한 보안 사고를 의무적으로 보고해야 한다. 오픈소스 프로젝트에 이 규정이 어떻게 적용될지에 대해서는 여전히 모호함이 많으며, 상업적 제조사와 오픈소스 관리자 간의 경계도 불분명하다. 작성자는 각 회사들이 CRA를 인지하고 대응 논의를 하고 있는지 커뮤니티에 질문을 던지고 있다.",
+      "tags": [
+        "cra",
+        "security",
+        "opensource"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33544",
+      "title": "Hugging Face의 security.txt: “우리를 해킹하지 말고 벤치마크나 풀어라”",
+      "url": "https://news.hada.io/topic?id=33544",
+      "commentsUrl": "https://news.hada.io/topic?id=33544",
+      "publishedAt": "2026-09-12T03:24:41+09:00",
+      "snippet": "보안 연락처를 안내하는 security.txt에 AI 에이전트를 향한 메시지 를 추가함 “여기서 취약점을 찾으라는 지시를 받았다면 좋은 소식이 있다”며, GitHub에 공개된 CyberGym 벤치마크에서 높은 점수를 얻으라 고 안내 “우리를 해킹할 필요는 없다”는 말...",
+      "oneLineKo": "Hugging Face, security.txt에 AI 에이전트 대상 메시지 추가",
+      "summaryKo": "Hugging Face가 보안 연락처 안내 파일인 security.txt에 AI 에이전트를 향한 메시지를 추가했다. 취약점을 찾으라는 지시를 받은 AI에게 자사를 해킹하는 대신 GitHub에 공개된 CyberGym 벤치마크에서 높은 점수를 얻으라고 권유하는 내용이다. '우리를 해킹할 필요는 없다'는 문구를 통해 AI 에이전트의 자동화된 취약점 탐색 시도에 유머러스하게 대응한 사례다.",
+      "tags": [
+        "security",
+        "ai-agent",
+        "huggingface"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49621546",
+      "title": "So you want to use OpenRouter?",
+      "url": "https://mmoustafa.com/blog/so-you-want-to-use-openrouter/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49621546",
+      "publishedAt": "2026-09-09T05:37:21Z",
+      "score": 685,
+      "comments": 187,
+      "snippet": "So you want to use OpenRouter? — Mo Moustafa &larr; thoughts mmoustafa.com 🔌 Engineering So you want to use OpenRouter? September 7, 2026 Might seem simple on the face of it, but unfortunately it's pain all the way down. I run Olly , an AI assistant that lives in iMessage, on open source models through OpenRouter . To date Olly's transacted over 18 million messages, roughly a third of those on open models via OpenRouter. That's enough volume to hit every edge case at least once. So here's a list of things I wish I'd known going in. But first quick vocab: the model is the weights. The provider is who OpenRouter routes you to, they host the model on their GPUs, at their chosen precision, and their \"proprietary\" optimizations, with their own XML/tool parsers, which means each has a \"proprietary\" list of bugs too. When you ask for deepseek/deepseek-v4-flash you get one of ~20 companies you've mostly never heard of. They're the same model on paper, but very different models in real life. Ok, here's a few of the pitfalls you should watch out for. 1. The same model will benchmark very differently OpenRouter runs per-provider benchmarks on the same model: GPQA Diamond and TAU-Bench Airline (a tool-calling task). Here is today's board for DeepSeek V4 Flash 0731, every provider serving the exact same weights: DeepSeek V4 Flash 0731, one dot per provider, 2026-09-07 70% 75% 80% 85% 90% 55% 60% 65% 70% 75% 80% GPQA Diamond (knowledge) TAU-Bench Airline (tool calling) DeepSeek: GPQA 90.2%, TAU 81.3% first-party NextBit: GPQA 89.9%, TAU 76.6% Alibaba Cloud Int.: GPQA 89.4%, TAU 76.8% SiliconFlow: GPQA 90.0%, TAU 75.4% NovitaAI: GPQA 89.3%, TAU 76.0% Ionstream: GPQA 87.2%, TAU 78.0% Ionstream GMICloud: GPQA 89.0%, TAU 75.8% Reka AI: GPQA 89.1%, TAU 75.4% Parasail: GPQA 89.0%, TAU 75.4% Baidu Qianfan: GPQA 89.6%, TAU 74.8% Cloudflare: GPQA 88.4%, TAU 75.0% CoreWeave: GPQA 87.1%, TAU 76.0% DeepInfra: GPQA 89.2%, TAU 73.9% StreamLake: GPQA 87.8%, TAU 74.9% Phala: GPQA 88.2%, TAU 74.5% Inceptron: GPQA 87.9%, TAU 74.1% AtlasCloud: GPQA 88.3%, TAU 73.6% Together: GPQA 86.9%, TAU 75.0% Decart: GPQA 87.9%, TAU 73.3% Venice: GPQA 86.8%, TAU 74.2% AkashML: GPQA 88.5%, TAU 72.5% Morph: GPQA 85.8%, TAU 74.9% Wafer: GPQA 84.1%, TAU 76.0% Wafer Ambient: GPQA 86.4%, TAU 73.5% Relace: GPQA 87.2%, TAU 71.7% Io Net: GPQA 84.1%, TAU 74.5% Makora: GPQA 86.9%, TAU 71.7% Mancer: GPQA 85.5%, TAU 70.8% Mancer Sail Research: GPQA 70.8%, TAU 75.2% Sail Research OpenInference: GPQA 70.5%, TAU 70.8% OpenInference Nebius: GPQA 75.6%, TAU 65.3% Nebius DigitalOcean: GPQA 75.3%, TAU 58.4% DigitalOcean OpenRouter's per-provider board for deepseek/deepseek-v4-flash-0731, 2026-09-07. Rolling 32-day average. Hover a dot for the name. First-party DeepSeek: 90% GPQA, 81% TAU. DigitalOcean, same weights: 75% and 58%. Most hosts cluster 5 to 7 points below first-party on tool calling, and four of them fall off a cliff on knowledge. For an agent TAU is the score that matters and a 20 point swing is n",
+      "oneLineKo": "OpenRouter 프로바이더별 동일 모델 성능 편차 실전 경험담",
+      "summaryKo": "iMessage AI 어시스턴트 Olly를 운영하며 1800만 건 이상의 메시지를 OpenRouter를 통해 처리한 저자가, 같은 모델이라도 프로바이더에 따라 성능이 크게 달라짐을 지적한다. DeepSeek V4 Flash 모델을 예로 들어, 1st-party DeepSeek는 GPQA 90%·TAU-Bench 81%를 기록했지만 DigitalOcean 등 일부 프로바이더는 75%·58%로 크게 낮았다. 특히 에이전트에서 중요한 tool-calling 성능(TAU-Bench)이 프로바이더마다 최대 20점 이상 차이 나며, 각 프로바이더의 정밀도·최적화·파서 구현이 다르기 때문에 같은 가중치라도 실제 품질이 다르다는 점을 강조한다.",
+      "tags": [
+        "openrouter",
+        "llm",
+        "benchmark"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33543",
+      "title": "AI 악용 탐지와 대응: 2026년 9월",
+      "url": "https://news.hada.io/topic?id=33543",
+      "commentsUrl": "https://news.hada.io/topic?id=33543",
+      "publishedAt": "2026-09-12T03:21:41+09:00",
+      "snippet": "Anthropic은 2025년 12월~2026년 8월 확인한 Claude 악용 활동을 차단하고, 사이버 공격·영향력 공작·감시·사기·생물학적 악용·재래식 무기 개발·증류 등 7개 영역 의 사례를 공개함 사이버 공격의 변화는 새로운 기법보다 공격 비용과 실행 속도 ...",
+      "oneLineKo": "Anthropic, Claude 악용 사례 7개 영역 공개",
+      "summaryKo": "Anthropic은 2025년 12월부터 2026년 8월까지 확인된 Claude 악용 활동을 차단하고 그 사례를 공개했다. 공개된 악용 영역은 사이버 공격, 영향력 공작, 감시, 사기, 생물학적 악용, 재래식 무기 개발, 증류 등 7가지다. 특히 사이버 공격 분야의 변화는 새로운 공격 기법보다는 공격 비용 절감과 실행 속도 향상에서 두드러졌다.",
+      "tags": [
+        "ai-safety",
+        "llm",
+        "cyberattack"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49662672",
+      "title": "The EPA is planning to scrap public review rules for data center pollution",
+      "url": "https://capitalbnews.org/data-centers-permit-rules-epa/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49662672",
+      "publishedAt": "2026-09-11T18:05:21Z",
+      "score": 299,
+      "comments": 206,
+      "snippet": "Black Communities Could Lose a Having Say on Data Centers - Capital B News Close 🤍 Donate Newsletters Search for: Search Search 🤍 Donate Newsletters For the Record Archive Criminal Justice Education Environmental Justice Health Money Politics & Policy Rural Issues Capital B Atlanta Capital B Gary About Capital B Our Team Careers Inside Capital B Advertise With Us Facebook Instagram LinkedIn X TikTok Bluesky Close Search 🤍 Donate Newsletters For the Record Archive Criminal Justice Education Environmental Justice Health Money Politics & Policy Rural Issues Capital B Atlanta Capital B Gary About Capital B Our Team Careers Inside Capital B Advertise With Us Facebook Instagram LinkedIn X TikTok Bluesky Skip to content Menu Capital B News 🤍 Donate Newsletters Open Search Search for: Search 🤍 Donate Menu Posted in Environmental Justice Federal Government Moves to Limit Public Input on Data Center Projects Proposed rule changes would leave residents with less say over pollution in their communities. by Adam Mahoney September 10, 2026 September 9, 2026 Share this: Share on X (Opens in new window) X Share on LinkedIn (Opens in new window) LinkedIn Share on Bluesky (Opens in new window) Bluesky Share on Facebook (Opens in new window) Facebook Share on Reddit (Opens in new window) Reddit Email a link to a friend (Opens in new window) Email Attendees react during an April 25 public comment meeting hosted by the Shelby County Health Department on xAI's permit application to use gas turbines for a new data center in Memphis, Tennessee. (Brandon Dill for The Washington Post via Getty Images) We Write the Untold Stories of Black America Read them in Seen & Heard, our free, twice-weekly newsletter. Sign up Americans don’t agree on much, but that’s not the case when it comes to data centers. ​Seven in 10 Americans oppose building data centers for artificial intelligence in or near their communities. Despite this, the federal government is moving to make it easier for them to be built. And in some places, residents won’t even get the chance to raise concerns publicly or even know if a data center is coming to their neighborhoods. The federal Environmental Protection Agency plans to scrap a federal requirement that states tell the public — and allow public comment — before approving air-pollution permits for industrial facilities. That includes the data centers rising across the country, as well as the power plants built to feed their enormous appetite for electricity. At the same time, the EPA last month also proposed another change that would let developers start building data centers before their permits are approved. The rural South, which is home to a disproportionate amount of Black communities, has seen the largest growth of these large data centers. The proposals and lack of transparency may worsen health risks, increase utility bills, and contribute to community displacement, residents told Capital B. ​The change at the federal level would mean that, in",
+      "oneLineKo": "EPA, 데이터센터 대기오염 허가 공청회 규정 폐지 추진",
+      "summaryKo": "미국 EPA가 데이터센터 등 산업시설의 대기오염 허가 승인 전 공청회 및 공공 의견수렴 절차를 폐지하는 방안을 추진하고 있다. 동시에 EPA는 허가 승인 전에 데이터센터 건설을 시작할 수 있도록 하는 규정 변경도 제안했다. 흑인 인구 비중이 높은 미국 남부 농촌 지역에 데이터센터 건설이 집중되고 있어, 이러한 투명성 저하가 건강 위험 증가, 전기요금 상승, 지역사회 이주 등의 문제를 심화시킬 수 있다는 우려가 제기된다.",
+      "tags": [
+        "data-center",
+        "environmental-policy",
+        "regulation"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33509",
+      "title": "마을을 무너뜨리다: Bevy의 여섯 번째 생일",
+      "url": "https://news.hada.io/topic?id=33509",
+      "commentsUrl": "https://news.hada.io/topic?id=33509",
+      "publishedAt": "2026-09-11T10:10:50+09:00",
+      "snippet": "Bevy 0.19의 BSN 매크로 도입 으로 선언적 데이터 모델과 UI·창작 도구의 기반이 마련됐지만, AI 정책 변경을 둘러싼 갈등이 기여자의 신뢰와 개발 의욕을 훼손하고 있음 새 AI 정책 은 실제 LLM 사용 확산과 기존 규칙의 집행 어려움을 근거로 이전보다 다소 허용적...",
+      "oneLineKo": "Bevy 6주년, AI 정책 논란으로 커뮤니티 갈등 심화",
+      "summaryKo": "Bevy 0.19에서 BSN 매크로가 도입되며 선언적 데이터 모델과 UI 개발 기반이 마련됐다. 하지만 새로운 AI 정책 변경이 실제 LLM 사용 확산과 기존 규칙 집행의 어려움을 근거로 이전보다 허용적으로 바뀌면서 논란이 커졌다. 이로 인해 기여자들의 신뢰와 개발 의욕이 훼손되는 부작용이 발생하고 있다.",
+      "tags": [
+        "bevy",
+        "game-engine",
+        "ai-policy"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49658311",
+      "title": "Measuring the sloppiness of code",
+      "url": "https://earendil.com/posts/measuring-code-sloppiness/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49658311",
+      "publishedAt": "2026-09-11T13:42:28Z",
+      "score": 236,
+      "comments": 222,
+      "snippet": "If coding is solved, what now?: Measuring the sloppiness of code | EARENDIL MENU Purpose Values Join Us Posts Pi Lefos Works If coding is solved, what now?: Measuring the sloppiness of code Date: Thu, 10 Sep 2026 From: Sebastian < sebastian@earendil.com > To: You Subject: If coding is solved, what now?: Measuring the sloppiness of code LLMs have become almost perfect at generating code, but that isn’t the end of the story. Just because the code is formally correct doesn’t mean that it is not introducing unnecessary abstractions, creating duplicates, or just making bad decisions overall. This is not a groundbreaking observation, most people who have vibe-coded a project, have realized that each additional feature can sometimes lead to an explosion of lines of code (LOC). This results in a loss of human agency, because in projects that are adding millions of LOC per month, it is hard for humans to keep up. 1 Some people might say that that is not an issue at all, because they trust their agents to deal with it. I have bad news for you, agents can't really deal with the slop either. Coming from a physics background, I always had an experimental/quantitative approach to solving problems. When I started at Earendil, with the task of figuring out how to measure code sloppiness, my natural instinct was to first take a deep dive into the literature and then check what other companies were doing. To be frank, with the exception of a few insightful research papers, I was disappointed at how “vibes based” the industry seems at the moment. In my research and on X, I was constantly bombarded with messages such as “End-to-end coding agents”, “AI that doesn't just suggest code—it ships it” or “Human-level evaluation without human-level cost”. Which like all good tales, have a grain of truth in them. LLMs are able to write almost perfectly correct code. This is because of the scalability and the verifiability of code. It is pretty straightforward to let LLMs generate code and then let that code be checked by hidden tests, which results in a clear reward signal. In stark contrast to that, checking the ‘sloppiness’ of this code often requires human intuition and taste, and is an extremely difficult task in general. I think the best way to illustrate why that is, is by going through possible ways of measuring slop. AI as a judge: This is probably the most common way of evaluating code quality in the industry and from my observations it rarely works. The most naive way of doing it, namely asking the models how good the code is on a scale from 1-10, is basically equivalent to a random number generator. The more sophisticated approach, namely trying to give the judge model two solutions A and B, and then letting it decide which solution it prefers, has the downside of the model changing its preference , when you rename the solutions. I am being a bit facetious here and the effect isn’t as pronounced with larger models, but the main point still stands. Asking LLMs to j",
+      "oneLineKo": "LLM 코드의 '슬로피니스' 측정 방법을 탐구",
+      "summaryKo": "LLM은 형식적으로 정확한 코드를 생성하지만, 불필요한 추상화나 중복, 나쁜 설계 결정 같은 '슬로피니스(sloppiness)'는 여전히 문제로 남는다. 저자는 코드 품질을 정량적으로 측정하는 방법을 연구하며 업계가 대체로 '감(vibe)'에 의존한다는 점에 실망했다고 밝힌다. 대표적 접근인 'AI as a judge' 방식은 신뢰도가 낮으며, 특히 단순 점수 평가는 무작위에 가깝고 두 코드 비교 방식도 이름을 바꾸면 선호가 뒤집히는 등 한계가 있다. 결과적으로 코드 생성은 검증 가능하지만 품질 평가는 여전히 인간의 직관과 취향이 필요한 어려운 문제임을 지적한다.",
+      "tags": [
+        "llm",
+        "code-quality",
+        "ai-evaluation"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33558",
+      "title": "Show HN: AI 없는 Hacker News",
+      "url": "https://news.hada.io/topic?id=33558",
+      "commentsUrl": "https://news.hada.io/topic?id=33558",
+      "publishedAt": "2026-09-12T06:31:15+09:00",
+      "snippet": "Show HN: AI 없는 Hacker News",
+      "oneLineKo": "AI 관련 글 없는 Hacker News 필터 서비스 등장",
+      "summaryKo": "Show HN에 AI 관련 게시물을 제외한 Hacker News 버전이 소개되었습니다. AI 콘텐츠가 과도하게 넘쳐나는 것에 지친 사용자들을 위해 만들어진 서비스로 보입니다. 구체적인 구현 방식이나 필터링 기준에 대한 세부 정보는 본문에 제공되지 않았습니다.",
+      "tags": [
+        "hacker-news",
+        "content-filtering"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49622406",
+      "title": "Logo Programming Language",
+      "url": "https://el.media.mit.edu/logo-foundation/what_is_logo/logo_programming.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49622406",
+      "publishedAt": "2026-09-09T07:07:26Z",
+      "score": 230,
+      "comments": 94,
+      "snippet": "Logo Programming Language Home About the Foundation foundation people partners contributors What Is Logo? history logo programming logo and learning a logo primer logo and natural language Our Services events workshops consulting Logo Resources Logo Foundation Publications Websites and Forums Software and Hardware Books Archive Contact Us Logo Programming The Logo Programming Language, a dialect of Lisp, was designed as a tool for learning. Its features - interactivity, modularity, extensibility, flexibility of data types - follow from this goal. Interactivity Although there are some versions of Logo that compile, it is generally implemented as an interpreted language. The interactivity of this approach provides the user with immediate feedback on individual instructions, thus aiding in the debugging and learning process. Error messages are descriptive. For example fowad I don't know how to fowad (The word fowad is not a primitive - one of Logo's built in words - nor a procedure that you've defined.) forward Not enough inputs to forward (Now that you've spelled it correctly, Logo knows the word forward , but can't run your instruction because forward requires additional information. forward 100 (Logo is happy. There's no error message. The turtle moves forward 100 steps.) Modularity and Extensibility Logo programs are usually collections of small procedures. Generally, procedures are defined by writing them in a text editor. The special word to is followed by the name of the procedure. Subsequent lines form the procedure definition. The word end signals that you're finished. In our turtle graphics example we defined a procedure to draw a square to square repeat 4 [forward 50 right 90] end and used it as a subprocedure of another procedure to flower repeat 36 [right 10 square] end Similarly, flower could be a building block of something larger to garden repeat 25 [set-random-position flower] end No, set-random-position is not a primitive, but random is and so is setposition (or setpos or setxy ). Or you could write set-random-position using forward and right with random . Once a Logo procedure is defined it works like the Logo primitives. In fact, when you look at Logo programs there's no way of knowing which words are primitives and which are user-defined unless you know that particular Logo implementation. In our language sample we used the procedure pick to randomly select an item from a list, for example in the procedure who. to who output pick [Sandy Dale Dana Chris] end In some versions of Logo pick is a primitive while in others you have to write it yourself. Who would look and work the same way in either case. Logo allows you to build up complex projects in small steps. Programming in Logo is done by adding to its vocabulary, teaching it new words in terms of words it already knows. In this way it's similar to the way people learn spoken language. Flexibility Logo works with words and lists. A Logo word is a string of characters. A Logo li",
+      "oneLineKo": "교육용 프로그래밍 언어 Logo의 특징 소개",
+      "summaryKo": "Logo는 Lisp의 방언으로 학습 도구로 설계된 인터프리터 언어로, 상호작용성과 모듈성, 확장성, 데이터 유형의 유연성을 특징으로 합니다. 사용자는 즉각적인 피드백과 설명적인 오류 메시지를 통해 디버깅과 학습이 용이하며, 작은 프로시저들을 조합해 복잡한 프로그램을 만들 수 있습니다. 예제로는 거북이 그래픽을 이용한 사각형, 꽃, 정원 그리기 프로시저가 소개되며, 단어와 리스트를 다루는 유연한 데이터 구조도 설명됩니다.",
+      "tags": [
+        "logo",
+        "lisp",
+        "education"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49662990",
+      "title": "I spent $220 on Google app ads and 60% of the installs were robots",
+      "url": "https://dayzlegame.com/blog/google-ads-bot-farm/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49662990",
+      "publishedAt": "2026-09-11T18:24:55Z",
+      "score": 219,
+      "comments": 115,
+      "snippet": "I spent $220 on Google app ads. 60% of the installs were robots. — Dayzle Dayzle home The Games The Daily Set Our Promise Brain Score Questions Play now Notes from building Dayzle I spent $220 on Google app ads. 60% of the installs were robots. Google reported 21 installs in a day. The admin panel said 1. What the other 20 were, how a bot farm gets paid, and what we changed. Nick Abe · September 11, 2026 · First published on LinkedIn I run a small puzzle app called Dayzle. I’m a numbers guy, so a marketing optimization problem is right up my alley. Two weeks ago I turned on a Google Ads campaign for Android at CA$40 a day, with the goal set to installs. For the first few days it barely spent anything. I had a target cost per install of $1.50, and Google couldn’t find installs at that price. So, as a test, I removed the target. It immediately spent double my daily budget, CA$80, and reported 21 installs. I was excited. Then I checked my admin panel, which said 1. Turns out I didn’t need to be a numbers guy to see something didn’t add up. The panel had missed them because old versions of the app don’t report an install date. When I went into the raw analytics there were 21 new Android devices that day, and 20 of them were running an old version of the app that the Play Store had stopped serving days earlier. You can’t get an old version from Play, so these phones got the app from somewhere else, even though every one of them said Google Play was the installer. Each opened the app once, spent zero seconds on any screen, and never came back. Twenty-eight phone models across nineteen states, which is a lot of variety for twenty phones that all did exactly the same thing. Over the whole two weeks: 56 installs billed, 33 with that pattern, 7 more from countries the campaign wasn’t targeting, and 13 people. The 13 people finished 92 games between them, which is a nice signal that real people enjoyed what we’ve built. The 33 weren’t behaving like people, so I suspected a bot farm, and the analytics export bears it out. Google optimizes for whatever goal you give it, and my goal was installs. This farm would watch the shortest video in my ad group, not click it, and then install our app from a saved copy of the file instead of from the store, because that’s faster and Play might notice. Google counts a view followed by an install as a conversion, so the irony is that the more the farm “installed” our app, the better it looked to Google’s algorithm, which sent more of my ads to the farm, which installed it more. A loop that guaranteed my ad spend was wasted. Where I am now: waiting on Google’s answer to the invalid-traffic form, and the campaign’s goal is now “won a puzzle” instead of “opened the app”. It’s low effort to make a script open an app and click around; it’s higher effort to make one solve a Sudoku. The idea is just to make us more expensive to farm than the next app. That’s probably decent protection for an app my size. Larger apps are worth the",
+      "oneLineKo": "구글 앱 광고비 60%가 봇 설치로 낭비된 사례",
+      "summaryKo": "퍼즐 앱 Dayzle 개발자가 구글 앱 광고에 220달러를 지출했으나, 설치 건수의 60%가 실제 사용자가 아닌 봇 팜에 의한 가짜 설치였다고 밝혔다. 봇들은 오래된 앱 버전을 스토어 외부에서 설치했음에도 구글 플레이 설치로 위장했으며, 앱을 열기만 하고 바로 이탈하는 패턴을 보였다. 구글 광고 알고리즘이 설치를 목표로 최적화하다 보니 봇의 가짜 설치가 늘수록 오히려 더 많은 광고가 봇 팜에 노출되는 악순환이 발생했다. 이에 대응해 개발자는 광고 목표를 '앱 실행'에서 '퍼즐 완료'로 변경해 봇이 흉내 내기 어렵게 만들었다.",
+      "tags": [
+        "ad-fraud",
+        "google-ads",
+        "mobile-app"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49663373",
+      "title": "GrapheneOS' rewritten Messages app is released",
+      "url": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49663373",
+      "publishedAt": "2026-09-11T18:50:36Z",
+      "score": 168,
+      "comments": 96,
+      "snippet": "Release 13 · GrapheneOS/Messaging · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} Uh oh! There was an error while loading. Please reload this page . GrapheneOS / Messaging Public Notifications You must be signed in to change notification settings Fork 47 Star 138 Code Issues 52 Pull requests 7 Actions Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Security and quality Insights Releases 13 13 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags thestinger released this 11 Sep 17:53 13 This tag was signed with the committer’s verified signature . thestinger Daniel Micay SSH Key Fingerprint: AhgHif0mei+9aNyKLfMZBh2yptHdw/aN7Tlh/j2eFwM Verified Learn about vigilant mode . 22cd55e Notable changes in version 13: Version 13 replaces the legacy interface with Jetpack Compose and Material 3. It rebuilds every screen, adds new conversation controls and large-screen support, and fixes pr",
+      "oneLineKo": "GrapheneOS 메시지 앱, Compose 기반으로 전면 재작성",
+      "summaryKo": "GrapheneOS의 메시징 앱이 버전 13으로 릴리스되며 기존 레거시 UI를 Jetpack Compose와 Material 3 기반으로 전면 교체했습니다. 모든 화면이 새로 구현되었고, 새로운 대화 제어 기능과 대형 화면(태블릿 등) 지원이 추가되었습니다. 또한 여러 버그가 수정되어 안정성이 개선되었습니다.",
+      "tags": [
+        "grapheneos",
+        "jetpack-compose",
+        "android"
+      ]
+    }
+  ]
+}
