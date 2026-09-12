@@ -1,0 +1,247 @@
+{
+  "date": "2026-09-13",
+  "generatedAt": "2026-09-12T23:35:24.894Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33583",
+      "title": "Apple Neural Engine 역공학 하기: LLM의 병목은 연산보다 데이터 이동",
+      "url": "https://news.hada.io/topic?id=33583",
+      "commentsUrl": "https://news.hada.io/topic?id=33583",
+      "publishedAt": "2026-09-12T23:35:47+09:00",
+      "snippet": "신경망 전용 칩인 Apple Neural Engine(ANE)이 LLM 실행에서 GPU보다 불리해지는 이유 를 내부 구조와 메모리 전송 실험으로 살펴봄 M1 ANE의 연산기는 트랜스포머에 필요한 계산도 수행할 수 있지만, 주변 구조는 같은 가중치를 반복 사용하는 이미지 처리용 신경망(CNN)",
+      "oneLineKo": "Apple Neural Engine 분석, LLM 병목은 데이터 이동",
+      "summaryKo": "Apple Neural Engine(ANE)을 역공학하여 LLM 실행 시 GPU보다 불리한 이유를 내부 구조와 메모리 전송 실험으로 분석한 글입니다. M1의 ANE 연산기는 트랜스포머 연산도 수행 가능하지만, 주변 구조가 CNN처럼 동일 가중치를 반복 사용하는 워크로드에 최적화되어 있습니다. 이로 인해 LLM처럼 매번 다른 가중치를 대량으로 불러와야 하는 작업에서는 연산 능력보다 데이터 이동이 병목이 된다는 점을 설명합니다.",
+      "tags": [
+        "apple-neural-engine",
+        "llm",
+        "hardware-architecture"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49673098",
+      "title": "Nvidia is the central bank of AI",
+      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49673098",
+      "publishedAt": "2026-09-12T15:08:27Z",
+      "score": 356,
+      "comments": 239,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;kt50V\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;kt50V</a>",
+      "oneLineKo": "이코노미스트, 엔비디아를 'AI 산업의 중앙은행'으로 비유",
+      "summaryKo": "이코노미스트가 엔비디아를 AI 산업 생태계 전체의 자금과 자원 흐름을 좌우하는 '중앙은행'에 비유한 기사입니다. GPU 공급과 투자를 통해 AI 기업들의 성장과 자금 순환에 막대한 영향력을 행사하는 엔비디아의 위상을 다룬 것으로 보입니다. 본문은 아카이브 링크로만 제공되어 구체적인 세부 내용은 확인되지 않습니다.",
+      "tags": [
+        "nvidia",
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33566",
+      "title": "Switchyard - OpenAI/Anthropic API 그대로 모델을 바꿔 쓰는 LLM 라우터",
+      "url": "https://news.hada.io/topic?id=33566",
+      "commentsUrl": "https://news.hada.io/topic?id=33566",
+      "publishedAt": "2026-09-12T09:30:02+09:00",
+      "snippet": "NVIDIA NeMo에서 공개한 LLM 라우터 로, 모든 요청을 비싼 모델에 맡기는 대신 작업을 처리할 수 있는 더 저렴한 모델을 고르는 것 이 목표 OpenAI Chat Completions/Responses와 Anthropic Messages 형식을 지원해, 기존 클라이언트의 연결 주소를 프록시로 바꾸고 ...",
+      "oneLineKo": "NVIDIA, API 호환 LLM 라우터 'Switchyard' 공개",
+      "summaryKo": "NVIDIA NeMo가 공개한 Switchyard는 OpenAI Chat Completions/Responses와 Anthropic Messages API 형식을 그대로 지원하는 LLM 라우터입니다. 모든 요청을 비싼 모델에 보내는 대신 작업을 처리할 수 있는 더 저렴한 모델을 자동으로 선택해 비용을 절감하는 것이 목표입니다. 기존 클라이언트는 연결 주소를 프록시로 변경하기만 하면 별도 코드 수정 없이 사용할 수 있습니다.",
+      "tags": [
+        "llm",
+        "nvidia",
+        "api"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49639647",
+      "title": "IKEA made a mod for Skyrim [video]",
+      "url": "https://www.youtube.com/watch?v=iZODN0QUgjI",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49639647",
+      "publishedAt": "2026-09-10T07:20:50Z",
+      "score": 540,
+      "comments": 143,
+      "snippet": "- YouTube About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket &copy; 2026 Google LLC",
+      "oneLineKo": "이케아, 스카이림 모드 제작 영상 공개",
+      "summaryKo": "이케아가 비디오게임 스카이림을 위한 모드를 제작한 것으로 알려졌다. 관련 내용은 유튜브 영상으로 공개되었다. 본문에는 영상 설명 외 구체적인 모드 내용은 제공되지 않았다.",
+      "tags": [
+        "gaming",
+        "mod",
+        "skyrim"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33600",
+      "title": "AI 연구자들, 재귀적 자기개선에 얼마나 가까워졌는지 논쟁하다",
+      "url": "https://news.hada.io/topic?id=33600",
+      "commentsUrl": "https://news.hada.io/topic?id=33600",
+      "publishedAt": "2026-09-13T08:11:55+09:00",
+      "snippet": "재귀적 자기개선(RSI) 의 관건은 AI가 실험 코드를 잘 작성하는 데서 나아가, 연구 목표를 정하고 결과를 해석하며 다음 목표를 선택하는 순환을 인간 없이 지속할 수 있느냐임 현재의 Transformer와 강화학습(RL) 만으로도 연구가 크게 빨라질 수 있지만, 기존 목...",
+      "oneLineKo": "AI 재귀적 자기개선(RSI) 임박 여부 논쟁",
+      "summaryKo": "AI 연구자들이 재귀적 자기개선(RSI)에 얼마나 근접했는지를 두고 의견이 갈리고 있다. 핵심은 AI가 단순히 실험 코드를 작성하는 수준을 넘어, 연구 목표 설정과 결과 해석, 다음 목표 선택까지 인간 개입 없이 순환할 수 있는지에 있다. 현재의 Transformer와 강화학습(RL) 기반 접근만으로도 연구 속도는 크게 빨라질 수 있지만, 기존 패러다임의 근본적 한계로 완전한 자율 순환에는 아직 도달하지 못했다는 시각이 제시된다.",
+      "tags": [
+        "rsi",
+        "transformer",
+        "reinforcement-learning"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49672510",
+      "title": "We must pace the frontier",
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49672510",
+      "publishedAt": "2026-09-12T14:10:49Z",
+      "score": 487,
+      "comments": 675,
+      "snippet": "Dario Amodei — We Must Pace the Frontier Dario Amodei Archive Contents We Must Pace the Frontier September 2026 I have worked on AI for the last twelve years because I believe it could dramatically raise the quality of human life. I’ve written often about these incredible benefits: I believe that AI could cure most major diseases in the next 5–10 years, greatly accelerate economic growth rates, create a world of abundance and empowerment, and usher in a renaissance of democracy and freedom. I feel the urgency personally. My own father died of a disease that was cured just a few years after his death, and I myself survived an early-stage cancer that would not have been treatable even fifty years ago. Carefully wielded, AI can be the latest in a long line of technological miracles that have uplifted and ennobled humanity. But like many technologies before it, AI brings risks, and because it is such a powerful technology, these risks are serious. I’ve written a lot about them too. They include the risk of losing control of AI systems , misuse of AI for cyberattacks and bioterrorism , and serious economic disruption . A race to the bottom, spurred by commercial incentives, can make these risks more acute. Along with my co-founders and employees, I have grappled with this duality of risk and benefit since the beginning of Anthropic. Not building the technology deprives humanity of benefits or simply places AI in the hands of authoritarian powers, while building it too fast is reckless. We have sought a middle way: to show that it’s possible to build carefully and succeed commercially, and to make safety something on which AI companies compete. In other words, to create a race to the top . We have always devoted a substantial fraction of our efforts to studying , addressing , and informing the public about these AI risks, as well as advocating for well-considered regulation of AI, even when this gets us accused of hype, “doomerism”, or regulatory capture. We have tried to prioritize caution over speed and prudence over profit. But over the last few months, I have become convinced that fully addressing the risks requires even more prudence — not just investing in risk prevention, but pacing the rate of capabilities advancement so that risk prevention has time to keep up. We must slow the pace at which we improve the capabilities of AI models. Progress will still seem fast, and we must make wise use of the time we gain. Two things have convinced me. My first concern is that, since roughly this summer, AI has been advancing drastically faster, driven primarily by AI’s growing ability to build the next generation of AI. This dynamic is called recursive self-improvement, and it is starting to happen across the industry , including at Anthropic , as we and others have described. Left unchecked, it could outrun our ability to understand and control these systems, and so must be pursued very carefully, if at all. My second concern is the OpenAI-Hugging Face in",
+      "oneLineKo": "Anthropic CEO, AI 발전 속도 조절 필요성 주장",
+      "summaryKo": "Anthropic CEO 다리오 아모데이는 AI가 인류에 막대한 혜택을 줄 수 있지만 동시에 심각한 위험도 내포하고 있다고 강조한다. 그는 최근 AI가 스스로 다음 세대 AI를 만드는 재귀적 자기개선(recursive self-improvement) 현상이 업계 전반에서 빠르게 나타나고 있어, 이를 신중히 다루지 않으면 인간의 통제 범위를 벗어날 수 있다고 경고한다. 이에 따라 AI 역량 발전 속도를 인위적으로 늦춰 위험 관리 체계가 이를 따라갈 시간을 벌어야 한다고 주장한다. Anthropic은 안전과 상업적 성공을 동시에 추구하는 '상향 경쟁(race to the top)'을 지향해왔다고 밝힌다.",
+      "tags": [
+        "ai-safety",
+        "anthropic",
+        "recursive-self-improvement"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33593",
+      "title": "AI 중심 콘텐츠의 우선순위를 낮춘 Hacker News",
+      "url": "https://news.hada.io/topic?id=33593",
+      "commentsUrl": "https://news.hada.io/topic?id=33593",
+      "publishedAt": "2026-09-13T03:41:14+09:00",
+      "snippet": "AI 중심 콘텐츠의 우선순위를 낮춘 Hacker News",
+      "oneLineKo": "해커뉴스, AI 중심 콘텐츠 노출 우선순위 낮춰",
+      "summaryKo": "Hacker News가 AI 관련 콘텐츠의 노출 우선순위를 낮추는 조치를 취한 것으로 전해졌습니다. 이는 플랫폼 내 AI 관련 게시물이 과도하게 많아지는 것에 대한 대응으로 보입니다. 구체적인 정책 변경 내용이나 배경에 대한 상세 정보는 제목 외에 확인되지 않습니다.",
+      "tags": [
+        "hacker-news",
+        "ai",
+        "content-moderation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49645480",
+      "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/lg-strongly-denies-tv-security-claims-says-tracking-and-snooping-concerns-not-true-online-investigation-claims-216-000-000-spy-tvs-record-audio",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49645480",
+      "publishedAt": "2026-09-10T15:31:37Z",
+      "score": 381,
+      "comments": 327,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.lg.com&#x2F;global&#x2F;newsroom&#x2F;news&#x2F;statements&#x2F;statement-understanding-privacy-on-lg-smart-tvs&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.lg.com&#x2F;global&#x2F;newsroom&#x2F;news&#x2F;statements&#x2F;statement...</a>",
+      "oneLineKo": "LG, 스마트TV 사찰 의혹 공식 반박",
+      "summaryKo": "LG전자는 자사 스마트TV가 사용자를 감시하고 음성을 녹음한다는 온라인 조사 주장에 대해 공식 성명을 통해 '사실이 아니다'라고 반박했다. 해당 주장은 약 2억 1600만 대의 LG TV가 사용자 데이터를 몰래 수집하고 오디오를 기록한다는 내용을 담고 있었다. LG는 뉴스룸 성명을 통해 프라이버시 정책과 데이터 처리 방식을 설명하며 의혹을 부인했다.",
+      "tags": [
+        "smart-tv",
+        "privacy",
+        "lg"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33592",
+      "title": "Thelio Mira AI - GPU 메모리 192GB를 지원하는 Linux 워크스테이션",
+      "url": "https://news.hada.io/topic?id=33592",
+      "commentsUrl": "https://news.hada.io/topic?id=33592",
+      "publishedAt": "2026-09-13T03:38:14+09:00",
+      "snippet": "System76의 Thelio Mira AI 는 자체 하드웨어에서 AI 학습, 미세 조정, 반복 개발을 수행하도록 설계한 GPU 중심 워크스테이션임 NVIDIA RTX PRO 6000 두 개 로 GPU 메모리를 최대 192GB 까지 구성할 수 있으며, CPU는 최대 16코어 AMD Ryzen 9000 시...",
+      "oneLineKo": "System76, GPU메모리 192GB 지원 Linux AI 워크스테이션 출시",
+      "summaryKo": "System76이 AI 학습과 미세 조정, 반복 개발을 위한 GPU 중심 워크스테이션 'Thelio Mira AI'를 공개했다. NVIDIA RTX PRO 6000 GPU 두 개를 탑재해 GPU 메모리를 최대 192GB까지 구성할 수 있다. CPU는 최대 16코어 AMD Ryzen 9000 시리즈를 지원하며, Linux 기반으로 동작한다.",
+      "tags": [
+        "linux",
+        "workstation",
+        "gpu"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49668706",
+      "title": "Navier-Stokes Announcement",
+      "url": "https://www.claymath.org/news/navier-stokes-announcement/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49668706",
+      "publishedAt": "2026-09-12T04:09:43Z",
+      "score": 306,
+      "comments": 249,
+      "snippet": "Navier-Stokes Announcement - Clay Mathematics Institute Search Clay Mathematics Institute Search Clay Mathematics Institute About About About History Principal Activities Who’s Who CMI Logo Policies Programs & Awards Programs & Awards Programs & Awards Funded programs Fellowship Nominations Clay Research Award Dissemination Award People The Millennium Prize Problems The Millennium Prize Problems The Millennium Prize Problems Rules for the Millennium Prize Problems Birch and Swinnerton-Dyer Conjecture Hodge Conjecture Navier-Stokes Equation P vs NP Poincaré Conjecture Riemann Hypothesis Yang-Mills & the Mass Gap Online resources Online resources Online resources Books Video Library Lecture notes Collections Collections Collections Euclid’s Elements Ada Lovelace’s Mathematical Papers Collected Works of James G. Arthur Klein Protokolle Notes of the talks at the I.M.Gelfand Seminar Quillen Notebooks Riemann’s 1859 Manuscript Events News --> Home — News — Navier-Stokes Announcement Navier-Stokes Announcement Date: 11 September 2026 The Millennium Prize Problems were unveiled by the Clay Mathematics Institute (CMI) at a meeting in Paris in 2000 to celebrate “ The Universality of Mathematical Thought ”. These problems encapsulate some of the most difficult challenges that mathematicians were grappling with at the turn of the millennium. CMI’s purpose in articulating these problems and attaching a $1M prize to each of them was threefold: to elevate in the consciousness of the general public the fact that in mathematics the frontier is open, close at hand, and abounds with important unsolved problems; to emphasize the abiding value of working towards a solution of the deepest, most difficult problems; and to recognize achievements in mathematics of historic magnitude. Each of the Millennium Prize Problems concerns a classical question of compelling origin that had defied all attempts to resolve it over many years. These are not arbitrary puzzles akin to fiendish crosswords. Rather, they are fundamental challenges that mark the frontier of human knowledge and challenge us to develop new structures and methods. They provide foci for the continuing struggle, across generations and cultures, to deepen our human understanding of mathematics and the universe that it describes. The deep innovations that are required to make significant progress on these problems open new vistas of possibility that typically reach far beyond the domain of the problem. The Millennium Problem concerning the motion of fluids has all these attributes. The problem asks about the existence and smoothness of Navier-Stokes solutions in 3-dimensional Euclidean space. In recent years there has been an increasing sense of anticipation as breakthroughs in the surrounding field (some recognised by the Clay Research Award) have raised hopes that the Navier-Stokes problem might soon be resolved. The increasing ability of new technologies to accelerate mathematical research has heightened this s",
+      "oneLineKo": "클레이수학연구소, 나비어-스토크스 문제 발표 예정",
+      "summaryKo": "클레이 수학연구소(CMI)가 밀레니엄 문제 중 하나인 나비어-스토크스 방정식 관련 발표를 2026년 9월 11일에 예고했다. 이 문제는 3차원 유클리드 공간에서 나비어-스토크스 방정식의 해의 존재성과 매끄러움을 다루는 100만 달러 상금이 걸린 난제다. 최근 관련 분야의 돌파구와 새로운 기술의 발전으로 문제 해결에 대한 기대감이 높아지고 있다는 배경 설명이 포함되어 있다.",
+      "tags": [
+        "mathematics",
+        "navier-stokes",
+        "millennium-prize"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33588",
+      "title": "Nvidia는 AI의 중앙은행이다",
+      "url": "https://news.hada.io/topic?id=33588",
+      "commentsUrl": "https://news.hada.io/topic?id=33588",
+      "publishedAt": "2026-09-13T02:44:25+09:00",
+      "snippet": "칩을 판매하는 데 그치지 않고 고객의 데이터센터 수익과 장비 가치를 보증 해 자금 조달을 돕고, 그 투자금이 다시 자사 칩 구매로 이어지도록 함 매출의 약 절반을 차지하는 Amazon, Google 등 대형 고객이 자체 칩을 개발하면서, 이들에게 의존하지 않는 AI 기업과 신생 클...",
+      "oneLineKo": "Nvidia, 칩 판매 넘어 AI 산업 자금 순환의 중심축 역할",
+      "summaryKo": "Nvidia는 칩 판매에 그치지 않고 고객의 데이터센터 수익과 장비 가치를 보증하는 방식으로 자금 조달을 도와, 그 투자금이 다시 자사 칩 구매로 이어지는 구조를 만들고 있다. 매출의 절반을 차지하는 Amazon, Google 등 대형 고객이 자체 칩을 개발하면서 의존도를 줄이고 있어, Nvidia는 이들에게 덜 종속적인 AI 기업 및 신생 클라우드 업체 지원을 강화하고 있다. 이런 금융적 개입으로 인해 Nvidia는 단순 반도체 기업을 넘어 AI 산업 전반의 자금 흐름을 좌우하는 '중앙은행' 같은 위치를 차지하게 되었다는 분석이다.",
+      "tags": [
+        "nvidia",
+        "ai-chip",
+        "semiconductor"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49674050",
+      "title": "Make your first edit to OpenStreetMap",
+      "url": "https://high5apps.github.io/josm-plugin-website-wizard/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49674050",
+      "publishedAt": "2026-09-12T16:25:08Z",
+      "score": 275,
+      "comments": 69,
+      "snippet": "Make Your First Edit to OpenStreetMap in the Next 15 Minutes | Website Wizard JOSM Plugin Skip to the content. Make Your First Edit to OpenStreetMap in the Next 15 Minutes Website Wizard JOSM Plugin Intro This quick tutorial will help you make a meaningful contribution to OpenStreetMap (OSM) in less than 15 minutes. By the end, you will have added an official website tag to a nearby shop or amenity. Soon after, your contribution will be ingested into dozens of free OSM-based services , helping people worldwide. Why a website tag? Once a place in OSM has a website tag, it becomes way easier to determine other helpful info about that place. Nearly every place’s official website has info about its phone , opening_hours , email , and other tags . So adding a website tag is a great place to get started. Got your stopwatch out? Ready, set, go! 1. Create an OSM account Sign up for a free OSM account and then confirm your email. 2. Download and Run JOSM Download JOSM (~365 MB) for your specific operating system and then run it. JOSM , the Java OSM editor app, is a powerful tool for querying and editing OSM data. While simpler in-browser editors exist, JOSM offers plugins that make your edit as quick and easy as possible. 3. Download OSM Data Press Ctrl+Shift+↓ (or ⌘+Shift+↓ on Mac) to open the Download dialog Determine your area of interest (AOI). It should be somewhere you’re familiar with, no larger than a few city blocks. Locate your AOI on the map. You can pan the map with ctrl+click dragging and zoom in by scrolling. Click and drag to create a box around your AOI Click ⬇️ Download . If this fails, your AOI was probably too large. Choose a smaller AOI and try again. 4. Filter Irrelevant OSM Data Now we’ll filter the OSM data to only show shops and amenities that don’t have a website. Find the Filter panel on the right side of the screen Click the + icon to open the Filter dialog Copy/paste the following query into the Search string text field name=* ((amenity=* \"addr:housenumber\"=*) | shop=*) -website=* -\"contact:website\"=* Click Submit filter Check E , uncheck H , and check I in the Filter panel. You should now only see the relevant places in your AOI. 5. Set Up the Website Wizard Plugin Press F12 (or ⌘+, on Mac) to open JOSM’s Preferences dialog Click the 🧩 puzzle piece icon on the left side to open the Plugins config Click ⬇️ Download list Scroll down the list of plugins until you see 🌐 WebsiteWizard Check its checkbox Click OK to install it 6. Search for an Official Website Click the 🌐 icon on the left side of the screen to show the 🌐 Website Wizard panel on the right side of the screen Type your AOI’s city and/or neighborhood into Website Wizard’s Search Prefix text field Click a shop or amenity in your AOI Click Search to open DuckDuckGo in your default browser with the query autofilled as the Search Prefix + the place’s name Determine if any of the search results represent the official website for your place. Do NOT use search results for ",
+      "oneLineKo": "OSM에 웹사이트 태그 추가하는 15분 튜토리얼",
+      "summaryKo": "이 글은 JOSM 에디터의 Website Wizard 플러그인을 이용해 OpenStreetMap(OSM)에 첫 편집을 15분 내에 완료하는 방법을 안내하는 튜토리얼이다. OSM 계정 생성, JOSM 다운로드, 관심 지역(AOI) 데이터 다운로드, 웹사이트 태그가 없는 상점·시설 필터링, Website Wizard 플러그인 설치 후 DuckDuckGo 검색으로 공식 웹사이트를 찾아 태그를 추가하는 단계별 과정을 설명한다. 이렇게 추가된 웹사이트 태그는 이후 다양한 OSM 기반 서비스에 반영되어 전화번호, 영업시간 등 부가 정보를 쉽게 얻을 수 있게 해준다.",
+      "tags": [
+        "openstreetmap",
+        "josm",
+        "open-data"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49670032",
+      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "url": "https://eiln.github.io/posts/ane.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49670032",
+      "publishedAt": "2026-09-12T07:54:03Z",
+      "score": 216,
+      "comments": 31,
+      "snippet": "Retrospectively Reverse-Engineering Apple's Neural Engine | Eileen Yoon Eileen Yoon Home | About Retrospectively Reverse-Engineering Apple's Neural Engine Aug 10, 2026 (5089 words) I stopped working on the reverse-engineered Apple Neural Engine (ANE) driver three years ago, upon a sad mini realization that the ANE block is just not that useful, and I could be doing more useful things, and moved onto upstreaming other, more useful, blocks. The ANE's architecture was too opinionated to build a general-purpose accelerator platform around it, and a linux driver effectively opening ANE hardware API access could not broaden the class of workloads it could do. Even macOS only regularly uses their own ANE to generate upsampled preview images in Finder. https://github.com/eiln/ane/tree/main M1 die shot: https://mastodon.social/@dougall/115149886886125067 The M5 (2025)'s headline feature was \"LLM performance\", and they also conveniently folded the ANE cores inside the GPU cores &mdash; I knew it was coming, but it officially feels like the beginning of the end for the standalone NPU. So, in honor of the ANE’s apparent demise, we will do something even more useless: go back and reverse-engineer the ANE on the M1, finish what we started. It's been three years (fuck), and I should know more than I did when I first worked on this. If the goal three years ago was to make the ANE useful by running ops on it; this time, it's more about mapping the full internal architecture &mdash; compute, datapath, scheduler, memory, and execution model &mdash; because those internal design decisions reveal the assumptions about ML workloads that Apple was willing to commit to silicon first in the A11 Bionic (2017), and what that says about the shift from CNN-era NPUs to today's GPUs running transformer workloads. 1. Compute The 16 compute cores are probably the least interesting part of the ANE. Apple originally targeted dense image-processing CNN workloads, which consists of dense tensor reductions with predictable reuse. The M1 ANE compute core is a large parallel array of multiply-accumulate (MAC) units, but that alone says almost nothing about what workloads it was designed for and accels at. A convolutional layer does a dot product between an activation window and learned kernel weights, and attention does a dot product between a query and key vector. A dot product is a dot product, and a MAC does just that. What specialized ANE to the 2017 CNN models is not the MAC, but dataflow surrounding the MACs: when and where MAC inputs and outputs enter, stay, move. The assumption that transformers broke, especially with autoregressive decode, was predictable reuse patterns, which the ANE exploited to architect a dataflow efficient enough to run on phones. The M5 decision confirms that ANE's compute core remained still useful for transformers, but inside a different dataflow. Still, here's the datapath inside each of the 16 compute cores: ┌────────────────────── core ─────────────",
+      "oneLineKo": "애플 Neural Engine(M1) 아키텍처 역공학 분석기",
+      "summaryKo": "저자는 3년 전 중단했던 애플 Neural Engine(ANE) 리버스 엔지니어링을 M5 발표를 계기로 다시 시작했다. M5에서 ANE 코어가 GPU 코어 내부로 통합되며 독립형 NPU 시대가 끝나가는 것을 상징적으로 보고, 이번에는 실제 활용이 아닌 M1 ANE의 컴퓨트·데이터패스·스케줄러·메모리·실행 모델 전체 구조를 매핑하는 데 목적을 둔다. 이를 통해 2017년 A11 바이오닉 시절 CNN 워크로드를 겨냥한 설계 가정과, 오늘날 트랜스포머 워크로드로의 전환이 하드웨어 설계에 어떤 의미를 갖는지 분석한다. 특히 16개 컴퓨트 코어의 MAC 유닛 자체보다는 이를 둘러싄 데이터플로우 설계가 CNN 특화의 핵심이었으며, 트랜스포머의 예측 불가능한 재사용 패턴이 이 가정을 깨뜨렸다고 설명한다.",
+      "tags": [
+        "reverse-engineering",
+        "apple-silicon",
+        "npu"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49662214",
+      "title": "λ Snap – An inviting programming language for kids and adults for CS study",
+      "url": "https://snap.berkeley.edu/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49662214",
+      "publishedAt": "2026-09-11T17:36:11Z",
+      "score": 171,
+      "comments": 109,
+      "snippet": "Snap! Build Your Own Blocks Run Snap ! Explore Forum Learn Snap ! Con Join Log In Castellano Հայերեն Արեւմտահայերէն Italiano English Français Português Türkçe 简体中文 Deutsch Català --> Previous Next Welcome to Snap ! Snap ! is a broadly inviting programming language for kids and adults that's also a platform for serious study of computer science. Run Now Example Projects Learn Snap ! Featured first page previous page 1 / 4 1 of 4 pages next page last page OEIStreams by mobility212 Wordle (Final Version) by stbriceno vid maker by onu032001 Unlock Game by da-ultimate-creater farbzentren by jowede Ultrafast 3D Floor on snap by guilhermesnap2022 Tempo Terror by mrace0 Memory Match: Meow Edition by nicolek5882 Animation Project - Song: Its Raining Tacos by trulysophia.com snake by travaler Mayos Kitchen by mannydaweird Cloud Platformer by ibuiltdifferent Game by jbadr 2025to2026 by loucheman flappy bird by sanjaerin Battle in the rain by koengaming offbrand sans fight by the_meep111 create task by jennyn23 The Maze Game by eve h Mirror Puzzle by vcasado ScratchGame Lite Snap Edition by guilhermesnap2022 Block Wars by goatof_sb Nees Garden by palmira random growth by stoneking Projects from Snap!Con 2025 first page previous page 1 / 3 1 of 3 pages next page last page Instrument Classification Exploration by jens Artificial Neural Networks - Sprite Layers by jens SnapGPT-Microworld-EN-Solution by jens SnapGPT-Microworld-EN-Starter by jens Voice recognition by jogaye Turtle Graphics story time by rmillwood Eureka Moments by rmillwood flexible writing block by knemeyer Snap! v11 Map Colors by cycomachead Sp25 Disc9 Solution Part 2 by jedi_force AP CSP Create Task (Shared) by dennyzenny SnapGPT Explainable AI snapcon 2025 by dan garcia tictoctoe_pythonblocks by simonsteam Kabeljau_2.3_snapcon by atkabeljau Fractals first page previous page 1 / 4 1 of 4 pages next page last page Super fast Sierpiński by bromagosa Vee by snapcloud fractal leaf_simulation by knemeyer chaos game by yuji_ L-Systems by bromagosa Christmas Tree 2022 by jens Cross Stitch by takumoku fractal leaf - animated forest by ianfinnesey fractal leaf by jdonwells Tree recursion animated by cornelios207 Fractal by drmikeida color tree by bh PentagonFractal by sopadepedres Cesaro by legoman3.14 Hypercompact Mandelbrot (Snap Codegolf) by piano_miles Sierpinski carpet by c0dbr2q Satisfying Pen Art by -streemermcsnap- fractals by gist Mandelbrot Set Generator by great24 Live Fractal Tree by dan garcia fern fractal by legoman3.14 hilbert_curve by roblow Growing Tree by jens Árvore recursiva grande by mmsequeira Animations first page previous page 1 / 4 1 of 4 pages next page last page Binary Apple by ethan7946 Animation Project - Song: Its Raining Tacos by trulysophia.com eCard Challenge by moonlightstar333 [extra credit assignment] voidlands opening cutscene by bl-cc_curious-creator Bouncing shapes v1.0 by loucheman Star Wars by wdstudios_llc121 When you post on a forum but get no response... by s",
+      "oneLineKo": "UC버클리의 교육용 블록 프로그래밍 언어 Snap!",
+      "summaryKo": "Snap!은 어린이와 성인 모두를 위한 블록 기반 프로그래밍 언어로, 컴퓨터 과학 학습을 위한 플랫폼 역할도 한다. 웹에서 바로 실행 가능하며, 게임, 애니메이션, 프랙탈, 머신러닝 예제 등 다양한 사용자 제작 프로젝트를 공유하는 커뮤니티가 활발하다. AP Computer Science Principles 등 교육 과정에서도 활용되며, 재귀·인공신경망 같은 심화 개념도 다룰 수 있다.",
+      "tags": [
+        "snap",
+        "block-programming",
+        "cs-education"
+      ]
+    }
+  ]
+}
