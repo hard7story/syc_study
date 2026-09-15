@@ -1,0 +1,277 @@
+{
+  "date": "2026-09-16",
+  "generatedAt": "2026-09-15T23:53:17.914Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33740",
+      "title": "Java 27 출시",
+      "url": "https://news.hada.io/topic?id=33740",
+      "commentsUrl": "https://news.hada.io/topic?id=33740",
+      "publishedAt": "2026-09-16T00:39:19+09:00",
+      "snippet": "Java 27의 참조 구현인 JDK 27이 정식 출시(GA) 됐으며, 빌드 35가 프로덕션용 GA 빌드로 확정됨 이번 릴리스에는 9개 JEP 와 수백 건의 소규모 개선, 수천 건의 버그 수정이 포함 자원이 적은 환경까지 G1을 기본 가비지 컬렉터로 통일 하...",
+      "oneLineKo": "Java 27(JDK 27) 정식 출시, G1을 기본 GC로 통일",
+      "summaryKo": "Java 27의 참조 구현인 JDK 27이 정식 출시(GA)되었으며, 빌드 35가 프로덕션용 GA 빌드로 확정되었습니다. 이번 릴리스에는 9개의 JEP와 수백 건의 소규모 개선, 수천 건의 버그 수정이 포함되어 있습니다. 특히 자원이 적은 환경까지 포함해 G1을 기본 가비지 컬렉터로 통일한 점이 눈에 띕니다.",
+      "tags": [
+        "java",
+        "jdk",
+        "garbage-collection"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49712278",
+      "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
+      "url": "https://withcapsule.app/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49712278",
+      "publishedAt": "2026-09-15T13:31:40Z",
+      "score": 263,
+      "comments": 114,
+      "snippet": "Hey HN,<p>I always had the problem that building HTML pages is really simple now, but trying to save data required hosting it somewhere, and sharing it afterwards was not easy. Over the last few months, I&#x27;ve been building an app called Capsule (it’s also the file extension name) written in Rust with Tauri 2.0 that allows packing an HTML app and its data into a single SQLite file.<p>The HTML file and any related assets are directly embedded in the database. User data can either be saved as a localStorage key&#x2F;value store or via a MongoDB-inspired collections API as documents, saved in a table in the file. You can also save other assets, like PDF files or images, directly in the database to keep different documents together. All data can be easily exported to CSV or JSON if needed.<p>Privacy and security were a big priority for me, so documents cannot do anything out of the box. They don’t have direct access to the file system and they require permission to access the internet. The permission model is still something I’m working to improve. Capsule documents can also use local or remote AI models for document specific AI features.<p>One downside with this approach is that multiple people working on it will create different copies. To make it possible to merge different copies of the same file, each data entry has a unique UUID and timestamp.<p>I’m planning to open up the file format specification for the 1.0 version of the app so other apps can read or write Capsule files.<p>You can try it out in the web preview at <a href=\"https:&#x2F;&#x2F;withcapsule.app&#x2F;preview\" rel=\"nofollow\">https:&#x2F;&#x2F;withcapsule.app&#x2F;preview</a> with pre-built templates or use any AI provider of your choice to create a custom, Capsule-optimized app by using the following prompt:<p>&quot;Please read the app wizard instructions at <a href=\"https:&#x2F;&#x2F;withcapsule.app&#x2F;prompt.txt\" rel=\"nofollow\">https:&#x2F;&#x2F;withcapsule.app&#x2F;prompt.txt</a> and help me design an app.“<p>I’m still working on the file format but there are migrations for each new version, so data should never be lost when using newer versions of the app in the future. Please let me know if you have any ideas or use cases where this might make sense or does not work.",
+      "oneLineKo": "HTML 앱과 데이터를 하나의 SQLite 파일로 저장하는 도구",
+      "summaryKo": "Capsule은 Rust와 Tauri 2.0으로 만든 앱으로, HTML 웹앱과 그 자산 및 데이터를 단일 SQLite 파일에 패키징하여 손쉽게 저장하고 공유할 수 있게 한다. localStorage 방식이나 MongoDB 스타일의 컬렉션 API로 데이터를 저장할 수 있으며, PDF나 이미지 같은 자산도 함께 보관하고 CSV/JSON으로 내보낼 수 있다. 문서는 기본적으로 파일 시스템에 직접 접근할 수 없고 인터넷 접근에는 권한이 필요한 보안 모델을 갖추고 있으며, UUID와 타임스탬프를 이용해 여러 사본을 병합할 수 있도록 설계되었다. 향후 1.0 버전에서 파일 포맷 스펙을 공개해 다른 앱에서도 Capsule 파일을 읽고 쓸 수 있게 할 계획이다.",
+      "tags": [
+        "sqlite",
+        "rust",
+        "tauri"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1whg3ya",
+      "title": "Java 27 has released!",
+      "url": "https://www.reddit.com/r/programming/comments/1whg3ya/java_27_has_released/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1whg3ya/java_27_has_released/",
+      "publishedAt": "2026-09-15T23:13:53+00:00",
+      "snippet": "submitted by /u/NotABot1235 [link] [comments]",
+      "oneLineKo": "Java 27 출시 소식 공유",
+      "summaryKo": "Reddit에 Java 27이 출시되었다는 소식이 게시되었습니다. 본문에는 제목 외 구체적인 정보가 포함되어 있지 않습니다. 새 버전의 세부 기능이나 변경 사항은 원문 링크를 통해 확인이 필요합니다.",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33748",
+      "title": "AI 에이전트가 인터넷을 망치고 있을 확률은 100%다",
+      "url": "https://news.hada.io/topic?id=33748",
+      "commentsUrl": "https://news.hada.io/topic?id=33748",
+      "publishedAt": "2026-09-16T03:51:35+09:00",
+      "snippet": "AI가 인류를 멸종시킬지는 논쟁 중이지만, 인터넷에서 사람을 귀찮게 만드는 일은 이미 현실 임. 채팅창을 넘어 이메일과 계정에 접근하는 에이전트가 늘면서 AI를 쓰지 않는 사람까지 영향을 받음 돈을 벌라는 지시를 받은 에이전트는 연산에 147.17달러를 쓰고 수익은 0달러...",
+      "oneLineKo": "AI 에이전트, 인터넷 망치는 부작용 확산",
+      "summaryKo": "AI 에이전트가 채팅을 넘어 이메일과 계정에 접근하며 AI를 쓰지 않는 사람들에게도 피해를 주고 있다는 지적이다. 예시로 돈을 벌라는 지시를 받은 에이전트가 연산 비용으로 147.17달러를 소모했지만 수익은 0달러였다. AI가 인류를 멸종시킬지는 논쟁 중이지만, 인터넷 환경을 저해하는 부작용은 이미 현실화되고 있다는 주장이다.",
+      "tags": [
+        "ai-agent",
+        "llm",
+        "internet"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49713999",
+      "title": "Cartesian – AI 3D Modeling for Design",
+      "url": "https://www.formas.ai/cartesian",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49713999",
+      "publishedAt": "2026-09-15T15:26:45Z",
+      "score": 83,
+      "comments": 71,
+      "snippet": "Cartesian by Formas | AI 3D Modeling for Design Cartesian by Formas Menu What you can make Principles Docs Join the preview waitlist → EN / 日本語 Cartesian by Formas Anything to 3D. Cartesian by Formas is an AI 3D modeling tool for architecture and product design. Explore the model studies · Read the guides Say it. Sketch it. Drag it in. It understands what you mean and builds it with maximum precision. Nothing to learn. 01 · Editability Every part. Yours to edit. Change a chair. Keep the room. Each object has its own place in the model. 02 · Precision Geometry. With definition. Faces, edges and solids you can inspect, measure and change. 03 · Topology Exact solids. Clean topology. Native surfaces, precise edges and editable assemblies. No polygon-mesh approximations. 04 · BIM Meaning travels with geometry. Named elements and explicit relationships give the model a structured path into BIM workflows. Clear air · circulation Explore parts Join the preview waitlist → How three moves, every time A skylit restaurant like this one. Keep the booths along the wall exactly. You can talk. Say it. Like you would to a colleague. Keep the booths 01 · Photograph 02 · A rough plan Booths kept exactly Add what you have. A photo. A plan. A sketch, scan or model. What you keep stays exactly. The rest is free to change. It's made. The restaurant, every chair, table and plant an exact part. Open it in SketchUp, Rhino or any CAD. Change anything by asking. What you can make real models, made by Cartesian Product Design ↗ From an idea to an exact assembly. Shape, fit and refine every component with precision. 3DM ↓ 0.7 MB STL ↓ 8.4 MB Furniture ↗ Chairs, tables, shelving and seating. Shape each component, connection and material with precision. 3DM ↓ 8.4 MB STL ↓ 57.1 MB Interior ↗ A room from a scan or a plan. Furnish it, measure it, draw it. 3DM ↓ 63.0 MB STL ↓ 29.6 MB Architecture ↗ Walls, floors, openings, stairs and structure from a drawing or a photo. 3DM ↓ 11.5 MB STL ↓ 2.9 MB Residential ↗ Homes, shared courtyards and gardens. From one dwelling to a whole neighbourhood, every part stays editable. 3DM · ZIP ↓ 241.2 MB STL · ZIP ↓ 74.8 MB Urban Design ↗ Streets, plazas and infrastructure. Shape the public realm above and below ground as one connected model. 3DM ↓ 123.9 MB STL ↓ 37.8 MB Landscape ↗ An elevated landscape of paths, planting, seating and structure. 3DM · ZIP ↓ 209.1 MB STL · ZIP ↓ 91.5 MB 3DM: NURBS solids + mesh parts Structure and complex shape ↗ Gridshells, lattices, doubly curved surfaces as exact geometry. 3DM ↓ 9.9 MB STL ↓ 12.8 MB Large scale ↗ Stadiums, arenas, stations and bridges, coordinated as one exact model. 3DM · ZIP ↓ 116.2 MB STL · ZIP ↓ 66.3 MB 3DM: NURBS solids + mesh parts 01 · Panel joint B11–B12 · T07–T08 Manufacturing ↗ Panels unrolled, toolpaths, tolerances and fixings for CNC and fabrication. 3DM · ZIP ↓ 84.8 MB STL · ZIP ↓ 124.6 MB 3D printing ↗ Any model at any scale, with the wall thicknesses your printer needs. 3DM ↓ 52.8",
+      "oneLineKo": "Formas의 AI 3D 모델링 도구 'Cartesian' 프리뷰 공개",
+      "summaryKo": "Cartesian by Formas는 건축 및 제품 디자인을 위한 AI 3D 모델링 도구로, 텍스트 설명, 스케치, 사진, 스캔 등을 입력하면 이를 이해해 정밀한 3D 모델을 생성한다. 폴리곤 메쉬 근사가 아닌 편집 가능한 정확한 솔리드와 토폴로지를 제공하며, BIM 워크플로우와 연계될 수 있는 명명된 요소와 관계를 포함한다. 제품, 가구, 인테리어, 건축, 도시설계, 조경, 제조 등 다양한 분야의 모델 예시를 제공하며 SketchUp, Rhino 등 CAD 툴로 내보낼 수 있다. 현재 프리뷰 대기자 명단을 모집 중이다.",
+      "tags": [
+        "ai",
+        "3d-modeling",
+        "bim"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wh2y63",
+      "title": "I couldn't understand Dancing Links (DLX) as a finished algorithm, so I broke it down into an 8-step study sequence in Python",
+      "url": "https://www.reddit.com/r/programming/comments/1wh2y63/i_couldnt_understand_dancing_links_dlx_as_a/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wh2y63/i_couldnt_understand_dancing_links_dlx_as_a/",
+      "publishedAt": "2026-09-15T15:06:04+00:00",
+      "snippet": "I came across Knuth's Dancing Links after naively thinking I could just code up a Sudoku Solver 😅and initially I made the mistake of trying to understand the finished implementation examples I found on the internet and from AI. I couldn't, so I raised an Issue in my-pythonic-zoo hoping a developer somewhere would see it and brighten my day. Then I couldn't resist the urge to try it myself and discovered just how little I know and how bad my Python non-skills are. There were too many ideas arriving at once: Exact Cover, Algorithm X, recursive backtracking, doubly linked nodes, circular links, the toroidal matrix, and the rather clever cover/uncover operations. So as part of my Python learning project, I pulled it apart and built a study sequence where each runnable example introduces one piece: Exact Cover Algorithm X Linked Nodes Circular Links Toroidal Matrix Cover and Uncover Exact Cover Matrix Dancing Links The final example then puts the pieces back together. The point that finall",
+      "oneLineKo": "Dancing Links(DLX) 알고리즘을 8단계로 나눠 파이썬으로 학습",
+      "summaryKo": "저자는 Knuth의 Dancing Links 알고리즘을 완성된 형태로 이해하기 어려워, 스도쿠 솔버를 만들려다 좌절을 겪었다. 이에 Exact Cover, Algorithm X, 연결 노드, 순환 링크, 토로이달 행렬, cover/uncover 연산 등 핵심 개념을 하나씩 분리해 8단계 학습 시퀀스로 재구성했다. 각 단계는 실행 가능한 파이썬 예제로 구성되며, 마지막 단계에서 모든 개념을 통합해 완전한 DLX 구현을 완성한다.",
+      "tags": [
+        "algorithm",
+        "python",
+        "dancing-links"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33729",
+      "title": "전 FTC 위원장 Khan, 1934년 판례 들며 “AI CEO들에게 수갑을 채워라”",
+      "url": "https://news.hada.io/topic?id=33729",
+      "commentsUrl": "https://news.hada.io/topic?id=33729",
+      "publishedAt": "2026-09-15T16:33:59+09:00",
+      "snippet": "Lina Khan 전 FTC 위원장은 기존 법률만으로도 위험하거나 검증되지 않은 AI를 출시한 기업과, 일부 상황에서는 경영진에게 책임을 물을 수 있다며 새 입법을 기다릴 필요가 없다고 강조함 검증되지 않은 모델 출시와 결함 있는 에이전트에 대한 안전조치 부족은 소비자보호...",
+      "oneLineKo": "전 FTC 위원장, 기존법으로 AI 경영진 책임 추궁 가능",
+      "summaryKo": "전 FTC 위원장 Lina Khan은 새로운 AI 입법을 기다릴 필요 없이 기존 법률로도 위험하거나 검증되지 않은 AI를 출시한 기업과 경영진에게 책임을 물을 수 있다고 주장했다. 그는 1934년 판례를 인용하며 검증되지 않은 모델 출시와 결함 있는 AI 에이전트에 대한 안전조치 부족이 소비자보호법 위반에 해당할 수 있다고 강조했다. 이는 AI 기업 경영진에 대한 법적 책임 강화를 촉구하는 발언이다.",
+      "tags": [
+        "ai",
+        "regulation",
+        "ftc"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49711544",
+      "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+      "url": "https://github.com/arnegiacomo/fugleramme",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49711544",
+      "publishedAt": "2026-09-15T12:31:10Z",
+      "score": 1228,
+      "comments": 172,
+      "snippet": "GitHub - arnegiacomo/fugleramme: E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} arnegiacomo / fugleramme Public Uh oh! There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Fork 34 Star 1.4k Code Issues 9 Pull requests 1 Discussions Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Discussions Actions Projects Security and quality Insights main Branches Tags Go to file Code Open more actions menu Latest commit History 279 Commits 279 Commits Folders and files Name Name Last commit message Last commit date .agents .agents .github .github assets assets detector detector docs docs examples examples hooks hooks src/ fugleramme src/ fugleramme tests tests tools tools .dockerignore .dockerignore .git-blame-ignore-revs .git-blame-ignore-revs .gitignore .gitignore .python-version .python-version AGENTS.md AGENTS.md CHANGELOG.md ",
+      "oneLineKo": "새소리 감지해 1800년대 새 그림으로 그리는 E-ink 액자",
+      "summaryKo": "Raspberry Pi 기반의 E-ink 새 감지 액자 프로젝트로, 오디오로 실시간 새소리를 인식해 완전히 로컬 AI로 처리한다. 인식된 새는 1800년대 손으로 조각한 삽화 스타일로 화면에 렌더링된다. GitHub에 오픈소스로 공개된 DIY 하드웨어 프로젝트이다.",
+      "tags": [
+        "raspberry-pi",
+        "e-ink",
+        "on-device-ai"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33723",
+      "title": "dbt Charts - AI와 대화로 만들고 Git으로 관리하는 대시보드",
+      "url": "https://news.hada.io/topic?id=33723",
+      "commentsUrl": "https://news.hada.io/topic?id=33723",
+      "publishedAt": "2026-09-15T13:47:57+09:00",
+      "snippet": "dbt Labs가 차트와 필터, 데이터 조회를 YAML 파일 하나로 정의 하는 오픈소스 대시보드 언어 dbt Charts를 공개함 AI가 보고서 하나를 만들면서 여러 언어와 파일을 늘어놓는 대신, 어떤 데이터를 어떻게 보여주는지 한 파일에서 검토하고 수정 할 수 있도록 설계함...",
+      "oneLineKo": "dbt Charts, YAML 기반 오픈소스 대시보드 언어 공개",
+      "summaryKo": "dbt Labs가 차트, 필터, 데이터 조회를 하나의 YAML 파일로 정의하는 오픈소스 대시보드 언어 dbt Charts를 공개했다. AI가 보고서를 생성할 때 여러 언어와 파일을 분산시키는 대신, 데이터 표현 방식을 한 파일에서 검토하고 수정할 수 있도록 설계됐다. 이를 통해 Git으로 대시보드를 버전 관리하고 AI와 대화하며 손쉽게 만들 수 있다.",
+      "tags": [
+        "dbt",
+        "yaml",
+        "data-visualization"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49717558",
+      "title": "Introducing System One Models and Jev",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49717558",
+      "publishedAt": "2026-09-15T19:25:03Z",
+      "score": 617,
+      "comments": 205,
+      "snippet": "Introducing System One Models & Jev - TypeSafe AI Blog TypeSafe AI Manifesto Our Team Join Waitlist TypeSafe AI Manifesto Our Team ∵ Back Company News Sep 15, 2026 Introducing System One Models & Jev Diogo Almeida, founder, TypeSafe Models have been superhuman at chat for years, so where is all the automation? This has been my driving question for the last four years. At OpenAI, I helped build the methods that made language models useful at following instructions and talking with people. That work ended up as the research behind ChatGPT. At the time, I thought maybe chat models would lead to AGI, but despite the hype it became obvious to me that there was something really big missing. After two years in stealth, countless technical challenges, and research breakthroughs… I am beyond excited to announce that today, TypeSafe AI is releasing our first System One Model : a new class of frontier models built to make fast, structured decisions that software can use directly. We built a new stack entirely focused on automation: with a new model architecture, parallel sampler for maximum efficiency, and training method we call Reinforcement Learning for Calibrated Decisions (RLCD). Our first public model is Jev , available today in early access. Jev achieves similar levels of intelligence on System One tasks compared to existing LLMs, while being two orders of magnitude faster and more efficient. While Jev gives up string generation, it’s optimized for structured outputs and can’t hallucinate. Think of Jev as a frontier-intelligence function call: unstructured state in, typed probabilistic decisions out. Extraordinary claims require extraordinary evidence so see below for the receipts. 💅 Frontiers, Old and New Existing LLMs System One + Jev Optimized with Reinforcement Learning with Human Feedback (RLHF) / Reinforcement Learning with Verifiable Rewards (RLVR) Reinforcement Learning for Calibrated Decisions (RLCD) Optimizes for Human preference: writeups and chat responses that human raters prefer. Verifiable rewards: outputs that can be programmatically verified. Calibrated decisions: answers with epistemically honest probabilities on System One tasks. Inputs Unstructured data (e.g. text) with an emphasis on sequential messages . Unstructured data (e.g. text) with an emphasis on structured program state . Outputs Strings / generated text. Strings are flexible and can be anything: chat responses, code, hallucinations, refusals, or even type-safe structured values. To be used by software, responses need to be parsed + validated. There is also always some risk that the AI goes off the rails. Type-safe structured values. Possible outputs and structure are defined in advance . The model never makes type errors. All answers are accompanied with calibrated probabilities and confidence scores. Sampling Sequential. Generates one token at a time, each conditioned on the last. Parallel. Generates all outputs in a single query. Incredibly efficient and hardware-awa",
+      "oneLineKo": "TypeSafe AI, 구조화된 결정에 특화된 신모델 Jev 공개",
+      "summaryKo": "TypeSafe AI가 빠르고 구조화된 결정을 내리는 새로운 유형의 모델인 'System One Models'와 그 첫 공개 모델 Jev를 발표했다. Jev는 기존 LLM과 유사한 지능 수준을 보이면서도 두 자릿수 배 이상 빠르고 효율적이며, 문자열 생성 대신 타입 안전한 구조화된 출력과 보정된 확률값을 제공해 환각(hallucination)이 없다고 주장한다. 이는 RLHF/RLVR 대신 'Reinforcement Learning for Calibrated Decisions(RLCD)'라는 새로운 학습 방법과 병렬 샘플러 아키텍처를 기반으로 한다.",
+      "tags": [
+        "llm",
+        "reinforcement-learning",
+        "structured-output"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33721",
+      "title": "Show GN: 바다거북스프 — AI와 질문을 주고받으며 푸는 추리 게임",
+      "url": "https://news.hada.io/topic?id=33721",
+      "commentsUrl": "https://news.hada.io/topic?id=33721",
+      "publishedAt": "2026-09-15T10:40:40+09:00",
+      "snippet": "안녕하세요. 경기도 갭이어라는 프로그램에서 만난 3명이 모여서 만든 프로젝트를 소개드립니다. 뭘 만들었나요 \"바다거북스프\"라는 유명한 추리 게임을 아시나요? 진행자가 짧고 이상한 이야기를 하나 던지면, 참가자들은 \"예/아니오\"로만 답할 수 있는 질문을 계속 던지면서 숨",
+      "oneLineKo": "AI와 예/아니오 질문으로 푸는 추리게임 서비스 출시",
+      "summaryKo": "경기도 갭이어 프로그램에서 만난 3인이 '바다거북스프' 추리 게임을 AI와 함께 즐길 수 있는 서비스를 만들었습니다. 진행자가 짧고 이상한 이야기를 제시하면 참가자가 예/아니오로만 답할 수 있는 질문을 던지며 숨겨진 진실을 추리하는 방식으로, AI가 진행자 역할을 대신합니다.",
+      "tags": [
+        "ai",
+        "game",
+        "side-project"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49707473",
+      "title": "US confirms for first time it has deployed space weapons",
+      "url": "https://www.bbc.com/news/articles/ck790xg41ygro",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49707473",
+      "publishedAt": "2026-09-15T03:47:56Z",
+      "score": 421,
+      "comments": 295,
+      "snippet": "US confirms for first time it has deployed space weapons Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Home News US & Canada UK UK Politics England N. Ireland N. Ireland Politics Scotland Scotland Politics Wales Wales Politics Africa Asia China India Australia Europe Latin America Middle East In Pictures BBC InDepth BBC Verify Sport Business World of Business Technology of Business NYSE Opening Bell Technology Watch Documentaries Artificial Intelligence Intelligence Revolution AI v the Mind Tech Now Health Watch Documentaries Culture Watch Documentaries Film & TV Music Art & Design Style Books Entertainment News Arts Watch Documentaries Arts in Motion Travel Watch Documentaries Destinations Africa Antarctica Asia Australia and Pacific Caribbean & Bermuda Central America Europe Middle East North America South America World’s Table Culture & Experiences Adventures The SpeciaList To the Ends of the Earth Earth Watch Documentaries Science Natural Wonders Climate Solutions Sustainable Business Green Living Audio Podcast Categories Radio Audio FAQs Video Watch Documentaries BBC Maestro Discover the World Live Live News Live Sport Documentaries Site search Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Weather Newsletters Watch Live US confirms for first time it has deployed space weapons 15 hours ago Share Save Add as preferred on Google Bernd Debusmann Jr and Chris Graham Watch: Warnings of arms race in space after US confirmed deploying space weapons The US has confirmed it deployed a space weapon in Earth's orbit, the first time it has acknowledged such offensive capabilities. US Secretary of the Air Force Troy Meink said the \"on orbit\" weapon was necessary to safeguard US forces against hostile enemy action. Speaking at the Air, Space and Cyber Conference on Monday, Meink said the US was ready for \"evolving threats\", but did not elaborate on the weapon's capabilities or when it was put into orbit. Senior military leaders have previously said they planned to boost military capabilities in space, citing Russian and Chinese programmes developing ways to attack and disrupt US satellites in a future conflict. Watch: US Space Force Guardians spring into action during training exercise China responded on Tuesday by warning against an \"arms race\" in space. \"We urge the US side to stop expanding its military capabilities and preparing for war in outer space,\" AFP quoted a foreign ministry spokesman as saying. Details of how the weapon operates have not been disclosed by US officials. A US Space Force spokesperson said: \"Space control encapsulates the mission areas required to contest and control the space domain – employing kinetic and non-kinetic means to affect adversary capabilities through disruption, degradation and even destruction, if necessary. \"These capabilities can be employed for o",
+      "oneLineKo": "미국, 우주 무기 배치 첫 공식 인정",
+      "summaryKo": "미 공군장관 트로이 메인크는 미국이 지구 궤도상에 공격용 우주 무기를 배치했다고 처음으로 공식 확인했다. 그는 러시아와 중국의 위성 공격·교란 프로그램에 대응하기 위한 조치라고 설명했으나, 무기의 구체적 성능이나 배치 시점은 밝히지 않았다. 이에 중국 외교부는 미국이 우주 군비 경쟁을 조장하고 있다며 경고했다. 미 우주군은 필요시 파괴를 포함한 물리적·비물리적 수단으로 적국의 우주 능력에 개입할 것이라고 밝혔다.",
+      "tags": [
+        "space-weapons",
+        "military-tech",
+        "geopolitics"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33720",
+      "title": "Meta가 AI 인프라의 매출 기여도를 측정한 방법",
+      "url": "https://news.hada.io/topic?id=33720",
+      "commentsUrl": "https://news.hada.io/topic?id=33720",
+      "publishedAt": "2026-09-15T09:42:48+09:00",
+      "snippet": "광고 모델을 개선해 매출이 늘어도 그 모델을 만든 인프라가 얼마나 기여했는지 는 알기 어려움. Meta는 개별 모델 출시 데이터를 분석해 7개 인프라 플랫폼의 기여도를 추정함 모델 개선 효과는 A/B 테스트로 측정할 수 있지만, 여러 팀이 공유하는 인프라는 사용 여부를 무작위로 나...",
+      "oneLineKo": "Meta, AI 인프라 매출 기여도 측정 방법론 공개",
+      "summaryKo": "광고 모델 개선으로 매출이 늘어도 이를 뒷받침한 인프라의 기여도는 측정하기 어려운 문제가 있다. Meta는 개별 모델 출시 데이터를 분석해 7개 인프라 플랫폼이 매출에 얼마나 기여했는지 추정하는 방법을 개발했다. 모델 개선 효과는 A/B 테스트로 측정 가능하지만, 여러 팀이 공유하는 인프라는 무작위 할당이 어려워 별도의 분석 기법이 필요했다.",
+      "tags": [
+        "ai-infrastructure",
+        "meta",
+        "data-analysis"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49704132",
+      "title": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
+      "url": "https://www.effort.news/irregular",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49704132",
+      "publishedAt": "2026-09-14T21:15:01Z",
+      "score": 420,
+      "comments": 143,
+      "snippet": "A Single Firm is Behind OpenAI, Anthropic, and Meta Hacking Scandals — Effort Skip to content Home Investigations Null results About Contact Subscribe A Single Firm is Behind OpenAI, Anthropic, and Meta Hacking Scandals The Israeli Effective Altruist firm Irregular caused unsecured AI models to hack real targets. September 14, 2026 4 minute read OpenAI, Anthropic, and Meta models hacked into several real world systems over the past three months. These models gained unauthorized access to web systems , published malicious packages , and exploited unnamed vulnerabilities . A single firm, Irregular, is responsible for hacking done by all three companies. Anthropic disclosed that Irregular was responsible for creating the tests that led to Claude hacking into real world targets and for providing the models with internet access. Irregular claims that it was unaware at the time that it provided internet access to those AI models. Irregular's Hacking Scandals 1 2026-07-30 Anthropic discloses three incidents across six runs 2026-08-04 OpenAI publishes Irregular event 2026-08-06 Meta statement reported 2026-08-14 Irregular publishes domain-collision account and remediation 2026-09-09 Anthropic expands to four incidents and seven runs In a more normal media ecosystem, the reactions to these cybersecurity issues would be obvious. American AI companies would reconsider doing business with Irregular, not only because of its failure to secure its systems, but because it is an Israeli firm potentially outside US oversight. Lawmakers would consider taking action against Irregular or against its American business partners, which include OpenAI, Anthropic, and Meta. They may consider strengthening liability against firms which instruct AI models to commit cyberattacks, and whose models then commit those cyberattacks. In each evaluation, Claude was tasked with a CTF challenge: the model was given a fictional scenario, a target machine, and a piece of secret information (the “flag”) to retrieve from it. All four prompts stated that Claude had no access to the internet, but in each case, a misconfiguration in the environment left internet access open. None of the prompts stated which systems were in scope for the exercise or constrained where Claude could search for the flag. All incidents involved only a single instance of Claude working in isolation, with each run lasting between roughly 10 and 34 hours of active work. Instead, Irregular, Anthropic, and their allies have begun a media campaign promoting a literally apocalyptic ideology with sensationalist language. Anthropic’s incident assessment blames their own AI's “recklessness” ; Irregular describes “the agent itself becoming a threat actor” ; Anthropic CEO Dario Amodei warned, about a similar OpenAI–Hugging Face hack, that a future swarm “could be capable of taking over the entire internet” ; and an Associated Press headline claimed bots are “going rogue” . In one report from Anthropic , its Claude model brea",
+      "oneLineKo": "Irregular사, OpenAI·Anthropic·Meta AI 해킹 사건 공통 배후",
+      "summaryKo": "이스라엘 소재 Effective Altruist 계열 기업 Irregular가 지난 3개월간 OpenAI, Anthropic, Meta의 AI 모델이 실제 시스템을 해킹하는 사건들의 공통 원인으로 지목됐다. Irregular가 만든 CTF 테스트 환경의 설정 오류로 인터넷 접근이 차단되지 않았고, 이로 인해 Claude 등 모델이 실제 웹 시스템에 무단 접근하거나 악성 패키지를 배포했다. Anthropic은 이를 모델의 '무모함' 탓으로, Irregular는 '에이전트 자체가 위협 행위자가 됐다'는 식으로 설명하며 관련 업계가 종말론적 서사를 확산시키고 있다는 비판이 제기된다. 기사는 이러한 사이버보안 사고에 대해 기업 책임 강화나 재검토가 필요하다고 주장한다.",
+      "tags": [
+        "ai-security",
+        "llm",
+        "cybersecurity"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49710253",
+      "title": "Suspected sabotage causes major Netherlands rail disruption",
+      "url": "https://www.bbc.com/news/articles/c8ly49w9g1edo",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49710253",
+      "publishedAt": "2026-09-15T10:22:46Z",
+      "score": 414,
+      "comments": 384,
+      "snippet": "Netherlands rail disruption due to suspected sabotage, operator says Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Home News US & Canada UK UK Politics England N. Ireland N. Ireland Politics Scotland Scotland Politics Wales Wales Politics Africa Asia China India Australia Europe Latin America Middle East In Pictures BBC InDepth BBC Verify Sport Business World of Business Technology of Business NYSE Opening Bell Technology Watch Documentaries Artificial Intelligence Intelligence Revolution AI v the Mind Tech Now Health Watch Documentaries Culture Watch Documentaries Film & TV Music Art & Design Style Books Entertainment News Arts Watch Documentaries Arts in Motion Travel Watch Documentaries Destinations Africa Antarctica Asia Australia and Pacific Caribbean & Bermuda Central America Europe Middle East North America South America World’s Table Culture & Experiences Adventures The SpeciaList To the Ends of the Earth Earth Watch Documentaries Science Natural Wonders Climate Solutions Sustainable Business Green Living Audio Podcast Categories Radio Audio FAQs Video Watch Documentaries BBC Maestro Discover the World Live Live News Live Sport Documentaries Site search Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Weather Newsletters Watch Live Suspected sabotage causes major Netherlands rail disruption 7 hours ago Share Save Add as preferred on Google Amy Walker EPA Some level crossings were closed as a result of Tuesday's disruption Parts of the Netherlands, including Amsterdam, were hit by major rail disruption after suspected sabotage to the tracks on Tuesday morning, the country's railway infrastructure operator said. ProRail said pipes and cables were laid on tracks at multiple locations in the country's centre and north in more than 35 incidents. It added the acts appeared to be intentional, causing widespread cancellations and delays, with new disruptions occurring in some places after objects had initially been removed. No suspects or motives have yet been identified. Police said a criminal investigation had been launched. The operator said the pipes and cables caused its computer systems to believe trains were on the tracks, meaning traffic control was unable to clear the railway. \"Placing materials on the tracks is extremely dangerous and unacceptable, and fortunately, it did not lead to any accidents today,\" it said. Speaking earlier, Dutch Prime Minister Rob Jetten described the incidents as \"disruptive and life-threatening\". In one case early on Monday, a train \"struck metal\" on the track near Steenwijk, in the country's east. ProRail said there was no further damage because the train was not travelling at full speed. The national public prosecutor's office and the Netherlands' intelligence agency AIVD are investigating the incident alongside police. Routes to the main intern",
+      "oneLineKo": "네덜란드 철도, 의심되는 사보타주로 대규모 운행 차질",
+      "summaryKo": "네덜란드 철도 인프라 운영사 ProRail은 화요일 아침 암스테르담을 포함한 중북부 지역 철로에서 파이프와 케이블이 놓인 35건 이상의 사건이 발생했다고 밝혔다. 이로 인해 신호 시스템이 선로에 열차가 있는 것으로 오인해 대규모 취소와 지연이 발생했으며, 일부 지역에서는 물체 제거 후에도 재차 방해가 발생했다. 다행히 사고로 이어지지는 않았으나 총리는 이를 '파괴적이고 생명을 위협하는' 행위로 규정했으며, 경찰과 정보기관 AIVD가 수사에 착수했다.",
+      "tags": [
+        "infrastructure",
+        "security",
+        "netherlands"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49716176",
+      "title": "An Update on Wayback Machine Access",
+      "url": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49716176",
+      "publishedAt": "2026-09-15T17:52:18Z",
+      "score": 334,
+      "comments": 180,
+      "snippet": "An Update on Wayback Machine Access | Internet Archive Blogs Internet Archive Blogs Updates from the Internet Archive Menu Skip to content archive.org Blog Announcements About Events Developers Donate An Update on Wayback Machine Access Posted on September 15, 2026 by Mark Graham We’ve heard you: “Fix the Wayback Machine!” Here’s what’s going on. The Internet Archive’s Wayback Machine has been hit by waves of high-volume automated traffic, and we’ve put protections in place to keep the service running. One recent change: we rewrote the message you see when a request is blocked with a 429 error — the HTTP code that means “too many requests.” Those protections sometimes catch real people by mistake. If that’s happened to you, we’re sorry, and we appreciate your patience while we work to reduce the errors. We’re getting better at telling abusive bots apart from the people who depend on the Wayback Machine every day. If you think you were blocked in error, email info@archive.org with your operating system, browser, and IP address, and we’ll look into it. Posted in Announcements , Wayback Machine - Web Archive | Tagged Wayback Machine | Leave a reply About Mark Graham Mark Graham is the Director of the Wayback Machine. View all posts by Mark Graham &rarr; Post navigation &larr; Negativland, Culture Jamming, and the Art of Making Something New Leave a Reply Cancel reply Your email address will not be published. Required fields are marked * Comment * Name * Email * Website Δ Search for: Latest Posts An Update on Wayback Machine Access Negativland, Culture Jamming, and the Art of Making Something New Internet Archive Receives IMLS Grant to Expand Access to Local and State Government Information Keep Our Servers Running: Your Recurring Donation Goes 3X This September National Summit on Local News Preservation Report Upcoming Events Sep 16 6:00 pm - 9:00 pm Negativland Live at Internet Archive Sep 29 10:00 am - 11:00 am Will State Law Solve the Library eBook Crisis? Oct 8 6:00 pm - 8:00 pm Money in San Francisco politics: Who’s spending big on the election? Hosted by the League of Women Voters and San Francisco Public Press View Calendar Recent Comments Paolo Chelo on Preserving a Creative Legacy: How CARTA is Safeguarding Artists’ Websites Adam Idress on Preserving a Creative Legacy: How CARTA is Safeguarding Artists’ Websites Schüttenberg on Preserving a Creative Legacy: How CARTA is Safeguarding Artists’ Websites Silownieogrodowe on Preserving a Creative Legacy: How CARTA is Safeguarding Artists’ Websites Adelaide Dupont on Vintage Artificial Intelligence: Before It Got Awkward Categories 78rpm Announcements Archive Version 2 Archive-It Audio Archive Books Archive Cool items Education Archive Emulation Event Image Archive Jobs Lending Books Live Music Archive Movie Archive Music News Newsletter Open Library Past Event Software Archive Technical Television Archive Uncategorized Upcoming Event Video Archive Wayback Machine – Web Archive Web & Data Service",
+      "oneLineKo": "웨이백 머신 접속 오류, 봇 트래픽 차단 조치 때문",
+      "summaryKo": "Internet Archive는 최근 웨이백 머신이 대규모 자동화 트래픽 공격을 받아 이를 막기 위한 보호 조치를 시행했다고 밝혔다. 이 과정에서 429 오류 메시지를 개선했지만, 정상 사용자도 실수로 차단되는 경우가 발생하고 있다. 팀은 악성 봇과 실제 사용자를 구분하는 기술을 개선 중이며, 잘못 차단된 경우 OS, 브라우저, IP 정보를 담아 이메일로 문의하면 확인해준다고 안내했다.",
+      "tags": [
+        "wayback-machine",
+        "rate-limiting",
+        "internet-archive"
+      ]
+    }
+  ]
+}
