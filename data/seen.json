@@ -1,117 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=32485",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "v3.wails.io/blog/wails-v3-beta",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49300314",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32484",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "github.com/palmier-io/palmier-pro",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49300568",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "byhand.ai",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32462",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "raycast.com/wjsong/ssh-image-drop",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49300800",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32459",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "aitrends.kr",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49299675",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "blog.plover.com/2026/08/02",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32507",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "adapt.com/blog/build-wide-ship-narrow",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49249523",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "softwaredoug.com/blog/2026/08/10/hypothetical-classifications",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32497",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49300759",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "rustdesk.com/blog/unattended-remote-access-wayland",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49299746",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "mixedbread.com/blog/toast-1",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49297637",
-    "date": "2026-08-15"
-  },
-  {
-    "id": "xn--gckvb8fzb.com/the-temu-fication-of-software-digital-goods-services",
-    "date": "2026-08-15"
-  },
-  {
     "id": "https://news.hada.io/topic?id=32518",
     "date": "2026-08-16"
   },
@@ -3630,5 +3518,133 @@
   {
     "id": "theverge.com/column/994172/your-car-is-selling-your-data",
     "date": "2026-09-14"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33700",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "news.hada.io/topic?id=33700",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49697014",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "t3_1wdwqje",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1wdwqje/your_compiler_can_undo_your_security_checks",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33695",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "news.hada.io/topic?id=33695",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49700661",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "store.steampowered.com/hardware/steamframe",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "t3_1wftm95",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1wftm95/homebrew_700_faster_installations_and_upgrades",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33664",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "news.hada.io/topic?id=33664",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49694296",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "xcancel.com",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33705",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "news.hada.io/topic?id=33705",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49695876",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33687",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "news.hada.io/topic?id=33687",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49670852",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "threebodyorbits.com",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33676",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "news.hada.io/topic?id=33676",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49701004",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49686380",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "news.ycombinator.com/item?id=49686380",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49700477",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "andonlabs.com/blog/why-we-built-pion",
+    "date": "2026-09-15"
   }
 ]
