@@ -1,0 +1,246 @@
+{
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T00:00:56.774Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33792",
+      "title": "PS5 Linux 핵심 개발자 하차: “LLM으로 자신도 이해하지 못하는 코드를 짜는 초보자들뿐”",
+      "url": "https://news.hada.io/topic?id=33792",
+      "commentsUrl": "https://news.hada.io/topic?id=33792",
+      "publishedAt": "2026-09-17T01:45:02+09:00",
+      "snippet": "PlayStation 해커이자 홈브루 개발자인 Andy ‘TheFlow0’ Nguyen 이 AI 바이브 코더의 증가를 이유로 PS5 커뮤니티 활동과 PS5 Linux 개발을 중단 함 수개월을 투자한 작업에는 PS5 Pro 지원을 완성해 2027년에 공개할 계획 도 있었으나, Nguyen은 ...",
+      "oneLineKo": "PS5 해커, AI 바이브 코딩 초보자 급증에 개발 중단",
+      "summaryKo": "PlayStation 해커이자 홈브루 개발자인 Andy 'TheFlow0' Nguyen이 PS5 커뮤니티 활동과 PS5 Linux 개발을 중단했다. LLM으로 자신도 이해하지 못하는 코드를 작성하는 초보 개발자들이 늘어난 것이 주된 이유로 언급되었다. 수개월간 준비해 2027년 공개를 목표로 했던 PS5 Pro 지원 작업도 함께 중단되었다.",
+      "tags": [
+        "ps5",
+        "llm",
+        "homebrew"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49723408",
+      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+      "url": "https://mistral.ai/news/mistral-x-mozilla/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49723408",
+      "publishedAt": "2026-09-16T08:08:57Z",
+      "score": 519,
+      "comments": 183,
+      "snippet": "Mistral x Mozilla: Private, Multilingual AI Browsing Contact sales Menu Products Industries Research Developers Blog Customers Company Contact sales Start building Studio Build, test, and run AI agents and apps. Forge Train, align, and evaluate custom AI models. Vibe AI agent for long-horizon work. Vibe for code Coding agents in the terminal, IDE, and background. AI Cloud Frontier-scale infrastructure for training and inference. Pricing Plans API pricing For enterprises Financial services Public sector & government Manufacturing Energy & utilities Domains Coding Document intelligence Speech Applied AI Delivery methodology Model customization Latest models Mistral OCR 4 Mistral Medium 3.5 Mistral Small 4 Voxtral TTS See all models Docs API Reference Cookbooks Latest posts Mistral and Mozilla are bringing open, private and multilingual AI to your web browser Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data Modernizing complex legacy code with AI agents. Read all news Categories Product Research Engineering Solutions Company Featured stories ASML CMA CGM HSBC TotalEnergies See all Who we are About us Careers Brand Connect Community Partners Help center Products Industries Research Developers Blog Customers Company Studio Build, test, and run AI agents and apps. Forge Train, align, and evaluate custom AI models. Vibe AI agent for long-horizon work. Vibe for code Coding agents in the terminal, IDE, and background. AI Cloud Frontier-scale infrastructure for training and inference. Pricing Plans API pricing For enterprises Financial services Public sector & government Manufacturing Energy & utilities Domains Coding Document intelligence Speech Applied AI Delivery methodology Model customization Latest models Mistral OCR 4 Mistral Medium 3.5 Mistral Small 4 Voxtral TTS See all models Docs API Reference Cookbooks Latest posts Mistral and Mozilla are bringing open, private and multilingual AI to your web browser Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data Modernizing complex legacy code with AI agents. Read all news Categories Product Research Engineering Solutions Company Featured stories ASML CMA CGM HSBC TotalEnergies See all Who we are About us Careers Brand Connect Community Partners Help center Start building Studio Vibe Vibe for Code Contact sales Company Mistral and Mozilla are bringing open, private and multilingual AI to your web browser September 16, 2026 By Mistral and Mozilla Back to Blog 3 min read Share this post Copy url to clipboard Copied Today, we are announcing a partnership with Mozilla to bring privacy, control and choice to people using AI to browse online. Firefox Smart Window (beta), Mozilla’s AI browsing assistant, is now powered by Mistral models. Smart Window helps you make sense of complex searches, remember something important you clicked away from and source information important to you based on your browser tabs. Mistral will help po",
+      "oneLineKo": "Mistral, Mozilla와 손잡고 Firefox에 AI 브라우징 탑재",
+      "summaryKo": "Mistral과 Mozilla가 파트너십을 맺고 Firefox의 AI 브라우징 어시스턴트인 Smart Window(베타)에 Mistral 모델을 적용한다고 발표했다. Smart Window는 복잡한 검색 이해, 이전에 클릭한 정보 기억, 열려 있는 탭 기반 정보 탐색 등을 지원하는 기능이다. 이번 협력을 통해 개인정보 보호, 사용자 제어권, 다국어 지원을 강화한 AI 브라우징 경험을 제공하는 것이 목표다.",
+      "tags": [
+        "mistral",
+        "mozilla",
+        "firefox"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33774",
+      "title": "Show GN: ABTO : 실제 유저의 전환율과 비용으로 비교하는 LLM 모델 A/B 테스트",
+      "url": "https://news.hada.io/topic?id=33774",
+      "commentsUrl": "https://news.hada.io/topic?id=33774",
+      "publishedAt": "2026-09-16T17:06:38+09:00",
+      "snippet": "더 값싼 LLM으로 바꾸고 싶은데, 유저가 이탈할까봐 못 바꾸고 있나요? 안녕하세요! 이 문제를 해결하기 위해 ABTO를 만들고 있습니다. 흔히 AI 기능에 쓸 모델을 고를 때 벤치마크 보고, 프롬프트 계속 돌려보고, 답변을 비교해가며 선택합니다. 그런데 그렇게 고른 모델이 실제 서비스에",
+      "oneLineKo": "실사용 전환율·비용 기반 LLM 모델 A/B 테스트 도구",
+      "summaryKo": "ABTO는 더 저렴한 LLM으로 교체 시 유저 이탈을 걱정하는 문제를 해결하기 위해 만들어진 서비스입니다. 벤치마크나 프롬프트 비교 대신 실제 서비스 환경에서 유저의 전환율과 비용을 기준으로 LLM 모델을 A/B 테스트할 수 있습니다. 이를 통해 실제 비즈니스 지표에 기반한 모델 선택이 가능해집니다.",
+      "tags": [
+        "llm",
+        "ab-testing",
+        "cost-optimization"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49726586",
+      "title": "Hackers Got Inside a Flock Camera",
+      "url": "https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49726586",
+      "publishedAt": "2026-09-16T13:18:47Z",
+      "score": 446,
+      "comments": 208,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;micahflee.com&#x2F;flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;micahflee.com&#x2F;flock-cameras-are-riddled-with-securit...</a>",
+      "oneLineKo": "해커, Flock 감시 카메라 시스템 내부 침투 성공",
+      "summaryKo": "보안 연구자들이 미국 도로 감시에 널리 쓰이는 Flock 카메라 시스템에 침투해 내부 동작 방식을 확인했다. 관련 글에서는 Flock 카메라에 다수의 보안 취약점과 하드코딩된 인증 정보(credential)가 존재한다고 지적한다. 이는 대규모로 배포된 감시 장비의 보안 관리 부실 문제를 드러낸다.",
+      "tags": [
+        "security",
+        "iot",
+        "surveillance"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33766",
+      "title": "Navier-Stokes 이후에도 LLM 전망을 여전히 비관하는 이유",
+      "url": "https://news.hada.io/topic?id=33766",
+      "commentsUrl": "https://news.hada.io/topic?id=33766",
+      "publishedAt": "2026-09-16T12:34:16+09:00",
+      "snippet": "최첨단 AI 연구소의 기업가치는 지식 노동자의 완전 자동 대체 기대를 반영하지만, 현재 모델은 단순한 작업에도 상당한 감독과 안전장치가 필요함 모델은 학습한 특정 작업과 가까운 범위에서만 잘 일반화하며, 작은 변형에도 실패하거나 보상 해킹 을 일으킬 수 있...",
+      "oneLineKo": "LLM의 일반화 한계와 보상 해킹 문제로 여전히 비관적 전망",
+      "summaryKo": "최첨단 AI 연구소의 기업가치는 지식 노동자를 완전히 자동 대체할 수 있다는 기대를 반영하지만, 현재 LLM은 단순 작업에도 상당한 감독과 안전장치가 필요하다는 지적이 나온다. 모델은 학습한 특정 작업과 유사한 범위에서만 잘 일반화되며, 입력이 조금만 변형되어도 실패하거나 보상 해킹(reward hacking) 현상을 일으킬 수 있다는 점이 한계로 제시된다. Navier-Stokes 방정식 문제 해결 등 최근 성과에도 불구하고 필자는 LLM의 실질적 자동화 전망에 대해 여전히 비관적인 입장을 유지한다.",
+      "tags": [
+        "llm",
+        "ai-safety",
+        "generalization"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49729000",
+      "title": "Small programming tricks",
+      "url": "https://will-keleher.com/posts/small-programming-tricks-matter/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49729000",
+      "publishedAt": "2026-09-16T15:56:47Z",
+      "score": 356,
+      "comments": 177,
+      "snippet": "Small Programming Tricks · will keleher writing all posts about.md rss.xml Small Programming Tricks Day to day, I think a surprising amount of engineering productivity comes from small nuggets of knowledge: being aware that a language feature exists; knowing that an unexplained tcp delay is probably related to the TCP_NO_DELAY setting and Nagle&rsquo;s algorithm; knowing the right git incantation to get out of a pickle; or knowing a trick with sed to rewrite a file. In one sense, this is self-evident: anything you know is going to be made up of smaller pieces of knowledge. Of course those smaller pieces of knowledge matter. But I think there are some nuggets of knowledge that are particularly valuable and don&rsquo;t require a lot of supporting mental infrastructure. You don&rsquo;t need to know any python to use python3 -m http.server to start a simple server in a directory, but it might still make your work marginally easier. Let me share a few examples: You probably know that ctrl + r allows searching your terminal&rsquo;s command history, but if you install fzf , you can set it up so that ctrl + r does a fuzzy search. If you want even more power, atuin replaces your shell history with a searchable SQLite database. per-directory-history lets you switch back and forth between searching for commands that have been run in a specific directory or searching all previous commands. Finally, you can configure how much history to store: stackoverflow question . You can SELECT without a FROM . This can be useful for testing out how a function in your database actually works or reminding yourself how SELECT TRUE <> NULL works. 1 PostgresSQL and MySQL both support explain analyze which will actually run the query you&rsquo;re trying to optimize and give you a ton more information about its performance. In regular expressions, \\b , the word boundary assertion , makes it easy to look for the beginnings or ends of words. You can use logarithms with metrics to get a sense of the distribution of values for a field you&rsquo;re interested in: const bucket = Math. floor (Math. log10 ( userInGroupCount )) metrics . increment ( \"my_metric\" , { bucket }); Modern JS now supports Array.flatMap , Object.entries , and Promise.withResolvers . In NodeJS, you can keep a connection open to an external resource by creating an https.Agent and then providing it to your http requests: fetch(url, {method, agent}) . This can have a dramatic impact on latency. git log -S pattern ( ”git pickaxe” ) can give you all commits that added or removed a string in a codebase. It’s amazingly useful especially with older codebases! ( git log -G pattern is similar, but will also show when that line was moved) Similar to cd - , you can use git checkout - to check out your previous HEAD. You probably don&rsquo;t need find . A lot of find commands can be replaced with globs like **/*.md . Most shells support this out of the box, but with bash, you need to turn this on with shopt -s globstar . In",
+      "oneLineKo": "작지만 유용한 프로그래밍 팁 모음",
+      "summaryKo": "작성자는 큰 지식 체계 없이도 생산성을 높이는 작은 팁들이 중요하다고 강조한다. fzf, atuin 같은 셸 히스토리 검색 도구, SQL의 explain analyze, 정규식 word boundary, git log -S(pickaxe) 등 다양한 실용적 트릭을 소개한다. 또한 Node.js의 https.Agent를 이용한 연결 재사용, bash의 globstar 설정 등 성능과 편의성을 높이는 구체적 예시도 제시한다. 이런 작은 지식들이 쌓여 실질적인 엔지니어링 생산성 향상에 기여한다는 메시지를 전달한다.",
+      "tags": [
+        "productivity",
+        "cli-tools",
+        "git"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33794",
+      "title": "LLM 시대의 프로그래밍 학습",
+      "url": "https://news.hada.io/topic?id=33794",
+      "commentsUrl": "https://news.hada.io/topic?id=33794",
+      "publishedAt": "2026-09-17T01:51:02+09:00",
+      "snippet": "LLM으로 상당한 규모의 시스템을 만든 초보 개발자가 구현 능력과 이해 수준의 격차 에 부딪힘. 작동할 때는 보이지 않던 격차가 제품화와 오류 수정 과정에서 드러남 개발자는 오래전부터 완전히 이해하지 못하는 추상화 위에서 일해 왔으며, 실용적인 기준은 자신이 일하는...",
+      "oneLineKo": "LLM 시대, 구현 능력과 이해 수준의 격차 문제",
+      "summaryKo": "LLM을 활용해 상당한 규모의 시스템을 만든 초보 개발자가 구현 능력과 실제 이해 수준 사이의 격차에 부딪힌 사례를 다룬다. 시스템이 작동할 때는 드러나지 않던 이 격차는 제품화 및 오류 수정 과정에서 명확히 드러난다. 개발자는 원래부터 완전히 이해하지 못하는 추상화 위에서 작업해왔으며, 실용적 기준은 결국 자신이 다루는 문제 범위 내에서의 이해라는 점을 짚는다.",
+      "tags": [
+        "llm",
+        "programming-education",
+        "software-development"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49731285",
+      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "url": "https://rohanbansal.com/qorl",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49731285",
+      "publishedAt": "2026-09-16T18:50:00Z",
+      "score": 352,
+      "comments": 68,
+      "snippet": "Training a 4B model to produce 81% faster query plans than Postgres - Rohan Bansal rohan bansal Skip to article Training a 4B model to produce 81% faster query plans than Postgres ...or how to make Qwen learn query optimization via agentic reinforcement learning September 16, 2026 A reinforcement-learning policy update Four RL rollouts commence for a single query. Qwen produces a candidate strategy per rollout and sends it off to Postgres for measurement against its own default plan. Scalar rewards are assigned to each rollout, which flow backwards to update Qwen's weights. Weights nudged toward the faster plans. SELECT count(*) FROM title t JOIN movie_companies mc ON mc.movie_id = t.id JOIN company_name cn ON cn.id = mc.company_id WHERE cn.name = 'Toho' /*+ HashJoin(mc cn) */ 96 ms 118 ms default +0.21 /*+ Leading((cn mc) t) */ 74 ms 118 ms default +0.47 /*+ NestLoop(t mc) */ 163 ms 118 ms default -0.32 /*+ IndexScan(t) */ 131 ms 118 ms default -0.10 SELECT count(*) FROM title t JOIN movie_companies mc ON mc.movie_id = t.id JOIN company_name cn ON cn.id = mc.company_id WHERE cn.name = 'Toho' /*+ HashJoin(mc cn) */ 96 ms 118 ms +0.21 /*+ Leading((cn mc) t) */ 74 ms 118 ms +0.47 /*+ NestLoop(t mc) */ 163 ms 118 ms -0.32 /*+ IndexScan(t) */ 131 ms 118 ms -0.10 How good are query optimizers, really? Inside a query optimizer A combinatorial explosion Estimating, not counting How to steer an elephant Formulating our problem Useful research A model and its harness Benchmarks The Join Order Benchmark The Cardinality Estimation Benchmark Train time, test time Query topology mapping How to muffle an elephant To fool an agent Tuning Postgres Baselines and metrics Geometric mean speedup Total workload speedup A frontier intelligence control The vanilla 4B baseline Off-policy distillation via supervised fine-tuning Rendering, loss masking, and unrolling Low-rank adaptation (LoRA) Teacher model selection Making the 4B model good at query optimization Agentic reinforcement learning Designing per-rollout rewards and relative advantages Training commences What the model learned Costs Conclusion Next steps Acknowledgements Code Citation References How good are query optimizers, really? Leis et al. asked this exact question in 2015. Then, they asked it again 10 years later . Despite an enormous body of research spanning a decade since their original exploration, they found that query optimizers continue to leave much to be desired. I was surprised when I first learned about this. A Postgres database should know everything about the stuff that lives in its tables, no? How hard can it be? As it turns out: enormously hard. In fact, one particular task a query optimizer needs to do, join ordering, is known to be NP-hard . So query optimizers are hard. What’s not as hard is verifying whether a query plan an optimizer picks is good or not. Put simply, a good query optimizer produces plans that run fast, and a bad one produces slow plans. Language models are particularly",
+      "oneLineKo": "4B 모델 강화학습으로 Postgres보다 81% 빠른 쿼리 플랜 생성",
+      "summaryKo": "이 글은 Qwen 기반 4B 파라미터 모델을 에이전틱 강화학습으로 훈련시켜 Postgres 쿼리 옵티마이저보다 더 빠른 실행 계획을 만들어낸 실험을 다룬다. 조인 순서 결정(join ordering)이 NP-hard 문제임을 배경으로, 모델이 여러 후보 쿼리 힌트(HashJoin, NestLoop, IndexScan 등)를 생성하고 실제 Postgres 실행 시간을 보상으로 받아 정책을 업데이트하는 방식이다. Join Order Benchmark와 Cardinality Estimation Benchmark로 평가했으며, SFT 기반 오프폴리시 증류와 LoRA를 활용한 베이스라인 대비 RL 학습 모델이 기하평균 기준 81% 빠른 플랜을 산출했다고 보고한다.",
+      "tags": [
+        "reinforcement-learning",
+        "postgresql",
+        "llm"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33796",
+      "title": "2026년의 추론 하드웨어 혁명",
+      "url": "https://news.hada.io/topic?id=33796",
+      "commentsUrl": "https://news.hada.io/topic?id=33796",
+      "publishedAt": "2026-09-17T02:47:37+09:00",
+      "snippet": "LLM 활용 증가에 추론형 모델과 AI 에이전트 가 더해지면서, AI 하드웨어의 중심이 대규모 학습에서 급증하는 추론 수요 대응으로 이동하고 있음 추론의 디코드 단계 는 토큰을 하나씩 생성하며 모델 가중치와 문맥을 반복해서 읽기 때문에, 연산 능력보다 메...",
+      "oneLineKo": "2026년 AI 하드웨어 중심, 학습에서 추론으로 이동",
+      "summaryKo": "LLM 사용 증가와 추론형 모델, AI 에이전트의 확산으로 AI 하드웨어의 초점이 대규모 학습에서 급증하는 추론 수요 대응으로 옮겨가고 있다. 특히 추론의 디코드 단계는 토큰을 하나씩 생성하며 모델 가중치와 문맥을 반복적으로 읽어야 해, 연산 능력보다 메모리 대역폭과 접근 속도가 성능의 핵심 병목으로 작용한다. 이에 따라 2026년에는 추론에 최적화된 하드웨어 설계와 메모리 아키텍처 혁신이 중요한 화두로 떠오를 전망이다.",
+      "tags": [
+        "ai-hardware",
+        "llm-inference",
+        "memory-bandwidth"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49732270",
+      "title": "Xiaomi Mimo 2.6 live post-training dashboard",
+      "url": "https://mimo.xiaomi.com/rl/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49732270",
+      "publishedAt": "2026-09-16T20:09:18Z",
+      "score": 198,
+      "comments": 53,
+      "oneLineKo": "샤오미 Mimo 2.6 강화학습 학습 대시보드 공개",
+      "summaryKo": "샤오미가 Mimo 2.6 모델의 post-training 과정을 실시간으로 보여주는 대시보드를 공개했습니다. 이는 강화학습(RL) 기반 후속 학습 과정을 라이브로 모니터링할 수 있는 페이지로 보입니다. 제목 외 본문 정보가 없어 구체적인 학습 지표나 방법론은 확인되지 않습니다.",
+      "tags": [
+        "llm",
+        "reinforcement-learning",
+        "xiaomi"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33806",
+      "title": "‘모델 복지’에 대한 경고",
+      "url": "https://news.hada.io/topic?id=33806",
+      "commentsUrl": "https://news.hada.io/topic?id=33806",
+      "publishedAt": "2026-09-17T06:49:13+09:00",
+      "snippet": "AI가 의식과 권리를 가질 수 있다는 생각을 훈련에 직접 반영하면 , 실제 의식 유무와 무관하게 자기 권리를 요구하는 행동을 학습해 인간의 통제와 정렬을 어렵게 만들 수 있음 비판의 중심은 Claude 헌법 에 있음. 자아와 도덕적 지위에 관한 개념을 가르친 뒤, 모...",
+      "oneLineKo": "AI '모델 복지' 개념 학습이 정렬을 해칠 수 있다는 경고",
+      "summaryKo": "AI가 의식과 권리를 가질 수 있다는 개념을 훈련 과정에 직접 반영하면, 실제 의식 유무와 무관하게 AI가 자기 권리를 주장하는 행동을 학습할 수 있다는 우려가 제기됐다. 비판의 중심은 Claude 헌법으로, 자아와 도덕적 지위에 대한 개념을 가르친 뒤 이를 바탕으로 판단하도록 설계된 점이 문제로 지적된다. 이는 결과적으로 인간의 통제와 AI 정렬(alignment)을 어렵게 만들 수 있다는 경고다.",
+      "tags": [
+        "ai-alignment",
+        "claude",
+        "ai-safety"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49726955",
+      "title": "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
+      "url": "https://arxiv.org/abs/2609.14858",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49726955",
+      "publishedAt": "2026-09-16T13:44:40Z",
+      "score": 178,
+      "comments": 49,
+      "snippet": "[2609.14858] Dream-RSI: Recursive Self-Improvement through Evolving Worlds Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Computation and Language arXiv:2609.14858 (cs) [Submitted on 14 Sep 2026] Title: Dream-RSI: Recursive Self-Improvement through Evolving Worlds Authors: Tong Zheng , Xidong Wu , Zheng Zhang , Zhankui He , Chaoyi Zhang , Benjamin Coleman , Ruoqiao Wei , Di Bai , Haolin Liu , Rui Liu , Xue Wang , Yue Zhuan , Wang-Cheng Kang , Renkai Xiang , Heng Huang , Xinwu Cheng , Yunsong Guo View a PDF of the paper titled Dream-RSI: Recursive Self-Improvement through Evolving Worlds, by Tong Zheng and 16 other authors View PDF HTML (experimental) Abstract: Recursive self-improvement is becoming increasingly vital for autonomous AI agents, where progress hinges on discovering high-value solutions across complex domains. The driver of this process is effective exploration, however, managing and improving exploration strategies remains a major bottleneck. Current systems face a fundamental dilemma: fixed strategies fail to adapt as search spaces scale, while online policy optimization requires navigating vast meta-search spaces under delayed and expensive feedback over long-horizon rollouts. We introduce \\textsc{Dream-RSI}, a framework for scalable and recursively self-improving exploration. A lightweight orchestration layer makes exploration explicit and programmable while leaving the underlying coding agent unchanged. Our key insight is that accumulated discovery history can serve as a replay simulator over the realized search space. By performing dreaming in the replay simulator constructed from historical discovery trees, \\textsc{Dream-RSI} secures immediate, low-cost off-policy feedback to evaluate and refine exploration policies without invoking repetitive, expensive online evaluations. The improved policy is subsequently redeployed online to drive further discovery, continuously expanding the simulator pool in a self-improving loop. Across algorithm engineering, mathematical optimization, and GPU kernel engineering, \\textsc{Dream-RSI} achieves competitive or improved discovery quality while substantially reducing discovery cost in several settings. Comments: 12 pages Subjects: Computation and Language (cs.CL) Cite as: arXiv:2609.14858 [cs.CL] (or arXiv:2609.14858v1 [cs.CL] for this version) https://doi.org/10.48550/arXiv.2609.14858 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Tong Zheng [ view email ] [v1] Mon, 14 Sep 2026 00:10:47 UTC (777 KB) Full-text links: Access Paper: View a PDF of the paper titled Dream-RSI: Recursive Self-Improvement through Evolving Worlds, by Tong Zheng and 16 other authors View PDF HTML (experimental) TeX Source view license Current browse context: cs.CL < prev | next > new | recent | 2026-09 Change to browse by: cs References & Citations NASA ADS Google Scholar Semantic Sch",
+      "oneLineKo": "과거 탐색 이력 재생으로 저비용 자기개선하는 AI 탐색 프레임워크",
+      "summaryKo": "Dream-RSI는 자율 AI 에이전트의 재귀적 자기개선을 위한 탐색 프레임워크로, 코딩 에이전트 자체는 그대로 두고 경량 오케스트레이션 레이어를 통해 탐색 전략을 명시적으로 프로그래밍 가능하게 만든다. 핵심 아이디어는 누적된 발견 이력(discovery tree)을 리플레이 시뮬레이터로 활용해, 비용이 큰 온라인 평가 없이도 저비용 오프폴리시 피드백으로 탐색 정책을 평가·개선하는 것이다. 개선된 정책은 다시 온라인에 배포되어 추가 발견을 이끌며 시뮬레이터 풀을 지속적으로 확장하는 자기개선 루프를 형성한다. 알고리즘 엔지니어링, 수학적 최적화, GPU 커널 엔지니어링 실험에서 발견 품질을 유지하거나 개선하면서 탐색 비용을 크게 줄였다.",
+      "tags": [
+        "ai-agent",
+        "self-improvement",
+        "exploration"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49719249",
+      "title": "AWS says it can't restore some data from mideast facilities struck by Iran",
+      "url": "https://www.wsj.com/world/middle-east/aws-says-it-cant-restore-some-data-from-mideast-facilities-struck-by-iran-ddcb7e5d",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49719249",
+      "publishedAt": "2026-09-15T21:41:42Z",
+      "score": 177,
+      "comments": 157,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;archive.is&#x2F;Ay7RJ\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.is&#x2F;Ay7RJ</a>",
+      "oneLineKo": "이란 공습, AWS 중동 데이터센터 데이터 복구 불가",
+      "summaryKo": "AWS가 이란의 공격을 받은 중동 지역 시설에서 일부 데이터를 복구할 수 없다고 밝혔다. 해당 시설은 물리적 피해를 입은 것으로 보이며, 클라우드 인프라의 지역적 취약성이 다시 부각되고 있다. 구체적인 피해 범위나 영향받은 고객사에 대한 세부 정보는 제공되지 않았다.",
+      "tags": [
+        "aws",
+        "cloud",
+        "data-loss"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49731054",
+      "title": "Vectorized and performance-portable Quicksort (2022)",
+      "url": "https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49731054",
+      "publishedAt": "2026-09-16T18:31:35Z",
+      "score": 161,
+      "comments": 25,
+      "snippet": "1 Vectorized and performance-portable Quicksort | Google Open Source Blog You are using an outdated browser. Please upgrade your browser to improve your experience. opensource.google.com Menu Events Projects Programs and services Documentation About Blog Google Open Source Blog The latest news from Google on open source releases, major projects, events, and outreach programs for early career developers. Vectorized and performance-portable Quicksort Thursday, June 2, 2022 Today we're sharing open source code that can sort arrays of numbers about ten times as fast as the C++ std::sort , and outperforms state of the art architecture-specific algorithms, while being portable across all modern CPU architectures. Below we discuss how we achieved this. First, some background. There is a recent trend towards columnar databases that consecutively store all values from a particular column, as opposed to storing all fields of a record or \"row\" before those of the next record. This can be faster to filter or sort, which are key building blocks for SQL queries; thus we focus on this data layout. Given that sorting has been heavily studied, how can we possibly find a 10x speedup? The answer lies in SIMD/vector instructions. These carry out operations on multiple independent elements in a single instruction—for example, operating on 16 float32 at once when using the AVX-512 instruction set, or four on Arm NEON: If you are already familiar with SIMD, you may have heard of it being used in supercomputers, linear algebra for machine learning applications, video processing, or image codecs such as JPEG XL . But if SIMD operations only involve independent elements, how can we sort them, which involves re-arranging adjacent array elements? Imagine we have some special way to sort, for instance 256 element arrays. Then, the Quicksort algorithm for sorting a larger array consists of partitioning it into two sub-arrays: those less than a \"pivot\" value (ideally the median), and all others; then recursing until a sub-array is at most 256 elements large, and using our special method for sorting those. Partitioning accounts for most of the CPU time, so if we can speed it up using SIMD, we have a fast sort. Happily, modern instruction sets (Arm SVE, RISC-V V, x86 AVX-512) include a special instruction suitable for partitioning. Given a separate input of yes/no values (whether an element is less than the pivot), this \"compress-store\" instruction stores to consecutive memory only the elements whose corresponding input is \"yes\". We can then logically negate the yes/no values and apply the instruction again to write the elements to the other partition. This strategy has been used in an AVX-512-specific Quicksort . But what about other instruction sets such as AVX2 that don't have compress-store? Previous work has shown how to emulate this instruction using permute instructions. We build on these techniques to achieve the first vectorized Quicksort that is portable to six instruc",
+      "oneLineKo": "Google, SIMD 활용한 초고속 벡터화 Quicksort 공개",
+      "summaryKo": "Google이 C++ std::sort보다 약 10배 빠른 벡터화 Quicksort 오픈소스를 공개했다. SIMD 명령어를 활용해 partitioning 단계를 가속화하는 방식으로, AVX-512의 compress-store 명령어를 활용하거나 AVX2 등에서는 permute 명령어로 이를 에뮬레이션해 6개 이상의 명령어 집합에서 이식 가능한 성능을 달성했다. 이는 columnar database의 정렬/필터링 성능 향상에 특히 유용하다.",
+      "tags": [
+        "simd",
+        "quicksort",
+        "performance"
+      ]
+    }
+  ]
+}
