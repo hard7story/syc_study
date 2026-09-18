@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=32557",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "littlelearner-ll.github.io",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49332751",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "speko.ai",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "t3_1vqq8hr",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1vqq8hr/stop_rebuilding_your_kubernetes_platform_how",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32562",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "vectoral.com/blog/who-are-the-token-brokers",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49331423",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "t3_1vqukkf",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1vqukkf/nothing_like_a_monday_morning_github_outage",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32543",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "blog.jsbarretto.com/post/i-remain-a-skeptic",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49325789",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "twitter.com/DarioAmodei/status/2088758816376807762",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32593",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "rickmanelius.com/p/aidr-ai-didnt-read",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49331220",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "librarian.net/notoai",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32579",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49334544",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "artificialanalysis.ai/models/qwen3-8-27b",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32575",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49270194",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "en.wikipedia.org/wiki/Olo_(color)",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49333824",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "sunclock.net",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49327643",
-    "date": "2026-08-18"
-  },
-  {
-    "id": "desktopcolors.com",
-    "date": "2026-08-18"
-  },
-  {
     "id": "https://news.hada.io/topic?id=32624",
     "date": "2026-08-19"
   },
@@ -3774,5 +3646,133 @@
   {
     "id": "opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html",
     "date": "2026-09-17"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33853",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=33853",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49746163",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "bend-lang.com",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "t3_1wj3ya8",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1wj3ya8/scaling_security_insights_how_we_achieved_a_10x",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33822",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=33822",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49740105",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "mysetup.ai",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "t3_1whu6ww",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1whu6ww/rowlevel_security_and_symbolic_evaluation_with",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33864",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=33864",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49746654",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33863",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=33863",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49715813",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "global.fujitsu/en-global/pr/news/2026/09/14-02",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33862",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=33862",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49743097",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "github.com/asciimoo/hister",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33861",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=33861",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49737922",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "z.ai/blog/glm-built-its-inference-infrastructure",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49737787",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "events.ccc.de/en/2026/09/12/40c3-model-citizens",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49738091",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter",
+    "date": "2026-09-18"
   }
 ]

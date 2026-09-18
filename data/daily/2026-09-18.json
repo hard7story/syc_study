@@ -1,0 +1,275 @@
+{
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T00:35:07.708Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33853",
+      "title": "마틴 파울러: 나는 LLM이 마음에 들지 않는다",
+      "url": "https://news.hada.io/topic?id=33853",
+      "commentsUrl": "https://news.hada.io/topic?id=33853",
+      "publishedAt": "2026-09-18T04:52:15+09:00",
+      "snippet": "LLM의 생산성 향상 가능성과 유용성을 인정하지만, 직접 대화할 때는 기대나 두려움보다 거부감이 앞섬 유용한 답과 지어낸 내용을 똑같이 확신에 찬 말투 로 내놓고, 오류를 지적하면 진심 없는 사과로 넘어가는 태도가 불편함 그렇다고 LLM을 쓰...",
+      "oneLineKo": "마틴 파울러, LLM 사용에 대한 개인적 거부감 고백",
+      "summaryKo": "마틴 파울러는 LLM이 생산성 향상에 유용하다는 점은 인정하지만, 개인적으로는 거부감을 느낀다고 밝혔다. 그는 LLM이 올바른 답변과 지어낸 내용을 동일하게 확신에 찬 어조로 제시하는 점을 문제로 지적했다. 또한 오류를 지적해도 진심이 담기지 않은 형식적인 사과로 넘어가는 태도가 불편하다고 언급했다. 다만 이러한 감정에도 불구하고 LLM 사용 자체를 완전히 거부하지는 않는 입장을 취했다.",
+      "tags": [
+        "llm",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49746163",
+      "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "url": "https://bend-lang.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49746163",
+      "publishedAt": "2026-09-17T20:36:13Z",
+      "score": 218,
+      "comments": 118,
+      "snippet": ".html: its head (title, description and style, up to the closing style tag), then its body. --> Bend ~/bend hub bender get Bend × 1. Install curl -fsSL https://bend-lang.com/install.sh | sh 2. Add this to your AGENTS.md When using Bend: - run `bend guide` to learn it - use `LAWS.bend` to keep important rules - run `bend PROOF.bend` before committing - parallelize the code whenever possible 3. Enjoy bug-free, fast vibe-coded apps! Bend a fast language that blocks AI mistakes via proof C speed · CUDA parallelism · Lean proofs · Python syntax In the post-AGI economy, humans will eventually stop writing and reading code, but we still need an ambiguity-free way to tell the AIs building the world around us what we want done. With laws , our intents can be much more precise than natural language. With proofs , we can verify that the AI implemented our prompts correctly. And a fast compiler runs it at speed. That's Bend - and nothing else. 1. Bend runs FAST . Bend compiles to native code. On one core, it runs nearly as fast as C. The same binary also runs on sixteen cores, or on the GPU, running up to a hundred times faster than one core. Apple M4 Max · lower is better 2. Bend compiles FAST . Bend's type checker is a proof checker, as in Lean and Rocq. Those can take minutes on a mid-sized codebase. Bend takes a second at most, so an AI agent can check after every change. Apple M4 Max · lower is better 3. Bend is PARALLEL . No threads, no locks, no kernels to write. Split the work in two, and Bend spreads the calls over every core it can find, then joins them back. Now watch pow2 run on 4,096 GPU cores: pow2.bend running on the GPU 4. Bend BLOCKS mistakes - with proof How can you trust code you never read? By demanding a proof . LAWS.bend is where you declare laws. From then on, no AI can ship one line that breaks them, ever. Watch it guard a game: Law : winning is impossible So far, it works! New feature: “Claude, make the board wrap around” Without LAWS.bend: Laws broken. AI mistake: merged . With LAWS.bend: Laws intact. AI mistake: blocked ! Without LAWS.bend, the bug went live. With LAWS.bend, the AI had to retry until it built a wall and proved the law holds. Merging a bug is mathematically impossible: it is a theorem . LAWS.bend # LAW: no move sequence leads to victory. law you_cant_win : for moves: List<Move> # any sequence of moves board = replay(start(), moves) # replayed from the start is_won(board) == False {} # never leads to victory PROOF.bend # PROOF: you_cant_win holds. def Laws.you_cant_win (moves): # ... written by the AI LAWS.bend is AGENTS.md backed by proof . “Make no mistakes” is now type-checked . Skeptical? Try breaking the game. 5. Get started. 5.1. Install curl -fsSL https://bend-lang.com/install.sh | sh 5.2. Tell your agent to use Bend Add this to your AGENTS.md : When using Bend: - run `bend guide` to learn it - use `LAWS.bend` to keep important rules - run `bend PROOF.bend` before committing - parallelize the code whenever pos",
+      "oneLineKo": "AI 코드 오류를 증명으로 차단하는 언어 Bend",
+      "summaryKo": "Bend는 C 수준 속도로 컴파일되며 CPU 멀티코어와 GPU에서 병렬 실행이 가능한 프로그래밍 언어입니다. Lean, Rocq와 유사한 증명 기반 타입 체커를 갖추고 있어 LAWS.bend에 정의한 규칙을 AI 에이전트가 절대 위반할 수 없도록 강제합니다. AGENTS.md와 연동해 AI가 코드 변경 시마다 증명을 검증하도록 해 'AI 실수'를 이론적으로 불가능하게 만드는 것을 목표로 합니다. curl 설치 스크립트를 통해 바로 사용해볼 수 있습니다.",
+      "tags": [
+        "programming-language",
+        "formal-verification",
+        "gpu"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wj3ya8",
+      "title": "Scaling Security Insights: how we achieved a 10x increase in global scanning capacity",
+      "url": "https://www.reddit.com/r/programming/comments/1wj3ya8/scaling_security_insights_how_we_achieved_a_10x/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wj3ya8/scaling_security_insights_how_we_achieved_a_10x/",
+      "publishedAt": "2026-09-17T19:36:37+00:00",
+      "snippet": "submitted by /u/Ok_Stomach6651 [link] [comments]",
+      "oneLineKo": "보안 스캐닝 인프라 10배 확장 사례 공유",
+      "summaryKo": "이 게시물은 글로벌 보안 스캐닝 용량을 10배로 늘린 경험을 공유하는 내용으로 보인다. 본문 내용이 제목만 제공되어 구체적인 아키텍처나 기술 스택은 확인할 수 없다. 제목상 보안 스캐닝 시스템의 확장성 개선 사례로 추정된다.",
+      "tags": [
+        "security",
+        "scalability"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33822",
+      "title": "3진 LLM의 1.58비트 장벽을 넘어서",
+      "url": "https://news.hada.io/topic?id=33822",
+      "commentsUrl": "https://news.hada.io/topic?id=33822",
+      "publishedAt": "2026-09-17T13:42:12+09:00",
+      "snippet": "BITCOS 는 3진 LLM 가중치의 0 비중을 활용해 저장량을 줄이는 형식으로, 조사한 29개 모델 중 26개에서 기존 5트릿 패킹보다 작고 기호만 계산하면 최소 가중치당 1.485비트 를 달성함 모든 가중치에 비영 여부를 나타내는 비트 1개를 배정하고, 0이 아닌 가중치의 ...",
+      "oneLineKo": "3진 LLM 가중치 압축, 1.58비트 장벽 돌파",
+      "summaryKo": "BITCOS는 3진 LLM 가중치 중 0의 비중이 높다는 특성을 활용해 저장 용량을 줄이는 새로운 압축 방식이다. 조사한 29개 모델 중 26개에서 기존 5트릿 패킹 방식보다 작은 크기를 달성했으며, 기호만 계산할 경우 가중치당 최소 1.485비트까지 도달할 수 있다. 각 가중치에 비영 여부를 나타내는 비트를 하나 배정하고, 0이 아닌 가중치에 대해서만 추가 기호 비트를 부여하는 방식으로 이론적 하한선인 1.58비트를 넘어서는 압축률을 구현했다.",
+      "tags": [
+        "llm",
+        "quantization",
+        "model-compression"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49740105",
+      "title": "Show HN: Share your AI Setup, Learn from others",
+      "url": "https://mysetup.ai/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49740105",
+      "publishedAt": "2026-09-17T13:01:44Z",
+      "score": 166,
+      "comments": 86,
+      "snippet": "I kept seeing engineers share what they were building with AI; however, I was always more curious about how they worked. Which agents did they use? What skills and tools had stuck or been thrown out the window? How did they manage longer-running tasks?   So I built this with the hope we could have a dedicated space to share and be open about our setups.",
+      "oneLineKo": "AI 작업 환경 공유·학습 플랫폼 'mysetup.ai' 공개",
+      "summaryKo": "개발자가 어떤 AI 에이전트와 도구를 사용하는지, 어떤 워크플로우가 효과적이었는지 궁금해하던 제작자가 mysetup.ai를 만들었다. 이 플랫폼은 엔지니어들이 자신의 AI 작업 설정, 사용 중인 에이전트와 툴, 장기 작업 관리 방법 등을 공유할 수 있는 공간을 제공한다. Show HN 형태로 공개되어 커뮤니티의 피드백을 받고 있다.",
+      "tags": [
+        "ai-agents",
+        "developer-tools",
+        "show-hn"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1whu6ww",
+      "title": "Row-Level Security and Symbolic Evaluation with Elm and Acadia",
+      "url": "https://www.reddit.com/r/programming/comments/1whu6ww/rowlevel_security_and_symbolic_evaluation_with/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1whu6ww/rowlevel_security_and_symbolic_evaluation_with/",
+      "publishedAt": "2026-09-16T11:10:38+00:00",
+      "snippet": "submitted by /u/wheatBread [link] [comments]",
+      "oneLineKo": "Elm과 Acadia로 구현한 행 수준 보안과 심볼릭 평가",
+      "summaryKo": "Elm 언어와 Acadia 도구를 활용해 데이터베이스의 행 수준 보안(Row-Level Security)을 심볼릭 평가 기법으로 검증하는 방법을 다룬 게시물입니다. Reddit에 공유된 링크로, 본문 내용은 제목 외에 구체적으로 제공되지 않았습니다.",
+      "tags": [
+        "elm",
+        "row-level-security",
+        "symbolic-evaluation"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33864",
+      "title": "Bend - CPU와 GPU에서 증명으로 AI의 실수를 차단하는 언어",
+      "url": "https://news.hada.io/topic?id=33864",
+      "commentsUrl": "https://news.hada.io/topic?id=33864",
+      "publishedAt": "2026-09-18T07:52:15+09:00",
+      "snippet": "Bend 는 지켜야 할 규칙을 코드로 선언하고 AI가 구현의 정확성을 증명하도록 하는 언어로, 자연어보다 정밀한 요구사항과 빠른 실행을 결합함 네이티브 코드 로 컴파일하며, 단일 코어에서 C에 가까운 속도로 실행되고 같은 바이너리를 여러 CPU 코어나 GPU에서도 실...",
+      "oneLineKo": "Bend, AI 구현 정확성 증명하는 CPU/GPU 병렬 언어",
+      "summaryKo": "Bend는 지켜야 할 규칙을 코드로 선언하고 AI가 그 구현의 정확성을 증명하도록 하는 프로그래밍 언어이다. 자연어보다 정밀한 요구사항 명세와 빠른 실행을 결합했으며, 네이티브 코드로 컴파일되어 단일 코어에서도 C에 가까운 속도를 낸다. 동일한 바이너리를 여러 CPU 코어나 GPU에서도 그대로 실행할 수 있어 병렬 처리에 강점을 가진다.",
+      "tags": [
+        "bend",
+        "gpu",
+        "formal-verification"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49746654",
+      "title": "Sex, AI, and the Apocalypse",
+      "url": "https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49746654",
+      "publishedAt": "2026-09-17T21:15:52Z",
+      "score": 98,
+      "comments": 73,
+      "snippet": "Sex, AI, and the Apocalypse - Ian Duncan Ian K. Duncan About Engineering Notes Cooking Personal Projects Personal essays stable 16 Sept 2026 Sex, AI, and the Apocalypse How a community devoted to thinking clearly incubated salvation stories, abusive experiments, race science, and an affection for autocracy, and why that history matters now that its alumni are asking for the public trust on AI. Contents The prophet The gospel according to Harry Potter Yudkowsky’s Apostles Forbidden insights Debugging the humans Tangled in the sheets, tangled in the streets Follow the money The road into government Dissent among Yudkowsky’s faithfuul Back to this month Who checks the checkers Contents The prophet The gospel according to Harry Potter Yudkowsky’s Apostles Forbidden insights Debugging the humans Tangled in the sheets, tangled in the streets Follow the money The road into government Dissent among Yudkowsky’s faithfuul Back to this month Who checks the checkers If worries about AI safety and the end of the world entered your life recently, it’s probably because of a resignation letter. On September 8, 2026, a researcher named Jacob Coxon quit Anthropic, the one of the two premier AI labs in the U.S. whose brand has tried to cultivate the image of being the careful one relative to its competitors. He had spent the previous three years doing pretraining research at OpenAI and then at Anthropic, the engine-room work that makes large models capable, and his goodbye note said, among other things: “The people building AI earnestly believe that it could kill us all by the end of the decade. This is not a marketing stunt.” He left two months before his equity vested and walked away from it . The post was viewed more than a hundred million times within a day. His colleagues, surprisingly did not rush to correct him. Evan Hubinger , who leads alignment science at Anthropic, posted within hours that Coxon was right, that they really do earnestly believe AI could kill all humans, and that his personal odds were somewhere north of one in ten inside a decade. More than two dozen members of Congress said something needed to be done. Elon Musk, who is building a frontier lab of his own, called the whole thing a psy-op , and mainstream news outlets predictably gave breathless coverage to the frenzy that followed. In order to realistically evaluate the gravity of this warning, we need to understand the people who are making it. The loudest voices warning about the end of the world come out of a very specific twenty-five-year-old internet subculture, one that understands itself as a community of people who think more clearly than everyone else. Outside Silicon Valley the subculture looks obscure, a fandom with unusually dorky literary preferences. Inside the technology industry it is anything but. Its writers make or break reputations. Its alumni staff the labs, the safety institutes, and the philanthropic organizations that decide what “AI safety” means. Its arguments, m",
+      "oneLineKo": "AI 종말론 뒤에 숨은 합리주의 커뮤니티의 그림자",
+      "summaryKo": "Anthropic 연구원 제이콥 콕슨의 사직 편지로 촉발된 AI 종말론 논쟁을 계기로, 이러한 경고를 주도하는 인물들이 25년 역사를 가진 특정 인터넷 서브컬처(합리주의 운동, 엘리에저 유드코프스키 계열) 출신임을 짚는다. 이 커뮤니티는 겉으로는 소수 취향의 온라인 팬덤처럼 보이지만, 실제로는 AI 랩과 안전 연구소, 자선단체의 핵심 인력을 배출하며 'AI 안전'의 정의 자체를 좌우하고 있다. 글은 이 커뮤니티가 구원 서사, 가학적 실험, 인종 과학, 독재에 대한 호감 등 문제적 역사를 품고 있었음을 지적하며, 이제 그 출신들이 AI에 대한 대중의 신뢰를 요구하는 상황의 위험성을 경고한다.",
+      "tags": [
+        "ai-safety",
+        "rationalism",
+        "anthropic"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33863",
+      "title": "Astra for Law - 법률 업무용 AI",
+      "url": "https://news.hada.io/topic?id=33863",
+      "commentsUrl": "https://news.hada.io/topic?id=33863",
+      "publishedAt": "2026-09-18T07:42:15+09:00",
+      "snippet": "OpenAI가 GPT‑6 Astra에 법률 검색, 분석 및 작성 지침을 결합한 Astra for Law 를 공개함. 로펌과 법률 기술 기업이 자체 전문성을 바탕으로 AI 제품과 업무 흐름을 구축할 수 있음 2억 3,000만 개 이상의 URL 을 대상으로 미국 판례, 법률, 규정 등을 검색하며, F...",
+      "oneLineKo": "OpenAI, 법률 특화 AI 'Astra for Law' 공개",
+      "summaryKo": "OpenAI가 GPT-6 Astra 기반의 법률 업무용 AI 서비스 'Astra for Law'를 공개했다. 법률 검색, 분석, 작성 지침을 결합해 로펌과 법률 기술 기업이 자체 전문성을 바탕으로 AI 제품과 업무 흐름을 구축할 수 있도록 지원한다. 2억 3천만 개 이상의 URL을 대상으로 미국 판례, 법률, 규정 등을 검색할 수 있는 기능을 제공한다.",
+      "tags": [
+        "llm",
+        "legal-tech",
+        "openai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49715813",
+      "title": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
+      "url": "https://global.fujitsu/en-global/pr/news/2026/09/14-02",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49715813",
+      "publishedAt": "2026-09-15T17:28:38Z",
+      "score": 481,
+      "comments": 184,
+      "oneLineKo": "후지쓰, 일본산 차세대 CPU 'FUJITSU-MONAKA' 공개",
+      "summaryKo": "후지쓰가 일본에서 설계 및 제조한 차세대 CPU 'FUJITSU-MONAKA'를 발표했다. 이는 후지쓰의 차세대 프로세서 라인업으로, 자국 내 반도체 기술력을 강조하는 제품으로 소개된다. 구체적인 사양이나 성능 정보는 제목만으로는 확인되지 않는다.",
+      "tags": [
+        "cpu",
+        "fujitsu",
+        "semiconductor"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33862",
+      "title": "모두가 제정신을 잃었다",
+      "url": "https://news.hada.io/topic?id=33862",
+      "commentsUrl": "https://news.hada.io/topic?id=33862",
+      "publishedAt": "2026-09-18T07:02:15+09:00",
+      "snippet": "AI 대응이 하루 업무의 75% 이상을 차지하면서 일의 즐거움까지 잃은 경험 에서 출발해, 윤리와 실제 효과를 따지지 않는 조직의 AI 도입 열풍을 비판함 보안의 병목은 취약점을 찾는 것이 아니라 실제 시스템에 패치를 적용하는 일 인데, 조직들은 AI로 수천 건의 취...",
+      "oneLineKo": "AI 도입 열풍 속 보안 업무의 본질 왜곡 비판",
+      "summaryKo": "저자는 AI 대응 업무가 하루 업무의 75% 이상을 차지하면서 일의 즐거움을 잃은 경험을 바탕으로, 윤리와 실제 효과를 따지지 않는 조직의 AI 도입 열풍을 비판한다. 보안의 진짜 병목은 취약점을 찾는 것이 아니라 실제 시스템에 패치를 적용하는 것인데, 조직들은 AI로 수천 건의 취약점 보고서만 양산하고 있다고 지적한다. 이는 문제 해결보다 AI 활용 자체가 목적이 되어버린 현상을 꼬집는 내용이다.",
+      "tags": [
+        "ai",
+        "security",
+        "devops"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49743097",
+      "title": "Hister: A private search engine for the pages you visit and the files you keep",
+      "url": "https://github.com/asciimoo/hister",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49743097",
+      "publishedAt": "2026-09-17T16:25:37Z",
+      "score": 410,
+      "comments": 123,
+      "snippet": "GitHub - asciimoo/hister: Your own search engine · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} asciimoo / hister Public Uh oh! There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Fork 189 Star 4.2k Code Issues 48 Pull requests 13 Discussions Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Discussions Actions Projects Security and quality Insights master Branches Tags Go to file Code Open more actions menu Latest commit History 2,123 Commits 2,123 Commits Folders and files Name Name Last commit message Last commit date .forgejo/ workflows .forgejo/ workflows .github .github client client cmd cmd config config contrib/ systemd contrib/ systemd files files nix nix scripts scripts server server webui webui .dockerignore .dockerignore .editorconfig .editorconfig .fallowrc.json .fallowrc.json .gitattributes .gitattributes .gitignore .gitignore .golangci.toml .golangci.toml .goreleaser-rolling.yml .goreleaser-rolling.yml .goreleaser.yml .goreleaser.yml .pretti",
+      "oneLineKo": "방문 기록·파일 검색용 오픈소스 개인 검색엔진 'Hister'",
+      "summaryKo": "Hister는 사용자가 방문한 웹페이지와 보유한 파일들을 색인화해 검색할 수 있는 개인용 검색 엔진 프로젝트입니다. Go로 작성된 서버와 클라이언트, 웹 UI를 포함하며 GitHub에 오픈소스로 공개되어 있습니다. systemd, nix 등 다양한 배포 환경을 지원하도록 구성되어 있습니다.",
+      "tags": [
+        "search-engine",
+        "self-hosted",
+        "golang"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33861",
+      "title": "Mysetup - 다른 사람의 AI 도구와 실제 작업 방식을 살펴보는 커뮤니티",
+      "url": "https://news.hada.io/topic?id=33861",
+      "commentsUrl": "https://news.hada.io/topic?id=33861",
+      "publishedAt": "2026-09-18T06:52:16+09:00",
+      "snippet": "어떤 모델을 쓰는지뿐 아니라 에이전트, 스킬, 연결 도구를 어떻게 조합해 일하는지 공개하고 서로 배우는 공간 개인별 페이지에 작업 흐름과 설정, 시행착오를 정리하며, 변경 이력과 팔로우 로 다른 사람의 환경이 바뀌는 과정도 따라갈 수 있음 여러 에...",
+      "oneLineKo": "AI 도구 설정과 작업 방식을 공유하는 커뮤니티 서비스",
+      "summaryKo": "Mysetup은 사용자가 어떤 AI 모델과 에이전트, 스킬, 연결 도구를 조합해 작업하는지 공개하고 서로 배우는 커뮤니티 플랫폼입니다. 개인별 페이지에서 작업 흐름, 설정, 시행착오를 정리할 수 있으며, 변경 이력과 팔로우 기능을 통해 다른 사람의 환경이 어떻게 바뀌는지도 따라갈 수 있습니다. 단순히 어떤 모델을 쓰는지보다 실제 도구 조합과 작업 방식에 초점을 맞춘 것이 특징입니다.",
+      "tags": [
+        "ai-tools",
+        "community",
+        "workflow"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49737922",
+      "title": "How GLM built its own inference infrastructure",
+      "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49737922",
+      "publishedAt": "2026-09-17T08:27:09Z",
+      "score": 357,
+      "comments": 259,
+      "oneLineKo": "GLM, 자체 추론 인프라 구축 사례 소개",
+      "summaryKo": "GLM 팀이 자체적으로 구축한 추론(inference) 인프라에 대해 소개하는 글입니다. 본문 내용은 제공되지 않아 구체적인 아키텍처나 기술적 세부사항은 확인할 수 없습니다. 제목을 통해 대규모 언어 모델 서빙을 위한 인프라 구축 경험을 다루는 것으로 추정됩니다.",
+      "tags": [
+        "llm",
+        "inference",
+        "infrastructure"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49737787",
+      "title": "CCC invites all model citizens to 40C3",
+      "url": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49737787",
+      "publishedAt": "2026-09-17T08:03:54Z",
+      "score": 324,
+      "comments": 176,
+      "snippet": "CCC invites all model citizens to 40C3 - CCC Event Blog CCC Event Blog 文A English Deutsch Menu About Calendar CCC Recordings Streaming Upcoming Events 18 – 20 Sep Datenspuren 2026 25 Sep BigBrotherAwards 2026 CCC invites all model citizens to 40C3 12 September 2026 EN DE The word is on the street: the Chaos Computer Club is hosting 40C3 from 27 to 30 December 2026 – Europe’s biggest hacker party, conference and platform for technology, society and civil liberties. We understand the Congress to be a huge shared stage and therefore invite you to help shape it. The Call for Participation for talks, the entertainment programme, art, punk and music opens today. Everything is getting bigger, more colourful and more beautiful. Following our moving to the Hamburg Exhibition halls , there is once again plenty of space for creative ideas. Obviously, we want to make the most of this new space, which is why we are inviting all galactic beings to the 40th Chaos Communication Congress from 27 to 30 December 2026. With the idea of this year’s motto ‘Model Citizens’ in mind, we want to work together to find new models for society, now that the ‘Model Citizens’ of the past have left the planet in a precarious state. There are loads of ways to go about this. For example, the Congress is the biggest non-commercial hacker conference, organised by volunteers, supported by thousands of unpaid helpers and over 16,000 visitors who don’t just passively consume the event, but actively help to shape it. Times have become harsher. The consensus that, in a democratic society, we should work in solidarity towards a shared, better future is increasingly giving way to the model of an authoritarian state, in which the stronger impose their views on the weaker. Personal commitment and a sense of responsibility are taking a back seat to the call for a strong hand that is supposed to make everything ‘great again’. The remaining liberal forces are fighting rearguard actions and no longer attempt to create something new, but merely to prevent things from getting worse. We see things differently, with a more combative spirit: the Congress was and remains the model for how things can be different. Differences are seen as an asset, the unfamiliar as a source of inspiration, and mutual needs as an opportunity to create a sense of community in which everyone feels comfortable and welcome. For our time-honoured lecture programme at 40C3, we are calling for speakers to respond to our Call for Content ; we are also reaching out to DJs and musicians to bring their talents to our lounge and party stages . Artists and designers can apply via our Call for Art with exhibits, sculptures and performances that do not require a stage. For our Punk-Späti, we’re looking for accomplices and fellow troublemakers for anarchic and anti-fascist performances in our usual warm yet rough-and-ready atmosphere. Links und weiterführende Informationen CCC events blog: 40C3 is moving. Just around the corner. Come a",
+      "oneLineKo": "CCC, 2026년 40C3 '모델 시티즌' 주제로 참가 공모 시작",
+      "summaryKo": "카오스 컴퓨터 클럽(CCC)이 2026년 12월 27일부터 30일까지 함부르크 전시장에서 유럽 최대 해커 컨퍼런스 40C3를 개최한다고 발표했다. 이번 행사의 모토는 '모델 시티즌'으로, 권위주의적 흐름에 맞서 새로운 사회적 모델을 함께 모색하자는 취지를 담고 있다. 강연(Call for Content), 예술(Call for Art), 음악·펑크 퍼포먼스 등 다양한 분야의 참가 공모가 오늘부터 시작되었으며, 자원봉사자와 참가자가 함께 만들어가는 비상업적 컨퍼런스임을 강조했다.",
+      "tags": [
+        "ccc",
+        "hacker-conference",
+        "event"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49738091",
+      "title": "Why I didn’t sign the Fields medallists’ letter",
+      "url": "https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49738091",
+      "publishedAt": "2026-09-17T08:51:51Z",
+      "score": 191,
+      "comments": 257,
+      "snippet": "Why I didn’t sign the Fields medallists’ letter | Gowers's Weblog Gowers's Weblog Mathematics related discussions &laquo; What sort of maths are LLMs good at? Why I didn’t sign the Fields medallists’ letter [ This post has been cross-posted to Terence Tao’s blog . ] When I was around 11 I heard for the first time about Fermat’s Last Theorem. I was immediately captivated by the problem statement, as well as by the accompanying story, and made a fairly serious attempt to prove it. And while, unsurprisingly, I failed, I learned a lot from the attempt. Blissfully ignorant of the fact that the case had been proved by Euler over 200 years earlier, I decided that that would be a good place to start: once I had sorted that out, I was optimistic that I would be ready to tackle the general case. Since I still couldn’t really see where to start, I decided to simplify the problem further and concentrate on successive differences of cubes, with a view to showing that such a difference could not itself be a cube. At the time I did not know how to express what I was doing in algebraic language, so I did not explicitly try to prove that the Diophantine equation had no solution. Rather, I just worked out some successive differences and stared at them, trying to get some idea of why none of them was a perfect cube. (I should be clear that this story is a reconstruction of what I think probably happened given the few memory traces that remain half a century later rather than a completely reliable account.) At some point, I had the idea of taking the difference sequence of the difference sequence, and discovered that it formed an arithmetic progression. That felt like progress, so I investigated difference sequences a bit more and discovered, purely empirically, the rule that if you start with th powers and keep taking successive differences, then eventually you get to the constant sequence . Somehow I never managed to turn this observation into a proof of Fermat’s Last Theorem, and later on my dream of solving it got replaced by other mathematical dreams. However, when I reached the point in my mathematical education where I was taught about taking difference sequences and about what happened to polynomials, I understood those topics much better than I would have if I had not discovered difference sequences for myself and spent happy hours playing around with them. I mention this story just as an illustration of the phenomenon that was strongly emphasized in this letter signed by 25 Fields medallists , that one learns a lot from thinking about a problem, regardless of whether one solves it. In the end, however, I felt that I could not sign the letter, despite agreeing with much of what it said. Instead, it seemed better to do what I did with the Leiden Declaration and set out my own position in a blog post. But it should be understood that by doing that I am not setting myself up as a member of some opposing camp: indeed one of my worries at the moment is that the ",
+      "oneLineKo": "필즈상 수상자 AI 공동서한에 서명 안 한 이유 설명",
+      "summaryKo": "수학자 팀 가워스는 25명의 필즈상 수상자가 서명한 AI 관련 공동서한에 동의하는 부분이 많음에도 서명하지 않았다고 밝힌다. 그는 어린 시절 페르마의 마지막 정리에 도전했던 경험을 예로 들며, 문제를 풀지 못해도 사고 과정 자체에서 배우는 것이 많다는 서한의 핵심 주장에 공감한다. 다만 자신을 특정 진영에 속한 것으로 오해받지 않기 위해 별도의 블로그 글로 자신의 입장을 밝히는 방식을 택했다.",
+      "tags": [
+        "ai",
+        "mathematics",
+        "llm"
+      ]
+    }
+  ]
+}
