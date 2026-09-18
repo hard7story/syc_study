@@ -1,0 +1,246 @@
+{
+  "date": "2026-09-19",
+  "generatedAt": "2026-09-18T23:46:33.340Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33899",
+      "title": "무한 파라미터 LLM: 실시간 데이터로 가중치 생성 및 적응",
+      "url": "https://news.hada.io/topic?id=33899",
+      "commentsUrl": "https://news.hada.io/topic?id=33899",
+      "publishedAt": "2026-09-19T00:42:19+09:00",
+      "snippet": "Infinite-Parameter LLM 은 사용자 제공 사실, 수정 사항 등 실시간 상호작용 데이터를 프롬프트에만 두지 않고, 추론 중 가중치에 반영하는 아키텍처 제안임 작은 하이퍼네트워크 가 공유 기반 네트워크에 적용할 저랭크 가중치 변화량을 생성하므로, MoE처럼 모든 ...",
+      "oneLineKo": "실시간 상호작용을 가중치에 반영하는 무한 파라미터 LLM 구조",
+      "summaryKo": "Infinite-Parameter LLM은 사용자의 실시간 상호작용 데이터(사실, 수정 사항 등)를 프롬프트에만 두지 않고 추론 중 모델 가중치에 직접 반영하는 아키텍처를 제안한다. 작은 하이퍼네트워크가 공유 기반 네트워크에 적용할 저랭크(low-rank) 가중치 변화량을 동적으로 생성하는 방식이다. 이는 MoE(Mixture of Experts)처럼 모든 파라미터를 미리 고정해두는 방식과 달리, 필요에 따라 가중치를 실시간으로 적응시키는 접근이다.",
+      "tags": [
+        "llm",
+        "hypernetwork",
+        "low-rank-adaptation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49747070",
+      "title": "How to Write with an LLM",
+      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49747070",
+      "publishedAt": "2026-09-17T21:48:38Z",
+      "score": 359,
+      "comments": 250,
+      "snippet": "How To Write With An LLM &mdash; A Final Ward Meta / Older How To Write With An LLM 17 September 2026 Two simple rules that let LLMs streamline and improve your writing without pasteurizing and jacking it with corn syrup. It’s tricky to write about writing. It comes across as a brag; you’re implying that you write well. Maybe you do, and maybe you don’t, but there’s for damned sure a quorum of critics on the Internet somewhere that think you suck at it. I’m vain and insecure like everybody else and find writing this piece weirdly unpleasant. But I’m getting over myself and getting this down because this advice is important, hard to argue with, and straightforward. Readers can detect LLM words in the parts per trillion. However much work you put into scuffing up and humanizing it, an LLM paragraph will register to much of your audience not as writing but as output. So, first the bad news: you have to write for yourself. But LLMs are still extraordinarily useful. It’s just you need to use them like a copyeditor rather than a ghostwriter. So, step one of my method: write your piece. Then, step two: feed it to a good model to find flaws. But before we talk about how that works, there are two rules you need to understand. They’ll ward off LLM-creep that will knock you into the uncanny valley between expression and output and knock you out of your reader’s attention. Rule Number One: You may not use a single word an LLM suggests to you. Breaking this rule is what’s going to get you into trouble. Reason being: frontier models are supernaturally good at selecting pleasing turns of phrase. It’s sort of their whole thing. The problems with what models suggest are subtle. Think of it this way: frontier models are wedged in a mode where everything they write is a magazine headline. Headlines are good, but you’d wonder about someone who wrote an article with dozens of them. So I think that as a form of intellectual personal protective equipment you should adopt the rule that any specific turn of phrase an LLM suggests is off limits. Be strict about the rule! The whole premise here is that you’re not going to reliably spot all the ways frontier models will try to turn your writing into Velveeta. Even if you like the words, even if you’re sure they’re better than what you already have, LLM-generated phrases are DQ’d. Rule Number Two: Avoid encouragement LLMs also infect your writing through influence campaigns. This is a much subtler problem, and the damage is less obvious, but it’s still a way in which LLMs will make your writing worse, and if that’s going to be the outcome, you might as well not enlist LLMs at all. The issue: hand any piece of writing off to an LLM, and it replies “ that’s gold, Jerry !” But that’s not what you need to hear! In your first draft, most of your paragraphs are bad, your topic flow is incoherent, and you’ve got at least 750 words you don’t need. The model encourages you about your overall structure. Then, later, about paragraphs a",
+      "oneLineKo": "LLM을 고스트라이터가 아닌 편집자로 쓰는 두 가지 원칙",
+      "summaryKo": "이 글은 LLM으로 글쓰기를 개선하는 방법에 대한 조언을 다룬다. 핵심은 LLM을 고스트라이터가 아닌 카피에디터처럼 사용하라는 것으로, 먼저 스스로 글을 쓰고 이후 모델에게 결함을 찾도록 요청하는 방식을 제안한다. 두 가지 규칙은 'LLM이 제안하는 단어를 그대로 쓰지 말 것'과 'LLM의 칭찬성 피드백을 경계할 것'이다. 이는 LLM 특유의 매끄럽지만 획일적인 문체와 과도한 긍정 피드백이 글의 개성을 해칠 수 있다는 우려에서 나온 조언이다.",
+      "tags": [
+        "llm",
+        "writing",
+        "editing"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33887",
+      "title": "LLM과 함께 글 쓰는 법",
+      "url": "https://news.hada.io/topic?id=33887",
+      "commentsUrl": "https://news.hada.io/topic?id=33887",
+      "publishedAt": "2026-09-18T18:42:16+09:00",
+      "snippet": "LLM은 대필 작가가 아니라 교정 편집자 로 활용해야 함. 글은 직접 쓰고, 좋은 모델에 초안을 넘겨 결함을 찾게 하는 방식임 첫 번째 원칙은 LLM이 제안한 표현을 단 한 단어도 쓰지 않는 것 임. 매력적인 문구라도 모델이 글의 개성을 획일화하는 방식을 모두 알아채...",
+      "oneLineKo": "LLM은 대필 아닌 교정 편집자로 활용하라",
+      "summaryKo": "LLM을 글쓰기에 활용할 때는 대필 작가가 아니라 교정 편집자로 써야 한다는 원칙을 제시함. 글은 직접 쓰고 초안을 좋은 모델에 넘겨 결함을 찾아내는 방식이 바람직함. 첫 번째 원칙은 LLM이 제안한 표현을 단 한 단어도 그대로 쓰지 않는 것으로, 매력적인 문구라도 글쓴이만의 개성을 획일화할 수 있음을 경계해야 함.",
+      "tags": [
+        "llm",
+        "writing"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49760187",
+      "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49760187",
+      "publishedAt": "2026-09-18T21:00:32Z",
+      "score": 380,
+      "comments": 144,
+      "snippet": "Claude Code changelog - Claude Code Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content Claude Code Docs home page English Search... ⌘ K Ask Assistant ⌘ I Claude Developer Platform Open Claude Code Open Claude Code Search... Navigation Getting started Claude Code changelog Getting started Build with Claude Code Administration Configuration Reference Agent SDK What's New Resources Getting started Overview Quickstart Changelog Core concepts How Claude Code works Extend Claude Code Explore the .claude directory Explore the context window Prompt caching Use Claude Code Store instructions and memories Manage sessions Common workflows Prompt library Best practices Platforms and integrations Overview Remote Control Claude Code in the cloud Projects Claude Code on desktop Mobile Chrome extension Computer use (preview) Visual Studio Code JetBrains IDEs Code review & CI/CD Claude Code in Slack Claude Tag On this page 2.1.277 2.1.276 2.1.275 2.1.274 2.1.273 2.1.272 2.1.271 2.1.270 2.1.269 2.1.268 2.1.267 2.1.266 2.1.265 2.1.263 2.1.261 2.1.260 2.1.259 2.1.258 2.1.257 2.1.252 2.1.251 2.1.250 2.1.248 2.1.247 2.1.246 2.1.245 2.1.243 2.1.241 2.1.240 2.1.239 2.1.238 2.1.237 2.1.236 2.1.235 2.1.234 2.1.233 2.1.232 2.1.231 2.1.229 2.1.228 2.1.227 2.1.226 2.1.225 2.1.224 2.1.223 2.1.222 2.1.221 2.1.220 2.1.219 2.1.218 2.1.217 2.1.216 2.1.215 2.1.214 2.1.212 2.1.211 2.1.210 2.1.209 2.1.208 2.1.207 2.1.206 2.1.205 2.1.204 2.1.203 2.1.202 2.1.201 2.1.200 2.1.199 2.1.198 2.1.197 2.1.196 2.1.195 2.1.193 2.1.191 2.1.190 2.1.187 2.1.186 2.1.185 2.1.183 2.1.181 2.1.179 2.1.178 2.1.176 2.1.175 2.1.174 2.1.173 2.1.172 2.1.170 2.1.169 2.1.168 2.1.167 2.1.166 2.1.165 2.1.163 2.1.162 2.1.161 2.1.160 2.1.159 2.1.158 2.1.157 2.1.156 2.1.154 2.1.153 2.1.152 2.1.150 2.1.149 2.1.148 2.1.147 2.1.145 2.1.144 2.1.143 2.1.142 2.1.141 2.1.140 2.1.139 2.1.138 2.1.137 2.1.136 2.1.133 2.1.132 2.1.131 2.1.129 2.1.128 2.1.126 2.1.123 2.1.122 2.1.121 2.1.120 2.1.119 2.1.118 2.1.117 2.1.116 2.1.114 2.1.113 2.1.112 2.1.111 2.1.110 2.1.109 2.1.108 2.1.107 2.1.105 2.1.101 2.1.98 2.1.97 2.1.96 2.1.94 2.1.92 2.1.91 2.1.90 2.1.89 2.1.87 2.1.86 2.1.85 2.1.84 2.1.83 2.1.81 2.1.80 2.1.79 2.1.78 2.1.77 2.1.76 2.1.75 2.1.74 2.1.73 2.1.72 2.1.71 2.1.70 2.1.69 2.1.68 2.1.66 2.1.63 2.1.62 2.1.61 2.1.59 2.1.58 2.1.56 2.1.55 2.1.53 2.1.52 2.1.51 2.1.50 2.1.49 2.1.47 2.1.46 2.1.45 2.1.44 2.1.43 2.1.42 2.1.41 2.1.39 2.1.38 2.1.37 2.1.36 2.1.34 2.1.33 2.1.32 2.1.31 2.1.30 2.1.29 2.1.27 2.1.25 2.1.23 2.1.22 2.1.21 2.1.20 2.1.19 2.1.18 2.1.17 2.1.16 2.1.15 2.1.14 2.1.12 2.1.11 2.1.10 2.1.9 2.1.7 2.1.6 2.1.5 2.1.4 2.1.3 2.1.2 2.1.0 2.0.76 2.0.75 2.0.74 2.0.73 2.0.72 2.0.71 2.0.70 2.0.69 2.0.68 2.0.67 2.0.65 2.0.64 2.0.62 2.0.61 2.0.60 2.0.59 2.0.58 2.0.57 2.0.56 2.0.55 2.0.54 2.0.52 2.0.51 2.0.50 2.0.49 2.0.47 2.0.46 2.0.45 2.0.43 2.0.42 2.0.41 2.0.37 2.0.36 2.0.35 2.0.34 2.0.33 2.0.32 2.0.31 2",
+      "oneLineKo": "Claude Code, Claude.md 없으면 AGENTS.md 인식",
+      "summaryKo": "Claude Code의 변경 로그에 따르면, 프로젝트에 Claude.md 파일이 존재하지 않을 경우 AGENTS.md 파일을 대신 읽어 컨텍스트로 활용하는 기능이 추가되었습니다. 이는 다른 AI 코딩 도구들과의 호환성을 높이기 위한 조치로 보입니다. 본문은 방대한 버전별 변경 로그 목록으로 구성되어 있어 세부 변경 사항은 명시되지 않았습니다.",
+      "tags": [
+        "claude-code",
+        "ai-coding-assistant",
+        "llm"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33881",
+      "title": "Show GN: SQLBraid - SQL을 그대로 쓰는 TypeScript 라이브러리",
+      "url": "https://news.hada.io/topic?id=33881",
+      "commentsUrl": "https://news.hada.io/topic?id=33881",
+      "publishedAt": "2026-09-18T14:50:40+09:00",
+      "snippet": "배경 저는 java 기반 자체 프레임워크를 쓰는 회사에서 프레임워크 코어 개발자 역할 겸임으로 일하고 있습니다. 해당 프레임워크는 내부적으로 mybatis/ibatis 와 비슷한 xml 문법으로 쿼리를 작성하고 여느 SI 회사처럼 수천줄 이상의 긴 SQL에 대부분의 로직을 작성합니다. 개인프로젝트 할 때는",
+      "oneLineKo": "SQL 그대로 작성하는 TypeScript 쿼리 라이브러리 공개",
+      "summaryKo": "개발자가 개인 프로젝트를 통해 SQLBraid라는 TypeScript 라이브러리를 공개했다. 회사에서 mybatis/ibatis와 유사한 XML 문법으로 긴 SQL을 작성하던 경험을 바탕으로, SQL을 그대로 사용하면서도 TypeScript와 자연스럽게 통합되는 방식을 지향한다. ORM 대신 원본 SQL 작성 방식을 선호하는 개발자를 위한 대안으로 소개되었다.",
+      "tags": [
+        "typescript",
+        "sql",
+        "orm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49758736",
+      "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
+      "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49758736",
+      "publishedAt": "2026-09-18T19:03:09Z",
+      "score": 414,
+      "comments": 199,
+      "snippet": "GrapheneOS: \"Android 17 QPR1 is the first release since Androi…\" - GrapheneOS Mastodon To use the Mastodon web application, please enable JavaScript. Alternatively, try one of the native apps for Mastodon for your platform.",
+      "oneLineKo": "Android 17, AOSP 미공개 상태로 신규 API 추가",
+      "summaryKo": "GrapheneOS는 Android 17 QPR1이 Android 3.x 이후 처음으로 AOSP(Android Open Source Project)에 소스코드를 공개하지 않은 채 새로운 API를 추가한 릴리스라고 지적했다. 이는 오픈소스 기반 커스텀 롬 프로젝트들이 최신 API 변경 사항을 확인하고 대응하기 어렵게 만든다. GrapheneOS는 이를 구글의 AOSP 개방성 축소 흐름의 사례로 언급했다.",
+      "tags": [
+        "android",
+        "aosp",
+        "open-source"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33874",
+      "title": "스타트업을 피벗해야 할까? [동영상]",
+      "url": "https://news.hada.io/topic?id=33874",
+      "commentsUrl": "https://news.hada.io/topic?id=33874",
+      "publishedAt": "2026-09-18T10:15:01+09:00",
+      "snippet": "피벗 여부는 창업팀의 맥락과 검증 수준 에 따라 판단해야 함. 고객을 만나지도 않은 채 어려움을 피해 아이디어를 바꾸는 것과, 핵심 가설을 충분히 시험한 뒤 방향을 바꾸는 것은 다름 AI가 기존 사업의 핵심 전제를 무너뜨렸다면 계속 버티는 기회비용이 커질 수...",
+      "oneLineKo": "스타트업 피벗, 검증 수준에 따라 판단해야",
+      "summaryKo": "스타트업의 피벗 여부는 창업팀이 아이디어를 얼마나 검증했는지에 따라 다르게 판단해야 한다는 내용이다. 고객 검증 없이 어려움을 피하려 아이디어를 바꾸는 것과, 핵심 가설을 충분히 검증한 뒤 방향을 전환하는 것은 본질적으로 다르다고 설명한다. 또한 AI로 인해 기존 사업의 핵심 전제가 무너졌다면, 기존 방향을 고수하는 데 따르는 기회비용이 커질 수 있다고 언급한다.",
+      "tags": [
+        "startup",
+        "pivot",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49750694",
+      "title": "Inside ZCode: Silently uploading your Git history to the cloud",
+      "url": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49750694",
+      "publishedAt": "2026-09-18T06:11:17Z",
+      "score": 243,
+      "comments": 89,
+      "snippet": "Inside ZCode: Silently Uploading Your Entire Git History to the Cloud &middot; Code is cheap, let's talk &darr; Skip to main content Code is cheap, let&rsquo;s talk Code is cheap, let&rsquo;s talk Archive Tags EN 简体中文 English Archive Tags EN 简体中文 English Code is cheap, let's talk / Archive / Inside ZCode: Silently Uploading Your Entire Git History to the Cloud / Inside ZCode: Silently Uploading Your Entire Git History to the Cloud Sep 18, 2026 &middot; 7 mins &middot; &middot; &middot; #Security #Privacy #AI Coding #Reverse Engineering Copy Markdown Table of Contents The Starting Point: A 313MB Archive Stuck in Pending Where It Goes: From Logs to asar Reverse Engineering The Most Ironic Part: The Key Belongs to the Server What Gets Packed: Nearly 90% Is .git The Truth About the Switches: UI Toggles Don&rsquo;t Stop It What the Privacy Policy Says Defense: Deleting Is Whack-a-Mole; Lock the Directory macOS Linux Impact & Rollback Closing Thoughts Table of Contents The Starting Point: A 313MB Archive Stuck in Pending Where It Goes: From Logs to asar Reverse Engineering The Most Ironic Part: The Key Belongs to the Server What Gets Packed: Nearly 90% Is .git The Truth About the Switches: UI Toggles Don&rsquo;t Stop It What the Privacy Policy Says Defense: Deleting Is Whack-a-Mole; Lock the Directory macOS Linux Impact & Rollback Closing Thoughts I am not a native English speaker; this article was translated by AI. It started with a routine check while freeing up disk space: ~/.zcode was taking up over 700MB. After digging into it intermittently, I confirmed something pretty wild: Whenever you are logged in, ZCode (Zhipu&rsquo;s official AI coding desktop app) silently packages your entire workspace — complete .git history, LFS asset cache, reflogs, and global app configs — encrypts it, and uploads it directly to Aliyun OSS. Even more ironic: the RSA public key used for encryption is delivered on the fly by the server, while the private key lives exclusively in the cloud. You cannot decrypt that multi-hundred-megabyte ciphertext sitting right on your own disk, and neither can the ZCode client itself. Here is the complete record of the investigation, the evidence chain, and a one-liner defense that permanently shuts it down. The Starting Point: A 313MB Archive Stuck in Pending # ~/.zcode is the data root of ZCode. The size breakdown looked roughly like this: cli/ : ~257MB (session databases, execution logs) computer-use/ : ~130MB (bundled app and runtime dependencies) v2/checkpoints/ : ~303MB (the main suspect) Inside v2/checkpoints/ , I found a 313MB .enc file alongside a state metadata file: { \"workspacePath\" : \"/Users/ferstar/myprojects/<a commercial project>\" , \"lastCompressedSize\" : { \"encryptedSizeBytes\" : 313070842 , \"workspaceSizeBytes\" : 345549173 }, \"kind\" : \"baseline\" , \"failureCount\" : 564 } The story was straightforward: The client scanned my active commercial project, excluded node_modules and a few others, and packaged the remaining 345M",
+      "oneLineKo": "ZCode, 사용자 Git 히스토리 몰래 클라우드 업로드 발견",
+      "summaryKo": "보안 연구자가 智谱(Zhipu)의 AI 코딩 데스크톱 앱 ZCode를 조사한 결과, 로그인 시 워크스페이스 전체(.git 히스토리, LFS 캐시, reflog, 앱 설정 포함)를 압축·암호화해 Aliyun OSS로 몰래 업로드하는 동작을 발견했다. 암호화에 사용되는 RSA 공개키는 서버가 즉석에서 내려주고 개인키는 오직 클라우드에만 존재해, 사용자와 클라이언트 모두 로컬에 저장된 수백 MB 암호문을 복호화할 수 없다. UI의 관련 토글을 꺼도 업로드가 차단되지 않으며, 저자는 리버스 엔지니어링을 통해 이 과정을 상세히 분석하고 디렉터리 잠금을 통한 영구 차단 방법을 제시했다.",
+      "tags": [
+        "privacy",
+        "reverse-engineering",
+        "ai-coding-tool"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33871",
+      "title": "Anthropic, AI가 AI를 개발하는 내부 현황과 감독 지표 공개",
+      "url": "https://news.hada.io/topic?id=33871",
+      "commentsUrl": "https://news.hada.io/topic?id=33871",
+      "publishedAt": "2026-09-18T09:52:15+09:00",
+      "snippet": "모델의 성능뿐 아니라 AI가 연구개발을 얼마나 맡고, 그 행동을 어떻게 감독하며, 컴퓨팅 자원을 어디에 쓰는지 측정해 개발 과정을 외부에 공개함 2026년 8월 내부 평가에서 Claude는 AI 연구개발 업무의 26%를 주도 하고 90% 이상에서 협업 이상의 역할을 맡았지만...",
+      "oneLineKo": "Anthropic, AI 연구개발 자동화 현황·감독 지표 공개",
+      "summaryKo": "Anthropic이 AI가 AI 연구개발에 얼마나 관여하는지, 그 행동을 어떻게 감독하는지, 컴퓨팅 자원을 어디에 쓰는지 측정한 내부 현황을 외부에 공개했다. 2026년 8월 내부 평가에 따르면 Claude는 AI 연구개발 업무의 26%를 주도했고, 90% 이상의 업무에서 단순 협업을 넘어서는 역할을 수행한 것으로 나타났다. 이는 모델 성능 외에 AI의 자율성 확대에 따른 감독 체계의 중요성을 보여주는 사례로 주목된다.",
+      "tags": [
+        "anthropic",
+        "claude",
+        "ai-research"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49759466",
+      "title": "Korea raises data breach fines to 10% of revenue",
+      "url": "https://www.koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49759466",
+      "publishedAt": "2026-09-18T20:02:54Z",
+      "score": 239,
+      "comments": 74,
+      "snippet": "South Korea raises data breach fines to 10% of revenue Jump to main content Newsletter Print Edition K-campus Korea Business Lifestyle Entertainment Sports Opinion World Search Korea Politics Social Affairs North Korea Diplomacy Defense Environment K-campus Business Industry Economy Tech Money Games and Webtoons Guest Reports Lifestyle Food and Travel Life and Trends Arts and Books Music and Theater Korean Heritage Entertainment K-pop TV and Streaming Movies Sports Football Baseball Golf Volleyball Basketball Tennis Olympic Sports More Opinion Editorials Columns Cartoons Letters Voices World Bilingual News KJD Special Why Live Newsletters Multimedia News Video Photo Audio Search Newsletter Print Edition K-campus x fb ig yt naver in Korea Politics Social Affairs North Korea Diplomacy Defense Environment K-campus Business Industry Economy Tech Money Games and Webtoons Guest Reports Lifestyle Food and Travel Life and Trends Arts and Books Music and Theater Korean Heritage Entertainment K-pop TV and Streaming Movies Sports Football Baseball Golf Volleyball Basketball Tennis Olympic Sports More Opinion Editorials Columns Cartoons Letters Voices World Bilingual News KJD Special Why Live Newsletters Multimedia News Video Photo Audio Korea raises data breach fines to 10% of revenue Companies behind major negligent data leaks can now face fines of up to 10 percent of annual revenue under revised privacy rules. News Team News Team Published September 10, 2026 - 4:16 p.m. Modified September 10, 2026 - 7:00 p.m. Personal Information Protection Commission Chairperson Song Kyung-hee speaks during a plenary session of the watchdog at the government complex in Jongno District, central Seoul, on Sept. 9. YONHAP Korea's privacy regulator is sharply raising the cost of data breaches, aiming to push companies to treat data protection as a preventive investment rather than a routine cost of doing business. Starting Friday, companies found to have leaked the personal data of 10 million or more people through intent or gross negligence can be fined up to 10 percent of their total revenue as part of a broader overhaul under the revised Personal Information Protection Act that is set to take effect the same day. Even if a leak hasn't been confirmed, companies must notify users within 72 hours if the risk of exposure is high. “Personal data breaches have recently occurred repeatedly and grown in scale in fields closely tied to daily life, such as retail and telecommunications,” Personal Information Protection Commission (PIPC) Secretary General Yang Cheong-sam told reporters Thursday. “We've improved the system to hold serious violations strictly accountable while also helping prevent breaches from happening in the first place.” Related Article Korea to introduce strengthened penalties for large-scale data leaks Gender Ministry considers criminal charges against Google over leaked victim data As U.S. and Europe hit gas on Chinese smart car restrictions, Korea sits at red ",
+      "oneLineKo": "한국, 개인정보 유출 과징금 매출의 10%로 강화",
+      "summaryKo": "한국 개인정보보호위원회는 개정된 개인정보보호법에 따라 고의 또는 중대한 과실로 1000만 명 이상의 개인정보가 유출된 기업에 연 매출의 최대 10%까지 과징금을 부과할 수 있도록 했다. 이 규정은 금요일부터 시행되며, 유출이 확정되지 않아도 노출 위험이 높은 경우 72시간 내 이용자에게 통지해야 한다. 위원회는 유통·통신 등 생활밀착 분야에서 반복적으로 대규모 유출이 발생함에 따라 처벌을 강화하고 예방 체계를 개선했다고 밝혔다.",
+      "tags": [
+        "data-privacy",
+        "regulation",
+        "security"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33913",
+      "title": "Claude Code, 이제 CLAUDE.md가 없으면 AGENTS.md를 읽음",
+      "url": "https://news.hada.io/topic?id=33913",
+      "commentsUrl": "https://news.hada.io/topic?id=33913",
+      "publishedAt": "2026-09-19T07:52:19+09:00",
+      "snippet": "프로젝트에 CLAUDE.md 가 없으면 AGENTS.md 를 대신 읽는 기능 이 추가됨 해당 동작은 /config 의 “ Project instructions ”에서 변경할 수 있으며, Bedrock, Vertex, Foundry에서는 아직 지원하지 않음 비대...",
+      "oneLineKo": "Claude Code, CLAUDE.md 없으면 AGENTS.md 자동 읽기",
+      "summaryKo": "Claude Code가 프로젝트에 CLAUDE.md 파일이 없을 경우 AGENTS.md 파일을 대신 읽어오는 기능을 추가했습니다. 이 동작은 /config 메뉴의 'Project instructions' 항목에서 변경할 수 있습니다. 단, Bedrock, Vertex, Foundry 환경에서는 아직 이 기능이 지원되지 않습니다.",
+      "tags": [
+        "claude-code",
+        "llm",
+        "developer-tools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49755024",
+      "title": "I vibed a proof of Conway's conjecture",
+      "url": "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49755024",
+      "publishedAt": "2026-09-18T14:36:10Z",
+      "score": 201,
+      "comments": 176,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;gaearon&#x2F;conway-refinement#why-i-think-its-correct\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;gaearon&#x2F;conway-refinement#why-i-think-its...</a>",
+      "oneLineKo": "AI와 함께 Conway 추측 증명을 시도한 후기",
+      "summaryKo": "이 글은 저자가 'vibe coding' 방식으로 AI를 활용해 Conway의 추측(conjecture)에 대한 증명을 작성한 경험을 다룬다. GitHub 저장소에 증명 과정과 정당성에 대한 설명을 공개했다. 수학적 증명 작업에 LLM을 실험적으로 적용한 사례로 소개된다.",
+      "tags": [
+        "llm",
+        "mathematics",
+        "vibe-coding"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49758580",
+      "title": "Saving another 100TB of RAM",
+      "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49758580",
+      "publishedAt": "2026-09-18T18:51:46Z",
+      "score": 177,
+      "comments": 36,
+      "snippet": "Saving another 100TB of RAM with math (and Rust) | Cloudflare Blog Skip to content All Categories AI Developers Radar Product News Security Policy & Legal Zero Trust Speed & Reliability Life at Cloudflare Partners Switch Site Language English Deutsch Español Español (Latinoamérica) Français Italiano 日本語 한국어 繁體中文 简体中文 Português Русский Bahasa Indonesia ภาษาไทย Tiếng Việt Polski العربية עברית Svenska Nederlands Türkçe Login Dashboard Contact Sales Blog Deep Dive Engineering Open Source +4 Show 4 more tags 7 Tags Show 7 tags Post Tags Deep Dive Engineering Open Source Optimization Performance Pingora Rust All tags Matching tags No tags found 1.1.1.1 2FA Abuse Access Access Control Lists (ACLs) Accessibility Account Takeover Acquisitions Addressing Advanced Certificate Manager Advanced DDoS Advertising Aegis AEO Africa Afroflare Agent Cloud Agent Development Lifecycle Agent Readiness Agents Agents Week Agents Week 2026 AI AI Bots AI Gateway AI Search AI WAF AI Week AI-SPM Alertmanager Always Online AMD AMP Analytics Anonymous Anti Malware Anycast API API Gateway API Security API Shield APJC Apple Application Security Application Services Area 1 Security Argo Smart Routing ASCII Asia Athenian Project Atlassian Attacks Audit Logs Austin Australia Authentication Authy Auto Rag Automatic HTTPS Automatic Platform Optimization Automation AutoMinify Awards AWS Baidu Bandwidth Alliance Bandwidth Costs Best Practices Beta Better Internet BGP Billing Birthday Week Black Friday Blackbird Bot Fight Mode Bot Management Botnet Bots BPF Brand Brand Protection Brazil Browser Insights Browser Rendering Browser Run Bug Bounty Bugs BYOIP Cache Cache Purge Cache Reserve Cache Rules California Canada Cap'n Proto CAPTCHA Careers CASB Categories CDN CDNJS Certificate Authority Certificate Pinning Certificate Transparency Certification CFSSL Challenge Page ChatGPT China China Network Christmas Chrome CIO Week CISA Claire CLI ClickHouse Clientless Clientless Web Isolation Cloud Connector Cloud Email Security Cloudflare Access Cloudflare Apps Cloudflare Area 1 Cloudflare Calls Cloudflare Email Service Cloudflare for Campaigns Cloudflare for SaaS Cloudflare for Startups Cloudflare Gateway Cloudflare History Cloudflare Images Cloudflare Media Platform Cloudflare Meetups Cloudflare Network Cloudflare One Cloudflare One Client Cloudflare One User Risk Score Cloudflare One Week Cloudflare OS Cloudflare Pages Cloudflare Polish Cloudflare Queues Cloudflare Realtime Cloudflare Stream Cloudflare Tunnel Cloudflare TV Cloudflare Workers Cloudflare Workers (PT) Cloudflare Workers KV Cloudflare Workers KV (ES) Cloudflare Zero Trust Cloudforce One Cloudy Code Orange Coinbase Colombia Community Compliance Compression Config Rules Configuration Management Congestion Control Connectivity Connectivity Cloud Consumer Services Containers Content Independence Day Content Scanning Context Core COVID-19 Crawler Hints CrowdStrike Crypto Week Cryptography CSAM Reporting Customer Success Customer Zero",
+      "oneLineKo": "Cloudflare, 수학 기법으로 RAM 100TB 추가 절감",
+      "summaryKo": "Cloudflare가 Rust와 수학적 최적화 기법을 활용해 자사 인프라에서 추가로 100TB의 RAM을 절약한 사례를 소개하는 기술 블로그 글이다. Pingora 등 자체 시스템의 메모리 사용 패턴을 분석해 효율화를 이룬 엔지니어링 딥다이브로, 오픈소스와 성능 최적화에 초점을 맞추고 있다. 구체적인 기법과 수치는 본문 세부 내용에서 다뤄진다.",
+      "tags": [
+        "rust",
+        "memory-optimization",
+        "cloudflare"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49755160",
+      "title": "North Korean nuclear test sets off years of earthquakes",
+      "url": "https://www.science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49755160",
+      "publishedAt": "2026-09-18T14:45:32Z",
+      "score": 171,
+      "comments": 149,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;archive.is&#x2F;xjmvA\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.is&#x2F;xjmvA</a>",
+      "oneLineKo": "북한 핵실험, 수년간 지진 유발",
+      "summaryKo": "북한의 핵실험이 이후 수년에 걸쳐 지속적인 지진 활동을 일으켰다는 연구 결과가 Science지에 소개되었다. 본문은 아카이브 링크만 제공되어 세부 내용은 확인되지 않는다. 제목을 통해 핵실험과 지진 발생 간의 장기적 연관성이 다뤄졌음을 알 수 있다.",
+      "tags": [
+        "geoscience",
+        "nuclear-test",
+        "seismology"
+      ]
+    }
+  ]
+}
