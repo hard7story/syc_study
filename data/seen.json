@@ -1,117 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=32655",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=32655",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49363665",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "ngrok.com/blog/probes",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32662",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=32662",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49362728",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "arxiv.org/abs/2608.16753",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32661",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=32661",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49360015",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "sprocketfox.io/xssfox/2026/08/19/sondehub-and-war",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32656",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=32656",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49360242",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "grapheneos.social/@GrapheneOS/117078064184215730",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32631",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=32631",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49361395",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "twitter.com/NoubarAfeyan/status/2090050162441752787",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32674",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=32674",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49364559",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49362934",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "colorado.edu/today/2026/08/12/remote-workers-report-highest-well-being-study-7700-employees",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49360545",
-    "date": "2026-08-20"
-  },
-  {
-    "id": "yassa9.github.io/osint/gralhix-004",
-    "date": "2026-08-20"
-  },
-  {
     "id": "https://news.hada.io/topic?id=32685",
     "date": "2026-08-21"
   },
@@ -3774,5 +3662,133 @@
   {
     "id": "science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes",
     "date": "2026-09-19"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33945",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "news.hada.io/topic?id=33945",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49764791",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "john.hartnup.uk/2026/06/07/ai-event-posters.html",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "t3_1wjurwy",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1wjurwy/leave_the_class_path_in_the_rearview_mirror",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33923",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "news.hada.io/topic?id=33923",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49767937",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "t3_1wkrfqw",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1wkrfqw/you_can_run_git_on_object_storage_if_you_remake",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33957",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "news.hada.io/topic?id=33957",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49768921",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33956",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "news.hada.io/topic?id=33956",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49765348",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "laya.convaiinnovations.com",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33939",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "news.hada.io/topic?id=33939",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49754785",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "try.cloudflare.com",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33931",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "news.hada.io/topic?id=33931",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49763697",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49763296",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "onionfutures.com",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49763987",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+    "date": "2026-09-20"
   }
 ]
