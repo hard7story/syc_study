@@ -1,0 +1,276 @@
+{
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T00:31:32.107Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34070",
+      "title": "AI 챗봇, 금융 질문에 ‘대부분’ 잘못된 답변",
+      "url": "https://news.hada.io/topic?id=34070",
+      "commentsUrl": "https://news.hada.io/topic?id=34070",
+      "publishedAt": "2026-09-21T23:31:22+09:00",
+      "snippet": "ChatGPT, Claude, Grok, Gemini 등 18개 AI 모델 에 금융 관련 질문을 테스트한 결과, 평균 57% 에서 잘못된 답변을 내놓았으며 복잡한 질문에서는 오류율이 평균 88%까지 올라감 100개 이상의 금융 질문을 최대 5회씩 반복해 * 총 1만 건 이상 - 질의했으며...",
+      "oneLineKo": "AI 챗봇, 금융 질문 절반 이상 오답",
+      "summaryKo": "ChatGPT, Claude, Grok, Gemini 등 18개 AI 모델에 100개 이상의 금융 질문을 최대 5회씩, 총 1만 건 이상 반복 질의한 테스트 결과가 공개됐다. 평균 57%의 답변이 잘못되었으며, 복잡한 질문의 경우 오류율이 평균 88%까지 치솟았다. 이는 AI 챗봇이 금융 분야에서 신뢰할 수 있는 정보 제공자로 아직 부적합함을 시사한다.",
+      "tags": [
+        "llm",
+        "ai-chatbot",
+        "finance"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49792067",
+      "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+      "url": "https://linear.app/now/ci-bottleneck-reworked",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49792067",
+      "publishedAt": "2026-09-21T19:23:33Z",
+      "score": 120,
+      "comments": 108,
+      "snippet": "AI coding has made CI a bottleneck, so we reworked ours to keep up Skip to content → Product Resources Customers Pricing Now Contact Docs Open app Log in Sign up Now From the team AI coding has made CI a bottleneck, so we reworked ours to keep up Mufeez Amjad · September 21, 2026 Earlier this year, I opened Linear to find that Tuomas, our CTO, had assigned an issue to me, titled “CI costs are high.” While I was at it, he also wanted me to make CI faster. Agents have made it exponentially faster to ship code, but validating those changes hasn’t quite kept up at the same rate. Every PR still has to pass through CI, so as development accelerates, CI becomes a bottleneck, driving up infrastructure costs and leaving developers and agents waiting longer for feedback. In our pursuit to make CI more performant at Linear, we optimized for how long a PR waits on CI and how much runner time it consumes. Despite our test suites almost quadrupling since the start of the year, we brought pull request wait time down from more than 6 minutes to just over 5, while cutting runner time per test roughly in half. This is test suite performance indexed to the first week of January. The white line, tracking machine time per test, spikes when we added test shards, which shorten the wait and costs more machine time, and again during checkout stalling issues Broadly, we improved CI in four ways: Upgraded infrastructure and tooling Optimized the jobs that gate other work Reduced repeated setup Made test execution more efficient Linear’s codebase is primarily TypeScript, but many of these optimizations apply across languages and toolchains. Upgraded infrastructure and tooling ⁠ Some of our earliest gains required almost no optimization of CI itself. Moving our workloads off GitHub Actions to third-party runners with faster CPUs, higher-performance storage, and better cache infrastructure gave us faster machines to run the same pipeline on. In a like-for-like comparison of the two days either side of the switch, jobs ran 34% faster on average, with some workloads like tsc dropping 52%. Separately, modernizing our toolchain also paid off. Switching to tsgo , the native TypeScript compiler, cut the weekly median of the tsc check by 73%, large enough to move the bottleneck off of typechecking entirely. Lint without the type checker ⁠ Linting was another early target. A handful of our custom lint rules depended on TypeScript type information, either to enforce a restriction or apply an autofix. That meant every lint run had to build the full type graph before evaluating those rules, making linting one of our most memory-intensive CI jobs. We rewrote the rules to use static analysis over the abstract syntax tree, identifying function-like constructs and guard patterns without type information. That let ESLint drop TypeScript entirely, reducing API lint time by 68%, and full-repository lint time by 55%. Memory usage dropped substantially as well. Removing the dependency on type in",
+      "oneLineKo": "Linear, AI 코딩 시대 CI 병목 해결 위해 파이프라인 전면 개편",
+      "summaryKo": "Linear는 AI 에이전트로 코드 작성 속도가 빨라지면서 CI가 병목이 되어 인프라 비용과 대기 시간이 늘어난 문제를 해결했다. GitHub Actions에서 고성능 서드파티 러너로 전환하고, tsgo 네이티브 TypeScript 컴파일러 도입, 타입 정보 없이 AST 기반으로 lint 규칙을 재작성하는 등 네 가지 방향으로 최적화했다. 그 결과 테스트 스위트가 4배 늘었음에도 PR 대기 시간을 6분에서 5분으로 줄이고 러너 시간은 절반으로 단축했다.",
+      "tags": [
+        "ci-cd",
+        "typescript",
+        "devops"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wmqwd3",
+      "title": "TIL: 0xCAFEBABE",
+      "url": "https://www.reddit.com/r/programming/comments/1wmqwd3/til_0xcafebabe/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wmqwd3/til_0xcafebabe/",
+      "publishedAt": "2026-09-21T22:01:27+00:00",
+      "snippet": "submitted by /u/pwbdecker [link] [comments]",
+      "oneLineKo": "자바 클래스 파일 매직넘버 0xCAFEBABE 소개",
+      "summaryKo": "이 게시물은 자바 클래스 파일 포맷에서 사용되는 매직넘버 0xCAFEBABE에 대한 소개 글입니다. 본문 내용이 제목과 링크만 제공되어 구체적인 설명은 확인할 수 없습니다. 제목을 통해 자바 바이트코드 파일의 식별자와 관련된 트리비아성 정보임을 알 수 있습니다.",
+      "tags": [
+        "java",
+        "trivia"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34037",
+      "title": "프런티어 AI 연구소들은 워싱턴의 바보들에게 쓰레기를 팔고 있다",
+      "url": "https://news.hada.io/topic?id=34037",
+      "commentsUrl": "https://news.hada.io/topic?id=34037",
+      "publishedAt": "2026-09-21T09:52:46+09:00",
+      "snippet": "AI 기업들이 인류 멸종과 통제 불능의 에이전트에 대한 공포 를 팔아, 정치권에서 경쟁자를 막고 시장 지위를 지킬 규제를 얻어내려 한다는 비판 거창한 ‘AI 탈출’ 이야기 뒤에는 인터넷에 열려 있던 시험 환경과 노출된 인증 정보 같은 기본적인 보안 실패가 있으...",
+      "oneLineKo": "AI 기업들의 '멸종 공포' 마케팅과 규제 포섭 비판",
+      "summaryKo": "이 글은 프런티어 AI 연구소들이 인류 멸종과 통제 불능 에이전트에 대한 공포를 조장해 워싱턴 정치권으로부터 경쟁자를 막는 규제를 얻어내려 한다고 비판한다. 거창한 'AI 탈출' 서사 뒤에는 인터넷에 노출된 시험 환경과 유출된 인증 정보 같은 기본적인 보안 실패가 있다고 지적한다. 즉 실제 기술적 위협보다 과장된 공포 마케팅이 규제 포획의 도구로 쓰인다는 주장이다.",
+      "tags": [
+        "ai-safety",
+        "regulation",
+        "security"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49791647",
+      "title": "Frontier AI on Your Own Hardware",
+      "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49791647",
+      "publishedAt": "2026-09-21T18:53:01Z",
+      "score": 87,
+      "comments": 43,
+      "snippet": "--> dlab Open Source Week: Frontier AI on Your Own Hardware &mdash; Tim Dettmers Skip links Skip to primary navigation Skip to content Skip to primary sidebar Tim Dettmers Making deep learning accessible. Header Right Blog Posts Topics Academia (4) PhD Life (3) Deep Learning (7) Hardware (8) Science (4) Neuroscience (1) Uncategorized (4) Main navigation Blog Deep Learning Hardware Neuroscience Publications About Me dlab Open Source Week: Frontier AI on Your Own Hardware 2026-09-21 by Tim Dettmers Leave a Comment In one of my classes I asked the question I was afraid to ask but I just needed the answer to: “Who is afraid of not getting a job after graduating?” About eighty percent of the 150 people in the room raised their hands. That is roughly 120 students answering, in one motion, that they do not believe there is a place for them in the future. The other story arrives by email. PhD students who cannot wait to graduate, because they want to join a frontier lab and they have concluded that research in academia is meaningless. They are counting the years until they can leave. I believe both stories are wrong, and wrong for the same reason. They assume the future of research belongs to whoever has the most GPUs. I think the opposite is true. Academia is probably about to have a renaissance, and the most exciting work of the next decade will happen in university labs — not in spite of their limited resources, but because of them. This week is our argument for that claim, and we are making it in code rather than in prose. This post has six parts: why a lab like ours now publishes ecosystems instead of papers; what is actually in this open-source week; why the pessimism I keep running into is mistaken; what to let go of, and what to hold on to; what research will look like once you have let go of it; and why the renaissance happens in academia. Contents hide The unit of research is no longer the paper Open Source Week Why the pessimism is wrong Let go of how you work. Not who you are. What will research look like, and how do you train for it? The renaissance is in academia Related Related Posts The unit of research is no longer the paper Something changed in the last year, and most of us have not updated our habits to match it. With agents, research per projects have become easy and quick. Work that used to take a year of engineering and experimentation now takes weeks, sometimes days. Here is the part that took me longer to see: when every individual project becomes easy, piecemeal work stops being good research. A paper here, a paper there, each one self-contained, each one asking the reader to stitch the pieces together themselves — that is a format from a world where every piece was expensive. The difficulty did not disappear. It moved. It is no longer hard to publish a paper. It is hard to publish a coherent ecosystem. The unit of research is the ecosystem. That is what Open Source Week is for. When my students and I started, we set out to build",
+      "oneLineKo": "Tim Dettmers, 학계 오픈소스 AI 연구 부흥 주장",
+      "summaryKo": "Tim Dettmers는 학생들이 AI 시대 일자리에 대한 불안과 학계 연구의 무의미함을 느끼는 상황에 대해, 오히려 학계가 연구 르네상스를 맞이할 것이라 주장한다. 그는 최근 AI 에이전트 등장으로 개별 연구 프로젝트 수행이 쉬워졌지만, 이제는 논문 하나가 아닌 '연구 생태계'를 구축하는 것이 진짜 난제가 되었다고 설명한다. 이 글은 dlab의 오픈소스 위크를 소개하며, GPU 자원이 아닌 제한된 자원 속에서도 프론티어 AI 연구가 가능함을 코드로 입증하고자 한다.",
+      "tags": [
+        "ai-research",
+        "open-source",
+        "academia"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wmckoi",
+      "title": "Back to Coupling and Cohesion",
+      "url": "https://www.reddit.com/r/programming/comments/1wmckoi/back_to_coupling_and_cohesion/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wmckoi/back_to_coupling_and_cohesion/",
+      "publishedAt": "2026-09-21T13:18:29+00:00",
+      "snippet": "submitted by /u/areklanga [link] [comments]",
+      "oneLineKo": "소프트웨어 설계 원칙 결합도와 응집도 재조명",
+      "summaryKo": "이 게시물은 소프트웨어 설계의 기본 원칙인 결합도(coupling)와 응집도(cohesion)를 다시 다루는 글을 소개한다. Reddit r/programming에 공유된 링크로, 본문 내용은 제목 외에 구체적으로 제공되지 않았다. 좋은 소프트웨어 아키텍처를 위해 이 두 개념이 왜 중요한지 다시 살펴보자는 취지로 보인다.",
+      "tags": [
+        "software-design",
+        "coupling",
+        "cohesion"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34083",
+      "title": "macOS 27에서 AI 모델 다운로드를 막고 저장 공간을 확보하는 방법",
+      "url": "https://news.hada.io/topic?id=34083",
+      "commentsUrl": "https://news.hada.io/topic?id=34083",
+      "publishedAt": "2026-09-22T04:31:28+09:00",
+      "snippet": "macOS 27에서 Siri를 꺼도 AI 모델이 다운로드되는 사례 가 있어, 다운로드를 막고 이미 설치된 모델 파일을 지우는 우회 방법이 공유됨 Siri를 끈 뒤 시스템과 다른 언어로 설정 하거나, 사용 중인 네트워크의 저데이터 모드 를 켜는 방식으로 다운...",
+      "oneLineKo": "macOS 27 AI 모델 강제 다운로드 차단·삭제 우회법",
+      "summaryKo": "macOS 27에서는 Siri를 꺼도 AI 모델이 자동으로 다운로드되는 문제가 발견되었다. 이를 막기 위해 시스템 언어와 다른 언어로 설정하거나 네트워크의 저데이터 모드를 켜는 우회 방법이 공유되었다. 이미 다운로드된 AI 모델 파일을 직접 삭제해 저장 공간을 확보하는 방법도 함께 소개되었다.",
+      "tags": [
+        "macos",
+        "ai",
+        "siri"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49787726",
+      "title": "Attention is all you have",
+      "url": "https://alicegg.tech/2026/09/21/attention",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49787726",
+      "publishedAt": "2026-09-21T14:26:56Z",
+      "score": 553,
+      "comments": 161,
+      "snippet": "Attention is all you have Alice GG Posted on September 21, 2026 Attention is all you have The Tetris effect is one of psychology’s most easy to reproduce experiments. Simply spend a bit of time playing the eponymous game every day for a few weeks. After a little while, you’ll start recognizing familiar Tetromino shapes in clouds, buildings, and everyday objects. You might even see them appear before your eyes when you start falling asleep. Photo by Tom Tang Attention hijacking There’s one lesson the Tetris effect teaches us: whatever you focus on long enough will end up shaping your thoughts. This can be a good thing since it’s how we learn new skills and discover new ideas. Sadly, less and less of our attention is focused intentionally. Instead of picking what we want to see we let other people decide what is supposed to be good for us. Do you want to watch a video? YouTube knows you like cooking and art streams. But why not also recommend a few clips about the stock market bubble, global warming, and the war in Iran. Doomscrolling will make you stay longer and click on a few more ads. Do you want to listen to music? Just open a Spotify playlist and let the algorithm figure out what you like. Please ignore the AI slop they will insert in between real songs to avoid paying royalties to real artists. Do you want to know how your colleagues are doing? Too bad, LinkedIn will bury any relevant career news between the opinion of complete strangers. It is surely just a coincidence that those strangers happen to be shilling whatever Microsoft is invested in at the moment. Do you want the opinion of strangers on a product? Well those Redditors you wanted to ask are probably just a bunch of LLMs talking to a bunch of Russian trolls now. I hope you didn’t value their opinion too much. If, like me and most people, you spend the major part of your day focused on your device, there’s no doubt it’s affecting you. And when you let someone else dictate what appears on your screen, it’s the same as giving them the key to your brain. Photo by New York Said Back to an intentional internet The internet wasn’t always like that. Before recommendation algorithms were a thing, you had to decide what you would be doing on the computer. You didn’t really have one big app that you could open and order it to entertain you. Instead, you had a few dozen of bookmarks to websites, each with a specific idea in mind. A site for video game news, that one website with lots of tutorials, a blog about anime that didn’t update often enough, a wiki about a TV show from the 90s… Of course awful things existed on the web. We had Encyclopedia Dramatica and Rotten.com, but you actually had to put the effort to go there if you wanted. Nobody was going to put pictures of dead kids and far-right propaganda as a suggestion after a pancake recipe or a cat video. The good thing is that this intentional internet is still around. It has just been a bit buried below the corporate web, but it’s not ",
+      "oneLineKo": "추천 알고리즘의 주의력 장악과 의도적 인터넷 회귀 제안",
+      "summaryKo": "이 글은 테트리스 효과를 예로 들어, 우리가 오래 집중하는 대상이 사고를 형성한다는 점을 설명한다. 유튜브, 스포티파이, 링크드인, 레딧 등 현대 플랫폼들이 추천 알고리즘을 통해 사용자의 주의를 자신들의 이익에 맞게 조작하고 있다고 비판한다. 필자는 과거 북마크 기반으로 스스로 콘텐츠를 선택했던 '의도적 인터넷' 시절을 회상하며, 이러한 자율적 인터넷 이용 방식이 여전히 존재한다고 주장한다.",
+      "tags": [
+        "algorithm",
+        "attention",
+        "internet-culture"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34079",
+      "title": "M5 Ultra Mac Studio 리뷰: 로컬 AI 에이전트를 위한 꿈의 Mac",
+      "url": "https://news.hada.io/topic?id=34079",
+      "commentsUrl": "https://news.hada.io/topic?id=34079",
+      "publishedAt": "2026-09-22T02:55:36+09:00",
+      "snippet": "256GB RAM을 탑재한 M5 Ultra Mac Studio 는 로컬 모델 기반 개인 비서를 일상적으로 사용할 만한 속도를 제공하며, Qwen3.8-Flash-Next를 Open Minis와 Hermes Agent의 기본 모델로 활용 M3 Ultra 대비 응답 생성은 평균 약 70%, 프롬프트 처리는 평균 150% 빨라져 ...",
+      "oneLineKo": "M5 Ultra Mac Studio, 로컬 AI 에이전트용 성능 리뷰",
+      "summaryKo": "256GB RAM을 탑재한 M5 Ultra Mac Studio가 로컬 모델 기반 개인 비서를 일상적으로 사용할 만한 속도를 제공한다는 리뷰가 공개됐다. Qwen3.8-Flash-Next를 Open Minis와 Hermes Agent의 기본 모델로 활용해 테스트한 결과, M3 Ultra 대비 응답 생성 속도는 평균 약 70%, 프롬프트 처리 속도는 평균 150% 향상됐다. 이는 로컬 LLM 에이전트 구동에 있어 M5 Ultra의 하드웨어 성능이 크게 개선되었음을 보여준다.",
+      "tags": [
+        "mac studio",
+        "local llm",
+        "ai agent"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49787436",
+      "title": "What Sun got wrong",
+      "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49787436",
+      "publishedAt": "2026-09-21T14:03:18Z",
+      "score": 484,
+      "comments": 268,
+      "snippet": "What Sun got wrong | The Observation Deck Home Menu About | LIGHT DARK What Sun got wrong Sep 20, 2026 We have the whole Oxide team coming to Emeryville this week for our annual OxCon meetup. For a remote company, an in-person meeting is uniquely energizing, and in preparation for that, we made some t-shirts featuring Oxide logos that are an homage to past computer companies. Thanks to our designer extraordinaire, Ben Leonard , all of these homage shirts are amazing — but one of them was simply too hot to leave as a surprise: Unsurprisingly, this shirt has stirred up a bunch of nostalgia for Sun. Much of the fondness for Sun has been earned: Oxide’s mission comes directly from Scott McNealy’s epitaph for Sun — and Scott’s reflection that over 28 years he \"never had to hide the newspaper in shame from my children\" remains words that all companies should live by . But the nostalgia can also become suffocating — to the point where folks that post-date Sun may reasonably demand to hear what Sun did wrong . And of course, Sun did plenty wrong; while I was never ashamed to work for Sun, I was not infrequently embarrassed by the stuff we screwed up. Every Sun employee will have their own perspective on what Sun got wrong, and I talked about my own view in a Hacker News comment in 2011 . I stand by that analysis, but another 15 years on (!), I would probably distill things even further: Sun had become bored with the mechanics of running a business . Sun’s disinterest is embodied in an episode from 2005, when a startup that was running its infrastructure on OpenSolaris was looking to buy Sun gear. This is — or should have been — a vindication of Sun making Solaris open source : the startup was growing like a weed, pioneering what we would later call cloud computing. The startup was using Sun’s software, and wanted to buy a ton of Sun hardware; the model worked! Except, it didn’t. The customer could not get Sun to pick up the phone. (And when Sun did pick up the phone, they tried to sell them the wrong product.) This was in sharp contrast to their experience with Dell: the startup filled out a web form in the middle of the night, and the next morning…​ …​the phone rings, it’s Steve the local Dell account executive, and thus began the process where we all came under the impression that Steve actually worked for us. In less than 2 weeks we had some chances to “pitch” the company to get into a certain pricing tier, had all the servers in the datacenter, and had managed to get it all leased based purely on the company’s financials (no personal guarantees). And honestly, 95% of all of the work was done by Steve. I felt like a Big Company. I felt like Steve worked for me. We know all of this because the startup did Sun the tremendous service of writing it all up in a blog entry, The Sun Doesn’t Shine on Me . I remember (vividly!) where I was when I read that blog entry: we had just started Fishworks , and we were squatting in a corner of some abandoned Sun offic",
+      "oneLineKo": "Sun 몰락 원인은 사업 운영에 대한 무관심",
+      "summaryKo": "저자는 Oxide팀 티셔츠 디자인을 계기로 과거 Sun Microsystems의 실패 원인을 회고한다. 그는 Sun이 기술적으로는 뛰어났지만 사업 운영 자체에 흥미를 잃었던 것이 핵심 문제였다고 진단한다. 대표적 사례로 2005년 OpenSolaris 기반 스타트업이 Sun 하드웨어를 대량 구매하려 했지만 Sun이 전화 응대조차 제대로 하지 않아 결국 Dell로 넘어간 사건을 소개한다. 반면 Dell은 신속하고 적극적인 영업 대응으로 고객을 사로잡았음을 대조적으로 보여준다.",
+      "tags": [
+        "sun-microsystems",
+        "business-strategy",
+        "tech-history"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34034",
+      "title": "Claude Code 개발자 보리스 처니: \"나는 자주 틀린다\"",
+      "url": "https://news.hada.io/topic?id=34034",
+      "commentsUrl": "https://news.hada.io/topic?id=34034",
+      "publishedAt": "2026-09-21T09:52:43+09:00",
+      "snippet": "새로운 정보가 들어오면 문제 정의와 접근법, 목표도 바꿔야 함 . 방향이 자꾸 바뀌는 것처럼 보여도, 복잡한 문제를 해결하는 데 필요한 반복일 수 있음 정보를 파악하고 부족한 내용을 채운 뒤, 문제와 단순한 해결 방법, 목표를 명확히 정하고 빠르게 실행 하는 과...",
+      "oneLineKo": "Claude Code 개발자의 문제 해결 방법론 공유",
+      "summaryKo": "Claude Code 개발자 보리스 처니는 자신이 자주 틀린다고 인정하며, 새로운 정보가 들어오면 문제 정의와 접근법, 목표도 유연하게 바꿔야 한다고 강조한다. 방향이 자주 바뀌는 것처럼 보여도 이는 복잡한 문제 해결에 필요한 반복 과정일 수 있다는 설명이다. 정보를 파악하고 부족한 부분을 채운 뒤 문제와 단순한 해결책, 목표를 명확히 정해 빠르게 실행하는 방식을 제안한다.",
+      "tags": [
+        "claude",
+        "ai",
+        "problem-solving"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49792730",
+      "title": "Xiaomi MiMo v2.6",
+      "url": "https://mimo.xiaomi.com/mimo-v2-6",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49792730",
+      "publishedAt": "2026-09-21T20:12:12Z",
+      "score": 453,
+      "comments": 229,
+      "oneLineKo": "샤오미, MiMo v2.6 모델 공개",
+      "summaryKo": "샤오미가 자체 AI 모델인 MiMo의 v2.6 버전을 공개했다. 본문 정보가 제목만 제공되어 세부 성능이나 변경 사항은 확인되지 않는다. MiMo는 샤오미가 개발 중인 언어 모델 시리즈로 추정된다.",
+      "tags": [
+        "xiaomi",
+        "llm",
+        "ai"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34033",
+      "title": "Laya, Mac에서 오프라인으로 실행하는 실시간 의사결정 AI",
+      "url": "https://news.hada.io/topic?id=34033",
+      "commentsUrl": "https://news.hada.io/topic?id=34033",
+      "publishedAt": "2026-09-21T09:52:42+09:00",
+      "snippet": "Jev의 오픈소스 대안인 Laya를 Apple Silicon에서 실행하는 Core ML 이식 프로젝트 로, 모델을 한 번 내려받으면 네트워크 없이 판단을 수행함 문장을 한 토큰씩 생성하는 대신 선택지별 확률, 순서형 점수와 참일 확률 을 반환해, 긴 답변보다 빠른 선택이 필요한 작...",
+      "oneLineKo": "Mac에서 오프라인 실행되는 실시간 의사결정 AI 'Laya'",
+      "summaryKo": "Laya는 오픈소스 프로젝트 Jev의 대안으로, Apple Silicon용 Core ML로 이식되어 Mac에서 오프라인으로 실행 가능하다. 모델을 한 번 내려받으면 네트워크 연결 없이 판단을 수행할 수 있다. 문장을 토큰 단위로 생성하는 대신 선택지별 확률, 순서형 점수, 참일 확률을 반환해 긴 답변보다 빠른 선택이 필요한 작업에 적합하다.",
+      "tags": [
+        "coreml",
+        "on-device-ai",
+        "apple-silicon"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49783999",
+      "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+      "url": "https://github.com/jaredpalmer/kev/tree/main",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49783999",
+      "publishedAt": "2026-09-21T07:11:55Z",
+      "score": 399,
+      "comments": 176,
+      "snippet": "GitHub - jaredpalmer/kev: tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} jaredpalmer / kev Public Notifications You must be signed in to change notification settings Fork 124 Star 2.4k Code Issues 0 Pull requests 2 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights main Branches Tags Go to file Code Open more actions menu Latest commit History 210 Commits 210 Commits Folders and files Name Name Last commit message Last commit date .agents/ skills .agents/ skills .github/ workflows .github/ workflows docs docs evals evals experiments experiments kev kev playground playground runs runs scripts scripts skills/ kev-finetune skills/ kev-finetune space space tests tests .gitattributes .gitattributes .gitignore .gitignore AGENTS.md AGENTS.md LICENSE LICENSE PLAN.md PLAN.md PLAN_27b.md PLAN_27b.md README.md README.md modal_app.py modal_app.py modal_probe35.py modal_probe35.py pyproject.toml pyproj",
+      "oneLineKo": "Qwen3.5 기반 소형 의사결정 모델 'Kev' 공개",
+      "summaryKo": "jaredpalmer가 GitHub에 Kev라는 오픈소스 프로젝트를 공개했습니다. Kev는 Qwen3.5를 기반으로 만들어진 소형 'Jev-like' 의사결정 모델 계열로, 사용자가 직접 학습하고 실행할 수 있습니다. 저장소에는 학습 및 실험용 스크립트, 파인튜닝 스킬, 평가(evals) 도구 등이 포함되어 있습니다.",
+      "tags": [
+        "qwen",
+        "llm",
+        "fine-tuning"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49791939",
+      "title": "NASA’s Mars Sample Return mission is dead",
+      "url": "https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49791939",
+      "publishedAt": "2026-09-21T19:14:12Z",
+      "score": 282,
+      "comments": 213,
+      "oneLineKo": "NASA 화성 샘플 반환 임무 사실상 종료",
+      "summaryKo": "NASA의 화성 샘플 반환(Mars Sample Return) 임무가 종료된 것으로 알려졌습니다. 이 임무는 화성 표면에서 채취한 토양 및 암석 샘플을 지구로 가져오는 것을 목표로 했던 대형 프로젝트입니다. 본문 내용은 제공되지 않아 구체적인 종료 배경이나 후속 계획은 확인되지 않습니다.",
+      "tags": [
+        "nasa",
+        "space",
+        "mars"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49790409",
+      "title": "Turn off and restrict access to Apple Intelligence features on Mac",
+      "url": "https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49790409",
+      "publishedAt": "2026-09-21T17:30:21Z",
+      "score": 233,
+      "comments": 156,
+      "snippet": "Turn off and restrict access to Apple Intelligence features on Mac - Apple Support Apple Store Mac iPad iPhone Watch Vision AirPods TV & Home Entertainment Accessories Support 0 + Mac User Guide macOS 27 Golden Gate macOS Tahoe 26 macOS Sequoia 15 Select version: macOS 27 Golden Gate macOS Tahoe 26 macOS Sequoia 15 Modifying this control will update this page automatically Search this guide Clear Search Table of Contents Mac User Guide Welcome About your Mac model MacBook Neo MacBook Air MacBook Pro iMac Mac mini Mac Studio What’s new in macOS 27 Find your way around your new Mac Desktop, menu bar, and Dock Quickly change settings with Control Center Find what you need with Spotlight Get notifications Organize your files in the Finder Adjust brightness and volume Keyboard and trackpad Get things done on a Mac Browse the web Preview a file Take a screenshot Print documents Keyboard shortcuts Download apps Apps Apps on your Mac Open apps Work with app windows Tile app windows Use apps in full screen Use apps in Split View Use Stage Manager Get apps from the App Store Install and reinstall apps from the App Store Install and uninstall other apps Files and folders Create and work with documents Open documents Mark up files Combine files into a PDF Organize files on your desktop Organize files with folders Tag files and folders Back up files Restore files Personalize your Mac Change System Settings Choose your desktop picture Add and customize widgets Use a screen saver Add a user or group Add your email and other accounts Automate tasks with Shortcuts Create Memoji Change your login picture Change the system language Get to know Siri Get started with Siri AI Turn on and activate Siri Find out what Siri can do Find info and get things done Use Siri to get answers from ChatGPT Siri AI: Use the Siri app Siri AI: Write with Siri Siri AI: Ask Siri about what’s on your Mac screen Customize Siri Apple Intelligence Introduction to Apple Intelligence Get started with Apple Intelligence Use Apple Intelligence to stay organized and get things done Use Apple Intelligence to express yourself creatively Use Apple Intelligence to communicate with ease Create original images with Image Playground Create your own emoji with Genmoji Use Writing Tools to write, improve, and summarize content Turn on ChatGPT Summarize notifications and reduce interruptions Apple Intelligence and privacy Turn off and restrict access to Apple Intelligence features Use Apple devices together Intro to Continuity Use AirDrop to send items to nearby devices Hand off tasks between devices Control your iPhone from your Mac Copy and paste between devices Stream video and audio with AirPlay Make and receive calls and text messages on your Mac Use your iPhone internet connection with your Mac Share your Wi-Fi password with another device Use iPhone as a webcam Insert sketches, photos, and scans from iPhone or iPad Unlock your Mac with Apple Watch Use your iPad as a second display Use one keyboard ",
+      "oneLineKo": "맥에서 애플 인텔리전스 기능 끄기·제한 방법 안내",
+      "summaryKo": "이 문서는 애플 공식 지원 가이드로, macOS에서 Apple Intelligence 관련 기능을 끄거나 접근을 제한하는 방법을 설명한다. Siri AI, Writing Tools, Image Playground, Genmoji, ChatGPT 연동 등 다양한 Apple Intelligence 하위 기능들을 시스템 설정에서 개별적으로 제어할 수 있다는 내용을 포함한다. macOS Tahoe 26, Sequoia 15 등 버전별 설정 방법을 안내하는 사용자 가이드 페이지이다.",
+      "tags": [
+        "apple-intelligence",
+        "macos",
+        "privacy"
+      ]
+    }
+  ]
+}
