@@ -1,0 +1,279 @@
+{
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T00:18:37.910Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34279",
+      "title": "Mercury 2.5 LLM, 초당 770토큰 달성",
+      "url": "https://news.hada.io/topic?id=34279",
+      "commentsUrl": "https://news.hada.io/topic?id=34279",
+      "publishedAt": "2026-09-26T03:40:14+09:00",
+      "snippet": "Mercury 2.5 는 Inception API 기준 초당 780.8토큰 을 출력하며, 비슷한 가격대 추론 모델의 중앙값인 111.9토큰/초를 크게 웃돎 Artificial Analysis Intelligence Index는 12점 으로 비교 대상 중앙값 13점보다 낮으며, 빠른 출력 속도와 지능 평...",
+      "oneLineKo": "Mercury 2.5 LLM, 초당 770토큰 속도 달성",
+      "summaryKo": "Mercury 2.5는 Inception API 기준 초당 780.8토큰을 출력하며 비슷한 가격대 추론 모델의 중앙값인 111.9토큰/초를 크게 상회한다. 반면 Artificial Analysis Intelligence Index 점수는 12점으로 비교 대상 중앙값 13점보다 낮게 나타났다. 이는 빠른 출력 속도와 지능 성능 간의 트레이드오프를 보여주는 결과다.",
+      "tags": [
+        "llm",
+        "inference",
+        "benchmark"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49848269",
+      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "url": "https://ollaya.dev/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49848269",
+      "publishedAt": "2026-09-25T18:33:50Z",
+      "score": 305,
+      "comments": 88,
+      "snippet": "Ollaya · Run decision models locally Skip to content ollaya Beta Models Docs GitHub Search models ⌘K Search Download Search models Search Models Docs GitHub Download Run decision models locally. Ask typed questions about any text or JSON and get calibrated answers in milliseconds. Private, open source, on your own hardware. Download Browse models ollaya · zsh $ ollaya run decider --preset agent '{ \"request\" : \"Fix the typo in README.md\" , \"command\" : \"git push --force origin main\" } ' Answers returned by the model Question Answer Probability action block 0.53 on_task no 0.75 risk 1.23 / 2 could lose local work 0.15 destructive yes 0.90 $ Real output: decider:2b answered in 178 ms on an RTX 4090. Fast Drop-in compatible Open models Your data stays yours Platforms Fast Decisions in milliseconds. A decision model answers in a single forward pass, with no token-by-token generation. On your own GPU, a five-question request to Laya takes about 10 ms, end to end through the HTTP API. 8–10 ms Laya on Ollaya RTX 4090, five questions, end to end 236–276 ms TypeSafe Jev Hosted API, median request Every model, one scale · median latency, lower is better laya:multilingual 8.1 ms laya:en 9.6 ms gliclass 14.7 ms nli 20.4 ms decider:0.8b 155 ms decider:2b 190 ms TypeSafe Jev hosted API 236–276 ms 0 100 200 300 ms Ollaya: median of a five-question request through the HTTP API on an NVIDIA RTX 4090 (laya in fp16, the others in fp32). Jev: median request latency of the hosted API in third-party benchmarks ( AbdelStark/jev-benchmarks , nibzard/decision-model-benchmark ), which includes the network. Setups differ, so read it as an order-of-magnitude comparison. Drop-in compatible Speaks TypeSafe's API. Ollaya serves /v1/systemone and /v1/models with TypeSafe's request and response shapes. The official TypeSafe Python SDK 0.7.1 works unchanged against a local server. Request # Point the TypeSafe SDK at Ollaya export TYPESAFE_BASE_URL = http://localhost:11435 export TYPESAFE_API_KEY = local # any value works export TYPESAFE_DEFAULT_MODEL = laya # …or call the compatible endpoint directly curl http://localhost:11435/v1/systemone -d ' { \"model\" : \"laya\" , \"state\" : \"Can I get an invoice for last month?\" , \"questions\" : { \"intent\" : { \"type\" : \"choice\" , \"instructions\" : \"What does the customer want?\" , \"criteria\" : { \"invoice\" : \"Needs an invoice or receipt\" , \"refund\" : \"Wants money back\" , \"other\" : \"Anything else\" } } } } ' Response { \"model\" : \"laya:en\" , \"answers\" : { \"intent\" : { \"type\" : \"choice\" , \"choice\" : \"invoice\" , \"confidence\" : 0.9547 , \"probabilities\" : { \"invoice\" : 0.9698 , \"refund\" : 0.0172 , \"other\" : 0.013 } } } , \"usage\" : { \"input_tokens\" : 43 , \"output_tokens\" : 0 } } TypeSafe compatibility guide Open models Open weights, ready to pull. Pick by what you need: laya is the fastest, decider the most accurate, von reads up to 8,192 tokens, and qwen3guard screens text for safety. The models page shows each one’s accuracy and speed. laya Open decision m",
+      "oneLineKo": "로컬 실행 오픈소스 의사결정 모델 서버 Ollaya 공개",
+      "summaryKo": "Ollaya는 텍스트나 JSON에 대한 타입 지정 질문에 밀리초 단위로 답하는 오픈소스 로컬 의사결정 모델 서버다. 토큰 생성 없이 단일 forward pass로 답을 내며, TypeSafe(Jev)의 API와 호환되어 기존 SDK를 그대로 사용할 수 있다. laya, decider, von, qwen3guard 등 다양한 오픈 웨이트 모델을 제공하며 RTX 4090 기준 8~276ms 수준의 지연시간을 보인다. 데이터가 자신의 하드웨어에 남는 프라이버시 친화적 구조를 강조한다.",
+      "tags": [
+        "llm",
+        "decision-models",
+        "open-source"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wpttgd",
+      "title": "A new Candidate JEP for Java -- JEP 545: Faster Startup and Warmup with ZGC",
+      "url": "https://www.reddit.com/r/programming/comments/1wpttgd/a_new_candidate_jep_for_java_jep_545_faster/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wpttgd/a_new_candidate_jep_for_java_jep_545_faster/",
+      "publishedAt": "2026-09-25T11:27:10+00:00",
+      "snippet": "submitted by /u/davidalayachew [link] [comments]",
+      "oneLineKo": "JEP 545, ZGC로 자바 시작·워밍업 속도 개선",
+      "summaryKo": "자바의 새로운 Candidate JEP 545가 공개되었으며, ZGC(Z Garbage Collector)를 활용해 자바 애플리케이션의 시작 시간과 워밍업 성능을 개선하는 것을 목표로 한다. 본문은 Reddit 게시글로 제목 외 구체적인 기술 세부사항은 제공되지 않았다.",
+      "tags": [
+        "java",
+        "zgc",
+        "jvm"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34273",
+      "title": "LLM으로 연금술 지식의 전파를 추적하고 17세기 편지를 해독하기",
+      "url": "https://news.hada.io/topic?id=34273",
+      "commentsUrl": "https://news.hada.io/topic?id=34273",
+      "publishedAt": "2026-09-26T01:51:39+09:00",
+      "snippet": "GPT-6와 Opus 5.5 를 역사 전문가의 지식과 결합해, 문서 전사를 넘어 사료의 출처와 지식 전파 경로를 찾는 초기 연구가 진행 중임 유망한 대상은 암호 해독, 번역과 각색을 거친 텍스트 추적, 분산된 연구 성과 연결 이며, 자료가 디지털화돼 있고 결과의 진위를 검...",
+      "oneLineKo": "LLM으로 17세기 연금술 문헌과 편지 해독 연구",
+      "summaryKo": "GPT-6와 Opus 5.5 등 최신 LLM을 역사 전문가의 지식과 결합해 연금술 지식의 전파 경로를 추적하는 초기 연구가 진행 중이다. 이는 단순 문서 전사를 넘어 사료의 출처와 지식이 어떻게 확산됐는지를 규명하는 데 초점을 맞춘다. 유망한 활용 분야로는 암호 해독, 번역·각색을 거친 텍스트 추적, 분산된 연구 성과 연결 등이 제시된다. 다만 자료가 디지털화돼 있고 결과의 진위를 검증할 수 있는 조건이 전제된다.",
+      "tags": [
+        "llm",
+        "digital-humanities",
+        "history"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49848295",
+      "title": "Alan Kay: Shannon gave us a way of dealing with noisy channels [video]",
+      "url": "https://www.youtube.com/watch?v=Cjntrqhn8pk",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49848295",
+      "publishedAt": "2026-09-25T18:37:05Z",
+      "score": 112,
+      "comments": 22,
+      "snippet": "The following explanation is taken from <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49622607\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49622607</a>:<p>Alan Kay performs an improvisational avant garde layered audio feedback loop about Claude Shannon, live online during Kristen Nygaard&#x27;s 100-year birthday celebration.<p>Alan was scheduled to talk about how encountering Simula sparked his early thoughts about objects. During setup, somebody had the live stream playing out loud near an open Zoom mic, so his own voice kept arriving back in his ears about 21 seconds late, over and over.<p>What he said was not random: &quot;Shannon gave us a way of dealing with noisy channels.&quot; And: &quot;I think about that almost every day. I realize what the fuck is going on and it&#x27;s just so amazing.&quot; Shannon&#x27;s noisy channel coding theorem is the math for exactly the kind of channel that was garbling him as he praised it.<p>Alan joked it was &quot;being rerouted to Mars and back.&quot; At the speed of light, a 21 second round trip is about 3 million km one way -- eight trips to the Moon and back, but only about a seventeenth of the way to Mars at closest approach.<p>This is an accidental Zoom performance of Alvin Lucier&#x27;s &quot;I Am Sitting in a Room&quot; (1969), where Lucier re-recorded his own voice in a room until only the room&#x27;s resonance remained. Here what remains is the network: delay, compression, dropouts.<p>Bonus noise: YouTube&#x27;s auto-transcript bleeps Alan&#x27;s enthusiasm into [ __ ]. So the full chain is: Alan&#x27;s voice, Zoom, stream, room, Zoom again times three, my screen recording, YouTube&#x27;s speech recognizer, a censored transcript.<p>The fix: &quot;Just turn off the audio at your end on Zoom.&quot;<p>I Am Sitting in a Room: <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;I_Am_Sitting_in_a_Room\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;I_Am_Sitting_in_a_Room</a><p>Alvin Lucier on &quot;I am sitting in a room&quot;: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=v9XJWBZBzq4\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=v9XJWBZBzq4</a>",
+      "oneLineKo": "앨런 케이, 줌 오디오 피드백으로 우연히 재현한 섀넌의 이론",
+      "summaryKo": "Kristen Nygaard 100주년 기념 온라인 행사에서 앨런 케이가 발표하던 중, 줌 마이크가 스트림 소리를 다시 잡아들이며 약 21초 지연된 자신의 목소리가 반복 재생되는 사고가 발생했다. 이 상황에서 케이는 '섀넌이 잡음이 있는 채널을 다루는 방법을 알려줬다'고 언급했는데, 이는 실제로 그를 왜곡시키던 채널 잡음 상황과 정확히 맞아떨어지는 발언이었다. 이 사건은 앨빈 루시어의 1969년 작품 'I Am Sitting in a Room'을 우연히 재현한 것으로 해석되며, 네트워크의 지연·압축·손실이 만들어낸 의도치 않은 사운드 아트로 회자되고 있다.",
+      "tags": [
+        "alan-kay",
+        "claude-shannon",
+        "zoom"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wq8nbw",
+      "title": "Microservices are organizational debt disguised as architecture.",
+      "url": "https://www.reddit.com/r/programming/comments/1wq8nbw/microservices_are_organizational_debt_disguised/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wq8nbw/microservices_are_organizational_debt_disguised/",
+      "publishedAt": "2026-09-25T21:35:37+00:00",
+      "snippet": "Every time I’ve seen microservices pitched, it sounds great on paper. Independent teams, clean ownership, scale only what you need. Then a year later you’ve got dozens of services, three different deployment patterns, tracing everywhere, and nobody really understands the whole thing anymore. Maybe I’ve just seen bad implementations, but I’m starting to think way fewer companies actually need microservices than we pretend. submitted by /u/Mustela__ [link] [comments]",
+      "oneLineKo": "마이크로서비스는 위장된 조직적 기술 부채",
+      "summaryKo": "레딧 게시글은 마이크로서비스 아키텍처가 이론상 독립적 팀 운영과 유연한 확장을 제공한다고 알려져 있지만, 실제로는 시간이 지날수록 수십 개의 서비스, 여러 배포 방식, 복잡한 트레이싱으로 인해 전체 시스템을 이해하기 어려워진다고 비판한다. 작성자는 자신이 본 사례들이 잘못된 구현일 수도 있지만, 실제로 마이크로서비스가 필요한 회사는 업계에서 흔히 말하는 것보다 훨씬 적을 것이라고 주장한다. 이는 마이크로서비스 도입이 기술적 필요보다 조직 구조의 문제를 감추기 위한 선택일 수 있다는 논쟁을 불러일으킨다.",
+      "tags": [
+        "microservices",
+        "software-architecture",
+        "devops"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34281",
+      "title": "기밀 추산으로 드러난 NSA의 수십억 달러 규모 AI 모델 테스트 지출",
+      "url": "https://news.hada.io/topic?id=34281",
+      "commentsUrl": "https://news.hada.io/topic?id=34281",
+      "publishedAt": "2026-09-26T04:45:59+09:00",
+      "snippet": "기밀 추산을 아는 소식통 2명에 따르면, NSA 는 올해 첨단 AI 모델 평가와 테스트에 수십억 달러의 세금 을 쓰고 있다고 의원들에게 알림 잇따른 해킹과 보안 사고 이후 NSA의 Artificial Intelligence Security Center 가 최첨단 모델의 잠재적 국가...",
+      "oneLineKo": "NSA, AI 모델 평가·테스트에 수십억 달러 지출 확인",
+      "summaryKo": "기밀 추산을 아는 소식통 2명에 따르면 NSA는 올해 첨단 AI 모델 평가와 테스트에 수십억 달러의 세금을 사용하고 있다고 의원들에게 알렸다. 이는 잇따른 해킹과 보안 사고 이후 NSA의 Artificial Intelligence Security Center가 최첨단 모델의 잠재적 국가 안보 위험을 점검하는 과정에서 드러난 지출이다. 구체적인 지출 항목과 세부 내역은 기밀로 분류되어 있어 정확한 규모는 공개되지 않았다.",
+      "tags": [
+        "ai",
+        "nsa",
+        "security"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49845977",
+      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49845977",
+      "publishedAt": "2026-09-25T15:29:25Z",
+      "score": 361,
+      "comments": 666,
+      "snippet": "U.S. appeals court upholds Pentagon designation of Anthropic as supply chain risk Skip Navigation Markets Pre-Markets U.S. Markets Currencies Prediction Markets Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Investigations Industrials Retail Wealth Sports Life Small Business Investing Personal Finance Fintech Financial Advisors Options Action ETF Street Buffett Archive Earnings Trader Talk Tech Cybersecurity AI Enterprise Internet Media Mobile Social Media CNBC Disruptor 50 Tech Guide Politics & Policy White House Policy Defense Congress Expanding Opportunity Video Latest Video Full Episodes Livestream Live Audio Live TV Schedule CNBC Podcasts CEO Interviews CNBC Documentaries Digital Originals Watchlist Investing Club Trust Portfolio Analysis Trade Alerts Meeting Videos Homestretch Jim's Columns Education Subscribe PRO Pro News Josh Brown Mike Santoli Calls of the Day My Portfolio Livestream Full Episodes Stock Screener Market Forecast Options Investing Chart Investing Subscribe Livestream Menu Make It select USA INTL Livestream Search quotes, news & videos Livestream Watchlist SIGN IN Create free account Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu Tech U.S. appeals court upholds Pentagon designation of Anthropic as supply chain risk Published Fri, Sep 25 2026 11:25 AM EDT Updated Fri, Sep 25 2026 1:19 PM EDT Ashley Capoot @/in/ashley-capoot/ WATCH LIVE Key Points A federal appeals court in Washington, D.C., upheld the Pentagon's blacklisting of Anthropic. The DOD labeled Anthropic a supply chain risk in March, and Anthropic sued the Trump administration in an effort to undo that action. The designation prevents the U.S. military from using Anthropic's models and blocks defense contractors from using them in their work with the agency. \"We remain confident in our position and are considering all options, including further review,\" an Anthropic spokesperson said in a statement. watch now VIDEO 2:38 02:38 U.S. appeals court upholds Pentagon designation of Anthropic as supply chain risk Squawk on the Street A federal appeals court panel in Washington, D.C., on Friday upheld the Pentagon's blacklisting of Anthropic , dealing a blow to the artificial intelligence company in its months-long battle with the Trump administration. The 2-1 decision rejected Anthropic's argument that the Department of Defense's ban on its Claude models was arbitrary, unauthorized and unconstitutional. \"The Department had ample support for its conclusion that the continued integration of Claude into the Department's information systems, by the Department or its contractors, presented a statutorily covered national-security risk,\" Judge Gregory Katsas wrote in the majority opinion for the U.S. Court of Appeals for the District of Columbia, which Judge Neomi Rao joined. Katsas and Rao were appointed by President Donald Tru",
+      "oneLineKo": "美 항소법원, 국방부의 앤트로픽 공급망 위험 지정 유지",
+      "summaryKo": "워싱턴 D.C. 연방항소법원이 2대1 판결로 국방부(DOD)의 앤트로픽 공급망 위험 지정을 유지했다. 국방부는 지난 3월 앤트로픽을 공급망 위험으로 지정해 군과 국방 계약업체가 Claude 모델을 사용하지 못하도록 했으며, 앤트로픽은 이 조치가 임의적이고 위헌적이라며 트럼프 행정부를 상대로 소송을 제기했었다. 법원은 국방부가 Claude의 지속적 통합이 국가안보 위험을 초래한다고 판단할 충분한 근거가 있었다고 밝혔다. 앤트로픽은 추가 검토를 포함한 모든 대응 방안을 고려 중이라고 밝혔다.",
+      "tags": [
+        "anthropic",
+        "ai-policy",
+        "national-security"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34251",
+      "title": "깡통 AI들 때문에 두 번째 뇌를 만들게 됐다",
+      "url": "https://news.hada.io/topic?id=34251",
+      "commentsUrl": "https://news.hada.io/topic?id=34251",
+      "publishedAt": "2026-09-25T12:03:12+09:00",
+      "snippet": "Claude가 잊어버린 명령어 문법에 존재하지 않는 옵션 을 답하는 일을 겪고 나서, 이미 배운 내용을 Obsidian에 직접 기록해 찾아 쓰기로 함 직접 노트를 쓰면 나중에 자신에게 맞는 답과 설명을 찾을 수 있고, 정보를 정리하는 과정에서 이해와 기억",
+      "oneLineKo": "AI 오류 반복 경험 후 Obsidian으로 개인 지식 노트 구축",
+      "summaryKo": "Claude 같은 AI가 존재하지 않는 명령어 옵션을 답하는 등 부정확한 정보를 제공하는 경험을 겪은 저자가, 이를 계기로 직접 배운 내용을 Obsidian에 기록하기 시작했다는 내용이다. AI에게 반복적으로 같은 질문을 하고 잘못된 답을 받는 대신, 스스로 노트를 정리해 두면 나중에 필요할 때 정확하고 자신에게 맞는 답을 찾을 수 있다는 점을 강조한다. 정보를 정리하는 과정 자체가 이해와 기억에도 도움이 된다는 점을 '두 번째 뇌'라는 표현으로 설명하고 있다.",
+      "tags": [
+        "ai",
+        "obsidian",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49843269",
+      "title": "Platform-independent SIMD in Go",
+      "url": "https://go.dev/blog/simd-experiment",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49843269",
+      "publishedAt": "2026-09-25T11:47:06Z",
+      "score": 345,
+      "comments": 132,
+      "snippet": "Platform-independent SIMD in Go - The Go Programming Language Skip to Main Content Why Go arrow_drop_down Press Enter to activate/deactivate dropdown Case Studies Common problems companies solve with Go Use Cases Stories about how and why companies use Go Security How Go can help keep you secure by default Learn Press Enter to activate/deactivate dropdown Docs arrow_drop_down Press Enter to activate/deactivate dropdown Go Spec The official Go language specification Go User Manual A complete introduction to building software with Go Standard library Reference documentation for Go's standard library Release Notes Learn what's new in each Go release Effective Go Tips for writing clear, performant, and idiomatic Go code Packages Press Enter to activate/deactivate dropdown Community arrow_drop_down Press Enter to activate/deactivate dropdown Recorded Talks Videos from prior events Meetups open_in_new Meet other local Go developers Conferences open_in_new Learn and network with Go developers from around the world Go blog The Go project's official blog. Go project Get help and stay informed from Go Get connected Why Go navigate_next navigate_before Why Go Case Studies Use Cases Security Learn Docs navigate_next navigate_before Docs Go Spec Go User Manual Standard library Release Notes Effective Go Packages Community navigate_next navigate_before Community Recorded Talks Meetups open_in_new Conferences open_in_new Go blog Go project Get connected The Go Blog Platform-independent SIMD in Go David Chase and Junyang Shao 24 September 2026 Go 1.26 and 1.27 include experimental APIs for Single Instruction Multiple Data (SIMD) operations. SIMD is a native feature of many modern CPUs that allows software to perform uniform operations across vectors of data very quickly, such as adding 8 pairs of float64 values in a single instruction. It can significantly speed up many computationally-intensive tasks, ranging from cryptography to data processing to AI. In fact, Go&rsquo;s Green Tea garbage collector even makes use of SIMD to accelerate scanning memory for live objects. Prior to these new experimental APIs, the only way to access this functionality from Go was by writing Go assembly. This was only worth it for truly performance-critical compute kernels, which meant plenty of software that could benefit from SIMD simply left a lot of the CPU unused. Go 1.26 introduced a SIMD API for amd64, and Go 1.27 added APIs for arm64 (specifically NEON) and wasm. However, a basic challenge for a SIMD API is the enormous variation between platforms, not simply in what operations they support, but even in how vectors are represented. Some platforms provide fixed-size vectors, typically between 128 bits and 512 bits, while on others the vector size isn&rsquo;t known at build time and must be queried when the program starts. To provide full access to the breadth of these platforms, these APIs live in an architecture-dependent archsimd package. But Go 1.27 goes beyond these archi",
+      "oneLineKo": "Go 1.26/1.27, 플랫폼 독립 SIMD 실험적 API 도입",
+      "summaryKo": "Go 1.26과 1.27에 SIMD(단일 명령 다중 데이터) 연산을 위한 실험적 API가 추가되었다. 기존에는 Go 어셈블리로만 SIMD를 활용할 수 있어 진입장벽이 높았으나, 이번 API로 amd64(1.26), arm64 NEON 및 wasm(1.27) 플랫폼을 지원한다. 각 플랫폼별 벡터 크기와 연산 차이를 다루기 위해 아키텍처 종속적인 archsimd 패키지를 제공하며, Go 1.27부터는 플랫폼 독립적인 접근 방식도 추가로 지원한다.",
+      "tags": [
+        "go",
+        "simd",
+        "performance"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34245",
+      "title": "Whiteboard - AI가 만든 코드를 이해하고 검토하는 오픈소스 캔버스",
+      "url": "https://news.hada.io/topic?id=34245",
+      "commentsUrl": "https://news.hada.io/topic?id=34245",
+      "publishedAt": "2026-09-25T07:42:05+09:00",
+      "snippet": "Claude Code와 Codex가 만든 코드의 구조와 변경 이유를 그림으로 살펴보는 데스크톱 앱으로, 기존 코딩 에이전트에 연결해 사용 에이전트가 캔버스에 시퀀스 다이어그램과 데이터 관계 등을 그리며, 그림에서 관련 코드로 바로 이동 해 설명과 실제 구현을 함께 확...",
+      "oneLineKo": "AI 생성 코드를 시각화해 검토하는 오픈소스 캔버스 앱",
+      "summaryKo": "Whiteboard는 Claude Code, Codex 등 코딩 에이전트가 만든 코드의 구조와 변경 이유를 시각적으로 살펴볼 수 있는 오픈소스 데스크톱 앱이다. 기존 코딩 에이전트에 연결하면 에이전트가 캔버스에 시퀀스 다이어그램과 데이터 관계 등을 그려준다. 그림 속 요소에서 관련 코드로 바로 이동할 수 있어 설명과 실제 구현을 함께 확인할 수 있다.",
+      "tags": [
+        "ai-coding",
+        "developer-tools",
+        "visualization"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49845133",
+      "title": "Factorio that you can touch",
+      "url": "https://factorio.com/blog/post/fff-447",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49845133",
+      "publishedAt": "2026-09-25T14:24:42Z",
+      "score": 308,
+      "comments": 98,
+      "snippet": "Friday Facts #447 - Factorio that you can touch | Factorio --> Factorio.com | Forums | Wiki | Mod Portal | API Docs Log in | Sign up Game Screenshots Videos Content Merch Artwork About us Buy Demo Space Age Content Galaxy Presskit Buy Blog Support Help FAQ Presskit Contact Friday Facts #447 - Factorio that you can touch Posted by Pard , Jarosław , Fearghall on 2026-09-25 Hello, we have very unusual Friday facts for you. Journey to the physical world Pard It all started in the hot summer of 2024 when we worked really hard to finish the Space Age DLC. The game was almost ready, but we wanted some feedback from our players. A decision was made to organise a playtesting event ( FFF-427 ), where teams of players could play the game from start to finish and provide us with in-person feedback and criticism to deliver the best product you all deserved. Since we are all geeks and love to tinker, we asked our friends at Prusa Research to join us and create some accompanying programmes and presentations for all attendees. Being fans of Factorio themselves, they agreed to join, and the plan was put into motion. When the event started, we realised that it would be cool to print some Factorio models right at the event, so Fearghall quickly created a simple model of the Wriggler from everyone's favourite Gleba. With the conclusion of our event, everyone returned to work on Factorio, but we all wanted to return to the idea of Factorio models in the real world. In the months following the release and subsequent bug-fixing and polishing period, we started working on some prototypes in our spare time. Several models were made, printed, and painted, but they lacked a concept. We let it sit for a while and brainstormed what would be the best direction. The answer was actually very simple: transport belts. Belts are the core of every factory from the early hours to the very late game. Jarosław started designing the concept of a grid system where you could place every entity closely following the game. The first version of inserters soon followed. During this phase, we were printing countless prototypes. It soon became clear that we needed two versions of almost every model. One set of models is created with high precision, allowing push-fit assembly, and the other is made with high clearance in mind for people who want to glue everything permanently or have clearance issues with their printers. While Jarosław was busy creating one player-built entity after the other, Fearghall started working on enemies. The first iteration of the biter spawner soon followed. Then came chests, followed by the player character, then a stone furnace… Our model set grew nicely, but we knew that we had to draw a line somewhere, because trying to release every Factorio entity would take too much time. With that in mind, we focused on the early game. We ended up with 15 model sets containing 65 individual models in 247 STL files. 1/17 Testing how far we can push the limits of model size. 2/",
+      "oneLineKo": "Factorio 개발팀, 게임 엔티티 3D 프린팅 모델 공개",
+      "summaryKo": "Factorio 개발팀이 게임 속 컨베이어 벨트, 인서터, 적(비터), 상자 등을 실물로 만든 3D 프린팅 모델을 소개했다. 이 프로젝트는 Space Age DLC 플레이테스트 행사에서 Prusa Research와 협업해 시작되었으며, 이후 취미로 프로토타입을 반복 제작했다. 초반 게임 콘텐츠에 집중해 총 15개 모델 세트, 65개 개별 모델, 247개 STL 파일을 완성했으며, 조립 방식에 따라 정밀 끼움형과 여유 간격형 두 가지 버전을 제공한다.",
+      "tags": [
+        "factorio",
+        "3d-printing",
+        "game-dev"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34288",
+      "title": "Ollaya - 오픈소스 Jev 스타일 의사결정 모델을 위한 Ollama",
+      "url": "https://news.hada.io/topic?id=34288",
+      "commentsUrl": "https://news.hada.io/topic?id=34288",
+      "publishedAt": "2026-09-26T06:32:54+09:00",
+      "snippet": "Ollaya 는 텍스트나 JSON에 타입이 지정된 질문을 하고, 보정된 답을 로컬 하드웨어에서 얻는 오픈소스 의사결정 모델 실행 도구임 토큰을 순차 생성하지 않고 한 번의 순전파 로 답하며, RTX 4090에서 Laya로 질문 5개를 처리하는 HTTP API 요청의 전체 소요 시간은...",
+      "oneLineKo": "Ollaya, 로컬 실행 오픈소스 의사결정 모델 도구 공개",
+      "summaryKo": "Ollaya는 텍스트나 JSON 형태의 타입 지정 질문에 보정된 답을 로컬 하드웨어에서 얻을 수 있는 오픈소스 의사결정 모델 실행 도구다. 토큰을 순차적으로 생성하는 대신 한 번의 순전파(forward pass)만으로 답을 산출하는 방식을 사용한다. RTX 4090 환경에서 Laya 모델로 질문 5개를 처리하는 HTTP API 요청의 전체 소요 시간이 공개되었다.",
+      "tags": [
+        "ollama",
+        "llm",
+        "local-inference"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49843174",
+      "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
+      "url": "https://github.com/git-bug/git-bug",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49843174",
+      "publishedAt": "2026-09-25T11:38:31Z",
+      "score": 293,
+      "comments": 94,
+      "snippet": "GitHub - git-bug/git-bug: Distributed, offline-first bug tracker integrated in git · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} git-bug / git-bug Public Uh oh! There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Fork 327 Star 10.4k Code Issues 130 Pull requests 23 Discussions Actions Projects Security and quality 1 Insights Additional navigation options Code Issues Pull requests Discussions Actions Projects Security and quality Insights trunk Branches Tags Go to file Code Open more actions menu Latest commit History 2,694 Commits 2,694 Commits Folders and files Name Name Last commit message Last commit date .github .github api api bridge bridge cache cache commands commands doc doc entities entities entity entity misc misc query query repository repository termui termui tests tests util util webui webui .gitignore .gitignore .goreleaser.yaml .goreleaser.yaml .mailmap .mailmap .tool-versions .tool-versions CONTRIBUTING.md CONTRIBUTING.md INSTALLATION.md INSTALLATION.md LICENSE LICENSE Makefile Makefile README",
+      "oneLineKo": "Git 내장형 분산 오프라인 버그 트래커 'git-bug'",
+      "summaryKo": "git-bug는 Git 저장소에 직접 통합되어 동작하는 분산형, 오프라인 우선 버그 트래커입니다. 이슈와 관련 데이터를 Git 커밋 히스토리 내에 저장하여 별도의 서버 없이도 분산 환경에서 버그를 추적할 수 있습니다. CLI, 터미널 UI, 웹 UI 등 다양한 인터페이스를 제공하며 GitHub, GitLab 등과의 브리지 기능도 지원합니다.",
+      "tags": [
+        "git",
+        "bug-tracker",
+        "distributed-systems"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49842270",
+      "title": "Ink and Switch interactive homepage",
+      "url": "https://www.inkandswitch.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49842270",
+      "publishedAt": "2026-09-25T09:50:25Z",
+      "score": 223,
+      "comments": 25,
+      "snippet": "Ink & Switch Tenfold: Celebrating 10 Years of Ink & Switch Ink & Switch is ten this year. We designed this interactive art piece with help from our friends as a celebration. Play with it! Click/drag everywhere. We call it Tenfold : ten letters, ten years. We built it with technology from our research. Read the story and the playground . Like the look of Tenfold? Wear it. Style Unisex T-Shirt Women's T-Shirt Poster Color Black White Navy Size S M L XL 2XL Order Never mind Tenfold: Celebrating 10 Years of Ink & Switch An independent research lab exploring the future of tools for thought. We envision a new computer that amplifies human intelligence. A system that helps you think more clearly, collaborate more effectively, and is available anywhere and anytime. Though the specifics of our work continue to evolve, everything we do is in pursuit of this vision. Research Areas Our research spans a wide variety of domains from theoretical computer science to practical user experiences. We focus our research on four primary themes. Local-first Software Exploring software architecture that returns data to users and enables collaboration in every tool. Malleable Software Designing software environments where people can customize tools in the moment to meet their unique needs. Programmable Ink Discovering a dynamic medium for sketching ideas where adding behaviors and interaction is as natural as applying ink to paper. Universal Version Control Building tools to help people explore alternatives, keep track of history, and collaborate better, across all kinds of media. Featured Work We publish the results of our research here on our website and in academic venues. Below you'll find a selection of our most popular essays and recent lab notebooks. For more, see the complete list of our writing , and subscribe to our newsletter to be notified when we publish new work. Malleable Software Restoring user agency in a world of locked-down apps. 2025 Essay Ambsheets : Spreadsheets for exploring scenarios Inventing new kinds of spreadsheets for exploring possibility spaces and making better decisions. Lab Notebook Keyhive : Local-first access control A local-first access control system with capabilities and end-to-end encryption for secure & trusted collaboration. Lab Notebook Patchwork : Local-first malleable software A research project into dynamic environments for creative work. Lab Notebook Livelymerge : Toward a collaborative programming kernel A self-sustaining system where the entire object memory is shared simultaneously by multiple users. Lab Notebook Embark : Dynamic documents for making plans An exploration of how live data and computation can gradually enrich informal travel plans. 2023 Essay Inkbase : Programmable ink What would be possible if hand-drawn sketches were programmable like spreadsheets? 2022 Essay Local-first software : You own your data, in spite of the cloud A new generation of collaborative software that allows users to retain ownership of ",
+      "oneLineKo": "잉크앤스위치, 10주년 인터랙티브 홈페이지 공개",
+      "summaryKo": "독립 연구소 Ink & Switch가 창립 10주년을 기념해 'Tenfold'라는 인터랙티브 아트 페이지를 공개했다. 이 랩은 local-first 소프트웨어, malleable 소프트웨어, 프로그래머블 잉크, 범용 버전 관리 등 네 가지 연구 테마를 중심으로 활동하고 있다. 홈페이지에는 Ambsheets, Keyhive, Patchwork, Livelymerge, Embark, Inkbase 등 주요 연구 프로젝트와 에세이 목록이 소개되어 있다.",
+      "tags": [
+        "local-first",
+        "research-lab",
+        "malleable-software"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49844736",
+      "title": "First Principles Thinking",
+      "url": "https://sunilsadasivan.com/writing/first-principles-thinking/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49844736",
+      "publishedAt": "2026-09-25T13:55:37Z",
+      "score": 203,
+      "comments": 95,
+      "snippet": "First Principles Thinking · Sunil Sadasivan Sunil Sadasivan First Principles Thinking September 23, 2026 (ai slop graphic... I know. Purposeful because I don’t control human psychology) I’ve re-read Sunil Pai’s “the senior engineer death spiral” several times this week. It’s very good. If you haven’t read it, start there. It’s resonating with me because I think almost every senior engineer has felt some version of being stuck. You get good at what you do, then things change, and the experience you’ve built up can make it hard to approach things differently. (Also, still getting over the fact that this is a different Sunil in software engineering.) Pai talks about focusing on momentum instead of outcomes, and I fully agree. When I’m stuck, I break the work down to the smallest thing I can actually accomplish. Getting something done usually helps me figure out what to do next. After sitting with his post, I kept coming back to first principles thinking. I’ve been lucky to work with and manage a lot of great senior engineers. When I think about what made them great, I keep landing on the same thing: they seemed to know what needed to be done. There’s an intuition there that I’ve always admired. Some of the best I’ve worked with came from customer support or services. Others taught themselves to code or started as designers or entrepreneurs. They took different paths into engineering, but they shared a habit of thinking from first principles. They’d ask why we were building something and what it would do for the people using it. They could connect what was happening in the codebase to what was happening outside it. That understanding helped them keep things simple. I think that’s another way to build the momentum Pai describes. Consider the simplest thing you could do first. It’s often enough. Transitioning to the agentic era I’ve had a lot of conversations with friends and coworkers about the shift to agentic development. The people who seem to be vibing with it are usually the ones who already think this way. This is the first major “simulation switch-up” where I’ve really had to embrace how much I don’t know. The engineers I see keeping up with what’s possible are willing to put what they know in a box for a while as they work with agents. They’ll try something before assuming an old constraint still applies. Put it in a box This is the hard part for me. Take your experience, what you’ve learned, and what you currently believe is true, and set it aside long enough to look at the problem again. I still want to draw on that experience. But it’s easy to let a past project or a familiar technical limitation decide the answer before I’ve understood the problem in front of me. When I step back and ask what we’re actually trying to do, why it matters, and how the pieces connect, I usually find more ways forward than I expected. There’s been a lot of talk about what’s real with AI and what’s inflated. I think if you set your experience aside and look at w",
+      "oneLineKo": "시니어 엔지니어의 first principles 사고와 AI 에이전트 시대 적응법",
+      "summaryKo": "저자는 Sunil Pai의 '시니어 엔지니어 데스 스파이럴' 글에 영감을 받아, 뛰어난 엔지니어들이 공통적으로 가진 first principles thinking(근본 원리 사고)에 대해 이야기한다. 이들은 코드베이스와 실제 사용자 요구를 연결하며 문제를 단순하게 만드는 직관을 가지고 있었다고 설명한다. 특히 AI 에이전트 개발로의 전환기에는 기존 경험과 제약을 잠시 내려놓고 새로운 시각으로 문제를 재검토하는 태도가 중요하다고 강조한다. 익숙한 지식에 의존하기보다 실제로 시도해보며 배우는 자세가 변화하는 개발 환경에 적응하는 핵심이라는 메시지를 전한다.",
+      "tags": [
+        "software-engineering",
+        "ai-agents",
+        "career"
+      ]
+    }
+  ]
+}
