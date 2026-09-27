@@ -1,0 +1,276 @@
+{
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T00:03:16.488Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34336",
+      "title": "LLM 시대에도 프로그래밍을 계속 즐기는 법",
+      "url": "https://news.hada.io/topic?id=34336",
+      "commentsUrl": "https://news.hada.io/topic?id=34336",
+      "publishedAt": "2026-09-27T06:40:53+09:00",
+      "snippet": "코딩은 사람이 맡고 , LLM에는 계획 정리, 조사, 검토 등 주변 작업을 맡기는 방식으로 프로그래밍의 즐거움과 적당한 생산성 향상을 함께 추구할 수 있음 코드베이스에 대한 이해와 주도권 을 유지하려면 직접 코드를 계속 작성해야 함. 모든 구현을 에이전트에 넘기...",
+      "oneLineKo": "LLM 시대, 코딩은 직접 하며 즐거움 유지하는 법",
+      "summaryKo": "이 글은 LLM 시대에도 프로그래밍의 즐거움을 유지하는 방법을 제안한다. 핵심 코딩 작업은 사람이 직접 수행하고, LLM에는 계획 정리, 조사, 검토 등 주변 작업을 맡기는 방식을 권장한다. 모든 구현을 에이전트에 넘기면 코드베이스에 대한 이해와 주도권을 잃을 수 있으므로, 직접 코드를 계속 작성하는 것이 중요하다고 강조한다. 이를 통해 적당한 생산성 향상과 프로그래밍의 재미를 동시에 추구할 수 있다고 설명한다.",
+      "tags": [
+        "llm",
+        "programming",
+        "productivity"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49836579",
+      "title": "How I changed teaching after AI managed to do all my homework assignments",
+      "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49836579",
+      "publishedAt": "2026-09-24T20:51:50Z",
+      "score": 116,
+      "comments": 115,
+      "oneLineKo": "AI가 과제 다 풀자 교육 방식 바꾼 사례",
+      "summaryKo": "AI가 자신이 낸 모든 과제를 풀어낼 수 있다는 것을 확인한 저자가 이를 계기로 교육 방식을 변경했다는 내용의 글입니다. 제목만 제공되어 구체적인 변경 방식이나 세부 내용은 알 수 없습니다.",
+      "tags": [
+        "ai",
+        "education"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wqvxt6",
+      "title": "On programming, statistics, and Java",
+      "url": "https://www.reddit.com/r/programming/comments/1wqvxt6/on_programming_statistics_and_java/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wqvxt6/on_programming_statistics_and_java/",
+      "publishedAt": "2026-09-26T17:14:07+00:00",
+      "snippet": "submitted by /u/Mihai4544 [link] [comments]",
+      "oneLineKo": "프로그래밍, 통계, 자바에 대한 소고",
+      "summaryKo": "이 게시물은 Reddit r/programming에 공유된 글로, 프로그래밍과 통계, 자바(Java)에 관한 주제를 다루고 있습니다. 본문 내용이 제한적으로 제공되어 구체적인 세부 내용은 확인하기 어렵습니다. 제목을 통해 자바 언어와 관련된 통계적 또는 프로그래밍적 관점의 논의가 있음을 추측할 수 있습니다.",
+      "tags": [
+        "java",
+        "programming",
+        "statistics"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34327",
+      "title": "비전 모델까지 지원하는 Jev 스타일 LLM 래퍼",
+      "url": "https://news.hada.io/topic?id=34327",
+      "commentsUrl": "https://news.hada.io/topic?id=34327",
+      "publishedAt": "2026-09-27T01:49:52+09:00",
+      "snippet": "일반 LLM을 긴 답변 대신 선택지별 확률과 점수를 반환하는 도구 로 사용하는 Python 함수 score() 를 구현함 질문과 A/B/C 선택지를 주고 답에 해당하는 문자만 생성하게 한 뒤, 토큰별 확률을 읽어 분류 결과, 참일 확률, 단계별 점수를 계산함 ...",
+      "oneLineKo": "비전 모델 지원 추가된 Jev 스타일 LLM 래퍼",
+      "summaryKo": "일반 LLM을 긴 답변 생성 대신 선택지별 확률과 점수를 반환하는 도구로 활용하는 Python 함수 score()를 구현한 내용을 소개한다. 질문과 A/B/C 등 선택지를 제시한 뒤 답에 해당하는 문자만 생성하도록 하고, 그 토큰별 확률을 읽어 분류 결과와 참일 확률, 단계별 점수를 계산하는 방식이다. 이 래퍼는 Jev 스타일을 따르며 비전 모델까지 지원 범위를 확장했다.",
+      "tags": [
+        "llm",
+        "python",
+        "vision-model"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49858513",
+      "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+      "url": "https://github.com/reladraw/reladraw",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49858513",
+      "publishedAt": "2026-09-26T17:10:40Z",
+      "score": 149,
+      "comments": 44,
+      "snippet": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don&#x27;t let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipulate).<p>I wanted to have the benefits of both, where you can define a diagram in a diagram language, but also retain a high degree of control over what the diagram looks like.<p>I also wanted this to work well for humans and agents.<p>On the Github link, there&#x27;s a playground where you can try it out without installation. There&#x27;s also instructions for a simple npm install and for installing a skill you can use with Claude or other agents.",
+      "oneLineKo": "위치 직접 지정 가능한 다이어그램 언어 Reladraw",
+      "summaryKo": "Reladraw는 Mermaid나 Graphviz 같은 자동 배치 다이어그램 언어와 Draw.io 같은 수동 편집 도구의 장점을 결합한 새로운 다이어그램 언어입니다. 다이어그램을 텍스트 언어로 정의하면서도 요소의 위치를 사용자가 직접 세밀하게 제어할 수 있습니다. 사람뿐 아니라 AI 에이전트가 다루기에도 효율적으로 설계되었으며, GitHub에 설치 없이 사용할 수 있는 플레이그라운드와 npm 설치, Claude 등 에이전트용 스킬 설치 방법을 제공합니다.",
+      "tags": [
+        "diagram",
+        "developer-tools",
+        "ai-agent"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wqok1x",
+      "title": "Optimizing a Lock-Free Ring Buffer",
+      "url": "https://www.reddit.com/r/programming/comments/1wqok1x/optimizing_a_lockfree_ring_buffer/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wqok1x/optimizing_a_lockfree_ring_buffer/",
+      "publishedAt": "2026-09-26T11:49:56+00:00",
+      "snippet": "submitted by /u/david-alvarez-rosa [link] [comments]",
+      "oneLineKo": "락프리 링 버퍼 최적화 기법 공유",
+      "summaryKo": "제목만으로 확인 가능한 정보에 따르면, 이 게시물은 락프리(lock-free) 링 버퍼를 최적화하는 방법을 다룬 것으로 보입니다. 본문 내용이 제공되지 않아 구체적인 최적화 기법이나 성능 개선 수치는 알 수 없습니다. Reddit r/programming에 공유된 글입니다.",
+      "tags": [
+        "lock-free",
+        "ring-buffer",
+        "performance"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34341",
+      "title": "DeepSeek Elastic Compute (DSec)",
+      "url": "https://news.hada.io/topic?id=34341",
+      "commentsUrl": "https://news.hada.io/topic?id=34341",
+      "publishedAt": "2026-09-27T08:44:50+09:00",
+      "snippet": "DSec 은 대규모 LLM 에이전트 학습과 평가를 위해 FnCall, 컨테이너, microVM, 전체 VM을 통합 SDK로 제공하는 프로덕션 샌드박스 플랫폼임 에이전트 작업은 샌드박스를 대량으로 동시에 생성하고, CPU가 쉬는 동안에도 상태를 유지하므로 탄력적 배치와 고밀도 자원 관리",
+      "oneLineKo": "LLM 에이전트용 통합 샌드박스 플랫폼 DSec 공개",
+      "summaryKo": "DSec은 대규모 LLM 에이전트의 학습과 평가를 위해 FnCall, 컨테이너, microVM, 전체 VM을 하나의 SDK로 제공하는 프로덕션 샌드박스 플랫폼이다. 에이전트 작업 특성상 많은 샌드박스를 동시에 생성하고 CPU가 유휴 상태여도 상태를 유지해야 하므로, 탄력적 배치와 고밀도 자원 관리가 핵심 요구사항으로 다뤄진다. 이를 통해 다양한 격리 수준의 실행 환경을 통합적으로 관리할 수 있다.",
+      "tags": [
+        "llm",
+        "sandbox",
+        "microvm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49854693",
+      "title": "Fifteen years later, the Apple Cards origin story",
+      "url": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49854693",
+      "publishedAt": "2026-09-26T09:13:41Z",
+      "score": 329,
+      "comments": 84,
+      "snippet": "Fifteen years later, the Apple Cards origin story — Lex on Tech Skip to content Lex on Tech Tech, mostly Apple, from Lex Friedman. Menu Home About Lex Lex&rsquo;s Apps Archive Contact Become a member Login Search Lex on Tech Membership Have a question for Lex? Members get theirs answered right here on the site. Become a member &rarr; Apple Fifteen years later, the Apple Cards origin story 100% cotton paper. 100% crazy. September 25, 2026 In 2011, Apple released the Cards app . The app — which required iOS 5 — let you design custom letterpress cards, with your messages and photos printed upon them — which Apple would ship to your recipient on your behalf. ⤢ I recently learned the origin story of Cards, and that it was specifically a Steve Jobs product. It also wasn’t smooth sailing. But first, some backstory, and inserting myself into the narrative, because it’s my site and I can do what I want here. I wrote about the app several times for Macworld. Apple complained first to me, and later to my editors, that I didn’t go deep on the fact that the cards Apple was offering were printed on 100 percent cotton paper. Apple thought my article should be updated to mention this. My editors and I disagreed. I wasn’t the only person ever to get in trouble with Apple over Cards. ⤢ In 2019, someone wrote me this email: I saw your old review of Apple Cards linked on Twitter, and it brought traumatic flashbacks. I ran the print program for Apple’s production and fulfillment partner in those years. In my decade working with Apple and in fact my 30-year career, this project — code named Speed Racer and dreamed up by Steve Jobs himself — stands unsurpassed as a pinnacle of incompetence, project mismanagement and intercontinental mayhem. I hope to never top it. It is probably best left dead, but if you felt like disinterring it, I’m a witness to the crime… It took me seven years to reply. I don’t know why. Although Apple launched cards in 2011, and it’s now 15 years later, this person — despite his confidence that any non-disclosure agreements have long since expired, his knowledge that the Cards app was sunset long ago, and the fact that the printing companies involved no longer really exist — still asked to remain anonymous, for fear of angering Apple. I get it. I’m going to call this person Mike. The prints of darkness In 2006, Mike was hired at a printing company that already had a relationship with Apple, handling printing for iPhoto, which let you order custom books, calendars, and cards. The company had won that business because it was also, at the time, handling Apple’s in-box production of documentation — quick start guides, instruction manuals, and the like. (Remember those?) For several years, this company worked as the exclusive Apple partner for those print products, after Apple had grown frustrated with a prior photo printing partner. Order volume was massive, Mike told me on a Zoom, especially between Thanksgiving and Christmas when card and calendar ",
+      "oneLineKo": "애플 카드 앱, 스티브 잡스의 숨은 뒷이야기",
+      "summaryKo": "2011년 애플이 출시한 'Cards' 앱은 사용자가 편지지를 디자인해 실제로 인쇄된 카드를 상대방에게 배송해주는 서비스였다. 저자는 15년이 지난 지금, 이 프로젝트가 스티브 잡스가 직접 구상한 'Speed Racer'라는 코드명의 프로젝트였으며 극심한 프로젝트 관리 실패와 혼란을 겪었다는 익명 관계자의 증언을 공개한다. 애플의 인쇄 파트너사 관계자는 이를 자신의 30년 경력 중 최악의 프로젝트로 회고하면서도, 여전히 애플의 반응이 두려워 익명을 요청했다.",
+      "tags": [
+        "apple",
+        "product-history"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34323",
+      "title": "AI 없이 보낸 한 달",
+      "url": "https://news.hada.io/topic?id=34323",
+      "commentsUrl": "https://news.hada.io/topic?id=34323",
+      "publishedAt": "2026-09-27T00:36:43+09:00",
+      "snippet": "업무에서 AI 코딩 에이전트 에 구현과 테스트, 커밋까지 맡기던 개발자가 코드에 대한 통제력을 잃었다고 느껴 사용을 중단하고, 한 달 동안 직접 개발하는 방식으로 돌아옴 여러 에이전트를 병렬로 실행하자 코드 생성은 빨라졌지만, 검토 부담과 문맥 전환 이 쌓여...",
+      "oneLineKo": "AI 코딩 에이전트 끊고 직접 개발한 한 달 경험담",
+      "summaryKo": "업무에서 AI 코딩 에이전트에 구현, 테스트, 커밋까지 맡기던 개발자가 코드에 대한 통제력을 잃었다고 느껴 사용을 중단했다. 여러 에이전트를 병렬로 실행하면 코드 생성 속도는 빨라졌지만, 검토 부담과 문맥 전환 비용이 누적되는 문제를 겪었다. 이에 한 달간 AI 없이 직접 코드를 작성하며 자신의 개발 방식을 재점검했다.",
+      "tags": [
+        "ai-coding-agent",
+        "developer-productivity",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49842764",
+      "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
+      "url": "https://github.com/InfinityLoop1308/PipePipe",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49842764",
+      "publishedAt": "2026-09-25T10:55:40Z",
+      "score": 305,
+      "comments": 162,
+      "snippet": "GitHub - InfinityLoop1308/PipePipe: An open-source Android app to let you browse YouTube and other services freely. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} InfinityLoop1308 / PipePipe Public Uh oh! There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Fork 214 Star 6.3k Code Issues 150 Pull requests 0 Discussions Actions Projects Wiki Security and quality 0 Insights Additional navigation options Code Issues Pull requests Discussions Actions Projects Wiki Security and quality Insights main Branches Tags Go to file Code Open more actions menu Latest commit History 437 Commits 437 Commits Folders and files Name Name Last commit message Last commit date .github .github PipePipe.wiki @ 40f284d PipePipe.wiki @ 40f284d PipePipeClient @ c2a166f PipePipeClient @ c2a166f PipePipeExtractor @ c68e10e PipePipeExtractor @ c68e10e assets assets fastlane fastlane .gitignore .gitignore .gitmodules .gitmodules LICENSE LICENSE README.md README.md TRANSLATION.md TRANSLATION.md release.sh release.sh View all files Repository ",
+      "oneLineKo": "NewPipe 하드포크, SponsorBlock 기능 구현",
+      "summaryKo": "PipePipe는 오픈소스 YouTube 대체 안드로이드 앱인 NewPipe의 하드포크 프로젝트입니다. NewPipe에 없는 SponsorBlock 기능을 구현하여 영상 내 스폰서 구간 등을 자동으로 건너뛸 수 있게 했습니다. GitHub 저장소로 6.3k 스타를 받으며 활발히 유지보수되고 있습니다.",
+      "tags": [
+        "android",
+        "newpipe",
+        "sponsorblock"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34319",
+      "title": "Microsoft, Copilot 개편으로 개인용 AI 챗봇 경쟁에서 철수",
+      "url": "https://news.hada.io/topic?id=34319",
+      "commentsUrl": "https://news.hada.io/topic?id=34319",
+      "publishedAt": "2026-09-26T21:37:12+09:00",
+      "snippet": "소비자용과 업무용 Copilot을 기업 고객 중심의 단일 제품으로 통합 하며, ChatGPT·Gemini·Muse와 경쟁하던 ‘개인 AI 동반자’ 전략에서 물러남 경영진은 사람들이 Microsoft에 원하는 것은 개인적인 동반자가 아니라 일을 끝내도록 돕는 도구 라며, 사무 업무 자동...",
+      "oneLineKo": "Microsoft, Copilot을 기업용 업무도구로 통합·재편",
+      "summaryKo": "Microsoft가 소비자용과 업무용 Copilot을 기업 고객 중심의 단일 제품으로 통합하기로 했습니다. 이는 ChatGPT, Gemini, Muse 등과 경쟁하던 '개인 AI 동반자' 전략에서 철수하는 결정입니다. 경영진은 사용자들이 Microsoft에 기대하는 것은 개인적 동반자가 아니라 업무를 끝내도록 돕는 도구라며 사무 업무 자동화에 집중하겠다는 방향을 밝혔습니다.",
+      "tags": [
+        "copilot",
+        "microsoft",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49854875",
+      "title": "How to keep enjoying programming in a world of LLMs",
+      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49854875",
+      "publishedAt": "2026-09-26T09:41:58Z",
+      "score": 142,
+      "comments": 199,
+      "snippet": "How to keep enjoying programming in a world of LLMs - Uncategorized - Haskell Community = 40rem)\" rel=\"stylesheet\" data-target=\"chat_desktop\" /> = 40rem)\" rel=\"stylesheet\" data-target=\"discourse-events_desktop\" /> = 40rem)\" rel=\"stylesheet\" data-target=\"discourse-reactions_desktop\" /> = 40rem)\" rel=\"stylesheet\" data-target=\"poll_desktop\" /> Haskell Community How to keep enjoying programming in a world of LLMs Uncategorized turion September 18, 2026, 9:56am 1 Are you steering towards AI burnout? Afraid of loosing your job to someone with little programming skills, no aspirations to quality, and a huge Claude account? Disappointed about the code quality in your projects, or worse in “your” own code? This is for you. There are significant and legitimate ethical concerns about frontier LLMs run by big tech companies, these have been discussed at length, I’m aware and agree, this post is not about them. Please don’t mistake me for a pro-LLM techbro. Also: Since people have mistaken my texts for LLM-generated before, I’ll tell you that it is 100% human written without any AI-assistance. Souls in the Great Machine There is a great book of this title by Sean Mcmullen that I enjoyed reading as a teenager, and at the first glance it describes the opposite of our situation: A big computer where the individual components are human, and work together to form a calculating unit. On the other hand, LLMs are themselves running on actual computers and pretending to be (super-)humans. At a second glance, story and reality are not so far apart though: Our role in the process of producing software is being degraded slowly from being actors to cogs in a machine. The spec-driven-dystopia is that we just get handed down some spec, hammer it into the LLM, and weep when our tokens run out because a technofeudal lord decided to hand out fewer of them. As a Haskell programmer, I enjoy writing Haskell . Yes, I like the product we make at work a lot, I like what you can do with my open source libraries, but I really enjoy just the process of expressing my thoughts in this language. I’m assuming this to be true for most of you, and also it not to be true in many other languages, which explains to some amount why enthusiasts of different programming languages have different opinions on how bright or dark the LLM-assisted future is. When I generate code, a lot of that enjoyment is at risk . So, don’t, maybe. I want to keep writing (at least the enjoyable parts of) Haskell programs, and not having to read and review (too much) generated code. At the same time, I want to put those tokens to some good use that doesn’t slowly burn my brain away. I want to show you a way to keep enjoying programming, and at the same time becoming moderately more productive with LLM, instead of appearing to be much more productive and losing all the joy. If you want to just be LLM-abstinent, that’s great as well, and you already know what you’re doing. But there might be reasons you don’t want to be,",
+      "oneLineKo": "LLM 시대에도 프로그래밍의 즐거움을 지키는 법",
+      "summaryKo": "Haskell 커뮤니티에 올라온 글로, LLM으로 인한 번아웃과 코드 품질 저하에 대한 우려를 다룬다. 저자는 프론티어 LLM에 대한 윤리적 문제는 별도로 하고, 프로그래밍 언어를 직접 다루는 즐거움을 유지하면서도 LLM을 적절히 활용해 생산성을 높이는 방법을 제안한다. 특히 Haskell처럼 표현의 즐거움이 큰 언어에서는 코드 생성보다 리뷰 부담이 즐거움을 해칠 수 있다는 점을 지적한다. LLM을 전혀 쓰지 않는 선택도 존중하지만, 그렇지 않은 이들을 위한 균형 잡힌 접근을 제시한다.",
+      "tags": [
+        "haskell",
+        "llm",
+        "developer-experience"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34310",
+      "title": "AI가 거의 모든 코드를 작성하면 소프트웨어 엔지니어링에는 무슨 일이 일어날까?",
+      "url": "https://news.hada.io/topic?id=34310",
+      "commentsUrl": "https://news.hada.io/topic?id=34310",
+      "publishedAt": "2026-09-26T15:03:17+09:00",
+      "snippet": "AI가 대부분의 코드를 생성하는 시대에 소프트웨어 엔지니어링의 역할, 기회, 위험, 그리고 제품 관리와의 관계가 어떻게 바뀔지 살펴봅니다. AI 코딩 에이전트가 빠르게 발전하면서 숙련된 개발자들 사이에서도 \"직접 코드를 거의 작성하지 않는다\"는 사례가 늘고 있음. 글의 핵심은 <stron",
+      "oneLineKo": "AI가 코드 대부분 작성하는 시대, 엔지니어링 역할 변화 전망",
+      "summaryKo": "AI 코딩 에이전트가 빠르게 발전하면서 숙련된 개발자들도 직접 코드를 거의 작성하지 않는 사례가 늘고 있습니다. 이 글은 AI가 코드 생성을 주도하는 시대에 소프트웨어 엔지니어의 역할과 기회, 위험이 어떻게 변화할지 다룹니다. 또한 이러한 변화가 제품 관리(product management)와의 관계에 미치는 영향도 함께 살펴봅니다.",
+      "tags": [
+        "ai",
+        "software-engineering",
+        "coding-agent"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49829202",
+      "title": "Modern Object Pascal Introduction for Programmers",
+      "url": "https://castle-engine.io/modern_pascal",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49829202",
+      "publishedAt": "2026-09-24T11:33:56Z",
+      "score": 138,
+      "comments": 56,
+      "snippet": "Modern Object Pascal Introduction for Programmers | Castle Game Engine Castle Game Engine Download Features News Documentation Tutorial: 3D physics fun Manual Creating Game Data API Reference Why Pascal? Modern Object Pascal Introduction Overview for Unity Developers Scene Graph: X3D nodes Conferences Videos Model Viewer Community Gallery Games Tools Additional Components Assets (3D and 2D Graphics, Sound) Release notes Donate Book a Meeting Modern Object Pascal Introduction for Programmers Table of Contents 1. Why this book 2. Basics 2.1. \"Hello world\" program 2.2. Compilers and FPC \"syntax modes\" 2.3. Functions, procedures, primitive types 2.4. Testing (if) 2.5. Logical, relational and bit-wise operators 2.6. Testing single expression for multiple values (case) 2.7. Enumerated and ordinal types and sets and constant-length arrays 2.8. Loops (for, while, repeat, for .. in) 2.9. Output, logging 2.10. Converting to a string 3. Units 3.1. Overview 3.2. Extensions used for units and programs 3.3. Initialization and finalization 3.4. Units using each other 3.5. Qualifying identifiers with unit name 3.6. Exposing one unit identifiers from another 4. Classes 4.1. Basics 4.2. Inheritance, virtual methods, override, reintroduce 4.3. Classes and class instances, constructors, destructors 4.4. Testing class (is), typecasting (as, TMyClass(X)) 4.5. Properties 4.5.1. Serialization of properties 4.6. Exceptions - Quick Example 4.7. Visibility specifiers 4.8. Default ancestor 4.9. Self 4.10. Calling inherited method 4.11. Virtual methods, override and reintroduce 5. Freeing classes 5.1. Remember to free the class instances 5.2. How to free 5.3. Manual and automatic freeing 5.4. The virtual destructor called Destroy 5.5. Free notification 5.6. Free notification observer (Castle Game Engine) 6. Exceptions 6.1. Overview 6.2. Raising 6.3. Catching 6.4. Finally (doing things regardless of whether an exception occurred) 6.5. How the exceptions are displayed by various libraries 7. Run-time library 7.1. Input/output using streams 7.2. Containers (lists, dictionaries) using generics 7.3. Cloning: TPersistent.Assign 8. Various language features 8.1. Local (nested) routines 8.2. Callbacks (aka events, aka pointers to functions, aka procedural variables) 8.3. Anonymous functions 8.4. Generics 8.5. Overloading 8.6. Preprocessor 8.7. Records 8.8. Variant records and related concepts 8.8.1. Variant records 8.8.2. Variant type 8.8.3. TVarRec in array of const 8.9. Old-style objects 8.10. Pointers 8.11. Operator overloading 9. Advanced classes features 9.1. Private and strict private 9.2. More stuff inside classes and nested classes 9.3. Class methods 9.4. Class references 9.5. Static class methods 9.6. Class properties and variables 9.7. Class helpers 9.8. Should constructors and destructors be virtual? 9.8.1. Destructors 9.8.2. Constructors 9.9. An exception in constructor 10. Interfaces 10.1. Interfaces GUIDs 10.2. Typecasting interfaces 10.3. CORBA and COM types of interf",
+      "oneLineKo": "Castle Game Engine, 모던 Object Pascal 프로그래밍 가이드 공개",
+      "summaryKo": "Castle Game Engine 문서 사이트에 프로그래머를 위한 '모던 Object Pascal 소개' 가이드가 게재되었다. 기본 문법부터 클래스, 예외 처리, 제네릭, 인터페이스 등 언어의 다양한 고급 기능까지 폭넓게 다루는 목차로 구성되어 있다. Free Pascal Compiler(FPC) 기반의 최신 Pascal 문법과 관례를 체계적으로 설명하는 튜토리얼 성격의 문서다.",
+      "tags": [
+        "pascal",
+        "game-engine",
+        "programming-language"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49844663",
+      "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49844663",
+      "publishedAt": "2026-09-25T13:49:06Z",
+      "score": 124,
+      "comments": 350,
+      "snippet": "ASML says it sold 'absolutely nothing' in Europe in 2026 &mdash; lithography giant calls on EU to help create demand | Tom's Hardware Skip to main content Join Tom&rsquo;s Hardware today Upgrade to Tom&rsquo;s Hardware Premium Explore GO PREMIUM Choose how you want to join Tom&rsquo;s Hardware MEMBER Get started with free access to reviews, badges and discussions. Become a member Premium member Unlock exclusive tools and insights for enthusiasts who want more. Bench Database Exclusive Features Roadmaps Deep Analysis Become a premium member Go beyond the headlines with Tom&rsquo;s Hardware Premium Access Bench, Roadmaps, deep analysis and other exclusive tools. Explore PREMIUM Bench Performance Database Dive into our proprietary testing data and compare hardware with detailed benchmarks. Deep-Dive Analysis Go beyond the headlines with expert reporting on the hardware industry. Hardware Roadmaps Track upcoming CPUs, GPUs and tech releases before they arrive. Exclusive Long-Form Features In-depth features, interviews and insider stories from the world of hardware. Uptime Premium Newsletter Expert insights and analysis delivered to your inbox. of Bench Performance Database Dive into our proprietary testing data and compare hardware with detailed benchmarks. 1 of 5 Deep-Dive Analysis Go beyond the headlines with expert reporting on the hardware industry. 2 of 5 Hardware Roadmaps Track upcoming CPUs, GPUs and tech releases before they arrive. 3 of 5 Exclusive Long-Form Features In-depth features, interviews and insider stories from the world of hardware. 4 of 5 Uptime Premium Newsletter Expert insights and analysis delivered to your inbox. 5 of 5 Explore PREMIUM Welcome to Tom's Hardware club ! Hi , Your membership journey starts here. Keep exploring and earning more as a member. MY ACCOUNT Earn your first badge Read 1 article to unlock your first badge. Keep earning badges Explore ways to get more involved as a member. Latest on CPUs News, reviews, and technical insights. Explore GPU Insights Reviews, benchmarks, and updates on current GPUs. Explore See what you&rsquo;ve unlocked. Explore your membership benefits. Explore Unlock Premium Limited-time Premium offer Cancel anytime Explore premium Sign Out Premium Member Hi , Keep exploring with your premium access. Go TO Premium Hub Premium Tools Bench Database Exclusive Features Roadmaps Deep Analysis My Account Sign Out Open menu Tom's Hardware US Edition UK US Australia Canada RSS Sign in View Profile Sign out Search Search Tom's Hardware Best Picks CPU Buying Advice CPU Best Picks CPU Reviews GPU Buying Advice GPU Best Picks GPU Reviews Laptop Buying Advice Laptop Best Picks Laptop Reviews More Buying Advice Keyboard Best Picks Gaming Monitor Best Picks Gaming Headset Best Picks 3D Printer Best Picks Webcam Best Picks Mice Best Picks How We Test CPUs CPU Brands Nvidia RTX Spark AMD Ryzen Intel Core Ultra Qualcomm Snapdragon X Apple Silicon (M-Series) Platforms X86 RISC-V ARM Zen 5 AM5 Oryon Chipmakin",
+      "oneLineKo": "ASML \"2026년 유럽 판매 전무\"…EU에 수요 창출 요청",
+      "summaryKo": "반도체 리소그래피 장비업체 ASML이 2026년 유럽 지역에서 '절대적으로 아무것도' 판매하지 못했다고 밝혔다. 이는 유럽 내 반도체 제조 수요 부족을 보여주는 사례로 언급됐다. ASML은 이에 EU가 자체 반도체 산업 수요를 창출하는 데 도움을 줄 것을 요청했다.",
+      "tags": [
+        "semiconductor",
+        "asml",
+        "eu"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49827900",
+      "title": "The Lost Atomic Update on Loongson CPU",
+      "url": "https://jia.je/hardware/2026/09/24/loongson-cpu-erratum-en/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49827900",
+      "publishedAt": "2026-09-24T08:36:40Z",
+      "score": 105,
+      "comments": 5,
+      "snippet": "One CPU Atomic Instruction, One Packaging Infinite Loop: The Story of the Lost Update on LA664 - 杰哥的{教学，运维，编程，调板子}小笔记 跳转至 杰哥的{教学，运维，编程，调板子}小笔记 One CPU Atomic Instruction, One Packaging Infinite Loop: The Story of the Lost Update on LA664 正在初始化搜索引擎 GitHub 博客 关于 开源 标签 知识库 CPU CTF 系列 项目 工具 订阅 SPEC 归档 分类 杰哥的{教学，运维，编程，调板子}小笔记 GitHub 博客 关于 开源 标签 知识库 CPU CTF 系列 项目 工具 订阅 SPEC 归档 归档 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 2014 分类 分类 crypto csdn ctf devops hardware meta misc networking os others programming software system 回到主页 元数据 2026年9月24日 分类于 hardware 需要 12 分钟阅读时间 目录 TL;DR Origins The First Round of Investigation The Second Round of Investigation Expanding the Scope Specific Conclusions Reproduction and Measurement An Aside: Why AOSC Could No Longer Reproduce It Later Impact Analysis Workarounds The Fix Conclusion Acknowledgements cpu erratum loongarch loongson One CPU Atomic Instruction, One Packaging Infinite Loop: The Story of the Lost Update on LA664 &para; 中文版本 TL;DR &para; In February 2026, Wang Miao ran into something strange while packaging normaliz for Debian on a LoongArch server: the math software's built-in test kept timing out, stuck in an infinite loop that it could not escape. Following the code, the problem pointed to a very ordinary operation: OpenMP's #pragma omp atomic accumulating into a shared variable. The loop's exit condition required the accumulated value to equal a certain number, but the accumulated result was always less than that number, causing the infinite loop. Because the program was large and the code complex, we never managed to reduce it to a minimal example a human could understand, so the matter was shelved. Half a year later, in August, Wang Miao came to me again, wanting to pick it back up. This time we took a different approach: instead of having a human locate the problem, we let AI find a minimal reproduction, with the human directing the AI's investigation. About two days later, we had a stable reproducer, and only then discovered the root cause: the CPU's atomic add instruction occasionally fails to be atomic. This meant we had found a new CPU erratum, and after Loongson learned of it, only two weeks passed before they found a fix with almost no performance loss and provided us with test firmware. We confirmed that the test firmware resolves the issue, and Loongson told us the firmware is expected to be released before National Day (October 1), at which point readers will be able to upgrade their firmware to fix the problem. Now let us tell the whole story from beginning to end. Origins &para; loong13 is a community-maintained port of Debian 13 stable to LoongArch, and Wang Miao is one of its maintainers. During the build and packaging process, normaliz's built-in test was found to get stuck in a loop that it could not exit, causing the packaging to time out. At the time we did not immediately find the root cause, so we had no choice but to skip this package. But since several other packages d",
+      "oneLineKo": "로ongson LA664 CPU 원자적 명령어 결함 발견 및 수정",
+      "summaryKo": "Debian LoongArch 포팅(loong13) 패키징 중 normaliz 테스트가 무한 루프에 빠지는 문제가 발견됐다. AI를 활용한 최소 재현 코드 분석 결과, LA664 CPU의 원자적 add 명령어가 간헐적으로 원자성을 보장하지 못하는 하드웨어 버그(erratum)임이 확인됐다. Loongson 측은 이를 확인한 후 약 2주 만에 성능 손실이 거의 없는 수정 펌웨어를 제공했으며, 국경절(10월 1일) 전에 정식 배포될 예정이다.",
+      "tags": [
+        "loongarch",
+        "cpu-erratum",
+        "debian"
+      ]
+    }
+  ]
+}
