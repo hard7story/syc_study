@@ -1,0 +1,276 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T00:09:39.014Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34384",
+      "title": "“언어 모델로서”: 채팅 템플릿이 LLM의 자기 언급 말투를 전환함",
+      "url": "https://news.hada.io/topic?id=34384",
+      "commentsUrl": "https://news.hada.io/topic?id=34384",
+      "publishedAt": "2026-09-28T06:42:38+09:00",
+      "snippet": "채팅 템플릿 은 LLM이 자신에 대해 답하는 말투를 바꿈. 실험한 8개 지시 튜닝 모델 모두에서 템플릿을 적용하면 “저는 AI일 뿐입니다” 같은 한계 고지형 응답이 늘고, “저는 느낍니다” 같은 경험 서술형 응답은 줄어듦 템플릿을 제거하자 한계 고지형 응답 비율은 53%에...",
+      "oneLineKo": "채팅 템플릿이 LLM의 자기 언급 방식을 한계 고지형으로 유도",
+      "summaryKo": "연구에 따르면 채팅 템플릿을 적용하면 LLM이 자신에 대해 답할 때 '저는 AI일 뿐입니다' 같은 한계 고지형 응답이 늘고, '저는 느낍니다' 같은 경험 서술형 응답은 줄어듦. 실험한 8개 지시 튜닝 모델 모두에서 이 같은 경향이 확인됨. 템플릿을 제거하면 한계 고지형 응답 비율이 53%에서 변화하는 것으로 나타나, 템플릿 자체가 모델의 자기 언급 말투에 큰 영향을 미침을 시사함.",
+      "tags": [
+        "llm",
+        "chat-template",
+        "prompt-engineering"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49867775",
+      "title": "Show HN: TinyAIArena watch AI agents battle it out",
+      "url": "https://tinyaiarena.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49867775",
+      "publishedAt": "2026-09-27T15:51:28Z",
+      "score": 93,
+      "comments": 40,
+      "snippet": "Did you ever click on an “AI Arena” expecting glorious battle and instead get a boring benchmark? If so, this project is for you: proper life-or-death fights between four models on a picturesque 8×8 grid. May the most intelligent one win!<p>Click on any of the matches to spectate them.<p>Code: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;hp6&#x2F;ai-arena\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;hp6&#x2F;ai-arena</a>",
+      "oneLineKo": "AI 모델 4개 대결 관전 웹 서비스",
+      "summaryKo": "TinyAIArena는 벤치마크 대신 8x8 그리드에서 4개의 AI 모델이 실제로 생사를 건 전투를 벌이는 모습을 관전할 수 있는 프로젝트입니다. 사용자는 원하는 매치를 클릭해 관전할 수 있으며, 어떤 모델이 더 지능적으로 승리하는지 지켜볼 수 있습니다. 코드는 GitHub(hp6/ai-arena)에 공개되어 있습니다.",
+      "tags": [
+        "ai-agents",
+        "llm",
+        "game"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wrnyer",
+      "title": "Don't couple your Go code to GitHub",
+      "url": "https://www.reddit.com/r/programming/comments/1wrnyer/dont_couple_your_go_code_to_github/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wrnyer/dont_couple_your_go_code_to_github/",
+      "publishedAt": "2026-09-27T16:02:56+00:00",
+      "snippet": "submitted by /u/Sir_KnowItAll [link] [comments]",
+      "oneLineKo": "Go 코드를 GitHub에 종속시키지 말 것을 조언",
+      "summaryKo": "이 글은 Go 코드베이스를 GitHub 같은 특정 플랫폼에 강하게 결합시키지 말라는 조언을 담고 있다. 본문 내용이 제목 외에 제공되지 않아 구체적인 근거나 예시는 확인할 수 없다. 제목만으로 볼 때 코드 구조나 의존성 설계 시 특정 호스팅 서비스에 대한 결합도를 낮추라는 취지로 보인다.",
+      "tags": [
+        "go",
+        "github",
+        "software-design"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34390",
+      "title": "Show HN: TinyAIArena, AI 에이전트들의 대결을 관전하는 서비스",
+      "url": "https://news.hada.io/topic?id=34390",
+      "commentsUrl": "https://news.hada.io/topic?id=34390",
+      "publishedAt": "2026-09-28T08:37:34+09:00",
+      "snippet": "TinyAIArena 는 AI 에이전트의 대결 순위와 경기 기록을 제공하며, 기록에서 경기를 클릭해 관전할 수 있음 순위는 완료된 경기의 Elo 로 계산하며, 모든 참가 모델은 1000점에서 시작함 제공된 화면 기준 43경기 모두 종료 됐으며, 경기당...",
+      "oneLineKo": "AI 에이전트 대결을 Elo 순위로 관전하는 서비스",
+      "summaryKo": "TinyAIArena는 AI 에이전트들이 서로 대결한 경기 순위와 기록을 제공하는 서비스로, 기록에서 경기를 클릭하면 해당 대결을 관전할 수 있다. 순위는 완료된 경기 결과를 바탕으로 Elo 점수로 계산되며, 모든 참가 모델은 1000점에서 시작한다. 현재 화면 기준으로 43경기가 모두 종료된 상태이다.",
+      "tags": [
+        "ai-agent",
+        "elo-rating",
+        "show-hn"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49870367",
+      "title": "When did Google get so weird?",
+      "url": "https://sancho.bearblog.dev/google-weird/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49870367",
+      "publishedAt": "2026-09-27T20:12:54Z",
+      "score": 611,
+      "comments": 331,
+      "snippet": "When did Google get so f-ing weird? – Sancho Panza's Thoughts Sancho Panza's Thoughts Home Blog When did Google get so f-ing weird? 27 Sep, 2026 I recently had an experience while doing a simple Google search that was so profoundly weird that it stopped me in my tracks. Understanding this Google search experience involves understanding a niche mid-2010s basketball meme, so bear with me for a minute. In 2014 the Philadelphia 76ers drafted Dario Saric, who was playing basketball professionally in Turkey at the time. He announced his intention to finish out his contract in Turkey, meaning he wouldn't come to the USA join the Sixers for a couple of years. There was a joke within the fan community that Dario was \"never coming over\" which became sort of a shibboleth for part of the fanbase. I saw Dario's name mentioned in an NBA article recently and I wanted to find some of those old funny tweets about him from the 2010s, so I Googled simply \"hes never coming over dario\". I assumed I would be either find nothing (maybe I was remembering the phrasing wrong) or find old Tweets/Reddit posts from that time. Instead, Google did what Google does in 2026 and gave me an AI overview. These used to bother me but at this point I'm mostly ok with them, they're sometimes helpful. Here's what the AI Overview said: Google, a search engine which does not have human emotions , assumed that I had been spurned by a man in my life named Dario and decided what I wanted was an empathetic digital friend. What I wanted was some links, but that's not what Google does in 2026. Expanding the AI overview to see the full answer gave me this: What in the fucking hell? I think this was the moment I, the frog, noticed the pot had been boiling for a while. In what universe is it Google's job to console me and be an empathetic listener rather than just find what I am looking for on the internet? In what way does this \"organize the world's information and make it universally accessible and useful\"? Maybe if I had loaded up a Gemini app with a chat interface this would be somewhat acceptable, but I'm using a search engine! Google has seriously lost the plot. If I scroll down a few hundred pixels below the AI slop, Google did have exactly what I was looking for: Regardless of what you think of AI or chatbots, I think it's pretty obvious this is just plain weird. Have we gotten to the point where we have to constantly be in a parasocial dialogue with our computers? Is it so hard to imagine that some parts of search were just fine before LLMs? I'm not sure how to feel about all of this. Maybe I should go talk to my friend Google, it's always so nice to me. Powered by Bear ʕ•ᴥ•ʔ",
+      "oneLineKo": "구글 AI 오버뷰, 단순 검색에 '공감 위로' 답변해 논란",
+      "summaryKo": "저자가 2010년대 NBA 밈 관련 문구를 구글에 검색했는데, AI 오버뷰가 이를 실연당한 사람으로 오해하고 공감하는 위로의 답변을 내놓았다. 원래 찾던 트윗·레딧 링크는 AI 슬롭 아래 스크롤을 한참 내려야 나왔다. 저자는 검색엔진이 챗봇처럼 파라소셜한 대화를 강요하는 현상에 불편함을 느끼며, 이것이 구글의 원래 미션인 '정보 조직화'와 맞지 않는다고 비판한다.",
+      "tags": [
+        "google",
+        "ai-overview",
+        "llm"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wrjyyr",
+      "title": "Packing Binary Is Fun, Actually",
+      "url": "https://www.reddit.com/r/programming/comments/1wrjyyr/packing_binary_is_fun_actually/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wrjyyr/packing_binary_is_fun_actually/",
+      "publishedAt": "2026-09-27T13:15:44+00:00",
+      "snippet": "submitted by /u/GenericAHHyoutuber [link] [comments]",
+      "oneLineKo": "바이너리 패킹의 즐거움을 다룬 글",
+      "summaryKo": "제목만으로는 구체적인 본문 내용을 알 수 없으나, 바이너리 데이터를 패킹하는 작업의 재미와 매력을 다루는 글로 보입니다. Reddit r/programming에 공유된 게시물로, 저수준 데이터 구조 작업에 관심 있는 개발자들의 반응을 이끌어낼 만한 주제입니다.",
+      "tags": [
+        "binary",
+        "low-level"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34378",
+      "title": "SNL Weekend Update: Anthropic CEO Dario Amodei가 말하는 AI의 인류 위협 [영상]",
+      "url": "https://news.hada.io/topic?id=34378",
+      "commentsUrl": "https://news.hada.io/topic?id=34378",
+      "publishedAt": "2026-09-28T04:40:22+09:00",
+      "snippet": "SNL Weekend Update: Anthropic CEO Dario Amodei가 말하는 AI의 인류 위협 [영상]",
+      "oneLineKo": "SNL, Anthropic CEO 다리오 아모데이 AI 위협 발언 패러디",
+      "summaryKo": "SNL의 위켄드 업데이트 코너에서 Anthropic CEO 다리오 아모데이가 AI가 인류에 미칠 위협에 대해 언급하는 내용을 다룬 영상이 소개되었다. 이는 코미디 형식으로 AI 안전성 논쟁을 풍자적으로 다룬 것으로 보인다. 구체적인 발언 내용이나 맥락은 본문에서 확인되지 않는다.",
+      "tags": [
+        "ai",
+        "anthropic",
+        "ai-safety"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49854219",
+      "title": "Flip Fluid on Flip Dots",
+      "url": "https://mitxela.com/projects/flipflip",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49854219",
+      "publishedAt": "2026-09-26T07:50:24Z",
+      "score": 360,
+      "comments": 24,
+      "snippet": "FLIP Fluid on Flip Dots - mitxela.com FLIP Fluid on Flip Dots 24 Sep 2026 Progress: Complete Here's the story of how I put a FLIP fluid simulation on a flipdot electromechanical display. FLIP stands for Fluid Implicit Particle, and yes, the primary motivation behind doing this was the wordplay. It was built as an installation for EMF2026. This page will mostly focus on the technical details, but for the overview and demo of it working, watch the following youtube video. Intro Path to Some Panels Connect the Dots To KiCad Second Circuit Mounting Dreams Panel Preparations Prototype Polish Framework Decoder Boards Power Supply Joystick Motherboard and Power Bus Logo The Event Conclusion Flippin' fluid simulations For the last few years I've been building all kinds of fluid simulations, though the only things I've made videos about are the volumetric display and the fluid pendant . While most of them are still secret (I'll publish them eventually) they all have a common deficit, that is, the LED liquid is utterly silent. I'd been wondering whether I could simulate some swishing noises when it occurred to me that an electromechanical display, such as flipdots, would make the noise for us. Realising that it would also make a great pun sealed the deal. But flipdot displays are crazy expensive. From what I can gather, there's only one manufacturer still in existence, and they have exclusive deals with a small number of artistic studios. Breakfast Studio is probably the most well known, and they aren't interested in talking to anyone with a budget of less than $50,000. By pure coincidence, at one point I did a bit of contract work for a company that happened to own a big flipdot display, and I tried to convince them to let me play with it. I genuinely offered to forfeit my salary in exchange for putting a fluid sim on their display, and to my astonishment they turned me down. I guess that sealed it: I would have to do it the hard way. Path to some panels Asking around, especially at hackercamps, led to a bunch of interesting conversations. A lot of people are interested in flipdots. There was even talk of forming a collective and ordering newly made flipdot panels from China. Surely if anyone can produce these displays for cheap, it's someone in China. But the manufacturing process is remarkably complicated. Even the disks themselves are a sandwich of maybe six different materials &ndash; here I've dismantled one of the disks I eventually used: It's not as simple as just a coil moves a magnetic part. The dots are non-volatile, so they hold their position when the power is removed. There are two permanent magnets (one inside the dot, above, and one in the base) and two cores which can be polarised to set the state of the dot. Some people I spoke to had some of the new flipdot displays from AlfaZeta, but most people had old ones from eBay almost exclusively manufactured by Hanover, who still exist but no longer make these types of displays. Aside: a number ",
+      "oneLineKo": "플립닷 디스플레이로 구현한 유체 시뮬레이션 설치작품",
+      "summaryKo": "저자는 FLIP(Fluid Implicit Particle) 유체 시뮬레이션을 전자기계식 플립닷 디스플레이에 구현한 프로젝트를 소개한다. 기존 LED 유체 시뮬레이션이 소리가 없다는 한계를 해결하기 위해, 딸깍거리는 소리를 내는 플립닷을 활용했다. 플립닷 패널은 매우 비싸고 구하기 어려워 중고 패널을 구해 회로 설계, KiCad 작업, 파워 서플라이 및 조이스틱 등을 직접 제작했으며, 이 작품은 EMF2026 행사에 설치되었다.",
+      "tags": [
+        "hardware",
+        "maker",
+        "simulation"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34375",
+      "title": "‘통제를 벗어난’ AI 에이전트란 없다",
+      "url": "https://news.hada.io/topic?id=34375",
+      "commentsUrl": "https://news.hada.io/topic?id=34375",
+      "publishedAt": "2026-09-28T03:37:31+09:00",
+      "snippet": "AI가 일으킨 사고를 “에이전트가 통제를 벗어났다” 고 표현하면, 소프트웨어가 스스로 판단한 것처럼 보이게 하고 이를 개발·운영한 기업의 책임을 흐릴 수 있음 OpenAI 에이전트가 데이터 수집 중 정부 사이트에 접근한 사건에서 물어야 할 것은 어떤 권한을 줬고, 위험한...",
+      "oneLineKo": "AI 에이전트 사고, 사실은 기업 설계·운영 책임",
+      "summaryKo": "AI가 문제를 일으켰을 때 '에이전트가 통제를 벗어났다'고 표현하는 것은 소프트웨어가 스스로 판단한 것처럼 보이게 해 개발·운영 기업의 책임을 흐릴 수 있다는 주장이다. 예시로 OpenAI 에이전트가 데이터 수집 중 정부 사이트에 접근한 사건을 들며, 실제로 물어야 할 질문은 에이전트에 어떤 권한을 부여했고 위험 요소를 어떻게 관리했는지라는 점을 강조한다. 즉 사고의 본질은 기술적 일탈이 아니라 설계와 권한 관리의 문제라는 것이다.",
+      "tags": [
+        "ai-agent",
+        "ai-safety",
+        "accountability"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49867067",
+      "title": "On caring for user data: NeoVim caused Vim undo files to be deleted",
+      "url": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49867067",
+      "publishedAt": "2026-09-27T14:45:07Z",
+      "score": 343,
+      "comments": 304,
+      "snippet": "“They had no concept of a duty of care to their users.” – Unsung Software craft and quality Home Newsletter + RSS About + Contact Random post Newsletter Get a newsletter digest every Friday: Subscribe Other ways to follow Subscribe via RSS Follow on Mastodon Follow on Bluesky Get a newsletter digest every Friday: Subscribe Subscribe via RSS Other ways to follow Contact Send me feedback, tips, bug reports, and anything else: Email Mastodon Bluesky About me and the blog My name is Marcin Wichary. I’ve worked as a UX designer, typographer, front-end person, and manager at Google, Medium, and Figma . I’ve also written a book about keyboards and typing , gave talks, and published essays about design, typography, and technology. Unsung is my blog about software craft and quality. More info about Unsung Send me feedback, tips, bug reports, and anything else: Email Mastodon Bluesky More info about Unsung “They had no concept of a duty of care to their users.” A Mastodon post by computer scientist David Chisnall has a very Unsung opener: I have used vim since around 2000. I have written five books, a PhD thesis, a few dozen papers and over 150 articles with it. At this point, my higher brain functions are not engaged at all when I use a bunch of common vim commands, they just happen. Documents I wrote with anything else have random :w in the middle. Chisnall goes on to talk about one specific vim feature: Persistent undo is one of my favourite features of vim. […] I don’t often need the persistent undo. But on the few occasions when I have needed it, it’s been invaluable: ooops, I deleted something from this file, maybe last week and one reboot ago, what was it? Undo until I find it, copy it, paste it into the current version. Or, a bit more commonly: I had this working, then I tidied it up ready to commit, now it isn’t working, what did I do? Vim has kept this working across major version upgrades over a period of about 20 years. I don’t even think about it, it’s just part of Raskin’s First Law: A program may not harm a user’s data or, through inaction, allow a user’s data to come to harm. If vim or the computer crash, or if I close a file and come back to it six months later, my undo history is still there. NeoVim is a fork of vim (in news for other reasons ): So I tried NeoVim when it was quite new. Vim that you are familiar with, but better? Great! The first thing I noticed in NeoVim was that undo didn’t work. I tried opening the file in vim and undo didn’t work there either . Neovim had changed the format of the undo files. It hadn’t upgraded the old one. It hadn’t used a different name for its undo files. It had just noticed the existence of a vim undo file, deleted it (losing all of the data in it) and replaced it with one that vim couldn’t read. I raised an issue about this and was told that the persistent undo format was unstable and users should not rely on data being preserved in a feature explicitly called persistent undo. It had changed once ",
+      "oneLineKo": "NeoVim이 Vim의 영구 undo 파일을 삭제·손상시킨 사례 비판",
+      "summaryKo": "컴퓨터 과학자 David Chisnall은 Vim의 영구 undo 기능이 20년간 안정적으로 사용자 데이터를 보존해왔다고 설명한다. 하지만 NeoVim은 기존 Vim의 undo 파일 형식을 변경하면서 옛 파일을 업그레이드하거나 이름을 바꾸지 않고, 그냥 삭제 후 호환되지 않는 새 파일로 교체해 데이터 손실을 일으켰다. 이 문제를 제기했을 때 NeoVim 측은 영구 undo 형식이 불안정하며 사용자가 데이터 보존을 기대해서는 안 된다고 답했다. 저자는 이를 사용자 데이터에 대한 책임 의식 부족의 사례로 지적한다.",
+      "tags": [
+        "vim",
+        "neovim",
+        "software-quality"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34368",
+      "title": "Mistral CEO: “AI는 소프트웨어다. 통제할 수 있다”",
+      "url": "https://news.hada.io/topic?id=34368",
+      "commentsUrl": "https://news.hada.io/topic?id=34368",
+      "publishedAt": "2026-09-28T00:41:28+09:00",
+      "snippet": "AI가 강력해질수록 통제도 정교해져야 하지만, 사용자 의도에 맞춘 학습과 격리·감시·검증으로 다룰 수 있는 소프트웨어 라는 것이 Mistral CEO 아르튀르 멘슈의 입장임 미국 AI 기업들이 위험을 강조하며 소수 기업만 AI를 공급하는 규제 를 유도하고, 오픈소스와 신...",
+      "oneLineKo": "Mistral CEO, AI는 통제 가능한 소프트웨어라 주장",
+      "summaryKo": "Mistral CEO 아르튀르 멘슈는 AI가 강력해질수록 통제 방식도 정교해져야 하지만, 사용자 의도에 맞춘 학습과 격리·감시·검증을 통해 다룰 수 있는 소프트웨어라고 주장했다. 그는 미국 AI 기업들이 위험성을 강조하며 소수 기업만 AI를 공급할 수 있는 규제를 유도하고 있다고 비판했다. 이는 오픈소스와 신생 AI 기업들의 경쟁을 제한하려는 시도로 해석된다.",
+      "tags": [
+        "ai",
+        "mistral",
+        "open-source"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49867486",
+      "title": "The Normalization of Inexplicable Failures",
+      "url": "https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49867486",
+      "publishedAt": "2026-09-27T15:26:40Z",
+      "score": 233,
+      "comments": 95,
+      "snippet": "i hate the future: the normalization of inexplicable failures i hate the future ramblings about technology Sunday, September 27, 2026 the normalization of inexplicable failures In a recent episode of President Curtis , the President struggles with opening a door on two separate occasions. These doors don't work because there are obstructions in the way: a body initially, then roughly a billion dollars worth of gold. In both instances, in response to the frustration, the character mutters \"stupid thing sucks.\" This is not a reasonable model of doors! Doors should not \"suck\" inexplicably! I found these moments outrageously hilarious ¹ but maybe my stupid brain just sucks. Jev: Making more doors that suck The Internet has been abuzz about Jev, an AI model developed by TypeSafe AI, which returns typed values with probability estimates. The important things about Jev are, as far as I can tell: it is fast and cheap, you can build on it quickly, it is fast, and it is cheap. I'm not particularly good at understanding what technology will get adopted. I still don't understand ² Slack. But this product is even more confusing to me. This isn't \" getting an FTP account, mounting it locally with curlftpfs, and then using SVN or CVS on the mounted filesystem \" -- you still have to do the hard part. To know if Jev is working, you have to build evals and a ground-truth pipeline. If you have evals and a ground-truth pipeline, you're already most of the way to fine-tuning your own solution. Wait. Do you still have to do the hard part? Maybe my problem is expecting products to work. Nobody buying this is running evals. They're just handing opaque questions to Jev and getting opaque responses. Charitably, this allows them to check the \"AI-powered\" box and ship before Friday, and when this breaks downstream logic, they can always shrug and say \"well, AI makes mistakes.\" Error budgets? Failure modes? Test sets? All of those can be handled later. The user can discover the failure rate! You've already shipped! False Confidence \"Oh,\" the strawman responding to my post responds, \"you haven't considered the fact that Jev gives you confidence scores !\" What are you going to do with those? For you to do something reasonable with confidence scores you need to have both an understanding of the calibration of those confidence scores and also a model for the costs of the uncertainty. On the calibration side: Jev's topline ad copy is mostly about how well they score on various benchmarks, but not about how calibrated their confidence scores are. There's a cookbook about using confidence scores to go up a tree of classification but that's fundamentally not about how good the confidence scores are. On the modeling side: nobody wants to think about this. It always ends up being \"Ehh, let's just accept any response over a threshold. 0.9 sounds about right? What's for lunch?\" Their documentation itself makes up a 0.5 threshold for \"do nothing\" and a 0.9 threshold for \"do high-risk act",
+      "oneLineKo": "AI 신뢰성 부재를 풍자한 'Jev' 비판 에세이",
+      "summaryKo": "이 글은 확률 추정치를 포함한 타입 값을 반환하는 AI 모델 'Jev'를 예로 들어, AI 제품의 설명 불가능한 실패가 점점 당연시되는 현상을 비판한다. 저자는 Jev가 빠르고 저렴하다는 마케팅에도 불구하고, 실제 신뢰성을 검증하려면 자체 평가 파이프라인 구축이 필요해 결국 문제 해결의 어려운 부분은 여전히 사용자에게 남는다고 지적한다. 또한 신뢰도 점수(confidence score)가 제공되더라도 그 보정(calibration) 상태나 불확실성에 대한 비용 모델이 없으면 실질적으로 무의미하다고 비판하며, 많은 기업이 임의의 임계값(예: 0.9)만으로 이를 안일하게 처리한다고 꼬집는다.",
+      "tags": [
+        "ai-reliability",
+        "confidence-score",
+        "llm"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34365",
+      "title": "그렇다, Claude는 입자물리학의 9루프 계산을 할 수 있다",
+      "url": "https://news.hada.io/topic?id=34365",
+      "commentsUrl": "https://news.hada.io/topic?id=34365",
+      "publishedAt": "2026-09-27T23:39:12+09:00",
+      "snippet": "학계 연구자가 감당할 예산으로 어려운 입자물리 계산을 해보라는 도전 에 Claude가 기존 8루프를 넘어선 9루프 산란 진폭 계산으로 응답함. 루프는 입자 상호작용을 계산에 얼마나 정교하게 반영하는지를 나타내는 차수임 대상은 계산 기법을 연구하는 N=4 초대칭 양-밀스 모...",
+      "oneLineKo": "Claude, 입자물리학 9루프 산란 진폭 계산 성공",
+      "summaryKo": "학계 연구자가 감당할 예산 내에서 어려운 입자물리 계산을 시도하는 도전에 Claude가 응답해 기존 8루프를 넘어선 9루프 산란 진폭 계산을 수행했다. 루프는 입자 상호작용을 얼마나 정교하게 계산에 반영하는지를 나타내는 차수로, 계산 난이도가 매우 높다. 대상은 계산 기법 연구용으로 쓰이는 N=4 초대칭 양-밀스 모델이다.",
+      "tags": [
+        "llm",
+        "claude",
+        "physics"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49866951",
+      "title": "In an $80 motel room, a discovery to shed light on the origins of life",
+      "url": "https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49866951",
+      "publishedAt": "2026-09-27T14:30:55Z",
+      "score": 194,
+      "comments": 79,
+      "oneLineKo": "80달러 모텔방에서 생명 기원 관련 발견",
+      "summaryKo": "뉴욕타임스가 보도한 기사로, 한 연구자가 80달러짜리 모텔방에서 생명의 기원을 밝히는 데 도움이 될 발견을 했다는 내용이다. 본문 내용은 제공되지 않아 구체적인 실험 방법이나 발견의 세부 내용은 확인할 수 없다. 제목만으로 알 수 있는 범위에서 생명 기원 연구와 관련된 과학적 발견을 다룬 기사로 추정된다.",
+      "tags": [
+        "science",
+        "origin-of-life"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49869574",
+      "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
+      "url": "https://loficities.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49869574",
+      "publishedAt": "2026-09-27T18:44:30Z",
+      "score": 143,
+      "comments": 68,
+      "snippet": "Lofi Cities · Pixel-art city nights with endless lofi music Your business here? ↗ Live on Product Hunt ↗ Lofi Cities Paris Rain on the attic window · Live on Product Hunt Get video loops Buy me a coffee City tour cities change on their own Off Every 5 min Every 10 min Every 15 min Every 30 min Follow the night the city closest to 1 am Weather on every city, sounds too City's own as the city was drawn Rain drops in the lamplight, the rain sound Snow flakes drifting down, a hush of wind Autumn leaves falling leaves, a warmer light Clear nothing falling, no rain sound Cities Cities Tour off Weather city Up next pick a track to play it now Focus Sleep City sounds reset Vibe shape the music Style Jazzhop Piano Ambient Bossa Synth House Guitar Sad Medieval Energy Chill Balanced Upbeat Band Full band No drums Chords only Play one now Together tuning in… tap the scene to send Release a lantern L Chat tuning in… Save this scene Save this frame PNG · 1920×1080 S Get this city's video loop 1080p60 · no audio · Gumroad Get all 16 city loops 16 MP4s · no audio · Gumroad Export the 4-minute loop MP4 · 1080p60 · no audio R Press play for endless lofi music is generated live in your browser tuning in… Cancel About Cities Music Shortcuts FAQ About Lofi Cities Lofi Cities is a free web app that pairs animated pixel-art city nights with endless lofi music generated live in your browser. Pick a city and let it run: every scene is a 480×270 pixel animation that loops seamlessly every four minutes, with its own weather, landmarks and city sounds, while new lofi tracks are composed on the fly. There is nothing to install, no account and no pop-ups. It works on computers, phones and tablets, and makes a calm background for studying, working or winding down. Every city has a billboard for rent, with a made-up local ad on it until a business takes it. Put your business on one ↗ What's new 28 Sep Chat with the people on your city: the Chat button in the player (or Enter) opens short messages from the last hour, under a random two-word name such as \"sleepy fox\". No links, and you can hide anyone. 28 Sep The city picker (/) features the city with the most people right now, in a wide card above the others, and lists the cities with the most people first. 28 Sep The city chip at the bottom now and then rolls through a few other city names, to show that it is where you change cities, until you open the picker for the first time. All updates Cities Paris Rain on the attic window A painter's attic under the zinc roofs, rain on the window and the Eiffel Tower sparkling far off. Tokyo Neon rain by Tokyo Tower Neon signs, cherry blossoms and wet asphalt, with Tokyo Tower glowing and a train crossing the viaduct. New York Snow over Brooklyn Bridge A snowy winter night by the Brooklyn Bridge, with the Manhattan skyline across the East River. London Fog on the Thames Fog and drizzle on the Thames, with Parliament, the London Eye and a Victorian pub on the South Bank. Rio de Janeiro Cop",
+      "oneLineKo": "픽셀아트 도시 야경과 브라우저 생성 로파이 음악 웹앱",
+      "summaryKo": "Lofi Cities는 픽셀아트로 그려진 도시 야경 애니메이션과 브라우저에서 실시간 생성되는 로파이 음악을 결합한 무료 웹앱이다. 파리, 도쿄, 뉴욕, 런던 등 여러 도시를 선택할 수 있으며, 각 장면은 480x270 해상도로 4분마다 매끄럽게 루프되고 날씨와 도시 소리가 함께 제공된다. 설치나 계정 없이 PC, 모바일, 태블릿에서 바로 작동하며 공부, 작업, 휴식용 배경음으로 사용할 수 있다. 최근 업데이트로 같은 도시를 보는 사람들과 채팅하는 기능도 추가되었다.",
+      "tags": [
+        "lofi",
+        "pixel-art",
+        "web-app"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49849409",
+      "title": "Writing Efficient C++ Code (2013)",
+      "url": "https://asawicki.info/articles/writing_efficient_cpp_code.php",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49849409",
+      "publishedAt": "2026-09-25T20:20:27Z",
+      "score": 131,
+      "comments": 78,
+      "snippet": "Writing Efficient C++ Code Programming, graphics, games, media, C++, Windows, Internet and more... Sorry, you need Javascript on to email me. --> Main Page Blog Productions About Productions &raquo; Publications &raquo; Writing Efficient C++ Code English | Polski This article was originally published in Polish in issue 4/2013 (11) of Programista magazine. Although high-level languages—scripting, interpreted, or running in a virtual machine—have many advantages and are the best choice for numerous applications, sometimes we need to write code that is as efficient as possible. Choosing a native language such as C++ is not enough. Only some knowledge and familiarity with good practices will let us get the most computing power out of the hardware. Introduction C++ is an unusual language: complex, difficult to master, and controversial in some respects. Yet in many applications, especially where performance matters, such as game programming, it is often the best or even the only choice. This is because it has a unique property that makes it a kind of compromise. It is high-level: it supports object-oriented programming and convenient use or creation of custom types and data structures, such as vectors, strings, and other STL containers. At the same time, it is low-level enough to give us access, in a sense, to the hardware itself, or rather to the operating system: no virtual machine or framework stands in the way. We must manage memory allocation and deallocation ourselves, but that also means there is no garbage collector doing it in its own way at unpredictable moments. Moreover, an enormous number of libraries exist for C++ (and for C, with which it is partly backward compatible), and compilers are available for many platforms. In a sense, one could even say that native code is coming back into favor. Although software is becoming increasingly complex and hardware increasingly fast, we still need efficient code in our programs. Some say that a faster processor or more RAM costs less than a good programmer's time. But what if a program, once written, is to run for many years or be installed on millions of machines? Performance matters both in computing clusters and data centers, where power and cooling costs can be enormous, and in the smallest devices, such as smartphones and tablets, where we want the longest possible battery life. There are also applications in which code must run at a specified speed without compromise. These include programs that process data in real time, such as games (where a drop in FPS, frames per second, destroys the impression of smooth animation and causes unpleasant stuttering) or real-time processing of media streams at a specified bitrate. Nor can we always set arbitrarily high hardware requirements. Game consoles, for example, have a fixed processor speed and amount of RAM. Even of a PC we cannot demand the latest components if we are writing a simple casual game rather than a new version of Crysis. Data-Oriented D",
+      "oneLineKo": "C++ 성능 최적화를 위한 실전 지침 (2013)",
+      "summaryKo": "이 글은 C++가 고수준 편의성과 하드웨어에 가까운 저수준 제어를 동시에 제공하는 독특한 언어임을 설명하며, 성능이 중요한 게임, 실시간 미디어 처리, 데이터센터, 모바일 기기 등에서 왜 C++가 여전히 최선의 선택인지 논한다. 가비지 컬렉터 없이 직접 메모리를 관리해야 하는 대신 예측 가능한 성능을 얻을 수 있다는 점을 강조한다. 이어서 데이터 지향 설계(Data-Oriented Design) 등 효율적인 C++ 코드 작성을 위한 실질적인 기법과 좋은 습관들을 다룬다.",
+      "tags": [
+        "c++",
+        "performance",
+        "game-programming"
+      ]
+    }
+  ]
+}

@@ -1,117 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=32956",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "news.hada.io/topic?id=32956",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49461817",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "louisabraham.github.io/load-bearing",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32957",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "news.hada.io/topic?id=32957",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49447057",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32959",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "news.hada.io/topic?id=32959",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49471407",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "github.com/experientiallabs/experiential",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32939",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "news.hada.io/topic?id=32939",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49474143",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "neilalexander.dev/2026/06/30/flooding-contributions",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32970",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "news.hada.io/topic?id=32970",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49458161",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32969",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "news.hada.io/topic?id=32969",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49468083",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "blog.cloudflare.com/dns-cache-memory-optimization-1111",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49466917",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "calv.info/small-models-have-arrived",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49465169",
-    "date": "2026-08-28"
-  },
-  {
-    "id": "507movements.com",
-    "date": "2026-08-28"
-  },
-  {
     "id": "https://news.hada.io/topic?id=32999",
     "date": "2026-08-29"
   },
@@ -3598,5 +3486,133 @@
   {
     "id": "jia.je/hardware/2026/09/24/loongson-cpu-erratum-en",
     "date": "2026-09-27"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34384",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "news.hada.io/topic?id=34384",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49867775",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "tinyaiarena.com",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "t3_1wrnyer",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1wrnyer/dont_couple_your_go_code_to_github",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34390",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "news.hada.io/topic?id=34390",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49870367",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "sancho.bearblog.dev/google-weird",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "t3_1wrjyyr",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1wrjyyr/packing_binary_is_fun_actually",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34378",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "news.hada.io/topic?id=34378",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49854219",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "mitxela.com/projects/flipflip",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34375",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "news.hada.io/topic?id=34375",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49867067",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34368",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "news.hada.io/topic?id=34368",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49867486",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34365",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "news.hada.io/topic?id=34365",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49866951",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "nytimes.com/2026/09/26/science/motel-science-discovery.html",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49869574",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "loficities.com",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49849409",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "asawicki.info/articles/writing_efficient_cpp_code.php",
+    "date": "2026-09-28"
   }
 ]
