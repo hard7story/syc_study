@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=32999",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "news.hada.io/topic?id=32999",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49475079",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "t3_1vz715a",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1vz715a/how_to_drive_your_frontend_from_the_backend",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32977",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "news.hada.io/topic?id=32977",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49479878",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "huggingface.co/zai-org/GLM-5.3",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "t3_1w190pi",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1w190pi/lean_explained_with_typescript",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32974",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "news.hada.io/topic?id=32974",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49479837",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32990",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "news.hada.io/topic?id=32990",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49473522",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32982",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "news.hada.io/topic?id=32982",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49477854",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "inventati.org",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=32975",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "news.hada.io/topic?id=32975",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49477564",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "orbify.eu/demo",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49480466",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "anil.recoil.org/notes/rumour-is-the-exploit",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49472216",
-    "date": "2026-08-29"
-  },
-  {
-    "id": "12factor.net",
-    "date": "2026-08-29"
-  },
-  {
     "id": "https://news.hada.io/topic?id=33015",
     "date": "2026-08-30"
   },
@@ -3614,5 +3486,133 @@
   {
     "id": "asawicki.info/articles/writing_efficient_cpp_code.php",
     "date": "2026-09-28"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34422",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "news.hada.io/topic?id=34422",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49879401",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "hn.watch",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "t3_1wsry20",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1wsry20/examplecom_got_modernized",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34435",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "news.hada.io/topic?id=34435",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49882781",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "stateofutopia.com/experiments/microllmlab",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "t3_1wsv1tt",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1wsv1tt/supporting_native_rust_in_workers_with_the_new",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34439",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "news.hada.io/topic?id=34439",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49883471",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "calnewport.com/its-time-to-investigate-the-ai-labs",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34463",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "news.hada.io/topic?id=34463",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49879883",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "cnbc.com/2026/09/28/nvidia-releases.html",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34457",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "news.hada.io/topic?id=34457",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49880036",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "mubi.com/en/notebook/posts/pirating-the-pirates",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34453",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "news.hada.io/topic?id=34453",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49875913",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "git.mills.io/prologic/parley",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49879697",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "thisamericanlife.org/897/transcript",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49883844",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "github.com/firelex/jeff",
+    "date": "2026-09-29"
   }
 ]
