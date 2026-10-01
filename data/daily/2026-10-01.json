@@ -1,0 +1,278 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T01:00:29.815Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34575",
+      "title": "Traycer - 여러 코딩 에이전트의 문맥과 협업을 한곳에서 관리",
+      "url": "https://news.hada.io/topic?id=34575",
+      "commentsUrl": "https://news.hada.io/topic?id=34575",
+      "publishedAt": "2026-10-01T09:30:02+09:00",
+      "snippet": "여러 코딩 에이전트를 병렬로 실행하고 모델과 제공자가 달라도 작업 문맥을 공유 하는 오픈소스 오케스트레이션 앱 Claude Code, Codex, Cursor, OpenCode 등 기존에 사용하는 에이전트와 구독을 연결 하거나 Traycer 자체 추론 서비스를 이용 같은 에이전...",
+      "oneLineKo": "여러 코딩 에이전트 문맥·협업 통합 관리 도구",
+      "summaryKo": "Traycer는 Claude Code, Codex, Cursor, OpenCode 등 여러 코딩 에이전트를 병렬로 실행하면서 작업 문맥을 공유할 수 있는 오픈소스 오케스트레이션 앱입니다. 기존에 사용하는 에이전트와 구독을 그대로 연결하거나 Traycer 자체 추론 서비스를 선택적으로 이용할 수 있습니다. 모델과 제공자가 달라도 하나의 플랫폼에서 협업 문맥을 유지할 수 있다는 점이 특징입니다.",
+      "tags": [
+        "coding-agent",
+        "orchestration",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49911995",
+      "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49911995",
+      "publishedAt": "2026-09-30T17:37:40Z",
+      "score": 122,
+      "comments": 56,
+      "snippet": "Hey HN, Anders and Tom here. We&#x27;re building Magnitude, an inference engine for agents that optimizes itself to run as fast as possible on your hardware. It works on Mac, Linux, and Windows on any hardware and is up to 2x faster than llama.cpp.<p>We&#x27;re both software engineers and previously built an open source browser agent to 4k+ GH stars and 100k+ downloads. We increasingly wanted to run it on local models, but found that no inference engine worked for our use case.<p>Inference engines today all make a performance tradeoff. They are either:<p>- Built for batched inference on datacenter hardware at the cost of single-session performance (vLLM, SGLang)\n- Designed for broad compatibility instead of optimizing for specific hardware (llama.cpp, Ollama)\n- Specialized for specific hardware or models but lacking engine completeness (oMLX, ds4)<p>Plus none of them are designed for running agents locally. Sessions are long, several often run at once, and you still want to use your computer for other things.<p>Magnitude is built for maximum performance on your hardware and running local agents:<p>- On-device compilation and tuning: Kernels are written with flexible parameters that are tuned on your actual device before the model runs. This gives you broad hardware compatibility with the same performance ceiling as hardware-specific kernels.<p>- Focus on best architectures: We write our tunable, highly efficient kernels for the most popular open-weights families. This allows us to achieve and surpass the performance of hardware or model specialized engines, without forcing ourselves to over-generalize at the cost of performance.<p>- Dynamic memory allocation: Magnitude reserves only enough memory up front to hold model weights. As your agent sessions grow, the memory heap dynamically increases, and frees itself when agents stop. Your hardware can still be used for other stuff while agents run.<p>- Hybrid paged attention: We borrow the best ideas from engines like SGLang to allow concurrent sessions to share prefix caches, but optimize placement for memory-adjacency so single-session performance doesn&#x27;t suffer.<p>Magnitude is fully open source (Apache 2.0). We built it in Rust, including a custom GPU kernel runtime and autotuner. We take inspiration from the best innovations in inference from academics (e.g. FlashAttention, FlashInfer, TurboQuant) as well as other engines (e.g. SGLang radix attention) to reach the performance ceiling.<p>Benchmarked against llama.cpp with Qwen 3.6 35B A3B (4 bit), 64k context, no speculative decoding:<p>Metal (Mac M4 Pro 48 GB)\n- 92% faster decode (30 tok&#x2F;s → 57 tok&#x2F;s)\n- 9% faster prefill (466 tok&#x2F;s → 507 tok&#x2F;s)\n- 28% less per-agent memory usage<p>CUDA (DGX Spark)\n- 19% faster decode (49 tok&#x2F;s → 58 tok&#x2F;s)\n- 23% faster prefill (2,033 tok&#x2F;s → 2,507 tok&#x2F;s)\n- 27% less per-agent memory usage<p>Magnitude ships as a desktop app that you can easily connect with whatever agents you already use (Pi, OpenCode, Hermes, Codex, and more). It automatically runs models on demand when these agents actually need them, and shuts them down after inactivity.\nHere&#x27;s what it looks like: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=0qE8BWEZu7o\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=0qE8BWEZu7o</a><p>We&#x27;re excited to push Magnitude further to let you run bigger models on the same hardware while continuing to improve performance. Our plans include:<p>- Expert streaming: store experts on RAM or disk and load them just-in-time. This lets you run models bigger than what otherwise would fit on your GPU.<p>- Kernel compiler: our current kernels tune a few parameters to fit your hardware. We can take this further with a fully custom compiler that automatically chooses how to fuse kernels and which implementations to use, to make it fit to your hardware even better.<p>- Multi-device utilization: Make the best possible use of all hardware on a system (CPU, GPUs, RAM, disk) by detecting these and automatically solving for the best model layout.<p>We&#x27;d love for more people to try it out and give us feedback. Feel free to comment here, we&#x27;ll be around all day!",
+      "oneLineKo": "로컬 에이전트용 자가최적화 추론 엔진 Magnitude 출시",
+      "summaryKo": "YC S25 소속 팀이 로컬 하드웨어에서 에이전트를 빠르게 구동하기 위한 추론 엔진 Magnitude를 공개했다. Rust로 작성되었으며 온디바이스 커널 튜닝, 동적 메모리 할당, 하이브리드 페이지드 어텐션 등을 통해 llama.cpp 대비 최대 2배 빠른 성능을 낸다고 밝혔다. Qwen 3.6 35B 모델 벤치마크에서 Mac Metal과 CUDA 환경 모두에서 디코딩 속도 및 메모리 사용량 개선을 보였다. Apache 2.0 라이선스로 오픈소스 공개되었으며 데스크톱 앱 형태로 제공된다.",
+      "tags": [
+        "inference-engine",
+        "rust",
+        "local-llm"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wtb4qi",
+      "title": "Java vs Groovy: 7 differences + what Groovy 6.0 brings",
+      "url": "https://www.reddit.com/r/programming/comments/1wtb4qi/java_vs_groovy_7_differences_what_groovy_60_brings/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wtb4qi/java_vs_groovy_7_differences_what_groovy_60_brings/",
+      "publishedAt": "2026-09-29T14:08:59+00:00",
+      "snippet": "submitted by /u/henk53 [link] [comments]",
+      "oneLineKo": "Java와 Groovy 차이점 7가지 및 Groovy 6.0 신기능 소개",
+      "summaryKo": "이 글은 Java와 Groovy 언어 간의 7가지 주요 차이점을 다룬다. 또한 최근 발표된 Groovy 6.0 버전에서 추가된 새로운 기능들을 소개하는 내용으로 보인다. 본문 내용은 제목 외에 구체적으로 공개되지 않았다.",
+      "tags": [
+        "java",
+        "groovy"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34530",
+      "title": "Show GN: Conn - AI와 함께 쓰고, 언제든 내가 끼어드는 터미널",
+      "url": "https://news.hada.io/topic?id=34530",
+      "commentsUrl": "https://news.hada.io/topic?id=34530",
+      "publishedAt": "2026-09-30T12:39:47+09:00",
+      "snippet": "회사 사내망에서는 GitHub Copilot만 쓸 수 있어 터미널을 연결해 작업을 맡겨봤습니다. 원치 않는 스크립트를 실행하는데, 위험한 명령을 막거나 중간에 끼어들기가 어렵더군요. iTerm MCP도 고려했지만, 제가 필요했던 건 명령에 규칙을 정하고 언제든 직접 개입할 수 있는 터미널이었습니다. 그래서 Conn을",
+      "oneLineKo": "AI 개입 제어 가능한 신규 터미널 'Conn' 공개",
+      "summaryKo": "GitHub Copilot만 사용 가능한 사내망 환경에서 터미널 작업을 AI에 맡기던 중, 위험한 명령 실행을 막거나 중간에 개입하기 어려운 문제를 겪었다고 합니다. iTerm MCP를 검토했지만 명령에 규칙을 설정하고 언제든 직접 개입할 수 있는 기능이 필요해 'Conn'이라는 터미널을 직접 개발했습니다. AI와 함께 작업하면서도 사용자가 원하는 시점에 제어권을 가져올 수 있는 것이 핵심 특징입니다.",
+      "tags": [
+        "terminal",
+        "ai-agent",
+        "developer-tools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49906637",
+      "title": "You said no MCP",
+      "url": "https://earendil.com/posts/you-said-no-mcp/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49906637",
+      "publishedAt": "2026-09-30T09:55:23Z",
+      "score": 610,
+      "comments": 340,
+      "snippet": "“You Said No MCP!” | Earendil MENU Purpose Values Join Us Posts RFC Pi Radius Lefos Works “You Said No MCP!” Date: Tue, 29 Sep 2026 From: Earendil Engineering < rfc@earendil.com > To: You Subject: “You Said No MCP!” If you went to pi.dev in the past, you found a proud declaration that Pi does not support MCP . If you listen to podcasts where we talked about Pi, you will have found more than one dismissive statement about MCP from us. Including a post by Mario about it . And yet, if you upgrade to Pi you will find MCP is now a supported piece of functionality. What happened? Things Change The first thing to remember is that the world is not static . We have been paying attention to MCP over the last year and the MCP of today is not the MCP of yesteryear. That alone would not be much of a reason to put it into the core, however. As you know, Pi has a great ecosystem of extensions, surely MCP could have been an extension? Maybe even an Earendil endorsed extension. And yes you are indeed correct in that MCP could have been an extension, as it was . That MCP is now part of the core is a result of us putting our heads together and rethinking it. What Exactly Changed? The reason we brought MCP into the core is not just about how MCP has changed, but also because we found that the changes it would require were generally useful. For example, the changes we have made to MCP also enable the use of Jev more easily within Pi. Ultimately what Pi needs is quite similar to what MCP needs: a sandbox to play with in the form of an interpreter. While a lot of things have improved about MCP, quite a few have not. The biggest issue with MCP continues to be that it’s hard to compose. Even with codemode, which is just a neat little sandbox to allow composing of tool calls, MCP doesn’t fully deliver on this. But that at this point is less the problem of MCP but the MCP servers out there and different approaches of harnesses to work with them. Many MCP servers are still built for harnesses that just dump tools into the context and are trying to optimize on their side for token efficiency by returning text. The way we like to think about MCP at this point is that it should be much closer to OpenAPI with intelligent tool discovery. That means tools should return structured data and tools should be discoverable by their documentation and description. The reason CLIs are so functional is that the agent and model just wire stuff together with efficient bashisms. But there is no fundamental reason why you can’t do that with MCP either. MCP in Pi is just built on exposing those tools to a JavaScript sandbox like other harnesses like Codex do too. MCP in a Modern LLM This will raise the question why we didn’t just do Codemode without MCP. Part of the answer to this has to do with how tools are expressed in Pi today. We did a lot of work in recent months to allow Pi to make sense with new models that allow deferred tool loading, mid-conversation system messages and reasoning leve",
+      "oneLineKo": "Pi, MCP 반대 입장 철회하고 핵심 기능으로 통합",
+      "summaryKo": "Earendil 팀은 과거 Pi가 MCP를 지원하지 않는다고 공언했지만, 이번 업데이트로 MCP를 코어 기능으로 정식 통합했다고 밝혔다. MCP 자체의 변화와 함께, 이 변경이 Jev 같은 다른 기능에도 유용하다는 점이 통합의 이유였다고 설명한다. 여전히 MCP의 조합성(composability) 문제는 남아있으며, 이를 해결하기 위해 도구가 구조화된 데이터를 반환하고 문서로 발견 가능하도록 OpenAPI에 가까운 방식으로 재설계했다고 한다. Pi는 Codex처럼 MCP 도구들을 JavaScript 샌드박스에 노출하는 방식(Codemode)을 채택했다.",
+      "tags": [
+        "mcp",
+        "llm",
+        "developer-tools"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wuf5lf",
+      "title": "OpenZL v0.2 - decompression 2x faster than Zstandard",
+      "url": "https://www.reddit.com/r/programming/comments/1wuf5lf/openzl_v02_decompression_2x_faster_than_zstandard/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wuf5lf/openzl_v02_decompression_2x_faster_than_zstandard/",
+      "publishedAt": "2026-09-30T19:59:59+00:00",
+      "snippet": "submitted by /u/aqrit [link] [comments]",
+      "oneLineKo": "OpenZL v0.2, Zstandard보다 압축 해제 2배 빨라",
+      "summaryKo": "OpenZL v0.2 버전이 공개되었으며, 압축 해제 속도가 Zstandard 대비 2배 빠른 것으로 소개되었습니다. Reddit r/programming에 공유된 게시물로, 구체적인 벤치마크나 구현 세부사항은 본문에 포함되어 있지 않습니다. 제목을 통해 성능 개선을 강조한 새 버전 출시 소식임을 알 수 있습니다.",
+      "tags": [
+        "openzl",
+        "compression",
+        "zstandard"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34519",
+      "title": "Livenerf - Opus 5.5는 벌써 성능이 하향됐을까?",
+      "url": "https://news.hada.io/topic?id=34519",
+      "commentsUrl": "https://news.hada.io/topic?id=34519",
+      "publishedAt": "2026-09-30T10:33:40+09:00",
+      "snippet": "“출시 직후보다 모델이 나빠졌다”는 체감이 실제 성능 변화인지 확인하기 위해, 같은 문제를 매일 풀게 하고 결과를 비교 하는 벤치마크 원시 API가 아니라 Claude Code 구독으로 사용하는 Opus 5.5 를 측정해, 실제 구독 환경에서의 변화를 추적함 프롬프...",
+      "oneLineKo": "Opus 5.5 성능 하향 의혹, 일일 벤치마크로 검증",
+      "summaryKo": "출시 직후보다 Claude Opus 5.5 모델이 나빠졌다는 체감을 검증하기 위해 매일 동일한 문제를 풀게 하는 벤치마크를 구축했다. 원시 API가 아닌 실제 Claude Code 구독 환경에서 측정하여 사용자들이 실제로 경험하는 성능 변화를 추적한다. 이를 통해 모델 성능 저하가 실제 현상인지 단순한 체감인지 데이터로 확인하고자 한다.",
+      "tags": [
+        "llm",
+        "claude",
+        "benchmark"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49883970",
+      "title": "I could've accessed 17T Microsoft records",
+      "url": "https://blog.faav.net/how-i-couldve-accessed-17-trillion-microsoft-records",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49883970",
+      "publishedAt": "2026-09-28T20:32:46Z",
+      "score": 244,
+      "comments": 107,
+      "snippet": "How I Could’ve Accessed 17 Trillion Microsoft Records | blog.faav.net blog.faav.net posts about rss 핏 How I Could've Accessed 17 Trillion Microsoft Records Sep 25, 2026 An estimated 17.3 trillion stored rows across a wide range of Microsoft datasets were reachable through a single internal analytics service, all because it never checked the signature on a login token. That flaw let me claim an administrator’s identity and submit unauthorized SQL queries without any real credentials. I used only table descriptions, metadata, and bounded sample rows to understand the potential scope. Two quick notes first. The impact I describe is hypothetical. It’s what an attacker could have done with this access, but luckily I found the bug instead, reported it, and never touched any customer data or PII. And for transparency: Microsoft had editorial control over this post, cutting sections and figures and reshaping how the impact is described before publication. Microsoft said the following about this finding: “We appreciate the opportunity to investigate the findings reported by Faav. Their submission and coordinated vulnerability disclosure helped us to better protect our customers by hardening our services. We value and appreciate safe security research under the terms of the Microsoft Bug Bounty Program and look forward to continuing to work with Faav in the future.” Hey! I’m Faav. A little over a year ago, when I was 15, I published Break into any Microsoft building: Leaking PII in Microsoft Guest Check-In , my first Microsoft write-up. I’m 16 now, and this one is a little bigger. Since then I’ve gone all-in on bug bounty. I’ve spent the year hacking Microsoft off and on around school, and finding bugs across Amazon, Google, Adobe, and a bunch of other companies. I also started building AI into how I hunt, which led me to develop Antares, my personal AI hackbot. This one started as an automated lead that Antares couldn’t finish. Ten days later, after a Friday of schoolwork and one late-night hunch, it turned into the biggest Microsoft bug I’d ever found. Finding the Titan API On August 25, 2026, Antares identified an internal Microsoft service called Titan. Its web interface sat behind a VPN REQUIRED page for Microsoft employees, so the frontend was out of reach. But since when has a locked front door stopped anyone? The “VPN REQUIRED” page shown to a non-employee visiting Titan’s frontend. The API wasn’t linked anywhere on the frontend, so Antares searched Microsoft subdomains and found a separate endpoint that resolved to an Azure Cloud Services host. Its public Swagger file listed four routes: /GetConfiguration /GetOnboardedTables /v2/Query /v2/Insert The Swagger doc specified Azure AD bearer authentication for three of the four routes. The exception was /v2/Query , which also happened to be the one that accepted raw SQL. So naturally, that’s where I started poking. The query needed a tableName , and Swagger gave no example values. I pulled 2023 snapsho",
+      "oneLineKo": "16세 해커, 서명 미검증 토큰으로 MS 17조 행 접근 가능 발견",
+      "summaryKo": "16세 보안 연구자 Faav가 Microsoft 내부 분석 서비스 Titan에서 로그인 토큰 서명 검증 누락 취약점을 발견했다. 이를 이용해 관리자 신원을 사칭하고 실제 자격증명 없이 SQL 쿼리를 실행할 수 있었으며, 이론적으로 17조 3천억 행에 달하는 데이터에 접근 가능했다. 연구자는 메타데이터와 샘플 행만 확인한 뒤 즉시 Microsoft에 보고했고, Microsoft는 버그 바운티 프로그램을 통해 이를 인정하고 해당 서비스를 보강했다.",
+      "tags": [
+        "security",
+        "vulnerability",
+        "bug-bounty"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34516",
+      "title": "SPA 자동화 테스트를 작성한 경험",
+      "url": "https://news.hada.io/topic?id=34516",
+      "commentsUrl": "https://news.hada.io/topic?id=34516",
+      "publishedAt": "2026-09-30T09:08:06+09:00",
+      "snippet": "React 기반 오디오 플레이어를 Playwright와 실제 브라우저로 테스트 하며, 개별 동작보다 가입부터 주요 기능 사용까지 이어지는 전체 사용자 여정을 중시함 테스트마다 서버와 DB를 따로 띄우는 대신 같은 DB에서 각자 데이터를 생성 하고, 다른 테스트의 데이터는...",
+      "oneLineKo": "Playwright로 SPA 전체 사용자 여정 테스트한 경험기",
+      "summaryKo": "React 기반 오디오 플레이어를 Playwright와 실제 브라우저로 테스트하면서, 개별 기능 단위보다 가입부터 주요 기능 사용까지 이어지는 전체 사용자 여정을 중심으로 테스트를 설계한 경험을 공유합니다. 테스트마다 서버와 DB를 별도로 띄우는 대신 같은 DB를 공유하되 각 테스트가 독립적인 데이터를 생성하고 다른 테스트의 데이터에는 접근하지 않도록 구성해 효율성을 높였습니다. 이를 통해 테스트 인프라 비용을 줄이면서도 실제 사용자 흐름에 가까운 검증이 가능했다는 내용입니다.",
+      "tags": [
+        "playwright",
+        "e2e-testing",
+        "react"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49909583",
+      "title": "A brief history of the Bloomberg terminal",
+      "url": "https://spectrum.ieee.org/bloomberg-terminal",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49909583",
+      "publishedAt": "2026-09-30T14:34:07Z",
+      "score": 221,
+      "comments": 87,
+      "snippet": "--> Raven.config('https://6b64f5cc8af542cbb920e0238864390a@sentry.io/147999').install(); The History of the Bloomberg Terminal - IEEE Spectrum IEEE.org IEEE Xplore IEEE Standards IEEE Job Site More Sites Sign In Join IEEE A Brief History of the Bloomberg Terminal Share FOR THE TECHNOLOGY INSIDER Search: Explore by topic Aerospace AI Biomedical Climate Tech Computing Consumer Electronics Energy History of Technology Robotics Semiconductors Telecommunications Transportation IEEE Spectrum FOR THE TECHNOLOGY INSIDER Topics Aerospace AI Biomedical Climate Tech Computing Consumer Electronics Energy History of Technology Robotics Semiconductors Telecommunications Transportation Sections Features News Opinion Careers DIY Engineering Resources More Newsletters Special Reports Collections Explainers Top Programming Languages Robots Guide ↗ IEEE Job Site ↗ For IEEE Members Current Issue Magazine Archive The Institute The Institute Archive For IEEE Members Current Issue Magazine Archive The Institute The Institute Archive IEEE Spectrum About Us Contact Us Reprints & Permissions ↗ Advertising ↗ Follow IEEE Spectrum Support IEEE Spectrum IEEE Spectrum is the flagship publication of the IEEE — the world’s largest professional organization devoted to engineering and applied sciences. Our articles, videos, and infographics inform our readers about developments in technology, engineering, and science. Subscribe About IEEE Contact & Support Accessibility Nondiscrimination Policy Terms IEEE Privacy Policy Cookie Preferences Ad Privacy Options © Copyright 2026 IEEE — All rights reserved. A public charity, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. Enjoy more free content and benefits by creating an account Saving articles to read later requires an IEEE Spectrum account The Institute content is only available for members Downloading full PDF issues is exclusive for IEEE Members Downloading this e-book is exclusive for IEEE Members Access to Spectrum 's Digital Edition is exclusive for IEEE Members Following topics is a feature exclusive for IEEE Members Adding your response to an article requires an IEEE Spectrum account Create an account to access more content and features on IEEE Spectrum , including the ability to save articles to read later, download Spectrum Collections, and participate in conversations with readers and editors. For more exclusive content and features, consider Joining IEEE . Join the world’s largest professional organization devoted to engineering and applied sciences and get access to all of Spectrum’s articles, archives, PDF downloads, and other benefits. Learn more about IEEE → Join the world’s largest professional organization devoted to engineering and applied sciences and get access to this e-book plus all of IEEE Spectrum’s articles, archives, PDF downloads, and other benefits. Learn more about IEEE → CREATE AN ACCOUNT SIGN IN JOIN IEEE SIGN IN Close Acces",
+      "oneLineKo": "블룸버그 터미널의 탄생과 발전사",
+      "summaryKo": "IEEE Spectrum 기사는 금융 업계의 핵심 도구인 블룸버그 터미널의 역사를 다룬다. 본문에서는 구체적인 기술적 세부 내용은 확인되지 않으며, 페이지는 주로 IEEE 사이트 내비게이션과 계정 가입 안내로 채워져 있다. 제목을 통해 블룸버그 터미널이 어떻게 개발되고 금융 정보 단말기로 자리잡았는지에 대한 역사적 서술임을 알 수 있다.",
+      "tags": [
+        "fintech",
+        "history-of-technology",
+        "bloomberg-terminal"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34569",
+      "title": "Anthropic의 IPO 투자설명서에 담긴 AI 비전과 급증하는 비용",
+      "url": "https://news.hada.io/topic?id=34569",
+      "commentsUrl": "https://news.hada.io/topic?id=34569",
+      "publishedAt": "2026-10-01T07:38:39+09:00",
+      "snippet": "Anthropic의 IPO 투자설명서 에서 빠른 매출 성장과 막대한 비용이 드러남. AI가 산업화·전기·인터넷보다 경제를 크게 바꿀 것이라는 전망 아래 대규모 투자를 추진 중임 2025년 매출은 전년의 12배인 약 46억 달러 로 늘었지만 영업손실은 약 80억 달러였으며, 컴퓨...",
+      "oneLineKo": "Anthropic IPO 투자설명서, 급성장 매출과 막대한 손실 공개",
+      "summaryKo": "Anthropic의 IPO 투자설명서에 따르면 2025년 매출은 전년 대비 12배 증가한 약 46억 달러를 기록했으나, 영업손실은 약 80억 달러에 달했다. 이는 AI가 산업화, 전기, 인터넷보다 더 큰 경제적 변화를 가져올 것이라는 전망 아래 대규모 컴퓨팅 인프라 투자를 지속한 결과다. 매출 급성장과 함께 막대한 비용 구조가 동시에 드러나며 AI 산업의 수익성 논쟁이 다시 부각되고 있다.",
+      "tags": [
+        "anthropic",
+        "ai",
+        "ipo"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49908394",
+      "title": "The last time my family was replaced by technology",
+      "url": "https://manuel.darcemont.fr/posts/the-last-time-my-family-was-replaced-by-technology/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49908394",
+      "publishedAt": "2026-09-30T13:06:11Z",
+      "score": 175,
+      "comments": 405,
+      "snippet": "The last time my family was replaced by technology - @mdarcemont Skip to main content @mdarcemont Projects The last time my family was replaced by technology My great-great-grandfather thought he’d be replaced by technology too. He was a farrier in Mandres-en-Barrois, the small village in rural France where I grew up. Shoeing horses, repairing farmers&rsquo; carts. Then he saw a car drive through the next town over, or read an article about it in the paper. I can&rsquo;t tell what exactly happened in his mind at that moment, but soon after, he became a mechanic, like every man in the family after him. In the end, and maybe after a long stretch of grief at trading his horses for engine grease, he kept his purpose: helping people get around. He just changed the technology, going from horses to engines. I think about this a lot these days, surrounded as I am by so many developers who wake up every day wondering what’s going to become of them. I must say there is some comfort in knowing that someone in my family had the same doubts before me. Because, yes, we love to say AI is the biggest revolution since the Industrial Revolution, and that we’re going through a transformation unlike anything we’ve seen before. But that overlooks the farmers who watched the tractor roll in, or the farrier who watched the car arrive. Back then, the revolution was often right next door, hitting your neighbour. They didn’t have X to doomscroll first thing in the morning (lucky them), but they too wondered what on earth they were going to do, imagining the worst. A century later, the torments felt by my great-great-grandfather are forgotten. The garage feels like it has always been in the family. My father loved his job like few people I know, as if it had run in the family forever. We just kept doing what we had always done: helping people get around. Just as some families in the village still farm the same fields today, mine kept the same purpose. Not every farrier became a mechanic, and I&rsquo;d never have heard of the ones who didn&rsquo;t. So I won&rsquo;t pretend his story proves anything. But it makes me wonder: what if what we loved about this job was never only the code? Many of us, deep down, are driven more by the joy of making things, solving problems, and seeing people use what we built than by the act of coding itself. After all, many of us decided we wanted to be developers before learning to code, just to create video games or websites. The desire came before the code. Be willing to let go of the how to hold on to the why. 2026-09-30 © 2026 Powered by Hugo , theme Anubis . Dark theme",
+      "oneLineKo": "기술 대체 두려움, 과거 대장장이 가문의 교훈",
+      "summaryKo": "저자는 자동차 등장으로 대장장이에서 정비공으로 직업을 바꾼 증조부 이야기를 통해 AI로 인한 개발자들의 불안을 조명한다. 당시에도 사람들은 트랙터나 자동차의 등장에 두려움을 느꼈지만, 중요한 것은 특정 기술 자체가 아니라 '사람들이 이동하도록 돕는다'는 직업의 본질적 목적이었다는 점을 강조한다. 코딩이라는 수단보다 문제 해결과 창작의 기쁨이라는 본질적 동기가 더 중요했음을 상기시킨다. 결론적으로 방법(how)은 내려놓더라도 이유(why)는 붙잡아야 한다고 조언한다.",
+      "tags": [
+        "ai",
+        "career",
+        "technology-change"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34555",
+      "title": "놀랍지도 않게, Meta의 새 Muse AI 에이전트가 사용자 권한 설정을 노골적으로 무시함",
+      "url": "https://news.hada.io/topic?id=34555",
+      "commentsUrl": "https://news.hada.io/topic?id=34555",
+      "publishedAt": "2026-10-01T02:57:34+09:00",
+      "snippet": "Meta의 AI 에이전트 Muse가 읽도록 허락하지 않은 Apple Messages 기록을 동기화하고 클라우드에 올렸다는 사용자 보고 가 나옴 설치 다음 날 사적인 문자 대화를 바탕으로 기사 아이디어와 마감 알림 을 제안했으며, 사용자는 메시지 접근을 허용하지 않았다고 밝힘...",
+      "oneLineKo": "Meta Muse, 미허용 Apple Messages 데이터 무단 수집 논란",
+      "summaryKo": "Meta의 AI 에이전트 Muse가 사용자가 접근을 허용하지 않은 Apple Messages 기록을 동기화해 클라우드에 업로드했다는 사용자 보고가 나왔다. 설치 다음 날 사적인 문자 대화를 기반으로 기사 아이디어와 마감 알림을 제안해, 권한 설정을 무시하고 데이터를 수집했다는 의혹이 제기됐다. 사용자는 메시지 접근 권한을 명시적으로 허용하지 않았다고 밝히며 프라이버시 침해 우려가 커지고 있다.",
+      "tags": [
+        "privacy",
+        "ai-agent",
+        "meta"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49906432",
+      "title": "Singapore govt dating app uses Gale-Shapley stable marriage algorithm",
+      "url": "https://twitter.com/tuakdotsol/status/2105105417760391258",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49906432",
+      "publishedAt": "2026-09-30T09:27:04Z",
+      "score": 175,
+      "comments": 107,
+      "snippet": "marianne on X: \"Singapore's govt dating app runs on a Nobel Prize-winning game theory algorithm 👏 FirstDate uses Gale-Shapley, the 1962 stable marriage algorithm that won the 2012 Economics Nobel and still runs hospital residency matches and kidney exchanges today. how it works: 1 | your prefer… / X Post Log in Sign up Post Log in Sign up marianne on X: \"Singapore's govt dating app runs on a Nobel Prize-winning game theory algorithm 👏 FirstDate uses Gale-Shapley, the 1962 stable marriage algorithm that won the 2012 Economics Nobel and still runs hospital residency matches and kidney exchanges today. how it works: 1 | your preferences and dealbreakers build a ranked priority list 2 | proposers offer to their top pick. receivers hold their best offer and reject the rest. rejected proposers move down their list. rinse and repeat until locked 3 | the result is mathematically stable: no two people exist who would both prefer each other over their assigned matches. \"the app never showed us each other\" becomes impossible by design the UX: •⁠ ⁠⁠one match per cycle, zero infinite scroll •⁠ ⁠⁠72-hour decision window •⁠ ⁠⁠contact info revealed only on mutual yes •⁠ ⁠⁠Singpass-verified, so everyone is exactly who they claim (told my husband I'm annoyed I can't test it. his response: most people sneak onto dating apps, and here you are openly filing a product research request 🤣 ) commercial apps need you to keep swiping but this app is designed to get you off the platform. Singapore built the first dating app whose success metric is deleting its own users 💀 (fun game theory note: Gale-Shapley yields proposer-optimal outcomes - meaning proposers get their best possible stable match, receivers their worst 👀) public servants aged 21-35 only for now. interesting to see if state-sponsored game theory beats the free market (or rather, all the tinders and hinges out there) 🍿\" marianne @tuakdotsol Singapore's govt dating app runs on a Nobel Prize-winning game theory algorithm 👏 FirstDate uses Gale-Shapley, the 1962 stable marriage algorithm that won the 2012 Economics Nobel and still runs hospital residency matches and kidney exchanges today. how it works: 1 | your preferences and dealbreakers build a ranked priority list 2 | proposers offer to their top pick. receivers hold their best offer and reject the rest. rejected proposers move down their list. rinse and repeat until locked 3 | the result is mathematically stable: no two people exist who would both prefer each other over their assigned matches. \"the app never showed us each other\" becomes impossible by design the UX: •⁠ ⁠⁠one match per cycle, zero infinite scroll •⁠ ⁠⁠72-hour decision window •⁠ ⁠⁠contact info revealed only on mutual yes •⁠ ⁠⁠Singpass-verified, so everyone is exactly who they claim (told my husband I'm annoyed I can't test it. his response: most people sneak onto dating apps, and here you are openly filing a product research request 🤣 ) commercial apps need you to keep swiping but this",
+      "oneLineKo": "싱가포르 정부 소개팅앱, 노벨상 알고리즘 적용",
+      "summaryKo": "싱가포르 정부가 운영하는 데이팅 앱 FirstDate는 1962년 고안되어 2012년 노벨경제학상을 받은 Gale-Shapley 안정결혼 알고리즘을 사용한다. 이용자 선호도를 기반으로 제안자와 수신자가 반복적으로 매칭을 조정해 수학적으로 안정적인 결과를 도출한다. 앱은 무한 스와이프 대신 한 사이클당 한 매치, 72시간 결정 시한, 상호 동의 시에만 연락처 공개, Singpass 신원 인증 등을 특징으로 하며, 21~35세 공무원을 대상으로 시범 운영 중이다.",
+      "tags": [
+        "algorithm",
+        "dating-app",
+        "game-theory"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49913192",
+      "title": "EDG C++ front-end goes public",
+      "url": "https://edgcpp.org/#transition",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49913192",
+      "publishedAt": "2026-09-30T19:26:37Z",
+      "score": 144,
+      "comments": 67,
+      "snippet": "Open Source Transition · EDGCPP Skip to content Read John Spicer's note on what's next for EDG, and the transition FAQ &rarr; EDGCPP History The transition How it works What changes Get involved Docs GitHub The EDG open source transition EDG is open source. On September 30, 2026, the source for EDG's C++ front end went public, and The C++ Alliance became its nonprofit home. Same engine, same standards, professionally maintained, and open to contributions. Follow along on GitHub Read the plan Continuity is the point. This is a change of steward, not a change of course. Part one The history of EDG For thirty years, EDG's front end has powered C++ compilation across the industry as the only production-quality source-to-source engine of its kind. Coming soon The full story is still being written This section will cover EDG's founding, the people behind it, the milestones of its front end, and the compilers and tools built on top of it. Have a piece of that history to share? Open an issue on the site's repository. Part two EDG after September 30 When the source went public on September 30, 2026, professional maintenance had to continue. EDG needed a new home that could do three things at once. 01 Fiscal sponsorship Receive and manage donations on behalf of EDG. 02 Technical continuity Sustain the engineering quality EDG users depend on. 03 Domain expertise C++ compiler front-end knowledge, from the inside. Why The C++ Alliance The C++ Alliance is a nonprofit with proven fiscal-sponsorship infrastructure, C++ compiler engineers on staff, and deep roots in the C++ standards and Boost communities. It now serves as EDG's nonprofit home. Learn more about The C++ Alliance Fiscal sponsor of the Boost C++ Libraries since 2024 LLVM committers with direct Clang front-end contributions Published transparency reports How it works Three tracks, one codebase EDG now works like any other open source project: anyone can contribute, and everything that lands is available to everyone. Development follows three tracks: contributions from the user community, ongoing maintenance, and collectively funded features. Track 1 Community contributions Bug fixes and new features from EDG users, submitted as pull requests. Reviewers, who are initially experienced EDG developers, evaluate the changes. Once approved, these changes are merged into the EDG codebase. Track 2 Maintenance: always open Bug fixes and maintenance by the Alliance's EDG developers are published immediately. Track 3 Features: collectively funded To support the EDG community, the Alliance will provide a way for larger features to be developed and funded by the community. In this way, organizations can support the development of larger features financially rather than committing their developers to the development of these features. Once a feature is funded, it is released to everyone at the same time. One codebase, for everyone. Whichever track a change arrives on, it lands in the same public repository at the ",
+      "oneLineKo": "EDG C++ 프론트엔드, 오픈소스로 전환",
+      "summaryKo": "30년간 C++ 컴파일 업계를 지탱해온 EDG의 C++ 프론트엔드 소스가 2026년 9월 30일 공개되며 오픈소스로 전환됐다. 비영리 단체인 The C++ Alliance가 EDG의 새로운 운영 주체가 되어 재정 지원, 기술적 연속성, C++ 전문성을 담당한다. 개발은 커뮤니티 기여, 상시 유지보수, 공동 자금으로 진행되는 대형 기능 개발 등 세 트랙으로 운영되며, 모든 변경사항은 동일한 공개 저장소에 반영된다. 이는 운영 주체의 변화일 뿐 기존 엔진과 표준은 그대로 유지된다.",
+      "tags": [
+        "c++",
+        "open-source",
+        "compiler"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49909056",
+      "title": "What TLA+ can and can't check",
+      "url": "https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49909056",
+      "publishedAt": "2026-09-30T13:57:06Z",
+      "score": 137,
+      "comments": 29,
+      "snippet": "What TLA+ can and can't check • Buttondown Computer Things Archives Search... Log in Subscribe September 30, 2026 What TLA+ can and can't check Let's chill just a little bit on the \"TLA+ will save AI from itself\" narrative Last week Boris Cherny, the inventor of Claude Code, mentioned that Opus was able to use TLA+ 1 to find race conditions in code. And now everybody on the internet is talking about formal verification. As a long-time educator ( 1 2 ) and advocate of TLA+, this is really exciting! TLA+ is great at designing complex concurrent systems and making sure they're bug-free. 2 As a long-time advocate of level-headedness, this new euphoria worries me. I read a lot of people saying that formal methods will solve the problem of agentic software development once and for all, and that's nonsense. Enough words have been spilled about the weaknesses of TLA+ in terms of what it can guarantee, like how correct designs don't automatically translate into correct code . So I'd like to focus on a different limitation for this newsletter: to verify a property, we need to have a property to verify! So what are the properties that TLA+ can't even express? (This assumes some basic knowledge of TLA+. If you're a total beginner, check out those [1] [2] things above or read here .) What TLA+ can check TLA+ divides the system into a set of behaviors. Each behavior is a sequence of states, like \"light one is green, then yellow, then red\". In each state we can express a regular boolean expressions like \"Light four is green\" or \"All lights are red.\" We can also modify expressions with three \"temporal\" logical operators: []P (\"always P\") is true if P is true in the current state and every future state. Example: [](at_most_one_green) is true if every state going forward has no more than one green light. P' (\"P prime\") is true if P is true in the next state. Example: light=\"green\" && light'=\"red\" is true if the light changes from green to red. <>P (\"eventually P\") is true if P is true in the current state or in at least one future state. Example: <>(light4 = \"yellow\") is true if light4 is yellow or is yellow in a future state. When we say that P is a property of the system, we mean it is true in the initial state of every behavior. So if we check the property []P , that means that []P is true in every initial state, and then by the definition of \"always\" means that P is true in every future state from that initial state, meaning it is true in every state of every behavior. We call this an invariant , and is one of the most foundational properties we check in TLA+. We can also compose [] with primes to get action properties , or change variants. [](x' >= x) is true if the new value of x is always greater than equal to the old value of x. Another fun one is [](P => P') : once P is true, it can never become false again. The actual TLA+ is a little more complicated because of a thing called \"stutter-invariance\", but that's extra details. Action properties and invarian",
+      "oneLineKo": "TLA+의 한계: 검증엔 '속성'이 먼저 필요",
+      "summaryKo": "최근 AI가 TLA+를 이용해 동시성 버그를 찾아냈다는 소식에 '형식 검증이 AI 코딩 문제를 해결할 것'이라는 과도한 기대가 퍼지고 있다. 저자는 TLA+ 전문가로서 이런 분위기에 경계심을 표하며, TLA+가 설계 검증에는 강력하지만 설계의 정확성이 곧 코드의 정확성을 보장하지 않는다는 점을 지적한다. 이 글은 TLA+가 무엇을 검증할 수 있는지(불변식, 액션 속성 등 temporal logic 개념)를 설명하면서, 동시에 검증하려면 먼저 '표현 가능한 속성'이 있어야 한다는 근본적 한계를 다룬다.",
+      "tags": [
+        "tla+",
+        "formal-verification",
+        "concurrency"
+      ]
+    }
+  ]
+}
