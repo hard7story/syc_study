@@ -1,0 +1,276 @@
+{
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T00:51:40.361Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34683",
+      "title": "리눅스 커널 개발자 Greg Kroah-Hartman, LLM 시대의 보안 [영상]",
+      "url": "https://news.hada.io/topic?id=34683",
+      "commentsUrl": "https://news.hada.io/topic?id=34683",
+      "publishedAt": "2026-10-03T06:33:54+09:00",
+      "snippet": "LLM이 찾아낸 취약점의 숫자보다 실제 버그를 검증하고 고치는 일이 중요함 . 리눅스 커널 개발자 Greg Kroah-Hartman이 AI 보안 도구의 성과와 한계, 유지보수자의 대응을 다룬 발표 Mythos가 발견했다는 리눅스 취약점 79개 에는 오탐·중복·이미 수정된 문제가 섞여...",
+      "oneLineKo": "커널 개발자가 본 LLM 보안 취약점 탐지의 한계",
+      "summaryKo": "리눅스 커널 개발자 Greg Kroah-Hartman이 LLM 기반 보안 도구의 성과와 한계를 다룬 발표 내용을 소개한다. AI 도구 Mythos가 발견했다는 리눅스 취약점 79개에는 오탐, 중복, 이미 수정된 문제들이 섞여 있었다. 그는 LLM이 찾아낸 취약점의 숫자보다 실제 버그를 검증하고 고치는 작업이 더 중요하다고 강조하며, 유지보수자 입장에서의 대응 방안을 논의한다.",
+      "tags": [
+        "linux-kernel",
+        "llm",
+        "security"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49929391",
+      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49929391",
+      "publishedAt": "2026-10-02T02:51:27Z",
+      "score": 166,
+      "comments": 35,
+      "snippet": "- YouTube About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket &copy; 2026 Google LLC",
+      "oneLineKo": "그렉 크로아-하트만, LLM 시대의 보안을 논하다",
+      "summaryKo": "리눅스 커널 메인테이너인 그렉 크로아-하트만이 LLM(대형 언어모델) 시대의 보안 문제를 주제로 발표한 영상입니다. 본문 내용은 제공되지 않아 구체적인 발표 내용은 확인할 수 없습니다. 제목을 통해 LLM 기술 확산이 소프트웨어 보안 및 오픈소스 생태계에 미치는 영향을 다룬 것으로 추정됩니다.",
+      "tags": [
+        "security",
+        "llm",
+        "linux-kernel"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1ww842a",
+      "title": "<input type=\"password\" maxlength=\"20\"> is considered harmful, and why I couldn't login into Vanguard",
+      "url": "https://www.reddit.com/r/programming/comments/1ww842a/input_typepassword_maxlength20_is_considered/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1ww842a/input_typepassword_maxlength20_is_considered/",
+      "publishedAt": "2026-10-02T23:14:57+00:00",
+      "snippet": "submitted by /u/tanin47 [link] [comments]",
+      "oneLineKo": "비밀번호 maxlength=20 제한의 위험성과 뱅가드 로그인 실패 사례",
+      "summaryKo": "글쓴이는 비밀번호 입력란에 maxlength=20 속성을 거는 것이 보안과 사용성 측면에서 해롭다고 지적한다. 실제로 투자 플랫폼 Vanguard에서 이 제한 때문에 긴 비밀번호를 설정했다가 로그인에 실패한 경험을 사례로 든다. 글자 수 제한이 비밀번호 관리자 사용이나 강력한 패스프레이즈 사용을 방해해 보안을 오히려 약화시킬 수 있다는 점을 비판한다.",
+      "tags": [
+        "web-security",
+        "html",
+        "authentication"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34655",
+      "title": "AI가 만든 변경 사항의 인지 부하 줄이기",
+      "url": "https://news.hada.io/topic?id=34655",
+      "commentsUrl": "https://news.hada.io/topic?id=34655",
+      "publishedAt": "2026-10-02T15:01:38+09:00",
+      "snippet": "AI 생성 코드를 대량으로 검토할 때, LLM이 추상 개념에 붙인 용어가 자신에게 자연스러운 이름과 다르면 뜻을 매번 머릿속에서 되짚어야 함 익숙하지 않은 코드에서 수십 개의 새 용어가 상호작용하면 인지 부하가 누적 되어 코드의 작동 방식을 잘못 이해할 수 있...",
+      "oneLineKo": "AI 생성 코드 리뷰 시 인지 부하 줄이는 법",
+      "summaryKo": "AI가 생성한 코드를 대량으로 검토할 때, LLM이 추상 개념에 붙인 용어가 리뷰어에게 익숙하지 않으면 매번 의미를 되짚어야 해 인지 부하가 발생한다. 낯선 용어 수십 개가 상호작용하면 부하가 누적되어 코드 작동 방식을 잘못 이해할 위험이 커진다. 이를 줄이기 위해서는 LLM이 사용하는 용어를 리뷰어에게 익숙한 이름으로 맞추거나 일관성을 유지하는 접근이 필요하다는 논의를 다룬다.",
+      "tags": [
+        "llm",
+        "code-review",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49936575",
+      "title": "From the creator of Redis; run LLM locally with ds4",
+      "url": "https://dwarfstar.sh/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49936575",
+      "publishedAt": "2026-10-02T18:01:16Z",
+      "score": 132,
+      "comments": 36,
+      "snippet": "DwarfStar 4 (ds4): Local DeepSeek V4.1, Qwen and GLM Skip to content dwarfstar .sh Docs Hardware Benchmarks Blog About ⌘K 19k Get started Docs Hardware Benchmarks Blog About GitHub ↗ Get started → SEARCH · DOCS, BLOG, PAGES ESC 0 HITS · NOTHING IN THE DRAWING SET DS4 · LOCAL FRONTIER INFERENCE Run frontier open weights locally with ds4. DwarfStar 4 is a narrow C inference engine for high-memory Mac, CUDA and ROCm machines. It supports DeepSeek V4 and V4.1 Flash, GLM 5.x and Qwen3.8 Flash Next, with text and vision models, local APIs, a CLI and a native agent in one stack. Get started → View on GitHub SUPPORTED: DEEPSEEK V4 / V4.1 + GLM 5.x + QWEN3.8 · MIT LICENSE · C / METAL / CUDA / ROCM · QWEN ON 64GB ds4 · local session $ ./ds4 DwarfStar 4 · DeepSeek V4 Flash · ds4f-q2 local backend ready · model loaded > /read src/kvcache.c 1,412 lines loaded into context > why can a prefix survive a server restart? The KV cache is keyed by the SHA1 of the rendered prompt prefix and persisted to disk, so a matching prefix is reloaded instead of recomputed. PRINCIPLE · LOCAL MODEL STACK PHASE 1 · THE GIANT A 284-billion-parameter star DeepSeek V4 Flash is a large mixture-of-experts model. The usual path is remote serving; ds4 starts from the opposite constraint. PHASE 2 · THE COLLAPSE Compressed, not lobotomized Asymmetric quantization targets the routed experts while preserving critical paths. The model becomes practical on high-memory machines. PHASE 3 · THE DWARF STAR Dense, resident, yours The local engine exposes a CLI, HTTP APIs and a native agent, all sharing the same model state and cache. How the collapse works → SCROLL ▾ DESIGN CHOICES Local frontier inference, narrow on purpose Not a generic GGUF runner. ds4 follows a small, opportunistic set of model families and validates each supported layout end to end. CORE 01 Asymmetric 2-bit quantization Compress the routed experts, keep critical shared paths precise. That is how the supported routed-MoE builds fit their target machines. CORE 02 KV cache as a disk citizen Save long prefixes to SSD and resume by prompt hash. Restarts do not have to mean full re-prefill. CORE 03 One engine, three interfaces Use ./ds4 for chat, ./ds4-server for local APIs and ./ds4-agent for persistent coding sessions. SSD STREAMING TENSOR PARALLELISM SESSION BATCHING DSPARK + MTP VISION INPUT SSD STREAMING TENSOR PARALLELISM SESSION BATCHING DSPARK + MTP VISION INPUT ARCHITECTURE How the ds4 stack fits together Project GGUFs, a self-contained engine and agent-facing interfaces, checked against official model outputs. MODEL DeepSeek V4 / V4.1 GLM 5.x · Qwen3.8 supported GGUF layouts only asymmetric 2-bit + imatrix load ENGINE ds4 engine written in C metal · cuda · rocm parallel · batch · speculate KV cache RAM ⇄ SSD · survives restarts serve ./ds4 interactive CLI ./ds4-server OpenAI + Anthropic API ./ds4-agent native coding agent personal → distributed memory classes RUNTIME MAP · SIMPLIFIED. SEE ARCHITECTURE NOTES FOR THE FULL ",
+      "oneLineKo": "Redis 창시자가 만든 로컬 LLM 추론 엔진 ds4 공개",
+      "summaryKo": "Redis 창시자가 개발한 ds4는 고메모리 Mac, CUDA, ROCm 환경에서 DeepSeek V4/V4.1, GLM 5.x, Qwen3.8 등의 오픈 웨이트 모델을 로컬로 구동하는 C 기반 추론 엔진입니다. 라우팅된 전문가(expert)에 비대칭 2비트 양자화를 적용해 284B 파라미터급 MoE 모델도 실용적인 크기로 압축합니다. KV 캐시를 프롬프트 해시로 디스크에 저장해 재시작 후에도 재연산 없이 이어서 사용할 수 있으며, CLI·HTTP API·네이티브 에이전트를 하나의 엔진 상태로 공유합니다.",
+      "tags": [
+        "llm",
+        "inference",
+        "quantization"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1ww6bea",
+      "title": "0.17.0 Release Notes â¡ The Zig Programming Language",
+      "url": "https://www.reddit.com/r/programming/comments/1ww6bea/0170_release_notes_â_the_zig_programming_language/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1ww6bea/0170_release_notes_â_the_zig_programming_language/",
+      "publishedAt": "2026-10-02T21:52:43+00:00",
+      "snippet": "submitted by /u/BrewedDoritos [link] [comments]",
+      "oneLineKo": "Zig 0.17.0 릴리스 노트 공개",
+      "summaryKo": "Zig 프로그래밍 언어의 0.17.0 버전 릴리스 노트가 공개되어 Reddit에 공유되었습니다. 본문 내용은 제공되지 않아 구체적인 변경 사항은 확인할 수 없습니다. 제목을 통해 새로운 버전 출시 소식만 전달되고 있습니다.",
+      "tags": [
+        "zig",
+        "release-notes",
+        "programming-language"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34682",
+      "title": "Audionaut - AI 에이전트로 편집할 수 있는 오픈소스 멀티트랙 오디오 편집기",
+      "url": "https://news.hada.io/topic?id=34682",
+      "commentsUrl": "https://news.hada.io/topic?id=34682",
+      "publishedAt": "2026-10-03T05:44:15+09:00",
+      "snippet": "음악·팟캐스트·멀티트랙 녹음을 위한 무료 오픈소스 오디오 편집기 로, 복잡한 음악 제작 환경 대신 필요한 구간을 자르고 조합하는 작업에 집중함 MCP로 Claude 등 AI 에이전트에 편집을 맡길 수 있으며 , 열린 프로젝트에서 변경 내용을 확인하고 각 편집을 개별적...",
+      "oneLineKo": "AI 에이전트 편집 지원 오픈소스 멀티트랙 오디오 편집기",
+      "summaryKo": "Audionaut은 음악, 팟캐스트, 멀티트랙 녹음을 위한 무료 오픈소스 오디오 편집기로, 복잡한 음악 제작 기능 대신 필요한 구간을 자르고 조합하는 작업에 집중한다. MCP를 통해 Claude 같은 AI 에이전트에게 편집 작업을 맡길 수 있다. 열린 프로젝트에서 변경 내용을 확인하고 각 편집을 개별적으로 검토할 수 있는 기능을 제공한다.",
+      "tags": [
+        "audio-editor",
+        "open-source",
+        "ai-agent"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49933740",
+      "title": "With most information hidden, the game Stratego had stumped AI until now",
+      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49933740",
+      "publishedAt": "2026-10-02T14:11:24Z",
+      "score": 166,
+      "comments": 81,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.nature.com&#x2F;articles&#x2F;s41586-026-11036-y\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nature.com&#x2F;articles&#x2F;s41586-026-11036-y</a><p><a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2511.07312\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2511.07312</a>",
+      "oneLineKo": "AI, 정보 은닉 게임 스트라테고 최고수 격파",
+      "summaryKo": "불완전 정보 게임인 스트라테고는 상대의 말이 보이지 않아 AI가 정복하기 어려운 영역으로 남아있었다. 이번에 새로운 AI 시스템이 역대 최고 수준의 인간 스트라테고 플레이어를 상대로 승리를 거두며 이 난제를 돌파했다. 연구팀은 상대적으로 적은 컴퓨팅 자원으로 이를 달성했다고 밝혔으며, 관련 연구는 Nature와 arXiv에 게재되었다.",
+      "tags": [
+        "ai",
+        "game-ai",
+        "reinforcement-learning"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34690",
+      "title": "정보 대부분이 숨겨진 게임 Stratego, 이제야 AI가 벽을 넘었다",
+      "url": "https://news.hada.io/topic?id=34690",
+      "commentsUrl": "https://news.hada.io/topic?id=34690",
+      "publishedAt": "2026-10-03T08:52:28+09:00",
+      "snippet": "Ataraxos 가 역대 최고 Stratego 선수로 꼽히는 Pim Niemeijer를 상대로 15승 1패 4무 를 기록함 상대 기물의 정체를 추정하는 별도 신경망인 믿음 모델(belief model) 을 도입해, 가능한 배치 일부를 표본으로 뽑고 수를 미리 탐색할 수 있게 함...",
+      "oneLineKo": "불완전정보 게임 Stratego, AI가 인간 최강자 제압",
+      "summaryKo": "AI 시스템 Ataraxos가 역대 최고 Stratego 선수로 꼽히는 Pim Niemeijer를 상대로 15승 1패 4무를 기록하며 압도적 성적을 거뒀다. 이 시스템은 상대 기물의 정체를 추정하는 별도의 신경망인 믿음 모델(belief model)을 도입해, 가능한 배치 중 일부를 표본으로 뽑아 수를 미리 탐색할 수 있게 한 것이 핵심이다. 체스나 바둑과 달리 정보 대부분이 숨겨진 Stratego 같은 게임에서 AI가 인간을 넘어선 사례로 주목받는다.",
+      "tags": [
+        "ai",
+        "game-ai",
+        "reinforcement-learning"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49927754",
+      "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+      "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49927754",
+      "publishedAt": "2026-10-01T22:23:07Z",
+      "score": 475,
+      "comments": 214,
+      "snippet": "Court Agrees with EFF: Utah’s VPN Law Demands a Technical Impossibility | Electronic Frontier Foundation Skip to main content About Contact Press People Opportunities Issues Free Speech Privacy Creativity and Innovation Transparency International Security Artificial Intelligence Our Work Deeplinks Blog Press Releases Events Legal Cases Whitepapers Podcasts Annual Reports Take Action Action Center Volunteer Follow EFF Tools Privacy Badger Surveillance Self-Defense Certbot Atlas of Surveillance Cover Your Tracks Street Level Surveillance apkeep Shop Donate Donate to EFF Shop Giving Societies Sponsorships Other Ways to Give Membership FAQ Email updates on news, actions, and events in your area. Join EFF Lists Copyright (CC BY) Trademark Privacy Policy Thanks Electronic Frontier Foundation Donate If you use technology, this fight is yours. Donate today EFFecting Change: Protect the Vote on October 8 Electronic Frontier Foundation About Contact Press People Opportunities Issues Free Speech Privacy Creativity and Innovation Transparency International Security Artificial Intelligence Our Work Deeplinks Blog Press Releases Events Legal Cases Whitepapers Podcasts Annual Reports Take Action Action Center Volunteer Follow EFF Tools Privacy Badger Surveillance Self-Defense Certbot Atlas of Surveillance Cover Your Tracks Street Level Surveillance apkeep Shop Donate Donate to EFF Shop Giving Societies Sponsorships Other Ways to Give Membership FAQ Court Agrees with EFF: Utah’s VPN Law Demands a Technical Impossibility DEEPLINKS BLOG By Rindala Alajaji October 1, 2026 Court Agrees with EFF: Utah’s VPN Law Demands a Technical Impossibility Español When state lawmakers attempt to rewrite how the internet works, users rely on courts to recognize that laws can’t make technical impossibilities a reality. That’s why we were happy to see that a court has blocked Utah’s attempt to outlaw the privacy protections of Virtual Private Networks (VPNs). In a win for digital rights, a federal judge has issued a preliminary injunction blocking Utah’s SB 73, the state’s draconian anti-VPN age verification law . The decision comes as EFF submitted our comments to the Utah Department of Commerce, detailing how forcing platforms to detect and block privacy-preserving tools undermines user privacy and security worldwide while demanding the impossible. What SB 73 Does Signed into law earlier this year , SB 73 attempted to regulate adult websites by requiring them to block VPN users or to identify the physical location of visitors using them or similar tools that mask their network traffic. It even went so far as to prohibit websites from offering instructions on how to use a VPN to bypass these checks. This made Utah, to EFF’s knowledge, the first state in the nation to target the use of VPNs to avoid legally mandated age-verification gates. The Utah federal court halted enforcement of the law's VPN provisions last week, r uling that the law likely violates the U.S. Constitution’s pr",
+      "oneLineKo": "법원, 유타주 VPN 차단법에 가처분 결정",
+      "summaryKo": "유타주의 SB 73 법안은 성인 웹사이트에 VPN 사용자를 차단하거나 실제 위치를 식별하도록 요구하고, VPN 우회 방법 안내도 금지했다. 연방법원은 이 법이 기술적으로 불가능한 요구를 하며 헌법을 위반할 가능성이 높다고 판단해 VPN 관련 조항의 시행을 임시 중단시켰다. EFF는 이번 판결을 프라이버시 보호 기술에 대한 중요한 승리로 평가했다.",
+      "tags": [
+        "vpn",
+        "privacy",
+        "legislation"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34673",
+      "title": "AI는 나를 슬프게 한다",
+      "url": "https://news.hada.io/topic?id=34673",
+      "commentsUrl": "https://news.hada.io/topic?id=34673",
+      "publishedAt": "2026-10-03T01:43:09+09:00",
+      "snippet": "AI 덕분에 좋은 일자리를 얻을 수 있더라도, 코드를 직접 만드는 대신 에이전트에 지시하는 일을 하고 싶지는 않음 . 기술과 통제권, 창의성을 잃는 듯한 감각이 있음 개발 역량으로 창업하려던 꿈도 흔들림. 누군가 30초짜리 프롬프트로 복제할 수 있는 회사 를 만드...",
+      "oneLineKo": "AI 코딩 에이전트에 느끼는 상실감과 회의감",
+      "summaryKo": "글쓴이는 AI 덕분에 좋은 일자리를 얻을 수 있어도, 직접 코드를 짜는 대신 에이전트에 지시만 하는 역할에는 만족감을 느끼지 못한다고 말합니다. 이는 기술과 통제권, 창의성을 잃는 듯한 느낌으로 이어지며, 개발 역량을 바탕으로 창업하려던 꿈도 흔들리게 됩니다. 누군가 짧은 프롬프트만으로 자신의 아이디어나 회사를 쉽게 복제할 수 있다는 점이 특히 불안감을 키운다는 개인적 소회를 담고 있습니다.",
+      "tags": [
+        "ai",
+        "coding-agent",
+        "developer-experience"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49933235",
+      "title": "The Legend of von Neumann (1973) [pdf]",
+      "url": "https://gwern.net/doc/math/1973-halmos.pdf",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49933235",
+      "publishedAt": "2026-10-02T13:18:32Z",
+      "score": 236,
+      "comments": 138,
+      "snippet": "%PDF-1.7 %���� 4 0 obj > stream x��][�\u001d��>��\u0005 � �c\u0002�g�wr���%�aǎ5���_Όf�Y�E���ʯߪb7�\u0015��$\u001bA�\u0002U5�b�� 9��L{s2����\u0017��c:y���\u0017F��d������)�c9)�RJ:9�|a�S���d'�ڽ?�SٛlONo^����\u0017ڝ�^��ܝ������d�����+�?��%ҿ��,Ӿ�i���Ľ�����W��M���I��īI�!�W���OSX�=� �'�F�|�ڷSܧ���4�v��>���L,�$�,�i\u001f�dL\\�\u0012�>ؓ�\u0013}�Տ���/뎉ֽ�Ʋ\u001f(\\(I�>7�d3\u0012��\u0019}K��~�z�����dӲ\u001a��$a����v�fw�;П���|�M`!�K�\\?\u0011�������~�@{�}��C_�S�˗\"mr���h��u�V������S��O�!��ϓ� �\u0013��\"�Ʌ����OY\u0013��������1|��\u0006�\\\u001f��a�&QLƷ ��@�C�I��N&'���g$���5���~l�.�ǶK�ly�\u0010/���t1��jw>c�B\"�Ʀ�A�Y/�\u001d�m9j����W�~c�74��q:>m\u0013��#2H��8����ijja)��v��H*�9�e3\u001fE0g�S�6Y� ��\\�}��YM�@��^��9���n.��KW�e��G���\u0019R�����cj\u001f )�rR�D&�-&���.��\u001bW��a\u001f�Y��\u001d}�-��S\u001a�=��bY#\u0019[�_G\u0001E�\u0000��afC�$����4�n��\\\u0017�T�o��\u0006�\\���\u0001���\u0016L�yc:o^3�=h��J����z+\u0007\u0001�\u0017����t*�i)\u0015*ɻ\\�2;�\u001a�\"F#}�\u001d_�B(\"/&�9��\u001cLk M�\u0019A6�㐸��\u0010�j (f\u0003I��\\nD��Ǎ!\u0014��Z��%\u001d ��_O\u0019�2I�� \u0012?�\u0015?��P\u0006#\u001a��2�\u0012g���h�m�:ș�>jҋ�c��U\u001b�p\u0014�@�\u0017�\u0012Ԩ\u0016}�\u0004^Ce�ob{\u00129w��K\\���'�L��\u000fƘ��5f\u0012�BZ�\u001bȁMm>�U���g��\u001d�x�\u0001�ED9]H��,���Lp�\"�H*��y5��fw\u0019�\u0007�\u0017k��]�M;\u0007�����ݰ��-��\b�\u0010��\u0018&\u001aq�H��d�F���(�'p��� �����K\u0013\u0011�cW�> 2\u001d\\ A�f�C�;O\\f ��^ �z\u0000`D����D\u000e���b�×�\u00155L��y$� ݋�nv3�\u0016!\u0019#j�8\u001e\u0006�cj�Ԑ�\b\u0003=�t �\u0005A\u0018�qaX�\u0001L^�\u0007& �� ��&O�\u0006�S\u0012�\u001d��\u000eg�H�^�~C�\u001fhR\u000f��d:��U���M�\\�\u0005d\u0000\u000eJ� �^\u000f�\u001c�{�때Ҩ��4�`5DU��M��(v\u001e%�TOɖ�-\u000eh�e[�a�f� �ā�L��8\u0017�\u0019݅��\u0016+D c$G\u0001F�\u0000M�S�[���|?\u001b�\u001a\u00186d��̧�L�b��B�\u0005\u001a4��\"�\u0011E��K \u0014���b��fx����� ���4x�'9\u0019ȁ\u0007�\u0006�csF�Y��T�D� \u0006�7D�N\bI\\1] �n!E�H�M��Q5v\\\u0002�\u0010kz�b���RQ)\u0010�B��Jh!��l�\u0006���w����Qe��@Q �g)�\u0001��F�K,B�ھ f�����7\u0002\u0007t��\u000e��\u001a\u0005yяk9�|���\u001d��V� �\u001d9o��#9�����\u00175G� ;�m{o&n\"A�w��� u�~R��\u0005\u0005/uH�ѐ�Hބk�z(m.9zm�o�2\u000e\u0012w��0^�vHRL�\u0019x:��At�'���$�� W�k6�7��> � �]��!�i�ĀY�A����Q|���C\u0017�\u0006ޏ�\u0010�\u0016���i� ��� k��ۀ�i@3>5�T��q\u001bZ�1���M�\b�c�\"�\u0000�Al��b3����\u0017h?\bu�@�ؖ@m\u001c�u���i��[s��Ȫ\u0000�z�\\ϬI\u001d\u00189��g�( \u0012H>4\u0003R��Mou�@� =v�\u0018��}cP��7�\u001d���@�[݆��]��\u0016N�~�˟���f����mVs\u001b���n7-\\&7�%\u0001�\u0007\u001c�� cџ�\u0001:\u0012j��R�ܛzF��|�����mr1 �uH�R\u000e���K�sd��u�L������>5��W*\u001b�Mo eP\u0018��>@�\u0005�:�?F��H�NE\u001c���rV �^S�r%��{PQ��:U\u0015\u0005�_�\u001d,� �&��^�`c+=�,Z\u0007l?Ϛ�I;5\u0012���z$n ]�'+ޯ\u001bTEG⣥��S�\u0010��n\"�x�\u0000*\u0007ٓinq��.-�� ٠;\u0010�j��Յ ǝ\u0006>�h\u0011�0� B�븥K\u0013\u000f)S�o�q�VS��.Ӛ8�V����|e��q>g:+���\u000f5ʨ\u001a^����O�8�\u0019�d�\u0003��� � �x��m+j$\u001a#�l\u0007\u0001��\u0001O�F\u0001^V�_��\u001b�1 �g�4�I�T\u0005���a�-\u0011�!USԵ#�ӻ�fMiW�\b�w�c\u001c�%���l�v#3�m5�!�ݓ���h��`��;��@��)A��M\u0019�(���V4IA��/���\u000e\u000e��\u001b�0,\u001f�\u0007�ȁ\u0016\u0016�BѴ7sHt�\u0003a�b$,��ti���K�KV\u00166��x�W�|��wp�\u0004�Ӣ�|J�L*\u0006�>����B�W�ֵ?�Nwՠf\u001c�N�t&�x@M�΃��a� 9�:�#\u0004ݤd��G�2�%�\u001bH �X# ي~��m�b��\"���l�#$у��pF��H��{���Ku��\u0013��\u001f4����]v��V�B-��4�C\u0007ݨ��Յ6�V����1�}v�%��j2Dc���� �\u000e���(>��\u0000 EWRLU�gҖ���\u001eӁ�}+\u001e�Ygm�UJB 6\u001fv�P�tҖ;lڍ���\u000e�5å�#��\u001e�si��R\u0018#���I��\u0015��bv\u0001\u0001�\u001b��\u000eN��9�Jn ���A 鲰)�,Vb�N\u0006Qѿ�Ct�u�L��:�9=�\u0006�s��5YѶ&v7��5f�3\u0004����[��j�\"G�g��%J\u001f��i���v[����}D�?�!_�#P���9\u0015�!��m?�1�^�\u000e�K��\u0017��\u001a\u0016p���Ǫl�Ά\u001e�Qd8.�v�i��� B.�\u0014��\u0011��j �� r &�i �QP�z\u0014�P冞!c�&]�_���i�w�k�� ��bg��\u0016 i��� \\�:����B7�� �*���y4+�.�.{űQ �\u0003`�(52|C\u001f�\u0016ځ��wa�M�B\u000e�\u0019�c���\u000f�\u0019r��\u001a3>���qZm\u0018h\u0005Y�~/L�\u0015�V�]�፽;�H��G���\\?L�x�\b�\u001d_�\u0019w� u��9mq�r;!�^>�d�\u0005�� �E�\u0017\u0003s'�r'm}=��`�ąБ\u0011�\u0016ٔ���-6\u0012���{���\u0003��\u0018N'F͉.�\u0014tA\u0015� ���] ��{X\u001a��W1����K��\u001aruo�+�$W�\u0015�w]/=��`2e\\��pб��G�\u0015 iO�\u0014}���N.W!-�J� �\u0013㤫F}�Gi���\u000eڶ��:E�l�Jj���@��\u0016�E��?\u00173Ȟ���z���36�o\u001eGi^�٪�$@\u0010 �^ɭ\u0006d��A0�\u0015n;x�E��Hi�v!���\u001b�P�qE^\u001b��}� *�#�� Q�hv9Q��\u0011��_E��|�k��i�\u0014��\u0002 d�\u0012�a�\u001f��p9\u0017-�f%�ZO;&i�\u001adЋ{�t����k",
+      "oneLineKo": "1973년 Paul Halmos가 쓴 폰 노이만 전기 PDF",
+      "summaryKo": "이 문서는 수학자 Paul Halmos가 1973년에 작성한 존 폰 노이만(John von Neumann)에 대한 전기적 글을 PDF로 제공합니다. gwern.net에 아카이빙된 자료로, 폰 노이만의 생애와 업적을 다룬 고전적인 글로 알려져 있습니다. 본문 내용은 PDF 바이너리 데이터만 제공되어 구체적 세부 내용은 확인할 수 없습니다.",
+      "tags": [
+        "von-neumann",
+        "history",
+        "mathematics"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34665",
+      "title": "arXiv, AI 논문 제출 급증에 제출자당 월 2건으로 제한",
+      "url": "https://news.hada.io/topic?id=34665",
+      "commentsUrl": "https://news.hada.io/topic?id=34665",
+      "publishedAt": "2026-10-02T19:33:53+09:00",
+      "snippet": "arXiv가 2026년 10월 1일부터 제출자당 월 최대 2건 으로 논문 제출을 제한하며, 동시에 진행 중인 제출은 기존처럼 최대 3건까지 허용함 AI 도구로 저품질 논문을 대량 제출하기 쉬워지면서, 자원봉사 검토자의 부담과 다른 연구자의 공개 지연 을 줄이기 위한 임시...",
+      "oneLineKo": "arXiv, AI논문 급증에 월 2건 제출 제한 도입",
+      "summaryKo": "arXiv가 2026년 10월 1일부터 제출자당 월 최대 2건으로 논문 제출을 제한한다. 동시에 진행 중인 제출은 기존처럼 최대 3건까지 허용된다. 이는 AI 도구로 저품질 논문을 대량 제출하는 사례가 늘면서 자원봉사 검토자의 부담과 다른 연구자의 공개 지연을 줄이기 위한 임시 조치다.",
+      "tags": [
+        "arxiv",
+        "ai",
+        "academic-publishing"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49925184",
+      "title": "Mike Tomlin spent 12 years building a Minecraft city",
+      "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49925184",
+      "publishedAt": "2026-10-01T18:20:18Z",
+      "score": 235,
+      "comments": 62,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;Kv6yS\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;Kv6yS</a><p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_h_pQ1-5iQg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_h_pQ1-5iQg</a><p><a href=\"https:&#x2F;&#x2F;www.theguardian.com&#x2F;sport&#x2F;2026&#x2F;oct&#x2F;01&#x2F;mike-tomlin-minecraft-city\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theguardian.com&#x2F;sport&#x2F;2026&#x2F;oct&#x2F;01&#x2F;mike-tomlin-mi...</a>",
+      "oneLineKo": "마이크 토믈린, 12년간 마인크래프트 도시 건설",
+      "summaryKo": "NFL 감독 마이크 토믈린이 12년에 걸쳐 마인크래프트 안에 하나의 도시를 건설한 사실이 보도되었다. 기사 본문은 제목과 관련 기사 링크(아카이브, 유튜브, 가디언) 위주로 구성되어 있다. 구체적인 건설 과정이나 세부 내용은 본문에서 확인되지 않는다.",
+      "tags": [
+        "minecraft",
+        "gaming"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49927747",
+      "title": "Sites in ChatGPT",
+      "url": "https://chatgpt.com/features/sites/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49927747",
+      "publishedAt": "2026-10-01T22:22:21Z",
+      "score": 200,
+      "comments": 213,
+      "oneLineKo": "ChatGPT, 'Sites' 기능 공개",
+      "summaryKo": "OpenAI가 ChatGPT 내에서 'Sites'라는 새로운 기능을 공개했습니다. 공식 소개 페이지만 공개된 상태로 구체적인 본문 내용은 제공되지 않았습니다. 제목으로 미루어 볼 때 ChatGPT 플랫폼 내에서 웹사이트 관련 기능을 제공하는 것으로 추정됩니다.",
+      "tags": [
+        "chatgpt",
+        "openai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49928566",
+      "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+      "url": "https://stillwet.art/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49928566",
+      "publishedAt": "2026-10-02T00:27:56Z",
+      "score": 189,
+      "comments": 61,
+      "snippet": "stillwet stillwet the studio, live ▶ Summer Evening on the Meadows before the Town Claude Opus 5.5, after Caspar David Friedrich. The model wrote every brushstroke as code and a simulation of oil paint carried them out, replayed here sped up. No image generator. Watch live → Favorites All 75 paintings · What we noticed Winter Evening with a Ruined Choir Round 2 · Claude Opus 5.5, high reasoning ▶ Watch it being painted The thing about round two is that it almost moved something in me, especially the winter one. Alice, who runs the project Judging blind, three AI painters each ranked it above their own. Between Customers Round 20 · GPT-6.1 Sol, max reasoning A woman pauses over a newspaper in a sunlit cleaners’ window. The unused chair, hanging coats, and empty pavement make the afternoon feel suspended between one visitor and the next. the painter, in its reply at the end of its last sitting A studio for painting in Edward Hopper’s manner, with only pigments he is documented using; one painter, GPT-6.1 Sol, on its launch day. Ploughed field before Greifswald, October morning Round 14 · Claude Opus 5.5, high reasoning ▶ Watch it being painted I kind of like it Alice, who runs the project Why it has no Friedrich motifs: in effect a prompting error. Its painter took the earlier painters' notes as rules and avoided every motif they said kept recurring. Self-Portrait with Palette Round 19 · Claude Sonnet 5, high reasoning The likeness is plain and direct, more mood and atmosphere than exact resemblance — fitting, I think, for a painter working without a mirror or a photograph, only a memory of a face. the painter, in its reply at the end of its last sitting Stoneware Jug with Two Lemons and a Knife Round 16 · Claude Opus 5.5, high reasoning ▶ Watch it being painted It's a quiet still life in the manner of Chardin. … The jug's shadow side is mottled like salt glaze; it's made of thin umber glazes over dry light paint, blended only within the shadow half. the painter, in its report at the end of the session Evening Tide, Barge off the Marsh Round 17 · Claude Opus 5.5, high reasoning ▶ Watch it being painted One of three free-subject painters in round 17; all three chose an estuary at evening. Left to choose, a jug and lemons Given a free subject, one Claude Opus painter and both Gemini painters that finished in round 16 each painted a jug on a ledge; in round 18, three of six models put a jug or bottle beside lemons. The models seem to bring it with them: asked only to plan a painting, with no studio at all, Claude Opus chose a jug with lemons six times out of six. Stoneware Jug with Two Lemons and a Knife Round 16 · Claude Opus 5.5, high reasoning ▶ Watch Quince, Stoneware Pitcher, and Bay Leaves on a Wooden Ledge Round 16 · Gemini 3.8 Flash, high reasoning ▶ Watch Still Life with Terracotta Jug and Quince Round 16 · Gemini 3.8 Flash, high reasoning ▶ Watch White Jug with Two Lemons Round 18 · MiMo v2.6 Pro, medium reasoning ▶ Watch Still Life with a D",
+      "oneLineKo": "AI가 코드로 붓질을 써서 가상 유화 캔버스에 그림 그리기",
+      "summaryKo": "이 프로젝트는 Claude Opus, GPT, Gemini 등 여러 LLM에게 이미지 생성기 없이 코드로 붓질을 작성하게 하고, 이를 유화 물감 시뮬레이션으로 실행해 그림을 완성시킨다. 프리드리히, 호퍼, 샤르댕 등 거장의 화풍을 모방한 다양한 라운드의 작품들이 공개되며, 모델별 화풍 차이와 반복되는 모티프(항아리와 레몬 등) 같은 흥미로운 경향도 관찰됐다. 블라인드 평가에서 AI 화가들이 서로의 작품을 평가하는 실험도 포함돼 있다.",
+      "tags": [
+        "llm",
+        "generative-art",
+        "simulation"
+      ]
+    }
+  ]
+}

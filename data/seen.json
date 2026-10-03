@@ -1,117 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=33103",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "news.hada.io/topic?id=33103",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49525378",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "anthropic.com/claude-fable-and-mythos-5-1",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33126",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "news.hada.io/topic?id=33126",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49526069",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "danluu.com/zitron",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33119",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "news.hada.io/topic?id=33119",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49522897",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "news.ycombinator.com/item?id=49522897",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33129",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "news.hada.io/topic?id=33129",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49520022",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "github.com/ankidroid/Anki-Android/issues/21656",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33121",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "news.hada.io/topic?id=33121",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49519939",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "mvakde.github.io/blog/44-on-arc-1",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33110",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "news.hada.io/topic?id=33110",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49523754",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "gitlab.com/AuroraOSS/AuroraStore/-/work_items/1566",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49493468",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "simpleflying.com/american-airlines-mechanic-passes-away-100-record-80-years",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49521973",
-    "date": "2026-09-02"
-  },
-  {
-    "id": "blog.mozilla.org/en/firefox/ad-blocker-on-ios",
-    "date": "2026-09-02"
-  },
-  {
     "id": "https://news.hada.io/topic?id=33138",
     "date": "2026-09-03"
   },
@@ -3486,5 +3374,133 @@
   {
     "id": "nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
     "date": "2026-10-02"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34683",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "news.hada.io/topic?id=34683",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49929391",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "youtube.com/watch?v=NnV_cWeoo5Q",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "t3_1ww842a",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1ww842a/input_typepassword_maxlength20_is_considered",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34655",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "news.hada.io/topic?id=34655",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49936575",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "dwarfstar.sh",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "t3_1ww6bea",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1ww6bea/0170_release_notes_%C3%A2_the_zig_programming_language",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34682",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "news.hada.io/topic?id=34682",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49933740",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34690",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "news.hada.io/topic?id=34690",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49927754",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34673",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "news.hada.io/topic?id=34673",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49933235",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "gwern.net/doc/math/1973-halmos.pdf",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34665",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "news.hada.io/topic?id=34665",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49925184",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49927747",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "chatgpt.com/features/sites",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49928566",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "stillwet.art",
+    "date": "2026-10-03"
   }
 ]
