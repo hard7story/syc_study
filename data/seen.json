@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=33138",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "news.hada.io/topic?id=33138",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49536375",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "trellner.com/reports/manufactured-sources-behind-ai-recommendations",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "t3_1w4mvwq",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1w4mvwq/how_do_hashmaps_work_under_the_hood_putting",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33170",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "news.hada.io/topic?id=33170",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49537553",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "t3_1w5gtxg",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1w5gtxg/postgres_calculations_and_the_ambiguity_of_null",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33164",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "news.hada.io/topic?id=33164",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49535284",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33161",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "news.hada.io/topic?id=33161",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49533497",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "dfarq.homeip.net/commodore-64-released-september-1-1982",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33151",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "news.hada.io/topic?id=33151",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49536079",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33145",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "news.hada.io/topic?id=33145",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49537131",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49536606",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "turtlespace.blog/p/exit-the-cave",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49535548",
-    "date": "2026-09-03"
-  },
-  {
-    "id": "studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds",
-    "date": "2026-09-03"
-  },
-  {
     "id": "https://news.hada.io/topic?id=33182",
     "date": "2026-09-04"
   },
@@ -3502,5 +3374,133 @@
   {
     "id": "stillwet.art",
     "date": "2026-10-03"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34734",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "news.hada.io/topic?id=34734",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49946567",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "claude.dev/blog/getting-the-most-out-of-opus-5-5",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "t3_1wx02m9",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1wx02m9/from_ssh_to_rest_a_securitydriven_modernization",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34705",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "news.hada.io/topic?id=34705",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49942706",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "t3_1wwfp40",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1wwfp40/skip_list_data_structure",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34724",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "news.hada.io/topic?id=34724",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49946393",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "notoriousbfg.com/hole-punch",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34723",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "news.hada.io/topic?id=34723",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49948254",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34716",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "news.hada.io/topic?id=34716",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49944912",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "ftl-os.org",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34715",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "news.hada.io/topic?id=34715",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49923873",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "whec.com/top-news/webster-man-celebrating-the-100th-birthday-of-the-kidney-his-mom-donated-to-him-as-a-teenager",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49938399",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "darbiansphotography.com/woking-electrical-control-room-urbex",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49947051",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "blog.cloudflare.com/next-git-platform-on-cloudflare",
+    "date": "2026-10-04"
   }
 ]
