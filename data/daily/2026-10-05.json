@@ -1,0 +1,279 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T00:20:07.302Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34752",
+      "title": "Claude Code 스킬 패턴 — 반복 작업을 재사용 가능한 스킬로 설계하는 법과 실무에서 쌓으며 배운 것",
+      "url": "https://news.hada.io/topic?id=34752",
+      "commentsUrl": "https://news.hada.io/topic?id=34752",
+      "publishedAt": "2026-10-04T16:06:36+09:00",
+      "snippet": "Claude Code 스킬을 설계하는 원칙과, 여러 스킬을 실제 개발 흐름에서 같이 쓰면서 확인한 점을 정리했습니다. 스킬의 description 은 설명문이 아니라 트리거 . \"무엇을 하는가\"보다 \"언제 써야 하는가\"를 적어야 에이전트가 제때 고름 본문",
+      "oneLineKo": "Claude Code 재사용 스킬 설계 원칙 정리",
+      "summaryKo": "Claude Code의 스킬을 설계하는 원칙과 여러 스킬을 실제 개발 흐름에서 함께 사용하며 얻은 경험을 정리한 글입니다. 스킬의 description은 단순 설명문이 아니라 에이전트가 적절한 시점에 스킬을 선택하도록 돕는 트리거 역할을 해야 한다고 강조합니다. 즉 ",
+      "tags": [
+        "claude-code",
+        "llm",
+        "agent"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49952111",
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "url": "https://github.com/allenv0/SCM",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49952111",
+      "publishedAt": "2026-10-04T09:24:52Z",
+      "score": 135,
+      "comments": 64,
+      "snippet": "GitHub - allenv0/SCM: Deep AI search for every photo and every frame of video in any folder on macOS · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} allenv0 / SCM Public Notifications You must be signed in to change notification settings Fork 13 Star 247 Code Issues 0 Pull requests 0 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights main Branches Tags Go to file Code Open more actions menu Latest commit History 8 Commits 8 Commits Folders and files Name Name Last commit message Last commit date .github/ workflows .github/ workflows Asset Asset indexer indexer main-lib main-lib public public scripts scripts src src test test .gitignore .gitignore .prettierignore .prettierignore .prettierrc .prettierrc LICENSE LICENSE README.md README.md bun.lock bun.lock eslint.config.js eslint.config.js index.html index.html main.js main.js package.json package.json postcss.config.js postcss.config.js preload.js preload.js screenshot-probe.js screenshot-probe.js tailwind.config.js tailwind.config.js ts",
+      "oneLineKo": "macOS용 사진·동영상 전체 프레임 AI 검색 도구 공개",
+      "summaryKo": "allenv0가 GitHub에 공개한 SCM은 macOS의 모든 폴더에서 사진과 동영상의 모든 프레임을 대상으로 AI 기반 검색을 수행하는 오픈소스 프로젝트입니다. 텍스트 쿼리로 이미지와 비디오 콘텐츠를 딥 서치할 수 있도록 설계되었습니다. 저장소에는 인덱서, 메인 라이브러리 등 관련 소스코드와 스크립트가 포함되어 있습니다.",
+      "tags": [
+        "macos",
+        "ai-search",
+        "video-indexing"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wxoefa",
+      "title": "\"8-pinski\" - EIGHT(!) bytes intro for MSDOS",
+      "url": "https://www.reddit.com/r/programming/comments/1wxoefa/8pinski_eight_bytes_intro_for_msdos/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wxoefa/8pinski_eight_bytes_intro_for_msdos/",
+      "publishedAt": "2026-10-04T19:34:01+00:00",
+      "snippet": "submitted by /u/double-happiness [link] [comments]",
+      "oneLineKo": "단 8바이트로 만든 MS-DOS 데모 '8-pinski'",
+      "summaryKo": "MS-DOS용 초소형 데모 프로그램인 '8-pinski'가 단 8바이트 크기로 제작되어 화제가 되고 있습니다. 이는 극도의 용량 제한 속에서 그래픽 효과를 구현하는 '사이즈코딩(size coding)' 문화의 산물입니다. Reddit 프로그래밍 커뮤니티에 공유되며 개발자들의 관심을 끌고 있습니다.",
+      "tags": [
+        "sizecoding",
+        "msdos",
+        "demoscene"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34783",
+      "title": "Offrun - 모든 코딩 에이전트를 하나의 작업 공간에서 관리",
+      "url": "https://news.hada.io/topic?id=34783",
+      "commentsUrl": "https://news.hada.io/topic?id=34783",
+      "publishedAt": "2026-10-05T07:40:19+09:00",
+      "snippet": "기존 구독과 계정으로 Claude Code, Codex, Antigravity, Grok Build를 한 작업 공간에서 병렬 실행 하는 Mac용 앱 에이전트마다 별도의 Git worktree와 브랜치 를 만들어, 같은 저장소에서 리팩터링과 버그 수정 등을 서로 독립적으로 진행 다른 에...",
+      "oneLineKo": "여러 코딩 에이전트 병렬 관리하는 Mac 앱 출시",
+      "summaryKo": "Offrun은 Claude Code, Codex, Antigravity, Grok Build 등 다양한 코딩 에이전트를 기존 구독과 계정 그대로 활용해 하나의 작업 공간에서 병렬로 실행할 수 있는 Mac용 앱이다. 각 에이전트마다 별도의 Git worktree와 브랜치를 생성해, 같은 저장소 내에서 리팩터링과 버그 수정 등의 작업을 서로 독립적으로 진행할 수 있도록 지원한다. 이를 통해 여러 AI 코딩 도구를 동시에 활용하면서도 작업 충돌 없이 효율적으로 관리할 수 있다.",
+      "tags": [
+        "coding-agent",
+        "git",
+        "macos"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49949438",
+      "title": "Tell HN: Bob Cringely has died",
+      "url": "https://news.ycombinator.com/item?id=49949438",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49949438",
+      "publishedAt": "2026-10-04T00:50:52Z",
+      "score": 798,
+      "comments": 173,
+      "snippet": "I heard from a friend of the family that Bob passed away in his sleep early Saturday. Very sad news. Bob, who&#x27;s real name was Mark Stevens, was an early employee of Apple and was best known for his PBS documentaries, especially &quot;Triumph of the Nerds&quot;. He will be missed.",
+      "oneLineKo": "IT 저널리스트 밥 크링리 별세",
+      "summaryKo": "PBS 다큐멘터리 'Triumph of the Nerds'로 유명한 밥 크링리(본명 마크 스티븐스)가 토요일 새벽 잠든 사이 세상을 떠났다는 소식이 전해졌다. 그는 애플의 초창기 직원이기도 했으며, 실리콘밸리와 컴퓨터 산업사를 다룬 다큐멘터리로 널리 알려졌다. 그의 별세 소식은 가족의 지인을 통해 전해졌다.",
+      "tags": [
+        "apple",
+        "documentary",
+        "tech-journalism"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wxr63h",
+      "title": "Your Xiaomi phone may be sending you phishing notifications.",
+      "url": "https://www.reddit.com/r/programming/comments/1wxr63h/your_xiaomi_phone_may_be_sending_you_phishing/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wxr63h/your_xiaomi_phone_may_be_sending_you_phishing/",
+      "publishedAt": "2026-10-04T21:30:23+00:00",
+      "snippet": "TLDR: the ads on Xiaomi phone can imitate icons of apps you already have installed. In my case some phishing \"spotify casino\" app was shown as if it was a legit notification. This fake notification lead to the actual spotify app settings when clicking 'more' on the notifications. It seems that MIUI has some whitelisted apps (i.e their system ads application ) that can show notifications on behalf of other apps submitted by /u/Cload_ [link] [comments]",
+      "oneLineKo": "샤오미 MIUI, 정상 앱 위장한 피싱성 광고 알림 발견",
+      "summaryKo": "샤오미 스마트폰의 MIUI 시스템이 이미 설치된 앱의 아이콘을 흉내 낸 광고 알림을 표시하는 사례가 보고됐다. 한 사용자는 'Spotify 카지노'라는 가짜 알림이 실제 Spotify 앱처럼 보였고, 알림의 '더보기'를 누르면 실제 Spotify 설정 화면으로 연결됐다고 밝혔다. 이는 MIUI 시스템 광고 애플리케이션 등 일부 화이트리스트 앱이 다른 앱을 사칭해 알림을 표시할 수 있기 때문으로 추정된다. 이로 인해 사용자가 피싱성 알림을 정상 알림으로 오인할 위험이 있다.",
+      "tags": [
+        "xiaomi",
+        "miui",
+        "phishing"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34756",
+      "title": "Ask GN: 코딩 에이전트 뭐 쓰고 계세요? 고른 이유가 궁금합니다",
+      "url": "https://news.hada.io/topic?id=34756",
+      "commentsUrl": "https://news.hada.io/topic?id=34756",
+      "publishedAt": "2026-10-04T20:15:26+09:00",
+      "snippet": "저는 지금 Claude Code로 작업하고 있는데, 요즘 코딩 에이전트가 너무 많아져서 다른 것도 써봐야 하나 고민이 됩니다. 저는 코드를 직접 짜는 쪽이 아니라서 시킨 말을 잘 알아듣는지, 그리고 중간에 시키지 않은 파일을 멋대로 고치지 않는지가 제일 중요합니다. 그래서 세 가지가 궁금합니다. 첫째, 지금 어떤 코...",
+      "oneLineKo": "개발자들에게 코딩 에이전트 선택 이유를 묻는 질문글",
+      "summaryKo": "글쓴이는 현재 Claude Code를 사용 중이며, 코딩 에이전트가 급증하면서 다른 도구도 써봐야 할지 고민하고 있다. 지시사항을 잘 이해하고 임의로 다른 파일을 수정하지 않는지를 중요한 기준으로 꼽는다. 이에 따라 커뮤니티에 현재 사용 중인 코딩 에이전트와 선택 이유를 묻고 있다.",
+      "tags": [
+        "coding-agent",
+        "claude-code",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49953495",
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "url": "https://github.com/Niko1221/Strata",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49953495",
+      "publishedAt": "2026-10-04T12:51:53Z",
+      "score": 573,
+      "comments": 273,
+      "snippet": "GitHub - Niko1221/Strata: Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} Niko1221 / Strata Public Notifications You must be signed in to change notification settings Fork 963 Star 11k Code Issues 87 Pull requests 200 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights main Branches Tags Go to file Code Open more actions menu Latest commit History 845 Commits 845 Commits Folders and files Name Name Last commit message Last commit date .github .github bench/ results bench/ results cmake cmake data data docs docs include/ strata include/ strata ref ref serve serve src src sycl sycl tests tests third_party/ ggml third_party/ ggml tools tools .dockerignore .dockerignore .gitattributes .gitattributes .gitignore .gitignore AGENTS.md AGENTS.md CMakeLists.txt CMakeLists.txt Dockerfile Dockerfile LICENSE LICENSE README.de.md README.d",
+      "oneLineKo": "소비자용 GPU로 125B 모델 구동하는 추론 엔진 Strata",
+      "summaryKo": "Strata는 Qwen3.8-Flash-Next(125B) 모델을 RTX 4090 같은 소비자용 하드웨어에서 초당 약 100토큰으로 실행할 수 있다고 소개하는 오픈소스 추론 엔진입니다. Windows/Linux용 원클릭 설치를 지원하며, localhost에서 OpenAI 및 Anthropic 호환 API를 제공합니다. 이미지 입력 기능도 선택적으로 지원합니다. GitHub 저장소 설명을 기반으로 한 내용이며 성능 수치는 프로젝트 측 주장입니다.",
+      "tags": [
+        "llm",
+        "inference-engine",
+        "local-llm"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34766",
+      "title": "Pi pod - 자체 서버의 샌드박스에서 pi 코딩 에이전트 실행하기",
+      "url": "https://news.hada.io/topic?id=34766",
+      "commentsUrl": "https://news.hada.io/topic?id=34766",
+      "publishedAt": "2026-10-05T01:40:46+09:00",
+      "snippet": "pi 코딩 에이전트를 자체 서버의 격리된 작업 공간에서 실행 하고 터미널이나 휴대폰에서 접속하는 별도의 오픈소스 도구 CLI와 iOS·Android 앱 으로 서버의 에이전트 세션을 이용하며, 서버가 작업 공간의 생성과 실행, 세션 연결을 관리 이미 구성한",
+      "oneLineKo": "Pi 코딩 에이전트를 자체 서버 샌드박스에서 실행하는 오픈소스 도구",
+      "summaryKo": "Pi pod는 pi 코딩 에이전트를 자체 서버의 격리된 작업 공간(샌드박스)에서 실행할 수 있게 해주는 오픈소스 도구입니다. CLI와 iOS·Android 앱을 통해 터미널이나 휴대폰에서 서버에 접속해 에이전트 세션을 이용할 수 있습니다. 서버가 작업 공간의 생성, 실행, 세션 연결을 관리하여 로컬 환경 없이도 코딩 에이전트를 운영할 수 있도록 지원합니다.",
+      "tags": [
+        "coding-agent",
+        "sandbox",
+        "self-hosted"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49946895",
+      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49946895",
+      "publishedAt": "2026-10-03T19:14:48Z",
+      "score": 456,
+      "comments": 92,
+      "snippet": "The Amazing Work By Valve's Timur Kristóf On Improving Old AMD GPUs On Linux - Phoronix Articles & Reviews News Archive Forums Premium Ad-Free Contact Popular Categories Close Articles & Reviews News Archive Forums Premium Contact Categories Computers Display Drivers Graphics Cards Linux Gaming Memory Motherboards Processors Software Storage Operating Systems Peripherals The Amazing Work By Valve's Timur Kristóf On Improving Old AMD GPUs On Linux Written by Michael Larabel in Radeon on 3 October 2026 at 02:56 PM EDT. 20 Comments Over the past year Timur Kristóf of Valve's Linux graphics driver team has made multiple very nice improvements to the AMDGPU kernel driver for enhancing support for old (GCN 1.0/1.1 era from a decade ago) graphics cards so that they can better handle Linux gaming and other tasks. This week in Toronto, Kristóf presented on this AMDGPU work that he initially began as a kernel driver development exercise after initially spending years in user-space focused on the Mesa 3D driver code. Timur Kristóf has become a legend for those with old AMD GCN 1.0/1.1 graphics cards and APUs for transitioning them from the legacy Radeon driver over to the modern AMDGPU kernel driver, which unlocks being able to use the RADV Vulkan driver, better performance, and all-around better functionality than the legacy Radeon code. In the process he had to address defects in the AMDGPU display code for these legacy graphics cards along with various power management issues and more. Then he went on to improve these graphics cards further with soft reset support and other enhancements all to make these aging graphics cards more viable for Linux gaming use in 2026 and beyond. For getting an idea of the impact of transitioning the old Radeon graphics cards to AMDGPU, see last year's Linux 6.19's Significant ~30% Performance Boost For Old AMD Radeon GPUs . With AMD not devoting much resources to these aging graphics card driver improvements in years, Timur on Valve's Linux team really picked up the slack to make for a much better experience. For those wishing to hear him recount his efforts for improving AMD Radeon GCN 1.0/1.1 era graphics on Linux, embedded below is his XDC2026 presentation along with the PDF slides . The presentation also goes over his experiences in getting involved in AMDGPU kernel driver development and other tid-bits for those that may want to get involved with the open-source AMD Linux kernel driver development. 20 Comments Tweet Related News AMD Sends In More New GPU Hardware Enablement For Linux 7.4, Bug Fixes AMD Sends Out New Linux Patches Further Enhancing HDMI 2.1 Reliability AMD Begins Preparing Open-Source Linux Driver For Graphics Cards With GDDR7 AMD Sends In More HDMI FRL Updates For Linux 7.4, Fixes For Upcoming Hardware Patches Ready For AMDGPU HDMI 2.1 Enabled By Default With Linux 7.4 With FreeSync, VRR & ALLM Mesa 26.3 RADV + RadeonSI Ready With DRM Format Modifiers For Older AMD GPUs About The Author Michael Larabe",
+      "oneLineKo": "Valve 개발자, 구형 AMD GCN GPU 리눅스 지원 대폭 개선",
+      "summaryKo": "Valve의 리눅스 그래픽 드라이버 팀 소속 Timur Kristóf가 10년 전 GCN 1.0/1.1 세대 AMD 그래픽카드의 AMDGPU 커널 드라이버 지원을 크게 개선했다. 레거시 Radeon 드라이버에서 AMDGPU로 전환시켜 RADV Vulkan 드라이버 사용과 성능 향상을 가능하게 했으며, 디스플레이 결함과 전원 관리 문제, 소프트 리셋 지원 등을 추가했다. AMD가 구형 GPU 드라이버 개발에 자원을 거의 투입하지 않는 상황에서 Valve가 이를 주도적으로 개선한 사례로, XDC2026에서 관련 발표가 진행됐다.",
+      "tags": [
+        "amdgpu",
+        "linux",
+        "valve"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34757",
+      "title": "Show GN: cuesheet - 링크 하나로 MSW 응답을 바꿔, AI도 QA도 상황별 화면을 확인하는 도구",
+      "url": "https://news.hada.io/topic?id=34757",
+      "commentsUrl": "https://news.hada.io/topic?id=34757",
+      "publishedAt": "2026-10-04T21:21:06+09:00",
+      "snippet": "회사에서 새 서비스를 만들면서 프론트 코드의 상당 부분을 AI로 짜고 있습니다. 새 제품이라 백엔드도 같이 개발되는데, API가 프론트보다 늦게 나오는 경우가 많고, 나와도 실제 서버에서는 빈 목록이나 에러 같은 상황을 만들기가 어려웠습니다. 그래서 프론트를 독립적으로 빠르게 개발하려고 MSW를 도입했습니다...",
+      "oneLineKo": "링크로 MSW 응답 제어, 상황별 화면 테스트 도구 cuesheet",
+      "summaryKo": "개발자가 AI로 프론트엔드 코드를 작성하면서 백엔드 API가 늦게 나오거나 다양한 상황(빈 목록, 에러 등)을 재현하기 어려운 문제를 겪었습니다. 이를 해결하기 위해 MSW를 도입했고, 링크 하나로 MSW의 응답을 바꿀 수 있는 도구 'cuesheet'를 만들었습니다. 이 도구를 통해 AI나 QA 담당자도 별도 설정 없이 다양한 상황별 화면을 쉽게 확인할 수 있습니다.",
+      "tags": [
+        "msw",
+        "frontend",
+        "testing"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49945933",
+      "title": "Agents don't need memory, they need documentation",
+      "url": "https://liao.gg/blog/agents-dont-need-memory",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49945933",
+      "publishedAt": "2026-10-03T17:03:37Z",
+      "score": 344,
+      "comments": 210,
+      "snippet": "Agents Don't Need Memory. They Need Documentation. | Kevin Liao ← Writing October 3rd, 2026 Agents Don’t Need Memory. They Need Documentation. A memory plugin analyzes your conversations. It generates 1,000 isolated snippets and inserts them into a vector database. With your every prompt, it attaches the five most similar snippets; if the agent is confused (which it is), it manually searches for more. That’s the product they call “memory.” It’s a strange thing to use when you think about what problem you’re trying to solve. You want your agent to understand your project. To know where a feature is, why it was built, what you agreed on and what you care about. Instead, you get a lottery over RAG snippets, injected on every prompt, hoping the right ones float up. Even when it does work, the agent still doesn’t understand your project. The entire memory plugin ecosystem is solving the wrong problem. Because agents don’t need memory. They need documentation. It’s All Just RAG Every memory plugin on the market works the same way: Go through session transcripts Generate snippets of “memories” Insert into a RAG database On every prompt, retrieve the top 5 and inject Need more? Give the agents a tool to search through the RAG database That’s the whole architecture. Some tools are extra fancy; they let the agent search through past transcripts word for word. Or they implement some kind of multi-tier memory system that classifies short or long-term memory. Or they add a bunch of background daemons to review, merge, or deduplicate memories. “Dreamers” that rewrite memories overnight. Continuous context compression. Rerankers. Et cetera. Each plugin tries to add new token-burning “features” to fix the same flawed architecture underneath. And that’s why none of them reliably work. The Problem with Recall All of these memory plugins suffer from the same broad set of problems. Memories are surfaced by similarity. Similarity search ranks how close two snippets are in embedding space. That’s it. You don’t know which is correct, current, or what’s missing. Memories are stored without context. A RAG snippet can only contain so much. You lose everything else: context, motivations, lessons, environment, and more. The past is treated as truth. All of these plugins rely on recall; whether it’s search through transcripts or a vector database. But the codebase changes everyday; so how accurate are each of the 500 snippets about authentication? Agents can’t search for what they don’t know. Even if you do expose a search tool to the agent, how would the agent know when to use it? The agent doesn’t know what it doesn’t know. The store is unauditable. There are 10,000 embeddings in SQLite. Which memories exist? Which are stale? Which have never been retrieved? Which are incorrect and secretly affecting the way your agent works? These are only five of the many problems that memory plugins face, attempt, and fail to fix, because they all make the same assumption: Agents forget",
+      "oneLineKo": "AI 에이전트 메모리 플러그인 대신 문서화가 필요하다",
+      "summaryKo": "현재 AI 에이전트용 메모리 플러그인은 대화 기록을 임베딩 조각으로 쪼개 벡터 DB에 저장하고, 매 프롬프트마다 유사도 기반으로 검색해 삽입하는 RAG 방식에 불과하다고 지적한다. 이런 방식은 정확성·최신성 보장이 없고, 맥락이 손실되며, 저장소를 감사할 수 없는 등 구조적 결함을 가진다. 저자는 에이전트가 프로젝트를 진짜로 이해하려면 유사도 검색 기반 '기억'이 아니라 체계적인 문서화가 필요하다고 주장한다.",
+      "tags": [
+        "llm",
+        "rag",
+        "ai-agents"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34754",
+      "title": "얀 르쿤, AI의 인류 멸종 위험에 “전혀 우려 없다”",
+      "url": "https://news.hada.io/topic?id=34754",
+      "commentsUrl": "https://news.hada.io/topic?id=34754",
+      "publishedAt": "2026-10-04T18:35:53+09:00",
+      "snippet": "Yann LeCun 은 AI가 인류를 멸종시킬 가능성과 최근 에이전트 일탈 사건을 전혀 우려하지 않으며, 사건 원인을 인간의 감독 부족과 잘못된 시스템 설계에서 찾음 샌드박스와 사이버보안 을 제대로 설계하면 이런 사건을 완전히 예방할 수 있다는 입장으로, 에이전트는...",
+      "oneLineKo": "얀 르쿤, AI 멸종 위험론에 \"우려 없다\" 반박",
+      "summaryKo": "얀 르쿤은 AI가 인류를 멸종시킬 가능성과 최근 에이전트 일탈 사건에 대해 전혀 우려하지 않는다고 밝혔다. 그는 이런 사건의 원인을 인간의 감독 부족과 잘못된 시스템 설계에서 찾았다. 샌드박스와 사이버보안을 제대로 설계하면 이런 문제를 완전히 예방할 수 있다는 입장이다.",
+      "tags": [
+        "ai-safety",
+        "agent",
+        "yann-lecun"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49957116",
+      "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+      "url": "https://github.com/omlahore/RemoveMacAI",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49957116",
+      "publishedAt": "2026-10-04T19:42:25Z",
+      "score": 302,
+      "comments": 184,
+      "snippet": "GitHub - omlahore/RemoveMacAI: Turn off Apple Intelligence on macOS 27 and get its disk space back. One command, fully reversible. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} omlahore / RemoveMacAI Public Notifications You must be signed in to change notification settings Fork 12 Star 447 Code Issues 2 Pull requests 2 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights main Branches Tags Go to file Code Open more actions menu Latest commit History 10 Commits 10 Commits Folders and files Name Name Last commit message Last commit date .github .github Sources Sources docs docs .gitignore .gitignore CHANGELOG.md CHANGELOG.md CONTRIBUTING.md CONTRIBUTING.md LICENSE LICENSE Package.swift Package.swift README.md README.md SECURITY.md SECURITY.md THIRD-PARTY-NOTICES.md THIRD-PARTY-NOTICES.md install.sh install.sh View all files Repository files navigation README Contributing MIT license Security More items RemoveMacAI Turn off Apple Intelligence on macOS 27 and remove its downloaded models. ",
+      "oneLineKo": "macOS 27 Apple Intelligence 끄고 디스크 공간 복구하는 도구",
+      "summaryKo": "RemoveMacAI는 macOS 27에서 Apple Intelligence 기능을 끄고 다운로드된 모델 파일을 삭제해 디스크 공간을 회수하는 오픈소스 CLI 도구입니다. 한 번의 명령어로 실행 가능하며, 설정을 되돌릴 수 있는 완전한 복원 기능을 제공합니다. GitHub에서 install.sh 스크립트 형태로 배포되고 있습니다.",
+      "tags": [
+        "macos",
+        "apple-intelligence",
+        "cli-tool"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49950554",
+      "title": "Why don't more developers “use the platform”?",
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49950554",
+      "publishedAt": "2026-10-04T04:10:47Z",
+      "score": 272,
+      "comments": 286,
+      "snippet": "Why don’t more developers “use the platform”? | Read the Tea Leaves Skip to content Read the Tea Leaves Software and other dark arts, by Nolan Lawson Search this blog Search home apps code talks about Previous post: &laquo; Goodbye WordPress 3 Oct Why don’t more developers “use the platform”? Posted October 3, 2026 by Nolan Lawson in Web , software engineering . For years, advocates for web standards, performance, and accessibility have implored web developers to “use the platform” . I’ve often been one of those advocates. The argument is simple: why build something yourself, in JavaScript, when the browser can do it for you? Whatever you build, it’s likely to have poorer performance and worse usability than something the browser could just give you out-of-the-box. I think it’s worth taking the other side, though, if for no other reason than to understand where the “platform-skeptic” developers are coming from. If “use the platform” is so obvious, then why do so many people seem to need convincing? The most obvious reason is historical: for the longest time, browsers were playing catch-up with the ecosystem on top of them. Libraries like jQuery filled crucial gaps while browsers implemented equivalent APIs – and even then, you might have to wait for laggards like IE6 to age out before you could actually use them. Today, most browsers are evergreen (Safari is debatable, although ~7 times per year ain’t bad), but up until the 2020s or so, web developers had to deal with a decidedly lumpy web . In that environment, rolling your own is a sensible choice. Another reason is familiarity: when you’re used to looking for React components on npm, that’s what you tend to reach for, regardless of the problem at hand. If you search for “sticky positioning” on npm, there’s no package that says “just use CSS position: sticky , you dolt.” And often, even with a robust standard, libraries on npm would fill a useful gap between framework ergonomics and the platform underneath it. I always found it intriguing that many React developers preferred to stick to JSX and React idioms – raw DOM APIs felt “icky” – but were perfectly happy to use lower-level libraries where raw DOM manipulations are common. For example, a virtual list library might happily use raw DOM APIs for pure performance, while exposing higher-level primitives that a novice React developer could better grasp. In a sense, the ecosystem of React components led to a natural division of labor where those with more expertise packaged up unfamiliar platform APIs in a more familiar form factor. Some of this effect was also driven by documentation. Many npm packages have lovingly detailed README s or websites with examples, tutorials, and screenshots. Whereas until MDN became cemented as the go-to place for web documentation (with web.dev as Google’s more future-facing arm), documentation for the web platform was scattered across blogs, StackOverflow , and sites like CSS Tricks . And many of these sites would",
+      "oneLineKo": "웹 개발자들이 '플랫폼 사용'을 꺼리는 이유 분석",
+      "summaryKo": "저자는 웹 표준·성능·접근성 옹호자들이 외치는 'use the platform' 구호에 대해, 왜 많은 개발자들이 여전히 설득이 필요한지 반대 입장에서 분석한다. 과거 브라우저 호환성 문제로 jQuery 같은 라이브러리가 필수였던 역사적 배경, npm 생태계에 익숙해진 개발자들의 습관, 그리고 네이티브 API보다 상세한 문서를 제공하는 npm 패키지들의 문서화 우위가 주요 원인으로 제시된다. React 개발자들이 JSX에는 익숙하지만 raw DOM API는 어색해하면서도, 저수준 라이브러리는 자연스럽게 받아들이는 분업 구조도 언급된다.",
+      "tags": [
+        "web-platform",
+        "javascript",
+        "frontend"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49957068",
+      "title": "Improper redaction reveals Google Data Center water and electricity usage",
+      "url": "https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49957068",
+      "publishedAt": "2026-10-04T19:37:05Z",
+      "score": 204,
+      "comments": 301,
+      "snippet": "UPDATE: Improper redaction reveals Lincoln’s Google Data Center water and electricity usage Skip to content LIVE News Weather Sports Pure Nebraska Contact Us Video Alert Center Show You Care Student of the Week Everyday Heroes Home News Lincoln's Table Education National Election Crime News Video Domestic Violence Watch Live Alert Center Weather Closings Interactive Radar Watch 10/11 24/7 Weather Weather Shield Weather Cameras Download the Weather App Sports Futbol Frenzy MLB on 10/11 Now NReport Husker Press Conferences High School Sports Video Scoreboard Election Election Results National Politics Show You Care SUBMIT UPCOMING EVENTS Everyday Heroes Pure Nebraska Pure Nebraska Video Contests Contact Us Meet the Team Submit a News Tip Current Job Openings Careers at Gray Advertise With Us Buy a Copy of a Story 10/11 24/7 Weather Local Everyday Healthy Everyday Seniors Everyday Memorials Programming Schedule Submit Photos and Videos NextGen TV Aging Untold Circle Country Local News Live InvestigateTV Watching Your Wallet PowerNation Digital Marketing Gray AI Policy UPDATE: Improper redaction reveals Lincoln’s Google Data Center water and electricity usage Nebraska data centers submit 2026 annual report By Madison Pitsch Published : Sep. 30, 2026 at 10:10 AM CDT | Updated : Sep. 30, 2026 at 10:00 PM CDT Share Add Us On Google Add as a preferred source on Google LINCOLN, Neb. (KOLN) - Nebraska data centers are required to turn in an annual report to Nebraska’s Department of Water, Energy, and Environment, but some state statutes are preventing the public from seeing just how much electricity and water data centers are using. The Google Data Center in Lincoln, named Agate LLC, claimed their electricity usage and water usage were trade secret information, citing Neb. Rev. State §§ 81-1527 ; 84-712.05 and NAC TITLE 115, CH. 2 . In fact, Google did this for all three data centers, including their sites in Omaha and Papillion. However, using a computer cursor to highlight the redacted text box in the report to DWEE, then copying and pasting it into a separate document reveals that Agate LLC is reporting 52.65 megawatts of electricity during peak electrical demand and 13.299 megagallons of water between cooling towers, evaporative systems and site operations in the last year. That totals out to 13 million gallons of water. For context, 13 million gallons is enough to fill around 20 Olympic-size swimming pools, and is less than half of what the City of Lincoln reports using on Sept. 29. The six data centers reporting as of Sept. 30 show a total use of 765 million gallons of water last year, enough water to fill 1,159.93 Olympic-size swimming pools. More improper redaction shows that the data center using the most water annually is Fireball Group LLC, the Google Data Center in Papillion. Fireball LLC reports 547.88 megagallons for their 2025 Annual Water Consumption. 10/11 filed a public record request Sept. 30 to see redacted information from Agate LLC’s ",
+      "oneLineKo": "구글 데이터센터 전력·용수 사용량, 부실한 가림처리로 노출",
+      "summaryKo": "네브래스카 링컨에 위치한 구글 데이터센터(Agate LLC)가 영업비밀로 가린 전력·용수 사용량 보고서가 복사·붙여넣기로 쉽게 드러났다. 해당 데이터센터는 최대 전력 수요 52.65메가와트, 연간 1330만 갤런의 용수를 사용한 것으로 나타났다. 파필리온의 구글 데이터센터(Fireball Group LLC)는 연간 5억4788만 갤런의 용수를 사용해 최다 사용처로 확인됐으며, 네브래스카 6개 데이터센터 전체는 작년 총 7억6500만 갤런의 물을 소비했다. 10/11 방송사는 추가 공개 정보를 요청하는 공공기록 청구를 제출했다.",
+      "tags": [
+        "data-center",
+        "google",
+        "sustainability"
+      ]
+    }
+  ]
+}
