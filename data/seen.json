@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=33263",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "news.hada.io/topic?id=33263",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49570669",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "nvd.nist.gov/vuln/detail/cve-2026-85046",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "t3_1w7rkbm",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1w7rkbm/principles_of_memory_management_in_java",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33261",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "news.hada.io/topic?id=33261",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49571634",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "codeberg.org/mv12star/shitter/wiki/Instances",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "t3_1w7vcf3",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1w7vcf3/the_nx_bit_is_not_just_about_security",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33260",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "news.hada.io/topic?id=33260",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49569896",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "statichost.eu",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33250",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "news.hada.io/topic?id=33250",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49576386",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "devquasar.com/hardware/the-60-gaming-pc-amd-bc-250",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33248",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "news.hada.io/topic?id=33248",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49580369",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33247",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "news.hada.io/topic?id=33247",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49576258",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "packagemain.tech/p/gitignore-everything-by-default",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49578280",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "usr.lmf.cnrs.fr/lpo",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49580164",
-    "date": "2026-09-06"
-  },
-  {
-    "id": "arxiv.org/abs/2609.03344",
-    "date": "2026-09-06"
-  },
-  {
     "id": "https://news.hada.io/topic?id=33286",
     "date": "2026-09-07"
   },
@@ -3502,5 +3374,117 @@
   {
     "id": "arslan.io/2026/10/05/the-lamps-in-my-house",
     "date": "2026-10-06"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34919",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "news.hada.io/topic?id=34919",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49981905",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "zohaib.cc/blog/smartest-claude-code-feature",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34893",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "news.hada.io/topic?id=34893",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49984923",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "openai.com/index/sharing-ai-progress-in-mathematics",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34915",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "news.hada.io/topic?id=34915",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49980715",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "github.com/FeSens/openTPU",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34899",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "news.hada.io/topic?id=34899",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49976265",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "nobelprize.org/prizes/physics/2026",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34890",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "news.hada.io/topic?id=34890",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49975619",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34886",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "news.hada.io/topic?id=34886",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49980487",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49983703",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49977531",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "signoregalilei.com/2026/09/27/whats-earths-dominant-species-by-mass",
+    "date": "2026-10-07"
   }
 ]

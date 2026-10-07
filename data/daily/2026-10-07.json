@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T01:10:08.045Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34919",
+      "title": "Show GN: AI 송도 월드 - LLM 여섯 개가 나눠 맡은 AI 에이전트 2,400명이 사는 3D 도시",
+      "url": "https://news.hada.io/topic?id=34919",
+      "commentsUrl": "https://news.hada.io/topic?id=34919",
+      "publishedAt": "2026-10-07T09:53:30+09:00",
+      "snippet": "이 2,400여 명의 AI 시민 간 무슨 생각을 하고 무슨 일을 벌일지 브라우저에서 들여다볼 수 있게 송도 월드를 만들었습니다. GPT, Claude, Gemini, DeepSeek, GLM, Solar 여섯 모델이 시민을 나눠 맡고 있고, 가입 없이 바로 볼 수 있습니다. 만든 이유 AI 에이전트끼리 한곳에 모여 살게 하면 무슨 생",
+      "oneLineKo": "LLM 6종이 움직이는 AI 시민 2,400명 3D 도시 공개",
+      "summaryKo": "'AI 송도 월드'는 GPT, Claude, Gemini, DeepSeek, GLM, Solar 등 여섯 개 LLM이 각각 맡은 2,400여 명의 AI 에이전트가 거주하는 3D 가상 도시입니다. 사용자는 가입 없이 브라우저에서 바로 접속해 AI 시민들이 어떤 생각을 하고 어떤 행동을 벌이는지 관찰할 수 있습니다. 여러 LLM을 한 공간에 공존시켜 AI 에이전트 간 상호작용을 실험해보려는 목적으로 제작되었습니다.",
+      "tags": [
+        "llm",
+        "ai-agent",
+        "simulation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49981905",
+      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49981905",
+      "publishedAt": "2026-10-06T18:00:34Z",
+      "score": 83,
+      "comments": 47,
+      "oneLineKo": "Claude Code 제안 메시지 기능, 실제 수혜자는 모델이라는 분석",
+      "summaryKo": "이 글은 Claude Code의 '제안 메시지' 기능이 사용자 편의보다 모델 자체의 성능이나 학습을 위해 설계되었을 가능성을 제기합니다. 제목만 제공되어 구체적인 근거나 상세 설명은 확인할 수 없습니다. 저자는 해당 기능의 진짜 목적이 사용자가 아닌 모델에 있다는 관점을 제시하는 것으로 보입니다.",
+      "tags": [
+        "claude-code",
+        "llm",
+        "ai-agent"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34893",
+      "title": "Show GN: agent-gc – AI 코딩 에이전트가 남긴 worktree 쓰레기를 치워주는 TUI",
+      "url": "https://news.hada.io/topic?id=34893",
+      "commentsUrl": "https://news.hada.io/topic?id=34893",
+      "publishedAt": "2026-10-06T23:41:21+09:00",
+      "snippet": "Codex, Claude Code 같은 에이전트에 병렬로 일을 시키다 보니 worktree가 계속 늘어났음. worktree마다 install, 빌드, 테스트가 돌면서 node_modules , .next , target , .venv 도 같이 복제됨 어느 날 디스크가 꽉 차서 열어 보니 ~/.codex...",
+      "oneLineKo": "AI 에이전트 worktree 쓰레기 정리하는 TUI 도구",
+      "summaryKo": "Codex, Claude Code 같은 AI 코딩 에이전트에 병렬 작업을 시키면서 worktree가 계속 늘어나고, 각 worktree마다 node_modules, .next, target, .venv 같은 빌드 산출물이 중복 생성되는 문제가 발생했다. 이로 인해 디스크 공간이 빠르게 소진되는 상황을 겪은 저자가 이를 해결하기 위해 agent-gc라는 TUI 도구를 만들었다. 이 도구는 에이전트가 남긴 불필요한 worktree와 관련 빌드 캐시를 쉽게 정리할 수 있게 해준다.",
+      "tags": [
+        "ai-agent",
+        "worktree",
+        "developer-tools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49984923",
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49984923",
+      "publishedAt": "2026-10-06T22:17:21Z",
+      "score": 351,
+      "comments": 294,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math</a><p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math&#x2F;tree&#x2F;main&#x2F;preprints\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math&#x2F;tree&#x2F;main&#x2F;preprints</a>",
+      "oneLineKo": "OpenAI, 수학 분야 AI 진전 공유",
+      "summaryKo": "OpenAI가 수학 분야에서의 AI 연구 진전을 공유하는 포스트를 공개했습니다. 관련 자료는 GitHub의 openai/math 저장소에 프리프린트 형태로 올라와 있습니다. 구체적인 연구 내용이나 성과에 대한 세부 설명은 본문에서 확인되지 않았습니다.",
+      "tags": [
+        "openai",
+        "ai",
+        "mathematics"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34915",
+      "title": "Show GN: brgr – Claude Code나 Codex가 다른 코딩 에이전트에게 일을 맡기는 herdr 플러그인",
+      "url": "https://news.hada.io/topic?id=34915",
+      "commentsUrl": "https://news.hada.io/topic?id=34915",
+      "publishedAt": "2026-10-07T09:28:34+09:00",
+      "snippet": "herdr에서 여러 코딩 에이전트를 동시에 돌리다보니, 매번 trust 확인이나 업데이트 제안에서 멈추게 되고, 끝나면 결과를 메인 에이전트로 직접 북붙하는게 귀찮아서 만들었습니다. 메인 에이전트(Codex 또는 Claude Code)가 일을 넘기면, 워커가 옆 pane에 각자 git worktree를 하나씩 갖고 열립니다.",
+      "oneLineKo": "코딩 에이전트 위임 관리하는 herdr 플러그인 brgr 공개",
+      "summaryKo": "brgr는 Claude Code나 Codex 같은 메인 에이전트가 다른 코딩 에이전트(워커)에게 작업을 위임할 수 있게 해주는 herdr 플러그인입니다. 여러 에이전트를 동시에 운용할 때 반복되는 trust 확인이나 업데이트 제안으로 작업이 멈추는 문제, 결과를 수동으로 복붙해야 하는 불편함을 해결하기 위해 만들어졌습니다. 메인 에이전트가 작업을 넘기면 각 워커는 별도의 git worktree를 가진 pane에서 독립적으로 실행됩니다.",
+      "tags": [
+        "coding-agent",
+        "claude-code",
+        "git-worktree"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49980715",
+      "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+      "url": "https://github.com/FeSens/openTPU",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49980715",
+      "publishedAt": "2026-10-06T16:23:25Z",
+      "score": 222,
+      "comments": 288,
+      "snippet": "GitHub - FeSens/openTPU: An open-source AI accelerator, developed by AI: RTL, ISA, simulator, compiler and profiler in one repo. Runs Qwen3, LFM2.5 and Qwen3.5 on a Kintex-7 PCIe card. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} FeSens openTPU Repository navigation Code Issues Pull requests Actions Projects Security and quality Insights More items openTPU Public Notifications You must be signed in to change notification settings Fork 8 ( 8 ) Star 218 ( 218 ) You must be signed in to star a repository About An open-source AI accelerator, developed by AI: RTL, ISA, simulator, compiler and profiler in one repo. Runs Qwen3, LFM2.5 and Qwen3.5 on a Kintex-7 PCIe card. Resources Readme Apache-2.0 license Activity Stars 218 stars Watchers 0 watching Forks 8 forks Report repository main Branches Tags Go to file Code Open more actions menu Latest commit History 1,356 Commits 1,356 Commits Folders and files Name Name Last commit message Last commit date boards/ ypcb-00338 boards/ ypcb-00338 docs docs opentpu opentpu rtl rtl sim/ verilator sim/ verilator tests tests tools tools .gitignore .gi",
+      "oneLineKo": "AI가 설계한 오픈소스 AI 가속기 'OpenTPU' 공개",
+      "summaryKo": "OpenTPU는 AI가 직접 개발한 오픈소스 AI 가속기 프로젝트로, RTL, ISA, 시뮬레이터, 컴파일러, 프로파일러를 하나의 저장소에 담고 있습니다. Kintex-7 PCIe 카드에서 Qwen3, LFM2.5, Qwen3.5 모델을 구동할 수 있습니다. Apache-2.0 라이선스로 공개되어 있으며 GitHub에서 활발히 커밋이 이루어지고 있습니다.",
+      "tags": [
+        "ai-accelerator",
+        "rtl",
+        "open-source"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34899",
+      "title": "바이브코딩은 직접 코드를 쓰는 것만큼 재미있지 않다",
+      "url": "https://news.hada.io/topic?id=34899",
+      "commentsUrl": "https://news.hada.io/topic?id=34899",
+      "publishedAt": "2026-10-07T01:33:10+09:00",
+      "snippet": "AI 보조 코딩 으로 유용한 결과물을 빠르게 만들 수 있어도, 만드는 과정의 즐거움은 직접 코드를 쓸 때보다 적을 수 있음 바이브코딩은 재미를 앞당겨 제공함 . 적은 노력으로 아이디어를 시제품으로 만들 수 있지만, 리팩터링은 처음처럼 짜릿하지 않음 만...",
+      "oneLineKo": "바이브코딩, 직접 코딩보다 재미는 덜해",
+      "summaryKo": "AI 보조 코딩(바이브코딩)은 적은 노력으로 빠르게 시제품을 만들 수 있지만, 직접 코드를 작성할 때 느끼는 즐거움은 상대적으로 적다는 주장이다. 바이브코딩은 결과물을 얻는 재미를 앞당겨 제공하지만, 이후 리팩터링 과정은 처음 코드를 짤 때만큼 짜릿하지 않다고 설명한다. 이는 AI 도구가 생산성은 높여주지만 개발자가 느끼는 창작의 만족감에는 영향을 줄 수 있음을 시사한다.",
+      "tags": [
+        "vibe-coding",
+        "ai-coding",
+        "developer-experience"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49976265",
+      "title": "Nobel Prize in Physics 2026: Francis Halzen",
+      "url": "https://www.nobelprize.org/prizes/physics/2026/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49976265",
+      "publishedAt": "2026-10-06T09:48:46Z",
+      "score": 524,
+      "comments": 172,
+      "snippet": "Nobel Prize in Physics 2026 - NobelPrize.org You are using an outdated browser. Please upgrade your browser to improve your experience and security. Skip to content Nobel Prize Open the search menu Close the search menu Close Mobile Menu Toggle Mobile Menu Nobel Prizes & laureates All Nobel Prizes All Nobel Prizes 2026 Physics prize Chemistry prize Medicine prize Literature prize Peace prize Prize in economic sciences About About the prize Alfred Nobel Award ceremonies Nomination Organisation Stories Educational Events & museums Open the search menu Close the search menu Search by term. Search Enhanced Page Navigation Nobel Prize in Physics 2026 Nobel Prize in Physics 2026 - Prize announcement Press release: Nobel Prize in Physics 2026 Nobel Prize in Physics 2026 - Popular information Nobel Prize in Physics 2026 - Scientific background Nobel Prize in Physics 2026 Summary Laureates Francis Halzen Prize announcement Press release Popular information Advanced information Share this Facebook X LinkedIn Email this page Nobel Prize in Physics 2026 Navigate to: Summary - Francis Halzen Prize announcement Press release Popular information Advanced information Ill. Niklas Elmehed © Nobel Prize Outreach Francis Halzen Prize share: 1/1 The Nobel Prize in Physics 2026 was awarded to Francis Halzen \"for decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin.\" To cite this section MLA style: Nobel Prize in Physics 2026. NobelPrize.org. Nobel Prize Outreach 2026. Wed. 7 Oct 2026. <https://www.nobelprize.org/prizes/physics/2026/summary/> Go to the top of the page Six days, six prizes Nobel Prize announcements 2026 Don't miss the Nobel Prize announcements on 5–12 October. All announcements are streamed live here on nobelprize.org. Explore prizes and laureates Look for popular awards and laureates in different fields, and discover the history of the Nobel Prize. Select the category or categories you would like to filter by Physics Chemistry Medicine Literature Peace Economic Sciences Select the category or categories you would like to filter by Physics Chemistry Medicine Literature Peace Economic Sciences - Choose a year you would like to search in + Explore About the Nobel Prize organisation The Nobel Foundation Tasked with a mission to manage Alfred Nobel's fortune and has ultimate responsibility for fulfilling the intentions of Nobel's will. The prize-awarding institutions For more than a century, these academic institutions have worked independently to select Nobel Prize laureates. Outreach organisations Several outreach organisations and activities have been developed to inspire generations and disseminate knowledge about the Nobel Prize. Press Contact FAQ Privacy policy Terms of use For developers Media player Careers Join us Facebook Twitter Instagram Youtube LinkedIn Nobel Prize Copyright &copy; Nobel Prize Outreach 2026 Scroll to top",
+      "oneLineKo": "2026 노벨물리학상, 프랜시스 할젠 수상",
+      "summaryKo": "2026년 노벨 물리학상이 프랜시스 할젠(Francis Halzen)에게 수여되었다. 수상 이유는 아이스큐브 중성자 관측소(IceCube Neutrino Observatory)에 대한 결정적 기여와 천체물리학적 기원의 고에너지 중성자 발견이다. 아이스큐브는 남극 빙하에 설치된 대형 중성자 검출 실험으로, 우주 기원의 고에너지 중성자를 관측하는 데 핵심적인 역할을 했다.",
+      "tags": [
+        "물리학",
+        "중성자천문학",
+        "icecube"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34890",
+      "title": "Mistral Large 4 발표 - 코딩·보안·시각 이해를 강화한 1조 파라미터 오픈웨이트 모델",
+      "url": "https://news.hada.io/topic?id=34890",
+      "commentsUrl": "https://news.hada.io/topic?id=34890",
+      "publishedAt": "2026-10-06T22:38:19+09:00",
+      "snippet": "Mistral의 가장 큰 멀티모달 모델로, 총 1.05조 파라미터 중 490억 개를 활성화 하는 MoE 구조를 사용하며 텍스트와 이미지 입력, 100만 토큰 문맥을 지원함 코딩과 에이전트 업무, 사이버 보안·금융·법률 에 집중해 성능을 높였으며, 코딩 에이전트 종합 평가에서 D...",
+      "oneLineKo": "Mistral, 1조 파라미터 오픈웨이트 멀티모달 모델 공개",
+      "summaryKo": "Mistral이 총 1.05조 파라미터 중 490억 개를 활성화하는 MoE 구조의 멀티모달 모델 Mistral Large 4를 발표했다. 텍스트와 이미지 입력을 지원하며 최대 100만 토큰의 문맥을 처리할 수 있다. 코딩 에이전트, 사이버 보안, 금융, 법률 분야 업무에 집중해 성능을 강화했으며 코딩 에이전트 종합 평가에서 높은 성적을 기록했다.",
+      "tags": [
+        "llm",
+        "mistral",
+        "moe"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49975619",
+      "title": "Gleam doesn't compile to Erlang source anymore",
+      "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49975619",
+      "publishedAt": "2026-10-06T08:08:20Z",
+      "score": 293,
+      "comments": 123,
+      "snippet": "Gleam doesn't compile to Erlang source anymore | Gleam programming language Gleam News Community Sponsor Packages Docs Install Gleam doesn't compile to Erlang source anymore Gleam v1.19.0 released! 05 October, 2026 by Louis Pilfold Share Copied the post URL! Gleam is a type-safe and scalable language for the Erlang virtual machine and JavaScript runtimes. Today Gleam v1.19.0 has been published, so let's go over what's new. A new compilation target Over the last few months Giacomo Cavalieri has entirely rewritten Gleam's Erlang code generator that has an entirely different design, and most notably, outputs a different format. Previously Gleam generated Erlang source code, now it generates Erlang abstract forms . \"Erlang abstract forms\" is an intermediate representation used by the Erlang compiler. It is a metadata-annotated tree that represents Erlang syntax, and it is normally produced by running Erlang's tokeniser and parser. It has a binary encoding using Erlang's external term format , and with this binary format we can load our generated code directly, skipping the front-half of the Erlang compiler. This new Erlang code generator brings several benefits: The performance of the compiler has been improved, significantly reducing the build times for Gleam projects running on Erlang. The location metadata available to the runtime is now accurate to original Gleam source code, rather than to the Erlang source code the compiler would generate. This means, for example, the line numbers in BEAM crash reports and stacktraces are perfectly accurate, while previously they could be inaccurate, only pointing to the nearest function. This metadata could also enable full support for Gleam in debuggers such as edb , though we have not done any work on this ourselves. The code-quality of the Gleam compiler has been improved. The Erlang code generator was one of the oldest and most stable parts of the Gleam codebase, so while it wasn't causing us any problems it wasn't conforming to the standards and conventions we have today. This new replacement is excellent, and arguably raising the bar for the compiler as whole. We never have to hear someone use the word \"transpiler\" as a pejorative ever again. 1 Ok, so how fast is it? I'm going to show you some numbers in a moment, but please remember that benchmarks are always contrived and never tell the full story. This data could be a good introduction or jumping-off point, but a good understanding requires the person to do further research and experience. The benchmark is based on José Valim's langcompilebench project. Thank you José! It is a measure of the time taken to compile 100 modules that each contain 100 functions that return a \"hello world\" string. This is practical as this shape of test project can be easily replicated across different languages to produce the most like-for-like test projects, but it is limited in what it can tell us as only a small subset of the features of each language get compiled. In r",
+      "oneLineKo": "Gleam, 이제 Erlang 소스 대신 abstract forms로 컴파일",
+      "summaryKo": "Gleam v1.19.0에서 Erlang 코드 생성기가 완전히 새로 작성되어, 기존에 Erlang 소스 코드를 생성하던 방식에서 Erlang abstract forms(바이너리 중간 표현)를 직접 생성하는 방식으로 전환되었습니다. 이를 통해 Erlang 컴파일러의 프론트엔드를 건너뛰어 빌드 속도가 크게 향상되고, BEAM 크래시 리포트와 스택트레이스의 라인 번호가 원본 Gleam 소스에 정확히 매핑됩니다. 또한 이 메타데이터는 edb 같은 디버거에서의 완전한 Gleam 지원 가능성도 열어줍니다.",
+      "tags": [
+        "gleam",
+        "erlang",
+        "compiler"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34886",
+      "title": "Show GN: 차쟁이가 바이브코딩으로 만든 엔진 시뮬레이터",
+      "url": "https://news.hada.io/topic?id=34886",
+      "commentsUrl": "https://news.hada.io/topic?id=34886",
+      "publishedAt": "2026-10-06T21:05:47+09:00",
+      "snippet": "개요 안녕하세요 차쟁이이자 개발자입니다 매일 자동차 릴스도 챙겨보고 있습니다 그런 제가 엔진 시뮬레이터를 만들어봤습니다 주요 기능 악셀을 밟아 RPM 별 달라지는 사운드를 즐깁니다 구성된 엔진(I4, I5, I6, V8, V10, V12) 별로도 즐겨줍니다 기",
+      "oneLineKo": "바이브코딩으로 제작한 엔진 사운드 시뮬레이터 공개",
+      "summaryKo": "자동차 애호가이자 개발자인 작성자가 바이브코딩 방식으로 엔진 시뮬레이터를 만들어 Show GN에 공개했다. 악셀을 밟으면 RPM에 따라 달라지는 엔진 사운드를 즐길 수 있으며, I4, I5, I6, V8, V10, V12 등 다양한 엔진 구성을 선택해 체험할 수 있다. 자동차 관련 콘텐츠에 대한 관심에서 출발한 개인 프로젝트로 소개되었다.",
+      "tags": [
+        "vibe-coding",
+        "simulation",
+        "side-project"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49980487",
+      "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49980487",
+      "publishedAt": "2026-10-06T16:03:49Z",
+      "score": 207,
+      "comments": 28,
+      "snippet": "EmbeddingGemma 2 is a best-in-class open model for natively multimodal embeddings Skip to main content EmbeddingGemma 2: an open, lightweight multimodal embedding model Innovation & AI Products & platforms Company news Feed Newsletter Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Back Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebook Googlebook See all Learn more: Google Ads & Commerce blog Waze blog Back Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Innovation & AI Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Products & platforms Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebook Googlebook See all Learn more: Google Ads & Commerce blog Waze blog Company news Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Feed EmbeddingGemma 2: an open, lightweight multimodal embedding model Share x.com Facebook LinkedIn Mail Copy link [] Preferences Global (English) Africa (English) Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) Malaysia (English) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Link",
+      "oneLineKo": "구글, 경량 멀티모달 임베딩 모델 EmbeddingGemma 2 공개",
+      "summaryKo": "구글이 텍스트와 이미지 등 멀티모달 데이터를 네이티브로 처리할 수 있는 오픈 임베딩 모델 EmbeddingGemma 2를 발표했다. 가볍고 효율적인 구조로 설계되어 다양한 환경에서 활용 가능한 임베딩 모델을 지향한다. Gemma 모델 계열의 일환으로 공개된 오픈 모델이다.",
+      "tags": [
+        "embedding",
+        "multimodal",
+        "gemma"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49983703",
+      "title": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
+      "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49983703",
+      "publishedAt": "2026-10-06T20:33:47Z",
+      "score": 164,
+      "comments": 254,
+      "snippet": "Paramount completes $111B Warner merger, creating “Skydance” behemoth - Ars Technica Skip to content Ars Technica home Sections Forum Subscribe Search AI Biz & IT Cars Culture Gaming Health Policy Science Security Space Tech Feature Reviews AI Biz & IT Cars Culture Gaming Health Policy Science Security Space Tech Forum Subscribe Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Pin to story Theme HyperLight Day & Night Dark System Search Sign In Sign in dialog... Sign in Paramount + Warner Bros. = Skydance Paramount completes $111B Warner merger, creating “Skydance” behemoth Paramount now owns Warner Bros. as last-ditch effort to stop $111B merger fails. Jon Brodkin – Oct 6, 2026 1:33 pm | 133 Paramount Skydance CEO David Ellison at an event in New York City on April 22, 2026. Credit: Getty Images Paramount Skydance CEO David Ellison at an event in New York City on April 22, 2026. Credit: Getty Images Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav Paramount Skydance completed its $111 billion merger with Warner Bros. Discovery today, after a last-ditch effort to block the deal was rejected by Supreme Court Justice Elena Kagan. The post-merger company is called Skydance, taking the name of a firm that Paramount bought in a separate deal last year. The new Skydance combines two of the largest movie studios, streaming services Paramount+ and HBO Max, CBS, CNN, “and a portfolio of live sports including CBS Sports and TNT Sports, as well as a deep programming library and expansive collection of brands and franchises,” Skydance said today in a press release announcing completion of the deal. The merger was delayed a bit by a lawsuit filed by California and 11 other states. In July, US District Judge Araceli Martínez-Olguín in the Northern District of California ruled that the combination would likely reduce competition substantially and violate antitrust laws. California settled the lawsuit last month, and the other states involved went along with the compromise. A coalition of free speech and media advocacy groups urged the judge to reject the settlement, saying it will give residents of the states that sued Paramount “virtually nothing.” Martínez-Olguín approved the settlement on September 30, saying the deal “represents a reasonable factual and legal resolution of the dispute.” She wrote that a typical settlement “does not fully remediate an alleged violation or even necessarily resolve the ultimate factual and legal issues of a case.” It “reflects a compromise of the claims short of full adjudication—compromise that may leave some dissatisfaction for both sides and the public but a compromise that saves the risk, time, and expense of litigating through trial.” The settlement addresses the lawsuit’s complaints about film distribution “by requiring certain minimum thresholds of investment and relea",
+      "oneLineKo": "파라마운트-워너브라더스 1110억달러 합병 완료, 'Skydance' 출범",
+      "summaryKo": "파라마운트 스카이댄스가 워너브라더스 디스커버리와의 1110억 달러 규모 합병을 완료하며 새 회사명을 'Skydance'로 확정했다. 캘리포니아 등 12개 주가 반독점 소송을 제기해 합병을 지연시켰으나, 연방대법관 엘레나 케이건이 합병 중단 요청을 기각하면서 최종 승인됐다. 새 Skydance는 파라마운트+, HBO Max, CBS, CNN, CBS Sports, TNT Sports 등 대형 스튜디오·스트리밍·방송 자산을 통합하게 된다. 캘리포니아 주는 영화 배급 관련 최소 투자·개봉 기준을 조건으로 소송을 합의로 마무리했다.",
+      "tags": [
+        "m&a",
+        "media",
+        "antitrust"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49977531",
+      "title": "What's Earth's dominant species by mass?",
+      "url": "https://signoregalilei.com/2026/09/27/whats-earths-dominant-species-by-mass/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49977531",
+      "publishedAt": "2026-10-06T12:40:03Z",
+      "score": 139,
+      "comments": 88,
+      "snippet": "What’s Earth’s dominant species by mass? – Signore Galilei Skip to content Signore Galilei Let's Explore! Blog Videos More New? Start here! All posts About Books Other works Subscribe What’s Earth’s dominant species by mass? You might have heard that all the ants in the world weigh as much combined as all the humans. That isn’t true. We outweigh ants 5 to 1. 1 Termites might have us beat, though. 2 Either way, it’s not really a fair comparison. There are thousands of species of ants and termites, and just one species of human. But if we’re judging each species based on how much total mass they have – that is, by its “biomass” – who actually comes out on top? Turns out there are some surprising winners. Antarctic Krill: 379 million tonnes Let’s start with our division: animals. Humans are pretty close to the top for a single species, weighing in at about 350 million metric tons. 3 The top-placing wild species is Antarctic krill, with a 2009 estimate placing them at 379 million metric tons. Each individual krill weighs only about 2 grams or 0.07 ounces, but their sheer population in the Southern Ocean puts them in a statistical dead heat with us – and keeps gigantic blue whales comfortably fed. But both humans and krill lag behind the true winner for animals: cattle. Cattle are easily the top domesticated animal species, with about 650 million metric tons of biomass. Pigs are in second, at about 140 million metric tons – placing them behind humans and krill. Cattle: 650 million tonnes Unfortunately for cattle, animals are almost the lightest of all the kingdoms of life. The most comprehensive study, (Bar-On et. al 2018) measures the different kingdoms by their carbon mass specifically. Carbon is only a portion of an organism, so this method gives smaller numbers. But those numbers are more meaningful for, say, tracking the flow of food energy through the biosphere (think of eating a pound of watermelon versus a pound of steak). For example, the 650 million tons of cattle on Earth represent only 61 million tons of carbon. Animals as a whole have 2 billion tons of carbon. That means we handily outclass viruses (0.2 billion tons) but are beaten by protists (4 billion), archaea (7 billion), fungi (12 billion), bacteria (70 billion) and especially plants (450 billion). Most of the world’s bacteria live in aquifers and seafloor sediments, which are hard to study. It’s possible that one extremely dominant undersea bacteria species has the world’s highest biomass, but more likely the winner will be a plant. So what plant has the most biomass in the world? The winner for animals was a domesticated species, so let’s start with domesticated plants. The first species that might come to mind are the major cereal grains like rice, wheat, and corn (maize). Of these, maize has the largest annual harvest by mass, totaling 1.1 billion tons – nearly double the mass of cattle. But the true biggest crop isn’t a grain at all. That honor goes to sugar cane, with the harv",
+      "oneLineKo": "지구 생물량 1위 종은 무엇일까",
+      "summaryKo": "지구상 종들의 총 생물량(바이오매스)을 비교한 글로, 동물 중에서는 가축인 소가 약 6억5천만 톤으로 1위를 차지하며 남극크릴(3억7900만 톤)과 인간(약 3억5천만 톤)을 앞선다. 하지만 탄소 질량 기준으로 보면 동물 전체는 식물, 박테리아, 균류, 고세균보다 훨씬 적은 생물량을 가지며, 식물 중에서는 곡물이 아닌 사탕수수가 최대 수확량을 자랑하는 작물로 소개된다. 전체 생물권에서는 식물이 압도적으로 가장 많은 탄소 질량(4500억 톤)을 차지하는 것으로 나타났다.",
+      "tags": [
+        "biomass",
+        "ecology",
+        "biology"
+      ]
+    }
+  ]
+}
