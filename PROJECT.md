@@ -18,7 +18,11 @@ pipeline/               수집·선별·요약 파이프라인 (tsx로 실행)
   run.ts                엔트리 (--dry-run: 수집·선별만 / --limit N: 건수 제한)
 data/daily/*.json       날짜별 결과 (Actions가 커밋 — 아카이브 겸용)
 data/seen.json          중복 방지 (30일 보관)
-src/                    Astro 사이트 (index = 최신 브리핑, /archive = 날짜별)
+src/                    Astro 사이트 (index = 최신 브리핑, /archive = 날짜별, /likes = 좋아요 모아보기)
+  lib/likes.ts          좋아요 저장소 (localStorage) — 키 `${date}:${article.id}`
+  components/LikeButton.astro   기사 카드의 ♡ 토글 버튼
+  pages/likes.astro     좋아요 모아보기 (클라이언트 렌더링, 내보내기/가져오기)
+  pages/articles.json.ts        전체 기사 인덱스 (빌드 시 생성, likes 페이지가 fetch)
 .github/workflows/daily.yml   cron 수집 + Pages 배포
 ```
 
@@ -58,6 +62,10 @@ npm run dev                          # 사이트 확인 (localhost:4321/syc_stud
   형식: `java|자바:2,llm,자동화` — `,`는 키워드 구분, `|`는 동의어 구분(어떤 표기가 매칭돼도 그룹당 1회만 집계), `:숫자`는 가중치(기본 1).
   제목 매칭은 가중치 전액, 본문 매칭은 절반. 실행 로그에서 `★점수`로 확인 가능.
   변수를 비우거나 삭제하면 `pipeline/config.ts`의 `DEFAULT_INTEREST_KEYWORDS`로 폴백.
+  - **AI 시대 개발자 협업 키워드 추가** (2026-09-30, 저장소 Variables에만 반영, 코드 기본값은 그대로):
+    - 가중치 2: `ai 협업|ai collaboration|human-ai|human-in-the-loop|vibe coding|바이브 코딩|바이브코딩|agentic coding|에이전틱 코딩|ai pair|pair programming|페어 프로그래밍|copilot|코파일럿|claude code|coding agent|코딩 에이전트`
+    - 가중치 1: `협업|collaboration|collaborative|teamwork|팀워크|code review|코드 리뷰|코드리뷰|개발 문화|engineering culture`
+    - 다음 07:00 KST 실행부터 반영. 조정은 GitHub 웹 또는 REST API(`PATCH /repos/hard7story/syc_study/actions/variables/INTEREST_KEYWORDS`)로.
   같은 방식으로 `MAX_ARTICLES`, `ANTHROPIC_MODEL` 변수도 워크플로에 연결되어 있음 (미설정 시 코드 기본값).
 - **비용 조정**: `MAX_ARTICLES`(기본 20), `pipeline/config.ts`의 쿼터, `ANTHROPIC_MODEL`
   - Batch API 기본 적용(2026-08-04, 50% 할인). `claude-sonnet-5` 전환(2026-08-04, 품질 우선):
@@ -79,6 +87,13 @@ npm run dev                          # 사이트 확인 (localhost:4321/syc_stud
   원문 URL은 seen.json에도 함께 기록되므로, 어제 GeekNews로 다룬 글이 오늘 HN 프런트페이지에
   올라와도 걸러진다. 토픽 페이지 요청은 새 글만, 동시 2개 + 0.5초 간격 (429 방지).
   실행 로그의 `[중복 제외]` 라인에서 확인 가능. 원문 URL 추출 실패 시 기존 제목 휴리스틱으로 폴백.
+- **좋아요** (2026-10-08): 기사 카드 하단 ♡ 버튼으로 표시, 헤더 "♥ 좋아요" 메뉴(개수 배지)에서 날짜별로 모아본다.
+  - 서버가 없는 정적 사이트라 **브라우저 localStorage**(`syc_study:likes:v1`)에만 저장 — 기기·브라우저마다 따로이며,
+    브라우저 데이터를 지우면 함께 사라진다. 다른 기기로 옮길 때는 좋아요 페이지의 **내보내기(JSON) → 가져오기**(병합) 사용.
+  - 좋아요 페이지는 빌드 시 생성되는 `articles.json`(snippet 제외 전체 기사 인덱스, 1건 ≈ 0.9KB)을 받아
+    좋아요한 것만 그린다. 1년치(≈7,000건)라도 ≈6MB 수준이라 당분간 문제 없음 — 커지면 월별 분할 검토.
+  - 키에 날짜를 붙인 이유: seen.json이 30일만 보관해 같은 id가 나중에 다시 수집될 수 있음.
+  - 인덱스에서 사라진 기사(데이터 파일 삭제 등)는 "기사 데이터를 찾을 수 없습니다"로 표시되고 목록에서 제거할 수 있다.
 - **커리어리는 PoC에서 제외** — RSS/API가 없고 robots.txt가 내부 API 사용을 금지. 추가하려면 헤드리스 브라우저(Playwright) 필요.
 
 ## 확장 계획: 미니PC 로컬 LLM (API 비용 0)
@@ -104,6 +119,9 @@ npm run dev                          # 사이트 확인 (localhost:4321/syc_stud
 - [x] GeekNews ↔ HN 원문 URL 기반 중복 제거 — 2026-08-04 구현 (위 운영 노트 참조)
 - [x] GeekNews 글에 원문 링크 병기 — 2026-08-04 구현 (제목·"원문 보기"는 원문으로, "GN 토론"은 토픽 페이지로. 과거 데이터는 externalUrl이 없어 기존대로 토픽 페이지)
 - [x] Actions 실패 알림 — 2026-08-04 구현 (위 운영 노트 참조)
+- [x] 좋아요 표시·모아보기 — 2026-10-08 구현 (위 운영 노트 참조). 로컬 빌드·브라우저 동작 확인 완료, **main에 push하면 Actions가 자동 배포**
+  - [ ] (후보) 기기 간 자동 동기화 — GitHub Gist/저장소 파일에 저장하려면 토큰 입력 UI 필요. 현재는 내보내기/가져오기로 대체
+  - [ ] (후보) 좋아요 목록 태그·소스 필터, 메모 추가
 - [ ] 주간 다이제스트 페이지, 태그별 보기
 - [ ] 커리어리 수집기 (Playwright 필요)
 - [ ] HN 댓글 요약 — 점수 높은 글은 본문보다 댓글이 더 유익한 경우가 많음 (Algolia API로 상위 댓글 수집 가능, 토큰 비용 증가 주의)

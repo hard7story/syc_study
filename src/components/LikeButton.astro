@@ -1,0 +1,61 @@
+---
+/**
+ * 좋아요 토글 버튼 — 상태는 클라이언트(localStorage)에서 결정.
+ * 페이지 내 모든 버튼을 아래 <script> 하나가 이벤트 위임으로 처리한다.
+ */
+interface Props {
+  date: string;
+  id: string;
+  class?: string;
+}
+
+const { date, id, class: className = '' } = Astro.props;
+---
+
+<button
+  type="button"
+  class={`like-btn inline-flex items-center gap-1 rounded-full border border-slate-200 px-2 py-0.5 text-xs text-slate-500 transition hover:border-rose-300 hover:text-rose-500 data-[liked=true]:border-rose-300 data-[liked=true]:bg-rose-50 data-[liked=true]:text-rose-600 ${className}`}
+  data-like-date={date}
+  data-like-id={id}
+  data-liked="false"
+  aria-pressed="false"
+  aria-label="좋아요"
+  title="좋아요"
+>
+  <span class="like-icon" aria-hidden="true">♡</span>
+  <span class="like-label">좋아요</span>
+</button>
+
+<script>
+  import { isLiked, toggleLike } from '../lib/likes.ts';
+
+  function paint(btn: HTMLButtonElement, liked: boolean) {
+    btn.dataset.liked = String(liked);
+    btn.setAttribute('aria-pressed', String(liked));
+    const icon = btn.querySelector('.like-icon');
+    const label = btn.querySelector('.like-label');
+    if (icon) icon.textContent = liked ? '♥' : '♡';
+    if (label) label.textContent = liked ? '좋아요 취소' : '좋아요';
+    btn.title = liked ? '좋아요 취소' : '좋아요';
+  }
+
+  function paintAll() {
+    document.querySelectorAll<HTMLButtonElement>('.like-btn').forEach((btn) => {
+      const { likeDate, likeId } = btn.dataset;
+      if (likeDate && likeId) paint(btn, isLiked(likeDate, likeId));
+    });
+  }
+
+  document.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.like-btn');
+    if (!btn) return;
+    const { likeDate, likeId } = btn.dataset;
+    if (!likeDate || !likeId) return;
+    paint(btn, toggleLike(likeDate, likeId));
+  });
+
+  // 다른 탭에서 바뀐 경우
+  window.addEventListener('storage', paintAll);
+
+  paintAll();
+</script>

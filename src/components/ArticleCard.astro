@@ -1,11 +1,14 @@
 ---
+import LikeButton from './LikeButton.astro';
 import { SOURCE_META, type SummarizedArticle } from '../lib/data.ts';
 
 interface Props {
   article: SummarizedArticle;
+  /** 기사가 속한 브리핑 날짜 (YYYY-MM-DD) — 좋아요 키에 사용 */
+  date: string;
 }
 
-const { article } = Astro.props;
+const { article, date } = Astro.props;
 const meta = SOURCE_META[article.source];
 // GeekNews는 url이 토픽 페이지라 원문은 externalUrl에 있음 (과거 데이터는 없을 수 있음)
 const originalUrl = article.externalUrl ?? article.url;
@@ -31,7 +34,7 @@ const originalUrl = article.externalUrl ?? article.url;
 
   <p class="mt-2 text-sm leading-relaxed text-slate-700">{article.summaryKo}</p>
 
-  <div class="mt-3 flex gap-3 text-xs text-slate-500">
+  <div class="mt-3 flex items-center gap-3 text-xs text-slate-500">
     <a href={originalUrl} target="_blank" rel="noopener noreferrer" class="font-medium text-blue-600 hover:underline">
       원문 보기 →
     </a>
@@ -40,5 +43,6 @@ const originalUrl = article.externalUrl ?? article.url;
         {article.source === 'geeknews' ? 'GN 토론' : '토론'} {article.comments !== undefined ? `(${article.comments})` : ''}
       </a>
     )}
+    <LikeButton date={date} id={article.id} class="ml-auto" />
   </div>
 </article>

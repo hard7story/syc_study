@@ -35,6 +35,14 @@ const base = baseUrl;
         </a>
         <nav class="flex gap-4 text-sm text-slate-600">
           <a href={`${base}archive/`} class="hover:text-slate-900">아카이브</a>
+          <a href={`${base}likes/`} class="inline-flex items-center gap-1 hover:text-slate-900">
+            ♥ 좋아요
+            <span
+              id="like-count"
+              class="rounded-full bg-rose-100 px-1.5 text-xs font-medium text-rose-600"
+              hidden
+            ></span>
+          </a>
         </nav>
       </div>
     </header>
@@ -44,5 +52,19 @@ const base = baseUrl;
     <footer class="mx-auto max-w-2xl px-4 py-8 text-center text-xs text-slate-400">
       매일 아침 자동 수집·요약됩니다 · 원문 저작권은 각 출처에 있습니다
     </footer>
+    <script>
+      // 헤더의 좋아요 개수 배지 — 모든 페이지 공통
+      import { likeCount, LIKES_CHANGED_EVENT } from '../lib/likes.ts';
+      function paintNavCount() {
+        const el = document.getElementById('like-count');
+        if (!el) return;
+        const n = likeCount();
+        el.textContent = n > 0 ? String(n) : '';
+        el.hidden = n === 0;
+      }
+      window.addEventListener(LIKES_CHANGED_EVENT, paintNavCount);
+      window.addEventListener('storage', paintNavCount);
+      paintNavCount();
+    </script>
   </body>
 </html>

@@ -16,7 +16,7 @@ const latest = getLatestDay();
         </div>
         <div class="flex flex-col gap-3">
           {latest.articles.map((article) => (
-            <ArticleCard article={article} />
+            <ArticleCard article={article} date={latest.date} />
           ))}
         </div>
       </>

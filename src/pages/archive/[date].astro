@@ -19,6 +19,6 @@ const { day } = Astro.props;
     <a href={`${base}archive/`} class="text-sm text-slate-500 hover:underline">← 목록</a>
   </div>
   <div class="flex flex-col gap-3">
-    {day.articles.map((article) => <ArticleCard article={article} />)}
+    {day.articles.map((article) => <ArticleCard article={article} date={day.date} />)}
   </div>
 </Layout>
