@@ -1,0 +1,277 @@
+{
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T01:28:05.075Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34976",
+      "title": "Lemma - 사람과 AI 에이전트가 한 팀으로 일하는 오픈소스 작업 공간",
+      "url": "https://news.hada.io/topic?id=34976",
+      "commentsUrl": "https://news.hada.io/topic?id=34976",
+      "publishedAt": "2026-10-08T09:30:02+09:00",
+      "snippet": "여러 사람이 같은 AI 동료와 업무 데이터·문서·작업 흐름을 공유 하며 일하는 오픈소스 플랫폼 Claude Code, Codex, Cursor, OpenCode에 원하는 업무를 설명하면 앱 화면부터 데이터 테이블, 에이전트, 워크플로와 권한까지 함께 구성 팀의 수정과 피드백을...",
+      "oneLineKo": "사람과 AI 에이전트 협업용 오픈소스 작업 공간 Lemma",
+      "summaryKo": "Lemma는 여러 사람이 동일한 AI 동료와 업무 데이터, 문서, 작업 흐름을 공유하며 협업하는 오픈소스 플랫폼입니다. Claude Code, Codex, Cursor, OpenCode 등에 원하는 업무를 설명하면 앱 화면, 데이터 테이블, 에이전트, 워크플로와 권한까지 자동으로 구성해줍니다. 팀원들은 생성된 결과물에 대해 수정과 피드백을 주고받으며 함께 작업을 완성해 나갈 수 있습니다.",
+      "tags": [
+        "ai-agent",
+        "opensource",
+        "collaboration"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49997161",
+      "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49997161",
+      "publishedAt": "2026-10-07T18:49:40Z",
+      "score": 266,
+      "comments": 269,
+      "snippet": "Meta and Microsoft Limit Employee Use of Claude AI Tools Skip to content Menu Register Login Meta and Microsoft Take Steps to Reduce Employee Usage of Claude AI Last updated on October 6, 2026 October 6, 2026 by Neil Hemmings on Categories Internet & Cybersecurity , Artificial Intelligence Home &raquo; News &raquo; Internet & Cybersecurity &raquo; Meta and Microsoft Take Steps to Reduce Employee Usage of Claude AI Try Our Free Tools! Master the web with Free Tools that work as hard as you do. From Text Analysis to Website Management, we empower your digital journey with expert guidance and free, powerful tools. Let's Try Now! Meta and Microsoft have commenced a significant reduction in employee utilization of Anthropic&rsquo;s Claude AI as they pivot towards their own proprietary coding instruments, as reported on October 5 by The Information. This strategic alteration prioritizes internal expenditure and workforce processes, rather than discontinuing customer access to Claude through Microsoft&rsquo;s offerings. This transition underscores the increasing imperative to manage AI expenditures as coding assistants become integral to routine software operations. While both corporations continue to be substantial clients of Anthropic, they also find themselves in competition with the firm. Their actions reflect a convergence of AI investment, product strategies, and control over developer resources. Microsoft Reduces AI Expenditure Allowances Microsoft had previously anticipated that internal expenditures on Anthropic technology would exceed $1 billion annually. However, this estimate has diminished by over a third subsequent to management’s directive for employees to curtail their use of Claude and to increasingly adopt Microsoft tools, such as GitHub Copilot and OpenAI frameworks. Within Microsoft’s cloud and AI sector, monthly AI spending limits have reportedly been slashed from $100,000 per employee to approximately $10,000 in the majority of instances. It’s crucial to note that these figures are spending ceilings rather than reflections of actual employee expenditures. This reduction in budgetary flexibility has disheartened several engineers who once enjoyed broader latitude to explore models. It&rsquo;s important to highlight that diminished internal funding does not equate to Microsoft&rsquo;s withdrawal of Claude from client-facing products. Reports suggest that client expenditure on Anthropic models via Microsoft&rsquo;s enterprise platforms continues to rise, even as the company constricts its own employees’ usage. At Meta, the number of Claude Code users reportedly plummeted from around 60,000 earlier this year to about 30,000. Although layoffs have influenced this decrease, the report attributes the primary cause to Meta’s strategic shift towards its own AI solutions, which comprise MetaCode and Muse Code, developed using Meta’s proprietary models. MetaCode is said to have more than 30,000 internal users, while Muse Code boasts over 6,00",
+      "oneLineKo": "메타·MS, 사내 Claude AI 사용 줄이고 자체 도구로 전환",
+      "summaryKo": "메타와 마이크로소프트가 자사 직원들의 Anthropic Claude AI 사용을 줄이고 자체 코딩 도구로 전환하고 있다고 The Information이 보도했다. 마이크로소프트는 직원 1인당 월 AI 지출 한도를 10만 달러에서 약 1만 달러로 대폭 축소하며 GitHub Copilot과 OpenAI 기반 도구 사용을 장려하고 있다. 메타의 Claude Code 사용자는 약 6만 명에서 3만 명으로 줄었으며, 이는 MetaCode와 Muse Code 등 자체 모델 기반 도구로의 전환이 주요 원인으로 지목된다. 다만 고객 대상 제품에서는 Claude 제공이 유지되고 있어, 이는 내부 비용 관리와 자체 AI 경쟁력 강화를 위한 전략적 변화로 해석된다.",
+      "tags": [
+        "anthropic",
+        "claude",
+        "ai-coding-tools"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1wzw4cw",
+      "title": "Anti-Patterns in Software Blogging",
+      "url": "https://www.reddit.com/r/programming/comments/1wzw4cw/antipatterns_in_software_blogging/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1wzw4cw/antipatterns_in_software_blogging/",
+      "publishedAt": "2026-10-07T13:10:04+00:00",
+      "snippet": "submitted by /u/mtlynch [link] [comments]",
+      "oneLineKo": "소프트웨어 블로깅에서 피해야 할 안티패턴 소개",
+      "summaryKo": "이 글은 소프트웨어 관련 블로그 글쓰기에서 흔히 나타나는 안티패턴을 다루는 레딧 게시물입니다. 본문 내용이 제공되지 않아 구체적인 사례나 조언은 확인할 수 없습니다. 제목에서 유추할 수 있는 범위에서, 기술 블로그 작성 시 피해야 할 패턴들을 논의하는 내용으로 보입니다.",
+      "tags": [
+        "blogging",
+        "writing",
+        "software"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34964",
+      "title": "Meta·Microsoft, 사내 Claude 사용 줄이고 자체 AI 도구로 전환",
+      "url": "https://news.hada.io/topic?id=34964",
+      "commentsUrl": "https://news.hada.io/topic?id=34964",
+      "publishedAt": "2026-10-08T06:32:12+09:00",
+      "snippet": "Meta와 Microsoft가 직원들의 Claude 사용을 줄이고 자체 AI 도구 사용을 확대 하고 있음. 늘어난 내부 AI 비용을 통제하고 자사 제품을 활용하려는 움직임 Microsoft는 연간 10억 달러 이상으로 예상했던 사내 Anthropic 지출을 3분의 1 이상 축소 하고, GitHub Cop...",
+      "oneLineKo": "Meta·MS, 사내 Claude 사용 줄이고 자체 AI로 전환",
+      "summaryKo": "Meta와 Microsoft가 직원들의 Claude 사용을 줄이고 자사 AI 도구 사용을 확대하고 있다. Microsoft는 연간 10억 달러 이상으로 예상되던 Anthropic 지출을 3분의 1 이상 축소하고 GitHub Copilot 등 자체 제품 활용을 늘리는 중이다. 이는 급증한 내부 AI 비용을 통제하고 자사 생태계 제품을 우선 활용하려는 전략으로 풀이된다.",
+      "tags": [
+        "claude",
+        "microsoft",
+        "meta"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49993121",
+      "title": "AI-assisted proof of optimal packing for 11 squares",
+      "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49993121",
+      "publishedAt": "2026-10-07T14:10:55Z",
+      "score": 109,
+      "comments": 52,
+      "snippet": "GitHub - Queuingtheorydotcom/11SquaresFormalized: Lean formalization of the optimality proof of the 11 square packing · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} Queuingtheorydotcom 11SquaresFormalized Repository navigation Code Issues Pull requests 6 ( 6 ) Actions Projects Security and quality Insights More items 11SquaresFormalized Public Notifications You must be signed in to change notification settings Fork 1 ( 1 ) Star 22 ( 22 ) You must be signed in to star a repository About Lean formalization of the optimality proof of the 11 square packing Resources Readme Activity Stars 22 stars Watchers 0 watching Forks 1 fork Report repository main Branches Tags Go to file Code Open more actions menu Latest commit History 4 Commits 4 Commits Folders and files Name Name Last commit message Last commit date .github/ workflows .github/ workflows ElevenSquare ElevenSquare Sqpack Sqpack docs docs integrations/ wand125 integrations/ wand125 scripts scripts simplification simplification verification verification .gitattributes .gitattributes .gitignore .gitignore ACKNOWLEDGEMENTS.md ACKNOWLED",
+      "oneLineKo": "11개 정사각형 최적 패킹, Lean으로 증명 형식화",
+      "summaryKo": "이 GitHub 저장소는 11개의 정사각형을 최소 크기 정사각형에 채우는 최적 패킹 문제의 최적성 증명을 Lean 정리증명기로 형식화한 프로젝트입니다. AI의 도움을 받아 증명 과정을 작성했으며, 검증(verification) 및 단순화(simplification) 관련 코드와 문서를 포함하고 있습니다. 수학적 증명을 컴퓨터가 검증 가능한 형태로 공식화한 사례입니다.",
+      "tags": [
+        "lean",
+        "formal-verification",
+        "mathematics"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x0asww",
+      "title": "State of Devs 2026",
+      "url": "https://www.reddit.com/r/programming/comments/1x0asww/state_of_devs_2026/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x0asww/state_of_devs_2026/",
+      "publishedAt": "2026-10-07T22:48:04+00:00",
+      "snippet": "submitted by /u/BrewedDoritos [link] [comments]",
+      "oneLineKo": "'State of Devs 2026' 설문 조사 공유 게시물",
+      "summaryKo": "Reddit r/programming에 'State of Devs 2026'이라는 제목의 게시물이 공유되었습니다. 본문 내용이 거의 제공되지 않아 구체적인 설문 항목이나 결과는 확인할 수 없습니다. 제목으로 미루어 개발자 동향을 조사하는 연례 설문 조사와 관련된 것으로 추정됩니다.",
+      "tags": [
+        "survey",
+        "developer-trends"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34980",
+      "title": "a16z의 2026년 소비자 AI 앱 Top 100",
+      "url": "https://news.hada.io/topic?id=34980",
+      "commentsUrl": "https://news.hada.io/topic?id=34980",
+      "publishedAt": "2026-10-08T09:45:01+09:00",
+      "snippet": "ChatGPT가 웹·모바일 이용량과 미국 소비자 지출에서 선두 를 유지하며, Claude는 웹 3위로 올라 DeepSeek와 Perplexity를 앞섬 소비자 지출 분석을 처음 추가했으며, 상위 1%의 월평균 AI 지출은 903달러 로 유료 이용자 중앙값인 25달러와 큰 차이를 보임",
+      "oneLineKo": "a16z, 2026년 소비자 AI 앱 Top 100 발표",
+      "summaryKo": "a16z가 2026년 소비자 AI 앱 Top 100을 발표했다. ChatGPT는 웹·모바일 이용량과 미국 소비자 지출에서 모두 선두를 유지했고, Claude는 웹 부문 3위로 올라서며 DeepSeek와 Perplexity를 앞질렀다. 이번 보고서에는 소비자 지출 분석이 처음 추가되었으며, 상위 1% 이용자의 월평균 AI 지출은 903달러로 유료 이용자 중앙값 25달러와 큰 격차를 보였다.",
+      "tags": [
+        "ai",
+        "chatgpt",
+        "claude"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49993188",
+      "title": "SynthID Detector",
+      "url": "https://synthid.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49993188",
+      "publishedAt": "2026-10-07T14:16:44Z",
+      "score": 90,
+      "comments": 80,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;blog.google&#x2F;innovation-and-ai&#x2F;models-and-research&#x2F;google-deepmind&#x2F;synth-id-ai-content&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.google&#x2F;innovation-and-ai&#x2F;models-and-research&#x2F;go...</a>",
+      "oneLineKo": "구글, AI 생성물 판별 도구 SynthID Detector 공개",
+      "summaryKo": "SynthID Detector는 구글 딥마인드가 개발한 AI 생성 콘텐츠 탐지 도구입니다. SynthID 워터마크 기술을 활용해 이미지, 오디오, 텍스트 등 AI로 생성된 콘텐츠를 식별할 수 있습니다. 관련 내용은 구글 블로그를 통해 공식 발표되었습니다.",
+      "tags": [
+        "synthid",
+        "ai-detection",
+        "watermarking"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34940",
+      "title": "Show GN: 해외 직구한 내 소포, 어디쯤 있을까요?",
+      "url": "https://news.hada.io/topic?id=34940",
+      "commentsUrl": "https://news.hada.io/topic?id=34940",
+      "publishedAt": "2026-10-07T19:33:59+09:00",
+      "snippet": "먼 나라에서 날아 오는 소포, 어디있을지 상상만 하며 우편함을 열어 보셨나요? 하염없이 우체국 홈페이지만 새로고침하며 기다리셨나요? 국제 배송, 지금 어디쯤 왔는지 궁금할 때. 송장 번호 하나면 됩니다. DB에 기반합니다 많은 예측 서비스들은 LLM에게 정보를",
+      "oneLineKo": "해외 직구 소포 위치 추적 서비스 소개",
+      "summaryKo": "해외 직구로 주문한 소포가 어디쯤 왔는지 송장 번호만으로 확인할 수 있는 서비스를 소개하는 글입니다. 많은 유사 서비스들이 LLM에 추적 정보를 맡기는 것과 달리, 이 서비스는 DB 기반으로 배송 위치를 예측하는 방식을 사용합니다. 국제 배송 추적의 불편함을 해소하기 위한 Show GN 프로젝트입니다.",
+      "tags": [
+        "logistics",
+        "show-gn",
+        "database"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49998895",
+      "title": "Margaret Hamilton has died",
+      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49998895",
+      "publishedAt": "2026-10-07T21:16:18Z",
+      "score": 655,
+      "comments": 71,
+      "snippet": "Margaret Hamilton, computing pioneer who led software development for the Apollo program, dies at 90 | MIT News | Massachusetts Institute of Technology Skip to content ↓ Massachusetts Institute of Technology MIT Top Menu ↓ Education Research Innovation Admissions + Aid Campus Life News Alumni About MIT More ↓ Search MIT Search websites, locations, and people See More Results Suggestions or feedback? MIT News | Massachusetts Institute of Technology - On Campus and Around the world Subscribe to MIT News newsletter Browse Enter keywords to search for news articles: Submit Browse By Topics View All → Explore: Machine learning Sustainability Startups Black holes Classes and programs Departments View All → Explore: Aeronautics and Astronautics Brain and Cognitive Sciences Architecture Political Science Mechanical Engineering Centers, Labs, & Programs View All → Explore: Abdul Latif Jameel Poverty Action Lab (J-PAL) Picower Institute for Learning and Memory Media Lab Lincoln Laboratory Schools School of Architecture + Planning School of Engineering School of Humanities, Arts, and Social Sciences Sloan School of Management School of Science MIT Schwarzman College of Computing View all news coverage of MIT in the media → Listen to audio content from MIT News → Subscribe to MIT newsletter → Close Breadcrumb MIT News Margaret Hamilton, computing pioneer who led software development for the Apollo program, dies at 90 Margaret Hamilton, computing pioneer who led software development for the Apollo program, dies at 90 Over two decades at MIT, Hamilton forged new paths in computer science and engineering. Her groundbreaking work included leading the team that programmed the first computers that took humans to the moon. Watch Video Janine Liberty | Department of Aeronautics and Astronautics Publication Date : October 7, 2026 Press Inquiries Press Contact : Janine Liberty Email: jliberty@mit.edu Phone: 617-324-4369 MIT Open Learning Close Caption : “Looking back, we were the luckiest people in the world,” Margaret Hamilton said of her time as an MIT software engineer working with NASA’s Apollo program, which aimed to land the first humans on the moon. “There was no choice but to be pioneers.” Credits : Image: Toan Trinh, MIT Technology Review Caption : A now-famous photo of Margaret Hamilton standing beside listings of the software developed by the Lunar Module and Command and Service Module on-board flight software teams were taken at MIT in 1969. Hamilton led both teams, and more than 400 people, working on Apollo’s software. Credits : Image: MIT News, with photos via MIT Museum Caption : MIT engineers (left to right) Norman Sears, Margaret Hamilton, Phyllis Rye, and Ain Laats discuss their work on the Apollo 8 mission. On the blackboard is a program for Lunar Command-Module navigation. Credits : Image: MIT Museum Caption : For a publicity photo taken at MIT, Hamilton smiled as she flipped a switch in a mockup of an Apollo 12 command module. Credits : Image: MI",
+      "oneLineKo": "아폴로 소프트웨어 개척자 마거릿 해밀턴 90세로 별세",
+      "summaryKo": "MIT에서 아폴로 프로그램의 소프트웨어 개발을 이끌었던 컴퓨팅 선구자 마거릿 해밀턴이 90세로 세상을 떠났다. 그녀는 400명이 넘는 인력과 함께 달 착륙선과 사령선의 온보드 비행 소프트웨어 개발팀을 이끌었다. MIT 재직 20여 년간 컴퓨터 과학과 공학 분야에서 새로운 길을 개척한 인물로 평가받는다.",
+      "tags": [
+        "margaret-hamilton",
+        "apollo-program",
+        "software-engineering"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34984",
+      "title": "Show GN: sysone_trans - 선택형 AI가 문자·자모를 골라 만드는 번역 실험",
+      "url": "https://news.hada.io/topic?id=34984",
+      "commentsUrl": "https://news.hada.io/topic?id=34984",
+      "publishedAt": "2026-10-08T10:08:38+09:00",
+      "snippet": "TypeSafe의 Jev나 OpenAI Decisions처럼 정해진 선택지 중 하나를 고르는 모델로도 번역문을 만들 수 있을까 궁금해서 직접 만든 CLI입니다. 한 번에 문장 전체를 생성하는 대신, 다음 문자나 한글 자모를 하나씩 선택하고 이어 붙입니다. 어떻게 동작하나요? 매 결정마다 원문 전체와 지금까지 만든",
+      "oneLineKo": "문자·자모 단위 선택형 AI 번역 CLI 실험",
+      "summaryKo": "정해진 선택지 중 하나를 고르는 모델로 번역이 가능한지 실험한 CLI 프로젝트입니다. 문장을 한 번에 생성하지 않고, 매 결정마다 원문 전체와 지금까지 생성된 결과를 참고해 다음 문자나 한글 자모를 하나씩 선택해 이어 붙이는 방식으로 동작합니다. TypeSafe의 Jev나 OpenAI Decisions 같은 선택형 모델 접근 방식에서 아이디어를 얻었습니다.",
+      "tags": [
+        "llm",
+        "translation",
+        "cli"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49996425",
+      "title": "GPT‑6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49996425",
+      "publishedAt": "2026-10-07T18:00:58Z",
+      "score": 489,
+      "comments": 257,
+      "oneLineKo": "OpenAI, 'GPT-6와 지능형 UI' 공개 발표",
+      "summaryKo": "OpenAI가 GPT-6 및 이를 활용한 지능형 UI(Intelligent UI)를 모두를 위해 제공한다는 내용의 발표 페이지입니다. 본문 내용은 제공되지 않아 구체적인 기능이나 출시 일정은 확인할 수 없습니다. 제목으로 보아 차세대 언어모델과 사용자 인터페이스 통합에 관한 발표로 추정됩니다.",
+      "tags": [
+        "openai",
+        "llm",
+        "gpt-6"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34977",
+      "title": "WorldCrafter - 이미지 한 장으로 탐색하고 돌아올 수 있는 AI 세계 만들기",
+      "url": "https://news.hada.io/topic?id=34977",
+      "commentsUrl": "https://news.hada.io/topic?id=34977",
+      "publishedAt": "2026-10-08T09:35:01+09:00",
+      "snippet": "Tencent ARC Lab과 베이징대학교가 개발한 영상 월드 모델 로, 이미지 한 장이나 텍스트 설명에서 시작해 카메라를 움직이며 탐색하는 장면을 생성 시선을 돌렸다 돌아왔을 때 앞서 본 사물과 공간을 기억해 복원 하며, 분 단위로 이어지는 탐색에서도 장면의 일관성...",
+      "oneLineKo": "이미지 한 장으로 탐색 가능한 AI 월드 모델 공개",
+      "summaryKo": "Tencent ARC Lab과 베이징대학교가 WorldCrafter라는 영상 월드 모델을 개발했다. 이미지 한 장이나 텍스트 설명만으로 카메라를 움직이며 탐색할 수 있는 장면을 생성한다. 시선을 돌렸다가 돌아와도 이전에 본 사물과 공간을 기억해 복원하며, 분 단위의 긴 탐색에도 장면의 일관성을 유지한다.",
+      "tags": [
+        "world-model",
+        "generative-ai",
+        "video-generation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49993914",
+      "title": "Visa, Mastercard, major banks facing new litigation over 'anticompetitive' fees",
+      "url": "https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49993914",
+      "publishedAt": "2026-10-07T15:09:59Z",
+      "score": 481,
+      "comments": 345,
+      "snippet": "Visa, Mastercard, Major Banks Facing New Litigation Over ‘Anticompetitive’ Merchant Credit Card Transaction Fees Lawsuit List Most Popular Social Media Addiction Lawsuits Nitrous Oxide Lawsuits Asbestos Lung Cancer Lawsuits Video Game Addiction Lawsuits Olympus Scope Infection Lawsuits Uber & Lyft Sexual Assault Lawsuits Kratom 7-OH Lawsuits Silicosis Lawsuits View All Lawsuits &rarr; Settlements Data Breaches Legal News Newswire Blog Learn About Us Search Search in Newswire Published on October 6, 2026 Visa, Mastercard, Major Banks Facing New Litigation Over ‘Anticompetitive’ Merchant Credit Card Transaction Fees by Corrado Rizzi Share View Comments The Pizza Standard LLC v. Visa Inc. et al. Filed: September 30, 2026 ◆ § 1:26-cv-06087 • Read Complaint A class action lawsuit alleges Visa, Mastercard and some of America's largest banks have conspired to artificially inflate merchants' credit card transaction fees. Defendant(s) Citibank, N.A. Wells Fargo & Company Bank of America, NA Capital One Bank USA, N.A. Chase Bank USA N.A. JPMorgan Chase & Co. Bank of America Corporation Citigroup Inc. Capital One Financial Corporation Visa Inc. Visa U.S.A. Inc. Visa International Service Association Mastercard Incorporated Mastercard International Incorporated Paymentech, LLC Law(s) Sherman Antitrust Act State(s) New York Categories Business/Finance Retail Antitrust New to ClassAction.org? Read our Newswire Disclaimer A San Diego pizzeria alleges in a proposed class action lawsuit that Visa, Mastercard and several of the nation’s largest banks have maintained a conspiracy to artificially inflate the fees merchants pay on credit card transactions, despite a more than $5 billion class action settlement in recent years over the same allegedly anticompetitive market restraints. Want to stay in the loop on class action lawsuits that matter to you? Sign up for ClassAction.org’s free weekly newsletter . The 134-page lawsuit contends that the effectively non-negotiable credit card transaction fees imposed by the defendants amount to “a deadweight toll on virtually every credit card purchase in America,” totaling hundreds of billions in “monopoly rents” at rates that “no competitive market would produce.” According to the complaint, Visa and Mastercard have worked with the bank defendants&mdash; Bank of America , Capital One , Chase Bank , Citibank and Wells Fargo &mdash;for decades to set uniform schedules of interchange fees, i.e., the effectively non-negotiable charges merchants must pay to credit card-issuing banks on each transaction. The case charges that the defendants, to maintain the high interchange fees and “ensure merchants cannot escape them,” have implemented a “web of anticompetitive rules,” or restraints, that on the whole have disabled any market forces that could rein in or otherwise discipline the credit card transaction costs imposed on merchants. Broadly, the interlocking restraints set and maintained by the defendants have forced merchants that",
+      "oneLineKo": "Visa·Mastercard·대형은행, 가맹점 수수료 반독점 소송 피소",
+      "summaryKo": "샌디에이고의 한 피자가게가 Visa, Mastercard와 Bank of America, Chase, Citibank 등 대형 은행들을 상대로 반독점 집단소송을 제기했습니다. 소장은 이들이 수십 년간 공모해 가맹점이 부담하는 신용카드 거래 수수료(interchange fee)를 인위적으로 높은 수준으로 유지해왔다고 주장합니다. 과거 50억 달러 규모의 유사 소송 합의가 있었음에도 동일한 반경쟁적 관행이 지속되고 있다는 지적입니다. 소송은 Sherman 반독점법 위반을 근거로 뉴욕 연방법원에 제기됐습니다.",
+      "tags": [
+        "antitrust",
+        "fintech",
+        "payments"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49991227",
+      "title": "Shipping JPEG XL in Chrome",
+      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49991227",
+      "publishedAt": "2026-10-07T11:25:02Z",
+      "score": 480,
+      "comments": 310,
+      "snippet": "Shipping JPEG XL in Chrome | Blog | Chrome for Developers Skip to main content Docs Build with Chrome Learn how Chrome works, participate in origin trials, and build with Chrome everywhere. Web Platform Isolated Web Apps (IWA) Capabilities Automation and testing ChromeDriver Extensions Chrome Web Store Chromium Web on Android Origin trials Release notes Productivity Create the best experience for your users with the web's best tools. DevTools Lighthouse Chrome UX Report Accessibility Modern Web Guidance Get things done quicker and neater, with our ready-made libraries. Workbox Puppeteer Experience Design a beautiful and performant web with Chrome. AI Performance CSS and UI Identity Payments Privacy and security Ads Resources More from Chrome and Google. All documentation Baseline open_in_new web.dev open_in_new PageSpeed Insights audit open_in_new Case studies Blog New in Chrome / English Deutsch Español – América Latina Français Indonesia Italiano Nederlands Polski Português – Brasil Tiếng Việt Türkçe Русский עברית العربيّة فارسی हिंदी বাংলা ภาษาไทย 中文 – 简体 中文 – 繁體 日本語 한국어 Sign in Blog Docs More Case studies Blog New in Chrome Build with Chrome Web Platform Isolated Web Apps (IWA) Capabilities Automation and testing ChromeDriver Extensions Chrome Web Store Chromium Web on Android Origin trials Release notes Productivity DevTools Lighthouse Chrome UX Report Accessibility Modern Web Guidance Workbox Puppeteer Experience AI Performance CSS and UI Identity Payments Privacy and security Ads Resources All documentation Baseline <span class=\"material-icons\" style=\"font-size: 12px;\" aria-hidden=\"true\" translate=\"no\">open_in_new</span> web.dev <span class=\"material-icons\" style=\"font-size: 12px;\" aria-hidden=\"true\" translate=\"no\">open_in_new</span> PageSpeed Insights audit <span class=\"material-icons\" style=\"font-size: 12px;\" aria-hidden=\"true\" translate=\"no\">open_in_new</span> Chrome for Developers Blog Shipping JPEG XL in Chrome Stay organized with collections Save and categorize content based on your preferences. Luca Versari X GitHub Homepage Moritz Firsching X GitHub Mastodon Homepage Philip Jägenstedt GitHub Bluesky Homepage Published: October 6, 2026 We're excited to announce that Chrome is shipping decoding support for the JPEG XL ( .jxl ) image format starting from Chrome 155. JPEG XL is a next-generation image format designed to meet the needs of modern web developers and photographers. It offers 30-50% better compression than JPEG, lossless compression, built-in HDR support, lossless JPEG transcoding, and more. In general, we recommend trying both AVIF and JPEG XL to get the best results. We expect that JPEG XL is most helpful for high-fidelity or lossless compression, especially of photographic images or in cases in which fine-grained progressive decoding is preferred. In this post, we share why we brought JPEG XL to Chrome, how we used Rust to ensure memory safety first, the extensive performance work that makes it fast, and what the journ",
+      "oneLineKo": "크롬, JPEG XL 디코딩 공식 지원 시작",
+      "summaryKo": "Chrome 155부터 JPEG XL(.jxl) 이미지 포맷의 디코딩을 지원한다. JPEG XL은 JPEG보다 30-50% 더 나은 압축률, 무손실 압축, HDR 지원, 무손실 JPEG 트랜스코딩 등을 제공하는 차세대 이미지 포맷이다. 구글은 메모리 안전성을 위해 Rust로 디코더를 구현했으며, 성능 최적화 작업도 상세히 다뤘다. AVIF와 JPEG XL을 모두 시도해보고 상황에 맞게 선택할 것을 권장하며, 특히 고품질 사진이나 점진적 디코딩이 필요한 경우 JPEG XL이 유용하다고 설명한다.",
+      "tags": [
+        "jpeg-xl",
+        "chrome",
+        "rust"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49994443",
+      "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "url": "https://bigwords.page/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49994443",
+      "publishedAt": "2026-10-07T15:44:21Z",
+      "score": 353,
+      "comments": 108,
+      "snippet": "BIGWORDS.PAGE: Turn any screen into a sign BIGWORDS PAGE Editor Docs Displays and the editor need JavaScript. The docs explain how the URLs work. Big words for any screen Make a full-screen sign, timer or message from a link. Hold up your phone at arrivals, put a countdown on the TV, or show the Wi-Fi password at the front desk. No account, no app, nothing stored on a server. The link is the whole display, so you can share it or bookmark it. Open the editor Read the docs View fullscreen https://bigwords.page/#Say%20it%20**big.**||Any%20screen.%0AAny%20size.||No%20app.%20No%20login.%0AJust%20a%20**URL.**&bg=111111&fg=ffd60a&font=4&interval=3 Make one by hand Using the built-in editor is easiest, but generate a link however you like. Type a message after the #. https://bigwords.page/#Hello World Add settings with &key=value. https://bigwords.page/#Hello World&bg=000000&fg=ffd60a&font=4 %0A starts a new line. # makes a heading (write it as %23). https://bigwords.page/#%23 Room 204%0AMeeting in progress || splits the message into slides. https://bigwords.page/#Coffee ☕||Tea 🍵||Water 💧&interval=2 Use cases Every card is a working link. Open it fullscreen, or load it into the editor and make it yours. Arrivals sign https://bigwords.page/#**WELCOME%20HOME,%0AGRANDMA!**&bg=f9d5e5&fg=4a2c40&font=6&anim=pulse Open Edit Quiz timer https://bigwords.page/#Quiz%20timer:%0A%7Bcountdown%7D&bg=000000&fg=ffffff&font=3&timer=30s&zero=**Pencils%0Adown%21%2A%2A Open Edit Café Wi-Fi https://bigwords.page/#Wi-Fi:%20**Cafe%20Guest**%0APassword:%0A**latte;art**%7C%7CWelcome!&fg=f3e5d0&font=2&qr=WIFI:T:WPA;S:Cafe%20Guest;P:latte%5C;art;;&interval=4&img=data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxOTIgMTA4Jz48ZGVmcz48ZyBpZD0nYic+PGVsbGlwc2Ugcng9JzUnIHJ5PSczLjQnLz48ZWxsaXBzZSByeD0nNScgcnk9JzMuNCcgZmlsbD0ndXJsKCNzKScvPjxwYXRoIGQ9J00tNCwwQy0xLjUtLjksMS41LjksNCwwJyBzdHJva2U9JyMxNDBjMDgnIHN0cm9rZS13aWR0aD0nLjUnIGZpbGw9J25vbmUnLz48L2c+PHJhZGlhbEdyYWRpZW50IGlkPSdzJyBjeD0nLjM1JyBjeT0nLjMnPjxzdG9wIHN0b3AtY29sb3I9JyM4YTVhM2MnIHN0b3Atb3BhY2l0eT0nLjUnLz48c3RvcCBvZmZzZXQ9JzEnIHN0b3Atb3BhY2l0eT0nLjMnLz48L3JhZGlhbEdyYWRpZW50PjxwYXR0ZXJuIGlkPSdwJyB3aWR0aD0nMzgnIGhlaWdodD0nMzQnIHBhdHRlcm5Vbml0cz0ndXNlclNwYWNlT25Vc2UnIHBhdHRlcm5UcmFuc2Zvcm09J3JvdGF0ZSgxNyknPjx1c2UgaHJlZj0nI2InIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDcsNylyb3RhdGUoMzApJyBmaWxsPScjNGEyZjIwJy8+PHVzZSBocmVmPScjYicgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMjAsNilyb3RhdGUoLTUwKXNjYWxlKDEuMDUpJyBmaWxsPScjNTYzODI2Jy8+PHVzZSBocmVmPScjYicgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMzIsOSlyb3RhdGUoNzUpc2NhbGUoMC45KScgZmlsbD0nIzNmMjgxYicvPjx1c2UgaHJlZj0nI2InIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDEyLDE4KXJvdGF0ZSg5NSlzY2FsZSgwLjk1KScgZmlsbD0nIzVlM2QyOCcvPjx1c2UgaHJlZj0nI2InIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDI2LDE5KXJvdGF0ZSgxNjApJyBmaWxsPScjNGEyZjIwJy8+PHVzZSBocmVmPScjYicgdHJhbnNmb3JtPSd0cmFuc2xhdGUoNywyOClyb3RhdGUoLTIwKScgZmlsbD0nIzU2MzgyNicvPjx1c2UgaHJlZj0nI2InIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDE5LDI5KXJvdGF0ZSg0MClzY2FsZSgwLjk1KScgZmlsb",
+      "oneLineKo": "URL만으로 전체화면 표지판 만드는 Bigwords.page",
+      "summaryKo": "Bigwords.page는 URL 뒤에 텍스트와 설정값을 붙이는 것만으로 전체화면 표지판, 타이머, 메시지를 만들 수 있는 서비스입니다. 계정이나 앱 설치 없이 링크 자체가 화면 전체 디스플레이가 되며, 서버에 데이터를 저장하지 않습니다. 줄바꿈, 슬라이드 전환, 색상, 폰트, 카운트다운 타이머, QR코드 삽입 등을 URL 파라미터로 제어할 수 있어 도착 안내판, 퀴즈 타이머, 카페 와이파이 안내 등 다양한 용도로 활용 가능합니다. 내장 에디터를 사용하면 더 쉽게 링크를 생성할 수 있습니다.",
+      "tags": [
+        "web",
+        "url",
+        "javascript"
+      ]
+    }
+  ]
+}
