@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=33306",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "news.hada.io/topic?id=33306",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49593563",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "t3_1w9pelh",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1w9pelh/a_faster_way_to_convert_a_timestamp_hour_min_sec",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33326",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "news.hada.io/topic?id=33326",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49592375",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "youtube.com/watch?v=6IFVTcM28KA",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "t3_1wa0ja2",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wa0ja2/implementing_the_karatsuba_multiplication",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33325",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "news.hada.io/topic?id=33325",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49598291",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "github.com/iczelia/bzip3",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33311",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "news.hada.io/topic?id=33311",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49596055",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "mathathonchallenge.com/index.html",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33307",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "news.hada.io/topic?id=33307",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49552299",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "deepmind.google/science/weathernext",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33304",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "news.hada.io/topic?id=33304",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49601655",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "lax-skyline.parcelscope.net",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49595865",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "openbaarvervoerbelgie.be",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49558685",
-    "date": "2026-09-08"
-  },
-  {
-    "id": "jyn.dev/simple-is-not-the-same-as-small",
-    "date": "2026-09-08"
-  },
-  {
     "id": "https://news.hada.io/topic?id=33346",
     "date": "2026-09-09"
   },
@@ -3486,5 +3358,133 @@
   {
     "id": "bigwords.page",
     "date": "2026-10-08"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=34999",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "news.hada.io/topic?id=34999",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49985548",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "news.ycombinator.com/item?id=49985548",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "t3_1x0u5q9",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x0u5q9/java_garbage_collection_in_its_own_log_eight",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35042",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "news.hada.io/topic?id=35042",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50008427",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "cactuscompute.com/blog/whistle",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "t3_1x18013",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x18013/adding_gos_defer_to_the_typescript_compiler",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35041",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "news.hada.io/topic?id=35041",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50000488",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "dgt.is/blog/2026-10-07-deepseek-freek-out",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35032",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "news.hada.io/topic?id=35032",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49995495",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35030",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "news.hada.io/topic?id=35030",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49986882",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35000",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "news.hada.io/topic?id=35000",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50004790",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "quesma.com/blog/invisible-cities-one-shot",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50005527",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "vale.rocks/posts/dvd-menus",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50003796",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "htmx.org/essays/yes-and",
+    "date": "2026-10-09"
   }
 ]

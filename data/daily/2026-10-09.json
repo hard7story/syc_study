@@ -1,0 +1,277 @@
+{
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T01:35:07.204Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=34999",
+      "title": "테렌스 타오: AI가 수학 문제를 푸는 것만으로는 충분하지 않다",
+      "url": "https://news.hada.io/topic?id=34999",
+      "commentsUrl": "https://news.hada.io/topic?id=34999",
+      "publishedAt": "2026-10-08T15:35:57+09:00",
+      "snippet": "수학의 발전은 미해결 문제를 푸는 데서 끝나지 않음 . 증명을 이해하고 다듬는 강연·워크숍·협업을 거쳐 새로운 연구와 다음 세대의 지식으로 이어짐 AI로 문제를 푼 뒤 결과를 충분히 이해하지 못하거나 해당 분야에 관심을 두지 않는 사례 가 늘면서, 해답에 뒤따...",
+      "oneLineKo": "테렌스 타오, AI 수학 증명 이해·전파 중요성 강조",
+      "summaryKo": "수학의 발전은 단순히 미해결 문제를 푸는 것에서 끝나지 않으며, 증명을 이해하고 다듬는 강연, 워크숍, 협업 과정을 거쳐야 새로운 연구와 다음 세대의 지식으로 이어진다. 테렌스 타오는 AI가 문제를 해결한 뒤에도 결과를 충분히 이해하지 못하거나 해당 분야에 관심을 두지 않는 사례가 늘고 있다고 지적한다. 그는 AI가 답을 내놓는 것만으로는 수학 발전에 충분하지 않다고 강조한다.",
+      "tags": [
+        "ai",
+        "mathematics"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49985548",
+      "title": "Ask HN: What do you run on a $5 VPS that's worth keeping online 24/7?",
+      "url": "https://news.ycombinator.com/item?id=49985548",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49985548",
+      "publishedAt": "2026-10-06T23:16:56Z",
+      "score": 109,
+      "comments": 154,
+      "snippet": "DHH&#x27;s &quot;AI shed&quot; idea got me thinking about getting a small $5–10&#x2F;month VPS.<p>I&#x27;m a Linux guy and have on many points of my life have a personal server. So I like the idea of having something always on, but I’m not sure the maintenance is worth it when most things can just run on my laptop.<p>That said, I tend to do things myself and only later realize I could have automated or delegated them, so I may have a blind spot here.<p>If you have a cheap VPS or mini PC, what actually ended up being useful long-term? Anything that saved enough time or replaced enough subscriptions to justify keeping it around?",
+      "oneLineKo": "저가 VPS 24시간 운영, 무엇이 실제로 유용했나 질문",
+      "summaryKo": "한 Hacker News 사용자가 DHH의 'AI shed' 아이디어에 영감을 받아 월 5~10달러짜리 저가 VPS 운영을 고민하며 글을 올렸다. 평소 개인 서버를 운영해온 경험이 있지만, 대부분의 작업이 노트북에서도 가능해 유지보수 가치가 있을지 확신하지 못한다고 밝혔다. 이에 커뮤니티에 저가 VPS나 미니 PC에서 실제로 장기적으로 유용했던 용도나 구독 서비스를 대체해 비용을 절감한 사례를 공유해달라고 요청했다.",
+      "tags": [
+        "vps",
+        "self-hosting",
+        "linux"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x0u5q9",
+      "title": "Java garbage collection in its own log: eight checks you can run",
+      "url": "https://www.reddit.com/r/programming/comments/1x0u5q9/java_garbage_collection_in_its_own_log_eight/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x0u5q9/java_garbage_collection_in_its_own_log_eight/",
+      "publishedAt": "2026-10-08T15:37:26+00:00",
+      "snippet": "submitted by /u/huseyinbabal [link] [comments]",
+      "oneLineKo": "자바 GC 로그 분석을 위한 8가지 점검 항목",
+      "summaryKo": "자바 애플리케이션의 가비지 컬렉션(GC) 로그를 분석해 성능 문제를 진단하는 방법을 다룬 글입니다. GC 로그에서 확인할 수 있는 여덟 가지 주요 점검 항목을 제시해 메모리 및 성능 이슈를 파악하는 데 도움을 줍니다. 본문 내용이 제목 외에 제공되지 않아 구체적인 점검 항목은 확인할 수 없습니다.",
+      "tags": [
+        "java",
+        "garbage-collection",
+        "performance"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35042",
+      "title": "AI는 디자인을 어떻게 바꾸고 있는가?",
+      "url": "https://news.hada.io/topic?id=35042",
+      "commentsUrl": "https://news.hada.io/topic?id=35042",
+      "publishedAt": "2026-10-09T10:15:02+09:00",
+      "snippet": "현업 디자이너들과의 대화에서 AI는 제작 속도와 탐색 범위를 늘렸지만, 작업 품질이 좋아졌다고 답한 사람은 없었음 원하는 결과가 명확할수록 AI를 다루기 어려워지는 역설 이 나타남. 열린 탐색에는 유용하지만, 숙련자가 가진 정밀한 의도를 구현할 때는 오히려...",
+      "oneLineKo": "AI 디자인 도구, 속도는 높였지만 품질 개선은 미지수",
+      "summaryKo": "현업 디자이너들을 인터뷰한 결과 AI는 제작 속도와 아이디어 탐색 범위를 늘려주지만, 작업물의 품질이 실제로 좋아졌다고 답한 사람은 없었다. 원하는 결과가 명확할수록 AI를 다루기가 오히려 어려워지는 역설적인 현상이 나타났다. 즉 AI는 열린 탐색 단계에서는 유용하지만, 숙련자가 가진 정밀한 의도를 구현하는 데는 한계를 보인다.",
+      "tags": [
+        "ai",
+        "design",
+        "ux"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50008427",
+      "title": "Whistle: Speech to Text in 16.9 MB",
+      "url": "https://cactuscompute.com/blog/whistle",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50008427",
+      "publishedAt": "2026-10-08T16:59:39Z",
+      "score": 527,
+      "comments": 119,
+      "snippet": "Whistle: Speech to Text in 16.9 MB | Cactus Cactus Needle Whistle Platform Pricing Research Blog ⌘K 4.2k+ stars Fine-tune Needle [ NEW ] Needle 3: our 8-29 MB foundation model for tiny devices Back to blog Models Research Whistle: Speech to Text in 16.9 MB An open speech recognition model that runs on the same CPU engine as Needle. It transcribes seven languages, reaches the first token in 11 ms, and loads beside Needle so one binary turns a clip straight into tool calls. JM Jakub Mroz HN Henry Ndubuaku | October 2, 2026 | 6 min read Today we release Whistle, a speech recognition model for mobiles, wearables, robots, smart home, automotive and microcontrollers. It is one 16.9 MB file, runs on the CPU with no dependencies, and loads into the same C++ engine as Needle , from the same container and the same quantisation. Whistle sandbox Speak, and Whistle transcribes it on your device 16.9 MB · runs in this tab Language Keywords Press the mic and say something. Up to 30 seconds in English, German, French, Spanish, Italian, Dutch or Polish. The first press downloads the 16.9 MB model, and audio never leaves your device. Whistle does three jobs, all of them on the device: Transcription. 16 kHz mono audio, up to 30 seconds in one pass, in English, German, French, Spanish, Italian, Dutch and Polish. The language is detected unless you name it. Word timestamps. Every word with its start, end and probability, aligned from the decoder's attention. Speech embedding. The encoder output, one row per 80 ms frame, without decoding a transcript. The model ENCODER Waveform 16 kHz mono, up to 30 s = 480,000 samples Log-mel 80 bins, 25 ms window, 10 ms hop, 250-3500 Hz, normalised per channel → 3,000 frames Convolutional stem 128 channels, kernel 9, three halvings → 375 frames, one per 80 ms Simple Attention blocks × 8 shared with Needle self-attention over every frame at once, 4 mHC lanes, Monarch Hadamard MLP in place of the FFN DECODER Cross memory K and V projected once per clip, 375 frames × 8 layers, shared by every beam Laddered Simple Attention blocks × 8 shared with Needle GQA 8q : 2kv, 48 qk / 64 v, 3-tap causal conv, engram at layers 3 and 7, width 512 Gated cross attention every decoder layer reads the encoder: x ← x + σ(g) · softmax(q̂ K̂ᵀ/√d) V Beam search × 5 length-normalised log prob, keyword bias by Aho-Corasick automaton Transcript 8,192 text pieces + 7 language tokens, up to 320 of them, word times from the decoder's own attention Blocks marked shared run Needle's code, not a copy of it. --audio-depth selects decoder layers; the encoder always runs all eight. The front end. 16 kHz mono audio is framed at a 25 ms window and a 10 ms hop into 80 log-mel bins, band-limited to 250-3500 Hz and normalised per channel. Thirty seconds is 3,000 frames. A convolutional stem of 128 channels and kernel 9 halves that count three times, leaving 375 frames at one per 80 ms. Every stage after this runs at that rate, and embed returns one row per frame. The encod",
+      "oneLineKo": "16.9MB 온디바이스 음성인식 모델 'Whistle' 공개",
+      "summaryKo": "Cactus가 16.9MB 크기의 경량 음성인식 모델 Whistle을 공개했다. CPU에서 의존성 없이 동작하며 Needle과 같은 C++ 엔진, 양자화 방식을 공유해 하나의 바이너리로 함께 구동된다. 영어, 독일어, 프랑스어 등 7개 언어의 전사, 단어 단위 타임스탬프, 음성 임베딩 추출을 온디바이스에서 처리하며 첫 토큰 응답 시간은 11ms다. 모바일, 웨어러블, 로봇, 스마트홈, 자동차, 마이크로컨트롤러 등 저전력 기기를 대상으로 설계되었다.",
+      "tags": [
+        "speech-to-text",
+        "on-device-ai",
+        "edge-ai"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x18013",
+      "title": "Adding Go's defer to the TypeScript Compiler",
+      "url": "https://www.reddit.com/r/programming/comments/1x18013/adding_gos_defer_to_the_typescript_compiler/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x18013/adding_gos_defer_to_the_typescript_compiler/",
+      "publishedAt": "2026-10-09T01:00:57+00:00",
+      "snippet": "submitted by /u/fagnerbrack [link] [comments]",
+      "oneLineKo": "TypeScript 컴파일러에 Go의 defer 기능 추가",
+      "summaryKo": "Go 언어의 defer 구문을 TypeScript 컴파일러에 도입하려는 시도를 다룬 글입니다. 본문 내용은 제공되지 않아 구체적인 구현 방식이나 배경은 알 수 없습니다. 제목으로 미루어 볼 때 리소스 정리나 함수 종료 시점 처리를 위한 defer 패턴을 TypeScript에 적용하는 논의로 보입니다.",
+      "tags": [
+        "typescript",
+        "go",
+        "compiler"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35041",
+      "title": "AI 시대에 SaaS 기업을 피벗하는 방법",
+      "url": "https://news.hada.io/topic?id=35041",
+      "commentsUrl": "https://news.hada.io/topic?id=35041",
+      "publishedAt": "2026-10-09T10:05:02+09:00",
+      "snippet": "AI 코딩 도구로 기능 개발과 복제가 저렴해지면서, 경쟁사와 같은 기능에 몇 가지를 더하는 전략 만으로는 SaaS의 경쟁력을 유지하기 어려워짐 코드보다 안정적인 운영 역량 이 중요한 인프라와, 기존 고객·뉴스레터·커뮤니티 같은 고객에게 도달할 기반",
+      "oneLineKo": "AI 시대 SaaS 생존 전략, 피벗의 방향성",
+      "summaryKo": "AI 코딩 도구로 기능 개발과 복제 비용이 낮아지면서, 경쟁사와 비슷한 기능만 추가하는 전략으로는 SaaS 기업이 경쟁력을 유지하기 어려워졌다. 이제는 코드 자체보다 안정적인 운영 역량이 중요한 인프라 영역과, 기존 고객·뉴스레터·커뮤니티처럼 고객에게 직접 도달할 수 있는 기반이 더 중요한 경쟁 우위로 떠오르고 있다. 이에 따라 SaaS 기업들은 단순 기능 경쟁에서 벗어나 운영 신뢰성과 고객 접점 자산을 강화하는 방향으로 피벗할 필요가 있다.",
+      "tags": [
+        "saas",
+        "ai",
+        "product-strategy"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50000488",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50000488",
+      "publishedAt": "2026-10-08T00:14:48Z",
+      "score": 411,
+      "comments": 345,
+      "snippet": "Why Isn't The Industry Freaking Out About DeepSeek 4.1 Flash? Skip to main content Jono's Corner Top level navigation menu Home Posts About Feed Why Isn't The Industry Freaking Out About DeepSeek 4.1 Flash? 07 October 2026 tech I have been using DeepSeek 4.1 Flash for about a month, heavily, across a dozen projects. It is super capable, and orders of magnitude cheaper than the \"frontier\" models. When I'm mid-session, if I don't look at the model name, I honestly could not tell you if I'm using DeepSeek or Opus. Whether it's our conversations, the work, or the speed, I don't notice a difference. I don't care that there is no 4.1 \"Pro\". I treat this like a frontier model because it behaves like one . I'm coming at this from my subjective usage experience, but you can see more complete benchmarks here if that floats your boat. So why aren't the frontier labs freaking out right now? China is going to eat their lunch. They may be a month or two behind Anthropic/OpenAI, but these distilled Chinese models can handle the same workloads. Sure, they stole Claude's training , and Anthropic stole it from other people. I'm not getting into the whole who-owns-whose-data debate, because most developers aren't thinking like that. They're just trying to get the most bang for their buck. Good Enough Changes How You Work Today's models are now good enough for high-quality unattended tasks. Chasing the latest and greatest is silly. It is fun to see the new Fable capabilities, but the tasks we throw at them are usually ridiculous (maybe even insulting) if you believe in LLM sentience. It's like asking a math PhD to organize the files on your desktop. With my OpenCode Go sub of $10/month, DeepSeek is basically unlimited. This has completely changed my way of developing. There is no shame now in spinning up mindless tasks, or exploratory UI monkey testing. And sure, go ahead and reorganize your desktop files. That will cost $0.003 instead of $1. I have rarely exceeded $1 in expected costs in a session. I try to keep my sessions tight, but sometimes they run for most of a day. I even lean on 4.1 Flash for complex planning and research. For occasional critical tasks , I sometimes pull in Opus 5.5 to do a final code review, which will catch a few edge cases. Then I have DeepSeek execute the fixes. Even when I call up Opus or GLM (which seems to be drinking the same Chinese Kool-Aid as DeepSeek), it's less about quality and capabilities and more about getting new eyes on a problem. Cache Magic DeepSeek shrank the KV cache by roughly 437x compared to their V1 model. Holding that cache in GPU memory is one of the biggest costs of running long coding sessions. That's how my all-day sessions stay under a dollar. It must be better for the environment too. Using Claude almost feels wasteful, and not just on cost: its caching means DeepSeek must be using less water and electricity. This cache magic is also how Opus 5.5 quietly got its own efficiency boost. Yes, I have frontier su",
+      "oneLineKo": "DeepSeek 4.1 Flash, 저비용 고성능으로 개발 워크플로우 변화",
+      "summaryKo": "저자는 한 달간 여러 프로젝트에서 DeepSeek 4.1 Flash를 사용해본 결과, 가격은 훨씬 저렴하면서도 Opus 같은 프론티어 모델과 체감 성능 차이가 거의 없다고 설명한다. KV 캐시를 기존 대비 약 437배 줄여 장시간 코딩 세션에서도 비용이 하루 1달러 미만으로 유지되며, 이는 GPU 메모리 비용 절감과 환경적 효율성으로도 이어진다고 주장한다. 저자는 이제 '충분히 좋은' 모델이 일상적인 반복 작업과 탐색적 테스트에 부담 없이 쓰일 수 있게 되었고, 중요한 작업에서만 가끔 Opus를 불러 검토시키는 방식으로 개발 방식이 바뀌었다고 말한다. 전체적으로 중국산 저비용 모델들이 프론티어 랩들을 빠르게 추격하고 있음에도 업계가 크게 반응하지 않는 점을 지적한다.",
+      "tags": [
+        "llm",
+        "deepseek",
+        "inference-cost"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35032",
+      "title": "왜 AI 업계는 DeepSeek 4.1 Flash에 긴장하지 않는가?",
+      "url": "https://news.hada.io/topic?id=35032",
+      "commentsUrl": "https://news.hada.io/topic?id=35032",
+      "publishedAt": "2026-10-09T06:38:33+09:00",
+      "snippet": "DeepSeek 4.1 Flash를 약 한 달간 12개 프로젝트에서 집중적으로 사용한 경험상 , 대화와 작업 결과, 속도에서 Opus와 차이를 체감하기 어려웠지만 비용은 훨씬 낮았음 일상적인 개발 작업에는 이미 충분한 성능을 제공하므로, 최신 최고급 모델을 좇기보다 같은 일을 얼마나...",
+      "oneLineKo": "DeepSeek 4.1 Flash, 저비용에도 Opus급 성능 체감",
+      "summaryKo": "한 달간 12개 프로젝트에서 DeepSeek 4.1 Flash를 실사용한 결과, 대화 품질과 작업 결과, 속도 면에서 Opus와 큰 차이를 느끼기 어려웠다는 경험담이다. 반면 비용은 훨씬 저렴해 일상적인 개발 작업에는 이미 충분한 성능을 제공한다고 평가한다. 이에 따라 최신 최고급 모델을 무조건 쫓기보다 동일 작업을 얼마나 효율적으로 처리할 수 있는지가 더 중요하다는 주장을 담고 있다.",
+      "tags": [
+        "llm",
+        "deepseek",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49995495",
+      "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
+      "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49995495",
+      "publishedAt": "2026-10-07T16:56:30Z",
+      "score": 385,
+      "comments": 239,
+      "snippet": "Man discovers his parents’ coffee machine used 1TB of data in 10 days - Dexerto Gaming Popular View All Games Call of Duty Pokemon Overwatch Fortnite Destiny Battlefield GTA Arc Raiders More Gaming EA Sports FC Valorant Apex Legends League of Legends Diablo Counter-Strike 2 Genshin Impact Honkai Star Rail Roblox Deadlock Baldur's Gate Minecraft World of Warcraft Palworld TV & Movies Popular View All TV & Movies Stranger Things Fallout The Boys Marvel DC Anime True Crime Horror More TV & Movies Netflix Apple TV Hulu Prime Video Disney+ Entertainment Entertainment View All Entertainment YouTube Twitch Kick TikTok More Entertainment Viral Food Wikis Wikis View All Wikis Call of Duty: Black Ops 7 guides Battlefield 6 guides Subnautica 2 guides Forza Horizon 6 guides Pokemon Legends Z-A guides Windrose guides Ball x Pit guides Neverness to Everness guides ARC Raiders guides Videos More More About Us Meet The Team See Dexerto First on Google Editorial Standards & Review Policies Advertise With Us Archive Log in Sign up Gaming Popular View All Games Call of Duty Pokemon Overwatch Fortnite Destiny Battlefield GTA Arc Raiders More Gaming EA Sports FC Valorant Apex Legends League of Legends Diablo Counter-Strike 2 Genshin Impact Honkai Star Rail Roblox Deadlock Baldur's Gate Minecraft World of Warcraft Palworld TV & Movies Popular View All TV & Movies Stranger Things Fallout The Boys Marvel DC Anime True Crime Horror More TV & Movies View All TV & Movies Netflix Apple TV Hulu Prime Video Disney+ Entertainment Entertainment View All Entertainment YouTube Twitch Kick TikTok More Entertainment Viral Food Wikis Wikis View All Wikis Call of Duty: Black Ops 7 guides Battlefield 6 guides Subnautica 2 guides Forza Horizon 6 guides Pokemon Legends Z-A guides Windrose guides Ball x Pit guides Neverness to Everness guides ARC Raiders guides Videos More More About Us Meet The Team See Dexerto First on Google Editorial Standards & Review Policies Advertise With Us Archive Trending Modern Warfare 4 Twitch EA FC 27 Wardogs GTA 6 Entertainment Man discovers his parents’ coffee machine used 1TB of data in 10 days by Joe Pring Published: Oct 07, 2026, 16:07 Save for later Save for later Add as a preferred source on Google Follow on Google News A man has decided to buy his parents a new coffee maker after discovering their smart machine broadcast a massive 1TB of data in just 10 days. Going by Nomad, the man shared his discovery on X after checking their parents’ network activity and finding that their coffee maker had generated far more traffic than they expected. Smart coffee maker broadcasts 1TB of data in 10 days After his post went viral, Nomad explained that he had worked in IT for more than 10 years and decided to look further into what had happened. Article continues after ad He found that while the coffee maker had generated 1TB of traffic, most of it stayed within his parents’ home network rather than being sent over the internet. “This is likely a bug with this un",
+      "oneLineKo": "스마트 커피머신, 10일간 1TB 데이터 전송 발견",
+      "summaryKo": "한 남성이 IT 경력을 바탕으로 부모님 네트워크를 점검하다가 스마트 커피머신이 10일 만에 1TB의 데이터를 발생시킨 것을 발견했다. 그는 이를 X(트위터)에 공유했으며, 해당 트래픽 대부분은 외부 인터넷이 아닌 가정 내 네트워크에 머물렀다고 설명했다. 그는 이를 기기의 펌웨어 버그로 추정하고 있다. 결국 그는 부모님께 새 커피머신을 사드리기로 결정했다.",
+      "tags": [
+        "iot",
+        "smart-home",
+        "network"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35030",
+      "title": "SynthID Detector - AI 생성 미디어 워터마크 탐지 도구",
+      "url": "https://news.hada.io/topic?id=35030",
+      "commentsUrl": "https://news.hada.io/topic?id=35030",
+      "publishedAt": "2026-10-09T05:37:02+09:00",
+      "snippet": "Google의 SynthID Detector 는 이미지, 영상, 오디오를 업로드해 AI 생성 또는 편집 과정에서 삽입된 SynthID 워터마크를 확인하는 도구임 이미지에서는 워터마크 존재 여부를, 영상과 오디오에서는 워터마크가 있는 구간 을 탐지함 Google DeepMind가 개발...",
+      "oneLineKo": "구글, AI 생성물 워터마크 탐지 도구 공개",
+      "summaryKo": "Google DeepMind가 개발한 SynthID Detector는 이미지, 영상, 오디오 파일을 업로드해 AI 생성 또는 편집 과정에서 삽입된 SynthID 워터마크를 탐지하는 도구이다. 이미지에서는 워터마크 존재 여부를 확인하고, 영상과 오디오에서는 워터마크가 포함된 구간을 구체적으로 찾아낸다. 이를 통해 AI로 생성되거나 조작된 미디어 콘텐츠를 식별할 수 있다.",
+      "tags": [
+        "synthid",
+        "ai-generated-content",
+        "watermark-detection"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=49986882",
+      "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
+      "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
+      "commentsUrl": "https://news.ycombinator.com/item?id=49986882",
+      "publishedAt": "2026-10-07T01:41:03Z",
+      "score": 384,
+      "comments": 58,
+      "oneLineKo": "일러스트레이터가 그린 집 그림으로 홈 대시보드 제작",
+      "summaryKo": "작성자는 일러스트레이터에게 자신의 집을 그려달라고 의뢰했다. 이렇게 만들어진 그림을 Home Assistant의 대시보드 배경으로 활용했다고 밝혔다. 제목만 제공되어 구체적인 구현 방식이나 기술적 세부사항은 알 수 없다.",
+      "tags": [
+        "home-assistant",
+        "smart-home",
+        "dashboard"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35000",
+      "title": "Google Playground - 코딩 없이 AI와 대화로 게임을 만들고 공유하는 플랫폼",
+      "url": "https://news.hada.io/topic?id=35000",
+      "commentsUrl": "https://news.hada.io/topic?id=35000",
+      "publishedAt": "2026-10-08T15:38:57+09:00",
+      "snippet": "Google이 코딩 없이 텍스트 프롬프트로 게임을 제작·플레이·공유하는 실험적 플랫폼 Playground 를 출시함 원하는 게임을 대화로 만든 뒤 바로 플레이하고 수정 할 수 있으며, 물리 동작·규칙·캐릭터·배경도 요청으로 변경 가능 ...",
+      "oneLineKo": "Google, 대화로 게임 만드는 노코드 AI 플랫폼 공개",
+      "summaryKo": "Google이 코딩 없이 텍스트 프롬프트만으로 게임을 제작, 플레이, 공유할 수 있는 실험적 플랫폼 Playground를 출시했다. 사용자는 대화를 통해 원하는 게임을 만든 뒤 즉시 플레이하고 수정할 수 있다. 물리 동작, 규칙, 캐릭터, 배경 등도 자연어 요청만으로 변경 가능하다.",
+      "tags": [
+        "ai",
+        "genai",
+        "nocode"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50004790",
+      "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50004790",
+      "publishedAt": "2026-10-08T12:00:20Z",
+      "score": 355,
+      "comments": 179,
+      "snippet": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities - Quesma Blog Skip to main content Product Blog Benchmarks About us Token economics Talk to the founder Product Blog Benchmarks About us Token economics Talk to the founder I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities Piotr Migdał · 7 October 2026 Open on another device Download PNG Hacker News front page GPT-6 Astra was a jump when it comes to puzzles . Claude Opus 5.5 is a jump when it comes to design. Vibe designing Even local models can make a competent landing page for a shop . Doing interactive visualization is a different tier. Since I am into creating data visualizations and explorable explanations , LLMs were both a blessing and a curse. The Tree of ‘tree’ , on Proto-Indo-European etymology, with Claude Opus 4.8. The first draft was surprisingly good, but then came a lot of frustration: removing AI slop and fixing visual overlaps. Genetic Distance Map with Claude Fable 5.1, which worked well with data analysis and implementation, but needed a bit of hand-holding to make the design good. Then for a moment I was happy-ish with GPT-6 Astra. My subjective experience was that it is a bit better than Fable 5.1 at a general overview, following intentions behind prompts, and checking that it all works correctly. Then there was the Opus 5.5 moment for AI-assisted design. I saw an optical explorable explanation: “I asked Opus 5.5 to explain camera focus by building an interactive lens lab. Here’s what it came up with after 1 hour 26 minutes in one shot, $25.66 API cost.” – Ryan Sael on X , interactive One may argue that it is still “too rich”, and has no sense of minimalism. But still, wow! I was still in disbelief. Was this really its consistent quality for a one-shot experiment? Instead of my beloved optics , I went for something different. Invisible Cities What’s a good prompt? Well, I went with the beautiful urbanistic poetry of Invisible Cities by Italo Calvino, presenting 55 imaginative cities, each one an emotion or state of mind, expressed in its architecture and in how people behave. When a man rides a long time through wild regions he feels the desire for a city. Finally he comes to Isidora, a city where the buildings have spiral staircases encrusted with spiral seashells, where perfect telescopes and violins are made, where the foreigner hesitating between two women always encounters a third, where cockfights degenerate into bloody brawls among the bettors. In 2019, I had a small project of generating cities for a storytelling performance , using the frontier model of the time, GPT-2. With new models, capabilities change drastically. So I used the following prompt: Make a three.js (pnpm) visualization of all Invisible Cities by Italo Calvino. Don’t ask questions, it is a one-shot task. You have 6h of work, use it until it becomes a masterpiece. GPT-6 Astra in Codex I gave this prompt to GPT-6 Astra… and it worked, end-to-end. GPT-6 Astra ( i",
+      "oneLineKo": "Opus 5.5·GPT-6에 '보이지 않는 도시' 시각화 원샷 실험",
+      "summaryKo": "저자는 Claude Opus 5.5와 GPT-6 Astra에게 단 하나의 프롬프트와 6시간의 작업 시간을 주고 이탈로 칼비노의 '보이지 않는 도시'를 three.js로 시각화하도록 실험했다. 이전에는 GPT-6 Astra가 퍼즐 해결에서, Claude Opus 5.5가 디자인 감각에서 각각 두각을 나타냈다고 평가했다. 저자는 과거 GPT-2로 진행했던 유사 프로젝트와 비교하며 최신 LLM의 디자인·구현 능력이 크게 향상되었음을 확인했다. GPT-6 Astra는 Codex 환경에서 해당 프롬프트를 받아 엔드투엔드로 결과물을 생성했다.",
+      "tags": [
+        "llm",
+        "threejs",
+        "ai-generated-design"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50005527",
+      "title": "Beauty in DVD Menus",
+      "url": "https://vale.rocks/posts/dvd-menus",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50005527",
+      "publishedAt": "2026-10-08T13:22:01Z",
+      "score": 258,
+      "comments": 145,
+      "snippet": "Beauty in DVD Menus | Vale.Rocks Skip to content , footer Open document overview Vale Search Open navigation Posts Portfolio Micros Photography Videos Elsewhere Firehose Library Links Contact Close navigation Posts Essay Beauty in DVD Menus 2096 words 6 Oct 2026 Look at many early DVD releases, and you’ll see interactive menus touted as a selling point. Coming from VHS (or LaserDisc), which had no menus to speak of, this was a genuine improvement. That isn’t to say all DVD s had interactive menus, however. Many of the earliest releases just entered straight into their content, and the same is true of some cheaper releases. However, once DVD became widespread, publishers started to really embrace the capabilities the format afforded them. The format first released in late 1996; however it wasn’t until the 2000s that they really kicked off. With the medium’s strengths and foibles known, players widely adopted, and technology ready to handle the task, DVD s hit their stride. With this came some brilliant and memorable menus. Resolution & Aspect Ratio In NTSC regions video on DVD almost always has a resolution of 720 × 480 pixels, while in PAL regions they’re almost always 720 × 576 pixels. These specific resolutions can be traced back to the D-1 , a digital recording video standard which stored uncompressed component video. It was a major leap in real-time, high-quality recording when it released in 1986 and quickly achieved ubiquity. It derived its resolution from the Rec. 601/BT.601/ CCIR 601 standard from 1982. Other resolutions are possible , however are rarely used for having worse quality and generally being a poor trade-off. You may notice that NTSC ’s resolution of 720 × 480 pixels is a ratio of 3:2 and that PAL ’s is a resolution of 5:4. The DVD has metadata tags telling the playback device how to then stretch the video to the desired aspect ratio for correct appearance in viewing. This is the difference between Storage Aspect Ratio ( SAR ), which is the ratio on the disc, and Display Aspect Ratio ( DAR ) or Pixel Aspect Ratio ( PAR ), which is the ratio in presentation. Due to the transition from 4:3 aspect ratios on home displays to 16:9, there were a lot of fluctuations in DVD presentation. From widescreen that was forced to fit within a 4:3 area via letterboxing, to pan and scan, to anamorphic widescreen, there was variation in presentation. With DVD menus, we see exactly the same as was true in the transitioning era of broadcast television, where critical information was kept within the 4:3 safe area , while non-critical, flavour imagery was within the 16:9 only area. Even releases long after most people had migrated to widescreen, 16:9 displays continue to keep everything within this small safe area. It became a major design consideration of DVD menus that has stuck around even if no longer strictly necessary. Menu Features DVD menus can take many forms, though they tend to have a fairly typical set of options. More often than not, a ",
+      "oneLineKo": "DVD 메뉴 디자인의 미학과 기술적 배경 탐구",
+      "summaryKo": "이 에세이는 DVD 시대의 인터랙티브 메뉴가 VHS 대비 가져온 혁신과, 2000년대 들어 DVD가 대중화되며 메뉴 디자인이 정교해진 과정을 다룬다. NTSC(720×480)와 PAL(720×576) 해상도의 기원을 D-1 표준과 Rec.601에서 추적하며, SAR과 DAR/PAR 개념을 통해 저장 비율과 디스플레이 비율의 차이를 설명한다. 또한 4:3에서 16:9로 전환되는 과정에서 DVD 메뉴가 방송용 세이프 에리어 관행을 계승해 핵심 정보를 4:3 안전 영역에 배치한 디자인 습관이 지금까지 남아있음을 짚는다.",
+      "tags": [
+        "dvd",
+        "video",
+        "design"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50003796",
+      "title": "Yes, and",
+      "url": "https://htmx.org/essays/yes-and/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50003796",
+      "publishedAt": "2026-10-08T09:48:18Z",
+      "score": 167,
+      "comments": 66,
+      "snippet": "</> htmx ~ Yes, and... < / > htm x docs reference examples talk essays Search star Yes, and... Carson Gross February 27, 2026 I teach computer science at Montana State University . I am the father of three sons who all know I am a computer programmer and one of whom, at least, has expressed interest in the field. I love computer programming and try to communicate that love to my sons, the students in my classes and anyone else who will listen. A question I am increasingly getting from relatives, friends and students is: Given AI, should I still consider becoming a computer programmer? My response to this is: “Yes, and…” “Yes” Computer programming is, fundamentally, about two things: Problem-solving using computers Learning to control complexity while solving these problems I have a hard time imagining a future where knowing how to solve problems with computers and how to control the complexity of those solutions is less valuable than it is today, so I think it will continue to be a viable career even with the advent of AI tools. “You have to write the code” That being said, I view AI as very dangerous for junior programmers because it is able to effectively generate code for many problems. If a junior programmer does not learn to write code and simply generates it, they are robbing themselves of the opportunity to develop the visceral understanding of code that comes with being down in the trenches. Because of this, I warn my students: “Yes, AI can generate the code for this assignment. Don’t let it. You have to write the code.” I explain that, if they don’t write the code, they will not be able to effectively read the code. The ability to read code is certainly going to be valuable, maybe more valuable, in an AI-based coding future. If you can’t read the code you are going to fall into The Sorcerer’s Apprentice Trap , creating systems you don’t understand and can’t control . Is Coding → Prompting like Assembly → High Level Coding? Some people say that the move from high level languages to AI-generated code is like the move from assembly to high level programming languages . I do not agree with this simile. Compilers are, for the most part, deterministic in a way that current AI tools are not. Given a high-level programming language construct such as a for loop or if statement, you can, with reasonable certainty, say what the generated assembly will look like for a given computer architecture (at least pre-optimization). The same cannot be said for an LLM-based solution to a particular prompt. High level programming languages are a very good way to create highly specified solutions to problems using computers with a minimum of text in a way that assembly was not. They eliminated a lot of accidental complexity , leaving (assuming the code was written reasonably well) mostly necessary complexity. LLM generated code, on the other hand, often does not eliminate accidental complexity and, in fact, can add significant accidental complexity by choosing ",
+      "oneLineKo": "AI 시대에도 코딩 배워야 한다는 htmx 개발자의 조언",
+      "summaryKo": "htmx 창시자 Carson Gross가 AI 시대에 프로그래머를 꿈꾸는 이들에게 보내는 에세이다. AI가 코드를 생성할 수 있어도 주니어 개발자는 반드시 직접 코드를 작성해야 코드를 읽는 능력과 복잡성 통제 능력을 기를 수 있다고 강조한다. 그는 어셈블리에서 고급언어로의 전환과 달리, LLM 코드 생성은 결정론적이지 않고 오히려 불필요한 복잡성을 추가할 수 있다고 지적한다. 결국 AI를 활용하되 코드를 직접 작성하고 이해하는 능력이 여전히 중요하다는 메시지를 전한다.",
+      "tags": [
+        "ai",
+        "programming-education",
+        "llm"
+      ]
+    }
+  ]
+}
