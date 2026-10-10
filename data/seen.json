@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=33346",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "news.hada.io/topic?id=33346",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49613068",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "ishamf.dev/p/llm-attention-visualizer",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "t3_1was1gb",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1was1gb/video_on_improving_performance_of_arctan_for",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33379",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "news.hada.io/topic?id=33379",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49615537",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "ai.meta.com/muse",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "t3_1waw4mb",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1waw4mb/what_every_compiler_writer_should_know_about",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33376",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "news.hada.io/topic?id=33376",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49605915",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "cims.nyu.edu/~tristanb/statement.pdf",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33373",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "news.hada.io/topic?id=33373",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49613262",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "openai.com/index/navier-stokes-solution",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33370",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "news.hada.io/topic?id=33370",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49611251",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33368",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "news.hada.io/topic?id=33368",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49610631",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "github.com/ayghri/i-have-adhd",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49611051",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49611128",
-    "date": "2026-09-09"
-  },
-  {
-    "id": "quesma.com/blog/qwen38-27b-quantizations-benchmarked",
-    "date": "2026-09-09"
-  },
-  {
     "id": "https://news.hada.io/topic?id=33435",
     "date": "2026-09-10"
   },
@@ -3486,5 +3358,133 @@
   {
     "id": "htmx.org/essays/yes-and",
     "date": "2026-10-09"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35053",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "news.hada.io/topic?id=35053",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50018817",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "t3_1x1pypx",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x1pypx/python_release_python_3150",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35071",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "news.hada.io/topic?id=35071",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50023450",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "typesafe.ai/blog/series-ai",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "t3_1x1v9c8",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x1v9c8/clickhouse_outcompresses_parquet_surprises_from",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35077",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "news.hada.io/topic?id=35077",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50019056",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35056",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "news.hada.io/topic?id=35056",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50019911",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "deno.com/blog/cloudflare",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35063",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "news.hada.io/topic?id=35063",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50018088",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "iminafleeting.com",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35094",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "news.hada.io/topic?id=35094",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50022292",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "minesweeper.mikelacher.com",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50020014",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "oxide.computer/blog/our-445m-series-d",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50018420",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "nobelprize.org/prizes/peace/2026/press-release",
+    "date": "2026-10-10"
   }
 ]

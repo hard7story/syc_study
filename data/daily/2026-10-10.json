@@ -1,0 +1,274 @@
+{
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T01:25:03.484Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35053",
+      "title": "Claude Code로 찾아낸, 아무도 존재를 몰랐던 새로운 행성 후보",
+      "url": "https://news.hada.io/topic?id=35053",
+      "commentsUrl": "https://news.hada.io/topic?id=35053",
+      "publishedAt": "2026-10-09T16:40:49+09:00",
+      "snippet": "Pavel Rabtsevich가 Claude Code로 NASA TESS의 공개 관측 데이터를 분석해 , 약 116광년 떨어진 별에서 아직 보고되지 않은 외계행성 후보 신호를 찾아냄 별빛이 3.18일마다 약 2시간 동안 0.05% 감소 하며, 행성에 의한 신호라면 반지름은 지구의 약 1.4배로 추정됨...",
+      "oneLineKo": "Claude Code로 NASA 데이터서 외계행성 후보 발견",
+      "summaryKo": "Pavel Rabtsevich가 AI 코딩 도구 Claude Code를 활용해 NASA TESS의 공개 관측 데이터를 분석, 약 116광년 떨어진 별에서 보고되지 않은 외계행성 후보 신호를 찾아냈다. 별빛이 3.18일마다 약 2시간 동안 0.05% 감소하는 패턴을 보였으며, 이를 행성에 의한 신호로 가정하면 반지름은 지구의 약 1.4배로 추정된다. 이는 AI 코딩 도구를 과학 데이터 분석에 활용한 사례로 주목받고 있다.",
+      "tags": [
+        "claude",
+        "llm",
+        "astronomy"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50018817",
+      "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50018817",
+      "publishedAt": "2026-10-09T11:03:48Z",
+      "score": 377,
+      "comments": 165,
+      "snippet": "GitHub - franzenzenhofer/big-arrow-on-the-screen: Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} franzenzenhofer big-arrow-on-the-screen Repository navigation Code Issues Pull requests Actions Projects Security and quality Insights More items big-arrow-on-the-screen Public Notifications You must be signed in to change notification settings Fork 6 ( 6 ) Star 460 ( 460 ) You must be signed in to star a repository About Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT. Topics accessibility ai-agents claude-code cli codex macos swift Resources Readme MIT license Activity Stars 460 stars Watchers 0 watching Forks 6 forks Report repository main Branches Tags Go to file Code Open more actions menu Latest commit History 154 Commits 154 Commits Folders and files Name Name Last commit message Last commit date .github/ workflows .github/ workflows So",
+      "oneLineKo": "AI 에이전트가 화면에 화살표·텍스트 표시하는 macOS CLI",
+      "summaryKo": "big-arrow-on-the-screen은 Claude Code와 Codex용 스킬로, AI 에이전트가 Mac 화면에 큰 화살표, 박스, 텍스트를 그릴 수 있게 해주는 CLI 도구이다. 클릭이 그대로 통과되며 표시 후 자동으로 사라지는 오버레이 방식으로 동작한다. Swift로 작성되었으며 MIT 라이선스로 공개되어 있다.",
+      "tags": [
+        "ai-agents",
+        "macos",
+        "cli"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x1pypx",
+      "title": "Python Release Python 3.15.0",
+      "url": "https://www.reddit.com/r/programming/comments/1x1pypx/python_release_python_3150/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x1pypx/python_release_python_3150/",
+      "publishedAt": "2026-10-09T16:30:13+00:00",
+      "snippet": "submitted by /u/BrewedDoritos [link] [comments]",
+      "oneLineKo": "파이썬 3.15.0 릴리스 소식 공유",
+      "summaryKo": "Python 3.15.0 버전 릴리스와 관련된 소식을 공유하는 Reddit 게시물입니다. 본문에는 구체적인 변경 사항이나 신규 기능에 대한 설명은 포함되어 있지 않습니다. 제목을 통해 새로운 파이썬 버전이 출시되었다는 사실만 확인할 수 있습니다.",
+      "tags": [
+        "python"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35071",
+      "title": "big-arrow-on-the-screen - AI 에이전트가 Mac 화면에서 클릭할 곳을 가리키는 도구",
+      "url": "https://news.hada.io/topic?id=35071",
+      "commentsUrl": "https://news.hada.io/topic?id=35071",
+      "publishedAt": "2026-10-09T22:41:39+09:00",
+      "snippet": "AI 에이전트가 사람의 조작이 필요한 버튼과 창을 Mac 화면 위의 큰 화살표와 안내 문구로 가리키는 CLI 로, Claude Code와 Codex용 스킬 제공 권한 승인, 2FA, 결제 확인, 서명처럼 사람이 처리할 단계를 안내하며, 도구 자체는 클릭하거나 입력하거나 화면을 캡처하지 않음",
+      "oneLineKo": "AI 에이전트의 사람 개입 지점을 화면에 화살표로 표시",
+      "summaryKo": "big-arrow-on-the-screen은 Mac 화면에서 사람이 직접 처리해야 할 버튼이나 창을 큰 화살표와 안내 문구로 가리키는 CLI 도구입니다. Claude Code와 Codex용 스킬을 제공하여 권한 승인, 2FA, 결제 확인, 서명처럼 AI가 대신할 수 없는 단계를 사용자에게 안내합니다. 도구 자체는 화면을 클릭하거나 입력하거나 캡처하지 않고 오직 시각적 안내 역할만 수행합니다.",
+      "tags": [
+        "ai-agent",
+        "cli",
+        "macos"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50023450",
+      "title": "Typesafe AI raises $870M at $7.5B",
+      "url": "https://typesafe.ai/blog/series-ai",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50023450",
+      "publishedAt": "2026-10-09T17:02:31Z",
+      "score": 266,
+      "comments": 206,
+      "snippet": "TypeSafe A raises Series AI - TypeSafe AI Blog TypeSafe AI Enterprise Thoughts Company Docs API console Contact Sales API console Docs Menu ∵ Back Company News Company News TypeSafe A raises Series AI TL;DR we raised $$$ and we’re going to make sure it shows up as benefits to y’all 🫶 We’ve raised a really big series A¹ led by Andreessen Horowitz , with participation from Sequoia Capital, existing investor DCVC, and the tech illuminati (aka a bunch of the best angel investors). We find fundraising announcements incredibly boring, so we want to be straightforward with what this means for all of you… For developers We intend to take all of the things you love about Jev to the extreme There will be even more machine-native models And we’ll be providing everything else to be the best infrastructure for building smart software For businesses A third of the Fortune 500 are getting their Jev on We’ve saved customers millions of dollars in production already We’ll be adding all the enterprise features you’ve been asking us for For potential recruits We are a real company and we’re here to stay We’re pretty fun Join the meme team For everyone: We care so much about making AI that actually works, and we’re so excited to be interacting with all of you. We’ve changed the path of AI, and we intend to keep cooking. $870 million at a $7.5B valuation, with Martin Casado joining the board. ∵ ⩆ ⩆ ∵ TypeSafe AI © 2026 Contact Terms of Use Privacy Policy Acceptable Use Policy LinkedIn X TypeSafe AI © 2026 Contact Terms of Use Privacy Policy Acceptable Use Policy",
+      "oneLineKo": "TypeSafe AI, 70억 달러 가치에 8.7억 달러 시리즈A 투자유치",
+      "summaryKo": "AI 인프라 스타트업 TypeSafe AI가 Andreessen Horowitz 주도로 Sequoia Capital, 기존 투자자 DCVC 등이 참여한 8억7천만 달러 규모의 시리즈A 투자를 유치했다. 기업가치는 75억 달러로 평가됐으며, Martin Casado가 이사회에 합류한다. 회사는 자사 제품 Jev을 중심으로 머신 네이티브 모델과 엔터프라이즈 기능을 강화할 계획이며, 포춘 500대 기업 중 3분의 1이 이미 Jev을 사용 중이라고 밝혔다.",
+      "tags": [
+        "ai",
+        "startup",
+        "funding"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x1v9c8",
+      "title": "ClickHouse outcompresses Parquet: Surprises from our migration",
+      "url": "https://www.reddit.com/r/programming/comments/1x1v9c8/clickhouse_outcompresses_parquet_surprises_from/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x1v9c8/clickhouse_outcompresses_parquet_surprises_from/",
+      "publishedAt": "2026-10-09T19:55:27+00:00",
+      "snippet": "I pinky promise that I'm not a ClickHouse employee submitted by /u/IiIIIlllllLliLl [link] [comments]",
+      "oneLineKo": "ClickHouse, Parquet보다 압축률 더 뛰어나",
+      "summaryKo": "한 개발자가 데이터 저장 포맷을 Parquet에서 ClickHouse로 마이그레이션한 경험을 공유했다. 예상과 달리 ClickHouse가 Parquet보다 더 높은 압축률을 보여줬다는 내용이다. 본문에는 ClickHouse 직원이 아니라는 점을 강조하며 객관적인 비교 결과임을 밝히고 있다.",
+      "tags": [
+        "clickhouse",
+        "parquet",
+        "data-compression"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35077",
+      "title": "Show GN: 한글날을 맞아 한글 퍼즐게임 바이브코딩 했습니다.",
+      "url": "https://news.hada.io/topic?id=35077",
+      "commentsUrl": "https://news.hada.io/topic?id=35077",
+      "publishedAt": "2026-10-10T00:22:50+09:00",
+      "snippet": "한글 자모 기반의 규칙으로 추리하는 단어 맞추기 퍼즐 웹게임을 만들어봤습니다. 제가 창안한 게임은 아니구요 재밌게 보았던 유튜브 웹 서바이벌 예능 ‘네가지 소원’의 두번째 에피소드에 나온 ‘한글 숨바꼭질’이라는 게임을 웹으로 즐기고 싶어서 해당 규칙 기반으로 만들어봤",
+      "oneLineKo": "한글날 기념 한글 자모 추리 퍼즐 웹게임 제작",
+      "summaryKo": "한글날을 맞아 한글 자모 기반 추리 단어 맞추기 퍼즐 웹게임을 바이브코딩으로 제작했습니다. 유튜브 예능 '네가지 소원'에 등장한 '한글 숨바꼭질' 게임 규칙을 웹으로 구현한 것입니다. 직접 창안한 게임은 아니며 기존 규칙을 참고해 웹 버전으로 만들었습니다.",
+      "tags": [
+        "vibe-coding",
+        "web-game",
+        "korean"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50019056",
+      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50019056",
+      "publishedAt": "2026-10-09T11:36:20Z",
+      "score": 101,
+      "comments": 52,
+      "snippet": "I Pointed AI at 400 Years of Historical Archives. It Found a Forgotten Meteorite, Lost Rhinos, and Unrecorded Volcanic Eruptions. - Jesse Waites I Pointed AI at 400 Years of Historical Archives. It Found a Forgotten Meteorite, Lost Rhinos, and Unrecorded Volcanic Eruptions. October 8, 2026 Stop special effects Read as Human Read as Agent How I used AI to investigate millions of historical records and surfaced a forgotten meteorite report, three lost rhinos, and unrecorded volcano eruptions. Last week, on October 1st, 2026, the historian Benjamin Breen published a post called Using Opus 5.5 to discover a new eyewitness account of the dodo . He used AI to search digitized records from the Dutch East India Company. The Company dominated the spice trade and ran a string of ports across Asia from 1602 until it collapsed under its debts and was dissolved in 1799. A project called GLOBALISE has turned millions of the Company’s handwritten pages into searchable text. Searching those transcriptions with AI, Breen found a 1615 ship’s journal in which sailors on Mauritius “caught many tortoises, dodos”. A new eyewitness record of the extinct dodo, sitting in plain sight for four hundred years. I read the article and immediately thought, I can do this. Not because I’m a historian, but because I’m a software engineer who happens to be very adept at piloting AI agents and creating agentic workflows. Breen’s post was the inspiration, and I wanted to extend the approach: I could search for many different historical mysteries in parallel, and I could chain together a few different AI models to filter results and automate a few of the cumbersome, time consuming manual steps. But the appeal went beyond the technical challenge. I think there’s something honorable about adding to what we know. Adding even one new data point to a couple of niche fields felt like a small but worthwhile contribution to make. I thought it would be really cool if I could do that. I powered on my small but capable home AI lab and got to work. Table of Contents The Plan The Meteorite The Rhinoceroses Forgotten Eruptions What Didn’t Work Newspaper Oddities Where This Stands Sources The Plan I started by asking an AI “Deep Research” assistant a question: which open historical questions are most likely to be solvable with data that already exists online? It came back with thirteen candidates, ranked by how complete and accessible the data was, how much AI could help, whether anyone had already done it, and, most importantly, whether an answer could be checked against an original page. That last one matters more than it sounds. AI models can be confidently wrong, so every claim had to end at a real document: a scan of the actual handwritten letter or the actual printed newspaper, with an archive reference that anyone can look up and read for themselves. The list included animals in the Dutch East India Company archives, a giant volcanic eruption from 1808 that nobody has ever located, felt eart",
+      "oneLineKo": "AI로 400년 역사 기록 검색해 잊힌 발견 재발굴",
+      "summaryKo": "소프트웨어 엔지니어인 저자가 AI 에이전트를 활용해 수백 년치 디지털화된 역사 기록(동인도회사 문서, 신문 등)을 검색했다. 역사학자 Benjamin Breen이 Opus 5.5로 도도새 목격 기록을 찾아낸 사례에서 영감을 받아, 여러 AI 모델을 체이닝해 필터링과 수작업을 자동화하는 워크플로우를 구축했다. 그 결과 잊혀진 유성 보고, 사라진 코뿔소 세 마리의 기록, 기록되지 않은 화산 폭발 등을 발견했으며, 모든 주장은 실제 원본 문서로 검증 가능하도록 설계했다.",
+      "tags": [
+        "ai",
+        "llm",
+        "historical-research"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35056",
+      "title": "AI 시대 주니어 개발자의 역할은 무엇이 돼야 할까요?",
+      "url": "https://news.hada.io/topic?id=35056",
+      "commentsUrl": "https://news.hada.io/topic?id=35056",
+      "publishedAt": "2026-10-09T17:34:06+09:00",
+      "snippet": "AI 시대 주니어 개발자는 'AI 팀장'이 돼야 한다 코딩 에이전트가 기존 주니어 개발자의 구현 업무를 빠르게 대체하고 있다. 실제 개발 현장에서 경험한 변화를 바탕으로, 주니어 개발자의 새로운 역할과 업무 방식을 제안한다. 과거에는 시니어가 설계하고 주니어가 부분적인 구현을 맡았다. 이",
+      "oneLineKo": "AI 시대 주니어 개발자, 'AI 팀장' 역할로 전환 필요",
+      "summaryKo": "코딩 에이전트가 주니어 개발자의 기존 구현 업무를 빠르게 대체하는 상황에서, 저자는 실제 개발 현장 경험을 바탕으로 주니어 개발자의 새로운 역할을 제안한다. 과거에는 시니어가 설계하고 주니어가 부분 구현을 맡았지만, 이제는 주니어가 AI 에이전트를 관리하고 지시하는 'AI 팀장' 역할로 변화해야 한다는 주장이다. 즉 단순 코드 작성보다 AI를 활용한 설계·검증·조율 역량이 중요해지고 있다는 내용이다.",
+      "tags": [
+        "ai",
+        "coding-agent",
+        "junior-developer"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50019911",
+      "title": "Cloudflare acquires Deno",
+      "url": "https://deno.com/blog/cloudflare",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50019911",
+      "publishedAt": "2026-10-09T13:03:48Z",
+      "score": 1061,
+      "comments": 552,
+      "snippet": "Deno is joining Cloudflare | Deno Skip to main content Deno is joining Cloudflare! Learn more -> Dismiss ⌘K ↑↓ Up or down to navigate ↵ Enter to select ESC Escape to close Products Open Source Deno Modern runtime for JavaScript and TypeScript Fresh Web framework designed for the edge Claw Patrol Open-source security firewall for agents JSR TypeScript-first ESM package registry Commercial Deno Deploy Easy serverless hosting for your JavaScript projects Deno Sandbox Run untrusted code in secure Linux VMs. Built for AI agents. Subhosting Extend your platform using Deno Deploy's secure infrastructure Deno for Enterprise Enterprise support for runtime projects Docs Modules Standard Library JSR Node.js & npm Community Discord GitHub Bluesky X YouTube Mastodon Blog ⌘K ↑↓ Up or down to navigate ↵ Enter to select ESC Escape to close Deno is joining Cloudflare October 9, 2026 Ryan Dahl Announcements Product Update For years, we’ve been working to make building server software simpler. We questioned how modules could be distributed, what security guarantees a JavaScript runtime could provide, what belonged in a complete toolchain, and how easily an application could be distributed as a standalone executable. Compatibility with Node.js became an important part of that work too: our users wanted the Deno improvements while continuing to plug into the existing JS ecosystem. The team and community built a runtime that brought these capabilities together and challenged assumptions about what JS development could look like. Today we’re announcing that the entire Deno team is joining Cloudflare to take that work further. Our ambition has always extended beyond the runtime. I wrote about this in my JavaScript Containers blog post: compute, storage, and communication working together, without every application assembling its own infrastructure. With Deno Deploy , we took another step towards that goal. We wanted to make running applications as straightforward as possible. But building and operating Deploy also showed us how much complexity remained underneath that developer experience. I wanted to simplify that layer, too. This led to celld . Building on the Cloudflare Workers programming model, celld lets developers build distributed applications from the start while making the system simple to operate. What excites me greatly is that the scaling is built into the programming model, rather than infrastructure each app has to assemble itself. The progression from Deno to Deno Deploy to celld explains why this move makes sense to us. At Cloudflare we’ll combine our work with that of the Workers and Durable Objects teams. We want to make this programming model the default way to build servers, whether you run on Cloudflare’s network or your own infrastructure. Joining also means choosing where to focus our effort. We’ve decided to put our future development work into this shared platform rather than continuing to develop a separate runtime and hosting service. We know",
+      "oneLineKo": "Cloudflare, Deno 팀 전체 인수 발표",
+      "summaryKo": "Deno 팀 전체가 Cloudflare에 합류한다고 발표했다. Deno 창립자 Ryan Dahl은 런타임, Deno Deploy를 거쳐 개발한 celld 프로젝트를 Cloudflare Workers 및 Durable Objects 팀과 결합할 계획이라고 밝혔다. 이는 분산 애플리케이션 개발을 단순화하고 확장성을 프로그래밍 모델 자체에 내재화하려는 목표의 연장선이다. 앞으로 Deno와 Deno Deploy를 별도로 개발하는 대신 Cloudflare의 공유 플랫폼에 집중할 계획이다.",
+      "tags": [
+        "deno",
+        "cloudflare",
+        "serverless"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35063",
+      "title": "Jev를 GTM에 활용하기 - 고객 분류부터 워크플로 자동화까지",
+      "url": "https://news.hada.io/topic?id=35063",
+      "commentsUrl": "https://news.hada.io/topic?id=35063",
+      "publishedAt": "2026-10-09T21:23:31+09:00",
+      "snippet": "Jev는 고객 분류, 적합도 점수, 구매 신호처럼 반복되는 영업/마케팅 판단을 자동화하는 AI 모델 로, 문장 대신 미리 정한 형식의 답과 확률을 반환함 선택지 분류, 점수 산정, 예/아니오 판단을 지원하며, 한 번의 API 호출에서 여러 질문을 독립적으로 병렬 처리 가능 판단...",
+      "oneLineKo": "Jev AI로 GTM 업무 자동화, 고객 분류·점수화·워크플로 지원",
+      "summaryKo": "Jev는 고객 분류, 적합도 점수, 구매 신호 판단 등 반복적인 영업·마케팅 의사결정을 자동화하는 AI 모델이다. 일반 문장 생성 대신 미리 정의된 형식의 답변과 확률을 반환하는 방식으로 동작하며, 선택지 분류, 점수 산정, 예/아니오 판단 등을 지원한다. 한 번의 API 호출로 여러 질문을 독립적으로 병렬 처리할 수 있어 GTM 워크플로 자동화에 적합하다.",
+      "tags": [
+        "gtm",
+        "ai-model",
+        "workflow-automation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50018088",
+      "title": "Sorry, I'm in a meeting",
+      "url": "https://iminafleeting.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50018088",
+      "publishedAt": "2026-10-09T09:21:48Z",
+      "score": 756,
+      "comments": 238,
+      "snippet": "Fleeting — Sorry, I'm in a meeting Fleeting Sorry, I'm in a meeting. Realistic Plausible meeting audio: workplace self-defence against people stealing your time. Pick a meeting, press play, and let the background noise do the talking. Choose your meeting Your name Accents Back-to-back meetings Block out your calendar Put a fake meeting in your diary so you look busy before anyone asks. The invite links back here, so when the reminder pops up you can join it. Meeting Title in your calendar Date Starts Length 15 minutes 30 minutes 45 minutes 1 hour 1½ hours Repeats Doesn't repeat Every weekday Every week Add the join link Mark as private (colleagues see only \"Busy\") Download invite (.ics) Google Calendar Outlook The invite is made in your browser and nothing is sent to us. Anyone who can see your calendar details will see the join link, so untick it or mark the event private if that matters. The Outlook button adds a single event; use the download for a repeating one. Want to feature your product in a fake meeting? Advertise with us → How it works What is this? Fleeting plays long, realistic plausible recordings of made-up meetings. Put it on speaker in the background and anyone nearby will assume you're busy. Will it loop obviously? Each meeting is about twelve minutes long and starts at a random point, so you won't hear the same opening line twice in a row. How do I end the meeting convincingly? Press \"Leave\" or \"I have to drop\". The other participants say goodbye before the call ends. What happens when a meeting runs out? With \"Back-to-back meetings\" ticked, once you've heard the whole meeting everyone says goodbye and, a few seconds later, you join another one that suits the time of day. Untick it and the meeting loops instead. Are these real people? No. Every voice is synthetic and the faces are AI-generated or licensed stock footage. Every name is invented except John Carroll, who made the site and sometimes sits in with his camera off. No real meetings are recorded. How do I hide the address bar? On a computer the call goes full screen when you join (press F to toggle). On a phone, use your browser's \"Add to Home Screen\" option and open Fleeting from there. It then runs full screen like an app. Made for people who need a minute. Made by John Carroll · Splinters Advertise Privacy You left the meeting Rejoin Back to meetings",
+      "oneLineKo": "가짜 회의 오디오로 바쁜 척하게 해주는 서비스 Fleeting",
+      "summaryKo": "Fleeting은 AI로 생성된 가상의 회의 음성과 영상을 재생해 주변 사람들이 사용자가 회의 중이라고 믿게 만드는 서비스이다. 약 12분 길이의 회의가 무작위 시점부터 재생되며, '연속 회의' 기능을 켜면 한 회의가 끝난 뒤 자동으로 다른 회의로 넘어간다. 캘린더에 가짜 일정을 등록할 수 있는 ICS 다운로드 및 구글/아웃룩 연동 기능도 제공하며, 모든 목소리와 얼굴은 합성 또는 AI 생성물로 실제 회의는 녹음되지 않는다.",
+      "tags": [
+        "ai-generated",
+        "productivity",
+        "synthetic-media"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35094",
+      "title": "a16z의 2026년 기술 시장 분석 - 소프트웨어에서 AI 인프라로 이동하는 투자",
+      "url": "https://news.hada.io/topic?id=35094",
+      "commentsUrl": "https://news.hada.io/topic?id=35094",
+      "publishedAt": "2026-10-10T09:55:01+09:00",
+      "snippet": "기술 산업이 시장 전체의 성장과 투자 흐름을 주도하며, 2026년 S&P 500 이익 증가분의 약 76% 를 차지함. 대형 클라우드 기업의 연간 설비투자는 약 8,000억 달러 , 2027년부터는 1조 달러 이상 으로 예상됨 AI 투자금은 GPU뿐 아니라",
+      "oneLineKo": "a16z, 2026년 투자 흐름 AI 인프라로 이동 전망",
+      "summaryKo": "a16z의 2026년 기술 시장 분석에 따르면 기술 산업이 S&P 500 이익 증가분의 약 76%를 차지할 것으로 예상된다. 대형 클라우드 기업들의 연간 설비투자는 약 8,000억 달러에 달하며, 2027년부터는 1조 달러 이상으로 늘어날 전망이다. AI 투자는 GPU 구매를 넘어 데이터센터, 전력 등 인프라 전반으로 확대되고 있다.",
+      "tags": [
+        "ai",
+        "cloud",
+        "capex"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50022292",
+      "title": "Triple-A Minesweeper",
+      "url": "https://minesweeper.mikelacher.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50022292",
+      "publishedAt": "2026-10-09T15:51:05Z",
+      "score": 640,
+      "comments": 119,
+      "oneLineKo": "트리플에이급 그래픽의 지뢰찾기 게임",
+      "summaryKo": "'Triple-A Minesweeper'는 고품질 그래픽을 적용한 지뢰찾기 게임을 소개하는 웹사이트입니다. 제목에서 알 수 있듯 기존의 단순한 지뢰찾기와 달리 AAA급 게임에 걸맞은 비주얼을 강조한 것으로 보입니다. 구체적인 기술 스택이나 게임 플레이 방식에 대한 추가 정보는 본문에 제공되지 않았습니다.",
+      "tags": [
+        "game",
+        "web"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50020014",
+      "title": "Our $445M Series D",
+      "url": "https://oxide.computer/blog/our-445m-series-d",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50020014",
+      "publishedAt": "2026-10-09T13:12:47Z",
+      "score": 587,
+      "comments": 265,
+      "snippet": "Our $445M Series D | Oxide Computer Company Product Product Solutions Solutions Resources Resources Company Company Podcasts Podcasts Blog Try now Contact sales Our $445M Series D 9 Oct 2026 In the spring, we hit a pretty wild milestone: Oxide paid income tax. And not because of some unusual transaction or one-time event, but because our ordinary operations (selling computers!) generated taxable income after accounting for the costs of components, manufacturing, salaries, and running the rest of the business. Of course, we each individually pay income tax every year; is it that surprising that a company is doing what we all do every spring? Well, yes, it is: most startups don’t pay income tax because most startups aren’t profitable! Indeed, startups seek investment because they have costs long before they have revenue, let alone gross profit — let alone income. This is by design: profitability is a lagging indicator of product/market fit (the adventure in venture capital is investing long before the business has materialized!). Figure 1. Us being as excited as you can be paying taxes So this was a big milestone, and on top of that (and contrary to Russ Hanneman’s admonition !), we have a very large order backlog. On the one hand, it’s truly extraordinary to watch the business generate cash, but with demand far exceeding supply, significant cash is needed to secure inventory and fulfill these orders. This is one of the peculiar dynamics of a rapidly growing hardware business: we must commit substantial cash to components and manufacturing well before the resulting systems reach customers. Now, between our Series B , Series C , our existing debt facilities, and the cash generated by the business itself, we felt confident we could satisfy our current backlog, but the absolute numbers are large enough that we would have had to exercise real caution in accepting additional demand. We are, after all, children of the Dot Com bust — cautious by nature — and would not put the business in a position where new supply disruptions, economic shocks, or other events outside our control could jeopardize it. Fortunately, this is the problem that capital is born to solve. Our investors saw this too: they have been extraordinary believers in Oxide from the beginning, and, thrilled by the burgeoning demand, they wanted to be sure that we were properly positioned to fully take advantage of Oxide’s large market. As they have so many times for us over the seven years of the company, Eclipse stood up to lead, and our $445M Series D quickly came together. Existing investors USIT , Riot Ventures , and Jane Street signed up for big pieces — and others on the cap table including Friends and Family Capital and Counterpart eagerly joined in. We are deeply appreciative of the support of these existing investors, but we also wanted to add new investors to the company. While there was a lot of outside interest (profitability being the ultimate VC aphrodisiac!), there was one fir",
+      "oneLineKo": "Oxide, 흑자 전환 후 4.45억달러 시리즈D 투자유치",
+      "summaryKo": "하드웨어 스타트업 Oxide Computer가 영업이익이 발생해 법인세를 납부할 정도로 성장했으며, 주문 백로그가 공급을 초과하는 상황이다. 부품·제조에 선투자가 필요한 하드웨어 사업 특성상 추가 자본이 필요해 Eclipse 주도로 4억4500만 달러 규모의 시리즈D 투자를 유치했다. 기존 투자자인 USIT, Riot Ventures, Jane Street 등이 대거 참여했고 신규 투자자도 합류했다.",
+      "tags": [
+        "startup",
+        "hardware",
+        "funding"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50018420",
+      "title": "Nobel Peace Prize for 2026 to Navanethem Pillay",
+      "url": "https://www.nobelprize.org/prizes/peace/2026/press-release/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50018420",
+      "publishedAt": "2026-10-09T10:12:11Z",
+      "score": 441,
+      "comments": 225,
+      "snippet": "Nobel Peace Prize 2026 - Press release - NobelPrize.org You are using an outdated browser. Please upgrade your browser to improve your experience and security. Skip to content Nobel Prize Open the search menu Close the search menu Close Mobile Menu Toggle Mobile Menu Nobel Prizes & laureates All Nobel Prizes All Nobel Prizes 2026 Physics prize Chemistry prize Medicine prize Literature prize Peace prize Prize in economic sciences About About the prize Alfred Nobel Award ceremonies Nomination Organisation Stories Educational Events & museums Open the search menu Close the search menu Search by term. Search Enhanced Page Navigation Nobel Peace Prize 2026 - Press release Nobel Peace Prize 2026 Nobel Peace Prize 2026 - Prize announcement Nobel Peace Prize 2026 Summary Laureates Navi Pillay Prize announcement Press release Share this Facebook X LinkedIn Email this page Press release Navigate to: Summary - Navi Pillay Prize announcement Press release English English (pdf) Norwegian Norwegian (pdf) Announcement, Nobel Peace Prize 2026 9 October 2026 The Nobel Peace Prize for 2026 goes to a person who with exceptional courage and integrity has led the way towards a more comprehensive global legal order. This year’s laureate has been instrumental in ensuring that war crimes, crimes against humanity and genocide are prosecuted. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2026 to Navanethem “Navi” Pillay for her efforts to promote peace and international law. Navi Pillay’s commitment to universal legal principles and her firm moral compass are constants in a long career. Born into a family of Indian Tamil origin under apartheid in Durban, South Africa, Pillay became a lawyer and legal pioneer, confronting deep structural discrimination, segregation and exclusion. A common thread runs from her early work defending Nelson Mandela and others who stood up against apartheid to her service as a judge in some of the key international court cases of our time. This year’s laureate has significantly enlarged the scope and impact of international law. She has served as a judge on the High Court in South Africa, the International Criminal Tribunal for Rwanda and the International Criminal Court. She was the United Nations High Commissioner for Human Rights and, until recently, she chaired the UN Independent International Commission of Inquiry on the Occupied Palestinian Territory. Today Navi Pillay is a judge on the International Court of Justice in the case where Myanmar stands accused of genocide. In historic international court cases, she has shown that legal measures can help prevent acts of war and violence. Navi Pillay has also contributed to strengthen the institutions of international law. Her independence, expertise and steadfastness have made her one of the most respected international jurists of our time. The first Nobel Peace Prize was awarded 125 years ago. Already then, the Norwegian Nobel Committee underscored the importan",
+      "oneLineKo": "2026 노벨평화상, 국제법 수호한 나비 필레이 수상",
+      "summaryKo": "노르웨이 노벨위원회는 2026년 노벨평화상을 남아공 출신 법률가 나비 필레이에게 수여했다. 그는 르완다 국제형사재판소, 국제형사재판소(ICC), 유엔 인권최고대표 등을 역임하며 전쟁범죄와 집단학살 기소에 기여했다. 현재는 미얀마 집단학살 혐의 사건에서 국제사법재판소(ICJ) 재판관으로 활동 중이다. 이번 수상은 국제법 질서 확립에 대한 그의 공로를 기린 것이다.",
+      "tags": [
+        "nobel-peace-prize",
+        "international-law"
+      ]
+    }
+  ]
+}
