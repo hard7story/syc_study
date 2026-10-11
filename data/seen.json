@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=33435",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "news.hada.io/topic?id=33435",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49623754",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "opusfived.dev",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "t3_1wbr6an",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wbr6an/optimizing_a_spinlock",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33434",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "news.hada.io/topic?id=33434",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49626190",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "tailwindcss.com/blog/tailwind-is-joining-shopify",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "t3_1wbs3m4",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wbs3m4/excessive_meetings",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33442",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "news.hada.io/topic?id=33442",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49624823",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "desertant.com/blog/introducing-desert-ant-labs",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33448",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "news.hada.io/topic?id=33448",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49624856",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "xlii.space/eng/malicious-software-on-google-ads",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33446",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "news.hada.io/topic?id=33446",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49627370",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33440",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "news.hada.io/topic?id=33440",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49614280",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "tautology.town/2026/06/01/card-networks.html",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49628493",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "nomanssky.com/cosmos-update",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49630151",
-    "date": "2026-09-10"
-  },
-  {
-    "id": "apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max",
-    "date": "2026-09-10"
-  },
-  {
     "id": "https://news.hada.io/topic?id=33487",
     "date": "2026-09-11"
   },
@@ -3486,5 +3358,133 @@
   {
     "id": "nobelprize.org/prizes/peace/2026/press-release",
     "date": "2026-10-10"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35119",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "news.hada.io/topic?id=35119",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50035886",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "t3_1x23sn2",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x23sn2/deno_is_joining_cloudflare",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35104",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "news.hada.io/topic?id=35104",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50031614",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "github.com/rociiu/talorys",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "t3_1x2r88r",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x2r88r/stop_reaching_for_websockets_by_default",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35140",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "news.hada.io/topic?id=35140",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50028275",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "rea.tools",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35128",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "news.hada.io/topic?id=35128",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50029123",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "beaksec.github.io/posts/telegram-desktop-one-click-account-takeover",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35121",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "news.hada.io/topic?id=35121",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50033407",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35109",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "news.hada.io/topic?id=35109",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49991852",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "patkerr.co.uk/2d-vehicles",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49980880",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "purplesyringa.moe/blog/grieving-the-loss-of-details",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49997481",
+    "date": "2026-10-11"
+  },
+  {
+    "id": "usenix.org/conference/usenixsecurity24/presentation/zhang-qibo",
+    "date": "2026-10-11"
   }
 ]
