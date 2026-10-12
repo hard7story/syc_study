@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=33487",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "news.hada.io/topic?id=33487",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49643982",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "shopify.engineering/back-to-native",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "t3_1wcotkh",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wcotkh/native_is_now_the_future_of_mobile_at_shopify",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33471",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "news.hada.io/topic?id=33471",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49639408",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "mathstodon.xyz/@andreasthom/117240535270608201",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "t3_1wch6vw",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wch6vw/the_physics_of_database_speed_from_300_to_1m",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33463",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "news.hada.io/topic?id=33463",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49643546",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33461",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "news.hada.io/topic?id=33461",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49642531",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "consumerrights.wiki/w/Sony_PlayStation_digital_game_ownership_lawsuit",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33499",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "news.hada.io/topic?id=33499",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49645443",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "cognition.com/blog/swe-2",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33490",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "news.hada.io/topic?id=33490",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49640646",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "devblogs.microsoft.com/oldnewthing/20260909-00?p=112683",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49627634",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "pv-magazine.com/2026/09/07/hitachi-launches-co2-heat-pump-water-heaters-with-solar-friendly-tariff-controls",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49645393",
-    "date": "2026-09-11"
-  },
-  {
-    "id": "blog.jim-nielsen.com/2026/hands-off-my-cables",
-    "date": "2026-09-11"
-  },
-  {
     "id": "https://news.hada.io/topic?id=33536",
     "date": "2026-09-12"
   },
@@ -3486,5 +3358,133 @@
   {
     "id": "usenix.org/conference/usenixsecurity24/presentation/zhang-qibo",
     "date": "2026-10-11"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35192",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "news.hada.io/topic?id=35192",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50047422",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "twitter.com/karpathy/status/2109361546505966046",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "t3_1x3djbz",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x3djbz/python_315_vs_python_314_performance_testing",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35168",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "news.hada.io/topic?id=35168",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50039092",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "momo5502.com/posts/2026-10-09-game-decompilation",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "t3_1x32log",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x32log/software_developers_are_not_okay_bjarnason",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35162",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "news.hada.io/topic?id=35162",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50041540",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "ircv3.net",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35160",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "news.hada.io/topic?id=35160",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50045984",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "nanolathe.gg",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35208",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "news.hada.io/topic?id=35208",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50045946",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "nyc.gov/main/click-to-cancel",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35202",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "news.hada.io/topic?id=35202",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50043026",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50047055",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "theonion.com/archivehunt",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50042425",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path",
+    "date": "2026-10-12"
   }
 ]

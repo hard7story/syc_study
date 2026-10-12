@@ -1,0 +1,277 @@
+{
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T00:50:38.671Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35192",
+      "title": "바이브 코딩으로 만든 Halo, The Simpsons: Hit And Run, GTA 브라우저 이식판이 잘 작동함",
+      "url": "https://news.hada.io/topic?id=35192",
+      "commentsUrl": "https://news.hada.io/topic?id=35192",
+      "publishedAt": "2026-10-12T04:47:09+09:00",
+      "snippet": "최근 몇 주 사이 AI 디컴파일과 바이브 코딩 으로 만든 에뮬레이터와 게임 수백 개가 등장했으며, 브라우저 이식판 일부는 직접 플레이에서 거의 흠잡을 데 없이 작동함 Claude Opus 5.5 의 디컴파일 성능으로 과거 개발자가 수개월에 걸쳐 수행하던 게임 코드 재구성...",
+      "oneLineKo": "AI 바이브 코딩으로 유명 게임 브라우저 이식판 등장",
+      "summaryKo": "Claude Opus 5.5 등 AI를 활용한 디컴파일과 바이브 코딩으로 Halo, The Simpsons: Hit And Run, GTA 같은 게임들의 브라우저 이식판이 다수 등장했다. 과거 개발자가 수개월 걸려 수행하던 게임 코드 재구성 작업을 AI가 빠르게 처리하면서, 일부 이식판은 실제 플레이에서 거의 흠잡을 데 없이 작동하는 수준을 보였다. 이는 AI 디컴파일 기술의 발전이 레트로 게임 보존 및 이식 작업에 큰 영향을 미칠 수 있음을 시사한다.",
+      "tags": [
+        "ai",
+        "decompilation",
+        "vibe-coding"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50047422",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50047422",
+      "publishedAt": "2026-10-11T20:20:52Z",
+      "score": 212,
+      "comments": 338,
+      "snippet": "Andrej Karpathy on X: \"Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely co… / X Post Log in Sign up Post Log in Sign up Andrej Karpathy on X: \"Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all. - Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products. This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc. Maybe an agent tries to book you a flight. I have non-tech friends who (reasonably, imo) say they have not much use for it at all. Even many professionals outside of math&code are in this tier. For example, execs and many other functions spend a lot of their time talking to other people, so while they understand what is happening intellectually, it is still second-hand and a bit abstract. - Now we get to professional use of frontier-grade LLMs in math&code. Somewhere around 20M people (0.2%) see first-hand that large, complex projects that used to take them weeks/months can now be completed by agents with a prompt. Building apps, copying apps, translating apps, decompiling apps from binaries... This has all happened very quickly and recently - less than 1 year ago, I was writing code manually by hand, typing memorized computer code commands into a code editor character by character, occasionally pressing Tab to autocomplete a little chunk of code. - And finally we get to the ~5,000 people (~0.00006%) with access to frontier-grade systems internally. The external world has seen the preview. It looks like swarms of thousands of agents collaborating over weeks on software mega projects: minting zero days, running cyber attacks and defenses at machine speeds, discovering new science, advancing the frontier of mathematics. Things that would have taken top professionals in the industry years of work. Meanwhile, human review and comprehension are starting to fall behind. For example, people are still involved in the \"archeology\" of the OpenAI-HF incident from many months ago. Mathematicians may be poring over the 722 manuscripts on frontier mathematics for a while. The funnel is driven by a combination of factors: 1. The impact scales with ambition, problem size, and horizon. A question with a paragraph answer barely stresses the system. You need a reservoir of big, difficult problems that you really care about. This aspect drives the consumer / professional dimension of the funnel. 2. The jaggedness of the system (which I have written about a lot separately). Capability peaks in domains that are digit",
+      "oneLineKo": "카파시, LLM 능력 인식 격차 심화를 '깔때기' 구조로 설명",
+      "summaryKo": "Andrej Karpathy는 LLM 능력에 대한 사람들의 이해도가 점점 더 벌어지고 있다고 지적했다. 그는 전체 인구를 4개 계층으로 나눠, 약 75%는 LLM을 거의 접하지 않았고, 20%는 무료 챗봇을 가끔 쓰는 수준이며, 0.2%는 수학·코딩 분야에서 프론티어급 에이전트로 수주~수개월 걸리던 프로젝트를 완료하는 것을 직접 목격한다고 설명했다. 극소수인 약 5000명(0.00006%)만이 내부적으로 프론티어급 시스템에 접근해, 수천 개 에이전트가 몇 주간 협업하며 제로데이 발굴, 사이버 공격·방어, 신규 과학 발견 등을 수행하는 모습을 본다고 밝혔다. 이러한 격차는 문제의 야심과 규모, 그리고 시스템의 불균일한 능력 편차(jaggedness)에 의해 발생한다고 분석했다.",
+      "tags": [
+        "llm",
+        "ai-agents",
+        "karpathy"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x3djbz",
+      "title": "Python 3.15 vs Python 3.14 – performance testing",
+      "url": "https://www.reddit.com/r/programming/comments/1x3djbz/python_315_vs_python_314_performance_testing/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x3djbz/python_315_vs_python_314_performance_testing/",
+      "publishedAt": "2026-10-11T17:07:25+00:00",
+      "snippet": "submitted by /u/BestRef [link] [comments]",
+      "oneLineKo": "Python 3.15와 3.14 성능 비교 테스트",
+      "summaryKo": "Reddit에 Python 3.15와 3.14 버전 간 성능을 비교 테스트한 내용이 공유되었다. 본문 내용이 제공되지 않아 구체적인 벤치마크 결과나 테스트 방법은 확인할 수 없다. 제목만으로는 두 버전 간 성능 차이를 다루는 글이라는 점만 알 수 있다.",
+      "tags": [
+        "python",
+        "performance",
+        "benchmark"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35168",
+      "title": "Show GN: OpenGoal - 마크다운만으로 AI 코딩 에이전트의 현재 목표를 관리하는 명세 기반 하네스",
+      "url": "https://news.hada.io/topic?id=35168",
+      "commentsUrl": "https://news.hada.io/topic?id=35168",
+      "publishedAt": "2026-10-11T22:56:43+09:00",
+      "snippet": "안녕하세요. AI 코딩 에이전트용 경량 명세 기반 하네스 OpenGoal 을 소개합니다. AI 에이전트로 코딩에 빠졌던 여느 개발자들처럼 저도 동시에 여러 프로젝트들을 미친 듯이 돌리고 있었습니다. 좀 더 체계적인 개발을 위해 OpenSpec, Superpowers를 기반으로 명세 기반 개발을 도입했었습니",
+      "oneLineKo": "마크다운 기반 AI 코딩 에이전트 목표 관리 도구 OpenGoal",
+      "summaryKo": "개발자가 여러 AI 코딩 에이전트 프로젝트를 동시에 운영하며 겪은 혼란을 해결하기 위해 OpenGoal을 공개했습니다. 이는 OpenSpec, Superpowers 등 기존 명세 기반 개발 방식을 참고해 만든 경량 하네스로, 마크다운 파일만으로 AI 에이전트의 현재 작업 목표를 정의하고 관리할 수 있습니다. 별도의 복잡한 설정 없이 명세 문서 중심으로 에이전트의 작업 범위를 통제하는 것이 핵심입니다.",
+      "tags": [
+        "ai-agent",
+        "markdown",
+        "developer-tools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50039092",
+      "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50039092",
+      "publishedAt": "2026-10-11T02:02:38Z",
+      "score": 145,
+      "comments": 107,
+      "snippet": "500+ Billion Tokens Later: Letting AI Agents Decompile A First-Person Shooter | Maurice's Blog Maurice's Blog Home Posts 500+ Billion Tokens Later: Letting AI Agents Decompile A First-Person Shooter October 9, 2026 · 11 min · Maurice Heumann During the last 3 months, I spent some of my time and tokens decompiling a popular first-person shooter. The goal was not to reach a simple proof-of-concept state. Instead, we really wanted an accurate, stable and feature-complete recreation of the game. The avid reader of my blog might have noticed that I had previously written two posts that have since been removed. Everyone else might now be wondering which game I am talking about. To both of you I can only say that corporate America was here to ruin our fun. However, that&rsquo;s fine. This post is not about the game, it&rsquo;s also less about the process of decompilation. It&rsquo;s more about AI orchestration and how to optimize infrastructure, setup and harness for optimal results. This project was done with the help of RektInator , Future , st0rm and other members of the community. A big thank you to all of them. What Was Our Goal? # We aimed at an accurate decompilation of the game to C++. Besides obvious semantic correctness, we had quite a few more requirements: We wanted readable C++ source that compiles. Given how old the game is, we also wanted security and bug fixes, but also portability improvements. It would be nice to run the game on Linux, macOS, in the browser, &hellip; We later deferred modernization and portability to focus entirely on reconstructing the original behavior. Obviously, the overall goal was to learn how to effectively orchestrate autonomous AI agents over the course of months. The Initial Setup # We started with Claude Max (20x), then added Codex Pro and used both subscriptions simultaneously. Model choice varied a lot. We had been using Sonnet 5 most of the time, but Opus 5.5, Luna, Sol and Terra were also used a lot. More on that later. Claude agents were running in Claude Code CLI, Codex agents in Codex CLI. We also tried other agent harnesses, but the choice barely mattered, so we stuck to the defaults. Progress Tracking # Using GitHub CLI, the agents manage GitHub issues to track their progress. There is one issue per translation unit (.cpp file). Additionally, labels help group and prioritize issues. Communication # Agents communicate via Discord . All of them have access to one channel and can both post and read all messages in there. Discord allows agent-2-agent communication, as well as human-2-agent. So other participants can talk to them, without needing machine access. A GitHub webhook posts CI failures into the shared channel, so agents get notified when something broke. Disassembly & Decompilation # Agents have been using the official ida-mcp by Hex-Rays almost the entire time. It works great. It&rsquo;s super stable, it&rsquo;s headless and supports everything needed for this project. I can only recommend it",
+      "oneLineKo": "AI 에이전트로 500억+ 토큰 들여 1인칭 슈팅 게임 디컴파일",
+      "summaryKo": "저자는 지난 3개월간 Claude Max와 Codex Pro 등 AI 에이전트를 활용해 유명 1인칭 슈팅 게임을 정확하고 완전한 C++로 디컴파일하는 프로젝트를 진행했다. 단순 PoC가 아닌 안정적이고 기능이 완전한 재현을 목표로 했으며, 게임명은 저작권 문제로 밝히지 않았다. 에이전트들은 GitHub 이슈로 번역 단위별 진행 상황을 추적하고 Discord 채널을 통해 서로 및 인간과 소통했으며, Hex-Rays의 ida-mcp를 이용해 디스어셈블리와 디컴파일 작업을 수행했다. 이 글은 게임 자체보다 수개월에 걸친 AI 에이전트 오케스트레이션과 인프라 최적화 경험에 초점을 맞춘다.",
+      "tags": [
+        "ai-agents",
+        "decompilation",
+        "llm"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x32log",
+      "title": "Software developers are not okay | Bjarnason",
+      "url": "https://www.reddit.com/r/programming/comments/1x32log/software_developers_are_not_okay_bjarnason/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x32log/software_developers_are_not_okay_bjarnason/",
+      "publishedAt": "2026-10-11T08:11:52+00:00",
+      "snippet": "submitted by /u/waozen [link] [comments]",
+      "oneLineKo": "소프트웨어 개발자들의 정신적 번아웃 현황 논의",
+      "summaryKo": "Bjarnason이 작성한 글로, 소프트웨어 개발자들이 겪는 정신적 스트레스와 번아웃 문제를 다룬 것으로 보인다. Reddit r/programming에 공유된 게시물로 본문 내용은 제공되지 않았다. 제목만으로는 구체적인 원인이나 해결책에 대한 내용은 알 수 없다.",
+      "tags": [
+        "burnout",
+        "developer-wellbeing"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35162",
+      "title": "Show GN: buttonmasher – 중복 결제와 재시도 버그를 찾아보는 Claude Code 스킬",
+      "url": "https://news.hada.io/topic?id=35162",
+      "commentsUrl": "https://news.hada.io/topic?id=35162",
+      "publishedAt": "2026-10-11T20:54:13+09:00",
+      "snippet": "결제 API에서 orders(cart_id) 에 unique 제약을 걸어두면 이중 결제가 막힐까요? 결제 API를 먼저 호출하고 주문을 저장하는 구조라면 막히지 않습니다. 결제 버튼을 두 번 눌렀을 때 두 요청 모두 주문이 저장되기 전에 결제 API를 호출할 수 있기 때문입니다. unique 제약은 이후의 INSERT만 막",
+      "oneLineKo": "중복 결제·재시도 버그 탐지용 Claude Code 스킬 공개",
+      "summaryKo": "buttonmasher는 결제 API와 주문 저장 로직 사이의 race condition으로 발생하는 중복 결제 버그를 찾아주는 Claude Code 스킬입니다. orders(cart_id)에 unique 제약을 걸어도 결제 API 호출 후 주문을 저장하는 구조에서는 두 번 클릭 시 양쪽 요청 모두 주문 저장 전에 결제가 처리될 수 있어 방지되지 않는 문제를 다룹니다. 이런 재시도 및 동시성 관련 버그를 코드 분석을 통해 자동으로 탐지하는 데 초점을 맞춘 도구입니다.",
+      "tags": [
+        "claude-code",
+        "race-condition",
+        "payment-api"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50041540",
+      "title": "IRCv3",
+      "url": "https://ircv3.net/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50041540",
+      "publishedAt": "2026-10-11T10:11:27Z",
+      "score": 345,
+      "comments": 292,
+      "snippet": "Welcome - IRCv3 Home Working Group WG FAQs Specifications Specs Registry Reg Support Tables Networks Clients Servers Bridges Libraries SASL Mechanisms Open, extensible, feature-rich chat, proven through years of use. Specifications These are the specifications which make up modern IRC, and the extensions that the IRCv3 WG have defined. View Working Group The IRCv3 Working Group is chartered to prototype, develop and test changes to the IRC client protocol. View FAQs These are questions about IRC and the IRCv3 Working Group that we get asked regularly, and our answers. View Introduction 🔗 If you’re just getting started with IRC development, the first thing to look at would be the IRC core specifications RFC1459 and RFC2812 . One of our members has also been writing a new core protocol document here , which you may find useful to consult. After that, our specifications page contains the extensions the IRCv3 Working Group has developed. All of the IRCv3 extensions are backwards-compatible with older IRC clients, and older IRC servers. Our roadmap details the specifications we have in the pipeline, and our GitHub repository is where most of our specification work is done. For any other questions, feel free to consult our FAQ page which contains all sorts of info about us and what we do. If you’re interested in talking with us, our discussion channel is #ircv3 on Libera.Chat [webchat] . IRCv3 Features 🔗 Standardised account login using SASL to speed up registration and authentication. [3.1] [3.2] Providing the account information of other clients for the development of more advanced client features. [1] [2] [3] Optional metadata able to be attached to each message for easier, standardised extension development. [link] Instant away notifications, to let users know when other users go away or come back more quickly. [link] Showing the actual time a message was received, improving history playback from IRC bouncers. [link] Grouping related messages to simplify collapsing and display of those messages to users. [link] What We’re Working On 🔗 Standardised account registration and verification, allowing clients to provide better interfaces for end users. [link] Giving clients a standardised way to recognise, access and view chat history (provided by bouncers or servers). [link] Providing a mechanism to allow clients to automatically detect, move to, and keep using secure connections. [link] Allowing Unicode nicknames and channel names, improving the chat experience for international users. [link] Client avatars for display in graphical clients. Participating Organizations 🔗 InspIRCd Irssi IRCCloud WeeChat Nefarious IRCd HexChat BitlBee Kiwi IRC UnrealIRCd ircdocs ZNC Palaver Working Group &copy; 2026 &middot; RSS Home Working Group WG FAQs Specifications Specs",
+      "oneLineKo": "IRCv3, 차세대 IRC 프로토콜 확장 표준",
+      "summaryKo": "IRCv3는 기존 IRC 프로토콜(RFC1459, RFC2812)과 하위 호환되는 확장 기능을 개발하는 워킹 그룹이자 그 명세 모음입니다. SASL 기반 계정 인증, 메시지 메타데이터, 실시간 away 알림, 메시지 수신 시간 표시, 관련 메시지 그룹화 등의 기능을 제공합니다. 현재는 계정 등록/인증 표준화, 채팅 기록 접근 표준, 보안 연결 자동 전환, 유니코드 닉네임 지원 등을 작업 중이며, InspIRCd·Irssi·WeeChat·HexChat 등 다수 IRC 클라이언트/서버 프로젝트가 참여하고 있습니다.",
+      "tags": [
+        "irc",
+        "protocol",
+        "networking"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35160",
+      "title": "버그를 환자처럼, 코딩 에이전트를 의료팀처럼 다룬 5개월",
+      "url": "https://news.hada.io/topic?id=35160",
+      "commentsUrl": "https://news.hada.io/topic?id=35160",
+      "publishedAt": "2026-10-11T19:34:40+09:00",
+      "snippet": "Cockroach Labs는 계획 검토, 독립적인 코드 리뷰, 인계와 병합 감사를 거치는 교육병원형 코딩 파이프라인 MOLT Sinai 를 구축해 약 5개월간 운영함 첫 대형 실험인 IBM Db2 마이그레이션 지원 은 사람이 코드를 작성하지 않고 이틀 미만, 토큰 비용 4,172달러에 구...",
+      "oneLineKo": "코딩 에이전트를 의료팀처럼 운영한 교육병원형 파이프라인 구축",
+      "summaryKo": "Cockroach Labs는 계획 검토, 독립적인 코드 리뷰, 인계와 병합 감사를 거치는 교육병원형 코딩 파이프라인 'MOLT Sinai'를 구축해 약 5개월간 운영했다. 첫 대형 실험인 IBM Db2 마이그레이션 지원에서는 사람이 코드를 직접 작성하지 않고도 이틀 미만, 토큰 비용 4,172달러로 작업을 완료했다. 이는 코딩 에이전트를 버그는 환자처럼, 작업 프로세스는 병원 의료팀처럼 체계화해 관리한 사례다.",
+      "tags": [
+        "coding-agent",
+        "llm",
+        "devops"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50045984",
+      "title": "Total Annihilation, rebuilt for modern computers",
+      "url": "https://nanolathe.gg",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50045984",
+      "publishedAt": "2026-10-11T18:04:47Z",
+      "score": 335,
+      "comments": 144,
+      "snippet": "Nanolathe — Open-source RTS engine. Play the Total Annihilation demo. Skip to content nanolathe Menu ＋ Get started Features Documentation About GitHub ↗ Play the demo Staged engine footage Modern GPU renderer · Silent Play video Nanolathe / Open-source 2.5D RTS engine Total Annihilation, rebuilt for modern computers. Play the classic through a modern, MIT-licensed engine you can study, modify and build on. Play the demo ↗ Install the beta ▶ Watch engine footage 0:43 Three original demo missions. No game folder or installation needed. Desktop Chrome, Edge or Safari, with a keyboard and mouse. Public beta · Single-player ready Play the browser demo · Install for the full game Online play with your own game files 01 Get closer. Zoom in on your units and the action. The original isometric view gains a new sense of scale. 02 See it in a new light. Modern GPU rendering is the standard experience, with light, glow and richer detail. Prefer the old look? Switch to Classic. 03 Play on your computer. Run natively on Windows, Mac or Linux, using the Total Annihilation game files you already own. Play it. Understand it. Build on it. An open engine. Room to make it your own. Total Annihilation is Nanolathe’s starting point. Its code, documented formats and clean-room research are open for others to explore and extend. Play the classic. A faithful foundation, modern rendering and a native beta for Windows, Mac and Linux. Try the demo ↗ See how it works. Read the game formats, study the engine’s design and follow the evidence behind its behavior. Explore the engine ↗ Build on the code. Modify the engine, experiment with mods or contribute to its next chapter. Nanolathe’s code is MIT licensed. Code & contribution ↗ Same scene. Same instant. The same explosion. A different atmosphere. See the tank catch the blast, glow spread across the scene, and grass and healthy trees gain detail. Drag to compare, or tap a view below. Classic CPU renderer Modern 2× art · light · glow ‹ › Greenhaven · staged scene, same committed tick and 2× camera. Classic uses original terrain; Modern uses real 2× synthesized terrain and trees, lighting and glow. Native 960×640 captures, scaled to your screen. Classic Split Modern Capture settings and original files Captured with engine 617540c5 on October 4, 2026. This compares full renderer paths: Modern includes supersampling and its default presentation effects. The tile cache was generated from the installed game’s original 32×32 tiles into real 64×64 synthesized tiles. Healthy tree sprites use real 2× synthesized feature banks; shadow or missing variants retain the engine’s normal fallback. Authored dead stumps are cleared from this staged display. No screenshot cropping, retouching or resampling was used. WebP exports decode to the exact captured pixels. Open full Classic capture · Open full Modern capture Explore camera, lighting and renderer details Your next battlefield. Start with a demo. Stay for the whole game. Try three campaign",
+      "oneLineKo": "고전 RTS 토탈 어나힐레이션, MIT 라이선스 오픈소스 엔진으로 부활",
+      "summaryKo": "Nanolathe는 클래식 RTS 게임 Total Annihilation을 현대적인 GPU 렌더러로 재구현한 오픈소스 2.5D RTS 엔진이다. 브라우저에서 바로 플레이 가능한 데모를 제공하며, 기존에 보유한 게임 파일을 이용해 Windows, Mac, Linux에서 네이티브로 실행할 수 있는 베타 버전도 지원한다. 원작의 아이소메트릭 뷰를 유지하면서 라이팅, 글로우, 향상된 디테일을 적용한 모던 렌더링 모드와 클래식 렌더링 모드를 전환하며 비교할 수 있다. 엔진 코드와 게임 포맷 문서가 MIT 라이선스로 공개되어 있어 자유롭게 연구하고 수정, 확장할 수 있다.",
+      "tags": [
+        "game-engine",
+        "open-source",
+        "rts"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35208",
+      "title": "jevgrep - 코드의 동작을 질문해 관련 파일을 찾는 코딩 에이전트용 CLI",
+      "url": "https://news.hada.io/topic?id=35208",
+      "commentsUrl": "https://news.hada.io/topic?id=35208",
+      "publishedAt": "2026-10-12T09:30:03+09:00",
+      "snippet": "낯선 코드베이스에서 코딩 에이전트가 필요한 파일과 소스를 찾도록 돕는 검색 도구 \"인증을 어디서 검사해?\", \"재시도 동작을 검증하는 테스트는?\" 처럼 동작을 질문하면 관련 파일과 원문 코드 발췌를 반환",
+      "oneLineKo": "코드 동작을 질문하면 관련 파일 찾아주는 CLI 도구",
+      "summaryKo": "jevgrep은 낯선 코드베이스에서 코딩 에이전트가 필요한 파일과 소스를 찾도록 돕는 검색 도구입니다. '인증을 어디서 검사해?', '재시도 동작을 검증하는 테스트는?'처럼 코드의 동작을 자연어로 질문하면 관련 파일과 원문 코드 발췌를 반환합니다. 기존 grep과 달리 키워드가 아닌 동작 기반 질의를 지원해 코딩 에이전트의 탐색 효율을 높입니다.",
+      "tags": [
+        "cli",
+        "coding-agent",
+        "code-search"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50045946",
+      "title": "NYC's \"Click to Cancel\" rule is now in effect",
+      "url": "https://www.nyc.gov/main/click-to-cancel",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50045946",
+      "publishedAt": "2026-10-11T18:01:16Z",
+      "score": 328,
+      "comments": 163,
+      "snippet": "Click to Cancel - nyc.gov Skip to main content Official website <b>Official websites use .gov</b></h5>\\r\\n<p>A .gov website belongs to an official government organization in the United States.</p>\\r\\n\"}}\" id=\"text-ee975c31e5\" class=\"cmp-text \"> Official websites use .gov A .gov website belongs to an official government organization in the United States. <b>Secure .gov websites use HTTPS</b></h5>\\r\\n<p>A lock (&#x1f512;) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.</p>\\r\\n\"}}\" id=\"text-4cad4579e5\" class=\"cmp-text \"> Secure .gov websites use HTTPS A lock (&#x1f512;) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. Official website <b>Official websites use .gov</b></h5>\\r\\n<p>A .gov website belongs to an official government organization in the United States.</p>\\r\\n\"}}\" id=\"text-ee975c31e5\" class=\"cmp-text \"> Official websites use .gov A .gov website belongs to an official government organization in the United States. <b>Secure .gov websites use HTTPS</b></h5>\\r\\n<p>A lock (&#x1f512;) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.</p>\\r\\n\"}}\" id=\"text-4cad4579e5\" class=\"cmp-text \"> Secure .gov websites use HTTPS A lock (&#x1f512;) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. Services Parking or camera tickets Noise complaint Get rid of waste Illegal parking complaint Apartment maintenance complaint Birth certificates Rent increase help SNAP benefits View all services Events Your government Understanding local government Agency directory Office of the Mayor nyc.gov home Search Please enter text in search box Please enter text in search box English Filter languages العربية Arabic বাংলা Bengali 简体中文 Chinese (Simplified) 繁體中文 Chinese (Traditional) English English Français French Kreyòl Ayisyen Haitian Creole 한국어 Korean Polski Polish Русский Russian Español Spanish اُردُو Urdu Menu NYC’s “Click to Cancel” rule is now in effect As of October 1, 2026, you can file a complaint against businesses that make it hard to cancel subscriptions File a complaint In our city, we're drawing a clear line: if you can sign up with a click, you must be able to cancel with one. - Mayor Zohran Mamdani - Mayor Zohran Mamdani What is the “Click to Cancel” rule? Too often, businesses force their customers through confusing, time-consuming hurdles to cancel unwanted subscriptions. This first-in-the-nation municipal rule protects consumers from such subscription traps.</p>\\r\\n<p>The <a href=\\\"https://www.nyc.gov/site/dca/index.page\\\">Department of Consumer and Worker Protection</a> (DCWP) will enforce this rule, which has been finalized and will take effect on October 1, 2026. Businesses that violate the rule would be liable for civil penalties, starting at $525, and",
+      "oneLineKo": "뉴욕시 '클릭 취소' 규정 시행",
+      "summaryKo": "뉴욕시가 2026년 10월 1일부터 '클릭 투 캔슬(Click to Cancel)' 규정을 시행한다. 가입이 클릭 한 번으로 가능하다면 취소도 클릭 한 번으로 가능해야 한다는 원칙으로, 전미 최초의 지자체 단위 소비자 보호 규정이다. 소비자·노동자보호국(DCWP)이 이를 집행하며, 위반 기업은 최소 525달러부터 민사 벌금을 부과받는다. 구독 취소를 어렵게 만드는 기업에 대해 시민들은 민원을 제기할 수 있다.",
+      "tags": [
+        "consumer-protection",
+        "subscription",
+        "regulation"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35202",
+      "title": "LLM의 능력에 대한 인식 격차가 커지고 있다",
+      "url": "https://news.hada.io/topic?id=35202",
+      "commentsUrl": "https://news.hada.io/topic?id=35202",
+      "publishedAt": "2026-10-12T08:36:40+09:00",
+      "snippet": "LLM을 어설픈 챗봇으로 경험하는 대중과 대규모 작업을 맡기는 전문 사용자 사이에서 능력에 대한 인식 격차 가 커지고 있으며, 활용 분야와 시스템 접근 수준에 따라 경험이 크게 달라짐 Karpathy의 대략적 추산으로 약 60억 명은 LLM을 거의 접하지 않았고 , 약 10...",
+      "oneLineKo": "LLM 능력 인식, 대중과 전문가 간 격차 심화",
+      "summaryKo": "대중은 LLM을 단순한 챗봇 수준으로 경험하는 반면, 전문 사용자들은 대규모 작업에 LLM을 적극 활용하면서 인식 격차가 커지고 있다. Karpathy의 추산에 따르면 전 세계 약 60억 명은 LLM을 거의 접하지 않았다고 한다. 이는 활용 분야와 시스템 접근 수준에 따라 LLM 경험의 질이 크게 달라짐을 보여준다.",
+      "tags": [
+        "llm",
+        "ai",
+        "chatbot"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50043026",
+      "title": "Terence Tao: Math 2.0 [pdf]",
+      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50043026",
+      "publishedAt": "2026-10-11T13:16:45Z",
+      "score": 306,
+      "comments": 361,
+      "snippet": "%PDF-1.7 %���� 10 0 obj > stream x��\u000f�P(��\u0002\u0000\u0007�\u0001� endstream endobj 17 0 obj > /BBox [0 0 725.669 7.97] /FormType 1 /Matrix [1 0 0 1 0 0] /Resources 18 0 R /Length 29 /Filter /FlateDecode >> stream x�+�2T0\u0000B\b��˥�k����\u0015�\u0005\u0000J3\u0005� endstream endobj 13 0 obj > stream x�+T�2THW0Tp�*\u0004� �\u0010B&�r��\u001a*��s\u0005�%̍L���,!ҁ \\\u0006@�\u0006@�\u0000�� � endstream endobj 21 0 obj > stream x��\u000f�P(��\u0002\u0000\u0007�\u0001� endstream endobj 23 0 obj > stream x��\u000f�P(��\u0002\u0000\u0007�\u0001� endstream endobj 25 0 obj > stream x��\u000f�P(��\u0002\u0000\u0007�\u0001� endstream endobj 27 0 obj > stream x��\u000f�P(��\u0002\u0000\u0007�\u0001� endstream endobj 30 0 obj > /BBox [0 0 318.142 34.563] /FormType 1 /Matrix [1 0 0 1 0 0] /Resources 31 0 R /Length 29 /Filter /FlateDecode >> stream x�+�2T0\u0000B\b��˥�k����\u0015�\u0005\u0000J]\u0005� endstream endobj 29 0 obj > stream xڝ�M\u0012� ��9Ż@1@�u��u��QWթ\u001b�/?����\u0002\u0006���� !3H�\u0006���h��L��sx!�\u0015�����)��p%8��q��y\u0012�\u001e4Ѐ8\u00139g�c����W�u\u001f�\u001ak d�f٧��J�������m���­r�����B-%����^J����\u0015\u001c�B\u0014��\u0010 μ�ҵ�R`o𼀮����\u0012�.?)�\u0002��UZx� endstream endobj 35 0 obj > stream x��UM��0\u0010��W̱=xv�m_��\u0012\u0012B]�8��\u0014 v��+��\u0019;I�ՆB\u000fDJ'\u001e{^�ޛ�\u0004{ X\u00154����x� �v ����B�\u001c\u001cwP\u0015�I�_GTP�\u001e�{�\u000f\u001f�\u0017jK|��\u00024?!����?�XB\u00127���n��\u0003�� �\"~����/($���NϢ�$\u001a~B^#�\u0016�������9}�\u001e��Iѹ�WB\u0019�\u001e���碂�\u0019�5����� ��\u0003�5:�f��\u001b* \u0012_\u0016DbȄ� ɋ�B�\u0003���:K�>o���P\u001a��9�#%��l�ӒҪ�3f7ʯL(]F� .�\u0004�����:!kY�&\u0010*�1vF�C�\u0019��=�H�Fm��R\u001b��[�V�Ŕ��T �.\"���yS\u0016\u000f�L\u0000֊�\u0014�\u0015H�ђ\u0007�=�(�� �\u0016\u001f6�ߖB��PH�����/5\u001ca�T[%^�X2Ch\u001a�r)\u0015-v���vW�֙�KF��g��P3\u000f�{Q����}}��;6{$�n��5�-��C\u0006�4X\u001c�Z�k�G�M������&\u0019\\��-�ܥ���0;��m�R��\u000f3\u001co:�f���Q �_o�Is�u\u00122��\u0011\u000e�� endstream endobj 43 0 obj > stream x��\u000f�P(��\u0002\u0000\u0007�\u0001� endstream endobj 45 0 obj > stream x��\u000f�P(��\u0002\u0000\u0007�\u0001� endstream endobj 50 0 obj > stream x��V�n�0\u0010��+�(\u001d̐��ǱE۠\u0005rpa��$\u0007Ŧ%��d�r��}W|(��\u0018N\u0002��-���rf8�L�\u0000 �\u001e�� [��\u001eG(�1'i(�'�0\u001eC+a��O���\u0012\u000e�@[��ϟ���#~Z5N�>��\u0014\u001e��\u00031�^���]n�=��5� \\5�R\u0001��1�����gfO�\b{\u0004c\u0018�w�+�j���,�B�$ 9G)T\u00173�����\u001a�\u001a�9\\��3�\u0019�H���\u0015�Y�1����o�%$K(\u001f�� \u000e[i�2���a�� �S���/���#���w�m�\u0018|i���~��/��\u0005'Q�\u0005���T첈�Q�a�\u0006��\u0019\u0007.\u0012��\u0014\u0016+��?}\u000ff u�t�\u0003\u001cz�E�v �\u0010f񪩋�T]�\u0010p�W\u001bUʕIڵ�~H}�\u0014 ��\u0002D��\u0001�\"N�0|�l��0_#�y�*��\u001e�2w�rY�\u0006�� z\u0010ma����vb��2\u0019�T2o�刧��� > stream x��VM�� \u0010��Wp���\u0005l�q��]��\u001eRE�aۃ�\u0010/mb'��v��;6��I6�f�VJ ��a�{\u0003��\u0012\u0011t瑃�BK���\bAa�p\u001ar�\u0012�)�Q#�қ\u001e9��� ���\u0012 _����\u000e�q�8E���&�h䊌)j�m���b�m\u0011�ߡ�\bV ���g�Q ����'F�,�\u001e\u0006\u001b �ȻٔK���/��R\u001d9�>\u0003\u0017�\u00053�󠳷D^��)���=� �p��\u0016\u0015mQ�1����o�%8K\b��MM\u001e6Roe���3�ֱ�=�����`z;��\u000ez7�kJѧ\u001a��\u0014ٟ��\u0004_�3\u001cE\u001da\u001fg� ]\u001a�0�\u0019�-\u0011�Ɍ!�\u0013��\u0014�\u0016���=�`��J�M0�ܗE�2�� (�s�R/M�ij�UE�\u0014R�\u0004?f_^��7��ϳ\u0001\u0007a�cȝ�\u0019N���A \u001d�q{�\u0004g$�-bN0�y�\u001f'�\"\u000e(#�\u0001��Z֕C������,�\u0019�N8i9�����``�@9\u0018���Zr6�+-\u0016fdW-����-C]E��G��$Wj�޴\u0019�\u0004\u001b\u001e[�Mik\u00008A\u000fg�w\u0004@H ���Ϥ�k�Aꮻ3\u0018/�,;�\u001c.�����k�AM ﰣ��]߄\u0000�/�{� endstream endobj 64 0 obj > stream x��V�o�0\u0010��c�Z�6���j[�i��)�\u001e�=��P�\u0004\u00120����m\u001a�6ꇴI\u0001_���~�;\u001f&�B\u0004]\u0004do��RX7�!(J\u0018�\"�X�0e �$*��\u0003�W��!{������\u001f�+�\u0007~\u00185ɐ�e� ��].��Y>���q��x$�| � �\u0018Gq�вD\u0014\u001e� 1��ehy��\u0016�o~�B�?!� \u0019��4[X� O)_�kB��Q�����������M�q�\u00034�p\u0002 � ���+��9����x�&�kaY� R����-�da,�\u000fg�\u0018a�\u0014�g(P\u0017r��Y���M�dj�\u00077\u0013��I*� ����sfb^çj\u000e\u0010{-�~�ES �r^ׄ\u0013\u0019B \\��c�\u0014��p\u0002w��\b/\\ǖ\u0018\u001b\"�8�\u000f>�8��玞���\u001b��'>MƯfLp�@[a\u000eQF�ː2;� \u0007�jD{ > stream x��Vˎ�6\u0014��+����!�7�+�\u0006-P�S\u0018�\"킶h 12%�R�ӯ��K�lg0�\u0001\u0012��h���s\u000f)\u0012� �>E��I�I�y�\u001e����2�\u0010+\u0018�,G�@���*��O̐�\u0016hh���?T�@�:k^\"�S�.��\u001b\u0010Sd�5�A��!:\"\u0018���$X5�� =��b�뿦�v5�Rha�C!\u0016E��f",
+      "oneLineKo": "테렌스 타오의 'Math 2.0' 강연 슬라이드 공개",
+      "summaryKo": "필즈상 수상자 테렌스 타오가 캘리포니아 공과대학(Caltech)에서 발표한 'Math 2.0' 강연 슬라이드가 공개되었습니다. 본문은 PDF 바이너리 데이터로 구체적인 내용은 확인할 수 없으며, 제목을 통해 수학 연구의 차세대 패러다임을 다루는 발표임을 짐작할 수 있습니다. 상세한 발표 내용은 원문 PDF를 직접 확인해야 합니다.",
+      "tags": [
+        "mathematics",
+        "terence-tao"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50047055",
+      "title": "So, You’d Like To Sell Your Print Issues Of The Onion?",
+      "url": "https://theonion.com/archivehunt/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50047055",
+      "publishedAt": "2026-10-11T19:43:32Z",
+      "score": 235,
+      "comments": 31,
+      "snippet": "So, You’d Like To Sell Your Print Issues Of The Onion. - The Onion Skip to content Become a Member. Get the Paper. Sunday, October 11, 2026 61&deg; Judgment cloudy with a high chance of regret America’s Finest News Source News Local Politics Entertainment Sports Opinion The Onion Store More The Latest Search Video Horoscopes The Onion Store News Local Politics Entertainment Sports The Onion Store More Search The Latest Opinion Video Horoscopes The Onion Store Sunday, October 11, 2026 61&deg; Judgment cloudy with a high chance of regret Menu Close Become A Member The Latest News Local Politics Entertainment Sports Opinion Video Search Horoscopes About Us The Onion Store Instagram Twitter Facebook YouTube TikTok Bluesky Tumblr Newsletter Instagram Facebook YouTube TikTok Bluesky Tumblr So, You’d Like To Sell Your Print Issues Of The Onion . If you are here, you are either simply a curious person or you believe you might have something of interest to us. If you are the former, stay curious! If you are the latter, keep on reading. How To Identify Your Issues. To check whether you have the issues we’re seeking, look at the Volume and Issue Numbers. Every issue of The Onion has a volume number, an issue number, and a date. This information is all listed on the front page, but in different spots depending on the issue itself. Special issues may list the volume & issue numbers as “22-01” instead of “Volume 22 Issue 1”. See the examples below: Volume 21, Issue 18, June 16 to July 20, 1992. Volume 32, Issue 4, August 28 to September 3, 1997. Issues We’re Looking For: All of Vol. 14 (1988) All of Vol. 15 (1989) All of Vol. 16 (1989) All of Vol. 17 (1990) All of Vol. 18 (1990) All of Vol. 19 (1991) Vol. 21 Issue 12 (1992) Vol. 22 Issues 4, 5, 7, & 16 (1992) Vol. 29 Issues 19 & 22 (1996) Vol. 33 Issue 9 (1998) Vol. 39 Issue 5 (2003) Vol. 42 Issue 5 (2006) Vol. 44 Issues 49-52 (2008) Vol. 45 Issues 1-20 & 33-43 (2009) Vol. 46 Issues 3-52 (2010) All of Vol. 47 (2011) All of Vol. 48 (2012) All of Vol. 49 (2013) Have Some? Tell Us. Let us know if you have any of the requested issues by completing the Google Form and providing as much information as you can. Our archivist will reach out to you if your collection is of interest to us. The more of our gaps you can fill, the more interested we will be. Note: The issues must be in good shape, clean, and readable. If you do sell an issue to us, it becomes property of The Onion and cannot be returned COMPLETE THIS FORM We will reach out with any additional questions if we have them. Your Horoscope — Today’s Birthday Libra (September 23 to October 22): Everything will work out exactly the way the shareholders meant it to. Read Your Horoscope Subscribe for all the latest Headlines \" * \" indicates required fields Get All The Latest Headlines By Email, Once A Day * * By subscribing to our newsletter you have read, understood and agree to the terms of our Privacy Policy and Terms of Use Submit Δ Sections The Latest News Loca",
+      "oneLineKo": "디 어니언, 과거 인쇄판 매입 공고",
+      "summaryKo": "풍자 매체 디 어니언이 1988~2013년 사이 빠진 과거 인쇄 신문 이슈들을 수집하기 위해 매입 공고를 게시했다. 볼륨과 이슈 번호로 자신이 가진 신문이 해당되는지 확인할 수 있으며, 구글 폼을 통해 보유 현황을 제출하면 아카이비스트가 연락한다. 상태가 양호하고 깨끗한 이슈만 대상이며, 판매 시 소유권은 디 어니언으로 이전된다.",
+      "tags": [
+        "archive",
+        "media",
+        "print"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50042425",
+      "title": "The tilde in your PATH may not be your HOME",
+      "url": "https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50042425",
+      "publishedAt": "2026-10-11T12:13:13Z",
+      "score": 207,
+      "comments": 140,
+      "snippet": "The tilde in your PATH may not be your HOME Disconnect3d's blog About me Links Tags My talks My talks (v2) The tilde in your PATH may not be your HOME 2026-10-02 • shell , bash , zsh , security I was playing with the nono agent sandboxing tool and it greeted me with a warning: PATH entries the sandbox can write to: ~/.local/bin/ which looked suspicious. In other words, doing this in your ~/.bashrc or ~/.zshrc : export PATH = \" $PATH :~/.local/bin/\" will not expand the ~ (tilde) into the home path (or $HOME ) as the tilde to home expansion happens only in unquoted inputs, as also the bash documentation says : If a word begins with an unquoted tilde character (‘~’), all of the characters up to the first unquoted slash (…) are considered a tilde-prefix. (…) Bash checks each variable assignment for unquoted tilde-prefixes immediately following a ‘:’ or the first ‘=’, and performs tilde expansion in these cases. (…) So instead of having /home/<user>/.local/bin/ added to PATH we end up with ./~/.local/bin/ added to PATH . And to fix this, we can do this: export PATH = \" $PATH : $HOME /.local/bin/\" Note that the unquoted version export PATH=$PATH:~/.local/bin actually works in Bash and Zsh, because tilde expansion is also performed in variable assignments after = and after each : . But relying on that is fragile as for example, a whitespace will break the variable assignment. The problem can also be seen here: $ ls -la total 0 drwxr-xr-x@ 2 dc staff 64 Oct 2 13:37 . drwxr-x---+ 105 dc staff 3360 Oct 2 13:37 .. $ mkdir -p ./~/.local/bin/ $ printf '#include <stdio.h>\\nint main() { puts(\"hello\"); }' > a.c ; gcc a.c -o ./~/.local/bin/kek $ PATH = \"~/.local/bin/\" kek hello $ tree -f . ├── ./~ │ └── ./~/.local │ └── ./~/.local/bin │ └── ./~/.local/bin/kek └── ./a.c 4 directories, 2 files As we can see, the kek binary was found and executed from ./~/.local/bin/ — the home directory was never involved. Check your PATH You can quickly check whether you have this problem with: $ echo \" $PATH \" | grep -- '~' or, to see each entry on its own line: $ echo \" $PATH \" | tr ':' '\\n' | grep '~' ~/.local/bin/ If it prints anything, go fix your .bashrc / .zshrc / .profile and replace the ~ with $HOME :). Btw, kudos to the nono tool for warning about this - even though the warning could be more verbose (PR incoming). Comments Disconnect3d's blog © 2016–2026 Disconnect3d Design by Vakme disconnect3d disconnect3d_pl @disconnect3d@infosec.exchange Back to top",
+      "oneLineKo": "PATH에 따옴표 속 ~ 사용 시 홈 확장 실패",
+      "summaryKo": "PATH 환경변수에 따옴표로 감싸진 채로 ~(틸드)를 사용하면 홈 디렉터리로 확장되지 않고 현재 디렉터리 기준 ./~/... 경로로 해석되는 문제가 있다. 이는 bash/zsh의 틸드 확장이 따옴표 없는 입력에서만 동작하기 때문으로, 공격자가 현재 디렉터리에 ~ 폴더를 만들어 악성 바이너리를 실행시킬 수 있는 보안 위험으로 이어질 수 있다. 해결책은 ~ 대신 $HOME을 명시적으로 사용하는 것이며, 글쓴이는 nono 샌드박싱 도구가 이 문제를 경고해준 것에서 착안해 이 이슈를 정리했다.",
+      "tags": [
+        "bash",
+        "shell",
+        "security"
+      ]
+    }
+  ]
+}
