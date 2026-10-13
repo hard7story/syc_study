@@ -1,0 +1,277 @@
+{
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T02:48:33.673Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35266",
+      "title": "AI 코딩 에이전트(Claude Code·Codex·Gemini CLI) 세팅이 실패하는 15가지 패턴과 해결법",
+      "url": "https://news.hada.io/topic?id=35266",
+      "commentsUrl": "https://news.hada.io/topic?id=35266",
+      "publishedAt": "2026-10-13T09:18:31+09:00",
+      "snippet": "코딩 에이전트를 몇 주 쓰다 보면 \"일은 많이 했는데 실제로 반영된 건 없는\" 상태가 돼요. 원인은 대부분 모델 성능이 아니라 운영 설정이에요. 증거 없는 \"완료\" : 완료 기준에 \"실행한 명령과 실제 결과\"를 꼭 넣게 해요. \"테스트 통과\"가...",
+      "oneLineKo": "AI 코딩 에이전트 세팅 실패 15가지 패턴과 해결책",
+      "summaryKo": "Claude Code, Codex, Gemini CLI 등 AI 코딩 에이전트를 운영하다 보면 작업은 많이 했지만 실제 반영된 결과가 없는 상황이 발생하는데, 이는 대부분 모델 성능이 아니라 운영 설정 문제에서 비롯된다. 대표적으로 '증거 없는 완료' 문제가 있으며, 완료 기준에 실행한 명령과 실제 결과를 명시하도록 요구해야 한다. 이 글은 이런 세팅 실패 패턴 15가지와 각각의 해결법을 정리해 소개한다.",
+      "tags": [
+        "ai-agent",
+        "llm",
+        "devops"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50059096",
+      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50059096",
+      "publishedAt": "2026-10-12T16:46:34Z",
+      "score": 111,
+      "comments": 71,
+      "snippet": "Hey HN, I’m Vishnu from Agent37 (<a href=\"https:&#x2F;&#x2F;agent37.com\">https:&#x2F;&#x2F;agent37.com</a>). We build sandboxes for running AI agents at under 10% of the cost of most sandbox providers. Our customers spend an average of $0.37&#x2F;month per sandbox.<p>You can view a video walkthrough of the product here: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;DK5ISR2tbNo\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;DK5ISR2tbNo</a><p>We started as one of those OpenClaw wrapper companies back in February (yup.. judge me). In time we added more and more harnesses.<p>One of the goals I had at the time was to offer a free plan to users, so as to gain more market share. But it was too cost prohibitive to do it right away. Especially since we were bootstrapped and servers were running on my savings.<p>Today we’re actually able to offer the free plan thanks to the optimizations we’ve made since. Over 90% of the new signups we have are just free plan users and they host their personal Hermes&#x2F;Openclaw&#x2F;Claude Code etc on our cloud. Our infrastructure cost for the free sandboxes averages around $0.05 to $0.10 per user per month.<p>Here are some techniques that have worked for lowering cost:<p>* When you look at agent harnesses, they have certain patterns in the way they consume CPU and RAM. They need CPU in bursts when they’re initializing or performing certain tasks, but beyond that, they’re often not peaking. They need more RAM for things like browser and computer-use tasks. Once the task is done, usage often comes back down. This is a key insight in lowering cost, so by efficiently managing the CPU&#x2F;RAM utilization we could lower the cost.<p>* Secondly, you have to skip the hyperscalers when renting the Hosts. I worked at Amazon before and they have 80-90% margins on VMs. So it was an obvious choice once I looked at the prices to go one layer down to vendors like Hetzner and OVH. This alone was probably one of the biggest cost levers in reducing the cost.<p>* Thirdly, you also want to pick a technology stack that lets you efficiently cache and share resources across the host. We use gVisor for better utilization and fast boot times. It lets us use available host memory across sandboxes without reserving a full VM’s memory for each one. There are tradeoffs: our gVisor sandboxes don’t support workloads like Docker-in-Docker or Android emulators.<p>* And finally the size and shape of the hosts you buy also makes a big difference. RAM is typically the bottleneck when it comes to cost and not the CPU. This is specifically true for agent harness workloads, so when buying servers, we optimize for packing more RAM into a given host.<p>We also host full VM sandboxes for workloads that need them, including running Docker at a slightly higher price, but they are still pretty low cost given the rest of the techniques.<p>Overall, my learning has been that just by focusing on a niche of sandbox usecases, and optimizing for it you can give a much better cost&#x2F;performance tradeoff.<p>I was previously a Senior Software Engineer at Amazon and an Engineering Manager at Quantcast. I built Amazon&#x27;s internal AI chatbot, Diya, and their internal coding harness, Ziya.<p>If you’re someone who’s looking to run agents on sandbox and are exploring a sandbox vendor, come check us out. We’re particularly looking for developers building messaging agents to try their workloads and challenge the limits and economics of our platform.<p>Thanks!<p><a href=\"https:&#x2F;&#x2F;agent37.com\">https:&#x2F;&#x2F;agent37.com</a>",
+      "oneLineKo": "YC 스타트업, 초저가 AI 에이전트 샌드박스 출시",
+      "summaryKo": "Agent37은 AI 에이전트 실행용 샌드박스를 기존 제공업체 대비 10% 미만 비용으로 제공하는 YC F26 스타트업이다. CPU/RAM 사용 패턴 최적화, Hetzner·OVH 등 하이퍼스케일러 대신 저가 호스팅 사용, gVisor 기반 경량 가상화 등으로 비용을 절감했다. 사용자 평균 비용은 월 0.37달러이며, 무료 플랜 사용자도 90% 이상을 차지한다. Docker-in-Docker 등 특수 워크로드를 위해 풀 VM 샌드박스도 별도로 지원한다.",
+      "tags": [
+        "ai-agent",
+        "sandbox",
+        "gvisor"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x4cr91",
+      "title": "C3 0.8.5 - A windowing library and a C backend??",
+      "url": "https://www.reddit.com/r/programming/comments/1x4cr91/c3_085_a_windowing_library_and_a_c_backend/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x4cr91/c3_085_a_windowing_library_and_a_c_backend/",
+      "publishedAt": "2026-10-12T20:19:16+00:00",
+      "snippet": "submitted by /u/Nuoji [link] [comments]",
+      "oneLineKo": "C3 0.8.5 공개, 윈도잉 라이브러리와 C 백엔드 추가",
+      "summaryKo": "C3 언어의 새 버전 0.8.5가 공개되었습니다. 이번 릴리스에는 윈도잉 라이브러리와 C 백엔드 지원이 새로 추가된 것으로 보입니다. Reddit 게시글을 통해 공유된 소식으로 구체적인 변경 사항은 본문에 명시되어 있지 않습니다.",
+      "tags": [
+        "c3",
+        "programming-language",
+        "compiler"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35265",
+      "title": "Linus Torvalds, Claude Code로 Linux 커널의 대폭 개선 작업 진행 중",
+      "url": "https://news.hada.io/topic?id=35265",
+      "commentsUrl": "https://news.hada.io/topic?id=35265",
+      "publishedAt": "2026-10-13T09:02:44+09:00",
+      "snippet": "리누스 토발즈가 Claude Code 를 활용해 여러 스레드가 한 파일을 조금씩 읽을 때 발생하는 Linux 커널의 병목을 개선하고 있음 병목은 folio 참조 카운팅 경합 에서 발생하며, 패치 시리즈는 folio 참조 없이 페이지 캐시를 읽도록 메모리 관리 코...",
+      "oneLineKo": "리눅스 창시자, Claude Code로 커널 성능 개선",
+      "summaryKo": "리누스 토발즈가 AI 코딩 도구 Claude Code를 활용해 Linux 커널의 성능 병목을 개선하는 작업을 진행 중이다. 문제는 여러 스레드가 동일 파일을 조금씩 읽을 때 발생하는 folio 참조 카운팅 경합으로, 패치 시리즈는 folio 참조 없이 페이지 캐시를 읽도록 메모리 관리 코드를 수정한다. 이는 커널 핵심 개발자가 AI 도구를 실무에 적극 활용하는 사례로 주목받고 있다.",
+      "tags": [
+        "linux-kernel",
+        "claude-code",
+        "performance"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50063427",
+      "title": "AI is a tool and using it well takes skill",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50063427",
+      "publishedAt": "2026-10-12T21:40:18Z",
+      "score": 249,
+      "comments": 216,
+      "snippet": "AI Is a Tool. Using It Well Takes Skill. - yyhh.org Toggle navigation yyhh.org About Experience Notebook Opinion AI Is a Tool. Using It Well Takes Skill. Date Mon 12 October 2026 By Huahai Tags AI LLM Tools Clojure In his October 11, 2026 article, \"'AI' is Not a Tool,\" Rich Hickey argues that LLMs are automation rather than tools because they cannot be wielded. I agree that outsourcing work can cost us opportunities to learn. But his conclusion does not follow. Even by his definition, an LLM can be something a human wields. And using it well takes skill, just as using other tools does. Picking up a saw does not guarantee a straight cut. Holding a chisel does not make you a sculptor. Tools can amplify poor judgment as readily as good judgment. Their usefulness depends on the operator's ability to direct them, interpret feedback, recognize mistakes, and make corrections. Those requirements also apply to LLMs. An LLM's unpredictability is a meaningful limitation. But predictability, reliability, simplicity, and bounded function are qualities by which we evaluate tools, not prerequisites for membership in the category. A tool does not stop being a tool because it is difficult to control or easy to misuse. Hickey's distinction between tools and automation also creates a false division. Automation can be a feature of a tool. A compiler performs substantial work without the programmer continuously directing each operation. A spreadsheet recalculates results without someone manually carrying out every calculation. We still wield these systems by specifying inputs, examining results, and deciding what to do next. Why should generating text automatically disqualify an instrument from being a tool when translating code or calculating numbers automatically does not? The claim that LLM use lacks intention, feedback, direction, and expertise is especially difficult to defend. A programmer can ask an LLM to explain unfamiliar code, challenge that explanation, inspect the source, test a proposed change, reject it, and refine the request. That is a feedback loop directed by a human pursuing a purpose. Doing it well requires knowing what to ask, what evidence matters, and when the answer is wrong. Expertise can make the instrument more useful. Hickey's concern about reading is valid for a particular use: accepting a summary in place of reading a paper can sacrifice much of what reading teaches. But someone can also read the paper and use an LLM to question their interpretation, explore an objection, or identify something to examine more closely. The possibility of avoiding intellectual work does not establish that every use avoids it. The relevant question is what the person actually does. What disappoints me the most is the reliance on the AI industry's anthropomorphic vocabulary: \"go rogue,\" \"escape containment,\" \"conspire.\" Repeating those expressions risks accepting the framing that makes these systems sound like independent beings. Software can produce unexpe",
+      "oneLineKo": "\"AI는 도구가 아니다\" 주장에 대한 반박 에세이",
+      "summaryKo": "Rich Hickey가 'LLM은 다룰 수 없는 자동화일 뿐 도구가 아니다'라고 주장한 데 대해, 저자는 반박한다. 예측 불가능성이나 오남용 가능성은 도구를 평가하는 기준이지 도구의 자격 요건이 아니며, 컴파일러나 스프레드시트처럼 자동화도 도구의 한 속성일 수 있다는 것이다. 프로그래머가 LLM에게 질문하고, 답을 검증하고, 수정 요청하는 과정은 인간이 주도하는 피드백 루프이며, 이를 잘 활용하려면 숙련된 기술이 필요하다고 강조한다. 또한 '탈출', '음모' 같은 의인화된 표현을 반복하는 것은 LLM을 독립적 존재처럼 포장하는 위험한 프레이밍이라고 비판한다.",
+      "tags": [
+        "llm",
+        "ai-tools",
+        "automation"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x4eiym",
+      "title": "Optimizing Our E2E Pipeline",
+      "url": "https://www.reddit.com/r/programming/comments/1x4eiym/optimizing_our_e2e_pipeline/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x4eiym/optimizing_our_e2e_pipeline/",
+      "publishedAt": "2026-10-12T21:28:20+00:00",
+      "snippet": "submitted by /u/Ok_Stomach6651 [link] [comments]",
+      "oneLineKo": "E2E 테스트 파이프라인 최적화 사례 공유",
+      "summaryKo": "레딧에 공유된 글로, E2E(End-to-End) 테스트 파이프라인을 최적화한 경험을 다루고 있습니다. 본문 내용이 제공되지 않아 구체적인 최적화 기법이나 성과는 확인할 수 없습니다. 제목으로 미루어 볼 때 테스트 실행 속도나 효율성 개선과 관련된 내용으로 추정됩니다.",
+      "tags": [
+        "e2e-testing",
+        "ci-cd"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35264",
+      "title": "Clojure 창시자 Rich Hickey: AI는 도구가 아니라 자동화다",
+      "url": "https://news.hada.io/topic?id=35264",
+      "commentsUrl": "https://news.hada.io/topic?id=35264",
+      "publishedAt": "2026-10-13T08:32:32+09:00",
+      "snippet": "도구는 사람이 직접 통제하며 다루는 것 인 반면, LLM은 요청을 받은 뒤 직접적인 인간 통제 없이 작동하는 자동화 라는 구분이 핵심임 도구 사용은 지속적인 기술과 에너지 투입, 감각적 피드백 을 통해 숙련을 쌓는 과정이며, LLM에는 좋은 도구의...",
+      "oneLineKo": "Rich Hickey, LLM은 도구 아닌 자동화라 주장",
+      "summaryKo": "Clojure 창시자 Rich Hickey는 도구와 자동화를 구분하며, 도구는 인간이 직접 통제하고 숙련을 쌓는 대상인 반면 LLM은 요청 후 인간의 직접 개입 없이 작동하는 자동화라고 설명한다. 그는 LLM이 좋은 도구가 갖춰야 할 지속적인 피드백과 기술 숙련 과정을 결여하고 있다고 지적한다. 이를 통해 AI를 단순한 생산성 도구로 보는 시각에 의문을 제기한다.",
+      "tags": [
+        "llm",
+        "ai",
+        "clojure"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50057668",
+      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "url": "https://taylor.town/kk-ai-2026",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50057668",
+      "publishedAt": "2026-10-12T15:16:45Z",
+      "score": 147,
+      "comments": 46,
+      "snippet": "Kevin Kelly's 2016 AI Predictions, 10 Years Later taylor.town about hire --> spam rss bsky msto twt --> Kevin Kelly's 2016 AI Predictions, 10 Years Later Kevin Kelly 's The Inevitable articulates a handful of macro technological trends and follows them to their logical conclusions. It's an insightful read -- I highly recommend it. One decade later, here are some AI-related excerpts from the book: \"By 2026, Google’s main product will not be search but AI.\" \"oligarchy of two or three large, general-purpose cloud-based commercial intelligences\" \"The AI on the horizon looks more like Amazon Web Services\" \"The bulk of AI will be special purpose software brains\" \"in conversational tones, any question at all\" \"By 2026, Google’s main product will not be search but AI.\" Around 2002 I attended a private party for Google—before its IPO, when it was a small company focused only on search. I struck up a conversation with Larry Page, Google’s brilliant cofounder. “Larry, I still don’t get it. There are so many search companies. Web search, for free? Where does that get you?” My unimaginative blindness is solid evidence that predicting is hard, especially about the future, but in my defense this was before Google had ramped up its ad auction scheme to generate real income, long before YouTube or any other major acquisitions. I was not the only avid user of its search site who thought it would not last long. But Page’s reply has always stuck with me: “Oh, we’re really making an AI.” I’ve thought a lot about that conversation over the past few years as Google has bought 13 other AI and robotics companies in addition to DeepMind. At first glance, you might think that Google is beefing up its AI portfolio to improve its search capabilities, since search constitutes 80 percent of its revenue. But I think that’s backward. Rather than use AI to make its search better, Google is using search to make its AI better. Every time you type a query, click on a search-generated link, or create a link on the web, you are training the Google AI. When you type “Easter Bunny” into the image search bar and then click on the most Easter Bunny–looking image, you are teaching the AI what an Easter Bunny looks like. Each of the 3 billion queries that Google conducts each day tutors the deep-learning AI over and over again. With another 10 years of steady improvements to its AI algorithms, plus a thousandfold more data and a hundred times more computing resources, Google will have an unrivaled AI. In a quarterly earnings conference call in the fall of 2015, Google CEO Sundar Pichai stated that AI was going to be “a core transformative way by which we are rethinking everything we are doing. . . . We are applying it across all our products, be it search, be it YouTube and Play, etc.” My prediction: By 2026, Google’s main product will not be search but AI. In 2017, Google researchers published Attention Is All You Need , which introduced a deep-learning architecture called the transformer ",
+      "oneLineKo": "케빈 켈리의 2016년 AI 예측, 10년 후 검증",
+      "summaryKo": "이 글은 케빈 켈리가 저서 'The Inevitable'에서 제시한 2016년 AI 예측들을 10년이 지난 시점에서 되짚어본다. '2026년 구글의 주력 제품은 검색이 아닌 AI가 될 것'이라는 예측을 중심으로, 구글이 검색을 통해 AI를 학습시키는 구조와 당시 순다르 피차이 CEO의 발언을 인용한다. 2017년 트랜스포머 아키텍처 논문 발표 등 이후 실제 AI 발전 흐름과 예측을 비교하는 내용이다.",
+      "tags": [
+        "ai",
+        "google",
+        "predictions"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35257",
+      "title": "AI 코딩 에이전트는 더 많은 코드를 만들지만, 더 많은 소프트웨어를 만들지는 못함",
+      "url": "https://news.hada.io/topic?id=35257",
+      "commentsUrl": "https://news.hada.io/topic?id=35257",
+      "publishedAt": "2026-10-13T05:40:00+09:00",
+      "snippet": "700곳 넘는 기업의 개발 활동을 분석한 연구에서 AI 코딩 에이전트 도입 후 코드 생산량은 늘었지만, 기업 차원의 소프트웨어 산출량 증가 를 뒷받침하는 근거는 거의 없었음 에이전트 도입 후 생성된 코드 줄 수는 평균 30% 증가 했으나, Jira 등으...",
+      "oneLineKo": "AI 코딩 에이전트, 코드량은 늘려도 소프트웨어 산출량은 못 늘려",
+      "summaryKo": "700곳 이상의 기업 개발 활동을 분석한 연구 결과, AI 코딩 에이전트 도입 후 생성된 코드 줄 수는 평균 30% 증가했지만 기업 차원의 소프트웨어 산출량 증가를 뒷받침하는 근거는 거의 발견되지 않았다. Jira 등 작업 관리 지표로 봤을 때도 실질적인 생산성 향상으로 이어지지 않은 것으로 나타났다. 이는 코드량 증가가 곧 생산성 향상을 의미하지 않는다는 점을 시사한다.",
+      "tags": [
+        "ai-coding",
+        "developer-productivity",
+        "software-engineering"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50063365",
+      "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50063365",
+      "publishedAt": "2026-10-12T21:35:35Z",
+      "score": 85,
+      "comments": 35,
+      "snippet": "Intel GPU D270 │ Inference-Optimized Data Center GPU Skip To Main Content Toggle Navigation Products Products Home Processors Intel® Core™ Ultra Processors Intel® Core™ Processors Intel® Xeon® Processors Intel® Xeon® CPU Max Series Intel® Arc™ G-Series Processors Intel Atom® Processors Select Systems & Devices AI PCs Powered by Intel Gaming Systems Intel vPro® for Business Intel® Arc™ Graphics Intel® Wi-Fi Products AI Accelerators Intel® Gaudi® AI Accelerators Intel® Data Center GPU Flex Series Network to Edge Edge and Embedded Processors Intel® Ethernet Products Intel® Infrastructure Processing Unit (Intel® IPU) Intel Robotics Software oneAPI Unified Runtime OpenVINO™ Toolkit Intel® Trust Authority Open Source Projects Intel® Developer Catalog Support Drivers & Downloads Auto-update your Drivers Download Center Support For Products Developers Suppliers Resources Support Community Warranty Information Contact Support Solutions Industries Automotive Education Energy Financial Services Government Healthcare & Life Sciences Manufacturing Retail Telecommunications View all > Topics AI Security Sustainability View all > Resources Customer Case Studies Developers Developers Home Development Tools Software Catalog Download Center Design Tools and Services Software Registration Topics & Technologies Artificial Intelligence Client Cloud Game Development Edge, IoT & 5G High Performance Computing (HPC) Resources & Documentation Learn Communities & Events Developer Programs Get Help Partners Partner Hub Intel® Partner Alliance: Membership Already a Member? Login Get Help Partner Enablement Resources Enablement Zones Intel® Partner University Intel® Partner Marketing Studio Product & Technology Seller Resources Knowledge & Resource Hub Retail Partner Solutions Intel® Partner Showcase Partner Directory Distributor Directory Foundry Intel Foundry Process Technologies Advanced Packaging & Test Manufacturing Accelerator Ecosystem Alliances Research Shuttle More + My Intel Dashboard My Tools Sign Out Select Language Toggle Search Ask Intel Ask Intel Ask Intel Quick Links Product Information Support Drivers & Software Recent Intel® GPU D-series Scale inference, not infrastructure Intel® GPU D270 │ Inference-Optimized Data Center GPU Overview Use cases Features Get started Agentic AI is changing data center workloads Agents read far more than they write: long contexts, multistep workflows, compute dominated by prefill. As demands grow, challenges expand beyond bandwidth. Intel D-series GPUs are built for this new era of agentic AI, efficiently handling larger contexts, more concurrent sessions, and more tokens within practical power and cost limits. Memory up to 480 GB LPDDR5X per card Power 350 W Air-cooled Compute 32 Xᵉ Xᵉ3P cores Compute 256 XMX Xᵉ3P matrix engines Scaling agentic AI Agentic fleets Over thousands of steps, 100K token contexts, and dozens of concurrent sessions, keep agents resident to help sustain throughput across the agentic loop. Reasoning ove",
+      "oneLineKo": "인텔, 480GB 메모리 탑재 추론특화 GPU 'D270' 공개",
+      "summaryKo": "인텔이 에이전틱 AI 추론에 최적화된 데이터센터 GPU 'D270'을 공개했다. 카드당 최대 480GB LPDDR5X 메모리를 탑재했으며 350W 공랭 방식으로 동작한다. 32개의 Xe3P 코어와 256개의 XMX 매트릭스 엔진을 통해 긴 컨텍스트와 다수의 동시 세션, 다단계 워크플로우 처리를 지원한다. 이는 대규모 토큰 컨텍스트와 수천 단계의 에이전트 작업을 효율적으로 처리하기 위한 설계다.",
+      "tags": [
+        "gpu",
+        "intel",
+        "ai-inference"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35270",
+      "title": "Ruby의 바이마르 시대 - AI로 생태계의 오래된 빈틈을 메우다",
+      "url": "https://news.hada.io/topic?id=35270",
+      "commentsUrl": "https://news.hada.io/topic?id=35270",
+      "publishedAt": "2026-10-13T10:03:40+09:00",
+      "snippet": "LLM 도구의 확산 은 Ruby를 다른 언어로 재작성하는 데만 쓰일 필요가 없으며, 오랫동안 해결하기 버거웠던 생태계의 빈틈을 메우는 기회이기도 함 PDF 생성, GUI, Parquet, gRPC 등에서 새 라이브러리와 개선 작업이 등장하면서, “Ruby로는 원래 이런 일을 하지 않...",
+      "oneLineKo": "AI로 Ruby 생태계 오랜 공백 메우기",
+      "summaryKo": "LLM 도구의 확산이 Ruby 코드를 다른 언어로 재작성하는 용도뿐 아니라 생태계의 오래된 빈틈을 메우는 기회로 작용하고 있다는 내용이다. PDF 생성, GUI, Parquet, gRPC 등 그동안 Ruby로 다루기 어려웠던 영역에서 새로운 라이브러리와 개선 작업이 등장하고 있다. 이는 AI 도구를 활용해 기존에 부족했던 부분을 적극적으로 보완하려는 Ruby 커뮤니티의 움직임을 보여준다.",
+      "tags": [
+        "ruby",
+        "llm",
+        "ecosystem"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50060694",
+      "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+      "url": "https://github.com/openai/codex/issues/48195",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50060694",
+      "publishedAt": "2026-10-12T18:29:04Z",
+      "score": 480,
+      "comments": 244,
+      "snippet": "CLI: make `daemon_auto_start` opt-in — a persistent, self-updating background daemon shouldn't be the default · Issue #48195 · openai/codex · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} openai codex Repository navigation Code Issues 5k+ ( 5k+ ) Pull requests 165 ( 165 ) Only collaborators can create PRs Discussions Actions Security and quality 1 ( 1 ) Insights More items CLI: make daemon_auto_start opt-in — a persistent, self-updating background daemon shouldn't be the default #48195 New issue Copy link New issue Copy link Open Open CLI: make daemon_auto_start opt-in — a persistent, self-updating background daemon shouldn't be the default #48195 Copy link Labels CLI Issues related to the Codex CLI Issues related to the Codex CLI app-server Issues involving app server protocol or interfaces Issues involving app server protocol or interfaces enhancement New feature or request New feature or request Description Yihua-Liu-1997 opened on Sep 25, 2026 Issue body actions What variant of Codex are you using? CLI — 0.157.0, installed via npm install -g @openai/codex , Linux (WSL2) What featur",
+      "oneLineKo": "Codex CLI, 백그라운드 데몬 기본 자동설치 논란",
+      "summaryKo": "OpenAI의 Codex CLI가 기본값으로 영구적이고 자동 업데이트되는 백그라운드 데몬(daemon_auto_start)을 설치하는 것에 대한 문제 제기가 GitHub 이슈로 등록됐다. 제안자는 이런 데몬이 사용자 동의 없이 기본으로 실행되어서는 안 되며 옵트인 방식으로 전환해야 한다고 주장한다. 해당 이슈는 CLI 및 app-server 관련 라벨이 붙은 enhancement 요청으로 등록되어 있다.",
+      "tags": [
+        "codex",
+        "cli",
+        "openai"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35268",
+      "title": "AI는 도구이며, 잘 쓰려면 숙련이 필요하다",
+      "url": "https://news.hada.io/topic?id=35268",
+      "commentsUrl": "https://news.hada.io/topic?id=35268",
+      "publishedAt": "2026-10-13T09:32:44+09:00",
+      "snippet": "LLM은 사람이 목적에 맞게 다룰 수 있는 도구 이며, 유용성은 사용자가 지시하고 피드백을 해석하며 오류를 알아내 수정하는 능력에 달려 있음 예측 불가능성 은 중요한 한계지만, 예측 가능성과 신뢰성은 도구의 품질을 평가하는 기준이지 도구 여부를 결정하는 필수...",
+      "oneLineKo": "LLM은 숙련된 사용이 필요한 도구",
+      "summaryKo": "이 글은 LLM을 사람이 목적에 맞게 다뤄야 하는 도구로 규정하며, 그 유용성은 사용자가 지시하고 피드백을 해석하며 오류를 수정하는 능력에 달려 있다고 설명합니다. 예측 불가능성은 LLM의 중요한 한계이지만, 예측 가능성과 신뢰성은 도구의 품질을 평가하는 기준일 뿐 도구 여부를 결정하는 필수 조건은 아니라고 주장합니다. 결국 AI를 효과적으로 활용하려면 사용자의 숙련도가 핵심 변수라는 점을 강조합니다.",
+      "tags": [
+        "llm",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50055304",
+      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50055304",
+      "publishedAt": "2026-10-12T12:16:42Z",
+      "score": 472,
+      "comments": 678,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;french-supe...</a>, <a href=\"https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;crq5nzxv9q4yo\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;crq5nzxv9q4yo</a>, <a href=\"https:&#x2F;&#x2F;www.lemonde.fr&#x2F;en&#x2F;france&#x2F;article&#x2F;2026&#x2F;10&#x2F;12&#x2F;french-supermarket-chains-say-cyberattack-forced-refrigerator-shutdown_6758510_7.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.lemonde.fr&#x2F;en&#x2F;france&#x2F;article&#x2F;2026&#x2F;10&#x2F;12&#x2F;french-s...</a><p>Related:<p><a href=\"https:&#x2F;&#x2F;www.claroty.com&#x2F;team82&#x2F;research&#x2F;freeze-the-controller-defrost-the-food-uncovering-vulnerabilities-in-danfoss-refrigeration-controllers\" rel=\"nofollow\">https:&#x2F;&#x2F;www.claroty.com&#x2F;team82&#x2F;research&#x2F;freeze-the-controlle...</a><p><i>I think the military commissary&#x27;s freezers were hacked</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49508506\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49508506</a> - Aug 2026 (239 comments)",
+      "oneLineKo": "유럽 슈퍼마켓 냉장고 해킹, 자동 해동 작동",
+      "summaryKo": "유럽 전역 슈퍼마켓 냉장고 시스템이 해킹당해 자동 해동 기능이 강제 작동되는 사고가 발생했다. 프랑스 Intermarché 등 150여 매장이 사이버공격 피해를 입었으며, Danfoss 냉장 제어기의 취약점이 관련된 것으로 보인다. 이번 공격으로 배송 및 매장 가격 운영에도 영향을 미쳤다.",
+      "tags": [
+        "cybersecurity",
+        "iot",
+        "ics"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50058528",
+      "title": "A Modern Web App in C",
+      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50058528",
+      "publishedAt": "2026-10-12T16:13:10Z",
+      "score": 415,
+      "comments": 167,
+      "snippet": "A modern web app in c | Corey Prophitt # Corey Prophitt » A modern web app in c ## INTRO If you wanted a dynamic website in 1994, you wrote a C program, dropped it in a cgi-bin directory, and let Apache fork it per request. Thirty-two years later, I shipped a commercial web product using fundamentally the same technology. Everything about marketyour.games is modern. It's a web product with user accounts, a search dashboard for content creators, folders for organizing them, payments via Stripe and transactional emails via Postmark. It follows progressive enhancement and doesn't require any JavaScript. Everything is modern except the way it was made and how it is served. Here are my thoughts on writing a real product in C and serving it via CGI in 2026. ## TLDR CGI's decline was justified in 2004 but doesn't hold up in 2026. You can write a modern web application in C. I shipped one. One binary, a SQLite file, three dependencies and the entire thing fits in your head. ## HOW IT WAS DONE The stack is BCHS : OpenBSD, C, httpd, and SQLite. There's no framework. You write a C program that reads CGI environment variables and responds. There's no templating language. You write C that outputs the HTML directly. There's no separate database server. You open the database file through SQLite's C API. There's no container. You build a statically linked binary and drop it in a folder. Every request spawns a fresh process. Deploying a new version is replacing one file. That means no server restart and no downtime. New requests simply pick up the new binary. OpenBSD ships with sane defaults and gives you the tools to actually secure a C program like pledge and unveil. Httpd serves from a chroot by default, so your CGI binary runs sandboxed to its own corner of the filesystem. I lean on three additional libraries: libcurl handles all outbound requests to Stripe and Postmark. libsodium handles random identifier generation, password hashing and the HMAC verification for Stripe webhooks. libcjson handles JSON parsing for Stripe and Postmark. Only two of those are actual build dependencies: libcurl and libsodium. libcjson is a single C file and has no external dependencies. SQLite ships an official amalgamation (single C file) build. Both are vendored and built as part of the project. The result is a build with almost no moving parts. A clean build takes a few seconds and rebuilds complete in less than half a second. Instead of serving static assets the traditional way, I route all traffic from httpd to the CGI binary. Every asset is compiled into the executable and served from memory. ## WHAT I LIKED Fundamentals over frameworks. CGI isn't a framework to learn. The 1.1 specification was published in 2004 and hasn't changed since. There's no API to internalize. The entire interface is a handful of fundamental HTTP concepts: Request headers. Request methods. Query strings. Body data. If you understand HTTP, you already understand CGI. It's language and platform agnost",
+      "oneLineKo": "2026년에도 통하는 C와 CGI 기반 현대적 웹앱 제작기",
+      "summaryKo": "저자는 OpenBSD, C, httpd, SQLite로 구성된 BCHS 스택을 사용해 결제와 이메일 기능을 갖춘 상용 웹 제품을 CGI 방식으로 구현했다. 프레임워크나 템플릿 엔진 없이 C 코드로 직접 HTML을 출력하며, libcurl·libsodium·libcjson 세 가지 의존성만으로 빌드가 몇 초 만에 완료된다. 바이너리 교체만으로 무중단 배포가 가능하며, OpenBSD의 pledge와 unveil로 보안을 강화했다. 저자는 2004년에 쇠퇴한 CGI가 2026년에도 여전히 실용적이라고 주장한다.",
+      "tags": [
+        "cgi",
+        "c",
+        "openbsd"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50052251",
+      "title": "Show HN: PS2 games statically recompiled to WebAssembly",
+      "url": "https://github.com/snuri00/ps2-web-recomp",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50052251",
+      "publishedAt": "2026-10-12T06:46:53Z",
+      "score": 277,
+      "comments": 145,
+      "snippet": "GitHub - snuri00/ps2-web-recomp: PS2 games in the browser: static recompilation to WebAssembly with a native runtime · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} snuri00 ps2-web-recomp Repository navigation Code Issues Pull requests 1 ( 1 ) Actions Projects Security and quality Insights More items ps2-web-recomp Public Notifications You must be signed in to change notification settings Fork 22 ( 22 ) Star 396 ( 396 ) You must be signed in to star a repository About PS2 games in the browser: static recompilation to WebAssembly with a native runtime Resources Readme MIT license Activity Stars 396 stars Watchers 1 watching Forks 22 forks Report repository main Branches Tags Go to file Code Open more actions menu Latest commit History 128 Commits 128 Commits Folders and files Name Name Last commit message Last commit date cmake cmake docs/ media docs/ media host host recomp recomp runtime runtime scripts scripts web web .gitignore .gitignore CMakeLists.txt CMakeLists.txt LICENSE LICENSE README.md README.md View all files Repository files navigation README MIT license More items PS2 Web ",
+      "oneLineKo": "PS2 게임을 WebAssembly로 정적 재컴파일, 브라우저 실행",
+      "summaryKo": "snuri00가 공개한 ps2-web-recomp 프로젝트는 PS2 게임 바이너리를 정적으로 재컴파일하여 WebAssembly로 변환, 네이티브 런타임과 함께 브라우저에서 실행할 수 있게 한다. CMake 기반 빌드 구조와 호스트/런타임/재컴파일러 등 모듈로 구성되어 있다. MIT 라이선스로 공개되었으며 GitHub에서 활발히 관심을 받고 있다.",
+      "tags": [
+        "webassembly",
+        "emulation",
+        "static-recompilation"
+      ]
+    }
+  ]
+}

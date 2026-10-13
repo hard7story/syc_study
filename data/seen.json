@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=33536",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "news.hada.io/topic?id=33536",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49656225",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "support.claude.com/en/articles/15171100-age-assurance-on-claude",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "t3_1wdklfz",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wdklfz/inside_claudes_android_app_finding_the_internal",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33530",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "news.hada.io/topic?id=33530",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49662371",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "mathandai.org",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "t3_1wds2fy",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wds2fy/eu_cyber_resilience_act_reporting_obligations",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33544",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "news.hada.io/topic?id=33544",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49621546",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "mmoustafa.com/blog/so-you-want-to-use-openrouter",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33543",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "news.hada.io/topic?id=33543",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49662672",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "capitalbnews.org/data-centers-permit-rules-epa",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33509",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "news.hada.io/topic?id=33509",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49658311",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "earendil.com/posts/measuring-code-sloppiness",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33558",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "news.hada.io/topic?id=33558",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49622406",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "el.media.mit.edu/logo-foundation/what_is_logo/logo_programming.html",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49662990",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "dayzlegame.com/blog/google-ads-bot-farm",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49663373",
-    "date": "2026-09-12"
-  },
-  {
-    "id": "github.com/GrapheneOS/Messaging/releases/tag/13",
-    "date": "2026-09-12"
-  },
-  {
     "id": "https://news.hada.io/topic?id=33583",
     "date": "2026-09-13"
   },
@@ -3486,5 +3358,133 @@
   {
     "id": "disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path",
     "date": "2026-10-12"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35266",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "news.hada.io/topic?id=35266",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50059096",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "news.ycombinator.com/item?id=50059096",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "t3_1x4cr91",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x4cr91/c3_085_a_windowing_library_and_a_c_backend",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35265",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "news.hada.io/topic?id=35265",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50063427",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "yyhh.org/blog/2026/10/ai-is-a-tool",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "t3_1x4eiym",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x4eiym/optimizing_our_e2e_pipeline",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35264",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "news.hada.io/topic?id=35264",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50057668",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "taylor.town/kk-ai-2026",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35257",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "news.hada.io/topic?id=35257",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50063365",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35270",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "news.hada.io/topic?id=35270",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50060694",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "github.com/openai/codex/issues/48195",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35268",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "news.hada.io/topic?id=35268",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50055304",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50058528",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "prophitt.me/writing/a-modern-web-app-in-c",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50052251",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "github.com/snuri00/ps2-web-recomp",
+    "date": "2026-10-13"
   }
 ]
