@@ -1,0 +1,279 @@
+{
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T00:45:14.935Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35290",
+      "title": "Show GN: claude-bulkhead: PC에서 병렬로 돌리는 Claude Code 세션들의 프로세스, 포트, 메모리 충돌을 막는 플...",
+      "url": "https://news.hada.io/topic?id=35290",
+      "commentsUrl": "https://news.hada.io/topic?id=35290",
+      "publishedAt": "2026-10-13T17:53:00+09:00",
+      "snippet": "Claude Code 세션 여러 개를 git worktree별로 나누어 한 PC에서 동시에 실행하고 있습니다. 이 환경에서 같은 문제가 반복되었습니다. 한 에이전트가 정리 작업 중에 taskkill /F /IM node.exe를 실행하면 다른 세션에서 실행 중이던 개발 서버와 테스트가 모두 종료되었습니다. 세 세션이 동시에 빌드를 시작했을 때...",
+      "oneLineKo": "병렬 Claude Code 세션 충돌 방지 플랫폼 공개",
+      "summaryKo": "claude-bulkhead는 하나의 PC에서 git worktree별로 여러 Claude Code 세션을 동시에 실행할 때 발생하는 프로세스, 포트, 메모리 충돌 문제를 해결하는 도구입니다. 한 에이전트가 taskkill /F /IM node.exe를 실행하면 다른 세션의 개발 서버와 테스트까지 종료되는 문제, 여러 세션이 동시에 빌드를 시작하며 자원을 두고 경쟁하는 문제 등을 격리된 환경 구성을 통해 방지합니다. 병렬 작업 환경에서의 안정성을 높이기 위한 오픈소스 프로젝트로 소개되었습니다.",
+      "tags": [
+        "claude-code",
+        "devtools",
+        "concurrency"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50068036",
+      "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
+      "url": "https://blog.character.ai/an-update-on-character-ai/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50068036",
+      "publishedAt": "2026-10-13T07:28:34Z",
+      "score": 278,
+      "comments": 263,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.theverge.com&#x2F;ai-artificial-intelligence&#x2F;1009802&#x2F;character-ai-files-for-bankruptcy-disney\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theverge.com&#x2F;ai-artificial-intelligence&#x2F;1009802&#x2F;...</a> <a href=\"https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;10&#x2F;13&#x2F;just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;10&#x2F;13&#x2F;just-5-years-in-interactiv...</a> <a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;legal&#x2F;litigation&#x2F;characterai-files-bankruptcy-agrees-sell-some-assets-disney-20-million-2026-10-13&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;legal&#x2F;litigation&#x2F;characterai-files-b...</a> <a href=\"https:&#x2F;&#x2F;variety.com&#x2F;2026&#x2F;biz&#x2F;news&#x2F;disney-bids-on-character-ai-assets-chapter-11-bankruptcy-1236909984&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;variety.com&#x2F;2026&#x2F;biz&#x2F;news&#x2F;disney-bids-on-character-a...</a>",
+      "oneLineKo": "Character.ai, 챕터11 파산 신청…디즈니에 자산 매각",
+      "summaryKo": "AI 챗봇 플랫폼 Character.ai가 자발적으로 챕터11 파산을 신청했다. 설립 5년 만에 파산 절차에 들어갔으며, 일부 자산을 디즈니에 약 2천만 달러에 매각하는 데 합의했다. 관련 소식은 The Verge, TechCrunch, Reuters, Variety 등 주요 외신에서도 보도되었다.",
+      "tags": [
+        "character.ai",
+        "bankruptcy",
+        "ai-chatbot"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x4sw6i",
+      "title": "More, Better, Faster: How we automate Metabase releases",
+      "url": "https://www.reddit.com/r/programming/comments/1x4sw6i/more_better_faster_how_we_automate_metabase/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x4sw6i/more_better_faster_how_we_automate_metabase/",
+      "publishedAt": "2026-10-13T10:19:42+00:00",
+      "snippet": "submitted by /u/jessillions [link] [comments]",
+      "oneLineKo": "Metabase, 릴리스 프로세스 자동화 사례 공유",
+      "summaryKo": "Metabase 팀이 릴리스 작업을 더 많이, 더 좋게, 더 빠르게 처리하기 위해 자동화한 과정을 다룬 글입니다. 제목만으로는 구체적인 자동화 도구나 방법에 대한 세부 내용은 확인할 수 없습니다. Reddit 프로그래밍 커뮤니티에 공유된 게시물입니다.",
+      "tags": [
+        "ci-cd",
+        "release-automation",
+        "devops"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35303",
+      "title": "Show GN: Flats – AI 에이전트가 만든 웹사이트를 내 컴퓨터에서 호스팅",
+      "url": "https://news.hada.io/topic?id=35303",
+      "commentsUrl": "https://news.hada.io/topic?id=35303",
+      "publishedAt": "2026-10-13T23:59:52+09:00",
+      "snippet": "안녕하세요. Claude Code, Codex 같은 AI 에이전트가 만든 결과물을 자신의 컴퓨터에서 실행하고 공유할 수 있는 오픈소스 프로젝트 Flats를 만들었습니다. Claude Artifacts나 ChatGPT의 Sites처럼 AI가 웹사이트나 앱을 만들어주는 경험은 편리하지만, 결과물을 실행하고 공유하려면 외부 서비스에 의존하게",
+      "oneLineKo": "AI 에이전트 결과물을 로컬에서 호스팅하는 오픈소스 Flats",
+      "summaryKo": "Claude Code, Codex 같은 AI 에이전트가 생성한 웹사이트나 앱을 사용자의 컴퓨터에서 직접 실행하고 공유할 수 있는 오픈소스 프로젝트 Flats가 공개되었습니다. Claude Artifacts나 ChatGPT Sites처럼 AI가 만든 결과물을 바로 확인하는 경험은 편리하지만, 기존에는 이를 공유하려면 외부 호스팅 서비스에 의존해야 하는 한계가 있었습니다. Flats는 이러한 외부 의존 없이 로컬 환경에서 결과물을 실행하고 공유할 수 있도록 지원합니다.",
+      "tags": [
+        "ai-agent",
+        "self-hosting",
+        "opensource"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50073221",
+      "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50073221",
+      "publishedAt": "2026-10-13T15:25:50Z",
+      "score": 233,
+      "comments": 145,
+      "snippet": "Sammy's Blog Sammy's Blog Table of Contents 1. I posted to HN, and then my website was flooded with AI BOT traffic 2. Using LLMs to Make the Emacs Web Browser Great Again 3. If technology got better, why did everything get worse? 4. Deft version 0.2.0 5. How much LLMs is too much LLMs? 6. Building Chess in about 350 lines of Clojure 7. Announcing Deft: A class and interface system for Clojure and ClojureScript 8. My Blog is Now on RSS 9. How to Win at Wordle 10. The Power Of Habit (Book Review Pt 1) 11. Modern Monetary Theory and You 12. The Perfect Camera 13. Camera Lenses: What's in My Bag 14. Why Many Primary Forecasts are Wrong 15. The Wonky Math behind the Democratic Primary 16. What's Going on With The Impeachment 17. Treating Cancer with Chemo (Part 3) 18. Treating Cancer with Chemo (Part 2) 19. Treating Cancer with Chemo (Part 1) 20. The Importance of Doing Nothing 21. Why I Support Citizens United 22. Camera Settings rss 1. I posted to HN, and then my website was flooded with AI BOT traffic For the past few years, I've been working on sprinklz.io , a customizable feed reader that can, among other things, deprioritize certain topics from your news feed. A month ago, I posted it to HN , and it got a hundred or so upvotes, nice! It seems like people are really tired of hearing about LLMs, and they enjoyed being able to deprioritize them from their feed. It was a good demo of why a tool like this is useful. Everything was looking up, and then&#x2026; My website got slow. Like, really, painfully slow. At first I chalked it up to the extra attention of a suddenly popular post. Like any developer I both celebrated, and vowed to make my website more resiliant in the future. Strangely though, the slowness continued, and even started to get worse several days after my post went live, and the metrics I did log did not make sense. Like, you know, a good handful of genuinely active, logged-in users, and a sever exhibiting exhorbatantly high load. So I took a look at some data. I added top-level logging for every endpoint (how many times was a request made to each url path), and I found that a majority of the requests did not even make an attempt to fetch news articles! For reference, my website is built as a single-page-application, and what this means is that a majority of the requests did not even run the javascript necessary to render the page (!). Digging further, I looked at aggregate NGINX logs to find abusers, and, you're never going to believe this, but it turns out that nearly half of our traffic was coming from one specific user. I won't name names, but I looked them up, and they describe themselves as a service that listens for changes to a website, and then summarizes them into an AI slop news letter. And by 'listens to changes' I mean query our website many many times per-minute. Blocked. Several of the others were your standard known crawlers, and kindly identified themselves as such. Claude bot, OpenAI bot, google's search indexer, and",
+      "oneLineKo": "HN 게시 후 AI 봇 트래픽 폭주로 서버 과부하 경험담",
+      "summaryKo": "개발자가 피드 리더 서비스 sprinklz.io를 HN에 올린 뒤 인기를 얻었지만, 며칠 후 서버가 비정상적으로 느려지는 문제를 겪었다. 로그를 분석한 결과 실제 활성 사용자는 적은데도 트래픽의 절반 가까이가 특정 AI 뉴스레터 요약 서비스 봇에서 발생했음을 발견했다. 해당 봇은 분당 수차례씩 사이트를 크롤링했으며, 이를 차단했고 Claude bot, OpenAI bot, Google 인덱서 등 다른 크롤러들도 식별했다.",
+      "tags": [
+        "ai-bot",
+        "web-crawler",
+        "server-performance"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x5cwtc",
+      "title": "A declarative WAF built in Prolog. Try to hack it As A Research",
+      "url": "https://www.reddit.com/r/programming/comments/1x5cwtc/a_declarative_waf_built_in_prolog_try_to_hack_it/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x5cwtc/a_declarative_waf_built_in_prolog_try_to_hack_it/",
+      "publishedAt": "2026-10-14T00:07:57+00:00",
+      "snippet": "An HTTPS-secured Web Application Firewall in SWI-Prolog. It runs on a free-tier Google Cloud instance with only 1 GB of RAM (roughly 450 MB available after OS overhead). The entire stack operates comfortably within this limit using Prolog's lightweight threads. submitted by /u/lokinpendawa [link] [comments]",
+      "oneLineKo": "Prolog로 만든 선언형 WAF, 해킹 테스트 공개",
+      "summaryKo": "Reddit에 SWI-Prolog로 구현한 선언형 웹 애플리케이션 방화벽(WAF)이 공개되었습니다. 이 WAF는 HTTPS로 보안 설정된 상태로 Google Cloud 프리티어 인스턴스(1GB RAM, 실사용 가능 약 450MB)에서 운영됩니다. Prolog의 경량 스레드를 활용해 제한된 리소스 내에서도 안정적으로 동작하며, 연구 목적으로 해킹 시도를 유도하고 있습니다.",
+      "tags": [
+        "prolog",
+        "waf",
+        "security"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35312",
+      "title": "Minions - 유휴 Mac의 GPU를 모아 머신러닝 추론 작업을 분산하는 Apple의 시스템",
+      "url": "https://news.hada.io/topic?id=35312",
+      "commentsUrl": "https://news.hada.io/topic?id=35312",
+      "publishedAt": "2026-10-14T06:38:29+09:00",
+      "snippet": "여러 Mac의 유휴 Apple Silicon GPU로 대규모 머신러닝 추론 작업을 나눠 처리 하는 Apple 연구진의 분산 시스템 기존 하드웨어를 활용해 GPU 추가 구매 부담을 줄이고, 자원이 부족한 중앙 GPU 인프라를 보완 Hugging Face 모델의 임베딩 생성과 Ollama 기반 LLM 추...",
+      "oneLineKo": "유휴 Mac GPU 모아 ML 추론 분산, Apple 'Minions'",
+      "summaryKo": "Apple 연구진이 개발한 Minions는 여러 Mac의 유휴 Apple Silicon GPU를 모아 대규모 머신러닝 추론 작업을 분산 처리하는 시스템이다. 기존에 보유한 하드웨어를 활용함으로써 별도의 GPU 구매 부담을 줄이고, 중앙 GPU 인프라의 자원 부족 문제를 보완하는 것을 목표로 한다. Hugging Face 모델의 임베딩 생성과 Ollama 기반 LLM 추론 등에 적용 가능하다.",
+      "tags": [
+        "apple-silicon",
+        "distributed-computing",
+        "llm-inference"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50072120",
+      "title": "How to engineer an AI harness for game development",
+      "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50072120",
+      "publishedAt": "2026-10-13T14:14:23Z",
+      "score": 124,
+      "comments": 57,
+      "snippet": "Your Game Is A Harness - kyle kukshtel's website kyle kukshtel About Projects Blog Inspiration Archives RSS Search Your Game Is A Harness Exploring practical ways to make your game more legible to AI agents and how to make agentic iteration faster. October 10, 2026 Tagged: AI Programming Gamedev I gave a 45 minute presentation entitled “ Your Game Is A Harness” as part of Indie Rodeo in Calgary on 9/12/26. After speaking with a lot of people after my talk, I thought it would be good to more broadly share the ideas I presented there in a form that could be enjoyed by people beyond just those who attended the conference. Also, because I talk about AI a lot on this blog, people assume I use AI to write. This is not true! Everything below is 100% human authored, with me writing the post with basically only the slides I presented as a reference (this is not a transcription). As much as I enjoy using AI to write code and tools, I get a similar enjoyment out of writing “ the old way”, especially as I have no reason to try and make any part of this process more efficient. So with that all out of the way, I present to you my first ever blogification of a talk I gave. Enjoy! Introduction [I give a small introduction to myself and my own work, that I’m omitting here, as you’re on my website] I want to talk about using LLMs in game development. Not one-shot type demos that look cool on Twitter, but like real development. Where you’re working eight hours a day, 5 days a week, etc. And before I get into it, I think it’s useful to level set about LLMs. Or at least get into some basics so the rest of what I talk about here makes sense. I recognize that for a lot of this people this will be review, so if you just want to get into the dev-loop stuff, scroll down to the next section. My journey into using LLMs for dev work started with a moodboarding site I made called mood.site . This was pre “ agentic” anything, but I wanted to test and see if ChatGPT at the time could actually code anything. The process was a lot of me just blindly copy/pasting code into ChatGPT’s web interface. The process sucked, but I was surprised at the results. I built the site! It worked! I still needed to verify a fair amount of stuff myself, but it was enough to convert me. If I didn’t have access to an LLM I wouldn’t have been able to make that site happen in near the amount of time it ended up taking me (~2-3 weeks of nights, probably like 20 hours total). I’d probably still be working on building the first version today. Since then, mood has become something of a testbed for me moving through LLM stuff (and a mildly successful project on its own!), and has inspired me to kick up lots of other projects that use similar stacks. Additionally, LLMs have gotten better, especially with things like Claude Code and later Claude models. From my own experience, I feel like now there is very little, if anything, I think an LLM can’t do when it comes to a web-based stack. It could be easy to the",
+      "oneLineKo": "게임 개발에서 AI 에이전트 활용법을 다룬 강연 글",
+      "summaryKo": "저자가 Indie Rodeo 컨퍼런스에서 발표한 'Your Game Is A Harness' 강연을 블로그 글로 정리했다. 게임을 AI 에이전트가 더 잘 이해하도록 만들고, 에이전틱 반복 작업(agentic iteration)을 빠르게 하는 실질적 방법을 다룬다. 저자는 ChatGPT 초기부터 Claude Code까지 LLM을 활용한 실무 개발 경험을 공유하며, 단순 데모가 아닌 실제 풀타임 개발 환경에서의 AI 활용을 강조한다. 글 자체는 AI 없이 인간이 직접 작성했음을 밝힌다.",
+      "tags": [
+        "llm",
+        "gamedev",
+        "claude-code"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35278",
+      "title": "Show GN: false-green-detector: 무의미한 테스트를 잡아내는 에이전트 스킬",
+      "url": "https://news.hada.io/topic?id=35278",
+      "commentsUrl": "https://news.hada.io/topic?id=35278",
+      "publishedAt": "2026-10-13T14:19:58+09:00",
+      "snippet": "부실하거나 무의미한 테스트를 잡아내기 위한 에이전트 스킬 AI 코딩 에이전트는 기능을 추가할 때마다 엄청난 양의 테스트 코드를 추가하는 특성이 있음. 이는 코드가 잘 검증되었다는 안도감을 줌. 하지만 막상 테스트 내용을 확인해보면 내용이 부실한 것을 넘어서 기만적으로까지 보이는...",
+      "oneLineKo": "AI가 만든 부실 테스트 잡는 에이전트 스킬 공개",
+      "summaryKo": "AI 코딩 에이전트는 기능 추가 시 테스트 코드를 대량으로 생성해 코드가 잘 검증된 듯한 착각을 주지만, 실제로는 내용이 부실하거나 기만적인 경우가 많다는 문제의식에서 출발한 프로젝트다. 'false-green-detector'는 이러한 무의미하거나 형식적인 테스트를 자동으로 탐지해내는 에이전트 스킬이다. 테스트가 실제로 기능을 검증하는지, 단순히 통과만을 위한 코드인지 가려내는 데 초점을 맞춘다.",
+      "tags": [
+        "ai-agent",
+        "testing",
+        "code-quality"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50069499",
+      "title": "11 year old unsoundness bugs found in Rust borrow checker",
+      "url": "https://github.com/rust-lang/rust/issues/164250",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50069499",
+      "publishedAt": "2026-10-13T10:27:00Z",
+      "score": 665,
+      "comments": 372,
+      "snippet": "struct's lifetime requirements can be bypassed via covariant field assignment · Issue #164250 · rust-lang/rust · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} rust-lang rust Repository navigation Code Issues 5k+ ( 5k+ ) Pull requests 1.4k ( 1.4k ) Actions Projects Security and quality 6 ( 6 ) Insights More items struct's lifetime requirements can be bypassed via covariant field assignment #164250 New issue Copy link New issue Copy link Open #164277 Open struct's lifetime requirements can be bypassed via covariant field assignment #164250 #164277 Copy link Labels A-borrow-checker Area: The borrow checker Area: The borrow checker A-destructors Area: Destructors (`Drop`, …) Area: Destructors (`Drop`, …) A-lifetimes Area: Lifetimes / regions Area: Lifetimes / regions A-variance Area: Variance (https://doc.rust-lang.org/nomicon/subtyping.html) Area: Variance (https://doc.rust-lang.org/nomicon/subtyping.html) C-bug Category: This is a bug. Category: This is a bug. I-unsound Issue: A soundness hole (worst kind of bug), see: https://en.wikipedia.org/wiki/Soundness Issue: A soundness hole (wors",
+      "oneLineKo": "Rust 보로우 체커 11년 묵은 안전성 버그 발견",
+      "summaryKo": "Rust 컴파일러의 보로우 체커(borrow checker)에서 11년간 존재했던 안전성(soundness) 버그가 발견되었다. 공변(covariant) 필드에 값을 대입하는 방식으로 구조체의 라이프타임 요구사항을 우회할 수 있는 결함으로, GitHub 이슈로 보고되었다. 이는 메모리 안전성을 보장해야 할 보로우 체커의 핵심 기능에 구멍이 있었음을 의미하는 심각한 버그로 분류된다.",
+      "tags": [
+        "rust",
+        "borrow-checker",
+        "soundness-bug"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35275",
+      "title": "OpenAI와 Anthropic을 단호히 거부하자",
+      "url": "https://news.hada.io/topic?id=35275",
+      "commentsUrl": "https://news.hada.io/topic?id=35275",
+      "publishedAt": "2026-10-13T12:33:42+09:00",
+      "snippet": "오픈 웨이트 모델 을 활용하면 ChatGPT와 Claude에 의존하지 않고도 강력한 LLM을 사용할 수 있으며, 실행 환경과 추론 제공업체를 선택할 수 있음 학습 사용 거부 는 대화의 비공개성을 보장하지 않음. OpenAI와 Anthropic은 대화 데이터에 접근할 수 있으며, 장기적...",
+      "oneLineKo": "오픈 웨이트 모델로 OpenAI·Anthropic 종속 탈피 주장",
+      "summaryKo": "이 글은 ChatGPT와 Claude 같은 폐쇄형 LLM 서비스에 의존하지 않고 오픈 웨이트 모델을 활용할 것을 제안한다. 오픈 웨이트 모델을 쓰면 실행 환경과 추론 제공업체를 직접 선택할 수 있어 특정 기업에 종속되지 않는다는 장점이 있다. 또한 학습 사용 거부 옵션을 선택해도 OpenAI와 Anthropic이 여전히 대화 데이터에 접근할 수 있어 완전한 비공개성은 보장되지 않는다는 점을 지적한다.",
+      "tags": [
+        "llm",
+        "open-weight",
+        "privacy"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50073633",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50073633",
+      "publishedAt": "2026-10-13T15:49:56Z",
+      "score": 501,
+      "comments": 500,
+      "snippet": "Redesigning source control at Anthropic \\ Anthropic Skip to main content Skip to footer Research Policy Commitments Learn News Try Claude Engineering at Anthropic Redesigning source control at Anthropic Published Oct 13, 2026 As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months. At Anthropic, coding is no longer the bottleneck to building systems or doing research. Claude is able to autonomously iterate on research loops, micro-optimize complex programs, and build new services from the ground up at a speed and scale we haven’t seen before. The bottleneck, now, is all of the developer infrastructure built for human scale: source control, builds, and CI. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. We don’t expect this rate of growth to slow down anytime soon; the latent demand for merging code is practically infinite, and every bottleneck we remove immediately leads to a further increase in the amount of code we produce. Changes merged to our monorepo per day, from January to September 2026. In order to support this growth, we built Scion, an in-house version control system, and fully migrated our monorepo from git in five months. We also built and shipped a code review surface (called Antique), code search, a rich source control IAM system, novel ways of managing and landing large amounts of reviewed code, and more, all in that same time period. In this post, we’ll focus on how we built Scion specifically. It makes for an interesting case study: Claude’s ability to write code was both what put us in this situation in the first place and how we were able to quickly build a high-quality, scalable system to deal with it. Growing our monorepo Before we explore what we built, we should acknowledge how unusual our workload is. Unsurprisingly, Anthropic uses Claude to write software far more than almost any other company, so we’re often the first to see where tools built for human scale start to strain. Source control is just one example of this. While we don’t expect many organizations to have these problems in the very near term, we suspect it won’t be too long before others who use AI coding tools experience these same pressure points, which is why we wanted to share what we built and what we learned. Git is a decentralized system: every clone is a complete, self-contained repository that can compute diffs, read history and blame, and check out any revision while fully offline. For the vast majority of repositories, this is the right design, and it’s a large part of why git became the standard. As our monorepo grows, it increasingly doesn’t fit that design space. The history of our main branch alone is almost 100 GB, and a compressed working copy is over 25 GB. We perform on the order of 25 million code checkouts per day for CI, before counti",
+      "oneLineKo": "Anthropic, 자체 버전관리시스템 'Scion'으로 git 대체",
+      "summaryKo": "Anthropic은 Claude를 활용한 코드 생성이 급증하면서 하루 병합 건수가 2,500건에서 30,000건으로 10배 이상 늘어나자 git 기반 모노레포가 한계에 부딪혔다. 이에 5개월 만에 자체 버전관리시스템 Scion과 코드 리뷰 도구 Antique, 코드 검색, IAM 시스템 등을 새로 구축해 기존 git 모노레포를 완전히 마이그레이션했다. git의 분산형 구조는 100GB에 달하는 히스토리와 하루 2,500만 건의 체크아웃을 감당하기 어려웠기 때문이다. 이 사례는 AI 코딩 도구가 인간 규모로 설계된 개발 인프라의 병목을 어떻게 드러내는지 보여주는 사례로 소개된다.",
+      "tags": [
+        "source-control",
+        "anthropic",
+        "devops"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35322",
+      "title": "AesCode - 이미지의 디자인을 참고해 HTML/CSS를 생성하는 AI 모델",
+      "url": "https://news.hada.io/topic?id=35322",
+      "commentsUrl": "https://news.hada.io/topic?id=35322",
+      "publishedAt": "2026-10-14T09:40:02+09:00",
+      "snippet": "슬라이드와 포스터, 대시보드를 수정 가능한 HTML/CSS로 생성 하는 Microsoft의 AI 모델 이미지 생성 모델이 만든 참고 이미지에서 레이아웃과 스타일을 가져오고, 문구와 수치는 프롬프트를 기준으로 생성 하도록 학습 결과물은 완전한 HTML 문서로 출력, ...",
+      "oneLineKo": "MS, 이미지 디자인 참고해 HTML/CSS 생성하는 AI 모델 공개",
+      "summaryKo": "AesCode는 Microsoft가 개발한 AI 모델로, 슬라이드·포스터·대시보드 등을 수정 가능한 HTML/CSS 코드로 생성한다. 이미지 생성 모델이 만든 참고 이미지에서 레이아웃과 스타일을 추출하고, 문구와 수치는 사용자의 프롬프트를 기반으로 채워 넣도록 학습되었다. 최종 결과물은 완전한 HTML 문서 형태로 출력된다.",
+      "tags": [
+        "ai",
+        "html-css",
+        "microsoft"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50054092",
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50054092",
+      "publishedAt": "2026-10-12T10:09:37Z",
+      "score": 403,
+      "comments": 310,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.heise.de&#x2F;en&#x2F;news&#x2F;Crypto-thieves-sell-hardware-wallets-with-secret-eSIM-11485188.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.heise.de&#x2F;en&#x2F;news&#x2F;Crypto-thieves-sell-hardware-wa...</a><p><a href=\"https:&#x2F;&#x2F;crypto.news&#x2F;ledger-confirms-hidden-chip-in-crypto-wallet-amid-92m&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;crypto.news&#x2F;ledger-confirms-hidden-chip-in-crypto-wa...</a><p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=8JnHdr30v4g\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=8JnHdr30v4g</a><p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Nf4FEFlgv3Q\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Nf4FEFlgv3Q</a><p><a href=\"https:&#x2F;&#x2F;www.tibane.net&#x2F;research&#x2F;ledger-nano-x-implant\" rel=\"nofollow\">https:&#x2F;&#x2F;www.tibane.net&#x2F;research&#x2F;ledger-nano-x-implant</a>",
+      "oneLineKo": "Ledger 하드웨어 지갑에 숨겨진 스파이칩, 암호화폐 탈취 확인",
+      "summaryKo": "Ledger는 자사 하드웨어 지갑에 비밀 eSIM을 포함한 스파이 칩이 몰래 심어져 있었고, 이를 통해 암호화폐가 탈취된 사건을 공식 확인했다. 범죄자들은 변조된 지갑을 재판매해 약 9200만 달러 규모의 피해를 발생시킨 것으로 알려졌다. 해당 사건은 공급망 공격의 사례로, 하드웨어 보안 검증의 중요성을 다시 부각시켰다.",
+      "tags": [
+        "hardware-security",
+        "supply-chain-attack",
+        "cryptocurrency"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50069971",
+      "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
+      "url": "https://eg2.haku.sh/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50069971",
+      "publishedAt": "2026-10-13T11:27:14Z",
+      "score": 387,
+      "comments": 85,
+      "snippet": "Embedding Gemma Transcribe Embedding Gemma Transcribe Google's EmbeddingGemma 2 is an embedding model. We turned it into a speech-to-text model: an hour of audio in about 13 seconds on a base MacBook Air , entirely on device. Download for Mac (free) v1.6 · macOS 14+ · Apple Silicon models download on first launch (715 MB) Can an embedding model transcribe speech? EmbeddingGemma 2 is a multimodal embedding model: text, images, audio and video in one shared space. Say a word out loud and its audio lands close to the written word. So we tried reading words straight out of that space. How it works EmbeddingGemma 2's audio encoder stays exactly as it is. A small reader moves each short slice of audio into the model's text space. The closest of ~229,000 English words wins, and the slices become a transcript. A tiny extra model adds punctuation and capitals. Only the reader is trained: under two hours on 8×H100, on openly licensed English speech. The base model was never trained for speech-to-text. How fast? Model Runs on Mac Speed Embedding Gemma Transcribe Neural Engine base M3 MacBook Air, 8 GB 288× 1 hour in 12.6 s IBM Granite Speech 5.0 TurboCTC GPU (MLX) base M3 MacBook Air, 8 GB ~150× 1 hour in 25.7 s NVIDIA Parakeet TDT 0.6B v3 (FluidAudio) Neural Engine M4 Pro 156× NVIDIA Parakeet TDT 0.6B v3 (FluidAudio) Neural Engine M5 Pro 335× Phonon-2, a Parakeet v3 fine-tune (FluidAudio) Neural Engine M5 Pro 480× × real time: seconds of audio per second of processing. Rows 1–2: our tests on the same base M3 MacBook Air. Rows 3–5: FluidAudio's published benchmarks on larger, newer Macs and different audio. A rough guide, not a like-for-like ranking. Where it stands Its word error rate is about 5% right now, against 2–3% for leading speech models. We believe a better-trained reader can close that gap; that's the next iteration. Use it Drop in an audio file, or hold Right Option, speak and release to dictate into any app. It runs on the Mac's Neural Engine; your audio never leaves the machine. Download for Mac (free) EmbeddingGemma 2 is made by Google DeepMind and released under Apache 2.0. This is an independent project, not affiliated with or endorsed by Google.",
+      "oneLineKo": "임베딩 모델을 음성-텍스트 변환기로 재활용",
+      "summaryKo": "Google의 멀티모달 임베딩 모델 EmbeddingGemma 2를 음성-텍스트 변환 모델로 변환한 프로젝트입니다. 오디오 인코더는 그대로 두고 오디오 조각을 텍스트 임베딩 공간으로 매핑하는 작은 'reader' 모델만 8×H100에서 2시간 미만 학습시켜 ~229,000개 영어 단어 중 가장 가까운 단어로 전사합니다. 애플 실리콘 Neural Engine에서 완전히 온디바이스로 동작하며, 기본 MacBook Air에서 1시간 분량 오디오를 약 13초 만에 처리하지만 단어 오류율은 약 5%로 최신 음성 모델(2~3%)보다 다소 높습니다.",
+      "tags": [
+        "speech-to-text",
+        "embedding-model",
+        "on-device-ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50078141",
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50078141",
+      "publishedAt": "2026-10-13T20:23:55Z",
+      "score": 374,
+      "comments": 337,
+      "snippet": "ADVERTISEMENT Skip to main content Open search bar and full menu The San Francisco Standard Sign in Latest News Politics Business Opinion Culture Food & Drink Sports Games Podcasts News Visit $ News The Boom Loop Crisis in the Streets The School Wars Criminal Justice Transportation Investigations Close menu Close menu Sign out Search query Search Latest Obsessions News Politics Business Opinion Culture Food & Drink Sports Mobile App (opens in new tab) Newsletters Podcasts Games Social Links (opens in new tab) (opens in new tab) (opens in new tab) (opens in new tab) (opens in new tab) (opens in new tab) (opens in new tab) (opens in new tab) News OpenAI engineer arrested in bugging of executive conference room Federal prosecutors say an employee from Saudi Arabia planted an audio recorder and left another unattended in his bag. An OpenAI engineer concealed a recording device in a conference room used by executives at the company, the Department of Justice claims. | Source: Justin Katigbak/The Standard By George Kelly and Michael McLaughlin Published Oct. 13, 2026 at 1:17pm Updated Oct. 13, 2026 at 1:44pm Share Share Copy link to this article Email (opens in new tab) Twitter (opens in new tab) Bluesky (opens in new tab) Facebook (opens in new tab) LinkedIn (opens in new tab) Telegram (opens in new tab) WhatsApp (opens in new tab) Reddit (opens in new tab) Close share menu There are 0 comments on this story Published Oct. 13, 2026 at 1:17pm Updated Oct. 13, 2026 at 1:44pm An OpenAI engineer has been arrested on suspicion of hiding an audio recording device in an executive conference room at the company’s San Francisco headquarters, federal prosecutors said Tuesday. Abdulrahman Alfozan, 35, a Saudi national, was arrested Friday and charged with using or attempting to use a device to intercept oral communications. He made his initial appearance in federal court Tuesday and remains in custody. An unattended bag found in the company’s offices contained Alfozan’s wallet and identification, as well as a recording device, according to the U.S. attorney’s office in San Francisco. ADVERTISEMENT Alfozan has worked as an engineer at OpenAI since July 2025, prosecutors said. OpenAI personnel found the device Sept. 30. It was plugged into a USB port on the back of a television in an executive conference room and had been concealed in toilet paper, the complaint says. The company determined it was installed around Sept. 28, and its contents were encrypted. Surveillance footage shows Alfozan near the room on multiple dates before the discovery, though he was not authorized to enter the room or attend meetings there, prosecutors said. Meetings in the room frequently involved confidential technical, commercial, and strategic information, including proprietary research, product plans, and government engagements, according to the complaint. Prosecutors say this image shows Alfozan looking behind a television in an OpenAI conference room.​ | Source: Courtesy U.S. Attorn",
+      "oneLineKo": "OpenAI 엔지니어, 임원 회의실 도청장치 설치 혐의 체포",
+      "summaryKo": "OpenAI 샌프란시스코 본사에서 사우디 국적 엔지니어 Abdulrahman Alfozan(35)이 임원 회의실에 도청장치를 숨긴 혐의로 체포됐다. 9월 30일 발견된 이 장치는 TV 뒤 USB 포트에 화장지로 위장해 설치됐으며 내용은 암호화돼 있었다. 해당 회의실에서는 기밀 기술·사업 전략, 제품 계획, 정부 협력 관련 논의가 자주 이뤄졌다고 검찰은 밝혔다. 그는 출입 권한이 없었음에도 사건 발생 전 여러 차례 해당 구역 근처에서 CCTV에 포착됐다.",
+      "tags": [
+        "openai",
+        "security",
+        "corporate-espionage"
+      ]
+    }
+  ]
+}

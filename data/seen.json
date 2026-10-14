@@ -1,117 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=33583",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "news.hada.io/topic?id=33583",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49673098",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33566",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "news.hada.io/topic?id=33566",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49639647",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "youtube.com/watch?v=iZODN0QUgjI",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33600",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "news.hada.io/topic?id=33600",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49672510",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "darioamodei.com/post/we-must-pace-the-frontier",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33593",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "news.hada.io/topic?id=33593",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49645480",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "tomshardware.com/tech-industry/big-tech/lg-strongly-denies-tv-security-claims-says-tracking-and-snooping-concerns-not-true-online-investigation-claims-216-000-000-spy-tvs-record-audio",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33592",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "news.hada.io/topic?id=33592",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49668706",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "claymath.org/news/navier-stokes-announcement",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33588",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "news.hada.io/topic?id=33588",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49674050",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "high5apps.github.io/josm-plugin-website-wizard",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49670032",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "eiln.github.io/posts/ane.html",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49662214",
-    "date": "2026-09-13"
-  },
-  {
-    "id": "snap.berkeley.edu",
-    "date": "2026-09-13"
-  },
-  {
     "id": "https://news.hada.io/topic?id=33622",
     "date": "2026-09-14"
   },
@@ -3486,5 +3374,133 @@
   {
     "id": "github.com/snuri00/ps2-web-recomp",
     "date": "2026-10-13"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35290",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "news.hada.io/topic?id=35290",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50068036",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "blog.character.ai/an-update-on-character-ai",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "t3_1x4sw6i",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x4sw6i/more_better_faster_how_we_automate_metabase",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35303",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "news.hada.io/topic?id=35303",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50073221",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "sammystraus.com",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "t3_1x5cwtc",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x5cwtc/a_declarative_waf_built_in_prolog_try_to_hack_it",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35312",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "news.hada.io/topic?id=35312",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50072120",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35278",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "news.hada.io/topic?id=35278",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50069499",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "github.com/rust-lang/rust/issues/164250",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35275",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "news.hada.io/topic?id=35275",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50073633",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "anthropic.com/engineering/redesigning-source-control",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35322",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "news.hada.io/topic?id=35322",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50054092",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50069971",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "eg2.haku.sh",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50078141",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room",
+    "date": "2026-10-14"
   }
 ]
