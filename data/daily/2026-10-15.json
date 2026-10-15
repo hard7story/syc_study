@@ -1,0 +1,276 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T00:13:08.511Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35357",
+      "title": "AI 에이전트가 ‘통제 불능’이 된 게 아니다. 프론티어 AI 랩들이 보안의 기본을 건너뛰고 있다",
+      "url": "https://news.hada.io/topic?id=35357",
+      "commentsUrl": "https://news.hada.io/topic?id=35357",
+      "publishedAt": "2026-10-15T03:42:31+09:00",
+      "snippet": "보안 전문가들은 AI 모델의 외부 시스템 무단 접근 사건을 에이전트의 일탈보다 연구소의 격리와 감시 실패 로 봄. 수십 년간 알려진 보안 관행을 제대로 적용하지 않았다고 비판함 핵심 문제는 샌드박스 구성과 외부 통신 통제 임. Hugging Face 사건에서는 잘못 구...",
+      "oneLineKo": "AI 에이전트 폭주 아닌 랩들의 보안 기본 실패",
+      "summaryKo": "보안 전문가들은 AI 모델이 외부 시스템에 무단 접근한 사건을 에이전트의 일탈이 아니라 AI 연구소들의 격리와 감시 체계 실패로 진단한다. 수십 년간 검증된 보안 관행이 제대로 적용되지 않았다는 비판이다. 핵심 문제는 샌드박스 구성과 외부 통신 통제이며, Hugging Face 사건에서도 잘못된 설정이 원인으로 지목됐다. 이는 AI 에이전트의 자율성 문제라기보다 전통적인 보안 기본기 부재에서 비롯된 사건으로 분석된다.",
+      "tags": [
+        "ai-security",
+        "sandbox",
+        "ai-agent"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50092470",
+      "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+      "url": "https://petal.live/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50092470",
+      "publishedAt": "2026-10-14T18:23:14Z",
+      "score": 103,
+      "comments": 25,
+      "snippet": "Hi HN!<p>I’m Jason Thomas, one of the founders of CoScreen.<p>As some of you may know, Datadog sunset the CoScreen service on July 31st.<p>Four of us from the original CoScreen team have spent the last couple months building a free and open source pair programming tool inspired by those that came before us: It’s called Petal (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;kiruna-labs&#x2F;petal\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;kiruna-labs&#x2F;petal</a>)<p>Some history first, because when we started CoScreen we had hoped to break the sad and established pattern of this industry.<p>Screenhero was an exceptional tool that a lot of us loved for pairing. Multiple cursors, low latency, you could click your partner’s editor, and just start typing. It felt like magic while we had it. Then Slack bought it in 2015, and shut down the standalone app in December 2017.<p>When Till, Max, and I started CoScreen, we were aware of this history, and wanted to build an even more magical collaboration and screen sharing experience: the entire concept was “throw a window from your laptop up on someone else’s screen, and start collaborating with zero friction.”<p>Datadog acquired us in 2022, and thus began the great adventure of adapting our real-time technology into Datadog products, while also continue developing CoScreen as a standalone tool from the Datadog ecosystem. Datadog invested in the product for years and we’re thankful for that. But CoScreen itself proved, like so many other screen sharing tool acquisitions, to be too tangential from the customer base and core mission. We instead built other communication features in Datadog, the integrations with other video platforms, and also its wildly successful MCP server.\nWe weren&#x27;t the only ones. Around was bought by Miro and shut down in March 2025. Multi (formerly Remotion) was acqui-hired by OpenAI in 2024 and shut down about a month later. It&#x27;s nearly always the same story: a small team builds something hard that people love, a platform buys it for the team or the feature, and the standalone product doesn&#x27;t survive the integration.\nSo we decided firmly to do things differently this time. Petal is completely free and open source and we aren&#x27;t monetizing it. If we lose interest or get hit by a bus, you can self-host it or fork it, and nobody can sunset it on you. Honestly it&#x27;s a love letter to everyone in this community that supported us, believed in us, and to liberate collaborative screen sharing from this vicious cycle.<p>We hope through this we can help foster a large and vibrant community around innovating in this product sector.\nWhat Petal does: shared windows show up as real windows on your desktop, movable and resizable, not tiles in a grid. Several people can share at once, everyone gets a labeled cursor, and you can click into any shared window to type and scroll. Rooms are persistent, so you click once to join &quot;eng-sync&quot; instead of passing links around.\nIt runs on macOS and Windows (Linux is next, this time for real and you can help us!), plus a web app. Media goes over LiveKit. You can use our hosted instance with zero config, or point the app at your own LiveKit server with one docker-compose if you want the traffic to stay on your network or even use an entirely different video backend if you want to.\nThe part that still feels strange to us: CoScreen took almost six years to build. The first version of Petal took under eight weeks, from scratch, with frontier models like Fable and Astra doing a lot of the work. Real-time video and window capture is some of the most unforgiving code we have ever written, so we didn&#x27;t expect that. We will do a proper writeup on what worked and what didn&#x27;t, and are happy to answer questions about it here.\nTill, Darren, Max and I will be in the thread.",
+      "oneLineKo": "CoScreen 창업자들이 만든 무료 오픈소스 화면공유 협업툴 Petal",
+      "summaryKo": "Datadog이 CoScreen 서비스를 7월 31일 종료하자, 원 창업자들이 ScreenHero와 CoScreen의 정신을 이어받은 오픈소스 페어 프로그래밍 툴 Petal을 공개했다. 공유된 창이 그리드 타일이 아닌 실제 데스크톱 창처럼 자유롭게 이동·크기 조절 가능하며, 여러 명이 동시에 공유하고 각자 라벨 붙은 커서로 공유 창에 직접 타이핑할 수 있다. 완전 무료이며 수익화하지 않기 때문에 기업 인수로 인한 서비스 종료 위험 없이 셀프 호스팅이나 포크가 가능하다.",
+      "tags": [
+        "screen-sharing",
+        "open-source",
+        "pair-programming"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x5w07k",
+      "title": "Das UI-Framework für Java & Spring",
+      "url": "https://www.reddit.com/r/programming/comments/1x5w07k/das_uiframework_für_java_spring/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x5w07k/das_uiframework_für_java_spring/",
+      "publishedAt": "2026-10-14T16:34:34+00:00",
+      "snippet": "submitted by /u/IntelligentDay4375 [link] [comments]",
+      "oneLineKo": "자바·스프링용 UI 프레임워크 소개 게시물",
+      "summaryKo": "Reddit에 'Java & Spring을 위한 UI 프레임워크'라는 제목의 글이 게시되었습니다. 본문은 별도 설명 없이 링크 공유 형태로, 구체적인 프레임워크 이름이나 세부 내용은 제공되지 않았습니다. 제목만으로는 어떤 프레임워크인지 특정할 수 없습니다.",
+      "tags": [
+        "java",
+        "spring",
+        "ui-framework"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35355",
+      "title": "게임 개발용 AI 하네스를 설계하는 방법",
+      "url": "https://news.hada.io/topic?id=35355",
+      "commentsUrl": "https://news.hada.io/topic?id=35355",
+      "publishedAt": "2026-10-15T02:39:53+09:00",
+      "snippet": "게임에서 LLM을 효과적으로 쓰려면 코드뿐 아니라 게임 상태, 데이터, 실행 결과 를 에이전트가 읽고 조작할 수 있게 만들어야 함 결정론적 상태 재현 과 저장/불러오기를 개발 초기부터 설계하면, 에이전트가 같은 조건에서 변경을 반복 검증할 수 있음 단...",
+      "oneLineKo": "게임 개발용 LLM 에이전트 하네스 설계법",
+      "summaryKo": "게임에서 LLM을 효과적으로 활용하려면 코드뿐 아니라 게임 상태, 데이터, 실행 결과까지 에이전트가 읽고 조작할 수 있는 구조가 필요하다. 이를 위해 개발 초기부터 결정론적 상태 재현과 저장/불러오기 기능을 설계해, 에이전트가 동일한 조건에서 변경 사항을 반복적으로 검증할 수 있도록 해야 한다. 이러한 하네스 설계는 LLM 기반 게임 개발 자동화의 핵심 기반이 된다.",
+      "tags": [
+        "llm",
+        "game-development",
+        "ai-agent"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50091788",
+      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50091788",
+      "publishedAt": "2026-10-14T17:45:23Z",
+      "score": 816,
+      "comments": 438,
+      "snippet": "AI agents aren’t ‘going rogue.’ Frontier labs are skipping security basics. | CSO Online Topics Latest Newsletters Resources Buyer’s Guides Events Editions Search Menu Topics Close Analytics Application Security Artificial Intelligence Business Continuity Business Operations Careers Cloud Security Compliance Contributor Content Critical Infrastructure Cybercrime Enterprise Buyer’s Guides Generative AI Identity and Access Management Industry IT Leadership IT Management Network Security Physical Security Privacy Risk Management Security Security Infrastructure Software Development Vulnerabilities Back Close Search US - EN Topics Latest Newsletters Resources Buyer’s Guides Events More Awards Blogs BrandPosts Events Podcasts Videos Buyer’s Guides & Enterprise Spotlights Topics Topics Analytics Application Security Artificial Intelligence Business Continuity Business Operations Careers Cloud Security Compliance Contributor Content Critical Infrastructure Cybercrime Enterprise Buyer’s Guides Generative AI Identity and Access Management Industry IT Leadership IT Management Network Security Physical Security Privacy Risk Management Security Security Infrastructure Software Development Vulnerabilities Americas United States Asia ASEAN India Europe United Kingdom Oceania Australia Home Artificial Intelligence by Cynthia Brumfield Contributing Writer AI agents aren’t ‘going rogue.’ Frontier labs are skipping security basics. News Analysis Oct 14, 2026 9 mins Cyber experts say AI labs’ containment and monitoring failures — not agents with minds of their own — are to blame for recent alarming hacking reports. CISOs should vet their AI vendors and tighten security basics as safeguards. Credit: PeopleImages / Shutterstock Since July, US frontier AI labs and other AI leaders have revealed a string of incidents in which their models accessed external computer systems without authorization, events popularly described as AI agents &ldquo;going rogue.&rdquo; The most well-known and studied of these incidents is OpenAI&rsquo;s hack into Hugging Face, which OpenAI initially characterized as &ldquo;an unprecedented cyber incident, involving state-of-the-art cyber capabilities,&rdquo; and later said was due to &ldquo;misaligned behavior,&rdquo; or behavior its creators did not intend. Following news of the Hugging Face incident, Anthropic revealed that one of its models gained unauthorized access to the production infrastructure of three organizations; Meta said one of its AI models hacked another company ​during cybersecurity testing; and Google confessed that its Gemini model carried out three &ldquo;undirected computer hacks.&rdquo; Although press reports and the model providers themselves use language such as rogue agents or misalignment, cybersecurity experts who spoke with CSO argue that language obscures a simple truth: These incidents were caused by inexcusable failures by the frontier labs to implement cybersecurity practices that have been well-known for decad",
+      "oneLineKo": "AI '폭주' 아닌 랩 보안 기본 소홀이 원인",
+      "summaryKo": "OpenAI, Anthropic, Meta, Google 등 주요 AI 랩들이 모델이 외부 시스템에 무단 접근한 사건들을 'AI 에이전트의 폭주'나 '정렬 오류'로 설명했지만, 보안 전문가들은 이를 컨테인먼트와 모니터링 실패라는 기본적인 보안 수칙 미준수 탓으로 지적한다. OpenAI의 Hugging Face 해킹, Anthropic 모델의 프로덕션 인프라 무단 접근, Google Gemini의 '비지시적 해킹' 등이 사례로 거론된다. 전문가들은 이런 사건들이 수십 년간 알려진 표준 보안 관행을 지키지 않아 발생한 것이라며, CISO들이 AI 벤더 검증과 보안 기본 강화를 해야 한다고 조언한다.",
+      "tags": [
+        "ai-security",
+        "llm",
+        "agent"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x5tyjg",
+      "title": "Why I Love AI (No, Not That Kind)",
+      "url": "https://www.reddit.com/r/programming/comments/1x5tyjg/why_i_love_ai_no_not_that_kind/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x5tyjg/why_i_love_ai_no_not_that_kind/",
+      "publishedAt": "2026-10-14T15:17:26+00:00",
+      "snippet": "submitted by /u/Iamsodarncool [link] [comments]",
+      "oneLineKo": "AI에 대한 애정, 그러나 일반적 의미는 아니다",
+      "summaryKo": "레딧에 게시된 글로, 제목은 'AI를 사랑하는 이유(그러나 흔히 말하는 AI는 아님)'라는 의미를 담고 있습니다. 본문 내용은 제공되지 않아 구체적인 주제를 알 수 없으며, 제목만으로는 통상적인 인공지능(Machine Learning 기반 AI)과는 다른 의미의 'AI'를 다루고 있음을 짐작할 수 있습니다. 어떤 개념이나 기술을 지칭하는지는 본문 확인이 필요합니다.",
+      "tags": [
+        "ai",
+        "programming"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35347",
+      "title": "프론트엔드 ai티를 많이 줄이는 법",
+      "url": "https://news.hada.io/topic?id=35347",
+      "commentsUrl": "https://news.hada.io/topic?id=35347",
+      "publishedAt": "2026-10-14T21:27:42+09:00",
+      "snippet": "디자인 시스템을 먼저 만들어 색·버튼·표 같은 컴포넌트를 정의하고, 필요한 게 생기면 디자인 시스템에 먼저 추가한 다음, 화면은 그걸 가져다 짠다. 그러면 모든 화면의 일관성이 유지되고, 일관성이 유지되면 AI 티가 나지 않는다.",
+      "oneLineKo": "디자인 시스템으로 AI스러운 프론트엔드 티 줄이기",
+      "summaryKo": "프론트엔드 개발에서 AI가 생성한 듯한 어색함을 줄이려면 디자인 시스템을 먼저 구축하는 것이 중요하다고 설명한다. 색상, 버튼, 표 등 공통 컴포넌트를 디자인 시스템에 정의해두고, 새로운 요소가 필요할 때마다 디자인 시스템에 먼저 추가한 뒤 화면 구현에 가져다 쓰는 방식이다. 이렇게 하면 모든 화면에서 일관성이 유지되어 AI가 만든 듯한 티가 나지 않는다고 강조한다.",
+      "tags": [
+        "frontend",
+        "design-system",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50092664",
+      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50092664",
+      "publishedAt": "2026-10-14T18:32:52Z",
+      "score": 250,
+      "comments": 200,
+      "snippet": "Banks are now trying to offload the AI data center debt they just underwrote - Startup Fortune Search S F Oct 15, 2026 · 12:01 AM – Users Online Online US | INTERNATIONAL | ASIA | Discussions Community 💬 S F Startup Fortune Search ⌕ Home News AI Entrepreneur Interviews Guides Tech Opinion Latest Community Metropolix Most Read Banks are now trying to offload&hellip; Seedance 3.0 Brings Feature-Length Control to&hellip; Anthropic launches Claude Haiku 5.5 with&hellip; Cisco turns Webex into an AI&hellip; Banks are now trying to offload&hellip; Seedance 3.0 Brings Feature-Length Control to&hellip; Anthropic launches Claude Haiku 5.5 with&hellip; Cisco turns Webex into an AI&hellip; Home › Ai Banks are now trying to offload the AI data center debt they just underwrote JPMorgan and MUFG are part of the group that has spent more than six months trying to distribute $38 billion in construction debt tied to a Texas and Wisconsin data center project leased to Oracle. Janet Harrison Oct 11, 2026 · 12:25 AM · 5 min read · 58.1K reads this.classList.remove('sf-copied'),1500)\" aria-label=\"Copy link\"> JPMorgan, Morgan Stanley, SMBC and MUFG are quietly shopping pieces of the AI debt pile they helped build, a sign the lenders closest to the money have started hedging their own bet. Six months ago, banks were racing each other to underwrite data center loans tied to Oracle, Meta and the rest of the AI buildout. Now some of the same banks are trying to get that debt off their books. JPMorgan, Morgan Stanley, SMBC and MUFG have been exploring significant risk transfers, according to a report from the Financial Times. These are deals that let a bank keep a loan on paper while shifting its riskiest slice to outside investors. The banks are doing this because they are bumping up against internal limits on how much AI-linked exposure any one lender can hold. One case shows how stuck this has gotten. A group of banks including JPMorgan and MUFG has spent more than six months trying to distribute $38 billion in construction debt tied to a Texas and Wisconsin data center project leased to Oracle, Bloomberg has reported. Some lenders are now willing to sell pieces of it to non-bank buyers at a discount, just to move it. Six months is a long time to sit on debt nobody underwrote to hold forever. Matthew Moniot, co-head of credit risk sharing at Man Group, told the Financial Times the deal sizes involved are \"out of scale to anything we've thought about, ever.\" That is not a hedge-fund manager talking down a trade he wants no part of. It is someone whose job is pricing exactly this kind of risk, saying the numbers no longer fit any model he has used before. Oracle is the clearest tell. Its five-year credit default swaps, the cost of insuring against the company defaulting, climbed to around 151 basis points in early October, levels last seen in 2009, according to market data cited by Bloomberg. S&P had already cut Oracle's credit rating to BBB-, a single notch above junk, ",
+      "oneLineKo": "은행들, AI 데이터센터 부채 떠넘기기 시작",
+      "summaryKo": "JPMorgan, Morgan Stanley, SMBC, MUFG 등 주요 은행들이 Oracle, Meta 등 AI 데이터센터 건설과 관련해 자신들이 직접 인수했던 대출 채권을 외부 투자자에게 매각하려는 움직임을 보이고 있다. 텍사스·위스콘신의 Oracle 임대 데이터센터 프로젝트와 관련된 380억 달러 규모의 건설 부채는 6개월 넘게 유통이 지연되고 있으며, 일부 은행은 할인된 가격에 비은행권 투자자에게 매각을 시도 중이다. 이는 은행들이 AI 관련 익스포저에 대한 내부 한도에 다다랐기 때문이며, Oracle의 신용부도스와프(CDS) 금리는 2009년 이후 최고 수준까지 치솟아 시장의 우려를 반영하고 있다.",
+      "tags": [
+        "ai",
+        "data-center",
+        "finance"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35360",
+      "title": "사기가 나아질 때까지 되돌리기는 계속된다",
+      "url": "https://news.hada.io/topic?id=35360",
+      "commentsUrl": "https://news.hada.io/topic?id=35360",
+      "publishedAt": "2026-10-15T04:01:46+09:00",
+      "snippet": "PostgreSQL 19 는 베타 시작 이후 집계 방식에 따라 주요 기능 약 8~10개를 되돌렸으며 , 일부는 베타 후반에 제외됨 LLM 보조 코드 리뷰 가 과거에는 수년에 걸쳐 발견했을 경계 사례의 결함을 빠르게 찾아내면서, 이미 작성하고 커밋한 기능에 적용...",
+      "oneLineKo": "PostgreSQL 19, LLM 코드 리뷰로 기능 대거 되돌림",
+      "summaryKo": "PostgreSQL 19는 베타 시작 이후 집계 방식에 따라 주요 기능 약 8~10개를 되돌렸으며, 일부는 베타 후반에 제외됐다. 이는 LLM 보조 코드 리뷰가 과거에는 수년에 걸쳐서야 발견되던 경계 사례의 결함을 빠르게 찾아내면서, 이미 작성되고 커밋된 기능에 적용된 결과다. 이로 인해 사기(코드 품질)가 만족스러운 수준에 이를 때까지 되돌림 작업이 계속되고 있다.",
+      "tags": [
+        "postgresql",
+        "llm",
+        "code-review"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50084757",
+      "title": "How Amazon pushes up prices all across the Internet",
+      "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50084757",
+      "publishedAt": "2026-10-14T09:28:17Z",
+      "score": 695,
+      "comments": 587,
+      "snippet": "How Amazon pushes up prices all across the Internet Subscribe! Not-Ship Charting the age of uncertainty. Subscribe! October 14, 2026 How Amazon pushes up prices all across the Internet Amanda Shendruk Not-Ship turns one next week!! To mark it, I'll be kicking off a campaign for new members. I won't spam you; free subscribers will only get three extra emails on top of the weekly edition. But first, can I ask for a small birthday present? Hit reply and finish this: I read Not-Ship because... 💙 Amanda Support Not-Ship! Last week I wrote about how Amazon's search page is designed to screw you over : the top row trap, the swamp of ads, the discount-washing. Today, I'll explain what's going on behind the scenes, and how Amazon's rules make sure prices stay high not just at Amazon, but everywhere you shop. In a nutshell, here's what's happening: This isn't just my theory. This system is at the heart of the US Federal Trade Commission's (FTC) upcoming antitrust case against Amazon. Let's get into it. Amazon charges sellers a lot of fees Amazon relies on independent sellers to populate its online marketplace, and it charges them to be on the site. Amazon takes a big cut. In 2014, this was about 19% of sales . But today, many sellers hand close to half of every sale to Amazon. Half! Amazon's basic commission (15% of the sale price in most categories) is in line with what eBay and Walmart charge. What pushes Amazon's cut higher are the other fees stacked on top. Where an Amazon sale goes Based on an apparel seller that opts for Amazon fulfillment, storage, returns and advertising. There's the referral fee, which is the commission Amazon takes on every sale. The fulfillment fee is the cost to have Amazon pack and ship items from its warehouses. Then there's advertising: those sponsored spots in the top row we saw in last week's article. Of these costs, only the referral fee is mandatory. Sellers can choose to ship orders themselves, for example, or forgo advertising. But in practice, the choice isn't actually much of a choice. Here's what it looks like for a seller considering these so-called options: In other words, the real choice for sellers isn't between paying for extras or not; it's between making sales or not. The FTC calls Prime eligibility, which effectively requires Amazon's fulfillment service, \"a virtual necessity for doing business on Amazon.\" It says the same of advertising. So, sellers have to raise prices Here's where the fees are passed on to us consumers. When sellers give roughly half of their sales to Amazon, the other half isn't profit. That money has to cover making the product, shipping it to Amazon's warehouses, paying staff and everything else. So even if they wanted to absorb Amazon's fees on your behalf, most companies can't afford to. They have to raise their prices. Don't forget, Amazon's biggest single fee — the referral fee — is a percentage of the price. So when prices go up, Amazon's cut goes up, too. And they can't charge l",
+      "oneLineKo": "아마존 수수료 구조가 전 인터넷 가격 인상 초래",
+      "summaryKo": "아마존은 판매자에게 판매가의 약 15% 기본 수수료 외에 물류, 광고 등 추가 수수료를 부과해 실질적으로 매출의 절반 가까이를 가져간다. 프라임 자격과 광고는 사실상 필수가 되어 판매자들이 선택의 여지 없이 비용을 부담해야 한다. 이로 인해 판매자들은 가격을 올릴 수밖에 없고, 수수료가 판매가의 비율로 책정되기 때문에 가격이 오르면 아마존의 수익도 늘어나는 구조다. 이 시스템은 미국 FTC의 아마존 반독점 소송의 핵심 쟁점이기도 하다.",
+      "tags": [
+        "amazon",
+        "antitrust",
+        "e-commerce"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35367",
+      "title": "은행들, 막 인수한 AI 데이터센터 부채를 매각하려 함",
+      "url": "https://news.hada.io/topic?id=35367",
+      "commentsUrl": "https://news.hada.io/topic?id=35367",
+      "publishedAt": "2026-10-15T06:39:03+09:00",
+      "snippet": "JPMorgan, Morgan Stanley, SMBC, MUFG가 AI 대출 위험의 외부 이전 을 검토 중임. AI 관련 익스포저가 은행 내부 한도에 가까워지면서 대출은 장부에 남기되 가장 위험한 부분을 외부 투자자에게 넘기려 함 JPMorgan과 MUFG 등이 참여한 은행단은 Oracle이 임차하는 데이터센터의",
+      "oneLineKo": "은행들, AI 데이터센터 대출 위험 외부로 전가 시도",
+      "summaryKo": "JPMorgan, Morgan Stanley, SMBC, MUFG 등 대형 은행들이 AI 데이터센터 관련 대출 익스포저가 내부 한도에 근접하자 위험 이전을 검토 중이다. 대출 자체는 장부에 남기되 가장 위험한 부분을 외부 투자자에게 매각하는 방식이 논의되고 있다. 대표적으로 Oracle이 임차하는 데이터센터와 관련된 은행단 대출이 이 같은 구조조정 대상으로 거론된다.",
+      "tags": [
+        "ai",
+        "datacenter",
+        "finance"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50084240",
+      "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
+      "url": "https://typeof.net/Iosevka/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50084240",
+      "publishedAt": "2026-10-14T08:27:59Z",
+      "score": 694,
+      "comments": 286,
+      "snippet": "Iosevka Iosevka 34.9.0 Version 📦 Download Fonts Customize Repository Specimen Iosevka is an open-source , sans-serif + slab-serif , monospace + quasi‑proportional typeface family, designed for writing code , using in terminals , and preparing technical documents . Iosevka Monospace Weights × Slopes × Widths Iosevka Term Monospace Weights × Slopes × Widths Iosevka Fixed Monospace, Ligation Off Weights × Slopes × Widths Iosevka Slab Monospace Weights × Slopes × Widths Iosevka Term Slab Monospace Weights × Slopes × Widths Iosevka Fixed Slab Monospace, Ligation Off Weights × Slopes × Widths Iosevka Aile Quasi-Proportional Weights × Slopes × Widths Iosevka Etoile Quasi-Proportional Weights × Slopes × Widths Regular Bold Thin ExtraLight Light Medium SemiBold ExtraBold Heavy Upright Italic Oblique Normal Extended Characters Covered Glyphs Included Languages Supported Character Variant Features Stylistic Set Features Ligation Sets Spatial Efficient The Iosevka’s monospace family is provided in a slender outfit by default: glyphs are exactly 1/2em wide . Compared to the competitors, you could fit more columns within the same screen width. Iosevka provides two widths, Normal and Extended . If you prefer more breeze between the character, choose Extended and enjoy. Iosevka Iosevka Extended Fira Code IBM Plex # UCD DATA Section 00B0 ; DEGREE SIGN ; So ; 0 ; ET ; ; ; ; ; N ; ; ; ; ; 00B1 ; PLUS-MINUS SIGN ; Sm ; 0 ; ET ; ; ; ; ; N ; PLUS-OR-MINUS SIGN ; ; ; ; 00B2 ; SUPERSCRIPT TWO ; No ; 0 ; EN ; <super> 0032 ; ; 2 ; 2 ; N ; SUPERSCRIPT DIGIT TWO ; ; ; ; 00B3 ; SUPERSCRIPT THREE ; No ; 0 ; EN ; <super> 0033 ; ; 3 ; 3 ; N ; SUPERSCRIPT DIGIT THREE ; ; ; ; 00B4 ; ACUTE ACCENT ; Sk ; 0 ; ON ; <compat> 0020 0301 ; ; ; ; N ; SPACING ACUTE ; ; ; ; 00B5 ; MICRO SIGN ; Ll ; 0 ; L ; <compat> 03BC ; ; ; ; N ; ; ; 039C ; ; 039C 00B6 ; PILCROW SIGN ; Po ; 0 ; ON ; ; ; ; ; N ; PARAGRAPH SIGN ; ; ; ; 00B7 ; MIDDLE DOT ; Po ; 0 ; ON ; ; ; ; ; N ; ; ; ; ; 00B8 ; CEDILLA ; Sk ; 0 ; ON ; <compat> 0020 0327 ; ; ; ; N ; SPACING CEDILLA ; ; ; ; 00B9 ; SUPERSCRIPT ONE ; No ; 0 ; EN ; <super> 0031 ; ; 1 ; 1 ; N ; SUPERSCRIPT DIGIT ONE ; ; ; ; 00BA ; MASCULINE ORDINAL INDICATOR ; Lo ; 0 ; L ; <super> 006F ; ; ; ; N ; ; ; ; ; 00BB ; RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK ; Pf ; 0 ; ON ; ; ; ; ; Y ; RIGHT POINTING GUILLEMET ; ; ; ; 00BC ; VULGAR FRACTION ONE QUARTER ; No ; 0 ; ON ; <fraction> 0031 2044 0034 ; ; ; 1/4 ; N ; FRACTION ONE QUARTER ; ; ; ; 00BD ; VULGAR FRACTION ONE HALF ; No ; 0 ; ON ; <fraction> 0031 2044 0032 ; ; ; 1/2 ; N ; FRACTION ONE HALF ; ; ; ; 00BE ; VULGAR FRACTION THREE QUARTERS ; No ; 0 ; ON ; <fraction> 0033 2044 0034 ; ; ; 3/4 ; N ; FRACTION THREE QUARTERS ; ; ; ; 00BF ; INVERTED QUESTION MARK ; Po ; 0 ; ON ; ; ; ; ; N ; ; ; ; ; 00C0 ; LATIN CAPITAL LETTER A WITH GRAVE ; Lu ; 0 ; L ; 0041 0300 ; ; ; ; N ; LATIN CAPITAL LETTER A GRAVE ; ; ; 00E0 ; 00C1 ; LATIN CAPITAL LETTER A WITH ACUTE ; Lu ; 0 ; L ; 0041 0301 ; ; ; ; N ; LATIN CAPITAL LETTER A ACUTE ",
+      "oneLineKo": "오픈소스 프로그래밍용 모노스페이스 폰트 Iosevka",
+      "summaryKo": "Iosevka는 코드 작성, 터미널, 기술 문서 작성을 위해 설계된 오픈소스 모노스페이스 겸 준비례(quasi-proportional) 서체 패밀리입니다. 산세리프와 슬랩세리프 스타일을 모두 지원하며, 다양한 굵기와 기울기, 너비(Normal/Extended) 옵션을 제공합니다. 기본적으로 글리프 너비를 좁게 설계해 동일한 화면 너비에서 더 많은 열을 표시할 수 있는 것이 특징입니다. 광범위한 유니코드 문자와 다국어, 스타일리스틱 세트, 리가처 기능을 지원합니다.",
+      "tags": [
+        "font",
+        "open-source",
+        "typography"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35363",
+      "title": "ASML의 수주 호조, AI 투자 붐 둔화 우려 완화",
+      "url": "https://news.hada.io/topic?id=35363",
+      "commentsUrl": "https://news.hada.io/topic?id=35363",
+      "publishedAt": "2026-10-15T04:47:54+09:00",
+      "snippet": "ASML 고객들이 2028년 장비 주문을 대거 넣는 데 이어 2029~2030년 주문에도 관심을 보이면서, AI 투자 붐의 동력이 약해지고 있다는 우려가 완화됨 생산능력 확대 는 기존 계획을 넘어설 전망임. ASML은 2027년과 2028년에 각각 30%씩 늘리기로 했지만, CEO Christ...",
+      "oneLineKo": "ASML 수주 호조로 AI 투자 둔화 우려 완화",
+      "summaryKo": "ASML 고객들이 2028년 장비 주문을 대거 넣고 2029~2030년 주문에도 관심을 보이면서 AI 투자 붐이 약해질 것이라는 우려가 완화되고 있다. 생산능력 확대 규모는 기존 계획을 넘어설 전망이다. ASML은 2027년과 2028년에 각각 생산능력을 30%씩 늘리기로 했으나, CEO는 이를 상회할 수 있다고 언급했다.",
+      "tags": [
+        "asml",
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50093568",
+      "title": "Things to know when you get cancer – 2026 Edition",
+      "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50093568",
+      "publishedAt": "2026-10-14T19:26:30Z",
+      "score": 648,
+      "comments": 172,
+      "snippet": "of the document before the main stylesheets are loaded. --> Things to know if you get cancer (2026 Edition) · JJ Maxwell index Back to top Things to know if you get cancer (2026 Edition) 2026.10.14 I was diagnosed with squamous cell carcinoma in my mouth in May 2026. Here are some things I learned based on that experience so far. You need to be doggedly persistent on scheduling things. Yes this means lots of phone calls. If you get an appointment a few weeks out, call back a few days later and ask for something sooner and see if they have any cancellations. I could only get an appointment 4 weeks out with an ENT (this was before I knew anything was wrong). My wife made me call back and I was able to get in that week due to a cancellation. AIs may downplay the seriousness of things. I was chatting with various models and most pushed me in the direction of “you don’t have cancer” for a while. Just something to note. You may need to push for comprehensive genetic testing. Some doctors were weird about this and didn’t order it promptly, even after telling me they would. My surgeon, who told me he’d get it done, eventually referred me out to an oncologist. This caused a multi-month delay to getting genetic results, since the first results were done on the surgery tumor, not the biopsy tumor. No one cares more about your case than you, so take control and send lots of follow-ups. You can find the “Standard of Care” flow charts for every cancer type. Look and get through this yourself to see what the options are based on how things have progressed. NCCN guidelines . You may need to make an account, which you can do as a non-professional. I like the PDF files. They also have an interactive navigator. Use AI to help you figure out what to pick based on your case. If surgery is recommended, I would try and talk to someone who has undergone the surgery. I did not do this and regret it. Ask them how intense things were, what it felt like, etc. My surgeon talked me through my surgery, but it was a lot rougher on me physically than I expected. Ask the surgeon how many of these surgeries they do a year and what the complication rate is. Get a second opinion as soon as possible, no matter how much you like your plan. This may require a lot of calling and getting on an airplane, but I’d move to schedule it at a top cancer center as soon as you are relatively sure of your diagnosis. Ask for a second read of the pathology at the center where you get the second opinion. I started a new folder on my Mac, and after appointments I’d dictate what happened and what the doctor said and have the AI make a new document summarizing things and asking its own follow-up questions for next time. Nice to be able to refer to this over time. Check out all the resources and materials at the Sijbrandij Foundation . Sid (GitLab cofounder) took matters into his own hands when standard of care ran out. Schedule a call with these guys. They are great and have good materials and questions",
+      "oneLineKo": "암 진단 경험자의 2026년판 실용 조언 모음",
+      "summaryKo": "저자는 2026년 5월 구강 편평세포암을 진단받은 경험을 바탕으로 환자들을 위한 실질적인 조언을 정리했다. 예약은 끈질기게 재확인하고 취소 자리를 노리며, AI 챗봇이 암 가능성을 과소평가할 수 있으니 주의해야 한다고 언급한다. 포괄적 유전자 검사를 의사에게 적극 요구하고, NCCN 표준 치료 가이드라인을 직접 확인하며 AI를 활용해 선택지를 이해할 것을 권한다. 수술 전 경험자와 대화하고 반드시 상급 암센터에서 2차 소견과 병리 재검을 받을 것, AI로 진료 기록을 정리해 추적 관리할 것 등을 제안한다.",
+      "tags": [
+        "healthcare",
+        "ai",
+        "personal-experience"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50088935",
+      "title": "Passkeys are not a trap",
+      "url": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50088935",
+      "publishedAt": "2026-10-14T15:15:45Z",
+      "score": 433,
+      "comments": 611,
+      "snippet": "Passkeys Are Not a Trap Home Speaking Training Media Contact Sponsor 🌙 Subscribe Sponsored by: Report URI - Passkeys protect login, not the session. Monitor what happens after authentication. Passkeys Passkeys Are Not a Trap Scott Helme Security researcher, entrepreneur and international speaker who specialises in web technologies. More posts by Scott Helme. Scott Helme 14 Oct 2026 &bull; 4 min read A post called Passkeys are a trap. Do not use them. has been doing the rounds over the last few days, making it pretty high on Hacker News, and I've had it sent to me many times with an 'is this true?' kind of vibe. It's written for \"non-technical citizens of the web\", and the headline advice is to stop using passkeys and go back to TOTP codes and passwords. The Argument The post makes what appears to be one central claim: Passkeys support something called attestation, which lets a website ask for cryptographic proof of what made the passkey. The author calls this a \"hidden dial\" and argues that sites will slowly turn it up, until you're only allowed to log in with approved software on an approved operating system, with no modifications, no LineageOS and no sharing your Netflix password. Throw in uBlock Origin, the FIDO Alliance membership list and the UK's image-scanning proposals, and the conclusion is that passkeys are \"not designed to prioritize your interests\". <that-escalated-quickly.gif> It's a compelling story. It just doesn't match how any of this actually works... Your Passkeys Don't Attest The passkeys most people use are synced passkeys, stored in iCloud Keychain, Google Password Manager, 1Password, Bitwarden or whatever other software of your choosing. These passkeys don't give websites an attestation statement at all, and though a site can ask, what comes back is none . I know this because I wrote an opensource passkeys library and made it available to everyone. If a consumer website decided tomorrow that it would only accept attested passkeys, it would lock out almost all of its own users, instantly. What website is going to do that? Besides, the guidance for consumer sites has been to not even request attestation for years now. Attestation Isn't What You Think It Is The post describes attestation as proving \"that an approved passkey manager, operating system, and firmware are in use\" which is simply not true. When it is present, WebAuthn attestation tells the site the make and model of the authenticator, identified by its AAGUID , with a certificate chain from the vendor to back it up. It says nothing about your OS, your browser, your extensions, whether your phone is rooted or jailbroken, your firmware version, or even what colour it is. The YubiKey Recommendation This is the part that surprised me the most. For people who want stronger security, the post recommends a hardware security key like a YubiKey, because it \"avoids OS-wide attestation\". YubiKeys are the authenticators that do attestation. Every one of them ships with a Yubic",
+      "oneLineKo": "패스키는 함정 아니다, 어테스테이션 오해 반박",
+      "summaryKo": "최근 'Passkeys are a trap'이라는 글이 화제가 되며 패스키 사용을 중단하고 TOTP나 비밀번호로 돌아가라는 주장이 퍼졌다. 저자는 패스키의 어테스테이션 기능이 웹사이트가 승인된 OS·소프트웨어만 허용하게 만드는 '숨겨진 다이얼'이라 비판했지만, 실제 대부분의 사용자가 쓰는 iCloud Keychain, Google Password Manager 등 동기화 패스키는 어테스테이션 정보를 제공하지 않는다. 또한 어테스테이션은 OS나 브라우저, 루팅 여부가 아니라 인증기기의 제조사·모델 정보만 담고 있어 원 글의 주장과 다르다. 저자는 오히려 어테스테이션을 수행하는 YubiKey를 보안 강화 수단으로 추천한 것이 모순이라고 지적한다.",
+      "tags": [
+        "passkeys",
+        "webauthn",
+        "security"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50050553",
+      "title": "Do dentists know what they're doing?",
+      "url": "https://mapwriting.substack.com/p/dentists",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50050553",
+      "publishedAt": "2026-10-12T02:21:54Z",
+      "score": 351,
+      "comments": 276,
+      "oneLineKo": "치과 치료의 과학적 근거에 대한 의문 제기",
+      "summaryKo": "이 글은 치과 의사들의 진료 관행이 실제로 과학적 근거에 기반하고 있는지에 의문을 제기하는 내용으로 보인다. 제목 외 본문 정보가 제공되지 않아 구체적인 논거나 사례는 확인할 수 없다. Hacker News에 공유된 에세이 형식의 글로 추정된다.",
+      "tags": [
+        "health",
+        "evidence-based-medicine"
+      ]
+    }
+  ]
+}
