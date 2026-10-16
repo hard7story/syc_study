@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=33700",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "news.hada.io/topic?id=33700",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49697014",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "t3_1wdwqje",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wdwqje/your_compiler_can_undo_your_security_checks",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33695",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "news.hada.io/topic?id=33695",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49700661",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "store.steampowered.com/hardware/steamframe",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "t3_1wftm95",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wftm95/homebrew_700_faster_installations_and_upgrades",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33664",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "news.hada.io/topic?id=33664",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49694296",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "xcancel.com",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33705",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "news.hada.io/topic?id=33705",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49695876",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33687",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "news.hada.io/topic?id=33687",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49670852",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "threebodyorbits.com",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33676",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "news.hada.io/topic?id=33676",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49701004",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49686380",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "news.ycombinator.com/item?id=49686380",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49700477",
-    "date": "2026-09-15"
-  },
-  {
-    "id": "andonlabs.com/blog/why-we-built-pion",
-    "date": "2026-09-15"
-  },
-  {
     "id": "https://news.hada.io/topic?id=33740",
     "date": "2026-09-16"
   },
@@ -3502,5 +3374,125 @@
   {
     "id": "mapwriting.substack.com/p/dentists",
     "date": "2026-10-15"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35430",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "news.hada.io/topic?id=35430",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50104654",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "t3_1x5spis",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x5spis/anthropic_designs_new_inhouse_monorepo_source",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35409",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "news.hada.io/topic?id=35409",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50104299",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "t3_1x5uh6j",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x5uh6j/where_do_you_go_for_help_when_youre_stuck_now",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35381",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "news.hada.io/topic?id=35381",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50103338",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "github.com/fyzugx/DEsk",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35389",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "news.hada.io/topic?id=35389",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50105647",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "already-clean.goodfire.com",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35378",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "news.hada.io/topic?id=35378",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50101813",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35437",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "news.hada.io/topic?id=35437",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50103630",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "derekthompson.org/p/i-know-why-the-mathematicians-weep",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50105635",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher",
+    "date": "2026-10-16"
   }
 ]

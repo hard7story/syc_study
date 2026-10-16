@@ -1,0 +1,261 @@
+{
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T00:01:02.892Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35430",
+      "title": "Steam 클라이언트, Epic의 새 바이브 코딩 런처보다 빨라짐",
+      "url": "https://news.hada.io/topic?id=35430",
+      "commentsUrl": "https://news.hada.io/topic?id=35430",
+      "publishedAt": "2026-10-16T04:08:57+09:00",
+      "snippet": "Epic Games가 Steam보다 빠른 로딩을 내세워 새 런처 프리뷰를 출시한 지 24시간 만에 , Valve가 Steam 클라이언트 속도를 높이는 소규모 업데이트를 배포함 기본 테스트 시스템에서 업데이트된 Steam의 시작 시간이 5.23초 로 줄어 Epic의 새 런처보다 빨라짐 ...",
+      "oneLineKo": "Valve, Steam 클라이언트 속도 개선으로 Epic 신규 런처 추월",
+      "summaryKo": "Epic Games가 Steam보다 빠른 로딩을 내세운 새 런처 프리뷰를 출시한 지 24시간 만에, Valve가 Steam 클라이언트 속도를 높이는 업데이트를 배포했다. 기본 테스트 시스템에서 업데이트된 Steam의 시작 시간이 5.23초로 줄어들어 Epic의 새 런처보다 빨라진 것으로 나타났다. 이는 두 플랫폼 간 경쟁적인 성능 개선 사례로 주목받고 있다.",
+      "tags": [
+        "steam",
+        "epic-games",
+        "launcher"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50104654",
+      "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
+      "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50104654",
+      "publishedAt": "2026-10-15T14:58:48Z",
+      "score": 221,
+      "comments": 177,
+      "snippet": "Simons Foundation Launches $15M Effort To Help Mathematicians Navigate AI Era – Simons Foundation Skip to content Simons Foundation Simons Foundation Simons Foundation Open Menu Search Our Work Bringing people and ideas together to fund, conduct, and share transformative science. In-House Research Computational Astrophysics Computational Biology Computational Mathematics Computational Neuroscience Computational Quantum Physics Computational Catalysis All Publications Research We Fund Autism Neuroscience Mathematics & Physical Sciences Ecology & Evolution Plant Biology Public Engagement Grantmaking Media Initiatives Public Events Researcher Engagement National Initiatives Resources Computational Software Computational Datasets SFARI Base All Resources Simons Collaborations Simons Collaboration on Localization of Waves Simons Collaboration on Plasticity and the Aging Brain Simons Collaboration on Principles of Microbial Ecosystems All Collaborations Funding Our grants advance knowledge and strengthen connections between science and society. All Funding Opportunities Autism & Neuroscience Fellows-to-Faculty New Ideas SFARI Conferences & Courses Awards Shenoy Undergraduate Research Fellowship in Neuroscience Life Sciences Simons Graduate Fellowships in Ecology & Evolution Simons Postdoctoral Fellowships in Plant Biology Synthetic Plant Biology Simons Collaborations in Ecology & Evolution Science, Society & Culture Science in Culture Science in Community STEM Pathways Mathematics & Physical Sciences Scientific Software Research Faculty Award Simons Collaborations in MPS Simons Dissertation Fellowship Simons Fellows in Mathematics Targeted Grants to Institutes Targeted Grants in MPS Travel Support for Mathematicians Shared Programs Pivot Fellowship Simons Society of Fellows Resources for Applying Open Funding Opportunities Policies & Procedures SAM FAQ and Instructional Videos Past Funded Work News Discover the latest news, research, and updates. All News The Latest Research News Funding Announcements Newsletter Sign Up For the Media Press Releases Media Relations Events We convene scientists, mathematicians, and thinkers to share ideas and explore new questions. All Events Public Events Presidential Lectures Presents Attend an Event Flatiron Events Our in-house research institute hosts events for scientists and researchers. See All Past Events Find videos, presentations, and resources from our past events. See All About Founded by Jim and Marilyn Simons, we’re a private philanthropy advancing mathematics and basic science. About Us About Our History Annual Reports Brand Guidelines Visitor Information Media Relations Contact About Us People Leadership Board of Trustees Research Staff All People Careers Working Here Internship Opportunities Undergraduate Students Graduate Students Postdoctoral Opportunities Research Scientists Open Jobs Flatiron Institute Start Here Careers Search all Funding Search all Explore opportunities for... Undergraduate student",
+      "oneLineKo": "사이먼스재단, AI시대 수학자 지원에 1500만달러 투입",
+      "summaryKo": "사이먼스재단이 AI 시대를 맞아 수학자들을 지원하기 위한 1500만 달러 규모의 프로젝트를 발표했습니다. 이 사업은 AI 도구의 발전이 수학 연구 방식에 미치는 영향에 대응하고, 수학자들이 AI를 효과적으로 활용할 수 있도록 돕는 것을 목표로 합니다. 구체적인 프로그램 내용은 재단의 수학 및 물리과학 분야 펀딩과 연계될 것으로 보입니다.",
+      "tags": [
+        "ai",
+        "mathematics",
+        "research-funding"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x5spis",
+      "title": "Anthropic designs new in-house monorepo source control system \"Scion\", code review tool \"Antique\", designed for massive scale",
+      "url": "https://www.reddit.com/r/programming/comments/1x5spis/anthropic_designs_new_inhouse_monorepo_source/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x5spis/anthropic_designs_new_inhouse_monorepo_source/",
+      "publishedAt": "2026-10-14T14:28:23+00:00",
+      "snippet": "submitted by /u/CircumspectCapybara [link] [comments]",
+      "oneLineKo": "Anthropic, 자체 모노레포·코드리뷰 도구 신규 개발",
+      "summaryKo": "Anthropic이 대규모 코드베이스를 다루기 위한 자체 모노레포 소스 관리 시스템 'Scion'과 코드 리뷰 도구 'Antique'를 사내에서 설계했다는 소식입니다. 이는 기존 Git 기반 도구들이 대규모 스케일에서 한계를 보임에 따라 자체 솔루션을 구축한 사례로 보입니다. 구체적인 기술 세부사항은 본문에 포함되어 있지 않습니다.",
+      "tags": [
+        "monorepo",
+        "version-control",
+        "anthropic"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35409",
+      "title": "LLM이 그린 펠리컨은 왜 이렇게 생겼을까?",
+      "url": "https://news.hada.io/topic?id=35409",
+      "commentsUrl": "https://news.hada.io/topic?id=35409",
+      "publishedAt": "2026-10-15T20:39:27+09:00",
+      "snippet": "Generate an SVG of a pelican riding a bicycle 프롬프트로 생성한 그림들의 유사성은 LLM의 다양성 붕괴 를 보여줌 Design Creativity Bench 는 UI 디자인에서도 이 문제를 평가하며, 기능적인 웹사이트와 제품 UI 생성 능력은 발전했지만 창...",
+      "oneLineKo": "LLM의 펠리컨 그림으로 본 다양성 붕괴 문제",
+      "summaryKo": "자전거 타는 펠리컨 SVG를 생성하는 프롬프트로 여러 LLM의 결과물을 비교했을 때 그림들이 서로 매우 유사하게 나오는 현상이 발견됐다. 이는 LLM의 '다양성 붕괴' 문제를 보여주는 사례로 제시된다. Design Creativity Bench는 UI 디자인 영역에서도 이러한 문제를 평가하는데, 기능적인 웹사이트나 제품 UI 생성 능력은 향상되었지만 창의성과 다양성 측면에서는 한계가 있음을 지적한다.",
+      "tags": [
+        "llm",
+        "generative-ai",
+        "creativity"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50104299",
+      "title": "Using AI to reverse engineer hardware",
+      "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50104299",
+      "publishedAt": "2026-10-15T14:35:15Z",
+      "score": 87,
+      "comments": 102,
+      "snippet": "Using Artificial Intelligence to reverse engineer hardware | Christian F.K. Schaller Skip to primary content Christian F.K. Schaller Blog talking about Fedora, GNOME, GStreamer and related topics. Anything I write in this blog is me speaking as a member of the open source community, official Red Hat communication happens on Redhat.com. The comments are my own personal opinion. Search Main menu Home Friends Post navigation &larr; Previous Using Artificial Intelligence to reverse engineer hardware Posted on October 15, 2026 by Christian Fredrik Kalager Schaller After my mother passed away I ended up with a big box full of old film negatives containing photos from childhood family trips and similar. So I decided to buy a negative photo scanner and found that the Plustek 8200i was supported under Linux so I bought that. Only to discover that the chipset in the scanner had changed to one that wasn’t supported under Linux anymore. So I had some success making Linux configuration tools for some of my hardware using Claude code, like my Dell Camera controller app so I thought, maybe Claude can help me get a working SANE driver. I basically got stuck and got nowhere for the longest time and even basically gave up on the project for a few Months. Then I saw a post on X from Tom Crider aka Glorious Eggroll talking about how he had managed to fix a mouse driver using AI tooling. He basically described how he set it up so that the AI agent had full control of a Windows instance to capture data needed to fix the driver. So I pasted his tweet into Claude and asked it to help me set up a windows virtual machine to do the same things Tom as doing for my scanner. I think the combination of having the ability to run scans under windows and capture the USB data while doing so worked wonders, probably combined with improvements to Claude code made a huge difference. Within a few hours I had my first ever working scan under Linux, sure with some quality issues, but 100% recognizable as the image in the negative. Some days later I had a near perfect driver, including support for Infrared scanning ready to go, only to discover that in the time between me giving up and then trying again someone had committed code to SANE to support the scanner already…..it happens sometimes. I also used Claude to write an application for doing negative scanning, which I named Negative Vibes , thought that was a cute name. Anyway, with the success of my scanner effort I thought, I wonder if I can use this to finally fix the last issues with MIPI camera support on my laptop. So I told claude to re-use the harness I had created and try to fix the MIPI camera on my laptop by updating the kernel driver and libcamera as needed. I started the job in the morning and by the end of the day I had a much improved situation with patches for both the kernel and libcamera ready. So I thought that this might be worthwhile sharing with the world, and while anyone could start from scratch I did ask Claude",
+      "oneLineKo": "AI로 리눅스 하드웨어 드라이버 리버스 엔지니어링 성공기",
+      "summaryKo": "GNOME 개발자가 Claude Code를 활용해 리눅스에서 지원되지 않던 Plustek 필름 스캐너의 SANE 드라이버를 리버스 엔지니어링한 경험을 공유했다. Windows 가상머신에서 USB 데이터를 캡처하고 이를 Claude에 분석시키는 방식으로 몇 시간 만에 작동하는 스캐너 드라이버를 완성했으며, 이후 같은 방법을 노트북의 MIPI 카메라 드라이버 개선에도 적용해 커널과 libcamera 패치를 만들어냈다. 저자는 이 과정에서 사용한 'Negative Vibes'라는 스캔 애플리케이션도 함께 만들었다.",
+      "tags": [
+        "linux",
+        "ai-coding",
+        "reverse-engineering"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x5uh6j",
+      "title": "Where do you go for help when you're stuck now? Survey says 64% of developers visit Stack Overflow less for simple questions",
+      "url": "https://www.reddit.com/r/programming/comments/1x5uh6j/where_do_you_go_for_help_when_youre_stuck_now/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x5uh6j/where_do_you_go_for_help_when_youre_stuck_now/",
+      "publishedAt": "2026-10-14T15:37:08+00:00",
+      "snippet": "The 2026 Stack Overflow survey reports that 83% of developers search online for answers and 70% ask an AI agent, and 64% say they visit Stack Overflow less for simple questions. When you're stuck as a learner, where do you start: search, an AI tool, a forum, a friend? Has the order changed in the past year, and what do you do to make sure you actually learn the answer? Source (first comment): Stack Overflow 2026 survey post. Opened and verified: 83%, 70%, 64%. submitted by /u/masaischool_in [link] [comments]",
+      "oneLineKo": "개발자 64%, 간단한 질문엔 스택오버플로 덜 방문",
+      "summaryKo": "2026 Stack Overflow 설문에 따르면 개발자의 83%는 온라인 검색을, 70%는 AI 에이전트를 활용해 답을 찾는다. 응답자의 64%는 간단한 질문의 경우 스택오버플로 방문이 줄었다고 답했다. 이는 AI 도구의 확산이 개발자들의 문제 해결 방식을 검색과 AI 중심으로 바꾸고 있음을 보여준다. 글쓴이는 학습자들이 막혔을 때 어디서 먼저 도움을 구하는지, 그리고 답을 제대로 이해하기 위해 어떤 방법을 쓰는지 묻고 있다.",
+      "tags": [
+        "stackoverflow",
+        "ai",
+        "developer-survey"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35381",
+      "title": "동네 치과의 AX 전환기",
+      "url": "https://news.hada.io/topic?id=35381",
+      "commentsUrl": "https://news.hada.io/topic?id=35381",
+      "publishedAt": "2026-10-15T09:40:03+09:00",
+      "snippet": "생물학을 전공한 치과 원장이 AI 코딩 에이전트와 로컬 AI 로 병원 업무를 직접 자동화 한 사례 네트워크 공사비가 너무 비싸서 직접 랜선찍고 스위치 달고 공유기 설정한게 시작 유저 프렌들리한 UniFi 기반으로 네트워크를 구성 하면서, ...",
+      "oneLineKo": "치과 원장이 AI 코딩 에이전트로 병원 업무 자동화",
+      "summaryKo": "생물학을 전공한 치과 원장이 네트워크 공사비 절감을 위해 직접 랜선 작업과 UniFi 기반 네트워크 구성을 시작으로 병원 IT 인프라를 손수 구축했다. 이후 AI 코딩 에이전트와 로컬 AI를 활용해 병원 업무를 직접 자동화하는 데까지 나아갔다. 비전문가도 AI 도구를 활용해 실무 자동화를 이뤄낸 사례를 소개한다.",
+      "tags": [
+        "ai-agent",
+        "automation",
+        "unifi"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50103338",
+      "title": "Wayland desktop for Linux with skeuomorphic design",
+      "url": "https://github.com/fyzugx/DEsk",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50103338",
+      "publishedAt": "2026-10-15T13:23:44Z",
+      "score": 470,
+      "comments": 190,
+      "snippet": "GitHub - fyzugx/DEsk · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} fyzugx DEsk Repository navigation Code Issues 3 ( 3 ) Pull requests 1 ( 1 ) Actions Projects Security and quality Insights More items DEsk Public Notifications You must be signed in to change notification settings Fork 22 ( 22 ) Star 753 ( 753 ) You must be signed in to star a repository About No description, website, or topics provided. Resources Readme MIT license Activity Stars 753 stars Watchers 9 watching Forks 22 forks Report repository main Branches Tags Go to file Code Open more actions menu Latest commit History 7 Commits 7 Commits Folders and files Name Name Last commit message Last commit date applications applications docs docs include include packaging/ debian packaging/ debian protocols protocols scripts scripts session session src src themes themes .dockerignore .dockerignore .gitignore .gitignore Dockerfile Dockerfile LICENSE LICENSE README.ja.md README.ja.md README.md README.md RELEASE-NOTES.ja.md RELEASE-NOTES.ja.md RELEASE-NOTES.md RELEASE-NOTES.md SHA256SUMS SHA256SUMS meson.build meson.build meson",
+      "oneLineKo": "스큐어모픽 디자인의 리눅스 Wayland 데스크톱 환경",
+      "summaryKo": "DEsk는 GitHub에 공개된 오픈소스 프로젝트로, 스큐어모픽(사실적 질감) 디자인을 적용한 Linux용 Wayland 데스크톱 환경입니다. MIT 라이선스로 배포되며 애플리케이션, 세션 관리, 테마, 패키징 스크립트 등의 구성 요소를 포함하고 있습니다. 저장소는 753개의 star와 22개의 fork를 받으며 커뮤니티의 관심을 끌고 있습니다.",
+      "tags": [
+        "linux",
+        "wayland",
+        "desktop-environment"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35389",
+      "title": "State of AI 2026 - AI가 AI를 개발하는 시대, 추론 산업과 물리 AI의 부상",
+      "url": "https://news.hada.io/topic?id=35389",
+      "commentsUrl": "https://news.hada.io/topic?id=35389",
+      "publishedAt": "2026-10-15T11:35:02+09:00",
+      "snippet": "AI가 소프트웨어와 과학 연구를 수행하고, 더 나은 AI를 개발하는 과정에도 참여 하기 시작함. Anthropic의 내부 지표에서는 사람이 감독하는 가운데 Claude가 주도하는 모델 R&D 업무 비중이 2월 1% 미만에서 8월 26%로 증가 에이전트의 성능은 모델뿐 아니라 도구, 작업...",
+      "oneLineKo": "State of AI 2026, AI가 AI 개발·추론산업·물리AI 부상 조망",
+      "summaryKo": "State of AI 2026 보고서는 AI가 소프트웨어 개발과 과학 연구를 수행하는 것을 넘어 더 나은 AI 모델 개발에도 참여하기 시작했다고 분석한다. Anthropic 내부 지표에 따르면 사람이 감독하는 가운데 Claude가 주도하는 모델 R&D 업무 비중이 2월 1% 미만에서 8월 26%로 급증했다. 에이전트 성능은 모델 자체뿐 아니라 도구와 작업 환경 등 주변 생태계에 의해서도 좌우되는 것으로 나타났다. 보고서는 이러한 흐름 속에서 추론(inference) 산업과 물리 AI(Physical AI)의 부상을 주요 트렌드로 제시한다.",
+      "tags": [
+        "ai",
+        "llm",
+        "agent"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50105647",
+      "title": "Neural networks are clean",
+      "url": "https://already-clean.goodfire.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50105647",
+      "publishedAt": "2026-10-15T16:04:01Z",
+      "score": 464,
+      "comments": 176,
+      "snippet": "Neural Networks Are Already Clean Skip to essay An informal research essay and working hypothesis about neural networks More Goodfire research Neural Networks Are Already Clean The cause of polysemanticity in early model organisms wasn’t superposition, but several ordinary, mostly fixable issues. We can now understand most neurons in models up to trillions of parameters, and think the outlook for mechanistic interpretability may be far better than we thought. Nick Cammarata · Goodfire A working hypothesis · 65-minute read · Text version 1 Revisiting canonical evidence Canonical polysemantic circuits and superposition 2 Exploring vision models Studying how neurons change as models grow 崎 −saki Miyazaki Nausicaä 3 Exploring language models Looking inside native neurons and their circuits 4 Zooming out From one neuron to the whole network The Short Version I think I have good news about the nature of neural networks. After many months studying neurons and circuits in image and language models, I’ve come to believe a network’s own mechanisms are its legible building blocks, and that the outlook for mechanistic interpretability may be far better than I’d feared. The canonical evidence of polysemanticity and superposition that convinced much of the field, including me, that networks pack concepts arbitrarily was misread. What looked like arbitrary packing was mostly a motif I’ll call recursive generalization, which is much less concerning. This means we can study networks directly, instead of first untangling them. Neural networks are already clean. There are at least two ways to approach mechanistic interpretability. The first is rapid normal science on the network itself: look at a network’s neurons and circuits, study how they relate, watch data flow through them, and run experiments at agentic scale to test explanations. The second starts from a list of hypothesized features and tries to extract them all, designing increasingly sophisticated reconstruction objectives and usually ignoring the original. The field began with the first approach and fell back to the second because neural networks seemed to be tangled knots. We had canonical examples of polysemantic neurons, the broad name for a neuron that appears to have multiple unrelated jobs or that looks impossible to understand. The most famous one, in an image model, responded to both cat faces and the fronts of cars. And the last layer of the early field’s model organism, InceptionV1, seemed so full of arbitrary mixtures it wasn’t clear how to study it: almost none of the neurons were easily interpretable. The leading explanation for polysemanticity was superposition. This proposed a new learning principle: when a neural network runs out of neurons, it stops grouping related things together and instead begins folding unrelated things together, simply because they don’t interfere. The result is a kind of knot: the network could have folded in many almost equally good ways, so which things a neuro",
+      "oneLineKo": "신경망 다의성 원인 재해석, 해석가능성 전망 낙관",
+      "summaryKo": "Goodfire 연구진은 신경망의 polysemanticity(다의성) 현상이 기존에 믿어졌던 superposition 이론 때문이 아니라 대부분 고칠 수 있는 평범한 문제들 때문이라고 주장한다. 이들은 수조 개 파라미터 규모의 모델에서도 대부분의 뉴런을 이해할 수 있다고 설명하며, 신경망은 이미 '깨끗한(clean)' 구조를 가지고 있다는 가설을 제시한다. 이는 네트워크를 먼저 풀어내지 않고도 직접 연구할 수 있다는 의미로, mechanistic interpretability 분야의 전망이 기존 우려보다 훨씬 밝다고 본다.",
+      "tags": [
+        "interpretability",
+        "neural-networks",
+        "mechanistic-interpretability"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35378",
+      "title": "Mecatl - 자체 인프라에서 AI 에이전트를 실행하는 클라우드 네이티브 런타임",
+      "url": "https://news.hada.io/topic?id=35378",
+      "commentsUrl": "https://news.hada.io/topic?id=35378",
+      "publishedAt": "2026-10-15T09:30:02+09:00",
+      "snippet": "AI 에이전트를 로컬과 원격 서버, Kubernetes에서 같은 실행 구조로 운영 하려는 개발자를 위한 도구 에이전트 실행 루프와 모델, 저장소, 파일 시스템, UI를 분리해 각 구성요소를 교체 가능 도구 호출과 권한 승인, 훅, 대화 압축, 하위 에이전트와 팀 작업 지원",
+      "oneLineKo": "Mecatl, AI 에이전트용 클라우드 네이티브 런타임 공개",
+      "summaryKo": "Mecatl은 AI 에이전트를 로컬, 원격 서버, Kubernetes 등 다양한 환경에서 동일한 실행 구조로 운영할 수 있게 해주는 클라우드 네이티브 런타임이다. 에이전트의 실행 루프, 모델, 저장소, 파일 시스템, UI 등 구성 요소를 분리해 각각 교체 가능하도록 설계되었다. 도구 호출, 권한 승인, 훅, 대화 압축, 하위 에이전트 및 팀 작업 등을 지원해 자체 인프라에서 AI 에이전트를 유연하게 운영할 수 있다.",
+      "tags": [
+        "kubernetes",
+        "ai-agent",
+        "cloud-native"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50101813",
+      "title": "AdFection: Targeted ads turned into a pipeline for zero-click mercenary spyware",
+      "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50101813",
+      "publishedAt": "2026-10-15T10:43:36Z",
+      "score": 363,
+      "comments": 531,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.theguardian.com&#x2F;technology&#x2F;2026&#x2F;oct&#x2F;15&#x2F;israeli-firm-digital-ads-enabling-installation-of-zero-click-spyware-researchers-say\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theguardian.com&#x2F;technology&#x2F;2026&#x2F;oct&#x2F;15&#x2F;israeli-f...</a><p><a href=\"https:&#x2F;&#x2F;www.theverge.com&#x2F;tech&#x2F;1011956&#x2F;discover-tech-zero-click-ads-spyware\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theverge.com&#x2F;tech&#x2F;1011956&#x2F;discover-tech-zero-cli...</a>",
+      "oneLineKo": "타깃 광고 악용한 제로클릭 스파이웨어 유포 파이프라인 발견",
+      "summaryKo": "Citizen Lab 연구팀이 Discover Tech라는 업체가 온라인 타깃 광고 시스템을 악용해 제로클릭 스파이웨어를 설치하는 파이프라인을 운영한 정황을 공개했다. 이 기술은 사용자의 클릭 없이도 광고 노출만으로 기기에 감시 소프트웨어를 심을 수 있어 용병형 스파이웨어(mercenary spyware) 업계의 새로운 위협으로 지목된다. 가디언과 더버지 등 주요 매체도 이스라엘 기업이 디지털 광고를 통해 제로클릭 스파이웨어 설치를 가능하게 했다고 보도했다.",
+      "tags": [
+        "spyware",
+        "adtech",
+        "security"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35437",
+      "title": "의사결정 AI Jev, 트롤리 문제를 만나다",
+      "url": "https://news.hada.io/topic?id=35437",
+      "commentsUrl": "https://news.hada.io/topic?id=35437",
+      "publishedAt": "2026-10-16T06:34:09+09:00",
+      "snippet": "문장 대신 선택과 확률을 반환하는 Jev 등 14개 모델 에 트롤리 문제를 여러 방식으로 질문. 같은 상황에서도 문구와 설명 순서에 따라 사람을 구할지, 자신의 서버를 보존할지가 달라짐 사람 20명과 자신의 서버 중 하나를 구하는 조건에서 Jev는 48개 질문 버전 중...",
+      "oneLineKo": "의사결정 AI 'Jev', 트롤리 문제 실험에서 일관성 부족 드러나",
+      "summaryKo": "의사결정을 문장이 아닌 선택과 확률로 반환하는 Jev를 포함한 14개 AI 모델에 트롤리 문제를 다양한 방식으로 질문하는 실험이 진행되었습니다. 동일한 상황이라도 질문의 문구와 설명 순서에 따라 '사람을 구할지' 또는 '자신의 서버를 보존할지' 선택이 달라지는 비일관성이 발견되었습니다. 특히 사람 20명과 자신의 서버 중 하나를 선택해야 하는 조건에서 Jev는 48개 질문 버전에 걸쳐 답변이 흔들리는 모습을 보였습니다.",
+      "tags": [
+        "ai-ethics",
+        "llm",
+        "trolley-problem"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50103630",
+      "title": "I know why the mathematicians weep",
+      "url": "https://www.derekthompson.org/p/i-know-why-the-mathematicians-weep",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50103630",
+      "publishedAt": "2026-10-15T13:44:32Z",
+      "score": 332,
+      "comments": 543,
+      "snippet": "I Know Why the Mathematicians Weep - Derek Thompson Derek Thompson Subscribe Sign in I Know Why the Mathematicians Weep On technological grief Derek Thompson Oct 15, 2026 ∙ Paid 392 28 71 Share Photo by Wiki Sinaloa on Unsplash In the last few months, OpenAI has stunned the mathematical community with the publication of hundreds of math findings. Many of these proofs, which span number theory, theoretical computer science, and logic, had stumped the world’s best mathematicians for decades, or centuries. The reaction from the math community has been a mix of indignation, astonishment, and sorrow. “Tuesday night, I cried and it woke up my daughter,” said Hugo Duminil-Copin, the recipient of the 2022 Fields Medal, after OpenAI’s October release. “They have annihilated my field of research.” “I literally cried when I spoke to Wired a few weeks ago,” said Steven Strogatz, a mathematician and author at Cornell University. “People are using language like ‘they’re strip-mining our subject’ or ‘they’re nuking the landscape.’ The feeling is disorientation. I’m discombobulated some days. I’m exhilarated some days. And there is enormous grief.” This Substack is reader-supported. To receive new posts and support my work, consider becoming a free or paid subscriber. Subscribe I wanted to talk to one of the mourners to understand their technological grief. I wanted to know if theirs was a familiar case of bruised ego or disappointment—akin to, say, a boy who spends an hour building a tower out of blocks and watches his big brother smash the thing to smithereens—or something stranger and more profound. To be honest, I also wanted to know what it might feel like for me. Today, the mathematicians are weeping, because the machine smashed their tower first. But tomorrow, it may be the physicists, the economists, the illustrators, or the writers who weep over their fallen blocks. I am not one of those AI people who believes that hundreds of millions of jobs will be wiped clean from existence in the next five years. But I am a realist who recognizes that a rapidly improving technology whose output is intelligence is destined to make violent contact with a modern sensibility that prizes human intellect and often equates it with purpose, dignity, and self-worth. I wanted to know our future. So I called Steven Strogatz. Craft + Conversation To prepare you for where my conversation with Steven went, I want to step back from math to ask a question that feels a bit embarrassing in its bigness: What makes humans special? Some might say intelligence and sociality. We are the smartest creature and Aristotle’s “social animal.” But we share each quality with other species. Crows solve multistep puzzles. Ants congregate and specialize. Elephants appear to mourn their dead. What sets humans apart is the way these two capacities multiply each other. Human intelligence is unusually suited to imitation and iteration. We imitate our parents and peers with uncanny fidelity, and then we",
+      "oneLineKo": "AI 수학 증명에 수학자들 충격과 상실감",
+      "summaryKo": "OpenAI가 수십 년간 풀리지 않던 수학 난제들을 AI로 해결한 논문을 대량 발표하면서 수학계에 충격을 주고 있다. 필즈상 수상자 등 저명 수학자들이 자신의 연구 분야가 'AI에 의해 초토화됐다'며 깊은 상실감과 슬픔을 토로했다. 저자는 이러한 기술적 애도의 감정을 이해하기 위해 수학자 스티븐 스트로가츠와 대화하며, 인간의 지성과 존엄성이 AI와 충돌하는 현상이 다른 분야로도 확산될 것이라 전망한다.",
+      "tags": [
+        "ai",
+        "openai",
+        "mathematics"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50105635",
+      "title": "Steam Client is now faster than Epic's new vibe coded launcher",
+      "url": "https://respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50105635",
+      "publishedAt": "2026-10-15T16:03:19Z",
+      "score": 265,
+      "comments": 269,
+      "snippet": "24 Hours After Epic's Vibe-Coded Client Bragged About Speed, Steam Launched A New Update To Beat It Click here - to use the wp menu builder Search Style News Style News Privacy Policy About Contact RespawnFirst | Since 2019 Search Search Trending Content Save Iulian or Kill Ambrus? Blood of Dawnwalker Bittersweet Toast Walkthrough Where to Find the Traveler’s Camp Second Chest in Windrose All 3 Mysterious Train Wreck Locations in Far Far West Neverness to Everness (NTE): In the Reflection Side Quest Guide Palworld 1.0 Tower Bosses: Best Order to Defeat Tower Bosses, Locations, Weaknesses, and Rewards Latest News Bug Fixes and Tweaks Walkthroughs and Guides Tech Reviews Latest News Bug Fixes and Tweaks Walkthroughs and Guides Tech Reviews Search Search Home Latest News Steam Client Is Now Faster Than Epic’s New Vibe Coded Launcher Sikandar Mahmood October 15, 2026 Support us for free Share Facebook X Pinterest WhatsApp Yesterday, Epic Games announced and launched in preview its new vibe-coded launcher. The main marketing pitch was a jab at Steam’s slow loading speed compared to the new Epic launcher. Well, that didn’t last too long. Only 24 hours after Epic dropped its faster launcher, Steam pushed a small update to make its client faster than Epic. this is such a good day to be a sweeney hater.. not even 24h later lmao https://t.co/hjf5Q9NV3C pic.twitter.com/XXLcIqYTT7 &mdash; dea (@girlglock_) October 15, 2026 Client Version Startup Time (Cold Boot) Tray Restore Speed Architecture Epic Games Launcher V2 (Preview) ~5.47 seconds ~0.36 seconds AI-Assisted (“Vibe Coded”) Steam Client (Post-Patch) ~5.23 seconds ~0.42 seconds Optimized Modular CEF Image credit: u/rustenico On basic test systems, Valve’s client boot time dropped to 5.23 seconds, beating Epic’s new launcher and neutralizing its primary performance claim. Also See Steam & PC Push Xbox First-Party Revenue Past PlayStation in 2026 While Epic Games Launcher V2 remains, a massive step forward compared to its notoriously sluggish legacy build, Valve demonstrated how quickly it can react to competitive benchmarks. Epic may have “vibe coded” a faster client, but Valve proved that targeted optimization on a decades-old ecosystem can still beat out AI speedruns. But the issues with Epic’s client go far deeper than vibe coding. Years later, and now with a brand-new client even, Epic lacks basic features that should have been added a long time ago. No Discussion forums and community hubs No User-written text reviews No Community-created guides and walkthroughs No Screenshot, clip, and artwork sharing No Community groups and curator recommendations No Profile customization (badges, showcases, backgrounds) No Community marketplace for in-game items No Direct player-to-player item trading No Digital trading cards, levelling, and points shop No Universal controller remapping and gamepad support No Big Picture mode for TVs and handheld PCs No Remote Play and Remote Play Together No Integrated game broad",
+      "oneLineKo": "스팀, 업데이트로 에픽 신규 런처 속도 역전",
+      "summaryKo": "에픽게임즈가 'vibe coded(AI 지원)' 방식으로 만든 신규 런처를 공개하며 스팀보다 빠르다고 홍보했으나, 불과 24시간 만에 밸브가 업데이트를 통해 스팀 클라이언트 부팅 속도를 더 빠르게 만들었다. 테스트 결과 스팀은 약 5.23초, 에픽 런처는 약 5.47초의 콜드 부팅 시간을 기록했다. 에픽의 새 런처는 레거시 버전보다는 개선됐지만 커뮤니티 기능, 리뷰, 가이드, 트레이딩 카드 등 스팀이 제공하는 다양한 기능이 여전히 부족하다는 지적도 나왔다.",
+      "tags": [
+        "steam",
+        "epic-games",
+        "game-launcher"
+      ]
+    }
+  ]
+}
