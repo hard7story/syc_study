@@ -1,117 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=33792",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "news.hada.io/topic?id=33792",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49723408",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "mistral.ai/news/mistral-x-mozilla",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33774",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "news.hada.io/topic?id=33774",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49726586",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "wired.com/story/hackers-flock-camera-data-shows-how-system-works",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33766",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "news.hada.io/topic?id=33766",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49729000",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "will-keleher.com/posts/small-programming-tricks-matter",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33794",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "news.hada.io/topic?id=33794",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49731285",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "rohanbansal.com/qorl",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33796",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "news.hada.io/topic?id=33796",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49732270",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "mimo.xiaomi.com/rl",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33806",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "news.hada.io/topic?id=33806",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49726955",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "arxiv.org/abs/2609.14858",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49719249",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "wsj.com/world/middle-east/aws-says-it-cant-restore-some-data-from-mideast-facilities-struck-by-iran-ddcb7e5d",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49731054",
-    "date": "2026-09-17"
-  },
-  {
-    "id": "opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html",
-    "date": "2026-09-17"
-  },
-  {
     "id": "https://news.hada.io/topic?id=33853",
     "date": "2026-09-18"
   },
@@ -3494,5 +3382,133 @@
   {
     "id": "waymo.com/blog/2026/10/waymo-in-toronto",
     "date": "2026-10-17"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35529",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=35529",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50127979",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "llmspeed.dev",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "t3_1x8eqt6",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x8eqt6/pythons_binary_wheels_and_supply_chain_attacks",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35507",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=35507",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50133401",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "twitter.com/opencode/status/2111516673953935833",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "t3_1x8fvz1",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x8fvz1/much_ado_about_seven_bytes",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35547",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=35547",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50122878",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "alexwang.ai/posts/associative-memory",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35543",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=35543",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50131256",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35531",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=35531",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50126253",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "nature.com/articles/d41586-026-03266-x",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35530",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=35530",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50131213",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50100994",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "furifont.antfu.me",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50132870",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "numismaticnews.net/gold-now-top-u-s-export",
+    "date": "2026-10-18"
   }
 ]
