@@ -1,0 +1,278 @@
+{
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T00:04:30.405Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35495",
+      "title": "Claude Code 팀의 코드 리뷰 방식",
+      "url": "https://news.hada.io/topic?id=35495",
+      "commentsUrl": "https://news.hada.io/topic?id=35495",
+      "publishedAt": "2026-10-17T07:36:23+09:00",
+      "snippet": "Claude가 자체 코드의 약 90%를 작성 하는 Claude Code 팀은 코드 읽기의 대부분을 자동화하고, 사람은 위험 판단과 결과 책임에 집중하도록 리뷰 과정을 바꿈 목표는 대부분의 PR을 작성자를 포함한 사람 최대 1명 의 관여로 병합하되, 되돌리기와 사고를 늘리지 않...",
+      "oneLineKo": "Claude Code팀, AI 중심 코드 리뷰 체계로 전환",
+      "summaryKo": "Claude가 자체 코드의 약 90%를 작성하는 Claude Code 팀은 코드 읽기 작업 대부분을 자동화하고, 사람은 위험 판단과 결과 책임에 집중하도록 리뷰 프로세스를 개편했다. 목표는 대부분의 PR을 작성자 포함 최대 1명의 사람 개입만으로 병합하면서도 롤백과 장애 발생을 늘리지 않는 것이다. 이는 AI가 코드 생성의 주역이 된 환경에서 리뷰 프로세스를 재설계한 사례로 주목된다.",
+      "tags": [
+        "code-review",
+        "claude",
+        "ai-coding"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50122951",
+      "title": "How the Claude Code team does code review",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50122951",
+      "publishedAt": "2026-10-16T19:04:47Z",
+      "score": 200,
+      "comments": 188,
+      "snippet": "How the Claude Code team does code review / claude.dev Blog [ H ] HOME [ M ] MODS [ D ] DOCS [ T ] TERMINAL Try Claude Code [ H ] HOME [ M ] MODS [ D ] DOCS [ T ] TERMINAL Engineering How the Claude Code team does code review How do you review code at the volume agents produce it? On the Claude Code team, once we had high coverage and deep reviews, we started optimizing for the minimum amount of human review time that doesn't raise reverts or incidents. AUTHOR Addy Osmani, Morgan Westlee Lunt, and Qing Wang CATEGORY Engineering PUBLISHED Oct 15, 2026 READING TIME 14 min How the Claude Code team does code review TREE └ Rethinking the purpose of code review └ The scarce resource: human time and attention └ The life of a change └ Layer by layer └ How we make the reviewer better └ Where humans stay in the loop └ Sharing context across the team └ \"You land it, you own it\" └ When we change direction └ How you can adopt this process └ Where this is going ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 00% 14 MIN READ SHARE X.com LinkedIn Email Copy URL Copy markdown We've said before that Claude writes about 90 percent of Claude Code's own code. So how do we review code at the volume we produce it? Does anyone read code anymore? And if something breaks, who catches it? This post covers the code review flow on the Claude Code team and how it has evolved. From June to September, merged pull requests to Claude Code's codebase more than doubled while the share that had to be reverted fell by more than 40 percent. We didn't remove review. But we did move most of the reading to machines, optimized for human time and attention, and invested heavily in making it fast and easy to undo mistakes. RETHINKING THE PURPOSE OF CODE REVIEW When agents write code, the number of changes goes up, fast. In Anthropic's monorepo, changes landing per day went from about 2,500 in May to more than 30,000 in September this year. Claude Code lives in its own repository, separate from the monorepo, but it's seeing a lot of pressure too. When you are shipping this fast, manual, line-by-line code review is incredibly difficult if not impossible. Code review does two jobs: Find and fix issues before they ship Build shared context and codebase understanding across the team This article mainly focuses on finding and fixing issues, but we will come back to the second job near the end. We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague. Now, review runs continuously, more like spellcheck while you write. Most changes have been reviewed and fixed by Claude at least once before a human is asked to look. This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny. THE SCARCE RESOURCE: HUMAN TIME AND A",
+      "oneLineKo": "Claude Code팀의 AI 중심 코드 리뷰 혁신 사례",
+      "summaryKo": "Claude Code 팀은 코드의 약 90%를 Claude가 작성하는 환경에서, 사람이 모든 코드를 직접 읽는 대신 자동화된 리뷰를 통해 대부분의 오류를 사전에 잡아내는 방식으로 전환했다. 6월부터 9월까지 머지된 PR 수는 두 배 이상 늘었지만 리버트 비율은 40% 이상 감소했다. 이들은 리뷰를 PR 제출 후 기다리는 게이트가 아니라, 작성 중 실시간으로 작동하는 맞춤법 검사기처럼 지속적인 프로세스로 재설계했다. 핵심은 인간의 시간과 주의력을 가장 중요한 자원으로 보고, 되돌리기(revert)를 빠르고 쉽게 만드는 데 투자한 것이다.",
+      "tags": [
+        "code-review",
+        "ai-agent",
+        "devops"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x7o6km",
+      "title": "Domain-Driven Design (DDD) — The Complete Guide | Visually Explained",
+      "url": "https://www.reddit.com/r/programming/comments/1x7o6km/domaindriven_design_ddd_the_complete_guide/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x7o6km/domaindriven_design_ddd_the_complete_guide/",
+      "publishedAt": "2026-10-16T18:34:45+00:00",
+      "snippet": "Hey everyone! I just put out a video on Domain-Driven Design. It’s a long one, about 20 minutes, but I really believe it’s worth your time. It took me a lot of time to make, so I hope it helps you, and I’d love to hear what you think! 🙌 submitted by /u/correctMeIfImcorrect [link] [comments]",
+      "oneLineKo": "도메인 주도 설계(DDD) 완벽 가이드 영상 공개",
+      "summaryKo": "한 개발자가 도메인 주도 설계(DDD)를 시각적으로 설명하는 약 20분 분량의 영상을 제작해 공개했다. 제작에 많은 시간을 들였다며 커뮤니티의 피드백을 요청하고 있다. 영상 자체의 구체적 내용은 본문에 제시되지 않았다.",
+      "tags": [
+        "ddd",
+        "software-architecture"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35488",
+      "title": "Postgres 19 출시 지연, AI 리뷰가 사람이 고칠 수 있는 양보다 많은 버그를 발견",
+      "url": "https://news.hada.io/topic?id=35488",
+      "commentsUrl": "https://news.hada.io/topic?id=35488",
+      "publishedAt": "2026-10-17T04:43:19+09:00",
+      "snippet": "PostgreSQL 19 출시 가 9월 말~10월 초에서 11월 19일경으로 연기 됨. 베타 기간에 주요 기능 8~10개가 철회됐으며, 일부는 PostgreSQL 20에 다시 포함될 가능성이 있음 LLM 보조 코드 리뷰가 기능 철회의 원인 중 하나 로 지목. 심각한 설계 결함뿐...",
+      "oneLineKo": "Postgres 19 출시, AI 리뷰 버그 폭증으로 11월로 연기",
+      "summaryKo": "PostgreSQL 19 출시가 9월 말~10월 초에서 11월 19일경으로 연기되었다. 베타 기간 동안 LLM 보조 코드 리뷰로 인해 사람이 고칠 수 있는 양보다 많은 버그가 발견되면서 주요 기능 8~10개가 철회되었다. 철회된 일부 기능은 PostgreSQL 20에서 재시도될 가능성이 있다.",
+      "tags": [
+        "postgresql",
+        "llm",
+        "code-review"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50122800",
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50122800",
+      "publishedAt": "2026-10-16T18:55:59Z",
+      "score": 593,
+      "comments": 247,
+      "snippet": "Claude reveals ECDSA curve origins \\ Anthropic Skip to main content Skip to footer Research Policy Commitments Learn News Try Claude Frontier Red Team Claude reveals ECDSA curve origins Oct 16, 2026 “It’s just timestamps”: the decades-old mystery of the origins of one of the most popular cryptographic standards has been explained. We pursued this long-standing open question of the cryptographic community to settle concerns about ECDSA, which is one of our most widely used cryptographic standards. Readers should take this as a fun closing chapter and the end of years of speculation. There is no action to be taken or things to do differently. Most researchers trusted the curves already. Enjoy. ECDSA is the most widely used elliptic curve cryptography standard. It was adopted by NIST in 2000 as part of the FIPS 186-2 Digital Signature Standard which lists a set of standard elliptic curves of varying sizes and security levels. For curves over prime and binary fields, the specifications published a “seed” parameter whose hash value is used to define the coefficient b of the curve. The provenance of these seeds has been a long-standing question, as they were provided by the NSA with no explanation or justification. As an example, the NIST P-256 curve seed was SEED = C49D3608 86E70493 6A6678E1 139D26B7 819F7E90 with no information where it came from. Neal Koblitz and Alfred Menezes wrote an excellent summary on this controversy, “ A Riddle Wrapped in an Enigma ”, which discusses the history and concerns around the seed values. This mystery led to an amateur investigation into the origin of the seeds and a bounty for anyone who could find them . The best story was that Jerry Solinas, longtime NSA employee, generated the seeds using a hash of a humorous passphrase: “I believe there was a counter rather than multiple hashing, but I don’t know details. The message was along the lines of ‘Give Bob and Jerry a raise’ or ‘Bob and Jerry rule’ or something like that. It was Bob Reiter who actually wrote the code, and he doesn’t remember the details either. Nor were we able to find archives from so long ago. If they exist, they are no doubt sitting on a hard drive near the Ark of the Covenant.” Jerry Solinas, 2015 Unfortunately, Jerry died in 2023 and other colleagues at the time were not responsive, leaving open the question of how these seeds were originally derived. Claude found the seeds Several Anthropic employees had unsuccessfully chased the seeds following the tip about it being a hash of a humorous phrase. That turned out to be wrong. In October 2026, a curious Anthropic employee asked an internal research model if it could figure out how those seeds were generated without pointing at the clue. In under half an hour , Claude discovered the origins of the NIST P-192, P-224, P-256, P-384 and P-521 seeds. None of them were the results of any hash algorithm at all, but rather the output of the C library’s lrand48 random-number generator, seeded with a Unix t",
+      "oneLineKo": "Claude, NIST ECDSA 곡선 시드의 수십 년 미스터리 해결",
+      "summaryKo": "Anthropic의 Claude가 NIST ECDSA 표준에 쓰인 P-192~P-521 곡선 시드 값의 기원을 밝혀냈다. 기존에는 농담 섞인 문구를 해시한 값이라는 설이 유력했으나, 실제로는 C 라이브러리의 lrand48 난수 생성기를 유닉스 타임스탬프로 시드하여 만든 결과였다. 이는 NSA가 제공했던 설명 없는 시드 값에 대한 암호학계의 오랜 의혹을 해소한 것으로, 추가 조치는 필요 없다고 밝혔다.",
+      "tags": [
+        "cryptography",
+        "ecdsa",
+        "llm"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x7v2i1",
+      "title": "Same JavaScript file plays Tetris in the browser and Snake after formatting",
+      "url": "https://www.reddit.com/r/programming/comments/1x7v2i1/same_javascript_file_plays_tetris_in_the_browser/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x7v2i1/same_javascript_file_plays_tetris_in_the_browser/",
+      "publishedAt": "2026-10-16T23:18:20+00:00",
+      "snippet": "A formatter, minifier or deobfuscator can be made to turn one script into another. submitted by /u/trustsigRobert [link] [comments]",
+      "oneLineKo": "포맷팅에 따라 테트리스·스네이크로 변신하는 JS 파일",
+      "summaryKo": "하나의 JavaScript 파일이 원본 상태에서는 테트리스를, 포맷터로 정리하면 스네이크 게임을 실행하는 독특한 코드 트릭이 공유됐다. 포매터, 미니파이어, 디오브퍼스케이터 등을 이용해 동일한 스크립트를 다른 스크립트로 변형시키는 기법을 활용한 사례다. 코드의 공백, 세미콜론, 줄바꿈 등 포맷팅 차이를 이용해 서로 다른 실행 경로를 만들어낸 것이 핵심이다.",
+      "tags": [
+        "javascript",
+        "code-obfuscation",
+        "web"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35468",
+      "title": "AI로 하드웨어 역공학하기",
+      "url": "https://news.hada.io/topic?id=35468",
+      "commentsUrl": "https://news.hada.io/topic?id=35468",
+      "publishedAt": "2026-10-16T16:40:19+09:00",
+      "snippet": "Claude Code와 실제 하드웨어를 활용해 Linux용 스캐너 드라이버를 개발하고 노트북 카메라의 화질을 개선 한 사례. Windows에서 얻은 정상 동작과 설정 정보를 핵심은 정상 동작의 참조 데이터와 실물 검증 을 확보하는 것. AI가 방대한 통신 기록 해독과 가설 검증...",
+      "oneLineKo": "AI로 리눅스 드라이버 개발·하드웨어 역공학",
+      "summaryKo": "Claude Code와 실제 하드웨어를 활용해 Linux용 스캐너 드라이버를 개발하고 노트북 카메라 화질을 개선한 사례를 소개한다. 핵심은 Windows에서 얻은 정상 동작과 설정값을 참조 데이터로 확보하고 실물로 검증하는 과정이다. AI는 방대한 통신 기록을 해독하고 가설을 세워 검증하는 데 활용됐다.",
+      "tags": [
+        "reverse-engineering",
+        "claude-code",
+        "linux-driver"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50121179",
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50121179",
+      "publishedAt": "2026-10-16T17:08:38Z",
+      "score": 371,
+      "comments": 320,
+      "snippet": "A benchmark map of the US economy | Mercor Research Enterprise Experts Company Log in Research Enterprise Experts Company A benchmark map of the US economy Map Benchmarks Methodology Contact us AI benchmarks have multiplied in recent years, but coverage of economically valuable work remains limited. To measure this, we compiled relevant benchmarks to measure their coverage of American jobs. This Benchmark Map is our first step toward building a comprehensive, continuously updated resource for understanding AI capabilities across the economy. of 923 occupations covered 208 of 18,797 tasks covered 924 benchmarks in the index 29 The Benchmark Map Each tile represents one of the 923 O*NET occupations making up the US labor force, grouped into 22 job families. Occupations are shaded according to the share of their tasks which are represented in our initial list of AI benchmarks. A single benchmark prompt can be mapped to multiple O*NET tasks. All 22 job families click a family to open it Coverage by Benchmark Index APEX only Covered with at least 1 prompt 5 prompts Benchmark Index No coverage All 22 O*NET job families, with the share of their occupations covered by an AI benchmark. Job family Occupations covered Computer & Math 29 / 36 Business & Financial 33 / 48 Community Service 10 / 14 Legal 5 / 7 Office & Admin 21 / 51 Management 21 / 56 Architecture & Eng 19 / 56 Sales 6 / 22 Arts & Media 13 / 40 Science 15 / 60 Healthcare Practitioners 12 / 89 Education & Library 9 / 62 Previous 1 – 12 of 22 Next In our data set: only 208 of 923 occupations have a task with at least 5 benchmark prompts , and 6 of 22 job families have no such occupations. Our findings suggest that 90% of American working hours are spent on tasks with little or no coverage from existing benchmarks . This makes it very hard to know how good AI models are at the work Americans actually do. The coverage of existing benchmarks is not random, either. Our map suggests that the AI community is focusing on the largest labor markets first: Benchmark coverage of O*NET tasks by occupation wage bill High AI exposure Low AI exposure Adjusted probability of task coverage 0 % 5 % 10 % 15 % 20 % High AI exposure Low AI exposure $500m $1bn $2bn $5bn $10bn $20bn $50bn Annualized occupation wage bill (log scale) Each point shows the estimated probability that an O*NET task with a given AI-exposure tag belonging to an occupation with a given wage-bill will be covered by at least 5 prompts in our benchmark index. AI-exposure tags are binary and come from Eloundou et al. (2023) . Occupation wage-bills are calculated from BLS estimates of the mean wage and number of Americans working in each occupation, assuming a 40 hour work week. Estimated coverage probabilities come from a task-level logistic regression of coverage probability on AI-exposure and log occupational wage bill. Error bars are pointwise 95% delta-method confidence intervals based on standard errors clustered at the occupation group level",
+      "oneLineKo": "AI 벤치마크, 美 노동시간의 90% 측정 못해",
+      "summaryKo": "Mercor Research는 923개 O*NET 직업군과 18,797개 작업을 대상으로 924개 AI 벤치마크의 커버리지를 매핑했다. 분석 결과 923개 직업 중 208개만 5개 이상의 벤치마크 프롬프트로 측정되고 있으며, 전체 미국 근로시간의 90%는 기존 벤치마크의 커버리지가 거의 없거나 전무한 작업에 쓰이고 있다. 또한 벤치마크 커버리지는 무작위가 아니라 임금 총액이 큰 노동시장(예: Computer & Math, Business & Financial)에 집중되는 경향을 보였다. 이는 AI 모델이 실제 미국인의 업무를 얼마나 잘 수행하는지 평가하기 어렵게 만든다는 점을 시사한다.",
+      "tags": [
+        "ai-benchmark",
+        "labor-market",
+        "onet"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35496",
+      "title": "PS5LM - 탈옥한 PS5에서 llama.cpp로 모든 GGUF 모델을 콘솔에서 네이티브 실행",
+      "url": "https://news.hada.io/topic?id=35496",
+      "commentsUrl": "https://news.hada.io/topic?id=35496",
+      "publishedAt": "2026-10-17T07:39:23+09:00",
+      "snippet": "탈옥한 PS5에서 AI 모델을 실행 하고 노트북/휴대폰/코딩 도구가 사용하는 가정용 모델 서버로 만드는 오픈소스 OpenAI와 Anthropic 호환 API, 브라우저 채팅 을 제공해 Claude Code 같은 도구와 연결 가능. 요청한 기기와 질문, 생성 중인 응답을 TV에서도 실시간으...",
+      "oneLineKo": "탈옥 PS5에서 llama.cpp로 LLM 네이티브 구동",
+      "summaryKo": "PS5LM은 탈옥한 PlayStation 5에서 llama.cpp를 이용해 모든 GGUF 포맷 모델을 네이티브로 실행하는 오픈소스 프로젝트이다. 이를 통해 PS5를 노트북, 휴대폰, 코딩 도구 등에서 사용할 수 있는 가정용 모델 서버로 활용할 수 있다. OpenAI 및 Anthropic 호환 API와 브라우저 채팅 인터페이스를 제공해 Claude Code 같은 외부 도구와도 연동 가능하다. 요청 기기, 질문, 생성 중인 응답을 TV 화면에서 실시간으로 확인할 수 있다.",
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "ps5"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50121939",
+      "title": "Designing more efficient quantum circuits with Claude",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50121939",
+      "publishedAt": "2026-10-16T18:00:18Z",
+      "score": 81,
+      "comments": 17,
+      "snippet": "Designing more efficient quantum circuits with Claude \\ Anthropic Skip to main content Skip to footer Research Policy Commitments Learn News Try Claude Science Designing more efficient quantum circuits with Claude Oct 16, 2026 Quantum computers will need carefully designed circuits to run useful algorithms on limited hardware. We gave Claude plain-language specifications for eight such circuits, drawn from chemistry, optimization, physics simulation, and number theory, along with an automated evaluator that checks and scores each design. Working largely on its own, Claude found designs that improve on the best published circuits, in some cases by an order of magnitude or more. Such improvements substantially reduce the quantum resources that useful applications require, so practical quantum computers could arrive sooner than previously anticipated. This work was led by Andi Gu as part of Anthropic’s STEM Fellows Program, with mentorship from Alek Kemeny, a quantum physicist at Anthropic, in collaboration with Susanne Yelin (Harvard University) and Mikhail Lukin (Harvard University and QuEra Computing). Read the full paper on arXiv . Unlike classical computers, which store information in bits whose value is either 0 or 1, quantum computers store information in qubits, which can be built from single atoms, superconducting circuits, or particles of light. These qubits make use of quantum phenomena such as superposition —which allows a quantum system to exist in a combination of states at once—in order to process information in ways that could make certain problems in fields like chemistry, materials science, and number theory tractable, even when they are too hard for traditional computers. The quantum computers the field has built to date only have hundreds to thousands of qubits—too few to run many of the algorithms that promise practical advantages over classical computers. And these qubits are highly sensitive to environmental noise, such as heat, vibration, and even cosmic rays. A tiny disturbance can nudge a qubit’s state, and these small errors pile up until the computer gives the wrong answer. Given that both qubits and computing time are scarce resources, researchers have been working to redesign quantum algorithms to use fewer qubits and complete computations in less time. An illustrative example is simulating FeMoco, the iron–sulfur cluster at the heart of nitrogenase, the enzyme that bacteria use to turn nitrogen from the air into ammonia. Understanding how it works could help scientists design better industrial catalysts—the substances manufacturers use to speed up chemical reactions. In 2017, researchers estimated that a quantum computer would need about 50 trillion Toffoli gates to compute FeMoco’s ground-state energy—the energy of its most stable configuration, which chemists need in order to predict how FeMoco reacts. (Similar to ordinary computers, quantum computers work by applying a long sequence of simple operations, called gate",
+      "oneLineKo": "Claude, 양자회로 설계 개선해 자원 소모 대폭 절감",
+      "summaryKo": "Anthropic은 Claude에게 화학, 최적화, 물리 시뮬레이션, 정수론 분야의 8가지 양자회로에 대한 명세와 자동 평가 도구를 제공해 회로 설계를 맡겼다. Claude는 대부분 자율적으로 작업해 기존 발표된 최고 수준의 회로보다 뛰어난 설계를 찾아냈으며, 일부는 한 자릿수 이상 개선했다. 이는 FeMoco 같은 복잡한 분자의 양자 시뮬레이션에 필요한 Toffoli 게이트 수를 크게 줄이는 등 실용적인 양자 컴퓨터 등장 시기를 앞당길 수 있는 결과다. 이 연구는 Anthropic의 STEM Fellows Program과 하버드대 연구진의 협업으로 진행되었다.",
+      "tags": [
+        "quantum-computing",
+        "claude",
+        "llm"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35489",
+      "title": "Claude, 25년간 풀리지 않았던 NIST 타원곡선 암호 시드의 출처 규명",
+      "url": "https://news.hada.io/topic?id=35489",
+      "commentsUrl": "https://news.hada.io/topic?id=35489",
+      "publishedAt": "2026-10-17T05:39:12+09:00",
+      "snippet": "Anthropic의 내부 연구용 Claude가 30분 이내에 NIST 표준 타원곡선 5개의 시드 생성 방식을 규명 . 전자서명에 쓰이는 곡선을 만드는 숫자를 NSA가 어떻게 골랐는지는 25년간 풀리지 않은 수수께끼였음 답은 Unix 타임스탬프로 초기화한 C 라이브러리의 난수 생성기 l...",
+      "oneLineKo": "Claude, NIST 타원곡선 시드 생성 방식 25년 만에 규명",
+      "summaryKo": "Anthropic의 내부 연구용 Claude가 30분 만에 NIST 표준 타원곡선 5개의 시드 생성 방식을 밝혀냈다. NSA가 25년간 공개하지 않았던 이 시드 값은 Unix 타임스탬프로 초기화된 C 라이브러리 난수 생성기에서 비롯된 것으로 확인됐다. 이는 암호학계의 오랜 수수께끼를 AI가 해결한 사례로 주목받고 있다.",
+      "tags": [
+        "cryptography",
+        "nist",
+        "claude"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50122112",
+      "title": "Anthropic assigned highest junk credit rating in June",
+      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50122112",
+      "publishedAt": "2026-10-16T18:11:42Z",
+      "score": 196,
+      "comments": 58,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;finance.yahoo.com&#x2F;technology&#x2F;ai&#x2F;articles&#x2F;anthropic-secured-highest-junk-credit-040018773.html\" rel=\"nofollow\">https:&#x2F;&#x2F;finance.yahoo.com&#x2F;technology&#x2F;ai&#x2F;articles&#x2F;anthropic-s...</a>",
+      "oneLineKo": "Anthropic, 6월 최고 등급의 정크 신용등급 획득",
+      "summaryKo": "Anthropic이 지난 6월 신용평가사로부터 정크본드 등급 중 가장 높은 등급을 받은 것으로 알려졌다. 이는 투기등급이지만 그 안에서는 상대적으로 안전한 평가에 해당한다. 해당 소식은 Financial Times 보도를 인용한 것이며, 구체적인 평가사명이나 세부 수치는 본문에 포함되어 있지 않다.",
+      "tags": [
+        "anthropic",
+        "credit-rating",
+        "ai"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35487",
+      "title": "Show HN: Gemini 4 Argon이 StarCraft를 플레이하다",
+      "url": "https://news.hada.io/topic?id=35487",
+      "commentsUrl": "https://news.hada.io/topic?id=35487",
+      "publishedAt": "2026-10-17T04:40:19+09:00",
+      "snippet": "StarSkirmish Bench v0.2 는 LLM에 1시간 동안 C++로 StarCraft: Brood War의 Protoss 봇을 만들게 하고, 연습 경기에서 얻은 정보를 반영하는 장기 추론과 에이전트 코딩 능력을 평가함 GPT-6 Astra가 평균 승률 57%로 1위 , GPT-6.1 Sol이 46%로 2위를 기록했으며,...",
+      "oneLineKo": "LLM이 1시간 코딩으로 스타크래프트 봇 대결 벤치마크",
+      "summaryKo": "StarSkirmish Bench v0.2는 LLM에게 1시간 동안 C++로 StarCraft: Brood War의 Protoss 봇을 만들게 하여 장기 추론과 에이전트 코딩 능력을 평가하는 벤치마크입니다. 연습 경기에서 얻은 정보를 반영해 봇을 개선하는 과정을 테스트하며, GPT-6 Astra가 평균 승률 57%로 1위, GPT-6.1 Sol이 46%로 2위를 기록했습니다. 제목과 달리 본문에서는 Gemini 계열 모델의 구체적 성적은 언급되지 않았습니다.",
+      "tags": [
+        "llm",
+        "benchmark",
+        "agentic-coding"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50117746",
+      "title": "I Love Software Rendering",
+      "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50117746",
+      "publishedAt": "2026-10-16T12:52:08Z",
+      "score": 279,
+      "comments": 185,
+      "snippet": "I Love Software Rendering James Mackenzie Projects Hardware Software Guides Sitemap I Love Software Rendering Oct 13, 2026 &middot; MS-DOS , PC , Posts , Retrogaming , Videogames Quake in its DOS software renderer, where even the particles are square. All the screenshots in this post are my own captures. I love software rendering. The best DOS experience I’ve had in a long while was Quake in its software renderer at 800×600, running at a locked 60fps on my Dell OptiPlex 380 . It’s one of the best-looking things I’ve seen a DOS game do. That’s not how most people remember those games looking. In the 90s you either ran them in software at a low resolution, or you bought a 3D card and played the accelerated version. Today there’s a third option: run the software renderer on a machine fast enough to push it at resolutions nobody could use back then. What software rendering is In a software-rendered game, the CPU draws every pixel. There’s no 3D card involved: the game works out each frame in its own code and writes it straight to video memory. Doom, Duke Nukem 3D, Blood and the original Quake all work this way. When 3D cards arrived, many games got accelerated versions. GLQuake came after Quake, and Blood and Tomb Raider got 3dfx modes. Those versions hand the drawing to the graphics card, and they look different. Why I like the look It’s sharp. Software renderers generally sample textures pixel by pixel, so every texel stays a crisp square. Early 3D cards smoothed textures with bilinear filtering, which looked impressive in 1997 but turns everything soft and blurry to my eye now. It’s gritty. Most of these games ran in 256 colours, with lighting done through lookup tables into that palette. Shadows fall off in visible steps rather than smooth gradients. Technically that’s colour banding, a limitation. In practice it gives the games a rough, grimy texture that I really like, and that hardware rendering smooths away. It’s how the games were built. Quake was released with its software renderer, and GLQuake followed. Doom and the Build engine games were designed around their software renderers from the start. It isn’t always the better option. When I got a Voodoo 2 running in a modern PC , Blood ran fast in its 3dfx mode, but the VESA software modes were the better-looking option. Tomb Raider went the other way: its underwater sections look noticeably better accelerated than in the DOS software renderer. So it’s a preference, not a rule. But for most of the games I care about, I’d pick the software renderer. It’s not just nostalgia, either. Ion Fury, a Build engine game from 2019, still ships with a software renderer. The catch: it needs a fast PC Software rendering scales with the CPU. Every extra pixel is work for the processor, so the high VESA resolutions that many late DOS games offered were well beyond the hardware of the day. Modern hardware can power through most of it. On the OptiPlex 380, Quake at 800×600 holds a locked 60fps. But the heaviest",
+      "oneLineKo": "DOS 게임 소프트웨어 렌더링의 매력과 한계 고찰",
+      "summaryKo": "저자는 Quake, Doom 등 90년대 DOS 게임을 CPU 기반 소프트웨어 렌더러로 실행했을 때의 시각적 매력을 설명한다. 텍스처가 선명하고 색상 밴딩으로 인한 거친 질감이 하드웨어 가속 렌더링보다 더 매력적이라고 평가한다. 다만 Blood나 Tomb Raider처럼 일부 게임은 3dfx 가속 모드가 더 낫다고 언급하며, 소프트웨어 렌더링은 CPU 성능에 크게 의존해 고해상도 구현에는 현대 하드웨어가 필요하다고 설명한다.",
+      "tags": [
+        "retrogaming",
+        "software-rendering",
+        "dos"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50118320",
+      "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50118320",
+      "publishedAt": "2026-10-16T13:43:48Z",
+      "score": 251,
+      "comments": 113,
+      "snippet": "Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio - Apple Machine Learning Research Machine Learning Research Open Menu Close Menu Overview Research Highlights Publications Events Work with us content type Featured highlight Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio October 15, 2026 MLX on Mac with Apple silicon lets AI researchers and developers experiment locally with the latest models and methods in a private environment. The open-source array framework leverages the unified memory architecture of Apple silicon, enabling anyone to run new inference and fine-tuning methods on their own hardware and explore other AI techniques. In a previous post , we highlighted the advantages of the M5 architecture and its GPU Neural Accelerators. In this post, we show how to run the latest frontier-class model — Muse Spark Open, with nearly a trillion parameters — right from your desk, using the latest version of MLX, released today. On a cluster of four Mac Studios, Muse Spark Open generates over 36 tokens per second (see Figure 1 ), well above average human reading speed. Beginning on a single Mac Studio (up to 512GB of unified memory), then scaling out across multiple Macs with the RDMA over Thunderbolt driver, below we share an overview of the range of models you can now run on Mac Studio. Muse Spark Open Decode Speed Context size of 8,192 tokens Figure 1: Muse Spark Open decode speed in tokens per second, on Mac Studio with M5 Ultra, at a context size of 8,192 tokens. Higher is better. We report performance for three parallelization schemes: pipeline parallelization over two Mac Studio computers (2 M5 Pipeline), and tensor parallelization over two (2 M5 Tensor) and four Mac Studio (4 M5 Tensor) computers. Running Large Language Models with MLX We benchmark several popular open-weight LLMs on Mac Studio , using the MLX LM package, as described in our prior post . We compare two generations of Mac Studio: the recently released M5 Ultra and the previous generation, M3 Ultra. The M5 generation features the GPU Neural Accelerator, which supports dedicated matrix multiplication operations, essential for many machine learning workloads. We evaluate three frontier-class models ( Table 1 ) spanning a wide range of sizes (in billions of parameters, B): the newly released Muse Spark Open (816 B), Mistral Medium 3.5 (128 B), and Qwen 3.8 (27 B). Muse Spark Open is a mixture of experts (MoE) model, which keeps only a fraction of its experts — and thus parameters — active, reducing compute at inference, and it is evaluated in NVFP4 precision. Mistral Medium 3.5 and Qwen 3.8 are dense architectures, where all parameters are active at inference, and they are evaluated in their native floating-point precision (FP8 and BF16, respectively). Model Total Parameters Active Parameters Native Precision Evaluation Precision Muse Spark Open 816B 42B BF16 NVFP4 Mistral Medium 3.5 128B 128B FP8 FP8 Qwen 3.8 27B 27B BF16 BF16 T",
+      "oneLineKo": "Mac Studio로 트릴리언급 LLM 분산 추론 실험",
+      "summaryKo": "Apple는 MLX와 Thunderbolt 기반 RDMA를 활용해 Mac Studio에서 거대 LLM을 로컬 및 분산 방식으로 추론하는 사례를 공개했다. 약 8160억 파라미터(활성 420억) MoE 모델인 Muse Spark Open을 NVFP4 정밀도로 평가했으며, Mac Studio 4대 클러스터에서 초당 36토큰 이상의 생성 속도를 달성했다. M5 Ultra와 이전 세대 M3 Ultra를 비교하며 파이프라인 및 텐서 병렬화 방식의 성능 차이도 함께 분석했다. Mistral Medium 3.5, Qwen 3.8 등 다른 프런티어급 모델과도 비교 벤치마크를 제공한다.",
+      "tags": [
+        "mlx",
+        "apple-silicon",
+        "llm-inference"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50118981",
+      "title": "Waymo in Toronto",
+      "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50118981",
+      "publishedAt": "2026-10-16T14:44:17Z",
+      "score": 244,
+      "comments": 345,
+      "snippet": "Hello Toronto! Waymo is En Route Skip to main content Rides Technology About Safety Community Careers Waypoint: The official Waymo blog Search Blog Technology Company News Rides Safety Life at Waymo Filter by topic Topic Technology Company News Rides Safety Life at Waymo Search blog Back Hello Toronto! Waymo is En Route October 16, 2026 Company News The Waymo Team Share on Twitter Share on LinkedIn Share on Facebook Waymo is officially heading to Canada! We’re laying the groundwork for our fully autonomous ride-hailing service in Toronto, investing in local facilities and jobs, with the goal of welcoming our first riders in 2028. In the coming days, you’ll start to see Waymo vehicles on the streets of Toronto as we begin driving manually. We are taking a rigorous, phased, safety-first approach starting with high-definition mapping of local street networks and testing with trained autonomous specialists behind the wheel. This validation period will ensure the Waymo Driver adapts seamlessly to Toronto’s distinct driving conditions. “Expanding into Canada marks an important milestone in Waymo’s global journey,” said Waymo co-CEO Tekedra Mawakana. “Toronto is one of the world’s great cities — innovative, diverse, and forward-looking. We’re proud to bring the Waymo Driver to Canada’s largest city and to partner with the vibrant business, arts and cultural communities that share our commitment to safer streets and more accessible mobility.” To serve Toronto, we’re partnering with Element Fleet Management, a Toronto-headquartered company and global leader in intelligent fleet and mobility solutions that will provide end-to-end fleet management services. Together with Element and our partners, we’ll invest in hundreds of roles over time spanning fleet maintenance, validation driving, customer service, and other operations functions that support our service. This deep partnership builds on Waymo’s existing ties to Canada, which includes our long-term investor relationship with the Canada Pension Plan Investment Board and our manufacturing partner, Magna International. \"As a Canadian company, we are proud to be expanding our partnership with Waymo to help bring autonomous ride-hailing to Toronto,” said Laura Dottori-Attanasio, Chief Executive Officer, Element Fleet Management. Together with Waymo, Element will help create employment opportunities providing the fleet expertise, operational capabilities, and intelligent mobility solutions needed to support autonomous fleets reliably and at scale.\" As one of North America’s fastest-growing metropolitan regions, Toronto has both evolving mobility demands and a dynamic and growing number of tools. From bike lanes to public transit, Waymo’s all-weather Driver can provide an additional option that complements the city’s transportation ecosystem. The data from over 400 million fully autonomous kilometres driven shows the Waymo Driver was involved in 95% fewer (20x fewer) crashes involving serious injury or worse c",
+      "oneLineKo": "Waymo, 2028년 목표 토론토 자율주행 서비스 진출 발표",
+      "summaryKo": "Waymo가 캐나다 토론토에 자율주행 로보택시 서비스를 출시하기 위한 준비를 시작한다고 발표했다. 먼저 고정밀 지도 제작과 숙련된 운전자가 탑승한 수동 주행 테스트를 거쳐 2028년 첫 승객을 맞이하는 것이 목표다. 토론토 소재 기업 Element Fleet Management와 협력해 차량 유지보수, 검증 운행, 고객 서비스 등 수백 개의 일자리에 투자할 계획이며, 캐나다연금투자위원회(CPPIB) 및 제조 파트너 Magna International과의 기존 관계도 활용한다.",
+      "tags": [
+        "waymo",
+        "autonomous-driving",
+        "mobility"
+      ]
+    }
+  ]
+}

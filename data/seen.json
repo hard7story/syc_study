@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=33740",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "news.hada.io/topic?id=33740",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49712278",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "withcapsule.app",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "t3_1whg3ya",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1whg3ya/java_27_has_released",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33748",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "news.hada.io/topic?id=33748",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49713999",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "formas.ai/cartesian",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "t3_1wh2y63",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wh2y63/i_couldnt_understand_dancing_links_dlx_as_a",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33729",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "news.hada.io/topic?id=33729",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49711544",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "github.com/arnegiacomo/fugleramme",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33723",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "news.hada.io/topic?id=33723",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49717558",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "typesafe.ai/blog/introducing-system-one-models-and-jev",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33721",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "news.hada.io/topic?id=33721",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49707473",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "bbc.com/news/articles/ck790xg41ygro",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33720",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "news.hada.io/topic?id=33720",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49704132",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "effort.news/irregular",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49710253",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "bbc.com/news/articles/c8ly49w9g1edo",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49716176",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "blog.archive.org/2026/09/15/an-update-on-wayback-machine-access",
-    "date": "2026-09-16"
-  },
-  {
     "id": "https://news.hada.io/topic?id=33792",
     "date": "2026-09-17"
   },
@@ -3494,5 +3366,133 @@
   {
     "id": "respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher",
     "date": "2026-10-16"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35495",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "news.hada.io/topic?id=35495",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50122951",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "claude.dev/blog/solving-code-review-at-anthropic",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "t3_1x7o6km",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x7o6km/domaindriven_design_ddd_the_complete_guide",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35488",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "news.hada.io/topic?id=35488",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50122800",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "anthropic.com/research/ecdsa-curve-origins",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "t3_1x7v2i1",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x7v2i1/same_javascript_file_plays_tetris_in_the_browser",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35468",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "news.hada.io/topic?id=35468",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50121179",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "mercor.com/research/labor-index/benchmark-map",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35496",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "news.hada.io/topic?id=35496",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50121939",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "anthropic.com/research/designing-efficient-quantum-circuits",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35489",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "news.hada.io/topic?id=35489",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50122112",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35487",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "news.hada.io/topic?id=35487",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50117746",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "jamesfmackenzie.com/2026/10/13/i-love-software-rendering",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50118320",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "machinelearning.apple.com/research/mlx-distributed-inference",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50118981",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "waymo.com/blog/2026/10/waymo-in-toronto",
+    "date": "2026-10-17"
   }
 ]
