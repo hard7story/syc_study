@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=33853",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "news.hada.io/topic?id=33853",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49746163",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "bend-lang.com",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "t3_1wj3ya8",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wj3ya8/scaling_security_insights_how_we_achieved_a_10x",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33822",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "news.hada.io/topic?id=33822",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49740105",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "mysetup.ai",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "t3_1whu6ww",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1whu6ww/rowlevel_security_and_symbolic_evaluation_with",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33864",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "news.hada.io/topic?id=33864",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49746654",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33863",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "news.hada.io/topic?id=33863",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49715813",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "global.fujitsu/en-global/pr/news/2026/09/14-02",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33862",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "news.hada.io/topic?id=33862",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49743097",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "github.com/asciimoo/hister",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33861",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "news.hada.io/topic?id=33861",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49737922",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "z.ai/blog/glm-built-its-inference-infrastructure",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49737787",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "events.ccc.de/en/2026/09/12/40c3-model-citizens",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49738091",
-    "date": "2026-09-18"
-  },
-  {
-    "id": "gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter",
-    "date": "2026-09-18"
-  },
-  {
     "id": "https://news.hada.io/topic?id=33899",
     "date": "2026-09-19"
   },
@@ -3510,5 +3382,133 @@
   {
     "id": "numismaticnews.net/gold-now-top-u-s-export",
     "date": "2026-10-18"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35574",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "news.hada.io/topic?id=35574",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50137950",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "sphinx-six-theta.vercel.app",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "t3_1x97lsb",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x97lsb/its_still_ok_to_enjoy_programming",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35602",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "news.hada.io/topic?id=35602",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50145337",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "arxiv.org/abs/2610.18861",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "t3_1x97kbr",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1x97kbr/how_containers_work_building_a_dockerlike",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35598",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "news.hada.io/topic?id=35598",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50141579",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "neilmadden.blog/2026/04/24/java-sealed-classes-and-exhaustive-pattern-matching",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35596",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "news.hada.io/topic?id=35596",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50140769",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "legendofhyrule.com",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35595",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "news.hada.io/topic?id=35595",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50138531",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "api-docs.deepseek.com/guides/search",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35575",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "news.hada.io/topic?id=35575",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50142866",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50137620",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50142573",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "karrisaarinen.com/posts/someone-behind-the-software",
+    "date": "2026-10-19"
   }
 ]

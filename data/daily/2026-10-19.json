@@ -1,0 +1,277 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-18T23:50:00.218Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35574",
+      "title": "Show GN: 시그렌즈(SIGLENS): 코드로 계산한 시장 데이터를 근거로 LLM이 해석하는 분석 서비스",
+      "url": "https://news.hada.io/topic?id=35574",
+      "commentsUrl": "https://news.hada.io/topic?id=35574",
+      "publishedAt": "2026-10-18T21:17:15+09:00",
+      "snippet": "미국/한국 주식과 코인의 차트 지표, 패턴, 옵션, 지분 공시 데이터를 코드로 계산하고, LLM은 그 결과를 근거로 해석을 쓰는 서비스입니다. 혼자 만들고 운영 중이며, 현재는 전부 무료입니다. https://siglens.io : 종목별 분석 https://ai.siglens.io : 질문형 AI 에이전트 https:",
+      "oneLineKo": "코드 계산 시장데이터를 LLM이 해석하는 투자분석 서비스",
+      "summaryKo": "시그렌즈(SIGLENS)는 미국/한국 주식과 코인의 차트 지표, 패턴, 옵션, 지분 공시 데이터를 코드로 계산하고 LLM이 그 결과를 근거로 해석을 제공하는 서비스입니다. 종목별 분석을 제공하는 siglens.io와 질문형 AI 에이전트인 ai.siglens.io로 구성되어 있습니다. 1인 개발자가 혼자 만들고 운영 중이며 현재 모든 기능이 무료로 제공됩니다.",
+      "tags": [
+        "llm",
+        "fintech",
+        "indie-dev"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50137950",
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50137950",
+      "publishedAt": "2026-10-18T04:33:49Z",
+      "score": 238,
+      "comments": 81,
+      "snippet": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it&#x27;ll throw up a questionnaire that checks if you understand how the code you&#x27;re pushing works.",
+      "oneLineKo": "AI 코드 배포 전 이해도를 퀴즈로 검증하는 훅 도구",
+      "summaryKo": "Sphinx는 기존 코딩 에이전트 워크플로우에 연동되는 오픈소스(FOSS) 훅입니다. 프로덕션에 코드를 푸시할 때마다 해당 코드의 작동 방식을 이해하고 있는지 확인하는 질문지를 띄워줍니다. 이를 통해 AI가 생성한 코드를 맹목적으로 배포하는 것을 방지하고 개발자의 코드 이해도를 점검할 수 있습니다.",
+      "tags": [
+        "ai-coding",
+        "devtools",
+        "code-review"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x97lsb",
+      "title": "It's still OK to enjoy programming",
+      "url": "https://www.reddit.com/r/programming/comments/1x97lsb/its_still_ok_to_enjoy_programming/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x97lsb/its_still_ok_to_enjoy_programming/",
+      "publishedAt": "2026-10-18T16:33:28+00:00",
+      "snippet": "submitted by /u/chriskiehl [link] [comments]",
+      "oneLineKo": "프로그래밍을 즐기는 것은 여전히 괜찮다는 에세이",
+      "summaryKo": "이 글은 AI 시대에도 프로그래밍 자체를 즐기는 태도가 여전히 유효하다는 메시지를 전달하는 에세이로 보인다. 제목 외 본문 내용은 제공되지 않아 구체적 논지는 확인할 수 없다. 최근 생산성 및 자동화 중심 담론 속에서 개발자의 내적 동기와 즐거움을 재조명하려는 취지로 추정된다.",
+      "tags": [
+        "programming",
+        "developer-culture"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35602",
+      "title": "Hybrid Reasoning Agents: 잠재 공간에서 사고하고 텍스트로 행동하는 LLM 에이전트",
+      "url": "https://news.hada.io/topic?id=35602",
+      "commentsUrl": "https://news.hada.io/topic?id=35602",
+      "publishedAt": "2026-10-19T08:32:17+09:00",
+      "snippet": "HybridAgent 는 하나의 생성 과정에서 잠재 공간 추론과 텍스트 생성을 동적으로 전환하며, 내부 추론과 외부 도구 사용을 결합함 경량 어댑터 HybridLink 가 마지막 계층의 은닉 상태를 입력 임베딩 공간으로 연결하고, 연속 작업 메모리가 텍스트, 잠재 벡터, 도구...",
+      "oneLineKo": "잠재 공간 추론과 텍스트 생성을 결합한 하이브리드 LLM 에이전트",
+      "summaryKo": "HybridAgent는 하나의 생성 과정 안에서 잠재 공간(latent space) 추론과 텍스트 생성을 동적으로 전환하는 LLM 에이전트 구조입니다. 경량 어댑터인 HybridLink가 모델 마지막 계층의 은닉 상태를 입력 임베딩 공간으로 연결해 내부 추론과 외부 도구 사용을 매끄럽게 결합합니다. 또한 연속 작업 메모리를 통해 텍스트, 잠재 벡터, 도구 결과를 함께 관리하여 내부 사고와 외부 행동을 통합적으로 수행할 수 있도록 설계되었습니다.",
+      "tags": [
+        "llm",
+        "reasoning",
+        "agent"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50145337",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50145337",
+      "publishedAt": "2026-10-18T20:48:14Z",
+      "score": 147,
+      "comments": 85,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;Jiaru_Zou&#x2F;status&#x2F;2110400256647340476\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;Jiaru_Zou&#x2F;status&#x2F;2110400256647340476</a><p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;togethercomputer&#x2F;HybridAgent\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;togethercomputer&#x2F;HybridAgent</a><p><a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;collections&#x2F;togethercomputer&#x2F;hybridagent\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;collections&#x2F;togethercomputer&#x2F;hybridag...</a><p>Evaluations: <a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;html&#x2F;2610.18861v1#S5\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;html&#x2F;2610.18861v1#S5</a>",
+      "oneLineKo": "잠재공간 추론·텍스트 행동 결합한 LLM 에이전트",
+      "summaryKo": "이 논문은 LLM 에이전트가 잠재 공간(latent space)에서 추론하고 텍스트를 통해 행동을 수행하는 하이브리드 리저닝 에이전트 구조를 제안합니다. Together Computer 팀이 GitHub와 Hugging Face에 관련 코드와 모델을 공개했습니다. 평가 결과는 논문 5장에서 확인할 수 있습니다.",
+      "tags": [
+        "llm",
+        "agent",
+        "reasoning"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1x97kbr",
+      "title": "How Containers Work: Building a Docker-like Container From Scratch",
+      "url": "https://www.reddit.com/r/programming/comments/1x97kbr/how_containers_work_building_a_dockerlike/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1x97kbr/how_containers_work_building_a_dockerlike/",
+      "publishedAt": "2026-10-18T16:31:47+00:00",
+      "snippet": "submitted by /u/iximiuz [link] [comments]",
+      "oneLineKo": "Docker 유사 컨테이너를 밑바닥부터 구현하는 방법",
+      "summaryKo": "이 글은 리눅스의 네임스페이스, cgroups 등 커널 기능을 활용해 Docker와 유사한 컨테이너를 처음부터 직접 만들어보는 과정을 다룹니다. 컨테이너 기술의 내부 동작 원리를 코드 수준에서 설명하여, 추상화된 도구 뒤에 숨겨진 리눅스 시스템 프로그래밍 개념을 이해하는 데 초점을 맞춥니다. 제목과 reddit 게시 정보만 제공되어 구체적인 구현 세부사항은 알 수 없습니다.",
+      "tags": [
+        "docker",
+        "linux",
+        "containers"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35598",
+      "title": "Java sealed 타입의 함정 - 새 하위 타입이 기존 코드를 깨뜨릴 수 있다",
+      "url": "https://news.hada.io/topic?id=35598",
+      "commentsUrl": "https://news.hada.io/topic?id=35598",
+      "publishedAt": "2026-10-19T06:31:31+09:00",
+      "snippet": "Java의 sealed 클래스와 인터페이스 는 허용할 하위 타입을 제한해, 컴파일러가 switch 에서 모든 경우를 처리했는지 검사할 수 있게 함 모든 타입을 처리하면 default 분기 없이 작성 할 수 있고, 빠뜨린 타입이 있으면 컴파일 오류가 발생...",
+      "oneLineKo": "Java sealed 타입의 숨은 함정 분석",
+      "summaryKo": "Java의 sealed 클래스와 인터페이스는 허용된 하위 타입을 제한해 switch 문에서 컴파일러가 모든 경우를 처리했는지 검사할 수 있게 해줍니다. 모든 타입을 처리하면 default 분기 없이 작성할 수 있지만, 새로운 하위 타입이 추가될 경우 기존의 exhaustive switch 코드가 컴파일 오류를 일으키거나 예상치 못하게 동작할 수 있습니다. 이 글은 sealed 타입을 확장할 때 기존 코드에 미치는 영향을 분석하며 주의할 점을 설명합니다.",
+      "tags": [
+        "java",
+        "sealed-classes",
+        "type-safety"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50141579",
+      "title": "Java sealed classes and exhaustive pattern matching",
+      "url": "https://neilmadden.blog/2026/04/24/java-sealed-classes-and-exhaustive-pattern-matching/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50141579",
+      "publishedAt": "2026-10-18T14:47:37Z",
+      "score": 127,
+      "comments": 98,
+      "snippet": "Java sealed classes and exhaustive pattern matching – Neil Madden Neil Madden Menu Close About Neil Java sealed classes and exhaustive pattern matching Java 17 introduced sealed classes , which allow you to explicitly list the allowed sub-types of an interface or base class. For example, here’s a toy example using a sealed interface and records (inner classes are implicitly added to the permitted sub-types if an explicit list is not given): public sealed interface SealedType { record TypeA() implements SealedType {} record TypeB() implements SealedType {} static SealedType of(String type) { return switch (type) { case “A” -> new TypeA(); case “B” -> new TypeB(); default -> throw new IllegalArgumentException(); }; } } If you are familiar with functional programming languages with algebraic datatypes, you can view this as similar to a datatype declaration in Haskell or ML: data SealedType = TypeA | TypeB We can then use this in a simple Main class: void main(String[] args) { var val = SealedType.of(args[0]); System.out.println(switch (val) { case SealedType.TypeA() -> “A”; case SealedType.TypeB() -> “B”; }); } OK, not so exciting. But one thing to note here is that we didn’t have to add a default clause to the switch expression in our main method. This is because sealed classes (and enums) enable exhaustiveness checking : the compiler knows exactly what the possible cases are, and so can check if you have covered them all. If you have, then you don’t need a default clause. If you forget one (and don’t have a default clause), then you get a compile-time error. This is great when you want to ensure that all uses of some type do cover all of the cases, but it does introduce a new type of breaking change: adding a new sub-type to a sealed class/interface may break consumers of that code. For example, adding a new TypeC case to our example will cause the main method to fail to compile due to the missing case. So if you export a sealed type in your API then adding a new subtype is a breaking change that would require a major version bump (if you’re following SemVer). Compile-time or runtime error? Although Java will produce a compile-time error for a non-exhaustive switch when you compile the consumer (main in this case), it cannot do so if the consumer is not recompiled when the sealed type changes. For example, suppose that we extend our SealedType with another case: public sealed interface SealedType { record TypeA() implements SealedType {} record TypeB() implements SealedType {} record TypeC() implements SealedType {} static SealedType of(String type) { return switch (type) { case “A” -> new TypeA(); case “B” -> new TypeB(); case “C” -> new TypeC(); default -> throw new IllegalArgumentException(); }; } } If we just recompiled SealedType.java and don’t recompile Main, then we end up with a runtime exception if we trigger the new case: % java Main C Exception in thread \"main\" java.lang.MatchException at Main.main(Main.java:3) Here we have the new Matc",
+      "oneLineKo": "Java sealed 클래스의 완전성 검사와 API 호환성 문제",
+      "summaryKo": "Java 17의 sealed 클래스는 하위 타입을 명시적으로 제한하여 switch 표현식에서 exhaustiveness(완전성) 검사를 가능하게 한다. 이는 모든 케이스를 빠짐없이 처리하도록 컴파일 타임에 강제하지만, 반대로 sealed 타입에 새로운 하위 타입을 추가하는 것은 기존 소비자 코드를 깨뜨리는 호환성 파괴 변경이 될 수 있다. 특히 소비자 코드를 재컴파일하지 않으면 컴파일 에러 대신 런타임에 MatchException이 발생할 수 있다는 점을 설명한다.",
+      "tags": [
+        "java",
+        "sealed-classes",
+        "pattern-matching"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35596",
+      "title": "AI는 수학과 과학에 황금기를 가져올까, 암흑기를 가져올까?",
+      "url": "https://news.hada.io/topic?id=35596",
+      "commentsUrl": "https://news.hada.io/topic?id=35596",
+      "publishedAt": "2026-10-19T05:47:50+09:00",
+      "snippet": "LLM의 증명 능력이 발전해도 인간의 이해와 독립적인 연구 역량 이 함께 성장하지 않으면, 과학적 산출량 증가와 연구 공동체의 약화가 동시에 일어날 수 있음 기계가 검증할 수 있는 증명과 인간이 이해하는 증명은 다름. 수십만 줄의 Lean 증명과 불완전한 자연어...",
+      "oneLineKo": "AI 증명 발전과 인간 이해 단절의 위험성 논의",
+      "summaryKo": "LLM의 수학적 증명 능력이 발전하고 있지만, 기계가 검증 가능한 증명과 인간이 실제로 이해하는 증명은 본질적으로 다르다는 문제가 제기된다. 수십만 줄에 달하는 Lean 증명은 기계적으로는 타당해도 인간 연구자가 통찰을 얻기 어려운 형태일 수 있다. 이런 상황이 지속되면 과학적 산출물의 양은 늘어나지만 인간의 독립적 연구 역량과 연구 공동체는 오히려 약화될 수 있다는 우려가 제기된다. 결국 AI가 과학과 수학에 가져올 것이 황금기일지 암흑기일지는 인간의 이해를 동반한 성장 여부에 달려 있다.",
+      "tags": [
+        "llm",
+        "formal-verification",
+        "ai-research"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50140769",
+      "title": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
+      "url": "https://legendofhyrule.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50140769",
+      "publishedAt": "2026-10-18T13:06:54Z",
+      "score": 153,
+      "comments": 91,
+      "snippet": "I made this ahead of the Ocarina of Time remake which comes out in 17 days. I remember the feeling of playing it as a kid but I hadn’t kept up with the story so I built a timeline to catch up before the Door of Time reopens.<p>Nintendo’s own timeline is the authority here (Hyrule Historia and their chronicle page). The fun part was rethinking how to visualize it. It branches at the end of Ocarina into three eras depending on whether Link wins or loses, so each era is its own thread on the cloth. The threads meet again much later with Breath of the Wild.<p>I had a lot of help from Claude. I’d often thought about building things like this but never found the time between the day job and the rest of life.",
+      "oneLineKo": "젤다 시리즈 연대기를 시각화한 웹사이트 공개",
+      "summaryKo": "오카리나 오브 타임 리메이크 출시를 앞두고, 닌텐도 공식 타임라인(하이랄 히스토리아 기준)을 바탕으로 젤다 시리즈 연대기를 시각화한 웹사이트를 제작했다. 오카리나 오브 타임 엔딩 이후 세 갈래로 갈라지는 시간선을 실처럼 표현해, 각 시대를 별도 흐름으로 보여주고 브레스 오브 더 와일드에서 다시 합쳐지는 구조를 담았다. 제작자는 평소 만들고 싶었던 프로젝트를 Claude의 도움을 받아 완성했다고 밝혔다.",
+      "tags": [
+        "show-hn",
+        "visualization",
+        "gaming"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35595",
+      "title": "JDK 28 - 값 객체 프리뷰와 AOT 코드 컴파일을 포함할 Java SE 28 참조 구현",
+      "url": "https://news.hada.io/topic?id=35595",
+      "commentsUrl": "https://news.hada.io/topic?id=35595",
+      "publishedAt": "2026-10-19T05:44:50+09:00",
+      "snippet": "JDK 28 은 Java SE 28의 참조 구현이 될 릴리스로, 현재 개발 중이며 GPL 기반 사전 체험 바이너리를 제공함 현재 포함 대상으로 지정된 기능에는 값 객체 와 JVM의 엄격한 필드 초기화 가 있으며, 둘 다 프리뷰 단계임 구조화된 동...",
+      "oneLineKo": "JDK 28, 값 객체 프리뷰·AOT 컴파일 등 신기능 예고",
+      "summaryKo": "JDK 28은 Java SE 28의 참조 구현으로 현재 개발 중이며 GPL 기반 사전 체험 바이너리를 제공한다. 포함 예정 기능으로는 값 객체(Value Objects)와 JVM의 엄격한 필드 초기화가 있으며, 둘 다 프리뷰 단계로 제공된다. 이 외에도 구조화된 동시성 관련 기능과 AOT(Ahead-of-Time) 코드 컴파일 지원이 언급되어 성능 및 메모리 효율 개선이 기대된다.",
+      "tags": [
+        "java",
+        "jdk",
+        "aot-compilation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50138531",
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50138531",
+      "publishedAt": "2026-10-18T06:50:36Z",
+      "score": 527,
+      "comments": 253,
+      "snippet": "Search & Fetch | DeepSeek API Docs Skip to main content Search / Fetch API is now available, powered by our in-house search engine and supporting web search and fetch. Click here to view the guide. DeepSeek API Docs Resources Integrations API Status FAQ English English 中文（中国） DeepSeek Platform 中 Quick Start API Guides API Reference News Change Log Vision Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Files API Search & Fetch Context Caching Using the Responses API Using the Anthropic API Search & Fetch On this page Search & Fetch The Search API and the Fetch API give agents and RAG applications access to live web content: Search API finds web pages for a query and returns structured results. It is powered by DeepSeek's in-house search engine. Fetch API retrieves a single web page and returns its content as Markdown. Both are raw JSON APIs. They use the same bearer authentication as the DeepSeek API. The base URL is https://api.deepseek.com : API Endpoint Search POST https://api.deepseek.com/v1/tools/search Fetch POST https://api.deepseek.com/v1/tools/fetch See the Search API Reference and Fetch API Reference for the complete request and response schemas. Authentication ​ Send your API key and the JSON content type in the request headers: Header Required Value Authorization Yes Bearer <DeepSeek API Key> Content-Type Yes application/json Search API ​ Request ​ curl https://api.deepseek.com/v1/tools/search \\ -H \"Authorization: Bearer <DeepSeek API Key>\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"query\": \"DeepSeek V4 release\", \"count\": 5, \"need_content\": true }' import requests response = requests . post ( \"https://api.deepseek.com/v1/tools/search\" , headers = { \"Authorization\" : \"Bearer <DeepSeek API Key>\" , } , json = { \"query\" : \"DeepSeek V4 release\" , \"count\" : 5 , \"need_content\" : True , } , ) response . raise_for_status ( ) for result in response . json ( ) [ \"results\" ] : print ( result [ \"title\" ] , result [ \"url\" ] ) print ( result [ \"summary\" ] ) Request fields: Field Type Required Default Description query string Yes - The search query must contain 1 to 128 Unicode characters, cannot be all whitespace, and supports the query operators listed below. count integer No 10 The number of results to return, between 1 and 50. ori_question string No - The user's original question that triggered the search, between 1 and 128 characters, to improve query understanding, with null treated as not provided. localization string No \"\" An optional IP address used to localize search results. need_content boolean No false Whether to return page content in content , which is always an empty string when false . Unknown fields in the request body are ignored. Query Operators ​ The query is forwarded with its search syntax intact. The examples below combine operators with a search term; you can combine multiple operators in one query. Operator Example Description site: DeepSeek site:github.com",
+      "oneLineKo": "DeepSeek, 웹 검색·페치 API 출시",
+      "summaryKo": "DeepSeek가 자체 검색 엔진 기반의 Search API와 Fetch API를 공개했다. Search API는 쿼리에 대한 구조화된 웹 검색 결과를 반환하고, Fetch API는 단일 웹페이지를 Markdown 형식으로 가져온다. 두 API 모두 DeepSeek API와 동일한 베어러 인증 방식을 사용하며, 1000건의 성공 요청당 0.75달러의 가격으로 제공된다. RAG 애플리케이션이나 에이전트가 실시간 웹 콘텐츠에 접근할 수 있도록 설계되었다.",
+      "tags": [
+        "deepseek",
+        "rag",
+        "api"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35575",
+      "title": "Show GN: AIPath - 생성형 AI 지식을 직무별 시험과 해설로 점검하는 서비스",
+      "url": "https://news.hada.io/topic?id=35575",
+      "commentsUrl": "https://news.hada.io/topic?id=35575",
+      "publishedAt": "2026-10-18T22:09:18+09:00",
+      "snippet": "안녕하세요. 생성형 AI 관련 지식과 상황별 판단을 시험으로 점검할 수 있는 AIPath 를 만들었습니다. ChatGPT, Claude, Gemini를 사용하다 보면 익숙한 기능은 계속 쓰지만 다른 서비스와의 차이나 개발·보안 측면에서 놓치고 있는 내용은 확인하기 어렵습니다. 이런 내용을 분야별로 정리하",
+      "oneLineKo": "직무별 생성형 AI 지식 점검 시험 서비스 'AIPath' 출시",
+      "summaryKo": "AIPath는 생성형 AI 관련 지식과 상황별 판단 능력을 시험 형태로 점검할 수 있는 서비스이다. ChatGPT, Claude, Gemini 등을 사용하면서 놓치기 쉬운 서비스 간 차이점이나 개발·보안 관련 내용을 분야별로 정리해 제공한다. 직무별 시험과 해설을 통해 사용자가 자신의 생성형 AI 활용 지식 수준을 확인할 수 있도록 돕는다.",
+      "tags": [
+        "generative-ai",
+        "chatgpt",
+        "edtech"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50142866",
+      "title": "Namecheap just seized and disabled all my domains",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50142866",
+      "publishedAt": "2026-10-18T16:56:56Z",
+      "score": 378,
+      "comments": 182,
+      "oneLineKo": "Namecheap, 사용자 도메인 전체 압류·비활성화 논란",
+      "summaryKo": "한 사용자가 Namecheap이 자신의 모든 도메인을 압류하고 비활성화했다는 사례를 Reddit에 공유했습니다. 구체적인 사유나 경위는 본문에 제공되지 않았습니다. 도메인 등록업체의 일방적 조치에 대한 사용자들의 우려와 논의를 촉발한 게시물입니다.",
+      "tags": [
+        "domain",
+        "namecheap",
+        "hosting"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50137620",
+      "title": "The Elizabeth Holmes documentary “You Can See Everything” is deceiving",
+      "url": "https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50137620",
+      "publishedAt": "2026-10-18T03:19:49Z",
+      "score": 353,
+      "comments": 495,
+      "snippet": "How the Elizabeth Holmes Doc 'You Can See Everything' Is Deceiving You The Profile Subscribe Sign in How the Elizabeth Holmes Doc 'You Can See Everything' Is Deceiving You Did you realize the film was actually manipulating *you*? Polina Pompliano Oct 16, 2026 65 17 19 Share Holy freaking cow. I saw the new Elizabeth Holmes documentary, You Can See Everything , last night, and I genuinely can’t type fast enough to express how mind-bending it was. I’ve seen a lot of chatter online about whether Elizabeth Holmes is a liar, whether she deserves to be in prison for her failed startup Theranos, and whether the documentary is too sympathetic to her. But that’s not even remotely close to what I took away from it. As we walked out, my husband asked me, “So what did you think?” And I just responded with, “Forget Elizabeth Holmes. That was a masterpiece in storytelling.” Subscribe I walked in expecting that the filmmakers were going to tell us a story about deception. What I did not expect is that they were deceiving us — the viewers — in real time. An entire theater full of grown adults was falling for it. At one point, people were shouting so loudly at the screen that I couldn’t hear the dialogue. I heard a woman yell, “Criminal!” — and it wasn’t directed at Elizabeth Holmes. I’ve never experienced anything like that in a movie theater. It was emotion, and it was visceral. What makes the documentary so brilliant is that it forces you to confront how much of what you believe about another person comes how their story has been told to you. And we are so so susceptible to this that it’s scary. Think about Elizabeth Holmes. How much of your opinion of her comes from the facts of her criminal case & how much comes from the images and/or videos and/or TV dramas you’ve seen over the years? I remember one Halloween when the Theranos scandal was at its peak, it seemed like everyone was dressed in a black turtleneck carrying tiny vials of fake blood. Holmes was everywhere. But the thing that often gets lost in the retelling of her story is that Holmes was actually acquitted of all four charges related to defrauding patients. She’s in prison because a jury found that she knowingly misled investors who poured more than $700 million into the startup. That’s a significant distinction, but as a society, we don’t love nuance. Just tell us — is she good or is she bad? Is she a liar or is she not? I recently wrote about a fascinating experiment Canon conducted in 2015. Six photographers were asked to photograph the same man in the same location. The twist was that each photographer was given a different description of him: a millionaire, a convict, a fisherman, an alcoholic, a psychic, and a lifesaver. The resulting portraits were wildly different. A Canon rep said, “A photograph is shaped more by the person behind the camera than by what’s in front of it.” Now imagine that principle applied to an entire three-hour documentary. Over the course of the film, directors Lance ",
+      "oneLineKo": "엘리자베스 홈즈 다큐멘터리의 관객 조작 기법 분석",
+      "summaryKo": "테라노스 창업자 엘리자베스 홈즈를 다룬 신작 다큐멘터리 'You Can See Everything'에 대한 리뷰로, 저자는 이 영화가 단순히 홈즈의 사기 행각을 다루는 것이 아니라 관객 자신을 실시간으로 속이고 조작한다고 분석한다. 영화관에서 관객들이 화면을 향해 소리치는 등 격한 반응을 보였다는 경험을 언급하며, 우리가 타인에 대한 의견을 형성할 때 사실관계보다 이야기가 전달되는 방식에 얼마나 크게 좌우되는지를 보여준다고 설명한다. 홈즈는 실제로 환자 사기 혐의는 무죄를 받았고 투자자 기만 혐의로만 수감되었다는 세부 사실이 대중의 인식에서 종종 간과된다는 점도 지적한다.",
+      "tags": [
+        "documentary",
+        "media-literacy",
+        "storytelling"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50142573",
+      "title": "Someone behind the software",
+      "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50142573",
+      "publishedAt": "2026-10-18T16:32:00Z",
+      "score": 275,
+      "comments": 114,
+      "snippet": "Someone behind the software · Karri Saarinen Karri Saarinen RSS 𝕏 ☾ Someone behind the software October 15, 2026 I think good products carry something of the people who make them. Their experience, what they care about, and how they think things should work. You might not know who those people are, but you can feel their perspective in the product. The industry often talks about software as though it comes out of a factory. You collect requirements, build features, and measure whether they work. Follow the process and you should get a good result. Now we're talking automating this whole pipeline with agents. But two teams can talk to similar customers, have access to the same technology, and make very different things. The difference comes from how they understand what they see and the style they go about building it. The founder background or company DNA also shapes this a lot. At Linear , we have always valued intuition over process or data. I think people sometimes understand that as making decisions based on personal preference, without much thought or evidence. What we mean by it is that your intuition develops through experience and understanding. You work on something, talk to customers, make mistakes, and learn what to pay attention to. The intuition is your point of view on something, and forcing to use your judgment, not hide behind faceless data. Before we launched, we talked to people across companies and roles about how they worked. We had our own frustrations with this type software, but those conversations helped us understand what mattered beyond our own experience. Our perspective got better after those conversations. So eventually the products develops a character through what its makers pay attention to, what they decide not to do and what they keep working on after it technically works. I sometimes think of this as the soul of a product. You feel that someone cares about how the whole thing comes together. A feature can work perfectly well on its own and still make the product worse. Recognizing that requires some belief about what the product should be. Someone has to make the call, then stay close enough to customers to see whether they were right. Recently, many products are starting to feel messy to me, including products from very successful companies. There seems to be more thought going into what the technology can do and what can be added than the form it should take. The product changes are primarily additive, not improving the core problem. I think the reasons for this is that it's lot easier to add new capabilities, than rethink existing capabilities. So each product becomes a collection of abilities, without actually having unified point of view. I wonder whether some of this comes from how the work is organized. Individuals work with agents to produce changes independently, each operating a small software factory. Each change might make sense on its own, but together they start to resemble Frankenstein’s monster ",
+      "oneLineKo": "좋은 제품엔 만든 사람의 관점과 취향이 담긴다",
+      "summaryKo": "Linear의 창업자 Karri Saarinen은 좋은 제품은 공정이나 데이터가 아니라 만든 사람들의 경험과 직관에서 나온다고 주장한다. 같은 고객과 기술을 가지고도 팀마다 다른 결과물이 나오는 이유는 '제품의 영혼', 즉 무엇에 주목하고 무엇을 하지 않을지에 대한 일관된 관점 때문이다. 최근 많은 제품들이 기능을 단순히 추가하기만 하고 핵심 문제를 재고하지 않아 뒤죽박죽된 느낌을 준다고 지적하며, 이는 개인들이 AI 에이전트와 함께 각자 독립적으로 작은 '소프트웨어 공장'을 운영하는 조직 방식과도 관련 있을 수 있다고 본다.",
+      "tags": [
+        "product-design",
+        "ai-agents",
+        "linear"
+      ]
+    }
+  ]
+}
