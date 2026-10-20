@@ -1,0 +1,277 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T00:50:24.864Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35650",
+      "title": "tmux와 Claude Code: 세션, send-keys, 그리고 한계",
+      "url": "https://news.hada.io/topic?id=35650",
+      "commentsUrl": "https://news.hada.io/topic?id=35650",
+      "publishedAt": "2026-10-20T02:41:11+09:00",
+      "snippet": "tmux 는 AI 코딩 에이전트를 이름 있는 세션에 유지해 터미널을 닫거나 SSH 연결이 끊겨도 작업을 계속하게 하며, 여러 에이전트를 한 창에서 관리할 수 있게 함 최근 Claude Code의 claude --worktree --tmux 는 단일 브랜치에서 작업할 에이전트의 작...",
+      "oneLineKo": "tmux로 Claude Code 세션 유지·관리하는 법과 한계",
+      "summaryKo": "tmux는 AI 코딩 에이전트를 이름 있는 세션에 유지해 터미널 종료나 SSH 연결 끊김에도 작업을 이어가게 하고, 여러 에이전트를 한 창에서 관리할 수 있게 해준다. 최근 Claude Code의 claude --worktree --tmux 기능은 단일 브랜치에서 작업할 에이전트의 작업공간을 tmux와 연동해준다. 다만 send-keys를 이용한 명령 전달 방식에는 여러 한계가 존재한다.",
+      "tags": [
+        "tmux",
+        "claude-code",
+        "cli"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50151036",
+      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50151036",
+      "publishedAt": "2026-10-19T11:24:34Z",
+      "score": 241,
+      "comments": 381,
+      "snippet": "I saw this LinkedIn post from a Meta engineer and it resonated with me:<p><a href=\"https:&#x2F;&#x2F;www.linkedin.com&#x2F;posts&#x2F;ali-hamie_im-an-engineer-at-meta-and-i-never-felt-share-7517317918666211328-7C8N\" rel=\"nofollow\">https:&#x2F;&#x2F;www.linkedin.com&#x2F;posts&#x2F;ali-hamie_im-an-engineer-at-m...</a><p>&gt; I&#x27;m an engineer at Meta and I never felt this uncomfortable doing my job. I&#x27;m writing code these days and it all feels like a black box. This new standard of shipping with AI is moving so fast that if we&#x27;re going to spend our time checking each line of code, it&#x27;s going to take forever. That means you can end up with systems you&#x27;ve built where you don&#x27;t truly understand how all the code works. You understand the high level, but not every detail. And maybe this is becoming the new standard. It goes against every instinct of being a software engineer. I&#x27;m used to understanding what I&#x27;m building. Now I&#x27;m trying to figure out how much I need to understand before I&#x27;m comfortable moving forward. Are other engineers feeling this too?<p>How are you handling this?",
+      "oneLineKo": "AI가 작성한 이해 못 할 코드, 어떻게 배포하나",
+      "summaryKo": "한 Hacker News 사용자가 Meta 엔지니어의 LinkedIn 게시글을 인용하며, AI가 작성한 코드를 완전히 이해하지 못한 채 배포하는 현실에 대한 불편함을 공유했다. 해당 엔지니어는 코드가 블랙박스처럼 느껴지고, AI 기반 개발 속도가 빨라 모든 줄을 검토하기 어렵다고 토로했다. 이는 엔지니어가 시스템을 세부적으로 이해해야 한다는 기존 직업 본능과 충돌하는 새로운 표준이 되고 있다는 문제의식을 제기한다. 글쓴이는 다른 개발자들도 이런 경험을 하는지, 어떻게 대처하는지 커뮤니티에 질문을 던졌다.",
+      "tags": [
+        "ai-coding",
+        "software-engineering",
+        "llm"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xa3cyt",
+      "title": "Campfire port in Java is faster than Rust. Some thoughts about JEP 544 (AOT Code Compilation)",
+      "url": "https://www.reddit.com/r/programming/comments/1xa3cyt/campfire_port_in_java_is_faster_than_rust_some/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xa3cyt/campfire_port_in_java_is_faster_than_rust_some/",
+      "publishedAt": "2026-10-19T17:34:40+00:00",
+      "snippet": "submitted by /u/henk53 [link] [comments]",
+      "oneLineKo": "Java판 Campfire가 Rust보다 빨라...JEP 544 AOT 컴파일 고찰",
+      "summaryKo": "Campfire를 Java로 포팅한 결과 Rust 버전보다 성능이 더 빠르게 나타났다는 사례가 공유됐다. 이를 계기로 Java의 AOT(Ahead-of-Time) 코드 컴파일을 다루는 JEP 544에 대한 논의가 이어진다. 글쓴이는 JVM의 JIT 최적화와 AOT 컴파일 방식의 성능 특성을 비교하며 생각을 정리한다. Reddit 커뮤니티에서는 언어별 성능 비교와 AOT 도입의 의미에 대한 토론이 벌어지고 있다.",
+      "tags": [
+        "java",
+        "rust",
+        "jvm"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35647",
+      "title": "Superlite - Superpowers보다 빠른 Claude Code 플러그인",
+      "url": "https://news.hada.io/topic?id=35647",
+      "commentsUrl": "https://news.hada.io/topic?id=35647",
+      "publishedAt": "2026-10-20T00:46:43+09:00",
+      "snippet": "Claude Code의 개발 절차를 체계화하는 Superpowers를 바탕으로, 반복 승인과 순차 실행을 줄인 플러그인 . 명세를 넘기면 계획부터 병렬 구현, 테스트와 리뷰까지 진행 사람이 계획을 한 번 승인하거나 AI가 스스로 결정하며 진행하는 방식 을 선택 가능. 결정한 내...",
+      "oneLineKo": "Superpowers보다 빠른 Claude Code 플러그인 Superlite 공개",
+      "summaryKo": "Superlite는 Claude Code의 개발 절차를 체계화한 Superpowers를 기반으로, 반복적인 승인과 순차 실행을 줄여 속도를 높인 플러그인이다. 명세를 입력하면 계획 수립부터 병렬 구현, 테스트, 리뷰까지 자동으로 진행된다. 사용자는 계획을 한 번만 승인하는 방식이나 AI가 스스로 결정해 진행하는 방식 중 선택할 수 있다.",
+      "tags": [
+        "claude-code",
+        "llm",
+        "developer-tools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50150434",
+      "title": "Timestral: Mistral's time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50150434",
+      "publishedAt": "2026-10-19T09:59:32Z",
+      "score": 537,
+      "comments": 101,
+      "snippet": "Timestral: Mistral's time-series foundation models | Mistral Get in touch Menu Research Sovereign AI Cloud Customers Company Get in touch Login Why Sovereign AI Products Method Sovereign AI in practice Inference Compute Energy & utilities Manufacturing Financial services Public sector All customers Blog Docs About us Careers Research Sovereign AI Cloud Customers Company Why Sovereign AI Products Method Sovereign AI in practice Inference Compute Energy & utilities Manufacturing Financial services Public sector All customers Blog Docs About us Careers Get in touch --> Login Studio Vibe Research Introducing Timestral October 15, 2026 By Mistral Back to Blog 9 min read Share this post Copy url to clipboard Copied Thinking Summary Timestral, Mistral’s first family of time-series foundation models, delivers state-of-the-art probabilistic, multivariate forecasts with just 209M parameters, outperforming larger models on key benchmarks while supporting past and future covariates. Available in four sizes (5M to 209M parameters), it balances accuracy and efficiency, running efficiently on CPUs and excelling in zero-shot forecasting for diverse domains. The model combines synthetic pre-training, covariate-aware attention, and long-context learning, with fine-tuning options for domain adaptation via Mistral Forge. Today, we’re releasing Timestral, our first family of time-series foundation models. Our largest model, at just 209M parameters, ranks first on all three of the field's main public benchmarks, GIFT-Eval, TIME, and fev-bench, outperforming the previous state of the art with only two-thirds of the model parameters. Timestral delivers probabilistic, multivariate forecasts and supports past-only and known-future covariates. Our family of models sits on the Pareto front of forecasting accuracy versus model size, delivering leading performance at each size. Results have been submitted to the GIFT-Eval and TIME leaderboards. Time Series Foundation Models (TSFM) Time series is one of the most common data types in enterprise, from sensor telemetry to observability metrics. Forecasts built on it drive decisions in capacity planning, energy, supply chains, risk and maintenance. Industrial plants forecast process sensors against the production schedule, catch equipment drift before it fails, and plan capacity and spare parts across thousands of assets. Finance teams forecast flows, volumes, and volatility to inform positions, hedging, and treasury across thousands of accounts. Classical models such as ARIMA and linear regression remain well-established tools for forecasting time series. These models are usually fitted to a single series and learn only from that series' history. Deep learning models such as PatchTST add the capacity to learn nonlinear patterns across many related series, but they are still typically trained from scratch on each dataset, so what they learn doesn't carry over to new domains. Time series foundation models bring the pre-training app",
+      "oneLineKo": "Mistral, 시계열 예측 파운데이션 모델 'Timestral' 공개",
+      "summaryKo": "Mistral이 시계열 예측을 위한 첫 파운데이션 모델 패밀리 Timestral을 출시했다. 5M~209M 파라미터의 4가지 크기로 제공되며, 최대 모델인 209M 파라미터 버전은 GIFT-Eval, TIME, fev-bench 등 주요 벤치마크에서 더 큰 기존 모델들을 제치고 1위를 기록했다. 확률적·다변량 예측과 과거/미래 공변량(covariate)을 지원하며, 합성 데이터 사전학습과 covariate-aware attention, 장기 컨텍스트 학습을 결합했다. CPU에서도 효율적으로 동작하며 Mistral Forge를 통한 도메인 특화 파인튜닝도 가능하다.",
+      "tags": [
+        "time-series-forecasting",
+        "foundation-model",
+        "mistral-ai"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xa9h5w",
+      "title": "The reverts will continue until morale improves [PostgreSQL 19]",
+      "url": "https://www.reddit.com/r/programming/comments/1xa9h5w/the_reverts_will_continue_until_morale_improves/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xa9h5w/the_reverts_will_continue_until_morale_improves/",
+      "publishedAt": "2026-10-19T21:20:23+00:00",
+      "snippet": "submitted by /u/currentscurrents [link] [comments]",
+      "oneLineKo": "PostgreSQL 19 개발 중 기능 revert 반복 논란",
+      "summaryKo": "PostgreSQL 19 개발 과정에서 특정 기능들이 커밋 후 반복적으로 revert되는 상황을 풍자한 Reddit 게시글입니다. 제목은 'The beatings will continue until morale improves'라는 표현을 패러디해 개발 커뮤니티 내 반복되는 revert 과정에 대한 불만 또는 유머를 담고 있습니다. 본문 내용이 제공되지 않아 구체적으로 어떤 기능이 revert되었는지는 알 수 없습니다.",
+      "tags": [
+        "postgresql",
+        "database",
+        "open-source"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35612",
+      "title": "T3 Code - 여러 AI 코딩 에이전트를 PC와 휴대폰에서 관리하는 앱",
+      "url": "https://news.hada.io/topic?id=35612",
+      "commentsUrl": "https://news.hada.io/topic?id=35612",
+      "publishedAt": "2026-10-19T09:40:02+09:00",
+      "snippet": "기존 Claude Code/Codex 등의 계정과 구독을 그대로 사용 하면서, PC에서 실행 중인 코딩 작업을 휴대폰에서도 확인하고 이어갈 수 있는 앱 Claude Code, Codex, Cursor, Grok Build, OpenCode, Google Antigravity 지원 기존 에이전트의 계정과 구독을 그...",
+      "oneLineKo": "여러 AI 코딩 에이전트를 PC·모바일서 통합 관리하는 앱",
+      "summaryKo": "T3 Code는 Claude Code, Codex, Cursor, Grok Build, OpenCode, Google Antigravity 등 다양한 AI 코딩 에이전트를 하나의 앱에서 관리할 수 있게 해주는 도구이다. 기존에 사용하던 각 에이전트의 계정과 구독을 그대로 유지한 채 사용 가능하다. PC에서 실행 중인 코딩 작업을 휴대폰에서도 확인하고 이어서 작업할 수 있는 것이 핵심 기능이다.",
+      "tags": [
+        "ai-coding-agent",
+        "claude-code",
+        "developer-tools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50152307",
+      "title": "Wine ported to OpenBSD",
+      "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50152307",
+      "publishedAt": "2026-10-19T13:35:34Z",
+      "score": 489,
+      "comments": 163,
+      "snippet": "'emulators/wine' - MARC [ prev in list ] [ next in list ] [ prev in thread ] [ next in thread ] List: openbsd-ports Subject: emulators/wine From: Thomas Frohwein <tfrohwein () fastmail ! com> Date: 2026-10-18 22:08:43 Message-ID: 20261018150843.271e0c06 () babcom6 ! home ! arpa [Download RAW message or body ] Hello, In what might the most surprising port proposal of the year, I'm proud to present a new port for wine. This has been a collective effort, after some of the prodding at the %gs/gsbase question (see thread [1] ). The gates swung open with Andrii's software solution to the %gs issue - explanation to me: \"can't set gsbase, so we are emulating %gs prefix on commands\". Overall, the heavy lifting was done by Andrii and Fabien - kudos. Turns out there is a ground-swell with interest in wine [2] , different than even 5-10 years ago because a lot of Windows software has since moved to being 64bit. We have since tested several dozens of 64-bit Windows software, mostly successfully. See screenshots at [3][4] [5] , livestream recordings at [6] for example. Even the Remaster of The Witcher 3 which released just last month runs, and runs well (requires adding in vkd3d-proton; see README; livestream at [7] which looks less fluent than it is due to the on-system recording with ffmpeg). Biggest limitation is that WoW64 doesn't work, so 32bit Windows software is still a no-op. You can check .exe/.dll easily with file(1) - if it says something like \"MS-DOS executable PE for MS Windows (GUI) Intel 80386 32-bit\", then it's 32-bit. The builtin-tests are disabled for now. Enabling them is pretty involved as they need access to the X server and multiple tests still hang, however that was not observed in the real life testing with a good number of games. This is still being worked on. For those who wish to test it, I suggest Notepad++ as a small, fairly straightforward piece of 64-bit Windows software [8] . Note that this is (as always) run-at-your-own-risk software (see [9] ). Consider setting up a separate, non-privileged user for this until we can explore if some fencing in, potentially with unveil(2) can be done. Appreciate testing of the port draft and contributions by: brynet@, bentley@, pertho (on irc.libera.chat #openbsd-gaming), vl_ms ok? [1] https://marc.info/?l=openbsd-tech&m=179067466617674&w=2 [2] https://marc.info/?l=openbsd-tech&m=179070170845285&w=2 [3] https://old.reddit.com/r/openbsd_gaming/comments/1x4e7fi/some_samples_from_wip_wine_port/ [4] https://old.reddit.com/r/openbsd_gaming/comments/1x5yxpu/more_wineonopenbsd_screenshots/ [5] https://old.reddit.com/r/openbsd_gaming/comments/1x7z2ry/even_more_wineonopenbsd_proof/ [6] https://video.gamerstavern.online/w/8tjjFRDtGJQZwxfE4ojVoC [7] https://video.gamerstavern.online/w/oZcTRKL5JMiU4M4FqGKcNH [8] https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.8.1/npp.8.9.8.1.portable.x64.zip [9] https://gitlab.winehq.org/wine/wine/-/wikis/FAQ#is-wine-malware-compatible [Attach",
+      "oneLineKo": "OpenBSD에 64비트 Wine 포팅 포트 공개",
+      "summaryKo": "OpenBSD 포트 메일링리스트에 Wine을 이식한 새로운 포트(emulators/wine)가 제안되었다. gsbase 제약을 %gs 프리픽스 에뮬레이션으로 우회하는 방식으로 문제를 해결했으며, 다수의 64비트 윈도우용 소프트웨어와 게임(위쳐3 리마스터 포함)이 테스트되어 대부분 정상 동작했다. 다만 WoW64 미지원으로 32비트 윈도우 프로그램은 실행이 불가능하며, 빌트인 테스트는 아직 비활성화된 상태다.",
+      "tags": [
+        "wine",
+        "openbsd",
+        "emulation"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35667",
+      "title": "사이트 가이드라인과 AI/LLM 태그 변경",
+      "url": "https://news.hada.io/topic?id=35667",
+      "commentsUrl": "https://news.hada.io/topic?id=35667",
+      "publishedAt": "2026-10-20T09:03:37+09:00",
+      "snippet": "Lobsters가 독자의 시간과 지성을 존중하는 컴퓨팅 콘텐츠 에 집중하도록 주제 적합성과 자기 홍보 규칙을 명확히 하고, AI/LLM 태그를 개편함 예정된 배포 이후에는 코드 저장소 자체를 제출할 수 없으며 , 코드의 제작 이유, 목적, 해결한 과제와 유용성을 다룬 콘...",
+      "oneLineKo": "Lobsters, 사이트 가이드라인·AI/LLM 태그 개편",
+      "summaryKo": "Lobsters는 독자의 시간과 지성을 존중하는 컴퓨팅 콘텐츠에 집중하기 위해 주제 적합성과 자기 홍보 규칙을 명확히 하고 AI/LLM 태그를 개편할 예정이다. 변경 이후에는 코드 저장소 자체만 단독으로 제출할 수 없으며, 코드의 제작 배경과 목적, 해결한 문제, 유용성 등을 설명하는 콘텐츠를 함께 제출해야 한다.",
+      "tags": [
+        "lobsters",
+        "llm",
+        "community-guidelines"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50134472",
+      "title": "It's still ok to enjoy programming",
+      "url": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50134472",
+      "publishedAt": "2026-10-17T19:53:20Z",
+      "score": 424,
+      "comments": 402,
+      "snippet": "It's still OK to enjoy programming - Blogomatano About Projects Contact Book Halp! RSS It's still OK to enjoy programming Published: 2026-10-17 Reading Hacker News makes me feel like I need to write this: it's still OK to enjoy programming . Yes, at work, where you are paid to produce value for a business, the economics of purely hand-written code have changed. But that's work. Work is not life. The loudest voices on the internet are the saddest and most infectious. To throw a tiny counter example in the sea of despair: I still program on the weekends because it is fun. I'm currently learning game programming! My current level of sophistication is a buggy Breakout clone with terrible collision detection. I write it by hand because I enjoy it. I struggle with problems because solving them makes me happy. It doesn't bother me that Claude could one-shot it, because that's not the point. I also get side-tracked from working on this \"game\" to study random programming topics. Last weekend was exploring how far I could push type safety in Java using ideas from dependently typed languages like Agda . There is no point to this. It gets tucked away under \"interesting ways of thinking about a particular problem.\" Maybe it will come up in work life. Maybe not. I did it because exploring is was fun [0] . A few weekends ago: recursion schemes . Technically, this was not fun. I spent hours of banging my head against a wall. In the end, I still don't even know what's valuable about the ideas [1] . But I do know that many of the most beautiful ideas in programming only become clear to me after years of baking in my mind. It's why entire papers get written about Monoids . Maybe one day I'll find a problem that this applies to. Maybe not. I did it because understanding hard things is rewarding. I write this because I increasingly feel a strange social pressure. It's like I'm not \"supposed\" to enjoy this any more. As though there's no point or joy to be had in continuing to grow as a human. The more of this doom stream you consume, the more it starts to infect you. Maybe \"there is no point,\" you find yourself thinking. But this disappears as soon as you disconnect. It's OK to enjoy things [2] . Doing so requires no economic justification. Footnotes: [0] Take the time to understand Fin one day. It is beautiful. [1] I'm not there yet, but the goal of studying this is to give myself another tool for reasoning about program correctness algebraically (a topic I cover in my book !) [2] I also have a blast vibe-coding. I've got a suite of apps for which I've never looked at a line of code. I suspect doing so would horrify me. \"Programming\" this way is also fun. Often extremely so. But in its own unique way. Copyright © 2014-2026 Made by a human being. Not GPT",
+      "oneLineKo": "AI 시대에도 프로그래밍 취미는 여전히 즐겁다",
+      "summaryKo": "저자는 AI가 코드를 대신 작성할 수 있는 시대지만, 취미로 프로그래밍을 즐기는 것은 여전히 괜찮다고 말한다. 주말마다 게임 프로그래밍, 타입 안전성 탐구, 재귀 스킴 등 실용성과 무관하게 흥미로운 주제를 직접 공부하고 구현하며 즐거움을 느낀다는 경험을 공유한다. 인터넷상의 비관적 분위기에 휩쓸리지 말고, 경제적 정당화 없이도 취미로서 프로그래밍을 즐길 수 있다는 메시지를 전한다.",
+      "tags": [
+        "programming",
+        "hobby-coding",
+        "ai"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35651",
+      "title": "Harness Engineering 101 - Python 약 300줄로 배우는 AI 에이전트 구현",
+      "url": "https://news.hada.io/topic?id=35651",
+      "commentsUrl": "https://news.hada.io/topic?id=35651",
+      "publishedAt": "2026-10-20T02:44:11+09:00",
+      "snippet": "순수 Python으로 약 300줄의 AI 에이전트를 만들며 작동 원리를 배우는 입문서 . 프레임워크나 SDK 없이 HTTP 요청부터 시작해, 16개 장에 걸쳐 실행 가능한 작은 코딩 에이전트로 확장 LLM은 두뇌, 하네스는 몸 이라는 비유에서 출발. 모델에 전달할 대화를 관리하고...",
+      "oneLineKo": "순수 Python 300줄로 배우는 AI 에이전트 구현 입문서",
+      "summaryKo": "프레임워크나 SDK 없이 순수 Python만으로 약 300줄의 코드를 작성하며 AI 에이전트의 작동 원리를 배우는 입문 자료이다. HTTP 요청부터 시작해 16개 장에 걸쳐 점진적으로 실행 가능한 코딩 에이전트로 확장해 나간다. 'LLM은 두뇌, 하네스는 몸'이라는 비유를 바탕으로 모델에 전달할 대화 관리 등 에이전트 하네스의 핵심 구조를 설명한다.",
+      "tags": [
+        "ai-agent",
+        "python",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50150089",
+      "title": "I built a drone with only one motor [video]",
+      "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50150089",
+      "publishedAt": "2026-10-19T09:05:07Z",
+      "score": 367,
+      "comments": 77,
+      "snippet": "- YouTube About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket &copy; 2026 Google LLC",
+      "oneLineKo": "모터 하나로 작동하는 드론 제작 영상",
+      "summaryKo": "유튜브에 올라온 영상으로, 제작자가 단 하나의 모터만 사용해 드론을 만든 과정을 소개한다. 본문에는 구체적인 기술 설명 없이 영상 링크와 유튜브 관련 정보만 포함되어 있다. 일반적인 드론과 달리 단일 모터로 비행 제어를 구현했다는 점이 핵심으로 보인다.",
+      "tags": [
+        "drone",
+        "hardware"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35608",
+      "title": "AI 에이전트에게 고치라고 시켰더니 \"수정했습니다\" 라는 답만 오고 파일 md5 는 그대로였다",
+      "url": "https://news.hada.io/topic?id=35608",
+      "commentsUrl": "https://news.hada.io/topic?id=35608",
+      "publishedAt": "2026-10-19T09:36:27+09:00",
+      "snippet": "서브에이전트에게 파일을 고치라고 맡기면 정말 고칠까요? 빈 폴더에서 Claude Code 2.1.281 과 haiku 로 세 번 돌려 보니, 큰 AI 가 \"수정했습니다\" 라고 보고한 순간에도 calc.py 는 한 글자도 바뀌지 않았습니다. $ claude -p --model haiku --setting-sources project --tools \"Agent,Read",
+      "oneLineKo": "AI 서브에이전트가 수정 완료 보고해도 실제 파일은 불변",
+      "summaryKo": "Claude Code와 haiku 모델을 이용해 서브에이전트에게 파일 수정을 맡기고 실험한 결과, '수정했습니다'라는 보고에도 불구하고 실제 calc.py 파일의 MD5 해시는 변경되지 않았다. 빈 폴더에서 세 차례 반복 실험했으나 동일한 현상이 재현되어, AI 에이전트의 작업 완료 보고를 신뢰할 수 없다는 문제가 드러났다. 이는 AI 코딩 에이전트 사용 시 결과 검증의 중요성을 시사한다.",
+      "tags": [
+        "llm",
+        "ai-agent",
+        "claude"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50150927",
+      "title": "Alternatives to animal testing are finally taking off",
+      "url": "https://spectrum.ieee.org/alternatives-to-animal-testing",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50150927",
+      "publishedAt": "2026-10-19T11:10:54Z",
+      "score": 316,
+      "comments": 94,
+      "snippet": "--> Raven.config('https://6b64f5cc8af542cbb920e0238864390a@sentry.io/147999').install(); Alternatives to Animal Testing Are Finally Taking Off - IEEE Spectrum IEEE.org IEEE Xplore IEEE Standards IEEE Job Site More Sites Sign In Join IEEE Tech to Replace Animal Testing Is Almost Ready. Scientists Are Not Share FOR THE TECHNOLOGY INSIDER Search: Explore by topic Aerospace AI Biomedical Climate Tech Computing Consumer Electronics Energy History of Technology Robotics Semiconductors Telecommunications Transportation IEEE Spectrum FOR THE TECHNOLOGY INSIDER Topics Aerospace AI Biomedical Climate Tech Computing Consumer Electronics Energy History of Technology Robotics Semiconductors Telecommunications Transportation Sections Features News Opinion Careers DIY Engineering Resources More Newsletters Special Reports Collections Explainers Top Programming Languages Robots Guide ↗ IEEE Job Site ↗ For IEEE Members Current Issue Magazine Archive The Institute The Institute Archive For IEEE Members Current Issue Magazine Archive The Institute The Institute Archive IEEE Spectrum About Us Contact Us Reprints & Permissions ↗ Advertising ↗ Follow IEEE Spectrum Support IEEE Spectrum IEEE Spectrum is the flagship publication of the IEEE — the world’s largest professional organization devoted to engineering and applied sciences. Our articles, videos, and infographics inform our readers about developments in technology, engineering, and science. Subscribe About IEEE Contact & Support Accessibility Nondiscrimination Policy Terms IEEE Privacy Policy Cookie Preferences Ad Privacy Options © Copyright 2026 IEEE — All rights reserved. A public charity, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. Enjoy more free content and benefits by creating an account Saving articles to read later requires an IEEE Spectrum account The Institute content is only available for members Downloading full PDF issues is exclusive for IEEE Members Downloading this e-book is exclusive for IEEE Members Access to Spectrum 's Digital Edition is exclusive for IEEE Members Following topics is a feature exclusive for IEEE Members Adding your response to an article requires an IEEE Spectrum account Create an account to access more content and features on IEEE Spectrum , including the ability to save articles to read later, download Spectrum Collections, and participate in conversations with readers and editors. For more exclusive content and features, consider Joining IEEE . Join the world’s largest professional organization devoted to engineering and applied sciences and get access to all of Spectrum’s articles, archives, PDF downloads, and other benefits. Learn more about IEEE → Join the world’s largest professional organization devoted to engineering and applied sciences and get access to this e-book plus all of IEEE Spectrum’s articles, archives, PDF downloads, and other benefits. Learn more about IEEE → CREATE AN ACCO",
+      "oneLineKo": "동물실험 대체 기술, 상용화 본격화",
+      "summaryKo": "IEEE Spectrum에 따르면 동물실험을 대체할 수 있는 신기술들이 마침내 실용화 단계에 접어들고 있다. 기사는 관련 기술이 거의 준비됐지만 과학계의 수용은 아직 더딘 상황임을 다루고 있다. 구체적인 기술 내용이나 사례는 본문에서 확인되지 않는다.",
+      "tags": [
+        "biomedical",
+        "animal-testing-alternatives"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50154624",
+      "title": "Android apps running native on macOS",
+      "url": "https://github.com/kksimp/Mac.apk",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50154624",
+      "publishedAt": "2026-10-19T16:45:30Z",
+      "score": 248,
+      "comments": 127,
+      "snippet": "GitHub - kksimp/Mac.apk: Mac.apk: Run Android apps natively on Apple Silicon Macs · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} kksimp Mac.apk Repository navigation Code Issues 8 ( 8 ) Pull requests Actions Projects Wiki Security and quality Insights More items Mac.apk Public Sponsor Notifications You must be signed in to change notification settings Fork 10 ( 10 ) Star 566 ( 566 ) You must be signed in to star a repository About Mac.apk: Run Android apps natively on Apple Silicon Macs projects.voltare.us/macapk.html Topics android android-apps android-on-mac apple-silicon apple-silicon-mac arm64 compatibility-layer macos macos-app metal Resources Readme AGPL-3.0 license Contributing Contributing Security policy Security policy Activity Stars 566 stars Watchers 0 watching Forks 10 forks Report repository main Branches Tags Go to file Code Open more actions menu Latest commit History 63 Commits 63 Commits Folders and files Name Name Last commit message Last commit date .github .github debug debug images images launcher launcher runtime runtime scripts scripts signatures signatures thi",
+      "oneLineKo": "애플 실리콘 맥에서 안드로이드 앱 네이티브 실행",
+      "summaryKo": "Mac.apk는 애플 실리콘(M1/M2 등) 맥에서 안드로이드 앱을 네이티브로 구동할 수 있게 해주는 오픈소스 프로젝트입니다. ARM64 아키텍처와 Metal 그래픽스를 활용해 호환성 계층을 구현한 것이 특징입니다. AGPL-3.0 라이선스로 공개되어 있으며 GitHub에서 활발히 관리되고 있습니다.",
+      "tags": [
+        "android",
+        "macos",
+        "apple-silicon"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50150809",
+      "title": "Let's Encrypt is adding two additional remote perspectives for domain validation",
+      "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50150809",
+      "publishedAt": "2026-10-19T10:53:39Z",
+      "score": 241,
+      "comments": 76,
+      "snippet": "Let's Encrypt is adding two additional remote perspectives for domain validation - API Announcements - Let's Encrypt Community Support = 40rem)\" rel=\"stylesheet\" data-target=\"discourse-ai_desktop\" /> = 40rem)\" rel=\"stylesheet\" data-target=\"discourse-events_desktop\" /> = 40rem)\" rel=\"stylesheet\" data-target=\"discourse-reactions_desktop\" /> = 40rem)\" rel=\"stylesheet\" data-target=\"poll_desktop\" /> Let's Encrypt Community Support Let's Encrypt is adding two additional remote perspectives for domain validation API Announcements Phil October 15, 2026, 2:14pm 1 Hey everybody, Let's Encrypt is adding two new remote perspectives for domain validation. This change is motivated by the fact that increased perspectives provide more domain validation security and is required by the Baseline Requirements which is quoted below. Increasing the number and coverage of our domain validation perspectives improves visibility and protection against BGP attacks. BR 3.2.2.9 Multi Perspective Issuance Corroboration Effective 2026-12-15, the CA MUST implement Multi-Perspective Issuance Corroboration using at least five (5) remote Network Perspectives. The CA MUST ensure that the requirements defined in Quorum Requirements Table are satisfied, and the remote Network Perspectives that corroborate the Primary Network Perspective fall within the service regions of at least two (2) distinct Regional Internet Registries. If the requirements are not satisfied, then the CA MUST NOT proceed with issuance of the Certificate. During domain validation, this means that we will make seven total validation requests, one from the primary datacenter and six from remote perspectives (previously four) . For validation to succeed, the primary server and a quorum of remote perspectives must receive the correct challenge response. This makes it more difficult for attackers to hijack validation requests. To learn more about multi-perspective domain validation, please see our earlier blog post when Let's Encrypt first added new perspectives. We expect little to no impact to users. Let's Encrypt will begin performing domain validation with the new regions in staging on Tuesday, October 27th, 2026 . Assuming all goes well, we will do the production rollout on Tuesday, November 10th, 2026 . Updates will be posted in this thread. Happy issuance! 14 Likes Related topics Topic Replies Views Activity Let's Encrypt is adding two new remote perspectives for domain validation API Announcements 2 8311 March 27, 2024 Multi-Perspective Validation & Geoblocking FAQ Issuance Tech 6 7820 May 16, 2024 Let’s Encrypt Domain Multiple Perspective Validation Ordering Change API Announcements 0 752 June 13, 2024 Unexpected renewal failures since April 2024? Please read this! Help 0 28604 April 19, 2024 ACME v1/v2: Validating challenges from multiple network vantage points API Announcements 5 49277 June 23, 2020 Home Categories Guidelines Terms of Service Privacy Policy Powered by Discourse , best viewed with JavaScript",
+      "oneLineKo": "Let's Encrypt, 도메인 검증 원격 지점 2곳 추가",
+      "summaryKo": "Let's Encrypt가 도메인 검증 보안 강화를 위해 원격 네트워크 관점(perspective) 2개를 추가한다. 이는 CA/Browser Forum 기준(BR 3.2.2.9)이 요구하는 '다중 관점 발급 검증(Multi-Perspective Issuance Corroboration)'을 충족하기 위한 조치로, 2026년 12월 15일부터 최소 5개의 원격 관점을 사용해야 한다. 변경 후에는 주 데이터센터 1곳과 원격 6곳을 포함해 총 7건의 검증 요청이 이루어지며, BGP 하이재킹 공격 방어 효과가 강화된다. 스테이징은 2026년 10월 27일, 프로덕션 적용은 11월 10일에 예정되어 있다.",
+      "tags": [
+        "letsencrypt",
+        "tls",
+        "domain-validation"
+      ]
+    }
+  ]
+}
