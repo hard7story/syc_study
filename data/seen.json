@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=33945",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=33945",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49764791",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "john.hartnup.uk/2026/06/07/ai-event-posters.html",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "t3_1wjurwy",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wjurwy/leave_the_class_path_in_the_rearview_mirror",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33923",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=33923",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49767937",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "t3_1wkrfqw",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wkrfqw/you_can_run_git_on_object_storage_if_you_remake",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33957",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=33957",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49768921",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33956",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=33956",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49765348",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "laya.convaiinnovations.com",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33939",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=33939",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49754785",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "try.cloudflare.com",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33931",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=33931",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49763697",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49763296",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "onionfutures.com",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49763987",
-    "date": "2026-09-20"
-  },
-  {
-    "id": "prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-    "date": "2026-09-20"
-  },
-  {
     "id": "https://news.hada.io/topic?id=33978",
     "date": "2026-09-21"
   },
@@ -3526,5 +3398,133 @@
   {
     "id": "community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
     "date": "2026-10-20"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35676",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "news.hada.io/topic?id=35676",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50165953",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "blog.cloudflare.com/typescript-rust-port",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "t3_1xaz5ur",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xaz5ur/announcing_typescript_71_beta",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35707",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "news.hada.io/topic?id=35707",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50163277",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "github.com/deepseek-ai/DeepInfer",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "t3_1xarfxg",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xarfxg/go_issues_emergency_update_blocking_eight_ca_keys",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35689",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "news.hada.io/topic?id=35689",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50166579",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "emudhra.we-have-a-problem.com",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35721",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "news.hada.io/topic?id=35721",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50170593",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "permit.petercai.com",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35670",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "news.hada.io/topic?id=35670",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50165208",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35708",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "news.hada.io/topic?id=35708",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50167536",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "mastodon.gamedev.place/@AshleyGullen/117473851565913919",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50162177",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "github.com/microg/GmsCore/wiki",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50163961",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more",
+    "date": "2026-10-21"
   }
 ]

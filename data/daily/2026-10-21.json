@@ -1,0 +1,276 @@
+{
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T00:17:16.121Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35676",
+      "title": "Show GN: Review Inbox - 리뷰 기다리는 PR을 Claude Code 입력창 위에 띄워 주는 mod",
+      "url": "https://news.hada.io/topic?id=35676",
+      "commentsUrl": "https://news.hada.io/topic?id=35676",
+      "publishedAt": "2026-10-20T10:28:32+09:00",
+      "snippet": "2주전부터 제 Claude Code 입력창 위에는 노란 줄이 하나 떠 있습니다. 동료의 PR이 사흘째 제 리뷰를 기다리고 있다는 뜻입니다. Claude Code를 쓰고부터 하루 대부분을 터미널에서 보내다 보니, PR을 올리는 속도는 빨라졌는데 리뷰 요청은 오히려 놓치게 되었습니다. GitHub 알림 탭을 열 일이 없어졌거든요",
+      "oneLineKo": "Claude Code 입력창에 PR 리뷰 알림 띄우는 mod 공개",
+      "summaryKo": "Claude Code를 주로 사용하면서 GitHub 알림 탭을 거의 열지 않게 되어 PR 리뷰 요청을 놓치는 문제를 해결하기 위해 만든 도구입니다. Review Inbox는 리뷰를 기다리는 PR 정보를 Claude Code 입력창 위에 노란 줄로 표시해줍니다. 터미널 작업에 집중하면서도 동료의 리뷰 요청을 놓치지 않도록 돕는 mod입니다.",
+      "tags": [
+        "claude-code",
+        "github",
+        "developer-tools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50165953",
+      "title": "Tsrs: A Port of TypeScript to Rust",
+      "url": "https://blog.cloudflare.com/typescript-rust-port/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50165953",
+      "publishedAt": "2026-10-20T13:18:07Z",
+      "score": 336,
+      "comments": 154,
+      "snippet": "Introducing tsrs: a Port of TypeScript to Rust | Cloudflare Blog Skip to content All Categories AI Developers Radar Product News Security Policy & Legal Zero Trust Speed & Reliability Life at Cloudflare Partners Switch Site Language English Deutsch Español Español (Latinoamérica) Français Italiano 日本語 한국어 繁體中文 简体中文 Português Русский Bahasa Indonesia ภาษาไทย Tiếng Việt Polski العربية עברית Svenska Nederlands Türkçe Login Dashboard Contact Sales Blog Developer Platform JavaScript Open Source 3 Tags Show 3 tags Post Tags Developer Platform JavaScript Open Source All tags Matching tags No tags found 1.1.1.1 2FA Abuse Access Access Control Lists (ACLs) Accessibility Account Takeover Acquisitions Addressing Advanced Certificate Manager Advanced DDoS Advertising Aegis AEO Africa Afroflare Agent Cloud Agent Development Lifecycle Agent Readiness Agents Agents Week Agents Week 2026 AI AI Bots AI Gateway AI Search AI WAF AI Week AI-SPM Alertmanager Always Online AMD AMP Analytics Anonymous Anti Malware Anycast API API Gateway API Security API Shield APJC Apple Application Security Application Services Area 1 Security Argo Smart Routing ASCII Asia Athenian Project Atlassian Attacks Audit Logs Austin Australia Authentication Authy Auto Rag Automatic HTTPS Automatic Platform Optimization Automation AutoMinify Awards AWS Baidu Bandwidth Alliance Bandwidth Costs Best Practices Beta Better Internet BGP Billing Birthday Week Black Friday Blackbird Bot Fight Mode Bot Management Botnet Bots BPF Brand Brand Protection Brazil Browser Insights Browser Rendering Browser Run Bug Bounty Bugs BYOIP Cache Cache Purge Cache Reserve Cache Rules California Canada Cap'n Proto CAPTCHA Careers CASB Categories CDN CDNJS Certificate Authority Certificate Pinning Certificate Transparency Certification CFSSL Challenge Page ChatGPT China China Network Christmas Chrome CIO Week CISA Claire CLI ClickHouse Clientless Clientless Web Isolation Cloud Connector Cloud Email Security Cloudflare Access Cloudflare Apps Cloudflare Area 1 Cloudflare Calls Cloudflare Email Service Cloudflare for Campaigns Cloudflare for SaaS Cloudflare for Startups Cloudflare Gateway Cloudflare History Cloudflare Images Cloudflare Media Platform Cloudflare Meetups Cloudflare Network Cloudflare One Cloudflare One Client Cloudflare One User Risk Score Cloudflare One Week Cloudflare OS Cloudflare Pages Cloudflare Polish Cloudflare Queues Cloudflare Realtime Cloudflare Stream Cloudflare Tunnel Cloudflare TV Cloudflare Workers Cloudflare Workers (PT) Cloudflare Workers KV Cloudflare Workers KV (ES) Cloudflare Zero Trust Cloudforce One Cloudy Code Orange Coinbase Colombia Community Compliance Compression Config Rules Configuration Management Congestion Control Connectivity Connectivity Cloud Consumer Services Containers Content Independence Day Content Scanning Context Core COVID-19 Crawler Hints CrowdStrike Crypto Week Cryptography CSAM Reporting Customer Success Customer Zero Customers CVE CVE-2023-50387 Cyber Readines",
+      "oneLineKo": "Cloudflare, TypeScript를 Rust로 포팅한 tsrs 공개",
+      "summaryKo": "Cloudflare가 TypeScript 컴파일러/런타임을 Rust로 포팅한 프로젝트 tsrs를 소개했다. 이는 Developer Platform과 JavaScript, Open Source 관련 작업의 일환으로 진행된 것으로 보인다. 구체적인 구현 범위나 성능 목표에 대한 본문 세부 내용은 확인되지 않는다.",
+      "tags": [
+        "typescript",
+        "rust",
+        "cloudflare"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xaz5ur",
+      "title": "Announcing TypeScript 7.1 Beta",
+      "url": "https://www.reddit.com/r/programming/comments/1xaz5ur/announcing_typescript_71_beta/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xaz5ur/announcing_typescript_71_beta/",
+      "publishedAt": "2026-10-20T17:55:37+00:00",
+      "snippet": "submitted by /u/DanielRosenwasser [link] [comments]",
+      "oneLineKo": "TypeScript 7.1 베타 공개",
+      "summaryKo": "TypeScript 7.1 베타 버전이 발표되었습니다. 이번 글은 Reddit에 공유된 공식 발표 링크로, 본문 내용은 포함되어 있지 않습니다. 구체적인 신규 기능이나 변경 사항은 원문 링크에서 확인할 수 있습니다.",
+      "tags": [
+        "typescript"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35707",
+      "title": "Show GN: AI Quota Monitor - AI 할당량 소진 되셨나요? vs-code 상태바에서 모니터링 하세요!",
+      "url": "https://news.hada.io/topic?id=35707",
+      "commentsUrl": "https://news.hada.io/topic?id=35707",
+      "publishedAt": "2026-10-20T20:54:22+09:00",
+      "snippet": "Codex, Claude Code, Gemini 등 여러 AI를 구독해서 쓰다 보니 남은 할당량을 일일이 확인하는 게 번거로워서 직접 만들었습니다. 특히 주간 한도는 넉넉한데 5시간 한도가 먼저 소진되는 경우가 있어서, 단순히 숫자를 나열하는 대신 지금 주의해야 할 한도를 보여주는 방식으로 만들었습니다. 평소에",
+      "oneLineKo": "VS Code 상태바에서 AI 할당량 모니터링하는 확장 공개",
+      "summaryKo": "Codex, Claude Code, Gemini 등 여러 AI 서비스를 구독해 쓰면서 할당량을 일일이 확인하기 번거로워 VS Code 확장 프로그램을 직접 제작했습니다. 단순히 남은 할당량 숫자를 나열하는 대신, 5시간 한도와 주간 한도 중 지금 더 주의해야 할 한도를 우선적으로 보여주는 방식으로 설계했습니다. 특히 주간 한도는 여유가 있어도 5시간 한도가 먼저 소진되는 상황을 고려한 기능입니다.",
+      "tags": [
+        "vscode",
+        "ai",
+        "productivity"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50163277",
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50163277",
+      "publishedAt": "2026-10-20T09:08:54Z",
+      "score": 2100,
+      "comments": 819,
+      "snippet": "GitHub - deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} deepseek-ai DeepInfer Repository navigation Code Pull requests 93 ( 93 ) Actions Projects Security and quality Insights More items DeepInfer Public Notifications You must be signed in to change notification settings Fork 1.1k ( 1.1k ) Star 12.2k ( 12.2k ) You must be signed in to star a repository About DeepInfer: High-performance, large-scale inference framework for DeepSeek models Resources Readme Apache-2.0 license Contributing Contributing Activity Custom properties Stars 12.2k stars Watchers 26 watching Forks 1.1k forks Report repository main Branches Tags Go to file Code Open more actions menu Latest commit History 3 Commits 3 Commits Folders and files Name Name Last commit message Last commit date csrc csrc deep_cluster deep_cluster deepinfer deepinfer doc doc eval eval examples examples scripts scripts tests tests vendor vendor .clang-format .clang-format .gitignore .gitignore .gitmodules .gitmodules CONTRIBUTING.md CON",
+      "oneLineKo": "DeepSeek, 대규모 추론 프레임워크 'DeepInfer' 공개",
+      "summaryKo": "DeepSeek AI가 자사 모델을 위한 고성능 대규모 추론 프레임워크 DeepInfer를 GitHub에 공개했습니다. Apache-2.0 라이선스로 배포되며, csrc, deep_cluster 등 C++ 및 클러스터 관련 모듈로 구성되어 있습니다. 출시 직후 1만 2천 개 이상의 스타와 1천 개 이상의 포크를 기록하며 커뮤니티의 높은 관심을 받고 있습니다.",
+      "tags": [
+        "deepseek",
+        "inference",
+        "llm"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xarfxg",
+      "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+      "url": "https://www.reddit.com/r/programming/comments/1xarfxg/go_issues_emergency_update_blocking_eight_ca_keys/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xarfxg/go_issues_emergency_update_blocking_eight_ca_keys/",
+      "publishedAt": "2026-10-20T12:58:00+00:00",
+      "snippet": "submitted by /u/359Panda3U [link] [comments]",
+      "oneLineKo": "Go, 보안 우려로 8개 CA 키 차단하는 긴급 업데이트 발표",
+      "summaryKo": "Go 언어 팀이 공개되지 않은 보안 문제를 이유로 8개의 CA(인증 기관) 키를 차단하는 긴급 업데이트를 발표했습니다. 구체적인 취약점 내용은 아직 공개되지 않은 상태입니다. 이번 조치는 Go의 TLS/인증서 검증 체계에 영향을 줄 수 있어 해당 CA 키를 사용하는 환경에서는 주의가 필요합니다.",
+      "tags": [
+        "golang",
+        "security",
+        "tls"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35689",
+      "title": "Show GN: YugiTokenBar - AI 코딩 토큰사용량으로 유희왕 카드깡을 하는 macOS 메뉴바 앱",
+      "url": "https://news.hada.io/topic?id=35689",
+      "commentsUrl": "https://news.hada.io/topic?id=35689",
+      "publishedAt": "2026-10-20T14:07:51+09:00",
+      "snippet": "안녕하세요. AI 코딩 에이전트 토큰사용량만큼 유희왕 카드깡 을 즐길 수 있는 macOS 메뉴바 앱 YugiTokenBar 를 만들었습니다. Claude Code나 Codex를 사용하다 보면 토큰 사용량이 계속 쌓이게 되는데, 이 숫자를 가챠의 설렘과 수집하는 재미로 활용해보면 어떨까 하...",
+      "oneLineKo": "AI 코딩 토큰량으로 유희왕 카드 뽑는 macOS 앱",
+      "summaryKo": "YugiTokenBar는 Claude Code나 Codex 등 AI 코딩 에이전트의 토큰 사용량을 활용해 유희왕 카드를 뽑는 재미를 더한 macOS 메뉴바 앱입니다. 쌓이는 토큰 사용량 숫자를 가챠 형태의 수집 요소로 전환해 코딩 작업에 소소한 재미를 부여하는 것이 특징입니다. 개발자가 직접 만들어 공개한 사이드 프로젝트입니다.",
+      "tags": [
+        "macos",
+        "llm",
+        "sideproject"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50166579",
+      "title": "EMudhra Intermediate CA Compromise",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50166579",
+      "publishedAt": "2026-10-20T13:58:33Z",
+      "score": 588,
+      "comments": 311,
+      "snippet": "eMudhra Intermediate CA Compromise eMudhra Intermediate CA Compromise 20th October 2026 The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores. How do we know? To demonstrate that the keys are compromised, the original reporter Wayne signed the following message with the private key of each of the eight intermediate CAs and reported it to the Root Program Teams on the 17th of October: We have a problem here - Wayne proof.zip contains the message, and for each intermediate the certificate, its public key and a signature on the message. To verify with OpenSSL: openssl x509 -in EM-DV-TLS-CA-G3B.crt.pem -noout -pubkey | diff - EM-DV-TLS-CA-G3B.pub.pem openssl dgst -sha384 -verify EM-DV-TLS-CA-G3B.pub.pem -signature EM-DV-TLS-CA-G3B.sig message.txt What actions have been taken? The root programs and many downstream trust stores have taken action to protect their users. The certificates have been blocked in Firefox and Chrome since the 17th of October and in Apple devices since the 19th. The issue was responsibly disclosed to downstream trust stores on the 19th of October. Many have already released updates or are in the process of releasing updates. What are the consequences? An attacker with the private key of any of the compromised intermediate CAs could impersonate any website or service. This has already been remediated by Mozilla, Apple and Chrome for their users through their tools for distributing revocation information such as OneCRL , CRLite and CRLSets . The CA has also revoked the compromised intermediate certificates. However, many other clients do not consume revocation information and require software updates to ensure they no longer trust the compromised intermediates. Does your client still trust the compromised intermediates? Intermediate CA Chains to Result Run again To check curl or other command-line clients, run: curl https://dv-g3b-emudhra.we-have-a-problem.com/ curl https://dv-g3b-aaa-emudhra.we-have-a-problem.com/ A certificate error means the client does not trust the compromised intermediates. To check a trust store offline, chains.zip contains the certificate chain served by each of the twelve hosts above in PEM format, with instructions for verifying them with OpenSSL. Which intermediates were compromised? impacted-intermediates.json lists the eight intermediates and their Sectigo cross-signs. roots.json lists the roots they chain to. What is known about the cause? The private keys for the intermediate certificates were incorrectly generated by the CA. This means that anyone can recover them from the certificates. This would have been possible since the certificates were created in April 2025. There are no entries in the certificate transparency logs for these intermediates in that period, indicating that CT-enforcing clients like Firefox, Chrome, Edge and Safari could not ",
+      "oneLineKo": "eMudhra 중간 CA 개인키 8건 유출, 주요 브라우저 차단 조치",
+      "summaryKo": "eMudhra가 발급한 8개 중간 CA 인증서의 개인키가 잘못된 생성 방식으로 인해 누구나 복구 가능한 상태였음이 드러났다. 이 인증서들은 Mozilla, Microsoft, Apple, Chrome 등 주요 루트 프로그램에 체인되어 있으며, 공격자가 이를 이용해 임의 웹사이트나 서비스를 위장할 수 있었다. 해당 CA는 2025년 4월부터 문제가 있었으나 인증서 투명성(CT) 로그에 등록되지 않아 CT를 강제하는 브라우저들도 탐지하지 못했다. 현재 Firefox, Chrome, Apple은 OneCRL, CRLite, CRLSets 등을 통해 차단 조치를 완료했지만, 이를 사용하지 않는 다른 클라이언트는 여전히 취약할 수 있다.",
+      "tags": [
+        "pki",
+        "certificate-authority",
+        "tls"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35721",
+      "title": "가짜 통계를 게시해 LLM의 인용을 얻다",
+      "url": "https://news.hada.io/topic?id=35721",
+      "commentsUrl": "https://news.hada.io/topic?id=35721",
+      "publishedAt": "2026-10-21T01:40:24+09:00",
+      "snippet": "GPT-4.1로 만든 허위 통계 페이지 5만 개 를 게시한 실험 사이트가 7개월 동안 ChatGPT 유입 세션 1만 건 이상과 330개 이상의 도메인으로부터 링크를 얻음 Google 검색 노출이 급감한 뒤에도 ChatGPT의 조회와 인용은 지속됨 . 최근 30일간 ChatGPT가 답변 중 페이지...",
+      "oneLineKo": "가짜 통계 페이지로 ChatGPT 인용 유도 실험",
+      "summaryKo": "GPT-4.1로 생성한 허위 통계 페이지 5만 개를 게시한 실험 사이트가 7개월 동안 ChatGPT발 유입 세션 1만 건 이상과 330개 이상의 도메인 링크를 얻었다. Google 검색 노출이 급감한 뒤에도 ChatGPT의 조회와 인용은 계속 유지되었다. 최근 30일간 ChatGPT가 답변 중 해당 페이지를 인용하는 사례가 지속적으로 발견되었다.",
+      "tags": [
+        "llm",
+        "chatgpt",
+        "seo"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50170593",
+      "title": "SimCity, but with Permits",
+      "url": "https://permit.petercai.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50170593",
+      "publishedAt": "2026-10-20T18:29:09Z",
+      "score": 483,
+      "comments": 261,
+      "snippet": "Permit Pending: build the city of your dreams, subject to approval How it plays Features Scenarios FAQ New game Build the city of your dreams. Subject to approval You are the mayor. You know exactly what this city needs. Now get it past the zoning board, the neighbors, the appeals court and the next election. New game Free, because you are loved Permit Pending is a city simulation in the spirit of the classics, with one difference: you are not a god. You are an elected mayor. Every apartment block, bus lane and factory goes through hearings, reviews, objections, lawsuits and appeals. The economy underneath is real. The neighbors are not always rational. Win the argument, or win the election. Ideally both. How a good idea dies A typical case from your inbox. The economic answer was obvious. The political path was not. Month 1 A tech boom pushes rents up. Young residents start to complain. Month 3 You rezone an empty lot for a 12-story apartment building. Month 4 Filed. Nearby homeowners organize over parking and \"neighborhood character.\" Month 7 Hearing. You trade height for parking. The building is now 6 stories. Month 8 The smaller project no longer pays. The developer asks for a tax break. Month 9 Housing advocates criticize the lower count of affordable units. Month 11 Appeal. The board delays construction. A lawsuit is filed. Month 42 Rents are still rising. Young voters blame you for the shortage. Homeowners blame you for the proposal. Month 48 Election day. Build absolutely nothing Every improvement creates opposition New housing lowers rents and angers homeowners. New industry brings jobs and smog. Better transit attracts development, and development attracts opponents. Fix one problem and you create a new group of voters who are angry about it. Hearings, appeals and lawsuits Your inbox fills with applications, controversies and recurring characters. Negotiate concessions at public hearings, win votes on a seven-seat council, and spend your political clout wisely. Some cases last longer than your term. An economy that keeps score Residents have ages, incomes and homes. Businesses hire, grow and leave. Land values, rents, jobs, taxes and services all connect. The city keeps changing while you are stuck in committee. Reelection every four years High-turnout groups have more power than their numbers suggest. Know who votes. Understand every failure Heatmaps, graphs and plain explanations show why voters are angry and which decision did it. The local paper The Gazette reports your successes, your scandals and your parking minimums. Sandbox forever No campaign and no win screen. The city goes on as long as the voters let you. Pick your city Start with a hamlet at a crossroads, or inherit somebody else's problems. Blank Slate 200 residents A hamlet at a crossroads and empty streets waiting for zoning. Small Town 2,000 residents A small town with room to grow. Nobody is organized yet. Booming Suburb 25,000 residents Housing demand and homeowners ",
+      "oneLineKo": "허가 절차 현실 반영한 도시 시뮬레이션 게임",
+      "summaryKo": "'Permit Pending'은 고전 도시 시뮬레이션 장르를 변형해, 플레이어가 전지전능한 신이 아닌 선출직 시장이 되어 모든 건설 프로젝트를 청문회, 소송, 항소 등 복잡한 인허가 절차를 거쳐 승인받아야 하는 무료 웹 게임이다. 주민의 나이·소득·주택, 기업의 고용과 이전 등이 연결된 실제 경제 시스템이 작동하며, 좋은 정책도 주민 반발과 정치적 갈등으로 좌절되는 과정을 시뮬레이션한다. 4년마다 재선을 치르며 투표율이 높은 집단이 실제 영향력보다 더 큰 정치적 힘을 갖는 구조를 보여주고, 캠페인이나 승리 조건 없이 무한히 도시를 운영할 수 있는 샌드박스 모드를 제공한다.",
+      "tags": [
+        "simulation-game",
+        "urban-planning",
+        "indie-game"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35670",
+      "title": "Anatomy - 기술 개념을 움직이는 입체 도해로 만드는 AI 에이전트 스킬",
+      "url": "https://news.hada.io/topic?id=35670",
+      "commentsUrl": "https://news.hada.io/topic?id=35670",
+      "publishedAt": "2026-10-20T09:30:02+09:00",
+      "snippet": "문서와 블로그, 교육 자료에 사용할 인터랙티브 입체 도해를 코딩 에이전트로 제작 하는 스킬 캐시, 연결 풀, 요청 제한 같은 개념을 실제로 움직이는 기계나 장치에 빗대어 시각화 . 설명할 개념과 수치, 출력 형식을 지정해 요청 SVG로 부품과 배관, 음영...",
+      "oneLineKo": "기술 개념을 입체 도해로 시각화하는 AI 에이전트 스킬",
+      "summaryKo": "Anatomy는 캐시, 연결 풀, 요청 제한 같은 기술 개념을 실제로 움직이는 기계나 장치에 빗대어 인터랙티브 입체 도해로 만들어주는 코딩 에이전트 스킬이다. 설명할 개념과 수치, 출력 형식을 지정해 요청하면 SVG 형태로 부품과 배관, 음영 등을 포함한 시각 자료를 생성한다. 문서, 블로그, 교육 자료 등에 활용할 수 있도록 설계되었다.",
+      "tags": [
+        "ai-agent",
+        "svg",
+        "visualization"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50165208",
+      "title": "Apple broke an essential presentation feature of iPads",
+      "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50165208",
+      "publishedAt": "2026-10-20T12:17:28Z",
+      "score": 472,
+      "comments": 245,
+      "snippet": "Apple broke an essential presentation feature of iPads | Teddy Svoronos Teddy Svoronos Blog All posts Pedagogy AI Productivity Research Course Corrections All tags Teaching Publications Search ✕ Apple broke an essential presentation feature of iPads If you teach or present with an iPad, avoid iPadOS 27. October 19, 2026 A brief digression from my usual teaching posts to complain about a devastating regression in iPadOS 27. If you’ve followed my work up until now, you’ll know that I rely heavily on writing on handouts from my iPad, projected via AirPlay to an external screen that my students can see. When I’m doing this, my iPad is also doing many other things: controlling a PowerPoint presentation on my Mac , showing me notes that I’ve taken on points I want to mention and students I want to call on, and showing me the results of polls before I reveal them to the class. This ability to do other things on your iPad while the audience just sees your presentation or handout is an essential part of a variety of pedagogical moves that I use in my teaching. Unfortunately, Apple just completely broke it. The problem As of iPadOS 27, if you have multiple windows open while AirPlaying (whether or not Stage Manager is on), tapping on anything other than the presenting app will snap the external display into showing your whole iPad screen. This means that my students see all my notes on who I want to call on, or poll results that should be hidden from them. They also get distracted from what we’re learning by all these jarring windows popping up and disappearing. If you’re presenting at a big conference, it’s extremely embarrassing. In GoodNotes, the presenter view will return once you tap back on the app. In Keynote, it will just exit the presentation entirely. In PowerPoint, it will put the app in a limbo where you have to restart the presentation to proceed. Here’s a Reddit post illustrating the behavior in GoodNotes . But don’t just take my word for it; try it at home! I sort of understand why Apple did this. In iPadOS 26, which app could “control” the external display was hard to identify. Essentially, you had to swipe up as though going to the home screen, then tap on the app you wanted in the dock, and that app would take over the external display if it had a presentation mode. This was weird and hard to understand, but Apple’s solution is to just make it so that whatever is the most recently tapped app takes over, which is much, much worse. Ask what you can do As for what the behavior should be, I’m not a developer, but here’s a proposal: if you’re using an app that is in presenter mode (e.g., PowerPoint playing a presentation, or a GoodNotes document open), it should always get precedence on the external display, until that presentation gets stopped, the document is closed, or the app is quit. Period. I talked/griped/whined/begged about this on an episode of Mac Power Users in early September ( here’s a link to the video ), and as of now this behav",
+      "oneLineKo": "iPadOS 27, 발표용 외부 디스플레이 제어 기능 퇴보",
+      "summaryKo": "iPadOS 27에서 여러 창을 열어둔 채 AirPlay로 외부 디스플레이에 연결 시, 발표 앱이 아닌 다른 창을 탭하면 외부 화면이 아이패드 전체 화면으로 전환되는 문제가 발생한다. 이로 인해 GoodNotes, Keynote, PowerPoint 등에서 발표 중 메모나 투표 결과 등 숨겨야 할 내용이 청중에게 노출되는 심각한 버그가 생겼다. 저자는 iPadOS 26의 복잡했던 외부 디스플레이 제어 방식을 개선하려던 Apple의 시도가 오히려 더 나쁜 결과를 낳았다고 지적하며, 발표 모드 앱이 항상 외부 디스플레이 우선권을 가져야 한다고 제안한다.",
+      "tags": [
+        "ipados",
+        "apple",
+        "airplay"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35708",
+      "title": "Show GN: MacNotify - Mac 알림이 오면 MX Master 4가 진동하는 로지텍 플러그인",
+      "url": "https://news.hada.io/topic?id=35708",
+      "commentsUrl": "https://news.hada.io/topic?id=35708",
+      "publishedAt": "2026-10-20T20:55:46+09:00",
+      "snippet": "비싼 MX Master 4를 샀는데 진동 기능을 쓸 데가 없어서 만들었음. 주로 쓰는 건 Claude Code. 작업 맡겨 두고 다른 창에 가 있으면 언제 끝났는지 몰라서, 완료 알림이 뜨면 마우스가 진동하게 해 둠. Mac 알림 배너가 뜨면 MX Master 4의 햅틱 센스 패널이 진동함 Claude Code뿐 아니라",
+      "oneLineKo": "Mac 알림 시 MX Master 4 진동시키는 플러그인 공개",
+      "summaryKo": "MX Master 4 마우스의 햅틱 진동 기능을 활용해 Mac 알림 배너가 뜨면 마우스가 진동하도록 만든 로지텍 플러그인 MacNotify가 공개되었다. 개발자는 주로 Claude Code 작업이 끝났을 때 알림을 놓치지 않기 위해 이를 만들었다고 설명했다. Claude Code뿐 아니라 다른 Mac 알림에도 적용 가능하다.",
+      "tags": [
+        "macos",
+        "logitech",
+        "productivity"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50167536",
+      "title": "Facebook Pages require paid subscription to post more than two links per month",
+      "url": "https://mastodon.gamedev.place/@AshleyGullen/117473851565913919",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50167536",
+      "publishedAt": "2026-10-20T15:06:08Z",
+      "score": 405,
+      "comments": 367,
+      "snippet": "Ashley Gullen: \"Facebook achieving absurd new heights of enshitti…\" - Gamedev Mastodon To use the Mastodon web application, please enable JavaScript. Alternatively, try one of the native apps for Mastodon for your platform.",
+      "oneLineKo": "페이스북 페이지, 월 2회 초과 링크 게시 시 유료 구독 요구",
+      "summaryKo": "Mastodon 사용자 Ashley Gullen이 페이스북 페이지가 한 달에 두 개 이상의 링크를 게시하려면 유료 구독이 필요하다고 지적했습니다. 이는 플랫폼의 '엔시티피케이션(enshittification)' 현상이 극단으로 치닫고 있다는 비판으로 공유되었습니다. 본문은 해당 Mastodon 게시물 링크로, 구체적인 정책 세부사항은 명시되어 있지 않습니다.",
+      "tags": [
+        "facebook",
+        "social-media",
+        "platform-policy"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50162177",
+      "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+      "url": "https://github.com/microg/GmsCore/wiki",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50162177",
+      "publishedAt": "2026-10-20T06:37:07Z",
+      "score": 378,
+      "comments": 97,
+      "snippet": "Home · microg/GmsCore Wiki · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} microg GmsCore Repository navigation Code Issues 1.3k ( 1.3k ) Pull requests 119 ( 119 ) Actions Wiki Security and quality 13 ( 13 ) Insights More items Home Jump to bottom ale5000 edited this page Apr 17, 2025 &middot; 23 revisions GmsCore Overview microG GmsCore is a free software reimplementation of Google's Play Services. It allows applications calling proprietary Google APIs to run on AOSP-based ROMs like LineageOS, acting as a free replacement for the non-free, proprietary Google Play Services (sometimes referred to as the more generic term \"GApps\"). It is a powerful tool to reclaim your privacy and freedom while enjoying Android core features (although apps you use that take advantage of it may still be using proprietary libraries to communicate with microG, just as they do when communicating with the actual Google Play Services). Features Opt-in to Google Services and extend application support On-/Offline location service Easy on battery, memory and CPU No bloatware Works on real devices, test emulators",
+      "oneLineKo": "구글 Play Services 대체하는 오픈소스 microG",
+      "summaryKo": "microG GmsCore는 구글의 독점 Play Services를 대체하는 자유 소프트웨어 재구현 프로젝트입니다. LineageOS 같은 AOSP 기반 ROM에서 구글 전용 API를 사용하는 앱을 실행할 수 있게 해줍니다. 선택적 구글 서비스 사용, 온/오프라인 위치 서비스 지원, 배터리·메모리·CPU 효율성, 블로트웨어 없음 등을 특징으로 하며 실제 기기와 에뮬레이터에서 동작합니다.",
+      "tags": [
+        "android",
+        "opensource",
+        "privacy"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50163961",
+      "title": "Google Cloud outage affects almost all banking and other operations in Europe",
+      "url": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50163961",
+      "publishedAt": "2026-10-20T10:26:02Z",
+      "score": 321,
+      "comments": 166,
+      "oneLineKo": "구글 클라우드 장애, 유럽 은행업무 대거 마비",
+      "summaryKo": "구글 클라우드에서 발생한 장애로 유럽 전역의 은행 및 금융 서비스가 영향을 받았다. HSBC, Revolut, Bank of Scotland, Lloyds, Equifax 등 주요 금융기관의 서비스가 중단된 것으로 알려졌다. 이번 사태는 클라우드 인프라에 대한 금융권의 의존도가 높아지면서 단일 장애점 리스크가 부각된 사례로 꼽힌다.",
+      "tags": [
+        "google-cloud",
+        "outage",
+        "fintech"
+      ]
+    }
+  ]
+}
