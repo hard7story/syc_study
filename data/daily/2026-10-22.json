@@ -1,0 +1,275 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T00:20:28.358Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35752",
+      "title": "크래프톤, 자체 개발 30B급 고효율 LLM 'Raon-1 mini' 프리뷰 공개",
+      "url": "https://news.hada.io/topic?id=35752",
+      "commentsUrl": "https://news.hada.io/topic?id=35752",
+      "publishedAt": "2026-10-21T19:00:19+09:00",
+      "snippet": "크래프톤이 모델 아키텍처 설계부터 사전학습까지 독자 개발한 30B급 오픈웨이트 LLM 'Raon-1 mini' 프리뷰를 공개. 한국어·영어 대화와 추론, AI 에이전트 작업에 초점을 맞춘 모델 MoE(Mixture of Experts)와 자체 개발한 선형 어텐션 기술 을 결합. 전체 약 300억...",
+      "oneLineKo": "크래프톤, 30B급 자체 개발 LLM 'Raon-1 mini' 공개",
+      "summaryKo": "크래프톤이 모델 아키텍처 설계부터 사전학습까지 독자적으로 개발한 30B급 오픈웨이트 LLM 'Raon-1 mini' 프리뷰를 공개했다. 한국어·영어 대화와 추론, AI 에이전트 작업 수행에 초점을 맞춘 모델이다. MoE(Mixture of Experts) 구조와 자체 개발한 선형 어텐션 기술을 결합해 효율성을 높였으며, 전체 파라미터는 약 300억 개 규모다.",
+      "tags": [
+        "llm",
+        "moe",
+        "krafton"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50182987",
+      "title": "Today's PHP security release, and how we're strengthening security",
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50182987",
+      "publishedAt": "2026-10-21T15:48:56Z",
+      "score": 653,
+      "comments": 323,
+      "snippet": "Related ongoing thread: <i>PHP 8.2.35</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50180873\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50180873</a><p>(links to more at <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50184935\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50184935</a>)",
+      "oneLineKo": "PHP 보안 긴급 릴리스, 보안 강화 방안 발표",
+      "summaryKo": "PHP Foundation이 PHP 8.2.35를 포함한 보안 릴리스를 발표하며 취약점 패치를 공개했다. 동시에 향후 PHP의 보안 프로세스를 강화하기 위한 계획도 함께 공유했다. 관련 논의는 Hacker News 스레드에서 추가로 이어지고 있다.",
+      "tags": [
+        "php",
+        "security"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xbxrns",
+      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+      "url": "https://www.reddit.com/r/programming/comments/1xbxrns/todays_php_security_release_and_how_were/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xbxrns/todays_php_security_release_and_how_were/",
+      "publishedAt": "2026-10-21T20:01:46+00:00",
+      "snippet": "submitted by /u/elizabethn [link] [comments]",
+      "oneLineKo": "PHP 보안 패치 발표 및 보안 강화 방안 공개",
+      "summaryKo": "PHP 프로젝트가 보안 취약점을 수정한 새로운 릴리스를 발표했다. 이와 함께 PHP의 전반적인 보안 체계를 강화하기 위한 향후 계획과 방향성도 함께 공유되었다. 본문 내용이 제한적이어서 구체적인 취약점 상세나 패치 버전 정보는 확인되지 않는다.",
+      "tags": [
+        "php",
+        "security"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35773",
+      "title": "Claude Duet - 업무를 맡아 처리하고 필요할 때 먼저 연락하는 개인 AI 에이전트",
+      "url": "https://news.hada.io/topic?id=35773",
+      "commentsUrl": "https://news.hada.io/topic?id=35773",
+      "publishedAt": "2026-10-22T07:40:51+09:00",
+      "snippet": "메시지로 업무를 맡기면 클라우드 컴퓨터에서 처리 하고, 필요할 때 먼저 연락하는 Anthroipic의 개인 AI 에이전트 . 노트북이나 휴대폰을 꺼도 작업을 계속하며, 완료하거나 결정이 필요하면 알림 매일 아침 이메일과 일정, 연결된 앱에서 중요한 일을 모아...",
+      "oneLineKo": "Anthropic, 선제적으로 연락하는 개인 AI 에이전트 공개",
+      "summaryKo": "Anthropic이 메시지로 업무를 맡기면 클라우드 컴퓨터에서 처리하는 개인 AI 에이전트 'Claude Duet'을 선보였다. 노트북이나 휴대폰을 꺼도 작업을 계속 진행하며, 작업 완료나 결정이 필요한 시점에 먼저 알림을 보낸다. 매일 아침 이메일, 일정, 연결된 앱의 정보를 모아 중요한 일을 정리해준다.",
+      "tags": [
+        "anthropic",
+        "ai-agent",
+        "claude"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50188228",
+      "title": "Railway Security Disclosure",
+      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50188228",
+      "publishedAt": "2026-10-21T21:58:03Z",
+      "score": 247,
+      "comments": 114,
+      "snippet": "Security Disclosure: Wednesday October 21st | Railway Blog Blog Go to Homepage Jacob Cooper Oct 21, 2026 Security Disclosure: Wednesday October 21st Earlier this morning, Railway detected anomalous activity involving systems that store customer environment variables. After further investigation, our investigation to date indicates that an unauthorized third party may have accessed encrypted environment variables and, for some of them, obtained the decrypted contents. Environment variables may contain secrets such as API keys or database and registry credentials. We believe this is part of a series of attacks recently targeting platform companies with the aim of compromising AI inference providers. We have notified these upstream providers to revoke all keys proactively, as we take these kinds of events extremely seriously. While our initial analysis suggests the impact may be limited to a subset of users, we are nevertheless recommending that all users take the actions described below as a precaution to protect your systems while we complete our review. What you should do: As such, we strongly recommend that you immediately roll all environment variables, including any API keys, stored in Railway, as well as any private registry credentials, and review logs for those services for unusual activity. All deployments are paused while we investigate. Until builds are restored, you will not be able to roll out new versions. We apologize for this inconvenience. Follow this incident to be notified when builds resume. As we confirm which accounts were affected, we will contact those customers directly by email with additional details. We will provide new updates on this announcement, and on status.railway.com as we narrow the scope of impact. Continue Reading... View All Engineering -> Engineering Incident Report: September 30, 2026: Domain Routing Disruption Railway experienced a platform-wide disruption to domain routing on September 30, 2026. For roughly five minutes, between about 07:35 and 07:40 UTC, new connections to domains hosted on Railway returned 404 errors. Angelo Saraceno Sep 30, 2026 Engineering Your Cloud should come with an app builder Announcing: dev.new, an agent that can build, preview, test, and deploy an app from the same place. We tested the whole loop by asking it to ship a real-time multiplayer FPS game that runs in the browser Mahmoud Abdelwahab Aug 13, 2026 Ready to get started? Join millions of developers deploying applications on Railway Deploy a new project Book a demo Copyright © 2026 Railway Corp. All rights reserved. Product Changelog Pricing Templates Feedback OSS Kickback Company About Careers Blog Shop Contact Discord Twitter GitHub Email Legal Acceptable Use Privacy Policy Terms of Service",
+      "oneLineKo": "Railway, 환경변수 저장소 무단 접근 보안사고 공개",
+      "summaryKo": "Railway는 고객 환경변수를 저장하는 시스템에서 비정상 활동을 감지했으며, 조사 결과 제3자가 암호화된 환경변수에 접근하고 일부는 복호화된 내용까지 탈취했을 가능성이 있다고 밝혔다. 이는 AI 추론 제공업체들을 겨냥한 일련의 공격의 일환으로 추정되며, 관련 업체들에 키 폐기를 요청했다고 전했다. Railway는 모든 사용자에게 API 키, 데이터베이스 및 레지스트리 자격증명을 포함한 환경변수를 즉시 교체할 것을 권고했으며, 조사가 완료될 때까지 모든 배포를 일시 중단했다.",
+      "tags": [
+        "security",
+        "data-breach",
+        "railway"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xbl8y1",
+      "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+      "url": "https://www.reddit.com/r/programming/comments/1xbl8y1/eight_bits_of_trust_emudhras_ca_keys_cracked_in/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xbl8y1/eight_bits_of_trust_emudhras_ca_keys_cracked_in/",
+      "publishedAt": "2026-10-21T12:01:54+00:00",
+      "snippet": "submitted by /u/Dear-Economics-315 [link] [comments]",
+      "oneLineKo": "eMudhra 인증기관 키, 취약한 엔트로피로 순식간에 크랙",
+      "summaryKo": "제목에 따르면 인증기관(CA) eMudhra의 암호키가 단 8비트 수준의 취약한 엔트로피를 가져 밀리초 단위로 크랙 가능했다는 내용이다. 이는 CA의 키 생성 과정에 심각한 보안 결함이 있었음을 시사한다. 본문 내용이 제공되지 않아 구체적인 원인이나 영향 범위는 제목에서 유추되는 수준으로만 전달된다.",
+      "tags": [
+        "certificate-authority",
+        "cryptography",
+        "security"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35771",
+      "title": "OpenAI ‘Patch the Planet’, AI가 발견하는 취약점에 대응할 5단계 공조 체계 제안",
+      "url": "https://news.hada.io/topic?id=35771",
+      "commentsUrl": "https://news.hada.io/topic?id=35771",
+      "publishedAt": "2026-10-22T05:33:47+09:00",
+      "snippet": "OpenAI가 오픈소스 유지관리자의 보안 대응을 지원하는 ‘Patch the Planet’을 통해 5단계 공조 체계를 제안 . AI가 취약점을 빠르게 찾아내는 만큼, 연구자와 보안업체, 인프라 제공자가 패치 개발부터 실제 배포까지 함께 준비하는 방식 PHP의 심각한 취약점 대응에서는 두...",
+      "oneLineKo": "OpenAI, AI 취약점 대응 5단계 공조 체계 제안",
+      "summaryKo": "OpenAI가 오픈소스 유지관리자의 보안 대응을 지원하기 위해 'Patch the Planet' 프로젝트를 통해 5단계 공조 체계를 제안했다. AI가 취약점을 빠르게 발견하는 상황에서 연구자, 보안업체, 인프라 제공자가 패치 개발부터 실제 배포까지 협력하는 방식을 제시한다. PHP의 심각한 취약점 대응 사례가 예시로 언급된다.",
+      "tags": [
+        "security",
+        "openai",
+        "vulnerability"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50180752",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50180752",
+      "publishedAt": "2026-10-21T13:37:00Z",
+      "score": 125,
+      "comments": 81,
+      "oneLineKo": "OpenAI, 수천 AI 에이전트로 생물학 데이터 분석",
+      "summaryKo": "OpenAI가 수천 개의 AI 에이전트를 활용해 복잡한 생물학 데이터에서 새로운 단서를 발굴하는 연구를 소개했다. 이는 대규모 병렬 AI 에이전트를 과학 연구, 특히 생물학 데이터 분석에 적용한 사례로 보인다. 본문 내용은 제공되지 않아 구체적인 방법론이나 성과는 제목에서 유추되는 범위로만 파악 가능하다.",
+      "tags": [
+        "ai-agents",
+        "bioinformatics",
+        "openai"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35745",
+      "title": "2026년 JavaScript 동향",
+      "url": "https://news.hada.io/topic?id=35745",
+      "commentsUrl": "https://news.hada.io/topic?id=35745",
+      "publishedAt": "2026-10-21T16:18:40+09:00",
+      "snippet": "네이버 D2에서 2020년 이후 6년 만에 재개한 JavaScript 동향 연재. ECMAScript 표준의 변화부터 TypeScript 7, 서버 런타임, 패키지 공급망 보안, AI 코딩 도구가 생태계에 미친 영향까지 2026년 10월 기준으로 정리한 장문의 분석 공유. 1",
+      "oneLineKo": "네이버 D2, 2026년 JavaScript 생태계 동향 총정리",
+      "summaryKo": "네이버 D2가 2020년 이후 6년 만에 JavaScript 동향 연재를 재개했다. ECMAScript 표준 변화, TypeScript 7, 서버 런타임 등 최신 기술 흐름을 다룬다. 또한 패키지 공급망 보안 이슈와 AI 코딩 도구가 생태계에 미친 영향까지 2026년 10월 기준으로 정리한 장문의 분석을 공유했다.",
+      "tags": [
+        "javascript",
+        "typescript",
+        "ecosystem"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50180873",
+      "title": "PHP 8.2.35",
+      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50180873",
+      "publishedAt": "2026-10-21T13:45:33Z",
+      "score": 957,
+      "comments": 529,
+      "snippet": "Related ongoing thread: <i>Today&#x27;s PHP security release, and how we&#x27;re strengthening security</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50182987\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50182987</a>",
+      "oneLineKo": "PHP 8.2.35 보안 릴리스 발표",
+      "summaryKo": "PHP 8.2.35 버전이 공개되었으며, 이는 보안 관련 릴리스로 알려졌습니다. 관련 Hacker News 스레드에서는 PHP 팀이 보안을 강화하는 방안에 대해 논의하고 있습니다. 구체적인 취약점 패치 내용은 본문에 명시되어 있지 않습니다.",
+      "tags": [
+        "php",
+        "security"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35785",
+      "title": "한국의 신규 AI 파생 모델 절반 가까이가 중국 Qwen 기반임",
+      "url": "https://news.hada.io/topic?id=35785",
+      "commentsUrl": "https://news.hada.io/topic?id=35785",
+      "publishedAt": "2026-10-22T09:10:02+09:00",
+      "snippet": "2026년 1~8월 Hugging Face에 공개한 한국 계정들의 신규 언어모델 1,845건 중 49.3%가 중국 모델 기반 확산을 주도한 것은 알리바바 Qwen으로, 전체의 46.8%인 864건 을 차지. Gemma 14.7%, Llama 13.8%, EXAONE 9.3%가 뒤를 이었으며, DeepSeek 기반은 1.0%에 그침...",
+      "oneLineKo": "한국 신규 AI모델 절반 가까이가 중국 Qwen 기반",
+      "summaryKo": "2026년 1~8월 Hugging Face에 공개된 한국 계정의 신규 언어모델 1,845건 중 46.8%(864건)가 알리바바 Qwen 기반으로 나타났다. 뒤이어 Gemma 14.7%, Llama 13.8%, LG EXAONE 9.3% 순이었으며, DeepSeek 기반은 1.0%에 불과했다. 이는 한국 AI 생태계에서 중국산 오픈소스 모델의 영향력이 크게 확대되고 있음을 보여준다.",
+      "tags": [
+        "llm",
+        "qwen",
+        "huggingface"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50177916",
+      "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50177916",
+      "publishedAt": "2026-10-21T09:08:08Z",
+      "score": 825,
+      "comments": 394,
+      "snippet": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds Home Speaking Training Media Contact Sponsor 🌙 Subscribe Sponsored by: Report URI - XSS can ride a passkey-authenticated session. See it in the browser. Certificate Authorities Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds Scott Helme Security researcher, entrepreneur and international speaker who specialises in web technologies. More posts by Scott Helme. Scott Helme 20 Oct 2026 &bull; 7 min read One of eMudhra's certificate authority private keys is the number 4. Not a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second. What happened On Saturday 17th October a security researcher reported to Apple, Google, Microsoft, Mozilla and eMudhra that the private keys for eight eMudhra intermediate certificates were compromised. Chrome pushed a CRLSet update blocking them that evening and Mozilla blocked them in Firefox via OneCRL a few hours later. On Tuesday 20th, Mozilla announced it publicly and shipped an NSS update removing the eMudhra root, and Chrome confirmed the root is going in Chrome Root Store v43. The eight intermediates are six TLS issuing CAs (DV, OV and EV, two generations each) and two code-signing CAs, all created in April 2025. Every one of them was also cross-signed by Sectigo's AAA Certificate Services root in May 2025. That's the \"what\", but it's the \"how\" that's the interesting part, and it was summed up in one line on the thread by Ian Carroll: They are inherently weak single-byte keys that anyone can factor, and the issue cannot be contained. What a private key actually is These are elliptic-curve keys on the P-384 curve. The private key is just a number, d . The public key, the thing that goes in the certificate for the world to see, is d × G , where G is a fixed point on the curve that everyone uses and \"×\" means adding G to itself d times using the curve's special arithmetic. Going forwards is easy, but going backwards, from the public key to d , is considered to be impractical. That's the entire security model, and it only holds if d is enormous. A P-384 private key should be a random 384-bit number, which gives you 2³⁸⁴ possibilities (or roughly 10¹¹⁵), so nobody is ever going to search that. eMudhra's keys look like this: d = 0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004 A P-384 private key should look like this: d = 0x48ac06790886c80c48d31691fd4c0fe9ce3207f9807f2fe571d6e4ec426d78644298fc53df2b92566970e757ac998c34 That's 47 bytes of zeros and then one byte, and all eight keys are like that. A single byte has 256 possible values, so the \"search\" is: compute 1 × G , 2 × G , 3 × G , and stop when it matches the certificate, which is at most 255 steps. So the whole thing, every certificate t",
+      "oneLineKo": "eMudhra 인증기관 개인키, 1바이트 값으로 밀리초만에 크랙",
+      "summaryKo": "인도 CA eMudhra의 8개 중간 인증서 개인키가 P-384 곡선에서 47바이트가 0으로 채워진 사실상 1바이트 값(예: 4, 56, 115)으로 생성되어 손쉽게 역산 가능한 것으로 드러났다. 브라우저 벤더들은 해당 키를 즉시 차단 조치했으며, Mozilla는 NSS 업데이트로 eMudhra 루트를 제거하고 Chrome도 Root Store v43에서 제외하기로 했다. TLS 및 코드서명용 인증서 모두 영향을 받았고, Sectigo 루트에 의한 크로스서명도 함께 문제가 됐다.",
+      "tags": [
+        "pki",
+        "tls",
+        "cryptography"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35778",
+      "title": "Railway 보안 사고 공개",
+      "url": "https://news.hada.io/topic?id=35778",
+      "commentsUrl": "https://news.hada.io/topic?id=35778",
+      "publishedAt": "2026-10-22T08:37:37+09:00",
+      "snippet": "Railway 가 고객 환경 변수를 저장하는 시스템에서 이상 활동을 탐지했으며, 조사 결과 비인가 제3자가 암호화된 환경 변수에 접근하고 일부는 복호화된 내용까지 확보했을 가능성이 있음 환경 변수에는 API 키, 데이터베이스 및 레지스트리 자격 증명 같은 비밀 정...",
+      "oneLineKo": "Railway, 고객 환경변수 비인가 접근 보안사고 공개",
+      "summaryKo": "Railway는 고객 환경 변수를 저장하는 시스템에서 이상 활동을 탐지하고 조사를 진행했다. 그 결과 비인가 제3자가 암호화된 환경 변수에 접근했으며, 일부는 복호화된 내용까지 확보했을 가능성이 있는 것으로 나타났다. 유출 우려 대상에는 API 키, 데이터베이스 및 레지스트리 자격 증명 등 민감한 비밀 정보가 포함된다.",
+      "tags": [
+        "security",
+        "railway",
+        "devops"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50184586",
+      "title": "EA is shutting down BioWare",
+      "url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50184586",
+      "publishedAt": "2026-10-21T17:29:33Z",
+      "score": 494,
+      "comments": 292,
+      "snippet": "EA is shutting down BioWare | The Verge Skip to main content The homepage The Verge The Verge logo. The Verge The Verge logo. Tech Reviews Science Entertainment AI Policy Notifications Notifications Hamburger Navigation Button The homepage The Verge The Verge logo. Notifications Notifications Hamburger Navigation Button Navigation Drawer The Verge The Verge logo. Login / Sign Up close Close Search Light System Dark Tech Expand Amazon Apple Facebook Google Microsoft Samsung Business See all tech Reviews Expand Smart Home Reviews Phone Reviews Tablet Reviews Headphone Reviews See all reviews Science Expand Space Energy Environment Health See all science Entertainment Expand TV Shows Movies Audio See all entertainment AI Expand OpenAI Anthropic See all AI Policy Expand Antitrust Politics Law Security See all policy Gadgets Expand Laptops Phones TVs Headphones Speakers Wearables See all gadgets Verge Shopping Expand Buying Guides Deals Gift Guides See all shopping Gaming Expand Xbox PlayStation Nintendo See all gaming Streaming Expand Disney HBO Netflix YouTube Creators See all streaming Transportation Expand Electric Cars Autonomous Cars Ride-sharing Scooters See all transportation Features Verge Video Expand TikTok YouTube Instagram Podcasts Expand Decoder The Vergecast Version History Newsletters Archives Store Verge Product Updates Subscribe Facebook Threads Instagram Youtube RSS The Verge The Verge logo. EA is shutting down BioWare Notifications Notifications Comments Drawer Notifications Comments Loading comments Getting the conversation ready... Gaming Close Gaming Posts from this topic will be added to your daily email digest and your homepage feed. Follow Follow See All Gaming News Close News Posts from this topic will be added to your daily email digest and your homepage feed. Follow Follow See All News EA is shutting down BioWare Amid a reported 400 job cuts, the legendary studio is closing. Amid a reported 400 job cuts, the legendary studio is closing. by Jay Peters Close Jay Peters Senior Reporter Posts from this author will be added to your daily email digest and your homepage feed. Follow Follow See All by Jay Peters Oct 21, 2026, 5:19 PM UTC Link Share Gift Image: EA Jay Peters Close Jay Peters Posts from this author will be added to your daily email digest and your homepage feed. Follow Follow See All by Jay Peters is a senior reporter covering technology, gaming, and more. He joined The Verge in 2019 after nearly two years at Techmeme. BioWare, the legendary studio behind RPGs like Mass Effect , Dragon Age , and Star Wars: Knights of the Old Republic , is shutting down, the company confirmed in a statement . Alongside the closure, Electronic Arts has chosen not to continue development on the next Mass Effect game that was in the works, according to an announcement sent to EA staff . The company is also laying off around 400 staffers, Bloomberg reports , including around 50 at BioWare. The changes follow EA being taken private by an ",
+      "oneLineKo": "EA, 전설적 게임 스튜디오 BioWare 폐쇄 결정",
+      "summaryKo": "EA가 Mass Effect, Dragon Age 등으로 유명한 BioWare 스튜디오의 폐쇄를 공식 발표했다. 이와 함께 개발 중이던 차기 Mass Effect 신작도 개발이 중단됐다. Bloomberg에 따르면 BioWare 약 50명을 포함해 EA 전체적으로 약 400명의 인력 감축이 단행되며, 이는 EA가 최근 비공개 기업으로 전환된 이후 이어진 변화의 일환이다.",
+      "tags": [
+        "gaming",
+        "bioware",
+        "ea"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50181114",
+      "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50181114",
+      "publishedAt": "2026-10-21T14:00:26Z",
+      "score": 419,
+      "comments": 131,
+      "snippet": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor - Real-time Open Source Software Supply Chain Security New Blog: Why Does an npm Math Library Need an Encrypted Loader? • 18 Sep 2026 Product Discover & Monitor SCA & SBOM Scan dependencies, generate SBOMs, enforce policy. AI Agent Discovery See every AI tool and SDK in your org. AI Agent Monitoring Audit every action your AI agents take. Protect Developer Security Block malicious packages at install-time. CI/CD Security Block malicious packages in your pipeline. MCP Server Block threats inside your AI coding agent. Agent API Threat intelligence API for custom agents. Threat Intelligence Real-time malicious package verdicts. Govern Endpoint Protection Package events & AI inventory in the cloud. Platform Centralized policies, dashboard, compliance. Open Source Vet Scan and govern your dependencies across every PR and build. PMG Block malicious packages at install-time, before they enter your codebase. xbom Generate AI-enriched BOMs using real code evidence, not just manifests. GRYPH Monitor every AI coding agent action across your projects and workflows. Pricing How it works Blog Resources Documentation SDK API Threat Intelligence Hub Login Start for Free 1.5k Product Pricing How it works Blog Resources Documentation SDK API Threat Intelligence Hub Back Discover & Monitor SCA & SBOM Scan dependencies, generate SBOMs, enforce policy. AI Agent Discovery See every AI tool and SDK in your org. AI Agent Monitoring Audit every action your AI agents take. Protect Developer Security Block malicious packages at install-time. CI/CD Security Block malicious packages in your pipeline. MCP Server Block threats inside your AI coding agent. Agent API Threat intelligence API for custom agents. Threat Intelligence Real-time malicious package verdicts. Govern Endpoint Protection Package events & AI inventory in the cloud. Platform Centralized policies, dashboard, compliance. Open Source Vet Scan and govern your dependencies across every PR and build. PMG Block malicious packages at install-time, before they enter your codebase. xbom Generate AI-enriched BOMs using real code evidence, not just manifests. GRYPH Monitor every AI coding agent action across your projects and workflows. Login Start for Free 1.5k Back to Blog Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor Security Kunal Singh • Oct 21, 2026 • 6 min read On this page 6 sections On this page What the attack does How the implant got into the release Payload 1: the credential stealer in cook.py Payload 2: the backdoor in sitecustomize.py Timeline Indicators of compromise Open Source · Free Protect your projects from malicious packages Get PMG on GitHub ` rules instead of the old inline `prose-* / [&_…]` modifier string — that string compiled to ~40 complex selectors that Chrome iOS (WKWebView) re-matched on every scroll recalc, blanking the page. Base `prose prose-lg prose-invert` reset is kept. Runn",
+      "oneLineKo": "PyPI LiteLLM 1.107.0 변조, 자격증명 탈취 및 백도어 설치",
+      "summaryKo": "PyPI에 배포된 LiteLLM 1.107.0 패키지가 변조되어 설치 시 자격증명 탈취 코드(cook.py)와 sitecustomize.py를 통한 백도어를 심는 것으로 확인되었다. SafeDep 보안팀은 악성 페이로드의 동작 방식과 공급망 침투 경로, 침해 지표(IoC)를 상세히 분석했다. 해당 버전을 설치한 사용자는 즉시 자격증명 교체와 시스템 점검이 필요하다.",
+      "tags": [
+        "supply-chain-security",
+        "pypi",
+        "malware"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50184820",
+      "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+      "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50184820",
+      "publishedAt": "2026-10-21T17:45:13Z",
+      "score": 324,
+      "comments": 198,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;nmdoj.gov&#x2F;press-release&#x2F;the-new-mexico-department-of-justice-secures-another-landmark-victory-against-big-tech-with-historic-25-billion-penalty-against-facebook&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;nmdoj.gov&#x2F;press-release&#x2F;the-new-mexico-department-of...</a>",
+      "oneLineKo": "메타, 뉴멕시코주 소송서 250억 달러 과징금 명령",
+      "summaryKo": "뉴멕시코주 법무부가 케임브리지 애널리티카 관련 소송에서 메타에 250억 달러의 과징금을 부과하는 판결을 이끌어냈다. 뉴멕시코 법무부는 이를 빅테크를 상대로 한 또 하나의 역사적인 승리로 평가했다. 이번 판결은 아동 온라인 안전 및 개인정보 보호 관련 소송의 연장선에서 나온 것으로 알려졌다.",
+      "tags": [
+        "meta",
+        "privacy",
+        "legal"
+      ]
+    }
+  ]
+}

