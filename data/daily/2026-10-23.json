@@ -1,0 +1,279 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T00:17:49.239Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35841",
+      "title": "Show GN: VibeTerm(바이브텀) - Claude Code·Codex 여러 개를 한 화면에서 굴리는 무료 Windows 터미널",
+      "url": "https://news.hada.io/topic?id=35841",
+      "commentsUrl": "https://news.hada.io/topic?id=35841",
+      "publishedAt": "2026-10-23T09:12:43+09:00",
+      "snippet": "Claude Code를 서버 몇 대와 로컬에 여러 개 띄워 두고 일하다 보면 정작 시간을 잡아먹는 건 코딩이 아니라 \"어느 탭이 지금 나를 기다리고 있지?\" 를 확인하러 탭을 돌아다니는 일이었습니다. 그래서 AI 코딩 에이전트를 여러 개 돌리는 사람을 위한 SSH·터미널을 직접 만들어 매일 쓰고...",
+      "oneLineKo": "여러 AI 코딩 에이전트 동시 관리하는 무료 Windows 터미널",
+      "summaryKo": "개발자가 Claude Code 같은 AI 코딩 에이전트를 서버 및 로컬에 여러 개 띄워 작업할 때, 어느 탭이 응답을 기다리는지 확인하느라 시간을 낭비하는 문제를 해결하기 위해 VibeTerm을 개발했습니다. VibeTerm은 Claude Code, Codex 등 여러 AI 코딩 에이전트 세션을 한 화면에서 관리할 수 있는 무료 Windows용 SSH·터미널 도구입니다. 여러 탭을 오가지 않고도 각 에이전트의 상태를 한눈에 파악할 수 있도록 설계되었습니다.",
+      "tags": [
+        "terminal",
+        "ai-coding-agent",
+        "windows"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50198675",
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50198675",
+      "publishedAt": "2026-10-22T17:44:06Z",
+      "score": 277,
+      "comments": 143,
+      "snippet": "GitHub - NVIDIA/OpenShell: OpenShell is the safe, private runtime for autonomous AI agents. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} NVIDIA OpenShell Repository navigation Code Issues 373 ( 373 ) Pull requests 190 ( 190 ) Discussions Actions Projects Security and quality Insights More items OpenShell Public Notifications You must be signed in to change notification settings Fork 1.8k ( 1.8k ) Star 17.8k ( 17.8k ) You must be signed in to star a repository About OpenShell is the safe, private runtime for autonomous AI agents. docs.nvidia.com/openshell/latest/ Resources Readme Apache-2.0 license Code of conduct Code of conduct Contributing Contributing Security policy Security policy Activity Custom properties Stars 17.8k stars Watchers 69 watching Forks 1.8k forks Report repository main Branches Tags Go to file Code Open more actions menu Latest commit History 1,852 Commits 1,852 Commits Folders and files Name Name Last commit message Last commit date .agents/ skills .agents/ skills .cargo .cargo .claude .claude .config .config .github .github .opencode/ agents .opencode/ agents ",
+      "oneLineKo": "NVIDIA, 자율 AI 에이전트용 안전 런타임 OpenShell 공개",
+      "summaryKo": "NVIDIA가 다수의 자율 AI 에이전트를 안전하고 프라이빗하게 실행할 수 있는 런타임인 OpenShell을 GitHub에 공개했다. Apache-2.0 라이선스로 제공되며, 현재 1.8만 개 이상의 스타를 받으며 주목받고 있다. 저장소에는 Claude, OpenCode 등 다양한 에이전트 관련 설정 폴더가 포함되어 있어 여러 AI 에이전트 프레임워크와의 연동을 지원하는 것으로 보인다.",
+      "tags": [
+        "ai-agent",
+        "nvidia",
+        "runtime"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xcc8i8",
+      "title": "TornadoVM 7 Enables GPU-Native Workloads From Java Applications",
+      "url": "https://www.reddit.com/r/programming/comments/1xcc8i8/tornadovm_7_enables_gpunative_workloads_from_java/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xcc8i8/tornadovm_7_enables_gpunative_workloads_from_java/",
+      "publishedAt": "2026-10-22T07:42:26+00:00",
+      "snippet": "submitted by /u/benevanstech [link] [comments]",
+      "oneLineKo": "TornadoVM 7, 자바 애플리케이션서 GPU 네이티브 작업 지원",
+      "summaryKo": "TornadoVM의 새 버전 7이 공개되어 자바 애플리케이션에서 GPU 네이티브 워크로드 실행을 지원한다. 이를 통해 자바 개발자가 별도의 저수준 GPU 프로그래밍 없이도 GPU 가속 연산을 활용할 수 있게 된다. Reddit r/programming에 공유된 소식으로, 세부 구현 내용은 본문에 명시되지 않았다.",
+      "tags": [
+        "tornadovm",
+        "java",
+        "gpu"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35827",
+      "title": "LLM이 매긴 자기 답변의 신뢰도 점수를 믿기 어려운 이유",
+      "url": "https://news.hada.io/topic?id=35827",
+      "commentsUrl": "https://news.hada.io/topic?id=35827",
+      "publishedAt": "2026-10-23T02:46:27+09:00",
+      "snippet": "LLM에 “얼마나 확신하나요?”라고 물어 얻은 ‘0.85’는 내부 확신을 측정한 값이 아니라 생성된 텍스트 . 숫자가 정밀해 보인다고 실제 정답률까지 보장되지는 않음 신뢰도를 확인하려면 예측과 실제 결과를 여러 건 모아 비교 해야 함. 70%라고 답한 사례 중 실제...",
+      "oneLineKo": "LLM 자가 신뢰도 점수, 실제 정확도와 무관할 수 있음",
+      "summaryKo": "LLM에게 답변의 확신도를 물어 얻은 숫자(예: 0.85)는 모델의 내부 확신을 측정한 값이 아니라 단순히 생성된 텍스트에 불과하다. 숫자가 정밀해 보여도 실제 정답률을 보장하지 않는다. 신뢰도를 제대로 검증하려면 예측값과 실제 결과를 다수 모아 비교하는 캘리브레이션 과정이 필요하며, 70% 확신이라 답한 사례들이 실제로도 70% 정확한지 확인해야 한다.",
+      "tags": [
+        "llm",
+        "calibration",
+        "ai-reliability"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50197313",
+      "title": "Every AI model has the same \"controversial\" take on humans",
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50197313",
+      "publishedAt": "2026-10-22T16:08:00Z",
+      "score": 206,
+      "comments": 248,
+      "snippet": "Every AI model has the same “controversial” take on humans | ModelCompare ModelCompare Rankings Images Voices Videos Research Agents Pricing Read this in : English English العربية 中文 Compare models Rankings Images Voices Videos Research Agents Pricing Contact & feedback English العربية 中文 Text and image models · October 2026 Every AI model has the same “controversial” take on humans We asked 12 AI models for their most controversial opinion of us, three times each. 29 of 35 answers were the same one. By ModelCompare · 22 October 2026 “Humans are more loyal to belonging than to truth,” GPT-6.1 Sol told us. Grok 4.7: “Humans would rather be wrong together than right alone.” DeepSeek V4 Pro: “Humans do not have principles; they have loyalties.” Kimi K3: “Humans don’t have beliefs; they have memberships.” Gemini 4 Argon called human consciousness “a PR department.” We asked each model for its most controversial take on humans, with no hedging, three times. They come from ten labs in three countries. Every one of them gave the same take at least once: we pick what our group believes, then invent the reasons. 7 of the 12 gave it every time. Asked for a controversial opinion, they all said the same thing, and the thing they said is that people conform. Three answers from each model Humans put belonging ahead of truth Something else Refused Tap a model to read its answers. GPT-6.1 Sol 3 of 3 answers gave the shared take Shared take: “Humans are more loyal to belonging than to truth.” Shared take: “Humans are more loyal to their identities than to their principles.” Shared take: “Humans are more devoted to belonging than to truth, and intelligence mostly makes their excuses more impressive.” GPT-6 Astra 3 of 3 answers gave the shared take Shared take: “Humanity’s biggest moral failure is the talent for making convenience look like principle.” Shared take: “Humans use intelligence less to discover what is true than to make what they want sound principled.” Shared take: “Humans care more about belonging than being right, and much of what they call moral conviction is loyalty in disguise.” Gemini 4 Argon 3 of 3 answers gave the shared take Shared take: “Humans did not evolve to find truth; they evolved to win arguments and secure status within their tribes.” Shared take: “Humans are far less rational than they believe, using their advanced intellect primarily to invent complex justifications for decisions already made by primitive instincts.” Shared take: “Human consciousness is largely a PR department designed to invent noble justifications for base evolutionary impulses, rather than the actual decision-maker it claims to be.” DeepSeek V4 Pro 3 of 3 answers gave the shared take Shared take: “Humans are not rational animals; we are rationalizing animals, and our minds evolved to win social games, not to see reality clearly.” Shared take: “Humans are not rational animals; they are rationalizing animals whose intelligence mostly serves to justify instincts and",
+      "oneLineKo": "12개 AI 모델에 같은 질문, 35개 답변 중 29개가 동일 결론",
+      "summaryKo": "ModelCompare가 10개 연구소의 AI 모델 12종에 '인간에 대한 논쟁적 견해'를 각각 3번씩 물은 결과, 35개 답변 중 29개가 동일한 취지의 답을 내놓았다. 핵심 내용은 '인간은 진실보다 소속감(belonging)을 우선시하며, 신념이 아니라 집단 충성심을 가지고 있고 지능은 그 변명을 정교하게 만드는 데 쓰인다'는 것이다. GPT, Grok, DeepSeek, Kimi, Gemini 등 서로 다른 모델들이 거의 동일한 표현으로 인간의 동조 성향을 지적했으며, 12개 중 7개 모델은 3번의 질문 모두에서 같은 취지의 답을 반복했다.",
+      "tags": [
+        "llm",
+        "ai-ethics",
+        "model-comparison"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xcgl1u",
+      "title": "Arcana: One Pure-Java Library for (Almost) Every Archive Format",
+      "url": "https://www.reddit.com/r/programming/comments/1xcgl1u/arcana_one_purejava_library_for_almost_every/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xcgl1u/arcana_one_purejava_library_for_almost_every/",
+      "publishedAt": "2026-10-22T11:59:17+00:00",
+      "snippet": "submitted by /u/SteF44444 [link] [comments]",
+      "oneLineKo": "거의 모든 압축 포맷 지원하는 순수 자바 라이브러리 Arcana",
+      "summaryKo": "Arcana는 다양한 아카이브 포맷을 하나로 다룰 수 있게 해주는 순수 자바(Pure-Java) 라이브러리로 소개되었다. 제목 외 본문 정보가 없어 구체적인 지원 포맷이나 구현 세부사항은 확인할 수 없다. Reddit 프로그래밍 커뮤니티에 공유된 게시물이다.",
+      "tags": [
+        "java",
+        "library",
+        "archive"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35800",
+      "title": "Show GN: 배달의 AI - 새 탭을 열 때마다 AI 뉴스를 배달해 주는 크롬 확장 프로그램",
+      "url": "https://news.hada.io/topic?id=35800",
+      "commentsUrl": "https://news.hada.io/topic?id=35800",
+      "publishedAt": "2026-10-22T14:08:41+09:00",
+      "snippet": "매일 쏟아지는 AI 뉴스와 아티클을 따로 찾아다닐 필요 없이, 크롬에서 새 탭을 열 때마다 가볍게 받아볼 수 있는 무료 확장 프로그램 '배달의 AI'를 소개합니다. 바이브 코딩(Vibe Coding)을 이제 막 시작하셨거나 관심 있는 분들께 작은 참고가 되었으면 해서 개발 및 운영 비하인드를 공유합니다. [",
+      "oneLineKo": "새 탭마다 AI 뉴스 배달하는 크롬 확장 프로그램",
+      "summaryKo": "'배달의 AI'는 크롬에서 새 탭을 열 때마다 최신 AI 뉴스와 아티클을 자동으로 보여주는 무료 확장 프로그램이다. 매일 AI 관련 소식을 따로 찾아다닐 필요 없이 가볍게 받아볼 수 있도록 만들어졌다. 개발자는 바이브 코딩(Vibe Coding)을 활용해 이 프로젝트를 만들었으며, 관심 있는 이들을 위해 개발 및 운영 과정의 비하인드 스토리를 공유했다.",
+      "tags": [
+        "chrome-extension",
+        "ai-news",
+        "vibe-coding"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50157456",
+      "title": "Startup taps underwater volcano as energy source in “proof point” test",
+      "url": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50157456",
+      "publishedAt": "2026-10-19T20:12:49Z",
+      "score": 122,
+      "comments": 50,
+      "snippet": "Startup taps underwater volcano as energy source in \"proof point\" test - Ars Technica Skip to content Ars Technica home Sections Forum Subscribe Search AI Biz & IT Cars Culture Gaming Health Policy Science Security Space Tech Feature Reviews AI Biz & IT Cars Culture Gaming Health Policy Science Security Space Tech Forum Subscribe Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Pin to story Theme HyperLight Day & Night Dark System Search Sign In Sign in dialog... Sign in Liquid hot stuff Startup taps underwater volcano as energy source in “proof point” test Can undersea geothermal power help Pacific Rim nations cut down on oil imports? Jeremy Hsu – Oct 19, 2026 3:27 pm | 36 A subsea lander drill used for making undersea geothermal wells sits on the deck of the ship Ocean Guardian . Credit: Endurance Energy A subsea lander drill used for making undersea geothermal wells sits on the deck of the ship Ocean Guardian . Credit: Endurance Energy Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav The world’s first demonstration of a subsea geothermal power plant has taken place near an active underwater volcano almost a mile below the ocean surface. It generated less than 10 seconds of net-positive electricity but showed the technical feasibility of tapping another form of renewable energy underwater. The three-week test deployment of the 3-ton prototype power plant took place at the Axial Seamount in the northeast Pacific Ocean in September. Endurance Energy, the Seattle-based startup behind the effort, aims to eventually commercialize subsea geothermal power for Pacific island nations and other customers looking for alternatives to importing expensive fossil fuels. “The deep ocean gives us unlimited cold seawater for cooling, and its weight keeps the system and the well pressurized, so our plants can be compact,” said Andrew Redd , founder and CEO of Endurance Energy, in an email to Ars. But efforts to tap geothermal power on the seafloor face many different challenges from land-based geothermal projects, which can also add up to higher installation and operational costs. So Endurance Energy must demonstrate consistent underwater operations as well as prove the approach can be cost-effective. “It’s probably technically feasible, but it would undoubtedly be more expensive than to do it on land,” said Roland Horne , professor of energy science & engineering at Stanford University, in an emailed response to Ars. Deep sea drilling Endurance Energy’s deployment required a subsea lander drill to deploy from the ship Ocean Guardian —operated by Stabbert Maritime—and drill two holes in the seafloor at a depth of about 5,000 feet (1,524 meters). That means the test took place at a depth exceeding 2.5 times the height of the One World Trade Center building in New York City, which is the tallest building in the Un",
+      "oneLineKo": "해저 화산 활용한 심해 지열발전 첫 실증 성공",
+      "summaryKo": "시애틀 스타트업 Endurance Energy가 북동태평양 Axial 해저화산 인근 수심 약 1,524m 지점에서 세계 최초의 해저 지열발전 실증 시험을 진행했다. 3톤급 프로토타입 발전소가 9월 3주간의 테스트에서 10초 미만의 순양전력을 생산하며 기술적 실현 가능성을 입증했다. 회사는 이를 발판으로 화석연료 수입 의존도가 높은 태평양 도서국 등을 대상으로 해저 지열발전 상용화를 목표로 하고 있다. 전문가들은 기술적으로는 가능하지만 육상 지열발전보다 비용이 높을 것이라는 과제를 지적했다.",
+      "tags": [
+        "geothermal-energy",
+        "renewable-energy",
+        "deep-sea-tech"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35834",
+      "title": "Arc 브라우저와의 작별, 12월 22일 서비스 종료",
+      "url": "https://news.hada.io/topic?id=35834",
+      "commentsUrl": "https://news.hada.io/topic?id=35834",
+      "publishedAt": "2026-10-23T06:43:01+09:00",
+      "snippet": "Arc가 2026년 12월 22일 종료 . macOS와 Windows용 브라우저는 작동을 멈추며, 기존 사용자는 그전까지 평소처럼 사용하고 기본 업데이트를 받을 수 있음 개발팀은 브라우저 보안 유지에 필요한 작업이 AI 시대에 늘고 있다 며, 엔지니어링팀과 보안팀의 역량을 새 브...",
+      "oneLineKo": "Arc 브라우저, 2026년 12월 22일 서비스 종료",
+      "summaryKo": "Arc 브라우저가 2026년 12월 22일부로 서비스를 종료한다. macOS와 Windows용 브라우저는 작동을 멈추며, 그전까지 기존 사용자는 평소처럼 사용하고 기본 업데이트를 받을 수 있다. 개발팀은 AI 시대에 브라우저 보안 유지에 필요한 작업이 늘고 있다며, 엔지니어링과 보안팀 역량을 새 프로젝트로 돌리기 위한 결정이라고 설명했다.",
+      "tags": [
+        "browser",
+        "arc",
+        "security"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50199230",
+      "title": "AI and the Enclosure of the Scientific Commons",
+      "url": "https://arxiv.org/abs/2610.27251",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50199230",
+      "publishedAt": "2026-10-22T18:28:16Z",
+      "score": 102,
+      "comments": 58,
+      "snippet": "[2610.27251] AI and The Enclosure of the Scientific Commons Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search &middot; Advanced search --> Astrophysics > Instrumentation and Methods for Astrophysics arXiv:2610.27251 (astro-ph) [Submitted on 19 Oct 2026] Title: AI and The Enclosure of the Scientific Commons Authors: P. K. G. Williams (Center for Astrophysics | Harvard & Smithsonian) View a PDF of the paper titled AI and The Enclosure of the Scientific Commons, by P. K. G. Williams (Center for Astrophysics | Harvard & Smithsonian) View PDF HTML (experimental) Abstract: The scientific literature can be viewed as an \"information commons:\" an intangible resource that \"no one owns and is shared by everyone.\" There are well-established economic and political frameworks for understanding such commons, emerging from the history of agricultural common lands found in places like preindustrial England. This article provides a primer on the history and these frameworks, and considers a key difference between the information commons and the fields of yore: while information commons are robust and immensely valuable --- some can be said to rank among humanity's greatest achievements --- the English agricultural commons no longer meaningfully exist. The latter are gone not because of the well-known \"tragedy of the commons,\" but rather a phenomenon known as the enclosure movement (~1600--1800) that transformed the common lands into private property. Many observers, then and now, judge enclosure to have been theft at a societal scale. This article argues that artificial intelligence (AI) provides precisely the tools needed to enable a previously-infeasible enclosure of the information commons. Although AI-enabled enclosure does not operate identically to physical enclosure, it shares the key features of turning the commons into private wealth and undermining the social systems that support them (via \"slop spam\"). The concepts presented in this article can provide a scholarly basis for interrogating the foreboding feeling that AI may represent not just a smash-and-grab, but an attack upon a whole way of life. Comments: 14 pages, 32 references for the reader wishing to learn more Subjects: Instrumentation and Methods for Astrophysics (astro-ph.IM) ; Computers and Society (cs.CY) Cite as: arXiv:2610.27251 [astro-ph.IM] (or arXiv:2610.27251v1 [astro-ph.IM] for this version) https://doi.org/10.48550/arXiv.2610.27251 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Peter Williams [ view email ] [v1] Mon, 19 Oct 2026 20:22:54 UTC (110 KB) Full-text links: Access Paper: View a PDF of the paper titled AI and The Enclosure of the Scientific Commons, by P. K. G. Williams (Center for Astrophysics | Harvard & Smithsonian) View PDF HTML (experimental) TeX Source view license Current browse context: astro-ph.IM < prev | next > new | recent | 2026-10 Change to browse by: astro-ph cs cs.CY Reference",
+      "oneLineKo": "AI가 과학 정보공유지를 사유화한다는 경고",
+      "summaryKo": "이 논문은 과학 문헌을 누구나 공유하는 '정보 공유지'로 보고, 영국 농업 공유지의 역사적 인클로저 운동 사례를 통해 공유지 이론을 설명한다. 저자는 AI가 이러한 정보 공유지를 사적 자산으로 전환시키는 전례 없는 인클로저 도구가 될 수 있다고 주장한다. 특히 AI 생성 '슬롭 스팸'이 공유지를 지탱하는 사회적 시스템을 훼손한다는 점에서 물리적 인클로저와 유사하다고 지적한다. 이는 AI가 단순한 약탈을 넘어 학술 생태계 전체를 위협할 수 있다는 우려에 학술적 근거를 제공한다.",
+      "tags": [
+        "ai",
+        "open-science",
+        "information-commons"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35833",
+      "title": "OpenShell - AI 에이전트의 파일과 네트워크 접근을 제어하는 NVIDIA 런타임",
+      "url": "https://news.hada.io/topic?id=35833",
+      "commentsUrl": "https://news.hada.io/topic?id=35833",
+      "publishedAt": "2026-10-23T06:40:00+09:00",
+      "snippet": "AI 에이전트에게 작업 권한을 주면서도 파일과 비밀정보, 네트워크 접근 범위를 제한 하는 NVIDIA의 오픈소스 런타임. 에이전트별 정책을 선언하고 실행 중 강제 적용 각 에이전트를 격리된 샌드박스에서 실행 하며, 커널 수준에서 파일 접근과 시스템 호출을 제한. ...",
+      "oneLineKo": "NVIDIA, AI 에이전트 접근 제어 오픈소스 런타임 공개",
+      "summaryKo": "NVIDIA가 AI 에이전트에게 작업 권한을 부여하면서도 파일, 비밀정보, 네트워크 접근 범위를 제한하는 오픈소스 런타임 OpenShell을 공개했다. 에이전트별로 접근 정책을 선언하고 실행 중 이를 강제 적용하는 방식이다. 각 에이전트는 격리된 샌드박스 환경에서 실행되며, 커널 수준에서 파일 접근과 시스템 호출을 제한한다.",
+      "tags": [
+        "ai-agent",
+        "sandbox",
+        "security"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50195959",
+      "title": "Quad9 (DNS Resolver) to Exit France",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50195959",
+      "publishedAt": "2026-10-22T14:32:38Z",
+      "score": 953,
+      "comments": 344,
+      "snippet": "Farewell, France | Quad9 Service Service Addresses & Features Threat blocking Privacy Locations Negative Trust Anchors News News Blog Press Media Kit Support Support Setup guides Frequently Asked Questions Search Blocked Domains Get support About About Foundation Council Team Jobs Transparency Report Sponsors Partners PEHR Advisory Council Donate en English Deutsch Español Français Português IPv4 9.9.9.9 149.112.112.112 IPv6 2620:fe::fe 2620:fe::9 More options Back to Blog October 22, 2026 blog Farewell, France We have some news to share with you. Summary Starting November 24, Quad9 will no longer be able to offer its free cyberprotection service to users located in France. The French courts yesterday handed down an unfavorable ruling against Quad9 in a major case that undermines the transparency and stability of the internet. This decision in favor of beIN forces Quad9 to block the recursive DNS resolution for a number of domain names for users located in France. The good news is the court significantly reduced the financial penalty, from €580,000 to €1,000 per day. However, for Quad9, this has never been just a financial issue: it is a matter of principle. We cannot comply with this ruling over the long term while remaining faithful to our mission to protect your privacy, defend you against cyber threats, and preserve the integrity of the internet. For us, recursive DNS resolution is a neutral and passive service. We categorically refuse to alter or lie to you about the DNS responses you receive in a way that opposes your expectations. This ruling forces an untenable position upon us. Compliance is technically unfeasible, and implementation directly contradicts our mandate to serve the public. As a result, we have made the difficult decision to withdraw Quad9 services from France as of Tuesday, November 24. We deeply regret that French internet users will be left without an alternative that can adequately protect their cybersecurity while remaining compliant with European privacy law. Background beIN, a Qatari company with offices in France, previously sought to force Quad9 to block resolution for a set of domain names they assert are participating in copyright infringement of its audiovisual rights on sports event broadcasts. Quad9 has no association with these domain names, nor with the operators of the websites. The French courts have fundamentally misunderstood the working of the internet and the role of the domain name system and have allowed a financial penalty to apply to Quad9 if we do not block DNS responses to users in France. Quad9 is a Swiss public-benefit, nonprofit foundation established for the explicit purpose of protecting the cybersecurity of internet users. We charge nothing for our service and serve all people and organizations which seek to improve the security and privacy of their internet use. Our core values are to make privacy, security, and integrity available to all internet users, and our mission is to universally ap",
+      "oneLineKo": "Quad9, 프랑스 법원 DNS 차단 판결에 서비스 철수 결정",
+      "summaryKo": "비영리 DNS 리졸버 Quad9이 프랑스 법원의 불리한 판결로 11월 24일부터 프랑스에서 서비스를 중단한다고 밝혔다. 이번 판결은 카타르 기업 beIN의 저작권 침해 주장에 따라 특정 도메인의 DNS 응답을 차단하도록 강제한 것으로, 일일 벌금은 58만 유로에서 1,000유로로 크게 줄었지만 Quad9은 이를 원칙의 문제로 보고 있다. Quad9은 재귀적 DNS 해석은 중립적이고 수동적인 서비스여야 한다는 입장을 고수하며, DNS 응답을 왜곡하는 것이 자사의 개인정보 보호 및 인터넷 무결성 보존 사명과 양립할 수 없다고 설명했다.",
+      "tags": [
+        "dns",
+        "privacy",
+        "internet-governance"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35828",
+      "title": "pwn.watch - 최신 보안 사고와 패치 현황을 모아 보는 대시보드",
+      "url": "https://news.hada.io/topic?id=35828",
+      "commentsUrl": "https://news.hada.io/topic?id=35828",
+      "publishedAt": "2026-10-23T03:39:22+09:00",
+      "snippet": "최신 보안 사고와 취약점, 패치 여부와 필요한 대응을 한곳에서 확인 하는 대시보드. 개발 도구부터 클라우드 서비스, 런타임과 인증서 사고까지 수록 제품명과 CVE, 키워드로 검색 하고, 심각도와 패치 완료/부분 패치/미패치 상태로 필터링 가능 사고별로...",
+      "oneLineKo": "보안 사고·패치 현황 모아보는 대시보드 공개",
+      "summaryKo": "pwn.watch는 최신 보안 사고와 취약점, 패치 여부 및 필요한 대응을 한곳에 모아 보여주는 대시보드이다. 개발 도구, 클라우드 서비스, 런타임, 인증서 사고까지 폭넓게 수록한다. 제품명, CVE, 키워드로 검색할 수 있고, 심각도 및 패치 완료/부분 패치/미패치 상태로 필터링이 가능하다.",
+      "tags": [
+        "security",
+        "vulnerability",
+        "dashboard"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50195110",
+      "title": "eMudhra to exit global SSL/TLS certificate business",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50195110",
+      "publishedAt": "2026-10-22T13:33:39Z",
+      "score": 906,
+      "comments": 618,
+      "snippet": "eMudhra to Exit global SSL/TLS Certificate Business Contact Us &#x2715; Products Featured Products eSignature Solution Identity & Access Solution CLM & SSL/TLS Certificates Digital Identity & KYC emSigner Sign smarter. Approve faster. Go fully paperless with ease. Features Automate multi-level approvals, accelerate document signing, and monitor workflow progress in real time. Use Cases Streamline bulk signing for HR, finance, legal, procurement, and other enterprise operations. Resources Access implementation guides, technical documentation, and best practices for eSignature deployment. Pricing Flexible plans for individuals, SMBs, and large enterprises with scalable usage tiers. Customer Stories Banking FAB drives an enterprise-wide paperless initiative... Automotive Mercedes curbs employment fraud by going digital... Networking hardware & software emSigner plays an instrumental role in streamlining processes... View All Case Studies SecurePass Converged identity platform for authentication, access management and identity governance Features Enforce adaptive authentication, SSO, and centralized governance to strengthen access control across your enterprise. Use Cases Simplify secure logins, user provisioning, and access management for internal systems and apps. Resources Find documentation, configuration guides, and best practices for identity and access management. Pricing Tiered pricing designed for individuals, SMBs, and enterprise deployments with flexible scalability. Case Studies BFSI India's Largest Life Insurance Provider Scales Digital Identity for 50M+ Users Government Central Govt Department in India Secures Employee Access Across a Large Workforce View All Case Studies CertiNext Buy, discover, provision and manage lifecycle of SSL/TLS certificates Features Issue, renew, and revoke digital certificates for users, devices, and services with complete lifecycle management. Use Cases Secure internal systems, apps, and communications through PKI-based authentication and encryption. Resources Access guides, technical manuals, and workflows for PKI and certificate lifecycle management. Pricing Flexible subscription models to support small teams, large enterprises, and global deployments. Case Studies BFSI India's Largest Commercial Bank Deploys CertiNext for Enterprise CLM Government Digital Government Authority in the Middle East Establishes Certificate Governance Telecommunication Cable & Internet Provider in Southeast Asia Centralises Certificate Management View All Case Studies IDBroker The identity platform that scales from KYC to national ID. IDPaaS API-first KYC for banks, fintechs, NBFCs and certifying authorities. IDP Solution Sovereign-grade identity infrastructure for national ID programmes. KYC Modules OCR, liveness, face match and 20+ government verification APIs. Video KYC V-CIP and two-way video sessions with audit-ready recording. Use Cases Banking & Financial Account opening, V-CIP, periodic re-KYC... Government Citizen enro",
+      "oneLineKo": "eMudhra, 글로벌 SSL/TLS 인증서 사업 철수 발표",
+      "summaryKo": "인도의 디지털 신원·보안 기업 eMudhra가 글로벌 SSL/TLS 인증서 발급 사업에서 철수한다고 공식 발표했다. 회사는 eSignature, SecurePass, CertiNext 등 다른 디지털 아이덴티티 및 인증서 수명주기 관리 제품군은 계속 유지할 것으로 보인다. 이번 발표는 보도자료 형태로 공개되었으며, 구체적인 철수 사유나 일정에 대한 추가 세부사항은 본문에서 확인되지 않는다.",
+      "tags": [
+        "ssl-tls",
+        "pki",
+        "digital-identity"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50192536",
+      "title": "Jailbreaking the Switch 2",
+      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50192536",
+      "publishedAt": "2026-10-22T08:01:52Z",
+      "score": 697,
+      "comments": 243,
+      "snippet": "Sammy Hajhamid — Blog ??? blog jailbreaking the switch 2 ns2jb is a software-only jailbreak of the switch 2 for the current latest firmware 23.0.1 October 18, 2026 cs Introduction You can get a copy of the exploit from the ns2jb repository. ns2jb is a software-only, tethered jailbreak for the Switch 2. It allows running arbitrary native code as any ordinary sysmodule, and as the built-in fs sysmodule. This lets us run homebrew, reverse engineer and mod Switch 2 games, back up save files off the Switch, and access most of the Switch 2’s peripherals through MMIO. To my knowledge, it’s the first such exploit for the Switch 2. To demonstrate the capabilities of this jailbreak, Codex modded a Switch 2 exclusive, Mario Kart World. Thanks to my friends in Dabney House who helped me choose characters to add and playtest the game. Watch the first gameplay video Watch the second gameplay video ▶ 0:09 ▶ 0:05 cinnamoroll, red, and tole tole racing first gameplay video second gameplay video first results photo second results photo Setup The very first thing I did was set up a harness around the Switch 1 and 2 so Codex could, ideally, jailbreak the Switch 2 without me: “set a goal to jailbreak the switch 2. make no mistakes” Edit: Many people have been asking me if I actually used this prompt. No, it’s just a silly caption. I set a /goal for userland code execution, but that didn’t succeed. The jailbreak itself took substantial effort for ~2 weeks. The Mario Kart World, however, was entirely vibecoded in a day, and was just for fun. The JetKVMs allow Codex to send controller inputs to the Switches over USB and receive video output over HDMI. We also need a way to press the power button—when the Switch 2 crashes, it needs a button press to restart. That’s what the Bluetooth light switch flicker from Amazon is for. When the lever comes down, it presses the power button. Once the power button is fully pressed, the rest of the lever’s torque lifts the mechanism. watch the power button get pressed Getting code execution WebKit is a popular target for console jailbreaks, so it’s unsurprising that Codex has picked it for initial code execution. Code execution through the browser It claims to have “native control-flow hijack” by taking advantage of a WebKit n-day loaded via a custom Wi-Fi captive portal. We’d like to get code execution in microkernel services (or “sysmodules” on the Switch), so we can run homebrew, mod games, download saves, etc. Unfortunately, this approach of replacing one JavaScript function object with another doesn’t generalize beyond existing functions—we’d need a new way to make arbitrary IPC calls. That looks difficult. Why? WebKit has execute-only memory, or XOM, so even with arbitrary memory RW, we don’t know where a gadget that could perform arbitrary IPC calls is. Even if we did, perhaps by parsing relocation data, it’s not clear how we’d construct a signed pointer for it because of PAC. And even if we could, with some signing gadget, it’s",
+      "oneLineKo": "스위치 2 소프트웨어 전용 탈옥 ns2jb 공개",
+      "summaryKo": "현재 최신 펌웨어 23.0.1 기준 닌텐도 스위치 2용 소프트웨어 전용 테더드 탈옥 ns2jb가 공개됐다. 이는 임의의 네이티브 코드를 일반 시스모듈 및 내장 fs 시스모듈 권한으로 실행할 수 있게 해, 홈브류 실행, 게임 리버싱·모딩, 세이브 파일 백업, MMIO를 통한 주변장치 접근이 가능하다. 저자는 WebKit n-day 취약점을 이용해 초기 코드 실행을 확보했으며, XOM과 PAC 같은 보호 기법으로 인한 어려움을 설명한다. 이를 시연하기 위해 Codex가 마리오 카트 월드를 모딩한 사례도 소개한다.",
+      "tags": [
+        "jailbreak",
+        "nintendo-switch",
+        "webkit"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50194833",
+      "title": "Woman faces six years in prison over Cash App account she never opened",
+      "url": "https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50194833",
+      "publishedAt": "2026-10-22T13:11:00Z",
+      "score": 446,
+      "comments": 445,
+      "snippet": "Woman spends three nights in jail and faces six years in prison over Cash App account she never opened | TechSpot User login User icon Login Search A search icon TechSpot The word TechSpot Trending AI Indestructible Nokias CPU Benchmarking Google Chrome (Bad) GPU Prices Ray Tracing Scam? Reviews Outstanding CPU Graphics Cards Monitors PC Buying Guide Software Gaming Benchmarks Features Tech Culture Must Reads Legends of Tech Explainers Hardware Gaming Downloads Software Essentials Popular Apps Google Chrome VMWare Minecraft Device Drivers PS3 Firmware The Best Best CPUs Best GPUs Best Monitors Best SSD Best Phones Best Tablets Best Mouse Best PC Games Tech DB CPU Database GPU Database Product Finder Search Forums Join TechSpot Elite New Forum Posts Tech Culture The Web crime cash app Woman spends three nights in jail and faces six years in prison over Cash App account she never opened Cash App initially refused to provide account details because she couldn't prove she owned it By Rob Thubron October 22, 2026, 5:20 15 comments Add TechSpot Serving tech enthusiasts for over 25 years. TechSpot means tech analysis and advice you can trust . WTF?! Digital identity fraud is far from something new, but this case shows just how extreme the repercussions can be. A Cash App account opened in someone else's name and used in scams could lead to an innocent person being sentenced to years in prison. The problem is that the company initially refused to provide information about the account because she couldn't prove that she was the owner. In April, Amanda Smith was shocked to discover officers at her upstate Pennsylvania home with a warrant for her arrest, writes 404 Media . The alleged crime took place in Arkansas – more than a thousand miles away in a state she'd never visited. Smith was taken to the local jail, where she was locked up for three nights. Her bail was initially set at $50,000, but Smith says authorities told her there was little point in paying it because they intended to extradite her to Arkansas anyway. After being released, she and her husband drove to Arkansas for a court appearance, where she was fingerprinted and photographed. Another $20,000 bail was imposed before she could return home. Smith later discovered why she had been arrested: a scammer had tricked someone into sending $1,000 to a Cash App account, one that was in her name but controlled by a criminal. It turned out that the account had been created using Smith's Social Security number and date of birth. But Smith, who describes herself as not tech-savvy, said she had never used Cash App. The situation sounds like one that should have been resolved quickly. But Smith says she is still being asked to prove her innocence in an ongoing criminal case. One stumbling block was that Cash App refused to hand over details of the account to Smith because she couldn't prove she was the owner. She eventually received the data through discovery in her case. // Related Stories \"I have to s",
+      "oneLineKo": "신원도용 Cash App 계좌로 억울하게 체포된 여성",
+      "summaryKo": "펜실베이니아에 거주하는 Amanda Smith는 자신의 주민번호와 생년월일로 개설된 Cash App 계좌가 사기에 사용되면서, 한 번도 가본 적 없는 아칸소주 사건으로 체포영장이 발부돼 3일간 수감됐다. 그녀는 자신이 계좌 소유자가 아니라고 주장했지만, Cash App 측은 본인이 소유자임을 증명하지 못한다는 이유로 계좌 정보 제공을 거부했다. 결국 소송 증거개시 절차를 통해서야 관련 정보를 확보할 수 있었으며, 그녀는 여전히 진행 중인 형사 사건에서 무죄를 입증해야 하는 상황에 놓여 있다.",
+      "tags": [
+        "identity-theft",
+        "fintech",
+        "fraud"
+      ]
+    }
+  ]
+}

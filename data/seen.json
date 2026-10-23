@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=34070",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "news.hada.io/topic?id=34070",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49792067",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "linear.app/now/ci-bottleneck-reworked",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "t3_1wmqwd3",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wmqwd3/til_0xcafebabe",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34037",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "news.hada.io/topic?id=34037",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49791647",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "timdettmers.com/2026/09/21/dlab-open-source-week",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "t3_1wmckoi",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wmckoi/back_to_coupling_and_cohesion",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34083",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "news.hada.io/topic?id=34083",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49787726",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "alicegg.tech/2026/09/21/attention",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34079",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "news.hada.io/topic?id=34079",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49787436",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34034",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "news.hada.io/topic?id=34034",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49792730",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "mimo.xiaomi.com/mimo-v2-6",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34033",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "news.hada.io/topic?id=34033",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49783999",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "github.com/jaredpalmer/kev/tree/main",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49791939",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "science.org/content/article/nasa-s-mars-sample-return-mission-dead",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49790409",
-    "date": "2026-09-22"
-  },
-  {
-    "id": "support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac",
-    "date": "2026-09-22"
-  },
-  {
     "id": "https://news.hada.io/topic?id=34242",
     "date": "2026-09-25"
   },
@@ -3526,5 +3398,133 @@
   {
     "id": "cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
     "date": "2026-10-22"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35841",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "news.hada.io/topic?id=35841",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50198675",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "github.com/NVIDIA/OpenShell",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "t3_1xcc8i8",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xcc8i8/tornadovm_7_enables_gpunative_workloads_from_java",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35827",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "news.hada.io/topic?id=35827",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50197313",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "t3_1xcgl1u",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xcgl1u/arcana_one_purejava_library_for_almost_every",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35800",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "news.hada.io/topic?id=35800",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50157456",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35834",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "news.hada.io/topic?id=35834",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50199230",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "arxiv.org/abs/2610.27251",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35833",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "news.hada.io/topic?id=35833",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50195959",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "quad9.net/news/blog/au-revoir-france",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35828",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "news.hada.io/topic?id=35828",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50195110",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50192536",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50194833",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html",
+    "date": "2026-10-23"
   }
 ]
