@@ -1,0 +1,279 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T00:17:14.458Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35866",
+      "title": "스웨덴 정부청사, ChatGPT와 Claude 접속 차단 예정",
+      "url": "https://news.hada.io/topic?id=35866",
+      "commentsUrl": "https://news.hada.io/topic?id=35866",
+      "publishedAt": "2026-10-23T23:56:43+09:00",
+      "snippet": "스웨덴 정부청사(Regeringskansliet) 가 월요일부터 직원 업무용 컴퓨터에서 ChatGPT와 Claude 접속을 차단 함 직원들이 승인된 AI 서비스 를 사용하도록 유도하기 위한 조치이며, 승인 도구에는 Microsoft의 Copilot이 포함됨 다만 일부 ...",
+      "oneLineKo": "스웨덴 정부청사, ChatGPT·Claude 접속 차단 예정",
+      "summaryKo": "스웨덴 정부청사(Regeringskansliet)가 월요일부터 직원 업무용 컴퓨터에서 ChatGPT와 Claude 접속을 차단할 예정이다. 이는 직원들이 승인된 AI 서비스를 사용하도록 유도하기 위한 조치로, 승인된 도구에는 Microsoft의 Copilot이 포함된다. 다만 일부 예외적인 경우는 허용될 수 있는 것으로 보인다.",
+      "tags": [
+        "chatgpt",
+        "claude",
+        "copilot"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50212065",
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50212065",
+      "publishedAt": "2026-10-23T16:59:08Z",
+      "score": 658,
+      "comments": 420,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.kimi.com&#x2F;code&#x2F;docs&#x2F;en&#x2F;kimi-code&#x2F;models.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.kimi.com&#x2F;code&#x2F;docs&#x2F;en&#x2F;kimi-code&#x2F;models.html</a><p><a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;kimi-k3-1-pro\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;kimi-k3-1-pro</a><p><a href=\"https:&#x2F;&#x2F;www.modelcompare.ai&#x2F;blog&#x2F;china-open-source-ai\" rel=\"nofollow\">https:&#x2F;&#x2F;www.modelcompare.ai&#x2F;blog&#x2F;china-open-source-ai</a>",
+      "oneLineKo": "Kimi K3.1 Pro 및 고속 버전 모델 공개",
+      "summaryKo": "Kimi AI가 새로운 모델인 K3.1 Pro와 더 빠른 응답 속도를 제공하는 K3.1 Pro Highspeed를 발표했다. 관련 문서로는 Kimi Code 모델 가이드와 artificialanalysis.ai의 벤치마크 페이지, 중국 오픈소스 AI 동향을 다루는 블로그 글이 함께 링크되어 있다. 본문 내용이 제한적이라 구체적인 성능 지표나 아키텍처 세부사항은 확인되지 않는다.",
+      "tags": [
+        "llm",
+        "kimi",
+        "ai-model"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xd9rwe",
+      "title": "eMudhra's Press Release on the CA Compromise",
+      "url": "https://www.reddit.com/r/programming/comments/1xd9rwe/emudhras_press_release_on_the_ca_compromise/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xd9rwe/emudhras_press_release_on_the_ca_compromise/",
+      "publishedAt": "2026-10-23T09:55:46+00:00",
+      "snippet": "submitted by /u/random8847 [link] [comments]",
+      "oneLineKo": "인증기관 eMudhra, CA 침해 사고 관련 공식 입장 발표",
+      "summaryKo": "인증기관(CA) eMudhra가 자사 시스템의 보안 침해(compromise) 사건에 대한 공식 보도자료를 발표했다는 소식이다. Reddit에 공유된 글로, 구체적인 침해 경위나 영향 범위에 대한 본문 내용은 제공되지 않았다. CA 침해는 발급된 인증서의 신뢰성에 영향을 줄 수 있어 업계의 주목을 받는 사안이다.",
+      "tags": [
+        "certificate-authority",
+        "security",
+        "pki"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35855",
+      "title": "LLM이 훨씬 더 큰 규모의 소프트웨어 정형 검증을 가능하게 하고 있음",
+      "url": "https://news.hada.io/topic?id=35855",
+      "commentsUrl": "https://news.hada.io/topic?id=35855",
+      "publishedAt": "2026-10-23T13:36:53+09:00",
+      "snippet": "Anthropic과 Theorem은 Claude로 오픈소스 라이브러리 123개의 퍼징 진입점 239개를 정형 검증 함. 발견한 버그를 수정한 뒤, 특정 실행 환경과 입력 크기 조건에서 컴파일된 코드가 충돌하지 않음을 증명 무작위 입력을 대량 실행하는 퍼징과 달리, 64MB 미만의 모든 입력에...",
+      "oneLineKo": "Claude 활용해 오픈소스 라이브러리 대규모 정형 검증 성공",
+      "summaryKo": "Anthropic과 Theorem이 Claude를 활용해 오픈소스 라이브러리 123개의 퍼징 진입점 239개를 대상으로 정형 검증을 수행했다. 발견된 버그를 수정한 뒤, 특정 실행 환경과 입력 크기 조건에서 컴파일된 코드가 충돌하지 않음을 수학적으로 증명했다. 무작위 입력을 대량으로 실행하는 기존 퍼징 방식과 달리, 64MB 미만의 모든 입력에 대해 안전성을 보장하는 방식으로 LLM이 소프트웨어 정형 검증의 규모를 크게 확장시키고 있음을 보여준다.",
+      "tags": [
+        "formal-verification",
+        "llm",
+        "fuzzing"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50202285",
+      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "url": "https://edjefferson.com/localwiki/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50202285",
+      "publishedAt": "2026-10-22T23:01:18Z",
+      "score": 1201,
+      "comments": 223,
+      "snippet": "Local Wikipedia Local Wikipedia The Encyclopedia For Local People The Encyclopedia for ( change ) &middot; articles within Local Wikipedia The Encyclopedia For Local People Someone shared an article from their Local Wikipedia, based on the Wikipedia article . Explore your own Local Wikipedia: Your town, area, landmark or postcode Start or Use my location Local Wikipedia is Wikipedia, but only for things a half hour walk from you. Local content is direct from Wikipedia - geocoded pages only. If there are fewer than 25 things close to you, it takes the closest 25 things within about 6 miles. If there are more than 500 things only the closest 500 will be included. Your location stays in this browser: links you share don't include it. This site has no affiliation with the actual Wikipedia. Finding what's nearby&hellip; Main page Random article A&ndash;Z index Try another area Wikipedia in Nearby (more...)",
+      "oneLineKo": "도보 30분 거리 항목만 보여주는 위키백과 필터 사이트",
+      "summaryKo": "Local Wikipedia는 위키백과의 지리 좌표가 있는 문서 중 사용자 위치에서 도보 30분 이내에 있는 항목만 골라 보여주는 서비스입니다. 주변에 25개 미만의 항목이 있으면 약 6마일 내 가장 가까운 25개까지 확장하고, 500개를 초과하면 가장 가까운 500개로 제한합니다. 위치 정보는 브라우저 내에만 저장되어 링크 공유 시 위치가 노출되지 않으며, 공식 위키백과와는 무관한 비공식 프로젝트입니다.",
+      "tags": [
+        "wikipedia",
+        "geolocation",
+        "side-project"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xdjru9",
+      "title": "How close can pure FP get to C?",
+      "url": "https://www.reddit.com/r/programming/comments/1xdjru9/how_close_can_pure_fp_get_to_c/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xdjru9/how_close_can_pure_fp_get_to_c/",
+      "publishedAt": "2026-10-23T17:04:36+00:00",
+      "snippet": "Roc can achieve excellent performance as a pure FP language, I think people will enjoy reading this post which looks at a pure Roc implementation of libdeflate. submitted by /u/bosyluke [link] [comments]",
+      "oneLineKo": "순수 함수형 언어 Roc, C 수준 성능 도전기",
+      "summaryKo": "이 글은 순수 함수형 프로그래밍 언어인 Roc가 C에 얼마나 근접한 성능을 낼 수 있는지 탐구한다. libdeflate를 Roc로 순수 함수형 방식으로 구현한 사례를 통해 성능을 분석한다. 저자는 Roc가 순수 FP 언어임에도 우수한 성능을 달성할 수 있음을 보여준다.",
+      "tags": [
+        "functional-programming",
+        "roc",
+        "performance"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35870",
+      "title": "Show GN: claude-code-todo - 클로드 코드 옆에 띄워 두는 TODO pane",
+      "url": "https://news.hada.io/topic?id=35870",
+      "commentsUrl": "https://news.hada.io/topic?id=35870",
+      "publishedAt": "2026-10-24T01:03:26+09:00",
+      "snippet": "Claude Code로 작업하다 생기는 할 일을 바로 적고, 고치고, 지울 수 있게 만든 플러그인입니다. 세션을 닫아도 목록은 남습니다. 채팅 옆 pane에 전역 목록과 프로젝트 목록이 탭으로 나뉘어 있고, 프롬프트 위에는 남은 개수와 다음 할 일, 마감 지난 개수가 한 줄로 나옵니다. pane에서 키(d 완료,",
+      "oneLineKo": "Claude Code용 TODO 플러그인 공개",
+      "summaryKo": "Claude Code 작업 중 생기는 할 일을 바로 기록하고 수정·삭제할 수 있는 플러그인이 공개되었습니다. 채팅 옆 pane에 전역 목록과 프로젝트별 목록이 탭으로 구분되어 표시되며, 세션을 닫아도 목록이 유지됩니다. 프롬프트 상단에는 남은 할 일 개수, 다음 할 일, 마감 지난 항목 수가 한 줄로 표시됩니다.",
+      "tags": [
+        "claude-code",
+        "productivity",
+        "plugin"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50211474",
+      "title": "Today, we hacked what we'd set out to hack: the iPhone",
+      "url": "https://blog.calif.io/p/iphone",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50211474",
+      "publishedAt": "2026-10-23T16:21:50Z",
+      "score": 709,
+      "comments": 467,
+      "snippet": "iPhone - Calif Newsletter Calif Newsletter Subscribe Sign in iPhone Today, we hacked what we'd set out to hack: the iPhone. Oct 16, 2026 28 5 4 Share Below is a series of demos we revealed at Hexacon in Paris today. Everything will be released in due time. 1/ Signal 1-click 2/ But who cares about a third-party app when everyone uses iMessage, right? 3/ Can your iPhone do this? 4/ APT stands for Apple Persistent Threat 28 5 4 Share Discussion about this post Comments Restacks Ryan Merket 7h Game over. Time to write a book and move to a remote island. Reply Share Ricardo 6d Es increíble ya me gustaría tenerle en el ipfone mio Reply Share 3 more comments... Top Latest Discussions No posts Ready for more? Subscribe © 2026 Calif Global Inc. · Privacy ∙ Terms ∙ Collection notice Start your Substack Get the app Substack is the home for great culture This site requires JavaScript to run correctly. Please turn on JavaScript or unblock scripts",
+      "oneLineKo": "연구팀, iPhone 및 iMessage·Signal 해킹 데모 공개",
+      "summaryKo": "보안 연구팀이 Hexacon 컨퍼런스에서 iPhone을 해킹한 데모를 공개했다. Signal 원클릭 공격, iMessage 익스플로잇 등 여러 취약점 시연이 포함되어 있다. 구체적인 기술 세부사항과 코드는 추후 공개될 예정이다.",
+      "tags": [
+        "ios",
+        "security",
+        "exploit"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35887",
+      "title": "AI 에이전트 제품을 설계할 때 필요한 15가지 사고 도구",
+      "url": "https://news.hada.io/topic?id=35887",
+      "commentsUrl": "https://news.hada.io/topic?id=35887",
+      "publishedAt": "2026-10-24T08:24:18+09:00",
+      "snippet": "무엇을 자동화하고, 어디까지 맡기며, 무엇을 검증할지 결정하기 위해, 제번스 역설과 굿하트의 법칙 등 15가지 사고 도구를 AI 에이전트의 비용과 검증, 권한, 제품 전략에 적용 에이전트의 경제성은 토큰 단가보다 허용 기준을 충족한 작업당 비용",
+      "oneLineKo": "AI 에이전트 설계를 위한 15가지 사고 도구 정리",
+      "summaryKo": "AI 에이전트 제품 설계 시 무엇을 자동화하고 어디까지 맡길지, 무엇을 검증할지 결정하는 데 필요한 15가지 사고 도구를 소개한다. 제번스 역설, 굿하트의 법칙 등 경제학·시스템 이론 개념을 에이전트의 비용, 검증, 권한, 제품 전략에 적용한다. 특히 에이전트의 경제성은 단순 토큰 단가가 아니라 허용 기준을 충족한 작업당 비용으로 평가해야 한다는 점을 강조한다.",
+      "tags": [
+        "ai-agent",
+        "product-design",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50207910",
+      "title": "Apple Music 404 Not Found",
+      "url": "https://music.apple.com/this-url-doesnt-exist",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50207910",
+      "publishedAt": "2026-10-23T12:28:47Z",
+      "score": 518,
+      "comments": 178,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.macrumors.com&#x2F;2026&#x2F;10&#x2F;23&#x2F;apple-music-has-a-hidden-ipod-you-can-play-with&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.macrumors.com&#x2F;2026&#x2F;10&#x2F;23&#x2F;apple-music-has-a-hidde...</a>",
+      "oneLineKo": "Apple Music 404 페이지에 숨겨진 iPod 이스터에그 발견",
+      "summaryKo": "Apple Music의 존재하지 않는 URL에 접속하면 404 Not Found 페이지가 뜨는데, 이 페이지에 숨겨진 iPod 모양의 인터랙티브 요소가 포함되어 있다는 사실이 알려졌다. 관련 내용은 MacRumors 기사를 통해 공유되었으며, 실제로 가지고 놀 수 있는 형태의 이스터에그로 소개되었다. 자세한 기능이나 작동 방식에 대한 추가 정보는 본문에 포함되어 있지 않다.",
+      "tags": [
+        "apple",
+        "easter-egg",
+        "web"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35888",
+      "title": "AI가 SaaS를 무너뜨린다고? 67개 기업의 실적 발표는 달랐다",
+      "url": "https://news.hada.io/topic?id=35888",
+      "commentsUrl": "https://news.hada.io/topic?id=35888",
+      "publishedAt": "2026-10-24T08:28:09+09:00",
+      "snippet": "상장 SaaS 기업 67곳의 실적 발표 를 검토한 결과, 거의 모든 기업이 전망 초과, 전망 상향, 성장 가속, 수익성 개선 중 하나 이상을 기록했으며 AI 제품이 실제 계약과 매출에 기여 하고 있음 경쟁력의 중심은 범용 모델보다 맥락, 데이터, 업무 흐름, 통합...",
+      "oneLineKo": "AI가 SaaS 위협한다는 우려, 실적은 오히려 성장",
+      "summaryKo": "상장 SaaS 기업 67곳의 실적 발표를 분석한 결과, 대부분 전망 초과·상향, 성장 가속, 수익성 개선 중 하나 이상을 달성했다. AI 제품이 범용 모델이 아니라 실제 계약과 매출에 기여하는 모습이 확인됐다. 경쟁력의 핵심은 범용 AI 모델보다 기업이 보유한 맥락, 데이터, 업무 흐름, 통합 역량에 있다는 분석이다. 이는 AI가 SaaS 산업을 무너뜨릴 것이라는 우려와 상반되는 결과다.",
+      "tags": [
+        "saas",
+        "ai",
+        "earnings"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50202114",
+      "title": "Canadians are running out of time to oppose Bill C-22",
+      "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50202114",
+      "publishedAt": "2026-10-22T22:43:19Z",
+      "score": 292,
+      "comments": 150,
+      "snippet": "Canadians Are Running Out Of Time To Oppose The Dangerous C-22 Surveillance Bill | Electronic Frontier Foundation Skip to main content About Contact Press People Opportunities Issues Free Speech Privacy Creativity and Innovation Transparency International Security Artificial Intelligence Our Work Deeplinks Blog Press Releases Events Legal Cases Whitepapers Podcasts Annual Reports Take Action Action Center Volunteer Follow EFF Tools Privacy Badger Surveillance Self-Defense Certbot Atlas of Surveillance Cover Your Tracks Street Level Surveillance apkeep Shop Donate Donate to EFF Shop Giving Societies Sponsorships Other Ways to Give Membership FAQ Email updates on news, actions, and events in your area. Join EFF Lists Copyright (CC BY) Trademark Privacy Policy Thanks Electronic Frontier Foundation Donate If you use technology, this fight is yours. Donate today Electronic Frontier Foundation About Contact Press People Opportunities Issues Free Speech Privacy Creativity and Innovation Transparency International Security Artificial Intelligence Our Work Deeplinks Blog Press Releases Events Legal Cases Whitepapers Podcasts Annual Reports Take Action Action Center Volunteer Follow EFF Tools Privacy Badger Surveillance Self-Defense Certbot Atlas of Surveillance Cover Your Tracks Street Level Surveillance apkeep Shop Donate Donate to EFF Shop Giving Societies Sponsorships Other Ways to Give Membership FAQ Canadians Are Running Out Of Time To Oppose The Dangerous C-22 Surveillance Bill DEEPLINKS BLOG By Joe Mullin October 22, 2026 Canadians Are Running Out Of Time To Oppose The Dangerous C-22 Surveillance Bill Canada’s Parliament is debating a massive expansion of surveillance powers that will threaten the privacy and security of millions of people. Bill C-22, also called the Lawful Access Act, has already passed the House of Commons, and is now before the Canadian Senate. Canadians still have an opportunity to speak out and stop this dangerous legislation. The Canadian Civil Liberties Association (CCLA) is urging all Canadians to sign its petition opposing the bill. (The petition on CCLA’s website is governed by CCLA’s privacy policy.) Take action Tell the canadian senate to stop C-22 As we wrote earlier this year , Bill C-22 gives the government new powers to force digital services—including telecom companies, messaging apps, and more—to help with government surveillance. Worse, it allows Canada’s Minister of Public Safety to order companies to create a backdoor to their services for law enforcement, as long as it doesn’t lead to a “systemic insecurity.” That’s a clear recipe for weakening the encryption we all rely on. It also requires services to retain metadata for up to a year, which reveals who people communicate with, where they go, and what services they use, even when they are not suspected of any crime. Researchers at CCLA and Citizen Lab published a detailed analysis of C-22 and its serious constitutional and cybersecurity problems. The analysis",
+      "oneLineKo": "캐나다 C-22 감시법안, 상원 통과 전 반대 서명 촉구",
+      "summaryKo": "캐나다 하원을 통과한 '합법적 접근법(Bill C-22)'이 상원 심의 중이며, EFF는 시민들에게 반대 행동을 촉구하고 있다. 이 법안은 통신사와 메신저 앱 등 디지털 서비스에 정부 감시 협조를 강제하고, 공공안전부 장관이 암호화 백도어 설치를 명령할 수 있게 한다. 또한 최대 1년간 메타데이터 보관을 의무화해 범죄 혐의가 없는 사람들의 통신 상대, 위치, 서비스 이용 내역까지 노출될 수 있다. CCLA와 Citizen Lab은 이 법안의 헌법적·사이버보안적 문제를 분석한 보고서를 발표했다.",
+      "tags": [
+        "privacy",
+        "surveillance",
+        "encryption"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35875",
+      "title": "Claude Fable 5.1은 그림에 어떻게 비밀 메시지를 숨길까?",
+      "url": "https://news.hada.io/topic?id=35875",
+      "commentsUrl": "https://news.hada.io/topic?id=35875",
+      "publishedAt": "2026-10-24T01:43:50+09:00",
+      "snippet": "Claude Fable 5.1 이 SVG 이미지에 숨긴 메시지를 별도 세션의 같은 모델이 인코딩 규칙이나 SVG 소스 없이 복원하는 실험에서 78%의 복원율 을 기록함 건물과 풀잎의 높이를 알파벳 순서에 대응 시키는 방식을 50개 중 33개에서 사용. 꽃의 기울기와...",
+      "oneLineKo": "Claude Fable 5.1, SVG 이미지에 비밀 메시지 숨기는 실험 분석",
+      "summaryKo": "Claude Fable 5.1 모델이 SVG 이미지 안에 비밀 메시지를 숨기고, 별도 세션의 동일 모델이 인코딩 규칙이나 원본 소스 없이 이를 복원하는 실험이 진행되었다. 실험 결과 78%의 복원율을 기록했으며, 50개 사례 중 33개에서 건물과 풀잎의 높이를 알파벳 순서에 대응시키는 방식이 사용되었다. 이 외에도 꽃의 기울기 등 다양한 시각적 요소를 활용한 인코딩 패턴이 관찰되었다.",
+      "tags": [
+        "llm",
+        "svg",
+        "claude"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50214218",
+      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50214218",
+      "publishedAt": "2026-10-23T19:34:15Z",
+      "score": 231,
+      "comments": 110,
+      "snippet": "Now Google says it might use your Gmail and Google Photos data to target ads | The Verge Skip to main content The homepage The Verge The Verge logo. The Verge The Verge logo. Tech Reviews Science Entertainment AI Policy Notifications Notifications Hamburger Navigation Button The homepage The Verge The Verge logo. Notifications Notifications Hamburger Navigation Button Navigation Drawer The Verge The Verge logo. Login / Sign Up close Close Search Light System Dark Tech Expand Amazon Apple Facebook Google Microsoft Samsung Business See all tech Reviews Expand Smart Home Reviews Phone Reviews Tablet Reviews Headphone Reviews See all reviews Science Expand Space Energy Environment Health See all science Entertainment Expand TV Shows Movies Audio See all entertainment AI Expand OpenAI Anthropic See all AI Policy Expand Antitrust Politics Law Security See all policy Gadgets Expand Laptops Phones TVs Headphones Speakers Wearables See all gadgets Verge Shopping Expand Buying Guides Deals Gift Guides See all shopping Gaming Expand Xbox PlayStation Nintendo See all gaming Streaming Expand Disney HBO Netflix YouTube Creators See all streaming Transportation Expand Electric Cars Autonomous Cars Ride-sharing Scooters See all transportation Features Verge Video Expand TikTok YouTube Instagram Podcasts Expand Decoder The Vergecast Version History Newsletters Archives Store Verge Product Updates Subscribe Facebook Threads Instagram Youtube RSS The Verge The Verge logo. Now Google says it might use your Gmail and Google Photos data to target ads Notifications Notifications Comments Drawer Notifications Comments Loading comments Getting the conversation ready... Tech Close Tech Posts from this topic will be added to your daily email digest and your homepage feed. Follow Follow See All Tech AI Close AI Posts from this topic will be added to your daily email digest and your homepage feed. Follow Follow See All AI News Close News Posts from this topic will be added to your daily email digest and your homepage feed. Follow Follow See All News Now Google says it might use your Gmail and Google Photos data to target ads According to the new terms, sharing your data for better AI recommendations also means opening it up for more personalized ads. According to the new terms, sharing your data for better AI recommendations also means opening it up for more personalized ads. by Jess Weatherbed Close Jess Weatherbed News Reporter Posts from this author will be added to your daily email digest and your homepage feed. Follow Follow See All by Jess Weatherbed Oct 23, 2026, 4:52 PM UTC Link Share Gift Image: Cath Virginia / The Verge Jess Weatherbed Close Jess Weatherbed Posts from this author will be added to your daily email digest and your homepage feed. Follow Follow See All by Jess Weatherbed is a news writer focused on creative industries, computing, and internet culture. Jess started her career at TechRadar, covering news and hardware reviews. Google has updated its priva",
+      "oneLineKo": "구글, Gmail·포토 데이터로 광고 타겟팅 가능성 시사",
+      "summaryKo": "구글이 개인정보 처리방침을 업데이트하면서 Gmail과 Google Photos 데이터를 맞춤형 광고에 활용할 수 있도록 했다. 새 약관에 따르면 더 나은 AI 추천을 위해 데이터를 공유하는 것이 곧 더 개인화된 광고 노출에 동의하는 것을 의미한다. 이는 AI 기능 개선을 명목으로 데이터 활용 범위를 확장하는 조치로 해석된다.",
+      "tags": [
+        "google",
+        "privacy",
+        "advertising"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50169499",
+      "title": "The Real Kevin Bacon",
+      "url": "https://pudding.cool/2026/10/kevin-bacon/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50169499",
+      "publishedAt": "2026-10-20T17:10:05Z",
+      "score": 222,
+      "comments": 65,
+      "snippet": "The Real Kevin Bacon Skip to main content The Real Kevin Bacon Robert De Niro : one movie away from Kevin Bacon. Cillian Murphy : two movies away from Kevin Bacon. Ryan Gosling : one movie away from Kevin Bacon. Tom Hanks : one movie away from Kevin Bacon. Benedict Cumberbatch : one movie away from Kevin Bacon. Meryl Streep : one movie away from Kevin Bacon. Timothée Chalamet : two movies away from Kevin Bacon. Saoirse Ronan : two movies away from Kevin Bacon. Anya Taylor-Joy : two movies away from Kevin Bacon. Jessie Buckley : two movies away from Kevin Bacon. Austin Butler : two movies away from Kevin Bacon. Margot Robbie : two movies away from Kevin Bacon. Emma Stone : one movie away from Kevin Bacon. Zendaya : two movies away from Kevin Bacon. The “Six Degrees of Kevin Bacon” is a game where players try to connect any actor to Kevin Bacon in fewer than six steps, where each step links two actors who co-starred in a film. The conventional wisdom is that Kevin Bacon is the all-encompassing center of Hollywood, so prolific that the game is a lot easier than if it were called the “Six Degrees of John Doe.” For example, Kevin Bacon’s remoteness is 2.28: so an actor is, on average, 2.28 degrees from Kevin Bacon. But 2.28 degrees is not the best remoteness score. Kevin Bacon ranks 175th among all Hollywood actors. Can you guess who’s #1? Skip Philip Seymour Hoffman ranks #250. Keep going… Samuel L. Jackson is the center of Hollywood , with a remoteness of just 2.09. Willem Dafoe is second at 2.13, and Robert De Niro follows at 2.14. Women are underrepresented among the top 100, taking only 16 spots. Nicole Kidman is the highest-ranking woman at #21. Let’s create a time machine for the center of Hollywood and calculate actors’ remoteness in previous years. Our time machine starts at the end of 2025. Go back in time Let’s time travel to 2006, when Samuel L. Jackson took the crown. Kevin Bacon still does not appear; his highest rank was #108 in 1996 after his role in “Sleepers.” We can view all centers of Hollywood since 1980. Use the slider to look around. How might we predict who will take the crown from Samuel L. Jackson? Let’s apply this idea to the future . To do that, we need to find what affects an actor’s remoteness score. One obvious metric is film count. Indeed, Samuel L. Jackson appeared in far more films than anyone else in our 169,000 actor dataset. Nicolas Cage, who’s the next closest, appeared in 96 films. While the relationship between film count and remoteness is strong, it doesn't fully explain actors’ scores. For example, Natalie Portman and Anna Kendrick differ significantly in their remoteness, despite appearing in the same number of films. The difference between Natalie Portman and Anna Kendrick lies in their co-stars: Natalie Portman is cast in films with more prolific actors than Anna Kendrick. Of the 250 most-connected actors, Natalie Portman has worked with almost three times as many as Anna Kendrick has. So if you work with m",
+      "oneLineKo": "할리우드 중심 배우, 케빈 베이컨 아닌 사무엘 L. 잭슨",
+      "summaryKo": "'케빈 베이컨의 6단계' 게임으로 유명한 베이컨이지만, 실제로 할리우드 네트워크 중심성이 가장 높은 배우는 아니라는 데이터 분석 결과를 소개한다. 169,000명 배우 데이터셋을 기반으로 계산한 '원격도(remoteness)' 점수에서 사무엘 L. 잭슨이 2.09로 1위를 차지했고, 윌렘 데포와 로버트 드니로가 뒤를 이었으며 케빈 베이컨은 175위에 그쳤다. 원격도는 출연 영화 수뿐 아니라 함께 출연한 배우들의 연결성에도 영향을 받으며, 1980년부터 2025년까지 시대별 '할리우드 중심' 배우 변화도 시각화했다.",
+      "tags": [
+        "data-visualization",
+        "network-analysis",
+        "film-industry"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50213925",
+      "title": "Dessa: the most authentic full-duplex speech model ever built",
+      "url": "https://block.xyz/dessa",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50213925",
+      "publishedAt": "2026-10-23T19:09:54Z",
+      "score": 186,
+      "comments": 80,
+      "snippet": "Dessa - the Conversation Model trained only on speech Skip to the story Download Join the waitlist You learned to talk by listening. So did Join the waitlist We believe voice is the most natural way to interact with intelligence, so we created Dessa, the most authentic full-duplex speech model ever built. Talking with it feels like talking with a person…full of emotion, nuance, pauses, and a natural cadence. Interacting with current voice AI can just plain suck. It turns your voice into text and throws away an incredible amount of information text alone can’t carry. The most powerful AIs in the world can’t hear how you feel. We think that’s ridiculous, leads to a worse experience, and is potentially dangerous. We trained Dessa from scratch on nothing but human conversation. Sounds! No text, no pretrained models. It learned to hold a real-time conversation simply by listening. As far as we know, Dessa is the world’s first AI you can have a realistic live conversation with that was trained only from human speech. Dessa advances the frontier of deep learning models and creates a different category with entirely new and interesting behaviors for researchers to discover. How efficiently do they learn language and facts compared to text? How efficiently can they learn new languages? What sorts of In-context learning can they perform? Let me listen… Every clip below is a live recording of a person talking to Dessa. Nobody steers it. Dessa picks what to say, when to say it and how, down to its own voice and personality. Subtitles were added afterward. Talking about the release It laughs the moment something’s funny, mid-sentence, the way people do. Other models wait for you to finish, then laugh on cue. Ask it to speak up and it gets louder. Nobody taught it that. Two synchronized speaker tracks. Ready to play. Remembering a movie The person blanks on a movie title. Dessa finishes the sentence. It also knows a surprising amount, considering every fact it has come from raw sound. Two synchronized speaker tracks. Ready to play. An anniversary surprise A surprise. Dessa gasps “oh my god” under its breath, then answers with what sounds like teary gratitude. Two synchronized speaker tracks. Ready to play. Expressive conversation Huge range in intonation and speed. Two synchronized speaker tracks. Ready to play. Life advice Here it sounds genuinely empathetic. Two synchronized speaker tracks. Ready to play. Dessa in conversation with GPT-Live-1 And here it talks to ChatGPT Live. Two synchronized speaker tracks. Ready to play. In this demo, Dessa is talking with GPT-Live-1, a third-party AI model. Both voices are AI-generated. The developer of GPT-Live-1 is not affiliated with Block and has not reviewed or endorsed Dessa. More recordings will be shared on X soon. What is this?! Audio in, audio out. Dessa is a true speech-to-speech model, and everything it knows came from human speech. It’s full-duplex, so it listens and talks at the same time, like you do. It l",
+      "oneLineKo": "음성만으로 학습한 풀듀플렉스 대화형 AI 'Dessa' 공개",
+      "summaryKo": "Block이 공개한 Dessa는 텍스트나 사전학습 모델 없이 오직 인간 대화 음성만으로 학습된 음성-음성(speech-to-speech) 모델입니다. 풀듀플렉스 방식으로 동시에 듣고 말할 수 있어, 웃음·감탄사·말 끊김 등 자연스러운 감정과 뉘앙스를 실시간으로 표현합니다. 음량 조절이나 문장 완성 등 명시적으로 학습시키지 않은 행동도 스스로 보여주는 것이 특징입니다. 대기자 명단을 통해 가입할 수 있습니다.",
+      "tags": [
+        "speech-ai",
+        "full-duplex",
+        "voice-model"
+      ]
+    }
+  ]
+}
