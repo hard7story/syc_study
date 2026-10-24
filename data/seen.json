@@ -3654,5 +3654,133 @@
   {
     "id": "block.xyz/dessa",
     "date": "2026-10-24"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35907",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "news.hada.io/topic?id=35907",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50192975",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "infoq.com/news/2026/10/tornadovm-7-gpu",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "t3_1xemwgr",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xemwgr/bridging_two_unmodified_game_engines_at_runtime",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35938",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "news.hada.io/topic?id=35938",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50224463",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "t3_1xe7dp8",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xe7dp8/broccoli2shell_brotli_decoder_rce_cve2026111497",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35937",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "news.hada.io/topic?id=35937",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50217500",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "philipotoole.com/twelve-years-of-distributed-sqlite",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35933",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "news.hada.io/topic?id=35933",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50224916",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "stealmybitcoin.com",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35931",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "news.hada.io/topic?id=35931",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50172962",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "astral.sh/blog/uv-ty-integration",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35930",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "news.hada.io/topic?id=35930",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50186450",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50219666",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "southampton.ac.uk/~doug/quantum_physics/index.html",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50219177",
+    "date": "2026-10-25"
+  },
+  {
+    "id": "aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+    "date": "2026-10-25"
   }
 ]

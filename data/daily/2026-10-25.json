@@ -1,0 +1,278 @@
+{
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-24T23:53:43.497Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35907",
+      "title": "AI로 빨라진 공격, 이것이 사이버 보안의 새로운 일상인가?",
+      "url": "https://news.hada.io/topic?id=35907",
+      "commentsUrl": "https://news.hada.io/topic?id=35907",
+      "publishedAt": "2026-10-24T15:35:43+09:00",
+      "snippet": "PHP와 GitLab, 인증기관과 클라우드에서 심각한 보안 문제가 잇따르는 가운데, AI가 취약점 정보를 실제 공격 코드로 바꾸는 속도를 높이며 방어자의 대응 시간을 압박함 PHP2Shell은 2024년 감사에서 발견하고도 공격 방법을 찾지 못해 남겨둔 결함을 AI로 실제 공격에 연결...",
+      "oneLineKo": "AI가 취약점을 공격 코드로 전환하는 속도 가속화",
+      "summaryKo": "PHP, GitLab, 인증기관, 클라우드 등에서 심각한 보안 취약점이 잇따라 발견되는 가운데, AI가 취약점 정보를 실제 공격 코드로 변환하는 속도를 높여 방어자의 대응 시간을 압박하고 있다. 대표적으로 PHP2Shell 사례는 2024년 감사에서 발견했으나 공격 방법을 찾지 못해 남겨둔 결함을 AI를 활용해 실제 공격으로 연결한 것으로 알려졌다. 이는 AI 기반 공격 자동화가 사이버 보안의 새로운 일상이 될 수 있음을 시사한다.",
+      "tags": [
+        "cybersecurity",
+        "ai",
+        "vulnerability"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50192975",
+      "title": "TornadoVM 7 Enables GPU-Native Workloads from Java Applications",
+      "url": "https://www.infoq.com/news/2026/10/tornadovm-7-gpu/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50192975",
+      "publishedAt": "2026-10-22T09:01:10Z",
+      "score": 83,
+      "comments": 14,
+      "snippet": "TornadoVM 7 Enables GPU-Native Workloads from Java Applications - InfoQ BT InfoQ Software Architects' Newsletter A monthly overview of things you need to know as an architect or aspiring architect. View an example Enter your e-mail address Select your country Select a country I consent to InfoQ.com handling my data as explained in this Privacy Notice . We protect your privacy. Close Toggle Navigation Facilitating the Spread of Knowledge and Innovation in Professional Software Development English edition English edition Chinese edition Japanese edition French edition Write for InfoQ Search Register Sign in Unlock the full InfoQ experience Unlock the full InfoQ experience by logging in! Stay updated with your favorite authors and topics, engage with content, and download exclusive resources. Log In or Don't have an InfoQ account? Register Stay updated on topics and peers that matter to you Receive instant alerts on the latest insights and trends. Quickly access free resources for continuous learning Minibooks, videos with transcripts, and training materials. Save articles and read at anytime Bookmark articles to read whenever youre ready. Logo - Back to homepage News Articles Presentations Podcasts Guides Topics Development Java Kotlin .Net C# Swift Go Rust JavaScript Featured in Development Accelerating Performance by Incrementally Integrating Rust into Existing Codebase Lily Mara explains how to avoid high-risk software rewrites through incremental FFI refactoring. She shares how engineering teams can replace Python bottlenecks with Rust via PyO3, demonstrating how to achieve dramatic function-level speedups, seamless integration testing, and meaningful infrastructure cost savings without microservice overhead. All in development Architecture & Design Architecture Enterprise Architecture Scalability/Performance Design Case Studies Microservices Service Mesh Patterns Security Featured in Architecture & Design Move Fast, Don&rsquo;t Break Trust: Shipping Constantly with Humans and Beyond Suhail Patel discusses how Monzo structures its software engineering organization and technical stack to ship safely hundreds of times a day. He shares insights into opinionated microservice abstractions, tenancy-based staging, static analysis checks, continuous profiling, demonstrating how a strong internal platform enables engineers and LLMs to iterate rapidly without sacrificing reliability. All in architecture-design AI Infrastructure Big Data Machine Learning NoSQL Database Data Analytics Streaming Featured in AI, ML & Data Engineering Actors for Agents: Patterns for Production AI Manju Rajashekhar explains how the actor model solves the complex runtime challenges of production AI agents. By treating agents as distributed systems, he discusses state ownership, message passing, write-through state, and supervision boundaries to manage failures, continuations, and mutable execution graphs, moving agentic workflows beyond fragile demos to resilient architecture. ",
+      "oneLineKo": "TornadoVM 7, 자바에서 GPU 네이티브 워크로드 지원",
+      "summaryKo": "TornadoVM 7이 발표되며 자바 애플리케이션에서 GPU 네이티브 워크로드를 직접 실행할 수 있게 되었다. 이는 별도의 네이티브 코드 작성 없이 자바 코드에서 GPU 가속을 활용할 수 있도록 지원하는 기능이다. InfoQ 기사에서는 이러한 새로운 버전의 주요 특징을 소개하고 있다.",
+      "tags": [
+        "java",
+        "gpu",
+        "tornadovm"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xemwgr",
+      "title": "Bridging two unmodified game engines at runtime: Minecraft (Java) inside Bannerlord (C#/DX11) over shared memory",
+      "url": "https://www.reddit.com/r/programming/comments/1xemwgr/bridging_two_unmodified_game_engines_at_runtime/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xemwgr/bridging_two_unmodified_game_engines_at_runtime/",
+      "publishedAt": "2026-10-24T23:23:24+00:00",
+      "snippet": "A side project where Minecraft's player fights inside Mount & Blade II: Bannerlord. The three parts never call each other; they only meet in five named shared-memory blocks: - a Bannerlord module (C#, Harmony patches), - a Minecraft Fabric mod (Java 25, Mixin, the Foreign Function & Memory API), - a ReShade add-on (C++) with an HLSL shader that composites Minecraft's frame into Bannerlord's. Some of the interesting problems: - lock-free sharing with seqlocks and single-writer ring buffers, so neither game ever waits for the other - comparing two different reversed-Z depth buffers per pixel, and reprojecting a Minecraft frame that's a frame or two old - making Minecraft's own attack code hit soldiers that only exist in the other game (invisible, frozen stand-in mobs) - rebuilding Bannerlord's terrain around the player as invisible Minecraft blocks, without stutter while flying Write-up of every byte: https://github.com/emretrksy/bannerlord-minecraft-passthrough/blob/main/docs/PROTOCOL.m",
+      "oneLineKo": "마인크래프트와 배너로드, 공유메모리로 런타임 연결",
+      "summaryKo": "마인크래프트(Java)와 마운트&블레이드2: 배너로드(C#/DX11) 두 게임 엔진을 수정 없이 런타임에 공유 메모리로 연결한 사이드 프로젝트입니다. 배너로드 C# 모듈, 마인크래프트 Fabric 모드(FFM API 사용), ReShade C++ 애드온이 다섯 개의 공유 메모리 블록을 통해서만 통신하며 서로 직접 호출하지 않습니다. seqlock과 단일 writer 링버퍼로 락프리 동기화를 구현했고, 서로 다른 depth buffer 비교, 프레임 재투영, 보이지 않는 더미 몹을 이용한 전투 동기화, 지형을 블록으로 재구성하는 등의 기술적 난제를 해결했습니다. 전체 프로토콜은 GitHub에 문서화되어 있습니다.",
+      "tags": [
+        "game-engine",
+        "shared-memory",
+        "reverse-engineering"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35938",
+      "title": "GPU-unlock - RTX 30 시리즈의 AI 연산 성능 제한을 해제하는 Linux 모듈",
+      "url": "https://news.hada.io/topic?id=35938",
+      "commentsUrl": "https://news.hada.io/topic?id=35938",
+      "publishedAt": "2026-10-25T06:38:28+09:00",
+      "snippet": "RTX 30 시리즈에 걸린 FP16/BF16 연산의 명령 발행 속도 제한을 해제 해, 전문가용 제품 수준의 처리 속도를 활용하는 Linux 커널 모듈 NVIDIA 드라이버가 GPU를 초기화하기 전에 적용 하므로 드라이버 자체를 수정하거나 업데이트 때마다 수동 패치할 필요가 없음...",
+      "oneLineKo": "RTX 30 AI 연산 제한 해제하는 리눅스 커널 모듈",
+      "summaryKo": "RTX 30 시리즈에 걸려있던 FP16/BF16 연산의 명령 발행 속도 제한을 해제하는 리눅스 커널 모듈이 공개되었다. 이를 통해 전문가용 GPU 수준의 처리 속도를 일반 소비자용 카드에서도 활용할 수 있다. NVIDIA 드라이버가 GPU를 초기화하기 전에 적용되는 방식이라 드라이버 자체를 수정하거나 업데이트 때마다 수동으로 패치할 필요가 없다.",
+      "tags": [
+        "gpu",
+        "linux",
+        "nvidia"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50224463",
+      "title": "No signs of AI payoff outside the tech sector",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50224463",
+      "publishedAt": "2026-10-24T19:47:19Z",
+      "score": 427,
+      "comments": 418,
+      "snippet": "No Signs of AI Payoff Outside the Tech Sector | The Daily Spark General Public General Public Institutional Investors Public Shareholders Wealth Professionals Log In Allfunds Login CAIS Login DST Vision Login GLASfunds Login iCapital Login What We Do Advisor Resources Insights & News About Apollo What We Do Explore our investment strategies, solutions, and products designed to support diverse financial goals. Strategies Solutions Investment Products Credit Equity Hybrid Solutions Real Assets Sports Capital Family Office Retirement Overview Defined Contribution Wealth Solutions Apollo's Differentiated Strategy Marc Rowan on how Apollo’s differentiated strategy was built for this moment. Advisor Resources Tools and training for advisors, offering portfolio guidance, and on-demand educational resources. Allocation Pro Apollo Academy Join the Academy Visit Our Learning Center Register Now: 2026 Outlook Watch the Class | Apollo Academy Insights & News Discover Apollo’s latest perspectives, case studies, research and analysis shaping conversations about private markets. Insights Media Read The Daily Spark Subscribe to The Daily Spark Private Equity: Six Key Considerations Private equity is entering a new phase where operational value creation, scale, and disciplined underwriting are key drivers of return. Torsten Slok's Mid-Year Outlook Apollo Chief Economist Torsten Slok outlines the key macro dynamics shaping the landscape, from the AI boom to the industrial renaissance and policy. About Apollo Learn about our firm, our purpose and values, our people and where we are around the world. About Apollo Our People Contact Us Apollo In the News General Public General Public Institutional Investors Public Shareholders Wealth Professionals Log In Allfunds Login CAIS Login DST Vision Login GLASfunds Login iCapital Login What We Do Advisor Resources Insights & News About Apollo Back What We Do Explore our investment strategies, solutions, and products designed to support diverse financial goals. Strategies Solutions Investment Products Apollo's Differentiated Strategy Marc Rowan on how Apollo’s differentiated strategy was built for this moment. Back Advisor Resources Tools and training for advisors, offering portfolio guidance, and on-demand educational resources. Allocation Pro Apollo Academy Register Now: 2026 Outlook Watch the Class | Apollo Academy Back Insights & News Discover Apollo’s latest perspectives, case studies, research and analysis shaping conversations about private markets. Insights Media Read The Daily Spark Subscribe to The Daily Spark Private Equity: Six Key Considerations Private equity is entering a new phase where operational value creation, scale, and disciplined underwriting are key drivers of return. Torsten Slok's Mid-Year Outlook Apollo Chief Economist Torsten Slok outlines the key macro dynamics shaping the landscape, from the AI boom to the industrial renaissance and policy. Back About Apollo Learn about our firm, our purpose and v",
+      "oneLineKo": "테크 업계 밖에서는 AI 효과 아직 안 보여",
+      "summaryKo": "Apollo의 데일리 스파크 분석에 따르면 AI 투자 효과가 기술 업계 외 다른 산업 부문에서는 아직 뚜렷하게 나타나지 않고 있다. 이는 AI 붐에 대한 기대와 실제 생산성 및 경제적 성과 간의 괴리를 지적하는 내용이다. 본문은 주로 Apollo의 거시경제 전망 및 투자 전략 홍보 페이지로 구성되어 있어 구체적인 데이터나 근거는 확인되지 않는다.",
+      "tags": [
+        "ai",
+        "economy",
+        "productivity"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xe7dp8",
+      "title": "Broccoli2Shell: Brotli decoder RCE (CVE-2026-111497) in Node.js, Python and more",
+      "url": "https://www.reddit.com/r/programming/comments/1xe7dp8/broccoli2shell_brotli_decoder_rce_cve2026111497/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xe7dp8/broccoli2shell_brotli_decoder_rce_cve2026111497/",
+      "publishedAt": "2026-10-24T12:28:14+00:00",
+      "snippet": "submitted by /u/CircumspectCapybara [link] [comments]",
+      "oneLineKo": "Brotli 디코더에서 RCE 취약점 발견, CVE-2026-111497",
+      "summaryKo": "Node.js, Python 등 다수 플랫폼에서 사용되는 Brotli 압축 해제 라이브러리에서 원격 코드 실행(RCE) 취약점이 발견되어 CVE-2026-111497로 등록되었습니다. 해당 디코더는 여러 언어와 런타임에 광범위하게 내장되어 있어 영향 범위가 넓을 것으로 보입니다. 본문에 구체적인 기술 세부사항은 제공되지 않았습니다.",
+      "tags": [
+        "brotli",
+        "rce",
+        "cve"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35937",
+      "title": "기술업계 밖에서는 아직 AI 투자 성과가 보이지 않는다",
+      "url": "https://news.hada.io/topic?id=35937",
+      "commentsUrl": "https://news.hada.io/topic?id=35937",
+      "publishedAt": "2026-10-25T06:35:28+09:00",
+      "snippet": "미국 대형 투자회사 Apollo의 분석으로 ,대규모 AI 투자와 높은 기대에도 미국 기술업계 밖에서는 매출과 이익률 개선의 증거가 아직 보이지 않음 미국 대형 기술주 Mag 7의 직원당 매출과 이익률은 상승 하지만, 이들을 제외한 S&P 500 기업 493곳에서는 정체돼...",
+      "oneLineKo": "AI 투자 성과, 빅테크 밖에선 아직 안 보여",
+      "summaryKo": "Apollo의 분석에 따르면 대규모 AI 투자와 높은 기대에도 불구하고 미국 기술업계 밖에서는 매출과 이익률 개선의 증거가 아직 나타나지 않고 있다. 미국 대형 기술주인 Mag 7 기업들의 직원당 매출과 이익률은 상승세를 보이고 있다. 반면 이들을 제외한 S&P 500 소속 493개 기업에서는 관련 지표가 정체된 상태다.",
+      "tags": [
+        "ai",
+        "economy",
+        "big-tech"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50217500",
+      "title": "Twelve years of distributed SQLite",
+      "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50217500",
+      "publishedAt": "2026-10-24T01:16:58Z",
+      "score": 358,
+      "comments": 62,
+      "snippet": "Twelve years of distributed SQLite – Philip O'Toole Skip to content No results About Popular Posts Speaking Resume Contact Philip O'Toole Software engineering, distributed systems, databases, and the teams that build them Popular Posts Twelve years of distributed SQLite Start your meetings at 5 minutes past My development team costs $41.73 a month How rqlite is tested How I found a bug in SQLite The strange economics of open-source software What new development managers should know Software development: it’s got nothing to do with computers 7 years of open-source database development: lessons learned What I learned from programming databases Coding like it’s 1999 400 days of Go Is node.js just a stopgap? Replicating SQLite using Raft Consensus About Resume Speaking Contact Search Philip O'Toole Software engineering, distributed systems, databases, and the teams that build them Menu Twelve years of distributed SQLite Philip O'Toole October 23, 2026 Uncategorized 3 Comments In September 2014 I published a short post announcing rqlite . The idea was simple: take SQLite , put a Raft log in front of it, and replicate every write to a cluster so that the loss of a node did not mean the loss of the data. The source went on GitHub that same weekend. As far as I can tell, that was the first open-source system to combine Raft and SQLite. Nobody else was doing it, and for several years nobody else tried. Today “distributed SQLite” is a category with a dozen projects in it, a few of them venture-funded, two of them acquired. Since the people now writing about the category tend to start the story around 2021, I thought I should write down the version that starts in 2014. I was there for all of it. 2014: rqlite The need was concrete. A clustered system I worked on at jut.io needed a small amount of relational storage, and the question of which node should hold it had no good answer. Replicating SQLite with a consensus protocol solved it. We went another way at work, but I kept building rqlite because the problem was general and the solution was small. The first version used goraft , the same library InfluxDB and etcd used at the time (I subsequently joined InfluxDB as a core developer around the same time). In early 2016 I replaced it with Hashicorp’s Raft implementation which rqlite still uses. The design decision that mattered most was made then and never changed. rqlite is a CP system . Writes must go through the leader, a majority must acknowledge, and a partitioned minority refuses writes. Everything else, the HTTP API , the read-consistency levels , the snapshotting , followed from that. Before 2014, and alongside it Two things deserve mention for honesty’s sake. Expensify had been replicating SQLite inside its own infrastructure for years with a Paxos -style protocol; they released it as Bedrock in 2016 . And ActorDB, an Erlang system that gave each “actor” its own SQLite database replicated by Raft, appeared around the same time as rqlite . Neither was",
+      "oneLineKo": "SQLite에 Raft 합의 결합한 rqlite 12년 회고",
+      "summaryKo": "rqlite 개발자가 2014년 SQLite에 Raft 컨센서스를 결합해 분산 복제 시스템을 처음 만든 과정을 회고한 글이다. 당시 goraft를 사용했다가 2016년 Hashicorp Raft로 교체했으며, 리더를 통한 쓰기와 과반수 승인을 요구하는 CP 시스템 설계를 핵심 결정으로 유지해왔다고 밝힌다. 이후 분산 SQLite 분야가 다수의 프로젝트와 투자유치, 인수합병이 이루어진 카테고리로 성장했지만, 저자는 이 역사를 2014년부터 정확히 기록하고자 한다. Expensify의 Bedrock, Erlang 기반 ActorDB 등 유사 시도들도 비슷한 시기 존재했음을 함께 언급한다.",
+      "tags": [
+        "sqlite",
+        "raft",
+        "distributed-systems"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35933",
+      "title": "Apple Security Research Device - 보안 기능 우회 없이 iOS를 연구하는 전용 iPhone",
+      "url": "https://news.hada.io/topic?id=35933",
+      "commentsUrl": "https://news.hada.io/topic?id=35933",
+      "publishedAt": "2026-10-25T03:35:42+09:00",
+      "snippet": "Apple Security Research Device(SRD) 는 보안 기능을 우회하지 않고 iOS 보안 연구를 수행할 수 있도록 특별히 구성된 iPhone으로, 신규 및 숙련 연구자의 연구를 지원함 셸 접근 과 임의 도구 실행을 지원하며, 연구자가 직접 권한(entitlements)을 선택하거나 커...",
+      "oneLineKo": "애플, iOS 보안 연구용 전용 iPhone 'SRD' 제공",
+      "summaryKo": "Apple Security Research Device(SRD)는 보안 기능을 우회하지 않고도 iOS 보안 연구를 수행할 수 있도록 특별히 구성된 iPhone이다. 셸 접근과 임의 도구 실행을 지원하며, 연구자가 직접 권한(entitlements)을 선택하거나 커널 설정을 변경할 수 있다. 신규 연구자부터 숙련된 보안 연구자까지 폭넓게 지원하는 것이 목적이다.",
+      "tags": [
+        "ios",
+        "security-research",
+        "apple"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50224916",
+      "title": "Show HN: Steal My Bitcoin",
+      "url": "https://stealmybitcoin.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50224916",
+      "publishedAt": "2026-10-24T20:30:31Z",
+      "score": 347,
+      "comments": 186,
+      "snippet": "Steal My Bitcoin Steal my Bitcoin 0.00 hours without a successful hack There is a bitcoin key hidden on this server worth about $500 . It is accessible to the PHP user account through the print-flag binary. This PHP version was selected from before the PHP2SHELL CVEs were released. First person to get the wallet wins. If you don’t need the money, consider donating it to those who do: givewell.org . All traffic is logged. This is a known vulnerable machine, so we cannot guarantee privacy. Other attackers may access or monitor activity and data beyond our control. Do not submit anything you want to keep private. Challenge wallet Explorer &nearr; bc1qlnu5&hellip;t3cxqy Checking balance&hellip; Refresh &circlearrowright; JavaScript is off. Use the explorer link to check the balance. stealmybitcoin.com &middot; Terms of participation",
+      "oneLineKo": "PHP 취약점 익스플로잇으로 비트코인 탈취하는 해킹 챌린지",
+      "summaryKo": "Show HN에 공개된 'Steal My Bitcoin'은 PHP 취약점을 이용해 서버에 숨겨진 약 500달러 상당의 비트코인 키를 탈취하는 해킹 챌린지 사이트이다. print-flag 바이너리를 통해 PHP 사용자 계정이 접근 가능하며, PHP2SHELL CVE 공개 이전 버전을 의도적으로 사용했다. 최초로 지갑을 탈취하는 사람이 승리하며, 모든 트래픽은 로깅되고 공개된 취약 서버이므로 프라이버시가 보장되지 않는다.",
+      "tags": [
+        "php",
+        "ctf",
+        "security"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35931",
+      "title": "AI와 과학 공유자원의 인클로저",
+      "url": "https://news.hada.io/topic?id=35931",
+      "commentsUrl": "https://news.hada.io/topic?id=35931",
+      "publishedAt": "2026-10-25T02:45:21+09:00",
+      "snippet": "생성형 AI 는 공동으로 축적한 지식의 가치를 사적 부로 전환하고, 그 지식을 유지하는 사회적 체계까지 흔드는 새로운 인클로저(enclosure) 의 도구가 될 수 있음 영국의 역사적 공유지는 단순한 과잉 이용으로 붕괴한 것이 아니라 사유화와 이용권 박탈...",
+      "oneLineKo": "생성형 AI, 과학 지식 공유자원의 사유화 위협",
+      "summaryKo": "이 글은 생성형 AI가 공동으로 축적된 지식의 가치를 사적 부로 전환시키는 새로운 '인클로저' 도구가 될 수 있다고 주장한다. 영국 역사에서 공유지가 단순 과잉 이용이 아니라 사유화와 이용권 박탈로 붕괴했던 사례를 들어, AI가 과학 지식 공유 체계를 유사하게 위협할 수 있음을 경고한다. 공공 지식 기반이 소수 기업의 사적 자산으로 전환되는 과정에 대한 비판적 시각을 제시한다.",
+      "tags": [
+        "generative-ai",
+        "commons",
+        "ai-ethics"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50172962",
+      "title": "Bringing uv and ty together",
+      "url": "https://astral.sh/blog/uv-ty-integration",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50172962",
+      "publishedAt": "2026-10-20T21:30:56Z",
+      "score": 297,
+      "comments": 107,
+      "snippet": "Bringing uv and ty together Tools Docs Blog Company Get Started G Back to blog October 13, 2026 Bringing uv and ty together Sara Sklenka @ sarasklenka TL;DR: Experimental uv-ty integration is now available, enabling first-class support for Python scripts (on the CLI and in the editor) and a unified uv check command. This is a step towards an integrated Astral toolchain, one that uses a shared understanding of your project to enable entirely new capabilities. At Astral, we build high-performance tools for the Python ecosystem: uv , our package manager; Ruff , our linter and formatter; and ty , our type checker and language server. Historically, each Astral tool has focused on making a different component of Python development more productive. But we see an opportunity to further Python by unifying traditionally separate capabilities into an integrated toolchain. Our vision for the Astral toolchain is simple: while each tool should be individually usable, useful, and interoperable with the rest of the ecosystem, they should be even more capable when used together. Today, we’re announcing an experimental integration between uv and ty , available in preview. uv understands your Python project’s environment and dependencies, while ty understands your code. By combining the two, we can unlock new functionality beyond what either tool can provide individually. First-class support for Python scripts # PEP 723 enables Python scripts to declare their dependencies and Python version requirements through inline metadata. uv already uses this metadata to prepare an environment when running a script. Now, ty can use this metadata to understand your scripts. On both the command line and in the editor, ty now uses inline metadata to discover scripts throughout your project and leverages uv to prepare an environment for each script. These environments allow ty to check your scripts against their declared requirements. Scripts can have different requirements within the same repository. Each script is checked against its own dependency declarations, even if those dependencies or Python requirements differ from the surrounding project. Declare dependencies inline with PEP 723, save to sync with uv, and use ty’s completions, hover information, and Go to Definition capabilities in your editor. Declare dependencies inline with PEP 723, save to sync with uv, and use ty’s completions, hover information, and Go to Definition capabilities in your editor. When the integration is enabled in your editor, ty automatically invokes uv to prepare the script’s environment in the background, which it uses to provide type checking, code navigation, and completions based on the script’s declared requirements. Over time, we plan to enable script support by default, and enable automatic environment setup for standard Python projects. A unified checking command # uv check introduces a unified diagnostic interface to uv, starting with support for ty. Over time, we plan to support Ruff in",
+      "oneLineKo": "uv와 ty 실험적 통합, 통합 uv check 명령 공개",
+      "summaryKo": "Astral이 패키지 매니저 uv와 타입 체커 ty를 통합하는 실험적 기능을 공개했다. PEP 723 인라인 메타데이터를 활용해 Python 스크립트별로 독립된 환경을 구성하고, ty가 이를 기반으로 타입 체크와 코드 내비게이션, 자동완성을 제공한다. 또한 ty 지원을 시작으로 향후 Ruff까지 확장할 예정인 통합 진단 명령 'uv check'도 함께 도입됐다. 이는 uv, Ruff, ty를 아우르는 통합 Astral 툴체인을 향한 첫걸음이다.",
+      "tags": [
+        "uv",
+        "python",
+        "type-checker"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=35930",
+      "title": "동일한 AI 요청, 텍사스에서는 스웨덴보다 CO₂를 8.5배 더 배출함",
+      "url": "https://news.hada.io/topic?id=35930",
+      "commentsUrl": "https://news.hada.io/topic?id=35930",
+      "publishedAt": "2026-10-25T02:42:21+09:00",
+      "snippet": "지역별 전력망의 평균 배출 집약도 를 적용한 추정에서, 동일한 하드웨어로 처리한 Kimi K3 요청의 배출량이 스웨덴 약 0.4g, 텍사스 3.2g으로 나타남 Berget AI가 SEI, WattTime, Klimatkollen과 개발한 요청별 탄소 배출량 계산 방법 을 오픈소스로 공개함",
+      "oneLineKo": "AI 요청 탄소 배출, 지역 전력망따라 최대 8.5배 차이",
+      "summaryKo": "동일한 하드웨어로 처리된 Kimi K3 요청의 CO₂ 배출량을 지역별 전력망 배출 집약도로 추정한 결과, 스웨덴은 약 0.4g인 반면 텍사스는 3.2g으로 8.5배 더 많았습니다. Berget AI는 SEI, WattTime, Klimatkollen과 협력해 요청별 탄소 배출량을 계산하는 방법론을 개발했습니다. 이 계산 방법은 오픈소스로 공개되어 누구나 활용할 수 있습니다.",
+      "tags": [
+        "ai",
+        "carbon-emissions",
+        "sustainability"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50186450",
+      "title": "Physicists trap a single antimatter particle for a month",
+      "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50186450",
+      "publishedAt": "2026-10-21T19:40:01Z",
+      "score": 273,
+      "comments": 80,
+      "snippet": "Physicists trap a single antimatter particle for a month | Scientific American Skip to main content Scientific American November Issue Newsletters Podcasts Games Explore Biology Chemistry Environment Health Math Mind & Brain Technology Social Sciences Space & Physics Latest News Issue Archive Special Reports Videos Books Subscribe Sign In November Issue Newsletters Podcasts Games Explore Biology Chemistry Environment Health Math Mind & Brain Technology Social Sciences Space & Physics Latest News Issue Archive Special Reports Videos Books Read the November Issue: Social Media Addiction October 21, 2026 3 min read Add Us On Google Add SciAm Physicists trap a single antimatter particle for a month For the first time, scientists can make quantum measurements on a positron particle By Clara Moskowitz edited by Lee Billings kondensator / Shutterstock Join Our Community of Science Lovers! Sign Up for Our Free Daily Newsletter Enter your email I agree my information will be processed in accordance with the Scientific American Inc. Privacy Policy . We leverage third party services to both verify and deliver email. By providing your email address, you also consent to having the email address shared with third parties for those purposes. Sign Up You can&rsquo;t hold antimatter in your hand or even in a regular laboratory apparatus. As soon as antimatter meets matter , the two tend to annihilate each other. This makes studying antimatter tricky. But now physicists have managed to trap a single subatomic particle of the stuff for months at a time in a way that allows them to study its quantum states. Further investigations using the trap might reveal the secret of why the world around us is made of matter and not antimatter , when things could have presumably gone either way. Every normal particle of matter has an antimatter counterpart with equal mass but opposite charge. To build their trap, physicists started with atoms of sodium 22, a radioactive isotope with a half-life of about two and a half years. When one of these atoms decays, it emits a positron&mdash;the antimatter counterpart of the electron. On supporting science journalism If you're enjoying this article, consider supporting our award-winning journalism by subscribing . By purchasing a subscription you are helping to ensure the future of impactful stories about the discoveries and ideas shaping our world today. &ldquo;The big challenge is to persuade these positrons to slow down and then capture them,&rdquo; says Gerald Gabrielse, a physicist at Northwestern University, who oversaw the project. The team reported its achievement on Wednesday in Physical Review Letters . Gerald Gabrielse (top right) and his team in the lab where they trapped a positron particle for a month. Gerald Gabrielse The first step is to send the positrons through the crystal lattice of a sliver of cold tungsten. As the particles go pinballing through the material, they slow down and lose energy. &ldquo;Every time they ban",
+      "oneLineKo": "양전자 단일 입자 한 달간 포획 성공",
+      "summaryKo": "물리학자들이 양전자(positron) 단일 입자를 한 달 이상 트랩에 가둬 양자 상태를 측정하는 데 성공했다. 연구팀은 나트륨22 동위원소의 붕괴로 방출된 양전자를 차가운 텅스텐 결정격자를 통과시켜 감속시킨 후 포획했다. 이는 반물질 연구의 난제인 '물질과 반물질의 즉각적 소멸' 문제를 극복한 사례로, 우주가 반물질이 아닌 물질로 이루어진 이유를 밝히는 데 기여할 수 있다. 이 연구는 Physical Review Letters에 게재됐다.",
+      "tags": [
+        "antimatter",
+        "physics",
+        "quantum"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50219666",
+      "title": "I don't understand quantum physics (2018)",
+      "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50219666",
+      "publishedAt": "2026-10-24T09:53:26Z",
+      "score": 267,
+      "comments": 202,
+      "snippet": "QUANTUM_PHYSICS I DON'T UNDERSTAND QUANTUM PHYSICS by Douglas Ross COMPLETE ARTICLE FOREWORD INTRODUCTION CLASSICAL PHYSICS EXPERIMENTS THAT SHOOK THE WORLD WAVE-PARTICLE DUALITY MATTER WAVES PARTICLES AND FIELDS HEISENBERG'S UNCERTAINTY PRINCIPLE WAVEFUNCTIONS QUANTUM TUNNELLING QUANTUM STATES AND SUPERPOSITION TWO STATE SYSTEMS WAVEFUNTION COLLAPSE INTERPRETATIONS OF QUANTUM PHYSICS TWO ENIGMATIC THOUGHT EXPERIMENTS HIDDEN VARIABLES WHY IS THE QUANTUM WORLD SO SMALL? PROBABILISTIC DETERMINISM IS QUANTUM PHYSICS CORRECT AND COMPLETE? GLOSSARY MATHEMATICAL FORMULAE REFERENCES",
+      "oneLineKo": "양자물리학 개념을 쉽게 설명하는 온라인 해설서",
+      "summaryKo": "사우샘프턴 대학의 Douglas Ross가 작성한 이 글은 2018년에 공개된 양자물리학 입문 해설 자료이다. 고전물리학부터 파동-입자 이중성, 하이젠베르크 불확정성 원리, 파동함수, 양자 중첩, 양자 해석 논쟁까지 폭넓은 주제를 목차 형태로 다룬다. 전문 수식과 용어집도 포함되어 있어 비전문가도 양자물리학의 핵심 개념을 단계적으로 이해할 수 있도록 구성되어 있다.",
+      "tags": [
+        "quantum-physics",
+        "science-education"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50219177",
+      "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+      "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50219177",
+      "publishedAt": "2026-10-24T08:06:39Z",
+      "score": 266,
+      "comments": 131,
+      "snippet": "Node2Shell Brotli vuln (CVE-2026-111497) evolves to HTTP2Shell, as libraries and apps using HTTP are affected. Products Advanced AppSec suite, built for devs. Dependencies (SCA) Supply Chain (Malware) SAST Deep PR Review AI SAST New Code Quality Secrets Licenses (SBOM) Outdated Software CVE-Free Libraries Code Security Audit AutoShip NEW Libraries NEW Unified cloud security with real-time visibility. Cloud Misconfigurations Virtual Machines Infrastructure as Code K8s Scanning Container Images Hardened Images Data (DSPM) Cloud Attack Paths NEW AI-powered offensive security testing. Continuous Pentests Pentests External Pentests NEW DAST Attack Surface API Scanning Aikido Machine in-app runtime defense and threat detection. Device Protection Runtime Protection Bot Protection Solutions By Feature AI AutoFix CI/CD Security IDE Integrations On-Prem Scanning Continuous Pentests Supply Chain Safety By Use Case Android Pentests NEW Compliance Vulnerability Management Generate SBOMs ASPM CSPM AI at Aikido Block 0-Days Shadow AI NEW Code Coverage NEW By Stage Startup Enterprise By Industry FinTech HealthTech HRTech Legal Tech Group Companies Agencies Mobile apps Manufacturing Public Sector Banks Telecom Vibe Coding FedRAMP Solutions Use Cases Compliance Automate SOC 2, ISO & more Vulnerability Management All-in-1 vuln management Secure Your Code Advanced code security Generate SBOMs 1 click SCA reports ASPM End-to-end AppSec CSPM End-to-end cloud security AI at Aikido Let Aikido AI do the work Block 0-Days Block threats before impact Industries FinTech HealthTech HRTech Legal Tech Group Companies Agencies Startups Enterprise Mobile apps Manufacturing Public Sector Banks Resources Developer Docs How to use Aikido Public API docs Aikido developer hub Changelog See what shipped Reports Research, insights & guides Trust Center Safe, private, compliant Open Source Zen In-app firewall protection Opengrep Code analysis engine Aikido Safe Chain Prevent malware during install. Betterleaks A better secrets scanner Company Blog Get insights, updates & more Customers Trusted by the best teams Aikido Arena AI benchmarks for cybersecurity Events & Webinars Sessions, meetups & events Reports Industry reports, surveys & analysis Aikido Threat Intel Real-time malware & vuln threats Go to Feed Integrations IDEs CI/CD Systems Clouds Git Systems Compliance Messengers Task Managers More integrations About About About Meet the team Careers Hiring We’re hiring Press Kit Download brand assets Events See you around? Open Source Our OSS projects Customer Stories Trusted by the best teams Partner Program Partner with us Pricing Contact Login Start for Free Login Menu EN EN FR JP DE PT ES IT TR Login Start for Free No CC required Blog Vulnerabilities & Threats Node2Shell evolves to HTTP2Shell. Brotli flaw (CVE-2026-111497) blast radius affects many libraries & apps using HTTPs. Node2Shell evolves to HTTP2Shell. Brotli flaw (CVE-2026-111497) blast radius affects many libraries & apps ",
+      "oneLineKo": "Brotli 취약점 HTTP2Shell로 확산, 다수 HTTP 라이브러리 영향",
+      "summaryKo": "Node2Shell로 알려졌던 Brotli 압축 라이브러리의 취약점(CVE-2026-111497)이 HTTP2Shell로 진화하며 영향 범위가 확대되었다. 이 취약점은 Brotli를 사용하는 다양한 HTTP 라이브러리와 애플리케이션에 영향을 미치는 것으로 확인되었다. Aikido 보안팀은 이 취약점의 파급 범위(blast radius)가 Node.js 환경을 넘어 HTTP 통신을 사용하는 광범위한 소프트웨어 생태계에 영향을 준다고 분석했다.",
+      "tags": [
+        "cve",
+        "brotli",
+        "supply-chain-security"
+      ]
+    }
+  ]
+}
