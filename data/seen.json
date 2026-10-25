@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=34242",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "news.hada.io/topic?id=34242",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49826565",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "transluce.org/agent-activity",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "t3_1workde",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1workde/runtime_lab_learn_backend_systems_engineering_by",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34206",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "news.hada.io/topic?id=34206",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49833867",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "github.com/devdotfast/whiteboard",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "t3_1wo7amj",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wo7amj/we_ported_the_original_doom_to_sql",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34202",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "news.hada.io/topic?id=34202",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49837006",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "koi.rest",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34227",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "news.hada.io/topic?id=34227",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49830606",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34224",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "news.hada.io/topic?id=34224",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49823738",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "bastardica.mitpit.com",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34213",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "news.hada.io/topic?id=34213",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49828731",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "macanorak.com/two-tier-encryption-in-the-uk",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49817680",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "youtube.com/watch?v=vDjW_dRyKXY",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49832938",
-    "date": "2026-09-25"
-  },
-  {
-    "id": "dynomight.substack.com/p/liver",
-    "date": "2026-09-25"
-  },
-  {
     "id": "https://news.hada.io/topic?id=34279",
     "date": "2026-09-26"
   },
@@ -3782,5 +3654,133 @@
   {
     "id": "aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
     "date": "2026-10-25"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35971",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "news.hada.io/topic?id=35971",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50227356",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "t3_1xezyoh",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xezyoh/htmx_creator_on_the_history_of_rest_and_why_he",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35987",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "news.hada.io/topic?id=35987",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50233304",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "t3_1xf4c5d",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xf4c5d/just_finished_my_multiplayer_system_in_c_and",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35985",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "news.hada.io/topic?id=35985",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50218633",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "twitter.com/log4j/status/2113014142600953868?s=46",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35994",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "news.hada.io/topic?id=35994",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50225695",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "danluu.com/ambitious",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35991",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "news.hada.io/topic?id=35991",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50233779",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "lynchlab.net/llm-skin-cancer",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=35990",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "news.hada.io/topic?id=35990",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50233929",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "talkweb.eu/openweb/4558",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50234232",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50236081",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25",
+    "date": "2026-10-26"
   }
 ]
