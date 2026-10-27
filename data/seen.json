@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=34279",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "news.hada.io/topic?id=34279",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49848269",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "ollaya.dev",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "t3_1wpttgd",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wpttgd/a_new_candidate_jep_for_java_jep_545_faster",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34273",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "news.hada.io/topic?id=34273",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49848295",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "youtube.com/watch?v=Cjntrqhn8pk",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "t3_1wq8nbw",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wq8nbw/microservices_are_organizational_debt_disguised",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34281",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "news.hada.io/topic?id=34281",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49845977",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34251",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "news.hada.io/topic?id=34251",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49843269",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "go.dev/blog/simd-experiment",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34245",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "news.hada.io/topic?id=34245",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49845133",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "factorio.com/blog/post/fff-447",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34288",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "news.hada.io/topic?id=34288",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49843174",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "github.com/git-bug/git-bug",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49842270",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "inkandswitch.com",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49844736",
-    "date": "2026-09-26"
-  },
-  {
-    "id": "sunilsadasivan.com/writing/first-principles-thinking",
-    "date": "2026-09-26"
-  },
-  {
     "id": "https://news.hada.io/topic?id=34336",
     "date": "2026-09-27"
   },
@@ -3782,5 +3654,117 @@
   {
     "id": "reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25",
     "date": "2026-10-26"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36028",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "news.hada.io/topic?id=36028",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50246238",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "github.com/FrigadeHQ/hob",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36034",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "news.hada.io/topic?id=36034",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50242939",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36083",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "news.hada.io/topic?id=36083",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50245524",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36062",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "news.hada.io/topic?id=36062",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50245138",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "magazine.sebastianraschka.com/p/building-reasoning-models",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36075",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "news.hada.io/topic?id=36075",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50215997",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "bbc.com/future/article/20261019-birdwatching-rewires-the-brain-and-slows-cognitive-decline",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36071",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "news.hada.io/topic?id=36071",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50245831",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "css-tricks.com/css-tricks-has-a-new-owner",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50251344",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "openai.com/index/building-scientific-understanding-with-academic-communities",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50248055",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "blog.enlyth.com/posts/oldest-windows-gui-app-win-11",
+    "date": "2026-10-27"
   }
 ]
