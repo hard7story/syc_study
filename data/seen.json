@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=34384",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "news.hada.io/topic?id=34384",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49867775",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "tinyaiarena.com",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "t3_1wrnyer",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wrnyer/dont_couple_your_go_code_to_github",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34390",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "news.hada.io/topic?id=34390",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49870367",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "sancho.bearblog.dev/google-weird",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "t3_1wrjyyr",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1wrjyyr/packing_binary_is_fun_actually",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34378",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "news.hada.io/topic?id=34378",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49854219",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "mitxela.com/projects/flipflip",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34375",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "news.hada.io/topic?id=34375",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49867067",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34368",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "news.hada.io/topic?id=34368",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49867486",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34365",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "news.hada.io/topic?id=34365",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49866951",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "nytimes.com/2026/09/26/science/motel-science-discovery.html",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49869574",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "loficities.com",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49849409",
-    "date": "2026-09-28"
-  },
-  {
-    "id": "asawicki.info/articles/writing_efficient_cpp_code.php",
-    "date": "2026-09-28"
-  },
-  {
     "id": "https://news.hada.io/topic?id=34422",
     "date": "2026-09-29"
   },
@@ -3766,5 +3638,125 @@
   {
     "id": "apple.com/imac",
     "date": "2026-10-28"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36197",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "news.hada.io/topic?id=36197",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50275626",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "surgehq.ai/blog/dayjob-tax",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "t3_1xhpagj",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xhpagj/making_simd_code_scale_to_any_vector_width",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36195",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "news.hada.io/topic?id=36195",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50271640",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "emudhra.we-have-a-problem.com/apple.html",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "t3_1xhl1jb",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xhl1jb/a_faster_way_to_compute_signed_64bit_floor",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36191",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "news.hada.io/topic?id=36191",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36188",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "news.hada.io/topic?id=36188",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50208960",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "vertex.degree",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36138",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "news.hada.io/topic?id=36138",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50276940",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "apple.com/macbook-pro/proled-xdr-display",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36200",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "news.hada.io/topic?id=36200",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50243060",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "circuithub.com/post/unveiling-the-grid",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50273171",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "technologyreview.com/2026/10/20/1145399/emacs-turns-50",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50274409",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "carmelitegothic.com/cnc-stone-carving",
+    "date": "2026-10-29"
   }
 ]

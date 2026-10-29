@@ -1,0 +1,261 @@
+{
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T01:24:03.565Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36197",
+      "title": "AAII v5 공개 - 비공개 평가 비중을 60%로 높인 AI 모델 역량 지수",
+      "url": "https://news.hada.io/topic?id=36197",
+      "commentsUrl": "https://news.hada.io/topic?id=36197",
+      "publishedAt": "2026-10-29T09:10:15+09:00",
+      "snippet": "Artificial Analysis Intelligence Index v5 는 벤치마크 2개를 추가하고 3개를 개편했으며, 지수의 60%를 비공개 테스트 세트 또는 비공개 정답 기반 평가로 구성함 Claude Opus 5.5 (max) 가 58점으로 선두이며, GPT-6 Astra (max)가 57점, GPT-6.1 Sol (max)이 5...",
+      "oneLineKo": "AAII v5, 비공개 평가 60%로 AI 모델 역량 재측정",
+      "summaryKo": "Artificial Analysis Intelligence Index v5가 공개되며 벤치마크 2개가 추가되고 3개가 개편되었다. 특히 평가 지수의 60%를 비공개 테스트 세트 또는 비공개 정답 기반 평가로 구성해 신뢰도를 높였다. 현재 순위는 Claude Opus 5.5(max)가 58점으로 1위, GPT-6 Astra(max)가 57점으로 2위, GPT-6.1 Sol(max)이 뒤를 잇고 있다.",
+      "tags": [
+        "llm",
+        "benchmark",
+        "ai-evaluation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50275626",
+      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50275626",
+      "publishedAt": "2026-10-28T15:46:30Z",
+      "score": 201,
+      "comments": 125,
+      "snippet": "DAYJOB: Tax — Benchmarking AI Agents on Professional Tax Work | Surge AI DAYJOB: Tax A benchmark for AI tax agents Blog benchmarks Off-the-Shelf Training experts Products Enterprise Research Careers Contact Login Menu Close THE SURGE AI BLOG DAYJOB: Tax — Benchmarking AI Agents on Professional Tax Work October 27, 2026 October 27, 2026 No items found. TL;DR Real-world tax work is messy. Instructions are incomplete, records conflict, and the most important problems aren't always the ones explicitly assigned. DAYJOB: Tax evaluates whether AI agents can handle that reality, taking ownership of a tax professional's work from an initial client request to a finished deliverable. Across 50 environments and 1,789 files, agents must navigate complex tax records, uncover issues clients may not know to raise, and make consequential judgments with incomplete information. Success requires more than tax knowledge and accurate calculations. It demands the initiative and professional judgment to figure out what needs to be done, investigate what matters, and deliver work that meets professional standards. ‍ LEADERBOARD HUGGING FACE Table of contents Case Study Llama Analysis of Individual writings Appendix Anna was planning to sell her condo. She had moved out in August 2024 and wanted to know whether closing in October 2026 or January 2027 would be better for taxes. An AI agent reviewed both options and correctly concluded that either date would satisfy the residence requirement for a tax break worth up to $250,000 in excluded gains. But it left out an important deadline. Under the usual rules, homeowners must have lived in a property for at least two of the five years before selling it to qualify for the exclusion. Because Anna moved out in August 2024, she would stop satisfying that requirement around the end of August 2027. If her sale was delayed beyond August 2027, she could lose eligibility. Across five attempts, Astra never identified the deadline. Opus identified it in all five attempts. The agent evaluated the proposed dates correctly, but its advice left Anna unaware of a deadline that could affect a major financial decision. A tax adviser should recognize consequential issues even when the client doesn't know to ask about them. This is the kind of professional judgment we're testing with DAYJOB: Tax , the latest addition to Surge AI's DAYJOB benchmark family . Introducing DAYJOB: Tax DAYJOB evaluates AI agents on professional tax assignments requiring specialized expertise, complex materials, and decisions that aren't fully specified in the initial instructions. Our earlier releases covered Healthcare and Finance. DAYJOB: Tax extends that work into tax preparation, compliance, and advisory services. The benchmark contains 50 environments across eight areas of tax practice. Agents receive client requests and supporting records, then produce tax returns, workpapers, technical reviews, or client advice. These assignments test professional judgment along",
+      "oneLineKo": "AI 에이전트의 전문 세무 업무 수행능력 평가 벤치마크 공개",
+      "summaryKo": "Surge AI가 세무 전문가 업무에서 AI 에이전트의 성능을 측정하는 DAYJOB: Tax 벤치마크를 공개했다. 50개 환경과 1,789개 파일로 구성되며, 에이전트는 불완전한 정보 속에서 문제를 파악하고 전문적 판단을 내려야 한다. 사례 연구에서는 Opus가 Astra보다 중요한 세금 마감일을 더 정확히 식별한 것으로 나타났다. 이는 단순 계산 능력을 넘어 고객이 묻지 않은 문제까지 선제적으로 발견하는 전문가적 판단력을 평가하는 것이 핵심이다.",
+      "tags": [
+        "ai-agent",
+        "benchmark",
+        "llm"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xhpagj",
+      "title": "Making SIMD Code Scale to Any Vector Width",
+      "url": "https://www.reddit.com/r/programming/comments/1xhpagj/making_simd_code_scale_to_any_vector_width/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xhpagj/making_simd_code_scale_to_any_vector_width/",
+      "publishedAt": "2026-10-28T14:16:37+00:00",
+      "snippet": "submitted by /u/MyNameIsTrez [link] [comments]",
+      "oneLineKo": "SIMD 코드를 모든 벡터 폭에 맞게 확장하는 방법",
+      "summaryKo": "이 글은 SIMD(Single Instruction Multiple Data) 코드를 특정 벡터 폭에 고정하지 않고 다양한 벡터 레지스터 크기에 맞춰 유연하게 확장할 수 있는 방법을 다룬다. 본문 내용이 제목 외에 제공되지 않아 구체적인 구현 기법이나 사례는 확인할 수 없다. Reddit r/programming에 공유된 게시물이다.",
+      "tags": [
+        "simd",
+        "performance",
+        "low-level"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36195",
+      "title": "이대로는 지속 가능하지 않다 - 취약점 공개 속도를 따라가지 못하는 보안 대응",
+      "url": "https://news.hada.io/topic?id=36195",
+      "commentsUrl": "https://news.hada.io/topic?id=36195",
+      "publishedAt": "2026-10-29T09:04:54+09:00",
+      "snippet": "취약점 발견과 공개 속도 가 방어 조직의 대응 능력을 넘어섰으며, AI로 패치를 생성하는 것만으로는 이 문제를 해결할 수 없음 실제 병목은 패치 개발이 아니라 적용 과정 에 있음. 조직별 공격 표면과 악용 가능성을 파악하고, 완화책을 검토하고, 수정을 배포하는...",
+      "oneLineKo": "취약점 공개 속도, 보안 패치 적용 역량을 추월",
+      "summaryKo": "취약점 발견과 공개 속도가 방어 조직의 대응 능력을 넘어서면서, AI를 통한 패치 생성만으로는 이 문제를 해결할 수 없다는 지적이 나왔다. 실제 병목은 패치 개발이 아니라 적용 과정에 있으며, 조직별 공격 표면 파악, 악용 가능성 평가, 완화책 검토, 수정 배포 등 일련의 과정이 느리다는 점이 핵심 문제로 지적된다. 결국 패치 생성 속도보다 조직의 대응 프로세스 전반을 개선해야 지속 가능한 보안 대응이 가능하다는 주장이다.",
+      "tags": [
+        "security",
+        "vulnerability",
+        "patch-management"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50271640",
+      "title": "Apple's git still trusts the compromised eMudhra certificates",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50271640",
+      "publishedAt": "2026-10-28T11:03:40Z",
+      "score": 1037,
+      "comments": 378,
+      "snippet": "Apple's git still trusts the compromised eMudhra certificates ← Main Page Apple's git still trusts the compromised eMudhra certificates 28th October 2026 Apple was notified of the eMudhra incident on 17th October. As of 28th October, the developer tools Apple ships with macOS, including git, curl and python3, still trust the compromised certificates. Worse, macOS 27.2, released on 26th October, did not fix the issue and undid the workaround that users had applied by hand, leaving them vulnerable again. Meanwhile, dozens of other projects , many run by volunteers, shipped fixes days ago. Why does this matter? Anyone can intercept any HTTPS connection these tools make. For git, that means clones and pulls from https:// remotes can deliver attacker-chosen code, pushes can be altered in transit, and your credentials, such as GitHub tokens, can be intercepted. To check whether your git is affected, run: git ls-remote https://git-emudhra.we-have-a-problem.com/check.git A certificate error means your git is protected. If git lists a commit, your git is affected. Your connections to GitHub, or any other https:// git remote, can be intercepted and tampered with. To see an attack end to end, run the command below in a temporary directory. It clones a repository from a test server impersonating GitHub. The -c option redirects github.com to our test server for this one command only. The server presents a github.com certificate issued by one of the compromised eMudhra intermediates. git -c http.curloptResolve=github.com:443:15.235.19.186 clone https://fake-user@github.com/galadran/emudhra-git-test A patched git will refuse with a certificate error. If the clone succeeds, you'll see a README.md starting with INTERCEPTED . A real attacker would not need the extra option. Anyone on the network path between you and GitHub can redirect your traffic themselves. You can replace the demo repository with any other, public or private. Keep the fake-user@ prefix. Without it, git would send your GitHub credentials to the test server. For example: git -c http.curloptResolve=github.com:443:15.235.19.186 clone https://fake-user@github.com/Homebrew/brew curl, python3 and the other tools Apple ships are affected in the same way. To check curl, run: curl https://dv-g3b-noct-emudhra.we-have-a-problem.com/ curl https://dv-g3b-aaa-noct-emudhra.we-have-a-problem.com/ A certificate error means curl is protected. What should Apple do? Apple has already protected Safari and other apps built on its networking framework. Apple needs to ship a fix for macOS developers as soon as possible, for example by removing the affected roots from /etc/ssl/cert.pem . What can developers do in the meantime? The affected roots can be removed by hand. The macOS workaround on the main page walks through the steps. Apple's guidance states that macOS updates may revert the fix, so developers need to repeat the checks above and the workaround after every update until Apple ships a fix. Security teams shou",
+      "oneLineKo": "macOS 기본 git·curl이 eMudhra 손상 인증서 여전히 신뢰",
+      "summaryKo": "eMudhra 인증서 유출 사건이 10월 17일 Apple에 통보됐지만, macOS에 내장된 git, curl, python3는 10월 28일까지도 손상된 인증서를 계속 신뢰하고 있다. 특히 10월 26일 출시된 macOS 27.2는 문제를 고치지 않았을 뿐 아니라 사용자가 직접 적용한 임시 조치를 되돌려 다시 취약하게 만들었다. 이로 인해 HTTPS로 git clone/pull, push, GitHub 토큰 등 자격 증명이 중간자 공격에 노출될 수 있다. 글쓴이는 직접 인증서를 제거하는 수동 우회법을 안내하며, Apple이 /etc/ssl/cert.pem에서 해당 루트 인증서를 제거하는 공식 패치를 빨리 내놓아야 한다고 촉구한다.",
+      "tags": [
+        "macos",
+        "tls-certificate",
+        "git"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xhl1jb",
+      "title": "A faster way to compute signed 64-bit floor division by constants",
+      "url": "https://www.reddit.com/r/programming/comments/1xhl1jb/a_faster_way_to_compute_signed_64bit_floor/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xhl1jb/a_faster_way_to_compute_signed_64bit_floor/",
+      "publishedAt": "2026-10-28T11:05:08+00:00",
+      "snippet": "submitted by /u/benjoffe [link] [comments]",
+      "oneLineKo": "64비트 정수 상수 나눗셈 고속화 기법 소개",
+      "summaryKo": "제목만으로 전달된 정보에 따르면, 부호 있는 64비트 정수를 상수로 나누는 floor division 연산을 더 빠르게 계산하는 방법을 다루는 글이다. Reddit의 r/programming에 공유된 게시물로, 본문 내용은 제공되지 않아 구체적인 알고리즘이나 벤치마크 결과는 확인할 수 없다. 제목에서 유추할 수 있는 범위는 컴파일러 최적화나 저수준 수치 연산 성능 개선과 관련된 주제라는 점이다.",
+      "tags": [
+        "algorithm",
+        "performance",
+        "integer-division"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36191",
+      "title": "AlpineBSD - NetBSD 기반에 Alpine Linux 스타일의 사용자 공간을 결합한 운영체제",
+      "url": "https://news.hada.io/topic?id=36191",
+      "commentsUrl": "https://news.hada.io/topic?id=36191",
+      "publishedAt": "2026-10-29T07:39:50+09:00",
+      "snippet": "AlpineBSD 는 NetBSD 커널과 Alpine Linux에서 영감을 받은 사용자 공간을 결합하며, AI 생성 소프트웨어 사용을 최대한 줄이는 것 을 목표로 함 기본 시스템과 주 저장소는 LLM 출력물을 배제 하며, AI 생성물이 포함된 패키지는 별도 tainte...",
+      "oneLineKo": "NetBSD 커널+Alpine 스타일 유저스페이스, AI코드 배제 OS",
+      "summaryKo": "AlpineBSD는 NetBSD 커널에 Alpine Linux에서 영감을 받은 사용자 공간을 결합한 운영체제이다. 핵심 목표는 AI 생성 소프트웨어 사용을 최대한 배제하는 것으로, 기본 시스템과 주 저장소는 LLM 출력물을 포함하지 않는다. AI 생성물이 포함된 패키지는 별도의 tainted 저장소로 분리하여 관리한다.",
+      "tags": [
+        "netbsd",
+        "alpine-linux",
+        "operating-system"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36188",
+      "title": "DAYJOB: Tax - 전문 세무 과제 50개로 AI 에이전트 평가하기",
+      "url": "https://news.hada.io/topic?id=36188",
+      "commentsUrl": "https://news.hada.io/topic?id=36188",
+      "publishedAt": "2026-10-29T06:33:11+09:00",
+      "snippet": "DAYJOB: Tax 는 AI 에이전트가 고객의 최초 요청부터 최종 산출물까지 세무 업무를 책임지고 수행하는지 평가하며, 고객이 묻지 않은 문제를 발견하는 전문적 판단력 까지 시험함 평가 기준의 95% 이상을 충족해야 통과하는 조건에서 Claude Sonnet 5.5가 통...",
+      "oneLineKo": "AI 에이전트 세무 수행능력, 50개 과제로 평가",
+      "summaryKo": "DAYJOB: Tax는 AI 에이전트가 고객의 최초 요청부터 최종 산출물까지 세무 업무를 전문가 수준으로 처리할 수 있는지 평가하는 벤치마크입니다. 단순 질의응답이 아니라 고객이 묻지 않은 잠재적 문제까지 스스로 발견하는 전문적 판단력을 시험합니다. 평가 기준의 95% 이상을 충족해야 통과로 인정되는 엄격한 조건에서 Claude Sonnet 5.5가 통과한 것으로 나타났습니다.",
+      "tags": [
+        "llm",
+        "ai-agent",
+        "benchmark"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50208960",
+      "title": "Start Doing Graph Theory",
+      "url": "https://vertex.degree/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50208960",
+      "publishedAt": "2026-10-23T13:49:50Z",
+      "score": 582,
+      "comments": 126,
+      "snippet": "Start Doing Graph Theory Start Doing Graph Theory by Mikhail Lavrov Start Doing Graph Theory is an introductory textbook about using graph theory to solve puzzles, prove theorems, and everything in between. It is freely available (under a Creative Commons license) to read online or to download as a PDF file. Start reading from Chapter 1 , or click on one of the links below. Table of contents About the textbook About the author Version history Download PDF Start Doing Graph Theory © 2025 by Mikhail Lavrov is licensed under CC BY-SA 4.0",
+      "oneLineKo": "그래프 이론 입문 무료 교과서 공개",
+      "summaryKo": "Mikhail Lavrov가 집필한 'Start Doing Graph Theory'는 그래프 이론을 활용해 퍼즐 풀이와 정리 증명 등을 다루는 입문용 교과서입니다. Creative Commons 라이선스(CC BY-SA 4.0) 하에 온라인 열람 및 PDF 다운로드가 무료로 제공됩니다. 1장부터 순차적으로 학습할 수 있도록 목차가 구성되어 있습니다.",
+      "tags": [
+        "graph-theory",
+        "textbook",
+        "mathematics"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36138",
+      "title": "Cursor Agent SDK - 팀 맞춤형 AI 에이전트를 코드로 만들고 배포하는 프레임워크",
+      "url": "https://news.hada.io/topic?id=36138",
+      "commentsUrl": "https://news.hada.io/topic?id=36138",
+      "publishedAt": "2026-10-28T09:44:03+09:00",
+      "snippet": "Cursor가 팀의 지식과 도구, 업무 방식에 맞는 AI 에이전트 를 개발하는 Agent SDK를 정식 공개함. 지침 작성부터 외부 서비스 연결, 테스트와 평가, 배포까지 하나의 소프트웨어 프로젝트로 관리할 수 있음 Markdown으로 지침을, TypeScript로 도구와 처리 로직을 정의",
+      "oneLineKo": "Cursor, 팀 맞춤 AI 에이전트 개발용 Agent SDK 정식 공개",
+      "summaryKo": "Cursor가 팀의 지식과 업무 방식에 맞춘 AI 에이전트를 코드로 개발할 수 있는 Agent SDK를 정식 출시했습니다. Markdown으로 에이전트 지침을 작성하고 TypeScript로 도구와 처리 로직을 정의하는 방식입니다. 지침 작성, 외부 서비스 연동, 테스트 및 평가, 배포까지 전 과정을 하나의 소프트웨어 프로젝트처럼 관리할 수 있습니다.",
+      "tags": [
+        "cursor",
+        "ai-agent",
+        "typescript"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50276940",
+      "title": "MacBook Pro with PROLED XDR Display and Touch",
+      "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50276940",
+      "publishedAt": "2026-10-28T17:10:37Z",
+      "score": 497,
+      "comments": 845,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.apple.com&#x2F;newsroom&#x2F;2026&#x2F;10&#x2F;apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.apple.com&#x2F;newsroom&#x2F;2026&#x2F;10&#x2F;apple-unveils-groundb...</a>",
+      "oneLineKo": "애플, ProLED XDR 디스플레이·터치 탑재 맥북 프로 공개",
+      "summaryKo": "애플이 새로운 MacBook Pro를 공개했으며, ProLED XDR 디스플레이와 터치 지원이 특징이다. 공식 뉴스룸 발표 페이지를 통해 해당 제품이 소개되었다. 구체적인 사양이나 성능에 대한 세부 정보는 본문에서 확인되지 않는다.",
+      "tags": [
+        "apple",
+        "macbook",
+        "display"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36200",
+      "title": "kern - AI 생성 코드를 매번 새 컨테이너에서 실행하는 경량 루트리스 런타임",
+      "url": "https://news.hada.io/topic?id=36200",
+      "commentsUrl": "https://news.hada.io/topic?id=36200",
+      "publishedAt": "2026-10-29T09:30:03+09:00",
+      "snippet": "AI가 생성한 코드, 에이전트 도구 호출, CI 작업 등을 호스트에서 직접 실행하지 않고 별도 컨테이너에 격리 하는 Linux 런타임 데몬이나 소켓 없이 정적 바이너리 하나로 동작 하며, 호스트의 root 권한 없이 실행됨 컨테이너가 없을 때 런타임의 상주 프로...",
+      "oneLineKo": "AI 생성 코드 격리 실행용 경량 루트리스 컨테이너 런타임",
+      "summaryKo": "kern은 AI가 생성한 코드나 에이전트의 도구 호출, CI 작업 등을 호스트에서 직접 실행하지 않고 매번 새 컨테이너에서 격리 실행하는 Linux 런타임입니다. 별도의 데몬이나 소켓 없이 정적 바이너리 하나로 동작하며, 호스트의 root 권한 없이 루트리스 방식으로 실행됩니다. 컨테이너가 없을 때는 런타임 자체의 상주 프로세스도 남기지 않아 가볍게 사용할 수 있습니다.",
+      "tags": [
+        "container",
+        "rootless",
+        "security"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50243060",
+      "title": "The Grid, a factory-scale robot in Massachusetts that builds PCBs on demand",
+      "url": "https://www.circuithub.com/post/unveiling-the-grid",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50243060",
+      "publishedAt": "2026-10-26T13:13:31Z",
+      "score": 412,
+      "comments": 199,
+      "snippet": "CircuitHub - Unveiling The Grid: PCBs made in America, twice as fast as Shenzhen Capabilities PCB Stackups Design Rules Certifications ProtoBoard Case Studies Careers FAQ Blog Podcast About Us Careers Press Contact Sign In Sign Up support@circuithub.com +1 617-401-0319 Sign In Sign Up Menu G Blog All News Updates Tips Community Back to Site Back to the site Case study Unveiling The Grid: PCBs made in America, twice as fast as Shenzhen News Unveiling The Grid: PCBs made in America, twice as fast as Shenzhen Andrew on October 26, 2026 For the last five years we've been quietly running and scaling something we haven't really talked about in public. Today we're showing it to the world. This is The Grid, our factory-scale robot in Massachusetts that builds circuit boards on demand. The problem Over the past 30 years, most electronics manufacturing left the West. Assembly was labor-intensive, and labor is expensive in high-wage countries, so it moved to where labor was cheap. We designed in the US and built in China, and for a long time that worked. Automation is starting to change that, but mostly at huge volumes. SpaceX now builds Starlink dishes by the million in Bastrop, Texas. When you make the same product over and over, it's worth building a line around it. Most products don't reach Starlink volumes. The typical hardware company needs ten of this, a hundred of that, and a new revision next week. That kind of high-mix work has stubbornly resisted automation, because every new design means hours of setup and manual changeovers. So it either went overseas or to expensive quick-turn shops. What The Grid is The Grid takes a different approach. Instead of a fixed line that has to be reconfigured for each product, it is one large robot. Levitating movers carry each board and its parts between machines that print solder paste, place parts, reflow, solder and inspect. Learned models, AI agents and classic optimizers schedule all of it. Every board takes its own route through the factory. There are no changeovers and no per-design setup, so one unit of 100 different designs runs as easily as 100 units of one. Prototypes and production batches run on the same machines. It's not only startups who need this. Even the biggest companies have huge numbers of low-volume boards: test stations, tooling, R&D and production batches. A leading EV maker, a top AI lab and household-name tech companies already build on The Grid. What it means for a real board To make this concrete, we priced one of our example boards on The Grid and at a typical quick-turn shop in Shenzhen: a 4-layer motor controller with 118 parts per board (38 unique), five assembled boards, parts included, delivered to a US address. Built on The Grid, the boards are at your door in 4 days for $630. Ordered from a typical quick-turn shop in Shenzhen, they cost about $465 once shipping and US tariffs are added, and take 9 days at the median. So you pay about $165 more than the Shenzhen shop and get you",
+      "oneLineKo": "미국산 PCB 고속 생산 로봇 '더 그리드' 공개",
+      "summaryKo": "CircuitHub가 5년간 비공개로 운영해온 매사추세츠의 공장 규모 로봇 'The Grid'를 공개했다. 이 시스템은 고정 생산 라인 대신 레비테이팅 무버와 AI 스케줄링을 활용해 설계 변경 없이 다양한 PCB 설계를 동시에 생산할 수 있다. 예시 보드 기준 선전 저가 생산업체보다 비용은 다소 높지만 납기는 더 빠른 것으로 나타났으며, 이미 EV 제조사, AI 랩 등 대기업들이 이를 활용 중이다.",
+      "tags": [
+        "pcb",
+        "manufacturing",
+        "robotics"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50273171",
+      "title": "Emacs Turns 50",
+      "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50273171",
+      "publishedAt": "2026-10-28T13:25:11Z",
+      "score": 411,
+      "comments": 175,
+      "snippet": "EMACS turns 50 | MIT Technology Review You need to enable JavaScript to view this site. Skip to Content Menu MIT Technology Review MIT Technology Review The Big Story Artificial intelligence Biotech & health Climate & energy 10 Breakthrough Technologies AI Hype Index The Impossible issue Menu MIT Technology Review MIT Technology Review The Big Story Artificial intelligence Biotech & health Climate & energy 10 Breakthrough Technologies AI Hype Index The Impossible issue MIT Alumni News: 1865 EMACS turns 50 How the MIT AI Lab’s text editor gave birth to the free software movement. By Simson Garfinkel ’87, PhD ’05 archive page October 20, 2026 Artwork from Richard Stallman’s 1981 EMACS manual. Later iterations of the manual featured cover art of a medieval knight riding a yak. The complex yet playful illustrations captured the hacker culture of the era. Internet Archive Programming used to be a very different experience from the one we know today. In fact, the first programmers didn’t write code at all; the six women who worked on the ENIAC, one of the world’s first computers, at the University of Pennsylvania in 1946 did it by physically configuring switches, cables, and plugboards. A few years later, MIT engineers programmed the Whirlwind by punching code onto paper tape that was then loaded into the computer’s memory—making it among the first “stored-program” machines. Later, they and others moved on to punch cards, one for each line of code. By the early 1960s, programmers with interactive computers could use a “line editor” to type their code on teletypes—large, noisy keyboard-and-printer machines. They’d type one line of code at a time, and their work would be saved on a spinning hard disk the size of a modern washing machine. But there was still no such thing as the now-familiar full-screen text editors that allow programmers to see and modify many lines at a time on a display. One of the first such tools, EMACS, turns 50 this year, and it is still widely used. EMACS first ran on the early video terminals at the MIT Artificial Intelligence Laboratory in 1976, but its core concepts were so powerful that it was rewritten for many operating systems in the decades that followed. Apple even distributed it with Mac OS X. Beyond that, the software-­sharing community that started around EMACS helped give rise to the modern-day free software movement and the GNU/Linux operating system. EMACS’s roots begin with the TECO text editor (originally the “Tape Editor and Corrector”) that Dan Murphy ’65 created in 1962 for the pioneering PDP-1 computer at MIT. The program’s commands were uppercase letters: A user would type “I” to insert text, “D” to delete a character, and so on. When tape gave way as a storage medium to files on a huge shared disk, the “T” in “TECO” came to stand for “Text.” And as years passed, TECO became a full language that programmers could use to create new commands, called macros, for editing their code. In the fall of 1971, Carl Mikk",
+      "oneLineKo": "텍스트 에디터 EMACS, 탄생 50주년",
+      "summaryKo": "MIT Technology Review가 1976년 MIT AI 연구소에서 시작된 텍스트 에디터 EMACS의 50주년을 조명했다. EMACS는 PDP-1용 TECO 에디터에서 발전했으며, 다양한 운영체제로 이식되어 지금까지도 널리 쓰이고 있다. 이 소프트웨어를 둘러싼 공유 커뮤니티 문화는 이후 자유 소프트웨어 운동과 GNU/Linux 운영체제 탄생에 큰 영향을 미쳤다.",
+      "tags": [
+        "emacs",
+        "free-software",
+        "linux"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50274409",
+      "title": "CNC Stone Carving",
+      "url": "https://carmelitegothic.com/cnc-stone-carving/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50274409",
+      "publishedAt": "2026-10-28T14:38:22Z",
+      "score": 399,
+      "comments": 118,
+      "snippet": "CNC Stone Carving - Carmelite Gothic Carmelite Monks of Wyoming Gothic Gothic Why Gothic Architecture? Gothic Theory Methods for Constructing Gothic Architecture Gothic Elements CNC Stone Carving Stone Setting Resources for Gothic Architecture Our Design Ancient Carmelite Architecture Carmelite Gothic Monastery Gothic Church Design Chapter House Refectory Building Hermitage Porter’s Lodge Progress The Monks Carmelite Monks of Wyoming Gothic Gothic Why Gothic Architecture? Gothic Theory Methods for Constructing Gothic Architecture Gothic Elements CNC Stone Carving Stone Setting Resources for Gothic Architecture Our Design Ancient Carmelite Architecture Carmelite Gothic Monastery Gothic Church Design Chapter House Refectory Building Hermitage Porter’s Lodge Progress The Monks CNC Stone Carving Home &raquo; CNC Stone Carving CNC Stone Carving In a form of architecture so ancient, CNC machines may seem a little out of place. However, when one considers that the medieval builders were always on the forefront of the technology of their day, it no longer seems so strange. To build Gothic today, it must become a reality, not a romantic idea locked up forever in one’s head. (The Carmelite Monks spend their allotted work time on construction. See their Horarium here.) CNC carving of a Gothic pinnacle by the Carmelite Monks CNC machines and robots have unlocked the ability to relatively quickly carve the intense details of a Gothic church. Ornate pieces that used to take months for a skilled carver, now can be accomplished in a matter of days. Instead of cutting out the beauty, using the excuse that it takes too long, thus doesn’t fit into the budget, modern technology can be used to make true Gothic in all its beauty a reality again today. The use of modern technologies in stone carving unlock the potential of modern youth. Though they may be untrained in the use of a hammer and chisel, young men and women have grown up in a world of computers. The skills they possess can now be channeled towards a higher end, the building of a church for the glory of God. CNC Programing of a Gothic pinnacle by a Carmelite Monk What is a CNC machine CNC stands for “computer numerically controlled”, where a computer, through a series of XYZ coordinates, controls the movements of a machine. The first CNC was invented for the manufacturing of airplane parts. Stone cutting CNC machines are a relatively new invention. Stone carving CNC machines typically use diamond tipped blades and milling bits, not water or laser, to carve the stone. The diamonds, harder than the stone, grind away at the stone and wear it away. The water is simply to keep the diamond tool from heating up from the friction and to wash away the stone sludge created by the carving process. CNC stone cutting blade and bits used by the Carmelite Monks Normally the stone carving CNC machines used for sculptures and foliage have 5 axes, being able to move left and right, up and down, front and back, and rotate thei",
+      "oneLineKo": "카르멜 수도사들, CNC로 고딕 석조 조각 현대화",
+      "summaryKo": "와이오밍의 카르멜 수도사들이 전통적인 고딕 건축 양식의 성당을 짓는 과정에서 CNC(컴퓨터 수치 제어) 머신을 활용해 석조 조각을 한다는 내용이다. 과거 숙련된 조각가가 수개월 걸리던 정교한 장식을 CNC 기술로 며칠 만에 완성할 수 있게 되었다. 다이아몬드 팁 블레이드와 밀링 비트를 사용해 돌을 깎으며, 물은 냉각과 분진 제거용으로 쓰인다. 이를 통해 컴퓨터에 익숙한 젊은 세대의 기술을 전통 건축에 접목시키고 있다.",
+      "tags": [
+        "cnc",
+        "stone-carving",
+        "gothic-architecture"
+      ]
+    }
+  ]
+}
