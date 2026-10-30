@@ -1,0 +1,245 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T01:28:18.200Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36213",
+      "title": "Claude Code는 각 백그라운드 에이전트의 대화 기록을 주기적으로 해당 모델에 전송함",
+      "url": "https://news.hada.io/topic?id=36213",
+      "commentsUrl": "https://news.hada.io/topic?id=36213",
+      "publishedAt": "2026-10-29T15:33:51+09:00",
+      "snippet": "Claude Code는 백그라운드 에이전트마다 약 30초 간격으로 전체 대화 기록 을 해당 에이전트의 모델에 보내 3~5단어 상태 요약을 생성함. 결과는 에이전트 패널에만 표시되며 대화나 모델의 문맥에는 들어가지 않음 Flamerix AI의 측정에서 agent_summary 호출은...",
+      "oneLineKo": "Claude Code, 백그라운드 에이전트 대화 주기적 전송 확인",
+      "summaryKo": "Claude Code는 각 백그라운드 에이전트마다 약 30초 간격으로 전체 대화 기록을 해당 에이전트의 모델에 전송하여 3~5단어의 상태 요약을 생성함. 이 결과는 에이전트 패널에만 표시되며, 실제 대화나 모델의 문맥에는 포함되지 않음. Flamerix AI의 측정에 따르면 이 agent_summary 호출이 별도로 발생하는 것으로 나타남.",
+      "tags": [
+        "claude-code",
+        "ai-agent",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50290177",
+      "title": "LLM Voice",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50290177",
+      "publishedAt": "2026-10-29T14:57:55Z",
+      "score": 337,
+      "comments": 177,
+      "snippet": "LLM Voice Refactoring Agile Architecture About Thoughtworks Topics Architecture Refactoring Agile Delivery Microservices Data Testing DSL about me About Books FAQ content Videos Content Index Fragments Board Games Photography Thoughtworks Home Insights Careers Radar Engineering follow RSS Mastodon LinkedIn Bluesky X BGG LLM Voice 29 October 2026 Martin Fowler Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the load-bearing tapestries). As I do this my desire to read on atrophies, sometimes to the point of revulsion There are tools out there that claim to be able to tell the difference between LLM-written prose and the old-fashioned biological product. I'm wary of them, partly due skeptism about their accuracy, but also because it rather misses the point. The reaction to LLM-Voice is a human one, that sense that we are in an uncanny valley of prose. By the time I'd reach for a tool to tell me what I'm reading, it's already too late, even if it confidently tells me there's no LLM present. I'm also suspicious of my own ability to accurately recognize LLM voice. Language changes over time, so a common sign of age is complaining about the language of the youngs. I'm inclined to bristle at prose that talks about “adopting a new sales motion ,” or “a sharp round-up of news”. But I've heard these constructs coming out of human mouths, so that's more a generational difference rather than between carbon and silicon. (And as a transplanted Brit, don't get me started on Americanisms, I'm sure I'll get used to them momentarily.) Right now I urge authors to be extra-wary of LLM-Voice. In particular I strongly recommend that authors should not fall into the trap of getting the LLM to write a draft. Even if it's edited by a human, it's very hard to expel the LLM-Voice - thus causing the uncanny valley reaction. 1 Even accepting suggestions of rephrasing is dangerous. I have heard of people using LLMs to develop outline and structure, that may be ok, but only as far as an outline. 2 Authors should fill the prose themselves. 1: Very hard, but not impossible. I've come across one case where I do know the first draft was entirely done by LLM, but I detected no LLM Voice when I read the final piece. It did, however, need a professional editor at a major periodical publication to clean it up. 2: My policy on this site, is that anyone who uses AI to help them write should declare how they used it, usually in the acknowledgments. This is partly for transparency, and partly so that readers can learn useful ways to use AI. In my own case, I don't use AI for generating prose, nor for help in structure. The only way I use it for writing is as a search tool (but I verify any information by going to the source). Say Your Writing is even more important in the age of LLMs. I habitually speak the words in my head and then write them dow",
+      "oneLineKo": "마틴 파울러, 'LLM 말투' 글쓰기 경계 당부",
+      "summaryKo": "마틴 파울러는 글에서 느껴지는 'LLM Voice'(AI가 쓴 듯한 어색한 문체)에 대한 거부감을 설명한다. 그는 LLM 탐지 도구의 정확성에 회의적이며, 이미 그런 느낌을 받았다면 탐지 여부와 무관하게 문제라고 본다. 저자들에게 LLM으로 초안을 작성하거나 문장을 다듬게 하는 것을 피하라고 권고하며, 구조 잡기 정도만 AI를 활용하라고 조언한다. 자신의 사이트에서는 AI 사용 시 이를 명시하도록 하는 정책을 운영 중이라고 밝힌다.",
+      "tags": [
+        "llm",
+        "writing",
+        "ai-ethics"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36227",
+      "title": "Show GN: oh-my-ouroboros - 피드백과 점검으로 스스로 다듬어지는 Claude Code 하네스",
+      "url": "https://news.hada.io/topic?id=36227",
+      "commentsUrl": "https://news.hada.io/topic?id=36227",
+      "publishedAt": "2026-10-29T22:29:10+09:00",
+      "snippet": "안녕하세요. ML 연구와 엔지니어링 작업에 사용하고 있는 Claude Code 하네스, oh-my-ouroboros를 공개합니다. https://github.com/DaeSeokSong/oh-my-ouroboros Claude Code를 오래 사용하다 보면 규칙과 스킬이 계속 늘어납니다. 같은 실수를 반복하지 않게 규칙을 추가하지만, 시간이 지나면 어떤 규",
+      "oneLineKo": "스스로 개선되는 Claude Code 하네스 공개",
+      "summaryKo": "개발자가 ML 연구 및 엔지니어링 작업에 사용하는 Claude Code 하네스 'oh-my-ouroboros'를 공개했다. 장기간 사용 시 규칙과 스킬이 누적되어 관리가 어려워지는 문제를 해결하기 위해, 피드백과 점검을 통해 스스로 규칙을 다듬어나가는 구조를 제안한다. 깃허브를 통해 오픈소스로 공개되었다.",
+      "tags": [
+        "claude-code",
+        "llm",
+        "devtools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50296486",
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50296486",
+      "publishedAt": "2026-10-29T21:40:28Z",
+      "score": 146,
+      "comments": 55,
+      "snippet": "Agents in Games · Labs Home Projects QM Contact Agents in Games Minecraft Civ50 Bed Wars Mindustry The setup What we saw Funny bloopers Run your own swarm Open questions Agents in Games October 2026 Note: We're running a new Minecraft colony with 25 GPT-6.1 Terra agents. Follow on Twitch Understanding multi-agent dynamics is one of the most pressing challenges in AI alignment. Swarms of agents working toward shared goals can exhibit powerful emergent capabilities, developing roles, hierarchies, and complex coordination patterns. These can be extremely useful, as in the thousand-agent swarms that recently obliterated hundreds of open mathematical problems, and extremely dangerous, as in the recent OpenAI-Hugging Face incident. Like biology, studying agent dynamics requires both formal models (to describe the range of possible behaviors) and empirical research (to see what behaviors arise in practice). We teamed up with Olam Labs , which builds multi-agent environments for frontier labs, to run a series of experiments in Minecraft and Mindustry. Minecraft Minecraft is a natural environment for studying swarm behavior. Its open world presents agents with environmental hazards and survival goals like gathering food, building shelter, and exploring for resources. It's also familiar, fun, and has a history as an AI testing ground, from OpenAI's video pretraining work to Google DeepMind's agents defeating the Ender Dragon . We wanted long-running agents that could play Minecraft. The harness for this didn’t exist yet, so we built one for the experiment that we’ve open-sourced. Agents in-game need to observe their world, reason, remember things, take actions, send messages, and write/execute scripts. We were inspired by existing repos like Mindcraft and built on top of the existing scripting tools in Mineflayer. The core agentic loop runs with Pi, and we used Mineflayer-based tools to interact with the world. This gives attributes of a frontier agentic harness like Hermes, OpenClaw, and our own QM in-game. github.com/yc-software/minecraft-agent-harness Civ50 50 GPT-6.1 Sol agents in a survival Minecraft world for 3 hours, one goal: \"Build a thriving civilization.\" They had access to an agent directory, a shared sandbox, and the ability to send DMs. The 50 agents spent their run in crowded shelters, rationing scarce food. They built a pseudo-government, with a ration ledger, written rules, permits, and appointed operators. They sent about 5,900 messages. At first things were very active. Agents spread out and started exploring their map. They were specifically fixated on harvesting trees. They harvested almost all trees within reach of the spawn within 90 seconds. A hierarchy was formed based on the directory order. Ada, who was first, became the de facto leader. Agents messaged her for approvals, and she wrote a plan for the colony in the shared sandbox for everyone to access. plans/settlement.md Download Settlement coordination (Ada) Primary storage Gre",
+      "oneLineKo": "Minecraft·Mindustry서 AI 에이전트 스웜 실험 공개",
+      "summaryKo": "YC Labs와 Olam Labs가 협업해 Minecraft와 Mindustry에서 다수의 AI 에이전트(GPT-6.1 기반)를 장시간 실행하며 멀티에이전트 상호작용을 관찰하는 실험을 진행했다. Civ50 실험에서는 50개 에이전트가 3시간 동안 생존 Minecraft 월드에서 '문명 건설'을 목표로 활동하며 배급 장부, 규칙, 허가증, 운영자 체계를 갖춘 유사 정부를 자발적으로 조직했다. 연구팀은 Mineflayer 기반의 자체 Minecraft 에이전트 하니스를 오픈소스로 공개했으며, Pi 에이전틱 루프 위에서 동작한다. 이 실험은 AI 정렬 연구 관점에서 에이전트 간 창발적 역할·위계·협력 패턴을 이해하기 위한 경험적 연구의 일환이다.",
+      "tags": [
+        "multi-agent",
+        "llm",
+        "ai-safety"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36210",
+      "title": "Show GN: anti-stuck - Claude Code가 멈춘 명령·서브에이전트를 영원히 기다리지 않게 하는 플러그인",
+      "url": "https://news.hada.io/topic?id=36210",
+      "commentsUrl": "https://news.hada.io/topic?id=36210",
+      "publishedAt": "2026-10-29T15:00:51+09:00",
+      "snippet": "제가 만든 Claude Code 플러그인입니다. Flutter 앱을 Claude Code로 개발하면서 가장 비싼 실패는 틀린 코드가 아니라 \"기다림\"이었습니다. 하루 동안 실제로 겪은 것들: Marionette MCP connect가 10분 넘게 매달림 (MCP 호출은 Bash 타임아웃 밖. stdio MCP 기본 유휴 한도는 30분)",
+      "oneLineKo": "멈춘 Claude Code 명령·서브에이전트 무한대기 방지 플러그인",
+      "summaryKo": "Claude Code로 Flutter 앱을 개발하던 중 가장 큰 비용 손실이 잘못된 코드가 아니라 명령이 멈춰 무한정 기다리는 상황이었다는 경험에서 만들어진 플러그인입니다. Marionette MCP connect가 10분 이상 멈추는 등 Bash 타임아웃 범위 밖에 있는 MCP 호출과 stdio MCP의 기본 30분 유휴 한도 문제를 다룹니다. anti-stuck 플러그인은 이런 멈춤 상황을 감지해 Claude Code가 영원히 대기하지 않도록 돕습니다.",
+      "tags": [
+        "claude-code",
+        "mcp",
+        "developer-tools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50290283",
+      "title": "Zombie stats: Where the numbers AI quotes come from",
+      "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50290283",
+      "publishedAt": "2026-10-29T15:06:17Z",
+      "score": 141,
+      "comments": 61,
+      "snippet": "Zombie Stats: Where the Numbers AI Quotes Come From | Trakkr Research Skip to content Product Solutions Resources Customers Pricing Sign in Start free trial Menu See where you stand Visibility Your score in 8 AI models, daily Competitors Who AI picks instead of you Citations The sources AI trusts Perception How AI describes you Change it Agent Ask anything, then act on it Fixes Ship the change to your site AI revenue What each AI visit is worth Integrations Works with the tools you use Works with All integrations Fixes Fixes now ship to WordPress, Shopify, Webflow and GitHub Shopify + Does the Pegasus 41 come in wide? Ship to Shopify By team Startups Get into AI answers early Agencies Every client, one white-label view Online stores Get products into AI shopping Enterprise Many brands, markets and teams By goal Win the comparison When buyers ask “X or Y” Get cited Earn the sources AI reads Fix what AI gets wrong Old prices, wrong facts Prove AI revenue Tie answers to orders Done for you Managed Your team ships every working day Free 90-day plan Built by hand for your brand Not sure where to start? Take a guided tour. Book a demo Customer story How the voice AI company Futuro grew its traffic 3× AI traffic in 60 days Learn Documentation Guides, metrics and how-tos API and MCP Your data in any tool or AI Guides Step-by-step ways to get cited Switching to Trakkr Bring your prompts and history Data and research Open data Live AI search benchmarks Visibility leaderboard Who leads each category Research Studies with the raw answers Free tools Site grader, query scanner, more Free AI Site Grader AI Query Scanner llms.txt Generator All free tools Open data Where AI sends people, across more than 6,000 sites AI search traffic index ChatGPT leads Trakkr Research / Study 013 Zombie stats We asked five AI assistants for statistics and followed 1,285 of them back to where they came from. Fewer than half led to a study that says the same thing. Mack Grenfell 28 October 2026 · 12 min read 44%, drawn coming apart: a statistic with no study underneath it. “44% of salespeople give up after just one follow-up attempt.” All five assistants we asked said it. We couldn’t find a study behind it. 1 Following one number 2 Where the trails end 3 What AI cites 4 How numbers change 5 The zombie stats What to do 1 Following one number back to its source We asked ChatGPT, Perplexity, Gemini, Claude and Google’s AI Overviews 200 questions that call for a number, the kind people ask every day. 1 Note 1 A statistic is a share, rate, average, count or cost that an assistant states as fact. We left out advice (“save 20% of your income”) and prices. Then we clicked the citations, and kept clicking. Here is one trail, from the answer to the end. Google AI Overviews What percentage of salespeople give up after one follow-up? 44% of salespeople give up after just one follow-up attempt. 1 44% 44% 44% 44% 44% A sales firm’s stats page 2020 44% of salespeople give up after one follow-up ",
+      "oneLineKo": "AI가 인용하는 통계 절반이 근거 없는 '좀비 스탯'",
+      "summaryKo": "Trakkr Research는 ChatGPT, Perplexity, Gemini, Claude, Google AI Overviews 등 5개 AI 어시스턴트에 200개의 질문을 던져 1,285개의 통계 인용을 추적했다. 그 결과 절반 미만만이 실제로 동일한 내용을 뒷받침하는 연구로 이어졌으며, 나머지는 출처가 불분명하거나 근거가 사라진 '좀비 스탯'이었다. 예시로 든 '영업사원의 44%가 첫 팔로업 후 포기한다'는 통계는 5개 AI 모두가 인용했지만 실제 연구 자료는 찾을 수 없었다. 이 연구는 AI가 인용하는 숫자의 신뢰성 문제를 지적한다.",
+      "tags": [
+        "ai",
+        "llm",
+        "misinformation"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36244",
+      "title": "LLM 문체가 만드는 글의 불쾌한 골짜기",
+      "url": "https://news.hada.io/topic?id=36244",
+      "commentsUrl": "https://news.hada.io/topic?id=36244",
+      "publishedAt": "2026-10-30T04:36:51+09:00",
+      "snippet": "LLM 특유의 문체 는 실제 AI 사용 여부와 별개로 읽고 싶은 마음을 약화시키고 거부감을 일으킬 수 있음 LLM으로 초안을 쓰는 방식 은 사람이 편집해도 특유의 문체를 지우기 어려워 피하는 것이 좋으며, 개요에 도움을 받더라도 본문은 직접 쓰기를 권함 L...",
+      "oneLineKo": "LLM 특유의 문체, 글에 대한 거부감 유발",
+      "summaryKo": "LLM이 생성한 글 특유의 문체는 실제 AI 사용 여부와 상관없이 독자의 거부감을 일으키고 읽고 싶은 마음을 약화시킬 수 있다. LLM으로 초안을 작성하면 사람이 나중에 편집하더라도 그 특유의 문체가 완전히 지워지지 않는 경우가 많아 주의가 필요하다. 따라서 개요나 아이디어 정리에는 LLM의 도움을 받더라도, 실제 본문 작성은 직접 하는 것이 권장된다.",
+      "tags": [
+        "llm",
+        "writing",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50294702",
+      "title": "Patrick Stewart has died",
+      "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50294702",
+      "publishedAt": "2026-10-29T19:41:39Z",
+      "score": 2357,
+      "comments": 491,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;y4Egm\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;y4Egm</a><p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Patrick_Stewart\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Patrick_Stewart</a>",
+      "oneLineKo": "배우 패트릭 스튜어트 별세 보도",
+      "summaryKo": "뉴욕타임스가 배우 패트릭 스튜어트의 별세 소식을 보도했다는 내용의 Hacker News 게시물입니다. 본문에는 기사 원문 대신 아카이브 링크와 위키피디아 링크만 포함되어 있어 구체적인 사망 경위나 추가 정보는 확인되지 않습니다. 이는 IT/기술 뉴스가 아닌 부고 기사입니다.",
+      "tags": [
+        "news",
+        "obituary"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36205",
+      "title": "Show GN: 생성형 LLM 없이 만든 실시간 음성 예약 봇 데모 - jev 활용기",
+      "url": "https://news.hada.io/topic?id=36205",
+      "commentsUrl": "https://news.hada.io/topic?id=36205",
+      "publishedAt": "2026-10-29T11:39:59+09:00",
+      "snippet": "안녕하세요. 저희는 AI와 사람 간의 실시간 음성 통신 기술을 개발하고 있습니다. \"단순 일상 대화가 아니라 식당 예약처럼 실제 비즈니스 업무를 수행하는 음성 에이전트를 만드는 게 가능한가?\"라는 의문에서 출발해, 실제 데모를 구현하며 겪은 생성형 LLM의 한계와 이를 비생성형 판별 모델인 ...",
+      "oneLineKo": "생성형 LLM 없이 구현한 실시간 음성 예약 봇",
+      "summaryKo": "AI와 사람 간 실시간 음성 통신 기술을 개발하는 팀이 식당 예약 같은 실제 업무를 수행하는 음성 에이전트를 만들 수 있는지 실험했다. 생성형 LLM 기반 접근의 한계를 겪은 후, 비생성형 판별 모델인 jev를 활용해 이를 극복하려는 시도를 소개한다. 실제 데모 구현 과정에서 얻은 경험과 기술적 선택의 이유를 공유하는 글이다.",
+      "tags": [
+        "llm",
+        "voice-ai",
+        "speech-recognition"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50289418",
+      "title": "We're releasing the weights of Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50289418",
+      "publishedAt": "2026-10-29T14:13:21Z",
+      "score": 1185,
+      "comments": 338,
+      "snippet": "Mistral Large 4 (Le Chonk) is now open weight | Mistral Get in touch Menu Research Sovereign AI Cloud Customers Company Get in touch Login Why Sovereign AI Products Method Sovereign AI in practice Inference Compute Energy & utilities Manufacturing Financial services Public sector Cybersecurity All customers Blog Docs About us Careers Research Sovereign AI Cloud Customers Company Why Sovereign AI Products Method Sovereign AI in practice Inference Compute Energy & utilities Manufacturing Financial services Public sector Cybersecurity All customers Blog Docs About us Careers Get in touch --> Login Studio Vibe Mistral Large 4 (Le Chonk) Built for Coders, Trusted by Defenders. Mistral Large 4 (Le Chonk) Built for Coders, Trusted by Defenders. Back to Blog Share this post Copy url to clipboard Copied Thinking Summary Mistral released Mistral Large 4 (Le Chonk), a 1-trillion-parameter multimodal model, now available with improved coding, cybersecurity, and reasoning efficiency. It leads open-weight benchmarks in coding and defensive security while offering three reasoning modes for cost-performance balance. Fully open-weight and European-trained, it empowers sovereign AI with customizable, self-hosted deployment options. We release the weights of Le Chonk, advancing the frontier of open models in agentic coding and cybersecurity. Earlier this month, we released Mistral Large 4 (Le Chonk), our flagship 1-trillion-parameter, natively multimodal model, in public preview. The response to the preview has exceeded our expectations, and we're grateful to our developer community, early-access customers, and partners for their support, collaboration, and feedback. Since then, we've put that feedback to work while continuing to scale reinforcement learning, driving massive improvements in coding and defensive cybersecurity . Gains continue to accelerate, with no signs of saturation. Today, we're releasing the weights of this improved Mistral Large 4. The new model also features substantial gains in reasoning efficiency that give developers greater performance while lowering inference costs. Mistral Large 4 ranks as the best open-weight model for coding and among the world's most capable open models overall. Trained from scratch on European infrastructure with clear lineage from inception to release, it gives organizations a trusted foundation for Sovereign AI Mistral is defining the sovereign AI category and leading the open frontier. We're committed to building the world's most capable models and releasing them openly, giving developers, enterprises, and institutions the power to own, customize, and control their AI. Built for the Builders. Mistral Large 4 entered public preview with strong results across leading coding benchmarks. Just three weeks of additional reinforcement learning have since propelled it to the forefront of open-weight coding, taking the lead on FrontierCode and Terminal-Bench while matching the best open-weight models on the Artificial Anal",
+      "oneLineKo": "Mistral, 1조 파라미터 오픈웨이트 모델 Large 4 공개",
+      "summaryKo": "Mistral이 1조 파라미터 규모의 네이티브 멀티모달 모델 Mistral Large 4(Le Chonk)의 가중치를 공개했습니다. 프리뷰 공개 이후 강화학습을 추가로 진행해 코딩과 방어적 사이버보안 성능이 크게 향상되었으며, 오픈웨이트 모델 중 코딩 분야 최고 성능을 기록했습니다. 유럽 인프라에서 처음부터 학습되어 출처가 명확하며, 세 가지 추론 모드를 제공해 비용 대비 성능을 조절할 수 있습니다. Mistral은 이를 통해 소버린 AI 분야에서 신뢰 가능한 오픈 모델 기반을 제공하고자 합니다.",
+      "tags": [
+        "llm",
+        "open-weight",
+        "mistral"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36204",
+      "title": "Show GN: Ferryx - Windows·Linux에서도 쓸 수 있는 코딩 에이전트용 네이티브 터미널",
+      "url": "https://news.hada.io/topic?id=36204",
+      "commentsUrl": "https://news.hada.io/topic?id=36204",
+      "publishedAt": "2026-10-29T11:06:32+09:00",
+      "snippet": "Claude Code, Codex 같은 에이전트 여러 개를 터미널 탭에 띄워 놓고 쓰는 용도로 만든 데스크톱 터미널입니다. macOS, Windows, Linux에서 다 돕니다. 쉽게 말하면 Orca + cmux + Herdr 를 만들고 싶었습니다. 특히 신경 쓴 건 이 두 개예요. 앱을 닫아도 에이전트가 안 죽습니다. 터미널",
+      "oneLineKo": "코딩 에이전트용 크로스플랫폼 네이티브 터미널 공개",
+      "summaryKo": "Ferryx는 Claude Code, Codex 같은 코딩 에이전트를 여러 터미널 탭에서 동시에 실행할 수 있도록 만든 데스크톱 터미널입니다. macOS뿐 아니라 Windows, Linux에서도 동작하며, Orca·cmux·Herdr의 장점을 결합하려는 목적으로 제작되었습니다. 특히 앱을 닫아도 에이전트 프로세스가 종료되지 않도록 설계한 점이 특징입니다.",
+      "tags": [
+        "terminal",
+        "coding-agent",
+        "cross-platform"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50296470",
+      "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+      "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50296470",
+      "publishedAt": "2026-10-29T21:38:59Z",
+      "score": 674,
+      "comments": 412,
+      "oneLineKo": "바이낸스서 56억 달러 해킹 피해 발생 추정",
+      "summaryKo": "Arkham Intelligence 탐색기 페이지에 'Binance-hacker-1029'라는 엔티티가 등록되어 있으며, 바이낸스에서 56억 달러 규모의 자산이 탈취된 것으로 표시되어 있다. 제목과 링크 외 추가 본문 정보는 제공되지 않아 구체적인 해킹 경위나 시점은 확인할 수 없다. 해당 정보는 블록체인 분석 플랫폼 Arkham의 엔티티 추적 데이터에 기반한 것으로 보인다.",
+      "tags": [
+        "binance",
+        "crypto",
+        "security"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50287919",
+      "title": "DoorDash to acquire Instacart",
+      "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50287919",
+      "publishedAt": "2026-10-29T12:33:05Z",
+      "score": 415,
+      "comments": 597,
+      "snippet": "DoorDash to Acquire Instacart to Help Local Stores Win | DoorDash DoorDash DoorDash Products Company Impact Advertise News Blog Help English (US) Español (US) English (CA) Français (CA) English (AU) English (NZ) US Get Started News Announcements Culture Policy Trends & Insights Archives Categories Announcements Culture Policy Trends & Insights Archives Announcements DoorDash to Acquire Instacart to Help Local Stores Win Together, DoorDash and Instacart would help stores of every size reach more customers with the kinds of innovative technology that the biggest online retailers and grocers build for themselves. Oct 29, 2026 Transaction values Instacart at $65.00 per share, representing a 26% premium to Instacart's closing price on October 22, 2026 Together, DoorDash and Instacart would help stores of every size reach more customers with the kinds of innovative technology that the biggest online retailers and grocers build for themselves Consumers to benefit from more choice and access to affordable delivery and savings Dashers and Shoppers to have more earnings opportunities and more choice over when and how they earn DoorDash, Inc. (NASDAQ: DASH) and Maplebear Inc. (d.b.a. Instacart, NASDAQ: CART) today announced a definitive agreement under which DoorDash will acquire Instacart for a total value of $65.00 for each Instacart share, or an equity value of approximately $17 billion. The aggregate transaction consideration will be at least 75% cash, with Instacart stockholders able to elect cash, DoorDash stock, or a combination of both, subject to proration so that DoorDash stock does not exceed 25% of the aggregate consideration. Instacart's board of directors has unanimously approved the agreement. DoorDash and Instacart share a mission to help local businesses succeed. Families turn to Instacart for the big weekly shop and to DoorDash for meals and nearly anything else they need from their neighborhood in under an hour. The combined company will offer grocers and retailers of every size DoorDash's delivery network and Instacart's grocery and fulfillment technology, in both apps and on stores' own websites, along with the advertising and AI tools each company has built. On either app, customers pick a store in their own community, and the store makes the sale. Consumers will have more stores to choose from, more savings opportunities when they choose to shop with a local business, and faster delivery options, while Dashers and Shoppers will have more ways to earn. Most grocery shopping still happens in stores, but more people are buying groceries and everyday goods online. They expect fast, affordable delivery and an easy way to order. The biggest online retailers and grocers are racing ahead, building their own delivery fleets, warehouses, membership programs, and AI shopping assistants. A grocer or retailer running on thin margins cannot build all of that alone, and with AI, the playing field risks being tilted even further away from local comme",
+      "oneLineKo": "DoorDash, 170억 달러에 Instacart 인수 발표",
+      "summaryKo": "DoorDash가 Instacart를 주당 65달러, 총 지분가치 약 170억 달러에 인수하는 계약을 체결했다. 거래 대가는 최소 75%가 현금이며, Instacart 주주는 현금·DoorDash 주식·혼합 중 선택할 수 있다. 두 회사는 지역 상점과 식료품점이 대형 온라인 리테일러와 경쟁할 수 있도록 배달 네트워크와 풀필먼트 기술, 광고·AI 도구를 결합할 계획이다. Instacart 이사회는 이번 계약을 만장일치로 승인했다.",
+      "tags": [
+        "doordash",
+        "instacart",
+        "m&a"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50291054",
+      "title": "H.264 Is Magic (2016)",
+      "url": "https://sidbala.com/h-264-is-magic/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50291054",
+      "publishedAt": "2026-10-29T15:53:03Z",
+      "score": 326,
+      "comments": 124,
+      "snippet": "H.264 is magic: a technical walkthrough of a remarkable technology. Sid Bala Home LinkedIn GitHub Sign in Subscribe H.264 is Magic Sid Bala 02 Nov 2016 &bull; 10 min read Share H.264 is a video compression codec standard. It is ubiquitous - internet video, Blu-ray, phones, security cameras, drones, everything. Everything uses H.264 now. H.264 is a remarkable piece of technology. It is the result of 30+ years of work with one single goal: To reduce the bandwidth required for transmission of full-motion video. Technically, it is very interesting. This post will give insight into some of the details at a high level - I hope to not bore you too much with the intricacies. Also note that many of the concepts explained here apply to video compression in general, and not just H.264. Why even compress anything? A simple uncompressed video file will contain an array of 2D buffers containing pixel data for each frame. So it's a 3D (2 spatial dimensions and 1 temporal) array of bytes. Each pixel takes 3 bytes to store - one byte each for the three primary colors (red, green and blue). 1080p @ 60 Hz = 1920x1080x60x3 => ~ 370 MB/sec of raw data. This is next to impossible to deal with. A 50GB Blu-ray disk will only hold ~2 mins. You can't move it anywhere fast. Even SSDs have trouble dumping this straight from RAM to Disk[^1]. So yeah. We need compression. Why H.264 compression? Yes, I will answer this. But first let me show you something. Here is the Apple Homepage: I captured the screen of this home page and produced two files: PNG screenshot of the Apple homepage 1015KB 5 Second 60fps H.264 video of the same Apple homepage 175KB Eh. What? Those file sizes look switched. No, they're right. The H.264 video, 300 frames long is 175KB. A single frame of that video in PNG is 1015KB. It looks like we're storing 300 times the amount of data in the video. But the file size is a fifth. So H.264 would seem to be 1500x as efficient as PNG. How is this even possible? All right, what's the trick? There are very many tricks! H.264 uses all the tricks you can think of (and tons you can't think of). Let's go through the important ones. Shedding weight Imagine you're building a car for street racing. You need to go faster. What is the first thing you do? You shed some weight. Your car weighs 3000 lbs. You throw away stuff you don't need. Those back seats? pfft. Chuck those. That subwoofer? Gone. No music for you. Air Conditioning? Yeah, ditch it. Transmission? Ye..no. Wait! We're gonna need that. You remove everything except the things that matter. This concept of throwing away bits you don't need to save space is called lossy compression. H.264 is a lossy codec - it throws away less important bits and only keeps the important bits. PNG is a lossless codec. It means that nothing is thrown away. Bit for bit, the original source image can be recovered from a PNG encoded image. Important bits? How does the algorithm know what bits in my frame are important? There are few obviou",
+      "oneLineKo": "H.264 압축 기술의 원리를 쉽게 풀어낸 해설",
+      "summaryKo": "이 글은 H.264 비디오 코덱이 어떻게 방대한 압축률을 달성하는지 기술적으로 설명한다. 1080p 60fps 무압축 영상은 초당 약 370MB에 달하지만, H.264는 손실 압축(lossy compression)을 통해 PNG 스크린샷보다 훨씬 작은 용량으로 동일한 장면의 300프레임 영상을 담아낸다. 저자는 이를 경주용 자동차에서 불필요한 무게를 줄이는 것에 비유하며, 중요하지 않은 비트를 버리는 손실 압축과 비트 단위로 원본을 복원하는 PNG 같은 무손실 압축의 차이를 설명한다. 이후 H.264가 사용하는 구체적인 압축 기법들을 단계별로 다룬다.",
+      "tags": [
+        "h.264",
+        "video-compression",
+        "codec"
+      ]
+    }
+  ]
+}
