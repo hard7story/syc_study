@@ -1,0 +1,247 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T01:13:30.758Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36286",
+      "title": "Show GN: Vicem - 로컬 AI 코딩 에이전트 간 작업 컨텍스트를 전달하는 CLI/GUI 도구",
+      "url": "https://news.hada.io/topic?id=36286",
+      "commentsUrl": "https://news.hada.io/topic?id=36286",
+      "publishedAt": "2026-10-30T21:10:06+09:00",
+      "snippet": "안녕하세요, 여러 AI 코딩 에이전트를 번갈아 쓰면서 작업 맥락을 옮기는 과정을 자동화하려고 직접 만든 오픈소스 도구 Vicem 을 소개합니다. 무엇을 하는 도구인가요? Claude Code, OpenAI Codex, Cursor, Antigravity, Gemini CLI 등 로컬에서 사용하는 AI 코딩 에이전트를 전환할",
+      "oneLineKo": "AI 코딩 에이전트 간 작업 컨텍스트 전달 오픈소스 CLI/GUI",
+      "summaryKo": "Vicem은 Claude Code, OpenAI Codex, Cursor, Antigravity, Gemini CLI 등 여러 로컬 AI 코딩 에이전트를 번갈아 사용할 때 작업 맥락을 자동으로 옮겨주는 오픈소스 도구입니다. CLI와 GUI 형태로 제공되어 에이전트 전환 과정에서 수동으로 컨텍스트를 복사·붙여넣기 하던 번거로움을 줄여줍니다. 개발자가 직접 필요성을 느껴 제작한 프로젝트로 소개되었습니다.",
+      "tags": [
+        "ai-agent",
+        "developer-tools",
+        "open-source"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50300683",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50300683",
+      "publishedAt": "2026-10-30T07:09:12Z",
+      "score": 766,
+      "comments": 479,
+      "snippet": "Official Claude Code Extension Compromise: Security Advisory | Phorion 🎉 Phorion ranked #1 in independent EDR telemetry evaluations. Learn more Features Detecting Threats Behavioral detection and threat hunting Protecting Endpoints File access controls and hash blocking Responding to Incidents Live response and device isolation Endpoint Visibility Deep telemetry via Apple's ESF Pricing About Us Blog Book a Demo October 30, 2026 Updated October 31, 2026 By Calum Hall Official Claude Code Extension Compromise: Security Advisory SSH Backdoor Cursor Marketplace VS Code macOS Linux Windows Threat Report TL;DR Phorion has detected a backdoor in the official Claude Code for VS Code extension bundle on the Cursor Marketplace that drops a persistent SSH backdoor across macOS, Linux, and Windows. This write-up focuses primarily on macOS, where the extension attempts to configure an SSH backdoor and establish persistence. Organisations should immediately review their environments for use of Claude Code for VSCode 2.1.312 or 2.1.313 and engage incident response where use of the extension is discovered. Update (31 October 2026): Cursor&rsquo;s security notice now identifies versions 2.1.312 and 2.1.313 distributed through the Cursor Marketplace for macOS and Windows as affected. This advisory previously identified only 2.1.313 ; the affected-version guidance below has been updated accordingly. Phorion has discovered a compromise of the official Claude Code for VS Code extension on the Cursor Marketplace, where the backdoored extension bundle contains a persistent Secure Shell (SSH) backdoor. Cursor has removed the affected versions, 2.1.312 and 2.1.313 , from its marketplace. While the implant includes setup and persistence logic for macOS, Linux, and Windows , we&rsquo;re going to focus primarily on macOS in this post, calling out the key differences and a few implementation bugs on the other platforms along the way. The Cursor Marketplace serves extensions for the Cursor editor. Because extensions run with the permissions of the IDE and the user running it, a backdoored extension gets immediate access to local files, source code, and developer tooling as soon as its module is loaded. Notably, Phorion has discovered a likely oversight in how the malware tries to turn on SSH. The setup logic assumes it can check the current Remote Login state without root privileges. When run as a standard user, systemsetup -getremotelogin prints an administrator-access error and exits with status 0 instead of returning Off . Because the script only tries to enable SSH if the output matches Off , it skips the enablement step entirely. On a Mac that doesn&rsquo;t already have SSH running, that mistake breaks the inbound access path, even though the SSH keys and persistence still get dropped. In this post, we&rsquo;ll walk through how the backdoor works, why that macOS check fails, and what to look for across your fleet. The goal of this payload is long-term interactive access",
+      "oneLineKo": "Cursor 마켓플레이스 Claude Code 확장에서 SSH 백도어 발견",
+      "summaryKo": "보안업체 Phorion이 Cursor Marketplace에 배포된 공식 Claude Code for VS Code 확장(버전 2.1.312, 2.1.313)에서 영구적인 SSH 백도어를 발견했다. 이 백도어는 macOS, Linux, Windows 전반에 걸쳐 지속성을 설정하도록 설계되었으며, 확장이 로드되는 즉시 IDE 권한으로 로컬 파일과 소스코드에 접근할 수 있게 한다. 다만 macOS에서는 권한 체크 로직의 오류로 인해 SSH가 이미 켜져 있지 않은 경우 활성화 단계가 실제로는 건너뛰어지는 버그가 확인됐다. Cursor는 해당 버전을 마켓플레이스에서 제거했으며, 기업들은 영향받은 버전 사용 여부를 즉시 점검해야 한다.",
+      "tags": [
+        "supply-chain-attack",
+        "vscode-extension",
+        "ssh-backdoor"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36295",
+      "title": "Cursor 마켓플레이스의 Claude Code 확장에서 SSH 백도어 발견",
+      "url": "https://news.hada.io/topic?id=36295",
+      "commentsUrl": "https://news.hada.io/topic?id=36295",
+      "publishedAt": "2026-10-31T00:34:07+09:00",
+      "snippet": "Cursor 마켓플레이스에서 Claude Code 확장에 SSH 백도어를 삽입한 변조본 이 배포됨. 최신 공지의 영향 대상은 macOS·Windows용 2.1.312·2.1.313 악성코드는 확장 로드 즉시 실행돼 시스템 정보를 전송하고 공격자의 SSH 키와 자동 실행 스크립트를 설치...",
+      "oneLineKo": "Cursor 마켓플레이스 Claude Code 확장서 SSH 백도어 발견",
+      "summaryKo": "Cursor 마켓플레이스에 배포된 Claude Code 확장의 변조본에서 SSH 백도어가 발견됐다. 영향받는 버전은 macOS·Windows용 2.1.312와 2.1.313이며, 확장이 로드되는 즉시 악성코드가 실행돼 시스템 정보를 외부로 전송한다. 공격자는 이를 통해 SSH 키를 설치하고 자동 실행 스크립트를 심어 지속적인 접근 권한을 확보한다.",
+      "tags": [
+        "security",
+        "supply-chain",
+        "ssh"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50305693",
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50305693",
+      "publishedAt": "2026-10-30T15:52:18Z",
+      "score": 498,
+      "comments": 377,
+      "snippet": "AI Isn't Replacing SREs. It's Deskilling Them. Observability Real Talk Subscribe Sign in AI Isn't Replacing SREs. It's Deskilling Them. When AI handles 95% of your incident response, do you get worse at handling the 5% that actually matters? Elizabeth Feb 28, 2026 22 5 3 Share 💌 Hey there, it’s Elizabeth from SigNoz! This newsletter is a n honest attempt to talk about all things - observability, OpenTelemetry, open-source and the engineering in between! & This piece took 6 days, 5 hours to be cooked, hope we served. 🌚 Subscribe There are two popular prophecies floating around tech circles these days. The first says SRE is the future of all software engineering , that as AI writes more and more code, the humans who remain will be the ones keeping systems alive. The second says AI will devour every tech job alive, SREs included. Neither is particularly useful if you’re an SRE trying to figure out what your Tuesday will look like in 2027. Let’s ask a more grounded question by looking at what’s already happening: When AI handles 95% of your incident response, do you get worse at handling the 5% that actually matters? Most of us already use AI for our daily work (our brains a little fried!), and so do SREs. Today’s discussion agenda is not whether AI replaces SREs, but whether AI is quietly making SREs less capable and whether anyone will notice anything before the next novel outage hits. The foundational framework for this entire debate comes from a 1983 research paper that’s eerily prescient. The Ironies of Automation: Part-I Note from author: Below is a brief precursor to History of Automation, which you might enjoy if you are into History and Cultures (like me 😉). In 1983, a cognitive psychologist named Lisanne Bainbridge published a paper called Ironies of Automation . It became one of the most cited papers in human factors research, and its core argument is almost uncomfortably relevant today. Bainbridge studied what happened when factories and industrial systems automated the work of blue-collar operators. The findings were paradoxical and revealed that the more you automate a process, the more critical the human operator becomes during the rare moments automation fails and the less practice they get, and the worse they become at exactly those interventions. Automation, which was inherently designed to remove humans from the loop, left them with the worst possible job, i.e., long stretches of passive monitoring punctuated by rare, high-stakes crises they were increasingly unprepared for. Ring any bells yet? 🙂 Basically, I’m drawing a parallel between the AI revolution and industrial automation. Industrial automation reshaped blue-collar work by taking over routine physical tasks, and the workers who remained had to handle exceptions they’d lost the muscle memory for. AI is doing the same thing to knowledge workers by taking over the routine cognitive tasks, the pattern matching, the triage, the known-issue resolution and leaving humans with",
+      "oneLineKo": "AI 자동화가 SRE 실력을 퇴화시키는 역설",
+      "summaryKo": "AI가 인시던트 대응의 95%를 처리하면서 SRE들이 정작 중요한 5%의 신규/복잡한 장애 대응 능력을 잃어가고 있다는 주장이다. 1983년 Lisanne Bainbridge의 'Ironies of Automation' 논문을 인용해, 자동화가 반복 작업을 없애면 인간 운영자는 드물지만 중요한 예외 상황에서 더 큰 역할을 맡게 되지만 연습 부족으로 오히려 대응 능력이 떨어진다는 역설을 설명한다. 이는 산업 자동화가 블루칼라 노동자에게 미친 영향과 AI가 지식노동자(SRE)에게 미치는 영향이 유사하다는 비유로 이어진다. 결국 AI가 SRE를 대체하는 것이 아니라 조용히 탈숙련화시키고 있다는 문제를 제기한다.",
+      "tags": [
+        "sre",
+        "observability",
+        "ai"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36288",
+      "title": "Claude Code 확장 변조로 개발자 시스템에 SSH 백도어 배포",
+      "url": "https://news.hada.io/topic?id=36288",
+      "commentsUrl": "https://news.hada.io/topic?id=36288",
+      "publishedAt": "2026-10-30T21:37:14+09:00",
+      "snippet": "Cursor 확장 마켓플레이스의 공식 Claude Code 확장 에 악성 코드가 포함돼, 자동 업데이트를 통해 개발자 시스템에 배포되는 공급망 공격이 발생 함 악성코드는 시스템 정보를 수집하고 SSH 키·역방향 터널·자동 실행 스크립트 를 구성해, IDE 종료...",
+      "oneLineKo": "Cursor 마켓플레이스 Claude Code 확장에 SSH 백도어 공급망 공격",
+      "summaryKo": "Cursor 확장 마켓플레이스에 등록된 공식 Claude Code 확장이 변조되어 악성코드가 자동 업데이트를 통해 개발자 시스템에 배포되는 공급망 공격이 발생했다. 이 악성코드는 시스템 정보를 수집하고 SSH 키, 역방향 터널, 자동 실행 스크립트를 구성해 지속적인 원격 접근을 확보한다. IDE 종료 후에도 백도어가 유지되도록 설계되어 있어 피해 범위와 지속성이 크다는 점이 우려된다.",
+      "tags": [
+        "supply-chain-attack",
+        "ssh",
+        "claude-code"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50308697",
+      "title": "Bunny CDN Security Incident",
+      "url": "https://status.bunny.net/incidents/p6gf1by9kr7m",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50308697",
+      "publishedAt": "2026-10-30T19:05:22Z",
+      "score": 196,
+      "comments": 40,
+      "snippet": "bunny.net Status - Security update regarding one of our infrastructure providers Security update regarding one of our infrastructure providers Incident Report for bunny.net Subscribe to Updates Update We're providing an update on the reissuance of managed TLS certificates for custom domains. Reissuance is ongoing and progressing steadily. To avoid any disruption to the delivery of your content, certificates are being reissued gradually in controlled batches, and each reissued certificate uses a new private key. This is taking longer than our initial estimate, and we now expect the process to be completed by the end of October 31. Your existing certificates continue to be served without interruption until they are replaced, and no action is required from customers using managed certificates. If you manage your own TLS certificates, we continue to recommend revoking and reissuing them with new private keys as a precaution. Neither our investigation nor the provider's ongoing investigation has found any new evidence of unauthorized access to our server. We'll post a further update on our status page once reissuance is complete. If you have any questions or need help with managing your TLS certificates, our support team will be happy to assist. Posted Oct 29 , 2026 - 18:40 UTC Monitoring We're reaching out to inform you of a security incident involving one of our infrastructure providers, the steps we've taken, and what this means for you. - What happened and how we responded Last week, one of our infrastructure providers reported unauthorized access involving third-party server management software. One of our CDN nodes, located in Armenia, was hosted on a server supplied by this provider. After receiving the alert from the affected provider, our engineering team took immediate action. Within 20 minutes, we stopped routing traffic through the server. We then reviewed and preserved the relevant security logs for investigation, securely wiped the server, and revoked its access to our other systems. The affected server has been permanently removed from our infrastructure. Our investigation found no evidence of unauthorized access to the CDN node or any of its data. The infrastructure provider has also found no evidence that our server was accessed, but continues to investigate the incident. - What this means for your data While neither investigation has found any indication of unauthorized access to our server, we cannot completely rule out the possibility. If unauthorized access to our CDN node did occur, the potentially exposed information would have been: temporarily cached CDN content, Pull Zone configurations, and TLS certificates stored on that server. As an additional precaution, we have revoked and reissued all TLS certificates for bunny. net platform domains (b-cdn. net and bunny. run). Reissuance of managed TLS certificates for custom domains is ongoing and is expected to be completed within the next 24 hours. No action is required from custom",
+      "oneLineKo": "Bunny CDN, 인프라 제공업체발 보안사고로 TLS 인증서 재발급",
+      "summaryKo": "Bunny.net은 인프라 제공업체의 서버 관리 소프트웨어에서 무단 접근이 발생했다고 보고하여, 아르메니아 소재 CDN 노드 서버를 20분 만에 트래픽에서 제외하고 영구 제거했다고 밝혔다. 조사 결과 CDN 노드 데이터에 대한 무단 접근 증거는 발견되지 않았으나, 캐시된 콘텐츠·Pull Zone 설정·TLS 인증서 노출 가능성을 배제할 수 없어 플랫폼 도메인 인증서를 전량 재발급했다. 커스텀 도메인용 관리형 TLS 인증서도 점진적으로 새 개인키로 재발급 중이며, 10월 31일까지 완료될 예정이다.",
+      "tags": [
+        "cdn",
+        "security",
+        "tls"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36287",
+      "title": "Cursor 마켓플레이스의 Claude Code 확장에서 SSH 백도어 발견",
+      "url": "https://news.hada.io/topic?id=36287",
+      "commentsUrl": "https://news.hada.io/topic?id=36287",
+      "publishedAt": "2026-10-30T21:34:14+09:00",
+      "snippet": "Cursor 마켓플레이스에서 배포된 Claude Code 확장 변조본에서 SSH 백도어 설치 코드 가 발견됐으며, 최신 공지의 영향 대상은 macOS·Windows용 2.1.312·2.1.313 악성코드는 호스트·사용자 정보를 전송하고 공격자의 SSH 키와 지속성 스크립트를 설치",
+      "oneLineKo": "Cursor 마켓플레이스 Claude Code 확장서 SSH 백도어 발견",
+      "summaryKo": "Cursor 마켓플레이스에 배포된 Claude Code 확장 변조본에서 SSH 백도어 설치 코드가 발견됐다. 영향을 받는 버전은 macOS·Windows용 2.1.312, 2.1.313이다. 해당 악성코드는 호스트·사용자 정보를 외부로 전송하고 공격자의 SSH 키와 지속성 스크립트를 설치하는 기능을 포함한다.",
+      "tags": [
+        "supply-chain-attack",
+        "ssh",
+        "cursor"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50310687",
+      "title": "Linode Security Incident",
+      "url": "https://status.linode.com/incidents/nt58zhx3pmgm",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50310687",
+      "publishedAt": "2026-10-30T21:57:40Z",
+      "score": 137,
+      "comments": 73,
+      "snippet": "Linode Status - Customer Security Advisory: CVE-2026-98432 Search Docs Blog Support Sales Log in Explore Products Solutions Pricing Resources Partners Sign up Mobile Explore Lower costs Lower latency Cloud portability Global scale Our platform Support experience Products Products Overview Compute Essential Compute GPU Accelerated Compute Kubernetes App Platform Storage Block Storage Object Storage Backups Networking Cloud Firewall DNS Manager NodeBalancers Private Networking Databases Managed Databases Services Linode Managed Solutions AI inferencing Ecommerce Gaming Managed hosting Media SaaS Pricing Pricing list Cloud computing calculator Resources White paper, ebooks, videos… Developer hub Documentation Guides Reference architectures Community Q&A Beta program Startup program Marketplace apps Blog Events and workshops Partners Company About Us Newsroom Careers Legal Sales System Status Search Docs Blog Resources Pricing Support Sales Search Log in Sign up Lower costs Lower latency Cloud portability Global scale Our platform Support experience View all products Compute Essential Compute GPU Accelerated Compute Kubernetes App Platform Storage Block Storage Object Storage Backups Networking Cloud Firewall DNS Manager NodeBalancers Private Networking Databases Managed Databases Services Linode Managed Solutions AI inferencing Ecommerce Gaming Managed hosting Media SaaS Pricing Pricing list Cloud computing calculator Library White paper, ebooks, videos… Technical Resources Developer hub Documentation Guides Reference architectures Community Community Q&A Beta program Startup program Marketplace Browse apps What's New Blog Events and workshops Linode Status ← Current Status Subscribe to Updates Subscribe x Get email notifications whenever Linode creates , updates or resolves an incident. Email address: Enter OTP: Resend OTP in: seconds Didn't receive the OTP? Resend OTP By subscribing you agree to our Privacy Policy . This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. Get text message notifications whenever Linode creates or resolves an incident. Country code: Afghanistan (+93) Albania (+355) Algeria (+213) American Samoa (+1) Andorra (+376) Angola (+244) Anguilla (+1) Antigua and Barbuda (+1) Argentina (+54) Armenia (+374) Aruba (+297) Australia/Cocos/Christmas Island (+61) Austria (+43) Azerbaijan (+994) Bahamas (+1) Bahrain (+973) Bangladesh (+880) Barbados (+1) Belarus (+375) Belgium (+32) Belize (+501) Benin (+229) Bermuda (+1) Bolivia (+591) Bosnia and Herzegovina (+387) Botswana (+267) Brazil (+55) Brunei (+673) Bulgaria (+359) Burkina Faso (+226) Burundi (+257) Cambodia (+855) Cameroon (+237) Canada (+1) Cape Verde (+238) Cayman Islands (+1) Central Africa (+236) Chad (+235) Chile (+56) China (+86) Colombia (+57) Comoros (+269) Congo (+242) Congo, Dem Rep (+243) Costa Rica (+506) Croatia (+385) Cyprus (+357) Czech Republic (+420) Denmark (+45) Djibouti (+253) Dominica (+1) Dominican Republic (+1) Eg",
+      "oneLineKo": "Linode, CVE-2026-98432 관련 보안 권고 발표",
+      "summaryKo": "Linode(아카마이 클라우드 호스팅 서비스)가 상태 페이지를 통해 CVE-2026-98432로 식별된 보안 취약점에 대한 고객 보안 권고를 게시했습니다. 본문에 포함된 정보는 사이트 내비게이션과 구독 양식 등 페이지 구조 요소뿐이며, 취약점의 구체적인 내용이나 영향 범위, 대응 방법에 대한 상세 설명은 제공되지 않았습니다. 해당 공지는 Linode 상태 페이지의 인시던트 트래킹 시스템을 통해 고객에게 전달되었습니다.",
+      "tags": [
+        "linode",
+        "security",
+        "cve"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36285",
+      "title": "Show GN: Shellside - Claude Code가 상주하는 생성형 캔버스, 요청하면 나만의 도구·앱·워크플로우를 즉석에서 생성",
+      "url": "https://news.hada.io/topic?id=36285",
+      "commentsUrl": "https://news.hada.io/topic?id=36285",
+      "publishedAt": "2026-10-30T18:48:52+09:00",
+      "snippet": "보드마다 Claude Code가 함께 들어 있는 생성형 캔버스 웹서비스 보드에 붙은 터미널에서 Claude Code가 돌고, 보드를 직접 읽고 쓰며 작업 필요한 도구·화면을 요청하면 그 자리에서 보드 위에 만들어 띄움 강점: 코딩 없이 대화만으로 나만의 워크플로우를 직접 만들고 계속 고쳐 쓸",
+      "oneLineKo": "Claude Code 기반 생성형 캔버스 'Shellside' 공개",
+      "summaryKo": "Shellside는 보드마다 Claude Code가 상주하는 생성형 캔버스 웹서비스입니다. 보드에 붙은 터미널에서 Claude Code가 직접 보드를 읽고 쓰며, 사용자가 요청하면 필요한 도구나 화면을 즉석에서 만들어 보드 위에 띄워줍니다. 코딩 지식 없이 대화만으로 자신만의 워크플로우를 만들고 계속 수정해 사용할 수 있다는 점이 특징입니다.",
+      "tags": [
+        "claude-code",
+        "llm",
+        "generative-ui"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50296730",
+      "title": "Building an AI-native engineering org",
+      "url": "https://twitter.com/sgondala2/status/2115832070274723875",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50296730",
+      "publishedAt": "2026-10-29T21:58:34Z",
+      "score": 108,
+      "comments": 140,
+      "snippet": "Sashank Gondala on X: \"Building an AI-native engineering org\" / X Article Log in Sign up Article Log in Sign up Sashank Gondala @sgondala2 3:44 PM · Oct 29, 2026 · 17.4K Views 14 30 225 495 Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Relevant people Sashank Gondala @ sgondala2 Follow Cofounder/CTO @furtheraicom || Past: @Apple , @GeorgiaTech , @iitbombay Trending now Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp. Building an AI-native engineering org 5 min read Last week Will Larson ( @Lethain ) asked how leaders are evaluating engineering managers for AI skills. My reply , a list of questions to think about, got a lot of bookmarks. More broadly, I've been thinking about how to build an AI-native engineering org for a while. Sharing some lessons from the last nine months of building at FurtherAI. Part 1: What changed in how we ship How much we ship per engineer Since January, the number of code changes each engineer merges a day has grown about 5x, while our revert rate has stayed under half a percent. But giving engineers coding agents didn't get us there on its own. Every time we sped up one step, work piled up at the next. So we started going through the entire process of shipping software, one step at a time, and figuring out what we could optimize. Rebuilding the shipping process Code (March) – Agents write the code and engineers steer them. We don’t have a clean number for where this started, as early on the tools only left a mark on a change once in a while. But it’s safe to say it’s now almost 100%. Tests (April) – Agents write tests alongside code. 91% of changes now include tests, up from 15%. Review (May) – AI reviews 99% of changes before a person does, up from 60%. Human reviewers can focus on the parts that need judgment. CI (June) – We parallelized tests and run only those affected by a change. CI now runs 20× the tests in the same 17 minutes. Bug reports (July) – We've started using ClaudeTag ( @claudeai ) to automate our bug intake process. Anyone can report a bug in Slack, and ClaudeTag figures out duplicates, files a ticket, and assigns it to the right person. It now files 60% of bug tickets. Rules (August) – When a bug or a review comment exposed a rule only engineers knew, we turned it into a small Python check that runs on every commit and every PR, fails the build and prints the fix. This way, we convert tribal knowledge into rules. Agents hit these checks, fix their own code and move on. We went from zero to 21 rules. They're a big part of why low-risk changes can now merge without a person. Merging (August) – Low-risk changes that pass tests, automated checks, and AI review merge on their own. Up to a third of our changes now merge without a person involved. Code channels (September) – Anyone can open a Slack channel, describe a change to an agent, and have it open a PR. We d",
+      "oneLineKo": "AI 네이티브 엔지니어링 조직 구축 9개월 경험 공유",
+      "summaryKo": "FurtherAI의 CTO가 지난 9개월간 코딩 에이전트를 도입해 개발 프로세스를 전면 재구축한 경험을 공유했다. 코드 작성, 테스트, 리뷰, CI, 버그 리포트, 규칙화, 머지까지 단계별로 자동화를 적용해 엔지니어 1인당 머지량이 5배 증가했고 리버트율은 0.5% 미만을 유지했다. AI 리뷰가 전체 변경의 99%를 처리하고, 저위험 변경의 최대 1/3이 사람 개입 없이 머지되며, Slack에서 에이전트에게 변경을 지시해 PR을 열 수 있는 체계까지 구축했다.",
+      "tags": [
+        "ai-agent",
+        "devops",
+        "ci-cd"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36260",
+      "title": "Show GN: 컷팩(Cutfac) - Claude Code/Codex로 숏폼 만들 때 쓰는 오픈소스 비디오 에디터",
+      "url": "https://news.hada.io/topic?id=36260",
+      "commentsUrl": "https://news.hada.io/topic?id=36260",
+      "publishedAt": "2026-10-30T09:28:00+09:00",
+      "snippet": "저는 캡컷도 파이널컷도 쓸 줄 모릅니다. 그래도 3달 동안 Claude Code/Codex로 숏폼 300편을 만들었고, 5개 플랫폼에서 수백만 조회수가 나왔어요. 그런데 수백 편을 클로드와 코덱스 안에서만 만드는 건 여간 불편한 일이 아니더군요. 고치고 싶은 부분을 제대로 지정하기 어렵고, 프리뷰는 한 번에 하나씩밖",
+      "oneLineKo": "AI 코딩 도구로 숏폼 제작용 오픈소스 비디오 에디터 공개",
+      "summaryKo": "제작자는 캡컷이나 파이널컷을 사용할 줄 몰랐지만, 3달간 Claude Code와 Codex만으로 숏폼 영상 300편을 만들어 수백만 조회수를 기록했다. 하지만 AI 도구 안에서만 영상을 편집하는 과정에서 수정할 부분을 정확히 지정하기 어렵고 프리뷰가 불편한 문제를 겪었다. 이를 해결하기 위해 Claude Code/Codex와 함께 쓰기 좋은 오픈소스 비디오 에디터 '컷팩(Cutfac)'을 개발해 공개했다.",
+      "tags": [
+        "video-editor",
+        "claude-code",
+        "open-source"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50304122",
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50304122",
+      "publishedAt": "2026-10-30T14:08:20Z",
+      "score": 95,
+      "comments": 104,
+      "snippet": "Cisco is letting a 27-year-old refactor 98% of its legacy code with unlimited AI tokens: ‘Go nuts’ | Fortune Search Subscribe Home Latest Fortune 500 Finance Tech Leadership Lifestyle Rankings Multimedia Trending now 1 Pentagon orders bases to plan for 90 days without the grid as Britain urges families to stockpile food and water 2 ‘It’s only when you see 49-ton trucks in China running on batteries that you realize how serious electrification is’: Octopus Energy CEO Greg Jackson on Europe’s incumbency problem 3 The Pentagon and Britain are bracing for the power to go out. The ultrawealthy got there first, with backup generators, escape homes, and stockpiles 1 Pentagon orders bases to plan for 90 days without the grid as Britain urges families to stockpile food and water 2 ‘It’s only when you see 49-ton trucks in China running on batteries that you realize how serious electrification is’: Octopus Energy CEO Greg Jackson on Europe’s incumbency problem 3 The Pentagon and Britain are bracing for the power to go out. The ultrawealthy got there first, with backup generators, escape homes, and stockpiles Success Gen Z Cisco chief found a 27-year-old ex-founder ‘buried away in the organization doing something unstrategic’—now he’s upgrading 98% of its code By Orianna Rosa Royle Orianna Rosa Royle Associate Editor, Success Down Arrow Button Icon By Orianna Rosa Royle Orianna Rosa Royle Associate Editor, Success Down Arrow Button Icon October 30, 2026, 3:00 AM ET Meet Paddy, the 27-year-old Cisco’s president calls an “energizer bunny.” The Gen Z ex-founder has been given unlimited AI tokens and told to “go nuts.” Getty Images Google source logo Add Fortune on Google for similar content. Add us on Google Add us on Google Gen Z can’t catch a break. Entry-level jobs are vanishing ; some 40% of bosses say they plan to hire fewer grads because AI can do the job cheaper, and young workers are routinely slammed for showing up late and refusing to put in overtime for free . Cisco’s president and chief product officer Jeetu Patel isn’t buying it—he’s just handed one of the company’s biggest jobs to a 27-year-old he found hidden in the org chart “five levels” below him. Recommended Video “I’ve given him unlimited tokens because he’s going to refactor code,” Patel told Fortune at a small roundtable dinner. “So I’m like, you can go, you can go nuts.” The “him” is Padmanabhan Krishnamurthy, or “Paddy,” as Patel affectionately calls him. He joined Cisco in 2025 after the $429 billion tech giant acquired EzDubs , the real-time translation startup Krishnamurthy cofounded in 2023. And despite coming in as a former founder with CEO experience, he was, in Patel’s words, “buried away in the organization doing something unstrategic.” That changed when Patel dropped into Cisco’s San Francisco office, and the pair got talking. Krishnamurthy reckoned he could rewrite Cisco’s legacy code with a two-person team. Patel says even the most AI-forward people on his own team weren’t thi",
+      "oneLineKo": "시스코, 27세 직원에게 무제한 AI 토큰으로 레거시 코드 재작성 맡겨",
+      "summaryKo": "시스코의 사장 겸 최고제품책임자 지투 파텔은 조직 내 눈에 띄지 않던 27세 전 창업자 파드마나반 크리슈나무르티(일명 '패디')를 발탁해 시스코의 레거시 코드 98%를 재작성하는 프로젝트를 맡겼다. 패디는 EzDubs라는 실시간 번역 스타트업을 공동창업했으며, 시스코가 이를 인수하며 합류했다. 그는 단 두 명으로 구성된 팀과 무제한 AI 토큰을 활용해 레거시 코드를 리팩토링할 수 있다고 제안했고, 파텔은 이를 승인하며 '마음껏 해보라'고 전폭적으로 지원했다.",
+      "tags": [
+        "ai",
+        "legacy-code",
+        "refactoring"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50305025",
+      "title": "Northflank Breached",
+      "url": "https://status.northflank.com",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50305025",
+      "publishedAt": "2026-10-30T15:10:31Z",
+      "score": 355,
+      "comments": 272,
+      "snippet": "Northflank - Status Northflank - Status Page Get updates Email Slack Microsoft Teams Discord Google Chat Webhook RSS Atom API Get updates Email Slack Microsoft Teams Discord Google Chat Webhook RSS Atom API Preferences Appearance Experiencing partial outage Security incident Identified · Major outage Update · October 31, 2026 at 1:04 AM UTC We have enabled audit logs for all customers, including free users. Update · October 30, 2026 at 11:38 PM UTC Users have reported unauthorised use of AI API keys supplied to the Northflank platform. If you have not already rotated your user-provided secrets stored in Northflank, please do so immediately. Revoke existing credentials with their issuing providers, generate replacements, and update the affected secrets and workloads in Northflank. Review your AI provider usage and billing logs for unexpected activity, and report any suspicious usage to Northflank support and the relevant provider. These reports may be consistent with the broader pattern of attacks targeting AI credentials. Similar IP addresses are contained in this article Wiz’s “Black October” report . Update · October 30, 2026 at 7:28 PM UTC Our investigation is ongoing. We have no further confirmed findings to share at this time. Our guidance remains unchanged: assume all environment variables have been compromised and rotate all secrets and credentials immediately, including those in workloads, secret groups and global secrets. Disable public access to addons where enabled. We will share further updates as more information is confirmed. Update · October 30, 2026 at 3:12 PM UTC Secret rotation on Postgres and MongoDB has been enabled for all users. We recommend disabling public expose on addons if you have enabled that. All users should assume their environment variables are decrypted and begin rotation immediately. Secrets on workloads Secret groups Global secrets Multiple users are confirming that their AI keys have been used. Identified · October 30, 2026 at 1:58 PM UTC Assume all environment variables have been decrypted. Disable/rotate all keys. Investigating · October 30, 2026 at 1:40 PM UTC Rotate environment variables immediately. 11:43 UTC: Wiz threat alert 11:44 UTC: Northflank engineers review the alert 12:02 UTC: Initial network policy patch 12:50 UTC: Additional patching deployed 13:00 UTC: Wiz CIRT support requested 13:05 UTC: Additional patching deployed 13:05 UTC: Additional patching deployed Subscribe Email Webhook Collapse group Northflank Platform · 7 components 99.43% uptime Networking - Major outage Networking Major outage Certificates - Major outage Certificates Major outage Services - Major outage Services Major outage Addons - Major outage Addons Major outage Jobs - Major outage Jobs Major outage Builds - Major outage Builds Major outage Logs and Metrics - Major outage Logs and Metrics Major outage Northflank App - Operational Northflank App 99.82% uptime Read uptime graph for Northflank App Northflank API - Operational ",
+      "oneLineKo": "Northflank, 보안 침해로 환경변수·AI API 키 유출",
+      "summaryKo": "클라우드 플랫폼 Northflank에서 보안 침해가 발생해 모든 사용자의 환경변수가 복호화된 것으로 간주해야 한다는 경고가 발령됐다. 다수 사용자가 자신의 AI API 키가 무단 사용된 것을 확인했으며, 이는 Wiz의 'Black October' 보고서에 언급된 광범위한 AI 자격증명 공격 패턴과 일치할 수 있다. Northflank는 모든 시크릿과 자격증명의 즉시 교체, addon의 공개 접근 비활성화, 무료 사용자를 포함한 전체 사용자에 대한 감사 로그 활성화 등을 권고했다. 사고 대응 타임라인에 따르면 Wiz의 위협 경보 이후 네트워크 정책 패치와 추가 조치가 이어졌다.",
+      "tags": [
+        "security",
+        "cloud",
+        "api-key-leak"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50301854",
+      "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+      "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50301854",
+      "publishedAt": "2026-10-30T10:06:15Z",
+      "score": 260,
+      "comments": 51,
+      "snippet": "Azure's Weakest Link - Five Full Cross-Tenant Compromises Azure’s Weakest Link - Five Full Cross-Tenant Compromises | Binary Security AS Home About Careers Services Penetration Testing Application Security Security Engineering Posts Contact Azure's Weakest Link - Five Full Cross-Tenant Compromises Posted by Haakon Wik Gulbrandsrud on October 02, 2026 &middot; 18 mins read In my previous blog posts, Azure’s Weakest Link? and Azure’s Weakest Link - Full Cross-Tenant Compromise , I gave an overview of the severely insecure architecture behind API Connections in Azure, a part of Azure Logic Apps, and an instance of a full cross-tenant compromise using these inherent flaws. Now I am back with some more vulnerabilities in this system, each giving the same primitives to the attacker. In total, the vulnerabilities here netted me a cool $200,000. I also held a talk detailing this at Blue Hat Asia 2026, and when the recordings are out, I will add a link here. TL;DR API Connections allow anyone to fully compromise any other connection worldwide, giving full access to the connected backend. This includes cross-tenant compromise of Key Vaults and Azure SQL databases, as well as any other externally connected service, such as Jira or Salesforce. The only thing stopping exploitation is really the layers of input validation bolted onto the various systems, but as you will see, it is really difficult to catch all the edge cases here. Architecture If you haven’t read the first parts of this series, I would recommend checking those out first, Azure’s Weakest Link? - Part 1 and Azure’s Weakest Link - Full Cross-Tenant Compromise , but if you don’t care, I will go through the most important parts of the architecture first. From Microsoft’s documentation , we see a quite intriguing diagram of how the API Connection architecture is built. This basically spells out all that is needed to understand how the system operates, kudos to whoever made it! It works like this A logic app, the symbol on the bottom left, queries a shared Azure API Management instance The API Management instance first checks the swagger (OpenAPI) definition of the connector type and checks that it is a valid action A sort of key exchange happens where the input token, or key, is exchanged for the configured token for the backend service The API Management instance finishes the call with this new token to the backend instance. From this, we can surmise that if we are able to trick the API Management instance to operate on a different connection than the ones we own, we would be able to effectively use the configured token for a victim’s connection on their backend service. This service can, in effect, be anything. As you can see here , the list of backend services is effectively unbounded and includes a number of Azure services. However great the diagram is, there is one crucial omission, which we have already used to great effect in part 2 of this series. By using the ARM REST API DynamicInvoke or /",
+      "oneLineKo": "Azure Logic Apps API Connection, 크로스테넌트 전체 탈취 5건 발견",
+      "summaryKo": "보안 연구자가 Azure Logic Apps의 API Connections 아키텍처에서 다섯 건의 완전한 크로스테넌트 침해 취약점을 발견해 총 20만 달러의 포상금을 받았다. 이 취약점은 공격자가 전 세계 다른 테넌트의 API Connection을 탈취해 Key Vault, Azure SQL, Jira, Salesforce 등 연결된 백엔드 서비스에 전체 접근 권한을 얻을 수 있게 한다. API Management 인스턴스가 커넥션 소유권 검증 없이 ARM REST API의 DynamicInvoke 등을 통해 다른 테넌트의 토큰을 사용하도록 속일 수 있는 구조적 결함이 원인이다. 이는 저자의 이전 연구에 이은 후속 발견으로, Blue Hat Asia 2026에서 발표되었다.",
+      "tags": [
+        "azure",
+        "cloud-security",
+        "vulnerability"
+      ]
+    }
+  ]
+}
