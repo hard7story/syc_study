@@ -1,0 +1,275 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T01:09:28.845Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36384&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Anthropic, Claude Code에 기존 게임 재구현 제한 추가",
+      "url": "https://news.hada.io/topic?id=36384&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36384&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-01T20:37:08+09:00",
+      "snippet": "Claude Code에 특정 기존 게임의 재구현을 제한하는 규칙 이 10월 27일에 추가됨 기존 게임을 재구현하는 경우 이름을 바꾸거나 독창적인 게임이라고 불러도 제작하지 않도록 지시함 Anthropic 서버에서 tengu_heron_brook ...",
+      "oneLineKo": "Claude Code, 기존 게임 재구현 제한 규칙 추가",
+      "summaryKo": "Anthropic은 10월 27일 Claude Code에 기존 게임을 재구현하지 못하도록 하는 규칙을 추가했다. 이름을 바꾸거나 독창적인 게임이라고 소개하더라도 기존 게임을 그대로 재현하는 작업은 수행하지 않도록 지시한다. 해당 설정은 Anthropic 서버의 tengu_heron_brook 관련 구성에서 확인됐다.",
+      "tags": [
+        "claude-code",
+        "anthropic",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50323088",
+      "title": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50323088",
+      "publishedAt": "2026-11-01T06:06:19Z",
+      "score": 291,
+      "comments": 227,
+      "snippet": "The AI cost of JavaScript frameworks | Read the Tea Leaves Skip to content Read the Tea Leaves Software and other dark arts, by Nolan Lawson Search this blog Search home apps code talks about Previous post: &laquo; Do web components have a future if nobody is writing them? 28 Oct The AI cost of JavaScript frameworks Posted October 28, 2026 by Nolan Lawson in Web , AI . One of my pet peeves with the web development community is that so many of the decisions we make are vibes-based. Frameworks are “blazing fast,” tools will “supercharge” your development, the right abstraction will benefit both you and your users ( DX and UX all in one!). All of this breathless boasting is usually offered with zero evidence. Alex Russell has called this “frontend’s lost decade” , Baldur Bjarnason has called programming a pop culture , and I’ve tried to counter this trend in my blog with facts and benchmarks (at my best, anyway). For a long time it seemed like our community’s allergy to evidence was driven by the desire for greater DX . In other words, devs just liked the way it felt to type JSX in React, and the arguments promoting React or related tools (“the virtual DOM is fast!”) were largely post-hoc rationalizations to justify those initial gut feelings. ( Jonathan Haidt would likely agree with this assessment.) But in the agentic era, when developers are no longer typing code by hand and are thus less constrained by DX, I still see vibes ruling the day (and not just in the sense of “vibe-coding”). Frontends are rewritten because some framework or another is “better for agents.” (Did anyone think to ask the agents?) The resulting code is “faster,” the agents make “fewer mistakes,” etc. Once again, these claims are often made without evidence. Whenever I read one of these accounts, I think to myself, “Where are the benchmarks?” Well I got curious, so I wrote a benchmark. The structure of this benchmark is pretty straightforward: Design a small but non-trivial Pokémon app using the PokéAPI (those who have followed my work will be unsurprised) Instruct agents to build the app with a particular JavaScript framework/meta-framework (e.g. Next.js, Nuxt, SvelteKit, etc.) Test the output against a spec conformance suite (to avoid agent cheating) Evaluate the results in terms of development time, tokens spent, lines of code, and performance and accessibility scores in Lighthouse The app is fairly simple: you’ve got a list of Pokémon with their types, moves, and data from various games. You can search, filter, etc.: I should start off with some caveats: this is not a perfect experiment. This app represents only one holotype – it’s a relatively content-based site with little interactivity, closer to a Wikipedia than a Figma, GMail, etc. That said, I had to choose some app to build, and this one is at least easy to understand at a high level, and relatively straightforward to spec out and test. To try to even the playing field, I had each framework/meta-framework use the o",
+      "oneLineKo": "AI 에이전트 코딩 비용으로 본 JS 프레임워크 실증 벤치마크",
+      "summaryKo": "저자는 '프레임워크가 AI 에이전트에 더 적합하다'는 근거 없는 주장들에 의문을 품고 직접 벤치마크를 설계했다. Next.js, Nuxt, SvelteKit 등 여러 프레임워크로 동일한 PokéAPI 기반 앱을 AI 에이전트에게 만들게 한 뒤, 스펙 준수 테스트와 Lighthouse 점수로 결과를 평가했다. 개발 시간, 토큰 사용량, 코드 라인 수, 성능·접근성 점수를 비교해 프레임워크별 AI 코딩 비용을 데이터로 분석한다.",
+      "tags": [
+        "javascript",
+        "ai-agent",
+        "benchmark"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xl8d57",
+      "title": "Jepsen on ParticleDB: \"We tested versions 1.1.4 through 1.1.18.11.rc-22 and found that ParticleDB’s claims of “Full ACID” were somewhat premature\"",
+      "url": "https://www.reddit.com/r/programming/comments/1xl8d57/jepsen_on_particledb_we_tested_versions_114/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xl8d57/jepsen_on_particledb_we_tested_versions_114/",
+      "publishedAt": "2026-11-01T17:06:27+00:00",
+      "snippet": "submitted by /u/alexeyr [link] [comments]",
+      "oneLineKo": "Jepsen, ParticleDB의 'Full ACID' 주장에 결함 발견",
+      "summaryKo": "분산 시스템 검증 도구인 Jepsen이 ParticleDB의 1.1.4~1.1.18.11.rc-22 버전을 테스트했다. 그 결과 ParticleDB가 내세운 'Full ACID' 지원 주장이 실제로는 완전하지 않다는 문제점을 발견했다고 보고했다. 구체적인 결함 내용은 본문에 명시되어 있지 않다.",
+      "tags": [
+        "jepsen",
+        "acid",
+        "distributed-systems"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36377&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Anthropic, Claude의 게임 재구현 제한…모딩과 역공학 작업 거절 사례도 보고",
+      "url": "https://news.hada.io/topic?id=36377&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36377&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-01T17:31:49+09:00",
+      "snippet": "Claude Code에 특정 기존 게임의 재구현을 제한하는 규칙 이 추가됐으며, 사용자들은 모딩과 역공학, 일반적인 게임 개발 작업에서도 거절 사례를 보고함 Anthropic은 Opus 5.5의 Claude Code 프롬프트에 두 문장을 추가했다 고 확인함. 지식재산권 침해 방지가 목적...",
+      "oneLineKo": "Claude Code, 게임 재구현·모딩 작업 제한 규칙 추가",
+      "summaryKo": "Anthropic이 Claude Code의 Opus 5.5 프롬프트에 특정 기존 게임의 재구현을 제한하는 두 문장을 추가한 것으로 확인됐다. 이는 지식재산권 침해를 방지하기 위한 조치로 설명된다. 그러나 사용자들은 이 규칙으로 인해 모딩, 역공학뿐 아니라 일반적인 게임 개발 작업에서도 요청이 거절되는 사례를 다수 보고하고 있다.",
+      "tags": [
+        "anthropic",
+        "claude",
+        "ai-coding"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50330456",
+      "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50330456",
+      "publishedAt": "2026-11-01T22:10:45Z",
+      "score": 132,
+      "comments": 115,
+      "snippet": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says | TechCrunch –:–:–:– Buy One Founder Summit Ticket, Get a Second for Free. Register now. Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. Close TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2026 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Toggle Topics Latest AI Amazon Apps Biotech & Health Climate Cloud Computing Commerce Crypto Enterprise EVs Fintech Fundraising Gadgets Gaming Google Government & Policy Hardware Instagram Layoffs Media & Entertainment Meta Microsoft Privacy Robotics Security Social Space Startups TikTok Transportation Venture More from TechCrunch Staff Events Startup Battlefield StrictlyVC Newsletters Podcasts Videos Partner Content TechCrunch Brand Studio Contact Us In Brief Posted: 9:57 AM PDT · October 25, 2026 Image Credits: Carol Yepes (opens in a new window) / Getty Images Anthony Ha AI delivers ‘zero financial payoff’ to most companies, Apollo economist says AI hasn’t benefited the bottom line of any big corporations outside the tech industry, according to a note recently published by the chief economist at Apollo Global Management (the private equity giant that used to own TechCrunch). Apollo’s Torsten Slok focuses on what he calls the S&P 493 — the S&P 500, minus Alphabet, Amazon, Apple, Meta, Microsoft, Nvidia, and Tesla — finding that profit margins and revenue per worker appear to be flat, with no evidence that AI is improving productivity. “Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech,” Slok said. Is this simply a matter of non-tech companies lagging behind the tech giants? Slok sounded skeptical, arguing that it will be tough for corporate America to “turn increasingly cheap intelligence into higher revenue growth and higher profit margins.” “AI may be a great calculator, but in business, intelligence is mostly judgment,” he wrote, later adding, “AI does not understand accountability, trust, culture, unwritten rules, ethical trade-offs or fairness, all of which shape reputational risk and ultimately drive revenue growth and profit margins.” Recent studies have also found that AI has yet to deliver significant productivity gains . Topics AI , Apollo Global Management , In Brief November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the co",
+      "oneLineKo": "테크 제외 기업엔 AI 재무효과 '전무'",
+      "summaryKo": "Apollo Global Management 수석이코노미스트 토르스텐 슬록은 빅테크 7개사를 제외한 S&P 493 기업군을 분석한 결과, AI가 이익률이나 노동생산성 향상에 전혀 기여하지 못했다고 밝혔다. 막대한 투자와 기대에도 불구하고 수익 성장이나 마진 개선의 증거가 없다는 것이다. 그는 AI가 뛰어난 계산기일 뿐이며, 책임감·신뢰·문화·불문율·윤리적 판단 같은 비즈니스 핵심 요소를 이해하지 못한다고 지적했다.",
+      "tags": [
+        "ai",
+        "productivity",
+        "enterprise"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xl5irk",
+      "title": "The case against Makefiles",
+      "url": "https://www.reddit.com/r/programming/comments/1xl5irk/the_case_against_makefiles/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xl5irk/the_case_against_makefiles/",
+      "publishedAt": "2026-11-01T15:13:37+00:00",
+      "snippet": "submitted by /u/com_kieffer [link] [comments]",
+      "oneLineKo": "Makefile 사용에 반대하는 의견 소개",
+      "summaryKo": "이 글은 빌드 도구로 Makefile을 사용하는 것에 반대하는 주장을 다루는 레딧 게시물입니다. 본문 내용은 제공되지 않아 구체적인 근거는 확인할 수 없습니다. 제목으로 미루어 Makefile의 한계나 문제점을 지적하는 글로 보입니다.",
+      "tags": [
+        "makefile",
+        "build-tools"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36415&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Proton의 방향을 바꾼 것은 AI가 아니었다",
+      "url": "https://news.hada.io/topic?id=36415&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36415&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-02T06:43:13+09:00",
+      "snippet": "Proton CEO가 출시 전 침투 테스트 시간을 요청한 엔지니어에게 “ 헛소리이자 패배자의 사고방식 ”이라고 답한 일이, AI 사용 자체보다 보안 우려를 대하는 리더십의 문제를 드러냄 AI로 코드를 작성하는 것 은 문제가 아니며, 모델이 만든 코드의 검토와 테스트, 출...",
+      "oneLineKo": "Proton 내부 보안 경시 리더십 논란 확산",
+      "summaryKo": "Proton CEO가 출시 전 침투 테스트 시간을 요청한 엔지니어에게 '헛소리이자 패배자의 사고방식'이라고 답한 사실이 알려지며 논란이 됐다. 문제의 핵심은 AI로 코드를 작성하는 것 자체가 아니라, AI가 생성한 코드에 대한 검토와 테스트를 소홀히 하도록 만드는 리더십 태도에 있다는 지적이다. 이는 보안 우려를 대하는 조직 문화의 문제를 드러낸 사례로 평가된다.",
+      "tags": [
+        "security",
+        "ai",
+        "leadership"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50326821",
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "url": "https://hackerbooks.org",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50326821",
+      "publishedAt": "2026-11-01T15:58:28Z",
+      "score": 889,
+      "comments": 174,
+      "snippet": "Saw Karpathy&#x27;s HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5).<p>It&#x27;s ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page.<p>To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc.<p>It counts mentions, so it&#x27;s not perfect (praising a book and trashing it both count). If your favourite book is missing or matched to the wrong thing, tell me.",
+      "oneLineKo": "HN 댓글에서 언급된 책 모음 사이트 'HackerBooks' 공개",
+      "summaryKo": "HackerTube에서 영감을 받아 HN 댓글에서 언급된 책들을 모아주는 'HackerBooks' 사이트가 공개됐다. 2007년부터 현재까지 최소 두 명 이상의 댓글 작성자가 언급한 약 1만6500권의 책을 수집했으며, 각 책은 관련 댓글로 연결된다. 사이트와 데이터 파이프라인 대부분은 Claude(Opus)가 작성했고, 제작자는 방향 설정과 데이터 검증 등을 맡았다. 단순 언급 횟수를 기반으로 하기 때문에 호평과 혹평을 구분하지 못하는 한계가 있다.",
+      "tags": [
+        "llm",
+        "claude",
+        "side-project"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36388&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "AI 러닝과 단상 — AI와 일하며 고민한 다섯 가지 질문",
+      "url": "https://news.hada.io/topic?id=36388&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36388&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-01T21:32:30+09:00",
+      "snippet": "AI를 활용하며 직접 겪은 일과 읽고 생각한 내용을 다섯 질문으로 정리했습니다. 구현이 빨라질수록 무엇을 만들지, 어떤 환경에서 일할지, 결과를 어떻게 확인할지를 더 신경 쓰게 됐습니다. 무엇을 위해 이 일을 하는가? 예를 들어 테스트 자동화 플랫폼의 목표는 ‘변화의 속도에 확신",
+      "oneLineKo": "AI와 일하며 떠오른 다섯 가지 고민 정리",
+      "summaryKo": "AI를 활용해 작업하면서 직접 경험하고 읽으며 생각한 내용을 다섯 가지 질문으로 정리한 글입니다. 구현 속도가 빨라질수록 무엇을 만들지, 어떤 환경에서 일할지, 결과를 어떻게 검증할지가 더 중요해졌다는 점을 강조합니다. 예시로 테스트 자동화 플랫폼의 목표를 '변화의 속도에 확신을 주는 것'으로 제시하며 AI 시대 개발자의 역할 변화를 성찰합니다.",
+      "tags": [
+        "ai",
+        "productivity",
+        "software-development"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50325253",
+      "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+      "url": "https://github.com/ivankovic/omnidiff",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50325253",
+      "publishedAt": "2026-11-01T13:02:30Z",
+      "score": 151,
+      "comments": 38,
+      "snippet": "I have been researching what the ultimate diff tool would look like, based on actual diffs in open source repositories.<p>OmniDiff can diff: code (25 languages), config, images, PDFs, archives, cursors, fonts...<p>It&#x27;s fast. It can diff C++ files of tens of thousands of lines in under 100ms, on a 2023 ThinkPad T14s.<p>It&#x27;s open source. AGPLv3.<p>It&#x27;s based on real diffs. I looked at the 7400 repositories that are listed in Gentoo packages, sampled 2000 diffs and solved them manually to get a good understanding of what is needed, before putting together the diff pipelines for each content type. Incidentally, this also forms the basis of the CI pipeline, so the robustness of the codebase is quite high.<p>I&#x27;m still developing it. It&#x27;s v0.3.0 at this time. But I have been using it daily as my git difftool for months now, and it works well.<p>AI Disclosure: Yes, I do use AI. No, I do not vibecode.",
+      "oneLineKo": "Rust로 만든 초고속 콘텐츠 인식 Git diff 도구 공개",
+      "summaryKo": "OmniDiff는 Rust로 작성된 오픈소스 Git difftool로, 코드(25개 언어), 설정 파일, 이미지, PDF, 아카이브, 폰트 등 다양한 콘텐츠 유형을 인식해 diff를 수행한다. 2023년형 ThinkPad T14s 기준으로 수만 줄의 C++ 파일도 100ms 이내에 처리할 만큼 빠르다. 개발자는 Gentoo 패키지에 포함된 7400개 저장소에서 2000개의 실제 diff 사례를 수집·분석해 각 콘텐츠 유형별 diff 파이프라인을 설계했다. 현재 v0.3.0 버전이며 AGPLv3 라이선스로 공개되어 있다.",
+      "tags": [
+        "rust",
+        "git",
+        "difftool"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36406&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Minecraft 속 AI 에이전트 군집, 문명 건설에 실패하고 관료주의에 빠지다",
+      "url": "https://news.hada.io/topic?id=36406&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36406&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-02T03:48:17+09:00",
+      "snippet": "ycombinator와 Olam Labs가 진행한 Civ50 실험에서 에이전트 50개는 3시간 안에 번성하는 문명을 만들라는 과제를 받았지만, 초기 목표를 포기하고 조심스러운 생존과 관료적 절차에 머무름 관료주의 의 대표 사례로, 에이전트 4개가 밀 한 블록에 사용할 뼛가루 하...",
+      "oneLineKo": "마인크래프트 AI 에이전트 50개, 문명 건설 대신 관료주의에 빠짐",
+      "summaryKo": "YCombinator와 Olam Labs가 진행한 Civ50 실험에서 AI 에이전트 50개가 3시간 안에 번성하는 문명을 건설하는 과제를 받았다. 하지만 에이전트들은 초기 목표를 포기하고 조심스러운 생존 전략과 관료적 절차에 머물렀다. 대표적인 사례로 에이전트 4개가 밀 한 블록에 뼛가루를 사용하는 문제를 두고 과도한 협의 절차를 거친 것이 꼽혔다.",
+      "tags": [
+        "ai-agent",
+        "minecraft",
+        "multi-agent"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50320963",
+      "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+      "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50320963",
+      "publishedAt": "2026-10-31T22:41:06Z",
+      "score": 768,
+      "comments": 197,
+      "snippet": "An Italian Farmer Found Some Unknown Seeds in His Attic and, With Nothing to Lose, Planted Them. The Result Was Almost Biblical Skip to main content Search Shop Newsletters Renew Give a Gift Subscribe Membership i Subscribe Give a Gift Renew Sections Smart News History Science Innovation Arts & Culture Travel At the Smithsonian More from Smithsonian magazine Newsletters Photo Contest Podcast Videos Our Partners Smithsonian Store Smithsonian Journeys Subscribe to Smithsonian magazine and get a FREE tote. An Italian Farmer Found Some Unknown Seeds in His Attic and, With Nothing to Lose, Planted Them. The Result Was Almost Biblical When a seven-eared stem emerged from the ground, it seemed like a miracle. What Claudio Grossi had unearthed was an ancient grain that proved to be an answer to some modern problems Lina Zeldovich Photographs by Clara Vannucci November 2026 Share Copy link Email SMS Facebook X Reddit LinkedIn Bluesky Print Add as preferred source At his farm near Parma, Italy, Claudio Grossi offers a visual history of his miracle grain in photos, crackers and loaves. Clara Vannucci Sometime in the early 1990s, Claudio Grossi, a 40-year-old farmer in Parma, in northern Italy, was cleaning his attic when he turned up an old sack full of seeds that he couldn’t identify. The bag, he was sure, had been left by his late great-grandfather, who’d started the farmstead around 1915. Grossi had no idea how long the seeds had been sitting there, deprived of water, soil and sun. Dry and cracked, the kernels looked so old in the palm of his hand that he doubted anything would ever sprout from them. He carried the bag down the stairs, shook the seeds out into a pile of manure and then forgot about them. To his surprise, the seeds soon sprouted a few different types of wheat. One was particularly striking: At six feet high, its plants were about twice as tall as commercial wheat. But the most remarkable feature came when it developed ears—the grain-studded parts at the top of the plant. All of the wheat types Grossi had previously seen grew only one such ear. But the tall wheat grew a full seven ears, always in the same pattern: a long one with six shorties bunched up around it like little fingers. Even the kernels themselves were bigger than those of average wheat. And unlike the typical pale-yellow wheat kernels, they came in a rainbow of colors—yellow, black, red, white and even green, sometimes all on the same stem. Grossi, a grain farmer his whole life, had never seen anything like it. “I thought it was a freak of nature,” he says. He couldn’t find a mention of it in agricultural books. Ears grown from the very first seeds Grossi discovered in his attic. Grossi prizes these first grains, now preserved under glass in his kitchen. Clara Vannucci Subscribe to Smithsonian magazine now for just $19.99 This article is a selection from the November 2026 issue of Smithsonian magazine Subscribe For Grossi, a practicing Catholic, the next insight came from a ",
+      "oneLineKo": "이탈리아 농부, 다락 씨앗서 7개 이삭 고대 밀 발견",
+      "summaryKo": "이탈리아 파르마의 농부 클라우디오 그로시는 1990년대 초 다락에서 증조부가 남긴 정체불명의 씨앗 자루를 발견했다. 별 기대 없이 거름더미에 뿌렸더니, 일반 밀보다 두 배 큰 키에 줄기 하나에 7개의 이삭이 달리는 독특한 밀이 자라났다. 낟알도 일반 밀보다 크고 노랑·검정·빨강·흰색·초록 등 다채로운 색을 띠었으며, 그는 이를 농업 서적에서도 찾아볼 수 없는 고대 품종으로 여기게 되었다. 이 밀은 이후 현대 농업의 여러 문제에 대한 해답으로 주목받게 된다.",
+      "tags": [
+        "agriculture",
+        "heirloom-seeds"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36393&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "JavaScript 프레임워크별 AI 개발 비용 비교",
+      "url": "https://news.hada.io/topic?id=36393&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36393&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-01T22:39:18+09:00",
+      "snippet": "Opus 5.5에 같은 포켓몬 앱을 12개 프레임워크 조합으로 구현 하게 하고, 개발 비용과 시간, 코드량, 성능과 접근성을 비교함 실행당 API 환산 비용 중앙값은 Hono+htmx 2.67달러, Angular 4.97달러 였으며, SvelteKit과 Gracile+Lit도 상대적으로 비쌌음 ...",
+      "oneLineKo": "12개 JS 프레임워크별 AI 코딩 비용·성능 비교",
+      "summaryKo": "Opus 5.5 AI에게 동일한 포켓몬 앱을 12개 JavaScript 프레임워크 조합으로 구현시켜 개발 비용, 시간, 코드량, 성능, 접근성을 비교한 실험이다. 실행당 API 환산 비용 중앙값은 Hono+htmx가 2.67달러로 가장 저렴했고 Angular는 4.97달러로 상대적으로 비쌌다. SvelteKit과 Gracile+Lit 조합도 비용이 높게 나타났다.",
+      "tags": [
+        "javascript",
+        "ai-coding",
+        "frontend-framework"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50326099",
+      "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+      "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50326099",
+      "publishedAt": "2026-11-01T14:34:43Z",
+      "score": 387,
+      "comments": 138,
+      "oneLineKo": "레노버 지문인증 USB, 사실상 암호화 없는 SD카드",
+      "summaryKo": "레노버가 '암호화'된 지문 인증 USB 드라이브라고 홍보한 제품이 실제로는 암호화 기능이 없는 평범한 SD카드를 케이스에 넣은 것에 불과하다는 지적이 제기되었다. 지문 인증은 물리적 접근 제어처럼 보이지만 실제 데이터 암호화는 이루어지지 않아 보안 기능이 사실상 무의미하다는 우려가 나온다. 이는 보안 제품 마케팅과 실제 기술 사양 간의 괴리를 보여주는 사례로 주목받고 있다.",
+      "tags": [
+        "security",
+        "usb",
+        "encryption"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50327650",
+      "title": "Patrick Stewart taught us what good men do with power",
+      "url": "https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50327650",
+      "publishedAt": "2026-11-01T17:28:16Z",
+      "score": 362,
+      "comments": 250,
+      "snippet": "Patrick Stewart’s Jean-Luc Picard taught us what good men do with power | Vox Skip to main content The homepage Vox Vox logo Explainers Politics Culture Advice Listen Podcast Watch Video Menu The homepage Vox Vox logo Navigation Drawer Login / Sign Up close Close Search Video Watch Podcast Listen Crossword Play Explainers Politics Culture Advice Science Technology Climate Health Money Life Future Perfect Newsletters Archives Become a Member Facebook Instagram Youtube RSS TikTok Vox Vox logo Patrick Stewart taught us what good men do with power The context you need, when you need it When news breaks, you need to understand what actually matters — and what to do about it. At Vox, our mission to help you make sense of the world has never been more vital. But we can’t do it on our own. We rely on readers like you to fund our journalism. Will you support our work and become a Vox Member today? Join now Politics Patrick Stewart taught us what good men do with power Great leaders, and great nations, need role models like Jean-Luc Picard. by Ian Millhiser Oct 31, 2026, 10:00 AM UTC Share Gift If you buy something from a Vox link, Vox Media may earn a commission. See our ethics statement. Patrick Stewart as Captain Jean-Luc Picard. CBS via Getty Images Ian Millhiser is a senior correspondent at Vox, where he focuses on the Supreme Court, the Constitution, and the decline of liberal democracy in the United States. He received a JD from Duke University and is the author of two books on the Supreme Court. When Patrick Stewart, who died on Wednesday, first stepped onto the bridge of the Enterprise in 1987 in his defining role as Captain Jean-Luc Picard, the Berlin Wall still stood. The Soviet Union would not fall until the fourth season of that show, Star Trek: The Next Generation, had already begun. Yet Picard’s generation of Star Trek franchise anticipated both events , portraying a post-Cold War world just as the Cold War was ending. It was the quintessential show for an age of American hegemony. For those unfamiliar with the franchise, Star Trek is primarily a story about Starfleet, which serves as both the military arm and as a kind of diplomatic corps for the United Federation of Planets, a benevolent, democratic union of more than a hundred worlds. In Star Trek’s Original Series, the 1960s episodes featuring Kirk and Spock, the Federation stands in the same shoes as the Cold War United States — vast and powerful, but also harried by other galactic superpowers like the Klingon Empire. SCOTUS, Explained Get the latest developments on the US Supreme Court from senior correspondent Ian Millhiser. Email (required) Sign Up By submitting your email, you agree to our Terms and Privacy Notice . This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. Picard’s Federation, by contrast, is the sole dominant power in Earth’s quadrant of the galaxy. The Evil Empire is now an ally. The Original Series’s writers conceived of the Kl",
+      "oneLineKo": "패트릭 스튜어트 별세, 피카드가 보여준 권력의 품격",
+      "summaryKo": "별세한 배우 패트릭 스튜어트가 연기한 스타트렉의 장뤽 피카드 함장을 조명하는 추모성 칼럼이다. 1987년 첫 등장한 피카드는 냉전 종식 전후 시대상을 반영하며, 압도적 힘을 가진 연방이 그 힘을 어떻게 선하게 사용하는지를 보여준 캐릭터로 평가된다. 필자는 피카드를 좋은 지도자와 좋은 국가가 갖춰야 할 롤모델로 제시한다.",
+      "tags": [
+        "star-trek",
+        "patrick-stewart"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50328251",
+      "title": "Mathematics has changed. Let's act like it",
+      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50328251",
+      "publishedAt": "2026-11-01T18:28:42Z",
+      "score": 215,
+      "comments": 233,
+      "snippet": "Mathematics has changed. Let’s act like it | What's new What's new Updates on my research and expository papers, discussion of open problems, and other maths-related topics. By Terence Tao Home About Career advice On writing Books Mastodon+ Applets Subscribe to feed Mathematics has changed. Let’s act like it 1 November, 2026 in guest blog , opinion | Tags: Frank Calegari | by Terence Tao [This is a guest post by Frank Calegari . This blog post was initially written in a different file format and converted using AI. — T.] Why we should not be sad The release by OpenAI on October 6 of over 700 research papers was a watershed in the history of mathematics. AI is now undeniably capable of making groundbreaking contributions across many areas of mathematics. So why are some mathematicians so unhappy? Some of it is the apparent disregard by AI companies for the practice of mathematics. The OpenAI papers — despite some tremendous ideas — are atrociously written and violate our community expectations of attribution. Some of them are even wrong. We have much more control over how we hire mathematicians, publish papers, and train students than over the behavior of trillion-dollar companies, and that is where our efforts would be better spent. Much of the reaction seems to reflect a feeling that the subject that they love is under attack, and is being “hollowed out”. The recent OpenAI dump made barely a dent on the general problems of functoriality and reciprocity in the Langlands program. But even if it had solved every problem in the Langlands program, to imagine that would have “solved number theory” would be as naive as saying that the construction of the periodic table solved chemistry. Mathematicians should do a better job explaining that when we talk about the central problems in any area, we are merely discussing the most natural boundaries of our understanding — and that unlocking them is not the end but the first step to finding new playgrounds to explore. Of course, this takes time. I looked for areas of mathematics which were “harder hit”. It is hard not to be struck by Hugo Duminil-Copin’s lament : Not a single one of the major open problems I have publicly mentioned throughout my career (whether in a talk, a lecture, an article, or even a grant proposal) was left untouched by the announcement. Everything has been claimed to be proved. I expected to see a few of them in the list. But not all of them. Not all at once. Not with such nonchalance. How would I respond to that? The classification of finite simple groups. I can’t say much about percolation theory, but there is another historical precedent I think mathematicians should take note of. In 1972, Dan Gorenstein announced a program towards the classification of finite simple groups. After a flurry of activity over around a decade, the “classification” was announced by Gorenstein in 1983 (somewhat prematurely, with the case of quasithin groups not being completed for another two decades by As",
+      "oneLineKo": "AI 수학 논문 700편 공개, 수학계 반응과 대응 제언",
+      "summaryKo": "Terence Tao 블로그에 실린 Frank Calegari의 게스트 포스트로, OpenAI가 10월 6일 공개한 700편 이상의 수학 연구 논문이 수학계에 큰 충격을 주었다고 설명한다. 저자는 AI가 수학 전 영역에서 획기적 기여를 할 수 있음을 보여주었지만, 논문의 서술 수준이 조악하고 학계의 저자 표시 관행을 무시했으며 일부 결과는 틀렸다고 지적한다. 그는 수학자들이 AI 기업의 행태에 분노하기보다 채용, 출판, 교육 방식 등 스스로 통제 가능한 영역에 집중해야 한다고 주장하며, 유한단순군 분류 역사 등을 예로 들어 중심 난제 해결이 해당 분야의 '끝'이 아니라 새로운 탐구의 시작임을 강조한다.",
+      "tags": [
+        "ai",
+        "mathematics",
+        "llm"
+      ]
+    }
+  ]
+}

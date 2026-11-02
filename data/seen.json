@@ -1,117 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=34645",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "news.hada.io/topic?id=34645",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49924618",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "stoppels.ch/goalposts",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34595",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "news.hada.io/topic?id=34595",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49922569",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "news.ycombinator.com/item?id=49922569",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34632",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "news.hada.io/topic?id=34632",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49922568",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "news.ycombinator.com/item?id=49922568",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34641",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "news.hada.io/topic?id=34641",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49926069",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "earendil.com/posts/pi-1-0",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34616",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "news.hada.io/topic?id=34616",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49920160",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "github.com/streetcomplete/StreetComplete/issues/5421",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34644",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "news.hada.io/topic?id=34644",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49923692",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "blog.cloudflare.com/clef-decision-models",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49923466",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "turbopuffer.com/blog/rip-vector-database",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49920896",
-    "date": "2026-10-02"
-  },
-  {
-    "id": "nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
-    "date": "2026-10-02"
-  },
-  {
     "id": "https://news.hada.io/topic?id=34683",
     "date": "2026-10-03"
   },
@@ -3854,5 +3742,133 @@
   {
     "id": "twitter.com/jiahaoshao1/status/2116475922190922088",
     "date": "2026-11-01"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36384&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "news.hada.io/topic?id=36384",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50323088",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "t3_1xl8d57",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xl8d57/jepsen_on_particledb_we_tested_versions_114",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36377&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "news.hada.io/topic?id=36377",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50330456",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "t3_1xl5irk",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xl5irk/the_case_against_makefiles",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36415&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "news.hada.io/topic?id=36415",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50326821",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "hackerbooks.org",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36388&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "news.hada.io/topic?id=36388",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50325253",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "github.com/ivankovic/omnidiff",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36406&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "news.hada.io/topic?id=36406",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50320963",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36393&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "news.hada.io/topic?id=36393",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50326099",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50327650",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50328251",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it",
+    "date": "2026-11-02"
   }
 ]
