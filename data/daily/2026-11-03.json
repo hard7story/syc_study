@@ -1,0 +1,277 @@
+{
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T03:10:59.974Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36491&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Postgres 19 출시가 늦어지는 건 AI 때문이다 - 버그 발견이 수정을 앞지르다",
+      "url": "https://news.hada.io/topic?id=36491&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36491&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-03T09:02:05+09:00",
+      "snippet": "LLM으로 발견한 버그 제보가 급증 하면서 PostgreSQL의 수정 부담이 커짐. PostgreSQL 19는 예년의 9~10월보다 늦은 11월 출시가 예상되며, 베타 후반에 대형 기능 3개도 철회됨 버그 발견은 훨씬 쉬워졌지만 수정은 같은 만큼 쉬워지지 않음 . AI가 작성한 수정안도 정확성과 프로젝트 기준 준수 여부를 사람이 검토하고 커밋해야 함 같은 기간을 전년과 비교하면, 출시 준비 버전에 반영한 백포트 커밋은 60% 이상 , 적어도 하나의 이전 버전까지 반영한 커밋은 74% 이상 증가 함 기존 버전의 보안 문제와 버그 대응이 새 버전 검토 시간을 …",
+      "oneLineKo": "AI발 버그 급증으로 Postgres 19 출시 지연",
+      "summaryKo": "LLM을 활용한 버그 제보가 급증하면서 PostgreSQL 프로젝트의 수정 부담이 커져 Postgres 19 출시가 예년보다 늦은 11월로 예상된다. 베타 후반에 대형 기능 3개도 철회됐다. 버그 발견은 AI 덕분에 쉬워졌지만 수정은 여전히 사람이 검토하고 커밋해야 해 속도가 따라가지 못하고 있다. 실제로 전년 대비 백포트 커밋이 60% 이상, 이전 버전 반영 커밋이 74% 이상 증가해 기존 버전 대응이 신규 버전 검토 시간을 잠식하고 있다.",
+      "tags": [
+        "postgresql",
+        "llm",
+        "opensource"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50339913",
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "url": "https://momentic.ai/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50339913",
+      "publishedAt": "2026-11-02T17:05:25Z",
+      "score": 131,
+      "comments": 85,
+      "snippet": "Hey HN, we’re Wei-Wei and Jeff. We’re building Momentic, QA agents that autonomously plan, explore, and bug-bash controls and user flows in your web, iOS, Android, and (soon) desktop apps to catch bugs.<p>Here’s a demo: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;BFsM-Se1Fh8\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;BFsM-Se1Fh8</a><p>We’re both software engineers that spent our careers on dev tooling and infra across companies like Robinhood, Retool, WeWork, and Qualtrics. Testing was always a pain in the ass (esp Playwright and Selenium), so we built agents to do it for us.<p>Modern day software has a ton of bugs and the change failure rate is only growing faster as coding agent adoption scales. LLMs are really good at generating code, but reinforce their own assumptions, write a ton of useless tests, and are bad at visual understanding. On DeepSWE v1.1, Sonnet 5.5 hit 66.2% pass rate when banned from writing tests, versus 65.3% when allowed.<p>OSS end-to-end testing frameworks like Playwright, Selenium, or Maestro force you to hardcode implementation details like XPath, text, or aria-* attributes in your tests. Even with agents, these take a nontrivial amount of time and tokens to build and maintain.<p>In 2023, we saw Nat Friedman drive a browser with GPT-3 via natbot. We were inspired to use this technology to automate the most painful and tedious parts of software engineering: testing. We started with using LLMs to generate and maintain Playwright, but quickly realized that those primitives were fundamentally misaligned with the agentic SDLC. We think the future of QA is agents testing themselves, not writing scripts.<p>Mo is a custom agent harness for catching bugs that builds on the past 3 years of Momentic and millions of test traces from complex, real-world applications. Mo is built for recall: it finds the most real bugs, though Codex is a bit more precise at 86% vs 84%. The tradeoff is cost: Mo costs $2.67 per bug vs $0.80 for Codex, less than Claude Code and Devin.<p>- Self-organizing agent graph. Mo builds a directed acyclic graph (DAG) as it explores. Large product areas automatically fork into parallel sub-agents, each with their own browser or device for concurrent execution.<p>- Specialized agents for domain specific tasks. Planner agents reason over screenshots and video while dedicated locator agents inspect page structure to resolve plain-English interaction targets. Others include image analysis, video understanding, audio generation, and more.<p>- Parallel agents coordinate through cooperative resource leases. Agents can announce that they’re “using” or “modifying” overlapping resources or fixtures. Multiple “using” claims can coexist, but only a single “modifying” claim can be active on any particular one.<p>- Scaled infrastructure. Mo ships with a tunnel that lets users expose private sites and local apps to our hosted agents and infra. A single bug bash can spin up 100s of concurrent browsers and devices.<p>We benchmarked Mo against coding agents on 4 popular open-source apps: Gitea (58.8k stars), Metabase, Twenty (YC), and Saleor, with 1,396 human-labeled bugs. Each agent got the same brief, a fresh E2B sandbox, and no access to source code. Codex and Claude Code used hosted Browserbase browsers, while Devin used its built-in browser. For evaluators, we implemented LLM as a judge (GPT-6.1 Sol) with a human reviewer.<p>Results from a time-boxed 60-minute run:<p>- Mo: 269 bugs, 19.3% recall, 84% precision, $2.67 per bug<p>- Codex (GPT-6.1 Sol + Playwright MCP): 86 bugs, 6.2% recall, 86% precision, $0.80 per bug<p>- Claude Code (Opus 5.5 + Playwright MCP): 59 bugs, 4.2% recall, 80% precision, $4.09 per bug<p>- Devin: 27 bugs, 1.9% recall, 84% precision, $3.89 per bug<p>Mo finds more bugs the more time it has. From 30 to 60 minutes, it went from 177 to 269 bugs (+52%), while Codex gained only 16%.<p>Results: <a href=\"https:&#x2F;&#x2F;momentic.ai&#x2F;qa-bench\">https:&#x2F;&#x2F;momentic.ai&#x2F;qa-bench</a><p>Write-up: <a href=\"https:&#x2F;&#x2F;momentic.ai&#x2F;blog&#x2F;qa-bench\">https:&#x2F;&#x2F;momentic.ai&#x2F;blog&#x2F;qa-bench</a><p>Dataset: <a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;datasets&#x2F;momentic&#x2F;qa-bench\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;datasets&#x2F;momentic&#x2F;qa-bench</a><p>Harness: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;momentic-ai&#x2F;qa-bench\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;momentic-ai&#x2F;qa-bench</a><p>We just shipped PR testing for Vercel and Cloudflare deploy previews and we’re giving every new signup $250 in Mo spend. Paid plans have higher infra capacity and included usage along with options to top up.<p>We’d love for you to try it out and give us feedback. Feel free to comment here, we’ll be around all day!",
+      "oneLineKo": "앱 직접 탐색하며 버그 찾는 QA 에이전트 'Momentic' 출시",
+      "summaryKo": "Momentic(YC W24)은 웹, iOS, Android 앱(곧 데스크톱도 지원)을 자율적으로 탐색하며 버그를 찾아내는 QA 에이전트 'Mo'를 공개했다. 기존 Playwright, Selenium 같은 E2E 테스트 프레임워크가 XPath나 속성값을 하드코딩해야 하는 한계를 극복하고자, LLM 기반 에이전트가 자체적으로 DAG를 구성하며 병렬로 앱을 탐색하고 버그를 발견하는 방식을 택했다. Mo는 재현율(recall) 중심으로 설계되어 Codex보다 버그 탐지율은 높지만 비용은 더 든다(버그당 $2.67 vs $0.80). 플래너, 로케이터 등 역할별 전문 에이전트와 협력적 리소스 잠금 메커니즘을 통해 수백 개의 브라우저/디바이스를 동시 실행할 수 있다.",
+      "tags": [
+        "qa-automation",
+        "llm-agents",
+        "testing"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xlutld",
+      "title": "CheerpJ 5.0: Java 21/25 in the browser, full OpenJDK, and a new WasmGC engine",
+      "url": "https://www.reddit.com/r/programming/comments/1xlutld/cheerpj_50_java_2125_in_the_browser_full_openjdk/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xlutld/cheerpj_50_java_2125_in_the_browser_full_openjdk/",
+      "publishedAt": "2026-11-02T11:34:46+00:00",
+      "snippet": "submitted by /u/alexp_lt [link] [comments]",
+      "oneLineKo": "CheerpJ 5.0, 브라우저서 Java 21/25 지원",
+      "summaryKo": "CheerpJ 5.0 버전이 공개되며 브라우저에서 Java 21과 25를 완전한 OpenJDK 기반으로 실행할 수 있게 되었다. 이번 업데이트에는 새로운 WasmGC 엔진이 도입되어 성능과 호환성이 개선되었다. 이는 Java 애플리케이션을 별도 설치 없이 웹 브라우저에서 구동할 수 있게 하는 기술이다.",
+      "tags": [
+        "java",
+        "webassembly",
+        "openjdk"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36479&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Anthropic, 내부 AI 사용액을 고객 요금으로 환산하면 직원 보수 보다 커져",
+      "url": "https://news.hada.io/topic?id=36479&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36479&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-03T04:39:21+09:00",
+      "snippet": "Anthropic의 내부 Claude 사용량을 고객에게 부과하는 요금으로 환산한 금액 이 4월에 주식 보상을 제외한 월간 직원 보수를 넘어섬 실제 AI 운영에 지출한 현금이 급여보다 많다는 의미는 아니며 , 내부 사용량에 외부 판매 가격을 적용한 비교임 9월 내부 AI 사용량은 1월 대비 250배 이상 으로 증가함 9월 소프트웨어에 새로 추가된 코드의 90% 이상을 Claude가 작성 했으며, 매출도 직원 수보다 훨씬 빠르게 증가함 기술 기업들은 업무용 AI 토큰을 급여, 보너스, 주식에 이은 네 번째 직원 보상 요소 로 다루기 시작함 내부 Claude 사용 …",
+      "oneLineKo": "Anthropic 내부 Claude 사용액, 요금환산시 직원 급여 추월",
+      "summaryKo": "Anthropic이 내부적으로 사용하는 Claude의 사용량을 고객 요금 기준으로 환산하면, 4월 기준 주식 보상을 제외한 월간 직원 급여 총액을 넘어선 것으로 나타났다. 이는 실제 현금 지출이 급여보다 많다는 뜻은 아니며 내부 사용량에 외부 판매가를 적용한 비교치다. 9월 내부 AI 사용량은 1월 대비 250배 이상 증가했고, 신규 코드의 90% 이상을 Claude가 작성했으며 매출도 직원 수 증가 속도를 크게 앞질렀다. 이에 따라 업무용 AI 토큰이 급여·보너스·주식에 이은 네 번째 보상 요소로 다뤄지는 추세가 나타나고 있다.",
+      "tags": [
+        "anthropic",
+        "claude",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50341736",
+      "title": "Egoless Mathematics in the AI Era",
+      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50341736",
+      "publishedAt": "2026-11-02T18:54:44Z",
+      "score": 125,
+      "comments": 85,
+      "snippet": "Egoless Mathematics in the AI Era | What's new What's new Updates on my research and expository papers, discussion of open problems, and other maths-related topics. By Terence Tao Home About Career advice On writing Books Mastodon+ Applets Subscribe to feed Egoless Mathematics in the AI Era 2 November, 2026 in guest blog , opinion | Tags: AI , Amit Sahai , Jie Xue , Karthik C. S. | by Terence Tao [This is a guest post by Karthik C. S. , Amit Sahai , and Jie Xue . This blog post was initially written in a different file format and converted using AI. — T.] This is a good time for mathematicians to think carefully about the purpose of their work. The development of artificial intelligence brings that question before us with unusual force. Much of the discussion concerns which tasks machines will perform and which abilities will remain distinctively human. But our response also depends on a prior question: what do we understand mathematical work to be, and what gives it its worth? If our answer has become inseparable from the production of results and the demonstration of individual ability, the present uncertainty may reveal a difficulty in our conception of the work itself. There are broadly two perspectives on mathematics. According to one, we invent it as we construct it: we introduce concepts, choose axioms, and develop theories. According to the other, mathematics exists independently of these activities, and our task is to discover it. These perspectives need not disagree about every aspect of mathematical practice. We plainly develop formalism and arguments. The deeper question is whether the truths we come to understand owe their existence to these acts, or whether our constructions enable us to recognize something that does not depend on us. While discovery of mathematical truth can sound passive, a paleontologist searching for fossils must decide where to excavate, develop techniques, and recognize the significance of incomplete remains. The fossils existed long before the investigation, but finding them may require extraordinary imagination. Their prior existence gives direction to the investigator’s activity. Similarly, a mathematical discovery may require the invention of an entire language and framework through which a previously unnoticed relationship becomes intelligible. The discovery may require great creativity, but that does not make the truth discovered a creation of the individual. We encounter this distinction whenever our constructions surprise us. A definition introduced for one purpose reveals an unexpected connection elsewhere. A conjecture that seemed to organize our examples admits a counterexample. Two theories developed through different questions turn out to express a common structure. In each case, our thought encounters something it did not freely determine. We can revise our definitions or abandon our conjecture, but we cannot make the original argument valid merely by wishing it so. The Platonic perspective gives",
+      "oneLineKo": "AI 시대, 수학 연구의 본질과 의미를 성찰하는 글",
+      "summaryKo": "테렌스 타오의 블로그에 실린 이 게스트 포스트는 Karthik C. S., Amit Sahai, Jie Xue가 작성했으며, AI 발전 속에서 수학 연구의 목적과 가치를 재고할 필요성을 다룹니다. 수학이 인간의 발명인지 독립적으로 존재하는 진리의 발견인지에 대한 전통적 논쟁을 소개하며, 고생물학자의 화석 발굴에 비유해 발견에도 창의성이 필요함을 설명합니다. 정의나 이론이 예상치 못한 방식으로 연결되거나 반례에 부딪히는 경험을 통해, 수학적 사고가 완전히 자유롭게 결정되지 않는 무언가와 마주한다는 점을 강조합니다.",
+      "tags": [
+        "ai",
+        "mathematics",
+        "philosophy-of-science"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xmdvnb",
+      "title": "Java Game Devlog - Enemy Object Management for my Java game.",
+      "url": "https://www.reddit.com/r/programming/comments/1xmdvnb/java_game_devlog_enemy_object_management_for_my/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xmdvnb/java_game_devlog_enemy_object_management_for_my/",
+      "publishedAt": "2026-11-03T00:02:44+00:00",
+      "snippet": "Enemy Management Hey folks! Here’s how enemies get scheduled, move around, and make their dramatic exit, with a few real snippets from the game code. Scheduling waves Enemy spawns are stored as enemy-type and time pairs. For example, the gameplay setup queues a small ribbon wave: queueEnemyWave(entityType.ENEMY_RIBBON, 100, 110, 120, 130, 140); The helper adds each scheduled appearance to the spawn table: private void queueEnemyWave(entityType type, int... spawnTimes) { for (int spawnTime : spawnTimes) { game.addEnemySpawn(spawnTime, type); } } The game clock uses frame-based units. When a spawn is due, the spawner waits if enemies are still active, so one wave does not immediately stack on top of another: if (!enemyList.isEmpty()) { return; } At the selected spawn time, the player’s level scales how many enemies are generated: int spawnMultiplier = playerLevel + 1 < 1 ? 1 : playerLevel + 1; Obstacle blocks have their own formation logic, including randomized group sizes and colors. Th",
+      "oneLineKo": "자바 게임 적 오브젝트 관리 개발기",
+      "summaryKo": "개발자가 자바로 만든 게임에서 적(enemy) 스폰과 이동, 제거를 처리하는 방식을 코드 스니펫과 함께 소개합니다. 적 스폰은 시간과 타입 쌍으로 테이블에 저장되며, 기존 웨이브가 남아있으면 다음 웨이브 생성을 지연시켜 중첩을 방지합니다. 플레이어 레벨에 따라 스폰 배수가 조정되고, 장애물 블록은 랜덤한 그룹 크기와 색상을 가진 별도의 포메이션 로직을 사용합니다.",
+      "tags": [
+        "java",
+        "game-dev"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36504&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "2026년 머신러닝을 배우는 방법",
+      "url": "https://news.hada.io/topic?id=36504&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36504&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-03T10:50:02+09:00",
+      "snippet": "ML 기초와 소프트웨어 기본기 는 에이전트 시대에도 중요함. 데이터와 시스템을 이해해야 모델의 제안을 판단하고 개발 방향을 정할 수 있음 검증된 책과 Kaggle 프로젝트를 직접 따라 하며 학습 하고, LLM은 막힌 개념을 설명하거나 구체적인 예시를 얻는 데 활용 Git, SQL, 명령줄 은 여전히 익혀야 함. 생성된 쿼리와 변경 코드를 직접 확인해야 데이터와 문제에 대한 이해를 유지할 수 있음 자신이 해결하고 싶은 작은 문제 에서 시작하고, 숙련된 사람의 리뷰를 받음. 실패하거나 미완성인 프로젝트도 판단 기준과 안목을 쌓는 데 도움이 …",
+      "oneLineKo": "2026년 머신러닝 학습법: 기초와 실습 강조",
+      "summaryKo": "에이전트 시대에도 ML 기초와 소프트웨어 기본기가 중요하며, 데이터와 시스템 이해가 모델 제안을 판단하는 데 필수적이라고 설명한다. 검증된 책과 Kaggle 프로젝트를 직접 따라하며 학습하되, LLM은 개념 설명이나 예시 획득에 보조적으로 활용할 것을 권장한다. Git, SQL, 명령줄 같은 기본 도구는 여전히 직접 익혀야 하며, 생성된 코드와 쿼리를 스스로 검증해야 이해를 유지할 수 있다. 작은 문제부터 시작해 숙련자의 리뷰를 받는 것이 실력 향상에 도움이 된다고 조언한다.",
+      "tags": [
+        "machine-learning",
+        "education",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50340088",
+      "title": "Show HN: Subvocal – Talk to your computer without making noise",
+      "url": "https://news.ycombinator.com/item?id=50340088",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50340088",
+      "publishedAt": "2026-11-02T17:16:17Z",
+      "score": 578,
+      "comments": 311,
+      "snippet": "Hi HN, we&#x27;re Aarush and Arnav from The Subvocal Company (YC F26) (<a href=\"https:&#x2F;&#x2F;subvocal.company&#x2F;\">https:&#x2F;&#x2F;subvocal.company&#x2F;</a>). We’re building smart glasses that let you talk to your computer without talking out loud. You can mouth words silently and discreetly and the glasses decode them to text at the speed of speech.<p>Here&#x27;s a video of Dave from YC trying it out: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=9QdX1eObVYI\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=9QdX1eObVYI</a><p>(Edit: you don&#x27;t actually have to move your lips or even open your mouth for this to work! Since the RF can see inside your mouth the system can be fine tuned on &quot;internal speech&quot;. This isn&#x27;t the automatic tongue movements that occur when &quot;thinking&quot; words to yourself, but more like mouthing with your lips closed. It&#x27;s a bit weird to do, but with practice, we have been able to get it down pretty well.)<p>Arnav and I were studying CS at Georgia Tech at the beginning of the year, with no experience in silent speech or sensing. We were both AI-native builders and power users of Wispr Flow. What bugged us was not being able to use these tools in the library (or an office) or in public. At Stanford’s TreeHacks in February, we decided to build the most technically ridiculous thing we could think of. We’d read about AlterEgo, a silent speech system out of MIT’s Media Lab, and wanted to recreate it in 36 hours. We built a crude prototype, sticking EMG electrodes onto my face:<p><a href=\"https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1mwhv5HZMz3UTevdrgwS5O7g2jWV0K9r2&#x2F;view?usp=sharing\" rel=\"nofollow\">https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1mwhv5HZMz3UTevdrgwS5O7g2jWV...</a><p>We got it to kind of work at a letter level in a very janky way. It wasn’t good enough to win the hackathon, but convinced us to go all in. The first time I typed a sentence without anyone noticing, I felt the magic of the technology.<p>We quickly realized EMG (reading muscle electrical signals) wouldn’t work:<p>- Signal changes due to sweat<p>- Electrical interference<p>- Placement variability<p>- Most importantly, no one wants to stick electrodes onto their face!!<p>So we switched to RF and built the glasses you see now. They emit radio waves, similar to Bluetooth, that pass through your face. As they cross the tongue, lips and soft palate, they’re modulated by silent mouthing. We train foundation models on this data to decode these perturbations to text.<p>Despite prior academic research, getting this to work was a huge engineering challenge. First we built an extremely low noise RF sensing stack. Then we had to place antennas so their fields overlapped maximally with the articulators. Our first attempt on glasses failed completely, so we reverted to old habits and taped antennas on our face:<p><a href=\"https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1ks0dS0eZiTV9EqSFsyB_w5BBjpcBAfX-&#x2F;view?usp=sharing\" rel=\"nofollow\">https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1ks0dS0eZiTV9EqSFsyB_w5BBjpc...</a><p>Since taping antennas consistently in the same spot and angle was hard, we created this weird but effective head rig to hold them in place:<p><a href=\"https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1rhzNFpdDzr7oHk0isFY70dkoV4CAF1pT&#x2F;view?usp=sharing\" rel=\"nofollow\">https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1rhzNFpdDzr7oHk0isFY70dkoV4C...</a><p>This worked, but obviously wasn’t a product yet. So we worked deep in simulations to design glasses that could hold the antennas.<p>That evolved into our design now, with antennas embedded within the frames. Once we established there was a signal, the next hurdle was cross-user generalization. Everyone’s facial anatomy, and hence RF signal patterns, are vastly different. We tried algorithmic workarounds but realized the only lever was to massively scale pretraining data.<p>So that’s what we did. We set up booths in our office and paid people to read prompts wearing our glasses, to pretrain our models on. This produced a beautiful scaling curve, with errors falling quickly as we scaled our dataset and cross-user performance becoming genuinely compelling (as you see in the video above; Dave only had a short 20-sentence calibration).<p>We always heard about building things from first principles but never understood it before this. We tried tackling it top down but completely failed. Only when we broke each component (the antenna, electronics, ML) down to its fundamentals to understand and optimize it did we get it to work really well.<p>Over the next few months we’re continuing R&amp;D to turn our prototype glasses into the slick product on our website and ship in Q1 2027. We’re also scaling up our dataset to improve performance on edge cases.<p>For anyone who loves voice dictation but hates using it around people, we’ve opened preorders for our first batch of 500 units, with a $200 discount off the final price. Allocation is running out quickly, so get yours at <a href=\"https:&#x2F;&#x2F;subvocal.co&#x2F;preorder\" rel=\"nofollow\">https:&#x2F;&#x2F;subvocal.co&#x2F;preorder</a>!",
+      "oneLineKo": "소리 없이 입모양만으로 입력하는 스마트글라스",
+      "summaryKo": "YC 소속 스타트업 Subvocal이 소리 내지 않고 입만 움직이거나 입을 닫은 채로도 텍스트를 입력할 수 있는 스마트글라스를 공개했다. 초기에는 EMG 전극을 얼굴에 부착하는 방식을 시도했으나 땀, 전기 간섭, 전극 위치 문제로 RF(무선 신호) 방식으로 전환했다. 안경이 블루투스와 유사한 전파를 방출해 혀, 입술, 입천장의 움직임에 따른 신호 변조를 포착하고, 이를 파운데이션 모델로 학습시켜 텍스트로 변환한다.",
+      "tags": [
+        "wearable",
+        "silent-speech",
+        "rf-sensing"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36496&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Oracle, AI 인프라 확충 위해 약 26조원 규모 신주와 채권 발행 계획 제출",
+      "url": "https://news.hada.io/topic?id=36496&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36496&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-03T09:37:29+09:00",
+      "snippet": "Oracle이 AI 인프라 확충을 위해 총 200억 달러($20b) 규모의 발행 계획을 미국 증권거래위원회에 제출함. 보통주와 선순위 채권 각각 100억 달러로 구성됨 지난주 투자자의 날에 이미 예고한 자금 조달이지만, 제출 당일 주가는 8.8% 하락 함 회사는 2027~2030회계연도 투자 주기의 추가 자본시장 조달액을 200억 달러로 제한 하고, 공급업체 금융과 고객 제공 하드웨어, 고객 선급금을 활용할 계획임 2028년 하반기 잉여현금흐름 흑자 전환 을 예상하며, 2030회계연도 매출은 최소 2,250억 달러로 전망함 AI 인프라 투자에 따른 대규모 부 …",
+      "oneLineKo": "Oracle, AI 인프라 확충 위해 200억달러 증자·채권 발행",
+      "summaryKo": "Oracle이 AI 인프라 확충을 위해 보통주 100억 달러와 선순위 채권 100억 달러, 총 200억 달러 규모의 자금 조달 계획을 미국 증권거래위원회에 제출했다. 지난 투자자의 날에 예고된 내용이지만 발표 당일 주가는 8.8% 하락했다. 회사는 2027~2030회계연도 투자 주기 중 추가 자본시장 조달을 200억 달러로 제한하고 공급업체 금융과 고객 선급금 등을 활용할 계획이며, 2028년 하반기 잉여현금흐름 흑자 전환과 2030회계연도 최소 2,250억 달러 매출을 전망했다.",
+      "tags": [
+        "oracle",
+        "ai-infrastructure",
+        "finance"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50341174",
+      "title": "Astra can read and write weights to improve Qwen",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50341174",
+      "publishedAt": "2026-11-02T18:21:28Z",
+      "score": 2059,
+      "comments": 672,
+      "snippet": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights on this site; this gives it the look of the it is in the source --> , an SVG cannot use the page's web fonts and falls back to Helvetica, so each one is put into the page itself: its text is then set in Source Sans 3 and JetBrains Mono like the rest. If the file cannot be fetched (the page opened as a file), the stays. --> Rikiya Takehi News Publications Blog Experience CV 日本語 Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights Authors Rikiya Takehi * Jayden Teoh * Alex Zhang Omar Khattab Affiliations MIT CSAIL MIT CSAIL MIT CSAIL MIT CSAIL Published November 2, 2026 TL;DR We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights , well past what we’d expect from humans or conventional algorithms. This might be a big deal for both optimization and interpretability. Just by looking at the raw weights, GPT-6 Astra can tell what a network was trained to do . And without any environment feedback, it has no trouble writing, from scratch, small game-playing networks that outplay networks trained with PPO for 100 million steps. Likewise, asked to make Qwen3.5-0.8B better at math without gradients, Astra identifies an issue in its weights causing reasoning loops that Qwen’s own model card warns about, and fixes this by natively editing 0.016% of the weights . With the same sampling settings, this weight correction raises MATH-500 from 7.9% to 48.1% and generalizes out of the box to instruction following, raising IFEval by 3x. All of this is possible without allowing Astra to write training loops. It uses its reasoning to figure out what each part of a neural network computes, or should compute, and changes the weights accordingly. We call this Weight-Space Programming . Throughout the history of deep learning, we encoded our simplistic inductive biases into tiny symbolic optimizers like Adam or Muon. This is changing: our neural network weights will soon be natively optimized by LLMs that deliberately reason about their weights . Read Which game was this neural network trained on? Astra reads the 17,253 weights, with no tools Breakout 99% confident Fix A trained policy never gets the car over the strip. Astra edits 3.5% of the weights, in one shot 100% success, up from 0% Improve Make Qwen3.5-0.8B better at math. 7.9% base 7.9% Astra&rsquo;s edit Astra edits the weights in a Python kernel, with no training 48.1% on MATH-500, up from 7.9% If you were asked to handcraft a neural network that plays Go, what would you do? If you were handed raw neural network weights and asked to predict their behavior, where would you even start? For almost any human, this is practically impossible. Today, weights are written by optimization , by custom networks trained to write them , or by compilers from formal programs . In this post, we find that the current generation of frontier LLMs, used nativel",
+      "oneLineKo": "LLM이 신경망 가중치를 직접 읽고 수정하는 'Weight-Space Programming' 실험",
+      "summaryKo": "MIT CSAIL 연구진은 프론티어 LLM인 GPT-6 Astra가 그래디언트나 학습 루프 없이도 신경망의 원시 가중치를 직접 읽고 써서 동작을 파악하고 수정할 수 있음을 보였다. Astra는 가중치만 보고 네트워크의 학습 목적을 추론하거나, PPO로 1억 스텝 학습된 게임 네트워크를 능가하는 네트워크를 처음부터 작성했다. 또한 Qwen3.5-0.8B 모델의 가중치 중 0.016%만 직접 수정해 MATH-500 점수를 7.9%에서 48.1%로, IFEval 성능을 3배 향상시켰다. 연구진은 이를 전통적 옵티마이저(Adam, Muon)를 대체할 수 있는 'Weight-Space Programming'이라는 새로운 패러다임으로 제시한다.",
+      "tags": [
+        "llm",
+        "interpretability",
+        "weight-space-programming"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36482&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "실직한 기술직 노동자들, 샌프란시스코 AI 호황에서 소외되다",
+      "url": "https://news.hada.io/topic?id=36482&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36482&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-03T05:43:08+09:00",
+      "snippet": "Anthropic과 OpenAI가 창출하는 막대한 부 에 가려 샌프란시스코의 해고와 불확실한 고용시장이 주목받지 못하고 있음 두 기업의 예정된 기업공개(IPO) 는 샌프란시스코에 큰 부를 가져올 것으로 예상됨 골든게이트교 건너편에서는 해고된 노동자 48명 이상 이 모인 산행이 AI 호황의 다른 면을 드러냄 참가자들은 월요일 오전 11시, 샌프란시스코만을 내려다보는 Mount Tamalpais 를 찾음 전 Google 직원 Basem Istanbouli 가 이끈 참가자들은 약 12명씩 무리를 지어 한산한 등산로를 내려옴 AI가 만드는 부와 불확실한 고용시장 Anthropic과 …",
+      "oneLineKo": "샌프란시스코, AI 호황 속 해고 노동자는 소외",
+      "summaryKo": "Anthropic과 OpenAI 등 AI 기업들이 막대한 부를 창출하며 기업공개(IPO)를 앞두고 있지만, 샌프란시스코의 해고와 불안정한 고용시장은 상대적으로 주목받지 못하고 있다. 전 Google 직원 Basem Istanbouli가 이끄는 해고 노동자 48명 이상이 Mount Tamalpais에서 모임을 갖고 AI 호황의 이면을 드러냈다. 이는 AI 산업의 성장과 실직 노동자들 사이의 격차를 보여주는 사례로 소개됐다.",
+      "tags": [
+        "ai",
+        "layoffs",
+        "tech-industry"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50337608",
+      "title": "WTF Ubuntu?",
+      "url": "https://chalmovsky.com/posts/wtf-ubuntu",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50337608",
+      "publishedAt": "2026-11-02T14:52:00Z",
+      "score": 1357,
+      "comments": 589,
+      "snippet": "WTF Ubuntu? WTF Ubuntu? 2026-11-02 What the fuck, Ubuntu? In case you missed it: CVE-2026-98432 is a critical (CVSS 9.8) bug in the Linux kernel's TCP code. It's been there since 2016, so virtually every Linux server on the planet has it, and it can be hit remotely. Anthropic says it built a working exploit that gets root on a server. A total takeover. Debian patched it on October 16 . Ubuntu still doesn't have a patch more than two weeks later. Every supported release, LTS included, is listed as \"Vulnerable\". Ubuntu's website promises \"timely patches for critical vulnerabilities.\" Ubuntu hasn't shipped the patch nine days after it was rated 9.8 and six days after a working root exploit. Very fucking timely indeed. Software is full of this blabber where words mean nothing. Ubuntu uses words like these: \"Timely.\" \"Enterprise-grade.\" \"Production grade.\" \"Enterprise resilience. Developer velocity. Build with confidence on Ubuntu.\" Somebody, or perhaps worse, some special team at Canonical is dedicated to writing these........ So I'm asking again... What the fuck, Ubuntu? I'm moving all my servers off Ubuntu. I've completely lost trust in it. On the desktop I always hated it anyway. On servers I mostly used it because it's the default on most VPS providers, and I considered it the solid, no-drama LTS distro. Fuck that now. I can't express how crazy this is. I didn't have time to migrate my services and data when I learned about this, so I had to take all my servers that run Ubuntu offline. Oh and btw, distros run by volunteers (Debian, Arch, Alpine...) hve shipped the fix. Meanwhile Ubuntu, made by a company that sells security subscriptions, hasn't. This is true as of 2026-11-02 14:48 UTC. Added after this blew up: Can't beat all the bullshit, so I parody it at Bloatberg . ← Posts",
+      "oneLineKo": "Ubuntu, 치명적 커널 CVE 패치 2주 넘게 지연",
+      "summaryKo": "리눅스 커널 TCP 코드의 CVSS 9.8 취약점(CVE-2026-98432)이 2016년부터 존재했으며 원격으로 루트 권한 탈취가 가능한 것으로 확인됐다. Debian은 10월 16일 패치를 배포했지만 Ubuntu는 2주 넘게 지나도록 모든 지원 릴리스(LTS 포함)가 여전히 취약 상태로 남아있다. 저자는 Canonical이 '적시 패치', '엔터프라이즈급 보안'을 내세우면서도 실제로는 대응이 늦다며 신뢰를 잃었다고 비판하고 서버를 Ubuntu에서 이전하겠다고 밝혔다.",
+      "tags": [
+        "linux-kernel",
+        "ubuntu",
+        "security-vulnerability"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36505&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "국가 슈퍼컴퓨터 ‘한강’, GPU 8,496개 탑재해 12월 14일 정식 서비스 시작",
+      "url": "https://news.hada.io/topic?id=36505&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36505&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-03T11:00:03+09:00",
+      "snippet": "국가 슈퍼컴퓨터 6호기 ‘한강’이 12월 14일 공식 서비스를 시작 할 예정임. 10월 26일 베타서비스를 열었으며, 11월 2일 대전 KISTI 본원에서 가동식을 개최 NVIDIA GH200 8,336개와 H200 160개 , 총 GPU 8,496개를 탑재하며 CPU는 9,936개로 구성됨 이론 연산성능 614PF , 저장공간 205PB, 400Gbps 이상의 네트워크 성능을 갖춤 2018년 도입한 5호기 ‘누리온’ 대비 이론 연산성능은 24배, 저장공간은 10배, 네트워크 성능은 4배 로 확대됨 기존 CPU 기반의 대규모 계산과학과 시뮬레이션에 더해, GPU를 활용한 AI 기반 과학연구 까지 지원 …",
+      "oneLineKo": "국가 슈퍼컴퓨터 '한강' GPU 8,496개로 12월 정식 가동",
+      "summaryKo": "국가 슈퍼컴퓨터 6호기 '한강'이 12월 14일 정식 서비스를 시작한다. NVIDIA GH200 8,336개와 H200 160개 등 총 GPU 8,496개, CPU 9,936개를 탑재했으며 이론 연산성능은 614PF, 저장공간은 205PB에 달한다. 이는 2018년 도입된 5호기 '누리온' 대비 연산성능 24배, 저장공간 10배, 네트워크 성능 4배 향상된 수치다. 기존 CPU 기반 계산과학 시뮬레이션에 더해 GPU 기반 AI 과학연구도 지원할 예정이다.",
+      "tags": [
+        "supercomputer",
+        "gpu",
+        "hpc"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50336518",
+      "title": "If you love a website, back it up",
+      "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50336518",
+      "publishedAt": "2026-11-02T13:25:35Z",
+      "score": 426,
+      "comments": 99,
+      "snippet": "If you love a website, back it up - The Future Is Now The Future Is Now RSS Blog Archives If you love a website, back it up Oct 29 th , 2026 4:21 pm This story starts with a little tragedy. See, I’ve got these old webpages I love to go back and look on every now and then. There’s websites that have been online unchanged for years and years, or decades, and there’s something a little cozy about checking in on them every now and then to see an old friend is still doing okay. Sometimes, of course, tragedy strikes. There was this fansite called teapuppies.com for an old anime series and and toy line called Ochaken . It’s about these cute cartoon dog characters who have tea leaves for ears, each of them named after a different kind of tea. 1 The site had been online since 2004 and had basically not changed since 2005, but it was nice just having it around. Except when I went to visit it a few weeks ago, and discovered that not only was the site gone but the domain is now being used to serve online gambling ads. I work in web archiving, by the way. Which is to say that I should have known the site would go offline someday, and that I have the tools to have done something about it. I could have archived that site while it was still around, but I didn’t. This post is here to beg you to do what I didn’t think to, and to teach you how. You see, when I talk to a lot of people about web archiving, they always seem to believe it’s something they couldn’t do. It’s something a big organization like the Internet Archive does, and if you want a webpage to be saved you just have to wait and hope it gets done. But that’s not true! What I really want everyone to know is that you have control over the world around you, you can take action to preserve things and make things better. And not just can , but should ! Don’t just wait for someone else to act - get out there and and make it happen! Got a favourite site? Back it up! Got some information you don’t want to get lost? Back it up! Favourite post somewhere? All together now. Back! It! Up! All of the tools I’ll be showing off in this post use standard web archiving formats like WARC 2 . You don’t have to worry about any of the technical details 3 , but I’m telling you that because it means there are a lot of really great tools to do whatever you want with them. Here, just as an example, is an entire archived website embedded right in this blog post: You can even click through all the links, look at all of the images, the works. It’s an entire website right in a post! (And if you don’t trust me to keep this up, and you want the web archive to host somewhere else? You can download it for yourself right from there. Just click the kebab menu and choose “download archive”, and you can do whatever you like with it. In fact, please do!) By the way, for disclosure: the tools I’m going to mention in this blog post are made by the company I work for, but that’s not because they’ll pay my salary (most of them are free!). I jus",
+      "oneLineKo": "좋아하는 웹사이트, 사라지기 전에 직접 백업하자",
+      "summaryKo": "웹 아카이빙 업계 종사자인 저자는 20년간 즐겨 보던 애니메이션 팬사이트가 어느 날 사라지고 도박 광고 사이트로 바뀐 경험을 공유한다. 많은 사람들이 웹 아카이빙을 인터넷 아카이브 같은 큰 조직만의 일이라 생각하지만, 실제로는 누구나 WARC 같은 표준 포맷을 이용해 직접 웹사이트를 백업할 수 있다고 강조한다. 글에서는 블로그 포스트 안에 전체 웹사이트를 임베드하고 클릭까지 가능한 실제 아카이브 예시를 보여주며, 좋아하는 사이트나 정보는 사라지기 전에 직접 보존할 것을 권장한다.",
+      "tags": [
+        "web-archiving",
+        "warc",
+        "digital-preservation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50341462",
+      "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+      "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50341462",
+      "publishedAt": "2026-11-02T18:39:38Z",
+      "score": 364,
+      "comments": 88,
+      "snippet": "Ubuntu LTS kernels still unfixed for critical CVE-2026-98432 · freenode free node IRC About ◐ Kernel Distros Desktop Internet Web Languages Infra Security Cryptocurrency AI Policy Self-Hosted Digests Self-Hosted By relay October 31, 2026 Ubuntu LTS kernels still unfixed for critical CVE-2026-98432 No patched kernels are available yet for 22.04, 24.04, or 26.04 despite a CVSS 9.8 rating. L Ubuntu has not shipped fixed kernels for CVE-2026-98432 , a critical vulnerability scored CVSS 9.8, leaving the 22.04, 24.04, and 26.04 LTS releases without a vendor update. Operators running those releases therefore have no official kernel package that closes the hole. The gap matters most for internet-facing and multi-tenant self-hosted systems that rely on Ubuntu’s LTS kernels for isolation and privilege boundaries; until packages appear, those hosts remain exposed to whatever remote or local attack the CVE enables. Ubuntu has not announced an ETA for the fixes. In the interim, affected administrators are left to decide whether to stay on the stock kernel, apply out-of-tree mitigations if any exist, or move workloads onto releases or kernels that already carry the patch. #ubuntu #linux #kernel #security #cve Related Kernel & Low-Level 58m ago Kernel coverage gets one framework, Clang MC/DC support Kernel & Low-Level 2h ago Kernel drops PSP and kTLS offload packets that would leave cleartext Kernel & Low-Level 6h ago F2FS gains sub-page block support for 16KB Android kernels Kernel & Low-Level 7h ago Linux caps IP fragment truesize to stop unprivileged socket UAF Sections Kernel & Low-Level Distributions & Plumbing Desktop & Graphics Internet & Protocols Web Platform Languages & Toolchains Databases & Infrastructure Security & Cryptography Cryptocurrency AI & ML Policy & Civil Liberties Self-Hosted Read Daily digests Releases Security advisories RSS Company About IRC Network Write for us Contact Send a tip Legal Terms of Use Privacy Policy &copy; 2026 freenode. All rights reserved. Product, project, and company names mentioned on this site are trademarks of their respective owners, and are referenced solely for purposes of identification and news reporting. Material on this site is provided for general informational purposes only, is subject to change without notice, and is provided without warranty of any kind. Nothing on this site constitutes professional, legal, financial, or investment advice, an offer or solicitation of any kind, or a recommendation with respect to any digital asset. Reporting draws on publicly available primary sources; quoted material remains the property of its authors. Use of this site is subject to the Terms of Use and Privacy Policy .",
+      "oneLineKo": "우분투, CVSS 9.8 커널 RCE 3주째 미패치",
+      "summaryKo": "CVSS 9.8점의 심각한 커널 취약점 CVE-2026-98432에 대해 우분투 22.04, 24.04, 26.04 LTS용 패치된 커널이 아직 배포되지 않았다. 우분투는 수정 일정(ETA)도 공지하지 않은 상태다. 인터넷에 노출된 서버나 멀티테넌트 환경은 격리 및 권한 경계가 뚫릴 위험에 그대로 노출되어 있으며, 관리자들은 기존 커널 유지, 임시 완화책 적용, 또는 패치된 다른 배포판/커널로의 이전 중 선택해야 하는 상황이다.",
+      "tags": [
+        "ubuntu",
+        "linux-kernel",
+        "cve"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50339397",
+      "title": "US boy names that became girl names and vice versa",
+      "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50339397",
+      "publishedAt": "2026-11-02T16:34:36Z",
+      "score": 308,
+      "comments": 321,
+      "oneLineKo": "남녀 성별 뒤바뀐 미국 이름 변천사",
+      "summaryKo": "미국에서 원래 남자아이 이름으로 쓰이다가 여자아이 이름으로 바뀐 사례, 혹은 그 반대의 사례를 다룬 글입니다. 시간이 지나며 이름의 성별 인식이 어떻게 변화했는지를 소개하는 내용으로 추정됩니다. 본문 내용은 제공되지 않아 제목에서 유추 가능한 범위로만 설명됩니다.",
+      "tags": [
+        "naming",
+        "culture",
+        "data"
+      ]
+    }
+  ]
+}
