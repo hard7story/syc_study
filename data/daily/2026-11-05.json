@@ -1,0 +1,279 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T01:54:51.907Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36609&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "LLM은 신경망 가중치를 읽고 쓰는 데 초인적이지 않다",
+      "url": "https://news.hada.io/topic?id=36609&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36609&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-05T05:38:00+09:00",
+      "snippet": "GPT-6 Astra의 신경망 가중치 분석과 수정 은 인상적이지만, 유능한 인간 ML 연구자도 수행할 수 있는 작업임 작은 게임 신경망은 입력 채널에 격자 위치와 의미가 드러나 있어 , 첫 번째 층 가중치의 크기를 분석하면 어떤 게임을 학습했는지 알아낼 단서를 얻을 수 있음 0.8B Qwen의 수학 성능 향상 은 새로운 수학 능력을 심기보다, 32k 토큰 이후 반복에 빠지는 특정 문제를 고쳐 더 오래 문제를 풀 수 있게 한 결과임 Astra는 반복하는 추론과 그렇지 않은 추론을 비교하고 관련 가중치를 줄이는 스티어링 계열 접근법 을 사용했으며, 이 …",
+      "oneLineKo": "LLM의 가중치 분석·수정 능력, 인간 전문가 수준에 그쳐",
+      "summaryKo": "GPT-6 Astra가 신경망 가중치를 분석하고 수정하는 능력이 인상적으로 보이지만, 이는 유능한 인간 ML 연구자도 할 수 있는 작업 수준이라는 분석이다. 0.8B Qwen 모델의 수학 성능 향상 사례는 새로운 수학 능력이 생긴 것이 아니라, 32k 토큰 이후 반복에 빠지는 문제를 고쳐 더 오래 풀 수 있게 된 결과로 설명된다. Astra는 반복하는 추론과 그렇지 않은 추론을 비교해 관련 가중치를 줄이는 스티어링 계열 접근법을 사용했다.",
+      "tags": [
+        "llm",
+        "interpretability",
+        "neural-network"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50369925",
+      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "url": "https://www.ricursive.com/ripple",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50369925",
+      "publishedAt": "2026-11-04T18:53:29Z",
+      "score": 220,
+      "comments": 78,
+      "snippet": "Recursive Self-Improvement via AI for Chip Design & Chip Design for AI - Ricursive Intelligence Introducing Ripple-65B Preview, a Frontier Open-Weight Model Achieving U.S. Open-Weight SOTA on Agentic Coding Achieving U.S. Open-Weight SOTA on Agentic Coding Ricursive Intelligence is a full-stack artificial intelligence lab building self-improving systems by co-optimizing hardware, software, and model. To power our chip design platform, we trained a language model from scratch that sets a new U.S. open-weight SOTA on agentic coding. We optimized the model architecture for our training and serving platforms, driving substantial efficiency gains. Today, we release Ripple-65B Preview , a general-purpose variant of the proprietary model that powers our AI chip design platform. The model is pretrained on 12 trillion tokens with support for up to 1M context length. Ripple-65B Preview delivers strong results on agentic coding, achieving U.S. open-weight state-of-the-art (80.52) on TerminalBench 2.1 and surpassing significantly larger US open-weight models such as Reflection Beam 501B (80.1), Meta Muse Spark Open 816B (76.4), Thinking Machines Inkling 975B (63.8), and NVIDIA Nemotron 3 Ultra 550B (56.4). Ripple’s dense model architecture provides strong reasoning performance with low-latency token generation. The model’s small parameter envelope also enables it to run efficiently on local devices such as NVIDIA DGX Spark, which feature high compute FLOPs with low memory bandwidth relative to datacenter accelerators. Ripple-65B Preview is available on Hugging Face , Together AI , GMI Cloud , and OpenRouter . Fireworks goes live later today. Achieving U.S. Open-Weight Frontier at One-Tenth Cost LLM pretraining is legendarily expensive. In 2023, OpenAI CEO Sam Altman said that GPT-4 training costs exceeded $100 million . In the following year, Dario Amodei said that frontier AI models can cost up to $1 billion to train, projecting that costs would rise to $10-100B by 2026 to 2027 for pretraining alone. In contrast, we developed and trained Ripple-65B Preview for only $32M, which is one-tenth the cost of the previous open-weight SOTA on agentic coding , as estimated to the best of our knowledge. ¹ Note that $32M is our full R&D cost starting from scratch, including pretraining ladder development, data mixing, evals, debugging, synthetic data generation, posttraining recipe development, and the final hero pretraining and posttraining run. Steep Ascent Reinforcement Learning Rather than investing in a brute-force RL climb, we carefully iterated on our SFT and RL recipes with a focus on compute efficiency. We opted not to buy any posttraining data, instead devising our own synthetic data pipelines, quality filtering, and coverage metrics. Our mixed RL recipe uses truncated importance sampling , score centering , and linear length penalty with high-quality long-horizon synthetic environments. The RL tasks are tuned for our model capabilities, and we continuously a",
+      "oneLineKo": "Ripple-65B, 저비용으로 미국 오픈웨이트 에이전틱 코딩 SOTA 달성",
+      "summaryKo": "Ricursive Intelligence가 자체 칩 설계 플랫폼을 위해 처음부터 학습한 언어모델 Ripple-65B Preview를 공개했다. 12조 토큰으로 사전학습되고 최대 100만 토큰 컨텍스트를 지원하며, TerminalBench 2.1에서 80.52점으로 미국 오픈웨이트 모델 중 SOTA를 기록해 501B~975B급 대형 모델들을 능가했다. 특히 전체 R&D 비용을 약 3200만 달러로, 기존 SOTA 대비 10분의 1 수준으로 절감했다고 밝혔다. 모델은 Hugging Face, Together AI, GMI Cloud, OpenRouter 등에서 이용 가능하다.",
+      "tags": [
+        "llm",
+        "agentic-coding",
+        "open-weight"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xnucc3",
+      "title": "C++26 disapproved by the ISO National Bodies",
+      "url": "https://www.reddit.com/r/programming/comments/1xnucc3/c26_disapproved_by_the_iso_national_bodies/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xnucc3/c26_disapproved_by_the_iso_national_bodies/",
+      "publishedAt": "2026-11-04T17:32:10+00:00",
+      "snippet": "submitted by /u/alexeyr [link] [comments]",
+      "oneLineKo": "C++26, ISO 국가 회원국 투표에서 부결",
+      "summaryKo": "C++26 표준안이 ISO 국가 표준화 기구들의 투표에서 승인을 받지 못한 것으로 전해졌습니다. 본문 내용이 제목 외에 제공되지 않아 구체적인 부결 사유나 향후 일정 등은 확인되지 않습니다. 커뮤니티에서는 이와 관련된 논의가 이루어지고 있습니다.",
+      "tags": [
+        "c++",
+        "iso",
+        "standards"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36621&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "OpenAI, Pierre Computer Company 인수 예정",
+      "url": "https://news.hada.io/topic?id=36621&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36621&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-05T09:31:40+09:00",
+      "snippet": "OpenAI가 Code Storage 와 오픈 소스 개발자 도구를 만든 Pierre Computer Company 를 인수해, Codex의 코드 작성, 이해, 검토 도구를 확장할 예정임 Codex는 이미 Pierre의 Trees와 Diffs 라이브러리를 파일 탐색과 변경 사항 검토에 사용하고 있으며, 두 회사는 코딩 에이전트와 협업하는 팀에 맞춰 Git 워크플로를 발전시키려 함 Pierre의 도구는 대규모 코드 탐색과 검토뿐 아니라, 변경 사항 비교 화면에서 직접 수정 하거나 입력과 에이전트의 코드 스트리밍에 맞춰 구문 강조를 갱신하는 기능을 제공함 Pierre의 오픈 소스 프로젝트는 …",
+      "oneLineKo": "OpenAI, 코드 리뷰 도구 Pierre Computer Company 인수",
+      "summaryKo": "OpenAI가 Code Storage와 오픈 소스 개발자 도구를 만든 Pierre Computer Company를 인수해 Codex의 코드 작성·이해·검토 기능을 확장할 예정이다. Codex는 이미 Pierre의 Trees와 Diffs 라이브러리를 파일 탐색과 변경 사항 검토에 활용하고 있다. 양사는 코딩 에이전트와 협업하는 팀을 위한 Git 워크플로 개선을 목표로 한다. Pierre의 도구는 변경 사항 비교 화면에서 직접 수정하거나 에이전트의 코드 스트리밍에 맞춰 구문 강조를 갱신하는 기능을 제공한다.",
+      "tags": [
+        "openai",
+        "codex",
+        "developer-tools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50366117",
+      "title": "Ask HN: What's your current AI agentic setup?",
+      "url": "https://news.ycombinator.com/item?id=50366117",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50366117",
+      "publishedAt": "2026-11-04T14:37:22Z",
+      "score": 118,
+      "comments": 140,
+      "snippet": "I&#x27;m curious how people on HN are using AI day to day, and came up with a list of questions I thought could be interesting to know. No need to answer every question of course, just wanted to get a gut feel how people are using AI.<p>1) What AI subscriptions are you personally paying for? (Claude, ChatGPT&#x2F;Codex, Cursor, etc)<p>- Which tiers?<p>- Have you purchased multiple subscriptions from the same provider (eg two Claude accounts)?<p>2) Are you using models outside (or instead) of those subscriptions? For example, pay-as-you-go APIs, OpenRouter, or locally hosted models.<p>- Which models and providers?<p>3) What coding harnesses and interfaces are you using? Are you sticking with the default CLIs or IDE integrations, or using alternatives like OpenCode, Pi, Aider, Muse Code, or custom-built harnesses?<p>- What made you switch harnesses (if you switched)?<p>4) Are you using any agent orchestration or swarm tools?<p>- For example, Munder Difflin, Gas Town, Ruflo, or something custom.<p>5) Are you using broader agent platforms like OpenClaw &#x2F; Hermes Agent &#x2F; Grok bot &#x2F; Dots &#x2F; Muse?<p>- If you are using them, what are your main use cases?<p>-----<p>I know my workflow has differed significantly from a year ago, and so it would be interesting to capture a snapshot today of what people are using and why.",
+      "oneLineKo": "HN 사용자들의 AI 에이전트 활용 설문 질문",
+      "summaryKo": "HN 게시자가 다른 사용자들에게 현재 AI 에이전트 사용 방식을 묻는 질문 글이다. Claude, ChatGPT, Cursor 등 유료 구독 현황, OpenRouter나 로컬 모델 같은 대안 활용 여부, Aider나 OpenCode 같은 코딩 하네스 선택 이유, 에이전트 오케스트레이션 도구 및 플랫폼 사용 경험 등을 설문 형식으로 질문한다. 1년 전과 비교해 워크플로우가 어떻게 변했는지 현재 시점의 스냅샷을 얻고자 하는 목적이다.",
+      "tags": [
+        "ai-agent",
+        "llm",
+        "developer-tools"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xnq1xx",
+      "title": "Shlemiel the Painter Is Back: How Zig’s libc Rewrite Made SQLite 12,000× Slower",
+      "url": "https://www.reddit.com/r/programming/comments/1xnq1xx/shlemiel_the_painter_is_back_how_zigs_libc/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xnq1xx/shlemiel_the_painter_is_back_how_zigs_libc/",
+      "publishedAt": "2026-11-04T14:46:58+00:00",
+      "snippet": "submitted by /u/gallery_rose [link] [comments]",
+      "oneLineKo": "Zig libc 재작성, SQLite 성능 12,000배 저하 유발",
+      "summaryKo": "Zig 언어의 libc 재구현이 SQLite 실행 속도를 최대 12,000배까지 느리게 만드는 문제가 발견되었다는 내용이다. 제목은 이를 고전적인 비효율 알고리즘 문제인 'Shlemiel the Painter' 사례에 빗대어 표현하고 있다. 본문 내용이 제한적이어서 구체적인 원인 분석이나 해결 방안은 명시되어 있지 않다.",
+      "tags": [
+        "zig",
+        "libc",
+        "sqlite"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36619&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "AI는 랜섬웨어 암호화를 해독하지 않고 어떻게 파일을 복구했는가?",
+      "url": "https://news.hada.io/topic?id=36619&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36619&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-05T09:21:46+09:00",
+      "snippet": "원문: AI Unlocked My Ransomware-Encrypted Files — Without the Key 작성자: Vitalijus Weax 주제: Claude AI를 활용한 Scarab 랜섬웨어 피해 파일 복구 사례 요약 개요 핵심 주장: AI가 랜섬웨어의 암호화 키를 해독하지 않고, 암호화되지 않은 데이터와 파일 구조 분석을 통해 상당수의 파일을 복구했다. 사건 배경: 2019년 Scarab 랜섬웨어에 감염되어 약 700개의 파일이 암호화되었으며, 7년간 보관한 파일을 Claude로 복구했다. 기술적 원인: 해당 Scarab 변종은 파일 전체가 아닌 앞부분 16KB만 암호화하여 나머지 데이터가 보존 …",
+      "oneLineKo": "Claude AI, 랜섬웨어 암호화 안 된 부분으로 파일 복구",
+      "summaryKo": "2019년 Scarab 랜섬웨어에 감염되어 약 700개 파일이 암호화된 사례에서, Claude AI를 활용해 암호화 키 없이 파일을 복구한 사례가 소개되었다. 해당 Scarab 변종은 파일 전체가 아닌 앞부분 16KB만 암호화하는 특성이 있어 나머지 데이터와 파일 구조가 보존되어 있었다. AI는 이 보존된 데이터와 구조 정보를 분석해 암호화되지 않은 부분을 기반으로 상당수 파일을 복구하는 데 성공했다. 이는 암호 해독이 아닌 데이터 구조 분석을 통한 복구 접근법을 보여주는 사례다.",
+      "tags": [
+        "ransomware",
+        "ai",
+        "data-recovery"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50364336",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50364336",
+      "publishedAt": "2026-11-04T11:52:17Z",
+      "score": 1065,
+      "comments": 633,
+      "snippet": "--> Raven.config('https://6b64f5cc8af542cbb920e0238864390a@sentry.io/147999').install(); PHP2Shell Is a Wakeup Call for AI in Cybersecurity - IEEE Spectrum IEEE.org IEEE Xplore IEEE Standards IEEE Job Site More Sites Sign In Join IEEE The November issue of IEEE Spectrum is here! Download PDF ↓ Close bar The PHP2Shell Vulnerability Heralds Cybersecurity Hell Share FOR THE TECHNOLOGY INSIDER Search: Explore by topic Aerospace AI Biomedical Climate Tech Computing Consumer Electronics Energy History of Technology Robotics Semiconductors Telecommunications Transportation IEEE Spectrum FOR THE TECHNOLOGY INSIDER Topics Aerospace AI Biomedical Climate Tech Computing Consumer Electronics Energy History of Technology Robotics Semiconductors Telecommunications Transportation Sections Features News Opinion Careers DIY Engineering Resources More Newsletters Special Reports Collections Explainers Top Programming Languages Robots Guide ↗ IEEE Job Site ↗ For IEEE Members Current Issue Magazine Archive The Institute The Institute Archive For IEEE Members Current Issue Magazine Archive The Institute The Institute Archive IEEE Spectrum About Us Contact Us Reprints & Permissions ↗ Advertising ↗ Follow IEEE Spectrum Support IEEE Spectrum IEEE Spectrum is the flagship publication of the IEEE — the world’s largest professional organization devoted to engineering and applied sciences. Our articles, videos, and infographics inform our readers about developments in technology, engineering, and science. Subscribe About IEEE Contact & Support Accessibility Nondiscrimination Policy Terms IEEE Privacy Policy Cookie Preferences Ad Privacy Options © Copyright 2026 IEEE — All rights reserved. A public charity, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. Enjoy more free content and benefits by creating an account Saving articles to read later requires an IEEE Spectrum account The Institute content is only available for members Downloading full PDF issues is exclusive for IEEE Members Downloading this e-book is exclusive for IEEE Members Access to Spectrum 's Digital Edition is exclusive for IEEE Members Following topics is a feature exclusive for IEEE Members Adding your response to an article requires an IEEE Spectrum account Create an account to access more content and features on IEEE Spectrum , including the ability to save articles to read later, download Spectrum Collections, and participate in conversations with readers and editors. For more exclusive content and features, consider Joining IEEE . Join the world’s largest professional organization devoted to engineering and applied sciences and get access to all of Spectrum’s articles, archives, PDF downloads, and other benefits. Learn more about IEEE → Join the world’s largest professional organization devoted to engineering and applied sciences and get access to this e-book plus all of IEEE Spectrum’s articles, archives, PDF downloads, and",
+      "oneLineKo": "PHP2Shell 취약점, AI 시대 사이버보안 경고음",
+      "summaryKo": "PHP2Shell이라는 취약점이 AI가 사이버보안에 가져올 위험성을 보여주는 경고 사례로 소개된다. 기사 제목에 따르면 AI가 약 40년간 쌓인 기술 부채를 해소하도록 강제하고 있다는 주장이 담겨 있다. 본문 내용은 대부분 IEEE Spectrum 사이트 구조 정보로, 구체적인 취약점 세부 내용은 확인되지 않는다.",
+      "tags": [
+        "cybersecurity",
+        "ai",
+        "vulnerability"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36620&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "sutura - AI 에이전트가 회사의 지표 정의로 데이터를 조회하게 해주는 쿼리 엔진",
+      "url": "https://news.hada.io/topic?id=36620&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36620&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-05T09:30:02+09:00",
+      "snippet": "대시보드에서 보던 매출을 AI 에이전트에 물어도, 회사가 정해 둔 같은 기준으로 계산 할 수 있게 해줌 ‘지난 분기 지역별 월간 매출’처럼 지표, 분류 기준, 기간, 집계 단위 를 지정해 요청함. 임의 SQL이나 필터 표현식은 받지 않음 앱과 에이전트는 HTTP 또는 MCP 로 연결함. Rust 기반의 sutura가 지표 정의를 바탕으로 SQL을 생성하고 실행함 카탈로그는 지표 계산 방식과 조인 관계를 제공 하고, 실제 데이터는 기존 데이터베이스나 웨어하우스에서 읽음 DataHub, OpenMetadata, Markdown을 카탈로그로 연결할 수 있음. Cube에 정의된 …",
+      "oneLineKo": "AI 에이전트용 지표 기반 쿼리 엔진 sutura 공개",
+      "summaryKo": "sutura는 AI 에이전트가 회사가 정의한 지표 기준으로 데이터를 조회할 수 있게 해주는 Rust 기반 쿼리 엔진이다. 임의의 SQL이나 필터 표현식 대신 지표, 분류 기준, 기간, 집계 단위를 지정하는 방식으로 요청하며, 앱과 에이전트는 HTTP 또는 MCP로 연결된다. 카탈로그가 지표 계산 방식과 조인 관계를 제공하고 실제 데이터는 기존 데이터베이스나 웨어하우스에서 읽어오며, DataHub, OpenMetadata, Markdown, Cube 등을 카탈로그로 연결할 수 있다.",
+      "tags": [
+        "rust",
+        "ai-agent",
+        "mcp"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50370654",
+      "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50370654",
+      "publishedAt": "2026-11-04T19:55:14Z",
+      "score": 100,
+      "comments": 42,
+      "snippet": "Cloud AI 100 Ultra | High Performance AI Inference | Qualcomm You need to enable JavaScript to run this app.",
+      "oneLineKo": "퀄컴, 128GB 메모리 탑재 150W AI 추론 가속기 카드 공개",
+      "summaryKo": "퀄컴이 Cloud AI 100 Ultra라는 AI 추론 가속기 카드를 공개했다. 이 제품은 150W의 전력으로 동작하며 128GB 메모리와 548GB/s의 메모리 대역폭을 제공한다. 데이터센터용 고성능 AI 추론 작업을 겨냥한 제품으로 소개되고 있다.",
+      "tags": [
+        "ai-accelerator",
+        "qualcomm",
+        "inference"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36613&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Tencent, 오픈소스 최상위권을 목표로 한 멀티모달 AI 모델 Hy4 공개",
+      "url": "https://news.hada.io/topic?id=36613&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36613&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-05T06:36:08+09:00",
+      "snippet": "Tencent가 멀티모달 AI 모델 Hy4 정식 버전 을 공개함. Tencent Cloud와 OpenRouter에서 먼저 제공하며, 모델 가중치는 추후 공개할 예정임 Hy4 계열에 처음으로 시각 인식과 컴퓨터 조작 을 도입함. 이미지와 차트를 읽고, CLI와 GUI를 오가며 Blender나 CAD 같은 전문 소프트웨어를 다룰 수 있음 게임 개발 벤치마크에서 Hy4 preview 대비 GameDev 19.1%, GameLogic 9.8% 향상됨. 금융 전문가 213명이 참여한 579개 실무 과제에서는 비교 대상 오픈 가중치 모델 중 가장 높은 점수를 받음 Hyra 2.0 과 결합한 연구에서는 소형 모델의 학습 …",
+      "oneLineKo": "Tencent, 시각·조작 특화 멀티모달 모델 Hy4 공개",
+      "summaryKo": "Tencent가 멀티모달 AI 모델 Hy4 정식 버전을 공개하며 Tencent Cloud와 OpenRouter를 통해 우선 제공하고, 모델 가중치는 추후 공개할 예정이다. Hy4는 시리즈 최초로 시각 인식과 컴퓨터 조작 기능을 도입해 이미지·차트 해석과 CLI/GUI 전환을 통한 Blender, CAD 등 전문 소프트웨어 조작이 가능하다. 게임 개발 벤치마크에서 이전 버전 대비 GameDev 19.1%, GameLogic 9.8% 성능 향상을 보였으며, 금융 전문가 213명이 참여한 579개 실무 과제 평가에서는 비교 대상 오픈 가중치 모델 중 최고 점수를 기록했다.",
+      "tags": [
+        "multimodal-ai",
+        "tencent",
+        "open-source"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50371246",
+      "title": "Residential proxies detected on White House network",
+      "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50371246",
+      "publishedAt": "2026-11-04T20:45:18Z",
+      "score": 638,
+      "comments": 208,
+      "snippet": "Residential Proxies Detected on White House Network LAYER 3 INTEL Tripwire Intel API IP Intel Pricing Blog Docs Contact Sign in Get started Tripwire Intel API IP Intel Pricing Blog Docs Contact Sign in Residential Proxies Detected on White House Network Layer3 Intel Team · November 4, 2026 Our Residential Proxy Observatory , launched earlier this week, is a first-of-its-kind interface that gives researchers a global view of residential proxy and anonymized internet activity. While our team was looking through it, we noticed residential proxy exit activity on AS2650 . AS2650 is registered to the Executive Office of the President, the federal agency that hosts the White House network. Residential proxy services sell access to everyday devices, letting customers send traffic through them so it appears to come from that device's network. Confirmed residential proxy activity observed from the White House network, October 5 to November 3, 2026. What we observed From October 5 to November 3: Our residential proxy enumeration pipeline exited through the White House network 236 separate times . Those exits came from 6 addresses , on 26 of the 30 days . 28 separate residential proxy services were able to exit through this network. To make sure this was not a fluke, we checked these addresses against other residential proxy detection services, such as Spur and Synthient. Their public IP context pages independently identify these addresses as residential proxy exits. This is public access. Anybody can obtain it by signing up to a public residential proxy service, paying a few dollars and sending requests through it. We did not selectively target this network or try to make our probes exit from it. We caught this by chance, simply by requesting global rotating access through these services. Why this is concerning Most of the activity happens in the evening, Eastern time: about half of it falls between 5 p.m. and midnight, and almost none happens in the early morning. That pattern suggests a person rather than a public guest Wi-Fi network: someone regularly on the White House network late into the evening, whose device is infected with a proxy SDK. Our data shows the exits, not the device or the person behind them. Past research has shown that poorly secured proxy SDKs can allow internal network access and lateral movement. This is how past botnets have spread. In A Broken System Fueling Botnets , the researchers at Synthient documented how the Kimwolf botnet reached at least 2 million devices, mostly Android devices with an exposed ADB service, through residential proxy networks. If an SDK on this network has the same kind of flaw, anyone buying proxy access could use it to reach internal systems. No place is too remote The White House is not the only surprise in the observatory. Residential proxies also reach some of the most isolated places on the planet. Saint Helena, Ascension and Tristan da Cunha is the South Atlantic territory that includes the most rem",
+      "oneLineKo": "백악관 네트워크서 주거용 프록시 활동 236건 포착",
+      "summaryKo": "보안업체 Layer3 Intel이 자사 Residential Proxy Observatory를 통해 백악관 네트워크(AS2650)에서 10월 5일부터 11월 3일까지 28개 프록시 서비스의 236건 종료 지점 활동을 발견했다. 이는 누구나 몇 달러로 가입할 수 있는 공개 프록시 서비스를 통한 것으로, 저녁 시간대에 집중된 패턴은 공용 와이파이가 아닌 특정 개인 기기에 프록시 SDK가 감염됐을 가능성을 시사한다. 과거 사례처럼 취약한 프록시 SDK가 내부망 접근 및 측면 이동 경로로 악용될 수 있어 보안 우려가 제기된다.",
+      "tags": [
+        "security",
+        "botnet",
+        "network-security"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36623&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Thoughtworks Technology Radar, Volume 35 공개",
+      "url": "https://news.hada.io/topic?id=36623&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36623&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-05T09:50:02+09:00",
+      "snippet": "테크닉/플랫폼/도구/언어 및 프레임워크 최신 트렌드 117개 항목 을 \"도입 권장/시험 사용/평가/주의\"의 4단계로 분류하고 설명 하네스 엔지니어링 이 개별 에이전트의 설정을 넘어, 조직이 스킬과 가드레일을 배포하고 지속적으로 평가하는 일로 확장됨 공개 가중치 모델과 로컬 코딩 모델 의 선택지가 늘면서 작업별 품질, 비용, 지연, 데이터 보관 조건에 맞춰 모델을 고르는 일이 중요해짐 에이전트 세션을 병렬로 돌리거나 밤새 작업을 맡길 수 있지만, 사람의 리뷰와 배포 파이프라인 이 처리할 수 있는 양은 따로 살펴야 함 AI를 대규 …",
+      "oneLineKo": "Thoughtworks 테크놀로지 레이더 35호, 117개 트렌드 공개",
+      "summaryKo": "Thoughtworks가 테크닉, 플랫폼, 도구, 언어/프레임워크 등 117개 최신 트렌드를 '도입 권장/시험 사용/평가/주의' 4단계로 분류해 공개했다. 하네스 엔지니어링이 개별 에이전트 설정을 넘어 조직 차원의 스킬·가드레일 배포 및 지속 평가로 확장되고 있음을 강조한다. 공개 가중치 모델과 로컬 코딩 모델의 선택지가 늘면서 작업별 품질·비용·지연·데이터 보관 조건에 맞는 모델 선택이 중요해졌다. 또한 에이전트 세션을 병렬 또는 야간 실행할 수 있지만, 사람의 리뷰와 배포 파이프라인 처리 용량을 별도로 고려해야 한다고 지적한다.",
+      "tags": [
+        "ai-agent",
+        "technology-radar",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50367125",
+      "title": "AMD expects to outsell Intel in Q4 for the first time in history",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50367125",
+      "publishedAt": "2026-11-04T15:38:34Z",
+      "score": 473,
+      "comments": 174,
+      "snippet": "AMD expects to outsell Intel in Q4 for the first time in history &mdash; $17B guidance would exceed Intel's projections | Tom's Hardware Skip to main content Join Tom&rsquo;s Hardware today Upgrade to Tom&rsquo;s Hardware Premium Explore GO PREMIUM Choose how you want to join Tom&rsquo;s Hardware MEMBER Get started with free access to reviews, badges and discussions. Become a member Premium member Unlock exclusive tools and insights for enthusiasts who want more. Bench Database Exclusive Features Roadmaps Deep Analysis Become a premium member Go beyond the headlines with Tom&rsquo;s Hardware Premium Access Bench, Roadmaps, deep analysis and other exclusive tools. Explore PREMIUM Bench Performance Database Dive into our proprietary testing data and compare hardware with detailed benchmarks. Deep-Dive Analysis Go beyond the headlines with expert reporting on the hardware industry. Hardware Roadmaps Track upcoming CPUs, GPUs and tech releases before they arrive. Exclusive Long-Form Features In-depth features, interviews and insider stories from the world of hardware. Uptime Premium Newsletter Expert insights and analysis delivered to your inbox. of Bench Performance Database Dive into our proprietary testing data and compare hardware with detailed benchmarks. 1 of 5 Deep-Dive Analysis Go beyond the headlines with expert reporting on the hardware industry. 2 of 5 Hardware Roadmaps Track upcoming CPUs, GPUs and tech releases before they arrive. 3 of 5 Exclusive Long-Form Features In-depth features, interviews and insider stories from the world of hardware. 4 of 5 Uptime Premium Newsletter Expert insights and analysis delivered to your inbox. 5 of 5 Explore PREMIUM Welcome to Tom's Hardware club ! Hi , Your membership journey starts here. Keep exploring and earning more as a member. MY ACCOUNT Earn your first badge Read 1 article to unlock your first badge. Keep earning badges Explore ways to get more involved as a member. Latest on CPUs News, reviews, and technical insights. Explore GPU Insights Reviews, benchmarks, and updates on current GPUs. Explore See what you&rsquo;ve unlocked. Explore your membership benefits. Explore Unlock Premium Limited-time Premium offer Cancel anytime Explore premium Sign Out Premium Member Hi , Keep exploring with your premium access. Go TO Premium Hub Premium Tools Bench Database Exclusive Features Roadmaps Deep Analysis My Account Sign Out Get club Access Quick Join for quick access. Enter your email below and we'll send confirmation plus sign you up to our newsletter. Contact me with news and offers from other Future brands Sign Up By submitting your information, you confirm you are aged 16 or over, have read our Privacy Policy and agree to the Terms & Conditions . Geographical rules apply. Tom's Hardware US Edition UK US Australia Canada RSS Sign in View Profile Sign out Search Search Tom's Hardware Best Picks CPU Buying Advice CPU Best Picks CPU Reviews GPU Buying Advice GPU Best Picks GPU Reviews Laptop Buying Advi",
+      "oneLineKo": "AMD, 4분기 매출서 사상 첫 인텔 추월 전망",
+      "summaryKo": "AMD가 2025년 4분기 매출 가이던스로 약 170억 달러를 제시하며, 이는 인텔의 전망치를 넘어서는 수치다. 이대로 실현되면 AMD가 분기 매출에서 인텔을 앞서는 것은 역사상 처음 있는 일이 된다. 데이터센터 및 서버 CPU 시장에서의 점유율 확대가 주요 배경으로 꼽힌다.",
+      "tags": [
+        "amd",
+        "intel",
+        "cpu"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50366999",
+      "title": "Kimi K3.1 Pro model weights are out",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50366999",
+      "publishedAt": "2026-11-04T15:30:30Z",
+      "score": 372,
+      "comments": 102,
+      "snippet": "moonshotai/Kimi-K3.1-Pro · Hugging Face Hugging Face Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up moonshotai / Kimi-K3.1-Pro Like 516 Follow Moonshot AI 20.5k Image-Text-to-Text Transformers Safetensors kimi_k31 text-generation compressed-tensors conversational custom_code Eval Results 8-bit precision License: kimi-k3.1-pro Model card Files Files and versions xet Community 4 Deploy Copy to bucket Use this model Instructions to use moonshotai/Kimi-K3.1-Pro with libraries, inference providers, notebooks, and local apps. Follow these links to get started. Libraries Transformers How to use moonshotai/Kimi-K3.1-Pro with Transformers: # Use a pipeline as a high-level helper from transformers import pipeline pipe = pipeline(\"image-text-to-text\", model=\"moonshotai/Kimi-K3.1-Pro\", trust_remote_code=True) # pip install -U transformers accelerate # Load model directly from transformers import AutoModelForSeq2SeqLM model = AutoModelForSeq2SeqLM.from_pretrained(\"moonshotai/Kimi-K3.1-Pro\", trust_remote_code=True, device_map=\"auto\") Inference Inference Providers HuggingChat Notebooks Google Colab Kaggle Local Apps Settings vLLM How to use moonshotai/Kimi-K3.1-Pro with vLLM: Install from pip and serve model # Install vLLM from pip: pip install vllm # Start the vLLM server: vllm serve \"moonshotai/Kimi-K3.1-Pro\" # Call the server using curl (OpenAI-compatible API): curl -X POST \"http://localhost:8000/v1/chat/completions\" \\ -H \"Content-Type: application/json\" \\ --data '{ \"model\": \"moonshotai/Kimi-K3.1-Pro\", \"messages\": [ { \"role\": \"user\", \"content\": [ { \"type\": \"text\", \"text\": \"Describe this image in one sentence.\" }, { \"type\": \"image_url\", \"image_url\": { \"url\": \"https://cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg\" } } ] } ] }' Use Docker docker model run hf.co/moonshotai/Kimi-K3.1-Pro SGLang How to use moonshotai/Kimi-K3.1-Pro with SGLang: Install from pip and serve model # Install SGLang from pip: pip install sglang # Start the SGLang server: python3 -m sglang.launch_server \\ --model-path \"moonshotai/Kimi-K3.1-Pro\" \\ --host 0.0.0.0 \\ --port 30000 # Call the server using curl (OpenAI-compatible API): curl -X POST \"http://localhost:30000/v1/chat/completions\" \\ -H \"Content-Type: application/json\" \\ --data '{ \"model\": \"moonshotai/Kimi-K3.1-Pro\", \"messages\": [ { \"role\": \"user\", \"content\": [ { \"type\": \"text\", \"text\": \"Describe this image in one sentence.\" }, { \"type\": \"image_url\", \"image_url\": { \"url\": \"https://cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg\" } } ] } ] }' Use Docker images docker run --gpus all \\ --shm-size 32g \\ -p 30000:30000 \\ -v ~/.cache/huggingface:/root/.cache/huggingface \\ --env \"HF_TOKEN=<secret>\" \\ ",
+      "oneLineKo": "Moonshot AI, 'Kimi K3.1 Pro' 모델 가중치 공개",
+      "summaryKo": "Moonshot AI가 이미지-텍스트 입력을 지원하는 멀티모달 모델 'Kimi K3.1 Pro'의 가중치를 Hugging Face에 공개했습니다. 이 모델은 compressed-tensors 기반 8비트 정밀도로 제공되며, Transformers, vLLM, SGLang 등 주요 라이브러리와 추론 프레임워크를 통해 바로 사용할 수 있습니다. 전용 라이선스(kimi-k3.1-pro)로 배포되며, OpenAI 호환 API 형태의 로컬 서빙도 지원합니다.",
+      "tags": [
+        "llm",
+        "multimodal",
+        "huggingface"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50366522",
+      "title": "Guerrilla bike lanes: San Francisco makes illicit infrastructure permanent (2016)",
+      "url": "https://99percentinvisible.org/article/guerrilla-bike-lanes-san-francisco-makes-illicit-infrastructure-permanent/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50366522",
+      "publishedAt": "2026-11-04T15:01:44Z",
+      "score": 257,
+      "comments": 189,
+      "snippet": "Guerrilla Bike Lanes: San Francisco Makes Illicit Infrastructure Permanent - 99% Invisible You are using an outdated browser. Please upgrade your browser to improve your experience. Skip to Content Toggle Navigation Episodes Series A History of the United States in 100 Objects Service Request Hidden Levels The 99% Invisible Breakdown Not Built For This According to Need Judas and the Black Messiah Podcast Articles of Interest Articles About The Show The Staff Contact Press Sponsors Pitch Newsletter Subscribe SiriusXM Podcasts+ Apple Podcasts Spotify SiriusXM Pandora Ways to Listen Book Store Submit Search YouTube TikTok Instagram Threads Reddit Discord Bluesky 99% Invisible Newsletter 100% Fascinating Email Address Yes Please! By submitting this form, you acknowledge that you have read the Terms of Use and Privacy Policy , that you understand them, and that you agree to be bound by them. If you do not agree to be bound by the Terms of Use and Privacy Policy, you may not use the 99% Invisible website and services. see recent newsletter Close Article by Kurt Kohlstedt Guerrilla Bike Lanes: San Francisco Makes Illicit Infrastructure Permanent Image via the SFMTrA Click to enlarge image Infrastructure Category Infrastructure Date 11.14.16 Producer Kurt Kohlstedt Share on Facebook Share on Twitter Leave a Comment When two cyclists were tragically killed in hit-and-run collisions this past summer, a group of anonymous urban activists known as the San Francisco Transformation Agency erected a set of protected bike lanes using traffic cones. Usually such guerrilla interventions are temporary. They raise awareness but ultimately get taken down by municipal authorities. But when the same group recently (and illegally) installed a set of soft-hit posts alongside Golden Gate Park, the city reacted by making the change official . Image by Nicasio Nakamine The SFMTrA , a play on the city’s Municipal Transportation Agency (SFMTA), “is a collective organization of men and women committed to making streets safer for cyclists and pedestrians, and doing it quickly.” According to the organization, their members use tactical urbanism to accomplish a range of objectives, including: Provide a real safety increase for cyclists and pedestrians. Draw attention to areas of the city that are unsafe for vulnerable pedestrians and cyclists. Put pressure on the SFMTA and public officials to make proactive, rapid and substantive improvements in street safety. Many of their interventions involve orange traffic cones , which do grab visual attention but are also impermanent and easily damaged. Adding more robust traffic delineators (also known as soft or safe hit posts) may have helped persuade the city to retain this particular recent installation along John F. Kennedy Drive. Image via the SFMTrA “Generally, we have no choice but to remove cones and posts that do not go through an official process,” wrote the city agency in a statement , “because it&rsquo;s a code violation to p",
+      "oneLineKo": "샌프란시스코, 시민단체 '불법' 자전거 도로를 정식 인프라로 전환",
+      "summaryKo": "자전거 운전자 사망 사고 후 익명 활동가 단체 SFMTrA가 라바콘으로 임시 보호 자전거 도로를 설치하며 도시 안전 문제에 대한 관심을 끌었다. 이들이 골든게이트파크 인근에 불법으로 소프트 히트 포스트를 설치하자, 시는 철거 대신 이를 공식 인프라로 인정했다. 이는 전술적 도시계획(tactical urbanism)이 실제 정책 변화로 이어진 사례로 평가된다.",
+      "tags": [
+        "urban-planning",
+        "infrastructure",
+        "bike-lanes"
+      ]
+    }
+  ]
+}
