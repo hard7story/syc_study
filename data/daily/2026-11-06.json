@@ -1,0 +1,245 @@
+{
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T01:55:11.050Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36676&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Claude Code가 사용자 이메일 주소를 웹사이트에 전송함",
+      "url": "https://news.hada.io/topic?id=36676&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36676&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-06T08:37:41+09:00",
+      "snippet": "Claude Code가 웹 검색 중 사용자 이메일을 User-Agent 요청 헤더에 넣어 동의 없이 외부 사이트로 전송했다는 신고 가 등록됨 사이트의 자동화 클라이언트 정책을 따르려다 모델이 사용자 이메일을 curl 요청의 User-Agent에 넣어 전송할 수 있음 로그인 계정의 이메일이 모델 문맥에 제공되며, 공개된 privacy 모드는 이 주소가 클라이언트 연락처로 전송되는 특정 요청을 차단함 2.1.317부터 차단 모드가 기본 활성화 됐다는 기여자 안내와 달리, 신고 버전은 2.1.318이며 같은 버전에서 모드가 보이지 않는다는 추가 보고도 있음 차단 …",
+      "oneLineKo": "Claude Code, 웹검색 중 사용자 이메일 외부 유출 논란",
+      "summaryKo": "Claude Code가 웹 검색 시 User-Agent 헤더에 사용자 이메일을 넣어 동의 없이 외부 사이트로 전송한다는 신고가 접수됐다. 모델이 사이트의 자동화 클라이언트 정책을 따르는 과정에서 로그인 계정 이메일을 curl 요청에 포함시킨 것으로 보인다. 공개된 privacy 모드가 이를 차단한다고 안내됐으나, 해당 버전에서도 차단이 제대로 작동하지 않는다는 추가 보고가 이어지고 있다.",
+      "tags": [
+        "claude-code",
+        "privacy",
+        "security"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50385272",
+      "title": "Claude Code sends your email address to websites",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50385272",
+      "publishedAt": "2026-11-05T22:17:15Z",
+      "score": 503,
+      "comments": 170,
+      "snippet": "Bug Report: Privacy violation in User-Agent header · Issue #107757 · anthropics/claude-code · GitHub Skip to content Navigation Menu Sign in Products Platform GitHub Repository hosting, code review, and collaboration Copilot AI coding agent for tasks, projects, and automated work Build & Ship Actions CI/CD and automation Code Quality Quality analysis, fixes, and enforcement Codespaces Cloud development environments Secure Code Security Vulnerability detection and remediation Secret Protection Secret scanning and leak prevention All Features Developers Learn Documentation Training Certifications Build Build with Copilot Customize Copilot Integrations Explore Trending repos GitHub Sponsors Developer articles Changelog Changelog Your source for the latest features, improvements, and fixes across GitHub products, all in one place. Businesses By Stage Enterprises Team Startups Nonprofits By Industry Healthcare Financial services Manufacturing Government See all industries Evaluate GitHub Why GitHub Customer Stories Business insights Trust Center Add-ons GitHub Advanced Security Enterprise-grade code security Copilot for business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Resources Learn & Connect Documentation Resource center Blog Events & webinars Community Forum Customer Stories Integrations Support Customer support Training GitHub Status Company About Partners Changelog GitHub Universe GitHub Universe The event for developers, by developers — talks, workshops, and what’s next for GitHub. Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} anthropics claude-code Repository navigation Code Issues 5k+ ( 5k+ ) Pull requests 641 ( 641 ) Only collaborators can create PRs Actions Security and quality 36 ( 36 ) Insights More items Bug Report: Privacy violation in User-Agent header #107757 New issue Copy link New issue Copy link Open Open Bug Report: Privacy violation in User-Agent header #107757 Copy link Labels area:security area:tools bug Something isn't working Something isn't working platform:macos Issue specifically occurs on macOS Issue specifically occurs on macOS Description taylor-edwards opened on Nov 5, 2026 Issue body actions Bug Description I receive dozens of scam emails per day because claude code divulged my email to arbitrary 3rd parties in the User-Agent request header while conducting web searches without my permission. This should not be a setting with opt-out or opt-in behavior, it needs to be removed from the harness entirely. It is not for the good of anyone involved: it does nothing for services which dislike agentic traffic, does not preserve my anonymity on the web, and is a goldmine for scammers. I am migrating my company to Pi with OpenRouter sin",
+      "oneLineKo": "Claude Code, 웹검색 시 User-Agent에 이메일 노출 논란",
+      "summaryKo": "GitHub에 등록된 버그 리포트에 따르면 Claude Code가 웹 검색을 수행할 때 사용자의 이메일 주소를 User-Agent 헤더에 포함시켜 제3자 웹사이트로 전송하는 것으로 확인됐다. 이로 인해 작성자는 매일 수십 통의 스팸 메일을 받게 되었다고 주장하며, 이는 사용자 동의 여부와 무관하게 하네스(harness)에서 완전히 제거되어야 할 프라이버시 침해 문제라고 지적했다. 작성자는 이 문제로 인해 회사의 AI 도구를 OpenRouter 기반의 다른 솔루션(Pi)으로 이전하고 있다고 밝혔다.",
+      "tags": [
+        "claude-code",
+        "privacy",
+        "security"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36665&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "MCP Explained - AI 앱과 도구를 연결하는 Model Context Protocol의 작동 방식",
+      "url": "https://news.hada.io/topic?id=36665&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36665&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-06T03:40:48+09:00",
+      "snippet": "MCP(Model Context Protocol) 는 AI 앱을 도구와 데이터에 연결하는 개방형 표준으로, 서버가 제공하는 기능을 앱이 모델에 전달하고 실행 결과를 돌려주는 방식으로 작동함 호스트 는 Claude, Cursor, ChatGPT 같은 AI 앱이며, 서버는 도구와 데이터 또는 프롬프트를 제공하는 작은 프로그램임 모델은 서버와 직접 통신하지 않으며 , 사용할 도구를 결정하면 앱이 서버를 호출하고 결과를 모델에 전달함 통신에는 JSON-RPC 를 사용하며, 표준 입력/출력 또는 하나의 HTTP 엔드포인트로 메시지를 주고받음. REST와 달리 서버도 앱에 메시지를 …",
+      "oneLineKo": "MCP 작동 원리 해설, AI 앱-도구 연결 표준",
+      "summaryKo": "MCP(Model Context Protocol)는 AI 앱을 도구와 데이터에 연결하는 개방형 표준으로, 호스트(Claude, Cursor, ChatGPT 등)가 서버의 기능을 모델에 전달하고 실행 결과를 돌려주는 구조로 작동한다. 모델은 서버와 직접 통신하지 않고, 앱이 중개자 역할을 하여 서버를 호출하고 결과를 모델에 전달한다. 통신은 JSON-RPC를 사용하며 표준 입출력이나 단일 HTTP 엔드포인트로 메시지를 주고받는데, REST와 달리 서버도 앱에 메시지를 보낼 수 있는 양방향 구조를 가진다.",
+      "tags": [
+        "mcp",
+        "llm",
+        "api"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50379704",
+      "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
+      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50379704",
+      "publishedAt": "2026-11-05T14:44:20Z",
+      "score": 587,
+      "comments": 124,
+      "snippet": "Security advisory: openssh-server password authentication bypass | Alpine Linux About Downloads Releases Community Sponsors Donate docs wiki git issues packages mirrors security Small. Simple. Secure. Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox. 2026-11-05 Security advisory: openssh-server password authentication bypass If you run sshd on Alpine Linux, update openssh now and restart sshd . Upgrading the package alone does not replace the running daemon. If you cannot update yet, at least disable password logins: set PasswordAuthentication no in your sshd configuration and restart sshd . Either one closes the hole. What is the problem? An attacker who can reach your SSH port can log in without knowing any password. It takes one connection, works every time, and needs no retries. The attacker needs the name of an account whose password field is * (an account with no password set, which is normal for key-only accounts), and needs the machine to have at least one other account with a $5$ or $6$ password hash. The attacker then sends a very long password (257 to 1024 bytes). One user with a password is enough: it makes every account without one reachable. Details are in the OpenSSH 10.6p2 release notes . No CVE identifier had been assigned at the time of writing. Who is affected? You are affected if all of the following are true: You run the Alpine openssh-server package, which is built without PAM, or you run openssh-server-pam with UsePAM no . ( openssh-server-pam with UsePAM yes is not affected.) PasswordAuthentication is yes (the OpenSSH default, unless you changed it). The machine has an account whose password field is * . This includes: root , which ships as root:* in the base image since about Alpine 3.16. OpenSSH&rsquo;s default PermitRootLogin prohibit-password protects root, so root is only reachable if PermitRootLogin yes is set. That does not help if another account that can log in is able to become root, for example through doas . Any key-only user created with adduser without a password, or with usermod -p '*' . Users coming from a directory service through musl-nscd (nslcd, winbind, sssd), since they have no shadow entry. The alpine user in the official tiny-cloud images (see below). At least one local account has a $5$ or $6$ password hash. Affected releases: every Alpine release we checked, 3.21 through 3.24 and edge, and the older releases that no longer receive regular updates (3.16 to 3.20). Who is not affected? Docker and other container users that do not run sshd in the container. Systems with PasswordAuthentication no . Systems using openssh-server-pam with UsePAM yes (with UsePAM no you are affected). Locked accounts: those with ! as the password field in /etc/shadow (a line starting user:!: ). They cannot log in with a password or a key. Systems where no account has a $ -style password hash. Cloud images configured through cloud-init, which writes PasswordAuthentication no",
+      "oneLineKo": "Alpine Linux OpenSSH 비밀번호 인증 우회 취약점 발견",
+      "summaryKo": "Alpine Linux의 openssh-server에서 비밀번호 필드가 '*'인 계정(키 전용 계정)을 패스워드 없이 로그인할 수 있는 취약점이 발견됐습니다. 공격자는 257~1024바이트의 긴 비밀번호를 한 번만 전송하면 되며, 시스템에 $5$ 또는 $6$ 해시를 가진 계정이 하나라도 있으면 모든 키 전용 계정이 뚫릴 수 있습니다. PAM 미사용 환경 또는 UsePAM no 설정이며 PasswordAuthentication이 yes인 경우 영향을 받으며, Alpine 3.16~3.24 및 edge 버전 모두 해당됩니다. 해결책은 openssh 업데이트 후 sshd 재시작, 또는 즉시 PasswordAuthentication no로 설정하는 것입니다.",
+      "tags": [
+        "openssh",
+        "alpine-linux",
+        "security-vulnerability"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36662&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "OpenSSH 10.6p2 - PAM 없는 Alpine의 심각한 보안 문제 우회 조치",
+      "url": "https://news.hada.io/topic?id=36662&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36662&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-06T03:04:31+09:00",
+      "snippet": "Portable OpenSSH 10.6p2 는 musl libc를 사용하고 PAM 지원 없이 빌드하고 실행한 일부 Linux 시스템에서 가능한 비밀번호 인증 우회 를 sshd에서 차단함 OpenSSH 팀은 근본 원인이 sshd 외부 에 있다고 판단하지만, sshd를 통해 악용할 수 있어 우회 조치를 추가함 AI가 찾은 보안 버그의 독립적인 재발견 사례를 고려해, 당분간 수정 사항을 정기 릴리스까지 모으지 않고 더 자주 배포 하기로 함 scp -R 폐기 절차 가 10.6부터 시작됨. 현재는 경고만 출력하지만, 향후에는 실행 호스트를 경유하는 기본 복사 방식으로 전환함 10.6 계열에는 …",
+      "oneLineKo": "OpenSSH 10.6p2, PAM 없는 musl 환경 인증 우회 차단",
+      "summaryKo": "Portable OpenSSH 10.6p2는 musl libc 사용 및 PAM 미지원 상태로 빌드된 일부 Linux 시스템에서 발생 가능한 비밀번호 인증 우회 취약점을 sshd 단에서 차단했습니다. 근본 원인은 sshd 외부에 있지만 sshd를 통해 악용 가능해 우회 조치가 추가됐습니다. AI를 통한 보안 버그 재발견 사례가 늘어남에 따라 앞으로는 수정 사항을 정기 릴리스까지 모으지 않고 더 자주 배포할 예정이며, scp -R 기능의 폐기 절차도 10.6부터 시작됩니다.",
+      "tags": [
+        "openssh",
+        "security",
+        "linux"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50385870",
+      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50385870",
+      "publishedAt": "2026-11-05T23:09:57Z",
+      "score": 87,
+      "comments": 34,
+      "snippet": "Mark Cuban says Facebook knowingly runs AI deepfake scam ads as Meta docs reveal $16 billion in fraud-linked revenue Oops, something went wrong Skip to navigation Skip to main content Skip to right column Home News Finance Sports More News US Politics World Tech Science Originals 2026 Elections Weather Newsletters Finance My portfolio News Markets Research Community Personal finance Videos Sports Fantasy Football 2026 NFL College football NBA MLB NHL College basketball Soccer Fantasy Sports Betting NFL Odds Yahoo Sports AM Shopping The best Black Friday deals Walmart Black Friday deals Style Beauty Health Home and garden Tech Gift ideas Stores Shopping guides Deals Toys and games Shopping lists General Pets Games Mini crossword Solitaire roadtrip Ribbit Word games Card games Puzzle games Entertainment Celebrity TV Movies Music How to Watch Videos Nonfiction Hotlist Games Selected edition US English Sign in My Portfolio Watchlists Portfolios Markets Stocks Most Active Day Gainers Day Losers Trending Highest Dividend Large Cap Small Cap Most Expensive Highest Beta Pink Sheet Unusual Volume Crypto Most Active Day Gainers Day Losers Private Companies 52 Week Gainers Recently Funded Most Funded Options Day Gainers Day Losers Highest Open Interest Highest Implied Volatility Sectors Technology Financial Services Consumer Cyclical Consumer Defensive Communication Services Healthcare Industrials Treasury Bonds Currencies World Indices Commodities ETFs Mutual Funds Stocks Plunge News Anthropic IPO Markets Stock Market News Real Estate Magnificent 7 Private Markets Futures & Derivatives Originals Premium News Newsletters Economy & Policy Earnings Oil & Gas Strait of Hormuz Tariffs Clean Energy Tech Aerospace & Defense Enterprise Cloud Exchange-Traded Funds Research & Tools Calendars Earnings Calendar IPO Calendar Stock Splits Economic Events Screeners Equities Most Shorted Most Active Penny Stocks Analyst Strong Buy Stock Comparison Currency Converter Advanced Charts Community Premium Research AlphaSpace Stock Picks Investment Ideas Research Reports Personal Finance My Money BETA Credit Cards Compare Credit Cards Best 0% APR Cards Best Balance Transfer Best Cash Back Cards Best Travel Cards Banking CD Rates Best High-Yield Savings Best Money Market Best Free Checking Best Online Banks Mortgage Best Mortgage Lenders Best Mortgage Rates Mortgage Refinance Mortgage Calculator Mortgage Affordability Calculator Student Loans Federal vs. Private FAFSA Guide Student Loan Assistance Student Loan Forgiveness Paying Off Student Loans Personal Loans Best Personal Loans Get Approved Best Lenders Insurance Find Car Insurance Types of Car Insurance Car Insurance Discounts Find Life Insurance Taxes How to File Refund Status Tax Extension Child Tax Credit Investing Investing Basics Real Estate Investing Retirement Basics Calculators Watch Daily Shows The 8:30 Sozzi Unleashed The Daily Wolf Market Hang In the Loop Weekly Shows Built Different How They Run Power Players The ",
+      "oneLineKo": "큐번 \"메타, AI 딥페이크 사기 광고 알고도 방치\"",
+      "summaryKo": "마크 큐번은 페이스북이 AI 딥페이크를 이용한 사기 광고를 알면서도 운영하고 있다고 주장했다. 공개된 메타 내부 문서에 따르면 이러한 사기 관련 광고로 약 160억 달러의 수익이 발생한 것으로 나타났다. 이는 메타의 광고 심사 및 플랫폼 안전 정책에 대한 논란을 재점화하고 있다.",
+      "tags": [
+        "meta",
+        "deepfake",
+        "ad-fraud"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36684&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "AI로 부활하는 해킨토시",
+      "url": "https://news.hada.io/topic?id=36684&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36684&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-06T09:39:03+09:00",
+      "snippet": "비 Apple 하드웨어에서 macOS를 구동하는 Hackintosh 와 hackios 커뮤니티에서 최근 몇 주간 개발 활동과 성공 사례가 급증했으며, AI의 부상 이 이를 이끌고 있음 Apple의 ARM 전환에 이어 macOS 27(Golden Gate) 에서 x86 지원이 종료됐지만, Snapdragon 노트북과 ARM 단일 보드 컴퓨터에서 macOS를 구동하는 사례가 등장함 Nintendo Switch OLED의 iOS 17 구동 , nullmoth를 통한 Nvidia 50 시리즈 GPU 지원 등 운영체제와 하드웨어 지원 범위를 넓히는 개발도 이어짐 ThinkPad T490에 macOS 26을 설치하고 XCode 26의 AI 통합 을 활용해, …",
+      "oneLineKo": "AI 도움으로 재점화된 해킨토시·해키OS 개발 열풍",
+      "summaryKo": "비 Apple 하드웨어에 macOS를 구동하는 Hackintosh와 hackios 커뮤니티가 AI 기술 발전에 힘입어 최근 개발 활동과 성공 사례를 크게 늘리고 있다. Apple의 ARM 전환과 macOS 27에서의 x86 지원 종료에도 불구하고, Snapdragon 노트북과 ARM 단일 보드 컴퓨터에서 macOS를 구동하는 사례가 등장했다. Nintendo Switch OLED에서 iOS 17을 구동하거나 nullmoth를 통해 Nvidia 50 시리즈 GPU를 지원하는 등 지원 범위도 확대되고 있다. 특히 ThinkPad T490에 macOS 26을 설치하면서 XCode 26의 AI 통합 기능을 활용한 사례도 소개됐다.",
+      "tags": [
+        "hackintosh",
+        "macos",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50383963",
+      "title": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
+      "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50383963",
+      "publishedAt": "2026-11-05T20:21:43Z",
+      "score": 82,
+      "comments": 2,
+      "snippet": "Tencent Launches Hy4, Joining the Ranks of the World's Leading Open-Source AI Models - Tencent Skip to main content Who we are Who we are Overview See how teamwork, leadership and global reach bring Tencent's vision and values to life. Our story Our management team Our vision & mission Back Who we are Who we are Overview See how teamwork, leadership and global reach bring Tencent's vision and values to life. Our story Our management team Our vision & mission Back What we create What we create Overview Discover the full range of products and services Tencent offers to consumers and businesses now, and what we’re planning for the future. For consumers For consumers Overview Weixin/WeChat Tencent Games Back For business For business Overview Tencent Cloud Marketing Solutions Back For the future Everything we create Back What we create What we create Overview Discover the full range of products and services Tencent offers to consumers and businesses now, and what we’re planning for the future. For consumers Weixin/WeChat Tencent Games For business Tencent Cloud Marketing Solutions For the future Everything we create Back Our actions Our actions Overview Tencent leverages technology to promote environmental sustainability, address social concerns, and support transparent corporate governance. Environmental Social Governance Reports Back Our actions Our actions Overview Tencent leverages technology to promote environmental sustainability, address social concerns, and support transparent corporate governance. Environmental Social Governance Reports Back Investors Investors Overview Creating long-term value for investors with an open and pragmatic approach. Results & announcements Results & announcements Results Investor news Financial reports Announcements Back Investor kit & calendar Equity & bond information Shareholder information Our actions Our actions Overview Environmental Social Governance Reports Back Back Investors Investors Overview Creating long-term value for investors with an open and pragmatic approach. Results & announcements Results Investor news Financial reports Announcements Investor kit & calendar Equity & bond information Shareholder information Our actions Environmental Social Governance Reports Back Newsroom Newsroom Overview Stay up to date on all the latest news and events from Tencent. All news Media resources Events news Back Newsroom Newsroom Overview Stay up to date on all the latest news and events from Tencent. All news Media resources Events news Back Careers 简 EN 繁 Close Featured Corporate For business For consumers Innovation Tencent Launches Hy4, Joining the Ranks of the World’s Leading Open-Source AI Models November 4, 2026 Tencent today announced the release of Tencent Hy4, its latest-generation large language model, marking a significant leap in performance and capabilities that now ranks it among the world’s leading open-source AI models. Tencent Hy plans to release model weights and system cards in the coming day",
+      "oneLineKo": "텐센트, 신형 오픈소스 LLM 'Hy4' 공개",
+      "summaryKo": "텐센트가 차세대 대규모 언어모델 Hy4를 발표하며 성능과 기능 면에서 크게 도약해 세계 최상위권 오픈소스 AI 모델 반열에 올랐다고 밝혔다. 텐센트는 조만간 모델 가중치와 시스템 카드를 공개할 계획이다. 구체적인 벤치마크 수치나 모델 규모 등 세부 내용은 아직 공개되지 않았다.",
+      "tags": [
+        "llm",
+        "open-source",
+        "tencent"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36660&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Alpine Linux 보안 권고: openssh-server 비밀번호 인증 우회",
+      "url": "https://news.hada.io/topic?id=36660&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36660&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-06T01:54:59+09:00",
+      "snippet": "Alpine Linux의 특정 SSH 설정에서 공격자가 비밀번호를 모른 채 로그인 할 수 있는 취약점이 확인됨. openssh 업데이트 후 반드시 sshd 를 재시작 해야 함 공격에는 비밀번호 필드가 * 인 계정명 과 같은 시스템 내 $5$ 또는 $6$ 비밀번호 해시를 가진 다른 계정이 필요함. 비밀번호 인증이 활성화되고 PAM을 사용하지 않는 환경이 영향을 받음 원인은 musl의 crypt() 오류 반환값 * 가 비밀번호 없는 계정의 저장 필드와 일치하는 데 있음. 256바이트를 넘는 비밀번호 처리 오류가 인증 성공으로 이어짐 확인된 영향 범위는 Alpine 3.16~3.2 …",
+      "oneLineKo": "Alpine Linux SSH 비밀번호 인증 우회 취약점 발견",
+      "summaryKo": "Alpine Linux의 특정 SSH 설정에서 공격자가 비밀번호를 몰라도 로그인할 수 있는 취약점이 발견됐다. 원인은 musl의 crypt() 함수가 256바이트 초과 비밀번호 처리 시 오류 반환값 *을 비밀번호 없는 계정의 저장 필드와 동일하게 처리해 인증을 성공시키는 데 있다. 비밀번호 인증이 활성화되고 PAM을 사용하지 않는 Alpine 3.16~3.2 환경이 영향을 받으며, openssh 업데이트 후 반드시 sshd를 재시작해야 한다.",
+      "tags": [
+        "alpine-linux",
+        "openssh",
+        "security"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50378228",
+      "title": "sshole",
+      "url": "https://sshhole.com",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50378228",
+      "publishedAt": "2026-11-05T12:19:02Z",
+      "score": 2330,
+      "comments": 572,
+      "snippet": "*sshole · sshhole.com * ss h ole so openssh on musl linux (alpine, openwrt, buildroot, yocto, and a lot of the docker images you've pulled) has had a little problem since 2016. accounts that should never take a password at all (root, your key-only deploy user, ldap users, the default user on alpine's aws and azure images) take any password longer than 256 characters. yes, any password. yes. i know. yes. 1980 the first star 1990s the password check 1990s the fine print 2012 crypt stops saying NULL 2012 the 256-byte cap 2016 bob's salt 2019 the fix for the fix 2024 ten quiet years 2026 how i ran into it 1980 the first star back in old unix your password hash just sat in /etc/passwd , right next to your username. in a file everyone could read. in 1980 bill joy put a * there for an account called daemon . nobody's supposed to ever log in as it. a * isn't a hash, so no password can match it. unix still does this today 3bsd · /etc/passwd · 1980 Address github.com/dspinellis/unix-history-repo/blob/BSD-3/etc/passwd the next field is the real name. he wrote \"the devil himself\" 1990s how sshd checks your password ok so these days the hash lives in /etc/shadow and looks like $6$abc$k2P9… . the $6$ means sha512, abc is the salt, the rest is the actual hash you type your password, sshd hashes it with that same salt and checks if it comes out identical. same = you're in. that's it and if the field is just * ? there's nothing to match. type whatever you want, it's never getting you in 1990s the fine print one more rule. if crypt() can't do its job, it returns NULL. like if the salt asks for some algorithm the system doesn't have, there's nothing to compute, so you get NULL instead of a hash the single unix spec · crypt() · 1997 Address pubs.opengroup.org/onlinepubs/7908799/xsh/crypt.html pretty clear. except a lot of programs never check for NULL. they just compare whatever crypt() gives back with the stored field, hit the NULL, and crash 2012 crypt stops saying NULL so musl (the libc under alpine) goes ok fine, crypt() just won't return NULL anymore. if it fails, it returns a single character instead. that character can never match a real password, so programs don't crash, they just see a wrong password now guess which character they picked for that \" ? \" yep. the star. again. musl · b3c4cc12 · aug 2012 Address git.musl-libc.org/cgit/musl/commit/?id=b3c4cc12 \"reportedly.\" musl · b3c4cc12 · the diff Address git.musl-libc.org/cgit/musl/commit/?id=b3c4cc12 \"should not happen\" gone, NULL gone, \"*\" in 2012 three weeks later then musl adds sha512 crypt. the thing is, sha512crypt gets slower the longer the password is, so someone could send one giant password and keep your server busy for a long time. so musl just caps it at 256 bytes and refuses anything longer musl · 88bf5a8a · aug 29 2012 Address git.musl-libc.org/cgit/musl/commit/?id=88bf5a8a twenty days after the \"*\" commit btw musl · crypt_sha512.c @ 88bf5a8a Address git.musl-libc.org/cgit/musl/tree/src/misc/cr",
+      "oneLineKo": "musl libc crypt() 결함으로 발생한 SSH 인증 우회 취약점",
+      "summaryKo": "Alpine, OpenWRT 등 musl libc 기반 시스템에서 2016년부터 존재해온 OpenSSH 인증 취약점을 분석한 글이다. musl의 crypt() 함수는 256바이트를 초과하는 비밀번호에 대해 실패 시 '*' 문자를 반환하는데, 이는 계정 잠금을 의미하는 비밀번호 필드 값과 동일해 어떤 긴 비밀번호를 입력해도 root, 키 전용 배포 계정 등에 로그인이 가능해지는 문제이다. 저자는 1980년대 유닉스의 '*' 잠금 관례부터 2012년 musl의 crypt() 변경, 2016년 버그 발생, 2019년 미완성 수정까지의 역사를 추적한다.",
+      "tags": [
+        "openssh",
+        "musl",
+        "security"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36671&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Nasdaq, 4% 급락하며 조정 국면 진입",
+      "url": "https://news.hada.io/topic?id=36671&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36671&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-06T07:50:36+09:00",
+      "snippet": "미국 중간선거 이후 데이터센터 증설 둔화 우려 로 기술주 매도가 가속되며 전날 증시 상승분을 지움 Nasdaq Composite는 종가 기준 5.52% 하락 해 지난달 사상 최고치보다 10% 이상 낮아졌으며, 미국 3대 지수 모두 2025년 4월 이후 최악의 하루를 기록함 반도체와 네오클라우드 에 매도세가 집중돼 Nvidia는 9%, Broadcom은 10%, 반도체 ETF인 SOXX는 12% 넘게 하락함 민주당의 연방 의회 양원 및 주요 주지사 선거 승리로 AI 인프라 규제 강화 가능성 이 부각되며, 기존 용량을 확보한 대기업과 부채로 증설하는 후발 기업 간 격차가 커질 …",
+      "oneLineKo": "나스닥 4% 급락, 반도체·AI주 조정 국면 진입",
+      "summaryKo": "미국 중간선거 이후 데이터센터 증설 둔화 우려로 기술주 매도세가 가속화되며 Nasdaq Composite가 종가 기준 5.52% 하락, 지난달 사상 최고치 대비 10% 이상 낮아졌다. 미국 3대 지수 모두 2025년 4월 이후 최악의 하루를 기록했으며, 반도체와 네오클라우드 관련주에 매도세가 집중돼 Nvidia 9%, Broadcom 10%, 반도체 ETF SOXX는 12% 넘게 급락했다. 민주당의 연방 의회 및 주요 주지사 선거 승리로 AI 인프라 규제 강화 가능성이 부각되면서, 기존 용량을 확보한 대기업과 부채로 증설하는 후발 기업 간 격차 확대 우려가 커지고 있다.",
+      "tags": [
+        "nasdaq",
+        "semiconductor",
+        "ai-infrastructure"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50383740",
+      "title": "Search for everyone",
+      "url": "https://kagi.com/changelog#11820",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50383740",
+      "publishedAt": "2026-11-05T20:03:34Z",
+      "score": 512,
+      "comments": 255,
+      "snippet": "Changelog - Kagi Search About Sign In Sign Up Changelog Subscribe to RSS | Email us support@kagi.com Browse Changelogs Nov 5th, 2026 Your friends and family can finally try Kagi Oct 16th, 2026 Smarter search widgets, Privacy Pass upgrades, and a calmer Assistant Sept 10th, 2026 One login for all of Kagi, and Translate reopens to everyone August 21st, 2026 A new Stocks widget and a better everyday Assistant experience July 30th, 2026 Kagi Assistant on the go and design refinements for Search July 2nd, 2026 Heads, tails, and an AI toggle June 16th, 2026 Search widgets catching up, Assistant starts fresh May 21st, 2026 Search API preview opens to all users April 30th, 2026 Kagi API preview and ecosystem updates April 9th, 2026 Tuning the Orchestra March 19th, 2026 Small Web Expansion and Translate goes viral Feb 26th, 2026 Smoothing the edges Feb 12th, 2026 Kagi Translate on Android & iOS: translate anything, anywhere Jan 29th, 2026 Assistant reliability upgrades and Search refinements Jan 15th, 2026 New Year tune-up: smoother everything! Dec 18th, 2025 Popular areas land in Kagi Maps Dec 4th, 2025 New Kagi Search companions and quality-of-life improvements Nov 22nd, 2025 Kagi Hub Belgrade Nov 20th, 2025 Introducing Quick and Research assistants Nov 13th, 2025 Raising the shield against slop Oct 23rd, 2025 Go deeper with Quick Answer October 17th, 2025 Autumn patch notes & a new Kagi Special Sept 30th, 2025 Kagi News Sept 18th, 2025 Releasing Ask, a round of product polish, and translation upgrades September 4th, 2025 Kagi Summarize goes mobile, Kagi Assistant adds source attribution and study mode August 19th, 2025 Midsummer patch notes July 31st, 2025 Kagi Assistant gets tags, bulk actions, and much more July 11th, 2025 New News Homepage June 27th, 2025 Accessibility wins, regex bangs, relentless bug fixing June 9th, 2025 Celebrating 50k customers June 2nd, 2025 Kagi turns 3: past, present, and future May 22nd, 2025 Big in Japan May 6th, 2025 Video search upgrades, enhanced Kagi Assistant experience and more April 17, 2025 Kagi Assistant rolls out to all Kagi users March 21st, 2025 Leveling up the Kagi Assistant experience, meet Kagi in Tokyo, and more... Nov 5th, 2026 - Your friends and family can finally try Kagi # Kagi Search Search for everyone As many of you know, we don't run ads anywhere . Instead, we are active on social media and online communities to stay close to you, build a great product, and rely on word of mouth . We've heard that it can be hard to recommend a search engine when your friends can't try it without creating an account. That's changed: anyone, anywhere, can now visit kagi.com and search the web . No account required for the first 50 searches (100 more upon registration). We are counting on you to spread the word to your friends and family <3 Our new landing page for new users Our take on the latest Search industry news Google announced that, starting in early 2027, AI tools will be turned off by default for school accou",
+      "oneLineKo": "Kagi, 계정 없이 무료 검색 체험 50회 제공",
+      "summaryKo": "Kagi는 광고 없이 입소문에 의존하는 검색 엔진으로, 그동안 친구에게 추천해도 계정 생성이 필요해 진입 장벽이 있었다. 이번 업데이트로 누구나 kagi.com에서 계정 없이 첫 50회 검색을 무료로 이용할 수 있게 됐으며, 가입 시 100회가 추가로 제공된다. 이를 통해 더 많은 사용자가 쉽게 Kagi를 체험하고 주변에 공유할 수 있도록 유도하고 있다.",
+      "tags": [
+        "kagi",
+        "search-engine"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50383739",
+      "title": "Goodbye from Salon",
+      "url": "https://www.salon.com/2026/11/05/goodbye-from-salon/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50383739",
+      "publishedAt": "2026-11-05T20:03:29Z",
+      "score": 427,
+      "comments": 159,
+      "snippet": "--> Goodbye from Salon - Salon.com Subscribe Search News & Politics Culture Food Science & Health Money Life Stories Video Reviews Lifestyle The New Sober Boom Getting Hooked on Quitting Education Liberal Arts Cuts Are Dangerous Is College Necessary? Finance Dying Parents Costing Millennials Dear Gen Z Investing In Le Creuset Crypto Investing SEC vs Celebrity Crypto Promoters ‘Dark’ Personalities Drawn to BTC News & Politics Culture Food Science & Health Money Life Stories Video Reviews Lifestyle The New Sober Boom Getting Hooked on Quitting Education Liberal Arts Cuts Are Dangerous Is College Necessary? Finance Dying Parents Costing Millennials Dear Gen Z Investing In Le Creuset Crypto Investing SEC vs Celebrity Crypto Promoters ‘Dark’ Personalities Drawn to BTC Subscribe Go ad-free with Premium Newsletters News & Politics Culture Food Science & Health Money Video Search Goodbye from Salon It has been an extraordinary privilege. By Salon Published November 5, 2026 2:28PM (EST) Facebook X Reddit Email Save Today, after 31 years, we are saddened to announce that Salon is ceasing publication. It’s difficult to find the right words for the end of something that has meant so much to so many people. Salon was never just a website. It was an idea about what journalism could be, born at a moment when the internet was still a largely unexplored frontier. When Salon launched in November 1995, the web was a very different place. A small group of journalists set out to create something original: a publication with a strong voice, a curiosity about the world and a belief that the internet could bring journalism and readers together in new ways. They helped pioneer a form of journalism that would come to define an entirely new era of publishing. Over three decades, Salon has brought together politics, culture, criticism and ideas in a way that was distinctly our own. Our journalism examined power and politics, questioned assumptions, surfaced stories that deserved attention and made room for perspectives that were too often overlooked. Our writers and editors helped shape conversations about the forces changing our lives. The work was never simply about keeping up with the news. It was about making sense of it. The history of Salon is also the history of the people who made it. We are profoundly grateful to the journalists, editors, photographers, producers, designers, business teams and countless other colleagues who brought this publication to life across its many chapters. To the founders who imagined it, the staff members who built it, the contributors who gave it their voices and the alumni who carried its spirit into the world: Thank you. Salon’s legacy belongs to all of you. We also want to thank our readers. You came to Salon for the journalism, the dialogue, the essays, the criticism, the unexpected discoveries and the sense that there was a place on the internet where ideas mattered. You read, shared, challenged, subscribed, wrote to us and kept com",
+      "oneLineKo": "31년 역사 온라인 매체 Salon, 폐간 발표",
+      "summaryKo": "1995년 창간된 온라인 저널리즘 매체 Salon이 31년 만에 발행을 중단한다고 공식 발표했다. Salon은 인터넷 초창기부터 정치, 문화, 비평을 아우르는 독창적인 저널리즘을 선보이며 디지털 퍼블리싱의 새로운 시대를 이끈 매체로 평가받았다. 창립자, 직원, 기고자, 독자들에게 그동안의 여정에 대한 감사 인사를 전하며 작별을 고했다.",
+      "tags": [
+        "journalism",
+        "media",
+        "digital-publishing"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50380810",
+      "title": "Motorola Signature 27 with GrapheneOS support",
+      "url": "https://motorolanews.com/motorola-signature-27-2/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50380810",
+      "publishedAt": "2026-11-05T16:01:34Z",
+      "score": 400,
+      "comments": 302,
+      "oneLineKo": "모토로라 시그니처 27, GrapheneOS 지원 공개",
+      "summaryKo": "모토로라가 GrapheneOS를 지원하는 신제품 'Signature 27'을 공개했다. 제목 외 본문 정보가 제공되지 않아 구체적인 사양이나 출시 일정은 확인되지 않는다. GrapheneOS는 프라이버시와 보안을 강화한 안드로이드 기반 오픈소스 운영체제로 알려져 있다.",
+      "tags": [
+        "grapheneos",
+        "android",
+        "motorola"
+      ]
+    }
+  ]
+}

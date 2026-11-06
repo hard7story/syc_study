@@ -1,117 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=34831",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "news.hada.io/topic?id=34831",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49961057",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34854",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "news.hada.io/topic?id=34854",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49969183",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "reflection.ai/blog/introducing-beam",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34853",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "news.hada.io/topic?id=34853",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49971846",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34833",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "news.hada.io/topic?id=34833",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49970667",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "vals.ai/blogs/room-temperature-magnetic-semiconductors",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34821",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "news.hada.io/topic?id=34821",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49962857",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "stratechery.com/2026/apple-and-a-hackers-future",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34865",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "news.hada.io/topic?id=34865",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49961861",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "bloomberg.com/news/articles/2026-10-05/qualcomm-licenses-patents-on-huawei-s-logicfolding-chip-tech",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49965308",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49965152",
-    "date": "2026-10-06"
-  },
-  {
-    "id": "arslan.io/2026/10/05/the-lamps-in-my-house",
-    "date": "2026-10-06"
-  },
-  {
     "id": "https://news.hada.io/topic?id=34919",
     "date": "2026-10-07"
   },
@@ -3870,5 +3758,117 @@
   {
     "id": "99percentinvisible.org/article/guerrilla-bike-lanes-san-francisco-makes-illicit-infrastructure-permanent",
     "date": "2026-11-05"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36676&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "news.hada.io/topic?id=36676",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50385272",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "github.com/anthropics/claude-code/issues/107757",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36665&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "news.hada.io/topic?id=36665",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50379704",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36662&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "news.hada.io/topic?id=36662",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50385870",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36684&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "news.hada.io/topic?id=36684",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50383963",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36660&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "news.hada.io/topic?id=36660",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50378228",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "sshhole.com",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36671&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "news.hada.io/topic?id=36671",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50383740",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "kagi.com/changelog",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50383739",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "salon.com/2026/11/05/goodbye-from-salon",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50380810",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "motorolanews.com/motorola-signature-27-2",
+    "date": "2026-11-06"
   }
 ]
