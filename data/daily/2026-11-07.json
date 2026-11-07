@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T01:26:13.699Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36731&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "대부분의 AI 스타트업은 살아남지 못한다 - 살아남는 회사를 만드는 방법 [영상]",
+      "url": "https://news.hada.io/topic?id=36731&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36731&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-07T09:31:01+09:00",
+      "snippet": "OpenAI나 Anthropic이 내 제품의 기능을 제공하게 되어도 회사가 살아남을 수 있는가? Khosla Ventures의 키스 라보이스가 산업별 AI 기업을 고를 때 던지는 핵심 질문임 사람의 일을 보조하는 코파일럿보다 업무를 끝까지 수행하는 오토파일럿 이 장기적으로 더 방어력 있는 사업이 될 수 있음 기반 모델의 부족한 부분을 메우는 데 머무르지 않고, 모델이 발전할수록 고객에게 더 큰 가치를 제공하는 구조 를 만들어야 함 독자적인 데이터 축적과 개선의 순환, 쉽게 접근할 수 없는 정보, 실제 서비스 제공과 결과에 대한 책임이 경쟁 우 …",
+      "oneLineKo": "AI 스타트업 생존 전략: 오토파일럿형 비즈니스 구축",
+      "summaryKo": "Khosla Ventures의 키스 라보이스는 AI 스타트업을 평가할 때 'OpenAI나 Anthropic이 해당 기능을 제공해도 살아남을 수 있는가'를 핵심 질문으로 삼는다고 밝혔다. 그는 단순히 사람을 보조하는 코파일럿형 제품보다 업무를 끝까지 수행하는 오토파일럿형 제품이 장기적으로 더 방어력 있는 사업이 된다고 강조한다. 기반 모델의 부족함을 메우는 데 그치지 않고, 모델이 발전할수록 고객에게 더 큰 가치를 제공하는 구조를 만들어야 하며, 독자적 데이터 축적, 접근 어려운 정보, 실제 서비스 제공에 대한 책임이 경쟁 우위의 핵심 요소로 제시된다.",
+      "tags": [
+        "ai-startup",
+        "autopilot",
+        "venture-capital"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50397994",
+      "title": "AI is dramatically accelerating AI research",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50397994",
+      "publishedAt": "2026-11-06T20:27:23Z",
+      "score": 191,
+      "comments": 147,
+      "snippet": "AI is dramatically accelerating AI research right now Planned Obsolescence Subscribe Sign in AI is dramatically accelerating AI research right now If acceleration compounds, the naive extrapolation implies superintelligence within a year Ajeya Cotra Nov 06, 2026 94 16 23 Share This post discusses a public METR report on AI R&D acceleration at Anthropic. I did not work on this project or see the unredacted report. 1 All opinions are my own and do not represent METR or the report authors. Thanks to Ryan Greenblatt for discussion, feedback, and help with modeling, and Daniel Kokotajlo, Eli Lifland, and Hjalmar Wjik for comments. Earlier this week, Anthropic stated in their S1 that they “may imminently meet” the threshold of “dramatically accelerated progress due to AI” as defined in their Responsible Scaling Policy. In their latest RSP (effective July 2026) , say this threshold will be met when: They observe or expect overall capabilities progress to be going twice as fast as the fastest sustained rate before AI was contributing much to AI R&D. 2 This is plausibly attributable to AI automating AI R&D, rather than acceleration in compute or other inputs. 3 For the last few months, some of my colleagues at METR have been working on a deep-access investigation to understand how much Anthropic is being accelerated by its AI systems. From my reading of their report and Anthropic’s RSP, it looks like the “dramatic acceleration” threshold has already been crossed. 4 The report authors found that: Between October 2025 and October 2026, capabilities progress at Anthropic has been going about twice as fast as it had been over the previous twelve months. The measurement they report is an internal version of the Epoch Capabilities Index called AECI; a wide range of other supporting evidence for acceleration has been redacted. They said that this redacted evidence was \"a majority of the evidence [they] found most informative.\" While the pace may have initially started picking up for a mix of reasons, AI automation is probably the large majority of the reason why capabilities are still improving at this faster pace today. Their reasons for believing this have been redacted. This is a much bigger deal than it might sound at first. I think this report is the most important update we have gotten about AI risk in the last couple of years — much bigger than the Hugging Face attack . Naively, it points toward much shorter timelines than most external researchers (including the AI 2027 team ) have projected. Researchers must be sped up a whole lot Importantly, if AI is roughly doubling capabilities progress overall, it must be speeding up human researchers by much more than that. Researchers work on improving algorithms and architectures; Anthropic has sometimes referred to these innovations as “compute multipliers.” 5 Overall AI capabilities (“effective compute”) is the product of compute multipliers and training compute. Because the compute multipliers are only one in",
+      "oneLineKo": "Anthropic AI, AI 연구개발 2배 가속 임계점 도달",
+      "summaryKo": "Anthropic은 자사 S1 보고서에서 AI로 인한 '극적인 연구 가속화' 임계값에 임박했다고 밝혔다. METR의 심층 조사 결과, 2025년 10월부터 2026년 10월까지 Anthropic의 역량 발전 속도가 이전 12년보다 약 2배 빨라졌으며, 이는 AI가 AI 연구개발을 자동화한 결과로 분석된다. 저자는 전체 역량이 2배 빨라졌다면 실제 연구자의 작업 속도는 그보다 훨씬 더 빨라졌어야 한다고 지적하며, 이를 AI 위험에 대한 중요한 신호로 평가한다.",
+      "tags": [
+        "ai-safety",
+        "anthropic",
+        "ai-research"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36733&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "DoorDash가 정확도를 유지하면서 LLM 검색 비용을 98% 줄인 방법",
+      "url": "https://news.hada.io/topic?id=36733&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36733&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-07T09:40:02+09:00",
+      "snippet": "LLM의 내장 웹 검색을 별도의 검색 API로 분리 해, 검색어의 의도를 분류하는 평가에서 정확도를 유지하면서 검색 요금을 98% 이상 절감 함. 모델 추론 비용은 제외한 수치임 여러 AI 에이전트가 하나의 검색 게이트웨이 를 공유하며, 모델과 검색 업체를 독립적으로 교체할 수 있음. 검색 결과 수, 캐시 정책, 장애 시 대체 업체도 설정으로 관리함 같거나 의미가 비슷한 질문의 검색 결과를 재사용 해 중복 호출을 줄임. 캐시가 채워진 평가에서는 초기 실행보다 평균 지연 시간이 68%, 검색 비용이 99% 이상 감소함 검색 결과를 제목, URL …",
+      "oneLineKo": "DoorDash, LLM 웹검색 분리로 검색비용 98% 절감",
+      "summaryKo": "DoorDash는 LLM에 내장된 웹 검색 기능을 별도의 검색 API로 분리하여 검색어 의도 분류 정확도를 유지하면서 검색 비용을 98% 이상 절감했습니다. 여러 AI 에이전트가 하나의 검색 게이트웨이를 공유해 모델과 검색 업체를 독립적으로 교체할 수 있고, 결과 수, 캐시 정책, 장애 대체 업체 등을 설정으로 관리합니다. 동일하거나 유사한 질문의 검색 결과를 캐시로 재사용해 중복 호출을 줄였으며, 캐시가 채워진 경우 평균 지연 시간은 68%, 검색 비용은 99% 이상 감소했습니다.",
+      "tags": [
+        "llm",
+        "search-api",
+        "cost-optimization"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50391456",
+      "title": "Tesla to wind down Cybertruck production",
+      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50391456",
+      "publishedAt": "2026-11-06T12:13:51Z",
+      "score": 829,
+      "comments": 1670,
+      "snippet": "Tesla to wind down Cybertruck production after years of poor sales in few markets IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content NBC News Logo Politics U.S. News World Local New York Los Angeles Chicago Dallas-Fort Worth Philadelphia Washington, D.C. Boston Bay Area South Florida San Diego Connecticut Sports Business Health Selected Tipline Subscribe Share & Save &mdash; For You Subscriber Hub Saved Newsletters Settings Profile Subscription Sign Out Search Search Sections ELECTION RESULTS Decision 2026 U.S. News World Business Sports Investigations Culture & Trends Health Science Tech Weather VIDEO Photos Sudoku Recipes NBC Selected NBC Asian America NBC BLK NBC Latino NBC OUT Local New York Los Angeles Chicago Dallas-Fort Worth Philadelphia Washington, D.C. Boston Bay Area South Florida San Diego Connecticut tv Today Nightly News Meet the Press Dateline Featured NBC News Now Nightly Films Stay Tuned Special Features Newsletters Podcasts Listen Now Business in America More From NBC NBC.COM NBCU Academy Peacock NEXT STEPS FOR VETS NBC News Site Map Help Follow NBC News news Alerts There are no new alerts at this time Search Search Facebook Twitter Email SMS Blue Sky Whatsapp Print Reddit Flipboard Pinterest Linkedin Latest Stories Politics U.S. News World Sports Business Health Selected Tipline Tech News Tesla to wind down Cybertruck production after years of poor sales in few markets Musk said in an X post the production wind-down would enable the automaker to accommodate increased output of its newly launched Cybercab model, Listen to this article with a free profile 00:00 00:00 Tesla to wind down production of Cybertruck 01:31 Get more news Live on Share Add NBC News to Google Nov. 6, 2026, 8:36 AM EST / Source : Reuters By Reuters Tesla will wind down Cybertruck production at its Texas gigafactory around mid-2027, CEO Elon Musk said on Friday, after years of persistently weak sales for a futuristic model once touted as a rival to legacy pickup trucks that ultimately only sold in just a handful of markets because of its heavy, angular design. Musk said in an X post the production wind-down would enable the automaker to accommodate increased output of its newly launched Cybercab model, which the billionaire has made central to Tesla's robotaxi ambitions. While it was not immediately clear whether Cybertruck production would be moved to another facility or phased out entirely, the automaker's Austin plant is the only known Tesla facility equipped to manufacture the model's specialized components. In response to a user on X, Musk called the Cybertruck the \"best vehicle Tesla has ever made\" and the wind-down the \"end of an era.\" Tesla did not immediately respond to a Reuters request for comment sent outside regular business hours. The US EV maker only began delivering the Cybertruck to customers in late 2023. According to Kelley Blue Book, the company only sold 20,237 Cybertrucks in the US last ",
+      "oneLineKo": "테슬라, 사이버트럭 생산 2027년경 중단",
+      "summaryKo": "테슬라가 텍사스 기가팩토리에서 생산 중인 사이버트럭을 2027년 중반쯤 단계적으로 중단한다고 일론 머스크가 밝혔다. 그는 이번 생산 축소가 로보택시 전략의 핵심인 신형 사이버캡 모델 생산량 확대를 위한 조치라고 설명했다. 2023년 말 출시된 사이버트럭은 독특한 디자인에도 불구하고 판매 부진을 겪었으며, 지난해 미국 내 판매량은 2만여 대에 그쳤다. 생산 시설이 텍사스 공장에 국한되어 있어 사이버트럭 생산이 완전히 종료될지, 다른 공장으로 이전될지는 아직 불분명하다.",
+      "tags": [
+        "tesla",
+        "ev",
+        "cybertruck"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36732&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "AI가 AI 연구를 극적으로 가속하고 있음",
+      "url": "https://news.hada.io/topic?id=36732&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36732&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-07T09:34:28+09:00",
+      "snippet": "METR 조사에 따르면 Anthropic의 AI 역량 발전 속도 는 최근 1년간 이전 1년 대비 약 2배가 됐으며, 현재 이 속도를 유지하는 주된 요인은 AI를 통한 연구 자동화 로 추정됨 전체 역량 발전이 2배 빨라지려면 연구 노동의 생산성은 훨씬 더 높아져야 함. 실험용 연산 자원과 수확 체감을 고려한 단순 모형에서는 약 10배의 노동 생산성 향상 이 필요할 수 있지만, 불확실성이 매우 큼 더 강력한 AI가 연구를 가속하고 다시 더 강력한 AI를 만드는 복리적 가속 을 막을 명확한 병목은 이번 조사에서 발견되지 않았음. 다만 METR 조사팀도 판단이 여러 차례 바뀌었으며 상당한 불확실성을 인정함 …",
+      "oneLineKo": "AI 연구 자동화로 AI 역량 발전 속도 가속화",
+      "summaryKo": "METR 조사에 따르면 Anthropic의 AI 역량 발전 속도가 최근 1년간 이전 해 대비 약 2배로 빨라졌으며, 이는 AI를 통한 연구 자동화가 주된 요인으로 추정된다. 전체 역량 발전이 2배 빨라지려면 연구 노동 생산성이 수확 체감을 고려해도 약 10배가량 향상되어야 할 수 있으나 불확실성이 크다. 더 강력한 AI가 연구를 가속하고 다시 더 강력한 AI를 만드는 복리적 가속을 막을 명확한 병목은 발견되지 않았으나, 조사팀도 판단이 여러 차례 바뀌는 등 상당한 불확실성을 인정했다.",
+      "tags": [
+        "ai-research",
+        "metr",
+        "anthropic"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50397429",
+      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50397429",
+      "publishedAt": "2026-11-06T19:48:51Z",
+      "score": 319,
+      "comments": 69,
+      "snippet": "LLM Judges for Identity Resolution at 4x Lower Cost | Hightouch | Hightouch Skip to main content Yes, Hightouch can send messages now. Learn more → Copy .SVG Brand assets Press Platform Agentic Marketing Platform Ad Studio Create and launch winning ads at scale, all backed by data Lifecycle Studio New Launch on-brand, personalized campaigns in minutes AMP Features Content Assembly Create infinite content using your existing assets and brand guidelines AI Decisioning Deliver 1:1 experiences at scale using reinforcement learning Composable CDP Customer Studio Build audiences Reverse ETL Sync data Identity Resolution Stitch users together Hightouch Events Collect data Real-time Personalization Dynamic digital experiences Match Booster Increase ad match rates Intelligence Analyze campaigns Enterprise-ready platform features Enterprise-level security Enterprise-level security with SOC 2 Type 2 and ISO 27001 certification Observability Full transparency and control to monitor and troubleshoot Governance & access control Robust access control and change management Solutions By team Marketing Advertising Data Operations By industry Retail & eCommerce Financial Services Travel & Hospitality Media & Entertainment Quick Service Restaurants Healthcare B2B SaaS For marketing Audience segmentation Journey orchestration Real-time personalization Profile enrichment Customer 360 For advertising AI for on-brand ads Audience targeting Audience suppression Conversion tracking Match rate boosting Featured Learn about the benefits of a Composable CDP and how it compares to a traditional CDP solution Learn more Integrations All integrations Integration catalog Hightouch integrates with 300+ tools spanning Advertising, Marketing Automation, CRMs, Customer Success, and more See all 300+ integrations Popular sources Snowflake Databricks Google BigQuery AWS Redshift Azure See all sources Popular destinations Salesforce HubSpot Google Ads Facebook Ads The Trade Desk See all destinations Popular extensions dbt Sigma Looker Fivetran Customers Resources Explore Blog Learn Whitepapers & guides Playbooks Lifecycle Leaders newsletter CDP Comparisons Documentation Core concepts Understand the basics of how Hightouch works Syncs Syncs define how you want to get data from your source to destination Models Hightouch models define and organize data from a source Read our docs Get started Talk to us Schedule 30-minutes to talk through how to solve your use cases Events Find conferences, local events, and webinars to learn more Solutions partners Our Partners design, build and deliver exceptional data solutions Featured See why Hightouch was named a CDP Leader by Gartner® Get the report Pricing Log in Get a demo ← Blog / For data and technology teams A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost We tested whether fast, cheap decision models like Jev and GPT-6 Luna could grade identity resolution as well as frontier LLMs, and found that pairing Jev with Claude Opu",
+      "oneLineKo": "저비용 LLM이 Opus에게 도움 요청해 4배 저렴하게 동일 정확도",
+      "summaryKo": "Hightouch는 신원 해석(identity resolution) 작업에서 저비용 LLM인 Jev와 GPT-6 Luna가 프런티어 LLM만큼 정확하게 평가할 수 있는지 테스트했다. 그 결과 Jev가 필요할 때 Claude Opus에게 도움을 요청하도록 하는 방식이 Opus 단독 사용과 동일한 정확도를 보이면서도 비용은 4배 낮출 수 있음을 확인했다. 이는 LLM을 판별자(judge)로 활용하는 작업에서 비용 효율적인 하이브리드 전략이 가능함을 시사한다.",
+      "tags": [
+        "llm",
+        "identity-resolution",
+        "cost-optimization"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36728&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "세계에서 가장 AI에 진심인 회사를 만든 방법",
+      "url": "https://news.hada.io/topic?id=36728&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36728&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-07T09:20:02+09:00",
+      "snippet": "직원 10명인 Spawn은 인건비의 30배를 AI 토큰에 지출 하며 제품을 개발함. 최근 30일 동안 토큰 비용으로 310만 달러를 쓰고, 실질적인 코드 변경 7만 7,000건을 배포함 개발, 운영, 재무 등을 맡는 상시 AI 에이전트 조직 을 운영함. 각 에이전트는 이름과 기억, 실제 시스템 권한을 갖고 담당 영역을 관리하며, 하루 수천 개의 보조 에이전트를 생성해 작업함 PR을 없애고 에이전트들이 같은 코드와 실제 제품을 통해 협업 함. 15분마다 전체 테스트를 실행하고 매시간 배포하며, 문제가 생기면 새 에이전트가 감지하고 수정하는 순환을 유지함 …",
+      "oneLineKo": "직원 10명 Spawn, AI 에이전트로 회사 전체 운영",
+      "summaryKo": "직원 10명인 스타트업 Spawn은 인건비의 30배에 달하는 AI 토큰 비용을 지출하며 제품을 개발한다. 최근 30일간 토큰 비용으로 310만 달러를 쓰고 7만 7,000건의 코드 변경을 배포했다. 개발·운영·재무 등을 맡는 상시 AI 에이전트 조직을 운영하며, 각 에이전트는 이름과 기억, 실제 시스템 권한을 가지고 하루 수천 개의 보조 에이전트를 생성해 작업한다. PR 없이 에이전트들이 같은 코드베이스에서 협업하며 15분마다 테스트, 매시간 배포하는 순환 구조를 유지한다.",
+      "tags": [
+        "ai-agent",
+        "automation",
+        "devops"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50392118",
+      "title": "Gemini Omni 1.2 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50392118",
+      "publishedAt": "2026-11-06T13:35:27Z",
+      "score": 292,
+      "comments": 218,
+      "snippet": "Gemini Omni 1.2 Flash: 15-second video and lower pricing Skip to main content Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips Innovation & AI Products & platforms Company news Feed Newsletter Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Back Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebook Googlebook See all Learn more: Google Ads & Commerce blog Waze blog Back Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Innovation & AI Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Products & platforms Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebook Googlebook See all Learn more: Google Ads & Commerce blog Waze blog Company news Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Feed Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips Share x.com Facebook LinkedIn Mail Copy link [] Preferences Global (English) Africa (English) Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) Malaysia (English) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Links Images RSS feed x.com Fac",
+      "oneLineKo": "구글, 15초 영상 지원 Gemini Omni 1.2 Flash 공개",
+      "summaryKo": "구글이 Gemini Omni 1.2 Flash 모델을 발표했다. 이번 버전은 기존보다 더 긴 15초 분량의 영상 클립을 생성할 수 있으며, 가격도 더 저렴해졌다. 빠른 속도와 비용 효율성을 강조한 업데이트로 소개되었다.",
+      "tags": [
+        "gemini",
+        "google-ai",
+        "video-generation"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36730&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Craft Anything - 웹사이트, 앱, 게임을 분석하고 AI로 재구현하는 도구",
+      "url": "https://news.hada.io/topic?id=36730&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36730&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-07T09:30:03+09:00",
+      "snippet": "원본과 원하는 결과를 지정하면 분석 → 구현 → 비교 → 개선 을 거쳐 새 프로젝트를 만들어 줌 “이 웹사이트를 재현해 줘”, “이 게임을 Rust로 만들어 줘”처럼 요청 가능 원본과 다른 부분을 찾아 반복 수정 함 웹사이트는 세 화면 너비에서 레이아웃, 시각적 유사성과 메뉴 동작 등을 비교함 기본 Clean room 모드 는 원본 코드나 파일을 읽지 않고 화면과 배치, 색상 등으로 작업함 운영체제 수준의 샌드박스는 아니며, 에이전트의 자체 권한은 별도로 적용됨 Deep 모드 는 바이너리, 코드와 파일까지 분석하며 Ghidra와도 연동함 …",
+      "oneLineKo": "웹·앱·게임을 분석해 AI로 재구현하는 도구 'Craft Anything'",
+      "summaryKo": "Craft Anything은 원본 웹사이트, 앱, 게임을 분석한 뒤 분석→구현→비교→개선 과정을 거쳐 새 프로젝트로 재구현해주는 AI 도구다. 사용자는 '이 웹사이트를 재현해줘', '이 게임을 Rust로 만들어줘' 같은 자연어 요청을 할 수 있으며, 원본과의 차이를 찾아 반복적으로 수정한다. 기본 Clean room 모드는 코드나 파일을 읽지 않고 화면 구성, 배치, 색상 등 시각적 요소만으로 작업하며, Deep 모드는 바이너리와 코드까지 분석해 Ghidra와 연동 가능하다.",
+      "tags": [
+        "ai-agent",
+        "reverse-engineering",
+        "code-generation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50388001",
+      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50388001",
+      "publishedAt": "2026-11-06T04:00:28Z",
+      "score": 273,
+      "comments": 218,
+      "oneLineKo": "미 FAA, 2028년까지 항공관제 플로피디스크 단계적 폐지",
+      "summaryKo": "미국 연방항공청(FAA)이 2028년까지 항공교통관제 시스템에서 플로피디스크 사용을 단계적으로 중단하겠다고 밝혔다. 이는 노후화된 레거시 인프라를 현대화하려는 조치의 일환으로 보인다. 구체적인 대체 기술이나 전환 계획에 대한 세부 내용은 제목만으로는 확인되지 않는다.",
+      "tags": [
+        "faa",
+        "legacy-systems",
+        "infrastructure"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36722&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Ask HN: Ubuntu는 도대체 왜 이렇게 오래 걸리는 건가요?",
+      "url": "https://news.hada.io/topic?id=36722&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36722&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-07T05:37:23+09:00",
+      "snippet": "Ubuntu가 CVE-2026-98432 의 심각도를 9.8 로 표시했지만, 거의 일주일째 수정 업데이트 없이 “work in progress” 상태이며 이제는 완화 조치가 안내되어 있음 완화 조치를 적용한 지 일주일이 됐지만, 대응 지연으로 Ubuntu에 대한 신뢰 가 흔들리고 있음. 지원하는 커널이 너무 많은지, 빌드/테스트 파이프라인의 자동화가 부족한지, 엔지니어들이 과부하 상태인지 등 지연 이유를 알고 싶어 함 오랫동안 OS 업데이트 유지 가 공격자를 막는 중요한 수단이었지만 상황이 달라지고 있다고 느낌. 보안 문제가 훨씬 더 많아질 것으로 예상하며, 지금도 대응을 따라가지 못한다면 앞으로 6개월 뒤에는 어떻게 될지 우려함 …",
+      "oneLineKo": "Ubuntu, 심각도 9.8 CVE 패치 일주일째 지연 논란",
+      "summaryKo": "Hacker News 이용자가 심각도 9.8로 분류된 CVE-2026-98432에 대한 Ubuntu의 수정 패치가 일주일 가까이 'work in progress' 상태로 지연되고 있다고 지적했다. 임시 완화 조치만 안내된 채 정식 패치가 나오지 않아 Ubuntu의 보안 대응 신뢰도에 의문이 제기됐다. 커널 지원 범위 과다, 빌드/테스트 파이프라인 자동화 부족, 엔지니어 과부하 등이 지연 원인으로 거론됐으며, 향후 보안 이슈 증가에 대한 대응력에 우려가 표명됐다.",
+      "tags": [
+        "ubuntu",
+        "cve",
+        "security"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50394906",
+      "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50394906",
+      "publishedAt": "2026-11-06T16:54:36Z",
+      "score": 220,
+      "comments": 474,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;epyhia.com&#x2F;anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors\" rel=\"nofollow\">https:&#x2F;&#x2F;epyhia.com&#x2F;anthropic-ipo-valuation-talks-drop-to-1-3...</a>",
+      "oneLineKo": "앤트로픽 IPO 밸류에이션, AI 조정장에 1.1조 달러까지 하락 전망",
+      "summaryKo": "블룸버그 보도에 따르면 앤트로픽의 IPO 밸류에이션 기대치가 AI 시장 조정(rout)의 영향으로 하락 압력을 받고 있다. IPO 참여를 검토하는 투자자들은 기존 거론되던 수준보다 낮은 최대 1.1조 달러 수준의 가치 평가를 보고 있는 것으로 전해졌다. 이는 최근 AI 관련 기업들의 밸류에이션 조정 흐름과 맞물려 있다.",
+      "tags": [
+        "anthropic",
+        "ipo",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50394855",
+      "title": "First steps in bare-metal programming using UEFI",
+      "url": "https://kevinboone.me/efitest_index.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50394855",
+      "publishedAt": "2026-11-06T16:50:29Z",
+      "score": 183,
+      "comments": 31,
+      "snippet": "Kevin Boone: First steps in bare-metal programming using UEFI – series index Kevin Boone Home Contact About Software Articles  First steps in bare-metal programming using UEFI – series index These articles are about using a Linux workstation to develop bare-metal applications for a PC-type computer with UEFI firmware. They are written for experienced Linux developers, but assume no prior knowledge of UEFI. The articles cover the software tools needed, how to compile and link, how to create a bootable disk, and basic file management. Please note that I wrote these articles to be read in order. Each one relies on information from the previous articles, and it might be difficult to follow them out of sequence. Part 1 – Compiling and Linking Part 2 – The EFI system partition Part 3 – Making a DVD or USB flash image Part 4 – A pragmatic digression Part 5 – Handling files using the Simple File Protocol Have you posted something in response to this page? Feel free to send a webmention to notify me, giving the URL of the blog or page that refers to this one. Send Categories: software development , Linux Oct 12 2026",
+      "oneLineKo": "UEFI 베어메탈 프로그래밍 입문 시리즈",
+      "summaryKo": "리눅스 워크스테이션에서 UEFI 펌웨어 기반 PC용 베어메탈 애플리케이션을 개발하는 방법을 다루는 시리즈 글입니다. 경험 있는 리눅스 개발자를 대상으로 하며 UEFI 사전 지식은 필요 없습니다. 컴파일과 링크, 부팅 가능한 디스크 생성, 파일 관리 등 필요한 소프트웨어 도구들을 다루며 총 5부로 구성되어 순서대로 읽는 것을 권장합니다.",
+      "tags": [
+        "uefi",
+        "bare-metal",
+        "linux"
+      ]
+    }
+  ]
+}

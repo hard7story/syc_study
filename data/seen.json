@@ -1,117 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=34919",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "news.hada.io/topic?id=34919",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49981905",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "zohaib.cc/blog/smartest-claude-code-feature",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34893",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "news.hada.io/topic?id=34893",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49984923",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "openai.com/index/sharing-ai-progress-in-mathematics",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34915",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "news.hada.io/topic?id=34915",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49980715",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "github.com/FeSens/openTPU",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34899",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "news.hada.io/topic?id=34899",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49976265",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "nobelprize.org/prizes/physics/2026",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34890",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "news.hada.io/topic?id=34890",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49975619",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=34886",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "news.hada.io/topic?id=34886",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49980487",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49983703",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49977531",
-    "date": "2026-10-07"
-  },
-  {
-    "id": "signoregalilei.com/2026/09/27/whats-earths-dominant-species-by-mass",
-    "date": "2026-10-07"
-  },
-  {
     "id": "https://news.hada.io/topic?id=34976",
     "date": "2026-10-08"
   },
@@ -3870,5 +3758,109 @@
   {
     "id": "motorolanews.com/motorola-signature-27-2",
     "date": "2026-11-06"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36731&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "news.hada.io/topic?id=36731",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50397994",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36733&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "news.hada.io/topic?id=36733",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50391456",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36732&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "news.hada.io/topic?id=36732",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50397429",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "hightouch.com/blog/llm-judges-identity-resolution",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36728&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "news.hada.io/topic?id=36728",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50392118",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36730&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "news.hada.io/topic?id=36730",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50388001",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36722&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "news.hada.io/topic?id=36722",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50394906",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50394855",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "kevinboone.me/efitest_index.html",
+    "date": "2026-11-07"
   }
 ]
