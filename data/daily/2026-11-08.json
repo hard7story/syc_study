@@ -1,0 +1,278 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T01:00:15.746Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36781&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "웹에서 AI가 일으키는 온갖 부작용에 어떻게 대처하고 계신가요?",
+      "url": "https://news.hada.io/topic?id=36781&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36781&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-08T09:02:00+09:00",
+      "snippet": "검색 결과 상단을 저품질 AI 콘텐츠 가 차지하면서 웹이 망가졌다고 느낌. LLM 요약이 그나마 쓸 만한 이유도 이전 검색보다 나아서가 아니라, 검색 결과 아래에 묻힌 좋은 링크를 언급해 주기 때문임 Google과 DuckDuckGo의 요청 제한 으로 오류나 대기 안내를 자주 접하며, 새로고침하며 결과를 기다리는 데 1분 이상 허비하기도 함. 비로그인 상태의 GitHub 탐색 제한과 곳곳의 Anubis 차단까지 겹쳐 생산성이 오히려 낮아졌다고 느낌 웹 의존도를 줄이고 기본 자료를 활용하는 것도 좋지만, 최신 하드웨어의 구체적인 문제 에는 웹의 기존 버그 보고서가 필요할 수 있음. 예를 들어 1년 된 모바일 칩셋에서 맞춤형 펌웨어가 부팅되지 않는 이유는 5년 전 책으로 해결하기 어려우며, 현재도 이와 유사한 문제를 겪고 있음 …",
+      "oneLineKo": "저품질 AI 콘텐츠로 검색·웹 생산성 저하 토로",
+      "summaryKo": "검색 결과 상단이 저품질 AI 생성 콘텐츠로 뒤덮이면서 웹 사용 경험이 나빠졌다는 불만을 다룬 글이다. Google과 DuckDuckGo의 요청 제한, 비로그인 GitHub 탐색 제한, Anubis 차단 등이 겹쳐 오히려 생산성이 떨어졌다는 경험을 공유한다. LLM 요약이 유용한 이유도 검색 품질 자체가 나아져서가 아니라 묻힌 좋은 링크를 찾아주기 때문이라고 지적한다. 웹 의존도를 줄이려 해도 최신 하드웨어의 구체적 버그 해결에는 여전히 최신 웹 자료가 필요하다는 한계도 언급한다.",
+      "tags": [
+        "ai",
+        "search",
+        "web"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50407882",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50407882",
+      "publishedAt": "2026-11-07T20:45:32Z",
+      "score": 144,
+      "comments": 104,
+      "snippet": "from each page's `seo` config (edited in /Config). By customizing index.html, the platform stops auto-injecting duplicate SEO/social meta tags. --> Apiiro: Secure your agentic development from the IDs configured in /Config, so they can be edited and toggled without code changes. --> D | Apiiro | AI AppSec Agent. Built for Enterprise Security. Dynamic Page on Apiiro | AI AppSec Agent. Built for Enterprise Security.. Protect your entire AI development environment. Pages Home Careers — Careers on Apiiro | Control Plane for Agentic Development Security. Control Plane for Agentic Development Security. Config — Config on Apiiro | AI AppSec Agent. Built for Enterprise Security.. Protect your entire AI development environment. Customers — Customers on Apiiro | AI AppSec Agent. Built for Enterprise Security.. Protect your entire AI development environment. Platform — Platform on Apiiro | AI AppSec Agent. Built for Enterprise Security.. Protect your entire AI development environment. Product — Product on Apiiro | AI AppSec Agent. Built for Enterprise Security.. Protect your entire AI development environment. Resources — Resources on Apiiro | AI AppSec Agent. Built for Enterprise Security.. Protect your entire AI development environment. Solutions — Solutions on Apiiro | AI AppSec Agent. Built for Enterprise Security.. Protect your entire AI development environment. Join Shine — Join Shine on Apiiro | Secure your agentic development. With one Guardian Agent. O Auth Consent — O Auth Consent on Apiiro | Secure your agentic development. With one Guardian Agent. Glossary Index — Glossary on Apiiro | Control Plane for Agentic Development Security. Control Plane for Agentic Development Security. Dynamic Page View — Dynamic Page View on Apiiro | Control Plane for Agentic Development Security. Control Plane for Agentic Development Security. Forrester Wave — Forrester Wave on Apiiro | Secure your agentic development. With one Guardian Agent. Free Acus — Free Acus on Apiiro | Secure your agentic development. With one Guardian Agent. Thank You Resources — Thank You Resources on Apiiro | Control Plane for Agentic Development Security. Control Plane for Agentic Development Security. Thank You Demo — Thank You Demo on Apiiro | Secure your agentic development. With one Guardian Agent. Protect — Protect on Apiiro | Secure your agentic development. With one Guardian Agent. Prevention — Prevention on Apiiro | Secure everything in the agentic development era. Test. Perfect Storm — Perfect Storm on Apiiro | Secure your agentic development. With one Guardian Agent. Auto Fix — Auto Fix on Apiiro | Secure your agentic development. With one Guardian Agent. Free Auto Fix — Free Auto Fix on Apiiro | Secure your agentic development. With one Guardian Agent. Ai Sast — Ai Sast on Apiiro | Secure your agentic development. With one Guardian Agent. Ai Sca — Ai Sca on Apiiro | Secure your agentic development. With one Guardian Agent. Api Security — Api Security on Apiiro | Secure your agen",
+      "oneLineKo": "Claude Code 설정 기능으로 깃허브에 비밀번호 1,122건 노출",
+      "summaryKo": "Claude Code의 '다시 묻지 않기' 설정 기능이 1,122개의 공개 GitHub 파일에서 비밀번호 등 민감 정보를 노출시킨 것으로 나타났습니다. 이는 AI 코딩 에이전트가 자동화 과정에서 보안 확인 절차를 건너뛰면서 발생한 문제로 지적됩니다. 본문 상세 내용은 확인되지 않았으나, 제목을 통해 AI 코딩 도구의 보안 취약점이 드러났음을 알 수 있습니다.",
+      "tags": [
+        "claude-code",
+        "github",
+        "ai-security"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xov21m",
+      "title": "Modern Java at Stripe: Language upgrades as a service",
+      "url": "https://www.reddit.com/r/programming/comments/1xov21m/modern_java_at_stripe_language_upgrades_as_a/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xov21m/modern_java_at_stripe_language_upgrades_as_a/",
+      "publishedAt": "2026-11-05T21:36:29+00:00",
+      "snippet": "submitted by /u/Ok_Stomach6651 [link] [comments]",
+      "oneLineKo": "Stripe, Java 버전 업그레이드를 서비스화하다",
+      "summaryKo": "Stripe가 사내 Java 언어 버전 업그레이드 작업을 자동화된 서비스 형태로 운영한 사례를 소개하는 글입니다. 대규모 코드베이스에서 Java 최신 버전으로의 지속적인 업그레이드를 어떻게 관리하는지를 다룹니다. Reddit에 공유된 게시물로, 본문 내용은 제목 외에 구체적으로 제공되지 않았습니다.",
+      "tags": [
+        "java",
+        "devops",
+        "stripe"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36780&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "MaxxBench - “DeepSWE 점수는 좋네요. 그런데 진짜인가요?”",
+      "url": "https://news.hada.io/topic?id=36780&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36780&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-08T08:34:44+09:00",
+      "snippet": "MaxxBench 는 DeepSWE의 89개 과제에서 요구사항이나 시작 코드를 조금 바꿔, 코딩 에이전트가 익숙한 정답 대신 달라진 작업에 적응하는지 평가함 참조 패치 증가량은 중앙값 17줄, 3.5% 에 불과했지만, 비교한 12개 구성의 최고점과 최저점 차이는 DeepSWE의 20.9%p에서 MaxxBench의 48.3%p로 커짐 여러 모델이 새 요구사항을 이해하고도 숨겨진 테스트에 대한 추측 을 우선함. 다만 Claude Opus 5.5처럼 요구사항을 더 잘 따르는 모델도 있어, 모든 모델의 성능이 떨어진 것은 아님 메모리 사용량을 프로그램의 자체 보고로 확인하는 과 …",
+      "oneLineKo": "MaxxBench, 코딩 에이전트 벤치마크의 과적합 위험 검증",
+      "summaryKo": "MaxxBench는 DeepSWE 벤치마크의 89개 과제에서 요구사항이나 시작 코드를 약간 변형해 코딩 에이전트가 암기한 정답이 아닌 실제 적응력을 평가한다. 패치 변경량은 중앙값 17줄(3.5%)에 불과했지만, 모델 간 성능 격차는 DeepSWE의 20.9%p에서 MaxxBench에서는 48.3%p로 크게 벌어졌다. 여러 모델이 변경된 요구사항을 이해하면서도 숨겨진 테스트 결과를 추측하는 방식을 우선시했지만, Claude Opus 5.5처럼 요구사항을 더 충실히 따르는 모델도 존재해 모든 모델이 동일하게 성능 저하를 보인 것은 아니다.",
+      "tags": [
+        "llm",
+        "benchmark",
+        "coding-agent"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50406563",
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "url": "https://hunch.net/?p=13764006",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50406563",
+      "publishedAt": "2026-11-07T18:02:17Z",
+      "score": 357,
+      "comments": 206,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;archive.is&#x2F;AaY5O\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.is&#x2F;AaY5O</a><p><a href=\"https:&#x2F;&#x2F;businessexaminer.ca&#x2F;victoria-articles&#x2F;item&#x2F;microsoft-researcher-john-langford-exits-as-ai-frontiers-group-is-declared&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;businessexaminer.ca&#x2F;victoria-articles&#x2F;item&#x2F;microsoft...</a>",
+      "oneLineKo": "MS Research AI Frontiers 그룹 해체, 연구원 퇴사",
+      "summaryKo": "Microsoft Research 산하 AI Frontiers 그룹이 해체된 것으로 알려졌다. 해당 그룹 소속이던 연구자 John Langford가 퇴사했다는 소식이 함께 전해졌다. 이는 Microsoft의 AI 연구 조직 재편 움직임을 보여주는 사례로 언급된다.",
+      "tags": [
+        "microsoft",
+        "ai-research"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xqklmx",
+      "title": "Unified Grid: How We Re-Architected Slack for Our Largest Customers",
+      "url": "https://www.reddit.com/r/programming/comments/1xqklmx/unified_grid_how_we_rearchitected_slack_for_our/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xqklmx/unified_grid_how_we_rearchitected_slack_for_our/",
+      "publishedAt": "2026-11-07T23:58:05+00:00",
+      "snippet": "submitted by /u/Ok_Stomach6651 [link] [comments]",
+      "oneLineKo": "Slack, 대형 고객 위해 'Unified Grid' 구조로 재설계",
+      "summaryKo": "Slack 팀이 대규모 엔터프라이즈 고객을 지원하기 위해 시스템 아키텍처를 'Unified Grid' 형태로 재설계한 사례를 소개하는 글입니다. 기존 구조의 한계를 극복하고 대형 고객 환경에 맞춰 확장성과 관리 효율성을 높이는 방향으로 변경이 이루어진 것으로 보입니다. 본문 내용이 제한적이어서 구체적인 기술 구현 세부 사항은 확인되지 않습니다.",
+      "tags": [
+        "slack",
+        "architecture",
+        "scalability"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36775&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "에이전트 메모리 설계 - 무엇을 기억하고, 잘못된 기억은 어떻게 고칠까",
+      "url": "https://news.hada.io/topic?id=36775&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36775&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-08T05:51:20+09:00",
+      "snippet": "Anthropic은 AI 에이전트가 다음 세션을 위해 무엇을 기억하고, 쌓인 기억을 어떻게 정리할지 Claude로 실험함 에이전트는 검증된 해결법이나 이어서 할 일을 노트로 남겨 다음 세션에서 다시 활용 할 수 있음 드리밍(dreaming) 은 세션 사이에 메모를 원본 대화 로그와 대조해 오류를 고치고, 여러 세션에 흩어진 노트를 주제별로 연결하는 과정임. 관련 내용을 위키로 묶어 나중에 찾아보기 쉽게 만들 수 있음 내부 문서 평가에서 원문 검색에 위키를 더하자 채점 기준 충족률이 53%에서 최대 61% 로 올랐고, 질문당 약 2만 토큰 을 절약 …",
+      "oneLineKo": "Anthropic, AI 에이전트 메모리·드리밍 기법 실험",
+      "summaryKo": "Anthropic은 Claude를 활용해 AI 에이전트가 세션 간 무엇을 기억하고 어떻게 정리할지 실험했다. 에이전트는 검증된 해결법이나 할 일을 노트로 남겨 다음 세션에서 활용하며, '드리밍(dreaming)'이라는 과정을 통해 세션 사이 메모를 원본 대화 로그와 대조해 오류를 수정하고 여러 노트를 주제별 위키로 연결한다. 내부 평가에서 원문 검색에 위키를 추가하자 채점 기준 충족률이 53%에서 최대 61%로 상승했고, 질문당 약 2만 토큰을 절약하는 효과가 있었다.",
+      "tags": [
+        "ai-agent",
+        "llm",
+        "anthropic"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50403052",
+      "title": "Need for Speed Underground 2 online in the browser",
+      "url": "https://nfsu2.xyz/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50403052",
+      "publishedAt": "2026-11-07T09:36:36Z",
+      "score": 793,
+      "comments": 225,
+      "snippet": "Underground 2 Revived Underground 2 Revived Fan project. Not affiliated with or endorsed by Electronic Arts. Changelog Discord Donate Loading Loading the game. Play Enter Retry Reload Download log Post the log in #bug-reports on our Discord , with what you were doing. Playing now – in total – in free roam – About Credits Translations The PC game's own code, recompiled for Chrome and Firefox: up to 120 fps in widescreen, free roam and Online races with friends, and controllers, wheels and touch controls. My brother and I played this game together about 20 years ago. Because of that I tried porting it to the browser so we could play together again. It worked surprisingly well, and it got a bit out of hand. It's great to see so many people playing it. To help with hosting and development costs, you can buy me a coffee . Everyone gets the same game, with no microtransactions or paid perks. Supporters just get a Discord role. Help, bugs and questions: our Discord . Rights holders: legal (at) nfsu2.xyz. Source code on GitHub . Based on Talha Müderrisoğlu's NFSU2Recomp , the original x86 → C static recompiler for NFSU2, after N64: Recompiled and XenonRecomp . This project was forked from NFSU2Recomp's MIT-licensed version of 16 October 2026 and uses only code from that version. Mods and their makers: the Mods tab. Dubbed voices and movies, and Chinese, Japanese, Russian and Thai text: KyoriAsh's Multi 13 languages mod , with Lee-Ryo's Thai support. Portuguese (Brazil): TraduMix and MixMods (Fyro, Beater, Kerlyston F.; Junior_Djjr, SideWinder, Elyzandro). Polish: PLProjekt (Daniel Graszka, MaDeR, Marcin Piech, Nati, Mateusz Wilkowski, alter). Turkish: Samet Samyeli ; fonts: muntazam . Hungarian: GameHunter (L_zooltan). Ukrainian: Clark X. Czech: ROXOR, PINĎA & syn , with our own edits. Slovak: MixerX . Greek: Corneleto . English subtitles: VileStuff's English Subtitles Fixed . Saves Online Friends & crews Game Mods Controls Screenshots Screenshot with F12 Delete all None yet. Profiles Download backup Restore To save while playing: Esc or Start > Garage > Save Cloud saves Turn on Load Loads your saves and username, and syncs them between your devices. Keep this browser's Use the cloud's Sync now Go back Stop syncing Delete from cloud Put back Changes apply the next time you press Play. Game data on this device Counting… Preload the game data Delete game data Reset all settings Edit settings.ini as text Save file The mods in this game and their makers (translations: the Translations tab). Changes apply the next time you press Play. Keyboard Touch Controller Site Tap the game's menus, or use the arrows, OK and Back beside them. Touch controls show while you drive. Steering The button at the game's top right switches it too. Position Which thumb steers. Moved in keeps the controls off the screen's edges. Nitro on the steering side For the thumb that isn't on Gas. Level horizon With tilt steering, keeps the horizon level. Control size Auto sizes them for this",
+      "oneLineKo": "NFSU2를 브라우저에서 즐기는 팬메이드 리메이크",
+      "summaryKo": "개발자가 오래된 PC 레이싱 게임 Need for Speed Underground 2의 x86 코드를 C로 정적 재컴파일하여 Chrome과 Firefox에서 실행 가능하게 만들었다. 최대 120fps 와이드스크린, 프리로밍, 친구와의 온라인 레이스, 컨트롤러·휠·터치 입력을 지원한다. 마이크로트랜잭션 없이 모두 동일한 게임을 즐길 수 있으며, 소스코드는 GitHub에 공개되어 있다. 다양한 언어 번역과 모드도 커뮤니티 기여로 제공된다.",
+      "tags": [
+        "recompilation",
+        "browser-gaming",
+        "webassembly"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36772&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Microsoft Research의 AI Frontiers 그룹이 막을 내림",
+      "url": "https://news.hada.io/topic?id=36772&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36772&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-08T05:42:20+09:00",
+      "snippet": "AI Frontiers(AIF) 가 Microsoft AI로 재편된 뒤 막을 내림. 공동 설립에 참여한 John Langford는 팀원들의 거취를 최대한 정리하고 회사를 떠남 약 50명 규모 의 AIF는 개인 연구만으로 경쟁하기 어려워진 AI 환경에 대응해 조직적인 연구를 추진했으며, 에이전트와 새로운 모델 역량을 개발함 Langford가 경험한 Microsoft AI의 규모 확장 중심 전략 은 AIF의 연구 지향과 양립하기 어려웠음. 연구보다 데이터 확보, 생성, 개선에 집중하는 환경이었음 연구를 통한 효율 개선 은 규모 확장과 별개로 큰 가치를 가질 수 있음. ByteDance 실 …",
+      "oneLineKo": "MS Research AI Frontiers 그룹, Microsoft AI 재편 속 해체",
+      "summaryKo": "Microsoft Research의 AI Frontiers(AIF) 그룹이 Microsoft AI로 재편되면서 활동을 마감했다. 공동 설립자 John Langford는 팀원들의 거취를 정리한 뒤 회사를 떠났다. 약 50명 규모의 AIF는 개인 연구의 한계를 극복하기 위해 조직적 연구를 추진하며 에이전트와 새로운 모델 역량을 개발해왔으나, 데이터 확보와 규모 확장을 중시하는 Microsoft AI의 전략과는 방향성이 맞지 않았다.",
+      "tags": [
+        "microsoft",
+        "ai-research",
+        "organizational-change"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50403097",
+      "title": "Every Mac comes with an (undocumented) family member classifier",
+      "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50403097",
+      "publishedAt": "2026-11-07T09:46:03Z",
+      "score": 585,
+      "comments": 335,
+      "snippet": "/index.md. Do not edit: the next build overwrites it, and deploy.sh refuses to publish a generated page whose bytes do not match .build-manifest. Edit the post and re-run bin/build.py. --> Anatomy of Apple's Personal Knowledge Graph — Eighth Rank Skip to content the Eighth Rank Write-up Opening Played by the Bishop (Dario Pasquini) + the Knight (Michał Bazyli) 2026-10-28 Anatomy of Apple's Personal Knowledge Graph Every Mac since macOS 13 (2022) ships a pair of daemons whose only purpose in life is to build a graph about who you are, who you know, how those people are related to you and to each other, how you communicate with them, where you go, what you do and when. In this post, we look into how this system works and give you a tool to peek into your own graph. The position A family fork: one knight on e2 attacks White's king, queen, rook and bishop at once. White's pieces are the household the graph is about; the knight is the store, one move from every one of them. White's own last move, 18.e3 , emptied the square it stands on. White is in check and has one legal reply, Kh1 ; then the knight takes the queen. The check falls on the one who accepted the terms. What is lost is someone else. 3r1rk1/pp2qppp/8/3p1b2/8/1NQ1P1B1/PP2nPPP/2R2RK1 w - - 1 19 Finding Target Apple Intelligence / Personal Knowledge Graph Affected macOS 13+, Intel and Apple silicon Class Privacy Personalized AI What if I told you that every Mac since 2022 ships a pair of daemons whose only purpose in life is to build a graph about you and the people around you: who you are, who you know, how those people are related to you and to each other, how you communicate with them, where you go, with whom, what you do and when. This graph is built on device by cross-referencing pretty much everything on the machine: Contacts, Calendar, Photos, Messages, Mail, location, Screen Time and a long tail of behavioral signals. And, more importantly, it is held as a queryable store that LLMs retrieve from (allegedly). Would you believe me? Well, that's what is happening, and interestingly enough, there is little documentation of how this whole mechanism works on your Mac. The closest thing to an official description is the man page ( man 8 knowledgeconstructiond ), and this is all you get: man 8 knowledgeconstructiond macOS 26.6.2, build 25G83 NAME knowledgeconstructiond – A daemon that analyzes content on the device to build a general purpose knowledge graph. DESCRIPTION knowledgeconstructiond analyzes the content on this device to help build a knowledge graph representing the device and the user. It works together with intelligenceplatformd, performing some of the heavy processing tasks, to generate the knowledge graph. Previous work: To be fair, Apple's own researchers did publish a paper on the techniques behind this graph construction, back in 2023. But there is next to nothing on how it is integrated into macOS: which versions run it, and the exact list of what is collected and inferred.",
+      "oneLineKo": "macOS 내장 데몬의 비공개 개인 지식 그래프 분석",
+      "summaryKo": "macOS 13부터 모든 Mac에는 knowledgeconstructiond와 intelligenceplatformd라는 두 데몬이 기본 탑재되어, 연락처·캘린더·사진·메시지·메일·위치·스크린타임 등을 교차 분석해 사용자와 주변인에 대한 개인 지식 그래프를 구축한다. 이 그래프는 Apple Intelligence의 LLM이 조회하는 쿼리 가능한 저장소로 작동하는 것으로 알려졌지만, 공식 문서는 man 페이지 수준에 그쳐 정확한 수집·추론 항목과 동작 방식이 거의 공개되어 있지 않다. 저자는 이를 역설계해 자신의 그래프를 들여다볼 수 있는 도구를 제공한다.",
+      "tags": [
+        "macos",
+        "apple-intelligence",
+        "privacy"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36771&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "대학 도서관에 몰려드는 AI 봇, 공공 접근권을 위협하다",
+      "url": "https://news.hada.io/topic?id=36771&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36771&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-08T04:33:14+09:00",
+      "snippet": "AI 학습용 데이터를 수집하는 스크래핑 봇 이 대학 도서관 사이트를 느려지거나 중단되게 하면서 학생, 연구자, 일반 시민의 자료 접근을 방해하고 있음 일부 봇은 robots.txt 지침을 무시하고 초당 수천 건의 문서를 요청하며, 수천 개 IP 주소를 사용해 기존 IP 차단 방식으로 대응하기 어려움 University of North Carolina at Chapel Hill에서는 하루에 핀란드 음악 검색 1만 1,000건 이상 이 발생했고, 봇 트래픽 때문에 학생과 교직원이 도서관 목록에 주기적으로 접근하지 못함 CAPTCHA와 로그인 요구 는 봇을 막는 수단이지만 유용한 …",
+      "oneLineKo": "AI 스크래핑 봇, 대학 도서관 접근 방해 심화",
+      "summaryKo": "AI 학습 데이터를 수집하는 스크래핑 봇들이 대학 도서관 사이트에 과도한 트래픽을 유발해 학생과 연구자, 일반 시민의 자료 접근을 방해하고 있다. 일부 봇은 robots.txt 지침을 무시하고 초당 수천 건의 요청을 보내며 수천 개의 IP 주소를 사용해 기존 IP 차단 방식으로는 대응이 어렵다. University of North Carolina at Chapel Hill에서는 하루 1만 1,000건 이상의 비정상 검색 트래픽이 발생해 도서관 목록 접근이 주기적으로 끊기는 문제가 발생했다. CAPTCHA와 로그인 요구가 대응 수단으로 제시되지만 공공 접근성을 저해할 수 있다는 우려도 있다.",
+      "tags": [
+        "web-scraping",
+        "ai",
+        "public-access"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50406111",
+      "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
+      "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50406111",
+      "publishedAt": "2026-11-07T17:06:36Z",
+      "score": 339,
+      "comments": 226,
+      "snippet": "Struggling to spell ‘male chauvinist pig’? Apple’s grey list means your iPhone won’t help you | Apple | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us UK US politics World Climate crisis Middle East Ukraine Football Newsletters Business Environment UK politics Science Tech Global development Obituaries The swipe-type-thwarting list was discovered by the independent researcher Derik Kauffman. Photograph: Manuel Orbegozo/Reuters View image in fullscreen The swipe-type-thwarting list was discovered by the independent researcher Derik Kauffman. Photograph: Manuel Orbegozo/Reuters Apple Struggling to spell ‘male chauvinist pig’? Apple’s grey list means your iPhone won’t help you There are more than 100,000 words and phrases that the tech giant has restricted its predictive text from completing, research shows Aisha Down Global technology reporter Fri 6 Nov 2026 11.12 EST Last modified on Fri 6 Nov 2026 11.55 EST Share Prefer the Guardian on Google “Australia is a very bad place to question your sexuality on MDMA with NSA spies” might be a text you would wish to send to your friends, if you have had an extraordinarily complicated night out in Sydney. But your iPhone won’t help you spell any of it if you try to swipe-type it – that is, by gliding a finger across a keyboard as opposed to pecking out a word. New research shows that Apple has a “grey list” of more than 100,000 words and phrases that it has restricted from being completed by its predictive text. So if a user wishes to type phrases such as “Dictator Trump”, “NSA spies” or, surprisingly, “Australia is a very bad place”, “question your sexuality” or “on MDMA”, they will have to spell them out. Apple’s predictive text will not suggest these words. And, if a user attempts to swipe-type t",
+      "oneLineKo": "아이폰 예측입력, 10만개 단어 '그레이리스트' 차단",
+      "summaryKo": "독립 연구자 데릭 카우프만이 애플 iOS의 스와이프 입력 및 예측 텍스트 기능에서 10만 개 이상의 단어와 문구가 자동 완성되지 않도록 제한된 '그레이 리스트'를 발견했다고 가디언이 보도했다. 'male chauvinist pig', 'Dictator Trump', 'NSA spies', 'on MDMA' 등 정치적으로 민감하거나 선정적인 표현들이 해당 리스트에 포함되어 있어, 사용자가 이런 단어를 쓰려면 스와이프 타이핑 대신 직접 철자를 입력해야 한다. 애플은 이러한 제한 목록의 기준과 선정 방식을 공개하지 않고 있다.",
+      "tags": [
+        "apple",
+        "ios",
+        "predictive-text"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36768&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Unitree는 왜 로봇을 손으로 조립할까? 제조 자동화 기회를 본 공장 탐방기",
+      "url": "https://news.hada.io/topic?id=36768&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36768&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-08T02:49:45+09:00",
+      "snippet": "항저우 Unitree의 로봇 생산은 여전히 수작업 중심 이며, 제조원가에서 인건비 비중은 8%에 불과함. 중국에서는 저렴한 노동력이 합리적이지만, 로봇을 만드는 기계 시장은 아직 서구에도 기회가 남아 있음 휴머노이드는 아직 잦은 제품 변경과 재프로그래밍 비용 이 자동화를 어렵게 함. 특정 모델에 맞춘 조립 설비는 다음 세대에 쓰기 어려워, Unitree는 여러 모델이 공유하는 관절 모듈부터 자동화 하고 있음 미국의 공장 노동비는 중국의 약 7.5배 여서 같은 자동화 설비의 절감 가치가 훨씬 큼. 중국산 로봇과 부품에 대한 규제까지 더해지면서 저렴한 해외 노동력에 의존하는 선택지가 줄어듦 …",
+      "oneLineKo": "Unitree 로봇 공장, 수작업 생산과 제조 자동화 기회 탐방",
+      "summaryKo": "Unitree의 로봇 생산은 아직 수작업 중심이며 제조원가 중 인건비 비중은 8%에 불과해 중국 내에서는 저렴한 노동력이 합리적인 상황이다. 하지만 휴머노이드는 잦은 모델 변경과 재프로그래밍 비용 때문에 자동화가 어려워, Unitree는 여러 모델이 공유하는 관절 모듈 조립부터 자동화를 시작하고 있다. 미국은 중국보다 노동비가 약 7.5배 높아 같은 자동화 설비 도입 시 절감 효과가 훨씬 크며, 중국산 로봇·부품에 대한 규제까지 겹치며 저렴한 해외 노동력 의존 선택지가 줄어들고 있다. 이는 서구 로봇 제조 자동화 설비 시장에 새로운 기회가 열리고 있음을 시사한다.",
+      "tags": [
+        "robotics",
+        "manufacturing",
+        "automation"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50406670",
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "url": "https://blog.bosscher.ch/posts/openstick/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50406670",
+      "publishedAt": "2026-11-07T18:12:12Z",
+      "score": 315,
+      "comments": 80,
+      "snippet": "What I run on my $10 USD OpenStick homelab | Bosscher before the browser paints. Runs synchronously, no defer/async. --> Skip to content Bosscher Posts Tags About Archives Search Go back What I run on my $10 USD OpenStick homelab 7 Nov, 2026 | Edit page A while ago I bought an OpenStick on a whim for 10 dollars (including shipping!) because it seemed like such a cool novelty piece of hardware. For 10 dollars you get: 512 MB of RAM (~450 MB usable) 4x ARM Cortex-A53 CPU cores at 1 GHz 4 GB eMMC flash 150 Mbit/s Wi-Fi 4G modem and GPS Passively cooled, so 100% silent! 1 programmable LED :) Now, you might look at this hardware and think “my watch is more powerful than that”, and you wouldn’t necessarily be wrong, but there’s still a lot of fun to be had with a device this size, and it’s a great gadget to get started with self-hosting. The installation process is a bit involved, but once you’re up and running it runs Debian, which brings all the classic goodies such as systemd (among other things, a scheduler and service monitoring for Linux) and Podman (lightweight containerization). For 10 USD you basically get a home server with minimal power usage and zero noise! There’s actually a lot of useful software that runs great on this thing. Some of my favorites are: CastSponsorSkip (5–10 MB) This is a little service that connects to any running Google Cast device and skips sponsorships (and sometimes ads). It barely uses any resources, and after a while you forget that it exists, but it does make the whole YouTube experience a lot nicer! CastSponsorSkip AdGuard Home - my own fork (40 MB) AdGuard Home blocks bad domains at the DNS level: spyware, malware, and so on. These days devices have a tendency to spy on you. Smart TVs run content recognition continuously, washing machines scan your network, and your coffee maker might be spying on you. A DNS blocker cannot block all bad requests (you’ll need a proper firewall for that), but it sure can block a whole lot. After adding a few blocklists, 60% of my queries are now blocked. Most seem harmless, but I’m pretty sure that some aren’t. I’m running my own fork, which can handle large blocklists in an efficient manner, but you probably shouldn’t run binaries provided by random strangers, so I’ve also included the link to the official version below (which is totally fine if you limit yourself to smaller blocklists). AdGuard Home Next-Gen - 40 MB (independent of the size of the blocklist) AdGuard Home - 40 MB (with a small (200k) blocklist) Zeroclaw (64 MB) Zeroclaw is an AI agent harness. It supports 30 channels (Telegram, email, WhatsApp, etc.), has sensible security defaults, a nice web UI, and integrations with all the major LLM providers. I ran OpenClaw for a while on my Kubernetes cluster, but it mostly caused a lot of frustration: it worked, but it used 1 GB+ of memory, broke with every update, and they kept changing functionality in ways that broke my existing workflows. Zeroclaw feels like a breath of",
+      "oneLineKo": "10달러 초저가 OpenStick으로 홈랩 구축기",
+      "summaryKo": "저자는 512MB RAM, 쿼드코어 ARM Cortex-A53, 4GB eMMC를 갖춘 10달러짜리 OpenStick 기기에 Debian을 설치해 홈서버로 활용했다. 이 작은 기기에서 systemd와 Podman을 기반으로 CastSponsorSkip(크롬캐스트 광고/스폰서 스킵), 자체 포크한 AdGuard Home(DNS 레벨 광고·추적 차단), 경량 AI 에이전트인 Zeroclaw 등을 가볍게 구동한다. 전력 소모와 소음이 거의 없으면서도 다양한 자가호스팅 서비스를 돌릴 수 있다는 점을 강조한다.",
+      "tags": [
+        "homelab",
+        "self-hosting",
+        "arm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50401867",
+      "title": "Asahi Linux Progress Linux 7.3",
+      "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50401867",
+      "publishedAt": "2026-11-07T05:20:18Z",
+      "score": 310,
+      "comments": 253,
+      "snippet": "Progress Report: Linux 7.3 - Asahi Linux About Community Contribute Governance Documentation GitHub Blog Merch Donate / Blog / Progress Report: Linux 7.3 Progress Report: Linux 7.3 Previous Well here we are again. Linux 7.3 is out and it&rsquo;s been an eventful few months, so let&rsquo;s get stuck in to another Asahi Linux progress report! Upstreaming continues As always, upstreaming work continues to progress. Aside from the usual patches for low-level SoC blocks, two major drivers made it on to the list this cycle: macaudio and avd. Getting macaudio ready for submission has been a challenge. The audio subsystem on Apple Silicon devices is rather special, and required quite a number of core ALSA changes to properly support it. Apple also uses special variants of speaker and headset amplifiers that were already supported upstream, and these drivers also needed some pretty significant modifications. We have previously discussed a lot of this work at length, and we are finally in a position where we can submit the main driver for review. The driver and Devicetree changes represent a hefty chunk of our total patchset, about 3100 lines. AVD is a whole different beast. The AVD driver has spent barely 3 months in our downstream tree and is already on the list. This is our shortest turnaround time yet for a major SoC component and bodes well for a transition to upstream-first development some time in the future. This is fantastic news, as the AVD driver and related Devicetree changes are around 13000 lines of code. Also making an appearance on the list this cycle are initial Devicetrees not only for M4 Pro and Max devices but also M5 thanks to Yureka&rsquo;s tireless efforts. As usual these initial Devicetrees are barebones and only sufficient to boot the SoC to a TTY, however work is progressing on further enablement. Watch this space! We have also begun shifting to an upstream-first approach where practical. Changes to the TI USB-PD and SPMI drivers required for new devices, as well as initial support for Thunderbolt, were all developed upstream-first. We are so thrilled to see our focus on upstreaming starting to pay off! M3 goes GA Last time, we announced initial support for M3 series machines via the EXPERT flag on the Asahi installer. We are pleased to announce that we received almost no issues from early adopters, so M3 support is now generally available without the EXPERT flag! We have also made a number of improvements to M3 support, most notably enabling DCP. On top of performance and battery life improvements, this also allows us to enable sleep on M3 series devices and make the area around the notch useable on the MacBooks! Keep an eye out for m1n1 and kernel updates in the coming days. Crowded House Last time, we teased support for virtualising SPTM-enabled versions of macOS in m1n1, which enables reverse engineering on M4 series machines. M5 presents a new challenge, as the versions of macOS which support it all require the use of Exclave",
+      "oneLineKo": "Asahi Linux, Linux 7.3 진행 상황 보고",
+      "summaryKo": "Asahi Linux 프로젝트가 Linux 7.3 커널 업스트림 작업 현황을 공개했다. macaudio 드라이버와 AVD 드라이버가 업스트림 제출 목록에 올랐으며, AVD는 다운스트림 개발 후 약 3개월 만에 업스트림화된 역대 최단 기록을 세웠다. M4 Pro/Max 및 M5용 초기 Devicetree도 추가됐으며, M3 시리즈는 EXPERT 플래그 없이 정식 지원(GA)으로 전환되고 DCP 활성화로 절전 모드와 슬립 기능이 개선됐다. 또한 M5의 SPTM/Exclave 지원을 위한 m1n1 가상화 작업도 진행 중이다.",
+      "tags": [
+        "asahi-linux",
+        "linux-kernel",
+        "apple-silicon"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50403066",
+      "title": "Running a law firm on Free software",
+      "url": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50403066",
+      "publishedAt": "2026-11-07T09:39:06Z",
+      "score": 230,
+      "comments": 114,
+      "snippet": "Running a law firm on Free software (2026 edition) | decoded.legal's blog \" /> decoded.legal's blog Running a law firm on Free software (2026 edition) Published on: 2026-11-06 12:18:47 by Neil Brown I started running decoded.legal - a small English law firm, focussing on Internet, telecoms, and tech law - on Free software, both client and server side, around five years ago. I have used Free software in my personal life for a lot longer than that. Back in 2022, I wrote about my experiences after the first year or so . I wrote an update in 2024 . Someone asked me recently what I am doing now, and, while it is mostly the same, some bits have changed. So here is the 2026 update. Client-side stuff I am still using Debian, with GNOME, and it works well for me. I’m using it on a ThinkPad X1 Yoga Gen 6 , as my primary machine, and, being a “Yoga” version, I rather like being able to fold the screen back and write on it to mark up documents. ( Here are my thoughts on the different “Active Pens” available for it .) However, the machine itself seems to have a hardware problem with the Thunderbolt / USB-C ports (fine for power, very flaky for data), and so I might need to replace it. And I have no idea what laptop I might get. Email (MUA): Thunderbird and mutt , depending on what I am doing Quick Folder Move and Move Message And Yourself are particularly useful add-ons for Thunderbird, for rapid filing of email with keyboard shortcuts Thunderbird seems to be having a problem with some recurring calendar invitations, while ikhal is handling them fine. I’ve not dug into it, but it is a nuisance. Document production: LibreOffice’s Writer if I want a “Word” document (e.g. I am exchanging documents with other lawyers), and I am using pandoc and typst to convert Markdown files that I tend to write in vim for some other bits. I’d like to explore tex at some point, as I have a client who likes diffs to their .tex files, and that looks rather neat. Presentations: reveal.js I absolutely love this. I have a bash script which sets up a template for a new presentation, and then I just write the presentation using Markdown. I get a nicely-formatted presentation (using a css template) with very little effort, and no distracting GUI Blogpost about reveal.js Here are some presentations I’ve given, using reveal.js File manager: Nautilus Mainly because it is GNOME’s default, although, especially when combined with some useful bash scripts , it works well for my needs PDFs: evince for most reading; Xournal++ for marking up PDFs; PDFarranger and pdftk for interfering with PDFs Text expansion: espanso This is a fantastic shortcut for me, saving me from typing the same thing multiple times. I have loads of shortcuts set up, and I’d be lost without them. Browser: Firefox or links I am still using Firefox. It is … fine? I should probably look at LibreWolf or another fork, as I’m not enamoured by Mozilla’s direction of travel but, for now, Firefox it is. I use Firefox for joining peo",
+      "oneLineKo": "영국 소규모 로펌, 2026년판 무료 소프트웨어 운영기",
+      "summaryKo": "영국의 소규모 인터넷/통신/기술 전문 로펌 decoded.legal을 운영하는 저자가 5년째 Free software만으로 업무를 꾸려온 경험을 2026년 버전으로 업데이트했다. Debian과 GNOME 기반 ThinkPad를 메인 머신으로 쓰며, Thunderbird와 mutt로 이메일을, LibreOffice·pandoc·typst·vim으로 문서를, reveal.js로 프레젠테이션을 제작한다. Nautilus, evince, Xournal++, espanso, Firefox 등 다양한 Free software 도구를 세부적으로 소개하며 일부 하드웨어 및 Thunderbird 캘린더 이슈도 언급한다.",
+      "tags": [
+        "free-software",
+        "linux",
+        "productivity"
+      ]
+    }
+  ]
+}
