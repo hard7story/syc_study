@@ -1,0 +1,275 @@
+{
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T01:19:39.307Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36852&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Show GN: Aptly - 작업에 맞는 Claude Code·Codex 서브에이전트 모델과 effort를 추천",
+      "url": "https://news.hada.io/topic?id=36852&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36852&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-09T09:16:34+09:00",
+      "snippet": "Aptly는 OpenAI Decisions API를 이용해 설정된 모델 후보 목록에서 서브에이전트의 모델과 추론 프로필을 추천하는 로컬 MCP 서버입니다. 작업에 맞는 실행 프로필을 선택해 불필요한 토큰 사용과 비용을 줄이는 것이 목적입니다. 주요 기능은 다음과 같습니다. Codex와 Claude Code 지원 PreToolUse Hook을 통한 지원 대상 서브에이전트 호출의 기본 모델 자동 선택 사용자가 명시한 모델과 추론 강도 보존 모델 후보 설정 및 MCP·CLI를 통한 직접 추천 분류에는 최소한의 작업 요약을 Decisions API로 전달합니다. 실제 실행과 권한 결 …",
+      "oneLineKo": "작업별 최적 서브에이전트 모델·effort 추천 MCP 서버",
+      "summaryKo": "Aptly는 OpenAI Decisions API를 활용해 Claude Code와 Codex의 서브에이전트에 적합한 모델과 추론 프로필(effort)을 추천하는 로컬 MCP 서버입니다. PreToolUse Hook을 통해 지원 대상 서브에이전트 호출 시 기본 모델을 자동 선택하며, 사용자가 명시한 모델과 추론 강도는 그대로 보존합니다. 모델 후보 설정과 MCP·CLI를 통한 직접 추천 기능을 제공하며, 최소한의 작업 요약만 Decisions API로 전달해 불필요한 토큰 사용과 비용을 절감하는 것이 목적입니다.",
+      "tags": [
+        "mcp",
+        "claude-code",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50415628",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50415628",
+      "publishedAt": "2026-11-08T18:16:07Z",
+      "score": 580,
+      "comments": 350,
+      "snippet": "Goldman Sachs Is Pulling Claude Code From Its Bankers and Traders | State of AI Skip to content Latest Nvidia's CEO Just Told the Whole Company He Had an Affair. Now the Board Is Investigating Whether It Was a Chinese Intelligence Operation. / Coinbase's CEO Now Has a Chief of Staff. It's an AI Agent. / Musk Says OpenAI's Stargate Has a Money Problem. The Real Story Is Bigger / OpenAI Appears to Be Building a ChatGPT Search Console for Businesses / Anthropic Investors Push Back on $1.5 Trillion IPO Target Amid AI Selloff / OpenAI's Greg Brockman Says AI Could Make Death \"A Choice\" / Nvidia's CEO Just Told the Whole Company He Had an Affair. Now the Board Is Investigating Whether It Was a Chinese Intelligence Operation. / Coinbase's CEO Now Has a Chief of Staff. It's an AI Agent. / Musk Says OpenAI's Stargate Has a Money Problem. The Real Story Is Bigger / OpenAI Appears to Be Building a ChatGPT Search Console for Businesses / Anthropic Investors Push Back on $1.5 Trillion IPO Target Amid AI Selloff / OpenAI's Greg Brockman Says AI Could Make Death \"A Choice\" / Industry & Platforms AI & Technology Enterprise Strategy Business & Brand Subscribe Industry & Platforms / AI & Technology / Enterprise Strategy / Business & Brand Subscribe Get the latest news first. Sign up for breaking updates, top stories, and fresh analysis. Email address Subscribe All Articles Share: marketers-guide-to-open-claw Sponsored content Presented by ↗ Image Credit: State of AI AI & Technology Goldman Sachs Is Pulling Claude Code From Its Bankers and Traders In July, Goldman's tech chief was praising the tools traders built with AI coding agents. New internal guidance hands those agents back to the engineers, weeks before Goldman takes Anthropic public. By State of AI Editorial Nov 2, 2026 Goldman Sachs has restricted Anthropic's Claude Code and Microsoft's GitHub to its engineers, cutting off traders and bankers who used the tools to track client flows and build market models. The bank barred its Hong Kong bankers from Claude in April and is now a lead underwriter on Anthropic's IPO. Most traders and bankers at Goldman Sachs can no longer use AI coding tools at work. Internal guidance updated in October restricts Anthropic's Claude Code and Microsoft's GitHub to the bank's engineers, Bloomberg News reported , following a review of productivity and risk concerns. Strats, who work across trading, quantitative research and software engineering, still have access, according to a second person familiar with the matter. The change has frustrated some traders, a person familiar with the matter told Bloomberg. They had been using the tools to monitor client trading flows, model market moves and positions, and put together written and graphic material. Goldman spokesperson Nick Carcaterra said the bank makes certain AI tools available to staff \"to determine the best use cases\" across the firm. Argenti was praising trader-built tools in July As recently as July, chief information offi",
+      "oneLineKo": "골드만삭스, 트레이더·뱅커 대상 Claude Code 사용 제한",
+      "summaryKo": "골드만삭스가 10월 내부 지침을 통해 Anthropic의 Claude Code와 Microsoft GitHub 사용 권한을 엔지니어로 한정하고, 트레이더와 뱅커들의 접근을 차단했다. 이들은 그동안 해당 도구로 고객 거래 흐름 추적, 시장 모델링, 자료 작성 등에 활용해왔으나 생산성 및 리스크 검토 후 조치가 내려졌다. 트레이딩·퀀트 리서치·소프트웨어 엔지니어링을 겸하는 Strats 부서는 여전히 접근 권한을 유지한다. 골드만삭스는 Anthropic IPO의 주관사를 맡고 있어 이번 조치가 주목받고 있다.",
+      "tags": [
+        "anthropic",
+        "claude-code",
+        "ai-governance"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xqlw7z",
+      "title": "Should You Learn Java in 2026?",
+      "url": "https://www.reddit.com/r/programming/comments/1xqlw7z/should_you_learn_java_in_2026/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xqlw7z/should_you_learn_java_in_2026/",
+      "publishedAt": "2026-11-08T01:00:58+00:00",
+      "snippet": "submitted by /u/fagnerbrack [link] [comments]",
+      "oneLineKo": "2026년에도 자바를 배워야 할까?",
+      "summaryKo": "2026년에도 자바를 학습할 가치가 있는지에 대한 논의를 다룬 글이다. 제목 외 본문 내용이 제공되지 않아 구체적인 근거나 결론은 확인할 수 없다. Reddit r/programming에 공유된 토론성 게시물로 보인다.",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36842&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "나는 AI로 인한 두뇌 과부하에 이렇게 대처한다",
+      "url": "https://news.hada.io/topic?id=36842&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36842&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-09T06:55:36+09:00",
+      "snippet": "Claude Code나 Codex의 응답을 기다리며 작업을 늘리다 보면 여러 대화의 맥락을 동시에 붙잡게 됨. 이를 줄이기 위해 작업 순서와 맥락 관리 를 우선순위 큐처럼 구성하는 개인 실험을 진행함 Git을 작업 기록의 기준 으로 삼아 티켓을 코드 옆 Markdown 파일로 저장하고, 보드 상태도 커밋함. 세션이 종료돼도 작업 큐가 남으며 중요한 정보를 대화창이나 기억에만 두지 않음 에이전트는 조사, 승인된 작업 구현, 테스트와 검증을 맡고, 사람의 판단이 필요한 항목은 담당자 수신함(owner inbox) 에 우선순위순으로 모음 한 번에 티켓 하 …",
+      "oneLineKo": "AI 병렬작업 시 인지과부하, Git 기반 작업큐로 관리",
+      "summaryKo": "저자는 Claude Code, Codex 등 AI 에이전트의 응답을 기다리며 여러 작업을 동시에 진행하다 보니 여러 대화의 맥락을 동시에 붙잡게 되는 두뇌 과부하 문제를 겪었다. 이를 해결하기 위해 작업 순서와 맥락 관리를 우선순위 큐처럼 구성하고, Git을 작업 기록의 기준으로 삼아 티켓을 코드 옆 Markdown 파일로 저장하는 방식을 실험했다. 이렇게 하면 세션이 종료돼도 작업 큐가 남아있어 중요한 정보를 대화창이나 기억에만 의존하지 않게 되며, 에이전트는 조사·구현·검증을 담당하고 사람의 판단이 필요한 항목은 우선순위순으로 담당자 수신함에 모은다.",
+      "tags": [
+        "ai-agent",
+        "productivity",
+        "git"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50410107",
+      "title": "Goodbye Claude, hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50410107",
+      "publishedAt": "2026-11-08T03:11:48Z",
+      "score": 693,
+      "comments": 429,
+      "snippet": "Goodbye Claude, Hello Pi caleb.software Goodbye Claude, Hello Pi 21 September 2026 #pi #claude I’ve been a longtime Claude Code user, ever since it became available in the Claude Pro subscription plan over a year ago. I remember the first time I used it, feeling giddy as it spat out messy Python code for whatever random weekend project I was working on, all from a single prompt. I’m certain that in a few years we’ll all look back at its release as one of the major drivers of this new era of software development we’re in. Despite this, due to an accumulation of many small frustrations, I’ve finally decided to retire it as my main coding harness and migrate my development setup to use Pi instead. Someone at Anthropic must’ve caught wind… just a day after making my decision, they announced Claude Code would finally start supporting AGENTS.md files in an effort to get me to stay. Unfortunately, for me it was too little, too late. Complaining In lieu of a proper obituary, I’d like to take this time to say a few words about the things I liked least about Claude Code (and thus what I’m looking forward to avoiding with Pi). The AGENTS.md thing kind of epitomizes the whole reason I decided to quit using Claude Code. Don’t get me wrong, having a ton of CLAUDE.md files scattered about various GitHub hobby repos is great guerrilla marketing. But it sucks for users to have to deal with copying or symlinking between the two formats. Like the Luddite I am, I still prefer to review most of the code it churns out before I commit it. I use(d) Claude Code inside VSCode, and it lets you connect the harness to the IDE. This is nice because you can highlight text in a file and have it automatically included in the context when asking questions or requesting changes during a review. Except you can only have one session “connected” to the IDE at a time. If you open a second tab to start another task while the first one works, it can’t receive the text selection events from the IDE at all. This has been reported at least as far back as December 2025 … and closed as a duplicate of a totally unrelated bug. 1 Of course, you can always use the official Claude Code VSCode GUI extension, which does allow you to have multiple tabs open and load the text selection into the context of each. But this extension has plenty of problems of its own. Half of the built-in slash commands don’t work at all in the GUI. It doesn’t have any support for a custom status line. Subagent output messages are simply layered into the main chat thread in chronological order, which is a mess to read when more than one is running. I could go on and on. In spite of all of these existing issues, it seems like Anthropic has worked at a feverish pace to pack more features into Claude Code without much care for quality or stability. Dynamic workflows , agent teams , ultrareviews – all great ways to help enterprise customers burn ever more tokens each day, but not really anything I want or need. Alongside all",
+      "oneLineKo": "개발자의 Claude Code 이탈기, Pi로 전환",
+      "summaryKo": "오랫동안 Claude Code를 사용해온 개발자가 누적된 불편함 때문에 이를 메인 코딩 도구에서 퇴출하고 Pi로 이전했다는 경험담이다. AGENTS.md와 CLAUDE.md 포맷 불일치, VSCode 연동 시 한 세션만 IDE와 연결 가능한 제약, 공식 VSCode GUI 확장의 슬래시 명령어 미작동과 서브에이전트 출력 가독성 문제 등을 주요 불만으로 꼽았다. 저자는 Anthropic이 품질과 안정성보다 기능 추가에 치중하며 엔터프라이즈 고객의 토큰 소비를 늘리는 방향으로 가고 있다고 비판했다.",
+      "tags": [
+        "claude-code",
+        "ai-coding-assistant",
+        "developer-tools"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xrbciy",
+      "title": "C64 Demo Effect Explained: The Bumpmapped Rain in Lunatico",
+      "url": "https://www.reddit.com/r/programming/comments/1xrbciy/c64_demo_effect_explained_the_bumpmapped_rain_in/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xrbciy/c64_demo_effect_explained_the_bumpmapped_rain_in/",
+      "publishedAt": "2026-11-08T22:43:05+00:00",
+      "snippet": "submitted by /u/jailbird [link] [comments]",
+      "oneLineKo": "C64 데모 '루나티코'의 범프매핑 빗방울 효과 해설",
+      "summaryKo": "Commodore 64 데모 'Lunatico'에 사용된 범프매핑(bump mapping) 기반 빗방울 효과의 구현 원리를 설명하는 글입니다. 제한된 하드웨어 자원으로 시각적 효과를 구현한 데모씬(demoscene) 기술을 다룹니다. Reddit에 공유된 링크로, 본문 내용은 제목 외에 추가 정보가 제공되지 않았습니다.",
+      "tags": [
+        "demoscene",
+        "c64",
+        "graphics-programming"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36837&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "LLM 시대의 확장 가능한 소프트웨어",
+      "url": "https://news.hada.io/topic?id=36837&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36837&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-09T06:24:58+09:00",
+      "snippet": "LLM의 확장 코드 작성 능력 과 현대적인 샌드박스를 결합하면, 웹 앱의 안정적인 코어를 유지하면서 사용자별 요구를 확장 기능으로 채우는 새로운 기회 가 생길 수 있음 모든 기능을 제품에 넣으면 UI 복잡성 이 커지지만, 사용자가 필요한 확장을 만들고 공유하는 방식은 코어를 비대하게 만들지 않고 롱테일 수요를 수용할 수 있음 웹에서 사용자 코드를 실행하려면 저렴한 실행 비용, 빠른 콜드 스타트 뿐 아니라 자원 제한, 테넌트 격리, 데이터 유출 방지가 필요함 안전한 확장은 광범위한 API 접근을 허용한 뒤 차단하기보다, 승인된 …",
+      "oneLineKo": "LLM과 샌드박스로 사용자 맞춤 확장 기능 구현",
+      "summaryKo": "LLM의 코드 생성 능력과 현대적 샌드박스 기술을 결합하면, 웹 앱의 코어를 가볍게 유지하면서 사용자별 확장 기능으로 롱테일 수요를 충족할 수 있다. 모든 기능을 제품에 내장하면 UI 복잡성이 커지지만, 사용자가 직접 확장을 만들고 공유하는 방식은 이를 방지한다. 다만 사용자 코드를 웹에서 안전하게 실행하려면 저렴한 비용과 빠른 콜드 스타트뿐 아니라 자원 제한, 테넌트 격리, 데이터 유출 방지가 필수적이다. 안전한 확장을 위해서는 광범위한 API 접근을 먼저 허용한 뒤 차단하는 방식보다 승인 기반 접근 방식이 권장된다.",
+      "tags": [
+        "llm",
+        "sandbox",
+        "extensibility"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50416363",
+      "title": "How I Fight AI Brain Fry",
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50416363",
+      "publishedAt": "2026-11-08T19:37:42Z",
+      "score": 145,
+      "comments": 124,
+      "snippet": "How I'm fighting the AI Brain Fry — Sergey Kuhne Sergey Kuhne Blog Tools How I'm fighting the AI Brain Fry November 8, 2026 If you work with Claude Code or Codex from the terminal, you know this one. You start a task. The AI takes time to reply, so you start another one. Then the first one replies, but the reply needs one clarification, one follow up and one side task — and each of them wants its own tab. Then the second tab's reply comes in. You juggle. And all of a sudden you find yourself hopping between 20 threads, trying to keep all those contexts in your brain RAM. Until you can't. Your brain gets exhausted, your focus smashes, and you don't know anymore what you were doing, where you started, and where you were supposed to finish. A lot of people are suggesting taking breaks, thinking before typing, limiting scope. I have my own experiment. I decided this way of working has two major problems: sequencing and context. So I organised my work a bit like a priority queue. Here is how it actually works. The queue lives in git. Every ticket is a markdown file in the repo, right next to the code it talks about, and the state of the board is a committed snapshot. Nothing important lives in a chat window and nothing lives in my head. If a session dies, the queue is still there. An agent works that board in cycles. It researches new tickets, builds the ones a human has tagged as safe to build, runs the tests and a browser check, and verifies what is already deployed. For anything touching sensitive code it builds on a branch and asks first. It never deploys to production — that part is mine. What it cannot do is decide. So everything that needs me lands in one place I call my owner inbox. A script reads the whole board and hands me a prioritised list of exactly the items waiting on my judgement — review this change, answer this question, rule on this tradeoff. The reading surface is a Claude artifact. One page, rebuilt from git on every cycle, mirroring the whole board plus a review page per ticket. So I don't scroll back through a terminal trying to reconstruct what a change does. I open one link, read what was built and why, and give my verdict. The verdict goes back into git, onto the card. The page is only a viewer — git is the record. Then comes the part that matters most. I take one item. I load its context. I make a decision or request an action. And I close it, by putting it back into the queue. That closing is the whole trick. The ticket doesn't keep hanging in my memory as a thing to remember about. The context closes with it. So when I pick the next item from the queue, I can actually focus. One thing at a time. It is still exhausting. But I don't feel distracted or lost. The challenge was, and still is, the tooling around it. Getting the context served up in a digestible manner, so loading a ticket takes a minute and not twenty. And keeping tickets from going into endless loops because they are blocked waiting for a ruling only I can giv",
+      "oneLineKo": "AI 브레인 프라이 극복 위한 git 기반 티켓 큐 시스템 구축",
+      "summaryKo": "저자는 Claude Code나 Codex 같은 터미널 AI 도구를 여러 탭으로 병렬 사용하다 발생하는 '브레인 프라이' 문제를 해결하기 위해 git 기반 우선순위 큐 시스템을 만들었다. 각 작업은 코드 옆에 마크다운 티켓 파일로 저장되고, 에이전트가 안전한 작업은 빌드·테스트하며 민감한 변경은 브랜치에서 승인받는 구조다. 사람의 판단이 필요한 항목만 '오너 인박스'에 모아 Claude 아티팩트로 한 페이지씩 검토하고, 결정 내용은 다시 git에 기록되어 기억 부담 없이 한 번에 하나씩 처리할 수 있게 했다. 핵심은 컨텍스트를 완전히 닫고 다음 작업으로 넘어가는 것이며, 남은 과제는 티켓 컨텍스트를 빠르게 불러오는 툴링 개선이다.",
+      "tags": [
+        "ai-agent",
+        "developer-productivity",
+        "git"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36836&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "소스는 공개하되, 외부 기여는 받지 않는다",
+      "url": "https://news.hada.io/topic?id=36836&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36836&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-09T06:19:03+09:00",
+      "snippet": "LLM으로 코드를 만드는 비용은 크게 줄었지만, 검증 비용은 그대로 임. 외부 패치를 읽고 검토하는 것보다 유지관리자가 직접 수정안을 만드는 편이 저렴해질 수 있음 SQLite는 소스를 공개하면서 외부 코드는 받지 않고, 버그 신고와 테스트 사례는 받음. AI로 만든 패치와 신고가 쏟아지면 이런 운영 방식이 더 널리 퍼질 수 있음 재구현과 맞춤 수정이 저렴해지면 조직마다 필요한 기능은 내부에서 만들고 , 호환성이 중요한 프로토콜과 파일 형식, 한 조직이 검증하기 어려운 핵심 라이브러리는 계속 공유할 가능성이 큼 공유 프로젝트 …",
+      "oneLineKo": "LLM 시대, 외부 기여 없는 오픈소스 운영 방식 확산 전망",
+      "summaryKo": "LLM으로 코드 작성 비용은 줄었지만 외부 패치 검증 비용은 여전히 높아, 유지관리자가 직접 수정하는 편이 더 저렴해질 수 있다는 분석이다. SQLite는 소스코드는 공개하되 외부 코드 기여는 받지 않고 버그 신고와 테스트 사례만 받는 방식을 운영해왔는데, AI로 생성된 패치와 이슈 신고가 급증하면 이런 운영 방식이 더 널리 퍼질 가능성이 있다. 재구현과 맞춤 수정 비용이 낮아지면 조직들은 필요한 기능을 내부에서 직접 구현하고, 호환성이 중요한 프로토콜·파일 형식이나 개별 조직이 검증하기 힘든 핵심 라이브러리만 계속 공유될 것으로 전망된다.",
+      "tags": [
+        "open-source",
+        "llm",
+        "sqlite"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50413769",
+      "title": "I'm not a fan of Deno's security model (2024)",
+      "url": "https://goldstein.lol/posts/deno-security/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50413769",
+      "publishedAt": "2026-11-08T14:42:38Z",
+      "score": 83,
+      "comments": 39,
+      "snippet": "I’m not a fan of Deno’s security model | max’s place max’s place who’s max? atom feed this site is best viewed without JavaScript I’m not a fan of Deno’s security model (published on August 31, 2024) this has been bothering me for a while now, so I want to write down my thoughts so I can get it out of my head and move on. we’re gonna talk about how Deno approaches security, specifically with its permissions system, and why I think this approach is fundamentally insecure and misleading. wait, what’s Deno? Deno is a language runtime for JavaScript. it consists of a standard library, a package manager, a TypeScript transpiler and a bunch of other stuff that’s not important for our story. it’s not a JavaScript implementation , so it does not interpret or compile JavaScript, it reuses V8 for that. one of the flagship features of Deno is its permission system (it’s under the “Secure by default” header on their landing page ). the idea is simple: as JS code running in Deno needs the standard library to access the outside world, Deno can choose which accesses it allows or disallows, so when you run shell deno run --allow-read = /tmp/dir --allow-run = uname code.ts the standard library will only allow code.ts to read /tmp/dir and run uname . additionally, a program can request permissions at runtime, so code like typescript const r = { name : \"read\" , path : \"/tmp/dir\" } as const ; await Deno . permissions . request ( r ); will display a nice little prompt in the terminal: ┌ ⚠️ Deno requests read access to \"/tmp/dir\". ├ Requested by `Deno.permissions.request()` API. ├ Run again with --allow-read to bypass this prompt. └ Allow? [y/n/A] (y = yes, allow; n = no, deny; A = allow all read permissions) > and you can grant or refuse it. (aside: I really miss this feature in browser extensions. currently, if your extension needs potential access to any website, it needs to request actual access to all the websites, which is less than ideal) if you like puzzles, this is the point where you can stop and think about what could go wrong with this system. the prompts problem of the two specific issues I want to point out this is the less severe one. we’ll discuss it first because this was the first thing I noticed and it kinda immediately irked me when I first read about this. (if you’re only interested in the more juicy part, you can skip to the next section ). so, this nice little prompt is displayed in the terminal. it’s not, like, a PolKit GUI window or anything, it’s just text on stdout waiting for input from stdin. this is a wild thing to do. you see, terminal has a somewhat weird API. most of the commands / requests application can send to the terminal are sent in-band, by printing them to stdout. terminal can then reply by sending data to stdin. as Deno allows programs to print arbitrary data to stdout and read from stdin without requiring any permissions or doing any filtering, malicious code can send arbitrary commands to the terminal. it’s usually okay, bec",
+      "oneLineKo": "Deno의 권한 프롬프트 보안모델, 터미널 조작으로 우회 가능",
+      "summaryKo": "이 글은 Deno의 'Secure by default' 권한 시스템이 실제로는 취약하다고 주장합니다. Deno의 권한 요청 프롬프트는 단순히 stdout/stdin을 통한 텍스트 기반 상호작용이라, 악성 코드가 임의의 터미널 제어 문자를 출력해 프롬프트를 조작하거나 속일 수 있다는 점을 지적합니다. 저자는 이를 Deno 보안 모델의 근본적인 결함으로 보고 상세히 분석합니다.",
+      "tags": [
+        "deno",
+        "security",
+        "javascript"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36856&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "AI에 회사 맥락을 제공하고 ‘회사 두뇌’를 구축하는 방법",
+      "url": "https://news.hada.io/topic?id=36856&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36856&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-09T09:40:02+09:00",
+      "snippet": "AI가 회사에 맞는 답을 하려면 지표 정의, 정책, 업무 방식 처럼 추측할 수 없는 정보를 문서화하고, 실제 업무 도구와 연결해 팀 전체가 공유해야 함 회사 두뇌(company brain) 는 직원과 AI 에이전트가 함께 사용하는 지식 기록으로, 문서뿐 아니라 연결된 도구의 최신 기록과 업무 중 쌓이는 수정 사항을 반영함 1~2페이지 문서 에 신입 직원이 첫 주에 물어볼 내용부터 사내 기준을 정리하고, 지표 계산법, 승인 기준, 내부 용어와 어느 시스템을 기준으로 삼는지 적음 바뀌는 사내 지식은 파인튜닝보다 검색과 최신 기록 조회 로 제공하 …",
+      "oneLineKo": "AI에 조직 지식 제공하는 '회사 두뇌' 구축법",
+      "summaryKo": "AI가 회사 맞춤형 답변을 하려면 지표 정의, 정책, 업무 방식 등 추측 불가능한 정보를 문서화하고 실제 업무 도구와 연결해 팀 전체가 공유해야 한다. '회사 두뇌'는 직원과 AI 에이전트가 함께 사용하는 지식 기록으로, 문서뿐 아니라 연결된 도구의 최신 기록과 업무 중 쌓이는 수정 사항을 반영한다. 신입 직원이 첫 주에 궁금해할 내용부터 지표 계산법, 승인 기준, 내부 용어, 기준 시스템 등을 1~2페이지 문서에 정리하는 것이 권장된다. 계속 변화하는 사내 지식은 파인튜닝보다 검색과 최신 기록 조회 방식으로 제공하는 것이 효과적이다.",
+      "tags": [
+        "llm",
+        "knowledge-management",
+        "rag"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50416801",
+      "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50416801",
+      "publishedAt": "2026-11-08T20:26:43Z",
+      "score": 372,
+      "comments": 290,
+      "snippet": "Statement from NVIDIA Board of Directors | NVIDIA Newsroom Artificial Intelligence Computing Leadership from NVIDIA --> PLATFORMS Autonomous Machines Cloud & Data Center Deep Learning & Ai Design & Pro Visualization Healthcare High Performance Computing Self-Driving Cars Gaming & Entertainment other links Developers Industries Shop Drivers Support About NVIDIA View All Products GPU TECHNOLOGY CONFERENCE NVIDIA Blog Community Careers TECHNOLOGIES Newsroom NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits Press Release Share Tweet Twitter Share LinkedIn Share Facebook Email ic_arrow-back-to-top Statement from NVIDIA Board of Directors November 8, 2026 The NVIDIA Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee the investigation. The Board prioritizes U.S. national and economic security, which is paramount to the interests of NVIDIA and its shareholders. While the Board has no reason to believe that either national security or NVIDIA secrets were compromised, the Board's inquiry will examine all available information. Jensen fully supports the review and has committed to cooperating with it. The Board has confidence in Jensen and his leadership team and will provide further updates as appropriate. Downloads Download Press Release More News A Message to Our Company November 8, 2026 NVIDIA Sets Conference Call for Third-Quarter Financial Results October 28, 2026 NVIDIA and Oracle Expand NVIDIA Vera Rubin to Multi-Gigawatt Scale and Bring NVIDIA Vera CPU to Oracle Cloud Infrastructure October 27, 2026 NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth October 26, 2026 NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout October 21, 2026 Media Contacts Global contacts for media inquiries. All Contacts Stay Informed Newsroom updates delivered to your inbox. Subscribe Corporate Information About NVIDIA Corporate Overview Technologies NVIDIA Research Investors Social Responsibility NVIDIA Foundation Get Involved Forums Careers Developer Home Join the Developer Program NVIDIA Partner Network NVIDIA Inception Resources for Venture Capitalists Venture Capital (NVentures) Technical Training Training for IT Professionals Professional Services for Data Science News & Events Newsroom NVIDIA Blog NVIDIA Technical Blog Webinars Stay Informed Events Calendar NVIDIA GTC NVIDIA On-Demand Sign Up for NVIDIA News Subscribe Follow NVIDIA Facebook LinkedIn Instagram YouTube NVIDIA --> USA - United States Privacy Policy Your Privacy Choices Manage Cookie Settings Terms of Service Accessibility Corporate Policies Product Security Contac",
+      "oneLineKo": "엔비디아 이사회, 젠슨 황 외국 정보기관 접촉 의혹 조사 착수",
+      "summaryKo": "엔비디아 이사회는 젠슨 황 CEO가 외국 정보기관의 표적이 되었다는 보도와 관련해 독립적인 조사를 시작한다고 발표했다. 독립이사로 구성된 위원회가 외부 독립 법률고문의 지원을 받아 조사를 감독하며, 국가안보 및 경제안보를 최우선으로 삼겠다는 입장이다. 이사회는 현재까지 국가안보나 엔비디아 기밀이 유출되었다고 볼 근거는 없다고 밝혔으며, 젠슨 황 본인도 조사에 전적으로 협조하겠다고 밝혔다. 이사회는 젠슨 황과 경영진에 대한 신뢰를 유지하고 있으며 추후 진행 상황을 업데이트할 예정이다.",
+      "tags": [
+        "nvidia",
+        "corporate-governance",
+        "security"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36853&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Univer - 웹앱에 스프레드시트와 문서 편집기를 넣는 SDK",
+      "url": "https://news.hada.io/topic?id=36853&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36853&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-09T09:30:02+09:00",
+      "snippet": "자체 서비스 안에 스프레드시트와 문서 편집 환경 을 만들 수 있음 편집 화면과 애플리케이션 코드가 같은 데이터를 다루며, 수식 결과도 자동으로 갱신 스프레드시트 편집 셀 서식, 병합, 틀 고정, 이미지와 실행 취소 수식 계산, 정렬, 필터, 데이터 검증과 조건부 서식 SUM , IF , XLOOKUP , 동적 배열 등 다양한 함수 지원 문서 편집 리치 텍스트, 문단 서식, 목록, 링크와 댓글을 제공함 API로 셀과 범위를 읽고 수정하고, 변경 이벤트를 애플리케이션과 연결 가능 AI 에이전트도 같은 API를 사용하며, 모델과 도구 실행은 애플리케이션 …",
+      "oneLineKo": "웹앱용 스프레드시트·문서 편집기 SDK, Univer 소개",
+      "summaryKo": "Univer는 웹 애플리케이션에 스프레드시트와 문서 편집 기능을 내장할 수 있는 SDK이다. 셀 서식, 병합, 수식 계산, 정렬, 필터, 조건부 서식 등 스프레드시트 기능과 리치 텍스트, 문단 서식, 댓글 등 문서 편집 기능을 지원한다. API를 통해 셀과 범위를 읽고 수정하며 변경 이벤트를 애플리케이션과 연동할 수 있고, AI 에이전트도 동일한 API로 접근 가능하다.",
+      "tags": [
+        "sdk",
+        "spreadsheet",
+        "web-development"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50411961",
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50411961",
+      "publishedAt": "2026-11-08T10:22:04Z",
+      "score": 356,
+      "comments": 152,
+      "snippet": "GitHub - synchopate/llama-modchip: 🐋 Run 284B DeepSeek-V4-Flash (<59GiB RAM, 44.4 tok/s pp, 9.1-14.7 tok/s) & 30B MoEs (25-111 tok/s) on a pure 64GB CPU at 256K ctx (0 GPUs). SwiGLU-H2, Stockfish-PVS L3 & 13ms Claude Code restore. · GitHub Skip to content Navigation Menu Sign in Products Platform GitHub Repository hosting, code review, and collaboration Copilot AI coding agent for tasks, projects, and automated work Build & Ship Actions CI/CD and automation Code Quality Quality analysis, fixes, and enforcement Codespaces Cloud development environments Secure Code Security Vulnerability detection and remediation Secret Protection Secret scanning and leak prevention All Features Developers Learn Documentation Training Certifications Build Build with Copilot Customize Copilot Integrations Explore Trending repos GitHub Sponsors Developer articles Changelog Changelog Your source for the latest features, improvements, and fixes across GitHub products, all in one place. Businesses By Stage Enterprises Team Startups Nonprofits By Industry Healthcare Financial services Manufacturing Government See all industries Evaluate GitHub Why GitHub Customer Stories Business insights Trust Center Add-ons GitHub Advanced Security Enterprise-grade code security Copilot for business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Resources Learn & Connect Documentation Resource center Blog Events & webinars Community Forum Customer Stories Integrations Support Customer support Training GitHub Status Company About Partners Changelog GitHub Universe GitHub Universe The event for developers, by developers — talks, workshops, and what’s next for GitHub. Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} synchopate llama-modchip Repository navigation Code Issues 11 ( 11 ) Pull requests Actions Projects Security and quality Insights More items llama-modchip Public Notifications You must be signed in to change notification settings Fork 26 ( 26 ) Star 495 ( 495 ) You must be signed in to star a repository About 🐋 Run 284B DeepSeek-V4-Flash (<59GiB RAM, 44.4 tok/s pp, 9.1-14.7 tok/s) & 30B MoEs (25-111 tok/s) on a pure 64GB CPU at 256K ctx (0 GPUs). SwiGLU-H2, Stockfish-PVS L3 & 13ms Claude Code restore. github.com/synchopate/llama-modchip#readme Topics ai-agents apple-silicon avx512 claude-code cpu-inference deepseek deepseek-v4 gguf hpc llama-cpp local-llm mamba2 mixture-of-experts nemotron quantization qwen3 speculative-decoding stockfish zen5 Resources Readme Apache-2.0 license Activity Stars 495 stars Watchers 8 watching Forks 26 forks Report repository main Branches Tags Go to file Code Open more actions menu Latest commit History 49 Commits 49 Commits Folders and files Name Name Last commi",
+      "oneLineKo": "GPU 없이 64GB RAM으로 2840억 파라미터 DeepSeek 구동",
+      "summaryKo": "llama-modchip은 GPU 없이 순수 64GB CPU 환경에서 2840억 파라미터 규모의 DeepSeek-V4-Flash 모델을 59GiB 미만 RAM으로 실행할 수 있게 해주는 프로젝트입니다. 256K 컨텍스트 길이에서 초당 44.4토큰의 프롬프트 처리 속도와 9.1~14.7토큰의 생성 속도를 달성했으며, 30B 규모 MoE 모델은 초당 25~111토큰 속도를 보입니다. SwiGLU-H2, Stockfish-PVS L3, 13ms Claude Code 복원 등의 기술을 활용해 CPU 추론을 최적화했습니다.",
+      "tags": [
+        "llm",
+        "cpu-inference",
+        "deepseek"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50368481",
+      "title": "Declarative Dragging",
+      "url": "https://declarative-dragging.github.io/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50368481",
+      "publishedAt": "2026-11-04T17:05:07Z",
+      "score": 327,
+      "comments": 38,
+      "snippet": "Declarative Dragging Declarative Dragging Joshua Horowitz , Andrew Blinn , Jeffrey Heer ★ Best Paper Award , UIST 2026 PDF paper video demos explorable supplement What if making a diagram draggable was as simple as specifying what it can become? Drag-and-drop makes the digital graspable. But designing bespoke drag interactions involves a lot of fiddly code to handle geometry, feedback, and animations. As a result, many people, from educators to game designers, mathematicians to creative tool builders, often don't bother. Declarative dragging inverts the problem. Rather than programming all that visual behavior directly, you simply say, for each element you want to make draggable, which future states of your application dragging it should lead to. Our system speculatively renders those states to work out where things can go, then combines these possible worlds into a smooth, responsive drag-and-drop interaction. Our goal with this project is to let people keep working within the semantic worlds they inhabit, while helping them turn the rules of their worlds into rich tactile interactions in ours. A five-minute video introducing declarative dragging. How it works D2 is model-driven : An interface author makes an element draggable by specifying which future model states should be accessible by dragging it. An engine speculatively renders these states to view trees, extracts the position of the dragged element in each of these renderings, and uses these to synthesize a drag-and-drop interaction, all without detailed work required by the interface author. Dragology is a library implementing “declarative dragging”: a new way for interface developers to make higher-quality drag-and-drop interactions with less work. Dragology enables model-driven dragging. To provide greater expressive range and customizability, D2 is composable : simple model-driven drag-and-drop behaviors can be combined to create more complex ones, and modifiers can layer features like floating, snapping, and transitions. For more details, see the paper . Dragology demos We implemented D2 in a library called Dragology , built for SVG interfaces on the web. algebra twisted trees bézier curve braid card piles face trominoes sprouting tree See our demo gallery for many more interactives built with Dragology. Where it came from Back in 2022, I had a prototype of a game aimed at making math more tangible, a long-running obsession of mine. It had a lot going for it, but the fundamental mechanic, based on selecting transformations from a menu, lacked the juicy tactility I craved. I eventually came up with a primitive version of what would become model-driven dragging, but implementing it seemed daunting, so it sat on my whiteboard for the next two years, haunting me every time I went to make a sandwich. — Andrew Andrew's whiteboard in June 2023, sketching a basic version of model-driven dragging for tree rewriting. On a really nice walk in Seattle back in 2023, Andrew shared his draggy ideas",
+      "oneLineKo": "상태 지정만으로 드래그 앤 드롭 구현하는 '선언적 드래깅'",
+      "summaryKo": "UIST 2026 최우수 논문으로 선정된 이 연구는 드래그 가능한 요소가 도달할 수 있는 미래 상태(모델)를 지정하는 것만으로 드래그 앤 드롭 인터랙션을 자동 생성하는 'Declarative Dragging' 기법을 제안한다. 시스템은 가능한 미래 상태들을 추측 렌더링하여 드래그되는 요소의 위치를 추출하고, 이를 조합해 부드럽고 반응성 있는 드래그 인터랙션을 합성한다. 이 접근은 SVG 웹 인터페이스를 위한 Dragology 라이브러리로 구현되었으며, 단순한 모델 기반 드래그 동작들을 조합해 플로팅, 스내핑, 트랜지션 같은 복잡한 기능도 구현할 수 있다.",
+      "tags": [
+        "drag-and-drop",
+        "ui-interaction",
+        "svg"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50418016",
+      "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+      "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50418016",
+      "publishedAt": "2026-11-08T22:20:09Z",
+      "score": 319,
+      "comments": 320,
+      "oneLineKo": "엔비디아 CEO 황인훈, 불륜 관련 사내 이메일 발송",
+      "summaryKo": "엔비디아 CEO 젠슨 황이 자신의 불륜 문제와 관련해 전 직원에게 보낸 이메일 내용이 공개되었다. 해당 이메일의 구체적인 내용이나 배경은 본문에서 확인할 수 없다. Axios가 이 소식을 보도했다.",
+      "tags": [
+        "nvidia",
+        "jensen-huang"
+      ]
+    }
+  ]
+}
