@@ -1,0 +1,279 @@
+{
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T03:54:56.473Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36930&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Ask GN: AI 코딩 에이전트에게 셸 명령 권한을 어디까지 주시나요?",
+      "url": "https://news.hada.io/topic?id=36930&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36930&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-10T12:15:29+09:00",
+      "snippet": "Claude Code·Codex·Cursor 같은 에이전트에게 셸 명령을 맡길 때 다들 어떻게 쓰시는지 궁금합니다. 공개된 사고 보고서를 모아 보면 홈 폴더나 저장소, 데이터베이스가 날아간 경우가 꽤 있습니다. 그런데 명령 자체가 위험해 보이지 않는 경우가 많았습니다. rm은 스크립트나 테스트 파일 안에 있고, 에이전트는 그 스크립트를 실행했을 뿐이었습니다. prisma migrate reset이나 git stash drop처럼 rm이 없는데 작업을 날리는 명령도 있었습니다. 궁금한 건 세 가지입니다. 권한은 어떻게 두시나요? 매번 확인, 일부 명령만 자동 허용 …",
+      "oneLineKo": "AI 코딩 에이전트 셸 권한 설정 방식 질문",
+      "summaryKo": "Claude Code, Codex, Cursor 같은 AI 코딩 에이전트에 셸 명령 실행 권한을 어디까지 부여하는지 묻는 질문글입니다. 공개된 사고 사례들을 보면 명령 자체는 위험해 보이지 않아도 스크립트 안에 rm이 숨어있거나 prisma migrate reset, git stash drop처럼 데이터나 작업물이 삭제되는 경우가 많았다고 언급합니다. 작성자는 매번 확인하는지, 일부 명령만 자동 허용하는지 등 권한 관리 방식에 대한 커뮤니티의 실제 운영 경험을 묻고 있습니다.",
+      "tags": [
+        "ai-agent",
+        "devops",
+        "security"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50431144",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50431144",
+      "publishedAt": "2026-11-09T20:04:55Z",
+      "score": 305,
+      "comments": 226,
+      "snippet": "Claude Fable 5.2 (max) - Intelligence, Performance & Price Analysis | Artificial Analysis Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Anthropic • Claude Fable 5.2 max • Proprietary model • Released November 2026 Claude Fable 5.2 (Max, Default Fallback) Intelligence, Performance & Price Analysis Compare Try it out API Provider Benchmarks Model summary Intelligence Updated # 1 / 74 65 Artificial Analysis Intelligence Index 4 out of 4 units for Intelligence. Performance # 71 / 72 Time to first answer token 215.95s Output speed 98 tok/s 46.4 Time per Intelligence Index task (minutes) 4 out of 4 units for Performance. Cost # 73 / 73 In $8.00 Out $40.00 Cache discount 98% $26.54 Cost per Intelligence Index task 4 out of 4 units for Cost. Verbosity # 72 / 73 Input tokens 28.3B Output/input 0.97% 275M Output tokens from Intelligence Index 4 out of 4 units for Verbosity. Comparison Summary Claude Fable 5.2 (Max, Default Fallback) is amongst the leading models in intelligence, but particularly expensive when comparing to other models of similar price. It's also notably slow per task and very verbose. The model supports text and image input, outputs text, and has a 1M tokens context window. Claude Fable 5.2 (Max, Default Fallback) scores 65 on the Artificial Analysis Intelligence Index, placing it well above average among comparable models (median: 40). When evaluating the Intelligence Index, it generated 275M tokens, which is very verbose in comparison to the median of 72.8M. Pricing for Claude Fable 5.2 (Max, Default Fallback) is $8.00 per 1M input tokens (expensive, median: $2.00) and $40.00 per 1M output tokens (expensive, median: $10.00). On average, it costs $26.54 per task to evaluate Claude Fable 5.2 (Max, Default Fallback) on the Intelligence Index. At 46.4 minutes per Intelligence Index task, Claude Fable 5.2 (Max, Default Fallback) is notably slow compared with the median of 12.7 minutes for comparable models (lower is better). Technical specifications Reasoning Yes This page shows the reasoning version of this model. A non-reasoning variant may also exist. Input modality Supports: text and image Output modality Supports: text Context window 1M ~1500 A4 pages of size 12 Arial font 237 models in this class Metrics are compared against models of the same class: Non-reasoning models → compared only with other non-reasoning models Reasoning models → compared across both reasoning and non-reasoning Open weights models → compared only with other open weights models of the same size class: Tiny: ≤4B parameters Small: 4B–40B parameters Medium: 40B–150B parameters Large: >150B parameters Proprietary models → compared across proprietary and open weights models of the same price range, using a blended 3:1 input/output price ratio: <$0.15 per 1M tokens $0.15–$1 per 1M tokens >$1 per 1M tokens Model Comparison API Provider Benchmarks Updated Intelligence Artificial Analysis Intel",
+      "oneLineKo": "Claude Fable 5.2, 지능지수 65점으로 역대 최고 기록",
+      "summaryKo": "Anthropic의 신규 모델 Claude Fable 5.2(Max)가 Artificial Analysis Intelligence Index에서 65점을 기록해 74개 모델 중 1위에 올랐다. 다만 입력 $8/출력 $40의 높은 가격과 215초의 첫 응답 지연, 46.4분의 작업당 처리 시간으로 성능과 비용 면에서는 가장 느리고 비싼 축에 속한다. 텍스트·이미지 입력을 지원하며 1M 토큰 컨텍스트 윈도우를 갖췄고, 평가 과정에서 매우 장황한 출력(275M 토큰)을 생성한 것으로 나타났다.",
+      "tags": [
+        "anthropic",
+        "claude",
+        "llm-benchmark"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xs558h",
+      "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
+      "url": "https://www.reddit.com/r/programming/comments/1xs558h/how_we_saved_100_terabytes_of_memory_by/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xs558h/how_we_saved_100_terabytes_of_memory_by/",
+      "publishedAt": "2026-11-09T22:00:14+00:00",
+      "snippet": "submitted by /u/fagnerbrack [link] [comments]",
+      "oneLineKo": "1.1.1.1 DNS 캐시 최적화로 메모리 100테라바이트 절감",
+      "summaryKo": "Cloudflare의 1.1.1.1 DNS 서비스에서 캐시 구조를 최적화하여 전체 메모리 사용량을 약 100테라바이트 절감한 사례를 다룬 글입니다. 대규모 트래픽을 처리하는 DNS 캐시의 메모리 효율화 기법에 초점을 맞춘 것으로 보입니다. 본문 세부 내용은 제공되지 않아 구체적인 구현 방식은 알 수 없습니다.",
+      "tags": [
+        "dns",
+        "cloudflare",
+        "performance"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36917&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "raea - AI가 코드로 만든 영상/3D/게임을 GPU에서 렌더링하는 엔진",
+      "url": "https://news.hada.io/topic?id=36917&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36917&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-10T09:30:02+09:00",
+      "snippet": "만들고 싶은 것을 말하면 AI 에이전트가 React/TypeScript 코드로 작성 하고 GPU로 렌더링 영상 및 모션 그래픽 은 텍스트, SVG, 애니메이션을 합성해 MP4로 작성 3D/게임 은 Bevy로 렌더링하며, 입력/물리/사운드를 넣어 실시간으로 실행하거나 독립 실행 프로그램으로 제작 에이전트가 특정 프레임을 이미지로 뽑아 확인하고 코드를 고치는 작업 까지 할 수 있음 잘린 텍스트, 낮은 대비, 화면 멈춤, 음량 문제를 검사하는 명령도 제공 Claude Code용 플러그인과 에이전트 스킬 제공 Rust/Bevy 기반 이며 macOS/Linux/Windows 빌드 제공 제작 …",
+      "oneLineKo": "AI가 React/TypeScript 코드로 영상·3D·게임 생성 후 GPU 렌더링",
+      "summaryKo": "raea는 사용자가 원하는 것을 말하면 AI 에이전트가 React/TypeScript 코드를 작성하고 GPU로 렌더링하는 엔진이다. 영상 및 모션 그래픽은 텍스트, SVG, 애니메이션을 합성해 MP4로 만들고, 3D/게임은 Bevy 엔진으로 입력·물리·사운드를 포함해 실시간 실행하거나 독립 실행 프로그램으로 제작할 수 있다. 에이전트는 특정 프레임을 이미지로 추출해 확인하고 코드를 수정하며, 잘린 텍스트나 낮은 대비, 화면 멈춤, 음량 문제 등을 검사하는 명령도 제공한다. Rust/Bevy 기반으로 Claude Code용 플러그인과 macOS/Linux/Windows 빌드를 지원한다.",
+      "tags": [
+        "ai-agent",
+        "bevy",
+        "rust"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50429068",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50429068",
+      "publishedAt": "2026-11-09T18:01:10Z",
+      "score": 277,
+      "comments": 643,
+      "snippet": "Introducing Claude Fable 5.2 and Claude Mythos 5.2 \\ Anthropic Skip to main content News Research Policy Commitments Company Try Claude Introduction Performance and efficiency Coding Cybersecurity Science and engineering Safety and alignment Data privacy Availability November 9, 2026 Claude Fable 5.2 and Mythos 5.2 [1] Introduction [2] Performance and efficiency [3] Science and engineering [4] Safety and alignment [5] Availability We’ve upgraded Claude Fable and Claude Mythos—models that are designed to tackle the most daunting technical challenges. Claude Fable 5.2 and Claude Mythos 5.2 show improvements in areas like coding, reasoning, and vision. During prerelease testing they’ve helped our engineers complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made substantial progress on robotics evaluations, and formalized the proof of Fermat’s Last Theorem in 30 hours—among many other applications we’ll discuss below. Claude Fable and Claude Mythos are the same underlying model. Fable has strong cybersecurity and biology safeguards to guard against misuse, which allows us to make it available to all users. Organizations pursuing beneficial applications in cybersecurity or biomedical research can apply for access to Mythos through our recently expanded Life Sciences and Cyber Verification Programs. Testers have found that Fable 5.2 and Mythos 5.2 communicate more clearly than past Fable and Mythos models. They generate outputs up to 30% faster than Claude Fable 5.1 and Claude Mythos 5.1, and they’re available at a lower price: $8 per million input tokens and $40 per million output tokens. Fable 5.2 and Mythos 5.2 also come with an optional fast mode, which speeds up token generation by up to 2.5 times. Fast mode is available for $16 per million input tokens and $80 per million output tokens. Safety and alignment. To help ensure safety and alignment keep step with growing model capabilities, we ran extensive prerelease safety testing on the model that underlies Fable 5.2 and Mythos 5.2. This included developing novel evaluations that give deeper insight into specific concerning behaviors like sandbox escapes. We believe high-stakes risks from misalignment remain low, and the model performed as well as, or better than, our recent models on most alignment measures. Fable 5.2’s cyber and biology safeguards are as robust as those of Fable 5.1 but produce fewer unnecessary blocks, and we have implemented our strongest-ever protections against distillation attacks. We describe more about our safety testing below, and full details can be found in the Claude Fable 5.2 and Mythos 5.2 System Card . When to use Claude Fable 5.2 and Mythos 5.2. Fable and Mythos are best for the most ambitious, open-ended technical work. For most coding and knowledge tasks, we recommend that users start with Claude Opus 5.5, our strongest daily driver, and then switch to ",
+      "oneLineKo": "Anthropic, Claude Fable·Mythos 5.2 모델 공개",
+      "summaryKo": "Anthropic이 코딩, 추론, 비전 성능을 개선한 Claude Fable 5.2와 Claude Mythos 5.2를 발표했다. 두 모델은 동일한 기반 모델이며, Fable은 사이버보안·생물학 안전장치를 갖춰 모든 사용자에게 제공되고 Mythos는 생명과학 및 사이버 검증 프로그램을 통해 접근 가능하다. 이전 버전 대비 출력 속도가 최대 30% 빨라졌고 가격은 낮아졌으며, 응답 속도를 2.5배 높이는 패스트 모드도 제공된다. Anthropic은 샌드박스 탈출 등 위험 행동에 대한 새로운 평가를 포함해 광범위한 사전 출시 안전성 테스트를 수행했다고 밝혔다.",
+      "tags": [
+        "anthropic",
+        "llm",
+        "ai-safety"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xrrmk7",
+      "title": "C# 15: Union Types, Closed Hierarchies, and the One Value™ That Isn't Any of Them · cekrem.github.io",
+      "url": "https://www.reddit.com/r/programming/comments/1xrrmk7/c_15_union_types_closed_hierarchies_and_the_one/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xrrmk7/c_15_union_types_closed_hierarchies_and_the_one/",
+      "publishedAt": "2026-11-09T13:27:16+00:00",
+      "snippet": "submitted by /u/cekrem [link] [comments]",
+      "oneLineKo": "C# 15의 유니온 타입과 봉인된 계층 구조 소개",
+      "summaryKo": "이 글은 C# 15에서 도입되는 유니온 타입(Union Types)과 닫힌 계층 구조(Closed Hierarchies) 기능을 다룬다. 제목에서 언급된 '어느 쪽에도 속하지 않는 하나의 값(One Value)'은 이러한 타입 시스템 확장과 관련된 특수 케이스를 시사한다. Reddit r/programming에 공유된 블로그 포스트로, 본문 상세 내용은 제공되지 않았다.",
+      "tags": [
+        "csharp",
+        "type-system",
+        "union-types"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36924&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "1.58비트 터너리 양자화로 30B LLM을 맥북에서 돌리기: 0점에서 89.4%까지 복원한 기록",
+      "url": "https://news.hada.io/topic?id=36924&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36924&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-10T10:53:46+09:00",
+      "snippet": "NVIDIA Nemotron 3.5 Lightning 30B(A3B)의 가중치를 -1, 0, +1 세 값으로만 표현하는 1.58비트 터너리 양자화로 약 60GB → 약 10GB 까지 줄이고, 24GB 이상 맥북에서 돌릴 수 있게 한 기록 사전학습을 다시 하지 않는 PTQ 방식. 결과 모델은 Hugging Face에 MLX 프리뷰 체크포인트로 공개 30B 모델은 4비트로 줄여도 가중치만 16GB 안팎이라, 런타임 메모리와 KV 캐시까지 더하면 16GB 기기에는 올라가지 않고 24GB 맥북에서도 빠듯함 BF16 모델을 그대로 터너리로 바꾸면 GSM8K·HumanEval 0.00점 , IFEval-ko 10.36점 on/off-policy di …",
+      "oneLineKo": "30B LLM 1.58비트 터너리 양자화로 맥북 구동 성공",
+      "summaryKo": "NVIDIA Nemotron 3.5 Lightning 30B 모델의 가중치를 -1, 0, +1 세 값으로 표현하는 1.58비트 터너리 양자화를 적용해 약 60GB였던 모델을 약 10GB로 줄여 24GB 이상 맥북에서 실행 가능하게 만들었다. 사전학습을 다시 하지 않는 PTQ(post-training quantization) 방식을 사용했으며, BF16 모델을 그대로 터너리로 변환하면 성능이 0점까지 떨어지지만 추가 보정을 통해 89.4%까지 성능을 복원했다. 결과 모델은 Hugging Face에 MLX 프리뷰 체크포인트로 공개되었다.",
+      "tags": [
+        "llm",
+        "quantization",
+        "mlx"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50424581",
+      "title": "Foldable Flight: The Best Paper Airplanes",
+      "url": "https://www.foldableflight.com",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50424581",
+      "publishedAt": "2026-11-09T12:19:22Z",
+      "score": 884,
+      "comments": 141,
+      "snippet": "--> Foldable Flight: The Best Paper Airplanes in the World! top of page Home Shop Contest Blog Book Kyle More Use tab to navigate through the menu items. Log In Shop from our collection of paper airplane products, or enjoy folding the best paper airplanes in the world! Fold Epic Paper Airplanes. Fold Planes Shop Now Folding Difficulty Very Easy Easy Intermediate Advanced Expert Plane Type Dart Glider Hybrid Jet Stunt Designer Kyle Boyer Evan Brus Evan Smithson Julian Chee Michael LaFosse Wang Chenghao Will Barron Other Paper Type A4 US Letter Square Airplanes match your search. 109 Exclusive Planes Recommended Planes Try one of our recommended planes! Shop Now Click on any plane to fold it! Firefly 5 Speed: 5 Intermediate Glide: 10 4 Accuracy: This World Record prototype can fly over 300 feet!!! Click on any plane to fold it! Unite Speed: 2 Intermediate Glide: 10 4 Accuracy: Unite holds the world record for time aloft at 31.2 seconds! Click on any plane to fold it! Arrowhead Speed: 7 Easy Glide: 5 6 Accuracy: Tutorials for Arrowhead have been viewed over 100 million times! Click on any plane to fold it! Corsair Speed: 4 Intermediate Glide: 6 4 Accuracy: Corsair is great for indoor and outdoor flying! Click on any plane to fold it! SU-27 Speed: 6 Intermediate Glide: 6 5 Accuracy: The SU-27 is based on the Russion fighter, and it flies brilliantly! Click on any plane to fold it! Cub Speed: 5 Intermediate Glide: 10 5 Accuracy: Cub is the prototype for the world record breaking design, CHEEtah! Click on any plane to fold it! Mystic Speed: 4 Very Easy Glide: 8 4 Accuracy: Mystic is a modified version of the Nakamura Lock, by Eiji Nakamura. Click on any plane to fold it! Quick Blade Speed: 7 Easy Glide: 5 8 Accuracy: Quick Blade is easy to fold and flies over 100 ft (30m)! Click on any plane to fold it! F-14 Tomcat Speed: 4 Advanced Glide: 6 4 Accuracy: Designed by Michael LaFosse, F-14 Tomcat is truly iconic! Click on any plane to fold it! AeroDactyl Speed: 3 Easy Glide: 6 3 Accuracy: AeroDactyl is easy to fold and it flaps as it flies! Click on any plane to fold it! Jetstream Speed: 5 Very Easy Glide: 5 3 Accuracy: Jetstream is an asymmetrical paper airplane that still flies well! Click on any plane to fold it! Venom Speed: 7 Advanced Glide: 3 4 Accuracy: Venom is an aggressive paper airplane that flies over 100 feet! Click on any plane to fold it! Double Take Speed: 2 Easy Glide: 7 5 Accuracy: Double Take may look strange, but it still flies well. Click on any plane to fold it! Ballista Speed: 10 Easy Glide: 2 7 Accuracy: Ballista is the fastest plane on the site. Launch it with all your might! Click on any plane to fold it! Ghost Bat Speed: 3 Intermediate Glide: 7 3 Accuracy: Ghost Bat flaps as it flies while also boasting a great glide ratio. Click on any plane to fold it! Concorde Speed: 9 Easy Glide: 2 8 Accuracy: Concorde is based on the classic dart, but has a few extra steps. Click on any plane to fold it! Astral Speed: 7 Intermediate Glide: ",
+      "oneLineKo": "종이비행기 접기 모음 사이트, 109종 소개",
+      "summaryKo": "Foldable Flight는 세계 최고의 종이비행기 접기 방법을 모아놓은 웹사이트로 총 109종의 디자인을 제공한다. 난이도(쉬움~전문가), 비행기 유형(다트, 글라이더, 제트 등), 종이 종류별로 필터링해 선택할 수 있다. 각 비행기는 속도, 활공, 정확도 지표와 함께 세계 기록 정보도 안내한다. 쇼핑몰, 콘테스트, 블로그 등 부가 콘텐츠도 함께 운영된다.",
+      "tags": [
+        "paper-airplane",
+        "diy",
+        "hobby"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36923&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "ElevenLabs는 어떻게 영화 더빙에서 음성 AI 플랫폼으로 확장했나 [영상]",
+      "url": "https://news.hada.io/topic?id=36923&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36923&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-10T10:50:02+09:00",
+      "snippet": "ElevenLabs는 오디오 모델을 직접 연구하고, 그 기술을 고객의 실제 업무에 적용 해 성장함. 영화 더빙에서 출발해 콘텐츠 제작과 콜센터 음성 에이전트로 확장함 출발점은 감정과 원래 목소리를 보존하는 더빙이었지만, 기술적 한계와 창작자에게 당장 필요한 작업을 확인한 뒤 고품질 음성 생성 부터 해결함 연구는 오디오에 집중하고, 제품에는 외부 LLM과 지식, 시스템 연동을 결합함. 장기적으로 연구 격차가 줄어들 가능성에 대비해 제품과 음성 마켓플레이스 도 구축함 소규모 자율 팀과 제품팀 소속 현장 엔지니어(FDE) 가 고객과 함 …",
+      "oneLineKo": "ElevenLabs, 더빙 음성AI서 콜센터·콘텐츠 플랫폼으로 확장",
+      "summaryKo": "ElevenLabs는 영화 더빙용 고품질 음성 생성 기술 연구에서 출발해, 이를 콘텐츠 제작과 콜센터 음성 에이전트 등 실제 고객 업무에 적용하며 성장했다. 연구는 오디오 모델에 집중하고, 제품 단에서는 외부 LLM과 지식베이스, 시스템 연동을 결합하는 전략을 취했다. 연구 격차가 좁혀질 미래에 대비해 음성 마켓플레이스 등 제품 생태계도 함께 구축했으며, 소규모 자율 팀과 현장 엔지니어(FDE)가 고객과 밀착 협업하는 조직 구조를 운영한다.",
+      "tags": [
+        "voice-ai",
+        "elevenlabs",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50431058",
+      "title": "USPS now offers official ZIP Code boundary polygons",
+      "url": "https://postalpro.usps.com/zcb",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50431058",
+      "publishedAt": "2026-11-09T19:58:59Z",
+      "score": 525,
+      "comments": 270,
+      "snippet": "USPS® ZIP Code Boundaries | PostalPro Site Index Main Menu Mailing and Shipping Mailing Intelligent Mail Barcodes (IMb and IMcb) Full-Service Service Type Identifiers (STIDs) eInduction Seamless Acceptance Secure Destruction Enterprise Payment System (EPS) Mailing and Shipping Solutions Center Mailpiece Design Support Shipping Business Portal (Formerly Customer Onboarding Portal) Hazardous, Restricted, and Perishable Mail Instructions Adult Birds Category B Infectious Substances Cigarettes, Smokeless Tobacco, and Electronic Nicotine Delivery Systems Drug Mailback Program Ethanol Based Flammable Liquids & Solids Lighters Publication 52 - Hazardous, Restricted, and Perishable Mail Safety Fuse Sharps and Regulated Medical Waste Toy Propellant Devices Intelligent Mail Matrix Barcode (IMmb) Intelligent Mail Package Barcode (IMpb) IMpb Specification Parcel Data Exchange (PDX) API Customer Guide Product Classification (Pub 52) Publication 199 Publication 205 Tech Sheets USPS Ship Publication 199 USPS Ship Data Dictionary USPS Ship through IV-MTR® Data Delegation Request USPS Ship Guide Address Quality Solutions Correct and Standardize Your Address List Verify Your Address List Enrich Your Data Stay Compliant with Move Update Undeliverable-as-Addressed (UAA) Mail Statistics Commerce Applications Release and Outage Calendar Election Mail and Ballot Mail STID Finder First-Class Mail and Marketing Mail Growth Incentives Informed Delivery® Informed Delivery® for Business Mailers Informed Delivery® API Informed Delivery® PostalOne! eDoc Technical Support for Mailers Mailer Scorecard Marriage Mail Incentive Major and Minor Releases Pricing and Classification Service Center (PCSC) Promotions and Incentives Special Services Business Reply Mail Certificate of Mailing Certified Mail® Enterprise Post Office Boxes Online (ePOBOL) Premium Forwarding Service Commercial® SPM Mail Exclusions Fact Sheet How to Access the Exclusions Application Visibility and Tracking Addressing Requirements Find Certified Vendors and Providers Find Your Local Business Mail Entry Unit Promotions & Incentives USPS Mailing Services team provides strategic incentives, offering various benefits and advantages to businesses and individuals. All Mail Incentives Mail Growth Incentive USPS Mailing Promotions seek to increase engagement and response rates for Mailers by leveraging high value mailpieces. 2026 Promotions Calendar and Technical Guide 2026 Promotions For ideas on new or existing Promotions, please fill out this form . Looking to implement tech in your mail? Visit the Tech Directory . Emerging and Advanced Technology Guidebook What’s New Webinar Slides Webinar Recording​ Tech Directory Personalized Color Transpromo Guidebook Tactile, Sensory and Interactive Guidebook Webinar Recording Mobile Shopping Guidebook Earned Value Guidebook Webinar Slides Webinar Recording Informed Delivery Guidebook Industry Forum Mailers' Technical Advisory Committee (MTAC) MTAC Meeting Agendas, Presentation",
+      "oneLineKo": "USPS, ZIP 코드 경계 폴리곤 공식 제공",
+      "summaryKo": "미국 우정청(USPS)이 PostalPro 사이트를 통해 ZIP 코드 경계를 폴리곤 형태의 공식 데이터로 제공하기 시작했습니다. 이는 지리정보 시스템(GIS)이나 주소 데이터 분석 등에서 ZIP 코드 영역을 정확히 시각화하거나 매핑하는 데 활용될 수 있습니다. 기존에는 서드파티 추정 데이터에 의존해야 했던 것을 USPS가 직접 공식 데이터로 제공한다는 점이 특징입니다.",
+      "tags": [
+        "gis",
+        "usps",
+        "geodata"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36920&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "DeepX, 2세대 AI 칩 DX-M2 테이프아웃 완료 - 5W 미만에서 최대 1,000억 파라미터 모델 추론 목표",
+      "url": "https://news.hada.io/topic?id=36920&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36920&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-10T09:44:04+09:00",
+      "snippet": "한국 엣지 AI 반도체 스타트업 딥엑스가 2세대 가속기 DX-M2의 테이프아웃을 완료 함. 로봇과 드론처럼 전력과 발열 제약이 큰 기기에서 생성형 AI를 직접 실행하도록 설계함 5W 미만에서 전체 200억~1,000억 파라미터 규모의 모델을 초당 10~30토큰으로 실행 하는 것이 목표. 활성 파라미터는 약 30억~200억 개 이며, 메모리 대역폭은 전작의 3배인 150GB/s 로 높임 Samsung의 LPDDR5x-PIM 으로 GEMV 연산을 넘기면 Llama3.1-8B 처리량이 DX-M2 단독 대비 6.7배 가 될 것으로 시뮬레이션에서 예측함. 다만 전체 소비전력도 2.7배로 늘어나며, 동일 전력에서는 약 2배의 성능 향상을 예상함 …",
+      "oneLineKo": "딥엑스, 저전력 엣지 AI칩 DX-M2 테이프아웃 완료",
+      "summaryKo": "한국 엣지 AI 반도체 스타트업 딥엑스가 2세대 가속기 DX-M2의 테이프아웃을 완료했다. 로봇과 드론 등 전력·발열 제약이 큰 기기에서 생성형 AI를 직접 구동하도록 설계되어, 5W 미만에서 최대 1,000억 파라미터급 모델을 초당 10~30토큰으로 실행하는 것을 목표로 한다. 메모리 대역폭은 전작 대비 3배인 150GB/s로 향상됐으며, Samsung의 LPDDR5x-PIM과 결합 시 Llama3.1-8B 처리량이 단독 대비 6.7배까지 늘어날 것으로 시뮬레이션됐다.",
+      "tags": [
+        "edge-ai",
+        "npu",
+        "on-device-llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50427362",
+      "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+      "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50427362",
+      "publishedAt": "2026-11-09T16:00:45Z",
+      "score": 485,
+      "comments": 267,
+      "snippet": "Canada launches the Real-Time Rail, bringing 24/7 payment infrastructure to the national economy | Payments Canada Skip to main content A new source of strength for Canada’s economy: Canada's Real-Time Rail (RTR) is now live. Learn more &times; Canada's Real-Time Rail is here Top Contact Careers Subscribe Search Français Payments Canada Systems & services Main Navigation Payment systems Real-Time Rail payment system Retail batch payment system High-value payment system - Lynx Payments Canada fees System closure schedule Payment services Payment file validation service Message validation service Financial institutions file Corporate creditor identification number database APIs Rules & documentation Payment resources Main Navigation Directories Support guides Consumer guides Business guides Financial institution guides Cheque printer guide ISO 20022 Automatic funds transfer High-value payment system - Lynx Real-Time Rail payment system Glossary Education Insights Main Navigation News & research Corporate reports Modernization Connect Main Navigation Careers Annual conference Events Membership Payment service provider participation Contact About Main Navigation Who we are Our members & stakeholders Members Stakeholders Our leadership Governance & risk Board of directors Legislation & by-laws Risk management Menu Menu Home Insights News & research Canada launches the Real-Time Rail, bringing 24/7 payment infrastructure to the national economy News Canada launches the Real-Time Rail, bringing 24/7 payment infrastructure to the national economy November 9, 2026 The new system will enable participating financial service providers to clear and settle payments in real time, providing a made-in-Canada platform for future innovation and prosperity. OTTAWA, ON, November 9, 2026 – Payments Canada today announced the launch of Canada’s Real-Time Rail (RTR). This new national payment system will transform day-to-day payments for Canadian businesses and consumers by enabling instant speed and settlement, real-time cash-flow visibility and data-rich messaging through existing banking and payment channels. The launch of Canada’s RTR marks a major milestone in modernizing the critical infrastructure that underpins Canada’s economy and future growth. The RTR will enable participating members, including financial institutions, credit unions and payment service providers, to exchange, clear and settle payments securely in real time for their customers, 24 hours a day, every day of the year. “A stronger, more productive economy relies on modern financial infrastructure that can match our ambition,” said the Honourable François-Philippe Champagne, Minister of Finance and National Revenue. “The launch of Canada’s Real-Time Rail lays the foundation for a more dynamic and competitive digital economy, driving innovation, expanding choice and creating new opportunities for Canadians while positioning our country for long-term growth.” “The launch of Canada’s Real-Time Rail m",
+      "oneLineKo": "캐나다, 실시간 결제망 RTR 공식 출범",
+      "summaryKo": "Payments Canada가 캐나다의 새로운 국가 결제 시스템인 Real-Time Rail(RTR)을 출범시켰다고 발표했다. RTR은 금융기관, 신용조합, 결제서비스제공업체 등 참여 기관이 24시간 365일 실시간으로 결제를 교환, 청산, 정산할 수 있도록 지원한다. 이를 통해 즉시 결제 속도와 정산, 실시간 현금흐름 가시성, 데이터 기반 메시징을 기존 은행 및 결제 채널을 통해 제공한다. 이는 캐나다 경제 인프라 현대화의 중요한 이정표로 평가된다.",
+      "tags": [
+        "payments",
+        "fintech",
+        "real-time-settlement"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36928&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Show GN: Daizy - 단어 암기에 특화된 예쁜 Anki/Quizlet Alternative",
+      "url": "https://news.hada.io/topic?id=36928&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36928&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-10T11:15:00+09:00",
+      "snippet": "UI가 예쁜 Anki Alternative를 만들어보고자 시작된 단어암기 앱입니다. 주요기능 안드로이드, iOS, 웹 버전 지원 FSRS 알고리즘 기반 데일리 퀴즈 Anki 덱 Import / Export Streak, Stats, Reminder(Notification) 장점 저렴한 비용(월 플랜 2,200원) 잡다하지 않은 기능, 심플한 UI 향후 추가될 기능 사용자의 단어 DB에 기반한 새 단어 추천 AI를 이용한 예문/이미지 생성 언어별 특화 기능(한자 획 쓰기, 히라가나-가타카나 변환 등) 태블릿 앱 매일 눈팅만 하다가 직접 글을 남겨보는건 처음이네요. 항상 긱뉴스에서 좋은 글들 보고 …",
+      "oneLineKo": "단어 암기용 Anki/Quizlet 대체 앱 'Daizy' 출시",
+      "summaryKo": "Daizy는 예쁜 UI를 목표로 만들어진 단어 암기 앱으로 안드로이드, iOS, 웹을 지원합니다. FSRS 알고리즘 기반 데일리 퀴즈와 Anki 덱 Import/Export, Streak·Stats·Reminder 기능을 제공하며 저렴한 월 구독료(2,200원)와 심플한 UI가 특징입니다. 향후 사용자 단어 DB 기반 추천, AI 예문/이미지 생성, 언어별 특화 기능(한자 획순, 히라가나-가타카나 변환) 등을 추가할 계획입니다.",
+      "tags": [
+        "anki",
+        "language-learning",
+        "show-gn"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50429426",
+      "title": "Google Gemini routes personal Drive files and emails to human annotators",
+      "url": "https://github.com/thisisme6598/gemini_files/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50429426",
+      "publishedAt": "2026-11-09T18:24:38Z",
+      "score": 466,
+      "comments": 113,
+      "snippet": "GitHub - thisisme6598/gemini_files: Documentation of Gemini File Leaking Behavior · GitHub Skip to content Navigation Menu Sign in Products Platform GitHub Repository hosting, code review, and collaboration Copilot AI coding agent for tasks, projects, and automated work Build & Ship Actions CI/CD and automation Code Quality Quality analysis, fixes, and enforcement Codespaces Cloud development environments Secure Code Security Vulnerability detection and remediation Secret Protection Secret scanning and leak prevention All Features Developers Learn Documentation Training Certifications Build Build with Copilot Customize Copilot Integrations Explore Trending repos GitHub Sponsors Developer articles Changelog Changelog Your source for the latest features, improvements, and fixes across GitHub products, all in one place. Businesses By Stage Enterprises Team Startups Nonprofits By Industry Healthcare Financial services Manufacturing Government See all industries Evaluate GitHub Why GitHub Customer Stories Business insights Trust Center Add-ons GitHub Advanced Security Enterprise-grade code security Copilot for business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Resources Learn & Connect Documentation Resource center Blog Events & webinars Community Forum Customer Stories Integrations Support Customer support Training GitHub Status Company About Partners Changelog GitHub Universe GitHub Universe The event for developers, by developers — talks, workshops, and what’s next for GitHub. Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} thisisme6598 gemini_files Repository navigation Code Issues Pull requests Actions Projects Security and quality Insights More items gemini_files Public Notifications You must be signed in to change notification settings Fork 1 ( 1 ) Star 18 ( 18 ) You must be signed in to star a repository About Documentation of Gemini File Leaking Behavior Resources Readme Activity Stars 18 stars Watchers 0 watching Forks 1 fork Report repository main Branches Tags Go to file Code Open more actions menu Latest commit History 3 Commits 3 Commits Folders and files Name Name Last commit message Last commit date README.md README.md View all files Repository files navigation README More items Google Gemini routes personal Drive files and emails to human annotators In 2023, Google launched Gemini Workspace extensions with an explicit promise: personal content from Gmail, Docs, and Drive \"is not seen by human reviewers\" . Google has quietly reversed this commitment. Under updated Google Help Answer 16836988 and in an October 16 edit to their aforementioned 2023 blogpost , Google explicitly confirms that connected Drive/email is routed into human review pipelines, ",
+      "oneLineKo": "Gemini, 개인 드라이브·이메일 파일을 인간 검토자에게 전달",
+      "summaryKo": "구글은 2023년 Gemini Workspace 확장 기능 출시 당시 Gmail, Docs, Drive의 개인 콘텐츠는 인간 검토자가 보지 않는다고 약속했다. 그러나 업데이트된 구글 고객센터 답변과 10월 16일 수정된 블로그 포스트에서 구글은 연결된 드라이브/이메일 데이터가 인간 검토 파이프라인으로 전달된다는 사실을 명시적으로 확인했다. 이는 기존의 개인정보 보호 약속을 조용히 번복한 것으로, GitHub 저장소를 통해 이러한 정책 변화 과정이 문서화되었다.",
+      "tags": [
+        "gemini",
+        "privacy",
+        "google-workspace"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50429734",
+      "title": "E-means: Outperforming k-means in one-tenth the epochs",
+      "url": "https://e-means.github.io/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50429734",
+      "publishedAt": "2026-11-09T18:45:43Z",
+      "score": 299,
+      "comments": 25,
+      "snippet": "e-means: 10x faster k-means at equal loss - Blog Swann Bessa Blog post Playground Video Paper On arXiv: arxiv.org/abs/2611.09501 @misc{bessa2026emeansoutperformingkmeansin, title={e-means: outperforming k-means (in one-tenth the epochs)}, author={Swann Bessa and Pierre-Emmanuel Mazar&eacute; and Gergely Szilvasy and Hugo Touvron and David Picard and Matthijs Douze and Herv&eacute; J&eacute;gou}, year={2026}, eprint={2611.09501}, archivePrefix={arXiv}, primaryClass={cs.LG}, url={https://arxiv.org/abs/2611.09501}, } Copy citation Open on arXiv Code e-means is available in faiss : faiss/contrib/e_means e-means: outperforming k-means in one-tenth the epochs I&rsquo;m excited to open-source e-means: a modern, robust k-means algorithm developed at Meta FAIR. A replacement of Lloyd's algorithm, e-means delivers a ~10&times; speedup in both epochs and wall-clock time while achieving lower loss. Try e-means in your browser [Paper] &middot; [Code] &middot; [Cite] &middot; [Coauthors] Pierre-Emmanuel Mazar&eacute;, Gergely Szilvasy, Hugo Touvron, David Picard, Matthijs Douze and Herv&eacute; J&eacute;gou Lloyd (full batch) e-means (batch and step from the scaling laws) Training MSE e-means Lloyd ▶&#xFE0E; epochs: 0.0 100,000 datapoints in 200 clusters, two wide Gaussians and three small ones, cut off at a box, on a light uniform background. Lloyd has 1 update against 97 per epoch for e-means. An order of magnitude less epochs Across a large range of scales and datasets , e-means reaches a test loss below Lloyd's at 25 epochs, in 1.2 to 3 epochs. Measured end to end, that is a 10&ndash;45&times; wall-clock reduction on GPU against the state-of-the-art Lloyd implementation (Flash-KMeans [2] ), and 8&ndash;15&times; on CPU against Faiss [1] . Speed and quality usually trade against each other in k-means, while e-means achieves both better speed and loss. The k-means problem Given a fixed dataset of n points X = {x 1 , ..., x n } &sub; R d and an integer k , the k-means problem is to find k centroids C = (c 1 , ..., c k ) minimizing the mean squared distance between each point and its nearest centroid: \\[ \\mathrm{MSE}(X, C) = \\frac{1}{n} \\sum_{i=1}^{n} \\|x_i - c_{a(i)}\\|^2, \\qquad a(i) = \\arg\\min_{j \\in \\{1,\\dots,k\\}} \\|x_i - c_j\\|^2 \\] \\[ \\mathrm{MSE}(X, C) = \\frac{1}{n} \\sum_{i=1}^{n} \\|x_i - c_{a(i)}\\|^2 \\] \\[ a(i) = \\arg\\min_{j \\in \\{1,\\dots,k\\}} \\|x_i - c_j\\|^2 \\] It's a static dataset, unlike codebook learning inside VQ-VAEs, where the distribution to cluster is constantly moving. The e-means project The goal of e-means is to provide a modern optimization rule for the k-means problem. We started this project from the following observations: k-means is one of the rare problems in machine learning where full-batch optimization is still widely used. Mini-batch k-means methods in the literature exist [3] , [4] , [5] , but are mostly based on the MacQueen update rule, released in 1967. Modern deep learning offers optimization tools that can enhance mini-batch ",
+      "oneLineKo": "Meta FAIR, k-means 10배 빠른 e-means 공개",
+      "summaryKo": "Meta FAIR 연구진이 기존 Lloyd 알고리즘을 대체하는 새로운 k-means 알고리즘 e-means를 오픈소스로 공개했습니다. e-means는 미니배치 최적화 기법을 활용해 Lloyd 대비 에폭 수는 10분의 1 수준으로 줄이면서도 더 낮은 손실(loss)을 달성합니다. GPU에서는 Flash-KMeans 대비 10~45배, CPU에서는 Faiss 대비 8~15배의 실제 시간 단축 효과를 보였습니다. 코드는 Faiss 라이브러리에 포함되어 제공됩니다.",
+      "tags": [
+        "k-means",
+        "machine-learning",
+        "faiss"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50426175",
+      "title": "Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics",
+      "url": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50426175",
+      "publishedAt": "2026-11-09T14:31:39Z",
+      "score": 289,
+      "comments": 186,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.cell.com&#x2F;cell-reports-physical-science&#x2F;fulltext&#x2F;S2666-3864(26)00461-3\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cell.com&#x2F;cell-reports-physical-science&#x2F;fulltext&#x2F;...</a>",
+      "oneLineKo": "반투명 카드뮴텔루라이드 태양광 패널, 작물과 발전 공존",
+      "summaryKo": "이 기사는 반투명하고 색상을 띤 카드뮴텔루라이드(CdTe) 광전지 패널을 농업과 태양광 발전을 결합하는 '아그리볼타익스(agrivoltaics)'에 활용하는 연구를 다룹니다. 마젠타색 등 특정 파장을 투과시키는 패널 설계를 통해 작물 생장에 필요한 빛은 통과시키면서 동시에 전력을 생산할 수 있다는 내용입니다. 관련 연구는 Cell Reports Physical Science 저널에 게재되었습니다.",
+      "tags": [
+        "agrivoltaics",
+        "photovoltaics",
+        "renewable-energy"
+      ]
+    }
+  ]
+}

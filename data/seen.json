@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=35053",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "news.hada.io/topic?id=35053",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50018817",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "github.com/franzenzenhofer/big-arrow-on-the-screen",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "t3_1x1pypx",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1x1pypx/python_release_python_3150",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35071",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "news.hada.io/topic?id=35071",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50023450",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "typesafe.ai/blog/series-ai",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "t3_1x1v9c8",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1x1v9c8/clickhouse_outcompresses_parquet_surprises_from",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35077",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "news.hada.io/topic?id=35077",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50019056",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35056",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "news.hada.io/topic?id=35056",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50019911",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "deno.com/blog/cloudflare",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35063",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "news.hada.io/topic?id=35063",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50018088",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "iminafleeting.com",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35094",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "news.hada.io/topic?id=35094",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50022292",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "minesweeper.mikelacher.com",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50020014",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "oxide.computer/blog/our-445m-series-d",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50018420",
-    "date": "2026-10-10"
-  },
-  {
-    "id": "nobelprize.org/prizes/peace/2026/press-release",
-    "date": "2026-10-10"
-  },
-  {
     "id": "https://news.hada.io/topic?id=35119",
     "date": "2026-10-11"
   },
@@ -3862,5 +3734,133 @@
   {
     "id": "axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
     "date": "2026-11-09"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36930&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "news.hada.io/topic?id=36930",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50431144",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "artificialanalysis.ai/models/claude-fable-5-2",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "t3_1xs558h",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xs558h/how_we_saved_100_terabytes_of_memory_by",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36917&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "news.hada.io/topic?id=36917",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50429068",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "anthropic.com/claude-fable-and-mythos-5-2",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "t3_1xrrmk7",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xrrmk7/c_15_union_types_closed_hierarchies_and_the_one",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36924&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "news.hada.io/topic?id=36924",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50424581",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "foldableflight.com",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36923&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "news.hada.io/topic?id=36923",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50431058",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "postalpro.usps.com/zcb",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36920&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "news.hada.io/topic?id=36920",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50427362",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=36928&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "news.hada.io/topic?id=36928",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50429426",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "github.com/thisisme6598/gemini_files",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50429734",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "e-means.github.io",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50426175",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet",
+    "date": "2026-11-10"
   }
 ]
