@@ -1,0 +1,278 @@
+{
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T01:34:35.868Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36964&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Show HN: 코딩 에이전트를 2019년 무렵의 JavaScript에서 최신 웹 기본 기능으로 이끌기",
+      "url": "https://news.hada.io/topic?id=36964&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36964&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-11T07:38:42+09:00",
+      "snippet": "Modern Web Guidance 는 웹 플랫폼 전문 지식, 모범 사례, 브라우저 호환성 데이터를 코딩 에이전트에 제공하는 스킬 모음으로, 레거시 패턴 대신 최신 웹 기본 기능을 활용하도록 유도함 LLM 학습 데이터에 많은 오래된 코드와 부족한 최신 구현 사례를 보완하기 위해, 전문가가 선별한 가이드 를 작업에 맞춰 에이전트의 컨텍스트에 직접 전달함 로컬 의미 검색과 BM25 로 관련 가이드를 찾으며, 검색에는 네트워크 호출이나 API 키가 필요 없음 Baseline 호환성 데이터 와 가벼운 대체 구현을 활용하고, 실험적이거나 불안정한 기능의 가이 …",
+      "oneLineKo": "코딩 에이전트에 최신 웹 표준 가이드 제공하는 스킬 모음",
+      "summaryKo": "Modern Web Guidance는 코딩 에이전트가 2019년식 구식 JavaScript 패턴 대신 최신 웹 기본 기능을 사용하도록 유도하는 스킬 모음이다. LLM 학습 데이터에 오래된 코드가 많고 최신 구현 사례가 부족한 문제를 보완하기 위해 전문가가 선별한 가이드를 에이전트 컨텍스트에 직접 제공한다. 로컬 의미 검색과 BM25를 사용해 관련 가이드를 찾으며 네트워크 호출이나 API 키가 필요 없다. Baseline 호환성 데이터와 가벼운 대체 구현을 활용하여 실험적이거나 불안정한 기능은 피하도록 안내한다.",
+      "tags": [
+        "llm",
+        "javascript",
+        "coding-agent"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50443812",
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50443812",
+      "publishedAt": "2026-11-10T18:01:15Z",
+      "score": 255,
+      "comments": 75,
+      "snippet": "Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range highlighting without &lt;span&gt;s everywhere, `&lt;dialog&gt;` and showModal() give you backdrops and ideal focus management, `field-sizing` to auto-grow textareas as the user types.. (Something yesterday&#x27;s ftrain post touched on [0])<p>Models know about some of these by name, but consistently won&#x27;t default to using the platform-native solution and instead prefer the incumbent &lt;div&gt;+JS based pattern.  We started an effort in Chrome to supplement coding agents with this key domain knowledge and we&#x27;re shipping our 1.0 today, in collaboration with Firefox, MDN, and Edge.<p>200+ guides (~1.7MB) of curated, hand-crafted implementation best-practices from web experts, updated as the web evolves.  (Open source, obv, so.. we&#x27;ll welcome your bikeshedding ;) Readable versions here: [1]<p>I&#x27;ve spent the last 9 months obsessing over how to ship this as an agent skill + (Agentic RAG) CLI without blowing up your context window. (Or cedeing activation mechanics to MCP dynamic tool search). The skill description is minmaxed for activating on relevant frontend tasks. The RAG work I&#x27;m pretty proud of… originally a 500mb native stack down to a ~7MB pure-JS package, ~10ms search on your CPU.<p>We just introduced a deterministic &#x27;legacy-scan&#x27; (trained on 30k github repos) to identify old &#x27;n dusted patterns that your agent can modernize. (92% avg precision on held-out repos.)<p>People make a lot of claims about what coding agents are good&#x2F;bad at. We wanted receipts, so we invested heavily in eval infra [2] to help us hill-climb, but also to identify when knowledge is common enough we can prune our guides. (Ofc, some of the things we thought AI didn&#x27;t know turned out to be wrong :)  We run codex&#x2F;claude&#x2F;agy against 200 tasks without the skill and then with.. In total ~1,700 playwright&#x2F;AST-based assertions. Agents go from 55% pass unguided to 92% guided.<p>Try it out:<p><pre><code>    DISABLE_TELEMETRY=1 npx modern-web-guidance@latest install\n    DISABLE_TELEMETRY=1 npx modern-web-guidance@latest search &quot;animate dialog modal&quot;\n    DISABLE_TELEMETRY=1 npx modern-web-guidance@latest legacy-scan .&#x2F;src\n</code></pre>\nIf you spot something wrong or weird, give us a holler!<p>Longer write-up on the 1.0:  <a href=\"https:&#x2F;&#x2F;developer.chrome.com&#x2F;blog&#x2F;modern-web-guidance-v1\" rel=\"nofollow\">https:&#x2F;&#x2F;developer.chrome.com&#x2F;blog&#x2F;modern-web-guidance-v1</a><p>---<p>0: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50416456\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50416456</a><p>1: <a href=\"https:&#x2F;&#x2F;developer.chrome.com&#x2F;docs&#x2F;modern-web-guidance&#x2F;guides\" rel=\"nofollow\">https:&#x2F;&#x2F;developer.chrome.com&#x2F;docs&#x2F;modern-web-guidance&#x2F;guides</a><p>2: <a href=\"https:&#x2F;&#x2F;googlechrome.github.io&#x2F;modern-web-guidance-src&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;googlechrome.github.io&#x2F;modern-web-guidance-src&#x2F;</a>",
+      "oneLineKo": "코딩 에이전트에 최신 웹 표준 지식 제공하는 가이드 공개",
+      "summaryKo": "Chrome팀이 Firefox, MDN, Edge와 협업해 코딩 에이전트가 구식 JS 패턴 대신 CSS.highlights, dialog 등 최신 웹 네이티브 기능을 사용하도록 돕는 200개 이상의 가이드를 1.0으로 공개했다. 이는 agent skill과 경량 RAG CLI 형태로 제공되며, 3만 개 GitHub 저장소로 학습된 'legacy-scan' 기능으로 구식 패턴을 탐지해 현대화할 수 있다. 자체 평가 결과 가이드 적용 시 에이전트의 작업 성공률이 55%에서 92%로 향상되었다.",
+      "tags": [
+        "web-standards",
+        "coding-agent",
+        "javascript"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xstxzv",
+      "title": "Announcing .NET 11",
+      "url": "https://www.reddit.com/r/programming/comments/1xstxzv/announcing_net_11/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xstxzv/announcing_net_11/",
+      "publishedAt": "2026-11-10T18:04:29+00:00",
+      "snippet": "submitted by /u/359Panda3U [link] [comments]",
+      "oneLineKo": ".NET 11 발표 소식 공유",
+      "summaryKo": "Reddit 프로그래밍 커뮤니티에 .NET 11 발표 소식이 공유되었습니다. 본문에는 발표 내용에 대한 구체적인 정보 없이 링크 공유만 포함되어 있습니다. 세부 기능이나 변경 사항은 원문 링크를 통해 확인해야 합니다.",
+      "tags": [
+        "dotnet",
+        ".net 11"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36948&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Show GN: [프로젝트] 중학생이 하루 만에 빌드한 AI 연동형 픽셀아트 스튜디오 (Electron, Mac, Windows)",
+      "url": "https://news.hada.io/topic?id=36948&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36948&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-11T01:08:28+09:00",
+      "snippet": "안녕하세요. 평소에 코딩과 소프트웨어 개발에 관심이 많은 중학교 2학년입니다. 최근 LLM과 AI 기술이 가파르게 성장하는 모습을 보며, '이제는 사람이 쓰는 프로그램뿐만 아니라 AI가 직접 활용하는 프로그램을 만드는 시대가 오지 않을까?'라는 생각이 들었습니다. 그 첫 발걸음으로 \"AI가 자율적으로 픽셀 아트를 생성하고, 이를 프로젝트에 직접 주입할 수 있게 만들면 어떨까?\"라는 아이디어를 떠올렸습니다. 이 아이디어를 바탕으로 바이브 코딩을 활용해, 빠르게 AI의 자율적인 에셋 생성과 활용을 지원하는 일렉트론 기반 픽셀 아트 편집기를 개발하여 깃허브에 오픈소스로 공개했습니다. …",
+      "oneLineKo": "중학생이 하루 만에 만든 AI 연동 픽셀아트 에디터",
+      "summaryKo": "중학교 2학년 개발자가 AI가 자율적으로 픽셀 아트를 생성하고 프로젝트에 주입할 수 있는 Electron 기반 편집기를 개발했습니다. 바이브 코딩 방식으로 하루 만에 구현했으며, Mac과 Windows를 지원합니다. 해당 프로젝트는 깃허브에 오픈소스로 공개되었습니다.",
+      "tags": [
+        "electron",
+        "ai",
+        "pixel-art"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50438318",
+      "title": "AI usage generates a fragile codebase",
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50438318",
+      "publishedAt": "2026-11-10T10:25:58Z",
+      "score": 370,
+      "comments": 401,
+      "snippet": "AI usage generates a fragile codebase Evan X. Merz Programmer / Master Gardener / Doctor of Music / Curious Person AI usage generates a fragile codebase 2026-11-07, Evan X. Merz programming , artificial intelligence , ai , llm , web programming I can only speculate as to the reasons why I was laid off from Meta in May, but I suspect that one of the reasons is that I was a little bit more resistant to adopting AI/LLMs as coding tools than some of my peers. Don't get me wrong, I generated at least 90% of my code using AI in my last few months there, which was the minimum for a decent rating. But AI didn't 10X the amount of code I was writing. It didn't even 2X it. I was focused on code quality. I saw the code being pushed by some of my peers who were heavily reliant on AI, and I saw that it was brittle code. There were many subtle issues that would lead to tech debt in the long term, and even some glaring issues were ignored by very good programmers. For instance, I saw one of the best programmers on my team try to merge code that used javascript events for mouseover CSS effects rather than using the :hover selector, which is a totally unscalable way of writing mouseovers. Now I'm employed at another large tech company and I've fully made the switch to generating 100% of my code using AI because that's the expectation today. Still, I can see lots of people becoming aware that this isn't a sustainable way to continue development of a large scale SaaS product. AI tends to solve the problems that can fit within its context window very well, but it's totally oblivious to the long term issues that can't be understood in that relatively small frame. In this post I'm going to list four ways that AI usage results in a fragile codebase that isn't resilient to the demands of highly available and highly scalable SaaS applications. By the way, every word of this article was written by a human. Even though the following image was generated by AI, this article isn't AI slop. Four ways AI makes codebases fragile Here are the four most common ways that I have seen AI generating a fragile codebase. 1. AI writes shallow tests One of the most obvious failures of modern LLMs is that they tend to write simplistic automated test cases that don't cover the things that matter to humans. Frequently I see AI agents writing lots of tests of get/set methods which are trivial and don't typically require much testing. When AI writes e2e tests, they tend to only cover the cases which are already covered in the codebase. In other words, the AI writes tests only covering one type of user, or only covering surface level interactions. This creates massive gaps in the test coverage that are invisible to developers because they aren't captured by the line level coverage metric. 2. AI writes overly complex ccode AI also tends to write overly complex code. It frequently uses two or three helper methods when a single one would suffice. It tries to follow coding guidelines, such as DRY, t",
+      "oneLineKo": "AI 코딩이 만드는 취약한 코드베이스의 4가지 이유",
+      "summaryKo": "Meta에서 해고된 저자가 AI 코드 생성 비중 확대 경험을 바탕으로, LLM 기반 코딩이 장기적으로 취약한 코드베이스를 만드는 이유를 분석한다. AI는 컨텍스트 윈도우 내 문제는 잘 해결하지만 장기적 구조 문제는 파악하지 못하며, 얕은 테스트 작성과 불필요하게 복잡한 코드 생성이 대표적 사례로 제시된다. 저자는 AI가 생성한 코드 품질 저하가 대규모 SaaS 서비스의 지속가능한 개발을 저해한다고 주장한다.",
+      "tags": [
+        "llm",
+        "code-quality",
+        "software-engineering"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xsvulu",
+      "title": "A Chromium Bug Caused by a 25-Hour Day",
+      "url": "https://www.reddit.com/r/programming/comments/1xsvulu/a_chromium_bug_caused_by_a_25hour_day/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xsvulu/a_chromium_bug_caused_by_a_25hour_day/",
+      "publishedAt": "2026-11-10T19:15:19+00:00",
+      "snippet": "submitted by /u/SamrayLeung [link] [comments]",
+      "oneLineKo": "25시간짜리 하루가 유발한 크로미움 버그",
+      "summaryKo": "하루가 25시간이 되는 특수한 상황(예: 서머타임 등)에서 발생한 시간 처리 로직 문제로 크로미움에 버그가 발생한 사례를 다룬 글입니다. 본문에는 제목 외 상세 내용이 포함되어 있지 않아 구체적인 원인 분석이나 수정 방법은 확인할 수 없습니다. Reddit의 r/programming 커뮤니티에 공유된 게시물입니다.",
+      "tags": [
+        "chromium",
+        "bug",
+        "datetime"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36958&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Claude Whiteboards, Claude Sheets, Claude Data - 팀 협업 보드, 스프레드시트, 데이터 분석 도구",
+      "url": "https://news.hada.io/topic?id=36958&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36958&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-11T05:38:41+09:00",
+      "snippet": "Anthropic이 Claude Whiteboards와 Sheets를 베타 출시 하고, 기존 Claude Dashboards를 Claude Data로 정식 출시 함. 모두 유료 플랜에서 이용할 수 있음 Whiteboards 는 Claude와 팀원이 실시간으로 아이디어를 정리하는 공유 보드로, 계획을 담당자와 날짜가 있는 타임라인으로 만들거나 회의 메모에서 실행 항목을 도출할 수 있음 Sheets 는 프롬프트로 스프레드시트를 만들고 함께 편집하는 도구임. 현재는 기본적인 기능을 지원하며, 더 고급 기능이 필요하면 Excel 등으로 작업을 이어갈 수 있음 Claude Data 는 대시보드를 넘어 데이터 …",
+      "oneLineKo": "Anthropic, Claude 협업 도구 3종 베타·정식 출시",
+      "summaryKo": "Anthropic이 Claude Whiteboards와 Claude Sheets를 베타로 출시하고, 기존 Claude Dashboards를 Claude Data로 정식 출시했다. Whiteboards는 Claude와 팀원이 실시간으로 아이디어를 정리하는 공유 보드이며, 타임라인 생성이나 회의 메모에서 실행 항목 도출 등에 활용 가능하다. Sheets는 프롬프트로 스프레드시트를 생성·공동 편집하는 도구로 기본 기능만 제공하며, 고급 작업은 Excel 등으로 이어갈 수 있다. 세 도구 모두 유료 플랜에서만 이용 가능하다.",
+      "tags": [
+        "claude",
+        "anthropic",
+        "collaboration-tools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50441707",
+      "title": "Smart home devices should work without the internet",
+      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50441707",
+      "publishedAt": "2026-11-10T15:25:20Z",
+      "score": 695,
+      "comments": 251,
+      "snippet": "Smart home devices should work without the internet — Do Code That Matters Do Code That Matters Blog About Do Code That Matters Blog About Smart home devices should work without the internet Oct 2026 · 4112 words · 21 min read · Spencer Kittleson Your browser does not support the audio element. Download audio Scissors cutting an ethernet cable under the words No Internet, No Problem. AI;DR: I wrote the first draft, AI helped me edit and rewrite it, and I made the final pass. The rules, setups, and talks are my own. TLDR; Nothing core in my house depends on a vendor’s server. If the internet goes down, the house keeps running. That’s been rule one for about ten years, and my other rules came out of it. This post has the rules, then both talks I’ve given on home automation, slide by slide. Why local My Nest integration worked until Google broke the API. That’s the failure I plan around now. The talks have a few more: a Samsung fridge showing a TLS certificate error on its own screen, and a Camp Chef grill controller that needs Wi-Fi to show you the temperature. Everything that matters runs on hardware I own. That’s Tasmota on ESP boards, an MQTT broker, and Node-RED on a Raspberry Pi. I do use some cloud services, mostly Alexa and a few AWS ones. Alexa is just another way to flip a switch. If it’s down, the wall switches and the wall dashboard still work. The rules From the first talk, restated in the second: No internet, no problem. Core stuff has to work with the internet unplugged. Alexa can be a way in, but never the only way. Don’t remove the old way while adding the new one. If someone tapes a wall switch on so a smart bulb keeps power, I skipped this rule. Be agile. Rooms get used differently and people move in and out, so it all has to be cheap to change. Check your automations. I once had four scheduled triggers hitting the same garden pump. Exceptions must be exceptional. I can break a rule, but only for a reason I’d still agree with six months later. Added after year five, once more people lived in the house: A cloud device needs an API with logs or it doesn’t get installed. I don’t want a black box in the house. Config lives in one place instead of five vendor apps. More than one way in: an app, Alexa, a QR code, or an NFC tag. If I keep doing the same steps, they become a routine. Devices talk pub/sub over MQTT instead of point to point. No batteries unless they last a year or more between changes. Nobody wants to swap a door sensor battery at 2am. The build I get asked about most is the Tasmota sprinkler controller . It’s in both talks, and so is the garage door setup, which has been running about as long. Talk One: Home Automation Nobody needs any of this. I like building things that just work in the background, and each automation is a small puzzle. Everything talks to a cloud now: phones, laptops, thermostats, locks. Those clouds may or may not be up when you need them, so know what you’re signing up for before you plug something i",
+      "oneLineKo": "스마트홈은 인터넷 없이도 동작해야 한다",
+      "summaryKo": "저자는 10년간 지켜온 홈오토메이션 원칙으로 '인터넷이 끊겨도 집의 핵심 기능은 동작해야 한다'를 제시한다. Nest API 중단, 삼성 냉장고 TLS 오류, Wi-Fi 없이는 온도조차 못 보는 그릴 컨트롤러 등 벤더 클라우드 의존의 실패 사례를 근거로 든다. 대신 Tasmota 펌웨어를 올린 ESP 보드, MQTT 브로커, Raspberry Pi의 Node-RED로 로컬 중심 시스템을 구축했으며, Alexa 등 클라우드는 보조적인 진입 경로로만 사용한다. 이외에도 설정 중앙화, pub/sub 통신, 배터리 수명, 로그 있는 API 요구 등 실용적 규칙들을 공유한다.",
+      "tags": [
+        "home-automation",
+        "mqtt",
+        "iot"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36967&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Vercel agent-desktop - AI 에이전트가 데스크톱 앱을 조작하는 CLI",
+      "url": "https://news.hada.io/topic?id=36967&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36967&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-11T09:30:02+09:00",
+      "snippet": "AI 에이전트가 맥/윈도우/리눅스에서 앱을 열고, 메뉴를 누르고, 입력란을 채울 수 있음 . 창 이동과 크기 조절, 클립보드 읽기와 쓰기도 지원 운영체제의 접근성 API로 버튼, 메뉴, 입력란을 JSON으로 가져와 , 화면 좌표 대신 각 요소의 ID로 클릭하거나 텍스트를 입력할 수 있음 요소 ID로 조작할 때는 기본적으로 마우스 포인터를 움직이거나 앱 포커스를 가져오지 않음 . 필요하면 스크린샷을 찍거나 키보드와 마우스로 직접 입력할 수도 있음 CLI, MCP 서버, C 라이브러리 로 연결할 수 있으며, 무엇을 조작하고 결과를 어떻게 확인할지 …",
+      "oneLineKo": "Vercel, AI 에이전트용 데스크톱 앱 제어 CLI 공개",
+      "summaryKo": "Vercel의 agent-desktop은 AI 에이전트가 맥/윈도우/리눅스 데스크톱 앱을 조작할 수 있게 해주는 CLI 도구입니다. OS의 접근성 API를 활용해 버튼, 메뉴, 입력란 등 UI 요소를 JSON으로 가져오고, 화면 좌표 대신 요소 ID로 클릭이나 텍스트 입력이 가능합니다. 창 이동, 크기 조절, 클립보드 읽기/쓰기도 지원하며, 필요 시 스크린샷이나 직접 키보드·마우스 입력도 가능합니다. CLI, MCP 서버, C 라이브러리 형태로 연동할 수 있습니다.",
+      "tags": [
+        "ai-agent",
+        "desktop-automation",
+        "accessibility-api"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50442736",
+      "title": ".name Grandfathered",
+      "url": "https://neil.fraser.name/news/2026/11/10/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50442736",
+      "publishedAt": "2026-11-10T16:37:44Z",
+      "score": 675,
+      "comments": 156,
+      "snippet": "Previously: <i>.name Termination</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49550772\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49550772</a> - Sept 2026 (547 comments)",
+      "oneLineKo": ".name 도메인, 기존 사용자 구제(그랜드파더링) 조치",
+      "summaryKo": ".name 최상위 도메인의 종료 소식에 이어, 기존 사용자를 위한 그랜드파더링(기득권 인정) 조치가 발표된 것으로 보입니다. 이전 글 '.name Termination'에서 다룬 종료 이슈에 대한 후속 소식입니다. 구체적인 그랜드파더링 조건이나 적용 범위는 본문 정보만으로는 확인되지 않습니다.",
+      "tags": [
+        "domain",
+        "dns",
+        "tld"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36955&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "AI 사용은 취약한 코드베이스를 만든다",
+      "url": "https://news.hada.io/topic?id=36955&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36955&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-11T04:33:28+09:00",
+      "snippet": "AI는 당장 주어진 코딩 문제를 잘 풀어도 , 그 변경이 코드베이스 전체의 유지보수에 어떤 영향을 줄지 놓치기 쉬움 AI가 만든 테스트는 이미 다루는 동작을 반복해서 확인 하고 실제 사용에서 중요한 경우를 놓칠 수 있음. 중복을 줄이려다 추상화를 늘려 코드를 이해하고 디버깅하기 어렵게 만들기도 함 AI 의존도가 높아질수록 개발자의 코드베이스 이해도 가 낮아지고, 빠르게 쏟아지는 PR은 검토 시간을 줄여 테스트 공백과 작은 품질 문제가 기술 부채로 쌓이게 함 취약해진 코드베이스에서는 장애 증가와 복구 지연 , 실제 사용자에게 …",
+      "oneLineKo": "AI 코딩이 코드베이스 취약성과 기술 부채 키워",
+      "summaryKo": "AI는 당장의 코딩 문제는 잘 풀지만, 변경이 코드베이스 전체 유지보수에 미치는 영향을 놓치기 쉽다는 지적이다. AI가 만든 테스트는 기존 동작만 반복 검증해 실제 중요한 케이스를 놓치고, 과도한 추상화로 코드 이해와 디버깅을 어렵게 만들기도 한다. AI 의존도가 높아질수록 개발자의 코드베이스 이해도가 낮아지고 PR 검토 시간이 줄어들어 테스트 공백과 품질 문제가 기술 부채로 쌓인다. 결과적으로 취약해진 코드베이스는 장애 증가와 복구 지연으로 이어질 수 있다.",
+      "tags": [
+        "ai-coding",
+        "technical-debt",
+        "software-quality"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50439193",
+      "title": "AlphaProof Code",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50439193",
+      "publishedAt": "2026-11-10T12:11:12Z",
+      "score": 577,
+      "comments": 177,
+      "snippet": "Formal Verification of Signal’s Protocol with Gemini — Google DeepMind Skip to main content Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA An agent that plays, reasons, and learns with you Genie Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science on Antigravity Our mission is to build AI responsibly to benefit humanity About Google DeepMind Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers We’re looking for people who want to make a real, positive impact on the world Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Models Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Research Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA An agent that plays, reasons, and learns with you Genie Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Science Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn m",
+      "oneLineKo": "Gemini 활용 Signal 프로토콜 정형 검증",
+      "summaryKo": "Google DeepMind가 AlphaProof와 Gemini 모델을 활용해 Signal 프로토콜에 대한 정형 검증(formal verification)을 수행한 사례를 소개했습니다. 이는 AI 모델이 수학적 증명 및 코드 검증 분야에서 보안 프로토콜의 정확성을 자동으로 검증할 수 있음을 보여주는 사례입니다. 페이지 본문 대부분은 DeepMind의 다른 제품 소개로 구성되어 있어 세부 기술 내용은 제한적으로 확인됩니다.",
+      "tags": [
+        "formal-verification",
+        "gemini",
+        "alphaproof"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=36954&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Ableton Live 13 - 스텝 시퀀서와 ARA 2 지원을 추가한 차기 주요 버전",
+      "url": "https://news.hada.io/topic?id=36954&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=36954&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-11T03:44:52+09:00",
+      "snippet": "Live 13 은 2027년 초 출시 예정으로, 오디오/MIDI 작업 흐름과 사운드 디자인, 믹싱 도구를 확장하며 Live 12에서 가능했던 작업을 그대로 지원함 내장 Step Sequencer 로 비트, 멜로디, 폴리리듬을 만들고, Capture Automation 으로 탐색 중 조작한 컨트롤 움직임을 자동화로 전환할 수 있음 ARA 2 호환 플러그인으로 고급 오디오 편집을 지원하며, Melodyne을 포함한 대부분의 ARA 2 플러그인이 작동하지만 일부에는 알려진 호환성 문제가 있음 20개 이상의 드럼 엔진을 갖춘 Drum Synth 와 최대 32개 매크로를 지원하는 Rack 등으로 음색 …",
+      "oneLineKo": "에이블톤 라이브13, 스텝시퀀서·ARA2 지원 추가",
+      "summaryKo": "Ableton Live 13은 2027년 초 출시 예정으로 오디오/MIDI 작업 흐름과 사운드 디자인, 믹싱 도구를 확장한다. 내장 Step Sequencer로 비트와 멜로디, 폴리리듬을 만들 수 있고 Capture Automation으로 조작한 컨트롤 움직임을 자동화로 전환할 수 있다. ARA 2 호환 플러그인을 지원해 Melodyne 등 고급 오디오 편집 도구를 사용할 수 있으며, 20개 이상의 드럼 엔진을 갖춘 Drum Synth와 최대 32개 매크로를 지원하는 Rack도 추가된다.",
+      "tags": [
+        "ableton-live",
+        "music-production",
+        "audio-software"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50442426",
+      "title": "Blender 5.3 released with Gaussian Splat support",
+      "url": "https://www.blender.org/download/releases/5-3/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50442426",
+      "publishedAt": "2026-11-10T16:15:43Z",
+      "score": 431,
+      "comments": 65,
+      "snippet": "5.3 &mdash; Blender Toggle navigation Roadmap Download Support Get Involved About Jobs Store Donate Download LTS Release Notes Previous Versions Requirements Daily Builds Demo Files Benchmark Extensions Release Notes 5.3 5.2 LTS 5.1 5.0 4.5 LTS 4.4 4.3 4.2 LTS 4.1 4.0 3.6 LTS 3.5 3.4 3.3 LTS 3.2 3.1 3.0 Roadmap Download Support Get Involved About Jobs Store Donate Download LTS Release Notes Previous Versions Requirements Daily Builds Demo Files Benchmark Extensions Release Notes 5.3 5.2 LTS 5.1 5.0 4.5 LTS 4.4 4.3 4.2 LTS 4.1 4.0 3.6 LTS 3.5 3.4 3.3 LTS 3.2 3.1 3.0 Good Things Come in 5.3s Gaussian splats, DLSS denoising, light dispersion, EEVEE fisheye, Outliner sorting, ripple video editing, and so much more. Download Blender 5.3 Watch Recap Video Watch the Recap Video New features overview by Jonathan Lampel and Wayne Dixon from CGCookie . Make a Splat Welcome native 3D Gaussian Splats support to Blender 5.3! Import them as point clouds, experiment with Geometry Nodes, preview them in Workbench, and render them natively with EEVEE or Cycles. Gaussian Magic 3D Gaussian Splats are commonly used to reconstruct 3D scenes from photos or videos. They consist of many small, soft, transparent blobs that combine to represent complex geometry and shading. Blender can now import Gaussian Splats from PLY , SPZ , and glTF files, store them as point clouds, process them with Geometry Nodes, and render them in EEVEE, Cycles, and Workbench (solid mode). PLY file imported as gaussian splats, featuring DOGWALK by Blender Studio. Point of View Gaussian splats are represented as point clouds, using a new type to tell them apart and with special attributes: scale : A vector represneting the size of the splat. rotation : A quaternion to control the rotation of the splat. radiance:base : 4D Vector as base (DC) radiance of the splats, followed by opacity. radiance:sh_{index} : Coefficients of the spherical harmonics bands >= 1. The order is <L=1 M=-1> , <L=1 M=0> , <L=1 M=1> , <L=2 M=-2> … where L is the band index and M is the basis function. Read Manual Radiant Future By default, a 3D Gaussian Splat is rendered using an emissive shader. The radiance attribute provides access to the resolved radiance of the splat at the current shading point. There is rudimentary support for making the splat relightable by replacing the Emission node with a hard surface BSDF such as Diffuse BSDF. Performance is still being optimized. Rendering may produce inaccuracies due to differences between the sRGB space used by most Gaussian Splat authoring tools and Blender’s linear color space, particularly in areas with low opacity and high radiance. Simple example of relit Gaussian Splat. More About Shading Added support for seven Geometry Nodes Improved color management interoperability See all rendering changes CYCLES Divide and Shine The Principled BSDF now supports Dispersion ! Turn ordinary glass and diamonds into beautiful little rainbows by splitting white light into its colorful co",
+      "oneLineKo": "Blender 5.3, 가우시안 스플랫 네이티브 지원 추가",
+      "summaryKo": "Blender 5.3이 출시되며 3D Gaussian Splats 네이티브 지원이 추가되었습니다. PLY, SPZ, glTF 파일에서 스플랫을 포인트 클라우드로 임포트해 Geometry Nodes로 처리하고 EEVEE, Cycles, Workbench에서 렌더링할 수 있습니다. 이 외에도 DLSS 디노이징, 빛 분산 효과, EEVEE 피시아이 렌더링, Outliner 정렬, 리플 비디오 편집 등 다양한 기능이 추가되었습니다.",
+      "tags": [
+        "blender",
+        "gaussian-splatting",
+        "3d-rendering"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50445401",
+      "title": "Scion is back and is going to sell a kei truck in America",
+      "url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50445401",
+      "publishedAt": "2026-11-10T19:50:46Z",
+      "score": 317,
+      "comments": 236,
+      "snippet": "Scion Is Back! And It's Going To Sell A Freaking Kei Truck In America - The Autopian Skip to content Youtube Facebook-f Twitter Instagram Rss Sign in Register Sign out Account Sign in Register Sign out Account Night Panel Disable Night Panel News Reviews Merch Toys Tips Glovebox Become a Member Menu News Reviews Merch Toys Tips Glovebox Become a Member Home &raquo; Scion Is Back! And It&rsquo;s Going To Sell A Freaking Kei Truck In America Scion Is Back! And It&rsquo;s Going To Sell A Freaking Kei Truck In America By Leslie Hanna November 10, 2026 11:07 am 90 Comments When Toyota first introduced the Scion marque in 2003, it had one primary goal &ndash; sell cars to the younger generation. Its cars were cheaper and available in fun colors with fun names like &ldquo;High Voltage Yellow&rdquo; and &ldquo;xPRESSO.&rdquo; When I was a kid in the early 2000s, I often dreamed of one day owning a tC in Black Cherry Pearl and enjoyed lovingly calling xBs &ldquo;toaster cars.&rdquo; Over half of new Scions sold were to people under 35, and the tC boasted the youngest average buyer age in the entire industry at a sprightly 29. Their sales numbers peaked in 2006, but dropped nearly 75% by 2010. After sustained financial struggle, Toyota retired the marque in 2016. But now, a decade later, everyone&rsquo;s favorite toaster brand is seemingly back. Today, Toyota announced the official revival of Scion, but instead of being a quirky and budget-conscious line, they are becoming Toyota&rsquo;s cornerstone of curiosity. Now called &ldquo;Scion by Toyota,&rdquo; it is being launched as a &ldquo;freedom lab&rdquo; where drivers can, and are encouraged to challenge conventional ways of thinking about mobility through design, vehicle concepts, and features. &ldquo;Okei,&rdquo; let&rsquo;s go. Toyota Their first production vehicle is the KEI-01, an ultra-compact utility truck, otherwise known as a kei truck. Toyota will be using its existing manufacturing infrastructure in Indiana to &ldquo;produce&rdquo; them for sale in the American market. &ldquo;Produce&rdquo; is in quotation marks because the KEI-01 is quite literally a rebadged Toyota Pixis, which is a rebadged Daihatsu Hijet Jumbo Cab. Based on its initial imagery it is seemingly also still right-hand drive, and there&rsquo;s no word on if a LHD variant will be available in the future. With its friendly little 660cc engine and CVT transmission, the KEI-01 was certified to meet American low-speed vehicle safety standards, meaning it has a limited top speed of less than 25mph and is only legal on roads with a posted speed limit of less than 35mph. This makes it not really usable as a daily driver, but keeps it in this beautiful sweet spot where it has a shocking number of commercial and agricultural uses. Toyota The KEI-01 has a 600-pound payload (which means cargo and passengers) and a three-way fold-down cargo bed, making it a well-equipped workhorse for use on farms and in warehouses. It&rsquo;s only about 5 f",
+      "oneLineKo": "토요타, 사이언 브랜드 부활 후 미국서 케이트럭 출시",
+      "summaryKo": "토요타가 2016년 단종된 사이언 브랜드를 'Scion by Toyota'로 부활시키며 첫 생산 차량으로 초소형 트럭 KEI-01을 선보였다. 이 차는 다이하츠 하이젯 점보캡을 기반으로 한 토요타 픽시스의 리뱃지 모델로, 인디애나 공장에서 생산된다. 660cc 엔진과 CVT를 탑재했으며 저속차량 안전기준에 맞춰 최고속도 25mph 미만으로 제한되어 농업 및 상업용으로 활용될 전망이다.",
+      "tags": [
+        "automotive",
+        "toyota",
+        "kei-truck"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50443427",
+      "title": "Val Town is winding down",
+      "url": "https://blog.val.town/winding-down",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50443427",
+      "publishedAt": "2026-11-10T17:31:14Z",
+      "score": 303,
+      "comments": 80,
+      "snippet": "Val Town is winding down | Val Town Blog val.town blog.val.town Elsewhere Elsewhere RSS Email Twitter Bluesky Discord YouTube GitHub LinkedIn OSS Pledge Code and prose written on val.town Val Town is winding down Steve Krouse Nov 10, 2026 Dear Val Town community, We’ve made the difficult decision to wind down Val Town. You took a big leap of faith to build on us. We thank you for your trust, and we’re sorry we can’t continue to serve you. The bad news about our business – that we couldn’t compete in the cloud computing space – is good news for you migrating off: there are many wonderful hosting providers you can migrate to, and today’s LLMs are great at these types of migrations. We have guides for migrating to Cloudflare, Vercel, Netlify, and Render. Please reach out if you need help at support@val.town or on Discord. We are pausing billing today, and will continue servicing existing subscriptions for free. If you pre-paid for our annual plan, we will issue you a partial refund. Here’s the timeline on our wind-down: Service End of life date New signups and plan upgrades Nov 10, 2026 (today) Read-only mode (not including sqlite and blob storage) Dec 10, 2026 All other services Jan 10, 2027 Open-sourcing Val Town Feb 1, 2027 Thank you, the members of the Val Town team, for giving it your all over the past four years. Thank you Tom, Jackson, Charlie, Pete, Potluck, Charmaine, Max, Andre, Sophie, Wolf, Justin, Rodrigo and JP. It was an honor. Thank you, Dan Levine, for being the best investor I could’ve asked for. Thank you, my other investors, for your trust, support, and capital. Thank you, our customers and users, for building on us with passion and creativity. Steve Krouse Edit on val.town Share on Twitter Share on Bluesky Share on Hacker News © 2022- 2026 Val Town",
+      "oneLineKo": "Val Town, 클라우드 경쟁 실패로 서비스 종료 발표",
+      "summaryKo": "코드 호스팅 플랫폼 Val Town이 클라우드 컴퓨팅 시장에서 경쟁력을 확보하지 못해 서비스를 단계적으로 종료한다고 발표했다. 신규 가입은 즉시 중단되며, 2026년 12월 읽기 전용 전환을 거쳐 2027년 1월 전체 서비스가 종료될 예정이다. Cloudflare, Vercel, Netlify, Render 등으로의 마이그레이션 가이드를 제공하며, 2027년 2월 코드를 오픈소스로 공개할 계획이다.",
+      "tags": [
+        "val-town",
+        "cloud-hosting",
+        "startup-shutdown"
+      ]
+    }
+  ]
+}
