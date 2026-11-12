@@ -1,0 +1,277 @@
+{
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T02:37:09.504Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37012&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Show GN: TokenPlant - Claude Code·Codex에 쓴 토큰으로 픽셀 식물을 키우는 macOS 메뉴바 앱",
+      "url": "https://news.hada.io/topic?id=37012&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37012&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-12T08:30:11+09:00",
+      "snippet": "Claude Code와 Codex에서 나온 토큰 사용량으로 픽셀 식물을 키우는 메뉴바 앱입니다. 로컬 세션 로그(~/.claude/projects, ~/.codex/sessions)를 30초마다 읽습니다. 서버도 계정도 없고 밖으로 나가는 데이터도 없습니다. 따로 누를 건 없고, 일하다 메뉴바 보면 자라 있습니다. 다 자라면 정원으로 옮겨심고 새 씨앗이 심깁니다. 차별점이라면 가격을 토큰 개수가 아니라 날짜로 쟀다는 점입니다. \"한 그루 = 30억 토큰\" 식으로 박아두면 하루 1억 쓰는 사람은 한 달이지만 500만 쓰는 사람은 1년 반이 걸립니다. 그래서 목표를 2 …",
+      "oneLineKo": "토큰 사용량으로 픽셀 식물 키우는 macOS 앱",
+      "summaryKo": "Claude Code와 Codex의 토큰 사용량을 기반으로 픽셀 식물을 키우는 macOS 메뉴바 앱이다. 로컬 세션 로그를 30초마다 읽어 동작하며 서버나 계정 없이 외부로 데이터가 나가지 않는다. 성장 속도는 토큰 개수가 아닌 날짜 기준으로 설정되어 사용량에 따라 성장 기간이 달라진다. 다 자라면 정원으로 옮겨지고 새 씨앗이 심기는 방식이다.",
+      "tags": [
+        "macos",
+        "claude-code",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50454625",
+      "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50454625",
+      "publishedAt": "2026-11-11T15:33:06Z",
+      "score": 174,
+      "comments": 79,
+      "snippet": "Hey HN, I’m Eric and I want to share an OSS project that I’ve been building in my free time. Yogurt is a free, MIT licensed desktop app that uses on-device AI models to transcribe, summarize, and chat with your meetings.<p>Here&#x27;s a quick demo video: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=BFfbXAwRq98\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=BFfbXAwRq98</a><p>Similar to Granola, Yogurt runs in the background and does not join your calls. But unlike Granola, Yogurt is open-source, free to use, and private. Your meeting transcripts, call recordings, and summaries never leave your computer.<p>As small OSS models have gotten faster and more powerful, Yogurt seemed like a pretty obvious win for privacy and cost conscious folks. You do not need a frontier model to summarize meeting notes or answer questions about them. And if you want to make your notes available to a frontier model, you can just share it with Anthropic, OpenAI, etc. directly via Yogurt’s local MCP server. There’s no need to use a paid cloud service as a middleman.<p>I tried some of the most popular OSS note taking tools, and most were missing features like calendar integration, MCP server, etc. or required you to connect or create an account. And more than that, they didn’t feel polished enough for it to be something I actually wanted to use daily, and so I built Yogurt to scratch that itch. I spent a lot of time fine-tuning every UI interaction&#x2F;animation and optimizing the model calls to get the most out of your hardware + make it snappy.<p>To support Windows&#x2F;Mac&#x2F;Linux, I decided to go with Electron. I use whisper.cpp for transcription and Apple’s on-device SpeechAnalyzer if your system supports it. For call summaries and questions, I use a local open weight LLM that automatically gets downloaded and set up based on what your hardware can handle without your cooling fans firing off like crazy (this part uses llama.cpp).<p>I’ve spent a lot of time working on details like echo detection&#x2F;reduction, global&#x2F;folder&#x2F;local level search respectively, and auto-end recordings. Hope this is useful for any of you who have held out on using AI note tools for privacy or cost reasons, or for folks using cloud tools who want to switch to something free and open source that still feels great to use.<p>Would love to hear what you think about the onboarding and note taking experience :)",
+      "oneLineKo": "Granola 대체하는 오픈소스 온디바이스 AI 회의록 앱",
+      "summaryKo": "Yogurt는 온디바이스 AI 모델로 회의를 전사, 요약, 채팅할 수 있는 MIT 라이선스 오픈소스 데스크톱 앱입니다. Granola와 유사하게 백그라운드에서 동작하지만 통화에 직접 참여하지 않으며, 모든 데이터가 기기 밖으로 나가지 않아 프라이버시를 보장합니다. 전사는 whisper.cpp와 Apple의 SpeechAnalyzer를, 요약과 질의응답은 llama.cpp 기반 로컬 LLM을 사용하며 하드웨어에 맞춰 자동으로 모델을 선택합니다. Electron으로 Windows/Mac/Linux를 지원하고, 로컬 MCP 서버를 통해 필요시 외부 프론티어 모델과도 연동할 수 있습니다.",
+      "tags": [
+        "oss",
+        "llm",
+        "privacy"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xtk21c",
+      "title": "Can someone help me with java Junit",
+      "url": "https://www.reddit.com/r/programming/comments/1xtk21c/can_someone_help_me_with_java_junit/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xtk21c/can_someone_help_me_with_java_junit/",
+      "publishedAt": "2026-11-11T15:05:23+00:00",
+      "snippet": "I have been working on this for two hours; it's a new topic my lecturer introduced but didn't bother to explain how it works, and they gave me a whole-ass code to correct. This is first test which i wrote and corrected below, and everything seems to be fine i get all the green checkmarks. Still, it does not show up on the terminal; I can't see the result; the only thing I can see is, \"The test run did not record any output.\" I tried with Claude, Gemini, and ChatGPT, but nothing helps; they are just morons, os sif anyone can help, please do. Also dont mind link i had to so i was able to post import static org.junit.Assert.assertEquals; import org.junit.Test; public class PurseTest { public static final double EPSILON = 0.01; public static final double ONE_EURO_VALUE = 1.0; public static final double FIFTY_CENT_VALUE = .50; public static final double TEN_CENT_VALUE = .10; public static final double ONE_CENT_VALUE = .01; private int numOneEuro; private int numFiftyCent; private int numTen",
+      "oneLineKo": "Java JUnit 테스트 출력 안 보여 도움 요청",
+      "summaryKo": "한 학생이 강의 과제로 JUnit 테스트 코드를 작성했으나 테스트는 통과(초록 체크)하는데 터미널에 결과가 출력되지 않는 문제를 겪고 있다. ChatGPT, Claude, Gemini 등 AI 도구에 질문해도 해결되지 않아 Reddit에 도움을 요청했다. 본문에는 PurseTest 클래스의 JUnit 테스트 코드 일부가 포함되어 있다.",
+      "tags": [
+        "java",
+        "junit",
+        "testing"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37005&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Fireworks AI 보안 침해, Notion과 고객에게 영향",
+      "url": "https://news.hada.io/topic?id=37005&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37005&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-12T05:40:44+09:00",
+      "snippet": "Notion의 공급업체 Fireworks AI에서 보안 사고 가 발생해 전체 Notion 워크스페이스의 1% 미만 이 영향을 받음 Notion은 확인된 피해 고객에게 연락했으며 조사는 진행 중 임. 사용자와 워크스페이스 소유자 모두 연락을 받지 않았다면 현재까지 영향 대상으로 확인되지 않았으며, 당장 필요한 조치는 없음 영향을 받은 고객은 워크스페이스에서 해당 데이터를 확인 할 수 있으며, 해당 기간 Notion AI에 입력한 비밀번호나 API 키 등 인증 정보는 즉시 교체 하도록 권고함 Fireworks는 계약상 데이터 무보관(ZDR) 을 약속했지만, 조사 결과 …",
+      "oneLineKo": "Fireworks AI 보안사고, Notion 일부 고객 영향",
+      "summaryKo": "Notion의 AI 공급업체 Fireworks AI에서 보안 사고가 발생해 전체 Notion 워크스페이스의 1% 미만이 영향을 받았다. Notion은 피해가 확인된 고객에게 개별 연락했으며, 연락받지 않은 사용자는 현재까지 영향 대상이 아니다. 영향을 받은 고객은 해당 기간 Notion AI에 입력한 비밀번호나 API 키 등 인증 정보를 즉시 교체할 것을 권고받았다. Fireworks는 계약상 데이터 무보관(ZDR)을 약속했으나 조사 결과 이 부분에서 문제가 드러난 것으로 보인다.",
+      "tags": [
+        "notion",
+        "security-breach",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50452455",
+      "title": "My AI agents found an unmapped Maya site?",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50452455",
+      "publishedAt": "2026-11-11T12:05:22Z",
+      "score": 932,
+      "comments": 339,
+      "snippet": "My AI Agents (Re)discovered a Maya Site in 72 Hours ~ latest My AI Agents (Re)discovered a Maya Site in 72 Hours 5 min read (Last edit: 11 Nov) Update (11 November): it turns out the site had already been mapped in Estrada-Belli et al. 2025 . The agents missed it while going through the literature, so they rediscovered it rather than discovered it (it just wasn't in the register of Mexico's National Institute of Anthropology and History, INAH, yet). Still work to do then! The rest of the story still holds. By analyzing NASA lidar data, my AI agents found a Maya site in Mexico that wasn't in the official register. (It turned out archaeologists had mapped it already, more on that at the end.) It took less than 72 hours to go from a random thought while traveling to an official reply from the Mexican government. This is by far the best time ever to be alive. Lidar: bare ground, 2013 Satellite image today Drag the slider. The same hilltop today from a satellite (just trees) and in lidar (no trees). Colours show height. Satellite © Esri, Maxar, Earthstar Geographics. Disclaimer: I'm not an archaeologist. I'm going to tell this story as a diary, because the timeline is probably the best part. 18 October I was traveling in Peru, Gemini-ing about the history of the place, when I learned about Hiram Bingham , the American explorer who \"discovered\" Machu Picchu in 1911. \"What luck!\" I thought. He was actually looking for a different city, Vilcabamba , the last refuge of the Incas, when a local farmer in the valley below guided him to the ruins. \"Imagine if Bingham had our tools,\" I thought. \"What would he do?\" Left: Bingham at his tent, 1912. Right: Machu Picchu, photographed by Bingham the same year. Public domain, Wikimedia Commons ( left , right ). I brainstormed a bit with a few agents (Gemini, ChatGPT, Claude and Grok), and they all said lidar . From above, a ruin in the jungle is just a bunch of trees (like Machu Picchu before it was cleared), so satellite photos don't help much. Lidar, instead, fires laser pulses through the gaps in the canopy and maps the ground underneath. [1] So the agents went looking for lidar data. Peru isn't well covered, and hiring a company to do a survey meant permits, costs and bureaucracy, so I gave up on that. Then I thought: why not the Maya ? Their region is much better covered by public lidar. That night, I asked the agents to analyze it and went to bed. 19 October I woke up and checked the agents' reports. 'DAMN!' They had found lots of villages and other regular shapes that looked like structures or houses. A few of the sites the agents flagged overnight. Keep an eye on the bottom-left one. So how did they do it? They turned the lidar strips (about 1,200 km² of jungle) into images, and 48 agents went through them one by one like very patient archaeologists, looking for pyramids, platforms, and plazas while filtering out natural hills, sinkholes, and roads. There was no special model or classifier involved: the agen",
+      "oneLineKo": "AI 에이전트가 라이다 분석으로 마야 유적 재발견",
+      "summaryKo": "저자는 NASA 라이다 데이터를 Gemini, ChatGPT, Claude, Grok 등 여러 AI 에이전트에게 분석시켜 멕시코 내 미등록 마야 유적을 72시간 만에 찾아냈다. 48개의 에이전트가 약 1,200km²의 정글 라이다 이미지를 일일이 검토하며 피라미드, 플랫폼, 광장 형태를 식별하고 자연 지형과 구분했다. 이후 밝혀진 바로는 해당 유적은 Estrada-Belli 등(2025) 연구에서 이미 매핑되었으나 멕시코 INAH 공식 등록부에는 아직 등재되지 않은 상태였다. 저자는 전문 고고학자가 아니며, 특별한 분류 모델 없이 AI 에이전트들의 반복적 이미지 검토만으로 결과를 도출했다고 밝혔다.",
+      "tags": [
+        "ai-agents",
+        "lidar",
+        "archaeology"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xu0jb5",
+      "title": "Go 1.27.4 security release: cgo flags and a net/http fix",
+      "url": "https://www.reddit.com/r/programming/comments/1xu0jb5/go_1274_security_release_cgo_flags_and_a_nethttp/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xu0jb5/go_1274_security_release_cgo_flags_and_a_nethttp/",
+      "publishedAt": "2026-11-12T02:06:26+00:00",
+      "snippet": "submitted by /u/Efficient_File [link] [comments]",
+      "oneLineKo": "Go 1.27.4, cgo 플래그·net/http 보안 패치 발표",
+      "summaryKo": "Go 언어의 1.27.4 버전이 보안 릴리스로 공개되었습니다. 이번 업데이트는 cgo 플래그 관련 문제와 net/http 패키지의 취약점을 수정한 것으로 알려져 있습니다. 구체적인 취약점 내용이나 영향 범위는 본문에서 확인되지 않습니다.",
+      "tags": [
+        "go",
+        "security",
+        "net/http"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37009&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Atuin Threads: 모든 머신의 에이전트 세션을 한곳에",
+      "url": "https://news.hada.io/topic?id=37009&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37009&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-12T06:44:21+09:00",
+      "snippet": "셸 명령 기록을 검색하고 동기화하는 Atuin이 18.24부터 코딩 에이전트 세션도 검색하고 재개 할 수 있게 함 개발 서버의 Claude Code에서 시작한 작업을 노트북의 Codex에서 이어갈 수 있음 . 이전 대화 기록을 바탕으로 새 세션을 열어 작업 맥락을 이어받음 세션 수집은 사용자가 켜야 시작 함. 기록을 로컬에만 둘 수도 있고, Atuin 호스팅 서버나 자체 서버를 통해 종단 간 암호화로 동기화 할 수도 있음 MCP 를 통해 에이전트가 이전 세션을 직접 검색하고 참조할 수 있어, 과거의 시도와 의사결정 이유, 조사 결과를 후속 작업에 활용할 …",
+      "oneLineKo": "Atuin, 여러 머신의 코딩 에이전트 세션 통합 검색 지원",
+      "summaryKo": "셸 명령 기록 동기화 도구 Atuin이 18.24 버전부터 Claude Code, Codex 등 코딩 에이전트 세션도 검색하고 재개할 수 있도록 지원한다. 한 머신에서 시작한 작업을 다른 머신에서 이전 대화 맥락을 이어받아 계속할 수 있다. 세션 수집은 선택적으로 켤 수 있으며, 로컬 저장 또는 종단 간 암호화를 통한 호스팅/자체 서버 동기화가 가능하다. MCP를 통해 에이전트가 과거 세션의 결정 이유와 조사 결과를 직접 참조할 수 있다.",
+      "tags": [
+        "atuin",
+        "ai-agent",
+        "developer-tools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50458900",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50458900",
+      "publishedAt": "2026-11-11T21:24:35Z",
+      "score": 402,
+      "comments": 386,
+      "snippet": "United Airlines bans AI agents from booking flights on behalf of travelers - CBS News Latest U.S. Iran War Trump Interview Midterms World Politics Entertainment HealthWatch MoneyWatch Crime Space Sports Brand Studio The Free Press Local News Atlanta Baltimore Bay Area Boston Chicago Colorado Detroit Los Angeles Miami Minnesota New York Philadelphia Pittsburgh Sacramento Texas Live CBS News 24/7 Baltimore Bay Area Boston Chicago Colorado Detroit Los Angeles Miami Minnesota New York Philadelphia Pittsburgh Sacramento Texas 48 Hours 60 Minutes Shows 48 Hours 60 Minutes CBS Evening News CBS Mornings CBS Morning News CBS Reports CBS Saturday Morning The Daily Report The Dish Face the Nation Sunday Morning The Takeout Things That Matter The Uplift CBS News Investigates CBS News Confirmed Podcasts Newsletters Download Our App CBS News Team Executive Team Brand Studio Paramount+ Join Our Talent Community RSS Feeds MoneyWatch | Managing Your Money CBS News Price Tracker Watch CBS News MoneyWatch United Airlines bans AI agents from booking flights on behalf of travelers By Megan Cerullo Megan Cerullo Reporter, MoneyWatch Megan Cerullo is a New York-based reporter for CBS MoneyWatch covering small business, workplace, health care, consumer spending and personal finance topics. She regularly appears on CBS News 24/7 to discuss her reporting. Read Full Bio Megan Cerullo November 11, 2026 / 2:37 PM EST / MoneyWatch Add CBS News on Google United Airlines said on Wednesday that it is banning artificial intelligence agents from making flight reservations on behalf of travelers, citing security risks and the possibility that such actions could violate federal rules. Many consumers are turning to AI agents such as Meta's Muse and OpenAI's dots to complete tasks ranging from researching products and tracking down deals to making purchases. To make an airline booking, an AI agent requires access to a customer's personal information, including credentials like payment information. United has a problem with that, saying that \"sharing account credentials with personal, third-party, AI assistants can expose sensitive information, and actions taken by these tools may result in unintended purchases, account changes, or use of MileagePlus miles.\" The carrier also said that using an AI agent to, for example, check in for a flight could violate federal regulations, including rules requiring travelers to verify in person that their luggage does not contain banned substances. \"As a result, United is taking steps to restrict access &mdash; directly within our digital platforms and indirectly via travel agencies and aggregators &mdash; to prohibit use by unauthorized, third-party personal AI agents or assistants,\" said the airline, which is updating its booking and ticketing policies to reflect the new rule. United's new policy suggests the company wants to retain control over the customer booking process, said Henry Harteveldt, an aviation analyst at Atmosphere Research Group. \"",
+      "oneLineKo": "유나이티드항공, AI 에이전트 항공권 예약 전면 금지",
+      "summaryKo": "유나이티드항공이 보안 위험과 연방 규정 위반 가능성을 이유로 AI 에이전트를 통한 항공권 예약을 금지한다고 발표했다. 메타의 Muse, OpenAI의 dots 같은 AI 에이전트에 결제정보 등 계정 정보를 공유할 경우 의도치 않은 구매나 마일리지 사용 등의 문제가 생길 수 있다는 것이다. 또한 체크인 과정에서 수하물 금지물품 확인 등 대면 검증이 필요한 연방 규정을 위반할 소지도 있다고 설명했다. 분석가는 이번 정책이 항공사가 예약 프로세스에 대한 통제권을 유지하려는 의도로 보인다고 평가했다.",
+      "tags": [
+        "ai-agent",
+        "airline",
+        "security"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37027&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Show HN: 투자할 YC 스타트업을 결정하는 게임으로 Papers, Please를 재현함",
+      "url": "https://news.hada.io/topic?id=37027&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37027&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-12T10:40:18+09:00",
+      "snippet": "Term Sheet, Please 는 Papers, Please를 재현해 어느 YC 스타트업에 투자할지 결정하는 게임임 “ CALL THE NEXT FOUNDER ”로 다음 창업자를 호출함 투자 판단 선택지는 PASS / FUND / HOLD 임 결정 서류를 책상 위에 놓으라는 안내와 함께, 서류에 적힌 사실을 클릭하는 INSPECT 기능이 표시됨 게임 화면의 시점은 데모데이 다음 날 , ACT 01임",
+      "oneLineKo": "Papers, Please 패러디, YC 스타트업 투자 결정 게임",
+      "summaryKo": "Show HN에 소개된 'Term Sheet, Please'는 Papers, Please의 게임 방식을 차용해 YC 스타트업에 대한 투자 여부를 결정하는 게임임. 플레이어는 창업자를 호출한 뒤 서류를 검토(INSPECT)하고 PASS, FUND, HOLD 중 하나를 선택해야 함. 게임의 배경은 데모데이 다음 날인 ACT 01로 설정되어 있음.",
+      "tags": [
+        "game",
+        "startup",
+        "parody"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50456631",
+      "title": "AWS emulator",
+      "url": "https://github.com/aws/aws-emulator",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50456631",
+      "publishedAt": "2026-11-11T18:21:38Z",
+      "score": 689,
+      "comments": 219,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.aboutamazon.com&#x2F;news&#x2F;aws&#x2F;how-autonomous-ai-agents-built-aws-emulator\" rel=\"nofollow\">https:&#x2F;&#x2F;www.aboutamazon.com&#x2F;news&#x2F;aws&#x2F;how-autonomous-ai-agent...</a><p><a href=\"https:&#x2F;&#x2F;www.allthingsdistributed.com&#x2F;2026&#x2F;11&#x2F;aws-emulator-and-the-engineers-job-when-agents-write-the-code.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.allthingsdistributed.com&#x2F;2026&#x2F;11&#x2F;aws-emulator-an...</a>",
+      "oneLineKo": "AWS, 자율 AI 에이전트로 AWS 에뮬레이터 개발",
+      "summaryKo": "AWS가 GitHub에 'aws-emulator' 프로젝트를 공개했으며, 이는 자율 AI 에이전트들이 코드를 작성해 만든 것으로 소개되고 있습니다. 관련 공식 블로그 글들은 AI 에이전트가 AWS 서비스를 에뮬레이트하는 도구를 어떻게 구축했는지와, 코드를 에이전트가 작성하는 시대에 엔지니어의 역할 변화에 대해 다루고 있습니다. 본문 내용이 제한적이라 구체적인 기술 구현 세부사항은 확인되지 않습니다.",
+      "tags": [
+        "aws",
+        "ai-agent",
+        "emulator"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37020&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Show GN: OpenPhoneUse – 화면을 보고 직접 탭하는 모바일용 Computer Use",
+      "url": "https://news.hada.io/topic?id=37020&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37020&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-12T09:51:56+09:00",
+      "snippet": "Computer Use가 PC 화면을 보고 마우스와 키보드를 조작하듯, 안드로이드 폰 화면을 보고 직접 조작하는 AI 에이전트입니다. 할 일을 말하면 AI가 화면을 읽고 탭, 입력, 스크롤하며 여러 앱을 오가면서 처리합니다. 기존 폰 에이전트는 대부분 PC에 연결해 ADB로 조작해야 해서, 폰 안에서 단독으로 동작하도록 만들었습니다. 주요 특징 PC, ADB, 루트, Shizuku 없이 접근성 서비스만으로 동작 (Android 11+) 접근성 트리 + 스크린샷을 함께 인식해 아이콘 버튼, 지도 화면도 처리 ChatGPT 계정 로그인 또는 OpenAI / Claude / Gemini …",
+      "oneLineKo": "접근성 서비스만으로 폰 화면 조작하는 AI 에이전트",
+      "summaryKo": "OpenPhoneUse는 PC나 ADB, 루트 권한 없이 안드로이드 접근성 서비스만으로 동작하는 모바일 전용 Computer Use 에이전트입니다. 사용자가 할 일을 말하면 AI가 화면을 읽고 탭, 입력, 스크롤을 수행하며 여러 앱을 오가며 작업을 처리합니다. 접근성 트리와 스크린샷을 함께 인식해 아이콘 버튼이나 지도 화면 같은 요소도 처리할 수 있으며, ChatGPT 계정 로그인이나 OpenAI, Claude, Gemini 등 다양한 모델을 사용할 수 있습니다.",
+      "tags": [
+        "ai-agent",
+        "android",
+        "computer-use"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50450488",
+      "title": "Tim Peters has died",
+      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50450488",
+      "publishedAt": "2026-11-11T07:03:17Z",
+      "score": 885,
+      "comments": 94,
+      "snippet": "In Memoriam: Tim Peters 1952–2026 - Core Development - Discussions on Python.org = 40rem)\" rel=\"stylesheet\" data-target=\"discourse-ai_desktop\" /> = 40rem)\" rel=\"stylesheet\" data-target=\"discourse-reactions_desktop\" /> = 40rem)\" rel=\"stylesheet\" data-target=\"poll_desktop\" /> Discussions on Python.org In Memoriam: Tim Peters 1952–2026 Core Development guido (Guido van Rossum) November 11, 2026, 5:36am 1 I am immensely sad to announce that Tim Peters has died earlier this year on July 15. It’s hard to overestimate Tim’s influence on Python. He’s probably best known for writing the Zen of Python ( PEP 20 ), but to me he was a mentor and language co-designer long before that. Tim found Python not long after its initial release. His first deed was to convince me that Python should support mixed arithmetic between int and float , because most users would expect them to work that way. And he never stopped contributing. Tim quickly became a major phenomenon on the Python mailing list (including later incarnations and spinoffs), where he earned the nickname “Timbot” by his innumerable, careful and patient answers to user questions. These he filled with mild humor (always marked by <wink> or <0.5 wink> ) and often referred to as “channeling Guido”. At the same time Tim participated in numerous in-depth design discussions, saving me or others from embarrassing design mistakes or solving deep problems, guided by his vast mathematical knowledge and compiler-building experience. In fact, Tim really set the tone for early core development, never outright dismissing people and explaining in detail why things could or couldn’t work. In 2002, Tim gave us Timsort : a new sorting algorithm he designed for Python lists, which was later adopted by Java and Android. Python-would-not-be-what-it-is-today-without-Tim-ly y’rs, –Guido 168 Likes guido (Guido van Rossum) November 11, 2026, 5:41am 2 Feel free to respond with your own Tim anecdotes. I could not cover everything he did. 4 Likes Rosuav (Chris Angelico) November 11, 2026, 6:04am 3 Very sad news. I have had the privilege and pleasure of discussing MANY topics with Tim, and his input into technical discussions has always been something I value very highly. He never treated you like an idiot, never dismissed your concerns out of hand, always answered and explained. I exchanged emails with him many times, but geography meant that sadly, we never met in person. 13 Likes hugovk (Hugo van Kemenade) November 11, 2026, 6:13am 4 Guido van Rossum: In fact, Tim really set the tone for early core development, never outright dismissing people and explaining in detail why things could or couldn’t work. From the start to the end. His last post concluded: Which is all a long-winded say of saying the real world is more complicated than our clean abstractions hope for . 40 Likes mcdonc (Chris McDonough) November 11, 2026, 6:41am 5 I wrote this some time ago about Tim: “”\" I worked with Tim and the rest of Python Labs for a couple of ",
+      "oneLineKo": "파이썬 핵심 기여자 Tim Peters 별세",
+      "summaryKo": "파이썬의 Zen of Python(PEP 20)을 작성하고 언어 공동 설계자로 활동한 Tim Peters가 2026년 7월 15일 별세했다고 Guido van Rossum이 전했다. 그는 int와 float의 혼합 연산 지원을 제안하는 등 초기 파이썬 설계에 큰 영향을 미쳤고, 메일링 리스트에서 'Timbot'이라는 별명으로 친절하고 꼼꼼한 답변을 남긴 것으로 유명하다. 2002년에는 Java와 Android에도 채택된 정렬 알고리즘 Timsort를 설계했다. 커뮤니티 구성원들은 그의 기술적 기여와 인간적인 면모를 추모하는 글을 남기고 있다.",
+      "tags": [
+        "python",
+        "timsort",
+        "community"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37017&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "OpenMAIC - 주제나 문서를 AI 교사와 토론하는 수업으로 만드는 오픈소스 플랫폼",
+      "url": "https://news.hada.io/topic?id=37017&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37017&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-12T09:30:02+09:00",
+      "snippet": "배우고 싶은 주제를 적거나 자료를 올리면 슬라이드, 퀴즈, 조작해 볼 수 있는 시뮬레이션, 프로젝트 기반 학습(PBL) 을 포함한 수업을 자동 생성 AI 교사는 음성으로 설명하고 칠판에 수식이나 그림을 그려 줌 . 수업 중 슬라이드나 그림에서 이해가 안 되는 부분을 바로 질문할 수 있음 AI 동급생과 토론 할 수 있음. 서로 다른 역할을 맡은 에이전트들이 의견을 주고받고, 학습자도 중간에 참여할 수 있음 퀴즈는 객관식과 단답형을 지원하며 AI가 답을 채점하고 피드백 을 줌. 프로젝트 학습에서는 AI 튜터와 단계별로 결과물을 만들어 …",
+      "oneLineKo": "AI 교사와 토론하는 오픈소스 학습 플랫폼",
+      "summaryKo": "OpenMAIC은 주제나 자료를 입력하면 슬라이드, 퀴즈, 시뮬레이션, 프로젝트 기반 학습(PBL)을 포함한 수업을 자동 생성하는 오픈소스 플랫폼이다. AI 교사가 음성으로 설명하고 칠판에 수식이나 그림을 그려주며, 학습자는 이해 안 되는 부분을 바로 질문할 수 있다. 서로 다른 역할의 AI 에이전트들이 동급생처럼 토론하고 학습자도 중간에 참여할 수 있으며, 퀴즈는 AI가 채점하고 피드백을 제공한다.",
+      "tags": [
+        "ai-education",
+        "llm",
+        "open-source"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50459703",
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50459703",
+      "publishedAt": "2026-11-11T22:31:06Z",
+      "score": 558,
+      "comments": 803,
+      "oneLineKo": "엔비디아, 젠슨 황 CEO 교체 준비설 보도",
+      "summaryKo": "월스트리트저널 보도에 따르면 엔비디아가 젠슨 황 CEO를 축출할 준비를 하고 있다는 내용이 제목으로 전해졌다. 본문 내용이 제공되지 않아 구체적인 배경이나 세부 사항은 확인되지 않는다. 제목만으로는 해당 보도의 신뢰성이나 맥락을 판단하기 어렵다.",
+      "tags": [
+        "nvidia",
+        "jensen-huang"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50455394",
+      "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50455394",
+      "publishedAt": "2026-11-11T16:38:44Z",
+      "score": 419,
+      "comments": 215,
+      "snippet": "How a false smoke alarm almost drowned Jane Street’s only NYC datacenter | Michael Bacarella Michael Bacarella _ Posts of varying effort on technology, cybersecurity, transhumanism, rationalism, self-improvement, DIY, and other stereotypical technologist stuff. How a false smoke alarm almost drowned Jane Street's only NYC datacenter jane street war stories datacenter Published on 10 Nov 2026 by mbacarella A war story from Jane Street's systems team: a false smoke alarm, a datacenter with no cooling, and a sprint to pull every power cord before the sprinklers went off AI disclosure: this story was written entirely by human hands, with AI doing proof-reading and light edits. Some tasteful imperfections kept to heighten Wabi-Sabi effect. Everyone’s heard of how awesome Jane Street is. Fewer people have heard about the times something stupid nearly put it out of business and it was saved by grit and dumb luck. I was on the systems team for some of those. Jane Street didn’t do titles, and we on the systems team weren’t above getting our hands dirty. You could think of us as the firm’s blue-collar OCaml programmers: when something broke, we were the ones running through the corridors to fix it. Call this story a Star Trek: Lower Decks view of Jane Street. For the longest time Jane Street insisted on having its machine room close to its trading floor. When it was 10 people it was cute. When it was 150 people it was starting to feel… odd. Part of the reason for this was intellectual property concern: they didn’t want to risk having their servers stolen by spies who would learn their precious trading strategies. Another reason was technology risk: they wanted to make sure out-of-control automated trading systems could always be shut down by running across the hall and pulling power cables. Yes, tools existed to mitigate both of these fears. But Jane Street moved irritatingly slowly on this stuff, and they still wanted the last-resort option of yanking power cords. Their risk culture didn’t exclusively come from reading heady thinkpieces. A lot of it was instilled by a partner who’d served on a nuclear submarine, and it showed, mostly in a good way! On a sub, you don’t trust the automation unless there’s a big red-painted, mechanically connected lever you can pull to turn it off. As the company grew this humble machine room was built out into a respectably sizable datacenter, complete with an online UPS, Computer Room Air Conditioner (CRAC) units, refrigerator-sized network switches, a subterranean diesel backup generator and about 10 rows of server cabinets, 10 cabinets deep. Oh, and it was all crammed into the middle of a skyscraper called 1 New York Plaza , which was otherwise just a normal office building. When I first landed my job at Jane Street I was commuting to the southern tip of Manhattan all of the way from Queens, an hour or more each way. I’d gone to a magnet high school in the city, so I’d been doing commutes like that since I was a teenager",
+      "oneLineKo": "제인스트리트 뉴욕 데이터센터, 화재경보 오작동 위기 실화",
+      "summaryKo": "제인스트리트의 유일한 뉴욕 데이터센터는 트레이딩 플로어 바로 옆에 위치해 있었는데, 이는 기업 비밀 보호와 폭주하는 자동매매 시스템을 즉시 차단하기 위한 의도였다. 이 글은 시스템팀 소속 저자가 겪은 실화로, 오작동한 화재경보로 스프링클러가 작동하기 직전 모든 전원 케이블을 뽑아내며 데이터센터 침수를 막아낸 긴박한 상황을 다룬다. 잠수함 근무 경력이 있는 파트너의 리스크 문화가 회사의 안전 설계 철학에 큰 영향을 미쳤음을 보여준다.",
+      "tags": [
+        "datacenter",
+        "infrastructure",
+        "incident"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50453288",
+      "title": "Hyper-Realistic Sand with WebGL2",
+      "url": "https://av.github.io/safe-sand/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50453288",
+      "publishedAt": "2026-11-11T13:39:29Z",
+      "score": 317,
+      "comments": 64,
+      "snippet": "Sand | Hyper-Realistic Sand Simulator in Your Browser Sand Hyper-realistic sand simulator Built with WebGL2 and JavaScript. Push grains with your finger, tilt your phone to make them slide, or shake to scatter them. Play in your browser on phones, tablets and desktops. Pour Lay it flat · Tilt · Shake · Draw Pour more sand Sand Under the sand Pour fresh sand Sound on Haptics on",
+      "oneLineKo": "WebGL2 기반 초사실적 모래 시뮬레이터",
+      "summaryKo": "WebGL2와 JavaScript로 구현된 브라우저 기반 모래 시뮬레이션입니다. 손가락으로 모래 알갱이를 밀거나, 폰을 기울여 흘러내리게 하거나, 흔들어 흩뿌리는 등 다양한 인터랙션을 지원합니다. 모바일, 태블릿, 데스크톱 등 다양한 기기의 브라우저에서 실행 가능하며 사운드와 햅틱 피드백도 포함되어 있습니다.",
+      "tags": [
+        "webgl2",
+        "javascript",
+        "physics-simulation"
+      ]
+    }
+  ]
+}
