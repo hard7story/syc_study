@@ -1,0 +1,279 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T02:16:19.237Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37076&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Show HN: 300달러짜리 자수기에 구독이 필요해서 직접 앱을 만들었다",
+      "url": "https://news.hada.io/topic?id=37076&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37076&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-13T06:35:41+09:00",
+      "snippet": "ZigZag 는 SVG 그림을 자수 바늘땀으로 변환하고 시각적으로 편집하는 Rust 앱으로, 자수기용 파일을 내보내거나 Brother Skitch에 직접 전송할 수 있음 MCP 를 내장해 AI 에이전트가 사용자가 보고 있는 문서를 함께 편집하며, Claude Code나 Codex가 디자인을 만드는 과정을 편집기에서 확인할 수 있음 Illustrator 방식의 벡터 편집 과 이미지 자동 추적, 글자 배치, 실 색상 관리, 다양한 자수 기법을 한 작업 흐름으로 묶음 Brother Skitch(PP1) Bluetooth 연결 로 디자인 전송부터 시험 운전과 진행 상황 확인까지 지원하지만, 프로토콜 …",
+      "oneLineKo": "구독 강요 자수기 대안으로 만든 Rust 자수 편집 앱 ZigZag",
+      "summaryKo": "개발자가 300달러짜리 자수기(Brother Skitch)가 구독을 요구하자 직접 Rust로 자수 편집 앱 ZigZag를 만들었다. SVG를 자수 바늘땀으로 변환하고 Illustrator 방식의 벡터 편집, 이미지 자동 추적, 글자 배치, 실 색상 관리를 하나의 작업 흐름으로 제공한다. MCP를 내장해 Claude Code나 Codex 같은 AI 에이전트가 사용자와 함께 문서를 편집할 수 있으며, Bluetooth로 Brother Skitch에 디자인을 직접 전송해 시험 운전과 진행 상황 확인까지 지원한다.",
+      "tags": [
+        "rust",
+        "embroidery",
+        "mcp"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50474883",
+      "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+      "url": "https://unemploymentlabs.com/checkpoint-forensics",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50474883",
+      "publishedAt": "2026-11-12T21:56:11Z",
+      "score": 174,
+      "comments": 48,
+      "snippet": "Top Chinese Frontier AI Models Carry the Fingerprint of Export-Controlled NVIDIA Blackwell GPUs · Unemployment Labs Skip to report Unemployment Labs In this report Executive summary Main findings Our investigation Limits of the investigation Verifying the findings Conclusion Appendix 1 · Lab histories Appendix 2 · All models Sources How to cite Top Chinese Frontier AI Models Carry the Fingerprint of Export-Controlled NVIDIA Blackwell GPUs Will DePue November 12, 2026 Print / save PDF Cite this report Executive Summary Our forensic analysis of publicly released AI models finds evidence that DeepSeek, Moonshot AI, MiniMax and Ant Group have gained access to NVIDIA’s Blackwell GPUs, despite restrictions on exporting these chips to China, and are using that hardware to create their AI models. Six models released by these companies since April 2026 contain numerical patterns matching Blackwell hardware, whereas earlier models from the same companies match NVIDIA’s older Hopper generation. The findings suggest that several leading Chinese AI developers have begun using Blackwell to train their newest models. U.S. officials and press reports had already alleged that DeepSeek and Moonshot AI were using Blackwell chips, without publishing technical evidence. The evidence comes entirely from the models’ own published weights, rather than from leaks or insider accounts. We recover traces of the models’ initial values, and then search for the hardware configurations and initial configurations that reproduce them; for DeepSeek-V4-Flash and Kimi K3, we also confirmed the match on physical Blackwell chips. The fingerprint identifies how the weights were created and supports, without proving, the inference that Blackwell also performed the training. Specially configured AMD hardware, which is also restricted from export to China, is the only alternative we have identified; we have excluded it for DeepSeek-V4-Flash, and consider it very unlikely for the other five models. Notably, our findings provide technical evidence of access to advanced computing hardware, but do not establish where the chips were located, how access was obtained, or whether export controls were violated. Table 1. Hardware fingerprints in successive models from DeepSeek, Moonshot AI, MiniMax and Ant Group Link ↗ Lab Model Released Chip the model was started on DeepSeek DeepSeek-V3 Dec 2024 NVIDIA Hopper (lab disclosed H800) DeepSeek-V4-Flash Apr 2026 • NVIDIA Blackwell B200/B300 DeepSeek-V4-Pro Apr 2026 • NVIDIA Blackwell GB200/GB300 Moonshot AI Kimi K2 Jul 2025 NVIDIA Hopper (lab disclosed H800) Kimi K2.5 Jan 2026 NVIDIA Hopper (lab disclosed H800) Kimi K3 Jul 2026 • NVIDIA Blackwell GB200/GB300 Kimi K3.1-Pro Nov 2026 • NVIDIA Blackwell GB200/GB300 MiniMax MiniMax-M2.7 Apr 2026 NVIDIA Hopper MiniMax-M3 Jun 2026 • NVIDIA Blackwell B200/B300 Ant Group Ling-3.0-flash Aug 2026 NVIDIA Hopper Ling-3.1-flash Oct 2026 • NVIDIA Blackwell GB200/GB300 • Requires a U.S. license for export to China; non",
+      "oneLineKo": "중국 AI모델, 수출규제된 NVIDIA 블랙웰 GPU 흔적 발견",
+      "summaryKo": "Unemployment Labs의 포렌식 분석 결과, DeepSeek·Moonshot AI·MiniMax·Ant Group이 공개한 2026년 4월 이후 모델 6종에서 수출 통제 대상인 NVIDIA 블랙웰 GPU의 수치적 흔적이 발견됐다. 이전 모델들은 구세대 호퍼(Hopper) GPU의 패턴과 일치했던 반면, 최신 모델들은 블랙웰 하드웨어와 일치하여 중국 AI 기업들이 해당 칩을 학습에 사용했을 가능성을 시사한다. 이 증거는 모델 가중치 자체에서 초기값 패턴을 역추적하는 방식으로 도출됐으며, DeepSeek-V4-Flash와 Kimi K3는 실제 블랙웰 칩에서 재현 검증까지 완료했다. 다만 칩의 소재지나 접근 경위, 수출 규제 위반 여부는 확인되지 않았다고 밝혔다.",
+      "tags": [
+        "nvidia",
+        "export-controls",
+        "llm"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xuullc",
+      "title": "Property-based testing in Java: built a library with byte-stream shrinking and automatic failure replay",
+      "url": "https://www.reddit.com/r/programming/comments/1xuullc/propertybased_testing_in_java_built_a_library/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xuullc/propertybased_testing_in_java_built_a_library/",
+      "publishedAt": "2026-11-13T01:19:18+00:00",
+      "snippet": "I've been working on JHusk, a property-based testing library for Java, and wanted to share a couple of design decisions that might be interesting beyond \"here's my project.\" Most property-based testing libraries shrink failing inputs to find a minimal reproducing case, but the shrinking usually happens on the generated values themselves. JHusk shrinks the underlying byte stream that produced those values instead, which changes some tradeoffs in how shrinking strategies compose. It also persists failing cases to disk and replays them automatically on the next run, so a regression you've found once doesn't quietly disappear if the random seed changes. JUnit 5 integration is native, not bolted on. Repo: https://github.com/nikhilvirdi/JHusk (Apache 2.0, on Maven Central) API Reference (Javadoc) : the full public API, generated directly from the published artifact. Maven Central : package listing, version history, and dependency coordinates. Curious if anyone's run into the shrinking-on-raw",
+      "oneLineKo": "Java용 속성 기반 테스트 라이브러리 'JHusk' 공개",
+      "summaryKo": "개발자가 Java용 property-based testing 라이브러리 JHusk를 만들어 공개했다. 기존 라이브러리들과 달리 생성된 값 자체가 아닌 그 값을 만든 바이트 스트림을 축소(shrinking)하는 방식을 사용해 축소 전략 조합 방식에 차이를 둔다. 실패한 테스트 케이스를 디스크에 저장해 다음 실행 시 자동으로 재생(replay)함으로써 랜덤 시드가 바뀌어도 발견된 회귀가 사라지지 않도록 한다. JUnit 5와 네이티브로 통합되며 Maven Central에 Apache 2.0 라이선스로 배포되었다.",
+      "tags": [
+        "java",
+        "property-based-testing",
+        "junit"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37071&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "작고 오래된 기기에서도 LLM이 돌아가게 만들고 있습니다",
+      "url": "https://news.hada.io/topic?id=37071&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37071&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-13T04:52:37+09:00",
+      "snippet": "smolmaxxing 은 TV 박스와 오래된 iPad에서 실행 가능한 최대 규모의 언어 모델을 찾고, 맞춤형 커널과 메모리 최적화, 가중치 스트리밍으로 성능을 끌어올리는 프로젝트임 실사용 RAM이 약 1GB인 Xiaomi TV Box S 3세대 에서 Qwen3.5-2B는 실제 채팅 기준 7.7 tok/s, 8B MoE 모델은 7.2 tok/s, 16B MoE 모델은 5.1 tok/s로 실행됨 2013년형 iPad Air 에서는 CPU만으로 Bonsai-1.7B가 23.7~25.8 tok/s에 도달함. 다만 iOS 12.5.7 탈옥이 필요하며, 긴 대화에서는 18~22 tok/s 수준임 RAM보다 큰 모델은 플래시 대역폭 이 속도를 제한함. MoE …",
+      "oneLineKo": "저사양 구형 기기에서 LLM 구동하는 최적화 프로젝트",
+      "summaryKo": "smolmaxxing은 TV 박스나 오래된 iPad처럼 저사양 기기에서 실행 가능한 최대 규모의 언어 모델을 찾는 프로젝트로, 맞춤형 커널·메모리 최적화·가중치 스트리밍 기법을 사용한다. RAM 약 1GB인 Xiaomi TV Box S 3세대에서 Qwen3.5-2B는 7.7 tok/s, 16B MoE 모델은 5.1 tok/s로 실행됐다. 2013년형 iPad Air는 CPU만으로 Bonsai-1.7B를 23.7~25.8 tok/s로 구동했으나 iOS 탈옥이 필요했다. RAM보다 큰 모델의 경우 플래시 대역폭이 속도의 병목으로 작용한다.",
+      "tags": [
+        "llm",
+        "edge-device",
+        "optimization"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50474311",
+      "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+      "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50474311",
+      "publishedAt": "2026-11-12T21:09:49Z",
+      "score": 102,
+      "comments": 93,
+      "snippet": "AI is turning Apple’s app review process into a nightmare for developers - SYNTH ANATOMY About Imprint Contact Support Advertise with us Privacy Policy Facebook Twitter Instagram Youtube Feeds SB 2026 SFF 2026 News Hardware Audio & MIDI Drum Machines DIY Hardware Synth Mods Eurorack Effects Grooveboxes Synthesizers Sampler Software Standalone FREE FREE Plugins FREE iOS Plugins Plugin Updates Max For Live, Reaktor, Pure Data… iOS DAW Preset & Sample Libraries Free Kontakt/ Presets/ Sample Libraries Sample Libraries Presets Leaks Reviews Hardware iOS Plugins Sample & Sound Libraries In-Depth Real Talk Vaporware Synths Synth Radar Deals Hardware iOS Plugins Sample & Preset Libraries Events Music Interviews News Ticker [ November 12, 2026 ] AI is turning Apple’s app review process into a nightmare for developers iOS [ November 12, 2026 ] Akai MPC OS 3.10.1 brings MPC Plugin SDK for custom instrument and FX plugins Grooveboxes [ November 12, 2026 ] Baby Audio Crystalline algorithmic reverb plugin (desktop/iOS) is now $4,99 for a limited time News [ November 12, 2026 ] Elastic OSC: iOS/Android polysynth with MI algorithms: update 2.2 with mod animations, better MIDI & more iOS [ November 12, 2026 ] Pittsburgh Modular Microvolt 3901: the 3900 semi-modular synth returns as a plugin (desktop/iPadOS) iOS Search for: Home News Software iOS AI is turning Apple’s app review process into a nightmare for developers AI is turning Apple’s app review process into a nightmare for developers November 12, 2026 Synth Anatomy 6 SYNTH ANATOMY uses affiliation & partner programs (big red buttons) to finance a part of the activity. If you use these, you support the website. Thanks! Reading Time: 6 minutes The surge of AI-generated apps is overwhelming Apple’s app review process, leaving developers caught in the crossfire – two examples among many. A flood of new iOS apps has emerged over the last few months. An estimated 10–20 new iOS music apps enter the market every day. This is because AI now makes it possible for anyone to vibe code their own apps and AUv3 plugins. However, getting an app into the Apple App Store requires going through the app review process. AI has affected not only the number of new releases per day but also Apple’s holy app review process, creating more nightmares than joy for many developers. What Is The Apple App Review Process? Developing and releasing a VST plugin is simple. You set up a website, upload your installers, set a price, and you’re good to go. It’s more complicated on iOS. To publish an app, you must first join the Apple Developer Program, which costs $99 per year. As a member, you can submit apps with AUv3 support, but they won’t become available immediately. Whether they are hand-coded or created with the help of AI, all apps must go through Apple’s review process. Every app, whether a synthesizer, effects, game, or utility app, must first get through this barrier. This process verifies that the app meets requirements, including s",
+      "oneLineKo": "AI 양산 앱 급증, 애플 앱 심사가 신디사이저 개발자들에 악몽으로",
+      "summaryKo": "AI를 이용한 바이브 코딩으로 매일 10~20개의 새로운 iOS 음악 앱이 쏟아지면서 애플의 앱 심사 프로세스가 과부하 상태에 놓였다. 신디사이저와 AUv3 플러그인 개발자들은 리뷰 지연과 불확실성으로 어려움을 겪고 있으며, 애플의 엄격한 심사 기준이 AI 생성 앱의 홍수와 맞물려 더 큰 혼란을 야기하고 있다. 기사는 Apple Developer Program 가입부터 AUv3 지원 앱 심사까지의 과정을 설명하며, AI 시대에 기존 심사 체계가 겪는 문제점을 다룬다.",
+      "tags": [
+        "ios",
+        "app-review",
+        "auv3"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xu6252",
+      "title": "Lean explained with TypeScript",
+      "url": "https://www.reddit.com/r/programming/comments/1xu6252/lean_explained_with_typescript/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xu6252/lean_explained_with_typescript/",
+      "publishedAt": "2026-11-12T07:00:41+00:00",
+      "snippet": "submitted by /u/fagnerbrack [link] [comments]",
+      "oneLineKo": "TypeScript로 풀어보는 정리증명 언어 Lean 설명",
+      "summaryKo": "Reddit r/programming에 공유된 글로, 정리 증명 언어인 Lean의 개념을 TypeScript 개발자에게 익숙한 방식으로 설명하는 내용을 다룬다. 게시물 자체는 외부 링크 공유이며 본문 상세 내용은 제목 외에 확인되지 않는다. Lean과 TypeScript의 타입 시스템을 비교하며 이해를 돕는 자료로 추정된다.",
+      "tags": [
+        "lean",
+        "typescript",
+        "type-theory"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37075&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Jane Street의 소프트웨어 엔지니어링 면접이 조금 달라집니다",
+      "url": "https://news.hada.io/topic?id=37075&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37075&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-13T06:21:12+09:00",
+      "snippet": "Jane Street 가 대학생 지원자의 현장 면접에서 코드 작성 비중을 줄이고, 소프트웨어 설계와 코드 검증, LLM 활용을 평가하는 새 면접 유형을 시험 중임 코드 생성 비용이 낮아지면서 무엇을 만들지 판단하는 안목 , 오래 유지할 수 있는 추상화 선택, 구현의 정확성 확인이 더욱 중요해졌다는 판단에 따른 변화임 대부분의 면접 라운드 는 LLM 도움 없이 진행하는 기존 코딩 면접을 유지하며, 나머지 채용 절차도 바뀌지 않음 지원자에게 정교한 에이전트 활용 방법론 이나 특정 도구 구성을 요구하지 않으며, 모든 작업에 LLM을 사용하기를 …",
+      "oneLineKo": "Jane Street, 코딩 대신 설계·LLM 활용 평가 면접 도입",
+      "summaryKo": "Jane Street가 대학생 지원자 대상 현장 면접에서 코드 작성 비중을 줄이고 소프트웨어 설계, 코드 검증, LLM 활용 능력을 평가하는 새로운 면접 유형을 시험 중이다. 코드 생성 비용이 낮아지면서 무엇을 만들지 판단하는 안목과 오래 유지 가능한 추상화 선택, 구현 정확성 확인이 더 중요해졌다는 판단에 따른 변화다. 다만 대부분의 면접 라운드는 LLM 도움 없이 진행하는 기존 코딩 면접을 유지하며 나머지 채용 절차도 변경되지 않는다. 지원자에게 특정 에이전트 활용법이나 도구 구성을 강제하지 않는다.",
+      "tags": [
+        "interview",
+        "llm",
+        "software-engineering"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50467087",
+      "title": "Jensen Huang resigns",
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50467087",
+      "publishedAt": "2026-11-12T13:52:29Z",
+      "score": 2987,
+      "comments": 2814,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-announces-ceo-transition\" rel=\"nofollow\">https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-announces-ceo-tran...</a><p><a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;nvidia-ceo-...</a>, <a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;live&#x2F;nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;live&#x2F;nvidia-live-board-meets-fate-ce...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;12&#x2F;business&#x2F;nvidia-jensen-huang-resigns\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;12&#x2F;business&#x2F;nvidia-jens...</a>",
+      "oneLineKo": "젠슨 황, 엔비디아 CEO직 사임",
+      "summaryKo": "엔비디아 CEO 젠슨 황이 사임한다는 소식이 보도되었다. 공식 발표는 엔비디아 뉴스룸을 통해 CEO 교체 소식으로 공개되었으며, 로이터는 이사회가 사생활 논란 보도 이후 대응에 나섰다고 전했다. 뉴욕타임스 등 주요 외신들도 관련 속보를 실시간으로 다루고 있다.",
+      "tags": [
+        "nvidia",
+        "ceo",
+        "leadership-change"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37073&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Microsoft Outlook, 대규모 접속 장애 발생",
+      "url": "https://news.hada.io/topic?id=37073&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37073&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-13T05:32:45+09:00",
+      "snippet": "11월 12일(미국 현지시간) Exchange Online 장애 로 Outlook에서 메일함을 열거나 메일을 주고받는 데 문제가 발생함. Outlook 장애 신고는 한때 약 60만 건 에 달함 Outlook 외에도 Microsoft 365, Copilot, Teams, Microsoft Store, OneDrive 에서 사용자들의 장애 신고가 이어짐 Microsoft는 미주 지역에서 여러 연결 방식을 통한 Exchange Online 사서함 접근 문제 를 조사 중 자동 상태 검사에 실패한 서버들이 서비스에서 빠지면서 남은 서버에 부하가 몰림. Microsoft는 대체 검사 방식으로 일부 서버를 복귀시킨 뒤 적용 범위를 넓힘 …",
+      "oneLineKo": "Outlook·Exchange Online 대규모 접속 장애 발생",
+      "summaryKo": "11월 12일 Exchange Online 장애로 Outlook에서 메일함 접속 및 송수신 문제가 발생해 약 60만 건의 장애 신고가 접수됐다. Microsoft 365, Copilot, Teams, Microsoft Store, OneDrive 등 다른 서비스에서도 장애 신고가 이어졌다. 원인은 자동 상태 검사에 실패한 서버들이 서비스에서 제외되면서 남은 서버에 부하가 몰린 것으로, Microsoft는 대체 검사 방식으로 서버를 복귀시키며 적용 범위를 넓혀 대응했다.",
+      "tags": [
+        "outlook",
+        "exchange-online",
+        "microsoft365"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50465829",
+      "title": "Anthropic IPO",
+      "url": "https://ipo.anthropic.com/us/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50465829",
+      "publishedAt": "2026-11-12T11:46:41Z",
+      "score": 825,
+      "comments": 807,
+      "snippet": "Anthropic’s Initial Public Offering Anthropic’s Initial Public Offering AI will have a vast impact on the world. Anthropic is a public benefit corporation dedicated to securing its benefits and mitigating its risks. 01 Founders’ letter 02 Roadshow video 03 Financial highlights 04 Our customers 05 How to participate 06 Documents and FAQs 07 Legal notice “ We believe that AI is one of the most consequential technologies in human history. If managed well, it could rapidly accelerate scientific innovation, greatly increase economic growth rates, bring cures for major diseases within reach, and solve problems that have resisted generations of human effort.” Read the Founders’ letter Read the Founders’ letter Roadshow video 01 / 11 Introduction Our opportunity and core advantages Product and platform Frontier and safety research Bristol Myers Squibb Approach to compute Accenture Enterprise strategy AIG Financial model Conclusion Q3’26 Financial highlights $17.0B Revenue >12x YoY revenue >11,900 Customers ≥ $100K TTM revenue 1 >12x YoY customers ≥ $100K TTM revenue 1 >4x Compute efficiency gain since Q1’25 2 15% Adjusted Operating Margin 3 $23.3B Net Loss (due to an increase in our valuation, net loss includes a $21.9 billion non-cash charge related to a change in the fair value of convertible notes, derivative liabilities, and SAFEs) (3)% Operating Margin 1 As of September 30, 2026. 2 Measured as revenue divided by compute and infrastructure expenses in Q3’26 divided by the same ratio in Q1’25. 3 See the section in our prospectus titled “Management’s Discussion and Analysis of Financial Condition and Results of Operations—Non-GAAP Financial Measures” for a reconciliation of Adjusted Operating Margin to Operating Margin. Customer stories 01 Legora 01 Scaling an agentic operating system for lawyers Download case study “ AI is becoming fundamental to how legal work gets done, and it will reshape how law firms and in-house teams operate. We have found Claude to be brilliant at instruction following and powering agentic workflows.” Jacob Lauritzen CTO at Legora 1,500+ Law firms and in-house teams served 4.3 Non-billable hours recaptured per lawyer weekly, in an independent study of 31 firms 100% Claude Enterprise employee access 14x Claude Code growth (about 50 seats to 700 company-wide) 02 Lilly 02 Bringing the most powerful tools in science to every team Download case study “ Science and technology have always advanced together. So we gave Claude to our scientists first. Now Claude is across the company, and we can’t imagine going back. Patients are waiting, so we can’t.” Diogo Rau Executive Vice President & Chief Information and Digital Officer at Eli Lilly and Company 50,000+ Employees with access to Claude Enterprise 5x Expansion since rollout >85% Employees in key functions actively engage with Claude 03 Rakuten 03 Turning every employee into a builder Download case study “ Agents like Claude Code shine when we work with them to minimize the cost of n",
+      "oneLineKo": "Anthropic, 기업공개(IPO) 발표...연매출 17조원 돌파",
+      "summaryKo": "AI 기업 Anthropic이 IPO를 공식화하며 창업자 서한과 로드쇼 영상을 공개했다. 2026회계연도 3분기 기준 매출은 전년 대비 12배 이상 성장한 170억 달러를 기록했으며, 10만 달러 이상 매출을 내는 고객이 11,900곳을 넘어섰다. 다만 전환사채 및 SAFE 공정가치 변동에 따른 219억 달러 규모의 비현금성 손실로 순손실은 233억 달러에 달했다. Legora, Eli Lilly, Rakuten 등 주요 고객사의 Claude 활용 사례도 함께 소개됐다.",
+      "tags": [
+        "anthropic",
+        "ipo",
+        "claude"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37089&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Show GN: Dari - 앱과 웹뷰가 주고받는 브릿지 메시지를 요청·응답 짝으로 보여 주는 디버그 도구 (Android/iOS)",
+      "url": "https://news.hada.io/topic?id=37089&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37089&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-13T10:49:19+09:00",
+      "snippet": "네이티브 앱 안에 웹뷰를 띄워 화면 일부를 웹으로 만들다 보면, 웹과 앱이 주고받는 브릿지 메시지가 문제일 때가 많은데, 확인하려면 핸들러마다 로그를 넣고 Logcat이나 Xcode 콘솔을 스크롤하며 요청과 응답을 손으로 맞춰 봐야 했습니다. 이 메시지들을 한 목록에서 보려고 만들었습니다. 핵심 웹에서 앱으로, 앱에서 웹으로 오가는 호출을 requestId로 짝지어 한 줄에 보여 줍니다 상태(진행 중, 성공, 에러), 소요 시간, 정리된 JSON, 핸들러별 평균·최대 응답 시간을 볼 수 있습니다 데스크톱 앱(macOS, Windows, Linux)에서 And …",
+      "oneLineKo": "앱-웹뷰 브릿지 메시지 요청·응답을 시각화하는 디버그 도구",
+      "summaryKo": "네이티브 앱에서 웹뷰를 사용할 때 발생하는 브릿지 메시지 디버깅의 번거로움을 해결하기 위해 만든 도구입니다. 웹과 앱 간 호출을 requestId로 짝지어 한 줄로 보여주며, 상태(진행 중/성공/에러), 소요 시간, 정리된 JSON, 핸들러별 응답 시간 통계를 확인할 수 있습니다. 데스크톱 앱 형태로 macOS, Windows, Linux를 지원하며 Android/iOS 양쪽 플랫폼의 브릿지 메시지를 다룹니다.",
+      "tags": [
+        "webview",
+        "debugging-tool",
+        "mobile"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50471731",
+      "title": "Service degradation on Microsoft 365",
+      "url": "https://status.cloud.microsoft/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50471731",
+      "publishedAt": "2026-11-12T18:20:48Z",
+      "score": 524,
+      "comments": 476,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.abc.net.au&#x2F;news&#x2F;2026-11-13&#x2F;microsoft-outage-affects-users-worldwide&#x2F;107381050\" rel=\"nofollow\">https:&#x2F;&#x2F;www.abc.net.au&#x2F;news&#x2F;2026-11-13&#x2F;microsoft-outage-affe...</a><p><a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;sysadmin&#x2F;comments&#x2F;1xuje83&#x2F;microsoft_office_seems_to_be_down&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;sysadmin&#x2F;comments&#x2F;1xuje83&#x2F;microsoft...</a><p><a href=\"https:&#x2F;&#x2F;downdetector.com&#x2F;status&#x2F;microsoft-365&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;downdetector.com&#x2F;status&#x2F;microsoft-365&#x2F;</a>",
+      "oneLineKo": "마이크로소프트 365 서비스 장애 발생",
+      "summaryKo": "마이크로소프트 365 서비스에 전 세계적으로 장애가 발생해 사용자들이 접속 문제를 겪고 있다. Downdetector 등에서 다수의 장애 신고가 접수되었으며, 관련 뉴스와 커뮤니티에서도 이번 아웃티지를 다루고 있다. 정확한 원인이나 복구 시점은 아직 공식적으로 확인되지 않았다.",
+      "tags": [
+        "microsoft365",
+        "outage",
+        "cloud"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37088&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "자애로운 수출 통제 기계",
+      "url": "https://news.hada.io/topic?id=37088&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37088&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-13T10:14:00+09:00",
+      "snippet": "다리오 아모데이의 에세이 \"Machines of Loving Grace\" 을 패러디한 제목. 극성 인공지능 안전주의자들은 수출 통제를 맹목적으로 찬성하고, 국가 경쟁으로 규정함. 최근 반-개방 가중치 모델로도 나타남. 특히 극히 일부의 엘리트 이외의 컴퓨트 접근 자체가 금지되어야 한다는 사람들도 있으나, 이는 \"시모네타\" 의 재현일 뿐임. 최악의 경우라도 인공지능은 이중 용도 기술일 뿐, 전차와 같이 \"공격 무기\" 가 아님. 그리고, 그러한 이중 용도 기술로서도 방사능과 달리 인류에 긍정적 소지가 부정적 소지에 비해 다함. 따라서 인공지능 …",
+      "oneLineKo": "AI 수출 통제와 개방형 가중치 모델 논쟁 비판",
+      "summaryKo": "다리오 아모데이의 에세이 'Machines of Loving Grace'를 패러디한 글로, 극단적 AI 안전주의자들이 수출 통제를 국가 경쟁 프레임으로 맹목적으로 지지하는 경향을 비판한다. 일부는 엘리트 외 컴퓨트 접근 자체를 금지해야 한다고 주장하지만, 이는 과거의 엘리트주의 재현일 뿐이라고 지적한다. 저자는 AI가 전차 같은 공격 무기가 아닌 이중 용도 기술이며, 방사능과 달리 긍정적 영향이 부정적 영향보다 크다고 주장한다.",
+      "tags": [
+        "ai-safety",
+        "export-control",
+        "open-weight-models"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50465352",
+      "title": "Writing correct software is hard and math alone won’t help us (2016)",
+      "url": "https://pron.github.io/posts/correctness-and-complexity",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50465352",
+      "publishedAt": "2026-11-12T10:28:26Z",
+      "score": 359,
+      "comments": 169,
+      "snippet": "Why Writing Correct Software Is Hard Home About Finite of Sense and Infinite of Thought: A History of Computation, Logic and Algebra TLA + in Practice and Theory press ron Why Writing Correct Software Is Hard 23 Jul 2016 … and why math (alone) won’t help us I was very happy to speak at Curry On once again. Last year, following our work with Quasar, I spoke on continuations vs. monads . This year I gave a talk about computational complexity results in software verification, a subject I became interested in while formally specifying and verifying our upcoming revamped version of Galaxy. What follows is an extended version of the talk (embedded above), containing some additional proofs and results I didn’t have time to cover, complete with footnotes, for those wishing to study the topics further. Reading time: ~45 mins. In this article, we try to understand the relationship between programs and correctness, and in particular, why writing correct programs is hard. We will review results from computability theory and complexity theory, and see that programs and complete understanding – which is required for correctness – are fundamentally at odds. The main contribution of this text is aggregating in one place some results (as well as some references) pertaining to the essential difficulty of producing correct software. My motivation was various statements I found online (such as this , although it is far from the only one) claiming that software correctness is easy to achieve with the right tools. While some tools may (and do) certainly assist ensuring programs are correct, correctness comes at a significant cost. The cost of correctness – like the energy cost of reducing entropy – is a result of the “natural laws” of computation, that cannot possibly be avoided. CHAPTER I: FOUNDATIONS The story of theoretical CS began about a hundred years ago. With the growing success of mathematical logic, the mathematician David Hilbert laid out a program to formalize all of mathematics. He wanted to prove the formalism consistent and complete, and to find a decision procedure, an algorithm for determining the truth of every formal statement: Consistency : proof that no contradiction can be obtained in the formalism. Completeness : all true mathematical statements can be proved in the formalism. Decidability : an algorithm deciding whether any statement is a theorem ( Entscheidungsproblem ) Hilbert believed that anything that can be formally reasoned can also be fully understood, and by that I mean all of its properties proven. the 19th century view on the limits of knowledge was expressed by the maxim “ignoramus et ignorabimus”, meaning “we do not know and we will not know”. For his retirement in 1930, Hilbert gave a lecture – “Naturerkennen und Logik” (Logic and the understanding of nature) – in Königsberg to the Society of German Scientists and Physicians which he challenged this view. He said: For the mathematician there is no Ignorabimus, and, in my opinion,",
+      "oneLineKo": "소프트웨어 정합성과 계산복잡도 이론의 한계(2016)",
+      "summaryKo": "이 글은 소프트웨어의 정합성(correctness) 확보가 왜 근본적으로 어려운지 계산가능성 이론과 복잡도 이론을 통해 탐구한다. 저자는 수학적 도구가 프로그램 검증에 도움이 될 수 있지만, 정합성에는 반드시 치러야 할 본질적 비용이 따른다고 주장한다. Hilbert의 형식주의 프로그램과 결정가능성 문제를 역사적 배경으로 삼아, 프로그램과 완전한 이해 사이의 근본적 충돌을 설명한다. 저자는 Quasar 및 Galaxy 프로젝트에서의 정형 검증 경험을 바탕으로 이 주제에 관심을 갖게 되었다고 밝힌다.",
+      "tags": [
+        "formal-verification",
+        "computability-theory",
+        "software-correctness"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50470488",
+      "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+      "url": "https://github.com/simpsoka/zigzag",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50470488",
+      "publishedAt": "2026-11-12T17:02:42Z",
+      "score": 349,
+      "comments": 142,
+      "snippet": "GitHub - simpsoka/zigzag: Free, open-source embroidery software for Mac and Windows. Turn SVG artwork into machine embroidery, edit stitches visually, and create designs with AI agents via MCP. · GitHub Skip to content Navigation Menu Sign in Products Platform GitHub Repository hosting, code review, and collaboration Copilot AI coding agent for tasks, projects, and automated work Build & Ship Actions CI/CD and automation Code Quality Quality analysis, fixes, and enforcement Codespaces Cloud development environments Secure Code Security Vulnerability detection and remediation Secret Protection Secret scanning and leak prevention All Features Developers Learn Documentation Training Certifications Build Build with Copilot Customize Copilot Integrations Explore Trending repos GitHub Sponsors Developer articles Changelog Changelog Your source for the latest features, improvements, and fixes across GitHub products, all in one place. Businesses By Stage Enterprises Team Startups Nonprofits By Industry Healthcare Financial services Manufacturing Government See all industries Evaluate GitHub Why GitHub Customer Stories Business insights Trust Center Add-ons GitHub Advanced Security Enterprise-grade code security Copilot for business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Resources Learn & Connect Documentation Resource center Blog Events & webinars Community Forum Customer Stories Integrations Support Customer support Training GitHub Status Company About Partners Changelog GitHub Universe GitHub Universe The event for developers, by developers — talks, workshops, and what’s next for GitHub. Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} simpsoka zigzag Repository navigation Code Issues Pull requests 1 ( 1 ) Actions Projects Security and quality Insights More items zigzag Public Notifications You must be signed in to change notification settings Fork 16 ( 16 ) Star 261 ( 261 ) You must be signed in to star a repository About Free, open-source embroidery software for Mac and Windows. Turn SVG artwork into machine embroidery, edit stitches visually, and create designs with AI agents via MCP. zigzag.diy/ Topics brother-skitch embroidery embroidery-digitizing embroidery-software machine-embroidery macos mcp model-context-protocol rust svg vector-editor windows Resources Readme Apache-2.0 license Activity Stars 261 stars Watchers 1 watching Forks 16 forks Report repository main Branches Tags Go to file Code Open more actions menu Latest commit History 6 Commits 6 Commits Folders and files Name Name Last commit message Last commit date .github/ workflows .github/ workflows examples examples packaging packaging src src vendor vendor .gitignore .gitignore CHANGELOG.md CHAN",
+      "oneLineKo": "자수기 구독료 대신 만든 오픈소스 자수 소프트웨어",
+      "summaryKo": "개발자가 300달러 자수기에 구독료가 필요하다는 문제를 겪고 직접 오픈소스 자수 소프트웨어 'zigzag'를 제작해 공개했다. Mac과 Windows를 지원하며 SVG 아트워크를 기계 자수 디자인으로 변환하고 스티치를 시각적으로 편집할 수 있다. MCP(Model Context Protocol)를 통해 AI 에이전트로 디자인을 생성하는 기능도 포함되어 있으며 Rust로 개발되었다. Apache-2.0 라이선스로 GitHub에 공개되어 있다.",
+      "tags": [
+        "rust",
+        "mcp",
+        "open-source"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50472260",
+      "title": "Gemini 4 Hydrogen and Orchestrator",
+      "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50472260",
+      "publishedAt": "2026-11-12T18:52:01Z",
+      "score": 310,
+      "comments": 73,
+      "snippet": "all) --> Gemini 4 Hydrogen and Orchestrator | Google Antigravity Blog Copy Logo as SVG Copied! Press Guidelines Products Use Cases Pricing Enterprise Resources 🚀 Launch Remote Control Download 🚀 Launch Remote Control EN English (United States) Bahasa Indonesia (Indonesia) Deutsch (Deutschland) English (Canada) English (United Kingdom) Español (España) Español (México) Français (France) Italiano (Italia) Polski (Polska) Português (Brasil) हिन्दी (भारत) ไทย (ประเทศไทย) 日本語 (日本) 简体中文 (中国) 繁體中文 (台灣) 한국어 (대한민국) Explore our next generation products See overview Products Antigravity App Antigravity Extensions Antigravity CLI Antigravity IDE Antigravity SDK Built for developers and teams in the agent-first era See overview Developer Use Cases Frontend Development Full-Stack Development Legacy & Codebase Migrations Technical Debt & Backlog Burndown Automated Testing & QA Verification Incident Triage & Root Cause Analysis Data Pipelines & SQL Engineering Developer Onboarding & Architecture Full-Stack Prototyping Enterprise Architecture & Strategy Daily Operations & Code Reviews Specialized Systems Engineering Other Roles Product Management Technical Program Management Sales & GTM Finance Business & Operations Design & UX Science Marketer Everything you need to stay up-to-date and get help Blog Documentation Changelog Newsletter Support Press Releases Products Explore our next generation products See overview Products Antigravity App Antigravity Extensions Antigravity CLI Antigravity IDE Antigravity SDK Use Cases Built for developers and teams in the agent-first era See overview Developer Use Cases Frontend Development Full-Stack Development Legacy & Codebase Migrations Technical Debt & Backlog Burndown Automated Testing & QA Verification Incident Triage & Root Cause Analysis Data Pipelines & SQL Engineering Developer Onboarding & Architecture Full-Stack Prototyping Enterprise Architecture & Strategy Daily Operations & Code Reviews Specialized Systems Engineering Other Roles Product Management Technical Program Management Sales & GTM Finance Business & Operations Design & UX Science Marketer Pricing Enterprise Resources Everything you need to stay up-to-date and get help Blog Documentation Changelog Newsletter Support Press Releases Download New Gemini 4 Hydrogen and Orchestrator now in Google Antigravity Read post 0:00 / 0:00 Gemini 4 Hydrogen and Orchestrator - Blog blog Blog Blog Gemini 4 Hydrogen and Orchestrator - Blog All posts / Model Gemini 4 Hydrogen and Orchestrator The Antigravity Team · Nov 12, 2026 · 3 min read Share Copy link Share on X Share on Bluesky Share on LinkedIn Today, we’re rolling out Gemini 4 Hydrogen inside Google Antigravity alongside a new model dropdown option called Orchestrator, which pairs Hydrogen with our strongest models for long-horizon tasks, including Gemini 4 Carbon, in an optimized balance of quality, efficiency, and latency. Selecting Orchestrator (Carbon) from the model selector in Google Antigravity. Put Gemini ",
+      "oneLineKo": "Google Antigravity에 Gemini 4 Hydrogen·Orchestrator 공개",
+      "summaryKo": "Google Antigravity 플랫폼에 신규 모델 Gemini 4 Hydrogen이 추가되고, 이를 Gemini 4 Carbon 등 강력한 모델과 결합한 'Orchestrator' 모델 선택 옵션이 도입되었다. Orchestrator는 장기 과제(long-horizon tasks) 수행 시 품질, 효율성, 지연시간의 균형을 최적화하도록 설계되었다. 사용자는 모델 선택기에서 Orchestrator(Carbon)를 선택해 사용할 수 있다.",
+      "tags": [
+        "gemini",
+        "google-antigravity",
+        "llm"
+      ]
+    }
+  ]
+}
