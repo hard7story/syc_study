@@ -1,0 +1,276 @@
+{
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T01:56:54.428Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37122&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Claude 서비스 장애 발생",
+      "url": "https://news.hada.io/topic?id=37122&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37122&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-14T03:36:27+09:00",
+      "snippet": "claude.ai, Claude API, Claude Code 등에서 오류 증가가 발생했으며, 제공된 장애 이력상 2026년 11월 13일의 두 장애는 모두 해결됨 Microsoft 365 커넥터 와 Claude for Outlook은 회복 조짐을 보이지만, 일부 SharePoint 검색 요청은 여전히 오류를 반환함 Microsoft 측 장애가 종료되지 않아 오류가 재발할 가능성 이 있으며, 해당 연동 문제는 계속 모니터링 중임 10월에는 Google Calendar와 Gmail 커넥터 , Claude Sonnet 5.5의 오류 증가가 있었으며 모두 해결됨 9월에도 여러 Claude 서비스와 모델 , Google Play 구독 관련 장애가 …",
+      "oneLineKo": "Claude 서비스 전반 오류 증가 및 연동 장애",
+      "summaryKo": "claude.ai, Claude API, Claude Code 등에서 오류가 증가하는 장애가 발생했으며, 2026년 11월 13일 발생한 두 건의 장애는 모두 해결되었다. Microsoft 365 커넥터와 Claude for Outlook은 회복 조짐을 보이고 있으나 일부 SharePoint 검색 요청은 여전히 오류를 반환하고 있다. Microsoft 측 장애가 아직 종료되지 않아 오류 재발 가능성이 있어 계속 모니터링 중이며, 과거 10월과 9월에도 Google Calendar, Gmail 커넥터, Claude Sonnet 5.5 등 관련 장애가 있었다.",
+      "tags": [
+        "claude",
+        "anthropic",
+        "incident"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50486748",
+      "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50486748",
+      "publishedAt": "2026-11-13T17:30:10Z",
+      "score": 328,
+      "comments": 92,
+      "snippet": "‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who transformed maths | Mathematics | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us World Europe US news Americas Asia Australia Middle East Africa Inequality Global development Gödel’s work inspired Alan Turing and paved the way for the digital age. Photograph: Alfred Eisenstaedt/The LIFE Picture Collection/Shutterstock View image in fullscreen Gödel’s work inspired Alan Turing and paved the way for the digital age. Photograph: Alfred Eisenstaedt/The LIFE Picture Collection/Shutterstock Mathematics ‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who transformed maths Kurt Gödel left 1,009 pages of densely written text – much of it in an obsolete shorthand – which is now said to contain hundreds of proved theorems Alex Bellos Fri 13 Nov 2026 11.38 EST Last modified on Fri 13 Nov 2026 13.38 EST Share Prefer the Guardian on Google The Austrian logician Kurt Gödel was one of the most original thinkers of the 20th century. His two incompleteness theorems , published in 1931, transformed mathematics and paved the way for the digital age. After his seminal results of the 1930s, Gödel published only a few papers. His unpublished work, however, runs to tens of thousands of pages, and is of great interest to historians of science. Since 2017, the Finnish logician Jan von Plato has led a project at Helsinki University to understand the contents of 16 notebooks that Gödel wrote in the early 1940s. This material – the “workbooks” – is 1,009 pages of densely written text about maths and logic. Much of it is written in a German shorthand, Gabelsberger, that was obsolete even when Gödel was using it. Progress in the mathematical understanding of the ",
+      "oneLineKo": "AI로 괴델 노트북 속 증명된 정리 수백 개 해독",
+      "summaryKo": "쿠르트 괴델이 1940년대에 가벨스베르거 속기법으로 작성한 16권의 노트북(총 1,009쪽)은 수십 년간 해독이 어려운 상태로 남아 있었습니다. 핀란드 헬싱키대의 얀 폰 플라토 연구팀이 2017년부터 이를 분석해왔으며, 최근 AI의 도움으로 노트북 속 내용이 수백 개의 증명된 정리를 포함하고 있는 것으로 밝혀졌습니다. 이는 괴델의 미공개 연구가 당대를 훨씬 앞서 있었음을 보여주는 발견으로 평가됩니다.",
+      "tags": [
+        "ai",
+        "mathematics",
+        "history-of-science"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xvixj7",
+      "title": "Announcing Rust 1.100.0",
+      "url": "https://www.reddit.com/r/programming/comments/1xvixj7/announcing_rust_11000/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xvixj7/announcing_rust_11000/",
+      "publishedAt": "2026-11-13T20:34:53+00:00",
+      "snippet": "submitted by /u/Either_Collection349 [link] [comments]",
+      "oneLineKo": "Rust 1.100.0 버전 출시 발표",
+      "summaryKo": "Rust 프로그래밍 언어의 새 버전인 1.100.0이 발표되었습니다. Reddit 게시글을 통해 공유된 소식이며, 본문에는 구체적인 변경 사항이나 신규 기능에 대한 상세 정보는 포함되어 있지 않습니다. 정확한 업데이트 내용은 공식 릴리즈 노트 확인이 필요합니다.",
+      "tags": [
+        "rust",
+        "release"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37133&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "음악 플레이어를 이렇게 만들지는 말자",
+      "url": "https://news.hada.io/topic?id=37133&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37133&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-14T09:09:41+09:00",
+      "snippet": "인터넷 차단을 겪으며 오프라인 음악 재생의 필요성을 느낀 개발자가 Zig 기반 음악 플레이어 AMP 를 직접 만들기 시작함 기존 플레이어의 가사 표시가 불편해, 최소한의 기능과 C++ 의존성 배제, 네이티브 앱처럼 느껴지는 시스템 통합 을 목표로 삼음 인터넷 복구 뒤 Claude Max 20x 로 며칠간 쉬지 않고 프롬프트를 입력하며 상당 부분을 바이브 코딩했지만, 나중에 수만 줄의 코드를 검토하는 일이 감당하기 어려워짐 Anthropic의 계정 차단과 Codeberg의 AI 금지 정책 이후 직접 재작성한 결과, 4개월 뒤 코드베이스가 거의 절반으로 줄 …",
+      "oneLineKo": "바이브 코딩으로 만든 음악 플레이어, 결국 절반으로 재작성",
+      "summaryKo": "한 개발자가 인터넷 차단을 계기로 Zig 기반의 경량 오프라인 음악 플레이어 AMP를 직접 개발하기 시작했다. C++ 의존성을 배제하고 네이티브 앱 수준의 통합을 목표로 Claude Max 20x를 이용해 며칠간 바이브 코딩을 진행했으나, 이후 수만 줄에 달하는 코드를 검토하는 과정에서 어려움을 겪었다. Anthropic 계정 차단과 Codeberg의 AI 코드 금지 정책을 겪은 뒤 코드를 직접 재작성했고, 4개월 만에 코드베이스를 거의 절반으로 줄이는 결과를 얻었다.",
+      "tags": [
+        "zig",
+        "vibe-coding",
+        "music-player"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50489641",
+      "title": "FAA issues national ground stop",
+      "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50489641",
+      "publishedAt": "2026-11-13T21:05:53Z",
+      "score": 1321,
+      "comments": 808,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11132026&amp;advn=111\" rel=\"nofollow\">https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11132026&amp;a...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;13&#x2F;us&#x2F;ground-stop-nationwide-flights-faa&#x2F;d2ae2ce1-ac6b-59ad-ad8d-daef4e181b34\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;13&#x2F;us&#x2F;ground-stop-natio...</a>",
+      "oneLineKo": "FAA, 안전 이유로 전국 항공편 이륙 중단 명령",
+      "summaryKo": "미국 연방항공청(FAA)이 안전상의 이유로 전국적으로 출발 항공편에 대한 지상 대기(ground stop) 명령을 내렸다. 관련 보도는 NBC News와 New York Times를 통해 속보로 전해졌다. 구체적인 원인이나 영향 범위에 대한 세부 정보는 기사 본문에 제공되지 않았다.",
+      "tags": [
+        "aviation",
+        "faa",
+        "infrastructure"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xv8oe9",
+      "title": "Formatting an entire 25 million line codebase overnight: the rubyfmt story",
+      "url": "https://www.reddit.com/r/programming/comments/1xv8oe9/formatting_an_entire_25_million_line_codebase/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xv8oe9/formatting_an_entire_25_million_line_codebase/",
+      "publishedAt": "2026-11-13T14:02:17+00:00",
+      "snippet": "submitted by /u/Ok_Stomach6651 [link] [comments]",
+      "oneLineKo": "2500만 라인 코드베이스를 밤새 자동 포맷팅한 rubyfmt 사례",
+      "summaryKo": "대규모 Ruby 코드베이스(약 2500만 라인)를 rubyfmt 도구를 사용해 하룻밤 만에 일괄 포맷팅한 경험을 공유하는 글이다. 대규모 조직에서 코드 스타일 통일을 자동화하는 과정과 그 과정에서 겪은 이슈들을 다룬 것으로 보인다. Reddit 게시물로 본문 상세 내용은 제한적이다.",
+      "tags": [
+        "ruby",
+        "code-formatting",
+        "devtools"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37124&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "AI로 해독한 Gödel의 노트, 증명된 정리 수백 개 담겼다는 연구 결과",
+      "url": "https://news.hada.io/topic?id=37124&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37124&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-14T05:32:20+09:00",
+      "snippet": "Helsinki University의 Jan von Plato가 Claude 로 Kurt Gödel의 미공개 수학/논리학 노트 1,009쪽을 분석해, 기존에 알려지지 않았던 정리 수백 개를 찾아냈다고 밝힘 연구팀이 옮겨 적은 노트와 관련 문헌을 입력하자 Claude는 며칠 만에 650쪽 해설 을 생성함. 주당 약 한 쪽에 머물던 분석을 크게 앞당겼지만, 결과는 페이지별 검토가 필요했음 증명이나 증명 개요, 아이디어가 있는 정리 663개 를 추출해 Coq로 검증한 결과, 약 400개는 원문 그대로 검증됐고 약 200개는 수정이 필요했으며 약 50개는 거짓이었다고 함 선택 공리의 독립 …",
+      "oneLineKo": "Claude로 괴델 미공개 노트 분석, 새 정리 수백 개 발견",
+      "summaryKo": "헬싱키대 Jan von Plato 연구팀이 Claude를 활용해 Kurt Gödel의 미공개 수학·논리학 노트 1,009쪽을 분석했다. Claude는 며칠 만에 650쪽 분량의 해설을 생성해 기존 사람 작업 대비 분석 속도를 크게 앞당겼다. 증명이 포함된 정리 663개를 추출해 Coq로 검증한 결과 약 400개는 원문 그대로 검증됐고, 약 200개는 수정이 필요했으며 약 50개는 거짓으로 판명됐다. 이는 AI가 미공개 수학 유산 해독에 활용된 사례로 주목받고 있다.",
+      "tags": [
+        "llm",
+        "claude",
+        "formal-verification"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50474959",
+      "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50474959",
+      "publishedAt": "2026-11-12T22:03:09Z",
+      "score": 678,
+      "comments": 199,
+      "snippet": "Reverse Engineering My Coway Air Purifier to Ditch the Cloud | Scott's Blog Scott J. Goldman Posts RSS Reverse Engineering My Coway Air Purifier to Ditch the Cloud November 11, 2026 16 min read Nice enough air purifier, but I don&rsquo;t love the app. The year is 2017. A string of annual wildfires rocks the West Coast. The sky looks like this in the daytime: My home, like many in the Bay Area, has no insulation and isn&rsquo;t really air sealed. To avoid choking on soot, a lot of people started buying air purifiers like this one : The venerable Coway Airmega It&rsquo;s an overpriced box fan with a HEPA filter and an air quality sensor. It has some controls for the fan speed, and it can also automatically ramp up if the air quality is bad. It&rsquo;s ugly, but they&rsquo;re so ubiquitous around here that I feel like no one even notices them anymore. Also, FWIW, the device works. It really does improve air quality. This device became a staple item in our household when my wife eventually started cranking up the fan at night for white noise (a dual purpose!). Over time, I have become accustomed to it and now also require it to sleep. The Good Night button # Our home also has smart lighting, and it&rsquo;s all integrated with Apple Home. At night, I always press the &ldquo;Good Night&rdquo; button, which shuts off all the lights. I really wanted to tie the fan into that. I&rsquo;d press Good Night, the lights would shut off, and the fan would crank up to my wife&rsquo;s preferred white noise volume. The old Airmega didn&rsquo;t have Wi-Fi, so there was no easy way to integrate it with Apple Home. When it eventually broke, I bought the now-discontinued Coway Airmega IconS (for non-discontinued Wi-Fi models, check out the Airmega 250S or Airmega MightyS ). It&rsquo;s still just a box fan with a HEPA filter, but it&rsquo;s considerably more expensive, aims to look like a piece of fancy mid-century furniture, and most importantly, can be controlled over Wi-Fi (sort of). The Coway Airmega IconS The existing Home Assistant integration # Coway&rsquo;s iPhone app is an absolutely classic IoT affair. It takes forever to load, and it asks me to change my password nearly every time I launch it. Thankfully, a brave soul reverse-engineered the app and wrote an integration for Home Assistant . The integration more or less pretends to be the phone app. It polls the Coway cloud service for status updates and sends commands through it to control the fan. Home Assistant bridges that to Apple Home and&mldr; voilà! Coway IoCare cloud Coway's servers, somewhere on the internet commands ↑ status ↓ status ↑ commands ↓ My house Home Assistant IoCare integration Air purifier Airmega IconS, on Wi-Fi Apple Home the Good Night button Why ditch the cloud? # The downside of this approach is that you&rsquo;re still at the mercy (or lack thereof) of the Coway cloud service. It seems like at least once or twice a year, it breaks. Here are some of the reasons I have seen it break: Co",
+      "oneLineKo": "코웨이 공기청정기 클라우드 없이 직접 제어하기 리버스 엔지니어링",
+      "summaryKo": "저자는 코웨이 에어메가 아이콘S 공기청정기를 애플 홈과 연동해 '굿나잇' 버튼으로 백색소음용 팬을 작동시키려 했다. 기존 Home Assistant 연동은 코웨이 클라우드 서비스를 통해 폰 앱을 흉내내 명령을 전달하는 방식이었는데, 이 클라우드 서비스가 1년에 한두 번씩 장애를 일으키는 문제가 있었다. 이에 저자는 기기의 Wi-Fi 통신을 직접 리버스 엔지니어링해 클라우드를 거치지 않고 로컬에서 직접 제어하는 방법을 구현했다.",
+      "tags": [
+        "reverse-engineering",
+        "iot",
+        "home-assistant"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37137&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Ace - 내 Mac에서 팀원과 AI 에이전트가 함께 작업하는 코딩 환경",
+      "url": "https://news.hada.io/topic?id=37137&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37137&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-14T09:30:02+09:00",
+      "snippet": "채널에서 팀원과 구현 방향을 논의한 뒤 @ace 를 부르면 에이전트가 앞선 대화를 읽고 작업을 시작 에이전트가 작업 중 질문을 올리면 답을 아는 팀원이 바로 답해 작업을 이어갈 수 있음 같은 Tailscale 네트워크 에서 팀원의 채널에 들어가 대화와 진행 상황을 실시간으로 보고, 채널 주인이 허용하면 그 팀원의 Mac에서 실행되는 에이전트에 직접 작업을 맡김 에이전트는 Mac에 설치된 Xcode, Docker, gh 를 그대로 사용하며, 데스크톱 조작을 켜면 빌드한 앱의 창도 채팅 옆에 띄워 보여줌 작업마다 Git worktree와 브랜치 를 따로 만들 …",
+      "oneLineKo": "Mac 로컬 환경서 팀원·AI 에이전트 협업 코딩 툴 Ace",
+      "summaryKo": "Ace는 Mac에서 팀원과 AI 에이전트가 함께 작업할 수 있는 코딩 환경이다. 채널에서 팀원과 논의 후 @ace를 호출하면 에이전트가 대화 맥락을 읽고 작업을 시작하며, 작업 중 질문이 생기면 팀원이 실시간으로 답하며 진행을 도울 수 있다. 같은 Tailscale 네트워크를 통해 다른 팀원의 Mac에서 실행 중인 에이전트에도 권한을 받아 직접 작업을 맡길 수 있다. 에이전트는 Mac에 설치된 Xcode, Docker, gh 등을 그대로 활용하며, 작업마다 Git worktree와 브랜치를 분리해 관리한다.",
+      "tags": [
+        "ai-agent",
+        "developer-tools",
+        "macos"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50482379",
+      "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
+      "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50482379",
+      "publishedAt": "2026-11-13T12:10:24Z",
+      "score": 453,
+      "comments": 310,
+      "oneLineKo": "1960년 Science지 논문: 2026년 11월 13일 파멸의 날 예측",
+      "summaryKo": "이 글은 1960년 Science 저널에 게재된 논문으로, 2026년 11월 13일 금요일을 '둠스데이'로 지목하는 내용을 다루고 있다. 제목과 출처 정보만 제공되어 구체적인 논증 내용은 확인할 수 없다. 당시 인구 증가율에 대한 수학적 모델링을 기반으로 한 예측으로 추정되는 고전적 논문이다.",
+      "tags": [
+        "science",
+        "prediction",
+        "history"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37132&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Haskell 생태계를 위한 기술 비전",
+      "url": "https://news.hada.io/topic?id=37132&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37132&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-14T08:38:14+09:00",
+      "snippet": "Haskell Foundation 기술 리더십 위원회(TLC) 가 정식 활동을 시작해 개발 도구, 보안, 장기 호환성 개선 과제를 발굴하고 재단의 자금 지원 대상을 정함 AI가 코드를 생성할 때 타입과 도메인 전용 언어(eDSL)로 지켜야 할 규칙을 코드에 담아 , 개발자가 변경 사항을 검토하고 통제하기 쉽게 만드는 방향을 제시함 빠른 개발 반복 주기와 디버깅 개선 을 추진하며, GHC 자체 CI 소요 시간을 6시간에서 2시간으로 줄이는 것을 목표로 함 온보딩을 개발자 경험의 기준 으로 삼고, 빠른 설치, 접근하기 쉬운 문서, 직관적이며 서로 조합하고 …",
+      "oneLineKo": "Haskell Foundation, 생태계 기술 비전 발표",
+      "summaryKo": "Haskell Foundation 기술 리더십 위원회(TLC)가 정식 출범하여 개발 도구, 보안, 장기 호환성 개선 과제를 발굴하고 재단의 자금 지원 방향을 정하기로 했다. AI 코드 생성 시 타입과 eDSL 규칙을 코드에 명시해 개발자가 변경 사항을 쉽게 검토·통제할 수 있도록 하는 방향을 제시했다. 빠른 개발 반복과 디버깅 개선을 위해 GHC의 CI 소요 시간을 6시간에서 2시간으로 단축하는 것을 목표로 한다. 또한 온보딩을 개발자 경험의 핵심 기준으로 삼아 빠른 설치와 접근성 높은 문서화를 추진한다.",
+      "tags": [
+        "haskell",
+        "ghc",
+        "devtools"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50487522",
+      "title": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
+      "url": "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50487522",
+      "publishedAt": "2026-11-13T18:18:37Z",
+      "score": 290,
+      "comments": 144,
+      "oneLineKo": "iPad에서 PowerPoint 열려면 클릭 16번 필요",
+      "summaryKo": "학생이 iPad에서 PowerPoint 파일을 여는 데 16번의 클릭이 필요하다는 불만을 담은 게시물이 Reddit에 올라왔다. 제목만으로는 구체적인 과정이나 원인은 알 수 없으나, 교육 현장에서 기기 및 앱 사용성 문제가 제기된 것으로 보인다. 이는 학교에서 사용하는 기술 도구의 복잡한 UX에 대한 불만을 보여주는 사례로 언급된 듯하다.",
+      "tags": [
+        "ipad",
+        "powerpoint",
+        "ux"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37131&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "빅테크는 우리를 실망시킨다",
+      "url": "https://news.hada.io/topic?id=37131&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37131&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-14T08:35:14+09:00",
+      "snippet": "Microsoft Outlook, Teams, Copilot 장애 로 업무가 중단되고, 일부 중소기업은 정상적인 고객 지원 대신 소셜미디어로 연락을 받음 장애 영향은 기업을 넘어 학교, 대학, 법원 까지 이어졌으며, 서로 다른 이틀에 걸쳐 문제가 발생함 엔지니어를 포함한 수만 명 규모의 감원 이 장애 가능성을 높이고 신속한 복구를 어렵게 한다는 비판이 나옴 Microsoft 시스템에 대한 높은 의존도 때문에 서비스 장애가 여러 조직의 운영 중단으로 번지며, 특히 필수 업무를 수행하는 조직에는 큰 피해를 줄 수 있음 여러 유럽 국가기관이 오픈소스 대안으 …",
+      "oneLineKo": "MS 대규모 장애로 기업·학교·법원 업무 마비",
+      "summaryKo": "Microsoft Outlook, Teams, Copilot 등에서 장애가 발생해 기업 업무가 중단되고 일부 중소기업은 소셜미디어로 고객 응대를 대신해야 했다. 장애 영향은 학교, 대학, 법원까지 확산되었으며 이틀에 걸쳐 문제가 반복됐다. 엔지니어를 포함한 대규모 감원이 장애 발생 가능성을 높이고 신속한 복구를 어렵게 한다는 비판이 제기되었으며, Microsoft에 대한 높은 의존도로 인해 유럽 일부 국가기관은 오픈소스 대안을 검토하고 있다.",
+      "tags": [
+        "microsoft",
+        "cloud-outage",
+        "opensource"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50487864",
+      "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+      "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50487864",
+      "publishedAt": "2026-11-13T18:40:44Z",
+      "score": 289,
+      "comments": 162,
+      "snippet": "$11.4 million in NVIDIA hardware vanishes during shipment from California to Texas - FreightWaves SONAR Demo | SONAR Login | Customer Support | SONAR Demo | Subscribe | Newsletters Contact Us Brands Search Close Search for: Search News Analysis & Insights Top Stories Technology & Startups Fuel & Energy Compliance & Regulation Freight Fraud Legal Issues Layoffs & Bankruptcies Cross-Border (Mexico/Canada) Equipment & OEM Drivers & Workforce Company Earnings Payments & Finance M&A Trade & Tariffs Trade Compliance Infrastructure & Reindustrialization Logistics & Brokerage Warehousing Fulfillment Weather & Critical Events Modes Truckload LTL Maritime Intermodal Rail Air Cargo Parcel & Last Mile Markets & Data Inside SONAR SONAR Sitreps SONAR Chart of the Week Pricing Power Index Freightonomics SONAR Learn More Request a Demo SONAR Self-Serve Data SONAR API SONAR Knowledge Center Media FreightWaves Today What the Truck?!? Brake Check The Long Haul Events Cross Border Logistics Summit 2026 FreightWaves Roadshow - Chicago 3PL Summit Transportation Family Business Summit FreightWaves Capacity Summit - Spring Small Fleet & Owner Operator Summit Freight Fraud Symposium Domestic Supply Chain Summit Supply Chain AI Symposium Future of Last Mile Summit Enterprise Fleet Summit FreightWaves Capacity Summit - Fall F3 Awards Dinner Supply Chain Day F3: Future of Freight Festival 2027 Awards Fraud Fighters Awards AI Excellence in Supply Chain Awards FreightTech Awards Shipper of Choice Awards Resources Sponsored Insights Insurance & Risk Management Webinars White Papers FreightWaves Playbook FreightWaves Checkpoint FreightWaves Health CFCO (Compliance Certification) CFPA (Pricing Certification) Advertise With Us RSS Facebook Twitter LinkedIn YouTube Instagram ● Watch Now --> Click here to open Menu Click to close the product launchpad Home / News / Analysis & Insights / Freight Fraud / $11.4 million in NVIDIA hardware vanishes during shipment from California to Texas Freight Fraud Top Stories Truckload $11.4 million in NVIDIA hardware vanishes during shipment from California to Texas Six pallets of computer hardware reportedly disappeared during a California-to-Texas shipment, with the truck last traced to Southern California. Phil Brink · Monday, November 09, 2026 NVIDIA's headquarters in Santa Clara, California. Authorities are investigating the reported theft of $11.4 million in NVIDIA computer hardware during a shipment from Oakland to Texas. (Photo: NVIDIA) Six pallets of NVIDIA computer hardware worth a reported $11.4 million disappeared during a shipment from California to Texas. A truck collected the merchandise in Oakland on Aug. 29 for delivery to Fort Worth. Investigators reportedly tracked the vehicle through several extended stops before losing its trail in Southern California. The Oakland Police Department confirmed an ongoing grand theft investigation following a complaint filed Sept. 13, 2026. The disappearance comes amid reports of nearly $111 mill",
+      "oneLineKo": "엔비디아 하드웨어 11.4M$ 캘리포니아-텍사스 운송 중 실종",
+      "summaryKo": "8월 29일 오클랜드에서 포트워스로 향하던 트럭이 운송 중 6개 팔레트 분량, 총 1140만 달러 상당의 엔비디아 컴퓨터 하드웨어를 분실한 사건이 발생했다. 수사당국은 트럭의 이동 경로를 추적했으나 남부 캘리포니아에서 흔적이 끊겼다. 오클랜드 경찰국은 9월 13일 접수된 신고를 바탕으로 중절도 혐의 수사가 진행 중임을 확인했다. 이번 사건은 최근 약 1억1100만 달러 규모의 화물 사기 신고가 잇따르는 가운데 발생했다.",
+      "tags": [
+        "freight-fraud",
+        "nvidia",
+        "supply-chain"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50487185",
+      "title": "After 600 experiments, here's what I discovered about JEPA world models",
+      "url": "https://haddyalchaer.com/jepa",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50487185",
+      "publishedAt": "2026-11-13T17:55:28Z",
+      "score": 215,
+      "comments": 36,
+      "snippet": "After 600 experiments, here's what I discovered about JEPA world models — Haddy Alchaer Haddy Alchaer World models · JEPA · Planning After 600 experiments, here's what I discovered about JEPA world models By Haddy Alchaer · November 2026 Solving long-horizon tasks without any extra training 0 / 24 on target · step 0 Vanilla LeWM can be augmented to solve long-horizon physics tasks on out-of-distribution goals. This method uses transformations on a memory graph to generate on-the-fly subgoals without any additional training. Shown here are some of the hardest tasks it solved. There's a big debate in AI right now about what a world model should be. Most of the attention goes to generative world models, which predict the future by generating it, usually in pixels. Many scientists, including Yann LeCun, argue that this is wasted effort. Most of the pixels don't matter for deciding what to do, and many of them can't be predicted at all. [1] The proposed alternative is JEPA, the joint-embedding predictive architecture. It has three parts: an encoder, a predictor and a planner. The encoder turns each frame of observation into a learned embedding, a compact vector that describes the scene. The predictor takes that embedding plus an action and predicts the embedding of the next frame. The planner then tries hundreds of action sequences inside the predictor and picks the one whose predicted end state lands closest to the embedding of the goal. The whole loop runs in embedding space, so the model only has to learn the parts of the scene that are important for deciding actions. The three parts of a JEPA world model. This year a team including LeCun released LeWM [2] , a JEPA world model whose main benchmark is Push-T [3] , a simulation where a robot pushes a gray T-shaped block across a table until the T sits in the green target position shown in a goal image. I've spent the last few months running 600 experiments on it. A goal image from Push-T The planner is given an image like this one and has to make the scene match it. The gray T is the block, the blue disc is the robot's pusher, and the green T is the goal position painted on the table. One detail in this image turned out to affect the success rate more than replacing the predictor with simulated physics. The first thing I wanted to know was how much LeWM is held back by its predictions, so I started by swapping out the predictor for the simulator's perfect physics, while keeping everything else the same. I then gave both versions long-horizon tasks, with the goal 75 steps away, along with the same subgoals: frames from an expert demonstration, one every 25 steps. Vanilla LeWM succeeded 78% of the time. The version with true physics succeeded 77%. Along the kinds of paths it was trained on, LeWM's predictions are already as good as perfect physics for planning. Success on 250 long-horizon tasks 78 % Vanilla LeWM learned predictor ≈ 77 % LeWM real physics the simulator itself That means the next gains f",
+      "oneLineKo": "JEPA 세계모델 LeWM, 600회 실험으로 장기 계획 한계 분석",
+      "summaryKo": "저자는 Yann LeCun 팀이 공개한 JEPA 기반 세계모델 LeWM을 대상으로 Push-T 벤치마크에서 600회 실험을 수행했다. 학습된 예측기를 시뮬레이터의 완벽한 물리 엔진으로 교체해도 장기 과업(75스텝) 성공률이 78%에서 77%로 거의 동일해, 예측 정확도가 아닌 다른 요인이 성능을 제한한다는 점을 발견했다. 추가 학습 없이 메모리 그래프 변환을 통해 즉석에서 서브골을 생성하는 방법을 제안해 분포 밖(out-of-distribution) 목표의 장기 물리 과업 해결 능력을 향상시켰다. 이는 예측기 개선보다 계획(planning) 및 목표 설정 방식 개선이 더 중요한 성능 향상 요인임을 시사한다.",
+      "tags": [
+        "jepa",
+        "world-model",
+        "yann-lecun"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50490593",
+      "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+      "url": "https://orcasairband.com/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50490593",
+      "publishedAt": "2026-11-13T22:04:24Z",
+      "score": 196,
+      "comments": 45,
+      "snippet": "Orcas Airband — live aviation radio from the San Juan Islands Orcas Airband offline Go to Traffic Channels Squelch 10 dB All channels ATIS / AWOS Sort Frequency Busiest count · last heard ↓ Latest Traffic board Compiled automatically from the radio calls. It can be wrong or incomplete: not for navigation. × Press play to start listening Nothing leaves your speakers until you do. Mix One at a time Speed 1× Auto catch-up 1.25× 1.5× 2× LIVE",
+      "oneLineKo": "KORS 공항 항공무선 실시간 스트리밍 사이트",
+      "summaryKo": "Orcas Airband는 San Juan Islands의 KORS 공항 주변 항공 무선(airband) 교신을 모든 주파수에서 실시간으로 들을 수 있는 웹사이트입니다. 채널별 트래픽 보드를 제공하며 무선 통화를 자동으로 텍스트화하지만 항법용으로는 사용할 수 없다고 명시하고 있습니다. 현재 Victoria, CA 공항도 ground stop(이착륙 중단) 상태임을 함께 안내하고 있습니다.",
+      "tags": [
+        "aviation",
+        "streaming",
+        "radio"
+      ]
+    }
+  ]
+}
