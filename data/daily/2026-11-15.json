@@ -1,0 +1,277 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T01:27:43.461Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37159&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Claude Fable 5.2로 에이전트 1,000개 팀 안전하게 돌리기 - 페르마의 마지막 정리 형식화 실험",
+      "url": "https://news.hada.io/topic?id=37159&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37159&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-14T23:39:02+09:00",
+      "snippet": "Anthropic 연구진이 출시 전 Claude Fable 5.2로 리드 에이전트 1개와 헬퍼 999개를 돌려, 페르마의 마지막 정리 증명을 Lean으로 형식화하는 데 28.7시간이 걸렸음 9월 실험(에이전트 수십 개, 연구자 지휘, 11일)과 비교해 출력 토큰은 1/3, 증명 길이는 1/7 별도 협업 도구 없이 에이전트별 Git 브랜치와 공유 Postgres만 사용. 리드가 첫 10분 안에 Announce / Assign / Notes / Subtasks / Landed 다섯 개 표를 만들었고, 가장 어려운 정리(Langlands–Tunnell)는 헬퍼 약 750개가 붙어 최대 10단계, 2,418개 작업으로 쪼갬 안전 설 …",
+      "oneLineKo": "Claude 에이전트 1000개로 페르마 정리 Lean 형식화 실험",
+      "summaryKo": "Anthropic 연구진이 출시 전 Claude Fable 5.2 모델로 리드 에이전트 1개와 헬퍼 999개를 운용해 페르마의 마지막 정리를 Lean으로 형식화하는 실험을 진행했으며 28.7시간이 소요됐다. 9월에 진행된 수십 개 에이전트, 11일 소요 실험과 비교해 출력 토큰은 1/3, 증명 길이는 1/7로 효율이 크게 개선됐다. 별도 협업 도구 없이 에이전트별 Git 브랜치와 공유 Postgres만으로 작업을 조율했으며, 리드 에이전트가 10분 만에 Announce, Assign, Notes, Subtasks, Landed 다섯 개 표를 구성했다. 가장 난이도가 높았던 Langlands–Tunnell 정리는 약 750개 헬퍼가 투입돼 최대 10단계, 2,418개 작업으로 세분화됐다.",
+      "tags": [
+        "llm",
+        "agent",
+        "formal-verification"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50497132",
+      "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+      "url": "https://gitlab.com/snipedbywifi/terminactory",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50497132",
+      "publishedAt": "2026-11-14T14:05:54Z",
+      "score": 135,
+      "comments": 27,
+      "snippet": "Hey HN readers!<p>I&#x27;m snipedbywifi (<a href=\"https:&#x2F;&#x2F;gitlab.com&#x2F;snipedbywifi\" rel=\"nofollow\">https:&#x2F;&#x2F;gitlab.com&#x2F;snipedbywifi</a>), and i&#x27;ve been working on terminactory. Please try it out if you&#x27;d like to play a cozy factory game while waiting for long agent tasks to finish!<p>The game is a factory game (overused niche, i know xD), but runs in your terminal. Reason i built it? glad you asked: So basically, it started off with me wanting a terminal-native factory game. Me and the modern 5.5 claude models made a base for the game that I liked, and then i went ham adding features &#x2F; fixing some minor flaws (like adding claude code hooks so you recieve &quot;telegrams&quot; [the agent&#x27;s responses], so you can review progress directly in-game). (yes, I had heavy AI assistance, disclaimer!!!)<p>Right now, the game has basic factory features you&#x27;d expect from a game like this (build stuff, delete stuff, measure how much you&#x27;re earning, basic selection tools), along with a few more.. &quot;unexpected&quot; features. This includes a fake in-game browser that has a wiki, fake forums, some fun bits of lore, some more lore, a LOT more lore, and a research graph that shows how many items or how much RP (research points) you&#x27;d need to unlock something, and some more QOL features.<p>If anyone actually has this issue &#x2F; want of a terminal-based game that runs alongside your agents so you don&#x27;t doomscroll, do you have any suggestions, or additional ideas I could add?<p>It&#x27;s hosted on GitLab, soo, that&#x27;s one additional thing i&#x27;d like to mention<p>Thanks for reading!! snipedbywifi<p>(p.s. first HN post lol)\n(p.s. p.s. there&#x27;s a lot of hidden lore in the game, so.. lore-divers? you might like it?)",
+      "oneLineKo": "Rust·ratatui 기반 터미널 공장 경영 게임 공개",
+      "summaryKo": "개발자가 터미널에서 실행되는 공장 경영형 아이들 게임 'terminactory'를 Rust와 ratatui로 만들어 공개했다. Claude AI의 도움을 받아 제작했으며, 건설·삭제·수익 측정 등 기본 공장 게임 기능과 함께 가짜 인게임 브라우저, 위키, 포럼, 숨겨진 로어, 연구 그래프 등 다양한 부가 기능을 포함한다. 에이전트 작업 대기 중 지루하지 않게 즐길 수 있는 게임을 목표로 만들었으며, Claude Code 훅을 연동해 에이전트 응답을 게임 내 '텔레그램' 형태로 확인할 수 있다. GitLab에 호스팅되어 있으며 첫 HN 게시물이라고 밝혔다.",
+      "tags": [
+        "rust",
+        "terminal-game",
+        "ratatui"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xw63wj",
+      "title": "A Unicode Escape Can Turn a Java Comment Into Executable Code",
+      "url": "https://www.reddit.com/r/programming/comments/1xw63wj/a_unicode_escape_can_turn_a_java_comment_into/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xw63wj/a_unicode_escape_can_turn_a_java_comment_into/",
+      "publishedAt": "2026-11-14T16:10:10+00:00",
+      "snippet": "submitted by /u/Cool-Click1253 [link] [comments]",
+      "oneLineKo": "유니코드 이스케이프로 Java 주석이 실행 코드로 둔갑",
+      "summaryKo": "Java는 소스 코드 파싱 전에 유니코드 이스케이프(\\uXXXX)를 먼저 처리하는 특성이 있다. 이 때문에 겉보기에는 일반 주석처럼 보이는 텍스트 안에 유니코드 이스케이프가 포함되면, 컴파일러가 이를 치환해 실제 실행 가능한 코드로 변환할 수 있다. 이는 코드 리뷰나 육안 검토로는 발견하기 어려운 숨겨진 보안 취약점을 만들어낼 수 있어 주의가 필요하다.",
+      "tags": [
+        "java",
+        "security",
+        "unicode"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37178&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "PyPI, 보안 신호를 더 명확히 보여주는 개편된 프로젝트 페이지 공개",
+      "url": "https://news.hada.io/topic?id=37178&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37178&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-15T07:36:47+09:00",
+      "snippet": "PyPI 프로젝트 상세 페이지 개편 이 완료돼 적용됨. 새 보안 탭에서 릴리스의 출처 상태와 파일별 증명 정보를 확인할 수 있음 출처 상태 는 릴리스 파일의 증명 보유 여부로 계산함. 증명이 없다는 사실만으로 악성 파일인 것은 아니며, 파일의 출처를 암호학적으로 검증할 수 없다는 뜻임 출처 경고 는 일부 파일의 증명 누락, 같은 릴리스 내 출처 불일치, 이전 릴리스 대비 출처 변경이나 증명 소실을 알림. 정상적인 사유도 있지만 설치 전에 확인해야 함 프로젝트 상세 페이지 는 출처 경고를 상단에 표시하고, 메타데이터를 검증 여부 …",
+      "oneLineKo": "PyPI, 프로젝트 페이지에 출처·증명 보안 신호 표시 개편",
+      "summaryKo": "PyPI가 프로젝트 상세 페이지를 개편해 새로운 보안 탭에서 릴리스의 출처 상태와 파일별 증명 정보를 확인할 수 있게 했다. 출처 상태는 릴리스 파일의 암호학적 증명 보유 여부로 계산되며, 증명이 없다고 해서 악성 파일을 의미하지는 않는다. 출처 경고는 증명 누락, 동일 릴리스 내 출처 불일치, 이전 릴리스 대비 출처 변경 등을 알려주며 설치 전 확인이 권장된다. 프로젝트 상세 페이지 상단에는 이러한 출처 경고와 메타데이터 검증 여부가 표시된다.",
+      "tags": [
+        "pypi",
+        "supply-chain-security",
+        "package-management"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50497892",
+      "title": "PyPI's redesigned project pages with clearer security signals are now live",
+      "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50497892",
+      "publishedAt": "2026-11-14T15:40:52Z",
+      "score": 201,
+      "comments": 90,
+      "snippet": "PyPI's redesigned project pages with clearer security signals are now live - The Python Package Index Blog Skip to content PyPI.org PyPI blog User documentation Developer documentation Navigation The Python Package Index Blog PyPI's redesigned project pages with clearer security signals are now live Search Search GitHub The Python Package Index Blog GitHub The PyPI Blog The PyPI Blog On this page Context The New Security Tab Provenance States Full Provenance No Provenance Provenance Warnings Incomplete Provenance Inconsistent Provenance Change of Provenance Loss of Provenance Redesigned Project Detail Page Release Files and Release History Getting Help Looking Ahead & Acknowledgments Archive Archive 2026 2025 2024 2023 Authors Authors Nicole Harris Jacob Coffee Maria Ashna Mike Fiedler William Woodruff Seth Larson Dustin Ingram Ee Durbin Facundo Tuesca Deb Nicholson Shamika Monahan Donald Stufft Tags On this page Context The New Security Tab Provenance States Full Provenance No Provenance Provenance Warnings Incomplete Provenance Inconsistent Provenance Change of Provenance Loss of Provenance Redesigned Project Detail Page Release Files and Release History Getting Help Looking Ahead & Acknowledgments Back to index Nicole Harris PyPI Design Contributor Metadata November 6, 2026 6 min read Related links Planned Updates to the PyPI User Interface PyPI now supports digital attestations Releases now reject new files after 14 days PyPI's redesigned project pages with clearer security signals are now live In July, we announced a series of planned updates to the PyPI user interface. Shaped by user research with members of the Python community , the updates aim to improve how we surface security signals and display package details. We're pleased to share that this work is now complete and live on PyPI . Context &para; With the rapid growth of the Python ecosystem, PyPI has become an increasingly attractive target for malicious actors. In response, the PyPI team has delivered many security features while taking a more active role in helping PyPI users assess and understand package security. Digital attestations , introduced in 2024, are an example of this effort, providing a verifiable record of a release file's provenance (where it came from). However, provenance and attestations are still unfamiliar concepts for many PyPI users, and PyPI's interface did little to communicate their meaning, importance, or limitations. To address this, PyPI partnered with Kabu Creative to bring clearer security signals to the PyPI UI, implementing the recommendations developed in the OpenSSF Attestations Style Guide . Here's a look at what's changed, what it means for you, and what actions you can take. The New Security Tab &para; The new security tab communicates release provenance states and displays per-file attestations, giving you a dedicated place to verify where the release files came from. The new security tab on a PyPI project detail page Provenance States &para; ",
+      "oneLineKo": "PyPI 프로젝트 페이지 리디자인, 보안 신호 강화",
+      "summaryKo": "PyPI가 패키지 공급망 보안을 강화하기 위해 프로젝트 상세 페이지를 리디자인하여 정식 공개했습니다. 새로운 보안 탭에서는 릴리스의 provenance(출처) 상태와 파일별 attestation을 명확히 보여줍니다. 이는 OpenSSF Attestations Style Guide 권고를 반영한 것으로, Kabu Creative와 협업해 사용자 연구를 바탕으로 설계되었습니다. Full Provenance, No Provenance, Incomplete/Inconsistent Provenance 등 다양한 상태를 구분해 사용자가 패키지 신뢰도를 쉽게 판단할 수 있도록 돕습니다.",
+      "tags": [
+        "pypi",
+        "supply-chain-security",
+        "python"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xvr455",
+      "title": "How I accidentally became a millionaire",
+      "url": "https://www.reddit.com/r/programming/comments/1xvr455/how_i_accidentally_became_a_millionaire/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xvr455/how_i_accidentally_became_a_millionaire/",
+      "publishedAt": "2026-11-14T02:38:21+00:00",
+      "snippet": "submitted by /u/NXGZ [link] [comments]",
+      "oneLineKo": "우연히 백만장자가 된 경험담 공유 게시물",
+      "summaryKo": "Reddit r/programming에 '어쩌다 백만장자가 되었나'라는 제목의 글이 게시되었습니다. 본문 내용은 제공되지 않아 구체적인 사연은 확인할 수 없습니다. 제목으로 미루어 개발자의 개인적인 경험담을 다룬 것으로 보입니다.",
+      "tags": [
+        "career",
+        "programming"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37175&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Microsoft 장애, 고객들에게 Microsoft 의존도를 뼈저리게 깨닫게 하다",
+      "url": "https://news.hada.io/topic?id=37175&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37175&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-15T06:33:00+09:00",
+      "snippet": "Microsoft 365의 장시간 장애 로 이메일, Teams 메시징, 파일 접근, Copilot 등 여러 업무 서비스가 영향을 받으면서, 기업들이 Microsoft 생태계에 얼마나 깊이 의존하는지 드러남 Microsoft는 11월 12일 18:26 GMT에 장애가 시작됐다고 밝혔으며, Exchange Online, Microsoft 365 Education 등에서 문제가 발생함. 13일 14:01 GMT에는 서비스 가용성이 개선되고 있다고 발표함 Nextcloud 공동 창업자 Jos Poortvliet은 단일 공급업체에 모든 시스템을 의존하면 장애 발생 시 다른 서비스로 신속하게 전환하거나, 예비 시스템을 가동하거나, 외부 연결을 끊고 업무를 지속하기 어렵다 고 지적함 …",
+      "oneLineKo": "MS 365 장애로 드러난 기업들의 과도한 Microsoft 의존도",
+      "summaryKo": "Microsoft 365의 장시간 장애로 이메일, Teams, 파일 접근, Copilot 등 다수의 업무 서비스가 중단되면서 기업들의 Microsoft 생태계 의존도가 크게 부각됐다. 장애는 11월 12일 18:26 GMT에 시작되어 13일 14:01 GMT에 가용성이 개선되기 시작했다고 발표됐다. Nextcloud 공동 창업자 Jos Poortvliet은 단일 공급업체에 전적으로 의존하면 장애 시 대체 서비스로의 전환이나 예비 시스템 가동이 어려워진다고 지적했다.",
+      "tags": [
+        "microsoft365",
+        "outage",
+        "vendor-lock-in"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50441444",
+      "title": "Generative AI uses more energy on non-English text",
+      "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50441444",
+      "publishedAt": "2026-11-10T15:07:28Z",
+      "score": 175,
+      "comments": 98,
+      "oneLineKo": "생성형 AI, 비영어권 텍스트에 더 많은 에너지 소모",
+      "summaryKo": "생성형 AI 모델이 영어가 아닌 언어로 텍스트를 처리할 때 더 많은 에너지를 소모한다는 연구 결과가 나왔다. 제목만 제공되어 구체적인 원인이나 수치는 알 수 없으나, 언어별 토큰화 효율성 차이가 에너지 소비에 영향을 미칠 가능성을 시사한다. 이는 AI의 환경적 비용과 언어 간 형평성 문제를 함께 제기하는 내용으로 보인다.",
+      "tags": [
+        "generative-ai",
+        "energy-efficiency",
+        "nlp"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37174&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Google은 왜 AI를 쓰지 않는 학교의 검색 접근까지 차단하나? 몇 가지 가설",
+      "url": "https://news.hada.io/topic?id=37174&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37174&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-15T05:43:10+09:00",
+      "snippet": "Google은 학교가 학생의 검색 결과에서 AI Overviews를 끄려면 Google Search 접근도 함께 차단해야 한다 는 방침을 밝혀 학부모와 교육계의 반발을 사고 있음 교실 내 AI 사용을 금지하는 교육구가 늘어나는 가운데, 기술 사용 축소를 요구하는 학부모들도 검색 기능 상실은 교사에게 문제가 될 것 으로 보고 있음 전직 Google 직원은 검색과 AI가 통합 제품이라는 최근 반독점 소송 판단 을 지키려는 선택일 가능성을 제기함. 다만 Google은 관련 질문에 답하지 않았고, 전문가들도 이 가설을 확신하지 않음 Common Sense Media는 안전하지 …",
+      "oneLineKo": "구글, AI Overviews 차단 시 검색 전체도 차단",
+      "summaryKo": "Google이 학교에서 학생용 검색 결과의 AI Overviews 기능을 끄려면 Google Search 자체 접근도 함께 차단해야 한다는 방침을 밝혀 학부모와 교육계의 반발을 사고 있다. 교실 내 AI 사용 금지를 요구하는 교육구가 늘고 있지만, 검색 기능 상실은 교사들에게 실질적 문제가 될 것이라는 우려가 나온다. 전직 Google 직원은 이 조치가 검색과 AI가 통합 제품이라는 최근 반독점 소송 판단을 지키기 위한 선택일 수 있다는 가설을 제기했으나, Google은 공식 답변을 거부했고 전문가들도 이를 확신하지 못하고 있다.",
+      "tags": [
+        "google",
+        "ai-overviews",
+        "education"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50496811",
+      "title": "Advancing science and engineering with Antigravity's /teamwork",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50496811",
+      "publishedAt": "2026-11-14T13:20:43Z",
+      "score": 160,
+      "comments": 36,
+      "snippet": "Advancing science & engineering with Antigravity’s /teamwork Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research. Tools & services Explore our latest AI models and products. Open source Discover open-source code and collaborate with the community. Try Deep Review Get detailed AI feedback on complex documents Shaping the future together See all programs Faculty programs Participating in the academic research community through meaningful engagement with university faculty. Student programs Supporting the next generation of researchers through a wide range of programming. R&D programs Collaborating with industry and academic experts to support foundational science and innovation. Locations Find your place in our global offices and research labs. Translating discovery into real-world impact People Our researchers drive advancements in computer science through both fundamental and applied research. Teams Collaborative groups tackling the world's most challenging AI problems. Research Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Resources Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research. Tools & services Explore our latest AI models and products. Open source Discover open-source code and collaborate with the community. Try Deep Review Get detailed AI feedback on complex documents Conferences & events Careers Shaping the future together See all programs Faculty programs Participating in the academic research community through meaningful engagement with university faculty. Student programs Supporting the next generation of researchers through a wide range of programming. R&D programs Collaborating with industry and academic experts to support foundational science and innovation. Locations Find your place in our global offices and research labs. Blog About Translating discovery into real-world impact People Our researchers drive advancements in computer science through both fundamental and applied research. Teams Collaborative groups tackling",
+      "oneLineKo": "구글, Antigravity '/teamwork' 기능으로 과학·공학 연구 지원",
+      "summaryKo": "구글 리서치 블로그가 Antigravity의 /teamwork 기능을 소개하며, 이를 활용해 과학 및 공학 분야 연구를 어떻게 발전시킬 수 있는지 다루는 게시물입니다. 본문 상당 부분이 구글 리서치 사이트의 메뉴 및 탐색 링크로 구성되어 있어 구체적인 기능 설명이나 사례는 제공된 내용만으로는 확인되지 않습니다. 제목을 통해 협업(teamwork) 기능이 AI 연구 지원 도구인 Antigravity의 일부임을 유추할 수 있습니다.",
+      "tags": [
+        "ai",
+        "research",
+        "collaboration"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37180&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "OpenAI, 범용 모델이 로봇을 제어하기 시작하면서 로보틱스 팀 해체",
+      "url": "https://news.hada.io/topic?id=37180&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37180&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-15T08:34:39+09:00",
+      "snippet": "OpenAI가 독립 로보틱스 팀을 해체 하고 인력을 기존 연구 및 응용 조직으로 재배치함. 회사는 로봇 개발 철수가 아니라 범용 로봇 개발을 가속하기 위한 개편이라고 밝힘 개편의 계기는 GPT-6 Astra 등 범용 모델을 로봇에 직접 적용할 수 있다는 발견 임. 로봇 전용 모델을 별도로 개발하기보다 언어, 코드, 시각 모델의 역량을 활용하는 방식에 무게를 둠 Nvidia 연구에서 Astra 기반 에이전트는 시뮬레이션 조작 벤치마크 성공률 74.8% 를 기록해 최고 로봇 특화 모델의 51.0%를 웃돌았음. 실제 로봇이 아닌 디지털 환경의 결과임 전문 …",
+      "oneLineKo": "OpenAI, 범용 모델이 로봇 제어하자 로보틱스 팀 해체",
+      "summaryKo": "OpenAI가 독립 로보틱스 팀을 해체하고 인력을 기존 연구 및 응용 조직으로 재배치했다. 이는 로봇 개발 철수가 아니라 범용 모델을 활용해 로봇 개발을 가속화하기 위한 개편이라고 밝혔다. GPT-6 Astra 같은 범용 모델을 로봇에 직접 적용할 수 있다는 발견이 계기가 됐으며, 로봇 전용 모델 대신 언어·코드·시각 모델의 역량을 활용하는 방향으로 전환했다. Nvidia 연구에 따르면 Astra 기반 에이전트는 시뮬레이션 조작 벤치마크에서 74.8% 성공률을 기록해 기존 로봇 특화 모델의 51.0%를 상회했다.",
+      "tags": [
+        "openai",
+        "robotics",
+        "llm"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50500963",
+      "title": "SpaceX catches the Starship to end Flight 15",
+      "url": "https://www.spacex.com/launches/starship-flight-15",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50500963",
+      "publishedAt": "2026-11-14T21:22:24Z",
+      "score": 650,
+      "comments": 448,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595</a><p><a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233</a>",
+      "oneLineKo": "SpaceX, 스타십 15차 비행서 기체 회수 성공",
+      "summaryKo": "SpaceX의 스타십 15번째 비행(Flight 15)이 기체를 발사대에서 캐치(catch)하는 방식으로 성공적으로 마무리되었습니다. 관련 소식은 SpaceX 공식 X(트위터) 계정과 유튜브 중계 영상을 통해 공유되었습니다. 본문에는 발사 세부 과정이나 기술적 성과에 대한 추가 설명은 포함되어 있지 않습니다.",
+      "tags": [
+        "spacex",
+        "starship",
+        "aerospace"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37177&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "SpaceX, Starship 포획으로 15차 비행 마무리",
+      "url": "https://news.hada.io/topic?id=37177&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37177&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-15T07:33:47+09:00",
+      "snippet": "SpaceX, Starship 포획으로 15차 비행 마무리",
+      "oneLineKo": "SpaceX, Starship 15차 비행서 포획 성공",
+      "summaryKo": "SpaceX가 Starship 15차 시험 비행을 성공적으로 마무리했다. 이번 비행에서 발사체를 포획하는 방식으로 임무를 마쳤다. 구체적인 포획 방식이나 세부 비행 데이터는 본문에 제시되지 않았다.",
+      "tags": [
+        "spacex",
+        "starship",
+        "aerospace"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50499017",
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50499017",
+      "publishedAt": "2026-11-14T17:43:10Z",
+      "score": 628,
+      "comments": 261,
+      "snippet": "Lovable: Many Apps Expose Sensitive Data &mdash; Crissy Field GmbH Home Anwendungssicherheit Beratung Softwareentwicklung Case Studies Research Über uns < All Research Reports (German) Lovable: Many Apps Built on the Platform Expose Sensitive Data AI makes it easier to build your own web applications, but handling sensitive data still requires special care. We examined 159,041 Lovable projects and found many cases where personal and confidential information was accessible without logging in. Diesen Artikel auf Deutsch lesen About Lovable Lovable is a Swedish AI startup founded in Stockholm in 2023 by Anton Osika and Fabian Hedin. The platform turns plain-language descriptions into web applications and is designed to be accessible even to people with little or no programming experience . Lovable grew out of Osika&rsquo;s open-source project &ldquo;GPT Engineer&rdquo;, released in 2023. The project evolved into the GPT Engineer App before being renamed Lovable in late 2024 and launching publicly that November. Visit the Lovable website The Promise Lovable can build impressively sophisticated web projects with AI, from static websites to full applications with user management and database connections. But as soon as an application handles confidential information, one question becomes crucial: Is that data protected against unauthorized access? In its marketing , Lovable repeatedly emphasizes that no technical knowledge is needed to build projects . This can give the impression that the platform takes care of security too. Yet Lovable&rsquo;s Terms & Conditions place responsibility for applications and data handling on the customers themselves. That leaves a troubling gap between the promise of an easy-to-use, all-in-one service and the responsibilities customers are expected to take on. Against this backdrop, we investigated how well sensitive data in Lovable applications is protected, in collaboration with Handelsblatt . Lina Knees reported on the findings on November 2, 2026 (in German) . Research Question We wanted to find out whether sensitive data in Lovable applications was accessible without logging in. We looked separately at data sent when a website first loaded and additional content we checked by making further read-only requests with the same API key. The result: We found many clear examples of sensitive data left unprotected. Methodology We focused on the database service Supabase . Its integration is relatively easy to analyze, and we believe it is the most widely used database service among Lovable projects. Lovable&rsquo;s own database features, introduced in late 2025, are still less widely used. Similar misconfigurations may occur there too, but we did not examine them in this analysis. Using datasets from the open web archive Common Crawl , we identified and analyzed 159,041 Lovable projects from December 2025 to September 2026 . Of these, 34,545 used Supabase. 24,664 websites sent database records from Supabase as soon as they l",
+      "oneLineKo": "AI 코딩 플랫폼 Lovable 앱, 여권 등 민감정보 대량 유출",
+      "summaryKo": "보안 업체 Crissy Field가 Lovable로 제작된 159,041개 프로젝트를 조사한 결과, Supabase를 연동한 다수의 앱에서 로그인 없이도 개인정보와 20만 건 이상의 비공개 메시지가 노출됨을 확인했다. Lovable은 비개발자도 쉽게 웹앱을 만들 수 있다고 홍보하지만, 약관상 데이터 보호 책임은 사용자에게 있어 보안 설정 미흡으로 여권 정보 등 민감 데이터가 외부에 그대로 노출된 사례가 다수 발견됐다. 이번 조사는 독일 매체 Handelsblatt와 협력해 진행됐다.",
+      "tags": [
+        "ai-coding",
+        "supabase",
+        "data-security"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50440709",
+      "title": "Why get an expensive Pi when I have an old phone?",
+      "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50440709",
+      "publishedAt": "2026-11-10T14:16:05Z",
+      "score": 503,
+      "comments": 280,
+      "snippet": "Why get an expensive Pi when I have an old phone? — so.long.thanks.fish &larr; so.long.thanks.fish Why get an expensive Pi when I have an old phone? November 2026 The rooted Redmi talking over USB-C to the LED controller. I’m working on a project that needs a high resolution camera, GPS, storage, and a microcontroller to control some lights. (More on the project soon!) I’ve been designing PCB adapters around a Raspberry Pi, an Arducam 64MP camera, and a GPS module. Every time I add another part, the bill grows. I’m also trying an ESP32-P4 board, which will get its own post soon. But the alternative I keep coming back to is an old smartphone. I have a Redmi 13C 5G and a Huawei Mate 30 5G. Phones like these turn up second hand on Taobao for roughly ¥300–500 (£33–56 / €40–67 / $45–75) . The Redmi gives me a camera that saves 50MP JPEGs; the Mate 30 has a 40MP main camera and a telephoto lens. Both already contain GPS, storage, a clock, a battery, mobile data, and a touchscreen. Their USB-C ports give me a route to the PCB that will handle the lights and other sensors. Here is the rough parts comparison I made while deciding what to build next: What I need Used Redmi or Mate 30 Raspberry Pi 4 approach Computer Included in phone price Pi 4, 4GB : ¥880 / £98 / €118 / $132 High resolution camera Redmi 50MP JPEG; Mate 30 40MP Arducam 64MP : ~¥400 / £45 / €53 / $60 GPS Included GPS HAT : ~¥153 / £17 / €20 / $23 Storage Built in 64GB microSD : ~¥50 / £6 / €7 / $7 Core total ¥300–500 / £33–56 / €40–67 / $45–75 ~¥1,483 / £165 / €198 / $222 Clock Included RTC HAT : ~¥80 / £9 / €11 / $12 Battery backup Included UPS HAT : ~¥133 / £15 / €18 / $20 , plus cells Touch display Included 5″ touchscreen : ~¥247 / £28 / €33 / $37 Mobile data Built in, with a SIM 4G HAT : ~¥527 / £59 / €70 / $79 More fully equipped total ¥300–500 / £33–56 / €40–67 / $45–75 ~¥2,317 / £258 / €310 / $347 , plus batteries These are illustrative November 2026 listings. The more fully equipped Pi total uses the cellular HAT’s GPS instead of buying the separate GPS HAT; its modem is 4G, while the phones are 5G models. Neither side includes my custom light controller PCB, a SIM or data plan, or an enclosure. The conversions use 10 November 2026 mid market rates of approximately ¥1 = £0.111531 / €0.133643 / $0.14991 , rounded to whole units in the table. The phone is already becoming more than a price exercise. I’ve unlocked and rooted the Redmi, tested its camera, and got it sleeping and waking for scheduled work. I can plug it into my computer and have Codex configure and test the pieces I need. The Huawei is harder to root, but I can still run a kiosk app on it. I’ve made a stand to photograph the same target with the Redmi and Arducam side by side; I want to see what detail each camera actually captures. A 50MP JPEG file does not, by itself, settle that question. The open question is supply. Finding two good used phones is easy; finding a few hundred matching ones, with healthy batteries and ",
+      "oneLineKo": "중고 스마트폰 vs 라즈베리파이 부품 가격·기능 비교",
+      "summaryKo": "저자는 고해상도 카메라, GPS, 저장장치, 마이크로컨트롤러가 필요한 프로젝트를 위해 라즈베리파이 기반 설계 대신 중고 스마트폰(Redmi 13C 5G, Huawei Mate 30 5G) 사용을 검토했다. 중고폰은 카메라·GPS·저장공간·배터리·터치스크린·모바일 데이터가 이미 내장되어 있어 약 ¥300-500에 구매 가능한 반면, 동등한 기능의 Raspberry Pi 4 기반 구성은 HAT 모듈들을 추가하면 ¥1,483~2,317까지 비용이 올라간다. 실제로 Redmi를 루팅해 카메라 테스트와 예약 작업까지 성공했으며, Codex를 이용해 구성 요소를 설정·테스트하고 있다. 다만 동일한 품질의 중고폰을 대량으로 안정적으로 조달하는 것이 과제로 남아있다.",
+      "tags": [
+        "raspberry-pi",
+        "hardware",
+        "iot"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50496602",
+      "title": "Tech companies are trying to shift the concept of privacy again",
+      "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50496602",
+      "publishedAt": "2026-11-14T12:45:45Z",
+      "score": 458,
+      "comments": 173,
+      "snippet": "Tech Companies Are Trying to Shift the Entire Concept of Privacy (Again) | Electronic Frontier Foundation Skip to main content About Contact Press People Opportunities Issues Free Speech Privacy Creativity and Innovation Transparency International Security Artificial Intelligence Our Work Deeplinks Blog Press Releases Events Legal Cases Whitepapers Podcasts Annual Reports Take Action Action Center Volunteer Follow EFF Tools Privacy Badger Surveillance Self-Defense Certbot Atlas of Surveillance Cover Your Tracks Street Level Surveillance apkeep Shop Donate Donate to EFF Shop Giving Societies Sponsorships Other Ways to Give Membership FAQ Email updates on news, actions, and events in your area. Join EFF Lists Copyright (CC BY) Trademark Privacy Policy Thanks Electronic Frontier Foundation Donate If you use technology, this fight is yours. Donate today EFFecting Change: So You've Heard About Flock. Now What? on December 3 Electronic Frontier Foundation About Contact Press People Opportunities Issues Free Speech Privacy Creativity and Innovation Transparency International Security Artificial Intelligence Our Work Deeplinks Blog Press Releases Events Legal Cases Whitepapers Podcasts Annual Reports Take Action Action Center Volunteer Follow EFF Tools Privacy Badger Surveillance Self-Defense Certbot Atlas of Surveillance Cover Your Tracks Street Level Surveillance apkeep Shop Donate Donate to EFF Shop Giving Societies Sponsorships Other Ways to Give Membership FAQ Tech Companies Are Trying to Shift the Entire Concept of Privacy (Again) DEEPLINKS BLOG By Thorin Klosowski November 13, 2026 Tech Companies Are Trying to Shift the Entire Concept of Privacy (Again) Privacy, which companies were once happy to claim was all about personal choice, is now primed to affect everyone around you even more than it already did. Meta and Google’s smart glasses can record anything the owner is looking at or use artificial intelligence to describe it. Apple’s* Audio Intelligence feature turns every Apple Watch into a transcription machine that records or summarizes your day. Amazon’s Bee devices take that a step further and can record and transcribe everything. Dozens of other companies are introducing pendants , rings , and other products designed to record, transcribe, or summarize everything we say and do all day long. Privacy has always been a team sport. The actions you take with communication apps , collaborative software , or your cloud backup solutions , have long impacted everyone else you’re interacting with. But moving those choices deeper into the physical world where strangers, colleagues, family, and friends are all now a part of your privacy choices is drastically changing the game. Tech companies want us to accept a reality where one person’s privacy choices (or lack thereof) means you suddenly need to be an expert in consumer tech who understands the capabilities of many devices on the market, how they work, how and if they signal when they’re recording, ",
+      "oneLineKo": "AI 웨어러블 확산, 프라이버시 개념이 '주변인'까지 확장",
+      "summaryKo": "EFF는 Meta와 Google의 스마트 글래스, Apple의 Audio Intelligence, Amazon Bee 등 AI 웨어러블 기기들이 착용자뿐 아니라 주변 사람들의 프라이버시까지 영향을 미친다고 지적한다. 이런 기기들은 사용자의 시야나 음성을 상시 녹음·전사·요약할 수 있어, 기존에 개인 선택의 문제였던 프라이버시가 타인의 동의 없는 노출로 변질되고 있다. 기사는 기업들이 이러한 변화를 마치 당연한 흐름처럼 포장하며 프라이버시의 틀 자체를 다시 바꾸려 한다고 비판한다.",
+      "tags": [
+        "privacy",
+        "wearables",
+        "ai"
+      ]
+    }
+  ]
+}
