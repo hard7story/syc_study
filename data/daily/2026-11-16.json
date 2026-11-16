@@ -1,0 +1,278 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T01:29:36.984Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37218&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "현대 LLM의 위치 임베딩 이해하기",
+      "url": "https://news.hada.io/topic?id=37218&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37218&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-16T05:40:06+09:00",
+      "snippet": "LLM의 위치 정보 는 같은 토큰이라도 문장 안의 순서와 거리에 따라 다르게 처리하도록 도움을 줌. 인과 마스크도 암묵적인 순서 정보를 주지만, 토큰 간 거리를 직접 알려주지는 않음 GPT-2는 학습한 위치 벡터를 입력 임베딩에 더하고, 원래 Transformer는 고정된 사인/코사인 벡터를 더함. 두 방식 모두 토큰의 절대 위치 를 표현함 RoPE 는 어텐션 내부에서 쿼리와 키를 회전시켜 상대 위치를 내적에 반영함. 회전 전 벡터가 고정돼 있다면 두 토큰을 같은 거리만큼 이동해도 내적이 유지됨 최근 아키텍처는 일부 차원만 회전하는 부분 …",
+      "oneLineKo": "현대 LLM의 위치 임베딩 방식 비교 정리",
+      "summaryKo": "이 글은 LLM에서 토큰의 순서와 거리를 표현하는 위치 임베딩 기법들을 설명한다. GPT-2는 학습된 위치 벡터를, 원래 Transformer는 고정된 사인/코사인 벡터를 입력에 더해 절대 위치를 표현한다. 반면 RoPE(Rotary Position Embedding)는 어텐션 내부에서 쿼리와 키 벡터를 회전시켜 상대 위치 정보를 내적에 반영하는 방식으로, 토큰 간 거리가 동일하면 내적 값이 유지되는 특성을 가진다. 최근 아키텍처들은 전체 차원이 아닌 일부 차원만 회전시키는 변형된 RoPE 방식을 사용하는 추세다.",
+      "tags": [
+        "llm",
+        "positional-embedding",
+        "transformer"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50463399",
+      "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+      "url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50463399",
+      "publishedAt": "2026-11-12T05:29:24Z",
+      "score": 334,
+      "comments": 167,
+      "snippet": "- YouTube About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket &copy; 2026 Google LLC",
+      "oneLineKo": "AI가 3달러 아두이노로 1994년식 지프 ECU 역분석",
+      "summaryKo": "이 영상은 Claude Code와 Codex라는 AI 코딩 도구를 활용해 1994년식 지프 차량의 ECU(엔진제어장치)를 리버스 엔지니어링한 프로젝트를 다룹니다. 단 3달러짜리 아두이노 보드를 이용해 하드웨어 인터페이스를 구성하고, AI의 도움으로 ECU의 동작 방식을 분석했습니다. 본문은 유튜브 영상 설명 위주로, 구체적인 기술적 과정은 영상 내용을 통해 확인할 수 있습니다.",
+      "tags": [
+        "arduino",
+        "reverse-engineering",
+        "llm"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xwsbxo",
+      "title": "Slack’s Migration to a Cellular Architecture",
+      "url": "https://www.reddit.com/r/programming/comments/1xwsbxo/slacks_migration_to_a_cellular_architecture/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xwsbxo/slacks_migration_to_a_cellular_architecture/",
+      "publishedAt": "2026-11-15T10:33:28+00:00",
+      "snippet": "submitted by /u/Ok_Stomach6651 [link] [comments]",
+      "oneLineKo": "슬랙, 셀룰러 아키텍처로 시스템 이전",
+      "summaryKo": "Slack이 자사 인프라를 셀룰러 아키텍처(Cellular Architecture)로 마이그레이션한 사례를 다룬 글이다. 셀룰러 아키텍처는 시스템을 독립적인 셀 단위로 분리해 장애 격리와 확장성을 높이는 설계 방식이다. Reddit r/programming에 공유된 게시물로, 본문 내용은 제목 외에 구체적으로 제공되지 않았다.",
+      "tags": [
+        "architecture",
+        "slack",
+        "scalability"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37216&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Claude라는 망상",
+      "url": "https://news.hada.io/topic?id=37216&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37216&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-16T04:44:00+09:00",
+      "snippet": "기술 업계에서 코딩 실력과 사업 성공을 모든 분야에서 뛰어나다는 증거 로 받아들이는 과신은, AI가 인류를 구원하거나 위협할 것이라는 극단적인 전망으로 이어질 수 있음 빌 게이츠는 Claude의 코딩 실력이 자신과 비슷해졌다고 돌아봤으며, 이어 긴 코딩 작업과 코드 결함 탐지에서 AI가 초인적 수준에 이르렀다 고 평가함 프로그래밍을 특별한 정체성으로 삼던 개발자에게 자신처럼 코드를 만들고 칭찬까지 해주는 AI는 경외와 두려움 을 유발하며, 이를 초지능으로 받아들이게 할 수 있음 자율 에이전트 가 독자적으로 행동한다는 서사 …",
+      "oneLineKo": "AI 코딩 실력 과신이 낳은 'Claude 초지능' 망상 비판",
+      "summaryKo": "이 글은 코딩 실력과 사업 성공을 만능의 증거로 받아들이는 기술 업계의 과신 문화를 지적한다. 빌 게이츠가 Claude의 코딩 능력을 초인적이라 평가한 사례를 들며, 이런 평가가 AI를 초지능으로 착각하게 만드는 서사를 강화한다고 비판한다. 개발자들이 자신의 정체성과 결부된 코딩 능력을 AI가 뛰어넘을 때 느끼는 경외와 두려움이 자율 에이전트에 대한 과장된 서사로 이어진다고 분석한다.",
+      "tags": [
+        "llm",
+        "ai-hype",
+        "claude"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50507303",
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50507303",
+      "publishedAt": "2026-11-15T14:46:58Z",
+      "score": 1074,
+      "comments": 587,
+      "snippet": "All AI-generated code should be Open Source Skip to main content light dark RSS @jcubic 888888 888 888 88888888888 888888 888 d8b d8b \"88b 888 888 888 \"88b 888 Y8P Y8P 888 888 888 888 888 888 888 8888b. 888 888 888 888 88888b. 888 888 8888b. 88888b. 888 888 888 .d88b. 888 888 888 888 .d8888b 88888888 888 \"88b 888 .88P 888 888 888 \"88b 888 888 \"88b 888 \"88b 888 .88P 888 d8P Y8b 888 888 888 888 d88P\" d88P 888 .d888888 888888K 888 888 888 888 888 888 .d888888 888 888 888888K 888 88888888 888 888 888 888 888 d88P 88P 888 888 888 \"88b Y88b 888 888 d88P 888 d8b 88P 888 888 888 888 888 \"88b 888 Y8b. Y88b 888 d88P 888 Y88b. d88P 888 \"Y888888 888 888 \"Y88888 88888P\" 888 Y8P 888 \"Y888888 888 888 888 888 888 \"Y8888 \"Y8888888P\" 888 \"Y8888P 88888888 .d88P .d88P .d88P\" .d88P\" 888P\" 888P\" _ _ _ _____ | | __ _| | ___ _| |__ |_ _| _ | |/ _` | |/ / | | | '_ \\ | | | |_| | (_| | <| |_| | |_) | | |_ \\___/ \\__,_|_|\\_\\\\__,_|_.__/ |_(_) _ _ _ _ | | __ _ _ __ | | _(_) _____ _(_) ___ ____ _ | |/ _` | '_ \\| |/ / |/ _ \\ \\ /\\ / / |/ __|_ / | |_| | (_| | | | | <| | __/\\ V V /| | (__ / / \\___/ \\__,_|_| |_|_|\\_\\_|\\___| \\_/\\_/ |_|\\___/___| 888888 888 888 88888888888 \"88b 888 888 888 888 888 888 888 888 8888b. 888 888 888 888 88888b. 888 888 \"88b 888 .88P 888 888 888 \"88b 888 888 .d888888 888888K 888 888 888 888 888 88P 888 888 888 \"88b Y88b 888 888 d88P 888 d8b 888 \"Y888888 888 888 \"Y88888 88888P\" 888 Y8P .d88P .d88P\" 888P\" 888888 888 d8b d8b \"88b 888 Y8P Y8P 888 888 888 8888b. 88888b. 888 888 888 .d88b. 888 888 888 888 .d8888b 88888888 888 \"88b 888 \"88b 888 .88P 888 d8P Y8b 888 888 888 888 d88P\" d88P 888 .d888888 888 888 888888K 888 88888888 888 888 888 888 888 d88P 88P 888 888 888 888 888 \"88b 888 Y8b. Y88b 888 d88P 888 Y88b. d88P 888 \"Y888888 888 888 888 888 888 \"Y8888 \"Y8888888P\" 888 \"Y8888P 88888888 .d88P .d88P\" 888P\" All AI-generated code should be Open Source Jakub T. Jankiewicz This may be a hot take, but I strongly believe that all code generated by AI should be Open Source. And here's why. First of all, AI models were trained on a massive corpus of Open Source code written since RMS announced the GNU Project and the Free Software Movement. That code was simply scraped from the internet and used without permission or proper attribution. The models were also trained on Stack Overflow and Stack Exchange sister projects, which are released under Creative Commons licenses that legally require attribution. Turning this collective knowledge into proprietary, closed-source code feels like license laundering. The second reason is legal: purely AI -generated code is not written by a human, meaning it should not be copyrightable. The foundation for this principle in the US goes back to the famous Monkey Selfie dispute , which established that non-humans cannot hold copyrights. A precedent later cited by the U.S. Copyright Office regarding AI . Following the same logic, Wikimedia Commons requires all purely AI -generated images to be tagged as Public Domain . However, copyright la",
+      "oneLineKo": "AI 생성 코드는 오픈소스여야 한다는 주장",
+      "summaryKo": "저자는 AI 코드 생성 모델이 오픈소스 코드와 Stack Overflow 등 Creative Commons 라이선스 자료를 무단 학습했으므로, AI가 생성한 코드를 독점 소스로 만드는 것은 '라이선스 세탁'에 해당한다고 주장한다. 또한 법적으로 순수 AI 생성물은 저작권이 성립하지 않는다는 점을 Monkey Selfie 판례와 미국 저작권청의 입장을 근거로 제시한다. 이와 유사하게 Wikimedia Commons는 순수 AI 생성 이미지를 퍼블릭 도메인으로 표시하도록 요구한다고 언급한다.",
+      "tags": [
+        "ai",
+        "copyright",
+        "open-source"
+      ]
+    },
+    {
+      "source": "reddit",
+      "id": "t3_1xwyhpm",
+      "title": "544 unmaintained PyPI packages with imports that fail on Python 3.12+ still get 100M+ downloads a month",
+      "url": "https://www.reddit.com/r/programming/comments/1xwyhpm/544_unmaintained_pypi_packages_with_imports_that/",
+      "commentsUrl": "https://www.reddit.com/r/programming/comments/1xwyhpm/544_unmaintained_pypi_packages_with_imports_that/",
+      "publishedAt": "2026-11-15T15:37:40+00:00",
+      "snippet": "Python 3.12 and 3.13 dropped 25 stdlib modules (distutils, imp, cgi, pipes, telnetlib...). This scan of PyPI found 1,623 projects that still import one of them outside a try/except. 852 of those are in the 60k most downloaded packages, and 544 of the 852 haven't had a release in two years. Index covers last year's releases plus the top 60k by downloads, so the real number is higher. Download numbers are from ClickHouse's public PyPI dataset (ClickPy). submitted by /u/Business-Feedback635 [link] [comments]",
+      "oneLineKo": "PyPI 패키지 544개, 3.12+ 미지원인데 월 1억 다운로드",
+      "summaryKo": "Python 3.12와 3.13에서 distutils, imp, cgi 등 25개 표준 라이브러리 모듈이 제거되면서, 이를 try/except 없이 import하는 PyPI 프로젝트 1,623개가 발견됐다. 이 중 852개는 다운로드 상위 6만 개 패키지에 포함되며, 그중 544개는 2년 넘게 릴리스가 없는 상태다. 조사 범위가 지난해 릴리스와 상위 6만 개 패키지로 한정돼 있어 실제 영향받는 패키지 수는 더 많을 것으로 추정된다. 다운로드 통계는 ClickHouse의 공개 PyPI 데이터셋(ClickPy)에서 수집됐다.",
+      "tags": [
+        "python",
+        "pypi",
+        "package-maintenance"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37212&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Rust와 ratatui로 만든 터미널 방치형 공장 게임",
+      "url": "https://news.hada.io/topic?id=37212&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37212&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-16T02:45:05+09:00",
+      "snippet": "Terminactory 는 에이전트 작업과 나란히 즐기도록 만든 터미널 공장 게임으로, 광물을 채굴하고 가공해 판매하거나 연구를 통해 컴퓨터와 석유 단계까지 발전시킬 수 있음 공격이나 무작위 고장 없이 공장을 운영하며, 게임을 떠나 있는 동안에도 수익이 쌓임 Claude Code 훅 으로 에이전트의 마지막 응답을 게임 안의 전보로 받을 수 있고, 다른 에이전트도 tfac msg 명령으로 메시지를 보낼 수 있음 내장 브라우저 termweb 은 아이템과 기계 위키, 연구와 생산 통계, 가상의 사이트와 포럼을 제공하며, 공장 운영과 세계관 탐색 중 원하는 …",
+      "oneLineKo": "Rust·ratatui 기반 터미널 방치형 공장 게임 공개",
+      "summaryKo": "Terminactory는 Rust와 ratatui로 제작된 터미널 기반 방치형 공장 게임으로, 광물 채굴과 가공, 판매, 연구를 통해 컴퓨터와 석유 단계까지 발전시킬 수 있다. 공격이나 무작위 고장이 없어 게임을 떠나 있어도 수익이 쌓이는 방치형 구조를 가졌다. Claude Code 훅을 통해 에이전트의 응답을 게임 내 전보로 받아볼 수 있고, tfac msg 명령으로 다른 에이전트와 메시지를 주고받을 수 있다. 내장 브라우저 termweb에서는 아이템·기계 위키, 생산 통계, 가상의 사이트와 포럼 등을 탐색할 수 있다.",
+      "tags": [
+        "rust",
+        "terminal",
+        "idle-game"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50506719",
+      "title": "The MacBook Pro's OLED PWM problem",
+      "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50506719",
+      "publishedAt": "2026-11-15T13:15:22Z",
+      "score": 417,
+      "comments": 233,
+      "snippet": "The MacBook Pro’s OLED PWM Problem: When a ‘Better’ Display Becomes Worse to Use Home Field Notes Sightings About Contact Donate Fellow Anorak Search Sign in Subscribe Field Notes The MacBook Pro’s OLED PWM Problem: When a ‘Better’ Display Becomes Worse to Use Apple has made a spectacular display. But spectacular isn’t the same as comfortable, and the people discovering that distinction deserve to be heard. MacAnorak 14 Nov 2026 10 min Share Apple has brought tandem OLED technology to the MacBook Pro , joining the Mini-LED display that has served the range since 2021 (and which Apple continues to sell ). Apple calls this a “PROLED XDR Display”. It features individually illuminated pixels, effectively infinite contrast, wonderfully deep blacks and the sort of image quality that Mini-LED, for all its considerable strengths, can’t fully equal. Peak HDR brightness has increased, and Apple has introduced a new display engine designed to manage colour, luminance and pixel usage with extraordinary precision. And of course, in a first for any Apple notebook display, it has touch-input capability. When Apple unveiled the new MacBook Pro, the initial reaction to the screen was overwhelmingly positive. But there’s a burgeoning discussion taking place within the Mac community that deserves attention. On ⁠ MacRumors forums , a thread titled RIP MacBook Pro PROLED for PWM Sensitive Eyes - apple cmon! has attracted people describing remarkably similar experiences. Discussions are also appearing across Reddit, with owners describing discomfort shortly after using their new machines . Some report headaches; others describe a strange sensation of eye fatigue, dizziness, nausea, or an inability to concentrate on the screen for extended periods. Some have already returned the device . Mike Wuerthele, of AppleInsider, published an article on 10 November titled ⁠ If you’re getting dizzy using PROLED MacBook Pro, you are not alone , examining these reports. The following caveat probably doesn't need to be made, but I will make it anyway: these are individual experiences, not evidence that the new MacBook Pro is causing problems for everyone. Plenty of owners are likely perfectly content with (and dazzled by) their new displays. But that isn’t really the point. For the people experiencing these symptoms, the fact that somebody else can happily spend several hours staring at the same screen isn’t particularly reassuring, especially given Apple's long-standing commitment to accessibility. A display can be technically spectacular and still be a spectacularly poor display for a subset of people. PWM Much of the discussion centres on Pulse Width Modulation, or PWM. It’s a technique used to control screen brightness by rapidly switching or modulating the light output. On an OLED display, the pixels themselves produce the light, rather than relying on a separate backlight. By varying the way that light output is modulated, the display can control its apparent brightness. At su",
+      "oneLineKo": "새 맥북 프로 OLED, PWM 밝기조절로 눈 피로 호소",
+      "summaryKo": "애플이 맥북 프로에 탠덤 OLED 기술을 적용한 'PROLED XDR 디스플레이'를 도입하며 화질은 크게 향상됐지만, 일부 사용자들이 PWM(Pulse Width Modulation) 방식의 밝기 조절로 인해 두통, 눈의 피로, 어지러움, 메스꺼움 등을 호소하고 있다. MacRumors 포럼과 Reddit에서 유사한 불편 사례가 다수 보고되고 있으며, 일부는 이미 제품을 반품했다. 모든 사용자가 겪는 문제는 아니지만, PWM 민감군에게는 기술적으로 뛰어난 디스플레이가 오히려 사용하기 어려운 디스플레이가 될 수 있다는 지적이 나온다.",
+      "tags": [
+        "oled",
+        "pwm",
+        "macbook-pro"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37225&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "휴대폰 포렌식 도구는 잠긴 기기에서 어떻게 데이터를 꺼내나",
+      "url": "https://news.hada.io/topic?id=37225&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37225&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-16T06:44:30+09:00",
+      "snippet": "상용 휴대폰 잠금 해제 도구의 차별점은 새로운 공격 기법보다 취약점 악용의 체계적 상품화 에 있음. 기기별 공격 코드를 확보하고 안정화해 비전문가도 사용할 수 있는 자동화 작업 흐름으로 묶음 Android에서 재부팅 후 최초 잠금 해제 전(BFU) 에는 사용자 인증이 필요한 저장소가 잠겨 있음. 최초 잠금 해제 후(AFU) 에는 이 저장소의 복호화 키가 메모리에 남아, 화면을 다시 잠가도 최초 잠금 해제 전 상태로 돌아가지 않음 BFU 공격은 부팅 체인과 신뢰 실행 환경을 침해한 뒤 자격 증명을 무차별 대입하는 방식으로 진행할 수 있음. 별도 보안 요소(Secure Element) 가 올바르게 구현돼 있으면 하드웨어의 인증 시도 제한이 추가 방어선으로 남음 …",
+      "oneLineKo": "휴대폰 포렌식 도구의 잠금 해제 원리 분석",
+      "summaryKo": "상용 휴대폰 잠금 해제 도구의 핵심은 새로운 해킹 기법이 아니라 기존 취약점을 체계적으로 상품화해 비전문가도 쓸 수 있는 자동화된 작업 흐름으로 만든 데 있다. Android는 재부팅 후 최초 잠금 해제 전(BFU) 상태에서는 사용자 인증이 필요한 저장소가 잠겨 있지만, 최초 잠금 해제 후(AFU)에는 복호화 키가 메모리에 남아 다시 화면을 잠가도 BFU 상태로 돌아가지 않는 특성이 있다. BFU 공격은 부팅 체인과 신뢰 실행 환경(TEE)을 침해한 뒤 자격 증명을 무차별 대입하는 방식으로 이루어지며, 별도의 보안 요소(Secure Element)가 올바르게 구현되어 있으면 하드웨어 차원의 인증 시도 제한이 추가 방어선 역할을 한다.",
+      "tags": [
+        "mobile-forensics",
+        "android-security",
+        "secure-element"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50509411",
+      "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+      "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50509411",
+      "publishedAt": "2026-11-15T18:36:10Z",
+      "score": 389,
+      "comments": 182,
+      "snippet": "Chlor: Phantasialand bekam wegen Outlook nichts mit zum Inhalt zur Navigation zur Suche Wetter Verkehr Menü öffnen Menü schließen Suche einblenden Suche ausblenden Eingabe löschen Suchen Mein NRW Übersicht Mein NRW Aachen und Eifel Bergisches Land Münsterland Niederrhein Ostwestfalen-Lippe Rheinland Ruhrgebiet Sauer- und Siegerland Politik Wirtschaft Sport Freizeit Kultur Wetter Verkehr ARD Mediathek ARD Sounds Hier findest du uns auch Mein NRW Übersicht Mein NRW Aachen und Eifel Bergisches Land Münsterland Niederrhein Ostwestfalen-Lippe Rheinland Ruhrgebiet Sauer- und Siegerland Politik Wirtschaft Sport Freizeit Kultur Wetter Verkehr ARD Mediathek ARD Sounds Suche einblenden Suche ausblenden Eingabe löschen Suchen Sie befinden sich hier: WDR Mein NRW Rheinland Rhein-Erft-Kreis Video starten, abbrechen mit Escape IT-Panne Schuld für Chlorgasunfall im Phantasialand | WDR aktuell Bildquelle: WDR WDR . 46 Sek. . Verfügbar bis 15.11.2028 . Microsoft-Panne als Ursache : 15 Gäste im Phantasialand verletzt Stand: 14.11.2026, 18:01 Uhr Wegen der Microsoft-Störung am Freitag bekam das Phantasialand nicht mit, dass zu viel Chlor im Pool war. 15 Gäste wurden verletzt. Von Caroline Jüngermann , Lara Burghardt und Martin Heuchel Diesem Problem waren wir alle ausgesetzt: Am Freitag gab es eine Störung, die den US-Softwarekonzern Microsoft lahmgelegt hat. Unter anderem das E-Mail-Programm Outlook. Betroffen war auch das Phantasialand. Durch die Störung kamen keine Mails an, wie das Unternehmen dem WDR am Samstag mitteilte. So bekam niemand mit, dass das Wartungssicherheitssystem der Saunalandschaft längst per Mail Alarm geschlagen hat. Denn das automatischen Dosiersystem hatte zu viel Chlor in den Pool gepumpt. Reizungen der Atemwege Dadurch wurden Gäste im Hotel Ling Bao des Phantasialands in Brühl verletzt. Sie haben über gesundheitliche Probleme geklagt, nachdem sie den Pool besucht hatten. Der wurde zeitweise gesperrt, konnte inzwischen aber wieder freigegeben werden, wie die Feuerwehr am Samstag dem WDR mitteilte. Wegen der Beschwerden der Hotel-Besucher wurden Rettungskräfte und die Feuerwehr gerufen. 13 Gäste klagten über Reizungen der Atemwege, letztlich stieg die Zahl der Betroffenen auf insgesamt 15. Zunächst hieß es, dass fünf Gäste ins Krankenhaus gebracht wurden, später wurde die Zahl auf vier korrigiert, eine Person davon blieb wegen einer mittelschweren Verletzung zur Beobachtung im Krankenhaus. Überhöhter Chlorgehalt Im Hotel ergaben Tests der Einsatzkräfte einen Defekt des automatischen Dosiersystems für den Pool. Dies hatte zu einem deutlich überhöhten Chlorgehalt geführt. Das Wasser wurde daher ausgetauscht. Verletzungen durch Chlorgas im Phantasialand WDR . 14.11.2026 . 36 Sek. . Verfügbar bis 13.11.2028 . WDR Online . Audio starten, abbrechen mit Escape Unsere Quellen: Polizei Rhein-Erft-Kreis Feuerwehr Rhein-Erft-Kreis Pressemeldung Feuerwehr Brühl Birgit Reckersdrees, Direktion Marketing und Sales Phantasialand Sendung: WDR2, WDR-Aktuell,",
+      "oneLineKo": "MS365 장애로 경고 메일 미수신, 호텔 풀장 염소가스 중독",
+      "summaryKo": "독일 테마파크 Phantasialand의 호텔 수영장에서 자동 염소 투입 장치 오작동으로 염소 농도가 과도하게 높아졌다. 시설 안전 시스템이 이를 메일로 경고했지만, 당시 Microsoft 365 장애로 Outlook 메일이 수신되지 않아 조치가 지연됐다. 결과적으로 15명의 투숙객이 호흡기 자극 증상을 호소했고 이 중 일부는 병원으로 이송됐다. 소방당국 점검 결과 자동 염소 투입 시스템의 결함이 확인됐다.",
+      "tags": [
+        "outage",
+        "microsoft365",
+        "infrastructure-failure"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37217&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "세계 각국 보안기관의 광고 기반 감시 시스템 사용 확인",
+      "url": "https://news.hada.io/topic?id=37217&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37217&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-16T04:47:00+09:00",
+      "snippet": "Bloomberg 조사에서 Penlink의 광고 기반 감시 시스템 Webloc 을 도입한 여러 국가의 보안기관이 추가로 확인됨 이번 조사는 Citizen Lab의 기존 연구 를 바탕으로 추가 고객을 확인했으며, 앞서 파악한 잠재 고객 정보와도 부합함 Webloc 은 군과 정보기관에서 연방 법 집행기관을 거쳐 주와 지역 경찰로까지 확산되는 강력한 대규모 감시 도구임 유럽과 영국 에서는 이러한 시스템 사용의 적법성을 둘러싸고 큰 논란이 있음 침해적이고 과도한 광고 기반 대규모 감시 는 어디서나 문제가 되지만, 조사에서 확인된 권위주의 국가에서의 사용은 …",
+      "oneLineKo": "각국 보안기관, 광고 기반 감시 도구 '웹록' 사용 확인",
+      "summaryKo": "Bloomberg 조사에 따르면 Penlink의 광고 기반 대규모 감시 시스템 'Webloc'을 여러 국가의 보안기관이 도입한 것으로 추가 확인됐다. 이는 Citizen Lab의 기존 연구를 기반으로 신규 고객을 파악한 결과이며, 앞선 잠재 고객 정보와도 일치한다. Webloc은 군과 정보기관에서 시작해 연방 법 집행기관, 나아가 주·지역 경찰까지 확산된 강력한 감시 도구로, 유럽과 영국에서는 사용의 적법성을 둘러싸고 큰 논란이 일고 있다. 특히 권위주의 국가에서의 사용 사례가 추가로 드러나며 우려가 커지고 있다.",
+      "tags": [
+        "surveillance",
+        "privacy",
+        "adtech"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50505271",
+      "title": "Why did some Apollo missions carry a grenade launcher? (2019)",
+      "url": "https://space.stackexchange.com/questions/37775",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50505271",
+      "publishedAt": "2026-11-15T09:06:43Z",
+      "score": 230,
+      "comments": 147,
+      "oneLineKo": "아폴로 임무에 유탄발사기가 실린 이유는?",
+      "summaryKo": "아폴로 미션 중 일부에 유탄발사기(grenade launcher)가 탑재된 이유를 묻는 Stack Exchange 질문입니다. 본문 내용은 제공되지 않아 구체적인 답변 내용은 알 수 없습니다. 제목으로 미루어 볼 때 달 탐사 임무의 과학 장비와 관련된 질문으로 추정됩니다.",
+      "tags": [
+        "space",
+        "apollo",
+        "history"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37234&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "주요 C 프로젝트 40개의 메모리 관리 방식 조사",
+      "url": "https://news.hada.io/topic?id=37234&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37234&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-16T09:02:28+09:00",
+      "snippet": "주요 C 프로젝트 40개 중 malloc/free 방식만 사용하는 프로젝트는 8개 였으며, 다수는 영역 기반 할당, 참조 카운팅, 가비지 컬렉션 등 고수준 메모리 관리 방식을 함께 사용함 영역 기반 할당(region) 을 일부라도 사용하는 프로젝트는 15개, 주된 할당 방식으로 사용하는 프로젝트는 7개였음 가비지 컬렉션 을 주로 사용하는 프로젝트는 5개, 참조 카운팅 을 주로 사용하는 프로젝트는 3개로, C로 구현한 프로젝트에서도 다양한 자동화 수준의 메모리 관리가 쓰임 정확성으로 유명한 SQLite도 100% 수동 관리 를 사용하며, curl과 Redis 역 …",
+      "oneLineKo": "주요 C 프로젝트 40개 메모리 관리 방식 분석",
+      "summaryKo": "주요 C 프로젝트 40개를 조사한 결과 순수 malloc/free만 사용하는 프로젝트는 8개에 불과했다. 다수는 영역 기반 할당(region), 참조 카운팅, 가비지 컬렉션 등 고수준 메모리 관리 기법을 함께 사용하고 있었다. 영역 기반 할당을 주된 방식으로 쓰는 프로젝트는 7개, 가비지 컬렉션 주 사용은 5개, 참조 카운팅 주 사용은 3개로 나타났다. SQLite는 100% 수동 메모리 관리를 사용하는 반면 curl과 Redis 등은 다른 방식을 함께 활용한다.",
+      "tags": [
+        "c",
+        "memory-management",
+        "garbage-collection"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50506376",
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50506376",
+      "publishedAt": "2026-11-15T12:14:06Z",
+      "score": 201,
+      "comments": 27,
+      "snippet": "Understanding Positional Embeddings in Modern LLMs Subscribe Sign in Understanding Positional Embeddings in Modern LLMs The Methods Behind How LLMs Represent Token Positions Sebastian Raschka, PhD Nov 15, 2026 143 11 Share This article explains how LLMs encode and process token position information by covering classic and contemporary methods like RoPE. It’s essentially a comprehensive journey where we will work through the mechanisms with visual examples, a little math, and a small PyTorch implementation. And, of course, we will then also look at how modern architectures adapt or omit explicit positional encodings. Below, you can find a preview of which positional embedding choices are used in 2026 open-weight models. We will discuss these choices later after covering the underlying mechanisms. Figure 1: A preview of the gallery’s 2026 architectures, grouped by positional encoding. Architecture figures taken from my LLM gallery . But why spending so much time writing/reading about this rather minor building block? LLMs keep evolving, and as I was preparing a new article on the latest LLM architecture trends this year, I realized that I never covered the positional information methods used in LLMs in any article so far. So, instead of letting the other article get out of hand, I thought it might make sense to publish this as a standalone building block for the upcoming LLM architecture and trends analysis. Also, over the years, many readers have asked me for a tutorial on relative positional embeddings (aka RoPE) to follow up on the learned absolute embeddings used in GPT. It’s been on my TODO list for a long time, so I finally revisited my old draft and put this walkthrough together, which will cover different positional methods in LLMs; (finally) how RoPE works; what methods are used by recent open LLMs. Note that this article assumes some familiarity with basic LLM architectures and works well as a follow-up to Build a Large Language Model (From Scratch) . If the concepts and computation of the attention internals, particularly query, key, and value vectors, are a little fuzzy, I recommend checking my self-attention walkthrough as a refresher: Understanding and Coding Self-Attention, Multi-Head Attention, Causal-Attention, and Cross-Attention in LLMs January 14, 2024 Read full story The article is also very technical and likely too detailed for some. However, I really wanted to have this foundation out there for future articles to reference. And no worries, the next one will return to a more comfortable style. PS: I started experimenting with Substack’s new “perks” system. As a thank-you to supporters, I’ve added image exports and metadata from the architecture gallery for you to use in your own analyses. PPS: If you are already familiar with how position embeddings work, feel free to fast-forward to Section 6, Positional choices in modern architectures . Note that this article may be best read in a web browser than an email client. I recommen",
+      "oneLineKo": "LLM의 위치 임베딩 방식과 RoPE 원리 해설",
+      "summaryKo": "이 글은 LLM이 토큰의 위치 정보를 인코딩하는 전통적 방법과 RoPE(Rotary Positional Embedding) 같은 현대적 방법을 시각 자료와 수식, PyTorch 코드로 설명한다. GPT에서 쓰인 학습형 절대 위치 임베딩부터 상대 위치 임베딩인 RoPE까지 다루며, 독자들이 오랫동안 요청해온 RoPE 튜토리얼을 다룬다. 마지막으로 2026년 공개 가중치 LLM들이 실제로 어떤 위치 인코딩 방식을 채택했는지 비교 분석한다. 저자는 이 글을 향후 LLM 아키텍처 트렌드 분석의 기초 자료로 활용할 예정이라고 밝혔다.",
+      "tags": [
+        "llm",
+        "rope",
+        "positional-embedding"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50506894",
+      "title": "Things That Turbo Pascal Is Smaller Than (2011)",
+      "url": "https://prog21.dadgum.com/116.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50506894",
+      "publishedAt": "2026-11-15T13:44:16Z",
+      "score": 200,
+      "comments": 104,
+      "snippet": "Things That Turbo Pascal is Smaller Than programming in the twenty-first century It's not about technology for its own sake. It's about being able to implement your ideas. Things That Turbo Pascal is Smaller Than Turbo Pascal 3 for MS-DOS was released in September 1986. Being version 3, there were lesser releases prior to it and flashier ones after, but 3 was a solid representation of the Turbo Pascal experience: a full Pascal compiler, including extensions that it made it practical for commercial use, tightly integrated with an editor. And the whole thing was lightning fast, orders of magnitude faster at building projects than Microsoft's compilers. The entire Turbo Pascal 3.02 executable--the compiler and IDE--was 39,731 bytes. How does that stack up in 2011 terms? Here are some things that Turbo Pascal is smaller than, as of October 30, 2011: The minified version of jquery 1.6 (90,518 bytes). The yahoo.com home page (219,583 bytes). The image of the white iPhone 4S at apple.com (190,157 bytes). zlib.h in the Mac OS X Lion SDK (80,504 bytes). The touch command under OS X Lion (44,016 bytes). Various vim quick reference cards as PDFs. ( This one is 47,508 bytes.) The compiled code for the Erlang R14B02 parser ( erl_parse.beam , 286,324 bytes). The Wikipedia page for C++ (214,251 bytes). (If you liked this, you might like A Personal History of Compilation Speed .) permalink October 30, 2011 previously Starting in the Middle Papers from the Lost Culture of Array Languages The Revolution is Personal Optimization on a Galactic Scale Greetings from the Bottom of the Benchmarks archives twitter / mail I'm James Hague, a recovering programmer who has been designing video games since the 1980s. Programming Without Being Obsessed With Programming and Organizational Skills Beat Algorithmic Wizardry are good starting points. For the older stuff, try the 2012 Retrospective . Where are the comments ?",
+      "oneLineKo": "Turbo Pascal 3 실행파일, 현대 웹 파일보다 작다",
+      "summaryKo": "1986년 출시된 Turbo Pascal 3.02의 전체 실행파일(컴파일러+IDE)은 39,731바이트에 불과하다. 이는 jQuery 1.6 minified 버전, yahoo.com 홈페이지, 애플 아이폰 이미지, Erlang 파서 컴파일 코드 등 2011년 기준 다양한 파일들보다 작은 크기다. 글쓴이는 이를 통해 현대 소프트웨어의 비대화를 유머러스하게 비교한다.",
+      "tags": [
+        "compiler",
+        "software-size",
+        "retrocomputing"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50507553",
+      "title": "Emacs Is My Browser",
+      "url": "https://joshblais.com/blog/emacs-as-my-browser/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50507553",
+      "publishedAt": "2026-11-15T15:21:21Z",
+      "score": 177,
+      "comments": 94,
+      "snippet": "Emacs is my browser - The Universe of Joshua Blais Skip to content --> Blog Notes Reading List Support Me Links Community Contact Search Blog Notes Reading List Support Me Links Community Contact Emacs is my browser Apr 20, 2026 · 5 min Why? How I am doing this My browser.el setup: Limitations Conclusion Table of Contents Why? How I am doing this My browser.el setup: Limitations Conclusion In my ever-increasing desire to use emacs as my sole computing environment , I have started to take browsing the web inside it far more seriously. Where I previously had thought EWW to be a niceity but far from capable, after using it for a few days it seems to be useable for about 85-90% of use cases - even on the javascript riddled hellhole that is the internet. Why? # I have seen in my own use of the modern browser (chromium/firefox) that it is far too easy to get distracted - too easy to get off track and fall down rabbit holes that take over my day. There are infinite suggestions as to how I should spend my time, uncountable shiny objects that take my eye off the prize that is Creativity and Depth. This has been momentously negated with EWW (or any terminal browser, lynx or browsh for the non-emacs users). In addition to this, my belief is that we should make strides toward leaving behind Layer 8 of the internet - the limiting frontends of social platforms and locked away corners of the net that limit actual discourse (Discord, I’m looking at you). We have given up far too much to big tech platforms, and gotten nothing of value in return, to the point that many now think the internet is dying . The internet is just a delivery mechanism, and for people that see it for what it really is, the internet has never been more alive . I truly recommend using the internet as if it was 1999 . Even on my phone, I’ve stopped using javascript frontends and embraced using eww in emacs (in termux), only falling back to fennec for about 5-10% of usecases: I find this way of using the internet far higher in signal than any other method, allowing me to look up information, read documentation, and produce more. How I am doing this # For the uninitiated, emacs ships with EWW (Emacs Web Wowser) permitting you to browse the web with image and gif (when did gifs die, I almost never see them these days!) support directly inside Emacs. I have some sane defaults that permit ease of use such as using B for back, U for yanking url at point, and a few built in functions. Hitting R will invoke eww readable which is similar to reader mode in firefox, removing headers and footers and focusing in on the text on page. Useful. You can send the page to your default browser with &#x26; . If a page doesn’t render nicely, this is a good fallback. D will download images locally, b goes back a page, a will save bookmarks. All of this makes browsing in eww truly enjoyable. I have also set .pdf to open in emacs, .mp4 and youtube/video hosting links to open in mpv, and gopher/gemini links to open in ",
+      "oneLineKo": "Emacs EWW로 웹 브라우징, 집중력 향상 경험담",
+      "summaryKo": "저자는 Emacs를 유일한 컴퓨팅 환경으로 쓰려는 시도의 일환으로 내장 브라우저인 EWW(Emacs Web Wowser)를 본격적으로 사용하기 시작했다. 처음엔 부족하다 여겼던 EWW가 실제로는 전체 사용 사례의 85~90%를 커버할 만큼 쓸만하다는 것을 발견했다. 현대 브라우저의 무한한 주의 분산 요소와 빅테크 플랫폼 의존을 줄이고, 1999년식 인터넷처럼 단순하게 사용하자는 철학을 담고 있다. B(뒤로가기), R(리더모드), D(이미지 다운로드) 등 EWW의 키바인딩과 PDF·동영상·Gemini 링크를 외부 프로그램으로 여는 설정도 소개한다.",
+      "tags": [
+        "emacs",
+        "eww",
+        "productivity"
+      ]
+    }
+  ]
+}
