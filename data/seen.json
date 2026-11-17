@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=35495",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "news.hada.io/topic?id=35495",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50122951",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "claude.dev/blog/solving-code-review-at-anthropic",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "t3_1x7o6km",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1x7o6km/domaindriven_design_ddd_the_complete_guide",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35488",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "news.hada.io/topic?id=35488",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50122800",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "anthropic.com/research/ecdsa-curve-origins",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "t3_1x7v2i1",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1x7v2i1/same_javascript_file_plays_tetris_in_the_browser",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35468",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "news.hada.io/topic?id=35468",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50121179",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "mercor.com/research/labor-index/benchmark-map",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35496",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "news.hada.io/topic?id=35496",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50121939",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "anthropic.com/research/designing-efficient-quantum-circuits",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35489",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "news.hada.io/topic?id=35489",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50122112",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35487",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "news.hada.io/topic?id=35487",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50117746",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "jamesfmackenzie.com/2026/10/13/i-love-software-rendering",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50118320",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "machinelearning.apple.com/research/mlx-distributed-inference",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50118981",
-    "date": "2026-10-17"
-  },
-  {
-    "id": "waymo.com/blog/2026/10/waymo-in-toronto",
-    "date": "2026-10-17"
-  },
-  {
     "id": "https://news.hada.io/topic?id=35529",
     "date": "2026-10-18"
   },
@@ -3870,5 +3742,133 @@
   {
     "id": "joshblais.com/blog/emacs-as-my-browser",
     "date": "2026-11-16"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37324&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "news.hada.io/topic?id=37324",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50524736",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "xusheng.dev/posts/windows-coding-agent-telemetry",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "t3_1xy71dn",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xy71dn/carnegie_mellon_is_putting_computer_science",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37316&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "news.hada.io/topic?id=37316",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50524225",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "t3_1xxp5pe",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "reddit.com/r/programming/comments/1xxp5pe/microsoft_outage_preliminary_postmortem",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37333&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "news.hada.io/topic?id=37333",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50522980",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "cs.cmu.edu/learn",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37327&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "news.hada.io/topic?id=37327",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50521045",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37317&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "news.hada.io/topic?id=37317",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50523601",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "bugmenot.com",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37318&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "news.hada.io/topic?id=37318",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50519744",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "burntsushi.net/jiff",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50519354",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "trmnl.com/blog/introducing-frame",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50517321",
+    "date": "2026-11-17"
+  },
+  {
+    "id": "theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+    "date": "2026-11-17"
   }
 ]
