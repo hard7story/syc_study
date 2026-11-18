@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=35529",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "news.hada.io/topic?id=35529",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50127979",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "llmspeed.dev",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "t3_1x8eqt6",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1x8eqt6/pythons_binary_wheels_and_supply_chain_attacks",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35507",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "news.hada.io/topic?id=35507",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50133401",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "twitter.com/opencode/status/2111516673953935833",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "t3_1x8fvz1",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1x8fvz1/much_ado_about_seven_bytes",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35547",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "news.hada.io/topic?id=35547",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50122878",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "alexwang.ai/posts/associative-memory",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35543",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "news.hada.io/topic?id=35543",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50131256",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35531",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "news.hada.io/topic?id=35531",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50126253",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "nature.com/articles/d41586-026-03266-x",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35530",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "news.hada.io/topic?id=35530",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50131213",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50100994",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "furifont.antfu.me",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50132870",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "numismaticnews.net/gold-now-top-u-s-export",
-    "date": "2026-10-18"
-  },
-  {
     "id": "https://news.hada.io/topic?id=35574",
     "date": "2026-10-19"
   },
@@ -3870,5 +3742,117 @@
   {
     "id": "theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
     "date": "2026-11-17"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37373&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=37373",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50529612",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "claude.dev/blog/how-the-claude-code-team-thinks-about-verification",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37366&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=37366",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50535740",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "newsletter.posthog.com/p/decision-models",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37371&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=37371",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50532849",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37370&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=37370",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50540178",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "revscope.co/blog/search-seo-geo-2026",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37368&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=37368",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50535230",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "openai.com/index/introducing-gpt-6-2-astra-sol",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37388&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "news.hada.io/topic?id=37388",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50535238",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "developer.apple.com/system-status",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50538240",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "calif.io/java4shell",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50534631",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+    "date": "2026-11-18"
   }
 ]

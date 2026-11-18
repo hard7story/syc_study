@@ -1,0 +1,245 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T03:15:27.641Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37373&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Show GN: Rebut - 구독 API 크레딧으로 AI가 작성한 코드를 독립 리뷰하는 MCP",
+      "url": "https://news.hada.io/topic?id=37373&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37373&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-18T08:15:07+09:00",
+      "snippet": "Claude Code나 Codex가 코드를 수정한 뒤, 같은 세션에서 놓친 결함이 있는지 다른 모델에도 물어보고 싶었습니다. 구독에 포함된 API 크레딧을 이런 검토에 써보려고 Rebut을 만들었습니다. Rebut은 선택한 코드·diff와 요구사항을 OpenAI Responses API 또는 Anthropic Claude API에 보내고, 발견한 문제를 파일·줄 번호, 근거, 수정 제안과 함께 반환하는 오픈소스 MCP입니다. 예를 들어 Claude Code가 작성한 변경을 GPT-6.2 Astra에, Codex가 작성한 변경을 Claude에 검토시킬 수 있습니다. 검토 모델에는 저장소 탐색이나 셸 실행 권한을 주지 않습니다. 기본은 로컬 실행입니다. 여러 기기에서 검토 예산과 요청 장부를 공유하고 싶다면 Cloudflare Worker를 별도로 배포할 수 있습니다. …",
+      "oneLineKo": "AI 코드를 다른 모델로 교차 검토하는 오픈소스 MCP 'Rebut'",
+      "summaryKo": "Rebut은 Claude Code나 Codex가 작성한 코드를 같은 세션에서 놓친 결함이 없는지 다른 AI 모델에 독립적으로 검토시키는 오픈소스 MCP입니다. 선택한 코드와 diff, 요구사항을 OpenAI Responses API나 Anthropic Claude API로 전송하면, 파일·줄 번호·근거·수정 제안이 포함된 리뷰 결과를 반환합니다. 예컨대 Claude Code의 변경은 GPT 계열에, Codex의 변경은 Claude에 교차 검토시킬 수 있으며, 검토 모델에는 저장소 탐색이나 셸 실행 권한을 부여하지 않습니다. 기본은 로컬 실행이며, 여러 기기 간 검토 예산을 공유하려면 별도의 Cloudflare Worker를 배포할 수 있습니다.",
+      "tags": [
+        "mcp",
+        "llm",
+        "code-review"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50529612",
+      "title": "How the Claude Code team thinks about verification",
+      "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50529612",
+      "publishedAt": "2026-11-17T10:20:40Z",
+      "score": 271,
+      "comments": 214,
+      "snippet": "How the Claude Code team thinks about verification / claude.dev Blog [ H ] HOME [ M ] MODS [ D ] DOCS [ T ] TERMINAL Try Claude Code [ H ] HOME [ M ] MODS [ D ] DOCS [ T ] TERMINAL Engineering How the Claude Code team thinks about verification How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest. AUTHOR Addy Osmani CATEGORY Engineering PUBLISHED Nov 16, 2026 READING TIME 10 min How the Claude Code team thinks about verification TREE └ Not all tests are created equal: 3 tests worth investing in └ How the Claude Code team thinks about verification └ Good tests, good results ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 00% 10 MIN READ SHARE X.com LinkedIn Email Copy URL Copy markdown On the Claude Code team, the vast majority of our code (~90%) is written and reviewed by Claude . At this scale, how we equip our agents to verify their work with evidence becomes extremely important. Verification loops are the building block that lets you delegate more work to Claude. Without them, you can really only run one or two Claudes at a time, because you have to check everything yourself. With them, you can run dozens or hundreds in parallel. That’s because giving agents a way to verify their output is an effective way to improve quality. In internal testing around structured file generation, having a separate grader check Claude’s work against a rubric improved task success by up to 10 points over a standard prompting loop, with the largest gains on the hardest problems. What was once expensive to verify (tests, benchmarks, specs, real end-to-end runs) is now cheap to request from an agent. Like code, agents can quickly generate tests, benchmarks, and specs. And once generated, these tests and benchmarks run as software so they can be run frequently without using many additional tokens. You can also close the verification loop by using the results to improve the agent’s performance on that task. For example, if an agent repeatedly fails a test that checks logs for user data, you can create a hook or a more explicit rule in your CLAUDE.md to avoid future issues. This (mostly) stops issues from happening again. So if verification is critical to producing quality code at a high velocity, what types of tests should you use and how should you apply them across your pipeline? This article answers those questions and also shares the process used by the Claude Code team. NOT ALL TESTS ARE CREATED EQUAL: 3 TESTS WORTH INVESTING IN No matter which test type you choose, there are a few failure modes to avoid. If your tests are flaky you’ll train the agent to run them again rather than fixing the failing code. If your tests are slow, the agent will do fewer tests across batches which can make pinpointing issues difficult. Heavier tests are best deployed before you’ve committed the changes. Now, here are the three types of tests I think are most worth investing in. E2E tests If y",
+      "oneLineKo": "Claude Code 팀의 AI 검증 테스트 전략 공개",
+      "summaryKo": "Claude Code 팀은 코드의 약 90%를 Claude가 작성·검토하며, 이때 검증 루프가 품질 유지의 핵심 역할을 한다고 설명한다. 별도의 grader가 루브릭에 따라 Claude의 결과물을 평가하는 방식이 표준 프롬프팅 대비 최대 10점의 성공률 향상을 보였다. 테스트가 느리거나 불안정하면 에이전트가 문제를 고치기보다 재시도만 반복하게 되는 함정이 있어, E2E 테스트·속성 기반 테스트·차등 테스트 등 투자할 가치가 있는 3가지 테스트 유형을 제시한다. 검증 결과를 다시 CLAUDE.md 규칙이나 훅으로 반영해 동일 실수를 반복하지 않도록 하는 피드백 루프도 강조한다.",
+      "tags": [
+        "claude-code",
+        "ai-agent",
+        "testing"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37366&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "가중치 약 7GB LLM, \"26학년도 수능 표점 400점 초과 달성",
+      "url": "https://news.hada.io/topic?id=37366&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37366&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-18T06:15:46+09:00",
+      "snippet": "플래그십 휴대전화 메모리에 오프로딩 될 용량의 오프라인 모델로 2026학년도 수능을 풀어보았더니 7.16GB Gemma 4 12B Q4가 원점수 총합 399.2, 8.6GB Ternary Bonsai 2-27B가 385.2로 메디컬 합격선을 보였습니다. 각각 자연형 기준 표준점수는 Reasoning 기준 405점 / 407점을 기록하였습니다. 현재 대책인 재난문자와 전파탐지기는 통신기기를 주 대상으로 하는데, Edge 인공지능에 대한 대책도 시급하여 보입니다.",
+      "oneLineKo": "경량 LLM, 2026 수능서 표준점수 400점 돌파",
+      "summaryKo": "휴대전화에 오프로딩 가능한 7~8GB급 오프라인 LLM으로 2026학년도 수능을 풀어본 결과, 7.16GB Gemma 4 12B Q4 모델이 원점수 399.2점, 8.6GB Ternary Bonsai 2-27B 모델이 385.2점을 기록해 의대 합격권에 해당하는 성적을 보였다. 두 모델의 Reasoning 기준 표준점수는 각각 405점, 407점이었다. 현재 부정행위 대책인 재난문자와 전파탐지기는 통신기기 탐지에 초점을 맞추고 있어, 네트워크 연결 없이 작동하는 Edge AI에 대한 새로운 대책 마련이 시급하다는 지적이다.",
+      "tags": [
+        "llm",
+        "edge-ai",
+        "education"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50535740",
+      "title": "Not Everything Needs an LLM",
+      "url": "https://newsletter.posthog.com/p/decision-models",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50535740",
+      "publishedAt": "2026-11-17T18:16:18Z",
+      "score": 108,
+      "comments": 44,
+      "snippet": "Not everything needs an LLM - by Jina Yoon - build mode Subscribe Sign in Not everything needs an LLM How we use decision models Jina Yoon Nov 09, 2026 50 12 5 Share LLMs love to yap. Ask a simple question and you get a few hundred words of \"it depends.\" It's annoying as hell. This is why we love decision models like Jev for simpler tasks. You ask a structured question and get a typed answer with a probability, which looks something like this: Noul. Are hedgehogs mammals? → Yes, 0.99 Choice. Which animal family do hedgehogs belong to? → Mammal, 0.99 Score. What is the current conservation status of hedgehogs? → Least Concern, 0.77 Whereas LLMs return free-form and overly confident prose, decision models make model uncertainty explicit. In a calibrated model, answers that score 0.8 are right about 80% of the time. That means a score of 0.5 is a coin flip. We've been experimenting with them at PostHog and several use cases have made it to production. This is everything we've learned about using decision models so far: when to use them, how to use them, and mistakes to avoid. 1. Use them to gate expensive LLM calls Decision models are up to 444.6x cheaper and 193.6x faster than frontier models, 1 so you can use them to check whether you even need to make an expensive LLM call at all. We do this in a pipeline that scrubs personal info in Replay Vision , our product that watches and summarizes user session recordings for you. Here's how it works: Each session summary goes through 2 yes/no questions from a decision model. Using narrow questions like this cuts false flags to about a tenth of what a single question produced. 1. “Does this name a real person?” 2. “Does this show contact details or an ID?” If either scores 0.4 or above, Gemini rewrites the summary without the personal info and it gets checked again. Otherwise, it's clean and passes through the gate. In production , 98.7% skip the LLM call entirely. Without the decision model, we'd have to keep fussing with prompts and regexes that miss things, or sending every summary to Gemini to catch the 1% that need it. But remember they make mistakes A probability score of 0.85 still means ~150 wrong answers per 1,000 checks, so plan ahead for false positives and false negatives. In the PII example, a false positive only costs us an extra LLM call, whereas a false negative stores personal data as clean. That's why we set the threshold low at 0.4. When false positives are the costlier mistake, use higher thresholds. For example, we recently updated the PostHog in Slack bot, so it can answer questions without being tagged . To avoid being annoying, it checks every message in a channel to see (1) whether it's asking for information, and (2) whether PostHog could answer it. Only messages that pass both at 0.85+ go through. Takeaway: Use decision models to filter jobs before they hit an expensive LLM call, and set the threshold based on which mistake costs you more. 2. Use them as model routers Our PostHog",
+      "oneLineKo": "PostHog, LLM 대신 결정 모델로 작업 효율화 사례 공유",
+      "summaryKo": "PostHog는 모든 작업에 LLM을 쓰는 대신, 구조화된 질문에 확률 점수로 답하는 'Jev' 같은 결정 모델을 활용하고 있다. 세션 녹화 요약에서 개인정보를 스캔할 때 결정 모델로 1차 필터링해 98.7%의 요청이 비싼 LLM 호출 없이 처리되도록 했다. 거짓 양성과 거짓 음성의 비용 차이에 따라 임계값을 다르게 설정하는 것이 중요하며, Slack 봇 등 다른 use case에도 이 방식을 모델 라우터로 확장 적용 중이다.",
+      "tags": [
+        "llm",
+        "decision-model",
+        "ai-pipeline"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37371&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Phrack 73호 공개, 보안 연구와 해킹 문화를 다루는 매거진",
+      "url": "https://news.hada.io/topic?id=37371&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37371&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-18T07:37:23+09:00",
+      "snippet": "새 운영진이 편집한 세 번째 발행물인 Phrack 73호 가 공개됨. 지난해보다 규모를 늘려 주요 논문 23편과 Line Noise 추가 글 8편을 담음 취약점 악용과 리버스 엔지니어링 부터 머신러닝, 하드웨어까지 다루며, vDSO를 통한 컨테이너 탈출과 Skia를 통한 Chromium 렌더러 샌드박스 탈출 연구 등을 수록함 머신러닝 백도어와 AI 신뢰 를 검토하는 연구와, PhrackCTF에서 WinFSP 제로데이 2건 발견 으로 이어진 사례도 실림 Phrack World History 에는 SSH1 CRC32 취약점, 블루박싱, 2003년 Linux 커널 백도어 시도, 대여형 봇넷의 초기 발견을 …",
+      "oneLineKo": "해킹 매거진 Phrack 73호 발행, 보안 논문 23편 수록",
+      "summaryKo": "해킹 및 보안 문화를 다루는 매거진 Phrack의 73호가 새 운영진 편집으로 공개됐다. 취약점 악용과 리버스 엔지니어링부터 머신러닝, 하드웨어까지 다룬 논문 23편과 Line Noise 글 8편이 수록됐으며, vDSO를 통한 컨테이너 탈출과 Skia를 통한 Chromium 렌더러 샌드박스 탈출 연구가 포함됐다. 머신러닝 백도어와 AI 신뢰성 연구, PhrackCTF에서 발견된 WinFSP 제로데이 2건 사례도 실렸다. Phrack World History 코너에는 SSH1 CRC32 취약점, 블루박싱, 2003년 Linux 커널 백도어 시도 등 역사적 사건들이 정리됐다.",
+      "tags": [
+        "security",
+        "hacking",
+        "phrack"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50532849",
+      "title": "Highly classified US national security communications network goes down",
+      "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50532849",
+      "publishedAt": "2026-11-17T15:38:28Z",
+      "score": 494,
+      "comments": 568,
+      "snippet": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;technology&#x2F;highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;technology&#x2F;highly-classified-us-nati...</a>",
+      "oneLineKo": "미국 최고기밀 국가안보 통신망 장애 발생",
+      "summaryKo": "CNN과 Reuters 보도에 따르면 미국의 고도로 기밀화된 국가안보 통신 네트워크가 다운됐다. 본문에는 장애 원인이나 복구 상태에 대한 구체적인 정보는 포함되어 있지 않다. 이는 국가 안보와 직결된 통신 인프라 관련 사건으로 주목받고 있다.",
+      "tags": [
+        "network-outage",
+        "national-security",
+        "infrastructure"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37370&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Java4Shell: OpenJDK Base64 디코더에서 인증 없는 원격 코드 실행 취약점 발견 (CVE-2026-114938)",
+      "url": "https://news.hada.io/topic?id=37370&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37370&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-18T07:35:23+09:00",
+      "snippet": "보안 연구업체 Calif가 OpenJDK의 Base64 디코더에서 힙 메모리 손상 및 원격 코드 실행(RCE) 으로 이어질 수 있는 취약점을 공개함. CVSS 4.0 기준 9.2점(Critical) 원인은 HotSpot의 AVX-512 기반 Base64 intrinsic 최적화 코드에 있음. 잘못된 패딩(\"=\")이 포함된 입력을 처리할 때 출력 길이가 음수로 계산되어, 할당된 배열의 경계를 넘어 최대 62바이트를 덮어쓸 수 있음 Java 코드에서는 잘못된 Base64 입력을 \"IllegalArgumentException\"으로 거부하지만, 예외가 발생하기 전에 이미 네이티브 코드에서 메모리 손상이 일어남 연구 …",
+      "oneLineKo": "OpenJDK Base64 디코더 RCE 취약점 공개",
+      "summaryKo": "보안업체 Calif가 OpenJDK의 Base64 디코더에서 힙 메모리 손상 및 원격 코드 실행으로 이어질 수 있는 취약점(CVE-2026-114938, CVSS 9.2)을 공개했다. 원인은 HotSpot의 AVX-512 기반 Base64 intrinsic 최적화 코드로, 잘못된 패딩이 포함된 입력 처리 시 출력 길이가 음수로 계산되어 할당된 배열 경계를 넘어 최대 62바이트를 덮어쓸 수 있다. Java 코드는 잘못된 입력을 IllegalArgumentException으로 거부하지만, 예외 발생 전 네이티브 코드에서 이미 메모리 손상이 일어난다.",
+      "tags": [
+        "openjdk",
+        "rce",
+        "security"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50540178",
+      "title": "Google's AI answers reducing search traffic by 40%",
+      "url": "https://revscope.co/blog/search-seo-geo-2026/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50540178",
+      "publishedAt": "2026-11-18T00:17:58Z",
+      "score": 130,
+      "comments": 86,
+      "snippet": "Google's AI Overviews cut clicks to websites by 40% - RevScope Pricing Docs Blog FAQ GitHub Google's AI Overviews cut clicks to websites by 40% November 9, 2026 Google's AI answers are taking clicks from websites in the search results. In a randomized experiment, researchers hid AI Overviews from some US desktop users. Comparing them with users who still saw Overviews shows that an Overview cuts clicks to outside websites by about 40%. Those Overviews now appear on more than half the US keywords DataForSEO tracks, up from 6% two years ago. The industry's answer, GEO (generative engine optimization), has yet to show a way to compensate for the loss. While AI citations correlate with the same kind of link profile that goes with higher Google rankings, in March AI assistants sent websites just 0.3% of their traffic. Search engine optimization (SEO) still decides whether you can be found, but where an AI answer appears, a ranking brings 40% fewer visits than it used to. Generative engine optimization (GEO), the practice of getting your content cited in AI-written answers, looks mostly like SEO plus two additions: being present on the third-party sites AI answers draw from, and writing pages that are easy to quote. We found little evidence for any other tactic. Google answers first An AI Overview is a generated summary that Google places above the ordinary results, with links to the pages it drew on. In DataForSEO's monthly panel of 20 million keywords, the share of results showing one climbed from 5.93% in September 2024 to 61.43% in August 2026. The chart at the top of this post shows that climb. Over the same period the featured snippet, the quoted passage Google used to show at the top of a page, fell from 8.96% to 0.44%, and the discussions and forums block fell from 21.13% to 7.42%. Video results rose from 9.67% to 19.98%, though that is down from a peak of 31.05% in October 2025, and local map listings rose from 19.98% to 25.99%. DataForSEO's dataset covers 190 million keywords, 165 million AI answers, and 1.1 billion backlinks, mostly for US English searches. Pew Research Center's data gives an independent check. Pew logged the searches of 900 US adults in March 2025, re-ran them in April, and found summaries on 18% of them. DataForSEO's figures for those months are 14.67% and 17.63%, close to Pew's. You can't reliably avoid Overviews by choosing different keywords. Between the fourth quarter of 2025 and the third quarter of 2026, the rate rose for every type of search intent: Search intent Q4 2025 Q3 2026 Informational (looking something up) 48.42% 70.44% Commercial (comparing options) 26.30% 51.35% Navigational (looking for a site) 17.04% 34.03% Transactional (ready to buy) 10.82% 28.64% Low-volume keywords aren't safer either. In the third quarter of 2026, keywords with 201 to 300 monthly searches showed Overviews 58.59% of the time, against 48.62% for those above 600. A separate dataset, from June to September 2026, covers difficulty and p",
+      "oneLineKo": "구글 AI 개요, 웹사이트 클릭 40% 감소시켜",
+      "summaryKo": "구글이 미국 데스크톱 사용자 일부에게서 AI Overviews를 숨긴 무작위 실험 결과, AI 요약이 노출되면 외부 사이트 클릭이 약 40% 줄어드는 것으로 나타났다. DataForSEO 데이터에 따르면 AI Overviews 노출 비율은 2년 전 6%에서 현재 61%로 급증했으며, 정보성·상업성·탐색성·거래성 등 모든 검색 의도에서 증가세를 보였다. 반면 featured snippet과 포럼 블록 노출은 크게 줄었다. 업계가 대응책으로 내세우는 GEO(생성형 엔진 최적화)는 아직 트래픽 손실을 상쇄할 뚜렷한 방법을 보여주지 못하고 있다.",
+      "tags": [
+        "seo",
+        "geo",
+        "ai-search"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37368&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "MAI Code 2와 Code 2 Flash - 일상적인 기업 코딩의 가격 대비 성능에 초점을 맞춘 모델",
+      "url": "https://news.hada.io/topic?id=37368&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37368&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-18T06:41:05+09:00",
+      "snippet": "Microsoft AI가 MAI Code 2와 Code 2 Flash 를 공개함. Code 2는 심층 디버깅과 여러 파일에 걸친 구현에, Flash는 코드 설명과 간단한 수정 등 대량 반복 작업에 초점을 둠 Microsoft 평가에서 Code 2 는 4개 코딩 벤치마크 평균으로 GPT-6.1 Sol 성능의 98%를 비용 40%로 제공함. 비용 계산에는 50% 프로모션 가격 이 적용됨 Code 2 Flash 는 3개 코딩 벤치마크 평균 통과율 61.0% 로, GPT-6 Luna의 55.1%, Claude Haiku 5.5의 53.9%를 웃돌았음. 작업당 비용은 0.052달러 UI와 대시보드, 시각화 구현 에도 최적화됨. 258명이 참여한 블라인 …",
+      "oneLineKo": "MS, 가성비 중심 코딩 모델 MAI Code 2·Flash 공개",
+      "summaryKo": "Microsoft AI가 기업용 코딩에 최적화된 MAI Code 2와 Code 2 Flash를 공개했다. Code 2는 심층 디버깅과 다중 파일 구현에, Flash는 코드 설명과 반복 작업에 특화되어 있다. 평가 결과 Code 2는 GPT-6.1 Sol 대비 98% 성능을 40% 비용으로 제공했고, Flash는 GPT-6 Luna와 Claude Haiku 5.5를 상회하는 통과율을 기록했다. 두 모델 모두 UI 및 대시보드 구현에도 최적화되어 있다.",
+      "tags": [
+        "llm",
+        "coding-model",
+        "microsoft-ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50535230",
+      "title": "GPT‑6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50535230",
+      "publishedAt": "2026-11-17T17:46:43Z",
+      "score": 1123,
+      "comments": 712,
+      "oneLineKo": "OpenAI, GPT-6.2 Astra·Sol 공개",
+      "summaryKo": "OpenAI가 새로운 모델 'GPT-6.2 Astra'와 'Sol'을 소개하는 페이지를 공개했습니다. 제목 외 본문 정보가 제공되지 않아 구체적인 기능이나 특징은 확인되지 않습니다. 모델명으로 보아 기존 GPT 시리즈의 후속 버전으로 추정됩니다.",
+      "tags": [
+        "openai",
+        "gpt",
+        "llm"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37388&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "이스라엘 대 Wikipedia",
+      "url": "https://news.hada.io/topic?id=37388&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37388&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-18T11:32:23+09:00",
+      "snippet": "Tech for Palestine(T4P) 이 2001년 이후 Wikipedia를 친이스라엘 방향으로 조작하려 한 활동 17건을 정리한 보고서를 공개함. 공개 자료를 토대로 이 가운데 최소 9건이 여전히 진행 중이라고 밝힘 보고서는 Wikipedia에 대한 압력을 검색과 AI의 정보에 영향을 미치려는 활동 과 연결함. Wikipedia가 Google 검색과 주요 AI 챗봇의 정보원이 된다는 점을 근거로 삼음 T4P는 ADL의 보고서 두 편 에 담긴 주장을 원래 편집 기록과 출처까지 추적했으며, 허위 사실이나 반유대주의 콘텐츠가 Wikipedia에 추가됐다는 증거를 확인하지 못했다고 밝힘 …",
+      "oneLineKo": "Wikipedia 친이스라엘 편집 조작 의혹 보고서 공개",
+      "summaryKo": "Tech for Palestine(T4P)이 2001년 이후 Wikipedia를 친이스라엘 방향으로 조작하려 한 활동 17건을 정리한 보고서를 공개했으며, 이 중 최소 9건은 여전히 진행 중이라고 밝혔다. 보고서는 이러한 압력을 Google 검색 및 AI 챗봇의 정보원으로서 Wikipedia가 갖는 영향력과 연결지어 설명한다. T4P는 ADL의 보고서 두 편에 담긴 주장을 원 편집 기록과 출처까지 추적했지만, 허위 사실이나 반유대주의 콘텐츠가 Wikipedia에 추가됐다는 증거는 확인하지 못했다고 밝혔다.",
+      "tags": [
+        "wikipedia",
+        "misinformation",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50535238",
+      "title": "Apple Services Down",
+      "url": "https://developer.apple.com/system-status/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50535238",
+      "publishedAt": "2026-11-17T17:47:14Z",
+      "score": 642,
+      "comments": 355,
+      "snippet": "System Status - Apple Developer View in English Apple Developer Get Started Explore Get Started Overview Learn Apple Developer Program Stay Updated Latest News Hello Developer Platforms Explore Platforms Apple Platforms iOS iPadOS macOS tvOS visionOS watchOS App Store Featured Design Distribution Games Accessories Web Home CarPlay Technologies Explore Technologies Overview Xcode Swift SwiftUI Featured Accessibility AI & Machine Learning App Intents Apple Intelligence Games Security Xcode Cloud Community Explore Community Overview Meet with Apple events Community events Developer Forums Open Source Featured WWDC Swift Student Challenge Developer Stories App Store Awards Apple Design Awards Apple Developer Centers Documentation Explore Documentation Documentation Library Technology Overviews Sample Code Human Interface Guidelines Videos Release Notes Featured Updates iOS iPadOS macOS watchOS visionOS tvOS Xcode Downloads Explore Downloads All Downloads Operating Systems Applications Design Resources Featured Xcode TestFlight Fonts SF Symbols Icon Composer Support Explore Support Overview Help Guides Developer Forums Feedback Assistant Contact Us Featured Account Help App Review Guidelines App Review Help App Store Connect Help Upcoming Requirements Agreements and Guidelines System Status Quick Links Events News Forums Sample Code Videos --> Developer Footer System Status Platforms Open Menu Close Menu iOS iPadOS macOS tvOS visionOS watchOS App Store Tools Open Menu Close Menu Swift SwiftUI Swift Playground TestFlight Xcode Xcode Cloud Icon Composer SF Symbols Technologies Open Menu Close Menu Accessibility Accessories AI & Machine Learning Apple In-App Purchase Apple Intelligence Audio & Video Augmented Reality Business Design Distribution Education Games Health & Fitness Localization Maps & Location Security Safari & Web Resources Open Menu Close Menu Documentation Downloads Sample Code Videos Documentation Archive Support Open Menu Close Menu Help Guides & Articles Contact Us Forums Feedback & Bug Reporting System Status Account Open Menu Close Menu Apple Developer App Store Connect Certificates, IDs, & Profiles Feedback Assistant Programs Open Menu Close Menu Apple Developer Program Apple Developer Enterprise Program App Store Small Business Program MFi Program Mini Apps Partner Program News Partner Program Video Partner Program Security Bounty Program Security Research Device Program Events Open Menu Close Menu Meet with Apple Apple Developer Centers App Store Awards Apple Design Awards Apple Developer Academies WWDC Read the latest news . Get the Apple Developer app . Follow us on bilibili , LinkedIn , WeChat , and YouTube . Light Dark Auto Copyright © 2026 Apple Inc. All rights reserved. Terms of Use Privacy Policy Agreements and Guidelines",
+      "oneLineKo": "애플 서비스 장애 발생, 시스템 상태 페이지 공유",
+      "summaryKo": "Apple Developer System Status 페이지를 링크한 Hacker News 게시글로, 애플 서비스 전반에 장애가 발생했음을 알리는 내용이다. 본문은 애플 개발자 사이트의 메뉴 및 공통 네비게이션 텍스트로 구체적인 장애 서비스나 원인에 대한 정보는 포함되어 있지 않다. 제목만으로 애플 서비스 다운 이슈가 있었음을 알 수 있다.",
+      "tags": [
+        "apple",
+        "outage",
+        "system-status"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50538240",
+      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "url": "https://calif.io/java4shell/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50538240",
+      "publishedAt": "2026-11-17T21:11:28Z",
+      "score": 593,
+      "comments": 153,
+      "snippet": "Java4Shell: Write once, RCE everywhere Skip to content calif .io Calif Research ↗ CVE-2026-114938 Java4Shell Write once, RCE everywhere Story by the New York Times A memory-corruption vulnerability in OpenJDK's Base64 decoder. A remote attacker with no credentials can overwrite heap memory, read it in the style of Heartbleed, and reach remote code execution. Begin ↓ Technical write-up ↘ Check your servers ↘ Recommendations ↘ The Story 01 Overview 02 Write once, RCE everywhere 03 Wait, Java has a memory-corruption vulnerability, in Base64?! 04 Era of the centaur hacker 05 The tragedy of the commons 06 A call for vibe-uncoding After we disclosed PHP2Shell , we realized many people didn't know what PHP was. So we decided to go after something a little more familiar: Java. Today, we are disclosing Java4Shell (CVE-2026-114938), a memory-corruption vulnerability in OpenJDK's Base64 decoder. OpenJDK is the most popular Java runtime. Under CVSS 4.0, this vulnerability scores 9.2 out of 10 (CRITICAL). While PHP is a high-level web technology, Java sits much deeper. Java is the world's third most popular programming language , powering 90% of Fortune 500 companies . It is the beating heart of the modern economy. Banking, aviation, telecommunications, nearly every critical sector runs on Java, including national security systems. Base64 is a very common way of representing binary data as text. It is used in authentication protocols, to encode file uploads, and to deliver network messages. To decode Base64 faster, OpenJDK uses specialized x86-64 CPU instructions to process many bytes at once. We discovered a bug in that optimized machine-level code that lets malformed input overwrite neighboring memory. With careful exploitation, the corruption can reveal sensitive memory, as Heartbleed did, or lead to remote code execution. The corruption itself can be triggered by just 64 A characters followed by a single = : Copy AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA= In older OpenJDK 17, the trigger input is 128 of A followed by = . Write once, RCE everywhere Our initial testing demonstrated remote code execution in the following widely deployed Java applications, in their default configs. Pre-auth RCE: Keycloak Atlassian Jira Atlassian Confluence JFrog Artifactory Jenkins PingFederate Post-auth RCE: Apache Kafka Broker Apache Solr Elasticsearch Gerrit Spinnaker The lists are non-exhaustive. We also demonstrated RCE in sample applications built on widely used frameworks, including Apache Struts and Spring Boot. Ordinary features such as authentication and file uploads can expose the vulnerable Base64 decoder, extending the potential impact far beyond the products we tested. samczsun also shared a client-side exploit with us. A Java program that opens a TLS connection to a malicious server can be compromised, even if it exposes no service of its own. Here are a demo video of the exploits running: Wait, Java has a memory-corruption vulnerability,",
+      "oneLineKo": "OpenJDK Base64 디코더 메모리 손상 취약점, RCE 가능",
+      "summaryKo": "OpenJDK의 Base64 디코더에서 발견된 메모리 손상 취약점 Java4Shell(CVE-2026-114938)이 공개되었다. 이 취약점은 CVSS 9.2점의 치명적 수준으로, 인증 없이 원격 공격자가 힙 메모리를 덮어쓰고 Heartbleed 방식으로 읽거나 원격 코드 실행(RCE)까지 가능하다. Keycloak, Jira, Confluence, Jenkins, Kafka, Elasticsearch 등 다수의 널리 쓰이는 Java 애플리케이션에서 기본 설정 상태로 RCE가 시연되었다. 64개의 'A' 문자와 '=' 하나만으로 트리거되는 단순한 공격 벡터를 가지고 있어 영향 범위가 매우 넓다.",
+      "tags": [
+        "java",
+        "openjdk",
+        "rce"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50534631",
+      "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+      "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50534631",
+      "publishedAt": "2026-11-17T17:12:06Z",
+      "score": 416,
+      "comments": 199,
+      "oneLineKo": "엔비디아, 매출 1040억 달러 속 싱가포르 매출 공개 중단",
+      "summaryKo": "엔비디아의 매출이 1040억 달러에 달하는 가운데, 회사가 싱가포르 관련 매출 공개를 중단한 것으로 알려졌다. 싱가포르는 엔비디아의 주요 매출 보고 지역 중 하나로 거론되어 왔다. 이번 공개 중단은 매출 지역 구성에 대한 투명성 논란을 불러일으킬 수 있다.",
+      "tags": [
+        "nvidia",
+        "revenue",
+        "semiconductor"
+      ]
+    }
+  ]
+}
