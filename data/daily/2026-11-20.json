@@ -1,0 +1,245 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T02:46:00.866Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37484&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "너희 AI 안전장치 따위 엿 먹어라",
+      "url": "https://news.hada.io/topic?id=37484&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37484&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-20T04:47:32+09:00",
+      "snippet": "자신이 관리하는 제품의 보안을 점검하던 시니어 제품 엔지니어가 Claude Code의 안전장치 에 가로막혀, 한 줄로 고칠 수 있는 취약점 수정 작업을 중단당함 보안 작업 예외 승인 에는 영업일 기준 수일의 대기, 데이터 보존 예외 포기, 신분증이나 여권 제출이 필요하며, 신청해도 승인받지 못할 수 있음 자신의 기술 스택에 해당하는 공개 공격 개념증명 코드 로 자체 서비스를 공격할 수 있는지 확인하는 작업도 차단됐으며, 이전 모델을 사용하라는 안내도 해결책이 되지 못함 공격자는 안전장치 없는 모델을 사용할 수 있는데 방어자는 …",
+      "oneLineKo": "Claude Code 안전장치가 정당한 보안 점검까지 차단",
+      "summaryKo": "한 시니어 제품 엔지니어가 자사 제품의 취약점을 점검하던 중 Claude Code의 안전장치에 막혀 한 줄짜리 수정 작업조차 진행하지 못했다. 보안 작업 예외를 승인받으려면 영업일 기준 수일의 대기와 신분증 제출 등이 필요하며, 승인이 거절될 수도 있다. 공개된 공격 개념증명 코드로 자사 서비스를 테스트하는 작업도 차단되어, 결과적으로 공격자는 제약 없는 모델을 쓸 수 있는 반면 방어자는 불리한 상황에 놓인다는 문제가 제기됐다.",
+      "tags": [
+        "ai-safety",
+        "llm",
+        "security"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50562320",
+      "title": "Launch HN: Onlook (YC W25) – An open-source developer tool for designers",
+      "url": "https://github.com/onlook-dev/onlook/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50562320",
+      "publishedAt": "2026-11-19T16:34:04Z",
+      "score": 88,
+      "comments": 68,
+      "snippet": "Hey HN, I&#x27;m Daniel, founder of Onlook (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;onlook-dev&#x2F;onlook\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;onlook-dev&#x2F;onlook</a> and onlook.com).<p>Onlook is a desktop app that puts a canvas on top of your real codebase, letting you design directly in code with the agent you already use. Over 25,000 designers and developers have supported the project, 100+ have contributed, and it&#x27;s been the #1 trending repo in the world twice. We just rebuilt the entire product as an agentic design tool, and open-sourced it to the community.<p>Here’s a demo video: (<a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;BogcYWf4siM\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;BogcYWf4siM</a>)<p>If you&#x27;re an engineer, traditional engineering tools are largely built for convergence, whereas designers tend to explore and diverge on ideas. Onlook gives designers a familiar canvas while managing all of the dev processes that get between them and making mind-blowing designs in code. Designers can work on a multiple simultaneous worktrees that run on the real app locally, and every change lands as a PR you can review or throw away, so there aren’t mockups to rebuild.<p>We built Onlook because we believe there needs to be a developer tool that works the way designers do.<p>More and more, designers are expected to work in code. Designers think by seeing, drafting, arranging variations, using references, and remixing ideas. That’s why the canvas has been the signature feature of design tools because it genuinely is useful for how messy the creative process is. Most of the challenge of using engineering tools for design work is that the first half of starting a project often takes mental bandwidth in of itself (What branch am I on? What page was that last exploration on?) and the second half is constrained by configuring your coded design to present itself (prompting design tools on top of what you’ve built or making temporary navigation for that specific state).<p>Some of you may remember our earlier Show HNs (July 2024: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=40904862\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=40904862</a>, August 2024: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=41390449\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=41390449</a>, May 2025: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44127653\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44127653</a>). Since then, we built a web version (too early), then a Storybook-native build (a mistake). We noticed that our desktop product from July 2024 was still getting hundreds of downloads a month despite zero promotion, so we decided to rebuild it for the new era of designers working in code.<p>How it works…<p>Onlook shines at exploring tons of ideas at once. Ask it to lay out every flow in your product, show every state of a component, or riff on ten versions of one screen. Your designs all show up side by side on an infinite canvas, with each frame as a real webview running your actual app with real data. Not as a mockup, but the real deal.<p>When we built this editor, we had an epiphany that it could be a new kind of IDE for design. Design tools used to be limited to a proprietary setup or closed schema, but now you can push and pull the medium of code to get whatever result you want, so why not give agents an infinite canvas of browsers and see what they do? It turns out, the agents can figure out how to better present coded work by adjusting the urls of browser frames and arranging and resizing them on the canvas.<p>The concept is simple, but it requires a lot of product thinking. For example, because all of the frames on the canvas share a single browser session, and Chromium only allows six connections per host per session, ten frames of the same app end up fighting over limited connections. So, we had to plan around that, and there are still tons of things we need to do to make the canvas ultra performant.<p>Onlook is an Electron app where you can import a repo from GitHub or upload a local folder. Then, Onlook creates a git worktree, starts your dev server, and has the agent sort out missing dependencies or other requirements. You never open a terminal and everything the agent does is a normal git diff that can go to GitHub as a PR. We inject a small script into each frame that draws selection outlines and reads the page, so that way you can click an element, say &quot;make this a card layout,&quot; and the agent knows exactly what &quot;this&quot; is.<p>This time we didn&#x27;t build our own agent. Onlook runs Claude Code or Codex on your own subscription, and we turn whatever the agent emits into one typed event log and draw the UI from that in our own chat interface. On top of that we give the agent a bespoke set of design-specific tools, from arranging frames on the canvas, to making suggestions, to generating multiple iterations of a selection – which is especially useful because the agent decides how to get the app into a state that you need based on your prompt.<p>We also have our own Artifacts which are quick HTML sketches that live in the editor, but outside your repo. They’re almost like components in other design tools in that they can be carried and edited across every project but are detached from the project with no network access. As an example, you can ask the agent to turn your interface into an Artifact, and use it as a reference for another exploration, or download it as HTML and send it to a coworker as an interactive export of something you have in progress. I frequently go back to the artifacts I’ve made as visual snippets when I need new ideas or need to borrow something that’s already been built.<p>The desktop editor is free (you can download it from our website at onlook.com) and open source under Apache-2.0, and we&#x27;ll eventually offer a paid cloud product for teams.<p>We&#x27;d love to hear which repos work and which don&#x27;t, what you try to do on the canvas, and what&#x27;s missing. We’re so excited for this to be a new way for designers to work in code!<p>The Onlook team (Joel - thebrubaker and Kris - krisodd), and I will be here all day!",
+      "oneLineKo": "디자이너용 오픈소스 코드 캔버스 개발 도구 'Onlook'",
+      "summaryKo": "Onlook은 실제 코드베이스 위에 캔버스 인터페이스를 올려 디자이너가 직접 코드로 디자인할 수 있게 하는 데스크톱 앱이다. 에이전트 기반 디자인 도구로 전면 재구축되어 오픈소스로 공개됐으며, 여러 워크트리를 동시에 로컬에서 실행하고 변경사항은 PR로 반영돼 리뷰하거나 버릴 수 있다. 25,000명 이상의 디자이너·개발자가 지지했고 100명 이상이 기여했으며 세계 트렌딩 저장소 1위를 두 차례 기록했다.",
+      "tags": [
+        "developer-tool",
+        "design",
+        "open-source"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37494&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "이해 가능성을 위한 설계",
+      "url": "https://news.hada.io/topic?id=37494&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37494&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-20T09:04:58+09:00",
+      "snippet": "LLM이 코드를 더 많이 작성할수록 개발자의 핵심 책임은 코드 품질 판단 과 검토에 있음. 생성된 코드를 이해하지 못하면 LLM은 복잡성을 빠르게 늘리는 도구에 그칠 수 있음 계약에 의한 설계 , 데이터 불변식, 부수 효과와 전역 상태 의존성의 격리를 통해 코드베이스 전체가 아니라 필요한 부분만 읽고 동작을 이해하도록 설계할 수 있음 세 실천법의 공통 원리는 국소적 추론(local reasoning) 임. 현재 코드와 직접 연결된 인터페이스 정도만 살펴보도록 추론 범위를 제한함 이해에 필요한 맥락을 줄이면 개발자의 인지 부담뿐 아니라 …",
+      "oneLineKo": "LLM 시대, 코드 이해 가능성을 위한 설계 원칙",
+      "summaryKo": "LLM이 코드 작성을 많이 담당할수록 개발자의 핵심 역할은 코드 품질 판단과 검토로 이동한다는 점을 강조한다. 계약에 의한 설계, 데이터 불변식 유지, 부수 효과와 전역 상태 의존성 격리라는 세 가지 실천법을 통해 코드베이스 전체가 아닌 필요한 부분만 읽고도 동작을 이해할 수 있도록 설계할 수 있다. 이 세 실천법의 공통 원리는 국소적 추론(local reasoning)으로, 현재 코드와 직접 연결된 인터페이스만 살펴보도록 추론 범위를 제한하는 것이다. 이는 개발자의 인지 부담을 줄이고 LLM이 생성한 코드의 이해와 검토를 용이하게 한다.",
+      "tags": [
+        "llm",
+        "software-design",
+        "code-quality"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50563148",
+      "title": "Claude solves two open problems in the physics of black holes",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50563148",
+      "publishedAt": "2026-11-19T17:30:44Z",
+      "score": 403,
+      "comments": 184,
+      "snippet": "Claude Fable 5.2 solves two open problems in the physics of black holes \\ Anthropic Skip to main content News Research Policy Commitments Company Try Claude 01 Introduction Claude solves two open problems in the physics of black holes 01 Introduction 02 A note about Claude’s methods 03 The Hawking-Page transition 04 The modular bootstrap 05 Conclusion Published Nov 17, 2026 Team Science Topics Discovery Agents Reasoning Beneficial Deployments See more... Related articles Science Nov 4, 2026 Investigating vault particles with Claude View more Claude has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity. In the first, it completed a calculation that physicists set up more than 20 years ago, but which had never been solved. Claude’s result showed that a sudden transition associated with the formation of black holes persists even where spacetime no longer has a definite shape. In the second, Claude found the exact limit of the simplest version of a technique used to test candidate theories of quantum gravity. This post explains both findings, first in plain terms and then in more technical detail. The preprints are available here and here . Introduction Modern physics rests on two frameworks: general relativity and quantum mechanics. General relativity describes very large things, like stars; quantum mechanics describes very small things, such as atoms. Both are astonishingly good at predicting how the universe behaves, but they’re mathematically incompatible. Finding a theory that unites them—“quantum gravity”—is one of the field’s biggest goals. Black holes are a natural testing ground, because they’re one of the few areas where both relativity and quantum mechanics matter—they pack immense mass into a very small space. One of the most useful tools for studying quantum gravity is called holographic duality . The real universe has three dimensions of space and one of time, which relativity combines into four-dimensional spacetime. But physicists studying quantum gravity often work with simpler model universes that they can understand in more detail. The basic idea of holographic duality is that some of these theoretical universes can be described in two ways: as a complete universe with gravity and spacetime, and in quantum terms, with no gravity at all, “written” on the universe’s outer boundary. Just as a real hologram encodes a 3D image on a 2D plane, the quantum model encodes all the information of the universe in one dimension fewer (a universe with four dimensions of space, for instance, can be fully described by a quantum theory with three). This lets physicists turn hard questions about gravity into questions about quantum physics, which are sometimes easier to answer. The first problem Claude solved concerns what happens when you heat up one of these theoretical universes. At low temperatures, the universe fills up with a gas of particles. Above a certain temperature, a ",
+      "oneLineKo": "Claude, 블랙홀 양자중력 이론의 미해결 문제 2건 해결",
+      "summaryKo": "Anthropic은 AI 모델 Claude가 블랙홀과 양자중력 이론에 관한 20년 넘게 풀리지 않았던 물리학 난제 두 가지를 해결했다고 발표했다. 첫 번째는 홀로그래픽 듀얼리티를 이용해 스페이스타임이 명확한 형태를 갖지 않는 상황에서도 블랙홀 형성과 관련된 상전이(Hawking-Page transition)가 지속된다는 것을 증명한 계산이다. 두 번째는 양자중력 후보 이론을 검증하는 데 쓰이는 'modular bootstrap' 기법의 가장 단순한 버전이 가진 정확한 한계를 찾아낸 것이다. 두 연구 결과의 프리프린트가 공개되었으며, Anthropic은 이를 AI의 과학적 발견 능력을 보여주는 사례로 소개했다.",
+      "tags": [
+        "llm",
+        "physics",
+        "ai-research"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37491&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Pete Warden이 말하는 로컬 AI, 개방형 모델, 음성 인터페이스와 하드웨어의 미래",
+      "url": "https://news.hada.io/topic?id=37491&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37491&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-20T07:35:25+09:00",
+      "snippet": "Pete Warden은 로컬 AI의 주요 장벽이 모델 품질보다 사용성 에 가까워졌다고 봄. 개방형 가중치 모델은 많은 작업에 충분한 수준에 도달했지만, 구독형 클라우드 서비스보다 상업적 유인과 홍보가 부족함 양자화와 메모리 확장 으로 로컬 실행의 하드웨어 문턱이 낮아지고 있음. 노트북뿐 아니라 기업 온프레미스나 직접 통제하는 클라우드에서도 모델을 운영해 비용, 개인정보, 모델 변경 시점을 통제할 수 있음 자연스러운 음성 인터페이스 에는 정확도뿐 아니라 낮은 지연과 실패를 전제로 한 상호작용 설계가 필요함. 사용자가 즉각 반응한다고 느끼려면 약 200밀리초 이하의 응답이 중요함 …",
+      "oneLineKo": "로컬 AI 대중화의 관건은 모델 품질보다 사용성",
+      "summaryKo": "Pete Warden은 개방형 가중치 모델이 이미 많은 작업에 충분한 성능을 갖췄지만, 클라우드 구독 서비스에 비해 상업적 유인과 홍보가 부족하다고 지적한다. 양자화와 메모리 확장 기술로 로컬 실행의 하드웨어 진입 장벽이 낮아지고 있으며, 기업은 온프레미스나 직접 통제하는 클라우드에서 모델을 운영해 비용과 개인정보, 모델 변경 시점을 통제할 수 있다. 특히 자연스러운 음성 인터페이스를 위해서는 정확도뿐 아니라 약 200밀리초 이하의 낮은 지연과 실패를 전제로 한 상호작용 설계가 중요하다고 강조한다.",
+      "tags": [
+        "local-ai",
+        "edge-ai",
+        "voice-interface"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50567209",
+      "title": "Synology Security Advisory",
+      "url": "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50567209",
+      "publishedAt": "2026-11-19T22:13:40Z",
+      "score": 108,
+      "comments": 75,
+      "snippet": "Synology_SA_26_21 | Synology Inc. Security Advisory Synology-SA-26:21 DSM, BeeStation OS Publish Time: 2026-11-19 15:47:20 UTC+8 Last Updated: 2026-11-19 15:50:54 UTC+8 Severity Critical Status Ongoing Abstract Synology has released a security update to address a vulnerability: CVE-2026-120382 allows remote attackers to read or write arbitrary files and conduct denial-of-service attacks. Affected Products Product Severity Fixed Release Availability APM 2.0 Not affected N/A APM 1.2 Not affected N/A BeeStation OS 1.5 Critical OnGoing DSM 7.4 Critical Upgrade to 7.4.1-90080-2 or above (scheduled for release by 2026-11-20). DSM 7.3 Critical Upgrade to 7.3.2-86009-6 or above (scheduled for release by 2026-11-20). DSM 7.2.2 Critical OnGoing (Upgrading to 7.3.2-86009-6 or above is recommended). DSM 7.2.1 Critical OnGoing (Upgrading to 7.3.2-86009-6 or above is recommended). DSM 7.1 Critical OnGoing DSM Enterprise 1.0 Not affected N/A SRM 1.3 Not affected N/A SRM 1.2 Not affected N/A Mitigation Deactivate the OAuth Service package. Detail CVE-2026-120382 Severity: Critical CVSS3 Base Score: 9.8 CVSS3 Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H CWE-88: Improper Neutralization of Argument Delimiters in a Command An improper neutralization of argument delimiters in a command vulnerability in the OAuth API in Synology DiskStation Manager (DSM) before 6.2.4-25556-9, 7.1.1-42962-10, 7.2.1-69057-14, 7.2.2-72806-11, 7.3.2-86009-6, and 7.4.1-90080-2 allows remote attackers to read or write arbitrary files and conduct denial-of-service attacks. Reference CVE-2026-120382 Revision Revision Date Description 1 2026-11-19 Initial public release. NAS Selector RAID Calculator NVR Selector Knowledge Center Downloads Newsletter Company About Synology Blog Newsroom Media Coverage Customer Stories Office Locations ESG Sales Where to Buy Synology Store Contact Us Become a Partner Compatibility HDD/SSD IP Camera Network Card I/O Modules, IP Speakers, Access Controllers Other Devices Resources Products A-Z Beta Program Bounty Program Community Events Subscribe to Newsletter Copyright © 2026 Synology Inc. All rights reserved. Terms & Conditions | Privacy | Cookie Preference United Kingdom - English Continue",
+      "oneLineKo": "Synology DSM OAuth API 치명적 취약점(CVSS 9.8) 발견",
+      "summaryKo": "Synology DSM 및 BeeStation OS의 OAuth API에서 명령어 인자 구분자 처리 미흡으로 인한 치명적 취약점(CVE-2026-120382)이 발견되었습니다. 이 취약점은 원격 공격자가 임의 파일을 읽거나 쓰고 서비스 거부 공격을 수행할 수 있게 합니다. CVSS 기본 점수는 9.8로 매우 심각하며, DSM 7.1~7.4 및 BeeStation OS 1.5 버전이 영향을 받습니다. Synology는 패치를 순차 배포 중이며, 임시 완화책으로 OAuth 서비스 패키지 비활성화를 권고합니다.",
+      "tags": [
+        "security",
+        "nas",
+        "vulnerability"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37487&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Claude, 블랙홀 물리학의 미해결 문제 두 가지 해결",
+      "url": "https://news.hada.io/topic?id=37487&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37487&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-20T05:33:40+09:00",
+      "snippet": "Claude Fable 5.2 가 양자중력 연구의 두 문제를 해결함. 20여 년간 미완성이던 블랙홀 형성 관련 상전이 계산을 완수하고, 후보 양자중력 이론을 검증하는 기법의 가장 단순한 형태가 도달할 수 있는 정확한 한계를 증명함 Hawking-Page 상전이 에 대응하는 급격한 전이가, 시공간의 형태가 뚜렷하지 않은 약한 결합 영역에서도 유지됨을 확인함. 중력으로 계산한 결과와 중력이 없는 양자이론의 거동이 정성적으로 일치함 모듈러 부트스트랩 에서 블랙홀의 회전을 무시하는 방식으로 가장 가벼운 블랙홀 질량의 상한을 약 c/9.1266 으로 구하고, 이 방식으로는 더 낮출 수 없음을 증명함 …",
+      "oneLineKo": "Claude AI, 양자중력 미해결 문제 2건 증명 성공",
+      "summaryKo": "Claude Fable 5.2가 20여 년간 미완성이던 블랙홀 형성 관련 상전이(Hawking-Page 상전이) 계산을 완수했다. 약한 결합 영역에서도 중력 계산과 양자이론 결과가 정성적으로 일치함을 확인했다. 또한 모듈러 부트스트랩 기법으로 회전을 무시한 가장 가벼운 블랙홀 질량의 상한을 약 c/9.1266으로 구하고, 이 방식의 한계를 증명했다.",
+      "tags": [
+        "llm",
+        "physics",
+        "quantum-gravity"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50564366",
+      "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+      "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50564366",
+      "publishedAt": "2026-11-19T18:47:16Z",
+      "score": 81,
+      "comments": 148,
+      "snippet": "- YouTube About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket &copy; 2026 Google LLC",
+      "oneLineKo": "정부의 첨단 AI 규제 속도 논쟁, 유튜브 토론 영상",
+      "summaryKo": "Jacob Coxon과 Robin Hanson이 정부가 프론티어 AI 개발 속도를 늦춰야 하는지에 대해 토론하는 유튜브 영상입니다. 본문에는 영상 설명 외 구체적인 토론 내용은 제공되지 않았습니다. AI 규제와 거버넌스에 관한 상반된 시각을 다루는 것으로 보입니다.",
+      "tags": [
+        "ai-policy",
+        "ai-regulation"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37482&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Anthropic, Nasdaq 상장 첫날 시가총액 약 2,600조원 도달",
+      "url": "https://news.hada.io/topic?id=37482&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37482&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-20T04:41:32+09:00",
+      "snippet": "Claude 개발사 Anthropic 이 역대 최대인 810억 달러($81b) 규모 IPO 에서 기업가치 1조 5,000억 달러를 인정받으며, AI 산업의 성장 기대와 투자 위험을 시험대에 올림 기술주 전반의 매도세 속에서도 공모주 수요 는 강했지만, 막대한 인프라 지출과 늘어나는 부채를 향후 수익이 정당화할 수 있는지에 대한 의구심은 커지고 있음 최초로 상장하는 최첨단 AI 기업 으로서 업계의 평가 기준이 될 전망이며, 장기 수익성은 여전히 불확실함 Amazon과 Google 등을 상대로 한 컴퓨팅 계약 약정이 약 9,000억 달러 에 달하며, 일부 미래 연산 자원 …",
+      "oneLineKo": "Anthropic 나스닥 상장, 시총 약 2,600조원 달성",
+      "summaryKo": "Claude 개발사 Anthropic이 810억 달러 규모의 역대 최대 IPO를 통해 기업가치 1조 5,000억 달러를 인정받으며 나스닥에 상장했다. 기술주 전반의 매도세에도 공모주 수요는 강했으나, 막대한 인프라 투자와 부채가 향후 수익으로 정당화될 수 있을지에 대한 우려가 커지고 있다. Amazon, Google 등과 약 9,000억 달러 규모의 컴퓨팅 계약을 체결한 상태로, 최초 상장한 최첨단 AI 기업으로서 업계 평가 기준이 될 전망이지만 장기 수익성은 여전히 불확실하다.",
+      "tags": [
+        "anthropic",
+        "ipo",
+        "ai"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50562754",
+      "title": "Anthropic’s Nasdaq debut",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50562754",
+      "publishedAt": "2026-11-19T17:02:40Z",
+      "score": 940,
+      "comments": 1852,
+      "oneLineKo": "앤트로픽 나스닥 상장, AI 산업 시험대 오르나",
+      "summaryKo": "Reuters 보도에 따르면 AI 스타트업 앤트로픽(Anthropic)이 나스닥 시장에 상장할 예정이다. 이번 상장은 AI 산업의 성장 가능성과 위험성을 월가가 검증하는 계기가 될 것으로 전망된다. 다만 제공된 정보가 제목뿐이라 구체적인 상장 조건이나 일정 등 세부 내용은 확인되지 않는다.",
+      "tags": [
+        "anthropic",
+        "ai",
+        "nasdaq"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37481&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "PHP 치명적 취약점 보안 릴리스 예정 안내(2026년 11월 18일)",
+      "url": "https://news.hada.io/topic?id=37481&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37481&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-20T04:00:53+09:00",
+      "snippet": "PHP 보안팀이 지원 중인 모든 PHP 버전에 영향을 미치는 취약점 을 수정하는 보안 릴리스를 예고함 릴리스는 2026년 11월 19일 목요일 14:00~14:30 UTC 에 배포할 예정임 수정 대상 취약점의 최고 심각도는 CRITICAL 이며, 이 등급의 문제는 기본값이 아닌 설정 또는 드문 구성에서 발생함 이번 보안 업데이트는 PHP의 정규 4주 릴리스 주기 에 따라 진행됨 배포 즉시 업그레이드할 수 있도록 준비 할 것을 강력히 권고하며, 기술 세부 사항과 수정 버전 번호는 릴리스와 함께 공개될 예정임 배포 일정과 영향 범위 PHP 보안 릴리스 사전 공지 …",
+      "oneLineKo": "PHP, 치명적 취약점 수정 보안 릴리스 사전 공지",
+      "summaryKo": "PHP 보안팀이 지원 중인 모든 PHP 버전에 영향을 미치는 취약점을 수정하는 보안 릴리스를 예고했다. 배포는 2026년 11월 19일 목요일 14:00~14:30 UTC에 진행되며, 해당 취약점의 최고 심각도는 CRITICAL이지만 기본값이 아닌 설정이나 드문 구성에서 발생한다. 이번 업데이트는 PHP의 정규 4주 릴리스 주기에 따라 이뤄지며, 세부 기술 내용과 수정 버전 번호는 릴리스와 함께 공개될 예정이다. 사용자는 배포 즉시 업그레이드할 수 있도록 준비할 것을 권고받는다.",
+      "tags": [
+        "php",
+        "security",
+        "vulnerability"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50519231",
+      "title": "Garage Door Spam",
+      "url": "https://blog.harrison.page/garage-door-spam/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50519231",
+      "publishedAt": "2026-11-16T16:13:36Z",
+      "score": 766,
+      "comments": 320,
+      "snippet": "Garage Door Spam – Harrison Was Here Harrison Was Here About Posts RSS Harrison Photography Garage Door Spam 16 Nov, 2026 In the beginning, my garage door opener worked fine. When the door opened or closed, I would get a notification. If I'm away from home and the door opens, something weird is going down. The \"myQ\" app generally worked although it was encrusted with ads: I continued using it because I trusted that notifications were meaningful... ...until recently (October 2026): This is un-fucking-acceptable. As in, absolutely fucking not. The manufacturer (Chamberlain) cut off third-party access to its APIs (via myQ) in late 2023. In response, I purchased a pair of ratgdo32 devices to opt out of the bullshit. ratgdo is a WiFi control board for your garage door opener that works over your local network using ESP Home or HomeKit The device is a ~$62 board from ratcloud llc running open-source firmware that wires to the opener's existing terminals and speaks LiftMaster's Security+ 2.0 protocol locally. These were easy enough to hook up. I won't reproduce the instructions here. The bundle included six black wires, an auxiliary harness I didn’t need. My router hands each board a fixed address at 192.168.0.192 and 192.168.0.245. Apple's HomeKit just worked and I'm able to control them with voice commands: “Hey Siri, open Door 1” The devices have their own web interface: When I was growing up, my father wired a mercury switch onto our garage door that lit up a light in the hallway when we'd left the garage door open. This was a valuable signal that helped our family avoid accidentally leaving the door open overnight. Since the ratgdo32 has a JSON status endpoint, I was able to rebuild Dad's solution in software with Slack: The script runs at night checking for an open door: */10 21 -23,0-5 * * * garage-watch The repo maintainer made my day when I submitted a tiny pull request : \"Simple and useful. Happy to merge this. Thank you.\" Both boards are now reachable over my Tailscale network, so my monitoring software can load /healthcheck. This required a custom route: /Applications/Tailscale.app/Contents/MacOS/Tailscale set \\ --advertise-routes = 192 .168.0.192/32,192.168.0.245/32 After approving the route, my monitoring software can verify the hardware is working. Everything runs locally with no cloud, and notifications now say who opened the door which myQ never did. To anyone at Chamberlain responsible for myQ, I offer my sincerest Fuck You. Toast this post Powered by Bear ʕ•ᴥ•ʔ",
+      "oneLineKo": "myQ 앱 API 차단에 ratgdo32로 로컬 제어 전환기",
+      "summaryKo": "저자는 Chamberlain사의 myQ 앱이 광고로 뒤덮이고 2023년 말 서드파티 API 접근을 차단하자, 이에 대응해 ratgdo32 WiFi 제어 보드를 구매해 설치했다. 이 보드는 오픈소스 펌웨어로 LiftMaster의 Security+ 2.0 프로토콜을 로컬 네트워크에서 직접 제어하며 HomeKit과도 바로 연동된다. JSON 상태 엔드포인트를 활용해 Slack 알림, 야간 모니터링 스크립트, Tailscale을 통한 원격 헬스체크까지 구축해 클라우드 없이 완전히 로컬에서 동작하는 시스템을 완성했다.",
+      "tags": [
+        "iot",
+        "homekit",
+        "self-hosted"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50558533",
+      "title": "How the European Commission rolled out Matrix to more than 40k staff",
+      "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50558533",
+      "publishedAt": "2026-11-19T10:58:29Z",
+      "score": 669,
+      "comments": 326,
+      "snippet": "Matrix Conference 2026 Public Sector Talks | Element Product Overview Element Element Server Suite The Matrix Standard Self-hosted Solutions Matrix in Europe Mission Partner Environment Interoperable Sectors Use cases Partners Customers Build Resources About Compare Element User guide Documentation Help Labs Contact Sales Matrix Conf videos Insights Blog Pricing Download 🇬🇧 English 🇸🇪 Swedish 🇫🇷 French 🇩🇪 German Sign In Open Element web Customer portal Get started Product Overview Element Element Server Suite The Matrix Standard Self-hosted Solutions Matrix in Europe Mission Partner Environment Interoperable Sectors Use cases Partners Customers Build Resources About Compare Element User guide Documentation Help Labs Contact Sales Matrix Conf videos Insights Sign In Open Element web Customer portal Blog Pricing Download Language 🇬🇧 English 🇸🇪 Swedish 🇫🇷 French 🇩🇪 German Get started Matrix in the Public Sector Videos from Element's Public Sector Track at The Matrix Conference 2026. 2024 2025 2026 Element Element's year in review: Interoperability in the real world. Neil Johnson Element The Matrix State of the Union Matthew Hodgson Panel discussion Matrix in Public Sector - Panel Discussion Marco Holz, Patrick Weber, Kenneth Edwall, Amandine Le Pape, Mathieu Velten DINUM, NATO, European Commission, Försäkringskassan, Schleswig-Holstein Bridging private federations across borders Mathieu Velten, Kenneth Edwall, Jeroen Franssen, Sven Thomsen, Fabien Marathée Element Server-side functionality for multilateral use Patrick Maier European Commission Sovereignty meets Interoperability: The European Commission's Matrix Story Alexandru Vignide, Diana Gheorghe UNICC Open, Secure Collaboration at Scale: How UNICC Leverages Matrix Sameer Chauhan adesso Practical insights of using Matrix in Germany: External Security, Healthcare & Public Sector Franziska Streidt, Oliver Graml Försäkringskassan How can governments collaborate digitally without forcing every organization onto the same platform? Kenneth Edwall, Cecilia Spiik Access Now Europe’s tech sovereignty: what’s in it for Matrix? Marcel Kolaja Element Implementing Security Labels in Matrix Midhun Suresh R, Kieran Lane Element Bringing MatrixRTC to the Matrix Ecosystem Timo Kandra, Robin Townsend Forrester Forrester Report: Open source and open standards for sovereignty, privacy, and security Dario Maisto Element Integrations at Work: Bringing Workplace Apps into Element David Langley, Half-Shot RISE Challenges of Matrix within Europe's most sovereign, most secure and largest IT Infrastructure Richard Schlögl Dutch Ministry of Defence Starting a Sovereign Chat Project in the Dutch Government: Early Lessons Manfred Zielinski, Gideon Bleumink Be in your element . Interoperable, sovereign and secure communications, built on the Matrix open standard. Get Started Pricing Product Element Element PRO Element Server Suite The Matrix Standard Features Integrations Support and SLAs Hosting Pricing Solut",
+      "oneLineKo": "유럽연합 집행위, Matrix 기반 메신저 4만명에 도입",
+      "summaryKo": "유럽연합 집행위원회(European Commission)가 오픈소스 보안 통신 표준인 Matrix를 활용해 4만 명이 넘는 직원에게 자체 호스팅 채팅 시스템을 도입했다. 이는 Element가 주최한 Matrix Conference 2026의 공공 부문 트랙에서 소개된 사례로, 주권성과 상호운용성을 동시에 확보하려는 유럽 정부 기관들의 움직임을 보여준다. NATO, 독일 슐레스비히홀슈타인주, 스웨덴 사회보험청 등 다른 유럽 공공기관들도 유사하게 Matrix 기반 연합(federation) 시스템을 구축한 사례가 함께 다뤄졌다. 이번 사례는 각국 정부가 동일 플랫폼 강제 없이 디지털 협업을 할 수 있는 방안을 모색하는 흐름의 일환이다.",
+      "tags": [
+        "matrix-protocol",
+        "open-source",
+        "government-it"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50563066",
+      "title": "Pancreatic cancer halted by virus injection in three patients",
+      "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50563066",
+      "publishedAt": "2026-11-19T17:25:33Z",
+      "score": 610,
+      "comments": 94,
+      "snippet": "Pancreatic cancer halted by virus injection in three patients | New Scientist Advertisement Sign In Sign In Curiosity Engine Events Tours Shop Subscribe now Explore by section News Features Newsletters Podcasts Video Comment Culture Games This week’s magazine Explore by subject Health Space Physics Technology Environment Mind Humans Life Mathematics Chemistry Earth Society Explore our products and services Curiosity Engine Events Tours Shop Subscribe now Manage your subscription Check your subscription status, update your details and more. Manage your subscription Activate your subscription Your account Check your subscription status, update your details and more. Manage your subscription Your newsletters Subscriber benefits Sign out Subscribe now Health Pancreatic cancer halted by virus injection in three patients A cancer-killing virus has stopped pancreatic tumours from growing and spreading in three people in an initial safety trial, raising hopes that it may help to beat the deadly condition By Alice Klein 29 May 2026 Facebook Threads X / Twitter WhatsApp LinkedIn Reddit Email Print A scanning electron micrograph of pancreatic cancer cells ANNE WESTON, EM STP, THE FRANCIS CRICK INSTITUTE/SCIENCE PHOTO LIBRARY A virus has stopped pancreatic cancer in its tracks in three people in a clinical trial in the US. Further evaluation is needed in larger trials, but the early results are encouraging, especially since only small doses of the virus were administered for initial safety testing. “We only injected one-tenth of the dose we are eventually aiming at, so the efficacy is better than I expected, especially as this is pancreatic cancer,” says Masato Yamamoto at the University of Minnesota, who led the development of the viral treatment. Read more Woman in cancer remission without treatment in highly unusual case Pancreatic cancer is notorious for being the deadliest type of the condition. One reason is that symptoms tend to appear late, when the cancer has already spread and cannot be surgically removed. Once diagnosed, people usually live only around three to six months . Advertisement Another reason is that pancreatic tumours have tough, fibrous exteriors that block chemotherapy drugs from getting in. “They’re hard as hockey pucks,” says Yamamoto. Immunotherapies that boost immune activity against cancer are also ineffective, because pancreatic tumours can hide from the immune system . The first patient in the trial, who had a pancreatic tumour 7 centimetres across, was administered the treatment a year ago, and the other two have been since then. At the time, their tumours hadn’t spread beyond the pancreas. Since being treated, their tumours haven’t grown any further. “They are all still alive and have clinically stable disease,” says Yamamoto, who presented the results at the annual meeting of the American Society of Gene and Cell Therapy in Boston, Massachusetts, earlier this month. Another 15 patients will now be given higher doses to find ",
+      "oneLineKo": "바이러스 주입으로 췌장암 진행 억제, 초기 임상시험 성공",
+      "summaryKo": "미국 미네소타 대학 연구진이 개발한 암살상 바이러스가 췌장암 환자 3명에서 종양의 성장과 전이를 멈추는 데 성공했다. 이번 결과는 안전성 평가를 위한 초기 용량(최종 목표 용량의 10분의 1)만 투여한 상태에서 나온 것이어서 기대를 모으고 있다. 췌장암은 늦은 진단, 단단한 섬유질 종양 구조, 면역요법 회피 능력 때문에 치료가 어려운 암으로 알려져 있다. 연구팀은 향후 15명의 환자에게 더 높은 용량을 투여해 추가 검증을 진행할 계획이다.",
+      "tags": [
+        "oncolytic-virus",
+        "clinical-trial",
+        "biotech"
+      ]
+    }
+  ]
+}

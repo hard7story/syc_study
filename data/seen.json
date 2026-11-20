@@ -1,133 +1,5 @@
 [
   {
-    "id": "https://news.hada.io/topic?id=35650",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=35650",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50151036",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "news.ycombinator.com/item?id=50151036",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "t3_1xa3cyt",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1xa3cyt/campfire_port_in_java_is_faster_than_rust_some",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35647",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=35647",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50150434",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "mistral.ai/news/timestral",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "t3_1xa9h5w",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "reddit.com/r/programming/comments/1xa9h5w/the_reverts_will_continue_until_morale_improves",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35612",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=35612",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50152307",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "marc.info?l=openbsd-ports&m=179236125692175",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35667",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=35667",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50134472",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35651",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=35651",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50150089",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "youtube.com/watch?v=Ndftcft6XhU",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "https://news.hada.io/topic?id=35608",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "news.hada.io/topic?id=35608",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50150927",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "spectrum.ieee.org/alternatives-to-animal-testing",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50154624",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "github.com/kksimp/Mac.apk",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=50150809",
-    "date": "2026-10-20"
-  },
-  {
-    "id": "community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
-    "date": "2026-10-20"
-  },
-  {
     "id": "https://news.hada.io/topic?id=35676",
     "date": "2026-10-21"
   },
@@ -3838,5 +3710,117 @@
   {
     "id": "cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
     "date": "2026-11-19"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37484&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "news.hada.io/topic?id=37484",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50562320",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "github.com/onlook-dev/onlook",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37494&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "news.hada.io/topic?id=37494",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50563148",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "anthropic.com/research/claude-black-hole-physics",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37491&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "news.hada.io/topic?id=37491",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50567209",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "synology.com/en-uk/security/advisory/Synology_SA_26_21",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37487&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "news.hada.io/topic?id=37487",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50564366",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "youtube.com/watch?v=lwfewYL7X0o",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37482&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "news.hada.io/topic?id=37482",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50562754",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "https://news.hada.io/topic?id=37481&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "news.hada.io/topic?id=37481",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50519231",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "blog.harrison.page/garage-door-spam",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50558533",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=50563066",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients",
+    "date": "2026-11-20"
   }
 ]
