@@ -1,0 +1,246 @@
+{
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T02:56:53.211Z",
+  "model": "anthropic/claude-sonnet-5",
+  "articles": [
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37548&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "우리는 개발자들에게 알리지도 않고 아키텍트로 승진시켰다",
+      "url": "https://news.hada.io/topic?id=37548&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37548&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-21T07:33:30+09:00",
+      "snippet": "AI에 요구사항만 전달하고 아키텍처를 지정하지 않으면 , 성능과 데이터 설계에 관한 결정까지 AI에 맡기게 됨 Google Forms 애드온에서 AI가 작성한 설치 로그 코드 가 사용자 이메일과 ID를 차례로 조회하면서, 정적인 환영 화면을 띄우는 데 15초가 걸림 아키텍트의 역할은 앱을 느리게 만드는 요구사항에 제동을 걸거나 , 비동기 처리 등으로 성능과 보안 사이의 절충안을 찾는 것임 AI 코딩 도구에 구현을 맡기려면 사람이 아키텍처와 데이터 모델을 먼저 설계 하고, 변경 승인과 하위 호환성 유지 여부를 명확히 정해야 함 개발자의 업 …",
+      "oneLineKo": "AI에 아키텍처 설계 맡기면 성능·보안 문제 발생",
+      "summaryKo": "AI 코딩 도구에 요구사항만 전달하고 아키텍처를 지정하지 않으면, 성능과 데이터 설계 결정까지 AI에 위임하게 되는 문제가 발생한다. 실제 사례로 Google Forms 애드온에서 AI가 작성한 코드가 비효율적인 순차 조회를 수행해 환영 화면 로딩에 15초가 걸린 경우가 있었다. 개발자는 아키텍트 역할로서 성능과 보안의 절충안을 찾아야 하며, AI에 구현을 맡기기 전에 사람이 먼저 아키텍처와 데이터 모델을 설계하고 변경 승인 및 하위 호환성 기준을 명확히 해야 한다.",
+      "tags": [
+        "ai-coding",
+        "software-architecture",
+        "devops"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50572348",
+      "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50572348",
+      "publishedAt": "2026-11-20T09:42:16Z",
+      "score": 518,
+      "comments": 308,
+      "snippet": "Signal >> Blog >> Signal is Serious About Protecting Your Privacy Get Signal Help Blog Developers Our Mission Give Now Signal is Serious About Protecting Your Privacy Meredith Whittaker on 20 Nov 2026 Privacy is our mission; it’s why we exist, and we do everything we can to protect it. This means that we are restricting the latest AI agents built into mobile operating systems from potentially capturing and storing your Signal data. We’ve already had to do this once with Windows. Last year, we used screenshot blocking to prevent Microsoft’s Recall AI from taking and storing screenshots of your Signal messages on Windows 11 operating systems by default. 1 We will now be taking similar measures to restrict agentic systems built into iOS 27 and on Android versions where we can detect an AI assistant attempting to read your Signal screen. 2 The problem is similar to Microsoft Recall on Windows: Google and Apple are integrating agentic capabilities like Gemini Intelligence with Google Gemini and Onscreen Awareness with Siri AI deep into their operating systems. This is a significant move. Google (Android), Apple (iOS/macOS), and Microsoft (Windows) produce the three major consumer operating systems (OS), which comprise the environment that third-party developers – like Signal – build their apps to function and operate within. To put it differently, these three operating systems are the oceans in which Signal, and other applications, must swim; they dictate the conditions of life for the application ecosystem. Right now, these agentic AI integrations are changing this environment in a way that’s making it increasingly hostile to privacy. This is an existential threat to Signal, and our ability to responsibly uphold our mission. In order to gain access to information about you, these OS AI agents “scan” the information that’s on your screen. In doing so, your Signal data is captured, then made available to these agentic systems in order to allow them to answer your questions and do your bidding. The net result is that these AI capabilities in the operating system are undermining Signal’s ability to independently guarantee privacy. For over a decade, this guarantee has been backed by our tried and trusted open source code base and our formally verified encryption protocol. These have been scrutinized by some of the best security experts and hackers across the world, and shown to be robust. Now, in service of AI agentic capabilities, your sensitive data is being captured, stored, and made accessible to whatever local database or remote server an OS-level AI agent is using at that moment. All of this is outside of Signal’s control once the data has been captured, and imperils the privacy of all the participants in a conversation. So, we are blocking such capture by preventing screenshots in the app on iOS 27 and when AI assistants attempt to capture screen data on Android. 2 People who want the ability to take screenshots can disable this protection within ",
+      "oneLineKo": "Signal, OS 내장 AI 에이전트의 화면 데이터 수집 차단",
+      "summaryKo": "Signal이 iOS와 Android에 내장된 AI 에이전트(Gemini, Siri AI 등)가 Signal 메시지 화면을 스캔해 데이터를 수집하는 것을 차단하기로 했다. 이미 Windows에서 Microsoft Recall의 스크린샷 캡처를 차단한 전례가 있으며, 이번엔 iOS 27과 Android에서 AI 어시스턴트의 화면 읽기 시도를 감지해 스크린샷을 막는다. Signal은 OS 제조사들의 에이전트형 AI 통합이 앱 생태계의 프라이버시를 근본적으로 위협한다고 경고하며, 이를 실존적 위협으로 규정했다. 사용자는 필요시 이 보호 기능을 수동으로 해제할 수 있다.",
+      "tags": [
+        "privacy",
+        "signal",
+        "ai-agent"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37547&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Google 직원들, AI를 원하지 않는 학교에 불이익 주지 말라고 회사에 요구",
+      "url": "https://news.hada.io/topic?id=37547&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37547&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-21T06:44:37+09:00",
+      "snippet": "Google 직원 수백 명이 Gemini AI 도구를 끄는 학교의 Google 검색 접근을 차단 하는 정책을 철회하라고 경영진에 요구함 Alphabet Workers Union의 청원 은 교육자가 AI 도입 방식을 자유롭게 선택해야 하며, 검색 차단은 학교가 Google 제품 전체를 배제하게 만들 수 있다고 경고함 학부모와 지역사회 단체들이 미국 7개 도시에서 항의 시위 를 벌였고, 뉴욕시, 로스앤젤레스, 시카고 교육구는 대체 검색엔진을 논의 중임 Google 교육 부문 엔지니어에 따르면 직원 대부분은 공개 발표 전까지 정책을 몰랐으며 , 경영진은 청원 서한을 인지 …",
+      "oneLineKo": "구글 직원들, AI 거부 학교 검색 차단 정책 철회 요구",
+      "summaryKo": "구글 직원 수백 명이 Gemini AI 도구를 끈 학교의 구글 검색 접근을 차단하는 정책 철회를 경영진에 요구했다. Alphabet Workers Union은 교육자가 AI 도입 방식을 자유롭게 선택해야 하며, 검색 차단이 학교의 구글 제품 전면 배제로 이어질 수 있다고 경고했다. 미국 7개 도시에서 학부모와 지역사회 단체의 항의 시위가 벌어졌고, 뉴욕·LA·시카고 교육구는 대체 검색엔진 도입을 논의 중이다. 구글 교육 부문 엔지니어에 따르면 대부분 직원은 공개 발표 전까지 이 정책을 알지 못했다.",
+      "tags": [
+        "google",
+        "ai-policy",
+        "education"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50574968",
+      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+      "url": "https://alpo.ge/remark.pdf",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50574968",
+      "publishedAt": "2026-11-20T14:16:21Z",
+      "score": 2407,
+      "comments": 1623,
+      "snippet": "%PDF-1.5 %���� 46 0 obj > endobj 47 0 obj > /W [ 1 3 1 ] /Index [ 46 157 ] /Info 44 0 R /Root 48 0 R /Size 203 /Prev 244570 /ID [ ] >> stream x�cbd`�g`b``8 \"�z��:\u0010ɤ\bfO\u0006� > endobj 49 0 obj > stream x�c```a``{ \"U�1\b2@\u0001����\u0006d�,h�\u0014o`\u0010�w�P`��`�\u0012$j\u001af�x\"�Pl\u001dG���#�\"���n\u0011Go�N�\u0002 V~ZЦt�⣀�bHH�8X0�f�7�\u0010��� L�ˀ4\u001f\u0010+�-������w�UA]��u#��~�\\\u0019R\u001c�l-�\u001d�d\u0016��X��c��#z\u001c� �^�� �\b�P���`��O�,�&\u001e �\u0006���\u0018\u0018�\u001d�4\u0013\u0003��v\u0000q);\u001e endstream endobj 50 0 obj > endobj 51 0 obj > stream x��YK��6\u0012�ϯ�-n ��[r.�d�d{�\u0004�M\u001f\u0016��@K�Ŵ$:\"�\u001e��o�(�=��b���^_���q\u0013o~�\u0010�����\u000f\u001f�ś]�+�r�|�$Y\u0016Ue���2�U���|�>w��1K���\u001e�8r�_����v�q���n�\u0003w�+�LÝ����[��� ��8\u000f{=q\u001b����$�6zx������r/���N\u000f�=�\u001b���$Ѯ(����͠z���mcG��\u0011!�ڑ\u0007�l@h� (�wrl����w{����!��i>�&����ݸ\u0007m\u001eev�.. ���^�^�=��\u001f�I�w_.�\"\u0017P�\u001ew��� �k��2�*\u0013O���\b�� �ҕ` �\u0015\u00189��3 �\u000f'��\u0002;Ϫjq8HfGX�#�>9�UH�ަ( �\u0014�U���\u0019�`�\u001e59ub�A�c�\u000f��Lmy�`�\u0006\u0003reR\u001e�\u000f\u0000�:\u0014cV�lϴ\u0001;\u001b�G���uq�U�z�����\u0014� �$\u0013\u0006�\u00185��\u000f�!�\u0004#*��Л\u0011\u001f�\u0004��٢C���]\bǜ\u001f �Р \u0010�@�ћ莬\u0004�\u0018\b����v���i�A�GI\u0003\u0000\u001a��L\u00037\u0004�CA�l�i��yd�e2y��0\u0019���t�� c U�ѝ�ȸ\u0014�h�$�AhD�͋\u00140�p�F�����^ߖ0$W}s&��,>�\u0002QL^��\u0012��\u001f\u0000�\u001a��\u0011}��S�\u0004&\u0005/^I����9+wⶫ� p�\u0002\u00166�\u000f1\u001b��g�G��C�搓ǔ�z�M O\u0007LR� OA$�ԿbC��&H�Ĉ(�0:5\u0004�d�\u0017YN@\u0005��8DjA�B��$�/R�ZЃ\u001c\b�\u0006�X\u001c�����ԅb\u0013\u001aR\u0000ҏ9$gK\u0005 }�7\u0018߸�\u0012�N,�W+5���x�}+�'HȸAZ����\b(�+4�Mj��]��Z���-%C� �\u0015��\u0002�9\u001e��\u0014G�+�P����\u0005uO\u0012i� ��,\u001d�^�>�O�j �\u00063\u0018��� gQ�U\u0012\u000fߺ\b�2\u0018����ͭ�\"�V\u001d�YHǨ\u0004���?>$�v�I6iRE�܀����4ÇO�ś\u0016\u0006a�\b���L�\u0003�\u001cg%���/\u001f��eʻ�^��vQ����\u0011��׸�� A�}��\u0012Xu�$ \u0006��\u0011ч��\u000fX ��R�Ѯ\u000eQQ���� d���Y� �\u0007�5b��\u0000�k�qL0��j4 �2���n|1� �%��eCa��\u0018��H�\u0001�\u0014�!�� \u0002�fPG0\u000e��\u0001����9B\u000e��B��d�K5g\u001e��\u0012k\u0016I��I��\u0011C�\u0001��\u0011�(�8�\u001ae \u0015d�\u0010���� \u0007\u0013{\u00072�RC��\u0000\u0006�dt�a� �n�U#A�[\u0001\u0011�; =0�ċv�$˓k�\u0001�^\u0012\"߭oaEj Y~��\u0018�Nk\u00168VY8߼\u000e�\u0012wJE\u0019,q��Co��w!��kI��\u0014L��\u0013r6�=��\u0003�\u0001���� \u0013$�ړP\u0005\u0004\u0002��� ~T��FG���j�����\u0011�Y�,���̧�7��/>_ˌۍ?\u0011��m�䫛ݿ�;�%E\u0011�I ��Eu]�=\u0006H���%uV endstream endobj 52 0 obj > stream x��teX��6)�(H 8�4C�tI�t�\u00033��0�0�RR� \u001d��� !HIww���A�g�}����/��\u000f���=k��^�Z�Z\u000f#��&�\u0014�� \"o Grps\u0002E\u0000�P\u001b3G�W�p\u0015\u000e ��#��ȏ��(����P[�,\b \u0011\u0001�B�\u0000Y�9��\u0007�-,,��\b���sE@-��\u0000fm ]\u001666�Y~�\u0000�\\�ṿ�\u0000��\u0003��� 0[;\u001b\b\u001cy\u000f񿾨 �\u0000�V\u0010�\u0005\u0014\u0006\u0001ȼV�WTU\u00000+�j\u0003\u0014 p\b\u0002\u0004\u0003�9����\u0000\u0015�9\u0004�\u0000a\u0001X�\"\u0000��\u000e\u0000s[8\u0018��4\u0007�{,)\u0007\u0000\b�`\u00071��_���C�~��\u0001v\u0010� ����\u001f\u0000u\u0000X\"@p�}\u000f��\u0000(�\u001c�\b�M��na���\u001d��>���w\u000f�f�t0G@퐀��j���DZ���s;@��\u0000[��H��������a�H\u0010\u0014�\u0000@B\\��s�A\u0000`��\u001d �z��\u001e�\u000e\u0001�C��\u0001 ��\u0017\u0003v\u0000\u0002b B�a\u0010\u0007�{�{����W���Q=��\u000e���ퟨr�\"\u001d 0 N\\n������ܖP8.��AQ�[�\u0002�����v��9A\u0010\u001a��{fX�I���p�+\u0000 ���R�Eާ\u00040��T��ω�\u001f��?\"�D������,��u��\u000e-�\b���l�\u0007�\u0007\u0006p���\u0002T\u0000��\u0018\u0018\b����l�0�s���H�p\u0014���fH�-�\u0005\u0001r\u0002�2B\u001d�.\u0010�\u001a\u0014in\u0005�\u0000��;�Ǯ \u0007C\u00100(\u001cr��f\u00028���������o�[��� \u0002\u0007����H�sIKK�)ȱ��M�\u0013�v�=R�������\u0016���o ii[\u0017�{�� ���\u0015\u0004\b�'\u0014��v�7���p��� �D@]\u0000��%\u0003��\u0014��߿N�����ۂϊ&\u0012\u0004\u0007ߏ�? ���\bĽ�6����� :\u0004�\u00021ǝ\u001a�5\u0017���OJ@���v��\u001a~m�F��˭����*�m�\u000fX\u0014.|s]��Y5 r[�:�mw��ĺ��J {�\u0012 �O�r�gi�x4��(ȶ��e�K���\u001b��`Te\u0001�@\u0000���ԧ�a�s��z��\u0017�}p��E��E�pfG�a\u001eW\u0011���� �qY��\u000eS�����o]�-G�m�O�R�q\u0018EAd\u001e1۴�H�7��J�[�K'A�%Qu\u001f�\"tΝ�\u0010�n�\u0003�N���\u0018R]\u0001ނ\u00195�� C�)\u001d�|�TR���t�g���,\u0003_��G�\u0000ӃS�*\u001cF~���J\u0004��\u0019&�g�ZK1�ٵ0q��U�`�\u0015x�L�x���\u000f }�d��Q\u0003�Ks�]ǆPX�g�4j)���|�\u0017N�q>���c\u0015� /h\u0003�\u0015\"��}�קP^��֒\u0012�2�U�\u001c�j�M�\u001d��5�͍��K�\b\u000f � �V�ٔ\u001eݥf\u0019��z]�\u000f~\u0011m�h����'�7*ղ\u001f5+�F�j�`��g�2�z�C~��kN���l\u001c��Xz�NӋ+�f�y�f�6|�$��\u001a�����G�5+6�:���-^±�pô���5\u0017�!��E^,\u0006�X��G�;�Sf+���ʢG\u0002�4�\u0012���螯�: N-�^�[40��\u0004ƍ�\b��؝�D{H\u0006�`?\u0005�\u0013-�͌�ż\u001cmZ�+��К��\u001b�]���2�2\\",
+      "oneLineKo": "수학자, 일반화 리만 가설 증명 주장 PDF 공개",
+      "summaryKo": "Levent Alpöge가 수학계의 대표적 미해결 난제인 일반화 리만 가설(Generalized Riemann Hypothesis)에 대한 증명을 주장하는 PDF 논문을 공개했다. 본문은 PDF 바이너리 데이터로만 제공되어 구체적인 증명 내용이나 검증 여부는 확인되지 않았다. 리만 가설은 소수 분포와 밀접한 관련이 있는 수학의 핵심 난제 중 하나로, 이번 주장이 사실이라면 수학계에 큰 파장을 일으킬 수 있다.",
+      "tags": [
+        "mathematics",
+        "riemann-hypothesis"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37542&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Anthropic의 기록적인 IPO도 AI주 매도세 막지 못해, 세계 증시 급락",
+      "url": "https://news.hada.io/topic?id=37542&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37542&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-21T04:37:02+09:00",
+      "snippet": "Anthropic 주가가 상장 둘째 날 최대 9% 하락하며 공모가에 근접했고, 기록적인 IPO도 AI 관련 기업의 매도세를 멈추지 못함 Nasdaq 종합지수 는 2026년 상승분을 모두 반납했으며, Dow Jones와 S&P 500은 조정 구간으로 마감 아시아 증시 는 2020년 이후 최악의 한 주를 기록했고, 유럽 증시도 2025년 3월 이후 최대 주간 낙폭을 보임 투자자들은 막대한 AI 투자에 걸맞은 수익을 낼 수 있는지 의문을 키우고 있으며, 높은 기업가치와 수익성 , 투자 지출의 지속 가능성에 대한 우려가 이어짐 미국 금리 인상 우려 속에 달러는 19개월 만의 …",
+      "oneLineKo": "Anthropic IPO 흥행에도 AI주 매도세·세계 증시 급락",
+      "summaryKo": "Anthropic 주가가 상장 둘째 날 최대 9% 하락하며 공모가에 근접했고, 기록적인 IPO도 AI 관련 기업의 매도세를 막지 못했다. Nasdaq은 2026년 상승분을 모두 반납했고 Dow Jones와 S&P 500은 조정 구간으로 마감했으며, 아시아와 유럽 증시도 각각 2020년, 2025년 3월 이후 최악의 주간 낙폭을 기록했다. 투자자들은 막대한 AI 투자에 걸맞은 수익 실현 가능성과 높은 기업가치, 지출 지속 가능성에 대한 우려를 키우고 있다. 미국 금리 인상 우려 속에 달러는 19개월 만의 최저치를 기록했다.",
+      "tags": [
+        "ai",
+        "stock-market",
+        "ipo"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50579568",
+      "title": "Hurried Announcement: Alessandro Masullo GRH",
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50579568",
+      "publishedAt": "2026-11-20T18:33:14Z",
+      "score": 1648,
+      "comments": 739,
+      "snippet": "Hurried Announcement: Alessandro Masullo GRH | Math 216: Foundations of Algebraic Geometry Home About AGITTOC 2020 2011-12 course 2014 course 2015-16 course 2017-18 course Math 216: Foundations of Algebraic Geometry November 20, 2026 Hurried Announcement: Alessandro Masullo GRH Posted by ravivakil under Uncategorized [2] Comments Hi everyone, I am at the American Mathematical Society Executive Committee and Board of Trustees meeting now, and about to chair an hours-long meeting, but this is urgent, so I will try to get this out quickly. Alessandro Masullo has a proposed proof of GRH, and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford for a year to polish the writing and then announce it after running it by enough people. Now it seems best to put out the current draft. I hope people quickly check it, formalize, fill any small gaps if they occur. I really hope it works. I have great faith in Brian’s judgement, and Brian has put a lot of thought into checking what Alessandro has done. There is a long story to tell, but right now I want to get the file out. Here it is. The Music Of The Primes Download Share this: Print (Opens in new window) Print Email a link to a friend (Opens in new window) Email Like Loading... Related 2 Responses to “Hurried Announcement: Alessandro Masullo GRH” Matt Says: November 20, 2026 at 11:11 am Great post! Thank you for advancing the state of the art in math. If you ever need website help or tech support, I’m your guy. You can have my direct number. P.S. “Great post, call me about your website” is exactly what Akismet was built to stop. If this lands in spam, I know a guy. 🙂 Reply AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too - UK Daily: Tech, Science, Business & Lifestyle News Updates Says: November 20, 2026 at 4:12 pm […] Ravi Vakil, a Stanford professor and the president of the American Mathematics Association, posted a proof of the General Riemann hypothesis written by Stanford postdoc Alessandro Masullo, noting that “it […] Reply Leave a Reply Cancel reply Name Email Website Turn on JavaScript to leave a comment. Δ Archived Entry Post Date : November 20, 2026 at 10:18 am Category : Uncategorized Do More : You can leave a response , or trackback from your own site. Blog at WordPress.com. Comment Reblog Subscribe Subscribed Math 216: Foundations of Algebraic Geometry Join 629 other subscribers Sign me up Have a WordPress.com account? Log in now. Math 216: Foundations of Algebraic Geometry Copy shortlink View post in Reader Manage subscriptions Sign up Log in Report this content Collapse this bar %d Create your own website, free on WordPress.com. Create your own website. Start free",
+      "oneLineKo": "일반화 리만 가설(GRH) 증명 초안 공개, 검증 진행중",
+      "summaryKo": "스탠퍼드 교수 Ravi Vakil이 박사후연구원 Alessandro Masullo가 작성한 일반화 리만 가설(GRH)의 증명 초안을 긴급 공개했다. 이 증명은 AI 없이 전적으로 사람이 작성했으며, Brian Conrad가 수개월간 검토하며 피드백을 반영해왔다. 원래는 스탠퍼드에서 1년간 다듬은 후 발표할 계획이었으나, 상황상 현재 초안을 즉시 공개하기로 결정했다. 저자는 커뮤니티가 빠르게 검증하고 형식화하며 빈틈을 메워주길 요청했다.",
+      "tags": [
+        "mathematics",
+        "riemann-hypothesis",
+        "proof-verification"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37557&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "Anthropic, IPO 직후 주가 급락…Nasdaq은 2026년 상승분 반납",
+      "url": "https://news.hada.io/topic?id=37557&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37557&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-21T10:32:44+09:00",
+      "snippet": "Anthropic 주가가 상장 다음 날 9% 하락 하며 매도세를 이끌었고, 상반기 증시와 경제성장을 견인한 AI 투자 열풍의 지속 가능성에 대한 우려가 커짐 Nasdaq은 하루 5.3% 하락 해 연간 상승분을 모두 반납했으며, S&P 500과 Dow는 최근 고점 대비 10% 하락한 조정 국면에 진입함 Nvidia는 약 14% 급락 했으며, 규제 당국이 회계 부정 의혹을 조사하고 있다는 Reuters 보도가 하락에 영향을 줌 이번 급락은 10월 초부터 이어진 하락세의 연장선으로, 고금리와 지속적인 인플레이션 , AI 데이터센터 건설 둔화 우려 등이 주가를 압박함 투자자들 …",
+      "oneLineKo": "Anthropic 상장 후 급락, AI 거품 우려로 증시 조정",
+      "summaryKo": "Anthropic이 상장 다음 날 주가가 9% 하락하며 매도세를 주도했고, AI 투자 열풍의 지속 가능성에 대한 우려가 커졌다. Nasdaq은 하루 만에 5.3% 하락해 연간 상승분을 모두 반납했으며, S&P 500과 Dow도 최근 고점 대비 10% 하락한 조정 국면에 진입했다. Nvidia는 약 14% 급락했는데, Reuters가 보도한 회계 부정 의혹 조사 소식이 영향을 미쳤다. 이번 급락은 10월 초부터 이어진 하락세의 연장선으로, 고금리·인플레이션·AI 데이터센터 건설 둔화 우려가 복합적으로 작용했다.",
+      "tags": [
+        "ai",
+        "stock-market",
+        "nasdaq"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50572355",
+      "title": "If you can't explain something in simple terms, you don't understand it (2017)",
+      "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50572355",
+      "publishedAt": "2026-11-20T09:43:19Z",
+      "score": 633,
+      "comments": 298,
+      "snippet": "If you can’t explain something in simple terms, you don’t understand it KOTTKE DOT ORG KOTTKE DOT ORG MENU Member Login Home Membership Newsletter Goods Search Archive + Tags About/Contact dark mode light mode Advertise here with Carbon Ads Socials & More Newsletter RSS Feed Bluesky Mastodon This site is made possible by member support . 💞 Big thanks to Arcustech for hosting the site and offering amazing tech support. When you buy through links on kottke.org, I may earn an affiliate commission. Thanks for supporting the site! kottke.org. home of fine hypertext products since 1998. Beloved by 86.47% of the web. 🍔 💀 📸 😭 🕳️ 🤠 🎬 🥔 × close posted Jun 15, 2017 by Jason Kottke &ensp;·&ensp; gift link If you can’t explain something in simple terms, you don’t understand it In the early 1960s, Richard Feynman gave a series of undergraduate lectures that were collected into a book called the Feynman Lectures on Physics . Absent from the book was a lecture Feynman gave on planetary motion, but a later finding of the notes enabled David Goodstein, a colleague of Feynman’s, to write a book about it: Feynman’s Lost Lecture . From an excerpt of the book published in a 1996 issue of Caltech’s Engineering & Science magazine : Feynman was a truly great teacher. He prided himself on being able to devise ways to explain even the most profound ideas to beginning students. Once, I said to him, “Dick, explain to me, so that I can understand it, why spin one-half particles obey Fermi-Dirac statistics.” Sizing up his audience perfectly, Feynman said, “I’ll prepare a freshman lecture on it.” But he came back a few days later to say, “I couldn’t do it. I couldn’t reduce it to the freshman level. That means we don’t really understand it.” John Gruber writes the simple explanations are the goal at Apple as well: Engineers are expected to be able to explain a complex technology or product in simple, easily-understood terms not because the executive needs it explained simply to understand it, but as proof that the engineer understands it completely. Feynman was well known for simple explanations of scientific concepts that result a in deeper understanding of the subject matter: e.g. see Feynman explaining how fire is stored sunshine , rubber bands , how trains go around curves , and magnets . Critically, he’s also not shy about admitting when he doesn’t understand something…or, alternately, when scientists as a group don’t understand something. There’s the spin anecdote above and of his explanation of magnets , he says: I really can’t do a good job, any job, of explaining magnetic force in terms of something else you’re more familiar with, because I don’t understand it in terms of anything else you’re more familiar with. Feynman was also quoted as saying: I think I can safely say that nobody understands quantum mechanics. Pretty interesting thing to hear from a guy who won a Nobel Prize for explaining quantum mechanics better than anyone ever had before. Even when he d",
+      "oneLineKo": "파인만의 교훈: 쉽게 설명 못하면 이해 못한 것",
+      "summaryKo": "2017년 작성된 Kottke.org 글로, 리처드 파인만의 일화를 통해 '단순하게 설명할 수 없다면 진정으로 이해한 것이 아니다'라는 교훈을 전한다. 파인만은 페르미-디랙 통계를 신입생 수준으로 설명하려다 실패하며 자신이 완전히 이해하지 못했음을 인정했다. 애플에서도 엔지니어가 복잡한 기술을 단순하게 설명할 수 있는 능력을 완전한 이해의 증거로 여긴다는 John Gruber의 언급도 소개된다. 글은 파인만이 불, 자석, 양자역학 등을 쉽게 설명하려 했던 사례들을 함께 다룬다.",
+      "tags": [
+        "feynman",
+        "communication",
+        "learning"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37554&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "‘확률적 앵무새’가 리만 가설을 증명한 모양이다",
+      "url": "https://news.hada.io/topic?id=37554&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37554&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-21T09:39:41+09:00",
+      "snippet": "Levent Alpöge가 Anthropic 모델로 일반화 리만 가설을 증명했다 고 발표했으며, 결과물은 1,740만 줄의 Lean 코드 임 Scott Aaronson은 증명의 유효성을 확신하지는 않지만, Lean 인증을 갖춘 AI 결과가 철회된 사례를 아직 보지 못했다 는 점에서 이번 증명도 유지될 것으로 예상함 Lean의 커널 버그와 기반 타입 이론의 건전성 은 여전히 검증상의 쟁점이지만, Aaronson은 이번 증명이 이런 결함을 악용했다는 징후는 보지 못함 수학자들이 만족하려면 코드를 검증하는 데 그치지 않고 증명의 아이디어를 이해하고 압축해 재구성 해야 하며 …",
+      "oneLineKo": "AI가 일반화 리만 가설을 Lean으로 증명했다는 주장 등장",
+      "summaryKo": "Levent Alpöge가 Anthropic AI 모델을 이용해 일반화 리만 가설을 증명했다고 발표했으며, 결과물은 1,740만 줄에 달하는 Lean 코드로 구성되었다. Scott Aaronson은 증명의 완전한 유효성을 확신하지는 않지만 Lean 인증을 받은 AI 결과가 철회된 전례가 없다는 점에서 이번 증명도 유지될 가능성이 높다고 평가했다. 다만 Lean 커널의 버그나 기반 타입 이론의 건전성 문제는 여전히 검증상의 쟁점으로 남아 있다. 수학자들이 완전히 신뢰하려면 코드 검증을 넘어 증명의 핵심 아이디어를 이해하고 재구성하는 과정이 필요하다.",
+      "tags": [
+        "lean",
+        "ai",
+        "mathematics"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50578358",
+      "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+      "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50578358",
+      "publishedAt": "2026-11-20T17:21:36Z",
+      "score": 356,
+      "comments": 146,
+      "snippet": "Unforced Euler singularity, unforced Navier-Stokes singularity, and the Generalized Riemann Hypothesis | What's new What's new Updates on my research and expository papers, discussion of open problems, and other maths-related topics. By Terence Tao Home About Career advice On writing Books Mastodon+ Applets Subscribe to feed Unforced Euler singularity, unforced Navier-Stokes singularity, and the Generalized Riemann Hypothesis 20 November, 2026 in math.AP , math.NT | Tags: AI , incompressible Euler equations , Levent Alpöge , Matei Coiculescu , Navier-Stokes equations , Riemann hypothesis , Tristan Buckmaster | by Terence Tao Obviously these results will be reported widely in other outlets, but I will note them here, in decreasing order of how “digested” the results currently are: Levent Alpöge, Tristan Buckmaster, and Matei Coiculescu, with heavy AI assistance, have written a human-readable proof of the finite time blowup for the unforced incompressible Euler equations in three dimensions , which is formalized in Lean here . Levent Alpöge and Tristan Buckmaster, again with heavy AI usage, have generated a proof of the finite time blowup for the unforced incompressible Navier Stokes equations in three dimensions, again with a Lean formalization . Here, the paper is technically human-readable and the general strategy of proof is broadly clear (following one of the expected paths to this result, namely to numerically build an approximate discretely self-similar solution and then use rigorous perturbation theory to convert this to an exact solution); but more work needs to be done to create a proper, professionally written proof. Levent Alpöge, using an internal AI model, has generated an (enormous) Lean-only proof of the Generalized Riemann Hypothesis. This Lean Zulip thread is probably the best place to follow the efforts to verify the proof and extract the strategy of proof (which, from very initial analysis, appears to use the full power of modern developments on the Langlands program and arithmetic geometry). (UPDATE: the moderators of the Lean thread are now focusing the discussion on the Lean-related aspects of the proof only.) I imagine the digestion process will take some time, though in this case at least we have a human author to communicate with to assist with this task. See also Buckmaster’s Mastodon post regarding the first two results. Share this: Print (Opens in new window) Print Email a link to a friend (Opens in new window) Email More Share on WhatsApp (Opens in new window) WhatsApp Share on Bluesky (Opens in new window) Bluesky Share on Nextdoor (Opens in new window) Nextdoor Share on Threads (Opens in new window) Threads Share on Tumblr (Opens in new window) Tumblr Share on Telegram (Opens in new window) Telegram Share on LinkedIn (Opens in new window) LinkedIn Share on X (Opens in new window) X Share on Facebook (Opens in new window) Facebook Share on Reddit (Opens in new window) Reddit Share on Mastodon (Opens in new window) Mas",
+      "oneLineKo": "AI 활용해 나비에-스토크스 특이점과 리만 가설 증명 발표",
+      "summaryKo": "Levent Alpöge, Tristan Buckmaster, Matei Coiculescu 등이 AI의 도움을 받아 3차원 비강제 비압축성 오일러 방정식의 유한시간 blowup을 증명하고 Lean으로 형식화했다. 이어서 나비에-스토크스 방정식에 대해서도 유사한 blowup 증명을 Lean 형식화와 함께 제시했으나 아직 전문적인 서술이 더 필요하다. 또한 Alpöge는 내부 AI 모델을 이용해 일반화된 리만 가설(GRH)에 대한 방대한 Lean 전용 증명을 생성했으며, 이는 Langlands 프로그램과 산술기하학의 최신 성과를 활용한 것으로 보인다. Terence Tao는 이 결과들이 아직 충분히 검증·소화되지 않았으며 커뮤니티의 추가 검토가 필요하다고 언급했다.",
+      "tags": [
+        "lean",
+        "formal-verification",
+        "mathematics"
+      ]
+    },
+    {
+      "source": "geeknews",
+      "id": "https://news.hada.io/topic?id=37549&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "title": "jj-musubi 공개: Jujutsu 저장소의 실시간 동기화",
+      "url": "https://news.hada.io/topic?id=37549&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "commentsUrl": "https://news.hada.io/topic?id=37549&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "publishedAt": "2026-11-21T09:03:36+09:00",
+      "snippet": "jj-musubi 는 여러 머신의 Jujutsu( jj ) 저장소를 실시간으로 동기화하며, 작업 스냅샷뿐 아니라 커밋, 리베이스, 가져오기 등의 변경도 다른 머신에 전달함 각 머신의 작업 복사본은 수정하지 않고 이력만 동기화하므로, 빌드 중인 파일을 바꾸지 않으면서 새 작업 이력을 받을 수 있음 한 머신에서 허브 를 실행하고 데몬들이 SSH로 jj 이력을 교환하는 구조로, 여러 머신을 사용하는 개인을 대상으로 하며 이 범위를 넘어서는 별도 보안 모델은 없음 여러 머신의 에이전트에 독립된 워크스페이스 를 배정해 진행 중인 작업을 확인할 수 있 …",
+      "oneLineKo": "Jujutsu 저장소 다중 머신 실시간 동기화 도구",
+      "summaryKo": "jj-musubi는 여러 머신에 걸친 Jujutsu(jj) 저장소를 실시간으로 동기화하는 도구로, 작업 스냅샷뿐 아니라 커밋·리베이스·가져오기 등의 변경 이력도 다른 머신에 전달한다. 각 머신의 작업 복사본 자체는 수정하지 않고 이력만 동기화하므로 빌드 중인 파일을 건드리지 않고도 새로운 작업 이력을 받을 수 있다. 한 머신에서 허브를 실행하고 각 머신의 데몬이 SSH로 jj 이력을 교환하는 구조이며, 여러 머신을 사용하는 개인 사용자를 대상으로 하여 별도의 보안 모델은 제공하지 않는다. 여러 머신의 에이전트에 독립된 워크스페이스를 배정해 진행 중인 작업 상태를 확인할 수 있다.",
+      "tags": [
+        "jujutsu",
+        "version-control",
+        "ssh"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50577265",
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50577265",
+      "publishedAt": "2026-11-20T16:29:06Z",
+      "score": 347,
+      "comments": 112,
+      "snippet": "[2611.21885] Language Models Can Rewrite Their Own Weights Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Artificial Intelligence arXiv:2611.21885 (cs) [Submitted on 16 Nov 2026 ( v1 ), last revised 18 Nov 2026 (this version, v2)] Title: Language Models Can Rewrite Their Own Weights Authors: Jiajun Fan , Neil He , Changyi Yang , Andy Mao , Xi Zhu , Chaoran Cheng , Kaiqu Liang , Shuaike Shen , Zetian Li , Ruihan Guo , Ge Liu View a PDF of the paper titled Language Models Can Rewrite Their Own Weights, by Jiajun Fan and 10 other authors View PDF HTML (experimental) Abstract: A language model is trained once and frozen. Making it better takes another training run, or a prompt, a harness or extra computation at inference that is gone once the task ends. We show a third way: to our knowledge for the first time, a language model rewrites its own weights by its own reasoning and becomes better, with no gradients and no training. We call this self-rewriting: the model is its own optimizer. In earlier work, a frontier model edited a much smaller one; here an open 27B model, given its weights, its graded answers and the ability to run itself, diagnoses its own failure and rewrites the weights behind it. It surpasses itself: its own edit makes it 6.6 points more accurate on problems it never saw. It keeps getting better: it tests its edits on practice problems and submits only what works, each edit improving on the last, and over eight consecutive sessions its accuracy only rises. It repairs a damaged copy of itself, like a broken robot that fixes itself without being rebuilt: the copy solves almost nothing, yet with no retraining and without ever reading the original weights, the model brings it back to over 80% of the original accuracy on image tasks it never saw. And the ability emerges with scale: in one model family, the smaller models make no edit or break themselves, and only the largest improves and repairs itself. Unlike test-time scaling, self-rewriting writes its gain into the weights, at no cost per answer; unlike training, it runs only forward passes, as serving does. The wall between training and inference is a limit of our tools, not a property of intelligence. We believe self-rewriting is a necessary step toward recursive self-improvement: a model that, like a human, does not separate training from inference could keep upgrading itself for life, with no larger model, no harness or prompt engineering, and no pre- or post-training. Subjects: Artificial Intelligence (cs.AI) Cite as: arXiv:2611.21885 [cs.AI] (or arXiv:2611.21885v2 [cs.AI] for this version) https://doi.org/10.48550/arXiv.2611.21885 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Jiajun Fan [ view email ] [v1] Mon, 16 Nov 2026 20:55:08 UTC (6,363 KB) [v2] Wed, 18 Nov 2026 08:57:59 UTC (6,379 KB) Full-text links: Access Paper: View a PDF of the paper titled Language Model",
+      "oneLineKo": "언어모델이 추론만으로 자신의 가중치를 스스로 수정",
+      "summaryKo": "이 논문은 추가 학습이나 그래디언트 없이, 언어모델이 자신의 추론만으로 자기 가중치를 직접 수정(self-rewriting)하는 방법을 제시한다. 27B 오픈 모델이 자신의 오답을 진단하고 가중치를 수정해 미지의 문제에서 정확도가 6.6포인트 향상되었으며, 8번의 연속 세션 동안 성능이 계속 개선되었다. 또한 손상된 복제본을 원본 가중치 참조 없이 복구해 원래 정확도의 80% 이상을 회복했고, 이 능력은 모델 크기가 커질수록만 나타났다. 저자들은 이를 학습과 추론의 경계를 허무는 재귀적 자기개선의 필수 단계로 제시한다.",
+      "tags": [
+        "llm",
+        "self-improvement",
+        "model-weights"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50579331",
+      "title": "We promoted developers into architects without informing them",
+      "url": "https://manidoraisamy.com/developer-to-architect.html",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50579331",
+      "publishedAt": "2026-11-20T18:17:51Z",
+      "score": 322,
+      "comments": 188,
+      "snippet": "We promoted developers into architects without informing them Developer forever Home Posts About Contact Read my posts Read my posts All posts We promoted developers into architects without informing them Mani Doraisamy 8 hours ago 3 1 Yesterday, I was debugging a performance problem with our Google Forms addon. It turned out my colleague had vibe coded the logging part, so that he could monitor the new installs every week. Monitoring new customers is the most important part of running a business, so he is absolutely right in doing that. Except, he was logging the user’s email and Google has severely restricted how much detail you can get about the user since last December. So, AI had written a series of try/catch statements: First, try to get the email if the user gave consent to share it during installation. If it fails, it would try to fetch his user ID. If that fails, it would log an error saying the user has installed, but we don’t know his email or user ID. All of these are one line of code, but internally each of these makes multiple API calls to Google servers. Since logging was the first line to execute after installation, the welcome screen took 15 seconds to load. What is the right code for this? If you are a senior developer or architect who understands the number of API calls behind each method, you would have: Logged just the timestamp of the install instead of trying to fetch the email or user ID, and told the marketing team they won’t be able to send the follow-up email based on installation alone. Or, if marketing wants the user’s email on install, you would have shown the welcome screen first and logged the email or user ID asynchronously from the browser, while the user is looking at the welcome screen. But calling your server from the addon’s welcome screen might require your server to bypass security and log an unauthenticated payload. In other words, your job as an architect is to push back on requirements that can slow down the app. Or, find a way to work around the performance and security issues by making it async or accepting a reasonable hack. Why AI won’t push back AI is great at writing code. But it doesn’t know if you are launching the app or have millions of users, which it needs to make the right architecture call to log a timestamp vs email. It is also sycophantic and tries to execute your requirements exactly without pushing back, which means you end up with a slow app that takes 15 seconds to load a static welcome screen. Essentially, if you generate code by specifying your requirements instead of specifying your architecture, AI will decide the architecture on your behalf. It is so paranoid about security that it will never write code to accept an unauthenticated payload. Even if you write it yourself, it will rewrite it into an authenticated payload and screw up performance or force users to sign in again on your app. Your new job is to architect AI coding tools are tuned to implement your functional requireme",
+      "oneLineKo": "AI 코딩이 개발자를 암묵적으로 아키텍트로 승격시켰다",
+      "summaryKo": "저자는 동료가 AI로 로깅 코드를 작성했다가 다수의 API 호출로 인해 웰컴 화면 로딩이 15초나 걸리는 성능 문제를 겪은 사례를 소개한다. AI는 요구사항을 그대로 구현할 뿐 아키텍처적 판단(언제 타임스탬프만 로깅할지, 언제 비동기 처리할지 등)을 하지 않으며, 보안에 대해서도 과도하게 보수적이라 비인증 페이로드를 거부해 성능을 해친다. 따라서 개발자는 이제 요구사항뿐 아니라 아키텍처 자체를 명시해야 하는 아키텍트 역할을 암묵적으로 맡게 되었다고 주장한다.",
+      "tags": [
+        "ai-coding",
+        "software-architecture",
+        "performance"
+      ]
+    },
+    {
+      "source": "hn",
+      "id": "https://news.ycombinator.com/item?id=50576232",
+      "title": "Finite-time blow-up for the Navier–Stokes equations",
+      "url": "https://github.com/tristanbuckmaster/navier-stokes/",
+      "commentsUrl": "https://news.ycombinator.com/item?id=50576232",
+      "publishedAt": "2026-11-20T15:34:31Z",
+      "score": 260,
+      "comments": 83,
+      "snippet": "GitHub - tristanbuckmaster/navier-stokes · GitHub Skip to content Navigation Menu Sign in Products Platform GitHub Repository hosting, code review, and collaboration Copilot AI coding agent for tasks, projects, and automated work Build & Ship Actions CI/CD and automation Code Quality Quality analysis, fixes, and enforcement Codespaces Cloud development environments Secure Code Security Vulnerability detection and remediation Secret Protection Secret scanning and leak prevention All Features Developers Learn Documentation Training Certifications Build Build with Copilot Customize Copilot Integrations Explore Trending repos GitHub Sponsors Developer articles Changelog Changelog Your source for the latest features, improvements, and fixes across GitHub products, all in one place. Businesses By Stage Enterprises Team Startups Nonprofits By Industry Healthcare Financial services Manufacturing Government See all industries Evaluate GitHub Why GitHub Customer Stories Business insights Trust Center Add-ons GitHub Advanced Security Enterprise-grade code security Copilot for business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Resources Learn & Connect Documentation Resource center Blog Events & webinars Community Forum Customer Stories Integrations Support Customer support Training GitHub Status Company About Partners Changelog GitHub Universe GitHub Universe The event for developers, by developers — talks, workshops, and what’s next for GitHub. Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} tristanbuckmaster navier-stokes Repository navigation Code Issues 3 ( 3 ) Pull requests 1 ( 1 ) Actions Projects Security and quality Insights More items navier-stokes Public Notifications You must be signed in to change notification settings Fork 17 ( 17 ) Star 231 ( 231 ) You must be signed in to star a repository About No description, website, or topics provided. Resources Readme Activity Stars 231 stars Watchers 7 watching Forks 17 forks Report repository main Branches Tags Go to file Code Open more actions menu Latest commit History 2 Commits 2 Commits Folders and files Name Name Last commit message Last commit date lean lean paper paper .gitignore .gitignore README.md README.md View all files Repository files navigation README More items Finite-time blow-up for the Navier–Stokes equations This repository holds the paper Finite-time blow-up for the Navier–Stokes equations by L. Alpöge and T. Buckmaster and the Lean 4 formalization that accompanies it. Contents paper/finite-time-blow-up-navier-stokes.pdf : the paper (79 pages, version of 20 November 2026). lean/ : the Lean package (Lean v4.33.1 with Mathlib, at the revision pinned in lean/lakefile.toml ). lean/README.md explain",
+      "oneLineKo": "나비에-스토크스 방정식 유한시간 특이점 증명과 Lean 공식화 공개",
+      "summaryKo": "L. Alpöge와 T. Buckmaster가 나비에-스토크스 방정식의 유한시간 블로우업(blow-up)을 증명한 79페이지 분량의 논문을 공개했습니다. 이 저장소에는 해당 논문과 함께 증명을 검증하기 위한 Lean 4 및 Mathlib 기반 형식화(formalization) 코드가 포함되어 있습니다. 밀레니엄 문제 중 하나인 나비에-스토크스 존재성과 매끄러움 문제와 관련된 중요한 수학적 결과로 주목받고 있습니다.",
+      "tags": [
+        "navier-stokes",
+        "lean",
+        "formal-verification"
+      ]
+    }
+  ]
+}
